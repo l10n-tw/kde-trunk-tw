@@ -20,14 +20,14 @@ msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-09-21 01:41+0000\n"
-"PO-Revision-Date: 2019-08-06 22:40+0800\n"
+"PO-Revision-Date: 2019-09-22 18:38+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.07.90\n"
+"X-Generator: Lokalize 19.08.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: effects/blur/blur_config.desktop:8
@@ -377,12 +377,11 @@ msgid "Desktop Effects"
 msgstr "桌面效果"
 
 #: kcmkwin/kwineffects/kcm_kwin_effects.desktop:64
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Compositor Settings for Desktop Effects"
 msgctxt "Comment"
 msgid "Configure compositor settings for desktop effects"
-msgstr "桌面效果使用的組合器設定"
+msgstr "設定桌面特效的合成器設定"
 
 #: kcmkwin/kwineffects/kcm_kwin_effects.desktop:76
 msgctxt "X-KDE-Keywords"
@@ -430,20 +429,18 @@ msgid "Desktop Effects"
 msgstr "桌面效果"
 
 #: kcmkwin/kwinoptions/kwinactions.desktop:12
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Decorations"
 msgctxt "Name"
 msgid "Window Actions"
-msgstr "視窗裝飾"
+msgstr "視窗動作"
 
 #: kcmkwin/kwinoptions/kwinactions.desktop:27
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure active screen corners and edges"
 msgctxt "Comment"
 msgid "Configure mouse actions for windows and titlebars"
-msgstr "設定作用中螢幕角落與邊緣"
+msgstr "設定視窗及標題列的滑鼠動作"
 
 #: kcmkwin/kwinoptions/kwinactions.desktop:41
 msgctxt "X-KDE-Keywords"
@@ -455,23 +452,20 @@ msgstr ""
 "resize"
 
 #: kcmkwin/kwinoptions/kwinadvanced.desktop:11
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Behavior"
 msgctxt "Name"
 msgid "Advanced Window Behavior"
-msgstr "視窗行為"
+msgstr "進階視窗行為"
 
 #: kcmkwin/kwinoptions/kwinadvanced.desktop:26
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Advanced Window Management Features"
 msgctxt "Comment"
 msgid "Configure advanced window management options"
-msgstr "進階視窗管理功能"
+msgstr "設定進階視窗管理選項"
 
 #: kcmkwin/kwinoptions/kwinadvanced.desktop:41
-#, fuzzy
 #| msgctxt "X-KDE-Keywords"
 #| msgid ""
 #| "shading,border,hover,active borders,tiling,tabs,tabbing,window tabbing,"
@@ -483,28 +477,25 @@ msgid ""
 "tabbing,window,window tabbing,window grouping,window tiling,placement,window "
 "placement,placement of windows,window advanced behavior"
 msgstr ""
-"shading,border,hover,active borders,tiling,tabs,tabbing,window tabbing,"
-"window grouping,window tiling,window placement,placement of windows,window "
-"advanced behavior"
+"unshade,unshading,shade,shading,border,hover,active borders,tiling,tabs,"
+"tabbing,window,window tabbing,window grouping,window tiling,placement,window "
+"placement,placement of windows,window advanced behavior"
 
 #: kcmkwin/kwinoptions/kwinfocus.desktop:11
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Behavior"
 msgctxt "Name"
 msgid "Window Focus Behavior"
-msgstr "視窗行為"
+msgstr "視窗焦點行為"
 
 #: kcmkwin/kwinoptions/kwinfocus.desktop:26
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure window titlebars and borders"
 msgctxt "Comment"
 msgid "Configure window activation policy"
-msgstr "設定視窗的標題列和邊框"
+msgstr "設定視窗啟用策略"
 
 #: kcmkwin/kwinoptions/kwinfocus.desktop:40
-#, fuzzy
 #| msgctxt "X-KDE-Keywords"
 #| msgid ""
 #| "focus,placement,auto raise,raise,click raise,keyboard,CDE,alt-tab,all "
@@ -516,12 +507,11 @@ msgid ""
 "follows mouse,focus prevention,focus stealing,focus policy,window focus "
 "behavior,window screen behavior"
 msgstr ""
-"focus,placement,auto raise,raise,click raise,keyboard,CDE,alt-tab,all "
-"desktop,focus follows mouse,focus prevention,focus stealing,focus policy,"
-"window focus behavior,window screen behavior"
+"focus,auto raise,raise,click raise,keyboard,CDE,alt-tab,all desktop,focus "
+"follows mouse,focus prevention,focus stealing,focus policy,window focus "
+"behavior,window screen behavior"
 
 #: kcmkwin/kwinoptions/kwinmoving.desktop:12
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Window Moving"
 msgctxt "Name"
@@ -529,12 +519,11 @@ msgid "Window Movement"
 msgstr "視窗移動"
 
 #: kcmkwin/kwinoptions/kwinmoving.desktop:27
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure window titlebars and borders"
 msgctxt "Comment"
 msgid "Configure window movement options"
-msgstr "設定視窗的標題列和邊框"
+msgstr "設定視窗移動選項"
 
 #: kcmkwin/kwinoptions/kwinmoving.desktop:42
 msgctxt "X-KDE-Keywords"
@@ -547,12 +536,11 @@ msgid "Window Behavior"
 msgstr "視窗行為"
 
 #: kcmkwin/kwinoptions/kwinoptions.desktop:102
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Window Actions and Behavior"
 msgctxt "Comment"
 msgid "Configure window actions and behavior"
-msgstr "視窗動作與行為"
+msgstr "設定視窗動作及行為"
 
 #: kcmkwin/kwinoptions/kwinoptions.desktop:117
 msgctxt "X-KDE-Keywords"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mathematik\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-09-16 02:55+0200\n"
-"PO-Revision-Date: 2019-08-31 19:18+0800\n"
+"PO-Revision-Date: 2019-09-22 19:06+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.08.0\n"
+"X-Generator: Lokalize 19.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -292,18 +292,18 @@ msgid "Variables:"
 msgstr "變數："
 
 #: backendchoosedialog.cpp:74
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Restart Backend"
 msgid "Select the Backend"
-msgstr "重新啟動後端介面"
+msgstr "選擇後端"
 
 #: backendchoosedialog.cpp:113
 #, kde-format
 msgid "<h1>%1</h1><div><b>Recommended version:</b> %2</div>"
-msgstr ""
+msgstr "<h1>%1</h1><div><b>建議版本：</b> %2</div>"
 
 #: backendchoosedialog.cpp:116
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<h1>%1</h1><div><b>Recommended version:</b> %4</div><br/><div>%2</div><br/"
 #| "><div>See <a href=\"%3\">%3</a> for more information</div>"
@@ -311,18 +311,16 @@ msgid ""
 "<hr><div>%1</div><br><div>See <a href=\"%2\">%2</a> for more information.</"
 "div>"
 msgstr ""
-"<h1>%1</h1><div><b>建議版本：</b> %4</div><br/><div>%2</div><br/><div>詳情請"
-"參考 <a href=\"%3\">%3</a></div>"
+"<hr><div>%1</div><br><div>顯示 <a href=\"%2\">%2</a> 取得更多資訊。</"
+"div>"
 
 #: backendchoosedialog.cpp:128
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<h1>%1</h1><div><b>Recommended version:</b> %3</div><br/><div>Some "
 #| "requirements for the backend are not fulfilled:<br/>%2</div><br/>"
 msgid "<br><div><b>Some requirements are not fulfilled: </b>%1</div>"
-msgstr ""
-"<h1>%1</h1><div><b>建議版本：</b> %3</div><br/><div>未滿足部份後端需求：<br/>"
-"%2</div><br/>"
+msgstr "<br><div><b>未滿足部份需求：</b>%1</div>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, makeDefault)
 #: backendchooser.ui:37
@@ -331,7 +329,7 @@ msgid "Make this the default backend"
 msgstr "將此後端程式設為預設"
 
 #: backends/julia/juliabackend.cpp:72
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<p><b>Julia</b> is a high-level, high-performance dynamic programming "
 #| "language for technical computing, with syntax that is familiar to users "
@@ -345,12 +343,12 @@ msgid ""
 "distributed parallel execution, numerical accuracy, and an extensive "
 "mathematical function library."
 msgstr ""
-"<p><b>Julia</b> 是一個高階、高效能的動態程式， 其可用於科學計算，而語法則對其"
-"他科學計算 環境的使用者來說相當友善。它提供了一個精密的 編譯器、分散且平行的"
-"執行、精準的數據以及一份 可擴充的數學函數的函式庫。</p>"
+"<b>Julia</b> 是一個高階、高效能的動態程式，其可用於科學計算，而語法則對其"
+"他科學計算環境的使用者來說相當友善。它提供了精密的編譯器、分散且平行的"
+"執行、精準的數據以及一份可擴充的數學函數的函式庫。"
 
 #: backends/julia/juliabackend.cpp:85
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt ""
 #| "The url to the documentation of Julia, please check if there is a "
 #| "translated version and use the correct url"
@@ -359,7 +357,7 @@ msgctxt ""
 "The url to the documentation of Julia, please check if there is a translated "
 "version and use the correct url"
 msgid "https://docs.julialang.org/en/latest/"
-msgstr "http://docs.julialang.org/en/latest/"
+msgstr "https://docs.julialang.org/en/latest/"
 
 #: backends/julia/juliabackend.cpp:101
 #, kde-format
@@ -470,7 +468,7 @@ msgid "Inline Plots Intermediate Format:"
 msgstr "內聯 Plots 中間格式："
 
 #: backends/kalgebra/kalgebrabackend.cpp:68
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt ""
 #| "the url to the documentation of KAlgebra, please check if there is a "
 #| "translated version and use the correct url"
@@ -479,7 +477,7 @@ msgctxt ""
 "The url to the documentation of KAlgebra, please check if there is a "
 "translated version and use the correct url"
 msgid "https://docs.kde.org/stable/en/kdeedu/kalgebra/"
-msgstr "http://docs.kde.org/stable/en/kdeedu/kalgebra/"
+msgstr "https://docs.kde.org/stable/en/kdeedu/kalgebra/"
 
 #. i18n: ectx: label, entry (autorunScripts), group (QalculateBackend)
 #. i18n: ectx: label, entry (autorunScripts), group (RBackend)
@@ -523,15 +521,15 @@ msgid "Scripts to autorun"
 msgstr "要自動執行的文稿"
 
 #: backends/lua/luabackend.cpp:65
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Lua official documentation"
 #| msgid "http://www.lua.org/docs.html"
 msgctxt "Lua official documentation"
 msgid "https://www.lua.org/docs.html"
-msgstr "http://www.lua.org/docs.html"
+msgstr "https://www.lua.org/docs.html"
 
 #: backends/lua/luabackend.cpp:70
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<p> Lua is a fast and lightweight scripting language, with a simple "
 #| "procedural syntax. There are several libraries in Lua aimed at math and "
@@ -541,8 +539,8 @@ msgid ""
 "procedural syntax. There are several libraries in Lua aimed at math and "
 "science."
 msgstr ""
-"<p>Lua 是一套快且輕量的文稿語言，程序的語法較簡單。在 Lua 中有一些關於數學與"
-"科學的函式庫。</p><p>這個後端介面支援 luajit 2。</p>"
+"<b>Lua</b> 是一套快且輕量的文稿語言，程序的語法較簡單。在 Lua 中有一些關於數學與"
+"科學的函式庫。"
 
 #. i18n: ectx: label, entry (Path), group (LuaBackend)
 #: backends/lua/luabackend.kcfg:10
@@ -570,7 +568,7 @@ msgid "http://maxima.sourceforge.net/docs/manual/en/maxima.html"
 msgstr "http://maxima.sourceforge.net/docs/manual/en/maxima.html"
 
 #: backends/maxima/maximabackend.cpp:107
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Maxima is a system for the manipulation of symbolic and numerical "
 #| "expressions, including differentiation, integration, Taylor series, "
@@ -588,7 +586,7 @@ msgid ""
 "integers, and variable precision floating point numbers. Maxima can plot "
 "functions and data in two and three dimensions."
 msgstr ""
-"Maxima 是一套操作符號與數字表示式的系統，包括微分、積分、泰勒表示式、拉普拉斯"
+"<b>Maxima</b> 是一套操作符號與數字表示式的系統，包括微分、積分、泰勒表示式、拉普拉斯"
 "轉換（Laplace transform）、常微分方程式（ordinary differential equations）、"
 "線性方程式系統、多項式與集合、列表、向量、矩陣、張量等等。Maxima 用精確的分"
 "數、整數與浮點數提供高精確度的數字結果。Maxima 可以繪製二維或三維的圖形。"
@@ -675,7 +673,7 @@ msgid "Integrate Plots in Worksheet"
 msgstr "在工作表中整合 Plots"
 
 #: backends/octave/octavebackend.cpp:77
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt ""
 #| "the url to the documentation of Octave, please check if there is a "
 #| "translated version (currently Czech and Japanese) and use the correct url"
@@ -684,10 +682,10 @@ msgctxt ""
 "the url to the documentation of Octave, please check if there is a "
 "translated version (currently Czech and Japanese) and use the correct url"
 msgid "https://octave.org/doc/interpreter/"
-msgstr "http://www.gnu.org/software/octave/doc/interpreter/"
+msgstr "https://octave.org/doc/interpreter/"
 
 #: backends/octave/octavebackend.cpp:82
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "GNU Octave is a high-level language, primarily intended for numerical "
 #| "computations. <br/>It provides a convenient command line interface for "
@@ -700,7 +698,7 @@ msgid ""
 "solving linear and nonlinear problems numerically, and for performing other "
 "numerical experiments using a language that is mostly compatible with Matlab."
 msgstr ""
-"GNU Octave 是一種高階語言，主要是用於數學運算。<br/>它提供一個簡便的命令列介"
+"<b>GNU Octave</b> 是一種高階語言，主要是用於數學運算。<br/>它提供一個簡便的命令列介"
 "面，可以解線性與非線性的問題，並且可以用一種與 Matlab 相容的語言執行一些數學"
 "運算實驗。"
 
@@ -754,15 +752,15 @@ msgid "Communication with Cantor python server failed for unknown reasons."
 msgstr "與 Cantor Python 伺服器通訊失敗，原因不明。"
 
 #: backends/python2/python2backend.cpp:74
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "the url to the documentation Python 2"
 #| msgid "http://docs.python.org/2/"
 msgctxt "The url to the documentation Python 2"
 msgid "https://docs.python.org/2/"
-msgstr "http://docs.python.org/2/"
+msgstr "https://docs.python.org/2/"
 
 #: backends/python2/python2backend.cpp:79
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<p>Python is a remarkably powerful dynamic programming language that is "
 #| "used in a wide variety of application domains. There are several Python "
@@ -773,8 +771,8 @@ msgid ""
 "used in a wide variety of application domains. There are several Python "
 "packages to scientific programming. This backend supports Python 2."
 msgstr ""
-"<p>Python 是一種強大的動態程式語言，用途非常廣泛。有一些科學程式使用的 "
-"Python 套件。</p><p>此後端介面支援 Python 2。</p>"
+"<b>Python</b> 是一種強大的動態程式語言，用途非常廣泛。有一些科學程式使用的 "
+"Python 套件。此後端介面支援 Python 2。"
 
 #. i18n: ectx: label, entry (localDoc), group (Python2Backend)
 #. i18n: ectx: label, entry (localDoc), group (Python3Backend)
@@ -785,15 +783,15 @@ msgid "Url to the local Python documentation"
 msgstr "本機 Python 文件的 URL"
 
 #: backends/python3/python3backend.cpp:70
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "the url to the documentation Python 3"
 #| msgid "http://docs.python.org/3/"
 msgctxt "The url to the documentation Python 3"
 msgid "https://docs.python.org/3/"
-msgstr "http://docs.python.org/3/"
+msgstr "https://docs.python.org/3/"
 
 #: backends/python3/python3backend.cpp:75
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<p>Python is a remarkably powerful dynamic programming language that is "
 #| "used in a wide variety of application domains. There are several Python "
@@ -804,8 +802,8 @@ msgid ""
 "used in a wide variety of application domains. There are several Python "
 "packages to scientific programming. This backend supports Python 3."
 msgstr ""
-"<p>Python 是一種強大的動態程式語言，用途非常廣泛。有一些科學程式使用的 "
-"Python 套件。</p><p>此後端介面支援 Python 3。</p>"
+"<b>Python</b> 是一種強大的動態程式語言，用途非常廣泛。有一些科學程式使用的 "
+"Python 套件。此後端介面支援 Python 3。-"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, QalculatePlotAssistantBase)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:14
@@ -1196,7 +1194,7 @@ msgid "FIG"
 msgstr "FIG"
 
 #: backends/qalculate/qalculatebackend.cpp:65
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Qalculate! is not your regular software replication of the cheapest "
 #| "available calculator. Qalculate! aims to make full use of the superior "
@@ -1223,7 +1221,7 @@ msgid ""
 "expression. In addition to numbers and arithmetic operators, an expression "
 "may contain any combination of variables, units, and functions."
 msgstr ""
-"Qalculate! 不像您常用的那種最簡易的計算機軟體。它可以徹底利用現在最新、最強"
+"<b>Qalculate!</b> 不像您常用的那種最簡易的計算機軟體。它可以徹底利用現在最新、最強"
 "大、最彈性化的電腦計算能力。Qalculate! 的表示式是重點。您可以直接寫入整個表示"
 "式，稍後再修改，而不需要分開輸入每個數學表示式。表示式的解譯是有彈性並且有強"
 "大的容錯能力。若是您做錯了某些事情，Qalculate! 會告訴您。不過，無解的表示式不"
@@ -1562,8 +1560,7 @@ msgstr "圖形平滑度。選項包括無，unique，csplines，bezier，sbezier
 msgid ""
 "Plot style. One of lines, points, points_lines, boxes, histogram, steps, "
 "candlesticks, dots"
-msgstr ""
-"圖形樣式。選項包括線條，點，點與線，盒狀，直方圖，階梯圖，燭柱圖，圓點圖"
+msgstr "圖形樣式。選項包括線條，點，點與線，盒狀，直方圖，階梯圖，燭柱圖，圓點圖"
 
 #: backends/qalculate/qalculatesyntaxhelpobject.cpp:241
 #, kde-format
@@ -1865,10 +1862,10 @@ msgctxt ""
 "the url to the documentation of R, please check if there is a translated "
 "version and use the correct url"
 msgid "https://cran.r-project.org/manuals.html"
-msgstr ""
+msgstr "https://cran.r-project.org/manuals.html"
 
 #: backends/R/rbackend.cpp:99
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "R is a language and environment for statistical computing and graphics, "
 #| "similar to the S language and environment. <br/>It provides a wide "
@@ -1886,7 +1883,7 @@ msgid ""
 "the vehicle of choice for research in statistical methodology, and R "
 "provides an Open Source route to participation in that activity."
 msgstr ""
-"R 是一種程式語言與環境，用於統計計算與圖表製作，類似 S 的語言與環境。<br/> 它"
+"<b>R</b> 是一種程式語言與環境，用於統計計算與圖表製作，類似 S 的語言與環境。<br/> 它"
 "提供多種統計（包含線性與非線性模組(linear and nonlinear modelling)，傳統統計"
 "測試(classical statistical tests)，時間序列分析(time-series analysis)，分類"
 "(classification)，叢集(clustering)等）與繪圖技術，並且有很高的延伸性。S 語言"
@@ -1924,7 +1921,7 @@ msgid "*.R *.r|R source files (*.R, *.r)"
 msgstr "*.R *.r|R 語言源碼檔 (*.R, *.r)"
 
 #: backends/sage/sagebackend.cpp:94
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt ""
 #| "the url to the documentation of Sage, please check if there is a "
 #| "translated version and use the correct url"
@@ -1933,10 +1930,10 @@ msgctxt ""
 "the url to the documentation of Sage, please check if there is a translated "
 "version and use the correct url"
 msgid "http://doc.sagemath.org/html/en/reference/index.html"
-msgstr "http://www.sagemath.org/doc/reference/index.html"
+msgstr "http://doc.sagemath.org/html/en/reference/index.html"
 
 #: backends/sage/sagebackend.cpp:99
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Sage is a free open-source mathematics software system licensed under the "
 #| "GPL. <br/>It combines the power of many existing open-source packages "
@@ -1946,7 +1943,7 @@ msgid ""
 "the GPL. <br/>It combines the power of many existing open-source packages "
 "into a common Python-based interface."
 msgstr ""
-"Sage 是一個 GPL 授權，自由、開放源碼的數學軟體系統。<br/>它結合了許多現有的開"
+"<b>Sage</b> 是一個 GPL 授權，自由、開放源碼的數學軟體系統。<br/>它結合了許多現有的開"
 "放源碼軟體的力量，並提供一個 Python 的介面。"
 
 #. i18n: ectx: label, entry (Path), group (SageBackend)
@@ -1998,8 +1995,7 @@ msgstr "Cantor"
 msgid ""
 "Failed to determine the version of Sage. Please check your installation and "
 "the output of 'sage -v'."
-msgstr ""
-"無法確定 Sage 的版本，請檢查您的 Sage 是否安裝正確和「sage -v」所輸出的版本。"
+msgstr "無法確定 Sage 的版本，請檢查您的 Sage 是否安裝正確和「sage -v」所輸出的版本。"
 
 #: backends/sage/sagesession.cpp:348
 #, kde-format
@@ -2033,7 +2029,7 @@ msgid "Path to Sage:"
 msgstr "Sage 的路徑："
 
 #: backends/scilab/scilabbackend.cpp:85
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt ""
 #| "the url to the documentation of Scilab, please check if there is a "
 #| "translated version and use the correct url"
@@ -2042,10 +2038,10 @@ msgctxt ""
 "The url to the documentation of Scilab, please check if there is a "
 "translated version and use the correct url"
 msgid "https://www.scilab.org/support/documentation"
-msgstr "http://www.scilab.org/support/documentation"
+msgstr "https://www.scilab.org/support/documentation"
 
 #: backends/scilab/scilabbackend.cpp:90
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<p>Scilab is a free software, cross-platform numerical computational "
 #| "package and a high-level, numerically oriented programming language.</"
@@ -2055,8 +2051,8 @@ msgid ""
 "package and a high-level, numerically oriented programming language.Scilab "
 "is distributed under CeCILL license (GPL compatible)."
 msgstr ""
-"<p>Scilab 是一套自由軟體，它提供跨平台的數值計算套件與一套高階、數值導向程式"
-"語言。</p> Scilab 是以 CeCILL 授權（與 GPL 相容）發布。"
+"<b>Scilab</b> 是一套自由軟體，它提供跨平台的數值計算套件與一套高階、數值導向程式"
+"語言。Scilab 是以 CeCILL 授權（與 GPL 相容）發布。"
 
 #. i18n: ectx: label, entry (Path), group (ScilabBackend)
 #: backends/scilab/scilabbackend.kcfg:10
@@ -2105,7 +2101,7 @@ msgstr "Cantor 工作表 (*.cws)"
 #: cantor.cpp:223 cantor_part.cpp:463
 #, kde-format
 msgid "Jupyter Notebook (*.ipynb)"
-msgstr ""
+msgstr "Jupyter Notebook (*.ipynb)"
 
 #: cantor.cpp:229
 #, kde-format
@@ -2249,7 +2245,7 @@ msgstr ""
 #: cantor.kcfg:50
 #, kde-format
 msgid "Show embedded math render error"
-msgstr ""
+msgstr "顯示內嵌數學式時發生繪製錯誤"
 
 #: cantor_part.cpp:160
 #, kde-format
@@ -2294,7 +2290,7 @@ msgstr "動畫化工作表"
 #: cantor_part.cpp:255
 #, kde-format
 msgid "Embedded Math"
-msgstr ""
+msgstr "內嵌數學式"
 
 #: cantor_part.cpp:261
 #, kde-format
@@ -2965,19 +2961,19 @@ msgstr "維護者<br/>Qt5/KF5 移植，Scilab 與 Python 後端介面"
 #: main.cpp:90
 #, kde-format
 msgid "Nikita Sirgienko"
-msgstr ""
+msgstr "Nikita Sirgienko"
 
 #: main.cpp:90 main.cpp:91
 #, kde-format
 msgctxt "@info:credit"
 msgid "Developer"
-msgstr ""
+msgstr "開發者"
 
 #: main.cpp:91
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Alexander Rieder"
 msgid "Alexander Semke"
-msgstr "Alexander Rieder"
+msgstr "Alexander Semke"
 
 #: main.cpp:92
 #, kde-format
@@ -3042,7 +3038,7 @@ msgstr "插入影像附件"
 #: markdownentry.cpp:63
 #, kde-format
 msgid "Clear Attachments"
-msgstr ""
+msgstr "清除附件"
 
 #: markdownentry.cpp:506
 #, kde-format
@@ -3057,7 +3053,7 @@ msgstr "選擇影像"
 #: markdownentry.cpp:682
 #, kde-format
 msgid "Images (*.png *.bmp *.jpg *.svg)"
-msgstr ""
+msgstr "影像 (*.png *.bmp *.jpg *.svg)"
 
 #: markdownentry.cpp:705
 #, kde-format
@@ -3251,7 +3247,7 @@ msgstr "開啟工作表動畫"
 #: settings.ui:88
 #, kde-format
 msgid "Enable Embedded Math (works only if pdflatex is installed)"
-msgstr ""
+msgstr "啟用內嵌數學式（僅在安裝 pdflatex 時能夠運作）"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMathRenderError)
 #: settings.ui:102
@@ -3263,7 +3259,7 @@ msgstr ""
 #: settings.ui:112
 #, kde-format
 msgid "Jupyter"
-msgstr ""
+msgstr "Jupyter"
 
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, pattern)
 #: standardsearchbar.ui:35
@@ -3279,7 +3275,7 @@ msgstr ""
 #: textentry.cpp:75
 #, kde-format
 msgid "Add custom target"
-msgstr ""
+msgstr "新增自訂目標"
 
 #: textentry.cpp:89
 #, kde-format
@@ -3294,7 +3290,7 @@ msgstr ""
 #: textentry.cpp:571
 #, kde-format
 msgid "Target MIME type:"
-msgstr ""
+msgstr "目標 MIME 類型："
 
 #: textresultitem.cpp:75
 #, kde-format
@@ -3359,24 +3355,24 @@ msgid "Error loading latex.xsl stylesheet"
 msgstr "載入 latex.xsl 樣式表時發生錯誤"
 
 #: worksheet.cpp:1107
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Couldn't open the file %1"
 msgid "Couldn't open the file %1."
-msgstr "無法開啟檔案 %1"
+msgstr "無法開啟檔案 %1。"
 
 #: worksheet.cpp:1107 worksheet.cpp:1130 worksheet.cpp:1150 worksheet.cpp:1167
 #: worksheet.cpp:1184 worksheet.cpp:1195 worksheet.cpp:1300 worksheet.cpp:1315
 #: worksheet.cpp:1341 worksheet.cpp:1352 worksheet.cpp:1461 worksheet.cpp:1463
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Open file"
 msgid "Open File"
 msgstr "開啟檔案"
 
 #: worksheet.cpp:1130
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Couldn't open the selected file for reading"
 msgid "Couldn't open the selected file for reading."
-msgstr "無法開啟選取檔案供讀取"
+msgstr "無法開啟選取檔案供讀取。"
 
 #: worksheet.cpp:1150
 #, kde-format
@@ -3389,12 +3385,12 @@ msgid "The selected file is not a valid Cantor project file."
 msgstr "選擇的檔案不是有效的 Cantor 專案檔案。"
 
 #: worksheet.cpp:1184 worksheet.cpp:1340
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "%1 backend was not found. Editing and executing entries is not possible"
 msgid ""
 "%1 backend was not found. Editing and executing entries is not possible."
-msgstr "找不到 %1 後端，將無法編輯和執行項目"
+msgstr "找不到 %1 後端，將無法編輯和執行項目。"
 
 #: worksheet.cpp:1193 worksheet.cpp:1350
 #, kde-format
@@ -3412,14 +3408,14 @@ msgstr ""
 msgid ""
 "Jupyter notebooks with versions lower than 4.5 (detected version %1.%2) are "
 "not supported."
-msgstr ""
+msgstr "不支援 Jupyter notebooks 低於 4.5 的版本（偵測到 %1.%2 版）。"
 
 #: worksheet.cpp:1314
 #, kde-format
 msgid ""
 "Jupyter notebooks with versions higher than 4.5 (detected version %1.%2) are "
 "not supported."
-msgstr ""
+msgstr "不支援 Jupyter notebooks 高於 4.5 的版本（偵測到 %1.%2 版）。"
 
 #: worksheet.cpp:1390
 #, kde-format
@@ -3429,7 +3425,7 @@ msgstr ""
 #: worksheet.cpp:1392
 #, kde-format
 msgid "non object JSON value"
-msgstr ""
+msgstr "非物件 JSON 值"
 
 #: worksheet.cpp:1395
 #, kde-format

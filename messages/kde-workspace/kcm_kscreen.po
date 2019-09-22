@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-09-20 03:30+0200\n"
-"PO-Revision-Date: 2019-09-08 23:53+0800\n"
+"PO-Revision-Date: 2019-09-22 18:43+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.08.0\n"
+"X-Generator: Lokalize 19.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -37,7 +37,7 @@ msgstr "顯示設定"
 #: kcm.cpp:60
 #, kde-format
 msgid "Manage and configure monitors and displays"
-msgstr ""
+msgstr "管理及設定顯示器"
 
 #: kcm.cpp:62
 #, kde-format
@@ -70,18 +70,18 @@ msgid "Replicated by other output"
 msgstr "已被其他輸出複製"
 
 #: package/contents/ui/main.qml:44
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Are you sure you want to disable all outputs? "
 msgid ""
 "Are you sure you want to disable all outputs? This might render the device "
 "unusable."
-msgstr "您確定要關閉所有的輸出嗎？"
+msgstr "確定停用所有輸出？這可能讓裝置無法使用。"
 
 #: package/contents/ui/main.qml:50
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Disable All Outputs"
 msgid "Disable All Outputs"
-msgstr "關閉所有的輸出(&D)"
+msgstr "停用所有輸出"
 
 #: package/contents/ui/main.qml:62
 #, kde-format
@@ -94,22 +94,22 @@ msgid "Outputs could not be saved due to error."
 msgstr "發生錯誤導致無法儲存輸出。"
 
 #: package/contents/ui/main.qml:78
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Scaling changes will come into effect after restart"
 msgid "New global scale applied. Change will come into effect after restart."
-msgstr "變更的調整會在重新啟動後才生效"
+msgstr "已套用新全域縮放比例。請重開機以檢視變更。"
 
 #: package/contents/ui/main.qml:97
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "A new output has been added. "
 msgid "A new output has been added. Settings have been reloaded."
-msgstr "已新增新輸出。"
+msgstr "已新增輸出。設定已重新載入。"
 
 #: package/contents/ui/main.qml:99
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "An output has been removed. "
 msgid "An output has been removed. Settings have been reloaded."
-msgstr "已移除輸出。"
+msgstr "已移除輸出。設定已重新載入。"
 
 #: package/contents/ui/Output.qml:148
 #, kde-format
@@ -119,7 +119,7 @@ msgstr "複本"
 #: package/contents/ui/OutputPanel.qml:32
 #, kde-format
 msgid "Settings for %1"
-msgstr ""
+msgstr "%1 的設定"
 
 #: package/contents/ui/OutputPanel.qml:40
 #, kde-format
@@ -142,12 +142,12 @@ msgid "Scale:"
 msgstr "比例："
 
 #: package/contents/ui/OutputPanel.qml:80 package/contents/ui/Panel.qml:79
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Scale multiplier, show everything at 1 times normal scale"
 #| msgid "1x"
 msgctxt "Scale factor (e.g. 1.0x, 1.5x, 2.0x)"
 msgid "%1x"
-msgstr "1x"
+msgstr "%1x"
 
 #: package/contents/ui/OutputPanel.qml:90
 #, kde-format
@@ -172,17 +172,17 @@ msgstr "全域縮放比例："
 #: package/contents/ui/Panel.qml:90
 #, kde-format
 msgid "Save displays' properties:"
-msgstr ""
+msgstr "儲存顯示器的屬性："
 
 #: package/contents/ui/Panel.qml:96
 #, kde-format
 msgid "For any display arrangement"
-msgstr ""
+msgstr "用於任意顯示器排序"
 
 #: package/contents/ui/Panel.qml:103
 #, kde-format
 msgid "For only this specific display arrangement"
-msgstr ""
+msgstr "僅用於此指定顯示器排序"
 
 #: package/contents/ui/RotationButton.qml:62
 #, kde-format
@@ -210,7 +210,7 @@ msgid "Identify"
 msgstr "識別"
 
 #: package/contents/ui/Screen.qml:73
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Center view"
 msgid "Center View"
 msgstr "中央檢視"

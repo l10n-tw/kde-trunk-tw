@@ -2,73 +2,74 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: cuttlefish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-09-19 03:16+0200\n"
-"PO-Revision-Date: 2017-06-29 20:55+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2019-09-22 18:49+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: Traditional Chinese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.08.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: package/contents/ui/GlobalMenuBar.qml:34
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Filename:"
 msgid "File"
-msgstr "檔案名稱："
+msgstr "檔案"
 
 #: package/contents/ui/GlobalMenuBar.qml:36
 #, kde-format
 msgid "Export Montage with Color Scheme..."
-msgstr ""
+msgstr "將蒙太奇 (Montage) 與顏色機制一併匯出…"
 
 #: package/contents/ui/GlobalMenuBar.qml:38
 #: package/contents/ui/ResponsivePreview.qml:91
 #, kde-format
 msgid "Active Color Scheme"
-msgstr ""
+msgstr "使用中顏色機制"
 
 #: package/contents/ui/GlobalMenuBar.qml:42
 #, kde-format
 msgid "Breeze (Normal)"
-msgstr ""
+msgstr "Breeze（一般）"
 
 #: package/contents/ui/GlobalMenuBar.qml:46
 #, kde-format
 msgid "Breeze Dark"
-msgstr ""
+msgstr "Breeze Dark"
 
 #: package/contents/ui/GlobalMenuBar.qml:50
 #: package/contents/ui/ResponsivePreview.qml:87
 #, kde-format
 msgid "Breeze (Normal) and Breeze Dark"
-msgstr ""
+msgstr "Breeze（一般）及 Breeze Dark"
 
 #: package/contents/ui/GlobalMenuBar.qml:57
 #, kde-format
 msgid "Quit"
-msgstr ""
+msgstr "離開"
 
 #: package/contents/ui/GlobalMenuBar.qml:63
 #, kde-format
 msgid "View"
-msgstr ""
+msgstr "檢視"
 
 #: package/contents/ui/GlobalMenuBar.qml:66
 #, kde-format
 msgid "Zoom In"
-msgstr ""
+msgstr "放大"
 
 #: package/contents/ui/GlobalMenuBar.qml:72
 #, kde-format
 msgid "Zoom Out"
-msgstr ""
+msgstr "縮小"
 
 #: package/contents/ui/Menu.qml:35 package/contents/ui/Preview.qml:263
 #: package/contents/ui/ResponsivePreview.qml:67
@@ -78,20 +79,20 @@ msgstr "將圖示名稱複製到剪貼簿"
 
 #: package/contents/ui/Menu.qml:38 package/contents/ui/Preview.qml:267
 #: package/contents/ui/ResponsivePreview.qml:71
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Copy icon name to clipboard"
 msgid "Icon name copied to clipboard"
-msgstr "將圖示名稱複製到剪貼簿"
+msgstr "已複製圖示名稱至剪貼簿"
 
 #: package/contents/ui/Menu.qml:43 package/contents/ui/Preview.qml:257
 #: package/contents/ui/ResponsivePreview.qml:62
 #, kde-format
 msgid "Open icon with external program"
-msgstr ""
+msgstr "使用外部程式開啟圖示"
 
 #: package/contents/ui/Preview.qml:104
 #: package/contents/ui/ResponsivePreview.qml:108
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Filename:"
 msgid "File name:"
 msgstr "檔案名稱："
@@ -123,47 +124,47 @@ msgstr "否"
 #: package/contents/ui/Preview.qml:274
 #, kde-format
 msgid "Create screenshot of icon"
-msgstr ""
+msgstr "建立圖示的螢幕截圖"
 
 #: package/contents/ui/Preview.qml:283
 #, kde-format
 msgid "Screenshot with Breeze Colors"
-msgstr ""
+msgstr "使用 Breeze 顏色的螢幕截圖"
 
 #: package/contents/ui/Preview.qml:289
 #, kde-format
 msgid "Screenshot with Breeze Dark Colors"
-msgstr ""
+msgstr "使用 Breeze Dark 顏色的螢幕截圖"
 
 #: package/contents/ui/Preview.qml:295
 #, kde-format
 msgid "Screenshot with Breeze (Normal) and Breeze Dark"
-msgstr ""
+msgstr "使用 Breeze（一般）及 Breeze Dark 的螢幕截圖"
 
 #: package/contents/ui/Preview.qml:301
 #, kde-format
 msgid "Screenshot with Active Color Scheme"
-msgstr ""
+msgstr "使用正在使用中之顏色機制的螢幕截圖"
 
 #: package/contents/ui/ResponsivePreview.qml:76
 #, kde-format
 msgid "Create screenshot of icon with..."
-msgstr ""
+msgstr "使用下述程式建立圖示的螢幕截圖…"
 
 #: package/contents/ui/ResponsivePreview.qml:78
 #, kde-format
 msgid "Breeze Colors"
-msgstr ""
+msgstr "Breeze 顏色"
 
 #: package/contents/ui/ResponsivePreview.qml:82
 #, kde-format
 msgid "Breeze Dark Colors"
-msgstr ""
+msgstr "Breeze Dark 顏色"
 
 #: package/contents/ui/Tools.qml:122
 #, kde-format
 msgid "Color scheme:"
-msgstr ""
+msgstr "色彩機制："
 
 #: src/main.cpp:84
 #, kde-format
