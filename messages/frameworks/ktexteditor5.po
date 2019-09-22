@@ -16,14 +16,14 @@ msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-09-18 02:55+0200\n"
-"PO-Revision-Date: 2019-08-31 18:54+0800\n"
+"PO-Revision-Date: 2019-09-22 13:18+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.08.0\n"
+"X-Generator: Lokalize 19.08.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: completion/katecompletionconfig.cpp:42
@@ -1249,8 +1249,7 @@ msgid ""
 "If this option is selected, the <b>Backspace</b> key decreases the "
 "indentation level if the cursor is located in the leading blank space of a "
 "line."
-msgstr ""
-"若選取此選項，當游標放在某行的前方空白處時，按下 Backspace 鍵會減少縮排級數。"
+msgstr "若選取此選項，當游標放在某行的前方空白處時，按下 Backspace 鍵會減少縮排級數。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBackspaceUnindents)
 #: dialogs/indentationconfigwidget.ui:182
@@ -1657,8 +1656,7 @@ msgstr "允許捲軸超過文件的尾端"
 msgid ""
 "When selected, composed characters are removed with their diacritics instead "
 "of only removing the base character. This is useful for Indic locales."
-msgstr ""
-"當選取時，不僅基本字元會被移除，組合字元也會被移除。這對印度語系來說很有用。"
+msgstr "當選取時，不僅基本字元會被移除，組合字元也會被移除。這對印度語系來說很有用。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBackspaceRemoveComposed)
 #: dialogs/navigationconfigwidget.ui:141
@@ -2605,24 +2603,24 @@ msgid "No items matching your search"
 msgstr "沒有項目符合您的搜尋"
 
 #: mode/katemodemenulist.cpp:937
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Best matches"
 msgctxt ""
 "Title (in singular) of the best result in an item search. Please, that the "
 "translation doesn't have more than 34 characters, since the menu where it's "
 "displayed is small and fixed."
 msgid "Best Search Match"
-msgstr "最佳符合"
+msgstr "最佳搜尋符合"
 
 #: mode/katemodemenulist.cpp:940
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Best matches"
 msgctxt ""
 "Title (in plural) of the best results in an item search. Please, that the "
 "translation doesn't have more than 34 characters, since the menu where it's "
 "displayed is small and fixed."
 msgid "Best Search Matches"
-msgstr "最佳符合"
+msgstr "最佳搜尋符合"
 
 #: printing/printconfigwidgets.cpp:49
 #, kde-format
@@ -3694,8 +3692,7 @@ msgstr ""
 msgid ""
 "Wraps the selected text in XML tags constructed from the provided Emmet "
 "expression (defaults to div)."
-msgstr ""
-"在所提供的 Emmet 表示式所建構的 XML 標籤內，將選取的文字折行（預設為 div）。"
+msgstr "在所提供的 Emmet 表示式所建構的 XML 標籤內，將選取的文字折行（預設為 div）。"
 
 #: script/data/commands/emmet.js:98
 #, kde-format
@@ -5326,8 +5323,7 @@ msgstr "錯誤的引數「%1」。用法：%2 on|off|1|0|true|false"
 #, kde-format
 msgid ""
 "Usage: set-remove-trailing-spaces 0|-|none or 1|+|mod|modified or 2|*|all"
-msgstr ""
-"用法：set-remove-trailing-spaces 0|-|none 或 1|+|mod|modified 或 2|*|all"
+msgstr "用法：set-remove-trailing-spaces 0|-|none 或 1|+|mod|modified 或 2|*|all"
 
 #: utils/katecmds.cpp:432 vimode/cmds.cpp:180
 #, kde-format
@@ -5804,37 +5800,37 @@ msgstr[0] "%1 行"
 #: utils/katevariableexpansionhelpers.cpp:145
 #, kde-format
 msgid "<value>"
-msgstr ""
+msgstr "<值>"
 
 #: utils/katevariableexpansionhelpers.cpp:227
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Insert Tab"
 msgid "Insert variable"
-msgstr "插入定位點"
+msgstr "插入變數"
 
 #: utils/katevariableexpansionhelpers.cpp:235
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Filtering"
 msgid "Filter"
-msgstr "過濾中"
+msgstr "過濾"
 
 #: utils/katevariableexpansionhelpers.cpp:254
 #: utils/katevariableexpansionhelpers.cpp:273
 #, kde-format
 msgid "Please select a variable."
-msgstr ""
+msgstr "請選取變數。"
 
 #: utils/katevariableexpansionhelpers.cpp:266
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Missing argument. Usage: %1 <value>"
 msgid "Current value: %1<value>"
-msgstr "漏掉引數。用法：%1 <value>"
+msgstr "目前的值：%1<value>"
 
 #: utils/katevariableexpansionhelpers.cpp:270
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Current Time"
 msgid "Current value: %1"
-msgstr "目前時間"
+msgstr "目前的值：%1"
 
 #: utils/katevariableexpansionmanager.cpp:43
 #, kde-format
@@ -6322,8 +6318,7 @@ msgstr "模式"
 msgid ""
 "Here you can choose which mode should be used for the current document. This "
 "will influence the highlighting and folding being used, for example."
-msgstr ""
-"您可以在此選擇要用於目前文件的模式。這會影響一些像是使用突顯或是折疊等設定。"
+msgstr "您可以在此選擇要用於目前文件的模式。這會影響一些像是使用突顯或是折疊等設定。"
 
 #: view/katestatusbar.cpp:205
 #, kde-format
@@ -6763,7 +6758,7 @@ msgid ""
 msgstr "這個指令允許在一般（以行為基礎）選擇模式與區塊選擇模式之間切換。"
 
 #: view/kateview.cpp:696
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Switch to Next Input Mode"
 msgid "Switch to next Input Mode"
 msgstr "切換到下一個輸入模式"

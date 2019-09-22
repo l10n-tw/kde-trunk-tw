@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-05-20 02:42+0200\n"
-"PO-Revision-Date: 2019-05-06 00:48+0800\n"
+"PO-Revision-Date: 2019-09-22 13:08+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.08.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -97,7 +97,7 @@ msgstr "滑鼠滾輪向上"
 #| msgid "Mouse Wheel Up"
 msgctxt "Tablet button triggers mouse wheel right."
 msgid "Mouse Wheel Right"
-msgstr "滑鼠滾輪向上"
+msgstr "滑鼠滾輪向下"
 
 #: src/common/buttonshortcut.cpp:105
 #, kde-format
@@ -106,10 +106,10 @@ msgid "Mouse Button %1 Click"
 msgstr "點擊滑鼠按鍵 %1"
 
 #: src/common/globalactions.cpp:30
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Wacom Tablet Settings"
 msgid "Wacom Tablet"
-msgstr "Wacom 手寫板設定"
+msgstr "Wacom 手寫板"
 
 #: src/common/globalactions.cpp:34
 #, kde-format
@@ -150,17 +150,17 @@ msgid "Map to screen 2"
 msgstr "映射到螢幕 2"
 
 #: src/common/globalactions.cpp:70
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Add new profile"
 msgctxt "@action Switch to the next profile in the rotation"
 msgid "Next profile"
-msgstr "新增設定檔"
+msgstr "下個設定檔"
 
 #: src/common/globalactions.cpp:76
 #, kde-format
 msgctxt "@action Switch to the previous profile in the rotation"
 msgid "Previous Profile"
-msgstr ""
+msgstr "上個設定檔"
 
 #: src/kcmodule/buttonactionselectiondialog.cpp:55
 #, kde-format
@@ -228,7 +228,7 @@ msgstr "點擊以指定動作。"
 #: src/kcmodule/buttonpagewidget.ui:20
 #, kde-format
 msgid "Pad Buttons"
-msgstr "平板按鍵"
+msgstr "手寫板按鍵"
 
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroupBox)
 #: src/kcmodule/buttonpagewidget.ui:29
@@ -302,59 +302,59 @@ msgstr "按鍵 10"
 
 #. i18n: ectx: property (text), widget (QLabel, button11Label)
 #: src/kcmodule/buttonpagewidget.ui:328
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Button 1"
 msgid "Button 11"
-msgstr "按鍵 1"
+msgstr "按鍵 11"
 
 #. i18n: ectx: property (text), widget (QLabel, button12Label)
 #: src/kcmodule/buttonpagewidget.ui:341
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Button 1"
 msgid "Button 12"
-msgstr "按鍵 1"
+msgstr "按鍵 12"
 
 #. i18n: ectx: property (text), widget (QLabel, button13Label)
 #: src/kcmodule/buttonpagewidget.ui:354
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Button 1"
 msgid "Button 13"
-msgstr "按鍵 1"
+msgstr "按鍵 13"
 
 #. i18n: ectx: property (text), widget (QLabel, button14Label)
 #: src/kcmodule/buttonpagewidget.ui:367
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Button 1"
 msgid "Button 14"
-msgstr "按鍵 1"
+msgstr "按鍵 14"
 
 #. i18n: ectx: property (text), widget (QLabel, button15Label)
 #: src/kcmodule/buttonpagewidget.ui:380
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Button 1"
 msgid "Button 15"
-msgstr "按鍵 1"
+msgstr "按鍵 15"
 
 #. i18n: ectx: property (text), widget (QLabel, button16Label)
 #: src/kcmodule/buttonpagewidget.ui:393
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Button 1"
 msgid "Button 16"
-msgstr "按鍵 1"
+msgstr "按鍵 16"
 
 #. i18n: ectx: property (text), widget (QLabel, button17Label)
 #: src/kcmodule/buttonpagewidget.ui:406
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Button 1"
 msgid "Button 17"
-msgstr "按鍵 1"
+msgstr "按鍵 17"
 
 #. i18n: ectx: property (text), widget (QLabel, button18Label)
 #: src/kcmodule/buttonpagewidget.ui:419
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Button 1"
 msgid "Button 18"
-msgstr "按鍵 1"
+msgstr "按鍵 18"
 
 #. i18n: ectx: property (title), widget (QGroupBox, touchStripGroupBox)
 #: src/kcmodule/buttonpagewidget.ui:537
@@ -428,20 +428,20 @@ msgid ""
 "Please tap into all four corners to calibrate the tablet.\n"
 "Press escape to cancel the process."
 msgstr ""
-"請點觸四個角落以校正平板。\n"
+"請點觸四個角落以校正手寫板。\n"
 "按 ESC 取消校正。"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ErrorWidget)
 #: src/kcmodule/errorwidget.ui:14
 #, kde-format
 msgid "No Tablet Found"
-msgstr "找不到平板裝置"
+msgstr "找不到手寫板裝置"
 
 #. i18n: ectx: property (text), widget (QCommandLinkButton, buttonRunTabletFinder)
 #: src/kcmodule/errorwidget.ui:107
 #, kde-format
 msgid "Manually register a tablet device"
-msgstr ""
+msgstr "手動註冊手寫板裝置"
 
 #. i18n: ectx: property (description), widget (QCommandLinkButton, buttonRunTabletFinder)
 #: src/kcmodule/errorwidget.ui:110
@@ -457,16 +457,16 @@ msgid "Wacom Tablet Settings"
 msgstr "Wacom 手寫板設定"
 
 #: src/kcmodule/generalpagewidget.cpp:150
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Profile name:"
 msgid "Profile List"
-msgstr "設定檔名稱："
+msgstr "設定檔列表"
 
 #: src/kcmodule/generalpagewidget.cpp:151
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Select Profile:"
 msgid "Select the Profile you want to add:"
-msgstr "選擇設定檔："
+msgstr "請選取要新增的設定檔："
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, GeneralPageWidget)
 #: src/kcmodule/generalpagewidget.ui:14
@@ -480,35 +480,35 @@ msgstr "一般硬體概觀"
 #| msgctxt "Rotation of the tablet pad"
 #| msgid "Rotation:"
 msgid "Profile rotation"
-msgstr "旋轉："
+msgstr "設定檔旋轉"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbDown)
 #: src/kcmodule/generalpagewidget.ui:80
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Action when the Wheel is used downwards"
 #| msgid "Down:"
 msgid "Down"
-msgstr "下："
+msgstr "下"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbRemoveFromRotationList)
 #: src/kcmodule/generalpagewidget.ui:87
 #, kde-format
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbAddToRotationList)
 #: src/kcmodule/generalpagewidget.ui:94
 #, kde-format
 msgid "Add"
-msgstr ""
+msgstr "新增"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbUp)
 #: src/kcmodule/generalpagewidget.ui:101
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Action when the Wheel is used upwards"
 #| msgid "Up:"
 msgid "Up"
-msgstr "上："
+msgstr "上"
 
 #. i18n: ectx: property (title), widget (QGroupBox, shortcutGroupBox)
 #: src/kcmodule/generalpagewidget.ui:140
@@ -519,22 +519,22 @@ msgstr "捷徑"
 #: src/kcmodule/kcmwacomtablet.cpp:72
 #, kde-format
 msgid "Graphic Tablet Configuration"
-msgstr "圖形平板設定"
+msgstr "圖形手寫板設定"
 
 #: src/kcmodule/kcmwacomtablet.cpp:73
 #, kde-format
 msgid "A configurator for graphic tablets"
-msgstr "圖形平板設定器"
+msgstr "圖形手寫板設定器"
 
 #: src/kcmodule/kcmwacomtablet.cpp:74
 #, kde-format
 msgid "In this module you can configure your Wacom tablet profiles"
-msgstr "這個模組讓您設定您的 Wacom 平板裝置設定檔"
+msgstr "這個模組讓您設定您的 Wacom 手寫板裝置設定檔"
 
 #: src/kcmodule/kcmwacomtabletwidget.cpp:165
 #, kde-format
 msgid "KDE tablet service not found"
-msgstr "找不到 KDE 平板裝置服務"
+msgstr "找不到 KDE 手寫板裝置服務"
 
 #: src/kcmodule/kcmwacomtabletwidget.cpp:166
 #, kde-format
@@ -542,26 +542,26 @@ msgid ""
 "Please start the KDE wacom tablet service to use this configuration dialog.\n"
 "The service is required for tablet detection and profile support."
 msgstr ""
-"請啟動 KDE Wacom 平板裝置服務後再使用此設定對話框。\n"
-"此伺服程式負責偵測平板裝置與支援設定檔。"
+"請啟動 KDE Wacom 手寫板裝置服務後再使用此設定對話框。\n"
+"此伺服程式負責偵測手寫板裝置與支援設定檔。"
 
 #: src/kcmodule/kcmwacomtabletwidget.cpp:170
 #, kde-format
 msgid "Unsupported platform detected"
-msgstr ""
+msgstr "偵測到不支援平台"
 
 #: src/kcmodule/kcmwacomtabletwidget.cpp:171
 #, kde-format
 msgid "Currently only X11 is supported."
-msgstr ""
+msgstr "目前只支援 X11。"
 
 #: src/kcmodule/kcmwacomtabletwidget.cpp:174
 #, kde-format
 msgid "No tablet device detected"
-msgstr "偵測不到平板裝置"
+msgstr "偵測不到手寫板裝置"
 
 #: src/kcmodule/kcmwacomtabletwidget.cpp:175
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Please connect a tablet device to continue.\n"
 #| "If your device is already connected it is currently unsupported."
@@ -570,8 +570,8 @@ msgid ""
 "If your device is already connected, it is currently not in the device "
 "database."
 msgstr ""
-"請連接平板裝置以繼續。\n"
-"若是您的裝置已連線，則表示目前不支援您的裝置。"
+"請連接手寫板裝置以繼續。\n"
+"若您的裝置已連線，則表示其未在裝置資料庫中。"
 
 #: src/kcmodule/kcmwacomtabletwidget.cpp:220
 #, kde-format
@@ -587,7 +587,7 @@ msgstr "設定檔名稱："
 #, kde-format
 msgctxt "Name of the default profile that will be created if none exist."
 msgid "Default"
-msgstr ""
+msgstr "預設值"
 
 #: src/kcmodule/kcmwacomtabletwidget.cpp:440
 #, kde-format
@@ -605,7 +605,7 @@ msgstr "觸控筆"
 #: src/kcmodule/tabletareaselectionview.ui:157
 #, kde-format
 msgid "Tablet"
-msgstr "平板裝置"
+msgstr "手寫板裝置"
 
 #: src/kcmodule/kcmwacomtabletwidget.cpp:453
 #, kde-format
@@ -620,27 +620,27 @@ msgstr "要儲存目前設定檔的變更嗎？"
 #: src/kcmodule/kcmwacomtabletwidget.cpp:489
 #, kde-format
 msgid "Failed to launch Wacom tablet finder tool. Check your installation."
-msgstr ""
+msgstr "無法啟動 Wacom 手寫板裝置尋找工具。請檢查您的安裝實體。"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, KCMWacomTabletWidget)
 #: src/kcmodule/kcmwacomtabletwidget.ui:14
 #, kde-format
 msgid "Graphic Tablet Settings"
-msgstr "圖形平板裝置設定"
+msgstr "圖形手寫板裝置設定"
 
 #. i18n: ectx: property (text), widget (QLabel, tabletListLabel)
 #: src/kcmodule/kcmwacomtabletwidget.ui:25
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Select Profile:"
 msgid "&Select Tablet:"
-msgstr "選擇設定檔："
+msgstr "選擇手寫板(&S)："
 
 #. i18n: ectx: property (text), widget (QLabel, profileLabel)
 #: src/kcmodule/kcmwacomtabletwidget.ui:45
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Select Profile:"
 msgid "Select &Profile:"
-msgstr "選擇設定檔："
+msgstr "選擇設定檔(&P)："
 
 #. i18n: ectx: property (toolTip), widget (KAnimatedButton, addProfileButton)
 #: src/kcmodule/kcmwacomtabletwidget.ui:67
@@ -726,8 +726,8 @@ msgid ""
 "If deselected, stylus buttons will work once the stylus is in proximity of "
 "the tablet."
 msgstr ""
-"如果選取此選項，則觸控筆必須與平板裝置連線，才能讓它的按鍵運作。\n"
-"反之，則只要觸控筆在平板裝置上，按鍵就可以運作。"
+"如果選取此選項，則觸控筆必須與手寫板裝置連線，才能讓它的按鍵運作。\n"
+"反之，則只要觸控筆在手寫板裝置上，按鍵就可以運作。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, tpcCheckBox)
 #: src/kcmodule/styluspagewidget.ui:116
@@ -759,7 +759,7 @@ msgid ""
 "This parameter is independent of the PressureCurve parameter."
 msgstr ""
 "設定在筆尖/尖端點，擦除或觸控時產生按鍵事件所需的最小壓力。\n"
-"所有的平板裝置的壓力等級都會分配為 2048 級，不管實際的硬體支援多少等級。\n"
+"所有的手寫板裝置的壓力等級都會分配為 2048 級，不管實際的硬體支援多少等級。\n"
 "這個參數與壓力曲線參數是不相關的。"
 
 #. i18n: ectx: property (text), widget (QLabel, labelSlow_2)
@@ -815,20 +815,20 @@ msgstr ""
 #: src/kcmodule/styluspagewidget.ui:415
 #, kde-format
 msgid "Raw Sample Rate"
-msgstr ""
+msgstr "原始採樣率"
 
 #. i18n: ectx: property (text), widget (QLabel, labelMinRawSample)
 #: src/kcmodule/styluspagewidget.ui:451
 #, kde-format
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #. i18n: ectx: property (text), widget (QLabel, labelMaxRawSample)
 #. i18n: ectx: property (text), widget (QLabel, labelMaxSuppress)
 #: src/kcmodule/styluspagewidget.ui:471 src/kcmodule/styluspagewidget.ui:545
 #, kde-format
 msgid "20"
-msgstr ""
+msgstr "20"
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, groupBoxSupress)
 #: src/kcmodule/styluspagewidget.ui:489
@@ -846,7 +846,7 @@ msgstr ""
 #: src/kcmodule/styluspagewidget.ui:525
 #, kde-format
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: src/kcmodule/tabletareaselectiondialog.cpp:114
 #, kde-format
@@ -854,7 +854,7 @@ msgctxt ""
 "Dialog title from a dialog which lets the user select an area of the tablet "
 "where the screen space will be mapped to."
 msgid "Select a Tablet Area"
-msgstr "選擇平板區域"
+msgstr "選擇手寫板區域"
 
 #: src/kcmodule/tabletareaselectionview.cpp:139
 #: src/kcmodule/tabletareaselectionview.cpp:168
@@ -869,7 +869,7 @@ msgid ""
 "The tablet area defines how the screen space is mapped to your tablet. For "
 "each screen a different tablet area can be selected. "
 msgstr ""
-"平板區域定義螢幕的空間要怎麼映射到您的平板。每個螢幕都可以選擇一個不同的平板"
+"手寫板區域定義螢幕的空間要怎麼映射到您的手寫板。每個螢幕都可以選擇一個不同的手寫板"
 "區域。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, screenGroupBox)
@@ -894,7 +894,7 @@ msgstr "切換螢幕"
 #: src/kcmodule/tabletareaselectionview.ui:96
 #, kde-format
 msgid "Select the valid tablet area used for the selected screen space."
-msgstr "選擇用於映射到螢幕空間的平板區域。"
+msgstr "選擇用於映射到螢幕空間的手寫板區域。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, controlsGroupBox)
 #: src/kcmodule/tabletareaselectionview.ui:99
@@ -904,23 +904,23 @@ msgstr "映射螢幕到"
 
 #. i18n: ectx: property (text), widget (QRadioButton, fullTabletRadioButton)
 #: src/kcmodule/tabletareaselectionview.ui:105
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Full Tablet"
 msgid "&Full Tablet"
-msgstr "整個平板區域"
+msgstr "整個手寫板區域(&F)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, tabletAreaRadioButton)
 #: src/kcmodule/tabletareaselectionview.ui:115
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Tablet Area"
 msgid "&Tablet Area"
-msgstr "平板裝置區域"
+msgstr "手寫板裝置區域(&T)"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, forceProportionsButton)
 #: src/kcmodule/tabletareaselectionview.ui:122
 #, kde-format
 msgid "Set the tablet area proportional to the selected screen area."
-msgstr "將平板區域比例設定為與使用的螢幕區域一樣。"
+msgstr "將手寫板區域比例設定為與使用的螢幕區域一樣。"
 
 #. i18n: ectx: property (text), widget (QPushButton, forceProportionsButton)
 #: src/kcmodule/tabletareaselectionview.ui:125
@@ -942,27 +942,27 @@ msgstr "此映射只能在絕對追蹤模式下套用。"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonLockProportions)
 #: src/kcmodule/tabletareaselectionview.ui:219
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Set Screen Proportions"
 msgid "Lock proportions"
-msgstr "設定螢幕比例"
+msgstr "鎖定比例"
 
 #. i18n: ectx: property (title), widget (QGroupBox, fineTuneGroupBox)
 #: src/kcmodule/tabletareaselectionview.ui:233
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Tablet Details"
 msgid "Tablet area fine tuning"
-msgstr "平板裝置詳情"
+msgstr "手寫板區域微調"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, lineEditWidth)
 #: src/kcmodule/tabletareaselectionview.ui:245
 #, kde-format
 msgid "Width"
-msgstr ""
+msgstr "寬度"
 
 #. i18n: ectx: property (text), widget (QLabel, labelHorizontalTune)
 #: src/kcmodule/tabletareaselectionview.ui:255
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "monitors are horizontal aligned"
 #| msgid "horizontal"
 msgid "Horizontal"
@@ -970,14 +970,14 @@ msgstr "水平"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, lineEditX)
 #: src/kcmodule/tabletareaselectionview.ui:268
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Left Strip Down"
 msgid "Left margin"
-msgstr "左帶向下"
+msgstr "左邊界"
 
 #. i18n: ectx: property (text), widget (QLabel, labelVerticalTune)
 #: src/kcmodule/tabletareaselectionview.ui:278
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "monitors are vertical aligned"
 #| msgid "vertical"
 msgid "Vertical"
@@ -993,7 +993,7 @@ msgstr ""
 #: src/kcmodule/tabletareaselectionview.ui:307
 #, kde-format
 msgid "Height"
-msgstr ""
+msgstr "長度"
 
 #: src/kcmodule/tabletpagewidget.cpp:384
 #, kde-format
@@ -1007,19 +1007,19 @@ msgstr "預設方向"
 #, kde-format
 msgctxt "The tablet will be rotated clockwise."
 msgid "Rotate Tablet Clockwise"
-msgstr "順時針旋轉平板"
+msgstr "順時針旋轉手寫板"
 
 #: src/kcmodule/tabletpagewidget.cpp:386
 #, kde-format
 msgctxt "The tablet will be rotated counterclockwise."
 msgid "Rotate Tablet Counterclockwise"
-msgstr "逆時針旋轉平板"
+msgstr "逆時針旋轉手寫板"
 
 #: src/kcmodule/tabletpagewidget.cpp:387
 #, kde-format
 msgctxt "The tablet will be rotated up side down."
 msgid "Rotate Tablet Upside-Down"
-msgstr "將平板裝置上下顛倒"
+msgstr "將手寫板裝置上下顛倒"
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, trackingModeGroupBox)
 #: src/kcmodule/tabletpagewidget.ui:25 src/kcmodule/touchpagewidget.ui:38
@@ -1035,23 +1035,23 @@ msgstr "觸控筆追蹤模式"
 
 #. i18n: ectx: property (text), widget (QRadioButton, trackAbsoluteRadioButton)
 #: src/kcmodule/tabletpagewidget.ui:40 src/kcmodule/touchpagewidget.ui:53
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Map to Screen (Absolute Mode)"
 msgid "&Map to Screen (Absolute Mode)"
-msgstr "映設到螢幕（絕對模式）"
+msgstr "映射至螢幕（絕對模式）(&M)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, trackRelativeRadioButton)
 #: src/kcmodule/tabletpagewidget.ui:56 src/kcmodule/touchpagewidget.ui:69
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Map to Cursor (Relative Mode)"
 msgid "Map &to Cursor (Relative Mode)"
-msgstr "映射到游標（相對模式）"
+msgstr "映射至游標（相對模式）(&T)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, padMappingGroupBox)
 #: src/kcmodule/tabletpagewidget.ui:88
 #, kde-format
 msgid "Tablet Mapping"
-msgstr "平板映射"
+msgstr "手寫板映射"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, padMappingTabletButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, touchMappingTabletButton)
@@ -1063,13 +1063,13 @@ msgstr "平板映射"
 msgid ""
 "Allows one to specify the tablet area for different screen selections in "
 "absolute cursor mode."
-msgstr "在絕對游標模式中，允許指定不同螢幕選取的平板區域。"
+msgstr "在絕對游標模式中，允許指定不同螢幕選取的手寫板區域。"
 
 #. i18n: ectx: property (text), widget (QPushButton, padMappingTabletButton)
 #: src/kcmodule/tabletpagewidget.ui:103
 #, kde-format
 msgid "Map Tablet Area to Screen"
-msgstr "將平板區域映射到螢幕"
+msgstr "將手寫板區域映射到螢幕"
 
 #. i18n: ectx: property (text), widget (QLabel, trackingWarningLabel)
 #: src/kcmodule/tabletpagewidget.ui:128 src/kcmodule/touchpagewidget.ui:147
@@ -1082,7 +1082,7 @@ msgstr "您目前選擇的映設無法套用在相對追蹤模式中。"
 #: src/kcmodule/tabletpagewidget.ui:169
 #, kde-format
 msgid "Changes the orientation of the tablet."
-msgstr "變更平板裝置的方向。"
+msgstr "變更手寫板裝置的方向。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, rotationGroupBox)
 #: src/kcmodule/tabletpagewidget.ui:172
@@ -1094,7 +1094,7 @@ msgstr "方向"
 #: src/kcmodule/tabletpagewidget.ui:181
 #, kde-format
 msgid "If enabled, the tablet rotates together with the screen."
-msgstr "若開啟此選項，平板會自動跟著螢幕旋轉。"
+msgstr "若開啟此選項，手寫板會自動跟著螢幕旋轉。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, rotateWithScreenCheckBox)
 #: src/kcmodule/tabletpagewidget.ui:184
@@ -1108,7 +1108,7 @@ msgstr "自動跟著螢幕旋轉"
 msgid ""
 "If enabled the automatic tablet rotation for clockwise and counterclockwise "
 "rotations will be inverted."
-msgstr "若開啟此選項，平板自動旋轉時會反向。"
+msgstr "若開啟此選項，手寫板自動旋轉時會反向。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, rotateWithScreenInvertCheckBox)
 #: src/kcmodule/tabletpagewidget.ui:197
@@ -1120,7 +1120,7 @@ msgstr "反向自動旋轉"
 #: src/kcmodule/touchpagewidget.ui:17
 #, kde-format
 msgid "If enabled the tablet will emit touch events."
-msgstr "若開啟此選項，平板會忽略觸控事件。"
+msgstr "若開啟此選項，手寫板會忽略觸控事件。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, touchCheckBox)
 #: src/kcmodule/touchpagewidget.ui:20
@@ -1180,7 +1180,7 @@ msgstr "捲軸距離"
 #: src/kcmodule/touchpagewidget.ui:235
 #, kde-format
 msgid "The minimum motion in tablet units before sending a scroll event."
-msgstr "傳送捲軸手勢前的最小動作（平板單位）。"
+msgstr "傳送捲軸手勢前的最小動作（手寫板單位）。"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, zoomDistanceLabel)
 #: src/kcmodule/touchpagewidget.ui:254
@@ -1199,7 +1199,7 @@ msgstr "縮放距離"
 #, kde-format
 msgid ""
 "The minimum distance in tablet units for a zoom gesture to be recognized."
-msgstr "要辨識的縮放手勢的最小距離（平板單位）。"
+msgstr "要辨識的縮放手勢的最小距離（手寫板單位）。"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, tapTimeLabel)
 #: src/kcmodule/touchpagewidget.ui:292
@@ -1235,112 +1235,112 @@ msgstr "若選取此選項，捲軸手勢的捲軸方向會反過來。"
 #, kde-format
 msgctxt "Button that shows up in notification of a new tablet being connected"
 msgid "Configure"
-msgstr ""
+msgstr "設定"
 
 #: src/kded/tabletdaemon.cpp:166
 #, kde-format
 msgid "Graphic Tablet Configuration daemon"
-msgstr "圖形平板裝置設定伺服程式"
+msgstr "圖形手寫板裝置設定伺服程式"
 
 #: src/kded/tabletdaemon.cpp:167
 #, kde-format
 msgid "A Wacom tablet control daemon"
-msgstr "Wacom 平板裝置控制伺服程式"
+msgstr "Wacom 手寫板裝置控制伺服程式"
 
 #: src/kded/tablethandler.cpp:143
 #, kde-format
 msgid "Tablet Connected"
-msgstr "平板裝置已連線"
+msgstr "手寫板裝置已連線"
 
 #: src/kded/tablethandler.cpp:144
 #, kde-format
 msgid "New tablet '%1' connected."
-msgstr "新的平板裝置 '%1' 已連線。"
+msgstr "新的手寫板裝置 '%1' 已連線。"
 
 #: src/kded/tablethandler.cpp:174
 #, kde-format
 msgid "Tablet removed"
-msgstr "平板裝置已移除"
+msgstr "手寫板裝置已移除"
 
 #: src/kded/tablethandler.cpp:175
 #, kde-format
 msgid "Tablet %1 removed"
-msgstr "平板裝置 %1 已移除"
+msgstr "手寫板裝置 %1 已移除"
 
 #: src/kded/tablethandler.cpp:462
 #, kde-format
 msgctxt "Name of the default profile that will be created if none exists."
 msgid "Default"
-msgstr ""
+msgstr "預設值"
 
 #: src/kded/tablethandler.cpp:474
 #, kde-format
 msgid "Graphic Tablet error"
-msgstr "圖形平板裝置錯誤"
+msgstr "圖形手寫板裝置錯誤"
 
 #: src/kded/tablethandler.cpp:475
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Profile <b>%1</b> does not exist"
 msgid "Profile <b>%1</b> does not exist. Apply <b>%2</b> instead"
-msgstr "設定檔 <b>%1</b> 不存在"
+msgstr "設定檔 <b>%1</b> 不存在。改套用 <b>%2</b>"
 
 #: src/tabletfinder/dialog.cpp:453
 #, kde-format
 msgid "Button %1 maps to Button %2"
-msgstr ""
+msgstr "%1 按鈕映射至 %2 按鈕"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, Dialog)
 #: src/tabletfinder/dialog.ui:14
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Wacom Tablet Settings"
 msgid "Wacom Tablet detection"
-msgstr "Wacom 手寫板設定"
+msgstr "Wacom 手寫板偵測"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/tabletfinder/dialog.ui:20
 #, kde-format
 msgid "Connect your Tablet and click on Refresh to detect it."
-msgstr ""
+msgstr "請連結您的手寫板裝置，並按下「重新整理」以偵測。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/tabletfinder/dialog.ui:27
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Tablet Details"
 msgid "Tablet Selection"
-msgstr "平板裝置詳情"
+msgstr "手寫板選取區域"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: src/tabletfinder/dialog.ui:39
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Select Profile:"
 msgid "Detected Tablets:"
-msgstr "選擇設定檔："
+msgstr "偵測到的手寫板："
 
 #. i18n: ectx: property (text), widget (QPushButton, refreshButton)
 #: src/tabletfinder/dialog.ui:51
 #, kde-format
 msgid "Refresh"
-msgstr ""
+msgstr "重新整理"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/tabletfinder/dialog.ui:66
 #, kde-format
 msgid "Serial No.:"
-msgstr ""
+msgstr "序號編號："
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/tabletfinder/dialog.ui:86
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Input Devices:"
 msgid "Devices: "
-msgstr "輸入裝置："
+msgstr "裝置："
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/tabletfinder/dialog.ui:105
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Enable Gestures"
 msgid "Tablet Features"
-msgstr "開啟手勢"
+msgstr "手寫板功能"
 
 #. i18n: ectx: property (text), widget (QCheckBox, hasTouchRing)
 #: src/tabletfinder/dialog.ui:111
@@ -1351,9 +1351,9 @@ msgstr "觸控環"
 
 #. i18n: ectx: property (text), widget (QCheckBox, hasStatusLEDsRight)
 #: src/tabletfinder/dialog.ui:118
-#, kde-format
+#, fuzzy, kde-format
 msgid "has Status LEDs right"
-msgstr ""
+msgstr "有右狀態燈"
 
 #. i18n: ectx: property (text), widget (QCheckBox, hasTouchStripLeft)
 #: src/tabletfinder/dialog.ui:125
@@ -1371,9 +1371,9 @@ msgstr "觸控環"
 
 #. i18n: ectx: property (text), widget (QCheckBox, hasStatusLEDsLeft)
 #: src/tabletfinder/dialog.ui:139
-#, kde-format
+#, fuzzy, kde-format
 msgid "has Status LEDs left"
-msgstr ""
+msgstr "有左狀態燈"
 
 #. i18n: ectx: property (text), widget (QCheckBox, hasWheel)
 #: src/tabletfinder/dialog.ui:146
@@ -1384,10 +1384,10 @@ msgstr "滾輪"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: src/tabletfinder/dialog.ui:169
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Button Settings"
 msgid "Button mapping"
-msgstr "按鍵設定"
+msgstr "按鍵映射"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/tabletfinder/dialog.ui:177
@@ -1397,17 +1397,17 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, mapButtons)
 #: src/tabletfinder/dialog.ui:189
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Pad Buttons"
 msgid "Map Hardware Buttons"
-msgstr "平板按鍵"
+msgstr "映射硬體按鍵"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: src/tabletfinder/dialog.ui:221
 #, fuzzy, kde-format
 #| msgid "Touch Settings"
 msgid "Touch sensor"
-msgstr "觸控設定"
+msgstr "觸控感應器"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioNormalTablet)
 #: src/tabletfinder/dialog.ui:227
@@ -1429,26 +1429,26 @@ msgid "Multi-&device tablet, touch sensor"
 msgstr ""
 
 #: src/tabletfinder/hwbuttondialog.cpp:65
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Changes the orientation of the tablet."
 msgid "Please press Button %1 on the tablet now."
-msgstr "變更平板裝置的方向。"
+msgstr "請按下手寫板中的 %1 按鈕。"
 
 #: src/tabletfinder/hwbuttondialog.cpp:89
 #, kde-format
 msgid "Hardware button %1 detected."
-msgstr ""
+msgstr "偵測到 %1 硬體按鈕。"
 
 #: src/tabletfinder/hwbuttondialog.cpp:101
 #, kde-format
 msgid "All buttons detected. Please close dialog"
-msgstr ""
+msgstr "偵測到所有按鈕。請關閉對話框"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, HWButtonDialog)
 #: src/tabletfinder/hwbuttondialog.ui:14
 #, kde-format
 msgid "Dialog"
-msgstr ""
+msgstr "對話框"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/tabletfinder/hwbuttondialog.ui:26
@@ -1456,4 +1456,4 @@ msgstr ""
 msgid ""
 "Move the mouse cursor inside the dialog but <b>do not</b> click into it with "
 "the mouse."
-msgstr ""
+msgstr "請移動滑鼠游標至對話框內，但 <b>請勿</b> 點進去。"

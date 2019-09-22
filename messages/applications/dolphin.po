@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-09-22 02:29+0200\n"
-"PO-Revision-Date: 2019-09-08 23:42+0800\n"
+"PO-Revision-Date: 2019-09-22 13:11+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.08.0\n"
+"X-Generator: Lokalize 19.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -312,7 +312,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Search Bar"
-msgstr ""
+msgstr "切換搜尋列"
 
 #: dolphinmainwindow.cpp:1247
 #, kde-format
@@ -701,12 +701,12 @@ msgid ""
 msgstr ""
 
 #: dolphinmainwindow.cpp:1669
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu Panels"
 #| msgid "Lock Panels"
 msgctxt "@action:inmenu View"
 msgid "Show Panels"
-msgstr "鎖定面板"
+msgstr "顯示面板"
 
 #: dolphinmainwindow.cpp:1699 dolphinmainwindow.cpp:1712
 #, kde-format
@@ -2036,7 +2036,7 @@ msgstr "播放"
 #: panels/information/phononwidget.cpp:173
 #, kde-format
 msgid "pause"
-msgstr ""
+msgstr "暫停"
 
 #. i18n: ectx: label, entry (IconSize), group (PlacesPanel)
 #: panels/places/dolphin_placespanelsettings.kcfg:10
@@ -2170,8 +2170,7 @@ msgstr "隱藏「%1」部份"
 msgid ""
 "Terminal cannot be shown because Konsole is not installed. Please install it "
 "and then reopen the panel."
-msgstr ""
-"因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
+msgstr "因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
 
 #: panels/terminal/terminalpanel.cpp:163
 #, kde-format
@@ -3816,21 +3815,21 @@ msgstr "這會放大圖示。"
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Reset Zoom Level"
-msgstr ""
+msgstr "重設縮放等級"
 
 #: views/dolphinviewactionhandler.cpp:193
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Default"
 msgid "Zoom To Default"
-msgstr "預設"
+msgstr "縮放至預設值"
 
 #: views/dolphinviewactionhandler.cpp:194
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info:whatsthis zoom in"
 #| msgid "This increases the icon size."
 msgctxt "@info:whatsthis zoom reset"
 msgid "This resets the icon size to default."
-msgstr "這會放大圖示。"
+msgstr "這會將圖示大小重設回預設值。"
 
 #: views/dolphinviewactionhandler.cpp:202
 #, kde-format
@@ -3839,7 +3838,7 @@ msgid "This reduces the icon size."
 msgstr "這會縮小圖示。"
 
 #: views/dolphinviewactionhandler.cpp:205
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@option:check"
 #| msgid "Show preview"
 msgctxt "@action:intoolbar"
@@ -3874,12 +3873,12 @@ msgid "Sort By"
 msgstr "排序依據"
 
 #: views/dolphinviewactionhandler.cpp:256
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Additional Information"
 msgctxt "@action:inmenu View"
 msgid "Show Additional Information"
-msgstr "額外資訊"
+msgstr "顯示額外資訊"
 
 #: views/dolphinviewactionhandler.cpp:266
 #, kde-format
@@ -3894,7 +3893,7 @@ msgid "This groups files and folders by their first letter."
 msgstr ""
 
 #: views/dolphinviewactionhandler.cpp:271
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Show Hidden Files"
 msgctxt "@action:inmenu View"
