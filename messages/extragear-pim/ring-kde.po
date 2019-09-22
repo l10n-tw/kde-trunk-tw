@@ -1,0 +1,2182 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Jeff Huang <s8321414@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: ring-kde\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 02:51+0200\n"
+"PO-Revision-Date: 2017-08-01 22:01+0800\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: Traditional Chinese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "s8321414@gmail.com"
+
+#: clients/desktop/cmd.cpp:62
+#, kde-format
+msgid "Place a call to a given number"
+msgstr "撥打指定電話號碼"
+
+#: clients/desktop/cmd.cpp:63
+#, kde-format
+msgid ""
+"Send a text to &lt;number&gt;, use --message to set the content, then hangup"
+msgstr "傳送文字到 &lt;號碼&gt;，使用 --message 來設定內容，然後掛斷"
+
+#: clients/desktop/cmd.cpp:64
+#, kde-format
+msgid "Used in combination with --send-text"
+msgstr "用來與 --send-text 結合"
+
+#: clients/desktop/cmd.cpp:65
+#, kde-format
+msgid "Start in the system tray"
+msgstr "在系統匣中啟動"
+
+#: clients/desktop/cmd.cpp:66
+#, fuzzy, kde-format
+#| msgid "Start in the system tray"
+msgid "Start with the phone interface"
+msgstr "在系統匣中啟動"
+
+#: clients/desktop/cmd.cpp:67
+#, fuzzy, kde-format
+#| msgid "Start in the system tray"
+msgid "Start with the timeline interface"
+msgstr "在系統匣中啟動"
+
+#: clients/desktop/main.cpp:126
+#, kde-format
+msgid "ring-kde"
+msgstr ""
+
+#: clients/desktop/main.cpp:128 clients/mobile/main.cpp:174
+#, kde-format
+msgid "RING, a secured and distributed communication software"
+msgstr ""
+
+#: clients/desktop/main.cpp:130 clients/mobile/main.cpp:176
+#, kde-format
+msgid ""
+"(C) 2004-2015 Savoir-faire Linux\n"
+"2016-2017 Emmanuel Lepage Vallee\n"
+"2017-2019 Blue Systems"
+msgstr ""
+
+#: clients/desktop/main.cpp:138 clients/mobile/main.cpp:184
+#, kde-format
+msgid "Emmanuel Lepage-Vallée"
+msgstr ""
+
+#: clients/desktop/main.cpp:139 clients/mobile/main.cpp:185
+#, kde-format
+msgid "Alexandre Lision"
+msgstr ""
+
+#: clients/desktop/main.cpp:140 clients/mobile/main.cpp:186
+#, kde-format
+msgid "Based on the SFLphone teamworks"
+msgstr ""
+
+#: clients/mobile/main.cpp:172
+#, kde-format
+msgid "Banji"
+msgstr ""
+
+#. i18n: ectx: Menu (Actions)
+#: data/ring-kdeui.rc:5 views/basic/qml/sidebar.qml:135
+#, kde-format
+msgid "Actions"
+msgstr "動作"
+
+#. i18n: ectx: Menu (View)
+#: data/ring-kdeui.rc:21
+#, kde-format
+msgid "View"
+msgstr "檢視"
+
+#. i18n: ectx: Menu (Settings)
+#: data/ring-kdeui.rc:31 views/basic/qml/banjiactioncollection.qml:92
+#: views/desktop/qml/desktopwindow.qml:154
+#, kde-format
+msgid "Settings"
+msgstr "設定"
+
+#: src/accountview/qml/accountdialog.qml:83
+#, kde-format
+msgid "Basic"
+msgstr "基本"
+
+#: src/accountview/qml/accountdialog.qml:86
+#: src/accountview/qml/pages/basic.qml:48
+#, kde-format
+msgid "Profile"
+msgstr "設定檔"
+
+#: src/accountview/qml/accountdialog.qml:89
+#: src/contactview/qml/contactinfo.qml:107
+#, kde-format
+msgid "Advanced"
+msgstr "進階"
+
+#: src/accountview/qml/accountdialog.qml:92
+#, kde-format
+msgid "Network"
+msgstr "網路"
+
+#: src/accountview/qml/accountdialog.qml:95
+#, kde-format
+msgid "Devices"
+msgstr ""
+
+#: src/accountview/qml/accountdialog.qml:98
+#, kde-format
+msgid "Codecs"
+msgstr "編解碼器"
+
+#: src/accountview/qml/accountdialog.qml:101
+#, kde-format
+msgid "Credentials"
+msgstr "認證資訊"
+
+#: src/accountview/qml/accountdialog.qml:104
+#, kde-format
+msgid "Security"
+msgstr "安全性"
+
+#: src/accountview/qml/accountdialog.qml:107
+#, kde-format
+msgid "Ringtones"
+msgstr "鈴聲"
+
+#: src/accountview/qml/accountlist.qml:192
+#, fuzzy, kde-format
+#| msgid "Status"
+msgid "Status logs"
+msgstr "狀態"
+
+#: src/accountview/qml/accountlist.qml:199
+#: src/jamivideoview/qml/screensharing.qml:96
+#: views/basic/qml/banjiactioncollection.qml:45
+#, kde-format
+msgid "Share"
+msgstr ""
+
+#: src/accountview/qml/accountlist.qml:206
+#: src/contactview/qml/phonenumbers.qml:193
+#, fuzzy, kde-format
+#| msgid "Delete call"
+msgid "Delete"
+msgstr "刪除通話"
+
+#: src/accountview/qml/accountlist.qml:213
+#, kde-format
+msgid "Reload"
+msgstr ""
+
+#: src/accountview/qml/accountlist.qml:231
+#, kde-format
+msgid "Accounts"
+msgstr "帳號"
+
+#: src/accountview/qml/accountlist.qml:248
+#, fuzzy, kde-format
+#| msgid "Add a new account"
+msgid "Add an account"
+msgstr "加入新的帳號"
+
+#: src/accountview/qml/accounts.qml:143
+#: src/accountview/qml/pages/credentials.qml:76
+#, kde-format
+msgid "Remove"
+msgstr "移除"
+
+#: src/accountview/qml/deleter.qml:42
+#, fuzzy, kde-format
+#| msgid "Add a new account"
+msgid "Delete an account"
+msgstr "加入新的帳號"
+
+#: src/accountview/qml/deleter.qml:45
+#, fuzzy, kde-format
+#| msgid "Are you sure you wish to remove this call?"
+msgid "<center>Are you sure you want to delete the account called "
+msgstr "您確定您要移除這個通話？"
+
+#: src/accountview/qml/deleter.qml:46
+#, kde-format
+msgid ""
+". <br><br> This cannot be undone and you will lose the account "
+"<b>permanently</b></center>"
+msgstr ""
+
+#: src/accountview/qml/pages/advanced.qml:31
+#, kde-format
+msgid "Registration"
+msgstr "註冊"
+
+#: src/accountview/qml/pages/advanced.qml:36
+#, kde-format
+msgid "Registration expire"
+msgstr "註冊過期"
+
+#: src/accountview/qml/pages/advanced.qml:44
+#, fuzzy, kde-format
+#| msgctxt "Account username"
+#| msgid "&Username*"
+msgid "Useragent"
+msgstr "使用者名稱*(&U)"
+
+#: src/accountview/qml/pages/advanced.qml:57
+#, fuzzy, kde-format
+#| msgid "On incoming calls"
+msgid "Incoming calls"
+msgstr "在來電時"
+
+#: src/accountview/qml/pages/advanced.qml:62
+#, kde-format
+msgid "Allow calls from unknown peers"
+msgstr "允許從未知的人接收通話"
+
+#: src/accountview/qml/pages/advanced.qml:70
+#, fuzzy, kde-format
+#| msgid "Allow calls from unknown peers"
+msgid "Allow calls from previously called peers"
+msgstr "允許從未知的人接收通話"
+
+#: src/accountview/qml/pages/advanced.qml:78
+#, kde-format
+msgid "Allow calls from your contacts"
+msgstr "允許從您的聯絡人而來的通話"
+
+#: src/accountview/qml/pages/advanced.qml:86
+#, kde-format
+msgid "Negotiation"
+msgstr "協商"
+
+#: src/accountview/qml/pages/advanced.qml:91
+#, kde-format
+msgid "Proxy server URL"
+msgstr ""
+
+#: src/accountview/qml/pages/advanced.qml:104
+#, fuzzy, kde-format
+#| msgid "TURN server"
+msgid "STUN server URL"
+msgstr "TURN 伺服器"
+
+#: src/accountview/qml/pages/advanced.qml:117
+#, fuzzy, kde-format
+#| msgid "TURN server"
+msgid "TURN server URL"
+msgstr "TURN 伺服器"
+
+#: src/accountview/qml/pages/advanced.qml:130
+#, fuzzy, kde-format
+#| msgid "Feature"
+msgid "Features"
+msgstr "功能"
+
+#: src/accountview/qml/pages/advanced.qml:135
+#, kde-format
+msgid "Enable Plug and Play (UPnP)"
+msgstr ""
+
+#: src/accountview/qml/pages/advanced.qml:143
+#, fuzzy, kde-format
+#| msgid "Enable presence support"
+msgid "Enable presence broadcasting"
+msgstr "啟用出席支援"
+
+#: src/accountview/qml/pages/advanced.qml:151
+#, fuzzy, kde-format
+#| msgid "Video"
+msgid "Enable video calls"
+msgstr "影片"
+
+#: src/accountview/qml/pages/advanced.qml:159
+#, fuzzy, kde-format
+#| msgid "The current call is %1"
+msgid "Concurrent call limit"
+msgstr "目前的通話是 %1"
+
+#: src/accountview/qml/pages/advanced.qml:170
+#, fuzzy, kde-format
+#| msgid "DTMF"
+msgid "DTMF type"
+msgstr "DTMF"
+
+#: src/accountview/qml/pages/advanced.qml:174
+#, fuzzy, kde-format
+#| msgid "Over SIP"
+msgid "DTMF over SIP"
+msgstr "透過 SIP"
+
+#: src/accountview/qml/pages/advanced.qml:179
+#, fuzzy, kde-format
+#| msgid "Over RTP"
+msgid "DTMF over RTP"
+msgstr "透過 RTP"
+
+#: src/accountview/qml/pages/basic.qml:39
+#, fuzzy, kde-format
+#| msgid "Alias*"
+msgid "Alias"
+msgstr "別名*"
+
+#: src/accountview/qml/pages/basic.qml:58
+#, kde-format
+msgid "Protocol"
+msgstr "協定"
+
+#: src/accountview/qml/pages/basic.qml:69
+#, fuzzy, kde-format
+#| msgid "Re&gistered Name*"
+msgid "Registered name"
+msgstr "註冊名稱*(&G)"
+
+#: src/accountview/qml/pages/basic.qml:79
+#, fuzzy, kde-format
+#| msgid "&Display Name*"
+msgid "Display name"
+msgstr "顯示名稱*(&D)"
+
+#: src/accountview/qml/pages/basic.qml:85
+#, fuzzy, kde-format
+#| msgctxt "Account username"
+#| msgid "&Username*"
+msgid "Username"
+msgstr "使用者名稱*(&U)"
+
+#: src/accountview/qml/pages/basic.qml:94
+#: src/accountview/qml/pages/credentials.qml:164
+#: src/accountview/qml/pages/security.qml:77
+#, kde-format
+msgid "Password"
+msgstr "密碼"
+
+#: src/accountview/qml/pages/basic.qml:104
+#, fuzzy, kde-format
+#| msgid "Last Name"
+msgid "Hostname"
+msgstr "姓"
+
+#: src/accountview/qml/pages/credentials.qml:33
+#, kde-format
+msgid ""
+"This tab help manage accounts with multiple credentials. If you have "
+"multiple accounts. Do not use this feature, just create multiple accounts in "
+"Ring-KDE. Nor use this dialog if you only have one set of credentials. In "
+"that case, the \"Basic\" tab will provide everything you need."
+msgstr ""
+"這個分頁協助管理有多個憑證的帳號。若您有多個帳號，請不要使用此功能，只要在 "
+"Ring-KDE 中建立多個帳號就好了。若您僅有一套憑證，也請不要使用此對話框。在這種"
+"情況下，「基本」分頁將會提供任何您需要的東西。"
+
+#: src/accountview/qml/pages/credentials.qml:85
+#: src/contactview/qml/phonenumbers.qml:207
+#: views/basic/qml/banjiactioncollection.qml:50
+#, kde-format
+msgid "Edit"
+msgstr ""
+
+#: src/accountview/qml/pages/credentials.qml:90
+#, fuzzy, kde-format
+#| msgid "Move Up"
+msgid "Move up"
+msgstr "上移"
+
+#: src/accountview/qml/pages/credentials.qml:95
+#, fuzzy, kde-format
+#| msgid "Move Down"
+msgid "Move down"
+msgstr "下移"
+
+#: src/accountview/qml/pages/credentials.qml:136
+#, kde-format
+msgid "Details"
+msgstr "詳細資料"
+
+#: src/accountview/qml/pages/credentials.qml:152
+#, kde-format
+msgid "Realm"
+msgstr "領域"
+
+#: src/accountview/qml/pages/credentials.qml:158
+#, fuzzy, kde-format
+#| msgid "Auth. name"
+msgid "User (auth) name"
+msgstr "授權名稱"
+
+#: src/accountview/qml/pages/devices.qml:112
+#, kde-format
+msgid "Enter your account password to confirm:"
+msgstr ""
+
+#: src/accountview/qml/pages/devices.qml:119
+#, fuzzy, kde-format
+#| msgid "Enter the password"
+msgid "Enter your Ring account password"
+msgstr "請輸入密碼"
+
+#: src/accountview/qml/pages/devices.qml:178
+#, kde-format
+msgid "Enter a name for this device"
+msgstr ""
+
+#: src/accountview/qml/pages/devices.qml:219
+#, kde-format
+msgid "Revokation in progress"
+msgstr ""
+
+#: src/accountview/qml/pages/devices.qml:302
+#, kde-format
+msgid "Link another device to the account"
+msgstr ""
+
+#: src/accountview/qml/pages/devices.qml:316
+#, fuzzy, kde-format
+#| msgid ",Your peer is %1"
+msgid "Your pin is:"
+msgstr "，您的人物是 %1"
+
+#: src/accountview/qml/pages/devices.qml:330
+#, kde-format
+msgid ""
+"To complete the process, you need to open Ring on the new device. Create a "
+"new account with \"Link this device to an account\". Your pin is valid for "
+"10 minutes."
+msgstr ""
+
+#: src/accountview/qml/pages/devices.qml:334
+#: src/contactview/qml/pendingrequests.qml:133
+#: src/dialview/qml/calldelegateitem.qml:66
+#: src/jamikdeintegration/src/actioncollection.cpp:85
+#: src/jamisearch/qml/toolbar.qml:39
+#, kde-format
+msgid "Close"
+msgstr ""
+
+#: src/accountview/qml/pages/network.qml:37
+#, fuzzy, kde-format
+#| msgid "Network Interface"
+msgid "Network interface"
+msgstr "網路介面"
+
+#: src/accountview/qml/pages/network.qml:42
+#, fuzzy, kde-format
+#| msgid "Local port"
+msgid "localPort"
+msgstr "本機連接埠"
+
+#: src/accountview/qml/pages/network.qml:52
+#: src/accountview/qml/pages/network.qml:81
+#, kde-format
+msgid "Published address"
+msgstr "公開位置"
+
+#: src/accountview/qml/pages/network.qml:57
+#, fuzzy, kde-format
+#| msgid "Same as local parameters"
+msgid "Same as the local parameters"
+msgstr "與本機參數相同"
+
+#: src/accountview/qml/pages/network.qml:66
+#, fuzzy, kde-format
+#| msgid "Use custom user agent"
+msgid "Use custom values"
+msgstr "使用自訂的使用者代理"
+
+#: src/accountview/qml/pages/network.qml:70
+#, kde-format
+msgid "Published port"
+msgstr "公開埠"
+
+#: src/accountview/qml/pages/network.qml:91
+#, fuzzy, kde-format
+#| msgid "RTP configuration"
+msgid "RTP configuration (not recommended)"
+msgstr "RTP 設定"
+
+#: src/accountview/qml/pages/network.qml:96
+#, kde-format
+msgid "Minimum audio port"
+msgstr "最小音訊埠"
+
+#: src/accountview/qml/pages/network.qml:106
+#, kde-format
+msgid "Maximum audio port"
+msgstr "最大音訊埠"
+
+#: src/accountview/qml/pages/network.qml:116
+#, kde-format
+msgid "Minimum video port"
+msgstr "最小視訊埠"
+
+#: src/accountview/qml/pages/network.qml:126
+#, kde-format
+msgid "Maximum video port"
+msgstr "最大視訊埠"
+
+#: src/accountview/qml/pages/security.qml:48
+#, fuzzy, kde-format
+#| msgid "Known certificates"
+msgid "TLS Certificates"
+msgstr "已知的證書"
+
+#: src/accountview/qml/pages/security.qml:53
+#, fuzzy, kde-format
+#| msgid "Authority certificate list"
+msgid "Authority certificate(s)"
+msgstr "機構證書清單"
+
+#: src/accountview/qml/pages/security.qml:61
+#, fuzzy, kde-format
+#| msgid "Public endpoint certificate"
+msgid "Endpoint certificate"
+msgstr "公開端點證書"
+
+#: src/accountview/qml/pages/security.qml:69
+#, kde-format
+msgid "Private key"
+msgstr "私密金鑰"
+
+#: src/accountview/qml/pages/security.qml:88
+#, kde-format
+msgid ""
+"Your certificates access are too permissive. Certificates should only be "
+"readable by the owner."
+msgstr "您的證書存取權限過於寬鬆。證書應該只能被擁有者讀取。"
+
+#: src/accountview/qml/pages/security.qml:91
+#, kde-format
+msgid "Fix the permissions"
+msgstr "修復權限"
+
+#: src/accountview/qml/pages/security.qml:97
+#: src/accountview/qml/pages/security.qml:117
+#, kde-format
+msgid "No thanks"
+msgstr "不了，謝謝"
+
+#: src/accountview/qml/pages/security.qml:108
+#, fuzzy, kde-format
+#| msgid ""
+#| "A good security practice is to move the certificates to a common "
+#| "directory. SELinux recommend ~/.cert for this. Do you wish to move the "
+#| "certificate there?"
+msgid ""
+"A good security practice is to move the certificates to a common directory. "
+"SELinux recommends ~/.cert for this. Do you wish to move the certificate "
+"there?"
+msgstr ""
+"良好的安全措施是將證書移動到一般目錄。SELinux 為此建議 ~/.cert。您想將證書移"
+"動到那邊去嗎？"
+
+#: src/accountview/qml/pages/security.qml:111
+#, kde-format
+msgid "Move to ~/.cert"
+msgstr "移動到 ~/.cert"
+
+#: src/accountview/qml/pages/security.qml:125
+#, kde-format
+msgid "Faulty servers workarounds"
+msgstr ""
+
+#: src/accountview/qml/pages/security.qml:130
+#, fuzzy, kde-format
+#| msgid "Encr&ypt media streams (SRTP)"
+msgid "Encrypt media streams (SRTP)"
+msgstr "加密媒體串流 (SRTP)"
+
+#: src/accountview/qml/pages/security.qml:138
+#, kde-format
+msgid "Fallback on RTP on SDES failure"
+msgstr "在 SDES 失敗時退回 RTP"
+
+#: src/accountview/qml/pages/security.qml:146
+#, fuzzy, kde-format
+#| msgid "Encrypt negotiation (&TLS)"
+msgid "Encrypt negotiation (TLS)"
+msgstr "加密協商 (TLS) (&T)"
+
+#: src/accountview/qml/pages/security.qml:154
+#, kde-format
+msgid "Verify Server"
+msgstr ""
+
+#: src/accountview/qml/pages/security.qml:162
+#, fuzzy, kde-format
+#| msgctxt "SIP server"
+#| msgid "Server*"
+msgid "Server Name"
+msgstr "伺服器*"
+
+#: src/accountview/qml/pages/security.qml:170
+#, kde-format
+msgid "Require a certificate for incoming TLS connections"
+msgstr "連入的 TLS 連線需要證書"
+
+#: src/accountview/qml/pages/security.qml:178
+#, kde-format
+msgid "Negotiation timeout"
+msgstr "協商逾時"
+
+#: src/accountview/qml/pages/security.qml:186
+#, kde-format
+msgid "Verify incoming certificates (server side)"
+msgstr "驗證連入證書（伺服器端）"
+
+#: src/accountview/qml/securitylevel.qml:186
+#, fuzzy, kde-format
+#| msgid "%1 tip"
+#| msgid_plural "%1 tips"
+msgid " tips"
+msgstr "%1 個提示"
+
+#: src/accountview/qml/securitylevel.qml:197
+#, fuzzy, kde-format
+#| msgid "%1 warning"
+#| msgid_plural "%1 warnings"
+msgid " warnings"
+msgstr "%1 個警告"
+
+#: src/accountview/qml/securitylevel.qml:208
+#, fuzzy, kde-format
+#| msgid "%1 issue"
+#| msgid_plural "%1 issues"
+msgid " issues"
+msgstr "%1 個問題"
+
+#: src/accountview/qml/securitylevel.qml:219
+#, fuzzy, kde-format
+#| msgid "%1 error"
+#| msgid_plural "%1 errors"
+msgid " errors"
+msgstr "%1 個錯誤"
+
+#: src/callview/qml/callbackground.qml:38
+#, kde-format
+msgid "[No video]"
+msgstr ""
+
+#: src/callview/qml/callbackground.qml:94
+#, fuzzy, kde-format
+#| msgid "Call ended"
+msgid "Call Ended"
+msgstr "通話結束"
+
+#: src/callview/qml/cmselector.qml:47
+#, kde-format
+msgid "This contact has multiple phone numbers, please select one below."
+msgstr ""
+
+#: src/callview/qml/cmselector.qml:122
+#, fuzzy, kde-format
+#| msgid "Accounts"
+msgid " (Account: "
+msgstr "帳號"
+
+#: src/callview/qml/cmselector.qml:130 src/contactview/qml/phonenumbers.qml:287
+#, kde-format
+msgid "Never used"
+msgstr ""
+
+#: src/callview/qml/cmselector.qml:131 src/contactview/qml/phonenumbers.qml:288
+#, kde-format
+msgid "Used "
+msgstr ""
+
+#: src/callview/qml/cmselector.qml:131 src/contactview/qml/phonenumbers.qml:288
+#, kde-format
+msgid " time (Last used on: "
+msgstr ""
+
+#: src/callview/qml/recordingicon.qml:54
+#, kde-format
+msgid "Recording"
+msgstr "錄製"
+
+#: src/canvasindicators/qml/progress.qml:99
+#, fuzzy, kde-format
+#| msgid "Dialog"
+msgid "Dialing"
+msgstr "對話框"
+
+#: src/canvasindicators/qml/progress.qml:111
+#, fuzzy, kde-format
+#| msgid "Search history"
+msgid "Searching"
+msgstr "搜尋歷史"
+
+#: src/canvasindicators/qml/progress.qml:123
+#, fuzzy, kde-format
+#| msgid "Ringtone"
+msgid "Ringing"
+msgstr "鈴聲"
+
+#: src/canvasindicators/qml/progress.qml:134
+#, fuzzy, kde-format
+#| msgid "Settings"
+msgid "Starting"
+msgstr "設定"
+
+#: src/contactview/qml/contactcard.qml:89
+#, kde-format
+msgid "There is no way to reach this contact"
+msgstr ""
+
+#: src/contactview/qml/contactinfo.qml:132
+#: src/contactview/qml/contactinfo.qml:375
+#, fuzzy, kde-format
+#| msgid "Phone number"
+msgid "Phone numbers"
+msgstr "電話號碼"
+
+#: src/contactview/qml/contactinfo.qml:324 views/basic/qml/sidebar.qml:163
+#, fuzzy, kde-format
+#| msgid "Status"
+msgid "Statistics"
+msgstr "狀態"
+
+#: src/contactview/qml/contactinfo.qml:341
+#, fuzzy, kde-format
+#| msgid "Search history"
+msgid "View history"
+msgstr "搜尋歷史"
+
+#: src/contactview/qml/contactinfo.qml:351
+#, fuzzy, kde-format
+#| msgid "Open Image"
+msgid "Open chat"
+msgstr "開啟影像"
+
+#: src/contactview/qml/contactinfo.qml:360
+#, fuzzy, kde-format
+#| msgid "Visible contacts Details"
+msgid "Contact details"
+msgstr "可見的聯絡人詳細資訊"
+
+#: src/contactview/qml/pendingrequests.qml:66
+#: src/jamikdeintegration/src/actioncollection.cpp:87
+#, kde-format
+msgid "Accept"
+msgstr "接受"
+
+#: src/contactview/qml/pendingrequests.qml:74
+#, fuzzy, kde-format
+#| msgid "Online"
+msgid "Decline"
+msgstr "上線"
+
+#: src/contactview/qml/pendingrequests.qml:80
+#, kde-format
+msgid "Block"
+msgstr ""
+
+#: src/contactview/qml/phonenumbers.qml:88
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#: src/contactview/qml/phonenumbers.qml:123
+#, fuzzy, kde-format
+#| msgid "Cancelled"
+msgid "Cancel"
+msgstr "已取消"
+
+#: src/contactview/qml/phonenumbers.qml:145
+#, kde-format
+msgid "Add a phone number or GNU Ring identity"
+msgstr ""
+
+#: src/contactview/qml/phonenumbers.qml:214
+#: views/desktop/qml/mediabuttons.qml:255
+#, kde-format
+msgid "Call"
+msgstr "通話"
+
+#: src/contactview/qml/phonenumbers.qml:220 views/basic/qml/pagemanager.qml:151
+#, fuzzy, kde-format
+#| msgid "Video"
+msgid "Video call"
+msgstr "影片"
+
+#: src/contactview/qml/phonenumbers.qml:226
+#, fuzzy, kde-format
+#| msgid "Fullscreen"
+msgid "Share screen"
+msgstr "全螢幕"
+
+#: src/contactview/qml/sendrequest.qml:47
+#, kde-format
+msgid "Send a friend request first"
+msgstr ""
+
+#: src/contactview/qml/sendrequest.qml:65
+#: src/jamitroubleshooting/qml/troubleshoot.qml:135
+#, kde-format
+msgid "Dismiss"
+msgstr ""
+
+#: src/contactview/qml/vcardform.qml:105
+#, fuzzy, kde-format
+#| msgid "Formatted name"
+msgid "Formatted name:"
+msgstr "格式化名稱"
+
+#: src/contactview/qml/vcardform.qml:119
+#, fuzzy, kde-format
+#| msgid "Display name*"
+msgid "Primary name:"
+msgstr "顯示名稱*"
+
+#: src/contactview/qml/vcardform.qml:132
+#, fuzzy, kde-format
+#| msgid "Last Name"
+msgid "Last name:"
+msgstr "姓"
+
+#: src/contactview/qml/vcardform.qml:145
+#, fuzzy, kde-format
+#| msgid "Email"
+msgid "Email:"
+msgstr "電子郵件"
+
+#: src/contactview/qml/viewcontactrequests.qml:62
+#, kde-format
+msgid "You have pending contact requests:"
+msgstr ""
+
+#: src/contactview/qml/viewcontactrequests.qml:82
+#, fuzzy, kde-format
+#| msgid "Add new contact"
+msgid "View all contact requests"
+msgstr "加入新聯絡人"
+
+#: src/dialview/qml/addcall.qml:27
+#, fuzzy, kde-format
+#| msgid "Add new contact"
+msgid "Create a call"
+msgstr "加入新聯絡人"
+
+#: src/dialview/qml/calldelegate.qml:79
+#, kde-format
+msgid "Conference"
+msgstr "會議"
+
+#: src/dialview/qml/finishedcall.qml:39
+#, kde-format
+msgid "The call finished normally"
+msgstr ""
+
+#: src/dialview/qml/mergecall.qml:62
+#, kde-format
+msgid "Merge all calls"
+msgstr ""
+
+#: src/dialview/qml/mergecall.qml:122
+#, fuzzy, kde-format
+#| msgid "Search call"
+msgid "Detach all calls"
+msgstr "搜尋通話"
+
+#: src/dialview/qml/missedcall.qml:46
+#, kde-format
+msgid "<center><b>Missed call</b></center> <br />from: "
+msgstr ""
+
+#: src/jamiaudioplayer/qml/audioplayer.qml:88
+#, kde-format
+msgid "Click to play"
+msgstr ""
+
+#: src/jamichatview/qml/callgroup.qml:88
+#, fuzzy, kde-format
+#| msgid "Paste"
+msgid "Lasted "
+msgstr "貼上"
+
+#: src/jamichatview/qml/callgroup.qml:88
+#, kde-format
+msgid " seconds"
+msgstr ""
+
+#: src/jamichatview/qml/callgroup.qml:109
+#, fuzzy, kde-format
+#| msgid "On incoming calls"
+msgid "</b> incoming calls"
+msgstr "在來電時"
+
+#: src/jamichatview/qml/callgroup.qml:119
+#, fuzzy, kde-format
+#| msgid "On messages"
+msgid "</b> outgoing calls"
+msgstr "在訊息時"
+
+#: src/jamichatview/qml/callgroup.qml:129
+#, kde-format
+msgid "</b> missed calls"
+msgstr ""
+
+#: src/jamichatview/qml/chatbox.qml:202
+#, kde-format
+msgid "Write a message and press enter..."
+msgstr ""
+
+#: src/jamichatview/qml/chatbox.qml:241
+#, kde-format
+msgid "Send"
+msgstr ""
+
+#: src/jamihistoryview/qml/recordinghistory.qml:51
+#, kde-format
+msgid ""
+"There is nothing yet, enter a message below or place a call using the "
+"buttons\n"
+"found in the header"
+msgstr ""
+
+#: src/jamihistoryview/qml/recordinghistory.qml:151
+#, fuzzy, kde-format
+#| msgid "On messages"
+msgid " incoming messages"
+msgstr "在訊息時"
+
+#: src/jamihistoryview/qml/recordinghistory.qml:162
+#, fuzzy, kde-format
+#| msgid "On messages"
+msgid " outgoing messages"
+msgstr "在訊息時"
+
+#. i18n: ectx: label, entry (enableWizard), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:12
+#, kde-format
+msgid "Show the first run wizard"
+msgstr "顯示首次執行精靈"
+
+#. i18n: ectx: label, entry (enableHistory), group (main)
+#. i18n: ectx: label, entry (requireLegacyHistoryImport), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:16
+#: src/jamikdeintegration/ring-kde.kcfg:19
+#, kde-format
+msgid "Defines whether Ring-KDE should keep a history of calls."
+msgstr ""
+
+#. i18n: ectx: label, entry (historyMax), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:23
+#, kde-format
+msgid "Defines the number of days the history has to be kept."
+msgstr ""
+
+#. i18n: ectx: label, entry (displayHistoryStatus), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:29
+#, kde-format
+msgid "Display incoming, outgoing or missed"
+msgstr ""
+
+#. i18n: ectx: label, entry (showSplash), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:36
+#, fuzzy, kde-format
+#| msgid "Display department"
+msgid "Display the splashscreen."
+msgstr "顯示部門"
+
+#. i18n: ectx: label, entry (notifOnCalls), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:40
+#, kde-format
+msgid "Defines whether user should be notified when receiving a call."
+msgstr ""
+
+#. i18n: ectx: label, entry (notifOnMessages), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:44
+#, kde-format
+msgid "Defines whether user should be notified when receiving a message."
+msgstr ""
+
+#. i18n: ectx: label, entry (displayOnStart), group (main)
+#. i18n: ectx: label, entry (autoStart), group (main)
+#. i18n: ectx: label, entry (autoStartOverride), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:48
+#: src/jamikdeintegration/ring-kde.kcfg:52
+#: src/jamikdeintegration/ring-kde.kcfg:56
+#, kde-format
+msgid "Defines whether the main window should be displayed on start."
+msgstr ""
+
+#. i18n: ectx: label, entry (displayOnCalls), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:60
+#, kde-format
+msgid ""
+"Defines whether the main window should be displayed when receiving a message."
+msgstr ""
+
+#. i18n: ectx: label, entry (displayOnNewCalls), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:64
+#, kde-format
+msgid ""
+"Defines whether the main window should be displayed when a call is created"
+msgstr ""
+
+#. i18n: ectx: label, entry (displayDialpad), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:68
+#, kde-format
+msgid "Defines whether the dialpad is being shown by default"
+msgstr ""
+
+#. i18n: ectx: label, entry (displayAccountBox), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:72
+#, kde-format
+msgid ""
+"Defines whether the statusbar account combobox is being shown by default"
+msgstr ""
+
+#. i18n: ectx: label, entry (displayMessageBox), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:76
+#, kde-format
+msgid "Defines whether the text message box is visible"
+msgstr ""
+
+#. i18n: ectx: label, entry (displayVolume), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:80
+#, kde-format
+msgid "Defines whether the volume widgets are visible by default"
+msgstr ""
+
+#. i18n: ectx: label, entry (displayMenu), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:84
+#, kde-format
+msgid ""
+"Defines whether the main menu is visible by default, it can be restored with "
+"\"Ctrl+m\""
+msgstr ""
+
+#. i18n: ectx: label, entry (displayPopularAsBookmark), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:88
+#, kde-format
+msgid ""
+"Defines whether or not to display the 10 most popular phone number as "
+"bookmark automagically"
+msgstr ""
+
+#. i18n: ectx: label, entry (historySortMode), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:98
+#, kde-format
+msgid "Define sorting order for history list"
+msgstr ""
+
+#. i18n: ectx: label, entry (contactSortMode), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:101
+#, kde-format
+msgid "Define sorting order for contact list"
+msgstr ""
+
+#. i18n: ectx: label, entry (displayPersonCallHistory), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:104
+#, kde-format
+msgid "Defines if the individual contact history list is visible"
+msgstr ""
+
+#. i18n: ectx: label, entry (autoCompletionHeight), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:108
+#, kde-format
+msgid "The auto completion popup height"
+msgstr ""
+
+#. i18n: ectx: label, entry (keepVideoAspectRatio), group (main)
+#. i18n: ectx: label, entry (displayVideoPreview), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:114
+#: src/jamikdeintegration/ring-kde.kcfg:118
+#, kde-format
+msgid "Enforce video aspect ratio or allow stretching"
+msgstr ""
+
+#. i18n: ectx: label, entry (autoHideDiapadForVideo), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:122
+#, kde-format
+msgid "Save main window space by hiding the dialpad when the video is docked"
+msgstr ""
+
+#. i18n: ectx: label, entry (recentStreamedFiles), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:126
+#, kde-format
+msgid "Files recently streamed"
+msgstr ""
+
+#. i18n: ectx: label, entry (enableRoomTone), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:133
+#, kde-format
+msgid "Enable or disables the \"buzzzzz\" sound"
+msgstr ""
+
+#. i18n: ectx: label, entry (displayAllCollections), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:140
+#, kde-format
+msgid "Display non manageable collections"
+msgstr ""
+
+#. i18n: ectx: label, entry (disabledCollectionList), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:145
+#, kde-format
+msgid "List of disabled address book collections"
+msgstr ""
+
+#. i18n: ectx: label, entry (phoneTypeList), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:149
+#, kde-format
+msgid "Defines whether the search in KDE Address Book is enabled"
+msgstr ""
+
+#. i18n: ectx: label, entry (hidePersonWithoutPhone), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:154
+#, kde-format
+msgid "Defines whether to display the organisation of the contact list item"
+msgstr ""
+
+#. i18n: ectx: label, entry (defaultPeerProfileMode), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:159
+#, kde-format
+msgid "Defines how peer profiles are merged with existing contacts"
+msgstr ""
+
+#. i18n: ectx: label, entry (hideUnreachable), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:164
+#, kde-format
+msgid "Hide unreachable contacts"
+msgstr "隱藏無法連絡的連絡人"
+
+#. i18n: ectx: tooltip, entry (hideUnreachable), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:165
+#, kde-format
+msgid "Hide a contact if there is no enabled accounts that can reach him/her"
+msgstr ""
+
+#. i18n: ectx: label, entry (defaultAccountId), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:170
+#, kde-format
+msgid ""
+"Default account used for contact lookup if only partial (only extension) "
+"contacts info is available"
+msgstr ""
+
+#. i18n: ectx: label, entry (bookmarkList), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:191
+#, kde-format
+msgid "List of bookmarked clients"
+msgstr ""
+
+#. i18n: ectx: label, entry (enableVoiceFeedback), group (main)
+#. i18n: ectx: label, entry (displayContactDock), group (main)
+#. i18n: ectx: label, entry (displayHistoryDock), group (main)
+#. i18n: ectx: label, entry (displayBookmarkDock), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:196
+#: src/jamikdeintegration/ring-kde.kcfg:237
+#: src/jamikdeintegration/ring-kde.kcfg:241
+#: src/jamikdeintegration/ring-kde.kcfg:245
+#, kde-format
+msgid "Enable audio feedback from common actions"
+msgstr "啟用從一般動作而來的音訊回饋"
+
+#. i18n: ectx: label, entry (enableReadLabel), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:200
+#, kde-format
+msgid "Automatically read label when an overlay is being displayed"
+msgstr "當覆蓋層顯示時自動讀取標籤"
+
+#. i18n: ectx: label, entry (enableReadDetails), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:204
+#, kde-format
+msgid "Automatically read the call details when it is selected"
+msgstr "當通話詳細資訊被選取時自動讀取它"
+
+#. i18n: ectx: label, entry (enableAutoCompletion), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:210
+#, kde-format
+msgid "Enable auto completion widget"
+msgstr ""
+
+#. i18n: ectx: label, entry (autoCompleteMergeNumbers), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:214
+#, kde-format
+msgid ""
+"If there is multiple instance of the same number, merge them and use the "
+"default account"
+msgstr ""
+
+#. i18n: ectx: label, entry (autoCompleteUseAccount), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:218
+#, kde-format
+msgid ""
+"Call numbers back with their original account instead of the default one"
+msgstr ""
+
+#. i18n: ectx: label, entry (trackBookmarkPresence), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:224
+#, kde-format
+msgid "Track bookmarked contacts presence"
+msgstr ""
+
+#. i18n: ectx: label, entry (presenceStatusList), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:229
+#, kde-format
+msgid "List of presence status"
+msgstr ""
+
+#. i18n: ectx: label, entry (presenceAutoTrackedCollections), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:232
+#, kde-format
+msgid "List of item collections automatically tracked"
+msgstr ""
+
+#. i18n: ectx: label, entry (displayRecentDock), group (main)
+#. i18n: ectx: label, entry (displayDialDock), group (main)
+#: src/jamikdeintegration/ring-kde.kcfg:249
+#: src/jamikdeintegration/ring-kde.kcfg:253
+#, kde-format
+msgid "Display the recently used contacts"
+msgstr ""
+
+#: src/jamikdeintegration/src/accessibility.cpp:45
+#, kde-format
+msgid "List all current calls"
+msgstr "列出所有目前的通話"
+
+#: src/jamikdeintegration/src/accessibility.cpp:53
+#, kde-format
+msgid "Get current call details"
+msgstr "取得目前的通話詳細資訊"
+
+#: src/jamikdeintegration/src/accessibility.cpp:81
+#, kde-format
+msgid "You currently have <numid>%1</numid> call"
+msgid_plural "You currently have <numid>%1</numid> calls"
+msgstr[0] "您目前有 <numid>%1</numid> 個通話"
+
+#: src/jamikdeintegration/src/accessibility.cpp:83
+#, kde-format
+msgid "Call from %1, number %2"
+msgstr "從 %1 而來的通話，號碼 %2"
+
+#: src/jamikdeintegration/src/accessibility.cpp:87
+#, kde-format
+msgid "You currently have no call"
+msgstr "您目前沒有通話"
+
+#: src/jamikdeintegration/src/accessibility.cpp:109
+#, kde-format
+msgid "The current call is %1"
+msgstr "目前的通話是 %1"
+
+#: src/jamikdeintegration/src/accessibility.cpp:111
+#, kde-format
+msgid ",Your peer is %1"
+msgstr "，您的人物是 %1"
+
+#: src/jamikdeintegration/src/accessibility.cpp:113
+#, kde-format
+msgid ", the peer phone number is %1 "
+msgstr "，人物的電話號碼是 %1"
+
+#: src/jamikdeintegration/src/accessibility.cpp:115
+#, kde-format
+msgid ", the phone number is %1 "
+msgstr "，電話號碼是 %1"
+
+#: src/jamikdeintegration/src/accessibility.cpp:119
+#, kde-format
+msgid " and you have been talking since %1 seconds"
+msgstr "且您已經通話了 %1 秒"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:88
+#, kde-format
+msgid "Hold"
+msgstr "保留"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:89
+#, kde-format
+msgid "Transfer"
+msgstr "轉送"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:90
+#, kde-format
+msgid "Record"
+msgstr "紀錄"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:91
+#: src/jaminotification/notification.cpp:91
+#: views/desktop/qml/mediabuttons.qml:418
+#, kde-format
+msgid "Hang up"
+msgstr "掛斷"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:109
+#, kde-format
+msgctxt "Mute the current audio capture device"
+msgid "Mute"
+msgstr "靜音"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:110
+#, kde-format
+msgctxt "Mute the current audio playback device"
+msgid "Mute Playback"
+msgstr "播放靜音"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:112
+#, kde-format
+msgid "Rotate left"
+msgstr "向左旋轉"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:113
+#, kde-format
+msgid "Rotate right"
+msgstr "向右旋轉"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:114
+#: src/jamikdeintegration/src/actioncollection.cpp:115
+#, kde-format
+msgid "Flip"
+msgstr "翻轉"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:116
+#, kde-format
+msgid "Mute"
+msgstr "靜音"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:117
+#, kde-format
+msgid "Preview"
+msgstr "預覽"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:118
+#, kde-format
+msgid "Keep aspect ratio"
+msgstr "保留外觀比例"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:119
+#, kde-format
+msgid "Fullscreen"
+msgstr "全螢幕"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:165
+#, kde-format
+msgid "Quit"
+msgstr ""
+
+#: src/jamikdeintegration/src/actioncollection.cpp:167
+#, kde-format
+msgid "Display dialpad"
+msgstr "顯示撥號盤"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:168
+#, kde-format
+msgid "Display volume controls"
+msgstr "顯示音量控制"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:169
+#, kde-format
+msgid "Display account selector"
+msgstr "顯示帳號選擇器"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:170
+#, kde-format
+msgid "Raise Ring-KDE window"
+msgstr "提升 Ring-KDE 視窗"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:171
+#, kde-format
+msgid "Search history"
+msgstr "搜尋歷史"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:172
+#, kde-format
+msgid "Search call"
+msgstr "搜尋通話"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:173
+#, kde-format
+msgid "Search contact"
+msgstr "搜尋聯絡人"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:174
+#, kde-format
+msgid "Search bookmark"
+msgstr "搜尋書籤"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:176
+#, fuzzy, kde-format
+#| msgid "New account"
+msgid "New account wizard"
+msgstr "新增帳戶"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:177
+#, kde-format
+msgid "Show the menu"
+msgstr ""
+
+#: src/jamikdeintegration/src/actioncollection.cpp:178
+#, fuzzy, kde-format
+#| msgid "Add new contact"
+msgid "New contact"
+msgstr "加入新聯絡人"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:179
+#, kde-format
+msgid "Paste"
+msgstr "貼上"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:180
+#, kde-format
+msgid "Display Person"
+msgstr "顯示人物"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:181
+#, kde-format
+msgid "Display history"
+msgstr "顯示歷史"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:182
+#, kde-format
+msgid "Display bookmark"
+msgstr "顯示書籤"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:183
+#, fuzzy, kde-format
+#| msgid "Display name*"
+msgid "Display timeline"
+msgstr "顯示名稱*"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:184
+#, fuzzy, kde-format
+#| msgid "Display Call Number"
+msgid "Display call manager"
+msgstr "顯示通話號碼"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:185
+#, kde-format
+msgid "Add new contact"
+msgstr "加入新聯絡人"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:186
+#, fuzzy, kde-format
+#| msgid "Configure Shortcut"
+msgid "Configure Shortcuts"
+msgstr "設定快捷鍵"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:187
+#, kde-format
+msgid "Configure Notifications"
+msgstr "設定通知"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:188
+#, fuzzy, kde-format
+#| msgid "Configure Shortcut"
+msgid "Configure Accounts"
+msgstr "設定快捷鍵"
+
+#: src/jamikdeintegration/src/actioninterface.cpp:98
+#, kde-format
+msgid "Are you sure you want to permanently delete %1?"
+msgstr "您確定您想要永久刪除 %1？"
+
+#: src/jamikdeintegration/src/actioninterface.cpp:99
+#: views/basic/qml/banjiactioncollection.qml:65
+#, kde-format
+msgid "Delete contact"
+msgstr "刪除聯絡人"
+
+#: src/jamikdeintegration/src/actioninterface.cpp:109
+#, kde-format
+msgid "Are you sure you wish to remove this call?"
+msgstr "您確定您要移除這個通話？"
+
+#: src/jamikdeintegration/src/actioninterface.cpp:109
+#, kde-format
+msgid "Delete call"
+msgstr "刪除通話"
+
+#: src/jamikdeintegration/src/akonadibackend.cpp:271
+#, kde-format
+msgid "Contact"
+msgstr "聯絡人"
+
+#: src/jamikdeintegration/src/plugin.cpp:78
+#, kde-format
+msgid "Home"
+msgstr ""
+
+#: src/jamikdeintegration/src/plugin.cpp:79
+#, kde-format
+msgid "Work"
+msgstr ""
+
+#: src/jamikdeintegration/src/plugin.cpp:80
+#, kde-format
+msgid "Msg"
+msgstr ""
+
+#: src/jamikdeintegration/src/plugin.cpp:81
+#, kde-format
+msgid "Pref"
+msgstr ""
+
+#: src/jamikdeintegration/src/plugin.cpp:82
+#, kde-format
+msgid "Voice"
+msgstr ""
+
+#: src/jamikdeintegration/src/plugin.cpp:83
+#, kde-format
+msgid "Fax"
+msgstr ""
+
+#: src/jamikdeintegration/src/plugin.cpp:84
+#, kde-format
+msgid "Cell"
+msgstr ""
+
+#: src/jamikdeintegration/src/plugin.cpp:85
+#: views/desktop/qml/mediabuttons.qml:316
+#, kde-format
+msgid "Video"
+msgstr "影片"
+
+#: src/jamikdeintegration/src/plugin.cpp:86
+#, kde-format
+msgid "Bbs"
+msgstr ""
+
+#: src/jamikdeintegration/src/plugin.cpp:87
+#, kde-format
+msgid "Modem"
+msgstr ""
+
+#: src/jamikdeintegration/src/plugin.cpp:88
+#, kde-format
+msgid "Car"
+msgstr ""
+
+#: src/jamikdeintegration/src/plugin.cpp:89
+#, kde-format
+msgid "Isdn"
+msgstr ""
+
+#: src/jamikdeintegration/src/plugin.cpp:90
+#, kde-format
+msgid "Pcs"
+msgstr ""
+
+#: src/jamikdeintegration/src/plugin.cpp:91
+#, kde-format
+msgid "Pager"
+msgstr ""
+
+#: src/jamikdeintegration/src/plugin.cpp:92
+#, kde-format
+msgid "Preferred"
+msgstr ""
+
+#: src/jamikdeintegration/src/plugin.cpp:123
+#, kde-format
+msgid "System root certificates"
+msgstr ""
+
+#: src/jaminotification/notification.cpp:81
+#, kde-format
+msgid "New incoming call"
+msgstr ""
+
+#: src/jaminotification/notification.cpp:83
+#, kde-format
+msgid ""
+"New call from <b>%1</b>\n"
+"<i>(%2)</i>"
+msgstr ""
+
+#: src/jaminotification/notification.cpp:90
+#, kde-format
+msgid "Answer"
+msgstr ""
+
+#: src/jaminotification/notification.cpp:141
+#, kde-format
+msgid "Message from %1"
+msgstr ""
+
+#: src/jaminotification/notification.cpp:182
+#, kde-format
+msgid "Add %1 to contacts?"
+msgstr ""
+
+#: src/jaminotification/notification.cpp:184
+#, kde-format
+msgid "Do you wish to add %1 to your addressbook?"
+msgstr ""
+
+#: src/jaminotification/notification.cpp:188
+#, kde-format
+msgid "Yes"
+msgstr ""
+
+#: src/jaminotification/notification.cpp:189
+#, kde-format
+msgid "No"
+msgstr ""
+
+#: src/jaminotification/notification.cpp:190
+#, kde-format
+msgid "Do not ask again"
+msgstr ""
+
+#: src/jamisearch/qml/searchbox.qml:139
+#, kde-format
+msgid "Find someone"
+msgstr ""
+
+#: src/jamisearch/qml/searchoverlay.qml:222
+#, kde-format
+msgid "Cannot select this person because it was not found"
+msgstr ""
+
+#: src/jamisearch/qml/searchoverlay.qml:237
+#, kde-format
+msgid "Hide and do not show again"
+msgstr ""
+
+#: src/jamisearch/qml/searchtip.qml:77
+#, kde-format
+msgid "Got it"
+msgstr ""
+
+#: src/jamisearch/qml/searchtip.qml:89
+#, kde-format
+msgid ""
+"The search results come from 4 different sources. It first look in the <b "
+"style=\"color:#be3411;\">history</b>, the <b style=\"color:#cfa02a;"
+"\">bookmarks</b> and the <b style=\"color:#14883b;\">contacts</b>. If there "
+"is no perfect match it then query the <b style=\"color:#2c53bd;\">registered "
+"name database</b>. The source of the result is indicated using a colored "
+"circle on the left side of the result. Note that accessing the registered "
+"name database requires sending the search string to the server."
+msgstr ""
+
+#: src/jamitimeline/qml/contactmethoddelegate.qml:220
+#, kde-format
+msgid "Mark as read"
+msgstr ""
+
+#: src/jamitimeline/qml/peerstimeline.qml:69
+#, kde-format
+msgid ""
+"To begin using Ring-KDE, enter an username in the box above and press enter"
+msgstr ""
+
+#: src/jamitimeline/qml/peerstimelinecategories.qml:28
+#, kde-format
+msgid "Never"
+msgstr ""
+
+#: src/jamitroubleshooting/qml/accountdisabled.qml:54
+#, kde-format
+msgid ""
+"All accounts are currently disabled. Please click on an account below to "
+"enable it:"
+msgstr ""
+
+#: src/jamitroubleshooting/qml/accounterror.qml:55
+#, kde-format
+msgid "All accounts are currently unavailable, check your internet connection"
+msgstr ""
+
+#: src/jamitroubleshooting/qml/accounterror.qml:75
+#, fuzzy, kde-format
+#| msgid "Add a new account"
+msgid "Reload all accounts now"
+msgstr "加入新的帳號"
+
+#: src/jamitroubleshooting/qml/noaccount.qml:54
+#, kde-format
+msgid "There is no accounts, click on the button below to create one"
+msgstr ""
+
+#: src/jamitroubleshooting/qml/noaccount.qml:74
+#, kde-format
+msgid "Create an account"
+msgstr ""
+
+#: src/jamivideoview/qml/devicesetting.qml:35
+#, kde-format
+msgid "Device"
+msgstr ""
+
+#: src/jamivideoview/qml/devicesetting.qml:45
+#, kde-format
+msgid "Channel"
+msgstr ""
+
+#: src/jamivideoview/qml/devicesetting.qml:55
+#, kde-format
+msgid "Resolution"
+msgstr ""
+
+#: src/jamivideoview/qml/devicesetting.qml:65
+#, fuzzy, kde-format
+#| msgid "Sample rate:"
+msgid "Frame rate"
+msgstr "取樣頻率："
+
+#: src/jamivideoview/qml/screensharing.qml:30
+#, fuzzy, kde-format
+#| msgid "Fullscreen"
+msgid "Screen"
+msgstr "全螢幕"
+
+#: src/jamivideoview/qml/screensharing.qml:40
+#, kde-format
+msgid "X offset"
+msgstr ""
+
+#: src/jamivideoview/qml/screensharing.qml:51
+#, kde-format
+msgid "Y offset"
+msgstr ""
+
+#: src/jamivideoview/qml/screensharing.qml:62
+#, kde-format
+msgid "Width"
+msgstr ""
+
+#: src/jamivideoview/qml/screensharing.qml:73
+#, kde-format
+msgid "Height"
+msgstr ""
+
+#: src/jamivideoview/qml/streaming.qml:50
+#, fuzzy, kde-format
+#| msgid "Select..."
+msgid "Select file"
+msgstr "選取..."
+
+#: src/jamivideoview/qml/streaming.qml:60
+#, kde-format
+msgid "Stream"
+msgstr ""
+
+#: src/jamivideoview/qml/videocontroltoolbar.qml:187
+#, kde-format
+msgid "Take a snapshot"
+msgstr ""
+
+#: src/jamivideoview/qml/videosource.qml:56
+#, kde-format
+msgid "Apply"
+msgstr ""
+
+#: src/photoselector/photoselector.cpp:74
+#, kde-format
+msgid "Open Image"
+msgstr "開啟影像"
+
+#: src/photoselector/photoselector.cpp:76
+#, kde-format
+msgid "Image Files (*.png *.jpg *.gif)"
+msgstr "影像檔 (*.png *.jpg *.gif)"
+
+#: src/photoselector/qml/editor.qml:70
+#, kde-format
+msgid "Either select a file or take a selfie"
+msgstr ""
+
+#: src/photoselector/qml/editor.qml:199
+#, fuzzy, kde-format
+#| msgid "Profile"
+msgid "From file"
+msgstr "設定檔"
+
+#: src/photoselector/qml/editor.qml:207
+#, kde-format
+msgid "From camera"
+msgstr ""
+
+#: src/photoselector/qml/editor.qml:224
+#, kde-format
+msgid "Clear"
+msgstr ""
+
+#: src/wizard/qml/buttonBar.qml:46
+#, kde-format
+msgid "Back"
+msgstr ""
+
+#: src/wizard/qml/buttonBar.qml:64
+#, kde-format
+msgid "Please fill the required fields"
+msgstr ""
+
+#: src/wizard/qml/buttonBar.qml:75
+#, kde-format
+msgid "Next"
+msgstr ""
+
+#: src/wizard/qml/buttonBar.qml:82
+#, kde-format
+msgid "Skip"
+msgstr ""
+
+#: src/wizard/qml/buttonBar.qml:127
+#, kde-format
+msgid "Please wait"
+msgstr ""
+
+#: src/wizard/qml/buttonBar.qml:149
+#, kde-format
+msgid "finish"
+msgstr ""
+
+#: src/wizard/qml/createRing.qml:67
+#, fuzzy, kde-format
+#| msgid "Re&gistered Name*"
+msgid "Register a public username*"
+msgstr "註冊名稱*(&G)"
+
+#: src/wizard/qml/createRing.qml:83
+#, kde-format
+msgid "Enter an username"
+msgstr ""
+
+#: src/wizard/qml/createRing.qml:152
+#, kde-format
+msgid "Protect your crypto keys with a password"
+msgstr ""
+
+#: src/wizard/qml/createRing.qml:168
+#, fuzzy, kde-format
+#| msgid "Enter the password"
+msgid "Enter an archive password"
+msgstr "請輸入密碼"
+
+#: src/wizard/qml/createRing.qml:203
+#, fuzzy, kde-format
+#| msgid "Enter the password"
+msgid "Repeat the new password"
+msgstr "請輸入密碼"
+
+#: src/wizard/qml/createRing.qml:234
+#, kde-format
+msgid "Passwords don't match"
+msgstr ""
+
+#: src/wizard/qml/createRing.qml:256
+#, kde-format
+msgid ""
+"(*) registered usernames can be reached by their username-string instead of "
+"their generated ring-id number only."
+msgstr ""
+
+#: src/wizard/qml/importRing.qml:69
+#, kde-format
+msgid "Link this device"
+msgstr ""
+
+#: src/wizard/qml/importRing.qml:89
+#, kde-format
+msgid "Enter your main Ring account password"
+msgstr ""
+
+#: src/wizard/qml/importRing.qml:107
+#, kde-format
+msgid ""
+"Enter the PIN number from another configured Ring account. Use the \"Export "
+"account on Ring\" feature to obtain a PIN."
+msgstr ""
+
+#: src/wizard/qml/importRing.qml:142
+#, fuzzy, kde-format
+#| msgid "Import accounts"
+msgid "Importing account"
+msgstr "匯入帳號"
+
+#: src/wizard/qml/importRing.qml:169
+#, kde-format
+msgid "Timeout"
+msgstr ""
+
+#: src/wizard/qml/importRing.qml:193
+#, kde-format
+msgid "Importing failed"
+msgstr ""
+
+#: src/wizard/qml/splash.ui.qml:104
+#, kde-format
+msgid ""
+"Banji allows you to communicate privately with your friends. It uses peer to "
+"peer technologies popularised by BitTorrent to create a decentralized "
+"network of users. There is no central server and all communications are end-"
+"to-end encrypted."
+msgstr ""
+
+#: src/wizard/qml/splash.ui.qml:127
+#, kde-format
+msgid ""
+"Banji stores all data locally using standard formats such as JSON, vCard, "
+"MIME, PCM/WAV, INI and X-509. No data is ever uploaded to external servers."
+msgstr ""
+
+#: src/wizard/qml/splash.ui.qml:150
+#, kde-format
+msgid ""
+"Banji supports your office phone account. Answers, transfer and record your "
+"phone calls directly from KDE."
+msgstr ""
+
+#: src/wizard/qml/splash.ui.qml:173
+#, kde-format
+msgid ""
+"The Jami protocol is based on open standards and it can interoperate with "
+"other SIP compliant systems."
+msgstr ""
+
+#: src/wizard/qml/splash.ui.qml:196
+#, kde-format
+msgid ""
+"Banji offers an user friendly DBus API to automate all aspects of the "
+"application."
+msgstr ""
+
+#: src/wizard/qml/splash.ui.qml:219
+#, kde-format
+msgid ""
+"Banji can call real phone numbers. Cheap credits are available from thousand "
+"of providers worldwide. Use your favorite search engine to locate a local "
+"SIP phone provider."
+msgstr ""
+
+#: src/wizard/qml/splash.ui.qml:232
+#, kde-format
+msgid "Press anywhere to begin"
+msgstr ""
+
+#: src/wizard/qml/startPage.ui.qml:50
+#, kde-format
+msgid ""
+"Welcome to Banji. Before you can contact your friend, you have to have an "
+"account. Don't worry, creating one is easy and doesn't require sharing any "
+"personal information. If you are in an office or your phone service provider "
+"offers a SIP account, you can also configure Banji to take your \"real\" "
+"phone calls."
+msgstr ""
+
+#: src/wizard/qml/startPage.ui.qml:60
+#, fuzzy, kde-format
+#| msgid "Add new contact"
+msgid "Create a new GNU Jami account"
+msgstr "加入新聯絡人"
+
+#: src/wizard/qml/startPage.ui.qml:67
+#, fuzzy, kde-format
+#| msgid "Import accounts"
+msgid "Import an existing account"
+msgstr "匯入帳號"
+
+#: src/wizard/qml/startPage.ui.qml:74
+#, kde-format
+msgid "Use an anonymous account"
+msgstr ""
+
+#: src/wizard/qml/startPage.ui.qml:82 src/wizard/qml/wizard.qml:245
+#, fuzzy, kde-format
+#| msgid "Import accounts"
+msgid "Import a SIP account"
+msgstr "匯入帳號"
+
+#: src/wizard/qml/startPage.ui.qml:90
+#, kde-format
+msgid "Use on local network"
+msgstr ""
+
+#: views/basic/qml/banjiactioncollection.qml:35
+#, kde-format
+msgid "Write mail"
+msgstr ""
+
+#: views/basic/qml/banjiactioncollection.qml:40
+#, fuzzy, kde-format
+#| msgid "Select..."
+msgid "Select as favorite"
+msgstr "選取..."
+
+#: views/basic/qml/banjiactioncollection.qml:55
+#, kde-format
+msgid "Choose photo"
+msgstr ""
+
+#: views/basic/qml/banjiactioncollection.qml:60
+#, fuzzy, kde-format
+#| msgid "Phone number"
+msgid "Block number"
+msgstr "電話號碼"
+
+#: views/basic/qml/banjiactioncollection.qml:70
+#, fuzzy, kde-format
+#| msgid "Search history"
+msgid "Delete history"
+msgstr "搜尋歷史"
+
+#: views/basic/qml/banjiactioncollection.qml:75
+#, fuzzy, kde-format
+#| msgid "Delete contact"
+msgid "Create contact"
+msgstr "刪除聯絡人"
+
+#: views/basic/qml/banjiactioncollection.qml:80
+#, fuzzy, kde-format
+#| msgid "Add new contact"
+msgid "Pending contact requests"
+msgstr "加入新聯絡人"
+
+#: views/basic/qml/banjiactioncollection.qml:87
+#, kde-format
+msgid "Exit"
+msgstr ""
+
+#: views/basic/qml/banjiactioncollection.qml:96
+#, fuzzy, kde-format
+#| msgid "Import accounts"
+msgid "Export account"
+msgstr "匯入帳號"
+
+#: views/basic/qml/banjiactioncollection.qml:101
+#, fuzzy, kde-format
+#| msgid "Add a new account"
+msgid "Add a Jami account"
+msgstr "加入新的帳號"
+
+#: views/basic/qml/banjiactioncollection.qml:107
+#, fuzzy, kde-format
+#| msgid "Configure Shortcut"
+msgid "Configure accounts"
+msgstr "設定快捷鍵"
+
+#: views/basic/qml/banjiactioncollection.qml:113
+#, fuzzy, kde-format
+#| msgid "Settings"
+msgid "Video settings"
+msgstr "設定"
+
+#: views/basic/qml/banjiactioncollection.qml:123
+#, kde-format
+msgid "Do not disturb"
+msgstr ""
+
+#: views/basic/qml/banjiactioncollection.qml:136
+#, kde-format
+msgid "Disabled"
+msgstr ""
+
+#: views/basic/qml/banjiactioncollection.qml:144
+#, kde-format
+msgid "Enabled"
+msgstr ""
+
+#: views/basic/qml/banjiactioncollection.qml:152
+#, kde-format
+msgid "Silent"
+msgstr ""
+
+#: views/basic/qml/banjiactioncollection.qml:160
+#, kde-format
+msgid "Auto answer"
+msgstr ""
+
+#: views/basic/qml/pagemanager.qml:142 views/desktop/qml/mediabuttons.qml:411
+#, kde-format
+msgid "Chat"
+msgstr ""
+
+#: views/basic/qml/pagemanager.qml:162
+#, fuzzy, kde-format
+#| msgid "Fullscreen"
+msgid "Cast screen"
+msgstr "全螢幕"
+
+#: views/basic/qml/pagemanager.qml:173
+#, fuzzy, kde-format
+#| msgid "Video"
+msgid "Audio call"
+msgstr "影片"
+
+#: views/basic/qml/sidebar.qml:149
+#, fuzzy, kde-format
+#| msgid "Negotiation"
+msgid "Notifications"
+msgstr "協商"
+
+#: views/basic/qml/sidebarheader.qml:99 views/basic/qml/toolbarheader.qml:88
+#, kde-format
+msgid "Online"
+msgstr "上線"
+
+#: views/basic/qml/sidebarheader.qml:99 views/basic/qml/toolbarheader.qml:88
+#, kde-format
+msgid "Offline"
+msgstr ""
+
+#: views/desktop/qml/contactheader.qml:47
+#: views/desktop/qml/contactheader.qml:52
+#, kde-format
+msgid "N/A"
+msgstr ""
+
+#: views/desktop/qml/contactheader.qml:140
+#, kde-format
+msgid ""
+"Add\n"
+"Photo"
+msgstr ""
+
+#: views/desktop/qml/desktopwindow.qml:190
+#, kde-format
+msgid "Hide"
+msgstr ""
+
+#: views/desktop/qml/mediabuttons.qml:375
+#, kde-format
+msgid "Screen sharing"
+msgstr ""
+
+#: views/desktop/qml/viewcontact.qml:152
+#, kde-format
+msgid "Chat/Timeline"
+msgstr ""
+
+#: views/desktop/qml/viewcontact.qml:155
+#, fuzzy, kde-format
+#| msgid "Audio"
+msgid "Audio/Video"
+msgstr "音效"
+
+#: views/desktop/qml/viewcontact.qml:158
+#, fuzzy, kde-format
+#| msgid "Recording"
+msgid "Calls/Recordings"
+msgstr "錄製"
+
+#: views/desktop/qml/viewcontact.qml:161
+#, fuzzy, kde-format
+#| msgid "Configuration"
+msgid "Information"
+msgstr "設定"

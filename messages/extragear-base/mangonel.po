@@ -1,0 +1,136 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2013.
+# pan93412 <pan93412@gmail.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-07-05 02:33+0200\n"
+"PO-Revision-Date: 2019-07-09 14:14+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 19.04.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Frank Weng (a.k.a. Franklin)"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw"
+
+#: Config.cpp:40
+#, kde-format
+msgid "Mangonel Configuration"
+msgstr "Mangonel 設定"
+
+#: Config.cpp:49
+#, kde-format
+msgid "Shortcut to show Mangonel:"
+msgstr "顯示 Mangonel 的捷徑："
+
+#: Config.cpp:55
+#, kde-format
+msgid "Automatically launch Mangonel on login:"
+msgstr "登入時自動啟動 Mangonel："
+
+#: main.cpp:45
+#, kde-format
+msgid "Mangonel"
+msgstr "Mangonel"
+
+#: main.cpp:47
+#, kde-format
+msgid "A simple application launcher by KDE."
+msgstr "KDE 製作的簡易應用程式啟動器。"
+
+#: main.cpp:50
+#, kde-format
+msgid "Martin Sandsmark"
+msgstr "Martin Sandsmark"
+
+#: main.cpp:50
+#, kde-format
+msgid "Developer"
+msgstr "開發者"
+
+#: main.cpp:51
+#, kde-format
+msgid "Bart Kroon"
+msgstr "Bart Kroon"
+
+#: main.cpp:51
+#, kde-format
+msgid "Developer, original author"
+msgstr "開發者與原始作者"
+
+#: Mangonel.cpp:94
+#, kde-format
+msgid "Show Mangonel"
+msgstr "顯示 Mangonel"
+
+#: Mangonel.cpp:106
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Press <shortcut>%1</shortcut> to show Mangonel."
+msgstr "按下 <shortcut>%1</shortcut> 顯示 Mangonel。"
+
+#: providers/Applications.cpp:67
+#, kde-format
+msgid "Run application"
+msgstr "執行應用程式"
+
+#: providers/Applications.cpp:69
+#, kde-format
+msgid "Open control module"
+msgstr "開啟控制模組"
+
+#: providers/Calculator.cpp:83
+#, kde-format
+msgid "Calculation"
+msgstr "計算"
+
+#: providers/Paths.cpp:94
+#, kde-format
+msgid "Open path"
+msgstr "開啟路徑"
+
+#: providers/Shell.cpp:114
+#, kde-format
+msgid "Shell command"
+msgstr "Shell 指令"
+
+#: providers/Units.cpp:102
+#, kde-format
+msgctxt "conversion from one unit to another"
+msgid "%1 %2 is %3 %4"
+msgstr "%1 %2 是 %3 %4"
+
+#: providers/Units.cpp:105
+#, kde-format
+msgid "Unit conversion"
+msgstr "單位轉換"
+
+#~ msgid "Configuration"
+#~ msgstr "設定"
+
+#~ msgid "Configure notifications"
+#~ msgstr "設定通知"
+
+#~ msgid "Quit"
+#~ msgstr "離開"
+
+#~ msgctxt ""
+#~ "the type of the application to be launched, shown beneath the application "
+#~ "name"
+#~ msgid "(%1)"
+#~ msgstr "(%1)"

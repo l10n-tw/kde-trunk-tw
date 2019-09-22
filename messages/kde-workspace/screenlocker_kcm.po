@@ -1,0 +1,119 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin, 2014, 2015.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+# pan93412 <pan93412@gmail.com>, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-16 03:25+0200\n"
+"PO-Revision-Date: 2019-08-06 23:21+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 19.07.90\n"
+
+#: kcm.cpp:56
+#, kde-format
+msgctxt "Spinbox suffix"
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " 分鐘"
+
+#: kcm.cpp:58
+#, kde-format
+msgctxt "Spinbox suffix"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " 秒"
+
+#: kcm.cpp:77
+#, kde-format
+msgid "Lock Session"
+msgstr "鎖定工作階段"
+
+#: kcm.cpp:156
+#, kde-format
+msgid "Error"
+msgstr "錯誤"
+
+#: kcm.cpp:156
+#, kde-format
+msgid "Failed to successfully test the screen locker."
+msgstr "測試螢幕鎖定程式失敗。"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_1)
+#: kcm.ui:19
+#, kde-format
+msgid "Activation"
+msgstr "作用"
+
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: kcm.ui:28
+#, kde-format
+msgid "Lock screen:"
+msgstr "鎖定畫面："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Autolock)
+#: kcm.ui:40
+#, kde-format
+msgid "Automatically after:"
+msgstr "多久後自動："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_LockOnResume)
+#: kcm.ui:59
+#, kde-format
+msgid "Lock screen when waking up from suspension"
+msgstr "從暫停醒來時鎖定螢幕"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_LockOnResume)
+#: kcm.ui:62
+#, kde-format
+msgid "After waking from sleep"
+msgstr "從睡眠模式喚醒之後"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kcm.ui:69
+#, fuzzy, kde-format
+msgid "Allow unlocking without password for:"
+msgstr "多久前都不需密碼解鎖："
+
+#. i18n: ectx: property (specialValueText), widget (KPluralHandlingSpinBox, kcfg_LockGrace)
+#: kcm.ui:79
+#, kde-format
+msgid "Immediately"
+msgstr "立即"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_3)
+#: kcm.ui:92
+#, kde-format
+msgid "The global keyboard shortcut to lock the screen."
+msgstr "鎖定螢幕的全域鍵盤捷徑。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kcm.ui:95
+#, kde-format
+msgid "Keyboard shortcut:"
+msgstr "鍵盤快捷鍵："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: kcm.ui:106
+#, kde-format
+msgid "Appearance"
+msgstr "個人化"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: kcm.ui:141
+#, kde-format
+msgid "Wallpaper &type:"
+msgstr "桌布類型(&T)："
+
+#~ msgid "Re&quire password after locking:"
+#~ msgstr "鎖定多久後需要輸入密碼(&Q)："

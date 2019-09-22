@@ -1,0 +1,882 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: spectacle\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-09-05 03:04+0200\n"
+"PO-Revision-Date: 2019-08-31 19:32+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
+"Language: Traditional Chinese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 19.08.0\n"
+
+#: desktop/MigrateShortcuts.cpp:74 src/SpectacleConfig.cpp:45
+#, kde-format
+msgid "Launch Spectacle"
+msgstr "啟動 Spectacle"
+
+#: desktop/MigrateShortcuts.cpp:79 src/SpectacleConfig.cpp:50
+#, kde-format
+msgid "Capture Entire Desktop"
+msgstr "擷取整個桌面"
+
+#: desktop/MigrateShortcuts.cpp:84 src/SpectacleConfig.cpp:55
+#, kde-format
+msgid "Capture Current Monitor"
+msgstr "擷取目前顯示器"
+
+#: desktop/MigrateShortcuts.cpp:89 src/SpectacleConfig.cpp:60
+#, kde-format
+msgid "Capture Active Window"
+msgstr "擷取作用中視窗"
+
+#: desktop/MigrateShortcuts.cpp:94 src/SpectacleConfig.cpp:65
+#, kde-format
+msgid "Capture Rectangular Region"
+msgstr "擷取矩形區域"
+
+#: src/ExportManager.cpp:301
+#, kde-format
+msgid "QImageWriter cannot write image: %1"
+msgstr "QImageWriter 無法寫入影像：%1"
+
+#: src/ExportManager.cpp:316
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the directory failed:<nl/><filename>"
+"%1</filename>"
+msgstr "無法儲存螢幕截圖，因為建立目錄失敗：<nl/><filename>%1</filename>"
+
+#: src/ExportManager.cpp:326
+#, kde-format
+msgid "Cannot save screenshot. Error while writing file."
+msgstr "無法儲存螢幕快照。寫入檔案時失敗。"
+
+#: src/ExportManager.cpp:347
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the remote directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr "無法儲存螢幕截圖，因為建立遠端目錄失敗：<nl/><filename>%1</filename>"
+
+#: src/ExportManager.cpp:358 src/ExportManager.cpp:409
+#, kde-format
+msgid "Cannot save screenshot. Error while writing temporary local file."
+msgstr "無法儲存螢幕快照。寫入暫存檔案時失敗。"
+
+#: src/ExportManager.cpp:366
+#, kde-format
+msgid "Unable to save image. Could not upload file to remote location."
+msgstr "無法儲存影像。無法上傳檔案到遠端。"
+
+#: src/ExportManager.cpp:416
+#, kde-format
+msgid "Cannot save screenshot. The save filename is invalid."
+msgstr "無法儲存螢幕快照。儲存的檔名不合法。"
+
+#: src/ExportManager.cpp:449 src/ExportManager.cpp:510
+#, kde-format
+msgid "Cannot save an empty screenshot image."
+msgstr "無法儲存空白的螢幕快照影像。"
+
+#: src/ExportManager.cpp:544
+#, kde-format
+msgid "Printing failed. The printer failed to initialize."
+msgstr "列印失敗。列印機初始化失敗。"
+
+#: src/ExportManager.cpp:564
+#, kde-format
+msgctxt ""
+"A placeholder in the user configurable filename will replaced by the "
+"specified value"
+msgid "Year (4 digit)"
+msgstr "年（四位數）"
+
+#: src/ExportManager.cpp:567
+#, kde-format
+msgctxt ""
+"A placeholder in the user configurable filename will replaced by the "
+"specified value"
+msgid "Year (2 digit)"
+msgstr "年（兩位數）"
+
+#: src/ExportManager.cpp:570
+#, kde-format
+msgctxt ""
+"A placeholder in the user configurable filename will replaced by the "
+"specified value"
+msgid "Month"
+msgstr "月"
+
+#: src/ExportManager.cpp:573
+#, kde-format
+msgctxt ""
+"A placeholder in the user configurable filename will replaced by the "
+"specified value"
+msgid "Day"
+msgstr "日"
+
+#: src/ExportManager.cpp:576
+#, kde-format
+msgctxt ""
+"A placeholder in the user configurable filename will replaced by the "
+"specified value"
+msgid "Hour"
+msgstr "時"
+
+#: src/ExportManager.cpp:579
+#, kde-format
+msgctxt ""
+"A placeholder in the user configurable filename will replaced by the "
+"specified value"
+msgid "Minute"
+msgstr "分"
+
+#: src/ExportManager.cpp:582
+#, kde-format
+msgctxt ""
+"A placeholder in the user configurable filename will replaced by the "
+"specified value"
+msgid "Second"
+msgstr "秒"
+
+#: src/ExportManager.cpp:585
+#, kde-format
+msgctxt ""
+"A placeholder in the user configurable filename will replaced by the "
+"specified value"
+msgid "Window Title"
+msgstr "視窗標題"
+
+#: src/ExportManager.cpp:588
+#, kde-format
+msgctxt ""
+"A placeholder in the user configurable filename will replaced by the "
+"specified value"
+msgid "Sequential numbering"
+msgstr "順序編號"
+
+#: src/ExportManager.cpp:591
+#, kde-format
+msgctxt ""
+"A placeholder in the user configurable filename will replaced by the "
+"specified value"
+msgid "Sequential numbering, padded out to N digits"
+msgstr "順序編號（填充至 N 位數）"
+
+#: src/Gui/ExportMenu.cpp:53
+#, kde-format
+msgid "More Online Services"
+msgstr "更多線上服務"
+
+#: src/Gui/ExportMenu.cpp:54
+#, kde-format
+msgid "Please wait..."
+msgstr "請稍候..."
+
+#: src/Gui/ExportMenu.cpp:101
+#, kde-format
+msgid "Other Application..."
+msgstr "其它應用程式…"
+
+#: src/Gui/ExportMenu.cpp:141
+#, kde-format
+msgid "KIPI plugin from library %1 failed to load"
+msgstr "函式庫 %1 的 KIPI 外掛程式載入失敗"
+
+#: src/Gui/ExportMenu.cpp:166
+#, kde-format
+msgid "No KIPI plugins available"
+msgstr "沒有可用的 KIPI 外掛程式"
+
+#: src/Gui/ExportMenu.cpp:176
+#, kde-format
+msgid "Share"
+msgstr "分享"
+
+#: src/Gui/KSImageWidget.cpp:46
+#, kde-format
+msgid "Image Size: %1x%2 pixels"
+msgstr "影像大小：%1x%2 像素"
+
+#: src/Gui/KSMainWindow.cpp:141
+#, kde-format
+msgid "Configure..."
+msgstr "配置 ..."
+
+#: src/Gui/KSMainWindow.cpp:142
+#, kde-format
+msgid "Change Spectacle's settings."
+msgstr "變更 Spectacle 的設定"
+
+#: src/Gui/KSMainWindow.cpp:146
+#, kde-format
+msgid "Tools"
+msgstr "工具"
+
+#: src/Gui/KSMainWindow.cpp:152
+#, kde-format
+msgid "Export"
+msgstr "匯出"
+
+#: src/Gui/KSMainWindow.cpp:157
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr "複製到剪貼簿"
+
+#: src/Gui/KSMainWindow.cpp:158
+#, kde-format
+msgid "Copy the current screenshot image to the clipboard."
+msgstr "將目前的螢幕快照複製到剪貼簿。"
+
+#: src/Gui/KSMainWindow.cpp:173
+#, kde-format
+msgid "Open Screenshots Folder"
+msgstr "開啟螢幕擷取資料夾"
+
+#: src/Gui/KSMainWindow.cpp:176
+#, kde-format
+msgid "Record Screen"
+msgstr "錄製螢幕"
+
+#: src/Gui/KSMainWindow.cpp:226
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "開啟包含資料夾"
+
+#: src/Gui/KSMainWindow.cpp:258
+#, kde-format
+msgid "Save As..."
+msgstr "儲存為…"
+
+#: src/Gui/KSMainWindow.cpp:308
+#, kde-format
+msgctxt "@title:window"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 秒"
+
+#: src/Gui/KSMainWindow.cpp:338 src/Gui/KSMainWindow.cpp:519
+#, kde-format
+msgctxt "@title:window Unsaved Screenshot"
+msgid "Unsaved[*]"
+msgstr "未儲存[*]"
+
+#: src/Gui/KSMainWindow.cpp:448
+#, kde-format
+msgid "There was a problem sharing the image: %1"
+msgstr "分享圖片時發生問題：%1"
+
+#: src/Gui/KSMainWindow.cpp:452
+#, kde-format
+msgid "Image shared"
+msgstr "已分享圖片"
+
+#: src/Gui/KSMainWindow.cpp:454
+#, kde-format
+msgid ""
+"The shared image link (<a href=\"%1\">%1</a>) has been copied to the "
+"clipboard."
+msgstr "分享的圖片連結 (<a href=\"%1\">%1</a>) 已經複製到剪貼簿。"
+
+#: src/Gui/KSMainWindow.cpp:465
+#, kde-format
+msgid "The screenshot has been copied to the clipboard."
+msgstr "螢幕快照已複製到剪貼簿。"
+
+#: src/Gui/KSMainWindow.cpp:479
+#, kde-format
+msgid "The screenshot was saved as <a href=\"%1\">%2</a>"
+msgstr "螢幕截圖已儲存成 <a href=\"%1\">%2</a>"
+
+#: src/Gui/KSMainWindow.cpp:488
+#, kde-format
+msgid ""
+"The screenshot was copied to the clipboard and saved as <a href=\"%1\">%2</a>"
+msgstr "螢幕截圖已複製至剪貼簿，且已存為 <a href=\"%1\">%2</a>"
+
+#: src/Gui/KSWidget.cpp:52
+#, kde-format
+msgid "<b>Capture Mode</b>"
+msgstr "<b>擷取模式</b>"
+
+#: src/Gui/KSWidget.cpp:55
+#, kde-format
+msgid "Full Screen"
+msgstr "全螢幕"
+
+#: src/Gui/KSWidget.cpp:56
+#, kde-format
+msgid "Full Screen (All Monitors)"
+msgstr "全螢幕（所有螢幕）"
+
+#: src/Gui/KSWidget.cpp:61
+#, kde-format
+msgid "Current Screen"
+msgstr "目前的螢幕"
+
+#: src/Gui/KSWidget.cpp:63
+#, kde-format
+msgid "Active Window"
+msgstr "作用中視窗"
+
+#: src/Gui/KSWidget.cpp:65
+#, kde-format
+msgid "Window Under Cursor"
+msgstr "游標下的視窗"
+
+#: src/Gui/KSWidget.cpp:69 src/Gui/SettingsDialog/GeneralOptionsPage.cpp:76
+#, kde-format
+msgid "Rectangular Region"
+msgstr "矩形區域"
+
+#: src/Gui/KSWidget.cpp:78
+#, kde-format
+msgid "No Delay"
+msgstr "無延遲"
+
+#: src/Gui/KSWidget.cpp:82
+#, kde-format
+msgid "On Click"
+msgstr "點選時"
+
+#: src/Gui/KSWidget.cpp:83
+#, kde-format
+msgid "Wait for a mouse click before capturing the screenshot image"
+msgstr "滑鼠點選時擷取螢幕快照"
+
+#: src/Gui/KSWidget.cpp:92
+#, kde-format
+msgid "Area:"
+msgstr "區域："
+
+#: src/Gui/KSWidget.cpp:93
+#, kde-format
+msgid "Delay:"
+msgstr "延遲："
+
+#: src/Gui/KSWidget.cpp:98
+#, kde-format
+msgid "<b>Options</b>"
+msgstr "<b>選項</b>"
+
+#: src/Gui/KSWidget.cpp:100
+#, kde-format
+msgid "Include mouse pointer"
+msgstr "包含滑鼠游標"
+
+#: src/Gui/KSWidget.cpp:101
+#, kde-format
+msgid "Show the mouse cursor in the screenshot image"
+msgstr "在螢幕快照的圖片中顯示滑鼠游標"
+
+#: src/Gui/KSWidget.cpp:104
+#, kde-format
+msgid "Include window titlebar and borders"
+msgstr "包含視窗標題列與邊框"
+
+#: src/Gui/KSWidget.cpp:105
+#, kde-format
+msgid ""
+"Show the window title bar, the minimize/maximize/close buttons, and the "
+"window border"
+msgstr "顯示視窗標題列、最小化/最大化/關閉按鈕以及視窗邊框"
+
+#: src/Gui/KSWidget.cpp:109
+#, kde-format
+msgid "Capture the current pop-up only"
+msgstr "僅擷取目前的彈出式視窗"
+
+#: src/Gui/KSWidget.cpp:110
+#, kde-format
+msgid ""
+"Capture only the current pop-up window (like a menu, tooltip etc).\n"
+"If disabled, the pop-up is captured along with the parent window"
+msgstr ""
+"僅擷取目前的彈出式視窗（像是選單、工具提示等）。\n"
+"若停用，彈出式視窗將會與其母視窗一起被擷取"
+
+#: src/Gui/KSWidget.cpp:115
+#, kde-format
+msgid "Quit after manual Save or Copy"
+msgstr "手動儲存或複製後離開"
+
+#: src/Gui/KSWidget.cpp:116
+#, kde-format
+msgid "Quit Spectacle after manually saving or copying the image"
+msgstr "手動儲存或複製影像後離開 Spectacle"
+
+#: src/Gui/KSWidget.cpp:126
+#, kde-format
+msgid "Take a New Screenshot"
+msgstr "拍一張新的螢幕快照"
+
+#: src/Gui/KSWidget.cpp:130 src/QuickEditor/QuickEditor.cpp:571
+#: src/QuickEditor/QuickEditor.cpp:582 src/QuickEditor/QuickEditor.cpp:599
+#, kde-format
+msgid "Cancel"
+msgstr "取消"
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:42
+#, kde-format
+msgid "When Spectacle is Running"
+msgstr "當 Spectacle 執行時"
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:45
+#, kde-format
+msgid "Take a new screenshot"
+msgstr "擷取一張螢幕截圖"
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:46
+#, kde-format
+msgid "Open a new Spectacle window"
+msgstr "開啟新 Spectacle 視窗"
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:52
+#, kde-format
+msgid "Press screenshot key to:"
+msgstr "按下「擷取螢幕截圖」鍵要做的動作："
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:56
+#, kde-format
+msgid "Return focus to Spectacle"
+msgstr "將焦點重新轉移到 Spectacle"
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:64
+#, kde-format
+msgid "Copy image to clipboard"
+msgstr "複製影像到剪貼簿"
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:66
+#, kde-format
+msgid "After taking a screenshot:"
+msgstr "擷取螢幕截圖後："
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:68
+#, kde-format
+msgid "Autosave the image to the default location"
+msgstr "自動儲存影像至預設位置"
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:81
+#, kde-format
+msgid "Use light background"
+msgstr "使用較亮的背景"
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:83
+#, kde-format
+msgid "General:"
+msgstr "一般："
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:86
+#, kde-format
+msgid "Show magnifier"
+msgstr "顯示放大鏡"
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:91
+#, kde-format
+msgid "Accept on click-and-release"
+msgstr "點選並釋放時接受"
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:100
+#, kde-format
+msgid "Never"
+msgstr "永不記住"
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:101
+#, kde-format
+msgid "Always"
+msgstr "永遠記住"
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:102
+#, kde-format
+msgid "Until Spectacle is closed"
+msgstr "記住到 Spectacle 關閉"
+
+#: src/Gui/SettingsDialog/GeneralOptionsPage.cpp:108
+#, kde-format
+msgid "Remember selected area:"
+msgstr "記住選取區域："
+
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:47
+#, kde-format
+msgid "Save Location:"
+msgstr "儲存位置："
+
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:50
+#, kde-format
+msgid "Copy file location to clipboard after saving"
+msgstr "儲存後複製檔案位置到剪貼簿"
+
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:83
+#, kde-format
+msgid "Choose the image quality when saving with lossy image formats like JPEG"
+msgstr "當儲存有損影像格式（例如 JPEG）時讓使用者選擇影像品質"
+
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:87
+#, kde-format
+msgid "Compression Quality:"
+msgstr "壓縮品質："
+
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:124
+#, kde-format
+msgid "Filename:"
+msgstr "檔案名稱："
+
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:127
+#, kde-format
+msgctxt "Preview of the user configured filename"
+msgid "Preview:"
+msgstr "預覽："
+
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:130
+#, kde-format
+msgid ""
+"You can use the following placeholders in the filename, which will be "
+"replaced with actual text when the file is saved:<blockquote>"
+msgstr ""
+"您能在檔案名稱使用以下的佔位符，這些佔位符將在檔案儲存時替換成實際文字："
+"<blockquote>"
+
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:138
+#, kde-format
+msgid "To save to a sub-folder"
+msgstr "若要儲存到子資料夾"
+
+#: src/Gui/SettingsDialog/SaveOptionsPage.cpp:219
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<filename>%1.%2</filename>"
+msgstr "<filename>%1.%2</filename>"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:36
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "設定"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:47
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:48
+#, kde-format
+msgid "General"
+msgstr "一般"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:53
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:54
+#, kde-format
+msgid "Save"
+msgstr "儲存"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:59
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:60
+#, kde-format
+msgid "Shortcuts"
+msgstr "快捷鍵"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:86
+#, kde-format
+msgid "Apply Unsaved Changes"
+msgstr "套用未儲存的改變"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:87
+#, kde-format
+msgid ""
+"You have made changes to the settings in this tab. Do you want to apply "
+"those changes?"
+msgstr "您已經在此分頁中變更了設定。您想要套用這些變更嗎？"
+
+#: src/Gui/SmartSpinBox.cpp:44
+#, kde-format
+msgctxt "Integer number of seconds"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] "秒"
+
+#: src/Gui/SmartSpinBox.cpp:46
+#, kde-format
+msgctxt "Decimal number of seconds"
+msgid " seconds"
+msgstr "秒"
+
+#: src/KipiInterface/KSGKipiImageCollectionSelector.cpp:38
+#, kde-format
+msgctxt "%1 is collection name, %2 is image count in collection"
+msgid "%1 (%2 image)"
+msgid_plural "%1 (%2 images)"
+msgstr[0] "%1（%2 張影像）"
+
+#: src/KipiInterface/KSGKipiInfoShared.cpp:40
+#, kde-format
+msgid "Taken with Spectacle"
+msgstr "用 Spectale 擷取"
+
+#: src/Main.cpp:45
+#, kde-format
+msgid "Spectacle"
+msgstr "Spectacle"
+
+#: src/Main.cpp:47
+#, kde-format
+msgid "KDE Screenshot Utility"
+msgstr "KDE 螢幕快照擷取工具"
+
+#: src/Main.cpp:49
+#, kde-format
+msgid "(C) 2015 Boudhayan Gupta"
+msgstr "(C) 2015 Boudhayan Gupta"
+
+#: src/Main.cpp:51
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng, Jeff Huang"
+
+#: src/Main.cpp:51
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
+
+#: src/Main.cpp:61
+#, kde-format
+msgid "Capture the entire desktop (default)"
+msgstr "擷取整個桌面（預設）"
+
+#: src/Main.cpp:62
+#, kde-format
+msgid "Capture the current monitor"
+msgstr "擷取目前螢幕"
+
+#: src/Main.cpp:63
+#, kde-format
+msgid "Capture the active window"
+msgstr "擷取作用中的視窗"
+
+#: src/Main.cpp:64
+#, kde-format
+msgid ""
+"Capture the window currently under the cursor, including parents of pop-up "
+"menus"
+msgstr "擷取目前在滑鼠游標下的視窗，包含彈出式選單的母視窗"
+
+#: src/Main.cpp:65
+#, kde-format
+msgid ""
+"Capture the window currently under the cursor, excluding parents of pop-up "
+"menus"
+msgstr "擷取目前在滑鼠游標下的視窗，不包含彈出式選單的母視窗"
+
+#: src/Main.cpp:66
+#, kde-format
+msgid "Capture a rectangular region of the screen"
+msgstr "擷取螢幕的矩形區域"
+
+#: src/Main.cpp:67
+#, kde-format
+msgid "Start in GUI mode (default)"
+msgstr "以圖形化使用介面模式啟動（預設）"
+
+#: src/Main.cpp:68
+#, kde-format
+msgid "Take a screenshot and exit without showing the GUI"
+msgstr "拍一張螢幕快照並結束而不顯示圖形介面"
+
+#: src/Main.cpp:69
+#, kde-format
+msgid "Start in DBus-Activation mode"
+msgstr "以 DBus 活化模式啟動"
+
+#: src/Main.cpp:70
+#, kde-format
+msgid ""
+"In background mode, do not pop up a notification when the screenshot is taken"
+msgstr "在背景模式下，當螢幕快照擷取後，不要彈出通知"
+
+#: src/Main.cpp:71
+#, kde-format
+msgid "In background mode, save image to specified file"
+msgstr "在背景模式下，儲存圖片到特定的檔案"
+
+#: src/Main.cpp:72
+#, kde-format
+msgid "In background mode, delay before taking the shot (in milliseconds)"
+msgstr "在背景模式下，在擷取前延遲（以毫秒計）"
+
+#: src/Main.cpp:73
+#, kde-format
+msgid "In background mode, copy screenshot to clipboard"
+msgstr "在背景模式下，將螢幕截圖複製至剪貼簿"
+
+#: src/Main.cpp:74
+#, kde-format
+msgid "Wait for a click before taking screenshot. Invalidates delay"
+msgstr "在拍攝螢幕快照前等待滑鼠點選。延遲無效"
+
+#: src/QuickEditor/QuickEditor.cpp:67
+#, kde-format
+msgid ""
+"Click and drag to draw a selection rectangle,\n"
+"or press Esc to quit"
+msgstr "長按拖曳來繪製選取區塊的矩形，或按 Esc 退出"
+
+#: src/QuickEditor/QuickEditor.cpp:558
+#, kde-format
+msgctxt "Mouse action"
+msgid "Click and drag,"
+msgstr "點選並拖曳，"
+
+#: src/QuickEditor/QuickEditor.cpp:558
+#, kde-format
+msgid " "
+msgstr " "
+
+#: src/QuickEditor/QuickEditor.cpp:559 src/QuickEditor/QuickEditor.cpp:587
+#, kde-format
+msgctxt "Keyboard/mouse action"
+msgid "Enter, double-click:"
+msgstr "Enter, 按兩下："
+
+#: src/QuickEditor/QuickEditor.cpp:560 src/QuickEditor/QuickEditor.cpp:588
+#, kde-format
+msgid "Take screenshot"
+msgstr "拍張螢幕快照"
+
+#: src/QuickEditor/QuickEditor.cpp:561 src/QuickEditor/QuickEditor.cpp:578
+#: src/QuickEditor/QuickEditor.cpp:589
+#, kde-format
+msgctxt "Keyboard action"
+msgid "Shift:"
+msgstr "Shift:"
+
+#: src/QuickEditor/QuickEditor.cpp:562 src/QuickEditor/QuickEditor.cpp:579
+#: src/QuickEditor/QuickEditor.cpp:590
+#, kde-format
+msgctxt "Shift key action first half"
+msgid "Hold to toggle magnifier"
+msgstr "長按切換放大鏡"
+
+#: src/QuickEditor/QuickEditor.cpp:563 src/QuickEditor/QuickEditor.cpp:591
+#, kde-format
+msgctxt "Shift key action second half"
+msgid "while dragging selection handles"
+msgstr "當拖曳選取區域時"
+
+#: src/QuickEditor/QuickEditor.cpp:565 src/QuickEditor/QuickEditor.cpp:593
+#, kde-format
+msgctxt "Keyboard action"
+msgid "Arrow keys:"
+msgstr "方向鍵："
+
+#: src/QuickEditor/QuickEditor.cpp:566 src/QuickEditor/QuickEditor.cpp:594
+#, kde-format
+msgctxt "Shift key action first line"
+msgid "Move selection rectangle"
+msgstr "移動選擇的矩形"
+
+#: src/QuickEditor/QuickEditor.cpp:567 src/QuickEditor/QuickEditor.cpp:595
+#, kde-format
+msgctxt "Shift key action second line"
+msgid "Hold Alt to resize, Shift to fine‑tune"
+msgstr "長按 Alt 縮放，Shift 微調"
+
+#: src/QuickEditor/QuickEditor.cpp:569 src/QuickEditor/QuickEditor.cpp:580
+#: src/QuickEditor/QuickEditor.cpp:597
+#, kde-format
+msgctxt "Mouse action"
+msgid "Right-click:"
+msgstr "右鍵："
+
+#: src/QuickEditor/QuickEditor.cpp:570 src/QuickEditor/QuickEditor.cpp:581
+#: src/QuickEditor/QuickEditor.cpp:598
+#, kde-format
+msgid "Reset selection"
+msgstr "重設選取區域"
+
+#: src/QuickEditor/QuickEditor.cpp:571 src/QuickEditor/QuickEditor.cpp:582
+#: src/QuickEditor/QuickEditor.cpp:599
+#, kde-format
+msgctxt "Keyboard action"
+msgid "Esc:"
+msgstr "Esc:"
+
+#: src/QuickEditor/QuickEditor.cpp:576
+#, kde-format
+msgctxt "Keyboard/mouse action"
+msgid "Release left-click, Enter:"
+msgstr "釋放左鍵，輸入："
+
+#: src/QuickEditor/QuickEditor.cpp:577
+#, kde-format
+msgid "Take Screenshot"
+msgstr "拍張螢幕快照"
+
+#: src/QuickEditor/QuickEditor.cpp:779
+#, kde-format
+msgid "%1×%2"
+msgstr "%1×%2"
+
+#: src/SpectacleCore.cpp:310
+#, kde-format
+msgid "Screenshot capture canceled or failed"
+msgstr "螢幕快照擷取取消或失敗"
+
+#: src/SpectacleCore.cpp:328
+#, kde-format
+msgctxt "The entire screen area was captured, heading"
+msgid "Full Screen Captured"
+msgstr "已擷取全螢幕"
+
+#: src/SpectacleCore.cpp:331
+#, kde-format
+msgctxt "The current screen was captured, heading"
+msgid "Current Screen Captured"
+msgstr "已擷取目前的螢幕"
+
+#: src/SpectacleCore.cpp:334
+#, kde-format
+msgctxt "The active window was captured, heading"
+msgid "Active Window Captured"
+msgstr "已擷取作用中視窗"
+
+#: src/SpectacleCore.cpp:338
+#, kde-format
+msgctxt "The window under the mouse was captured, heading"
+msgid "Window Under Cursor Captured"
+msgstr "已擷取游標下的視窗"
+
+#: src/SpectacleCore.cpp:341
+#, kde-format
+msgctxt "A rectangular region was captured, heading"
+msgid "Rectangular Region Captured"
+msgstr "已擷取矩形區域"
+
+#: src/SpectacleCore.cpp:350
+#, kde-format
+msgid "A screenshot was saved to your clipboard."
+msgstr "一張螢幕截圖已經儲存至您的剪貼簿。"
+
+#: src/SpectacleCore.cpp:352
+#, kde-format
+msgctxt "Placeholder is filename"
+msgid "A screenshot was saved as '%1' to your Pictures folder."
+msgstr "螢幕快照被儲存為「%1」到您的圖片資料夾中。"
+
+#: src/SpectacleCore.cpp:354
+#, kde-format
+msgid "A screenshot was saved as '%1' to '%2'."
+msgstr "螢幕快照被儲存為「%1」到「%2」中。"
+
+#: src/SpectacleCore.cpp:359
+#, kde-format
+msgctxt "Open the screenshot we just saved"
+msgid "Open"
+msgstr "開啟"

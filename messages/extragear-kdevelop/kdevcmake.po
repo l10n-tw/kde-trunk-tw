@@ -1,0 +1,374 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012, 2013, 2014.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevcmake\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-20 02:32+0200\n"
+"PO-Revision-Date: 2014-01-15 10:50+0800\n"
+"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
+"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: cmakebuilddirchooser.cpp:44
+#, fuzzy, kde-format
+#| msgid "Configure a build directory for %1"
+msgid "Configure a build directory - %1"
+msgstr "設定 %1 的編譯目錄"
+
+#: cmakebuilddirchooser.cpp:102
+#, kde-format
+msgid "Configure a build directory for %1"
+msgstr "設定 %1 的編譯目錄"
+
+#: cmakebuilddirchooser.cpp:207
+#, kde-format
+msgid "You need to specify a build directory."
+msgstr "您必須指定編譯目錄。"
+
+#: cmakebuilddirchooser.cpp:214
+#, kde-format
+msgid "Using an already created build directory."
+msgstr "使用已建立的編譯目錄。"
+
+#: cmakebuilddirchooser.cpp:225
+#, kde-format
+msgid "Creating a new build directory."
+msgstr "建立新的編譯目錄。"
+
+#: cmakebuilddirchooser.cpp:231
+#, kde-format
+msgid "Build directory already configured."
+msgstr "編譯目錄已設定"
+
+#: cmakebuilddirchooser.cpp:233
+#, kde-format
+msgid "This build directory is for %1, but the project directory is %2."
+msgstr "此編譯目錄是專案 %1 用的，但是專案目錄為 %2。"
+
+#: cmakebuilddirchooser.cpp:236
+#, kde-format
+msgid "You may not select a relative build directory."
+msgstr "您不能選擇一個相對的編譯目錄。"
+
+#: cmakebuilddirchooser.cpp:238
+#, kde-format
+msgid "The selected build directory is not empty."
+msgstr "選取的編譯目錄非空白。"
+
+#. i18n: ectx: property (text), widget (QLabel, availableLabel)
+#: cmakebuilddirchooser.ui:32
+#, fuzzy, kde-format
+#| msgid "Already used build directory"
+msgid "Available build directories:"
+msgstr "已使用編譯目錄"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, availableBuildDirs)
+#: cmakebuilddirchooser.ui:40
+#, fuzzy, kde-format
+#| msgid "&Build Directory:"
+msgid "New build directory"
+msgstr "編譯目錄(&B)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: cmakebuilddirchooser.ui:48
+#, fuzzy, kde-format
+#| msgid "&Build Directory:"
+msgid "Build &directory:"
+msgstr "編譯目錄(&B)："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: cmakebuilddirchooser.ui:71
+#, fuzzy, kde-format
+#| msgid "&Installation Prefix:"
+msgid "&Installation prefix:"
+msgstr "安裝前置字串(&I)："
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, installPrefix)
+#: cmakebuilddirchooser.ui:96
+#, kde-format
+msgid ""
+"The prefix under which the project will be installed. Leaving this empty "
+"will let CMake use its default install prefix."
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, installPrefix)
+#: cmakebuilddirchooser.ui:99
+#, kde-format
+msgid "CMake's default install prefix"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: cmakebuilddirchooser.ui:106
+#, kde-format
+msgid "Build &type:"
+msgstr "編譯型態(&T)："
+
+#. i18n: ectx: property (text), widget (QLabel, extraArgumentsLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: cmakebuilddirchooser.ui:149 settings/cmakebuildsettings.ui:178
+#, fuzzy, kde-format
+#| msgid "Extra Arguments:"
+msgid "Extra arguments:"
+msgstr "額外的參數："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: cmakebuilddirchooser.ui:169
+#, kde-format
+msgid "CMake &executable:"
+msgstr ""
+
+#: cmakecodecompletionmodel.cpp:203
+#, kde-format
+msgid "INVALID"
+msgstr "不合法"
+
+#: cmakecodecompletionmodel.cpp:211
+#, kde-format
+msgid "Command"
+msgstr "指令"
+
+#: cmakecodecompletionmodel.cpp:212
+#, kde-format
+msgid "Variable"
+msgstr "變數"
+
+#: cmakecodecompletionmodel.cpp:213
+#, kde-format
+msgid "Macro"
+msgstr "巨集"
+
+#: cmakecodecompletionmodel.cpp:214
+#, kde-format
+msgid "Path"
+msgstr "路徑"
+
+#: cmakecodecompletionmodel.cpp:215
+#, kde-format
+msgid "Target"
+msgstr "目標"
+
+#: cmakecodecompletionmodel.cpp:267
+#, kde-format
+msgid "wrong"
+msgstr "錯誤"
+
+#: cmakecommandscontents.cpp:43
+#, kde-format
+msgid "Commands"
+msgstr "命令"
+
+#: cmakecommandscontents.cpp:44
+#, kde-format
+msgid "Variables"
+msgstr "變數"
+
+#: cmakecommandscontents.cpp:45
+#, kde-format
+msgid "Modules"
+msgstr "模組"
+
+#: cmakecommandscontents.cpp:46
+#, kde-format
+msgid "Properties"
+msgstr "屬性"
+
+#: cmakecommandscontents.cpp:47
+#, kde-format
+msgid "Policies"
+msgstr "政策"
+
+#: cmakecommandscontents.cpp:116
+#, kde-format
+msgid "<p>For better cmake documentation rendering, install rst2html</p>"
+msgstr ""
+
+#: cmakedocumentation.cpp:60 cmakemanager.cpp:87
+#, kde-format
+msgid "Unable to find a CMake executable. Is one installed on the system?"
+msgstr ""
+
+#: cmakedocumentation.cpp:95
+#, kde-format
+msgid "<br /><em>Cache Value:</em> %1\n"
+msgstr "<br /><em>快取值：</em> %1\n"
+
+#: cmakedocumentation.cpp:98
+#, kde-format
+msgid "<br /><em>Cache Documentation:</em> %1\n"
+msgstr "<br /><em>快取文件：</em> %1\n"
+
+#: cmakehelpdocumentation.cpp:34
+#, kde-format
+msgid "CMake Content Page"
+msgstr "CMake 內容頁面"
+
+#: cmakemanager.cpp:80
+#, kde-format
+msgid "KDevelop - CMake Support"
+msgstr "KDevelop - CMake 支援"
+
+#: cmakemanager.cpp:870
+#, kde-format
+msgid ""
+"Failed to configure the project (error message: %1). As a result, KDevelop's "
+"code understanding will likely be broken.\n"
+"\n"
+"To fix this issue, please ensure that the project's CMakeLists.txt files are "
+"correct, and KDevelop is configured to use the correct CMake version and "
+"settings. Then right-click the project item in the projects tool view and "
+"click 'Reload'."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: cmakepossibleroots.ui:16
+#, kde-format
+msgid ""
+"KDevelop has found several possible root directories for your project, "
+"please select the correct one."
+msgstr "KDevelop 已找到幾個可能的專案根目錄，請選擇正確的一個。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settings/cmakebuildsettings.ui:74
+#, kde-format
+msgid "Cache Values"
+msgstr "快取值"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: settings/cmakebuildsettings.ui:89
+#, kde-format
+msgid "Comment:"
+msgstr "註釋:"
+
+#. i18n: ectx: property (text), widget (QPushButton, showAdvanced)
+#: settings/cmakebuildsettings.ui:106
+#, kde-format
+msgid "Show Advanced"
+msgstr "顯示進階"
+
+#. i18n: ectx: property (title), widget (QGroupBox, advancedBox)
+#: settings/cmakebuildsettings.ui:125 settings/cmakecachemodel.cpp:54
+#, kde-format
+msgid "Advanced"
+msgstr "進階"
+
+#. i18n: ectx: property (text), widget (QLabel, installationPrefixLabel)
+#: settings/cmakebuildsettings.ui:134
+#, fuzzy, kde-format
+#| msgid "&Installation Prefix:"
+msgid "Installation prefix:"
+msgstr "安裝前置字串(&I)："
+
+#. i18n: ectx: property (text), widget (QLabel, buildTypeLabel)
+#: settings/cmakebuildsettings.ui:144
+#, fuzzy, kde-format
+#| msgid "Build &type:"
+msgid "Build type:"
+msgstr "編譯型態(&T)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings/cmakebuildsettings.ui:198
+#, fuzzy, kde-format
+#| msgid "Configure Environment"
+msgid "Configure environment:"
+msgstr "設定環境"
+
+#. i18n: ectx: property (toolTip), widget (KDevelop::EnvironmentSelectionWidget, environment)
+#: settings/cmakebuildsettings.ui:213
+#, kde-format
+msgid "Select an environment to be used"
+msgstr "請選擇要使用的環境"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showInternal)
+#: settings/cmakebuildsettings.ui:225
+#, fuzzy, kde-format
+#| msgid "Show Advanced Values"
+msgid "Show advanced values"
+msgstr "顯示進階數值"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings/cmakebuildsettings.ui:235
+#, kde-format
+msgid "CMake executable:"
+msgstr ""
+
+#: settings/cmakecachemodel.cpp:50
+#, kde-format
+msgid "Name"
+msgstr "名稱"
+
+#: settings/cmakecachemodel.cpp:51
+#, kde-format
+msgid "Type"
+msgstr "型態"
+
+#: settings/cmakecachemodel.cpp:52
+#, kde-format
+msgid "Value"
+msgstr "值"
+
+#: settings/cmakecachemodel.cpp:53
+#, kde-format
+msgid "Comment"
+msgstr "註解"
+
+#: settings/cmakecachemodel.cpp:55
+#, kde-format
+msgid "Strings"
+msgstr ""
+
+#: settings/cmakepreferences.cpp:339
+#, kde-format
+msgid ""
+"The %1 directory is about to be removed in KDevelop's list.\n"
+"Do you want KDevelop to remove it in the file system as well?"
+msgstr ""
+"目錄 %1 即將要從 KDevelop 的清單中移除。\n"
+"您要 KDevelop 順便把該目錄從檔案系統中砍掉嗎？"
+
+#: settings/cmakepreferences.cpp:346
+#, fuzzy, kde-format
+#| msgid "Could not remove: %1.\n"
+msgid "Could not remove: %1"
+msgstr "無法移除： %1 。\n"
+
+#: settings/cmakepreferences.cpp:392
+#, kde-format
+msgid "CMake"
+msgstr ""
+
+#: settings/cmakepreferences.cpp:397
+#, kde-format
+msgid "Configure CMake settings"
+msgstr ""
+
+#: testing/ctestfindjob.cpp:37
+#, kde-format
+msgid "Parse test suite %1"
+msgstr "剖析測試套件 %1"
+
+#: testing/ctestrunjob.cpp:87
+#, kde-format
+msgid "CTest"
+msgstr "CTest"
+
+#: testing/ctestrunjob.cpp:129
+#, kde-format
+msgctxt "running test %1, %2 test case"
+msgid "CTest %1: %2"
+msgstr ""
+
+#: testing/ctestrunjob.cpp:131
+#, kde-format
+msgctxt "running test %1, %2 number of test cases"
+msgid "CTest %2 (%1)"
+msgid_plural "CTest %2 (%1)"
+msgstr[0] ""

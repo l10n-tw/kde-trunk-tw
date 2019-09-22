@@ -1,0 +1,76 @@
+# Jeff Huang <s8321414@gmail.com>, 2016.
+# pan93412 <pan93412@gmail.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: json_kdenetwork_krfb\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-25 03:33+0000\n"
+"PO-Revision-Date: 2019-06-02 01:12+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 19.04.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: krfb/krfb-events.json
+msgctxt "Description"
+msgid "Events plugins for KRfb"
+msgstr "KRfb 的事件外掛程式"
+
+#: krfb/krfb-framebuffer.json
+msgctxt "Description"
+msgid "Frame Buffer plugins for KRfb"
+msgstr "KRfb 的 Frame Buffer 外掛程式"
+
+#: events/x11/krfb_events_x11.json
+msgctxt "Description"
+msgid "X11 XFakeInput based event handler for KRfb"
+msgstr "KRfb 基於 X11 XFakeInput 的事件處理器"
+
+#: events/xdp/krfb_events_xdp.json
+msgctxt "Description"
+msgid "Xdg-desktop-portal based event handler for KRfb"
+msgstr "KRfb 基於 Xdg-desktop-portal 的事件處理器"
+
+#: framebuffers/pipewire/krfb_framebuffer_pw.json
+msgctxt "Description"
+msgid "PipeWire based Framebuffer for KRfb."
+msgstr "KRfb 基於 PipeWire 的 Framebuffer。"
+
+#: framebuffers/xcb/krfb_framebuffer_xcb.json
+msgctxt "Description"
+msgid "X11 XDamage/XShm based Framebuffer for KRfb."
+msgstr "KRfb 的 X11 XDamage/XShm based Framebuffer"
+
+#: framebuffers/qt/krfb_framebuffer_qt.json
+msgctxt "Description"
+msgid "Qt based Framebuffer for KRfb."
+msgstr "KRfb 的 Qt-based Framebuffer"
+
+#: events/x11/krfb_events_x11.json
+msgctxt "Name"
+msgid "X11 Event handler for KRfb"
+msgstr "KRfb 的 X11 事件處理器"
+
+#: events/xdp/krfb_events_xdp.json
+msgctxt "Name"
+msgid "Xdg-desktop-portal Event handler for KRfb"
+msgstr "KRfb 的 Xdg-desktop-portal 事件處理器"
+
+#: framebuffers/pipewire/krfb_framebuffer_pw.json
+msgctxt "Name"
+msgid "PipeWire Framebuffer for KRfb"
+msgstr "KRfb 的 PipeWire Framebuffer"
+
+#: framebuffers/xcb/krfb_framebuffer_xcb.json
+msgctxt "Name"
+msgid "X11 Framebuffer for KRfb"
+msgstr "KRfb 的 X11 Framebuffer"
+
+#: framebuffers/qt/krfb_framebuffer_qt.json
+msgctxt "Name"
+msgid "Qt Framebuffer for KRfb"
+msgstr "Krfb 的 Qt Framebuffer"

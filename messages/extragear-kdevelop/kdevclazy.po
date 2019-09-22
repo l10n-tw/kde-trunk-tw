@@ -1,0 +1,527 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdevelop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevelop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 02:46+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: checksdb.cpp:42
+#, kde-format
+msgid "Level 0"
+msgstr ""
+
+#: checksdb.cpp:43
+#, kde-format
+msgid "Level 1"
+msgstr ""
+
+#: checksdb.cpp:44
+#, kde-format
+msgid "Level 2"
+msgstr ""
+
+#: checksdb.cpp:45
+#, kde-format
+msgid "Level 3"
+msgstr ""
+
+#: checksdb.cpp:46
+#, kde-format
+msgid "Manual Level"
+msgstr ""
+
+#: checksdb.cpp:51
+#, kde-format
+msgid ""
+"Very stable checks, 99.99% safe, mostly no false-positives, very desirable."
+msgstr ""
+
+#: checksdb.cpp:54
+#, kde-format
+msgid ""
+"The default level. Very similar to level 0, slightly more false-positives "
+"but very few."
+msgstr ""
+
+#: checksdb.cpp:57
+#, kde-format
+msgid ""
+"Also very few false-positives, but contains noisy checks which not everyone "
+"agree should be default."
+msgstr ""
+
+#: checksdb.cpp:60
+#, kde-format
+msgid "Contains checks with high rate of false-positives."
+msgstr ""
+
+#: checksdb.cpp:63
+#, kde-format
+msgid ""
+"Checks here need to be enabled explicitly, as they don't belong to any "
+"level. Checks here are very stable and have very few false-positives."
+msgstr ""
+
+#: checksdb.cpp:68
+#, kde-format
+msgid ""
+"Unable to load Clazy checks information from '%1'. Please check your "
+"settings."
+msgstr ""
+
+#: config/checkswidget.cpp:51
+#, kde-format
+msgid "Search checks..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, resetButton)
+#: config/checkswidget.ui:31
+#, kde-format
+msgid "Reset checks"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KMessageWidget, messageLabel)
+#: config/checkswidget.ui:74
+#, kde-format
+msgid ""
+"Since nothing is selected Clazy will use all checks from levels 0 and 1."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: config/commandlinewidget.ui:29
+#, kde-format
+msgid "Command Line"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, cmdFilter)
+#: config/commandlinewidget.ui:37
+#, kde-format
+msgid "Search"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cmdBreak)
+#: config/commandlinewidget.ui:47
+#, kde-format
+msgid "Break lines"
+msgstr ""
+
+#: config/globalconfigpage.cpp:38
+#, kde-format
+msgid "1 check detected"
+msgid_plural "%1 checks detected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: config/globalconfigpage.cpp:86 config/projectconfigpage.cpp:135
+#: plugin.cpp:71 plugin.cpp:78 plugin.cpp:81 problemmodel.cpp:60
+#: problemmodel.cpp:75
+#, kde-format
+msgid "Clazy"
+msgstr ""
+
+#: config/globalconfigpage.cpp:91
+#, kde-format
+msgid "Configure Clazy Settings"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, pathBox)
+#: config/globalconfigpage.ui:29
+#, kde-format
+msgid "Paths"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, executableLabel)
+#: config/globalconfigpage.ui:35
+#, kde-format
+msgid "clazy-standalone:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_executablePath)
+#: config/globalconfigpage.ui:42
+#, kde-format
+msgid "Path to clazy-standalone executable."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, docsLabel)
+#: config/globalconfigpage.ui:52
+#, kde-format
+msgid "Documentation:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_docsPath)
+#: config/globalconfigpage.ui:59
+#, kde-format
+msgid "Path to clazy documentation directory."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_parallelJobsEnabled)
+#: config/globalconfigpage.ui:85
+#, kde-format
+msgid "Run analysis jobs in parallel"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_parallelJobsAutoCount)
+#: config/globalconfigpage.ui:94
+#, kde-format
+msgid "Use all CPU cores"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, parallelJobsFixedCountLabel)
+#: config/globalconfigpage.ui:114
+#, kde-format
+msgid "Maximum number of threads:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: config/globalconfigpage.ui:133
+#, kde-format
+msgid "Output"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_hideOutputView)
+#: config/globalconfigpage.ui:139
+#, kde-format
+msgid "Hide output view during check"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_verboseOutput)
+#: config/globalconfigpage.ui:146
+#, kde-format
+msgid "Verbose output"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, checksTab)
+#: config/projectconfigpage.ui:39
+#, kde-format
+msgid "Checks"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, optionsTab)
+#: config/projectconfigpage.ui:44
+#, kde-format
+msgid "Options"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_onlyQt)
+#: config/projectconfigpage.ui:56
+#, kde-format
+msgid ""
+"Do not emit warnings for non-Qt files, or in other words, if -DQT_CORE_LIB "
+"is missing."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_onlyQt)
+#: config/projectconfigpage.ui:59
+#, kde-format
+msgid "Only Qt"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_qt4Compat)
+#: config/projectconfigpage.ui:66
+#, kde-format
+msgid "Disable checks not compatible with Qt 4."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_qt4Compat)
+#: config/projectconfigpage.ui:69
+#, kde-format
+msgid "Qt4 compatible"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_qtDeveloper)
+#: config/projectconfigpage.ui:76
+#, kde-format
+msgid ""
+"For running clazy on Qt itself, optional, but honours specific guidelines."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_qtDeveloper)
+#: config/projectconfigpage.ui:79
+#, kde-format
+msgid "Qt developer"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_visitImplicitCode)
+#: config/projectconfigpage.ui:87
+#, kde-format
+msgid ""
+"For visiting implicit code like compiler generated constructors.\n"
+"None of the built-in checks benefit from this, but can be useful for custom "
+"checks."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_visitImplicitCode)
+#: config/projectconfigpage.ui:90
+#, kde-format
+msgid "Visit implicit code"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ignoreIncludedFiles)
+#: config/projectconfigpage.ui:107
+#, kde-format
+msgid ""
+"Only emit warnings for the current file being compiled and ignore any "
+"includes.\n"
+"Useful for performance reasons."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ignoreIncludedFiles)
+#: config/projectconfigpage.ui:110
+#, kde-format
+msgid "Ignore included files"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, headerFilterLabel)
+#: config/projectconfigpage.ui:119
+#, kde-format
+msgid "Header filter:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_headerFilter)
+#: config/projectconfigpage.ui:127
+#, kde-format
+msgid ""
+"Regular expression matching the names of the headers to output diagnostics "
+"from.\n"
+"Diagnostics from the main file of each translation unit are always displayed."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableAllFixits)
+#: config/projectconfigpage.ui:150
+#, kde-format
+msgid "Enable all fixits"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_noInplaceFixits)
+#: config/projectconfigpage.ui:157
+#, kde-format
+msgid "Fixits will be applied to a separate file (for unit-test use only)."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_noInplaceFixits)
+#: config/projectconfigpage.ui:160
+#, kde-format
+msgid "No-inplace fixits"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KMessageWidget, kmessagewidget)
+#: config/projectconfigpage.ui:170
+#, kde-format
+msgid ""
+"Please backup your code before fixits applying. For better results also "
+"disable \n"
+"parallel checking, which can lead to multiple fixit applying for header "
+"files."
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, extraTab)
+#: config/projectconfigpage.ui:187
+#, kde-format
+msgid "Extra Parameters"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, extraAppendLabel)
+#: config/projectconfigpage.ui:193
+#, kde-format
+msgid "Compiler append:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_extraAppend)
+#: config/projectconfigpage.ui:200
+#, kde-format
+msgid "Additional parameters to append to the compiler command line."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, extraPrependLabel)
+#: config/projectconfigpage.ui:210
+#, kde-format
+msgid "Compiler prepend:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_extraPrepend)
+#: config/projectconfigpage.ui:217
+#, kde-format
+msgid "Additional parameters to prepend to the compiler command line."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_extraClazy)
+#: config/projectconfigpage.ui:227
+#, kde-format
+msgid "Additional parameters to clazy-standalone."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, extraClazyLabel)
+#: config/projectconfigpage.ui:237
+#, kde-format
+msgid "Extra parameters:"
+msgstr ""
+
+#: job.cpp:56
+#, kde-format
+msgid "Clazy Analysis (%1)"
+msgstr ""
+
+#: job.cpp:173
+#, kde-format
+msgid "Unknown Level"
+msgstr ""
+
+#: job.cpp:233
+#, kde-format
+msgid "Failed to start Clazy analysis process."
+msgstr ""
+
+#: job.cpp:238
+#, kde-format
+msgid "Clazy analysis process crashed."
+msgstr ""
+
+#: job.cpp:243
+#, kde-format
+msgid "Clazy analysis process timed out."
+msgstr ""
+
+#: job.cpp:247
+#, kde-format
+msgid "Write to Clazy analysis process failed."
+msgstr ""
+
+#: job.cpp:251
+#, kde-format
+msgid "Read from Clazy analysis process failed."
+msgstr ""
+
+#: job.cpp:261 plugin.cpp:184
+#, kde-format
+msgid "Clazy Error"
+msgstr ""
+
+#: jobparameters.cpp:57
+#, kde-format
+msgid ""
+"clazy-standalone path cannot be detected. Set the path manually if Clazy is "
+"already installed."
+msgstr ""
+
+#: jobparameters.cpp:60
+#, kde-format
+msgid "clazy-standalone path is empty."
+msgstr ""
+
+#: jobparameters.cpp:68
+#, kde-format
+msgid "clazy-standalone path '%1' does not exists."
+msgstr ""
+
+#: jobparameters.cpp:73
+#, kde-format
+msgid "clazy-standalone path '%1' is not an executable."
+msgstr ""
+
+#: jobparameters.cpp:82
+#, kde-format
+msgid ""
+"Clazy documentation path cannot be detected. Set the path manually if Clazy "
+"is already installed."
+msgstr ""
+
+#: jobparameters.cpp:85
+#, kde-format
+msgid "Clazy documentation path is empty."
+msgstr ""
+
+#: jobparameters.cpp:93
+#, kde-format
+msgid "Clazy documentation path '%1' does not exists."
+msgstr ""
+
+#: jobparameters.cpp:98
+#, kde-format
+msgid "Clazy documentation path '%1' is not a directory."
+msgstr ""
+
+#: jobparameters.cpp:159
+#, kde-format
+msgid "Compile commands file '%1' does not exist."
+msgstr ""
+
+#: jobparameters.cpp:217
+#, kde-format
+msgid ""
+"Nothing to check: compile commands file '%1' contains no matching items."
+msgstr ""
+
+#: plugin.cpp:67
+#, kde-format
+msgid "Analyze Current File with Clazy"
+msgstr ""
+
+#: plugin.cpp:74
+#, kde-format
+msgid "Analyze Current Project with Clazy"
+msgstr ""
+
+#: plugin.cpp:123
+#, kde-format
+msgctxt "@title:window"
+msgid "Test"
+msgstr ""
+
+#: plugin.cpp:183
+#, kde-format
+msgid ""
+"Unable to start Clazy check for '%1':\n"
+"\n"
+"%2"
+msgstr ""
+
+#: problemmodel.cpp:124
+#, kde-format
+msgid "Analysis completed, no problems detected."
+msgstr ""
+
+#: problemmodel.cpp:147
+#, kde-format
+msgid "Analysis started..."
+msgstr ""
+
+#: problemmodel.cpp:148
+#, kde-format
+msgctxt "@info:tooltip %1 is the path of the file"
+msgid "Re-run last Clazy analysis (%1)"
+msgstr ""
+
+#: problemmodel.cpp:150
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Re-run last Clazy analysis"
+msgstr ""
+
+#: utils.cpp:53
+#, kde-format
+msgid "Unable to open compile commands file '%1' for reading"
+msgstr ""
+
+#: utils.cpp:61
+#, kde-format
+msgid "JSON error during parsing compile commands file '%1': %2"
+msgstr ""
+
+#: utils.cpp:66
+#, kde-format
+msgid ""
+"JSON error during parsing compile commands file '%1': document is not an "
+"array"
+msgstr ""

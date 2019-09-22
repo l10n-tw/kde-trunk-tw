@@ -1,0 +1,505 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the isoimagewriter package.
+#
+# pan93412 <pan93412@gmail.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: isoimagewriter\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-22 02:31+0200\n"
+"PO-Revision-Date: 2019-01-12 23:23+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 18.12.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "pan93412"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "pan93412@gmail.com"
+
+#: isoimagewriter/common.cpp:52
+#, kde-format
+msgid "Error code: %1"
+msgstr "錯誤代碼：%1"
+
+#: isoimagewriter/imagewriter.cpp:62
+#, kde-format
+msgid "Failed to allocate memory for buffer:"
+msgstr "無法分配記憶體給緩衝區："
+
+#: isoimagewriter/imagewriter.cpp:66
+#, kde-format
+msgid "Failed to allocate memory for buffer."
+msgstr "無法分配記憶體給緩衝區。"
+
+#: isoimagewriter/imagewriter.cpp:80
+#, kde-format
+msgid "Failed to open the image file: %1"
+msgstr "無法開啟映像檔：%1"
+
+#: isoimagewriter/imagewriter.cpp:103
+#, kde-format
+msgid "Failed to open the drive %1"
+msgstr "無法開啟裝置 %1"
+
+#: isoimagewriter/imagewriter.cpp:110
+#, kde-format
+msgid "Failed to unmount the drive %1"
+msgstr "無法卸載裝置 %1"
+
+#: isoimagewriter/imagewriter.cpp:127
+#, kde-format
+msgid ""
+"Failed to unmount the volume %1\n"
+"%2"
+msgstr ""
+"無法卸載磁碟區 %1\n"
+"%2"
+
+#: isoimagewriter/imagewriter.cpp:138
+#, kde-format
+msgid ""
+"Failed to open the target device:\n"
+"%1"
+msgstr ""
+"無法開啟目標裝置：\n"
+"%1"
+
+#: isoimagewriter/imagewriter.cpp:166
+#, kde-format
+msgid ""
+"Failed to write to the device:\n"
+"%1"
+msgstr ""
+"無法寫入裝置：\n"
+"%1"
+
+#: isoimagewriter/imagewriter.cpp:168
+#, kde-format
+msgid ""
+"The last block was not fully written (%1 of %2 bytes)!\n"
+"Aborting."
+msgstr ""
+"尾端區塊未順利寫入 (%1/%2 位元組)！\n"
+"選擇取消。"
+
+#: isoimagewriter/imagewriter.cpp:219
+#, kde-format
+msgid ""
+"Failed to read the image file:\n"
+"%1"
+msgstr ""
+"無法讀取映像檔：\n"
+"%1"
+
+#: isoimagewriter/imagewriter.cpp:246
+#, kde-format
+msgid "The operation completed successfully."
+msgstr "動作順利完成。"
+
+#: isoimagewriter/imagewriter.cpp:248
+#, kde-format
+msgid "Now you need to format your device."
+msgstr "現在需要格式化裝置。"
+
+#: isoimagewriter/imagewriter.cpp:248
+#, kde-format
+msgid ""
+"To be able to store data on this device again, please, use the button \"Wipe "
+"USB Disk\"."
+msgstr "為使此裝置能再儲存資料，請按下「清除 USB 裝置資料」按鈕。"
+
+#: isoimagewriter/isoverifier.cpp:63
+#, kde-format
+msgid "Could not verify as a known distro image."
+msgstr "無法驗證為已知發行版映像檔。"
+
+#: isoimagewriter/isoverifier.cpp:74
+#, kde-format
+msgid "SHA256 Checksum"
+msgstr "SHA256 校驗碼"
+
+#: isoimagewriter/isoverifier.cpp:75
+#, kde-format
+msgid "Paste the SHA256 checksum for this ISO:"
+msgstr "貼上此 ISO 映像檔的 SHA256 校驗碼："
+
+#: isoimagewriter/isoverifier.cpp:131
+#, kde-format
+msgid ""
+"Could not find %1, please download PGP signature file to same directory."
+msgstr "找不到 %1，請下載 PGP 簽名檔案至同個資料夾。"
+
+#: isoimagewriter/isoverifier.cpp:138
+#, fuzzy, kde-format
+#| msgid "Could not read file"
+msgid "Could not open signature file"
+msgstr "無法讀取檔案"
+
+#: isoimagewriter/isoverifier.cpp:145
+#, fuzzy, kde-format
+#| msgid "Could not Verify ISO"
+msgid "Could not open ISO image"
+msgstr "無法驗證 ISO"
+
+#: isoimagewriter/isoverifier.cpp:160 isoimagewriter/isoverifier.cpp:225
+#, kde-format
+msgid "Key is revoked."
+msgstr "金鑰已被撤回。"
+
+#: isoimagewriter/isoverifier.cpp:162 isoimagewriter/isoverifier.cpp:227
+#, kde-format
+msgid "Uses wrong signature."
+msgstr "使用錯誤簽名。"
+
+#: isoimagewriter/isoverifier.cpp:173
+#, kde-format
+msgid "Could not open SHA256SUMS file, please download to same directory"
+msgstr "無法開啟 SHA256SUMS 檔案，請下載到同個資料夾"
+
+#: isoimagewriter/isoverifier.cpp:185
+#, kde-format
+msgid "Could not find checksum in SHA256SUMS file"
+msgstr "找不到 SHA256SUMS 檔案中的校驗碼"
+
+#: isoimagewriter/isoverifier.cpp:193 isoimagewriter/isoverifier.cpp:239
+#, fuzzy, kde-format
+#| msgid "Could not read file"
+msgid "Could not read ISO image"
+msgstr "無法讀取檔案"
+
+#: isoimagewriter/isoverifier.cpp:197 isoimagewriter/isoverifier.cpp:243
+#, kde-format
+msgid "Could not perform checksum"
+msgstr "無法執行校驗程序"
+
+#: isoimagewriter/isoverifier.cpp:202
+#, kde-format
+msgid "Checksum of .iso file does not match value in SHA256SUMS file"
+msgstr "ISO 檔案的校驗碼與 SHA256SUMS 檔案的值不符"
+
+#: isoimagewriter/isoverifier.cpp:210
+#, kde-format
+msgid ""
+"Could not find SHA256SUMS.gpg, please download PGP signature file to same "
+"directory."
+msgstr "找不到 SHA256SUMS.gpg，請下載 PGP 簽名檔案至同個資料夾。"
+
+#: isoimagewriter/isoverifier.cpp:252
+#, kde-format
+msgid "Checksum did not match"
+msgstr "校驗碼不符合"
+
+#: isoimagewriter/isoverifier.cpp:257
+#, kde-format
+msgid "Requires an SHA256 checksum"
+msgstr "需要 SHA256 校驗碼"
+
+#: isoimagewriter/mainapplication.cpp:35
+#, kde-format
+msgid "ISO Image Writer"
+msgstr "ISO 映像檔寫入工具"
+
+#: isoimagewriter/mainapplication.cpp:37
+#, kde-format
+msgid "Write an ISO Image to a USB Disk"
+msgstr "將 ISO 映像檔寫入 USB 磁碟"
+
+#: isoimagewriter/mainapplication.cpp:39
+#, kde-format
+msgid "Copyright (c) 2016 ROSA"
+msgstr "Copyright (c) 2016 ROSA"
+
+#: isoimagewriter/mainapplication.cpp:41
+#, kde-format
+msgid "Konstantin Vlasov"
+msgstr "Konstantin Vlasov"
+
+#: isoimagewriter/mainapplication.cpp:41 isoimagewriter/mainapplication.cpp:42
+#, kde-format
+msgid "Author"
+msgstr "作者"
+
+#: isoimagewriter/mainapplication.cpp:42
+#, kde-format
+msgid "Jonathan Riddell"
+msgstr "Jonathan Riddell"
+
+#: isoimagewriter/mainwindow.cpp:127
+#, kde-format
+msgid "Path to ISO image..."
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:135
+#, kde-format
+msgid "Create"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:152
+#, kde-format
+msgid "Write this ISO image:"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:155
+#, kde-format
+msgid "To this USB drive:"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:173
+#, kde-format
+msgid ""
+"Everything on the USB drive will be overwritten.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:181
+#, kde-format
+msgid "Abort"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:184
+#, kde-format
+msgid "Continue"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:203
+#, kde-format
+msgid ""
+"Your USB drive is being created.\n"
+"\n"
+"This may take some time depending on the size of the ISO image file and the "
+"transfer speed."
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:210
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:226
+#, kde-format
+msgid "Your live USB flash drive is now complete and ready to use!"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:233
+#, kde-format
+msgid "Back"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:236
+#, kde-format
+msgid "Close"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:261
+#, kde-format
+msgid "Failed to open the image file:"
+msgstr "無法開啟映像檔案："
+
+#: isoimagewriter/mainwindow.cpp:275
+#, kde-format
+msgid "Verifying ISO image"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:353
+#, kde-format
+msgid "Please plug in a USB drive"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:479
+#, kde-format
+msgid "Cancel?"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:480
+#, kde-format
+msgid "Writing is in progress, abort it?"
+msgstr "正在寫入資料，確認中止？"
+
+#: isoimagewriter/mainwindow.cpp:496
+#, kde-format
+msgid "Disk Images (%1)"
+msgstr "磁碟映像檔 (%1)"
+
+#: isoimagewriter/mainwindow.cpp:497
+#, kde-format
+msgid "All Files (%1)"
+msgstr "所有檔案 (%1)"
+
+#: isoimagewriter/mainwindow.cpp:520 isoimagewriter/mainwindow.cpp:581
+#, kde-format
+msgid "Error"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:521
+#, fuzzy, kde-format
+#| msgid "The image is larger than your selected device!"
+msgid ""
+"The image is larger than your selected device!\n"
+"\n"
+"Image size: %1 (%2 b)\n"
+"Disk size: %3 (%4 b)"
+msgstr "映像檔大於選取裝置！"
+
+#: isoimagewriter/mainwindow.cpp:607
+#, kde-format
+msgid "The ISO image is valid"
+msgstr ""
+
+#: isoimagewriter/mainwindow.cpp:610
+#, fuzzy, kde-format
+#| msgid "Could not Verify ISO"
+msgid "Could not verify ISO image"
+msgstr "無法驗證 ISO"
+
+#: isoimagewriter/mainwindow.cpp:613
+#, kde-format
+msgid "ISO Verification failed"
+msgstr ""
+
+#: isoimagewriter/physicaldevice.cpp:54
+#, kde-format
+msgid "Could not acquire lock:"
+msgstr "無法取得鎖定："
+
+#: isoimagewriter/platform_win.cpp:57
+#, kde-format
+msgid "Memory allocation for %1 failed."
+msgstr "分配 %1 的記憶體失敗。"
+
+#: isoimagewriter/platform_win.cpp:105
+#, kde-format
+msgid "CoCreateInstance(WbemAdministrativeLocator) failed."
+msgstr "CoCreateInstance(WbemAdministrativeLocator) 執行失敗。"
+
+#: isoimagewriter/platform_win.cpp:106
+#, kde-format
+msgid "ConnectServer failed."
+msgstr "ConnectServer 執行失敗。"
+
+#: isoimagewriter/platform_win.cpp:107
+#, kde-format
+msgid "Failed to query USB flash devices."
+msgstr "無法查詢 USB 快閃裝置。"
+
+#: isoimagewriter/platform_win.cpp:171
+#, kde-format
+msgid "Failed to query list of partitions."
+msgstr "無法查詢分割區列表。"
+
+#: isoimagewriter/platform_win.cpp:203
+#, kde-format
+msgid "Failed to query list of logical disks."
+msgstr "無法查詢邏輯磁碟列表。"
+
+#: isoimagewriter/usbdevice.h:34
+#, kde-format
+msgid "Unknown Device"
+msgstr "未知裝置"
+
+#: isoimagewriter/usbdevice.h:43
+#, kde-format
+msgid "<unmounted>"
+msgstr "<未掛載>"
+
+#~ msgid "Select an ISO image file to write to a USB disk"
+#~ msgstr "選擇要寫入到 USB 裝置的 ISO 映像檔案"
+
+#~ msgid "Clear USB Disk"
+#~ msgstr "清除 USB 裝置"
+
+#~ msgid "Write"
+#~ msgstr "寫入"
+
+#~ msgid "Wipe USB Disk"
+#~ msgstr "清空 USB 裝置資料"
+
+#~ msgid "(%1 MiB)"
+#~ msgstr "(%1 MiB)"
+
+#~ msgid "Invalid ISO"
+#~ msgstr "ISO 無效"
+
+#~ msgid "ISO is invalid:<p>%1"
+#~ msgstr "ISO 無效：<p>%1"
+
+#~ msgid "%1<p>Do you want to continue"
+#~ msgstr "%1<p>確認繼續"
+
+#~ msgid "Running ISO verification, please wait..."
+#~ msgstr "正在執行 ISO 驗證程序，請稍候…"
+
+#~ msgid "Verified as valid KDE neon ISO"
+#~ msgstr "為有效的 KDE neon ISO"
+
+#~ msgid "Invalid KDE neon image"
+#~ msgstr "無效的 KDE neon 映像檔"
+
+#~ msgid "Verified as valid Arch ISO"
+#~ msgstr "為有效的 Arch ISO"
+
+#~ msgid "Invalid Arch image"
+#~ msgstr "無效的 Arch 映像檔"
+
+#~ msgid "Verified as valid Netrunner ISO"
+#~ msgstr "為有效的 KDE neon ISO"
+
+#~ msgid "Invalid Netrunner image"
+#~ msgstr "無效的 Netrunner 映像檔"
+
+#~ msgid "Verified as valid Kubuntu ISO"
+#~ msgstr "為有效的 Kubuntu ISO"
+
+#~ msgid "Invalid Kubuntu image"
+#~ msgstr "無效的 Kubuntu 映像檔"
+
+#~ msgid "Image size: %1MiB (%2b)"
+#~ msgstr "映像檔大小：%1MiB (%2b)"
+
+#~ msgid "Disk size: %1MiB (%2b)"
+#~ msgstr "磁碟大小：%1MiB (%2b)"
+
+#~ msgid "All existing data on the selected device will be lost."
+#~ msgstr "選取裝置上的所有資料將會遺失。"
+
+#~ msgid "Are you sure you wish to proceed?"
+#~ msgstr "是否繼續？"
+
+#~ msgid "Clear Disk and Write Image"
+#~ msgstr "清除磁碟並寫入映像"
+
+#~ msgid "Image:"
+#~ msgstr "映像檔："
+
+#~ msgid "Open image file"
+#~ msgstr "開啟映像檔"
+
+#~ msgid "&USB Device:"
+#~ msgstr "&USB 裝置："
+
+#~ msgid "Refresh the list"
+#~ msgstr "重新整理列表"
+
+#~ msgid "%v / %m MiB"
+#~ msgstr "%v / %m MiB"
+
+#~ msgid "MiB"
+#~ msgstr "MiB"
+
+#~ msgid "ISO File %1 does not exist"
+#~ msgstr "ISO 檔案 %1 不存在"
+
+#~ msgctxt "%1 is the name of the distribution"
+#~ msgid "Filename does not match %1 ISO files"
+#~ msgstr "檔名與 %1 ISO 檔案不符。"

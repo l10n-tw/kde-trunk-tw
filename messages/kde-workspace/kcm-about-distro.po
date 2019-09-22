@@ -1,0 +1,163 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016.
+# pan93412 <pan93412@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:24+0200\n"
+"PO-Revision-Date: 2018-12-26 18:19+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 18.12.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng, Jeff Huang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
+
+#: Module.cpp:78
+#, kde-format
+msgctxt "@title"
+msgid "About Distribution"
+msgstr "關於散布版"
+
+#: Module.cpp:82
+#, kde-format
+msgctxt "@info:credit"
+msgid "Copyright 2012-2014 Harald Sitter"
+msgstr "Copyright 2012-2014 Harald Sitter"
+
+#: Module.cpp:84
+#, kde-format
+msgctxt "@info:credit"
+msgid "Harald Sitter"
+msgstr "Harald Sitter"
+
+#: Module.cpp:85
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "作者"
+
+#: Module.cpp:171
+#, kde-format
+msgctxt "@title:row"
+msgid "Operating System:"
+msgstr "作業系統："
+
+#: Module.cpp:229
+#, kde-format
+msgctxt "@label %1 is the CPU bit width (e.g. 32 or 64)"
+msgid "%1-bit"
+msgstr "%1 位元"
+
+#: Module.cpp:234
+#, kde-format
+msgid "Processor:"
+msgid_plural "Processors:"
+msgstr[0] "處理器："
+
+#: Module.cpp:272
+#, kde-format
+msgctxt "@label %1 is the formatted amount of system memory (e.g. 7,7 GiB)"
+msgid "%1 of RAM"
+msgstr "%1 的記憶體"
+
+#: Module.cpp:273
+#, kde-format
+msgctxt "Unknown amount of RAM"
+msgid "Unknown"
+msgstr "未知"
+
+#: Module.cpp:288
+#, kde-format
+msgctxt ""
+"%1 is a label already including a colon, %2 is the corresponding value"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: Module.ui:165
+#, kde-format
+msgid "Software"
+msgstr "軟體"
+
+#. i18n: ectx: property (text), widget (QLabel, plasma)
+#: Module.ui:175
+#, kde-format
+msgid "KDE Plasma Version:"
+msgstr "KDE Plasma 版本："
+
+#. i18n: ectx: property (text), widget (QLabel, frameworksLabelKey)
+#: Module.ui:192
+#, kde-format
+msgid "KDE Frameworks Version:"
+msgstr "KDE Frameworks 版本："
+
+#. i18n: ectx: property (text), widget (QLabel, qt)
+#: Module.ui:209
+#, kde-format
+msgid "Qt Version:"
+msgstr "Qt 版本："
+
+#. i18n: ectx: property (text), widget (QLabel, kernel)
+#: Module.ui:226
+#, kde-format
+msgid "Kernel Version:"
+msgstr "核心版本："
+
+#. i18n: ectx: property (text), widget (QLabel, bitsKey)
+#: Module.ui:243
+#, kde-format
+msgid "OS Type:"
+msgstr "作業系統類型："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: Module.ui:282
+#, kde-format
+msgid "Hardware"
+msgstr "硬體"
+
+#. i18n: ectx: property (text), widget (QLabel, memory)
+#: Module.ui:309
+#, kde-format
+msgid "Memory:"
+msgstr "記憶體："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, pushButtonCopyInfo)
+#: Module.ui:358
+#, kde-format
+msgid "Copy software and hardware information to clipboard"
+msgstr "複製軟體與硬體資訊到剪貼簿"
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButtonCopyInfo)
+#: Module.ui:361
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr "複製至剪貼簿"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, pushButtonCopyInfoInEnglish)
+#: Module.ui:372
+#, kde-format
+msgid "Copy software and hardware information to clipboard in English"
+msgstr "複製英文的軟體與硬體資訊到剪貼簿"
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButtonCopyInfoInEnglish)
+#: Module.ui:375
+#, kde-format
+msgid "Copy to Clipboard in English"
+msgstr "複製英文訊息至剪貼簿"

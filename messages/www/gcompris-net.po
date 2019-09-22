@@ -1,0 +1,609 @@
+# Chinese (Taiwan) translations for PROJECT.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+# pan93412 <pan93412@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-08-16 03:23+0200\n"
+"PO-Revision-Date: 2018-12-05 19:23+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 0.9.6\n"
+"X-Generator: Lokalize 2.0\n"
+
+# news title
+#. news title
+msgctxt "20190303.html"
+msgid "Release GCompris 0.96"
+msgstr ""
+
+# paragraph
+#. paragraph
+msgctxt "20190303.html"
+msgid ""
+"Hi,<br />\\nWe are pleased to announce the release of GCompris version 0.96."
+msgstr ""
+
+# paragraph
+#. paragraph
+msgctxt "20190303.html"
+msgid ""
+"This new version includes updated translation for several languages, and a "
+"few bug fixes."
+msgstr ""
+
+# paragraph
+#. paragraph
+msgctxt "20190303.html"
+msgid "Translations that received a big update:"
+msgstr ""
+
+# list item
+#. list item
+msgctxt "20190303.html"
+msgid "Brazilian Portuguese (100%)"
+msgstr ""
+
+# list item
+#. list item
+msgctxt "20190303.html"
+msgid "Breton (100%)"
+msgstr ""
+
+# list item
+#. list item
+msgctxt "20190303.html"
+msgid "Finnish (90%)"
+msgstr ""
+
+# list item
+#. list item
+msgctxt "20190303.html"
+msgid "Indonesian (100%)"
+msgstr ""
+
+# list item
+#. list item
+msgctxt "20190303.html"
+msgid "Norwegian Nynorsk (97%)"
+msgstr ""
+
+# list item
+#. list item
+msgctxt "20190303.html"
+msgid "Polish (100%)"
+msgstr ""
+
+# paragraph
+#. paragraph
+msgctxt "20190303.html"
+msgid ""
+"This means we have now 19 languages fully supported: British English, "
+"Brazilian Portuguese, Breton, Catalan, Catalan (Valencian), Chinese "
+"Traditional, Dutch, French, Galician, Greek, Hungarian, Indonesian, Italian, "
+"Malayalam, Polish, Portuguese, Romanian, Swedish, Ukrainian."
+msgstr ""
+
+# paragraph
+#. paragraph
+msgctxt "20190303.html"
+msgid ""
+"We still have 15 partially supported languages: Basque (78%), Belarusian "
+"(68%), Chinese Simplified (69%), Estonian (62%), Finnish (90%), German "
+"(84%), Hindi (76%), Irish Gaelic (82%), Norwegian Nynorsk (97%), Russian "
+"(77%), Scottish Gaelic (70%), Slovak (62%), Slovenian (56%), Spanish (93%), "
+"Turkish (73%)."
+msgstr ""
+
+# paragraph
+#. paragraph
+msgctxt "20190303.html"
+msgid ""
+"We decided again for this release to keep the translations that dropped "
+"below 80%. It would be sad to have to disable 10 languages from the "
+"application, but if no one updates the following translations, they will be "
+"disabled in next release: Basque, Belarusian, Chinese Simplified, Estonian, "
+"Hindi, Russian, Scottish Gaelic, Slovak, Slovenian and Turkish."
+msgstr ""
+
+# paragraph
+#. paragraph
+msgctxt "20190303.html"
+msgid ""
+"For the windows version, we added a new entry in the start menu called "
+"GCompris (Safe Mode) to launch it with software rendering mode. This was "
+"needed as the auto-detection of OpenGL support was not reliable. Now, users "
+"can easily choose between OpenGL and software rendering without changing the "
+"configuration file."
+msgstr ""
+
+# paragraph
+#. paragraph
+msgctxt "20190303.html"
+msgid "Known issues:"
+msgstr ""
+
+# list item
+#. list item
+msgctxt "20190303.html"
+msgid ""
+"The progress bar for downloads doesn't work anymore. This is a side effect "
+"from our switch to https for hosting the files. We are looking to improve "
+"this for next release.\\n"
+msgstr ""
+
+# paragraph
+#. paragraph
+msgctxt "20190303.html"
+msgid ""
+"As a side note dedicated to GNU/Linux distribution packagers, this new "
+"version now requires OpenSSL to be able to download voices and additional "
+"images."
+msgstr ""
+
+# paragraph
+#. paragraph
+msgctxt "20190303.html"
+msgid ""
+"As usual you can download this new version from our <a href=\\\"https://"
+"gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. It will also "
+"be available soon on the Android and Windows store."
+msgstr ""
+
+# paragraph
+#. paragraph
+msgctxt "20190303.html"
+msgid "Thank you all, <br/>\\nTimothée & Johnny"
+msgstr ""
+
+#: template/base.html:59 template/downloads.html:4 template/downloads.html:9
+msgid "Download"
+msgstr "下載"
+
+#: template/base.html:60 template/buy.html:4 template/buy.html:9
+msgid "Buy / Donate"
+msgstr "購買／捐助"
+
+#: template/base.html:61
+msgid "Screenshots"
+msgstr "截圖"
+
+#: template/base.html:63
+msgid "Contribute"
+msgstr "貢獻"
+
+#: template/buy.html:16
+msgid "Buying the full version"
+msgstr "購買完整版本"
+
+#: template/buy.html:20
+msgid ""
+"On proprietary operating systems (Windows/Mac/Android...), the full version "
+"of GCompris has a cost."
+msgstr ""
+
+#: template/buy.html:21
+#, python-format
+msgid ""
+"We provide a free demo with a limited number of activities, "
+"%(demo_activities)s on the %(total_activities)s available."
+msgstr ""
+
+#: template/buy.html:22
+msgid "Follow the instructions below to buy the full version."
+msgstr ""
+
+#: template/buy.html:24
+#, python-format
+msgid ""
+"For Windows and macOS, you can get the demo from the <a href=downloads-"
+"%(locale)s.html>download page</a>, and buy here the activation code to "
+"unlock the full version. The cost is 9€."
+msgstr ""
+
+#: template/buy.html:37
+msgid ""
+"After the payment you will immediately receive an email with instructions "
+"(check your spam folder). If you do not receive this email please contact us "
+"at sales@gcompris.net."
+msgstr ""
+
+#: template/buy.html:38
+msgid ""
+"This registration gives you the right to update to any new release of "
+"GCompris for 2 years. After that period, you can continue to use the latest "
+"release you got for as long as you wish."
+msgstr ""
+
+#: template/buy.html:40
+msgid "Notes:"
+msgstr ""
+
+#: template/buy.html:41
+msgid "You can use this code on several computers."
+msgstr ""
+
+#: template/buy.html:42
+msgid ""
+"Schools and other institutions can buy a site activation key to support the "
+"project."
+msgstr ""
+
+#: template/buy.html:43
+msgid ""
+"Please contact us at <a href=\"mailto:sales@gcompris.net?subject=GCompris - "
+"Quote for school\">sales@gcompris.net</a> to request a quote."
+msgstr ""
+
+#: template/buy.html:45
+msgid ""
+"Alternatively, you can also buy the full version of GCompris directly <a "
+"href=\"https://www.microsoft.com/en-us/store/p/gcompris/9pgxjtcxn8qm\">from "
+"the Windows Store.</a>"
+msgstr ""
+
+#: template/buy.html:46
+msgid "However, the Windows Store requires Windows 10."
+msgstr ""
+
+#: template/buy.html:49
+msgid ""
+"For Android, the recommended way is to directly buy the full version <a href="
+"\"https://play.google.com/store/apps/details?id=net.gcompris.full\">from "
+"Google Play store</a>."
+msgstr ""
+
+#: template/buy.html:50
+msgid ""
+"You can also install <a href=\"https://play.google.com/store/apps/details?"
+"id=net.gcompris\">the demo</a> available in the store, and use the in-app "
+"purchase button to unlock the full version from it. Note however that this "
+"second method doesn't allow to use the Google Play Family Library to share "
+"it with your family. Also, a few users reported issues to unlock the demo."
+msgstr ""
+
+#: template/buy.html:53
+msgid ""
+"For users of Free-Software operating systems, the full version is always "
+"free.</br>\n"
+"          This means that for GNU/Linux, the installer we provide and the "
+"distribution packages have the full version. There is no need for any "
+"activation code."
+msgstr ""
+
+#: template/buy.html:55
+msgid "However, you can still support us with a donation, see below."
+msgstr ""
+
+#: template/buy.html:57 template/buy.html:86
+msgid "Thanks for supporting Free Software in education."
+msgstr "感謝您支持教育領域的自由軟體。"
+
+#: template/buy.html:59
+msgid "Legal reference: Company"
+msgstr ""
+
+#: template/buy.html:69
+msgid "Donate"
+msgstr "捐助"
+
+#: template/buy.html:73
+msgid ""
+"You, your children or your school love GCompris. You can support the project "
+"with a donation."
+msgstr ""
+
+#: template/buy.html:74
+msgid ""
+"Developing software takes a lot of time, it needs hardware, and other "
+"requirements that have a cost. Currently all sales and donations are used to "
+"support one of the main contributors, a professional graphic artist and "
+"developer who is now in charge of the graphics and co-maintaining the "
+"application."
+msgstr ""
+
+#: template/buy.html:75
+msgid ""
+"You can donate the amount of your choice by clicking on the button below:"
+msgstr "您能按底下按鈕來捐助所選金額："
+
+#: template/downloads.html:16
+msgid "Windows"
+msgstr ""
+
+#: template/downloads.html:20
+msgid ""
+"You can buy the full version of GCompris <a href=\"https://www.microsoft.com/"
+"en-us/store/p/gcompris/9pgxjtcxn8qm\">in the Windows Store</a>."
+msgstr ""
+
+#: template/downloads.html:21
+msgid "Note: the Windows Store requires Windows 10."
+msgstr ""
+
+#: template/downloads.html:23
+#, python-format
+msgid ""
+"Else, you can get the demo from the links below, and <a href=\"buy-"
+"%(locale)s.html\">buy on our website</a> the activation code to unlock the "
+"full version."
+msgstr ""
+
+#: template/downloads.html:24
+msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgstr ""
+
+#: template/downloads.html:29
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please use the entry GCompris (Safe Mode) in the start menu to "
+"launch GCompris with the software rendering mode which doesn't use OpenGL."
+msgstr ""
+
+#: template/downloads.html:30
+msgid ""
+"If you really need a version that runs on Windows XP, or if your system "
+"doesn't support the new version, you can use the last installer from the old "
+"GCompris 15.10."
+msgstr ""
+
+#: template/downloads.html:43
+msgid "Android"
+msgstr ""
+
+#: template/downloads.html:47
+msgid ""
+"The version for Android is distributed in the Play Store. The demo and the "
+"full version have separate installers."
+msgstr ""
+
+#: template/downloads.html:52
+msgid ""
+"Note: It is recommended to buy directly the full version from the store, not "
+"from the button in the demo. This way, you can share it with 5 family "
+"members using the Google Play Family Library. Also, a few users reported "
+"issues to unlock the demo."
+msgstr ""
+
+#: template/downloads.html:53
+msgid ""
+"We support both android 32bit and 64bit from the Play Store. The appropriate "
+"version is downloaded automatically depending on your Android operating "
+"system."
+msgstr ""
+
+#: template/downloads.html:55
+msgid ""
+"The full version is also available from F-Droid, the Free and Open Source "
+"Android app repository."
+msgstr ""
+
+#: template/downloads.html:56
+#, python-format
+msgid ""
+"If you use this version, please consider <a href=\"buy%(suffix)s."
+"html#donation\">making a donation</a> to support GCompris."
+msgstr ""
+
+#: template/downloads.html:69
+msgid "macOS"
+msgstr ""
+
+#: template/downloads.html:73
+#, python-format
+msgid ""
+"You can get the demo from the link below, and <a href=\"buy-%(locale)s.html"
+"\">buy on our website</a> the activation code to unlock the full version."
+msgstr ""
+
+#: template/downloads.html:74
+msgid "Built and tested on macOS 10.13."
+msgstr ""
+
+#: template/downloads.html:87
+msgid "GNU/Linux"
+msgstr ""
+
+#: template/downloads.html:91
+msgid ""
+"We provide standalone packages for GNU/Linux. They should work on any "
+"distribution (requires at least linux kernel 3.10, and gstreamer 1.0)."
+msgstr ""
+
+#: template/downloads.html:96 template/downloads.html:122
+msgid ""
+"To use it, open a terminal in the folder where you downloaded the installer "
+"and run these commands:"
+msgstr ""
+
+#: template/downloads.html:101 template/downloads.html:127
+msgid ""
+"Then read the license or press q to skip it, answer yes to the questions, "
+"and the software will be installed in a new folder next to the installer."
+msgstr ""
+
+#: template/downloads.html:102 template/downloads.html:128
+msgid ""
+"Finally, to launch gcompris, go in the new folder, in bin, and double-click "
+"on gcompris-qt.sh."
+msgstr ""
+
+#: template/downloads.html:103
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please add the option \"--software-renderer\" at the end of the "
+"last line of the script gcompris-qt.sh. Another way is to edit the "
+"configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
+"line renderer=auto , replace auto with software and save the file."
+msgstr ""
+
+#: template/downloads.html:114
+msgid "Raspberry Pi"
+msgstr ""
+
+#: template/downloads.html:118
+msgid "We provide a standalone package for Raspberry Pi."
+msgstr ""
+
+#: template/downloads.html:118
+msgid "This package is a beta version."
+msgstr ""
+
+#: template/downloads.html:118
+msgid "It was tested only on Raspberry Pi 3."
+msgstr ""
+
+#: template/downloads.html:138
+msgid "Source code"
+msgstr ""
+
+#: template/downloads.html:142
+msgid "The source code is available under the GPLv3 license."
+msgstr ""
+
+#: template/downloads.html:155
+msgid "MD5 and GPG"
+msgstr ""
+
+#: template/downloads.html:159
+#, python-format
+msgid ""
+"To check the integrity of your downloads, you can compare the md5sums with "
+"those in this file: <a href=\"http://gcompris.net/download/qt/md5sums-"
+"%(version)s.txt\">MD5SUMS</a>"
+msgstr ""
+
+#: template/downloads.html:160
+msgid ""
+"The source tarball and the Linux installers are signed with the GPG key from "
+"Timothée Giet (public key: "
+msgstr ""
+
+#: template/downloads.html:162
+msgid "sig files:"
+msgstr ""
+
+#: template/index.html:4
+msgid "GCompris Educational Software"
+msgstr "GCompris 教育軟體"
+
+#: template/index.html:27 template/index.html:79
+#, python-format
+msgid "Version %(version)s"
+msgstr "版本 %(version)s"
+
+#: template/index.html:106 template/index.html:107
+msgid "Download GCompris"
+msgstr "下載 GCompris"
+
+#. other platform
+#: template/index.html:118
+msgid "All"
+msgstr ""
+
+#: template/index.html:192
+msgid "View all screenshots"
+msgstr "觀看所有截圖"
+
+#: template/index.html:199
+msgid ""
+"GCompris is a high quality educational software suite, including a large "
+"number of activities for children aged 2 to 10."
+msgstr ""
+
+#: template/index.html:200
+msgid ""
+"Some of the activities are game orientated, but nonetheless still "
+"educational."
+msgstr "有些活動為遊戲導向，但仍然有教育功能。"
+
+#: template/index.html:201
+msgid "Here is the list of activity categories with some examples:"
+msgstr ""
+
+#: template/index.html:203
+msgid "computer discovery: keyboard, mouse, touchscreen ..."
+msgstr ""
+
+#: template/index.html:204
+msgid "reading: letters, words, reading practice, typing text ..."
+msgstr ""
+
+#: template/index.html:205
+msgid ""
+"arithmetic: numbers, operations, table memory, enumeration, double entry "
+"table ..."
+msgstr ""
+
+#: template/index.html:206
+msgid "science: the canal lock, the water cycle, renewable energy ..."
+msgstr ""
+
+#: template/index.html:207
+msgid "geography: countries, regions, culture ..."
+msgstr ""
+
+#: template/index.html:208
+msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
+msgstr ""
+
+#: template/index.html:209
+msgid "other: colors, shapes, Braille, learn to tell time ..."
+msgstr ""
+
+#: template/index.html:211
+msgid ""
+"Currently GCompris offers more than 100 activities, and more are being "
+"developed. GCompris is free software, it means that you can adapt it to your "
+"own needs, improve it, and most importantly share it with children "
+"everywhere."
+msgstr ""
+
+#: template/index.html:212
+msgid ""
+"The GCompris project is hosted and developed by <a target=\"_blank\" rel="
+"\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
+msgstr ""
+
+#: template/index.html:219
+msgid "Latest news"
+msgstr "最新消息"
+
+#: template/index.html:223
+msgid "All the news"
+msgstr "全部消息"
+
+#: template/screenshot.html:28
+msgid "Buying the Windows or MacOSX version"
+msgstr "購買 Windows 或 MacOSX 版本"
+
+#: template/screenshot.html:46
+msgid "Description:"
+msgstr "描述："
+
+#: template/screenshot.html:49
+msgid "Prerequisite:"
+msgstr "先決條件："
+
+#: template/screenshot.html:53
+msgid "Goal:"
+msgstr "目標："
+
+#. activity handbook
+#: template/screenshot.html:57
+msgid "Manual:"
+msgstr "說明："
+
+#. activity thanks to
+#: template/screenshot.html:61
+msgid "Credit:"
+msgstr "鳴謝："

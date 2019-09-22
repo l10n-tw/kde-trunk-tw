@@ -1,0 +1,97 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2013.
+# pan93412 <pan93412@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-06-19 02:48+0200\n"
+"PO-Revision-Date: 2018-12-02 21:15+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: ninjabuilder.cpp:42
+#, kde-format
+msgid "Unable to find ninja executable. Is it installed on the system?"
+msgstr "找不到 ninja 可執行檔。其是否已安裝在系統上？"
+
+#: ninjabuilder.cpp:209
+#, kde-format
+msgid "Cannot specify prefix in %1, on ninja"
+msgstr "無法在 ninja 上於 %1 中指定前置詞"
+
+#: ninjabuilderpreferences.cpp:49 ninjajob.cpp:84
+#, kde-format
+msgid "Ninja"
+msgstr "Ninja"
+
+#: ninjabuilderpreferences.cpp:54
+#, kde-format
+msgid "Configure Ninja settings"
+msgstr "設定 Ninja 設定"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: ninjaconfig.ui:20
+#, kde-format
+msgid "&Display commands but do not execute them:"
+msgstr "顯示指令但不執行(&D)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_31)
+#: ninjaconfig.ui:40
+#, kde-format
+msgid "Install as &root:"
+msgstr "以 root 安裝(&R)："
+
+#. i18n: ectx: property (text), widget (QLabel, rootinstallationcommandLabel)
+#: ninjaconfig.ui:63
+#, kde-format
+msgid "Root installation &command:"
+msgstr "Root 安裝指令(&C)："
+
+#. i18n: ectx: property (text), widget (QLabel, jobOverrideLabel)
+#: ninjaconfig.ui:98
+#, kde-format
+msgid "&Number of simultaneous jobs:"
+msgstr "同時工作的數量(&N)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: ninjaconfig.ui:121
+#, kde-format
+msgid "Count of &errors to be tolerated:"
+msgstr "允許錯誤數(&E)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ninjaconfig.ui:141
+#, kde-format
+msgid "Additional ninja &options:"
+msgstr "Ninja 額外設定(&O)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ninjaconfig.ui:161
+#, kde-format
+msgid "Active Environment &Profile:"
+msgstr "作用的環境設定檔(&P)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ninjaconfig.ui:196
+#, kde-format
+msgid "O&verride number of jobs:"
+msgstr "覆寫工作數(&V)："
+
+#: ninjajob.cpp:106
+#, kde-format
+msgid "Ninja (%1): %2"
+msgstr "Ninja (%1): %2"
+
+#: ninjajob.cpp:108
+#, kde-format
+msgid "Ninja (%1)"
+msgstr "Ninja (%1)"

@@ -1,0 +1,164 @@
+# translation of desktop_kdenetwork.po to Chinese Traditional
+# traditional Chinese translation for KDE desktop.
+# Copyright (C) 2001-2002, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# AceLan <acelan@kde.linux.org.tw>, 2001.
+# Kenduest Lee <kenduest@i18n.linux.org.tw>, 2001.
+# Calvin Lin <armin.lin@msa.hinet.net>, 2002.
+# Yuan-Chen Cheng <ycheng@slat.org>, 2002.
+# Zhu Dingjie <alastor@alastor.ath.cx>, 2002.
+# Abel Cheung <maddog@linux.org.hk>, 2002.
+# Anthony Fok <anthony@thizlinux.com>, 2002.
+# ChaoHsiung Liao <pesder@seed.net.tw>, 2002.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2008, 2010, 2011, 2013.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2007, 2008, 2009, 2010.
+# pan93412 <pan93412@gmail.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop_kdenetwork\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-29 01:16+0000\n"
+"PO-Revision-Date: 2019-06-02 01:10+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 19.04.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: events/x11/krfb_events_x11.desktop:3
+msgctxt "Comment"
+msgid "X11 XFakeInput based event handler for KRfb"
+msgstr "KRfb 基於 X11 XFakeInput 的事件處理器"
+
+#: events/x11/krfb_events_x11.desktop:27
+msgctxt "Name"
+msgid "X11 XFakeInput based event handler for KRfb"
+msgstr "KRfb 基於 X11 XFakeInput 的事件處理器"
+
+#: events/xdp/krfb_events_xdp.desktop:3
+msgctxt "Comment"
+msgid "Xdg-desktop-portal based event handler for KRfb"
+msgstr "KRfb 基於 Xdg-desktop-portal 的事件處理器"
+
+#: events/xdp/krfb_events_xdp.desktop:27
+msgctxt "Name"
+msgid "Xdg-desktop-portal based event handler for KRfb"
+msgstr "KRfb 基於 Xdg-desktop-portal 的事件處理器"
+
+#: krfb/krfb-events.desktop:5
+msgctxt "Comment"
+msgid "Event plugins for KRfb"
+msgstr "KRfb 的事件外掛程式"
+
+#: krfb/krfb-framebuffer.desktop:5
+msgctxt "Comment"
+msgid "Frame Buffer plugins for KRfb"
+msgstr "KRfb 的 Frame Buffer 外掛程式"
+
+#: krfb/krfb.notifyrc:3 krfb/org.kde.krfb.desktop:147
+msgctxt "Comment"
+msgid "Desktop Sharing"
+msgstr "桌面分享"
+
+#: krfb/krfb.notifyrc:76
+msgctxt "Name"
+msgid "User Accepts Connection"
+msgstr "使用者接受連線"
+
+#: krfb/krfb.notifyrc:136
+msgctxt "Comment"
+msgid "User accepts connection"
+msgstr "使用者接受連線"
+
+#: krfb/krfb.notifyrc:209
+msgctxt "Name"
+msgid "User Refuses Connection"
+msgstr "使用者拒絕連線"
+
+#: krfb/krfb.notifyrc:269
+msgctxt "Comment"
+msgid "User refuses connection"
+msgstr "使用者拒絕連線使用者"
+
+#: krfb/krfb.notifyrc:342
+msgctxt "Name"
+msgid "Connection Closed"
+msgstr "連線已關閉"
+
+#: krfb/krfb.notifyrc:404
+msgctxt "Comment"
+msgid "Connection closed"
+msgstr "連線已關閉"
+
+#: krfb/krfb.notifyrc:481
+msgctxt "Name"
+msgid "Invalid Password"
+msgstr "不正確的密碼"
+
+#: krfb/krfb.notifyrc:543
+msgctxt "Comment"
+msgid "Invalid password"
+msgstr "不正確的密碼"
+
+#: krfb/krfb.notifyrc:623
+msgctxt "Name"
+msgid "Invalid Password Invitations"
+msgstr "不合法的密碼邀請"
+
+#: krfb/krfb.notifyrc:683
+msgctxt "Comment"
+msgid "The invited party sent an invalid password. Connection refused."
+msgstr "邀請的人送出了不合法的密碼邀請。連線已拒絕。"
+
+#: krfb/krfb.notifyrc:754
+msgctxt "Name"
+msgid "New Connection on Hold"
+msgstr "新連線等待處理"
+
+#: krfb/krfb.notifyrc:813
+msgctxt "Comment"
+msgid "Connection requested, user must accept"
+msgstr "連線已要求，必須等使用者接受"
+
+#: krfb/krfb.notifyrc:885
+msgctxt "Name"
+msgid "New Connection Auto Accepted"
+msgstr "新連線自動接受"
+
+#: krfb/krfb.notifyrc:944
+msgctxt "Comment"
+msgid "New connection automatically established"
+msgstr "新連線自動建立"
+
+#: krfb/krfb.notifyrc:1016
+msgctxt "Name"
+msgid "Too Many Connections"
+msgstr "太多連線"
+
+#: krfb/krfb.notifyrc:1075
+msgctxt "Comment"
+msgid "Busy, connection refused"
+msgstr "忙碌，連線被拒"
+
+#: krfb/krfb.notifyrc:1150
+msgctxt "Name"
+msgid "Unexpected Connection"
+msgstr "未知的連線"
+
+#: krfb/krfb.notifyrc:1210
+msgctxt "Comment"
+msgid "Received unexpected connection, abort"
+msgstr "已接收到未知的連線，中止。"
+
+#: krfb/org.kde.krfb.desktop:9
+msgctxt "Name"
+msgid "Krfb"
+msgstr "桌面分享_Krfb"
+
+#: krfb/org.kde.krfb.desktop:77
+msgctxt "GenericName"
+msgid "Desktop Sharing"
+msgstr "桌面分享"

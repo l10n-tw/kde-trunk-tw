@@ -1,0 +1,1056 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012, 2013, 2014, 2015.
+# pan93412 <pan93412@gmail.com>, 2018, 2019.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcontactmanager\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-07-06 03:12+0200\n"
+"PO-Revision-Date: 2019-01-19 19:50+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 18.12.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw"
+
+#: src/printing/grantlee/themes/big-theme-example/theme.html:3
+#: src/mainwidget.cpp:711 src/mainwidget.cpp:736
+#, kde-format
+msgid "Address Book"
+msgstr "通訊錄"
+
+#: src/printing/grantlee/themes/default/theme.html:35
+#, fuzzy
+#| msgid "Print Contacts"
+msgid "Contact"
+msgstr "列印聯絡人"
+
+#: src/printing/grantlee/themes/default/theme.html:42
+#: src/printing/grantlee/themes/full/theme.html:42
+#, fuzzy
+#| msgid "All EMails"
+msgid "Emails"
+msgstr "所有的電子郵件"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbOrganization)
+#: src/printing/grantlee/themes/default/theme.html:52
+#: src/printing/grantlee/themes/full/theme.html:52
+#: src/printing/ringbinder/rbs_appearance.ui:95
+#, kde-format
+msgid "Organization"
+msgstr "組織"
+
+#: src/printing/grantlee/themes/default/theme.html:58
+#: src/printing/grantlee/themes/full/theme.html:58
+#: src/viewertemplates/contact_embedded.html:62
+msgid "Website"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbBirthday)
+#: src/printing/grantlee/themes/default/theme.html:64
+#: src/printing/grantlee/themes/full/theme.html:64
+#: src/viewertemplates/contact_embedded.html:26
+#: src/printing/ringbinder/rbs_appearance.ui:108
+#, kde-format
+msgid "Birthday"
+msgstr "生日"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbNote)
+#: src/printing/grantlee/themes/default/theme.html:70
+#: src/printing/grantlee/themes/full/theme.html:70
+#: src/printing/ringbinder/rbs_appearance.ui:121
+#, kde-format
+msgid "Note"
+msgstr "備註"
+
+#: src/printing/grantlee/themes/full/theme.html:76
+msgid "Title"
+msgstr ""
+
+#: src/viewertemplates/contact_embedded.html:28
+#, kde-format
+msgid "(One year old)"
+msgid_plural "(%1 years old)"
+msgstr[0] ""
+
+#: src/viewertemplates/contact_embedded.html:47
+msgid "Email"
+msgstr ""
+
+#: src/viewertemplates/contact_embedded.html:75
+msgid "Blog Feed"
+msgstr ""
+
+#: kontactplugin/kaddressbook_plugin.cpp:43 src/aboutdata.cpp:29
+#: src/kaddressbookpart.cpp:42
+#, kde-format
+msgid "KAddressBook"
+msgstr "KDE 通訊錄"
+
+#: kontactplugin/kaddressbook_plugin.cpp:47
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Contact..."
+msgstr "新增聯絡人..."
+
+#: kontactplugin/kaddressbook_plugin.cpp:55
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "You will be presented with a dialog where you can create a new contact."
+msgstr "會顯示一對話框，讓您建立新聯絡人。"
+
+#: kontactplugin/kaddressbook_plugin.cpp:60
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Contact Group..."
+msgstr "新增聯絡人群組..."
+
+#: kontactplugin/kaddressbook_plugin.cpp:68
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can create a new contact group."
+msgstr "會顯示一對話框，讓您建立新聯絡人群組。"
+
+#: src/aboutdata.cpp:31
+#, kde-format
+msgid "The KDE Address Book Application"
+msgstr "KDE 通訊錄應用程式"
+
+#: src/aboutdata.cpp:33
+#, kde-format
+msgid "Copyright © 2007–2019 KAddressBook authors"
+msgstr "Copyright © 2007–2019 KAddressBook 作者群"
+
+#: src/aboutdata.cpp:35 src/configuration/kaddressbook_config_plugins.cpp:45
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: src/aboutdata.cpp:35
+#, kde-format
+msgid "Current maintainer"
+msgstr "目前維護者"
+
+#: src/aboutdata.cpp:36
+#, kde-format
+msgid "Tobias Koenig"
+msgstr "Tobias Koenig"
+
+#: src/aboutdata.cpp:36
+#, kde-format
+msgid "Previous maintainer"
+msgstr "前任維護者"
+
+#: src/categoryselectwidget.cpp:114
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset category filter"
+msgstr "重置分類過濾器"
+
+#: src/categoryselectwidget.cpp:121
+#, kde-format
+msgctxt "@action:button"
+msgid "Clear category filter"
+msgstr "重置分類過濾器"
+
+#: src/categoryselectwidget.cpp:125
+#, kde-format
+msgid "(Untagged)"
+msgstr "(無標籤)"
+
+#: src/categoryselectwidget.cpp:130
+#, kde-format
+msgid "(Groups)"
+msgstr "(群組)"
+
+#: src/categoryselectwidget.cpp:136 src/categoryselectwidget.cpp:243
+#, kde-format
+msgid "(All)"
+msgstr "(所有)"
+
+#: src/categoryselectwidget.cpp:246
+#, kde-format
+msgid "(None)"
+msgstr "(無)"
+
+#: src/categoryselectwidget.cpp:251
+#, kde-format
+msgid ", "
+msgstr ", "
+
+#: src/categoryselectwidget.cpp:251
+#, kde-format
+msgid "<qt>Category filter: %1"
+msgstr "<qt>類別過濾：%1"
+
+#: src/configuration/kaddressbook_config_plugins.cpp:41
+#, kde-format
+msgid "Configure Plugins"
+msgstr "配置附加元件"
+
+#: src/configuration/kaddressbook_config_plugins.cpp:43
+#, kde-format
+msgid "(c), 2016-2019 Laurent Montel"
+msgstr "(c), 2016-2019 Laurent Montel"
+
+#: src/configuration/kaddressbookconfigpluginlistwidget.cpp:77
+#, kde-format
+msgid "Tools Plugins"
+msgstr "工具附加元件"
+
+#: src/configuration/kaddressbookconfigpluginlistwidget.cpp:84
+#, kde-format
+msgid "Import/Export Plugins"
+msgstr "匯入 / 匯出附加元件"
+
+#: src/contactswitcher.cpp:35
+#, kde-format
+msgctxt "@action:button Previous contact"
+msgid "Previous"
+msgstr "前一個"
+
+#: src/contactswitcher.cpp:37
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Move to the previous contact in the list"
+msgstr "移到清單中的前一個聯絡人"
+
+#: src/contactswitcher.cpp:40
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Press this button to move to the previous contact in the list."
+msgstr "按下此按鍵，移動到此清單中的前一個聯絡人。"
+
+#: src/contactswitcher.cpp:42
+#, kde-format
+msgctxt "@action:button Next contact"
+msgid "Next"
+msgstr "下一個"
+
+#: src/contactswitcher.cpp:44
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Move to the next contact in the list"
+msgstr "移到清單中的下一個聯絡人"
+
+#: src/contactswitcher.cpp:47
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Press this button to move to the next contact in the list."
+msgstr "按下此按鍵，移動到此清單中的下一個聯絡人。"
+
+#: src/contactswitcher.cpp:132
+#, kde-format
+msgctxt "@info:status"
+msgid "%1 out of %2"
+msgstr "%1 個，共 %2 個"
+
+#: src/kaddressbook_options.h:32
+#, kde-format
+msgid "Import the given file"
+msgstr "匯入指定的檔案"
+
+#: src/kaddressbook_options.h:37
+#, kde-format
+msgid "Open the 'New Contact' dialog"
+msgstr "開啟「新增聯絡人」對話框"
+
+#: src/kaddressbook_options.h:41
+#, kde-format
+msgid "Files or URLs. The user will be asked whether to import."
+msgstr "檔案或網址。使用者會被詢問是否要匯入。"
+
+#: src/kaddressbookpart.cpp:68
+#, kde-format
+msgid "&Configure KAddressBook..."
+msgstr "設定 KAddressBook(&C)..."
+
+#. i18n: ectx: Menu (file)
+#: src/kaddressbookui.rc:5
+#, kde-format
+msgid "&File"
+msgstr "檔案(&F)"
+
+#. i18n: ectx: Menu (file_new)
+#: src/kaddressbookui.rc:7
+#, kde-format
+msgid "&New"
+msgstr "新增(&N)"
+
+#. i18n: ectx: Menu (edit)
+#: src/kaddressbookui.rc:25
+#, kde-format
+msgid "&Edit"
+msgstr "編輯(&E)"
+
+#. i18n: ectx: Menu (view)
+#: src/kaddressbookui.rc:41
+#, kde-format
+msgid "&View"
+msgstr "檢視(&V)"
+
+#. i18n: ectx: Menu (action)
+#: src/kaddressbookui.rc:51
+#, kde-format
+msgid "&Action"
+msgstr "動作(&A)"
+
+#. i18n: ectx: Menu (tools)
+#: src/kaddressbookui.rc:55
+#, kde-format
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#. i18n: ectx: Menu (settings)
+#: src/kaddressbookui.rc:59
+#, kde-format
+msgid "&Settings"
+msgstr "設定(&S)"
+
+#. i18n: ectx: Menu (file_export)
+#: src/kaddressbookui.rc:87
+#, kde-format
+msgid "&Export"
+msgstr "匯出(&E)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/kaddressbookui.rc:111
+#, kde-format
+msgid "Main Toolbar"
+msgstr "主工具列"
+
+#: src/mainwidget.cpp:357
+#, kde-format
+msgid "Import"
+msgstr "匯入"
+
+#: src/mainwidget.cpp:364
+#, kde-format
+msgid "Export"
+msgstr "匯出"
+
+#: src/mainwidget.cpp:406
+#, kde-format
+msgctxt "@label Search contacts in list"
+msgid "Search... <%1>"
+msgstr "搜尋...  <%1>"
+
+#: src/mainwidget.cpp:626
+#, kde-format
+msgid "&Themes"
+msgstr "主題(&T)"
+
+#: src/mainwidget.cpp:637
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Print the complete address book or a selected number of contacts."
+msgstr "列印整個通訊錄或特定數量的聯絡人。"
+
+#: src/mainwidget.cpp:642
+#, kde-format
+msgid "Quick search"
+msgstr "快速搜尋"
+
+#: src/mainwidget.cpp:647
+#, kde-format
+msgid "Category filter"
+msgstr "類別過濾"
+
+#: src/mainwidget.cpp:652
+#, kde-format
+msgid "Select All"
+msgstr "全部選取"
+
+#: src/mainwidget.cpp:654
+#, kde-format
+msgid "Select all contacts in the current address book view."
+msgstr "選擇目前通訊錄檢視中所有的聯絡人。"
+
+#: src/mainwidget.cpp:658
+#, kde-format
+msgid "Show QR Codes"
+msgstr "顯示 QR 碼"
+
+#: src/mainwidget.cpp:659
+#, kde-format
+msgid "Show QR Codes in the contact."
+msgstr "在聯絡人裡顯示 QR 碼。"
+
+#: src/mainwidget.cpp:664
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Simple (one column)"
+msgstr "簡單（單欄）"
+
+#: src/mainwidget.cpp:668
+#, kde-format
+msgid "Show a simple mode of the address book view."
+msgstr "顯示通訊錄檢視中的簡單模式。"
+
+#: src/mainwidget.cpp:671
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Two Columns"
+msgstr "兩欄"
+
+#: src/mainwidget.cpp:677
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Three Columns"
+msgstr "三欄"
+
+#: src/mainwidget.cpp:690
+#, kde-format
+msgid "Set Focus to Quick Search"
+msgstr "設定焦點到快速搜尋"
+
+#: src/mainwidget.cpp:703
+#, kde-format
+msgid "Serverside Subscription..."
+msgstr "服務端訂閱…"
+
+#: src/mainwidget.cpp:742 src/printing/printingwizard.cpp:59
+#, kde-format
+msgid "Print Contacts"
+msgstr "列印聯絡人"
+
+#: src/mainwindow.cpp:76
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can configure the application-"
+"wide shortcuts."
+msgstr "您可以設定應用程式捷徑。"
+
+#: src/mainwindow.cpp:121
+#, kde-format
+msgid ""
+"<qt>This will hide the menu bar completely. You can show it again by typing "
+"%1.</qt>"
+msgstr "<qt>這將會完全的關閉這個目錄欄。你可以透過輸入 %1 再次顯示。</qt>"
+
+#: src/mainwindow.cpp:123
+#, kde-format
+msgid "Hide menu bar"
+msgstr "隱藏目錄欄"
+
+#: src/manageshowcollectionproperties.cpp:105
+#, kde-format
+msgctxt "@title:window"
+msgid "Properties of Address Book Folder %1"
+msgstr "通訊錄資料夾屬性 %1"
+
+#: src/modelcolumnmanager.cpp:79
+#, kde-format
+msgid "Full Name"
+msgstr "完整名稱"
+
+#: src/modelcolumnmanager.cpp:85
+#, kde-format
+msgid "Family Name"
+msgstr "姓氏"
+
+#: src/modelcolumnmanager.cpp:90
+#, kde-format
+msgid "Given Name"
+msgstr "指定名稱"
+
+#: src/modelcolumnmanager.cpp:100 src/printing/detailled/detailledstyle.cpp:150
+#, kde-format
+msgid "Home Address"
+msgstr "住家地址"
+
+#: src/modelcolumnmanager.cpp:105
+#, kde-format
+msgid "Business Address"
+msgstr "辦公室地址"
+
+#: src/modelcolumnmanager.cpp:110
+#, kde-format
+msgid "Phone Numbers"
+msgstr "電話號碼"
+
+#: src/modelcolumnmanager.cpp:115
+#, kde-format
+msgid "Preferred EMail"
+msgstr "預設電子郵件地址"
+
+#: src/modelcolumnmanager.cpp:120
+#, kde-format
+msgid "All EMails"
+msgstr "所有的電子郵件"
+
+#: src/printing/compact/compactstyle.cpp:133
+#, kde-format
+msgid "Compact Style"
+msgstr "簡潔樣式"
+
+#: src/printing/compact/compactstyle.cpp:189
+#: src/printing/detailled/detailledstyle.cpp:290
+#: src/printing/grantlee/grantleeprintstyle.cpp:59
+#: src/printing/mike/mikesstyle.cpp:128
+#: src/printing/ringbinder/ringbinderstyle.cpp:180
+#, kde-format
+msgid "Setting up document"
+msgstr "設定文件中"
+
+#: src/printing/compact/compactstyle.cpp:196
+#: src/printing/detailled/detailledstyle.cpp:297
+#: src/printing/grantlee/grantleeprintstyle.cpp:68
+#: src/printing/mike/mikesstyle.cpp:135
+#: src/printing/ringbinder/ringbinderstyle.cpp:213
+#, kde-format
+msgid "Printing"
+msgstr "列印中"
+
+#: src/printing/compact/compactstyle.cpp:200
+#: src/printing/detailled/detailledstyle.cpp:301
+#: src/printing/grantlee/grantleeprintstyle.cpp:72
+#: src/printing/mike/mikesstyle.cpp:139
+#: src/printing/ringbinder/ringbinderstyle.cpp:217
+#, kde-format
+msgctxt "Finished printing"
+msgid "Done"
+msgstr "完成"
+
+#: src/printing/compact/compactstyle.cpp:223
+#, kde-format
+msgid "Compact Printing Style"
+msgstr "簡潔式列印樣式"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CompactStyleForm_Base)
+#. i18n: ectx: property (windowTitle), widget (QWidget, RingBinderStyleAppearanceForm_Base)
+#: src/printing/compact/compactstyle.ui:14
+#: src/printing/ringbinder/rbs_appearance.ui:14
+#, kde-format
+msgid "Appearance"
+msgstr "外觀"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbFields)
+#: src/printing/compact/compactstyle.ui:35
+#, kde-format
+msgid "Fields"
+msgstr "欄位"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbWithHomeAddress)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbWithHomeAddress)
+#: src/printing/compact/compactstyle.ui:43
+#: src/printing/compact/compactstyle.ui:46
+#, kde-format
+msgid "Print the home address, with home phone number and mobile phone number"
+msgstr "印出住家地址，以及住家電話與手機號碼"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbWithHomeAddress)
+#: src/printing/compact/compactstyle.ui:49
+#, kde-format
+msgid "with home address"
+msgstr "住家地址"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbWithBusinessAddress)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbWithBusinessAddress)
+#: src/printing/compact/compactstyle.ui:56
+#: src/printing/compact/compactstyle.ui:59
+#, kde-format
+msgid "print the business address, with business phone number"
+msgstr "印出辦公室地址，及辦公室電話號碼"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbWithBusinessAddress)
+#: src/printing/compact/compactstyle.ui:62
+#, kde-format
+msgid "with business address"
+msgstr "辦公室地址"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbWithBirthday)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbWithBirthday)
+#: src/printing/compact/compactstyle.ui:69
+#: src/printing/compact/compactstyle.ui:72
+#, kde-format
+msgid "Print the birthday"
+msgstr "列印生日"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbWithBirthday)
+#: src/printing/compact/compactstyle.ui:75
+#, kde-format
+msgid "with birthday"
+msgstr "生日"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbWithEMail)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbWithEMail)
+#: src/printing/compact/compactstyle.ui:82
+#: src/printing/compact/compactstyle.ui:85
+#, kde-format
+msgid "Print the e-mail and e-mail2 fields"
+msgstr "印出電子郵件地址的欄位"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbWithEMail)
+#: src/printing/compact/compactstyle.ui:88
+#, kde-format
+msgid "with e-mail"
+msgstr "電子郵件地址"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, lbCbFirst)
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbCbFirst)
+#: src/printing/compact/compactstyle.ui:112
+#: src/printing/compact/compactstyle.ui:115
+#, kde-format
+msgid "the first color, if alternating color is checked"
+msgstr "若是勾選變更顏色時的第一色彩"
+
+#. i18n: ectx: property (text), widget (QLabel, lbCbFirst)
+#: src/printing/compact/compactstyle.ui:118
+#, kde-format
+msgid "first color"
+msgstr "第一色彩"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, lbCbSecond)
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbCbSecond)
+#: src/printing/compact/compactstyle.ui:125
+#: src/printing/compact/compactstyle.ui:128
+#, kde-format
+msgid "the second color, if alternating color is checked"
+msgstr "若是勾選變更顏色時的第二色彩"
+
+#. i18n: ectx: property (text), widget (QLabel, lbCbSecond)
+#: src/printing/compact/compactstyle.ui:131
+#, kde-format
+msgid "second color"
+msgstr "第二色彩"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbAlternating)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAlternating)
+#: src/printing/compact/compactstyle.ui:138
+#: src/printing/compact/compactstyle.ui:141
+#, kde-format
+msgid "Change the background color of every row"
+msgstr "變更每一列的背景顏色"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbAlternating)
+#: src/printing/compact/compactstyle.ui:144
+#, kde-format
+msgid "Alternating the background color"
+msgstr "變更背景顏色"
+
+#: src/printing/detailled/detailledstyle.cpp:90
+#, kde-format
+msgid "Organization:"
+msgstr "組織:"
+
+#: src/printing/detailled/detailledstyle.cpp:99
+#, kde-format
+msgid "Email address:"
+msgstr "電子郵件位址："
+
+#: src/printing/detailled/detailledstyle.cpp:100
+#, kde-format
+msgid "Email addresses:"
+msgstr "電子郵件位址："
+
+#: src/printing/detailled/detailledstyle.cpp:111
+#, kde-format
+msgid "Telephone:"
+msgstr "電話："
+
+#: src/printing/detailled/detailledstyle.cpp:112
+#, kde-format
+msgid "Telephones:"
+msgstr "電話："
+
+#: src/printing/detailled/detailledstyle.cpp:124
+#, kde-format
+msgid "Web page:"
+msgstr "網頁："
+
+#: src/printing/detailled/detailledstyle.cpp:138
+#, kde-format
+msgid "Domestic Address"
+msgstr "國內地址"
+
+#: src/printing/detailled/detailledstyle.cpp:141
+#, kde-format
+msgid "International Address"
+msgstr "國際地址"
+
+#: src/printing/detailled/detailledstyle.cpp:144
+#, kde-format
+msgid "Postal Address"
+msgstr "郵寄地址"
+
+#: src/printing/detailled/detailledstyle.cpp:147
+#, kde-format
+msgid "Parcel Address"
+msgstr "小包裹地址"
+
+#: src/printing/detailled/detailledstyle.cpp:153
+#, kde-format
+msgid "Work Address"
+msgstr "辦公室地址"
+
+#: src/printing/detailled/detailledstyle.cpp:157
+#, kde-format
+msgid "Preferred Address"
+msgstr "預設地址"
+
+#: src/printing/detailled/detailledstyle.cpp:168
+#, kde-format
+msgid "Notes:"
+msgstr "備忘："
+
+#. i18n: ectx: property (text), widget (QLabel, labelHeader)
+#: src/printing/detailled/detailledstyle.cpp:256
+#: src/printing/detailled/ds_appearance.ui:58
+#, kde-format
+msgid "Detailed Print Style - Appearance"
+msgstr "詳細的列印風格 ─ 外觀"
+
+#: src/printing/detailled/detailledstyle.cpp:273
+#, kde-format
+msgid "Setting up colors"
+msgstr "設定顏色中"
+
+#: src/printing/detailled/detailledstyle.cpp:316
+#, kde-format
+msgid "Detailed Style"
+msgstr "詳細的列印風格"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, AppearancePage_Base)
+#: src/printing/detailled/ds_appearance.ui:14
+#, kde-format
+msgid "Appearance Page"
+msgstr "外觀頁面"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbHeadline)
+#: src/printing/detailled/ds_appearance.ui:77
+#, kde-format
+msgid "Contact Headers"
+msgstr "聯絡人標題"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcbHeaderBGColor)
+#: src/printing/detailled/ds_appearance.ui:119
+#, kde-format
+msgid "Select the headline text background color"
+msgstr "設定標題文字背景顏色"
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcbHeaderBGColor)
+#: src/printing/detailled/ds_appearance.ui:122
+#, kde-format
+msgid ""
+"Click this button to start a color chooser that will allow you set to the "
+"color for the headline background color."
+msgstr "點擊此按鍵會開啟顏色選擇器，讓您設定標題文字背景顏色。"
+
+#. i18n: ectx: property (text), widget (QLabel, tlBackgroundColor)
+#: src/printing/detailled/ds_appearance.ui:139
+#, kde-format
+msgid "Headline background color:"
+msgstr "標題背景顏色："
+
+#. i18n: ectx: property (text), widget (QLabel, tlHeaderColor)
+#: src/printing/detailled/ds_appearance.ui:149
+#, kde-format
+msgid "Headline text color:"
+msgstr "標題文字顏色："
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcbHeaderTextColor)
+#: src/printing/detailled/ds_appearance.ui:162
+#, kde-format
+msgid "Select the headline text color"
+msgstr "設定標題文字顏色"
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcbHeaderTextColor)
+#: src/printing/detailled/ds_appearance.ui:165
+#, kde-format
+msgid ""
+"Click this button to start a color chooser that will allow you set to the "
+"color for the headline text."
+msgstr "點擊此按鍵會開啟顏色選擇器，讓您設定標題文字顏色。"
+
+#: src/printing/mike/mikesstyle.cpp:154
+#, kde-format
+msgid "Mike's Printing Style"
+msgstr "Mike 式列印風格"
+
+#: src/printing/printingwizard.cpp:62
+#, kde-format
+msgid "Which contacts do you want to print?"
+msgstr "您要列印哪個聯絡人？"
+
+#: src/printing/printingwizard.cpp:65
+#, kde-format
+msgid "Choose Contacts to Print"
+msgstr "請選擇要列印的聯絡人"
+
+#: src/printing/printingwizard.cpp:71
+#, kde-format
+msgid "Choose Printing Style"
+msgstr "請選擇列印風格"
+
+#: src/printing/printingwizard.cpp:220
+#, kde-format
+msgid "Print Progress"
+msgstr "列印進度"
+
+#: src/printing/printprogress.cpp:38
+#, kde-format
+msgid "Printing: Progress"
+msgstr "列印：進行中"
+
+#: src/printing/printprogress.cpp:60
+#, kde-format
+msgid "Progress"
+msgstr "進度"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
+#: src/printing/ringbinder/rbs_appearance.ui:35
+#, kde-format
+msgid "Print Contact's Information"
+msgstr "列印聯絡人資訊"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbPhoneNumbers)
+#: src/printing/ringbinder/rbs_appearance.ui:41
+#, kde-format
+msgid "Print contact phone numbers"
+msgstr "列印聯絡人電話號碼"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbPhoneNumbers)
+#: src/printing/ringbinder/rbs_appearance.ui:44
+#, kde-format
+msgid "Check this box if you want contact phone numbers to be printed."
+msgstr "勾選此選項，會印出聯絡人的電話號碼。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbPhoneNumbers)
+#: src/printing/ringbinder/rbs_appearance.ui:47
+#, kde-format
+msgid "Phone numbers"
+msgstr "電話號碼"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbEmails)
+#: src/printing/ringbinder/rbs_appearance.ui:57
+#, kde-format
+msgid "Print contact email addresses"
+msgstr "列印聯絡人的電子郵件地址"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbEmails)
+#: src/printing/ringbinder/rbs_appearance.ui:60
+#, kde-format
+msgid "Check this box if you want contact email addresses to be printed."
+msgstr "勾選此選項，會印出聯絡人的電子郵件地址。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbEmails)
+#: src/printing/ringbinder/rbs_appearance.ui:63
+#, kde-format
+msgid "Email addresses"
+msgstr "電子郵件地址"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbStreetAddresses)
+#: src/printing/ringbinder/rbs_appearance.ui:73
+#, kde-format
+msgid "Print contact street addresses"
+msgstr "列印聯絡人的地址"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbStreetAddresses)
+#: src/printing/ringbinder/rbs_appearance.ui:76
+#, kde-format
+msgid "Check this box if you want contact street addresses to be printed."
+msgstr "勾選此選項，會印出聯絡人的地址。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStreetAddresses)
+#: src/printing/ringbinder/rbs_appearance.ui:79
+#, kde-format
+msgid "Postal addresses"
+msgstr "郵寄地址"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbOrganization)
+#: src/printing/ringbinder/rbs_appearance.ui:89
+#, kde-format
+msgid "Print contact organizations"
+msgstr "列印聯絡人組織"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbOrganization)
+#: src/printing/ringbinder/rbs_appearance.ui:92
+#, kde-format
+msgid "Check this box if you want contact organizations to be printed."
+msgstr "勾選此選項，會印出聯絡人所在的組織。"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbBirthday)
+#: src/printing/ringbinder/rbs_appearance.ui:102
+#, kde-format
+msgid "Print contact birthdays"
+msgstr "列印聯絡人生日"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbBirthday)
+#: src/printing/ringbinder/rbs_appearance.ui:105
+#, kde-format
+msgid "Check this box if you want contact birthdays to be printed."
+msgstr "勾選此選項，會印出聯絡人的生日。"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbNote)
+#: src/printing/ringbinder/rbs_appearance.ui:115
+#, kde-format
+msgid "Print contact notes"
+msgstr "列印聯絡人備忘錄"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbNote)
+#: src/printing/ringbinder/rbs_appearance.ui:118
+#, kde-format
+msgid "Check this box if you want contact notes to be printed."
+msgstr "勾選此選項，會印出聯絡人的備忘錄。"
+
+#: src/printing/ringbinder/ringbinderstyle.cpp:94
+#, kde-format
+msgid "Note: "
+msgstr "備忘："
+
+#: src/printing/ringbinder/ringbinderstyle.cpp:146
+#, kde-format
+msgid "Ring Binder Printing Style - Appearance"
+msgstr "活頁夾式列印風格 ─ 外觀"
+
+#: src/printing/ringbinder/ringbinderstyle.cpp:164
+#, kde-format
+msgid "Setting up fields"
+msgstr "設定欄位中"
+
+#: src/printing/ringbinder/ringbinderstyle.cpp:232
+#, kde-format
+msgid "Printout for Ring Binders"
+msgstr "活頁夾式列印"
+
+#: src/printing/stylepage.cpp:52
+#, kde-format
+msgctxt "@item:inlistbox Ascending sort order"
+msgid "Ascending"
+msgstr "遞增"
+
+#: src/printing/stylepage.cpp:53
+#, kde-format
+msgctxt "@item:inlistbox Descending sort order"
+msgid "Descending"
+msgstr "遞減"
+
+#: src/printing/stylepage.cpp:65
+#, kde-format
+msgctxt "@label"
+msgid "(No preview available.)"
+msgstr "（沒有預覽）"
+
+#: src/printing/stylepage.cpp:127
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Printing Style"
+msgstr "請選擇列印風格"
+
+#: src/printing/stylepage.cpp:134
+#, kde-format
+msgctxt "@label:textbox"
+msgid ""
+"What should the print look like?\n"
+"KAddressBook has several printing styles, designed for different purposes.\n"
+"Choose the style that suits your needs below."
+msgstr ""
+"您打算用怎樣的列印外觀？ KDE 通訊錄提供一些列印風格，給不同目的使用。\n"
+"請選擇您要使用的列印風格。"
+
+#: src/printing/stylepage.cpp:139
+#, kde-format
+msgctxt "@title:group"
+msgid "Sorting"
+msgstr "排序"
+
+#: src/printing/stylepage.cpp:144
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Criterion:"
+msgstr "條件："
+
+#: src/printing/stylepage.cpp:149
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select the primary sort field"
+msgstr "選擇主要排序欄位"
+
+#: src/printing/stylepage.cpp:152
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"From this list you can select the field on which your contacts are sorted in "
+"the print output.  Use the sorting order option to determine if the sort "
+"will be in ascending or descending order."
+msgstr ""
+"您可以從此清單中選擇在列印輸出時如何排序您的聯絡人。順序選項可以決定是要遞增"
+"還是遞減排序。"
+
+#: src/printing/stylepage.cpp:157
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Order:"
+msgstr "順序："
+
+#: src/printing/stylepage.cpp:162
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select the sorting order"
+msgstr "選擇排序方式"
+
+#: src/printing/stylepage.cpp:165
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose if you want to sort your contacts in ascending or descending order. "
+"Use the sorting criterion option to specify on which contact field the "
+"sorting will be performed."
+msgstr ""
+"選擇您要遞增還是遞減排序您的聯絡人。條件選項可以決定您要用哪個欄位來排序。"
+
+#: src/printing/stylepage.cpp:172
+#, kde-format
+msgctxt "@title:group"
+msgid "Print Style"
+msgstr "列印樣式"
+
+#: src/printing/stylepage.cpp:178
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select the print style"
+msgstr "選擇列印樣式"
+
+#: src/printing/stylepage.cpp:181
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose your desired printing style. See the preview image to help you decide."
+msgstr "選擇您想使用的列印樣式。預覽檢視可以協助您決定樣式。"
+
+#: src/widgets/quicksearchwidget.cpp:41
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Search contacts in list"
+msgstr "搜尋清單中的聯絡人"
+
+#: src/widgets/quicksearchwidget.cpp:44
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Start typing a search string in this box and the list of contacts matching "
+"that string will be displayed.  This is a quick way of searching for "
+"contacts of interest."
+msgstr ""
+"在此文字盒中輸入字串，會顯示出比對符合字串的聯絡人。這樣可以快速幫您找到您要"
+"找的聯絡人。"
