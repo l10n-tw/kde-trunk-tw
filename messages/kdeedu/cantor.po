@@ -307,8 +307,7 @@ msgid ""
 "<hr><div>%1</div><br><div>See <a href=\"%2\">%2</a> for more information.</"
 "div>"
 msgstr ""
-"<hr><div>%1</div><br><div>顯示 <a href=\"%2\">%2</a> 取得更多資訊。</"
-"div>"
+"<hr><div>%1</div><br><div>顯示 <a href=\"%2\">%2</a> 取得更多資訊。</div>"
 
 #: backendchoosedialog.cpp:128
 #, kde-format
@@ -330,9 +329,9 @@ msgid ""
 "distributed parallel execution, numerical accuracy, and an extensive "
 "mathematical function library."
 msgstr ""
-"<b>Julia</b> 是一個高階、高效能的動態程式，其可用於科學計算，而語法則對其"
-"他科學計算環境的使用者來說相當友善。它提供了精密的編譯器、分散且平行的"
-"執行、精準的數據以及一份可擴充的數學函數的函式庫。"
+"<b>Julia</b> 是一個高階、高效能的動態程式，其可用於科學計算，而語法則對其他科"
+"學計算環境的使用者來說相當友善。它提供了精密的編譯器、分散且平行的執行、精準"
+"的數據以及一份可擴充的數學函數的函式庫。"
 
 #: backends/julia/juliabackend.cpp:85
 #, kde-format
@@ -512,8 +511,8 @@ msgid ""
 "procedural syntax. There are several libraries in Lua aimed at math and "
 "science."
 msgstr ""
-"<b>Lua</b> 是一套快且輕量的文稿語言，程序的語法較簡單。在 Lua 中有一些關於數學與"
-"科學的函式庫。"
+"<b>Lua</b> 是一套快且輕量的文稿語言，程序的語法較簡單。在 Lua 中有一些關於數"
+"學與科學的函式庫。"
 
 #. i18n: ectx: label, entry (Path), group (LuaBackend)
 #: backends/lua/luabackend.kcfg:10
@@ -551,10 +550,11 @@ msgid ""
 "integers, and variable precision floating point numbers. Maxima can plot "
 "functions and data in two and three dimensions."
 msgstr ""
-"<b>Maxima</b> 是一套操作符號與數字表示式的系統，包括微分、積分、泰勒表示式、拉普拉斯"
-"轉換（Laplace transform）、常微分方程式（ordinary differential equations）、"
-"線性方程式系統、多項式與集合、列表、向量、矩陣、張量等等。Maxima 用精確的分"
-"數、整數與浮點數提供高精確度的數字結果。Maxima 可以繪製二維或三維的圖形。"
+"<b>Maxima</b> 是一套操作符號與數字表示式的系統，包括微分、積分、泰勒表示式、"
+"拉普拉斯轉換（Laplace transform）、常微分方程式（ordinary differential "
+"equations）、線性方程式系統、多項式與集合、列表、向量、矩陣、張量等等。"
+"Maxima 用精確的分數、整數與浮點數提供高精確度的數字結果。Maxima 可以繪製二維"
+"或三維的圖形。"
 
 #. i18n: ectx: label, entry (Path), group (MaximaBackend)
 #: backends/maxima/maximabackend.kcfg:10
@@ -653,9 +653,9 @@ msgid ""
 "solving linear and nonlinear problems numerically, and for performing other "
 "numerical experiments using a language that is mostly compatible with Matlab."
 msgstr ""
-"<b>GNU Octave</b> 是一種高階語言，主要是用於數學運算。<br/>它提供一個簡便的命令列介"
-"面，可以解線性與非線性的問題，並且可以用一種與 Matlab 相容的語言執行一些數學"
-"運算實驗。"
+"<b>GNU Octave</b> 是一種高階語言，主要是用於數學運算。<br/>它提供一個簡便的命"
+"令列介面，可以解線性與非線性的問題，並且可以用一種與 Matlab 相容的語言執行一"
+"些數學運算實驗。"
 
 #. i18n: ectx: label, entry (Path), group (OctaveBackend)
 #: backends/octave/octavebackend.kcfg:10
@@ -1149,12 +1149,12 @@ msgid ""
 "expression. In addition to numbers and arithmetic operators, an expression "
 "may contain any combination of variables, units, and functions."
 msgstr ""
-"<b>Qalculate!</b> 不像您常用的那種最簡易的計算機軟體。它可以徹底利用現在最新、最強"
-"大、最彈性化的電腦計算能力。Qalculate! 的表示式是重點。您可以直接寫入整個表示"
-"式，稍後再修改，而不需要分開輸入每個數學表示式。表示式的解譯是有彈性並且有強"
-"大的容錯能力。若是您做錯了某些事情，Qalculate! 會告訴您。不過，無解的表示式不"
-"見得代表錯誤。Qalculate! 會盡可能簡化它並解答。除了數字與計算操作元外，表示式"
-"中可以包含任何變數、單位與函數的組合。"
+"<b>Qalculate!</b> 不像您常用的那種最簡易的計算機軟體。它可以徹底利用現在最"
+"新、最強大、最彈性化的電腦計算能力。Qalculate! 的表示式是重點。您可以直接寫入"
+"整個表示式，稍後再修改，而不需要分開輸入每個數學表示式。表示式的解譯是有彈性"
+"並且有強大的容錯能力。若是您做錯了某些事情，Qalculate! 會告訴您。不過，無解的"
+"表示式不見得代表錯誤。Qalculate! 會盡可能簡化它並解答。除了數字與計算操作元"
+"外，表示式中可以包含任何變數、單位與函數的組合。"
 
 #. i18n: ectx: label, entry (postConversion), group (QalculateBackend)
 #: backends/qalculate/qalculatebackend.kcfg:9
@@ -1488,7 +1488,8 @@ msgstr "圖形平滑度。選項包括無，unique，csplines，bezier，sbezier
 msgid ""
 "Plot style. One of lines, points, points_lines, boxes, histogram, steps, "
 "candlesticks, dots"
-msgstr "圖形樣式。選項包括線條，點，點與線，盒狀，直方圖，階梯圖，燭柱圖，圓點圖"
+msgstr ""
+"圖形樣式。選項包括線條，點，點與線，盒狀，直方圖，階梯圖，燭柱圖，圓點圖"
 
 #: backends/qalculate/qalculatesyntaxhelpobject.cpp:241
 #, kde-format
@@ -1803,11 +1804,11 @@ msgid ""
 "the vehicle of choice for research in statistical methodology, and R "
 "provides an Open Source route to participation in that activity."
 msgstr ""
-"<b>R</b> 是一種程式語言與環境，用於統計計算與圖表製作，類似 S 的語言與環境。<br/> 它"
-"提供多種統計（包含線性與非線性模組(linear and nonlinear modelling)，傳統統計"
-"測試(classical statistical tests)，時間序列分析(time-series analysis)，分類"
-"(classification)，叢集(clustering)等）與繪圖技術，並且有很高的延伸性。S 語言"
-"通常用於研究統計方法，R 則提供一個開放源碼的選擇。"
+"<b>R</b> 是一種程式語言與環境，用於統計計算與圖表製作，類似 S 的語言與環境。"
+"<br/> 它提供多種統計（包含線性與非線性模組(linear and nonlinear modelling)，"
+"傳統統計測試(classical statistical tests)，時間序列分析(time-series "
+"analysis)，分類(classification)，叢集(clustering)等）與繪圖技術，並且有很高的"
+"延伸性。S 語言通常用於研究統計方法，R 則提供一個開放源碼的選擇。"
 
 #: backends/R/rexpression.cpp:109 backends/R/rexpression.cpp:110
 #, kde-format
@@ -1855,8 +1856,8 @@ msgid ""
 "the GPL. <br/>It combines the power of many existing open-source packages "
 "into a common Python-based interface."
 msgstr ""
-"<b>Sage</b> 是一個 GPL 授權，自由、開放源碼的數學軟體系統。<br/>它結合了許多現有的開"
-"放源碼軟體的力量，並提供一個 Python 的介面。"
+"<b>Sage</b> 是一個 GPL 授權，自由、開放源碼的數學軟體系統。<br/>它結合了許多"
+"現有的開放源碼軟體的力量，並提供一個 Python 的介面。"
 
 #. i18n: ectx: label, entry (Path), group (SageBackend)
 #: backends/sage/sagebackend.kcfg:10
@@ -1907,7 +1908,8 @@ msgstr "Cantor"
 msgid ""
 "Failed to determine the version of Sage. Please check your installation and "
 "the output of 'sage -v'."
-msgstr "無法確定 Sage 的版本，請檢查您的 Sage 是否安裝正確和「sage -v」所輸出的版本。"
+msgstr ""
+"無法確定 Sage 的版本，請檢查您的 Sage 是否安裝正確和「sage -v」所輸出的版本。"
 
 #: backends/sage/sagesession.cpp:348
 #, kde-format
@@ -1955,8 +1957,8 @@ msgid ""
 "package and a high-level, numerically oriented programming language.Scilab "
 "is distributed under CeCILL license (GPL compatible)."
 msgstr ""
-"<b>Scilab</b> 是一套自由軟體，它提供跨平台的數值計算套件與一套高階、數值導向程式"
-"語言。Scilab 是以 CeCILL 授權（與 GPL 相容）發布。"
+"<b>Scilab</b> 是一套自由軟體，它提供跨平台的數值計算套件與一套高階、數值導向"
+"程式語言。Scilab 是以 CeCILL 授權（與 GPL 相容）發布。"
 
 #. i18n: ectx: label, entry (Path), group (ScilabBackend)
 #: backends/scilab/scilabbackend.kcfg:10

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdiff3\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-17 02:47+0200\n"
+"POT-Creation-Date: 2019-09-23 02:38+0200\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -52,8 +52,8 @@ msgstr "行結尾樣式："
 
 #: difftextwindow.cpp:1814 directorymergewindow.cpp:377
 #: directorymergewindow.cpp:428 directorymergewindow.cpp:518
-#: directorymergewindow.cpp:2709 directorymergewindow.cpp:2840
-#: directorymergewindow.cpp:3037 mergeresultwindow.cpp:967
+#: directorymergewindow.cpp:2710 directorymergewindow.cpp:2841
+#: directorymergewindow.cpp:3038 mergeresultwindow.cpp:967
 #: mergeresultwindow.cpp:969 mergeresultwindow.cpp:971
 #: mergeresultwindow.cpp:973 mergeresultwindow.cpp:1801
 #: mergeresultwindow.cpp:3156 mergeresultwindow.cpp:3163 optiondialog.cpp:962
@@ -66,8 +66,8 @@ msgstr "A"
 
 #: difftextwindow.cpp:1814 directorymergewindow.cpp:379
 #: directorymergewindow.cpp:431 directorymergewindow.cpp:520
-#: directorymergewindow.cpp:2715 directorymergewindow.cpp:2841
-#: directorymergewindow.cpp:3038 mergeresultwindow.cpp:967
+#: directorymergewindow.cpp:2716 directorymergewindow.cpp:2842
+#: directorymergewindow.cpp:3039 mergeresultwindow.cpp:967
 #: mergeresultwindow.cpp:969 mergeresultwindow.cpp:975
 #: mergeresultwindow.cpp:977 mergeresultwindow.cpp:1803
 #: mergeresultwindow.cpp:3158 mergeresultwindow.cpp:3165 optiondialog.cpp:963
@@ -80,8 +80,8 @@ msgstr "B"
 
 #: difftextwindow.cpp:1814 directorymergewindow.cpp:381
 #: directorymergewindow.cpp:434 directorymergewindow.cpp:522
-#: directorymergewindow.cpp:2721 directorymergewindow.cpp:2842
-#: directorymergewindow.cpp:3039 mergeresultwindow.cpp:971
+#: directorymergewindow.cpp:2722 directorymergewindow.cpp:2843
+#: directorymergewindow.cpp:3040 mergeresultwindow.cpp:971
 #: mergeresultwindow.cpp:973 mergeresultwindow.cpp:975
 #: mergeresultwindow.cpp:977 mergeresultwindow.cpp:1805
 #: mergeresultwindow.cpp:3160 mergeresultwindow.cpp:3167 optiondialog.cpp:977
@@ -125,43 +125,43 @@ msgstr "行結尾樣式："
 msgid "Top line"
 msgstr "頂端行"
 
-#: difftextwindow.cpp:1849
+#: difftextwindow.cpp:1848
 #, kde-format
 msgid "End"
 msgstr "結束"
 
-#: difftextwindow.cpp:1907 smalldialogs.cpp:235
+#: difftextwindow.cpp:1906 smalldialogs.cpp:235
 #, fuzzy, kde-format
 #| msgid "Opening files..."
 msgid "Open File"
 msgstr "開啟檔案中..."
 
-#: difftextwindow.cpp:1955 optiondialog.cpp:387
+#: difftextwindow.cpp:1954 optiondialog.cpp:387
 #, kde-format
 msgid "Unicode, 8 bit"
 msgstr ""
 
-#: difftextwindow.cpp:1970
+#: difftextwindow.cpp:1969
 #, kde-format
 msgid "Other"
 msgstr ""
 
-#: directorymergewindow.cpp:404 directorymergewindow.cpp:3044
+#: directorymergewindow.cpp:404 directorymergewindow.cpp:3045
 #, kde-format
 msgid "Copy A to B"
 msgstr "將 A 複製到 B"
 
-#: directorymergewindow.cpp:407 directorymergewindow.cpp:3045
+#: directorymergewindow.cpp:407 directorymergewindow.cpp:3046
 #, kde-format
 msgid "Copy B to A"
 msgstr "將 B 複製到 A"
 
-#: directorymergewindow.cpp:410 directorymergewindow.cpp:3046
+#: directorymergewindow.cpp:410 directorymergewindow.cpp:3047
 #, kde-format
 msgid "Delete A"
 msgstr "刪除 A"
 
-#: directorymergewindow.cpp:413 directorymergewindow.cpp:3047
+#: directorymergewindow.cpp:413 directorymergewindow.cpp:3048
 #, kde-format
 msgid "Delete B"
 msgstr "刪除 B"
@@ -171,12 +171,12 @@ msgstr "刪除 B"
 msgid "Delete A & B"
 msgstr "刪除 A 與 B"
 
-#: directorymergewindow.cpp:419 directorymergewindow.cpp:3049
+#: directorymergewindow.cpp:419 directorymergewindow.cpp:3050
 #, kde-format
 msgid "Merge to A"
 msgstr "合併到 A"
 
-#: directorymergewindow.cpp:422 directorymergewindow.cpp:3050
+#: directorymergewindow.cpp:422 directorymergewindow.cpp:3051
 #, kde-format
 msgid "Merge to B"
 msgstr "合併到 B"
@@ -186,13 +186,13 @@ msgstr "合併到 B"
 msgid "Merge to A & B"
 msgstr "合併到 A 與 B"
 
-#: directorymergewindow.cpp:437 directorymergewindow.cpp:3041
+#: directorymergewindow.cpp:437 directorymergewindow.cpp:3042
 #, kde-format
 msgid "Delete (if exists)"
 msgstr "刪除（若存在）"
 
 #: directorymergewindow.cpp:440 directorymergewindow.cpp:443
-#: directorymergewindow.cpp:3040 optiondialog.cpp:925 smalldialogs.cpp:113
+#: directorymergewindow.cpp:3041 optiondialog.cpp:925 smalldialogs.cpp:113
 #, kde-format
 msgid "Merge"
 msgstr "合併"
@@ -283,55 +283,55 @@ msgstr "非白"
 msgid "White"
 msgstr "白"
 
-#: directorymergewindow.cpp:672
+#: directorymergewindow.cpp:673
 #, kde-format
 msgid ""
 "You are currently doing a directory merge. Are you sure, you want to abort "
 "the merge and rescan the directory?"
 msgstr "您正在進行目錄合併。您確定要中止合併並重新掃描目錄嗎？"
 
-#: directorymergewindow.cpp:673 kdiff3.cpp:705 kdiff3.cpp:715 kdiff3.cpp:727
+#: directorymergewindow.cpp:674 kdiff3.cpp:705 kdiff3.cpp:715 kdiff3.cpp:727
 #: mergeresultwindow.cpp:398 pdiff.cpp:1048 pdiff.cpp:1925 pdiff.cpp:1935
 #, kde-format
 msgid "Warning"
 msgstr "警告"
 
-#: directorymergewindow.cpp:674 directorymergewindow.cpp:3013
+#: directorymergewindow.cpp:675 directorymergewindow.cpp:3014
 #, kde-format
 msgid "Rescan"
 msgstr "重新掃描"
 
-#: directorymergewindow.cpp:675 pdiff.cpp:1050
+#: directorymergewindow.cpp:676 pdiff.cpp:1050
 #, kde-format
 msgid "Continue Merging"
 msgstr "繼續合併"
 
-#: directorymergewindow.cpp:842
+#: directorymergewindow.cpp:843
 #, kde-format
 msgid "Opening of directories failed:"
 msgstr "開啟目錄失敗："
 
-#: directorymergewindow.cpp:846
+#: directorymergewindow.cpp:847
 #, kde-format
 msgid "Dir A \"%1\" does not exist or is not a directory.\n"
 msgstr "目錄 A \"%1\" 不存在，或不是目錄。\n"
 
-#: directorymergewindow.cpp:851
+#: directorymergewindow.cpp:852
 #, kde-format
 msgid "Dir B \"%1\" does not exist or is not a directory.\n"
 msgstr "目錄 B \"%1\" 不存在，或不是目錄。\n"
 
-#: directorymergewindow.cpp:856
+#: directorymergewindow.cpp:857
 #, kde-format
 msgid "Dir C \"%1\" does not exist or is not a directory.\n"
 msgstr "目錄 C \"%1\" 不存在，或不是目錄。\n"
 
-#: directorymergewindow.cpp:859
+#: directorymergewindow.cpp:860
 #, kde-format
 msgid "Directory Open Error"
 msgstr "目錄開啟時發生錯誤"
 
-#: directorymergewindow.cpp:867
+#: directorymergewindow.cpp:868
 #, kde-format
 msgid ""
 "The destination directory must not be the same as A or B when three "
@@ -339,49 +339,49 @@ msgid ""
 "Check again before continuing."
 msgstr ""
 
-#: directorymergewindow.cpp:869
+#: directorymergewindow.cpp:870
 #, kde-format
 msgid "Parameter Warning"
 msgstr "參數警告"
 
-#: directorymergewindow.cpp:874
+#: directorymergewindow.cpp:875
 #, kde-format
 msgid "Scanning directories..."
 msgstr "掃描目錄中..."
 
-#: directorymergewindow.cpp:900
+#: directorymergewindow.cpp:901
 #, kde-format
 msgid "Reading Directory A"
 msgstr "讀取目錄 A 中"
 
-#: directorymergewindow.cpp:909
+#: directorymergewindow.cpp:910
 #, kde-format
 msgid "Reading Directory B"
 msgstr "讀取目錄 B 中"
 
-#: directorymergewindow.cpp:919
+#: directorymergewindow.cpp:920
 #, kde-format
 msgid "Reading Directory C"
 msgstr "讀取目錄 C 中"
 
-#: directorymergewindow.cpp:935
+#: directorymergewindow.cpp:936
 #, kde-format
 msgid "Some subdirectories were not readable in"
 msgstr "此目錄裡的某些子目錄無法讀取："
 
-#: directorymergewindow.cpp:940
+#: directorymergewindow.cpp:941
 #, kde-format
 msgid "Check the permissions of the subdirectories."
 msgstr "請檢查子目錄的權限。"
 
-#: directorymergewindow.cpp:977 kdiff3.cpp:673 kdiff3.cpp:760 kdiff3.cpp:784
+#: directorymergewindow.cpp:978 kdiff3.cpp:673 kdiff3.cpp:760 kdiff3.cpp:784
 #: kdiff3.cpp:1072 kdiff3.cpp:1093 pdiff.cpp:1131 pdiff.cpp:1185 pdiff.cpp:1233
 #: pdiff.cpp:1249 pdiff.cpp:1292 pdiff.cpp:1316
 #, kde-format
 msgid "Ready."
 msgstr "已就緒。"
 
-#: directorymergewindow.cpp:992
+#: directorymergewindow.cpp:993
 #, kde-format
 msgid ""
 "Directory Comparison Status\n"
@@ -391,23 +391,23 @@ msgid ""
 "Number of different files: %3"
 msgstr ""
 
-#: directorymergewindow.cpp:999
+#: directorymergewindow.cpp:1000
 #, fuzzy, kde-format
 #| msgid "Number of manual merges:"
 msgid "Number of manual merges: %1"
 msgstr "手動合併數量："
 
-#: directorymergewindow.cpp:1265
+#: directorymergewindow.cpp:1266
 #, kde-format
 msgid "This affects all merge operations."
 msgstr "這會影響所有的合併操作。"
 
-#: directorymergewindow.cpp:1266
+#: directorymergewindow.cpp:1267
 #, kde-format
 msgid "Changing All Merge Operations"
 msgstr "變更所有合併操作"
 
-#: directorymergewindow.cpp:1347
+#: directorymergewindow.cpp:1348
 #, fuzzy, kde-format
 #| msgid "Processing "
 msgid ""
@@ -415,45 +415,45 @@ msgid ""
 "%3"
 msgstr "處理中"
 
-#: directorymergewindow.cpp:1390 directorymergewindow.cpp:1394
+#: directorymergewindow.cpp:1391 directorymergewindow.cpp:1395
 #, kde-format
 msgid "Some files could not be processed."
 msgstr ""
 
-#: directorymergewindow.cpp:1874 directorymergewindow.cpp:1899
-#: directorymergewindow.cpp:1923
+#: directorymergewindow.cpp:1875 directorymergewindow.cpp:1900
+#: directorymergewindow.cpp:1924
 #, kde-format
 msgid "This operation is currently not possible."
 msgstr "此操作目前無法運作。"
 
-#: directorymergewindow.cpp:1874 directorymergewindow.cpp:1899
-#: directorymergewindow.cpp:1923 directorymergewindow.cpp:2203
+#: directorymergewindow.cpp:1875 directorymergewindow.cpp:1900
+#: directorymergewindow.cpp:1924 directorymergewindow.cpp:2204
 #, kde-format
 msgid "Operation Not Possible"
 msgstr "無法進行操作"
 
-#: directorymergewindow.cpp:1970
+#: directorymergewindow.cpp:1971
 #, fuzzy, kde-format
 #| msgid "An error occurred while copying.\n"
 msgid "An error occurred while copying."
 msgstr "複製時發生錯誤。\n"
 
-#: directorymergewindow.cpp:1971 directorymergewindow.cpp:2410
+#: directorymergewindow.cpp:1972 directorymergewindow.cpp:2411
 #, kde-format
 msgid "Merge Error"
 msgstr "合併錯誤"
 
-#: directorymergewindow.cpp:2048
+#: directorymergewindow.cpp:2049
 #, kde-format
 msgid "Unknown merge operation. (This must never happen!)"
 msgstr "未知的合併操作。（此問題不應該發生！）"
 
-#: directorymergewindow.cpp:2093
+#: directorymergewindow.cpp:2094
 #, kde-format
 msgid "Unknown merge operation."
 msgstr "未知的合併操作。"
 
-#: directorymergewindow.cpp:2106
+#: directorymergewindow.cpp:2107
 #, kde-format
 msgid ""
 "The merge is about to begin.\n"
@@ -472,50 +472,50 @@ msgstr ""
 "\n"
 "要注意，這個程式仍然在測試階段，不保證結果是否有問題。請先備份您的重要資料！"
 
-#: directorymergewindow.cpp:2111
+#: directorymergewindow.cpp:2112
 #, kde-format
 msgid "Starting Merge"
 msgstr "開始合併"
 
-#: directorymergewindow.cpp:2112
+#: directorymergewindow.cpp:2113
 #, kde-format
 msgid "Do It"
 msgstr "做吧！"
 
-#: directorymergewindow.cpp:2113
+#: directorymergewindow.cpp:2114
 #, kde-format
 msgid "Simulate It"
 msgstr "先模擬一次"
 
-#: directorymergewindow.cpp:2139
+#: directorymergewindow.cpp:2140
 #, kde-format
 msgid ""
 "The highlighted item has a different type in the different directories. "
 "Select what to do."
 msgstr ""
 
-#: directorymergewindow.cpp:2143
+#: directorymergewindow.cpp:2144
 #, kde-format
 msgid ""
 "The modification dates of the file are equal but the files are not. Select "
 "what to do."
 msgstr ""
 
-#: directorymergewindow.cpp:2147
+#: directorymergewindow.cpp:2148
 #, kde-format
 msgid ""
 "The highlighted item was changed in one directory and deleted in the other. "
 "Select what to do."
 msgstr ""
 
-#: directorymergewindow.cpp:2203
+#: directorymergewindow.cpp:2204
 #, kde-format
 msgid ""
 "This operation is currently not possible because directory merge is "
 "currently running."
 msgstr ""
 
-#: directorymergewindow.cpp:2260
+#: directorymergewindow.cpp:2261
 #, kde-format
 msgid ""
 "There was an error in the last step.\n"
@@ -523,376 +523,376 @@ msgid ""
 "to skip this item?"
 msgstr ""
 
-#: directorymergewindow.cpp:2262
+#: directorymergewindow.cpp:2263
 #, kde-format
 msgid "Continue merge after an error"
 msgstr "在錯誤之後繼續合併"
 
-#: directorymergewindow.cpp:2263
+#: directorymergewindow.cpp:2264
 #, kde-format
 msgid "Continue With Last Item"
 msgstr "繼續上一個項目"
 
-#: directorymergewindow.cpp:2264
+#: directorymergewindow.cpp:2265
 #, kde-format
 msgid "Skip Item"
 msgstr "跳過項目"
 
-#: directorymergewindow.cpp:2360
+#: directorymergewindow.cpp:2361
 #, kde-format
 msgid "Merge operation complete."
 msgstr "合併操作完成。"
 
-#: directorymergewindow.cpp:2360 directorymergewindow.cpp:2363
+#: directorymergewindow.cpp:2361 directorymergewindow.cpp:2364
 #, kde-format
 msgid "Merge Complete"
 msgstr "合併完成"
 
-#: directorymergewindow.cpp:2373
+#: directorymergewindow.cpp:2374
 #, kde-format
 msgid ""
 "Simulated merge complete: Check if you agree with the proposed operations."
 msgstr "模擬合併完成：請檢查是否同意此合併結果。"
 
-#: directorymergewindow.cpp:2409
+#: directorymergewindow.cpp:2410
 #, fuzzy, kde-format
 #| msgid "An error occurred. Press OK to see detailed information.\n"
 msgid "An error occurred. Press OK to see detailed information."
 msgstr "發生錯誤。按「確定」看詳細資訊。\n"
 
-#: directorymergewindow.cpp:2442
+#: directorymergewindow.cpp:2443
 #, kde-format
 msgid "Error: While deleting %1: Creating backup failed."
 msgstr "錯誤：刪除 %1 時建立備份失敗。"
 
-#: directorymergewindow.cpp:2449
+#: directorymergewindow.cpp:2450
 #, kde-format
 msgid "delete directory recursively( %1 )"
 msgstr "遞迴刪除目錄（%1）"
 
-#: directorymergewindow.cpp:2451
+#: directorymergewindow.cpp:2452
 #, kde-format
 msgid "delete( %1 )"
 msgstr "刪除（%1）"
 
-#: directorymergewindow.cpp:2466
+#: directorymergewindow.cpp:2467
 #, kde-format
 msgid "Error: delete dir operation failed while trying to read the directory."
 msgstr ""
 
-#: directorymergewindow.cpp:2485
+#: directorymergewindow.cpp:2486
 #, kde-format
 msgid "Error: rmdir( %1 ) operation failed."
 msgstr ""
 
-#: directorymergewindow.cpp:2495
+#: directorymergewindow.cpp:2496
 #, kde-format
 msgid "Error: delete operation failed."
 msgstr ""
 
-#: directorymergewindow.cpp:2521
+#: directorymergewindow.cpp:2522
 #, kde-format
 msgid "manual merge( %1, %2, %3 -> %4)"
 msgstr ""
 
-#: directorymergewindow.cpp:2524
+#: directorymergewindow.cpp:2525
 #, kde-format
 msgid ""
 "     Note: After a manual merge the user should continue by pressing F7."
 msgstr ""
 
-#: directorymergewindow.cpp:2551
+#: directorymergewindow.cpp:2552
 #, kde-format
 msgid "Error: copy( %1 -> %2 ) failed.Deleting existing destination failed."
 msgstr ""
 
-#: directorymergewindow.cpp:2560
+#: directorymergewindow.cpp:2561
 #, kde-format
 msgid "copyLink( %1 -> %2 )"
 msgstr "複製連結( %1 -> %2 )"
 
-#: directorymergewindow.cpp:2569
+#: directorymergewindow.cpp:2570
 #, kde-format
 msgid "Error: copyLink failed: Remote links are not yet supported."
 msgstr "錯誤：複製連結失敗。尚未支援遠端連結。"
 
-#: directorymergewindow.cpp:2579
+#: directorymergewindow.cpp:2580
 #, kde-format
 msgid "Error: copyLink failed."
 msgstr "錯誤：複製連結失敗。"
 
-#: directorymergewindow.cpp:2604
+#: directorymergewindow.cpp:2605
 #, kde-format
 msgid "copy( %1 -> %2 )"
 msgstr "複製（%1 -> %2）"
 
-#: directorymergewindow.cpp:2630
+#: directorymergewindow.cpp:2631
 #, kde-format
 msgid "Error during rename( %1 -> %2 ): Cannot delete existing destination."
 msgstr ""
 
-#: directorymergewindow.cpp:2637
+#: directorymergewindow.cpp:2638
 #, kde-format
 msgid "rename( %1 -> %2 )"
 msgstr "重新命名（%1->%2）"
 
-#: directorymergewindow.cpp:2646
+#: directorymergewindow.cpp:2647
 #, kde-format
 msgid "Error: Rename failed."
 msgstr ""
 
-#: directorymergewindow.cpp:2664
+#: directorymergewindow.cpp:2665
 #, kde-format
 msgid "Error during makeDir of %1. Cannot delete existing file."
 msgstr ""
 
-#: directorymergewindow.cpp:2681
+#: directorymergewindow.cpp:2682
 #, kde-format
 msgid "makeDir( %1 )"
 msgstr ""
 
-#: directorymergewindow.cpp:2691
+#: directorymergewindow.cpp:2692
 #, kde-format
 msgid "Error while creating directory."
 msgstr ""
 
-#: directorymergewindow.cpp:2727 directorymergewindow.cpp:2846
+#: directorymergewindow.cpp:2728 directorymergewindow.cpp:2847
 #, kde-format
 msgid "Dest"
 msgstr "目標"
 
-#: directorymergewindow.cpp:2735 directorymergewindow.cpp:2764
+#: directorymergewindow.cpp:2736 directorymergewindow.cpp:2765
 #, kde-format
 msgid "Dir"
 msgstr "方向"
 
-#: directorymergewindow.cpp:2735
+#: directorymergewindow.cpp:2736
 #, kde-format
 msgid "Type"
 msgstr "型態"
 
-#: directorymergewindow.cpp:2735
+#: directorymergewindow.cpp:2736
 #, kde-format
 msgid "Size"
 msgstr "大小"
 
-#: directorymergewindow.cpp:2736
+#: directorymergewindow.cpp:2737
 #, kde-format
 msgid "Attr"
 msgstr "屬性"
 
-#: directorymergewindow.cpp:2736
+#: directorymergewindow.cpp:2737
 #, kde-format
 msgid "Last Modification"
 msgstr "上次變更"
 
-#: directorymergewindow.cpp:2736
+#: directorymergewindow.cpp:2737
 #, kde-format
 msgid "Link-Destination"
 msgstr "連結目標"
 
-#: directorymergewindow.cpp:2764
+#: directorymergewindow.cpp:2765
 #, kde-format
 msgid "File"
 msgstr "檔案"
 
-#: directorymergewindow.cpp:2764
+#: directorymergewindow.cpp:2765
 #, fuzzy, kde-format
 #| msgid "Link: "
 msgid "-Link"
 msgstr "連結："
 
-#: directorymergewindow.cpp:2770
+#: directorymergewindow.cpp:2771
 #, kde-format
 msgid "not available"
 msgstr "無"
 
-#: directorymergewindow.cpp:2788
+#: directorymergewindow.cpp:2789
 #, kde-format
 msgid "A (Dest): "
 msgstr "A(目標)："
 
-#: directorymergewindow.cpp:2792
+#: directorymergewindow.cpp:2793
 #, kde-format
 msgid "A:    "
 msgstr ""
 
-#: directorymergewindow.cpp:2792
+#: directorymergewindow.cpp:2793
 #, kde-format
 msgid "A (Base): "
 msgstr "A(基底)："
 
-#: directorymergewindow.cpp:2798
+#: directorymergewindow.cpp:2799
 #, kde-format
 msgid "B (Dest): "
 msgstr "B(目標)："
 
-#: directorymergewindow.cpp:2802
+#: directorymergewindow.cpp:2803
 #, kde-format
 msgid "B:    "
 msgstr ""
 
-#: directorymergewindow.cpp:2807
+#: directorymergewindow.cpp:2808
 #, kde-format
 msgid "C (Dest): "
 msgstr "C(目標)："
 
-#: directorymergewindow.cpp:2811
+#: directorymergewindow.cpp:2812
 #, kde-format
 msgid "C:    "
 msgstr ""
 
-#: directorymergewindow.cpp:2814
+#: directorymergewindow.cpp:2815
 #, kde-format
 msgid "Dest: "
 msgstr "目標："
 
 #. i18n("Saving Directory Merge State ..."));
-#: directorymergewindow.cpp:2858
+#: directorymergewindow.cpp:2859
 #, kde-format
 msgid "Save Directory Merge State As..."
 msgstr ""
 
-#: directorymergewindow.cpp:3007
+#: directorymergewindow.cpp:3008
 #, kde-format
 msgid "Start/Continue Directory Merge"
 msgstr ""
 
-#: directorymergewindow.cpp:3008
+#: directorymergewindow.cpp:3009
 #, kde-format
 msgid "Run Operation for Current Item"
 msgstr ""
 
-#: directorymergewindow.cpp:3009
+#: directorymergewindow.cpp:3010
 #, kde-format
 msgid "Compare Selected File"
 msgstr ""
 
-#: directorymergewindow.cpp:3010
+#: directorymergewindow.cpp:3011
 #, kde-format
 msgid "Merge Current File"
 msgstr ""
 
-#: directorymergewindow.cpp:3010
+#: directorymergewindow.cpp:3011
 #, kde-format
 msgid ""
 "Merge\n"
 "File"
 msgstr ""
 
-#: directorymergewindow.cpp:3011
+#: directorymergewindow.cpp:3012
 #, kde-format
 msgid "Fold All Subdirs"
 msgstr ""
 
-#: directorymergewindow.cpp:3012
+#: directorymergewindow.cpp:3013
 #, kde-format
 msgid "Unfold All Subdirs"
 msgstr ""
 
 #. i18n("Save Directory Merge State ..."), 0, this, &DirectoryMergeWindow::slotSaveMergeState, ac, "dir_save_merge_state");
 #. i18n("Load Directory Merge State ..."), 0, this, &DirectoryMergeWindow::slotLoadMergeState, ac, "dir_load_merge_state");
-#: directorymergewindow.cpp:3016
+#: directorymergewindow.cpp:3017
 #, kde-format
 msgid "Choose A for All Items"
 msgstr ""
 
-#: directorymergewindow.cpp:3017
+#: directorymergewindow.cpp:3018
 #, kde-format
 msgid "Choose B for All Items"
 msgstr ""
 
-#: directorymergewindow.cpp:3018
+#: directorymergewindow.cpp:3019
 #, kde-format
 msgid "Choose C for All Items"
 msgstr ""
 
-#: directorymergewindow.cpp:3019
+#: directorymergewindow.cpp:3020
 #, kde-format
 msgid "Auto-Choose Operation for All Items"
 msgstr ""
 
-#: directorymergewindow.cpp:3020
+#: directorymergewindow.cpp:3021
 #, kde-format
 msgid "No Operation for All Items"
 msgstr ""
 
 #. i18n("Synchronize Directories"), 0, this, &DirectoryMergeWindow::slotSynchronizeDirectories, ac, "dir_synchronize_directories");
 #. d->m_pDirChooseNewerFiles = GuiUtils::createAction< KToggleAction >(i18n("Copy Newer Files Instead of Merging"), 0, this, &DirectoryMergeWindow::slotChooseNewerFiles, ac, "dir_choose_newer_files");
-#: directorymergewindow.cpp:3025
+#: directorymergewindow.cpp:3026
 #, kde-format
 msgid "Show Identical Files"
 msgstr ""
 
-#: directorymergewindow.cpp:3025
+#: directorymergewindow.cpp:3026
 #, kde-format
 msgid ""
 "Identical\n"
 "Files"
 msgstr ""
 
-#: directorymergewindow.cpp:3026
+#: directorymergewindow.cpp:3027
 #, kde-format
 msgid "Show Different Files"
 msgstr ""
 
-#: directorymergewindow.cpp:3027
+#: directorymergewindow.cpp:3028
 #, kde-format
 msgid "Show Files only in A"
 msgstr ""
 
-#: directorymergewindow.cpp:3027
+#: directorymergewindow.cpp:3028
 #, kde-format
 msgid ""
 "Files\n"
 "only in A"
 msgstr ""
 
-#: directorymergewindow.cpp:3028
+#: directorymergewindow.cpp:3029
 #, kde-format
 msgid "Show Files only in B"
 msgstr ""
 
-#: directorymergewindow.cpp:3028
+#: directorymergewindow.cpp:3029
 #, kde-format
 msgid ""
 "Files\n"
 "only in B"
 msgstr ""
 
-#: directorymergewindow.cpp:3029
+#: directorymergewindow.cpp:3030
 #, kde-format
 msgid "Show Files only in C"
 msgstr ""
 
-#: directorymergewindow.cpp:3029
+#: directorymergewindow.cpp:3030
 #, kde-format
 msgid ""
 "Files\n"
 "only in C"
 msgstr ""
 
-#: directorymergewindow.cpp:3033
+#: directorymergewindow.cpp:3034
 #, kde-format
 msgid "Compare Explicitly Selected Files"
 msgstr ""
 
-#: directorymergewindow.cpp:3034
+#: directorymergewindow.cpp:3035
 #, kde-format
 msgid "Merge Explicitly Selected Files"
 msgstr ""
 
-#: directorymergewindow.cpp:3036 directorymergewindow.cpp:3043
+#: directorymergewindow.cpp:3037 directorymergewindow.cpp:3044
 #, kde-format
 msgid "Do Nothing"
 msgstr "不做任何事"
 
-#: directorymergewindow.cpp:3048
+#: directorymergewindow.cpp:3049
 #, kde-format
 msgid "Delete A && B"
 msgstr "刪除 A 與 B"
 
-#: directorymergewindow.cpp:3051
+#: directorymergewindow.cpp:3052
 #, kde-format
 msgid "Merge to A && B"
 msgstr "合併到 A 與 B"

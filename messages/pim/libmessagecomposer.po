@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-15 02:57+0200\n"
+"POT-Creation-Date: 2019-09-23 03:03+0200\n"
 "PO-Revision-Date: 2015-06-17 09:27+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -23,229 +23,229 @@ msgstr ""
 msgid "Failed to compress attachment"
 msgstr "壓縮附件時失敗"
 
-#: attachment/attachmentcontrollerbase.cpp:193
+#: attachment/attachmentcontrollerbase.cpp:192
 #, kde-format
 msgid ""
 "The compressed attachment is larger than the original. Do you want to keep "
 "the original one?"
 msgstr "壓縮過的附件比原來還大。你想要保存原來的檔案嗎？"
 
-#: attachment/attachmentcontrollerbase.cpp:196
+#: attachment/attachmentcontrollerbase.cpp:195
 #, kde-format
 msgctxt "Do not compress"
 msgid "Keep"
 msgstr "保存"
 
-#: attachment/attachmentcontrollerbase.cpp:197
+#: attachment/attachmentcontrollerbase.cpp:196
 #, kde-format
 msgid "Compress"
 msgstr "壓縮"
 
-#: attachment/attachmentcontrollerbase.cpp:216
+#: attachment/attachmentcontrollerbase.cpp:215
 #, kde-format
 msgid "Failed to attach file"
 msgstr "附加檔案失敗"
 
-#: attachment/attachmentcontrollerbase.cpp:289
+#: attachment/attachmentcontrollerbase.cpp:288
 #, kde-format
 msgid "Failed to reload attachment"
 msgstr "重新載入附件時失敗"
 
-#: attachment/attachmentcontrollerbase.cpp:336
+#: attachment/attachmentcontrollerbase.cpp:335
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "開啟方式(&O)"
 
-#: attachment/attachmentcontrollerbase.cpp:354
+#: attachment/attachmentcontrollerbase.cpp:353
 #, kde-format
 msgctxt "@action:inmenu Open With"
 msgid "&Other..."
 msgstr "其他(&O)..."
 
-#: attachment/attachmentcontrollerbase.cpp:356
-#: attachment/attachmentcontrollerbase.cpp:364
+#: attachment/attachmentcontrollerbase.cpp:355
+#: attachment/attachmentcontrollerbase.cpp:363
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "開啟方式(&O)..."
 
-#: attachment/attachmentcontrollerbase.cpp:390
+#: attachment/attachmentcontrollerbase.cpp:389
 #, kde-format
 msgid "Failed to attach public key"
 msgstr "附加公開金鑰失敗"
 
-#: attachment/attachmentcontrollerbase.cpp:404
+#: attachment/attachmentcontrollerbase.cpp:403
 #, fuzzy, kde-format
 #| msgid "Failed to attach file"
 msgid "Failed to attach vCard"
 msgstr "附加檔案失敗"
 
-#: attachment/attachmentcontrollerbase.cpp:417
+#: attachment/attachmentcontrollerbase.cpp:416
 #, fuzzy, kde-format
 #| msgid "Failed to attach file"
 msgid "Failed to attach text from clipboard"
 msgstr "附加檔案失敗"
 
-#: attachment/attachmentcontrollerbase.cpp:470
+#: attachment/attachmentcontrollerbase.cpp:469
 #, kde-format
 msgid "Attach &Public Key..."
 msgstr "附上公開金鑰(&P)..."
 
-#: attachment/attachmentcontrollerbase.cpp:474
+#: attachment/attachmentcontrollerbase.cpp:473
 #, kde-format
 msgid "Attach &My Public Key"
 msgstr "附上我的公開金鑰(&M)"
 
-#: attachment/attachmentcontrollerbase.cpp:477
-#: attachment/attachmentcontrollerbase.cpp:483
-#: attachment/attachmentcontrollerbase.cpp:490
-#: attachment/attachmentcontrollerbase.cpp:499
+#: attachment/attachmentcontrollerbase.cpp:476
+#: attachment/attachmentcontrollerbase.cpp:482
+#: attachment/attachmentcontrollerbase.cpp:489
+#: attachment/attachmentcontrollerbase.cpp:498
 #, kde-format
 msgid "Attach"
 msgstr "附加"
 
-#: attachment/attachmentcontrollerbase.cpp:482
+#: attachment/attachmentcontrollerbase.cpp:481
 #: composer/composerviewbase.cpp:1760
 #, kde-format
 msgid "&Attach File..."
 msgstr "附加檔案(&A)..."
 
-#: attachment/attachmentcontrollerbase.cpp:485
+#: attachment/attachmentcontrollerbase.cpp:484
 #, kde-format
 msgid "Add Attachment..."
 msgstr "新增附件..."
 
-#: attachment/attachmentcontrollerbase.cpp:489
+#: attachment/attachmentcontrollerbase.cpp:488
 #, kde-format
 msgid "&Attach Directory..."
 msgstr "附加目錄(&A)..."
 
-#: attachment/attachmentcontrollerbase.cpp:493
+#: attachment/attachmentcontrollerbase.cpp:492
 #, kde-format
 msgid "Attach Own vCard"
 msgstr "附加自己的 vCard"
 
-#: attachment/attachmentcontrollerbase.cpp:494
+#: attachment/attachmentcontrollerbase.cpp:493
 #, kde-format
 msgid "Own vCard"
 msgstr "自己的 vCard"
 
-#: attachment/attachmentcontrollerbase.cpp:498
+#: attachment/attachmentcontrollerbase.cpp:497
 #, kde-format
 msgid "&Attach vCards..."
 msgstr "附加 vCards(&A)..."
 
-#: attachment/attachmentcontrollerbase.cpp:502
+#: attachment/attachmentcontrollerbase.cpp:501
 #, fuzzy, kde-format
 #| msgid "&Attach vCards..."
 msgid "&Attach Text From Clipboard..."
 msgstr "附加 vCards(&A)..."
 
-#: attachment/attachmentcontrollerbase.cpp:503
+#: attachment/attachmentcontrollerbase.cpp:502
 #, fuzzy, kde-format
 #| msgid "Attach Own vCard"
 msgid "Attach Text From Clipboard"
 msgstr "附加自己的 vCard"
 
-#: attachment/attachmentcontrollerbase.cpp:515
+#: attachment/attachmentcontrollerbase.cpp:514
 #, kde-format
 msgid "&Remove Attachment"
 msgstr "移除附件(&R)"
 
-#: attachment/attachmentcontrollerbase.cpp:516
+#: attachment/attachmentcontrollerbase.cpp:515
 #, kde-format
 msgid "Remove"
 msgstr "移除"
 
-#: attachment/attachmentcontrollerbase.cpp:524
+#: attachment/attachmentcontrollerbase.cpp:523
 #, kde-format
 msgctxt "to open"
 msgid "Open"
 msgstr "開啟"
 
-#: attachment/attachmentcontrollerbase.cpp:529
+#: attachment/attachmentcontrollerbase.cpp:528
 #, kde-format
 msgctxt "to view"
 msgid "View"
 msgstr "檢視"
 
-#: attachment/attachmentcontrollerbase.cpp:534
+#: attachment/attachmentcontrollerbase.cpp:533
 #, kde-format
 msgctxt "to edit"
 msgid "Edit"
 msgstr "編輯"
 
-#: attachment/attachmentcontrollerbase.cpp:539
+#: attachment/attachmentcontrollerbase.cpp:538
 #, kde-format
 msgid "Edit With..."
 msgstr "編輯方式..."
 
-#: attachment/attachmentcontrollerbase.cpp:545
+#: attachment/attachmentcontrollerbase.cpp:544
 #, kde-format
 msgid "&Save Attachment As..."
 msgstr "另存附件(&S)..."
 
-#: attachment/attachmentcontrollerbase.cpp:547
+#: attachment/attachmentcontrollerbase.cpp:546
 #, kde-format
 msgid "Save As..."
 msgstr "另存為..."
 
-#: attachment/attachmentcontrollerbase.cpp:557
+#: attachment/attachmentcontrollerbase.cpp:556
 #, kde-format
 msgid "Attachment Pr&operties..."
 msgstr "附件屬性(&O)"
 
-#: attachment/attachmentcontrollerbase.cpp:558
+#: attachment/attachmentcontrollerbase.cpp:557
 #, kde-format
 msgid "Properties"
 msgstr "屬性"
 
-#: attachment/attachmentcontrollerbase.cpp:568
+#: attachment/attachmentcontrollerbase.cpp:567
 #, kde-format
 msgid "Select All"
 msgstr "全部選取"
 
-#: attachment/attachmentcontrollerbase.cpp:572
+#: attachment/attachmentcontrollerbase.cpp:571
 #, kde-format
 msgid "Reload"
 msgstr "重新載入"
 
-#: attachment/attachmentcontrollerbase.cpp:709
-#: attachment/attachmentcontrollerbase.cpp:738
-#: attachment/attachmentcontrollerbase.cpp:797
+#: attachment/attachmentcontrollerbase.cpp:708
+#: attachment/attachmentcontrollerbase.cpp:737
+#: attachment/attachmentcontrollerbase.cpp:796
 #, kde-format
 msgid "KMail was unable to write the attachment to a temporary file."
 msgstr "KMail 無法將附件寫入暫存檔。"
 
-#: attachment/attachmentcontrollerbase.cpp:710
-#: attachment/attachmentcontrollerbase.cpp:739
-#: attachment/attachmentcontrollerbase.cpp:756
+#: attachment/attachmentcontrollerbase.cpp:709
+#: attachment/attachmentcontrollerbase.cpp:738
+#: attachment/attachmentcontrollerbase.cpp:755
 #, kde-format
 msgid "Unable to open attachment"
 msgstr "無法開啟附件"
 
-#: attachment/attachmentcontrollerbase.cpp:755
+#: attachment/attachmentcontrollerbase.cpp:754
 #, kde-format
 msgid "KMail was unable to open the attachment."
 msgstr "KMail 無法開啟附件。"
 
-#: attachment/attachmentcontrollerbase.cpp:798
+#: attachment/attachmentcontrollerbase.cpp:797
 #, kde-format
 msgid "Unable to edit attachment"
 msgstr "無法編輯附件"
 
-#: attachment/attachmentcontrollerbase.cpp:842
+#: attachment/attachmentcontrollerbase.cpp:841
 #, kde-format
 msgid "unnamed"
 msgstr "未命名"
 
-#: attachment/attachmentcontrollerbase.cpp:845
+#: attachment/attachmentcontrollerbase.cpp:844
 #, kde-format
 msgid "Save Attachment As"
 msgstr "另存附檔"
 
-#: attachment/attachmentcontrollerbase.cpp:868
+#: attachment/attachmentcontrollerbase.cpp:867
 #, kde-format
 msgid ""
 "File %1 exists.\n"
@@ -254,54 +254,54 @@ msgstr ""
 "檔案 %1 已存在。\n"
 "您是否要取代它？"
 
-#: attachment/attachmentcontrollerbase.cpp:868
+#: attachment/attachmentcontrollerbase.cpp:867
 #, kde-format
 msgid "Save to File"
 msgstr "存入檔案"
 
-#: attachment/attachmentcontrollerbase.cpp:868
+#: attachment/attachmentcontrollerbase.cpp:867
 #, kde-format
 msgid "&Replace"
 msgstr "取代(&R)"
 
-#: attachment/attachmentcontrollerbase.cpp:895
-#: attachment/attachmentcontrollerbase.cpp:965
+#: attachment/attachmentcontrollerbase.cpp:894
+#: attachment/attachmentcontrollerbase.cpp:964
 #, fuzzy, kde-format
 #| msgid "Do you really want to attach this directory \"%1\" ?"
 msgid "Do you really want to attach this directory \"%1\"?"
 msgstr "您確定要附加此目錄 \"%1\" 嗎？"
 
-#: attachment/attachmentcontrollerbase.cpp:896
-#: attachment/attachmentcontrollerbase.cpp:966
+#: attachment/attachmentcontrollerbase.cpp:895
+#: attachment/attachmentcontrollerbase.cpp:965
 #, kde-format
 msgctxt "@title:window"
 msgid "Attach directory"
 msgstr "附加目錄"
 
-#: attachment/attachmentcontrollerbase.cpp:942
+#: attachment/attachmentcontrollerbase.cpp:941
 #, kde-format
 msgctxt "@title:window"
 msgid "Attach Directory"
 msgstr "附加目錄"
 
-#: attachment/attachmentcontrollerbase.cpp:954
+#: attachment/attachmentcontrollerbase.cpp:953
 #, kde-format
 msgctxt "@title:window"
 msgid "Attach File"
 msgstr "附加檔案"
 
-#: attachment/attachmentcontrollerbase.cpp:994
+#: attachment/attachmentcontrollerbase.cpp:993
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to attach file"
 msgstr "附加檔案失敗"
 
-#: attachment/attachmentcontrollerbase.cpp:1019
+#: attachment/attachmentcontrollerbase.cpp:1018
 #, kde-format
 msgid "Attach Public OpenPGP Key"
 msgstr "附加 OpenPGP 公開金鑰"
 
-#: attachment/attachmentcontrollerbase.cpp:1020
+#: attachment/attachmentcontrollerbase.cpp:1019
 #, kde-format
 msgid "Select the public key which should be attached."
 msgstr "請選擇要被附上的公開金鑰。"
@@ -1775,31 +1775,31 @@ msgctxt "@title:window"
 msgid "Save Distribution List"
 msgstr "儲存聯絡人群組"
 
-#: recipient/distributionlistdialog.cpp:120
+#: recipient/distributionlistdialog.cpp:119
 #, kde-format
 msgctxt "@action:button"
 msgid "Save List"
 msgstr "儲存清單"
 
-#: recipient/distributionlistdialog.cpp:136
+#: recipient/distributionlistdialog.cpp:134
 #, kde-format
 msgctxt "@label:textbox Name of the distribution list."
 msgid "&Name:"
 msgstr "名稱(&N)："
 
-#: recipient/distributionlistdialog.cpp:147
+#: recipient/distributionlistdialog.cpp:145
 #, kde-format
 msgctxt "@title:column Name of the recipient"
 msgid "Name"
 msgstr "名稱"
 
-#: recipient/distributionlistdialog.cpp:148
+#: recipient/distributionlistdialog.cpp:146
 #, kde-format
 msgctxt "@title:column Email of the recipient"
 msgid "Email"
 msgstr "電子郵件"
 
-#: recipient/distributionlistdialog.cpp:256
+#: recipient/distributionlistdialog.cpp:254
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1807,19 +1807,19 @@ msgid ""
 "again."
 msgstr "清單中沒有任何收件人。請先選擇一些收件人，再試一次。"
 
-#: recipient/distributionlistdialog.cpp:266
+#: recipient/distributionlistdialog.cpp:264
 #, kde-format
 msgctxt "@title:window"
 msgid "New Distribution List"
 msgstr "新的聯絡人群組"
 
-#: recipient/distributionlistdialog.cpp:267
+#: recipient/distributionlistdialog.cpp:265
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Please enter name:"
 msgstr "請輸入姓名："
 
-#: recipient/distributionlistdialog.cpp:288
+#: recipient/distributionlistdialog.cpp:286
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1829,18 +1829,18 @@ msgstr ""
 "z<para>聯絡人群組名稱 <resource>%1</resource> 已存在。請指定另一個名字。</"
 "para>"
 
-#: recipient/distributionlistdialog.cpp:298
+#: recipient/distributionlistdialog.cpp:296
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Address Book"
 msgstr "選擇通訊錄"
 
-#: recipient/distributionlistdialog.cpp:299
+#: recipient/distributionlistdialog.cpp:297
 #, kde-format
 msgid "Select the address book folder to store the contact group in:"
 msgstr "選擇聯絡人群組要儲存到哪個通訊錄資料夾："
 
-#: recipient/distributionlistdialog.cpp:335
+#: recipient/distributionlistdialog.cpp:333
 #, kde-format
 msgid "Unable to create distribution list: %1"
 msgstr "無法建立分派清單：%1"

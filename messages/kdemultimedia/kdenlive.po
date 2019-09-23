@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-21 03:11+0200\n"
+"POT-Creation-Date: 2019-09-23 02:54+0200\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -337,7 +337,17 @@ msgstr "除錯"
 msgid "Obscure"
 msgstr "馬賽克遮蓋"
 
-#: data/effects/automask.xml:31 data/effects/loudness.xml:10
+#: data/effects/automask.xml:31 data/effects/tracker.xml:35
+#, fuzzy, kde-format
+msgid "Tracking data"
+msgstr "軌道高度"
+
+#: data/effects/automask.xml:32 data/effects/tracker.xml:36
+#, fuzzy, kde-format
+msgid "Click to copy to clipboard"
+msgstr "關鍵影格與素材同步"
+
+#: data/effects/automask.xml:35 data/effects/loudness.xml:10
 #: data/effects/tracker.xml:39
 #, kde-format
 msgid "Analyse"
@@ -4359,16 +4369,6 @@ msgstr ""
 msgid "Blur type"
 msgstr "模糊"
 
-#: data/effects/tracker.xml:35
-#, fuzzy, kde-format
-msgid "Tracking data"
-msgstr "軌道高度"
-
-#: data/effects/tracker.xml:36
-#, fuzzy, kde-format
-msgid "Click to copy to clipboard"
-msgstr "關鍵影格與素材同步"
-
 #: data/effects/vidstab.xml:3
 #, fuzzy, kde-format
 msgid "Stabilize"
@@ -5232,7 +5232,7 @@ msgstr "重置特效"
 msgid "Delete keyframes"
 msgstr "移除關鍵幀"
 
-#: src/assets/keyframes/model/keyframemodellist.cpp:471
+#: src/assets/keyframes/model/keyframemodellist.cpp:482
 #: src/assets/view/widgets/animationwidget.cpp:123
 #: src/assets/view/widgets/keyframewidget.cpp:82
 #, kde-format
@@ -5279,13 +5279,13 @@ msgstr "移除目前的按鈕"
 msgid "Delete preset"
 msgstr "刪除預設"
 
-#: src/assets/view/assetparameterview.cpp:345
+#: src/assets/view/assetparameterview.cpp:349
 #: src/assets/view/widgets/animationwidget.cpp:1196
 #, fuzzy, kde-format
 msgid "Enter preset name"
 msgstr "輸入資料夾名稱"
 
-#: src/assets/view/assetparameterview.cpp:345
+#: src/assets/view/assetparameterview.cpp:349
 #, kde-format
 msgid "Enter the name of this preset"
 msgstr ""
@@ -5306,7 +5306,7 @@ msgid "Next keyframe"
 msgstr "下一個關鍵影格"
 
 #: src/assets/view/widgets/animationwidget.cpp:118
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:163
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:164
 #: src/project/clipstabilize.cpp:84
 #, fuzzy, kde-format
 msgid "Presets"
@@ -6123,17 +6123,17 @@ msgid ""
 "This is not correctly supported by our video framework."
 msgstr ""
 
-#: src/bin/projectclip.cpp:1232
+#: src/bin/projectclip.cpp:1231
 #, kde-format
 msgid "Clip already contains analysis data %1"
 msgstr ""
 
-#: src/bin/projectclip.cpp:1232
+#: src/bin/projectclip.cpp:1231
 #, kde-format
 msgid "Merge"
 msgstr ""
 
-#: src/bin/projectclip.cpp:1233
+#: src/bin/projectclip.cpp:1232
 #, kde-format
 msgid "Add"
 msgstr "增加"
@@ -6170,7 +6170,7 @@ msgstr "說明"
 
 #: src/bin/projectitemmodel.cpp:238 src/doc/documentchecker.cpp:450
 #: src/dvdwizard/dvdwizardvob.cpp:352 src/dvdwizard/dvdwizardvob.cpp:841
-#: src/mltcontroller/clipcontroller.cpp:354 src/profiles/profileinfo.cpp:60
+#: src/mltcontroller/clipcontroller.cpp:376 src/profiles/profileinfo.cpp:60
 #: src/profiles/profilerepository.cpp:133 src/utils/resourcewidget.cpp:629
 #, fuzzy, kde-format
 msgid "Unknown"
@@ -6277,14 +6277,14 @@ msgid "Template title clip"
 msgstr "字幕 / 標題樣板素材"
 
 #: src/dialogs/clipcreationdialog.cpp:353 src/dvdwizard/dvdwizardvob.cpp:269
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:234
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:235
 #: src/mainwindow.cpp:3175
 #, kde-format
 msgid "All Supported Files"
 msgstr "所有支援的檔案"
 
 #: src/dialogs/clipcreationdialog.cpp:353 src/dvdwizard/dvdwizardvob.cpp:270
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:234
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:235
 #: src/mainwindow.cpp:3175 src/utils/resourcewidget.cpp:386
 #: src/utils/resourcewidget.cpp:389 src/utils/resourcewidget.cpp:391
 #, kde-format
@@ -6831,7 +6831,7 @@ msgid "Select a name for this rendering."
 msgstr "隱藏所選區段並跟著移動"
 
 #: src/dialogs/renderwidget.cpp:1194 src/dvdwizard/dvdwizardvob.cpp:736
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:400
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:401
 #: src/jobs/filterjob.cpp:102 src/project/clipstabilize.cpp:143
 #: src/project/cliptranscode.cpp:165 src/project/dialogs/archivewidget.cpp:881
 #: src/project/projectmanager.cpp:358
@@ -7965,7 +7965,7 @@ msgstr "編輯特效 %1"
 msgid "Add effect %1"
 msgstr "編輯特效 %1"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:753
+#: src/effects/effectstack/model/effectstackmodel.cpp:773
 #, fuzzy, kde-format
 #| msgid "Move effect"
 msgid "Move effect %1"
@@ -8022,18 +8022,18 @@ msgstr "關閉特效"
 msgid "Create Group"
 msgstr "建立群組"
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:171
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:390
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:172
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:391
 #, kde-format
 msgid "Save Effect"
 msgstr "儲存特效"
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:176
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:177
 #, kde-format
 msgid "Create Region"
 msgstr "建立區域"
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:390
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:391
 #, kde-format
 msgid "Name for saved effect: "
 msgstr "儲存的特效名稱:"
@@ -8090,7 +8090,7 @@ msgstr "切除選取區段後前移"
 msgid "Extracting %1 out of %2"
 msgstr ""
 
-#: src/jobs/cutclipjob.cpp:114 src/jobs/speedjob.cpp:140
+#: src/jobs/cutclipjob.cpp:114 src/jobs/speedjob.cpp:139
 #, fuzzy, kde-format
 #| msgid "Profile already exists"
 msgid "File already exists"
@@ -8253,31 +8253,31 @@ msgstr "區段終點：%1"
 msgid "Change clip speed"
 msgstr "修改素材類別"
 
-#: src/jobs/speedjob.cpp:83 src/timeline2/view/dialogs/speeddialog.cpp:10
+#: src/jobs/speedjob.cpp:82 src/timeline2/view/dialogs/speeddialog.cpp:10
 #, fuzzy, kde-format
 #| msgid "Speed"
 msgid "Clip Speed"
 msgstr "速度"
 
-#: src/jobs/speedjob.cpp:91 src/jobs/speedjob.cpp:92 src/jobs/speedjob.cpp:178
+#: src/jobs/speedjob.cpp:90 src/jobs/speedjob.cpp:91 src/jobs/speedjob.cpp:177
 #, fuzzy, kde-format
 #| msgid "Change"
 msgid "Speed Change"
 msgstr "變更"
 
-#: src/jobs/speedjob.cpp:94
+#: src/jobs/speedjob.cpp:93
 #, fuzzy, kde-format
 #| msgid "Destination folder"
 msgid "Destination Folder"
 msgstr "目標檔案夾"
 
-#: src/jobs/speedjob.cpp:98
+#: src/jobs/speedjob.cpp:97
 #, fuzzy, kde-format
 #| msgid "Destination folder"
 msgid "Destination File"
 msgstr "目標檔案夾"
 
-#: src/jobs/speedjob.cpp:107
+#: src/jobs/speedjob.cpp:106
 #, kde-format
 msgid "Percentage"
 msgstr ""
@@ -12268,7 +12268,7 @@ msgstr "影格"
 msgid "No thumbnails"
 msgstr "察看縮略圖"
 
-#: src/timeline2/view/qml/timeline.qml:1226
+#: src/timeline2/view/qml/timeline.qml:1225
 #, fuzzy, kde-format
 #| msgid "Position"
 msgid ""
@@ -12322,7 +12322,7 @@ msgstr "全部察看"
 msgid "Hide"
 msgstr ""
 
-#: src/timeline2/view/qml/TrackHead.qml:411
+#: src/timeline2/view/qml/TrackHead.qml:412
 #, fuzzy, kde-format
 #| msgid "Track name"
 msgid "Edit track name"
