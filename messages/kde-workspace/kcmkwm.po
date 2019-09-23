@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-09-20 03:31+0200\n"
-"PO-Revision-Date: 2019-09-23 00:39+0800\n"
+"PO-Revision-Date: 2019-09-23 19:33+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -52,8 +52,8 @@ msgid ""
 "In this row you can customize left click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
 msgstr ""
-"在這一列您可以自定當左鍵在非作用中的內部視窗按下的行為('內部'代表: 非標題列,"
-"非邊框)。"
+"在這一列您可以自訂當左鍵在非作用中的內部視窗按下的行為（「內部」表示：非標題列、"
+"非邊框）。"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, coWin1)
 #. i18n: ectx: property (text), item, widget (KComboBox, coWin2)
@@ -109,7 +109,7 @@ msgid ""
 "In this row you can customize middle click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
 msgstr ""
-"在這一列您可以自定當中鍵在非作用中的內部視窗按下的行為('內部'代表: 非標題列,"
+"在這一列您可以自訂當中鍵在非作用中的內部視窗按下的行為('內部'代表: 非標題列,"
 "非邊框)。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
@@ -126,7 +126,7 @@ msgid ""
 "In this row you can customize right click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
 msgstr ""
-"在這一列您可以自定當右鍵在非作用中的內部視窗按下的行為('內部'代表: 非標題列,"
+"在這一列您可以自訂當右鍵在非作用中的內部視窗按下的行為('內部'代表: 非標題列,"
 "非邊框)。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -143,7 +143,7 @@ msgid ""
 "In this row you can customize behavior when scrolling into an inactive inner "
 "window ('inner' means: not titlebar, not frame)."
 msgstr ""
-"在這一列您可以自定在非作用中的內部視窗捲軸的行為('內部'代表: 非標題列,非邊"
+"在這一列您可以自訂在非作用中的內部視窗捲軸的行為('內部'代表: 非標題列,非邊"
 "框)。"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, coWinWheel)
@@ -215,7 +215,7 @@ msgstr "左鍵(&E)："
 msgid ""
 "In this row you can customize left click behavior when clicking into the "
 "titlebar or the frame."
-msgstr "在這一列您可以自定當左鍵按在標題列或邊框時的行為。"
+msgstr "在這一列您可以自訂當左鍵按在標題列或邊框時的行為。"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, coAll1)
 #. i18n: ectx: property (text), item, widget (KComboBox, coAll2)
@@ -353,7 +353,7 @@ msgstr "中鍵(&C)："
 msgid ""
 "In this row you can customize middle click behavior when clicking into the "
 "titlebar or the frame."
-msgstr "在這一列您可以自定當中鍵按在標題列或邊框時的行為。"
+msgstr "在這一列您可以自訂當中鍵按在標題列或邊框時的行為。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #. i18n: ectx: property (text), widget (QLabel, label_9)
@@ -368,7 +368,7 @@ msgstr "右鍵(&K)："
 msgid ""
 "In this row you can customize right click behavior when clicking into the "
 "titlebar or the frame."
-msgstr "在這一列您可以自定當右鍵按在標題列或邊框時的行為。"
+msgstr "在這一列您可以自訂當右鍵按在標題列或邊框時的行為。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #: actions.ui:458
@@ -382,7 +382,7 @@ msgstr "滑鼠滾輪(&U)："
 msgid ""
 "Here you can customize KDE's behavior when scrolling with the mouse wheel in "
 "a window while pressing the modifier key."
-msgstr "在這裡您可以自定 [同時按住輔助鍵並使用滑鼠滾輪] 時 KDE 的行為。"
+msgstr "在這裡您可以自訂 [同時按住輔助鍵並使用滑鼠滾輪] 時 KDE 的行為。"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, coTiAct4)
 #. i18n: ectx: property (text), item, widget (KComboBox, coAllW)
@@ -926,10 +926,10 @@ msgid ""
 "manager. If you do use a different window manager, please refer to its "
 "documentation for how to customize window behavior.</p>"
 msgstr ""
-"<p><h1>視窗行為</h1> 在這裡您可以自定當視窗被移動，改變大小或按下時視窗的行"
+"<p><h1>視窗行為</h1> 在這裡您可以自訂當視窗被移動，改變大小或按下時視窗的行"
 "為。您也可以指定焦點策略和新視窗的配置策略。</p> <p>請注意假如您不是使用 "
 "KWin 當作您的視窗管理員，這個設定將不會產生作用。假如您使用其他的視窗管理員，"
-"請參考它的文件來看如何自定視窗行為。</p>"
+"請參考它的文件來看如何自訂視窗行為。</p>"
 
 #: main.cpp:191
 #, kde-format
@@ -1026,7 +1026,7 @@ msgstr "<em>滑鼠滾輪</em>捲動標題列時的行為。"
 #: mouse.ui:143
 #, kde-format
 msgid "Titlebar and Frame Actions"
-msgstr "標題列及外框動作"
+msgstr "標題列及邊框動作"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: mouse.ui:167
@@ -1179,7 +1179,7 @@ msgid ""
 "the magnetic field which will make windows snap to the center of the screen "
 "when moved near it."
 msgstr ""
-"在這裡您可以為螢幕中央設定貼齊區域，換句話說， 就是當視窗靠近時會讓視窗貼齊到"
+"在這裡您可以為螢幕中央設定貼齊區域，換句話說，就是當視窗靠近時會讓視窗貼齊到"
 "中央的磁場 '強度'。"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, OverlapSnap)
@@ -1190,7 +1190,7 @@ msgid ""
 "them, i.e. they will not be snapped if the windows comes only near another "
 "window or border."
 msgstr ""
-"在這裡您可以設定只有您試著重疊視窗時視窗才會黏貼，例如， 視窗不會黏貼假如視窗"
+"在這裡您可以設定只有您試著重疊視窗時視窗才會黏貼，例如，視窗不會黏貼假如視窗"
 "只是靠近另一個視窗或邊框。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, OverlapSnap)
