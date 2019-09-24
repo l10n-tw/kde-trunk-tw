@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kphotoalbum\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-15 02:32+0200\n"
+"POT-Creation-Date: 2019-09-24 02:33+0200\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -1250,7 +1250,7 @@ msgctxt ""
 msgid "No other %1"
 msgstr "沒有其它的 %1"
 
-#: DB/NewImageFinder.cpp:478
+#: DB/NewImageFinder.cpp:481
 #, kde-format
 msgid ""
 "<p><b>Loading information from new files</b></p><p>Depending on the number "
@@ -1260,13 +1260,13 @@ msgstr ""
 "<p><b>從新檔案載入資訊</b></p> <p>這個動作可能會花一些時間，根據影像數量而"
 "定。<br /> 不過，只有在找到新影像時會有一些延遲。</p>"
 
-#: DB/NewImageFinder.cpp:689
+#: DB/NewImageFinder.cpp:692
 #, kde-format
 msgid "<p><b>Calculating checksum for %1 file</b></p>"
 msgid_plural "<p><b>Calculating checksums for %1 files</b></p>"
 msgstr[0] "<p><b>正在計算 %1 個檔案的檢查碼</b></p>"
 
-#: DB/NewImageFinder.cpp:690
+#: DB/NewImageFinder.cpp:693
 #, kde-format
 msgid ""
 "<p>By storing a checksum for each image KPhotoAlbum is capable of finding "
@@ -1275,7 +1275,7 @@ msgstr ""
 "<p>對每張影像計算檢查碼，可以讓 KPhotoAlbum 即使在您將影像移到別處時，還是能"
 "找到影像。</p>"
 
-#: DB/NewImageFinder.cpp:733
+#: DB/NewImageFinder.cpp:736
 #, kde-format
 msgid "Following files could not be read:"
 msgstr "無法讀取以下檔案："

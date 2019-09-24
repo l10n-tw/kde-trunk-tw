@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-22 02:36+0200\n"
+"POT-Creation-Date: 2019-09-24 02:36+0200\n"
 "PO-Revision-Date: 2019-09-22 13:13+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -9064,22 +9064,22 @@ msgctxt "(qtundo-format)"
 msgid "Feather Selection"
 msgstr "羽化選取區域"
 
-#: libs/image/kis_selection_filters.cpp:520
+#: libs/image/kis_selection_filters.cpp:522
 msgctxt "(qtundo-format)"
 msgid "Grow Selection"
 msgstr "擴大選取區域"
 
-#: libs/image/kis_selection_filters.cpp:649
+#: libs/image/kis_selection_filters.cpp:651
 msgctxt "(qtundo-format)"
 msgid "Shrink Selection"
 msgstr "縮小選取區域"
 
-#: libs/image/kis_selection_filters.cpp:793
+#: libs/image/kis_selection_filters.cpp:795
 msgctxt "(qtundo-format)"
 msgid "Smooth Selection"
 msgstr "平滑選取區域"
 
-#: libs/image/kis_selection_filters.cpp:856
+#: libs/image/kis_selection_filters.cpp:858
 msgctxt "(qtundo-format)"
 msgid "Invert Selection"
 msgstr "反轉選擇"
@@ -11034,10 +11034,10 @@ msgstr "凹凸貼圖"
 msgid "Combine Normal Map"
 msgstr "合併法線貼圖"
 
-#: libs/pigment/resources/KoColorSet.cpp:549
-#: libs/pigment/resources/KoColorSet.cpp:838
-#: libs/pigment/resources/KoColorSet.cpp:920
-#: libs/pigment/resources/KoColorSet.cpp:1143
+#: libs/pigment/resources/KoColorSet.cpp:538
+#: libs/pigment/resources/KoColorSet.cpp:827
+#: libs/pigment/resources/KoColorSet.cpp:909
+#: libs/pigment/resources/KoColorSet.cpp:1132
 #: libs/ui/actions/KisPasteActionFactories.cpp:276 libs/ui/KisView.cpp:744
 #: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:268
 #, kde-format
@@ -19653,12 +19653,12 @@ msgstr "與圖層連結(&K)"
 msgid "Li&nk with Layer"
 msgstr "與圖層連結(&N)"
 
-#: libs/ui/opengl/kis_opengl.cpp:489
+#: libs/ui/opengl/kis_opengl.cpp:490
 #, kde-format
 msgid "The Intel graphics driver in use is known to have issues with OpenGL."
 msgstr "目前使用的 Intel 核芯顯示卡驅動程式對 OpenGL 的支援存在問題。"
 
-#: libs/ui/opengl/kis_opengl.cpp:491
+#: libs/ui/opengl/kis_opengl.cpp:492
 #, kde-format
 msgid ""
 "Intel graphics drivers tend to have issues with OpenGL so ANGLE will be used "
@@ -19668,14 +19668,14 @@ msgstr ""
 "Intel 核芯顯示卡的驅動程式在 OpenGL 支援方面常常存在各種問題，因此預設將使用 "
 "ANGLE 繪製器。你可以手動切換成 OpenGL 模式，但是無法保證正常作業。"
 
-#: libs/ui/opengl/kis_opengl.cpp:872
+#: libs/ui/opengl/kis_opengl.cpp:873
 #, kde-format
 msgid ""
 "Preferred renderer doesn't support requested surface format. Another "
 "renderer has been selected."
 msgstr "首選繪製器不支援請求的表面格式。已選擇另一個繪製器。"
 
-#: libs/ui/opengl/kis_opengl.cpp:874
+#: libs/ui/opengl/kis_opengl.cpp:875
 #, kde-format
 msgid "Preferred output format is not supported by available renderers"
 msgstr "可用繪製器不支援首選輸出格式"
@@ -19748,7 +19748,7 @@ msgstr "圖層分組不可編輯。"
 msgid "Local selection is locked."
 msgstr "本機選取區域已鎖定。"
 
-#: libs/ui/tool/kis_tool_freehand.cc:206
+#: libs/ui/tool/kis_tool_freehand.cc:207
 #, kde-format
 msgid ""
 "The brush tool cannot paint on this layer.  Please select a paint layer or "
@@ -20864,7 +20864,7 @@ msgstr "詳細訊息"
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:84
 #: libs/ui/widgets/kis_paintop_presets_popup.cpp:169
-#: libs/widgets/KoToolBox.cpp:305 libs/widgetutils/xmlgui/ktoolbar.cpp:335
+#: libs/widgets/KoToolBox.cpp:306 libs/widgetutils/xmlgui/ktoolbar.cpp:335
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:215
 #, kde-format
 msgid "Icon Size"
@@ -21569,12 +21569,12 @@ msgctxt "Document/application separator in titlebar"
 msgid " – "
 msgstr " – "
 
-#: libs/widgets/KoDialog.cpp:861
+#: libs/widgets/KoDialog.cpp:862
 #, kde-format
 msgid "&Details"
 msgstr "詳細訊息(&D)"
 
-#: libs/widgets/KoDialog.cpp:1019
+#: libs/widgets/KoDialog.cpp:1020
 #, kde-format
 msgid "Get help..."
 msgstr "尋求協助…"
@@ -22103,13 +22103,13 @@ msgstr "清空復原刪除列表"
 msgid "Undelete"
 msgstr "復原刪除"
 
-#: libs/widgets/KoToolBox.cpp:306 libs/widgetutils/xmlgui/ktoolbar.cpp:337
+#: libs/widgets/KoToolBox.cpp:307 libs/widgetutils/xmlgui/ktoolbar.cpp:337
 #, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr "預設"
 
-#: libs/widgets/KoToolBox.cpp:313
+#: libs/widgets/KoToolBox.cpp:314
 #, kde-format
 msgid "%1x%2"
 msgstr "%1x%2"
@@ -26566,12 +26566,12 @@ msgstr "frame"
 msgid "Start numbering at:"
 msgstr "開始編號於："
 
-#: plugins/extensions/buginfo/dlg_buginfo.cpp:40
+#: plugins/extensions/buginfo/dlg_buginfo.cpp:41
 #, kde-format
 msgid "Please paste this information in your bug report"
 msgstr "請將此訊息貼到錯誤報告中"
 
-#: plugins/extensions/buginfo/dlg_buginfo.cpp:43
+#: plugins/extensions/buginfo/dlg_buginfo.cpp:44
 #, kde-format
 msgid "Copy to clipboard"
 msgstr "複製到剪貼簿"
