@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplato\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-15 02:30+0200\n"
+"POT-Creation-Date: 2019-09-25 02:28+0200\n"
 "PO-Revision-Date: 2012-06-14 08:33+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
@@ -709,15 +709,11 @@ msgstr ""
 msgid "The documentation must have been translated to the language"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: ConfigProjectPanel.ui:33 kptconfigtaskpanelbase.ui:25
-#, kde-format
-msgid "General"
-msgstr "一般"
-
 #. i18n: ectx: property (whatsThis), widget (QLabel, leaderlabel)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_DocumentationPath)
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_Manager)
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_Leader)
+#: ConfigDocumentationPanel.ui:54 ConfigDocumentationPanel.ui:91
 #: ConfigProjectPanel.ui:41 ConfigProjectPanel.ui:68
 #: kptconfigtaskpanelbase.ui:33 kptconfigtaskpanelbase.ui:65
 #, kde-format
@@ -731,6 +727,24 @@ msgstr ""
 "負責此工作的人。\n"
 "\n"
 "不一定要是在資源群組裡的人，可以是任何人。您甚至可以直接從您的通訊錄中指定。"
+
+#. i18n: ectx: property (text), widget (QLabel, leaderlabel)
+#: ConfigDocumentationPanel.ui:57
+#, kde-format
+msgid "Path:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ConfigDocumentationPanel.ui:73
+#, kde-format
+msgid "Language:"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: ConfigProjectPanel.ui:33 kptconfigtaskpanelbase.ui:25
+#, kde-format
+msgid "General"
+msgstr "一般"
 
 #. i18n: ectx: property (text), widget (QLabel, leaderlabel)
 #: ConfigProjectPanel.ui:44

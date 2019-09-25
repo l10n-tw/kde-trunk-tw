@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-05 03:04+0200\n"
+"POT-Creation-Date: 2019-09-25 03:00+0200\n"
 "PO-Revision-Date: 2019-08-31 19:32+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -421,8 +421,7 @@ msgstr "手動儲存或複製影像後離開 Spectacle"
 msgid "Take a New Screenshot"
 msgstr "拍一張新的螢幕快照"
 
-#: src/Gui/KSWidget.cpp:130 src/QuickEditor/QuickEditor.cpp:571
-#: src/QuickEditor/QuickEditor.cpp:582 src/QuickEditor/QuickEditor.cpp:599
+#: src/Gui/KSWidget.cpp:130
 #, kde-format
 msgid "Cancel"
 msgstr "取消"
@@ -728,98 +727,139 @@ msgid ""
 "or press Esc to quit"
 msgstr "長按拖曳來繪製選取區塊的矩形，或按 Esc 退出"
 
-#: src/QuickEditor/QuickEditor.cpp:558
-#, kde-format
-msgctxt "Mouse action"
-msgid "Click and drag,"
-msgstr "點選並拖曳，"
-
-#: src/QuickEditor/QuickEditor.cpp:558
-#, kde-format
-msgid " "
-msgstr " "
-
-#: src/QuickEditor/QuickEditor.cpp:559 src/QuickEditor/QuickEditor.cpp:587
-#, kde-format
-msgctxt "Keyboard/mouse action"
-msgid "Enter, double-click:"
-msgstr "Enter, 按兩下："
-
-#: src/QuickEditor/QuickEditor.cpp:560 src/QuickEditor/QuickEditor.cpp:588
-#, kde-format
-msgid "Take screenshot"
+#: src/QuickEditor/QuickEditor.cpp:558 src/QuickEditor/QuickEditor.cpp:563
+#, fuzzy, kde-format
+#| msgid "Take Screenshot"
+msgid "Take Screenshot:"
 msgstr "拍張螢幕快照"
 
-#: src/QuickEditor/QuickEditor.cpp:561 src/QuickEditor/QuickEditor.cpp:578
-#: src/QuickEditor/QuickEditor.cpp:589
-#, kde-format
-msgctxt "Keyboard action"
-msgid "Shift:"
-msgstr "Shift:"
-
-#: src/QuickEditor/QuickEditor.cpp:562 src/QuickEditor/QuickEditor.cpp:579
-#: src/QuickEditor/QuickEditor.cpp:590
-#, kde-format
-msgctxt "Shift key action first half"
-msgid "Hold to toggle magnifier"
-msgstr "長按切換放大鏡"
-
-#: src/QuickEditor/QuickEditor.cpp:563 src/QuickEditor/QuickEditor.cpp:591
-#, kde-format
-msgctxt "Shift key action second half"
-msgid "while dragging selection handles"
-msgstr "當拖曳選取區域時"
-
-#: src/QuickEditor/QuickEditor.cpp:565 src/QuickEditor/QuickEditor.cpp:593
-#, kde-format
-msgctxt "Keyboard action"
-msgid "Arrow keys:"
-msgstr "方向鍵："
-
-#: src/QuickEditor/QuickEditor.cpp:566 src/QuickEditor/QuickEditor.cpp:594
-#, kde-format
-msgctxt "Shift key action first line"
-msgid "Move selection rectangle"
-msgstr "移動選擇的矩形"
-
-#: src/QuickEditor/QuickEditor.cpp:567 src/QuickEditor/QuickEditor.cpp:595
-#, kde-format
-msgctxt "Shift key action second line"
-msgid "Hold Alt to resize, Shift to fine‑tune"
-msgstr "長按 Alt 縮放，Shift 微調"
-
-#: src/QuickEditor/QuickEditor.cpp:569 src/QuickEditor/QuickEditor.cpp:580
-#: src/QuickEditor/QuickEditor.cpp:597
-#, kde-format
+#: src/QuickEditor/QuickEditor.cpp:558
+#, fuzzy, kde-format
+#| msgctxt "Keyboard/mouse action"
+#| msgid "Release left-click, Enter:"
 msgctxt "Mouse action"
-msgid "Right-click:"
-msgstr "右鍵："
-
-#: src/QuickEditor/QuickEditor.cpp:570 src/QuickEditor/QuickEditor.cpp:581
-#: src/QuickEditor/QuickEditor.cpp:598
-#, kde-format
-msgid "Reset selection"
-msgstr "重設選取區域"
-
-#: src/QuickEditor/QuickEditor.cpp:571 src/QuickEditor/QuickEditor.cpp:582
-#: src/QuickEditor/QuickEditor.cpp:599
-#, kde-format
-msgctxt "Keyboard action"
-msgid "Esc:"
-msgstr "Esc:"
-
-#: src/QuickEditor/QuickEditor.cpp:576
-#, kde-format
-msgctxt "Keyboard/mouse action"
-msgid "Release left-click, Enter:"
+msgid "Release left-click"
 msgstr "釋放左鍵，輸入："
 
-#: src/QuickEditor/QuickEditor.cpp:577
+#: src/QuickEditor/QuickEditor.cpp:558 src/QuickEditor/QuickEditor.cpp:563
 #, kde-format
-msgid "Take Screenshot"
-msgstr "拍張螢幕快照"
+msgctxt "Keyboard action"
+msgid "Enter"
+msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:779
+#: src/QuickEditor/QuickEditor.cpp:559 src/QuickEditor/QuickEditor.cpp:564
+#, fuzzy, kde-format
+#| msgctxt "Shift key action first line"
+#| msgid "Move selection rectangle"
+msgid "Create new selection rectangle:"
+msgstr "移動選擇的矩形"
+
+#: src/QuickEditor/QuickEditor.cpp:559 src/QuickEditor/QuickEditor.cpp:564
+#, fuzzy, kde-format
+#| msgctxt "Shift key action first line"
+#| msgid "Move selection rectangle"
+msgctxt "Mouse action"
+msgid "Drag outside selection rectangle"
+msgstr "移動選擇的矩形"
+
+#: src/QuickEditor/QuickEditor.cpp:559 src/QuickEditor/QuickEditor.cpp:564
+#, fuzzy, kde-format
+#| msgid "Show magnifier"
+msgctxt "Keyboard action"
+msgid "+ Shift: Magnifier"
+msgstr "顯示放大鏡"
+
+#: src/QuickEditor/QuickEditor.cpp:560 src/QuickEditor/QuickEditor.cpp:568
+#, fuzzy, kde-format
+#| msgid "Cancel"
+msgid "Cancel:"
+msgstr "取消"
+
+#: src/QuickEditor/QuickEditor.cpp:560 src/QuickEditor/QuickEditor.cpp:568
+#, kde-format
+msgctxt "Keyboard action"
+msgid "Escape"
+msgstr ""
+
+#: src/QuickEditor/QuickEditor.cpp:563
+#, fuzzy, kde-format
+#| msgctxt "Keyboard/mouse action"
+#| msgid "Enter, double-click:"
+msgctxt "Mouse action"
+msgid "Double-click"
+msgstr "Enter, 按兩下："
+
+#: src/QuickEditor/QuickEditor.cpp:565
+#, fuzzy, kde-format
+#| msgctxt "Shift key action first line"
+#| msgid "Move selection rectangle"
+msgid "Move selection rectangle:"
+msgstr "移動選擇的矩形"
+
+#: src/QuickEditor/QuickEditor.cpp:565
+#, fuzzy, kde-format
+#| msgctxt "Shift key action first line"
+#| msgid "Move selection rectangle"
+msgctxt "Mouse action"
+msgid "Drag inside selection rectangle"
+msgstr "移動選擇的矩形"
+
+#: src/QuickEditor/QuickEditor.cpp:565
+#, fuzzy, kde-format
+#| msgctxt "Keyboard action"
+#| msgid "Arrow keys:"
+msgctxt "Keyboard action"
+msgid "Arrow keys"
+msgstr "方向鍵："
+
+#: src/QuickEditor/QuickEditor.cpp:565
+#, kde-format
+msgctxt "Keyboard action"
+msgid "+ Shift: Move in 1 pixel steps"
+msgstr ""
+
+#: src/QuickEditor/QuickEditor.cpp:566
+#, fuzzy, kde-format
+#| msgctxt "Shift key action first line"
+#| msgid "Move selection rectangle"
+msgid "Resize selection rectangle:"
+msgstr "移動選擇的矩形"
+
+#: src/QuickEditor/QuickEditor.cpp:566
+#, kde-format
+msgctxt "Mouse action"
+msgid "Drag handles"
+msgstr ""
+
+#: src/QuickEditor/QuickEditor.cpp:566
+#, fuzzy, kde-format
+#| msgctxt "Keyboard action"
+#| msgid "Arrow keys:"
+msgctxt "Keyboard action"
+msgid "Arrow keys + Alt"
+msgstr "方向鍵："
+
+#: src/QuickEditor/QuickEditor.cpp:566
+#, kde-format
+msgctxt "Keyboard action"
+msgid "+ Shift: Resize in 1 pixel steps"
+msgstr ""
+
+#: src/QuickEditor/QuickEditor.cpp:567
+#, fuzzy, kde-format
+#| msgid "Reset selection"
+msgid "Reset selection:"
+msgstr "重設選取區域"
+
+#: src/QuickEditor/QuickEditor.cpp:567
+#, fuzzy, kde-format
+#| msgctxt "Mouse action"
+#| msgid "Right-click:"
+msgctxt "Mouse action"
+msgid "Right-click"
+msgstr "右鍵："
+
+#: src/QuickEditor/QuickEditor.cpp:748
 #, kde-format
 msgid "%1×%2"
 msgstr "%1×%2"
@@ -880,3 +920,33 @@ msgstr "螢幕快照被儲存為「%1」到「%2」中。"
 msgctxt "Open the screenshot we just saved"
 msgid "Open"
 msgstr "開啟"
+
+#~ msgctxt "Mouse action"
+#~ msgid "Click and drag,"
+#~ msgstr "點選並拖曳，"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Take screenshot"
+#~ msgstr "拍張螢幕快照"
+
+#~ msgctxt "Keyboard action"
+#~ msgid "Shift:"
+#~ msgstr "Shift:"
+
+#~ msgctxt "Shift key action first half"
+#~ msgid "Hold to toggle magnifier"
+#~ msgstr "長按切換放大鏡"
+
+#~ msgctxt "Shift key action second half"
+#~ msgid "while dragging selection handles"
+#~ msgstr "當拖曳選取區域時"
+
+#~ msgctxt "Shift key action second line"
+#~ msgid "Hold Alt to resize, Shift to fine‑tune"
+#~ msgstr "長按 Alt 縮放，Shift 微調"
+
+#~ msgctxt "Keyboard action"
+#~ msgid "Esc:"
+#~ msgstr "Esc:"

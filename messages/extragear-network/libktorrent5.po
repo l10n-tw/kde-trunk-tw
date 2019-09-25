@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-14 02:38+0200\n"
+"POT-Creation-Date: 2019-09-25 02:38+0200\n"
 "PO-Revision-Date: 2013-06-14 11:04+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -148,24 +148,24 @@ msgstr "寫入 DND 檔的第一個區塊失敗：%1"
 msgid "Failed to write last chunk to DND file: %1"
 msgstr "寫入 DND 檔的最後一個區塊失敗：%1"
 
-#: src/diskio/movedatafilesjob.cpp:141
+#: src/diskio/movedatafilesjob.cpp:132
 #, kde-format
 msgid "Waiting for other move jobs to finish"
 msgstr "等待其它的移動的工作完成"
 
-#: src/diskio/movedatafilesjob.cpp:142 src/diskio/movedatafilesjob.cpp:182
+#: src/diskio/movedatafilesjob.cpp:133 src/diskio/movedatafilesjob.cpp:172
 #, kde-format
 msgctxt "The source of a file operation"
 msgid "Source"
 msgstr "來源"
 
-#: src/diskio/movedatafilesjob.cpp:143 src/diskio/movedatafilesjob.cpp:183
+#: src/diskio/movedatafilesjob.cpp:134 src/diskio/movedatafilesjob.cpp:173
 #, kde-format
 msgctxt "The destination of a file operation"
 msgid "Destination"
 msgstr "目的地"
 
-#: src/diskio/movedatafilesjob.cpp:181
+#: src/diskio/movedatafilesjob.cpp:171
 #, kde-format
 msgctxt "@title job"
 msgid "Moving"

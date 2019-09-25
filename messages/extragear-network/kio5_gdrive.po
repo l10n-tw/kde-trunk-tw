@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio5_gdrive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-16 02:41+0200\n"
+"POT-Creation-Date: 2019-09-25 02:37+0200\n"
 "PO-Revision-Date: 2019-09-22 19:18+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -43,13 +43,23 @@ msgstr "開啟"
 msgid "Copy Google URL to clipboard"
 msgstr "複製 Google 連結至剪貼簿"
 
-#: src/kio_gdrive.cpp:282
+#: src/kio_gdrive.cpp:308
 #, kde-format
 msgid "There are no Google Drive accounts enabled. Please add at least one."
 msgstr "未啟用 Google 雲端硬碟的帳號。請至少新增一個。"
 
-#: src/kio_gdrive.cpp:305
+#: src/kio_gdrive.cpp:331
 #, kde-format
 msgctxt "login in a new google account"
 msgid "New account"
 msgstr "新增帳戶"
+
+#: src/kio_gdrive.cpp:450
+#, kde-format
+msgid "Shared Drives"
+msgstr ""
+
+#: src/kio_gdrive.cpp:1140
+#, kde-format
+msgid "Can't delete Shared Drives root."
+msgstr ""

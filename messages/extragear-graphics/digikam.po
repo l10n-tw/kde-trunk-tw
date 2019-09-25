@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-24 02:32+0200\n"
+"POT-Creation-Date: 2019-09-25 02:31+0200\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -1513,7 +1513,7 @@ msgstr "重新命名..."
 #: core/app/main/digikamapp_setup.cpp:269
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:152
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:152
-#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:133
+#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:134
 #: core/libs/properties/import/importitempropertiessidebar.cpp:94
 #: core/libs/properties/itempropertiessidebar.cpp:83
 #, kde-format
@@ -5212,9 +5212,8 @@ msgid ""
 "<p>This plugin permit to load and save image with DImg using ImageMagick "
 "coders.</p><p>ImageMagick is a free and open-source software suite for "
 "converting raster image and vector image files. It can read and write over "
-"200 image file formats. The list of type-mimes supported by this plugin are: "
-"%1</p><p>See <a href='https://en.wikipedia.org/wiki/ImageMagick'>ImageMagick "
-"documentation</a> for details.</p>"
+"200 image file formats.</p><p>See <a href='https://en.wikipedia.org/wiki/"
+"ImageMagick'>ImageMagick documentation</a> for details.</p>"
 msgstr ""
 
 #: core/dplugins/dimg/jpeg/dimgjpegplugin.cpp:58
@@ -5325,9 +5324,8 @@ msgstr ""
 #, kde-format
 msgid ""
 "<p>This plugin permit to load and save image with DImg using QImage plugins "
-"from Qt Framework.</p><p>The list of type-mimes supported by this plugin "
-"are: %1</p><p>See <a href='https://doc.qt.io/qt-5/qimage.html'>Qt Framework "
-"documentation</a> for details.</p>"
+"from Qt Framework.</p><p>See <a href='https://doc.qt.io/qt-5/qimage.html'>Qt "
+"Framework documentation</a> for details.</p>"
 msgstr ""
 
 #: core/dplugins/dimg/raw/dimgrawplugin.cpp:59
@@ -5352,9 +5350,8 @@ msgid ""
 "processed by a raw converter in a wide-gamut internal color space where "
 "precise adjustments can be made before conversion to a TIFF or JPEG for "
 "storage, printing, or further manipulation. This often encodes the image in "
-"a device-dependent color space.</p>The list of type-mimes supported by this "
-"plugin are: %1</p><p>See <a href='https://en.wikipedia.org/wiki/"
-"Raw_image_format'>Raw Image File documentation</a> for details.</p>"
+"a device-dependent color space.</p><p>See <a href='https://en.wikipedia.org/"
+"wiki/Raw_image_format'>Raw Image File documentation</a> for details.</p>"
 msgstr ""
 
 #: core/dplugins/dimg/tiff/dimgtiffplugin.cpp:58
@@ -6321,14 +6318,14 @@ msgctxt "@action"
 msgid "Blur..."
 msgstr "模糊..."
 
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:137
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:139
 #, fuzzy, kde-format
 #| msgid "Radius:"
 msgid "Brush Radius:"
 msgstr "半徑："
 
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:141
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:144
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:143
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:146
 #, fuzzy, kde-format
 #| msgid ""
 #| "A sharpness of 0 has no effect, 1 and above determine the sharpen matrix "
@@ -6341,13 +6338,13 @@ msgstr ""
 "銳利度為 0 表示沒有效果，1 以上的值會決定銳化矩陣半徑，此半徑會決定影像銳利化"
 "的程度。"
 
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:152
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:154
 #, fuzzy, kde-format
 #| msgid "Radial Blur"
 msgid "Radial Blur Percent:"
 msgstr "放射狀模糊"
 
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:156
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:158
 #, kde-format
 msgid ""
 "A percent of 0 has no effect, values above 0 represent a factor for mixing "
@@ -6356,8 +6353,8 @@ msgid ""
 "is done gradually till the outer part of the circle."
 msgstr ""
 
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:170
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:171
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:172
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:173
 #, fuzzy, kde-format
 #| msgid "Set Point 1"
 msgid ""
@@ -6365,8 +6362,8 @@ msgid ""
 "Shortcut: S"
 msgstr "設定點 1"
 
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:179
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:182
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:181
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:184
 #, kde-format
 msgid ""
 "Polygon Selection With Lasso.\n"
@@ -6375,31 +6372,31 @@ msgid ""
 "To Cancel, press ESC"
 msgstr ""
 
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:192
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:193
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:194
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:195
 #, kde-format
 msgid ""
 "Move Image.\n"
 "Shortcut: M"
 msgstr ""
 
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:201
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:202
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:203
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:204
 #, kde-format
 msgid ""
 "Undo clone operation.\n"
 "Shortcut: CTRL+Z"
 msgstr ""
 
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:210
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:211
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:212
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:213
 #, kde-format
 msgid ""
 "Redo clone operation.\n"
 "Shortcut: CTRL+Y"
 msgstr ""
 
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:215
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:217
 #, kde-format
 msgid ""
 "<p>How To Use:<br/><br/>* Press <b>s</b> to switch to source-selection mode, "
@@ -6412,7 +6409,7 @@ msgid ""
 "can clone only inside the lasso region.</p>"
 msgstr ""
 
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:348
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:351
 #, kde-format
 msgid "healingClone"
 msgstr ""
@@ -8942,7 +8939,7 @@ msgid "Show youngest first"
 msgstr "先顯示最新的"
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:403
-#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:91
+#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:92
 #, kde-format
 msgid "Details"
 msgstr "詳細資料"
@@ -27650,24 +27647,30 @@ msgstr ""
 msgid "Developer"
 msgstr "開發人員"
 
-#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:58
+#: core/libs/dplugins/core/dplugindimg.cpp:54
+#: core/libs/dplugins/setup/dpluginconfviewdimg.cpp:47
+#, kde-format
+msgid "Type-Mimes"
+msgstr ""
+
+#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:59
 #, kde-format
 msgid "About %1 Plugin"
 msgstr ""
 
-#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:75
+#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:76
 #, kde-format
 msgid "<font size=\"5\">%1</font><br/><b>Version %2</b><p>%3</p>"
 msgstr "<font size=\"5\">%1</font><br/><b>Version %2</b><p>%3</p>"
 
-#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:116
+#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:117
 #: core/libs/dplugins/setup/dpluginconfview.cpp:137
 #: core/libs/template/templatelist.cpp:84
 #, kde-format
 msgid "Authors"
 msgstr "作者"
 
-#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:127
+#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:128
 #: core/libs/dplugins/setup/dpluginconfview.cpp:133
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:131
 #: core/libs/widgets/metadata/metadataselector.cpp:99
@@ -27676,24 +27679,24 @@ msgstr "作者"
 msgid "Name"
 msgstr "名稱"
 
-#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:127
+#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:128
 #, kde-format
 msgid "Value"
 msgstr ""
 
-#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:129
+#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:130
 #, fuzzy, kde-format
 #| msgid "Interface Options"
 msgid "Interface ID"
 msgstr "介面選項"
 
-#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:130
+#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:131
 #, fuzzy, kde-format
 #| msgid "Tool Tip"
 msgid "Tool ID"
 msgstr "工具提示"
 
-#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:131
+#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:132
 #, fuzzy, kde-format
 #| msgid "Album Library"
 msgid "Library"
