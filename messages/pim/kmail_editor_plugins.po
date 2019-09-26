@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail_editor_plugins\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-24 03:15+0200\n"
+"POT-Creation-Date: 2019-09-26 03:11+0200\n"
 "PO-Revision-Date: 2018-12-21 19:36+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -92,10 +92,96 @@ msgstr "插入"
 msgid "Insert Non Breaking Space"
 msgstr "插入不中斷空白"
 
+#: quicktext/quicktextmanager.cpp:95
+#, kde-format
+msgid "General"
+msgstr ""
+
+#: quicktext/quicktextmanager.cpp:101
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Snippet"
+msgstr ""
+
+#: quicktext/quicktextmanager.cpp:150
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Snippet"
+msgstr ""
+
+#: quicktext/quicktextmanager.cpp:187
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Group"
+msgstr ""
+
+#: quicktext/quicktextmanager.cpp:213
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Group"
+msgstr ""
+
 #: quicktext/quicktextplugineditorinterface.cpp:42
 #: quicktext/quicktextplugineditorinterface.cpp:48
 #, kde-format
 msgid "Variables"
+msgstr ""
+
+#: quicktext/quicktexttreewidget.cpp:56
+#, kde-format
+msgid "Add Snippet..."
+msgstr ""
+
+#: quicktext/quicktexttreewidget.cpp:58
+#, kde-format
+msgid "Edit Snippet..."
+msgstr ""
+
+#: quicktext/quicktexttreewidget.cpp:60
+#, kde-format
+msgid "Remove Snippet"
+msgstr ""
+
+#: quicktext/quicktexttreewidget.cpp:63
+#, kde-format
+msgid "Add Group..."
+msgstr ""
+
+#: quicktext/quicktexttreewidget.cpp:65
+#, kde-format
+msgid "Rename Group..."
+msgstr ""
+
+#: quicktext/quicktexttreewidget.cpp:67
+#, kde-format
+msgid "Remove Group"
+msgstr ""
+
+#: quicktext/quicktexttreewidget.cpp:118
+#, kde-format
+msgid "Text Snippets"
+msgstr ""
+
+#: quicktext/quicktexttreewidget.cpp:176
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you really want to remove snippet \"%1\"?<nl/><warning>There is no way to "
+"undo the removal.</warning>"
+msgstr ""
+
+#: quicktext/quicktexttreewidget.cpp:201
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you really want to remove group \"%1\" along with all its snippets?<nl/"
+"><warning>There is no way to undo the removal.</warning>"
+msgstr ""
+
+#: quicktext/quicktexttreewidget.cpp:211
+#, kde-format
+msgctxt "@info"
+msgid "Do you really want to remove group \"%1\"?"
 msgstr ""
 
 #: sharetext/sharetextplugineditorinterface.cpp:43

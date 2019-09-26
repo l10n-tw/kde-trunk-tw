@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-19 03:17+0200\n"
+"POT-Creation-Date: 2019-09-26 03:25+0200\n"
 "PO-Revision-Date: 2019-09-22 18:44+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -59,7 +59,7 @@ msgstr "KDE 設定中心。"
 msgid "(c) 2009, Ben Cooksley"
 msgstr "(c) 2009, Ben Cooksley"
 
-#: app/main.cpp:49 icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:274
+#: app/main.cpp:49 icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:275
 #, kde-format
 msgid "Ben Cooksley"
 msgstr "Ben Cooksley"
@@ -69,12 +69,12 @@ msgstr "Ben Cooksley"
 msgid "Maintainer"
 msgstr "維護者"
 
-#: app/main.cpp:50 icons/IconMode.cpp:63 sidebar/SidebarMode.cpp:275
+#: app/main.cpp:50 icons/IconMode.cpp:63 sidebar/SidebarMode.cpp:276
 #, kde-format
 msgid "Mathias Soeken"
 msgstr "Mathias Soeken"
 
-#: app/main.cpp:50 icons/IconMode.cpp:63 sidebar/SidebarMode.cpp:275
+#: app/main.cpp:50 icons/IconMode.cpp:63 sidebar/SidebarMode.cpp:276
 #, kde-format
 msgid "Developer"
 msgstr "開發者"
@@ -214,8 +214,8 @@ msgstr "圖示檢視"
 msgid "Provides a categorized icons view of control modules."
 msgstr "提供控制模組的分類圖示檢視。"
 
-#: icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:273
-#: sidebar/SidebarMode.cpp:274
+#: icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:274
+#: sidebar/SidebarMode.cpp:275
 #, kde-format
 msgid "Author"
 msgstr "作者"
@@ -230,12 +230,17 @@ msgstr "所有設定"
 msgid "Keyboard Shortcut: %1"
 msgstr "鍵盤捷徑：%1"
 
-#: sidebar/package/contents/ui/CategoriesPage.qml:55
+#: sidebar/package/contents/ui/CategoriesPage.qml:54
+#, kde-format
+msgid "Show intro page"
+msgstr ""
+
+#: sidebar/package/contents/ui/CategoriesPage.qml:83
 #, kde-format
 msgid "Show menu"
 msgstr "顯示選單"
 
-#: sidebar/package/contents/ui/CategoriesPage.qml:88
+#: sidebar/package/contents/ui/CategoriesPage.qml:104
 #, kde-format
 msgctxt "A search yielded no results"
 msgid "No items matching your search"
@@ -261,32 +266,32 @@ msgstr "最近使用"
 msgid "Back"
 msgstr "返回"
 
-#: sidebar/SidebarMode.cpp:270
+#: sidebar/SidebarMode.cpp:271
 #, kde-format
 msgid "Sidebar View"
 msgstr "側邊欄檢視"
 
-#: sidebar/SidebarMode.cpp:271
+#: sidebar/SidebarMode.cpp:272
 #, kde-format
 msgid "Provides a categorized sidebar for control modules."
 msgstr "提供控制模組的分類側邊欄檢視。"
 
-#: sidebar/SidebarMode.cpp:272
+#: sidebar/SidebarMode.cpp:273
 #, kde-format
 msgid "(c) 2017, Marco Martin"
 msgstr "(c) 2017, Marco Martin"
 
-#: sidebar/SidebarMode.cpp:273
+#: sidebar/SidebarMode.cpp:274
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: sidebar/SidebarMode.cpp:526
+#: sidebar/SidebarMode.cpp:564
 #, kde-format
 msgid "Sidebar"
 msgstr "側邊欄"
 
-#: sidebar/SidebarMode.cpp:566
+#: sidebar/SidebarMode.cpp:604
 #, kde-format
 msgid "Most Used"
 msgstr "最常使用"

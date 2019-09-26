@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplatoui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-25 02:28+0200\n"
+"POT-Creation-Date: 2019-09-26 02:29+0200\n"
 "PO-Revision-Date: 2011-12-26 08:35+0800\n"
 "Last-Translator: Franklin Weng <franklin@mail.everfocus.com.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
@@ -3798,7 +3798,7 @@ msgctxt "(qtundo-format)"
 msgid "Modify responsible"
 msgstr "變更負責人"
 
-#: models/kptnodeitemmodel.cpp:2730 ui/kpttaskdescriptiondialog.cpp:52
+#: models/kptnodeitemmodel.cpp:2730 ui/kpttaskdescriptiondialog.cpp:51
 msgctxt "(qtundo-format)"
 msgid "Modify task description"
 msgstr "變更工作描述"
@@ -5726,7 +5726,7 @@ msgstr "新增文件"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, ui_namelabel)
 #: ui/kptdocumentspanel.ui:29 ui/kptsummarytaskgeneralpanelbase.ui:61
-#: ui/kpttaskdescriptionpanelbase.ui:27 ui/resourcedialogbase.ui:36
+#: ui/kpttaskdescriptionpanelbase.ui:36 ui/resourcedialogbase.ui:36
 #: widgets/koDocumentInfoAuthorWidget.ui:20
 #, kde-format
 msgid "Name:"
@@ -6896,8 +6896,8 @@ msgstr "工作分類結構"
 #. i18n: ectx: property (whatsThis), widget (QLabel, namelabel)
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, namefield)
 #: ui/kptsummarytaskgeneralpanelbase.ui:58
-#: ui/kptsummarytaskgeneralpanelbase.ui:86 ui/kpttaskdescriptionpanelbase.ui:24
-#: ui/kpttaskdescriptionpanelbase.ui:40 ui/kpttaskgeneralpanelbase.ui:52
+#: ui/kptsummarytaskgeneralpanelbase.ui:86 ui/kpttaskdescriptionpanelbase.ui:33
+#: ui/kpttaskdescriptionpanelbase.ui:49 ui/kpttaskgeneralpanelbase.ui:52
 #: ui/kpttaskgeneralpanelbase.ui:71
 #, kde-format
 msgid "The name of the Task."
@@ -6983,36 +6983,29 @@ msgstr "花費："
 msgid "Shutdown"
 msgstr "關機"
 
-#: ui/kpttaskdescriptiondialog.cpp:54
+#: ui/kpttaskdescriptiondialog.cpp:53
 msgctxt "(qtundo-format)"
 msgid "Modify milestone description"
 msgstr "變更里程碑描述"
 
-#: ui/kpttaskdescriptiondialog.cpp:56
+#: ui/kpttaskdescriptiondialog.cpp:55
 msgctxt "(qtundo-format)"
 msgid "Modify summary task description"
 msgstr "變更摘要工作描述"
 
-#: ui/kpttaskdescriptiondialog.cpp:58
+#: ui/kpttaskdescriptiondialog.cpp:57
 msgctxt "(qtundo-format)"
 msgid "Modify project description"
 msgstr "變更專案描述"
 
-#: ui/kpttaskdescriptiondialog.cpp:104
-#, fuzzy, kde-format
-#| msgid "Open"
-msgctxt "@action:intoolbar"
-msgid "Open Link"
-msgstr "開啟"
-
-#: ui/kpttaskdescriptiondialog.cpp:151
+#: ui/kpttaskdescriptiondialog.cpp:135
 #, fuzzy, kde-format
 #| msgctxt "(qtundo-format)"
 #| msgid "Modify project description"
 msgid "Project Description"
 msgstr "變更專案描述"
 
-#: ui/kpttaskdescriptiondialog.cpp:151
+#: ui/kpttaskdescriptiondialog.cpp:135
 #, kde-format
 msgid "Task Description"
 msgstr "工作描述"
@@ -8806,6 +8799,13 @@ msgstr "每小時費用："
 #, kde-format
 msgid "Overtime rate:"
 msgstr "超時費率："
+
+#: ui/RichTextWidget.cpp:39 ui/RichTextWidget.cpp:52
+#, fuzzy, kde-kuit-format
+#| msgid "Open"
+msgctxt "@action:intoolbar"
+msgid "Open Link"
+msgstr "開啟"
 
 #. i18n: ectx: property (whatsThis), widget (QWidget, KPlato::StandardWorktimeDialogBase)
 #: ui/standardworktimedialogbase.ui:16
