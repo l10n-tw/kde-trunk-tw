@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-26 02:31+0200\n"
+"POT-Creation-Date: 2019-09-27 02:31+0200\n"
 "PO-Revision-Date: 2014-03-25 11:30+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -339,6 +339,7 @@ msgid "Used in"
 msgstr ""
 
 #: src/backend/core/column/Column.cpp:121
+#: src/backend/worksheet/Worksheet.cpp:1194
 #, fuzzy, kde-format
 #| msgid "%1: add %2 rows"
 #| msgid_plural "%1: add %2 rows"
@@ -7232,12 +7233,6 @@ msgstr ""
 #, kde-format
 msgid "%1: set page size"
 msgstr ""
-
-#: src/backend/worksheet/Worksheet.cpp:1194
-#, fuzzy, kde-format
-#| msgid "Plot Area"
-msgid "Plot/Curve"
-msgstr "繪製區域"
 
 #: src/backend/worksheet/WorksheetElement.cpp:48
 #, kde-format
@@ -18033,3 +18028,8 @@ msgstr "垂直間隔："
 #| msgid "Orientation"
 msgid "Quit Presentation"
 msgstr "方向"
+
+#, fuzzy
+#~| msgid "Plot Area"
+#~ msgid "Plot/Curve"
+#~ msgstr "繪製區域"

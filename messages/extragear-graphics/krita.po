@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-26 02:34+0200\n"
+"POT-Creation-Date: 2019-09-27 02:33+0200\n"
 "PO-Revision-Date: 2019-09-22 13:13+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -7406,22 +7406,22 @@ msgstr "繪製路徑"
 msgid "Freehand path"
 msgstr "手繪路徑"
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:547
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:548
 #, kde-format
 msgid "Autosmooth curve"
 msgstr "自動平滑曲線"
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:558
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:559
 #, kde-format
 msgid "Angle snapping delta:"
 msgstr "角度吸附增量："
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:565
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:566
 #, kde-format
 msgid "Activate angle snap:"
 msgstr "啟動角度吸附："
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:573
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:574
 #, kde-format
 msgid "Angle Constraints"
 msgstr "角度約束"
@@ -9044,42 +9044,42 @@ msgctxt "(qtundo-format)"
 msgid "Render Animation"
 msgstr "繪製動畫"
 
-#: libs/image/kis_selection_filters.cpp:121
+#: libs/image/kis_selection_filters.cpp:125
 msgctxt "(qtundo-format)"
 msgid "Erode Selection"
 msgstr "侵蝕選取區域"
 
-#: libs/image/kis_selection_filters.cpp:187
+#: libs/image/kis_selection_filters.cpp:191
 msgctxt "(qtundo-format)"
 msgid "Dilate Selection"
 msgstr "膨脹選取區域"
 
-#: libs/image/kis_selection_filters.cpp:259
+#: libs/image/kis_selection_filters.cpp:263
 msgctxt "(qtundo-format)"
 msgid "Border Selection"
 msgstr "邊框化選取區域"
 
-#: libs/image/kis_selection_filters.cpp:471
+#: libs/image/kis_selection_filters.cpp:475
 msgctxt "(qtundo-format)"
 msgid "Feather Selection"
 msgstr "羽化選取區域"
 
-#: libs/image/kis_selection_filters.cpp:522
+#: libs/image/kis_selection_filters.cpp:526
 msgctxt "(qtundo-format)"
 msgid "Grow Selection"
 msgstr "擴大選取區域"
 
-#: libs/image/kis_selection_filters.cpp:651
+#: libs/image/kis_selection_filters.cpp:655
 msgctxt "(qtundo-format)"
 msgid "Shrink Selection"
 msgstr "縮小選取區域"
 
-#: libs/image/kis_selection_filters.cpp:795
+#: libs/image/kis_selection_filters.cpp:799
 msgctxt "(qtundo-format)"
 msgid "Smooth Selection"
 msgstr "平滑選取區域"
 
-#: libs/image/kis_selection_filters.cpp:858
+#: libs/image/kis_selection_filters.cpp:862
 msgctxt "(qtundo-format)"
 msgid "Invert Selection"
 msgstr "反轉選擇"
@@ -10579,7 +10579,7 @@ msgstr "合併法線貼圖"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: libs/pigment/compositeops/KoCompositeOps.h:259
 #: libs/pigment/KoCompositeOp.cpp:31 libs/pigment/KoCompositeOpRegistry.cpp:147
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1471 libs/ui/forms/wdgnewimage.ui:345
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1472 libs/ui/forms/wdgnewimage.ui:345
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:150
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:188
 #: libs/ui/KisPaletteEditor.cpp:421 libs/ui/KisPaletteEditor.cpp:459
@@ -11881,8 +11881,8 @@ msgstr "選擇背景影像"
 #: libs/ui/KisTemplateCreateDia.cpp:297 libs/ui/KisTemplateCreateDia.cpp:403
 #: libs/ui/KisView.cpp:729 libs/ui/opengl/kis_opengl_canvas2.cpp:381
 #: libs/ui/widgets/kis_custom_image_widget.cc:277
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:852
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:855
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:853
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:856
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:300
 #: plugins/extensions/animationrenderer/AnimationRenderer.cpp:141
 #: plugins/extensions/animationrenderer/AnimationRenderer.cpp:190
@@ -12046,25 +12046,25 @@ msgstr "藍基色：%1, %2"
 msgid "White Point: %1, %2"
 msgstr "白點：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1248
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1249
 #, kde-format
 msgid "Warning(s):"
 msgstr "警告："
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1381
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1382
 #, kde-format
 msgid "WARNING: current display doesn't support HDR rendering"
 msgstr "警告：目前顯示器不支援 HDR 繪製"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1422
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1423
 #, kde-format
 msgid "Configure Krita"
 msgstr "設定 Krita"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: ectx: attribute (title), widget (QWidget, generalTab)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1429
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1431
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1430
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1432
 #: libs/ui/forms/wdgcolorsettings.ui:24
 #: libs/ui/forms/wdgperformancesettings.ui:34
 #: libs/widgets/KoDocumentInfoDlg.cpp:100
@@ -12076,23 +12076,23 @@ msgstr "設定 Krita"
 msgid "General"
 msgstr "一般"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1439
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1440
 #, kde-format
 msgid "Keyboard Shortcuts"
 msgstr "鍵盤快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1441
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1442
 #: libs/widgetutils/xmlgui/KisShortcutsEditor_p.cpp:294
 #, kde-format
 msgid "Shortcuts"
 msgstr "快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1451
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1452
 #, kde-format
 msgid "Canvas Input Settings"
 msgstr "畫布輸入設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1452
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1453
 #, kde-format
 msgid "Canvas Input"
 msgstr "畫布輸入"
@@ -12101,8 +12101,8 @@ msgstr "畫布輸入"
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #. i18n: ectx: property (title), widget (QGroupBox, grpCustomDisplay)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1459
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1461
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1460
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1462
 #: libs/ui/forms/wdgcolorsettings.ui:138 libs/ui/forms/wdgdisplaysettings.ui:20
 #: libs/ui/forms/wdgdlgblacklistcleanup.ui:20
 #: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:34
@@ -12110,46 +12110,46 @@ msgstr "畫布輸入"
 msgid "Display"
 msgstr "顯示"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1469
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1470
 #: plugins/dockers/logdocker/LogDockerDock.cpp:202
 #, kde-format
 msgid "Color Management"
 msgstr "色彩管理"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1479
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1481
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1480
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1482
 #, kde-format
 msgid "Performance"
 msgstr "效能"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1489
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1490
 #, kde-format
 msgid "Tablet settings"
 msgstr "數位板設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1491
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1492
 #, kde-format
 msgid "Tablet"
 msgstr "數位板"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1499
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1500
 #, kde-format
 msgid "Canvas-only settings"
 msgstr "畫布獨占模式設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1501
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1502
 #, kde-format
 msgid "Canvas-only"
 msgstr "畫布獨占模式"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1509
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1510
 #, kde-format
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr "作者檔案"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1511
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1512
 #: libs/widgets/KoDocumentInfoDlg.cpp:123
 #: plugins/flake/textshape/dialogs/AcceptRejectChangeDialog.ui:109
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:238
@@ -12157,7 +12157,7 @@ msgstr "作者檔案"
 msgid "Author"
 msgstr "作者"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1516
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1517
 #, kde-format
 msgctxt "@action:button"
 msgid "Restore Defaults"
@@ -13377,7 +13377,7 @@ msgstr "首選繪製器 (需要重啟)："
 msgid "Scaling Mode:"
 msgstr "檢視縮放演算法："
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#. i18n: ectx: attribute (title), widget (QWidget, tabHDR)
 #: libs/ui/forms/wdgdisplaysettings.ui:208
 #, kde-format
 msgid "HDR Settings"
@@ -17267,8 +17267,8 @@ msgid "%1  %2"
 msgstr "%1  %2"
 
 #: libs/ui/kis_stopgradient_editor.cpp:46
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:985
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:991
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:986
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:992
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:122
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:54
 #, kde-format
@@ -21235,38 +21235,38 @@ msgstr "斜切連結"
 msgid "Miter limit"
 msgstr "斜接限制"
 
-#: libs/ui/widgets/KoStrokeConfigWidget.cpp:249
+#: libs/ui/widgets/KoStrokeConfigWidget.cpp:244
 #: libs/widgets/KoStrokeConfigWidget.cpp:230
 #, kde-format
 msgid "Set line width of actual selection"
 msgstr "為實際選取區域設定描邊寬度"
 
 #. i18n: ectx: property (text), widget (QLabel, strokeStyleLabel)
-#: libs/ui/widgets/KoStrokeConfigWidget.cpp:260
+#: libs/ui/widgets/KoStrokeConfigWidget.cpp:255
 #: libs/ui/widgets/KoStrokeConfigWidget.ui:77
 #, kde-format
 msgid "Line Style:"
 msgstr "線條樣式："
 
-#: libs/ui/widgets/KoStrokeConfigWidget.cpp:263
+#: libs/ui/widgets/KoStrokeConfigWidget.cpp:258
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Line style"
 msgstr "線條樣式"
 
-#: libs/ui/widgets/KoStrokeConfigWidget.cpp:274
+#: libs/ui/widgets/KoStrokeConfigWidget.cpp:269
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Start marker"
 msgstr "起點記號"
 
-#: libs/ui/widgets/KoStrokeConfigWidget.cpp:281
+#: libs/ui/widgets/KoStrokeConfigWidget.cpp:276
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Node marker"
 msgstr "節點記號"
 
-#: libs/ui/widgets/KoStrokeConfigWidget.cpp:288
+#: libs/ui/widgets/KoStrokeConfigWidget.cpp:283
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "End marker"
@@ -23691,17 +23691,17 @@ msgstr "無限直線"
 msgid "Select an Assistant"
 msgstr "選擇輔助尺"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:855
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:856
 #, kde-format
 msgid "Errors were encountered. Not all assistants were successfully loaded."
 msgstr "發生錯誤。未能成功載入全部輔助尺。"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:918
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:919
 #, kde-format
 msgid "Save Assistant"
 msgstr "儲存輔助尺"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:998
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:999
 #, kde-format
 msgid "Density: "
 msgstr "密度： "
@@ -41235,8 +41235,8 @@ msgctxt "action"
 msgid "Calligraphy: decrease angle"
 msgstr "西文書法：減小角度"
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:440
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:441
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:437
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:438
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyToolFactory.cpp:33
 #, kde-format
 msgid "Calligraphy"

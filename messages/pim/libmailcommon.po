@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-26 03:14+0200\n"
+"POT-Creation-Date: 2019-09-27 03:09+0200\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -2548,6 +2548,12 @@ msgstr "您確定要移除過濾器 \"%1\" 嗎？"
 msgid "Update snippet"
 msgstr "移除片段"
 
+#: snippets/snippettreeview.cpp:73
+#, fuzzy, kde-format
+#| msgid "Insert Snippet"
+msgid "Text Snippets"
+msgstr "插入片段"
+
 #: snippets/snippetvariabledialog.cpp:44
 #, kde-format
 msgid "Enter Values for Variables"
@@ -2582,46 +2588,40 @@ msgstr ""
 "如果開啟此選項，則輸入的會儲存為預設值。稍後使用同一個變數時，預設使用此值，"
 "即使是在不同的片段中。"
 
-#: snippets/snippetwidget.cpp:73
-#, fuzzy, kde-format
-#| msgid "Insert Snippet"
-msgid "Text Snippets"
-msgstr "插入片段"
-
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: snippets/ui/snippetdialog.ui:22
+#: snippets/ui/snippetwidget.ui:22
 #, kde-format
 msgid "&Name:"
 msgstr "名稱(&N)："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabelGroup)
-#: snippets/ui/snippetdialog.ui:47
+#: snippets/ui/snippetwidget.ui:47
 #, kde-format
 msgctxt "Group to which the snippet belongs."
 msgid "Group:"
 msgstr "群組："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel)
-#: snippets/ui/snippetdialog.ui:57
+#: snippets/ui/snippetwidget.ui:57
 #, kde-format
 msgid "&Snippet:"
 msgstr "片段(&S)："
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonVariables)
-#: snippets/ui/snippetdialog.ui:83
+#: snippets/ui/snippetwidget.ui:83
 #, kde-format
 msgid "Variables"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, keyWidgetLabel)
-#: snippets/ui/snippetdialog.ui:103
+#: snippets/ui/snippetwidget.ui:103
 #, fuzzy, kde-format
 #| msgid "Shortcut:"
 msgid "Sho&rtcut:"
 msgstr "捷徑："
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: snippets/ui/snippetdialog.ui:129
+#: snippets/ui/snippetwidget.ui:129
 #, kde-format
 msgid "Keyword:"
 msgstr ""

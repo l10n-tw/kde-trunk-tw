@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-19 01:22+0000\n"
+"POT-Creation-Date: 2019-09-27 01:30+0000\n"
 "PO-Revision-Date: 2019-05-11 23:19+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -226,8 +226,7 @@ msgctxt "Name"
 msgid "Texture 8k 8bit srgb"
 msgstr "紋理 8k 8位元 srgb"
 
-#: krita/org.kde.krita.desktop:2 packaging/linux/snap/snap/gui/krita.desktop:2
-#: plugins/impex/brush/krita_brush.desktop:2
+#: krita/org.kde.krita.desktop:2 plugins/impex/brush/krita_brush.desktop:2
 #: plugins/impex/csv/krita_csv.desktop:2 plugins/impex/exr/krita_exr.desktop:57
 #: plugins/impex/gif/krita_gif.desktop:2
 #: plugins/impex/heif/krita_heif.desktop:57
@@ -247,7 +246,6 @@ msgid "Krita"
 msgstr "Krita"
 
 #: krita/org.kde.krita.desktop:67
-#: packaging/linux/snap/snap/gui/krita.desktop:67
 msgctxt "GenericName"
 msgid "Digital Painting"
 msgstr "數位繪畫"
@@ -256,11 +254,6 @@ msgstr "數位繪畫"
 msgctxt "Comment"
 msgid "Digital Painting"
 msgstr "數位繪畫"
-
-#: packaging/linux/snap/snap/gui/krita.desktop:109
-msgctxt "Comment"
-msgid "Pixel-based image manipulation program for the Calligra Suite"
-msgstr "Calligra 套件中基於像素的影像處理程式"
 
 #: plugins/impex/exr/krita_exr.desktop:4
 #: plugins/impex/heif/krita_heif.desktop:4
@@ -450,3 +443,7 @@ msgid ""
 "scripts"
 msgstr ""
 "基於 Python 的外掛程式，用於建立 10 個動作並且將它們指定給 Python 指令稿"
+
+#~ msgctxt "Comment"
+#~ msgid "Pixel-based image manipulation program for the Calligra Suite"
+#~ msgstr "Calligra 套件中基於像素的影像處理程式"
