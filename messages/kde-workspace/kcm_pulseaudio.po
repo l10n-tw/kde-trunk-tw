@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kcm_pulseaudio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-09-28 03:24+0200\n"
-"PO-Revision-Date: 2019-09-22 18:22+0800\n"
+"PO-Revision-Date: 2019-09-28 15:24+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: Traditional Chinese\n"
@@ -137,10 +137,10 @@ msgid "Rear Right"
 msgstr "右後方"
 
 #: kcm/package/contents/ui/Applications.qml:49
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Playback"
 msgid "Playback Streams"
-msgstr "播放"
+msgstr "回放串流"
 
 #: kcm/package/contents/ui/Applications.qml:50
 #, kde-format
@@ -149,10 +149,10 @@ msgid "No Applications Playing Audio"
 msgstr "沒有正在播放音效的應用程式"
 
 #: kcm/package/contents/ui/Applications.qml:90
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Recording"
 msgid "Recording Streams"
-msgstr "錄製"
+msgstr "錄音串流"
 
 #: kcm/package/contents/ui/Applications.qml:91
 #, kde-format
@@ -170,13 +170,13 @@ msgstr "設定檔："
 #, kde-format
 msgctxt "label of device items"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: kcm/package/contents/ui/DeviceListItem.qml:59
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Port"
 msgid "Port:"
-msgstr "連接埠"
+msgstr "連接埠："
 
 #: kcm/package/contents/ui/DeviceListItem.qml:77
 #, kde-format
@@ -191,38 +191,38 @@ msgid " (unplugged)"
 msgstr "（未插入）"
 
 #: kcm/package/contents/ui/DeviceListItem.qml:89
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Default device"
 msgid "Default Device"
 msgstr "預設裝置"
 
 #: kcm/package/contents/ui/Devices.qml:46
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Playback"
 msgid "Playback Devices"
-msgstr "播放"
+msgstr "回放裝置"
 
 #: kcm/package/contents/ui/Devices.qml:47
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@label"
 #| msgid "No Input Devices Available"
 msgctxt "@label"
 msgid "No Playback Devices Available"
-msgstr "沒有可用的輸入裝置"
+msgstr "沒有可用的回放裝置"
 
 #: kcm/package/contents/ui/Devices.qml:66
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Recording"
 msgid "Recording Devices"
-msgstr "錄製"
+msgstr "錄音裝置"
 
 #: kcm/package/contents/ui/Devices.qml:67
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@label"
 #| msgid "No Input Devices Available"
 msgctxt "@label"
 msgid "No Recording Devices Available"
-msgstr "沒有可用的輸入裝置"
+msgstr "沒有可用的錄音裝置"
 
 #: kcm/package/contents/ui/main.qml:36
 #, kde-format
@@ -248,11 +248,11 @@ msgid "Advanced"
 msgstr "進階"
 
 #: kcm/package/contents/ui/MuteButton.qml:35
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Mute"
 msgctxt "Mute audio stream"
 msgid "Mute %1"
-msgstr "靜音"
+msgstr "靜音 %1"
 
 #: kcm/package/contents/ui/StreamListItem.qml:59
 #, kde-format
