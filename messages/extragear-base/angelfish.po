@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-31 02:29+0200\n"
+"POT-Creation-Date: 2019-09-28 02:27+0200\n"
 "PO-Revision-Date: 2019-08-19 21:54+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.07.90\n"
 
-#: src/contents/ui/Bookmarks.qml:30 src/contents/ui/webbrowser.qml:277
+#: src/contents/ui/Bookmarks.qml:30 src/contents/ui/webbrowser.qml:281
 #, kde-format
 msgid "Bookmarks"
 msgstr "書籤"
@@ -27,7 +27,7 @@ msgstr "書籤"
 msgid "Error loading the page"
 msgstr "載入頁面錯誤"
 
-#: src/contents/ui/History.qml:29 src/contents/ui/webbrowser.qml:284
+#: src/contents/ui/History.qml:29 src/contents/ui/webbrowser.qml:288
 #, kde-format
 msgid "History"
 msgstr "歷史記錄"
@@ -37,42 +37,42 @@ msgstr "歷史記錄"
 msgid "OK"
 msgstr "確定"
 
-#: src/contents/ui/Settings.qml:30 src/contents/ui/webbrowser.qml:293
+#: src/contents/ui/Settings.qml:30 src/contents/ui/webbrowser.qml:292
 #, kde-format
 msgid "Settings"
 msgstr "設定"
 
-#: src/contents/ui/Settings.qml:36
+#: src/contents/ui/Settings.qml:50
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "啟用 JavaScript"
 
-#: src/contents/ui/Settings.qml:49
+#: src/contents/ui/Settings.qml:66
 #, kde-format
 msgid "Load images"
 msgstr "載入圖片"
 
-#: src/contents/ui/Settings.qml:63 src/contents/ui/Settings.qml:84
+#: src/contents/ui/Settings.qml:81 src/contents/ui/Settings.qml:102
 #, kde-format
 msgid "Homepage"
 msgstr "首頁"
 
-#: src/contents/ui/Settings.qml:64
+#: src/contents/ui/Settings.qml:82
 #, kde-format
 msgid "Website that should be loaded on startup"
 msgstr "要在啟動時載入的網站"
 
-#: src/contents/ui/Settings.qml:74 src/contents/ui/Settings.qml:92
+#: src/contents/ui/Settings.qml:92 src/contents/ui/Settings.qml:110
 #, kde-format
 msgid "Search Engine"
 msgstr "搜尋引擎"
 
-#: src/contents/ui/Settings.qml:75
+#: src/contents/ui/Settings.qml:93
 #, kde-format
 msgid "Base URL of your preferred search engine"
 msgstr "偏好搜尋引擎的基礎網址"
 
-#: src/contents/ui/Tabs.qml:38 src/contents/ui/webbrowser.qml:263
+#: src/contents/ui/Tabs.qml:38 src/contents/ui/webbrowser.qml:267
 #, kde-format
 msgid "Tabs"
 msgstr "分頁"
@@ -142,7 +142,7 @@ msgstr "允許"
 msgid "Decline"
 msgstr "拒絕"
 
-#: src/contents/ui/webbrowser.qml:240 src/contents/ui/webbrowser.qml:289
+#: src/contents/ui/webbrowser.qml:240 src/contents/ui/webbrowser.qml:305
 #, kde-format
 msgid "Find in page"
 msgstr "在頁面中尋找內容"
@@ -157,42 +157,42 @@ msgstr "尋找…"
 msgid "Highlight text on the current website"
 msgstr "在目前網站突顯文字"
 
-#: src/contents/ui/webbrowser.qml:270
+#: src/contents/ui/webbrowser.qml:274
 #, kde-format
 msgid "Leave private mode"
 msgstr "離開隱私模式"
 
-#: src/contents/ui/webbrowser.qml:270
+#: src/contents/ui/webbrowser.qml:274
 #, kde-format
 msgid "Private mode"
 msgstr "隱私模式"
 
-#: src/contents/ui/webbrowser.qml:300
+#: src/contents/ui/webbrowser.qml:309
 #, kde-format
 msgid "Share page"
 msgstr "分享頁面"
 
-#: src/contents/ui/webbrowser.qml:310
+#: src/contents/ui/webbrowser.qml:319
 #, kde-format
 msgid "Go previous"
 msgstr "上一頁"
 
-#: src/contents/ui/webbrowser.qml:319
+#: src/contents/ui/webbrowser.qml:328
 #, kde-format
 msgid "Go forward"
 msgstr "下一頁"
 
-#: src/contents/ui/webbrowser.qml:328
+#: src/contents/ui/webbrowser.qml:337
 #, kde-format
 msgid "Stop loading"
 msgstr "停止載入"
 
-#: src/contents/ui/webbrowser.qml:328
+#: src/contents/ui/webbrowser.qml:337
 #, kde-format
 msgid "Refresh"
 msgstr "重新整理"
 
-#: src/contents/ui/webbrowser.qml:336
+#: src/contents/ui/webbrowser.qml:345
 #, kde-format
 msgid "Add bookmark"
 msgstr "新增書籤"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-07 02:42+0200\n"
+"POT-Creation-Date: 2019-09-28 02:35+0200\n"
 "PO-Revision-Date: 2018-12-02 21:20+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -113,22 +113,22 @@ msgstr "已回復。<br/>"
 msgid "Alternative:<br/>"
 msgstr "替代：<br/>"
 
-#: patchhighlighter.cpp:211
+#: patchhighlighter.cpp:209
 #, kde-format
 msgid "Could not apply the change: Text should be \"%1\", but is \"%2\"."
 msgstr "無法套用此變更：文字應為 %1，但是看到 %2。"
 
-#: patchhighlighter.cpp:423 patchhighlighter.cpp:430
+#: patchhighlighter.cpp:421 patchhighlighter.cpp:428
 #, kde-format
 msgid "Insertion"
 msgstr "插入"
 
-#: patchhighlighter.cpp:425 patchhighlighter.cpp:432
+#: patchhighlighter.cpp:423 patchhighlighter.cpp:430
 #, kde-format
 msgid "Removal"
 msgstr "移除"
 
-#: patchhighlighter.cpp:427 patchhighlighter.cpp:434
+#: patchhighlighter.cpp:425 patchhighlighter.cpp:432
 #, kde-format
 msgid "Change"
 msgstr "變更"
@@ -254,18 +254,18 @@ msgstr "全部選擇"
 msgid "Deselect All"
 msgstr "全部取消選擇"
 
-#: patchreviewtoolview.cpp:561
+#: patchreviewtoolview.cpp:560
 #, kde-format
 msgid "Running tests: %p%"
 msgstr "執行測試：%p%"
 
-#: patchreviewtoolview.cpp:589
+#: patchreviewtoolview.cpp:588
 #, kde-format
 msgid "Test passed"
 msgid_plural "All %1 tests passed"
 msgstr[0] "所有 %1 個測試均已通過"
 
-#: patchreviewtoolview.cpp:593
+#: patchreviewtoolview.cpp:592
 #, kde-format
 msgid "Test results: %1 passed, %2 failed, %3 errors"
 msgstr "測試結果：%1 個通過，%2 個失敗，%3 個錯誤"

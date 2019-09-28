@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-15 02:38+0200\n"
+"POT-Creation-Date: 2019-09-28 02:47+0200\n"
 "PO-Revision-Date: 2019-03-29 00:18+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -28,12 +28,12 @@ msgstr ""
 "X-Generator: Lokalize 19.03.80\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: attica/atticaprovider.cpp:166
+#: attica/atticaprovider.cpp:169
 #, kde-format
 msgid "All categories are missing"
 msgstr "所有類別遺失"
 
-#: attica/atticaprovider.cpp:362
+#: attica/atticaprovider.cpp:438
 #, kde-format
 msgctxt ""
 "the price of a download item, parameter 1 is the currency, 2 is the price"
@@ -44,7 +44,7 @@ msgstr ""
 "此項目價值 %1 %2。\n"
 "您要購買嗎？"
 
-#: attica/atticaprovider.cpp:376
+#: attica/atticaprovider.cpp:452
 #, kde-format
 msgid ""
 "Your account balance is too low:\n"
@@ -55,35 +55,35 @@ msgstr ""
 "您的餘額為：%1\n"
 "價格為： %2"
 
-#: attica/atticaprovider.cpp:418
+#: attica/atticaprovider.cpp:494
 #, kde-format
 msgctxt "voting for an item (good/bad)"
 msgid "Your vote was recorded."
 msgstr "您的投票已被紀錄。"
 
-#: attica/atticaprovider.cpp:433
+#: attica/atticaprovider.cpp:509
 #, kde-format
 msgid "You are now a fan."
 msgstr "您現在成為粉絲了。"
 
-#: attica/atticaprovider.cpp:444
+#: attica/atticaprovider.cpp:520
 #, kde-format
 msgid "Network error %1: %2"
 msgstr "網路錯誤 %1：%2"
 
-#: attica/atticaprovider.cpp:448
+#: attica/atticaprovider.cpp:524
 #, kde-format
 msgid "Too many requests to server. Please try again in a few minutes."
 msgstr "太多要求到伺服器。請稍等幾分鐘後再嘗試。"
 
-#: attica/atticaprovider.cpp:450
+#: attica/atticaprovider.cpp:526
 #, kde-format
 msgid ""
 "The Open Collaboration Services instance %1 does not support the attempted "
 "function."
 msgstr "%1 開放協同服務實例不支援嘗試使用的功能。"
 
-#: attica/atticaprovider.cpp:452
+#: attica/atticaprovider.cpp:528
 #, kde-format
 msgid "Unknown Open Collaboration Service API error. (%1)"
 msgstr "未知的開放協同服務 API 錯誤。(%1)"
@@ -93,63 +93,70 @@ msgstr "未知的開放協同服務 API 錯誤。(%1)"
 msgid "Download New Stuff..."
 msgstr "下載熱門禮物..."
 
-#: core/engine.cpp:106
+#: core/commentsmodel.cpp:185
+#, kde-format
+msgctxt ""
+"The value returned for an unknown role when requesting data from the model."
+msgid "Unknown CommentsModel role"
+msgstr ""
+
+#: core/engine.cpp:109
 #, kde-format
 msgid "Initializing"
 msgstr "初始化中"
 
-#: core/engine.cpp:127
+#: core/engine.cpp:130
 #, kde-format
 msgid "Configuration file exists, but cannot be opened: \"%1\""
 msgstr "設定檔已存在，但無法開啟：「%1」"
 
-#: core/engine.cpp:140
+#: core/engine.cpp:143
 #, kde-format
 msgid "Configuration file is invalid: \"%1\""
 msgstr "設定檔不合法：%1"
 
-#: core/engine.cpp:204
+#: core/engine.cpp:213
 #, kde-format
 msgid "Loading provider information"
 msgstr "載入提供者資訊中"
 
-#: core/engine.cpp:233
+#: core/engine.cpp:242
 #, kde-format
 msgid "Could not load get hot new stuff providers from file: %1"
 msgstr "無法從檔案 %1 載入熱門新玩意的供應者"
 
-#: core/engine.cpp:256
+#: core/engine.cpp:265
 #, kde-format
 msgid "Error initializing provider."
 msgstr "初始化提供者時發生錯誤。"
 
-#: core/engine.cpp:260 core/engine.cpp:660
+#: core/engine.cpp:269 core/engine.cpp:684
 #, kde-format
 msgid "Loading data"
 msgstr "載入資料中"
 
-#: core/engine.cpp:297
+#: core/engine.cpp:306
 #, kde-format
 msgid "Loading data from provider"
 msgstr "從提供者載入資料中"
 
-#: core/engine.cpp:302
+#: core/engine.cpp:311
 #, kde-format
 msgid "Loading of providers from file: %1 failed"
 msgstr "從檔案 %1 載入提供者失敗"
 
-#: core/engine.cpp:620
+#: core/engine.cpp:644
 #, kde-format
 msgid "Re: %1"
 msgstr "重做：%1"
 
-#: core/engine.cpp:662
+#: core/engine.cpp:686
 #, kde-format
 msgid "Loading one preview"
 msgid_plural "Loading %1 previews"
 msgstr[0] "載入 %1 個預覽"
 
-#: core/engine.cpp:664 ui/itemsgridviewdelegate.cpp:342
+#: core/engine.cpp:688 ui/itemsgridviewdelegate.cpp:342
 #: ui/itemsviewdelegate.cpp:133
 #, kde-format
 msgid "Installing"
@@ -197,13 +204,17 @@ msgstr "無法安裝 %1：找不到檔案。"
 
 #: core/installation.cpp:539
 #, kde-format
-msgid "Overwrite existing file?"
-msgstr "要覆寫現有檔案嗎？"
+msgid ""
+"This file already exists on disk (possibly due to an earlier failed download "
+"attempt). Continuing means overwriting it. Do you wish to overwrite the "
+"existing file?"
+msgstr ""
 
 #: core/installation.cpp:540
-#, kde-format
-msgid "Download File"
-msgstr "下載檔案"
+#, fuzzy, kde-format
+#| msgid "Overwrite existing file?"
+msgid "Overwrite File"
+msgstr "要覆寫現有檔案嗎？"
 
 #: core/security.cpp:83
 #, kde-format
@@ -409,9 +420,9 @@ msgid "Become a Fan"
 msgstr "成為粉絲"
 
 #. i18n: ectx: property (text), widget (QPushButton, installButton)
-#: downloadwidget.ui:590 ui/itemsgridviewdelegate.cpp:352
-#: ui/itemsgridviewdelegate.cpp:362 ui/itemsviewdelegate.cpp:143
-#: ui/itemsviewdelegate.cpp:153
+#: downloadwidget.ui:590 qtquick/qml/DownloadItemsSheet.qml:72
+#: ui/itemsgridviewdelegate.cpp:352 ui/itemsgridviewdelegate.cpp:362
+#: ui/itemsviewdelegate.cpp:143 ui/itemsviewdelegate.cpp:153
 #, kde-format
 msgid "Install"
 msgstr "安裝"
@@ -536,23 +547,327 @@ msgstr "在這個選單中，還有些建議使用的工具尚未安裝："
 msgid "More tools..."
 msgstr "更多工具..."
 
-#: qtquick/qml/NewStuffItem.qml:35
+#: qtquick/categoriesmodel.cpp:79
+#, fuzzy, kde-format
+#| msgid "All Categories"
+msgctxt ""
+"The first entry in the category selection list (also the default value)"
+msgid "Show All Categories"
+msgstr "所有分類"
+
+#: qtquick/categoriesmodel.cpp:108
+#, fuzzy, kde-format
+#| msgid "Category:"
+msgctxt ""
+"The string passed back in the case the requested category is not known"
+msgid "Unknown Category"
+msgstr "類別："
+
+#. i18n("Download New %1").
+#. *
+#. @note For the sake of consistency, you should NOT override the text propety, just set this one
+#.
+#: qtquick/qml/Button.qml:58
 #, kde-format
-msgctxt "Request installation of this item"
+msgctxt ""
+"Used to contruct the button's label (which will become Download New 'this "
+"value')"
+msgid "Stuff"
+msgstr ""
+
+#: qtquick/qml/Button.qml:59 qtquick/qml/Dialog.qml:55
+#, fuzzy, kde-format
+#| msgid "Download New Stuff..."
+msgid "Download New %1"
+msgstr "下載熱門禮物..."
+
+#: qtquick/qml/Dialog.qml:100
+#, kde-format
+msgid "Close"
+msgstr ""
+
+#: qtquick/qml/DownloadItemsSheet.qml:49
+#, kde-format
+msgid "Pick Your Installation Option"
+msgstr ""
+
+#: qtquick/qml/DownloadItemsSheet.qml:55
+#, kde-format
+msgid ""
+"Please select the option you wish to install from the list of downloadable "
+"items below. If it is unclear which you should chose out of the available "
+"options, please contact the author of this item and ask that they clarify "
+"this through the naming of the items."
+msgstr ""
+
+#: qtquick/qml/EntryDetails.qml:63 qtquick/qml/Page.qml:206
+#, fuzzy, kde-format
+#| msgid "Installing"
+msgctxt ""
+"A passive notification shown when installation of an item is initiated"
+msgid "Installing %1 from %2"
+msgstr "安裝中"
+
+#: qtquick/qml/EntryDetails.qml:78
+#, kde-format
+msgctxt ""
+"Status message to be shown when the entry is in the process of being "
+"installed"
+msgid "Currently installing the item %1 by %2. Please wait..."
+msgstr ""
+
+#: qtquick/qml/EntryDetails.qml:80
+#, kde-format
+msgctxt ""
+"Status message to be shown when the entry is in the process of being updated"
+msgid "Currently updating the item %1 by %2. Please wait..."
+msgstr ""
+
+#: qtquick/qml/EntryDetails.qml:82
+#, kde-format
+msgctxt ""
+"Status message which should only be shown when the entry has been given some "
+"unknown or invalid status."
+msgid ""
+"This item is currently in an invalid or unknown state. Please report this to "
+"the KDE Community in a bug report."
+msgstr ""
+
+#: qtquick/qml/EntryDetails.qml:93
+#, kde-format
+msgctxt ""
+"Combined title for the entry details page made of the name of the entry, and "
+"the author's name"
+msgid "%1 by %2"
+msgstr ""
+
+#: qtquick/qml/EntryDetails.qml:114
+#: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:64
+#: qtquick/qml/private/entrygriddelegates/ThumbDelegate.qml:57
+#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:65
+#, fuzzy, kde-format
+#| msgid "Install"
+msgctxt ""
+"Request installation of this item, available when there is exactly one "
+"downloadable item"
 msgid "Install"
 msgstr "安裝"
 
-#: qtquick/qml/NewStuffItem.qml:42
+#: qtquick/qml/EntryDetails.qml:114
+#: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:64
+#: qtquick/qml/private/entrygriddelegates/ThumbDelegate.qml:57
+#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:65
+#, fuzzy, kde-format
+#| msgid "Install"
+msgctxt ""
+"Show installation options, where there is more than one downloadable item"
+msgid "Install..."
+msgstr "安裝"
+
+#: qtquick/qml/EntryDetails.qml:129 qtquick/qml/NewStuffItem.qml:44
+#: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:79
+#: qtquick/qml/private/entrygriddelegates/ThumbDelegate.qml:72
+#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:80
 #, kde-format
 msgctxt "Request updating of this item"
 msgid "Update"
 msgstr "更新"
 
-#: qtquick/qml/NewStuffItem.qml:49
+#: qtquick/qml/EntryDetails.qml:136 qtquick/qml/NewStuffItem.qml:51
+#: qtquick/qml/Page.qml:77
 #, kde-format
 msgctxt "Request uninstallation of this item"
 msgid "Uninstall"
 msgstr "解除安裝"
+
+#: qtquick/qml/EntryDetails.qml:192
+#, kde-format
+msgid "Comments and Reviews:"
+msgstr ""
+
+#: qtquick/qml/EntryDetails.qml:194
+#, kde-format
+msgctxt ""
+"A link which, when clicked, opens a new sub page with reviews (comments) for "
+"this entry"
+msgid "%1 Reviews"
+msgstr ""
+
+#: qtquick/qml/EntryDetails.qml:199
+#, fuzzy, kde-format
+#| msgid "Rating"
+msgid "Rating:"
+msgstr "評分"
+
+#: qtquick/qml/EntryDetails.qml:203
+#, fuzzy, kde-format
+#| msgctxt "A link to the description of this Get Hot New Stuff item"
+#| msgid "Homepage"
+msgid "Homepage:"
+msgstr "首頁"
+
+#: qtquick/qml/EntryDetails.qml:204
+#, kde-format
+msgctxt ""
+"A link which, when clicked, opens the website associated with the entry "
+"(this could be either one specific to the project, the author's homepage, or "
+"any other website they have chosen for the purpose)"
+msgid "Open the homepage for %2"
+msgstr ""
+
+#: qtquick/qml/EntryDetails.qml:208
+#, kde-format
+msgid "How To Donate:"
+msgstr ""
+
+#: qtquick/qml/EntryDetails.qml:209
+#, kde-format
+msgctxt ""
+"A link which, when clicked, opens a website with information on donation in "
+"support of the entry"
+msgid "Find out how to donate to this project"
+msgstr ""
+
+#: qtquick/qml/NewStuffItem.qml:37
+#, kde-format
+msgctxt "Request installation of this item"
+msgid "Install"
+msgstr "安裝"
+
+#: qtquick/qml/NewStuffList.qml:83 qtquick/qml/Page.qml:172
+#, kde-format
+msgctxt "List option which will set the filter to show everything"
+msgid "Show Everything"
+msgstr ""
+
+#: qtquick/qml/NewStuffList.qml:84 qtquick/qml/Page.qml:173
+#, fuzzy, kde-format
+#| msgid "Installed"
+msgctxt ""
+"List option which will set the filter so only installed items are shown"
+msgid "Installed Only"
+msgstr "已安裝"
+
+#: qtquick/qml/NewStuffList.qml:85 qtquick/qml/Page.qml:174
+#, kde-format
+msgctxt ""
+"List option which will set the filter so only installed items with updates "
+"available are shown"
+msgid "Updateable Only"
+msgstr ""
+
+#: qtquick/qml/NewStuffList.qml:97 qtquick/qml/Page.qml:186
+#, kde-format
+msgctxt ""
+"List option which will set the sort order to based on when items were most "
+"recently updated"
+msgid "Show most recent first"
+msgstr ""
+
+#: qtquick/qml/NewStuffList.qml:98 qtquick/qml/Page.qml:187
+#, kde-format
+msgctxt ""
+"List option which will set the sort order to be alphabetical based on the "
+"name"
+msgid "Sort alphabetically"
+msgstr ""
+
+#: qtquick/qml/NewStuffList.qml:99 qtquick/qml/Page.qml:188
+#, kde-format
+msgctxt "List option which will set the sort order to based on user ratings"
+msgid "Show highest rated first"
+msgstr ""
+
+#: qtquick/qml/NewStuffList.qml:100 qtquick/qml/Page.qml:189
+#, fuzzy, kde-format
+#| msgid "Most downloads"
+msgctxt ""
+"List option which will set the sort order to based on number of downloads"
+msgid "Show most downloaded first"
+msgstr "最多下載"
+
+#: qtquick/qml/Page.qml:78
+#, fuzzy, kde-format
+#| msgid "Use"
+msgctxt ""
+"If a knsrc file defines an adoption command, the option to run this command "
+"and 'use' an item becomes available. This is the text for an action to do so."
+msgid "Use"
+msgstr "使用"
+
+#: qtquick/qml/Page.qml:139
+#, fuzzy, kde-format
+#| msgid "Search:"
+msgid "Search..."
+msgstr "搜尋："
+
+#: qtquick/qml/private/EntryCommentDelegate.qml:125
+#, kde-format
+msgctxt ""
+"Placeholder title for when a comment has no subject, but does have a rating"
+msgid "<i>(no title)</i>"
+msgstr ""
+
+#: qtquick/qml/private/EntryCommentDelegate.qml:156
+#, kde-format
+msgctxt ""
+"The author label in case the comment was written by the author of the "
+"content entry the comment is attached to"
+msgid "%1 <i>(author)</i>"
+msgstr ""
+
+#: qtquick/qml/private/EntryCommentsPage.qml:41
+#, kde-format
+msgctxt "Title for the page containing a view of the comments for the entry"
+msgid "Comments and Reviews for %1"
+msgstr ""
+
+#: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:180
+#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:198
+#, fuzzy, kde-format
+#| msgid "1 download"
+#| msgid_plural "%1 downloads"
+msgctxt "The number of times the item has been downloaded"
+msgid "%1 downloads"
+msgstr "下載 %1 次"
+
+#: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:193
+#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:180
+#, fuzzy, kde-format
+#| msgctxt "Show the author of this item in a list"
+#| msgid "By <i>%1</i>"
+msgctxt ""
+"Subheading for the tile view, located immediately underneath the name of the "
+"item"
+msgid "By <i>%1</i>"
+msgstr "由 <i>%1</i>"
+
+#: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:94
+#, fuzzy, kde-format
+#| msgid "Details"
+msgctxt "Show a page with details for this item"
+msgid "Details..."
+msgstr "詳細資料"
+
+#: qtquick/qml/private/GridTileDelegate.qml:113
+#, kde-format
+msgid "None"
+msgstr ""
+
+#: qtquick/quickengine.cpp:97
+#, kde-format
+msgctxt ""
+"An informational message which is shown to inform the user they are not "
+"authorized to use GetHotNewStuff functionality"
+msgid ""
+"You are not authorized to Get Hot New Stuff. If you think this is in error, "
+"please contact the person in charge of your permissions."
+msgstr ""
+
+#: qtquick/quickitemsmodel.cpp:418
+#, kde-format
+msgid "Using %1"
+msgstr ""
 
 #: ui/entrydetailsdialog.cpp:91
 #, kde-format
@@ -970,3 +1285,6 @@ msgstr ""
 #, kde-format
 msgid "Start Upload"
 msgstr "開始上傳"
+
+#~ msgid "Download File"
+#~ msgstr "下載檔案"

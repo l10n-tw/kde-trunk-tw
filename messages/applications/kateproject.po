@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-17 02:29+0200\n"
+"POT-Creation-Date: 2019-09-28 02:24+0200\n"
 "PO-Revision-Date: 2019-07-24 22:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -156,10 +156,17 @@ msgstr "種類"
 msgid "Search"
 msgstr "搜尋"
 
-#: kateprojectinfoviewindex.cpp:155
+#: kateprojectinfoviewindex.cpp:158
 #, kde-format
 msgid "The index could not be created. Please install 'ctags'."
 msgstr "無法建立索引。請安裝 ctags。"
+
+#: kateprojectinfoviewindex.cpp:160
+#, kde-format
+msgid ""
+"The index is not enabled. Please add '\"index\": true' to your .kateproject "
+"file."
+msgstr ""
 
 #: kateprojectpluginview.cpp:56
 #, kde-format
@@ -171,12 +178,12 @@ msgstr "Kate 專案管理員"
 msgid "Current Project"
 msgstr "目前的專案"
 
-#: kateprojectpluginview.cpp:122
+#: kateprojectpluginview.cpp:124
 #, kde-format
 msgid "Project"
 msgstr "專案"
 
-#: kateprojectpluginview.cpp:125 kateprojectpluginview.cpp:469
+#: kateprojectpluginview.cpp:127 kateprojectpluginview.cpp:472
 #, kde-format
 msgid "Lookup: %1"
 msgstr "尋找：%1"
