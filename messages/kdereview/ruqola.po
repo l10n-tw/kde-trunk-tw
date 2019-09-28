@@ -1,0 +1,1620 @@
+# Chinese translations for ruqola package
+# ruqola 套件的正體中文翻譯.
+# Copyright (C) 2019 This file is copyright:
+# This file is distributed under the same license as the ruqola package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ruqola\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-09-28 03:06+0200\n"
+"PO-Revision-Date: 2019-09-28 03:06+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: apps/main.cpp:60 apps/qml/Desktop.qml:66
+msgid "Ruqola"
+msgstr ""
+
+#: apps/main.cpp:62
+msgid "Rocket Chat Client"
+msgstr ""
+
+#: apps/main.cpp:64
+msgid "Copyright © 2017-2019 Ruqola authors"
+msgstr ""
+
+#: apps/main.cpp:66
+msgid "Laurent Montel"
+msgstr ""
+
+#: apps/main.cpp:66
+msgid "Maintainer"
+msgstr ""
+
+#: apps/main.cpp:67
+msgid "Riccardo Iaconelli"
+msgstr ""
+
+#: apps/main.cpp:67
+msgid "Original author"
+msgstr ""
+
+#: apps/main.cpp:68
+msgid "Vasudha Mathur"
+msgstr ""
+
+#: apps/main.cpp:68
+msgid "Former core developer"
+msgstr ""
+
+#: apps/main.cpp:72
+msgid "David Faure"
+msgstr ""
+
+#: apps/main.cpp:72 apps/main.cpp:76
+msgid "Bug fixing"
+msgstr ""
+
+#: apps/main.cpp:73
+msgid "Paul Lemire"
+msgstr ""
+
+#: apps/main.cpp:73
+msgid "Help for debugging QML"
+msgstr ""
+
+#: apps/main.cpp:74
+msgid "Veluri Mithun"
+msgstr ""
+
+#: apps/main.cpp:74
+msgid "Autotest improvement and created some tests apps"
+msgstr ""
+
+#: apps/main.cpp:75
+msgid "Franck Arrecot"
+msgstr ""
+
+#: apps/main.cpp:75
+msgid "Fix some QML bugs"
+msgstr ""
+
+#: apps/main.cpp:76
+msgid "Volker Krause"
+msgstr ""
+
+#: apps/main.cpp:81
+msgid "Return lists of accounts"
+msgstr ""
+
+#: apps/main.cpp:82
+msgid "Start with specific account"
+msgstr ""
+
+#: apps/main.cpp:91
+msgid "The following accounts are available:"
+msgstr ""
+
+#: apps/qml/AboutDialog.qml:31
+msgid "About Ruqola"
+msgstr ""
+
+#: apps/qml/AboutDialog.qml:57 apps/qml/Desktop.qml:100
+msgid "About"
+msgstr ""
+
+#: apps/qml/AboutDialog.qml:60
+msgid "Libraries"
+msgstr ""
+
+#: apps/qml/AboutDialog.qml:63
+msgid "Author"
+msgstr ""
+
+#: apps/qml/AboutDialog.qml:66
+msgid "Thanks To"
+msgstr ""
+
+#: apps/qml/AboutDialog.qml:70
+msgid "Translation"
+msgstr ""
+
+#: apps/qml/AddUserDialog.qml:40
+msgid "Add Users"
+msgstr ""
+
+#: apps/qml/AddUserDialog.qml:61
+msgid "Search User..."
+msgstr ""
+
+#: apps/qml/ArchiveRoomDialog.qml:30
+msgid "Archive Room"
+msgstr ""
+
+#: apps/qml/ArchiveRoomDialog.qml:42
+msgid "Do you want to archive this room?"
+msgstr ""
+
+#: apps/qml/ArchiveRoomDialog.qml:42
+msgid "Do you want to unarchive this room?"
+msgstr ""
+
+#: apps/qml/AutoTranslateConfigDialog.qml:30 apps/qml/MainComponent.qml:102
+msgid "Auto-Translate"
+msgstr ""
+
+#: apps/qml/AutoTranslateConfigDialog.qml:46
+msgid "Automatic Translation:"
+msgstr ""
+
+#: apps/qml/AutoTranslateConfigDialog.qml:57
+msgid "Language:"
+msgstr ""
+
+#: apps/qml/ChannelInfoDialog.qml:32
+msgid "Info about this channel"
+msgstr ""
+
+#: apps/qml/ChannelInfoDialog.qml:77 apps/qml/CreateNewAccountDialog.qml:52
+#: apps/qml/CreateNewChannelDialog.qml:59
+msgid "Name:"
+msgstr ""
+
+#: apps/qml/ChannelInfoDialog.qml:96
+msgid "Comment:"
+msgstr ""
+
+#: apps/qml/ChannelInfoDialog.qml:109
+msgid "Announcement:"
+msgstr ""
+
+#: apps/qml/ChannelInfoDialog.qml:122
+msgid "Description:"
+msgstr ""
+
+#: apps/qml/ChannelInfoDialog.qml:137 apps/qml/ChannelPasswordDialog.qml:56
+#: apps/qml/CreateNewChannelDialog.qml:119
+msgid "Password:"
+msgstr ""
+
+#. i18n context ?
+#: apps/qml/ChannelInfoDialog.qml:144 apps/qml/CreateNewChannelDialog.qml:125
+msgid "Add password"
+msgstr ""
+
+#: apps/qml/ChannelInfoDialog.qml:144
+msgid "This Room has a password"
+msgstr ""
+
+#: apps/qml/ChannelInfoDialog.qml:149 apps/qml/CreateNewChannelDialog.qml:80
+msgid "Read-Only:"
+msgstr ""
+
+#: apps/qml/ChannelInfoDialog.qml:156 apps/qml/CreateNewChannelDialog.qml:87
+msgid "Only Authorized people can write."
+msgstr ""
+
+#: apps/qml/ChannelInfoDialog.qml:170 apps/qml/CreateNewChannelDialog.qml:96
+msgid "Broadcast:"
+msgstr ""
+
+#: apps/qml/ChannelInfoDialog.qml:183
+msgid "Archive:"
+msgstr ""
+
+#: apps/qml/ChannelInfoDialog.qml:196 apps/qml/CreateNewChannelDialog.qml:103
+msgid "Private:"
+msgstr ""
+
+#: apps/qml/ChannelInfoDialog.qml:209 apps/qml/CreateNewChannelDialog.qml:111
+msgid "Encrypted:"
+msgstr ""
+
+#: apps/qml/ChannelInfoDialog.qml:221
+msgid "Delete Room:"
+msgstr ""
+
+#: apps/qml/ChannelPasswordDialog.qml:30
+msgid "Channel Password"
+msgstr ""
+
+#: apps/qml/ChannelPasswordDialog.qml:52
+msgid "Channel '%1' needs a password"
+msgstr ""
+
+#: apps/qml/ConfigureServerList.qml:94
+msgid "Add Account"
+msgstr ""
+
+#: apps/qml/ConfigureServerList.qml:104
+msgid "Close"
+msgstr ""
+
+#: apps/qml/CreateDiscussionDialog.qml:29
+msgid "Create Discussion"
+msgstr ""
+
+#: apps/qml/CreateDiscussionDialog.qml:52
+msgid "Create"
+msgstr ""
+
+#: apps/qml/CreateDiscussionDialog.qml:59
+msgid "Parent Channel or Group:"
+msgstr ""
+
+#: apps/qml/CreateDiscussionDialog.qml:70
+msgid "Discussion Name:"
+msgstr ""
+
+#: apps/qml/CreateDiscussionDialog.qml:90
+msgid "Your answer:"
+msgstr ""
+
+#: apps/qml/CreateNewAccountDialog.qml:31
+msgid "Create Account"
+msgstr ""
+
+#: apps/qml/CreateNewAccountDialog.qml:58 apps/qml/Login.qml:76
+msgid "Account Name"
+msgstr ""
+
+#: apps/qml/CreateNewAccountDialog.qml:61
+msgid "Server Url:"
+msgstr ""
+
+#: apps/qml/CreateNewAccountDialog.qml:67
+msgid "Server Url"
+msgstr ""
+
+#: apps/qml/CreateNewAccountDialog.qml:73
+msgid "Enter your Username:"
+msgstr ""
+
+#: apps/qml/CreateNewAccountDialog.qml:81 apps/qml/Login.qml:149
+msgid "Enter Username"
+msgstr ""
+
+#: apps/qml/CreateNewChannelDialog.qml:31
+msgid "Create Channel"
+msgstr ""
+
+#: apps/qml/CreateNewChannelDialog.qml:65
+msgid "Channel Name"
+msgstr ""
+
+#: apps/qml/CreateNewChannelDialog.qml:69
+msgid "Users:"
+msgstr ""
+
+#: apps/qml/CreateNewChannelDialog.qml:76
+msgctxt "List of users separated by ','"
+msgid "User separate with ','"
+msgstr ""
+
+#: apps/qml/CustomUserStatusDialog.qml:30
+msgid "Custom User Status"
+msgstr ""
+
+#: apps/qml/CustomUserStatusDialog.qml:44
+msgid "Status Text:"
+msgstr ""
+
+#: apps/qml/DeleteAccountDialog.qml:30
+msgid "Delete Account"
+msgstr ""
+
+#: apps/qml/DeleteAccountDialog.qml:43
+msgid "Do you want to delete '%1' account?"
+msgstr ""
+
+#: apps/qml/DeleteFileAttachmentDialog.qml:31
+msgid "Delete Attachment"
+msgstr ""
+
+#: apps/qml/DeleteFileAttachmentDialog.qml:45
+msgid "Do you want to delete this attachment?"
+msgstr ""
+
+#: apps/qml/DeleteMessageDialog.qml:31
+msgid "Delete Message"
+msgstr ""
+
+#: apps/qml/DeleteMessageDialog.qml:45
+msgid "Do you want to delete this message?"
+msgstr ""
+
+#: apps/qml/DeleteRoomDialog.qml:30
+msgid "Delete Room"
+msgstr ""
+
+#: apps/qml/DeleteRoomDialog.qml:44
+msgid "Do you want to delete this room?"
+msgstr ""
+
+#: apps/qml/Desktop.qml:93
+msgid "Hello, %1"
+msgstr ""
+
+#: apps/qml/Desktop.qml:107
+msgid "Report a Bug"
+msgstr ""
+
+#: apps/qml/Desktop.qml:114
+msgid "Configure Account"
+msgstr ""
+
+#: apps/qml/Desktop.qml:122
+msgid "Handbook"
+msgstr ""
+
+#: apps/qml/Desktop.qml:132
+msgid "Log out"
+msgstr ""
+
+#: apps/qml/Desktop.qml:150
+msgid "Quit"
+msgstr ""
+
+#: apps/qml/DiscussionMessage.qml:57 apps/qml/messages/DiscussionLabel.qml:35
+msgid "1 message"
+msgid_plural "%1 messages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: apps/qml/DiscussionMessage.qml:74
+msgid "Open Discussion"
+msgstr ""
+
+#: apps/qml/DisplayImageDialog.qml:28
+msgid "Image"
+msgstr ""
+
+#: apps/qml/DownloadFileDialog.qml:26 apps/qml/UploadFileDialog.qml:96
+msgid "Please choose a file"
+msgstr ""
+
+#: apps/qml/EncryptedConversationDialog.qml:30
+msgid "Encrypted Conversation"
+msgstr ""
+
+#: apps/qml/EncryptedConversationDialog.qml:42
+msgid "Do you want to accept encrypted conversation?"
+msgstr ""
+
+#: apps/qml/JobErrorMessageDialog.qml:28
+msgid "Error"
+msgstr ""
+
+#: apps/qml/LeaveChannelDialog.qml:29
+msgid "Leave Channel"
+msgstr ""
+
+#: apps/qml/LeaveChannelDialog.qml:44
+msgid "Do you want to leave this channel?"
+msgstr ""
+
+#: apps/qml/LicenseDialog.qml:31
+msgid "License"
+msgstr ""
+
+#: apps/qml/Login.qml:59
+msgid "Ruqola Log in"
+msgstr ""
+
+#: apps/qml/Login.qml:86
+msgid "Enter Account Name"
+msgstr ""
+
+#: apps/qml/Login.qml:91
+msgid "Rocket Chat Server"
+msgstr ""
+
+#: apps/qml/Login.qml:99
+msgid "Enter address of the server"
+msgstr ""
+
+#: apps/qml/Login.qml:106
+msgid "Authentication Method"
+msgstr ""
+
+#: apps/qml/Login.qml:142
+msgid "Enter your username"
+msgstr ""
+
+#: apps/qml/Login.qml:156
+msgid "Enter your password"
+msgstr ""
+
+#: apps/qml/Login.qml:174
+msgid ""
+"You have enabled second factor authentication. Please enter the generated "
+"code or a backup code."
+msgstr ""
+
+#: apps/qml/Login.qml:183
+msgid "Two-factor authentication code or backup code"
+msgstr ""
+
+#: apps/qml/Login.qml:202
+msgid "Log in"
+msgstr ""
+
+#: apps/qml/Login.qml:215
+msgid "Login Failed"
+msgstr ""
+
+#: apps/qml/Login.qml:223
+msgid "Installation Problem found. No plugins found here."
+msgstr ""
+
+#: apps/qml/MainComponent.qml:56
+msgid "Configure Notification"
+msgstr ""
+
+#: apps/qml/MainComponent.qml:65
+msgid "List of Users"
+msgstr ""
+
+#: apps/qml/MainComponent.qml:71
+msgid "Search Messages"
+msgstr ""
+
+#: apps/qml/MainComponent.qml:80 apps/qml/MainComponent.qml:81
+msgid "Channel Info"
+msgstr ""
+
+#: apps/qml/MainComponent.qml:109 apps/qml/ShowMentionsInRoomDialog.qml:30
+#: ruqolacore/model/notificationpreferencemodel.cpp:81
+msgid "Mentions"
+msgstr ""
+
+#: apps/qml/MainComponent.qml:117 apps/qml/ShowPinnedMessagesDialog.qml:29
+msgid "Pinned Messages"
+msgstr ""
+
+#: apps/qml/MainComponent.qml:125 apps/qml/ShowDiscussionsInRoomDialog.qml:29
+#: ruqolacore/model/roommodel.cpp:493
+msgid "Discussions"
+msgstr ""
+
+#: apps/qml/MainComponent.qml:133 apps/qml/ShowThreadsInRoomDialog.qml:31
+msgid "Threads"
+msgstr ""
+
+#: apps/qml/MainComponent.qml:143
+msgid "Video Chat"
+msgstr ""
+
+#: apps/qml/MainComponent.qml:149
+msgid "Add User In Room"
+msgstr ""
+
+#: apps/qml/MainComponent.qml:160
+msgid "Take a Video Message"
+msgstr ""
+
+#: apps/qml/MainComponent.qml:167
+msgid "Load Recent History"
+msgstr ""
+
+#: apps/qml/MainComponent.qml:174
+msgid "Show Files Attachment In Room"
+msgstr ""
+
+#: apps/qml/MainComponent.qml:224
+msgid "Auto-Translate Activated"
+msgstr ""
+
+#: apps/qml/MessageLine.qml:68
+msgid "Enter message..."
+msgstr ""
+
+#: apps/qml/messages/AttachmentMessageAudio.qml:81
+#: apps/qml/messages/AttachmentMessageVideo.qml:78
+#: ruqolacore/messages/messageattachment.cpp:152
+msgid "File Uploaded: %1"
+msgstr ""
+
+#: apps/qml/messages/AttachmentMessageImage.qml:68
+#: apps/qml/messages/UserMessage.qml:82
+msgid "(edited by %1)"
+msgstr ""
+
+#: apps/qml/messages/DiscussionLabel.qml:35
+msgid "Any message yet"
+msgstr ""
+
+#: apps/qml/messages/JitsiVideoMessage.qml:71
+msgid "Click To Join to Video"
+msgstr ""
+
+#: apps/qml/messages/MessageMenu.qml:36
+msgid "Remove as Favorite"
+msgstr ""
+
+#: apps/qml/messages/MessageMenu.qml:36
+msgid "Set as Favorite"
+msgstr ""
+
+#: apps/qml/messages/MessageMenu.qml:41 apps/qml/UserMenu.qml:46
+msgid "Unignore"
+msgstr ""
+
+#: apps/qml/messages/MessageMenu.qml:41 apps/qml/UserMenu.qml:46
+msgid "Ignore"
+msgstr ""
+
+#: apps/qml/messages/MessageMenu.qml:46
+msgid "Unpin Message"
+msgstr ""
+
+#: apps/qml/messages/MessageMenu.qml:46
+msgid "Pin Message"
+msgstr ""
+
+#: apps/qml/messages/MessageMenu.qml:53
+msgid "Start a Discussion"
+msgstr ""
+
+#: apps/qml/messages/MessageMenu.qml:65
+msgid "Reply in Thread"
+msgstr ""
+
+#: apps/qml/messages/MessageMenu.qml:77
+msgid "Copy"
+msgstr ""
+
+#: apps/qml/messages/MessageMenu.qml:89
+msgid "Edit"
+msgstr ""
+
+#: apps/qml/messages/MessageMenu.qml:99
+msgid "Reply"
+msgstr ""
+
+#: apps/qml/messages/MessageMenu.qml:134
+msgid "Delete"
+msgstr ""
+
+#: apps/qml/messages/MessageMenu.qml:144
+msgid "Report Message"
+msgstr ""
+
+#: apps/qml/messages/RepeaterReactions.qml:80
+msgid "(By %1 persons)"
+msgstr ""
+
+#: apps/qml/messages/ThreadLabel.qml:36
+#: apps/qml/ShowThreadsInRoomDialog.qml:113
+msgid "1 reply"
+msgid_plural "%1 replies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: apps/qml/NotificationOptionsDialog.qml:34
+msgid "Notifications"
+msgstr ""
+
+#: apps/qml/NotificationOptionsDialog.qml:65
+msgid "Disable Notifications:"
+msgstr ""
+
+#: apps/qml/NotificationOptionsDialog.qml:78
+msgid "Hide Unread Room Status:"
+msgstr ""
+
+#: apps/qml/NotificationOptionsDialog.qml:90
+msgid "Mute Groups Mention:"
+msgstr ""
+
+#: apps/qml/NotificationOptionsDialog.qml:109
+#: apps/qml/NotificationOptionsDialog.qml:163
+#: apps/qml/NotificationOptionsDialog.qml:183
+msgid "Alert:"
+msgstr ""
+
+#: apps/qml/NotificationOptionsDialog.qml:120
+msgid "Audio:"
+msgstr ""
+
+#: apps/qml/NotificationOptionsDialog.qml:131
+msgid "Sound:"
+msgstr ""
+
+#: apps/qml/NotificationOptionsDialog.qml:142
+msgid "Duration:"
+msgstr ""
+
+#: apps/qml/OpenChannelDialog.qml:43
+msgid "Do you want to open this channel: \"%1\"?"
+msgstr ""
+
+#: apps/qml/OpenDirectChannelDialog.qml:41
+msgid "Open Conversation with \"%1\"?"
+msgstr ""
+
+#: apps/qml/PasswordLineEdit.qml:33
+msgid "Enter Password..."
+msgstr ""
+
+#: apps/qml/PrivateChannelInfoDialog.qml:34
+msgid "Info About this user"
+msgstr ""
+
+#: apps/qml/PrivateChannelInfoDialog.qml:59
+msgid "Unblock user"
+msgstr ""
+
+#: apps/qml/PrivateChannelInfoDialog.qml:59
+msgid "Block user"
+msgstr ""
+
+#: apps/qml/ReportMessageDialog.qml:50
+msgid "Message:"
+msgstr ""
+
+#: apps/qml/ReportMessageDialog.qml:56
+msgid "Why you signal this message?"
+msgstr ""
+
+#: apps/qml/RoomDelegate.qml:73
+msgid "(%1)"
+msgstr ""
+
+#: apps/qml/RoomsComponent.qml:39 ruqolacore/model/roommodel.cpp:491
+#: ruqolacore/model/roommodel.cpp:496
+msgid "Rooms"
+msgstr ""
+
+#: apps/qml/RoomsComponent.qml:46
+msgid "Open room"
+msgstr ""
+
+#: apps/qml/RoomsComponent.qml:53
+msgid "Unread on Top"
+msgstr ""
+
+#: apps/qml/RoomsComponent.qml:62
+msgid "Show Close Icons"
+msgstr ""
+
+#: apps/qml/RoomsComponent.qml:69
+msgid "Create New Channel"
+msgstr ""
+
+#: apps/qml/RoomsComponent.qml:78 apps/qml/ServerInfoDialog.qml:30
+msgid "Server Info"
+msgstr ""
+
+#: apps/qml/RoomsComponent.qml:91
+msgid "Search Room..."
+msgstr ""
+
+#: apps/qml/RoomsComponent.qml:147
+msgid "Status:"
+msgstr ""
+
+#: apps/qml/SearchChannelDialog.qml:37
+msgid "Search Channel"
+msgstr ""
+
+#: apps/qml/SearchChannelDialog.qml:56
+msgid "Search Channel..."
+msgstr ""
+
+#: apps/qml/SearchChannelDialog.qml:63
+msgid "No Channel found"
+msgstr ""
+
+#: apps/qml/SearchLabel.qml:42
+msgid "(Click here for Loading more...)"
+msgstr ""
+
+#: apps/qml/ServerInfoDialog.qml:41
+msgid "Account name: %1"
+msgstr ""
+
+#: apps/qml/ServerInfoDialog.qml:46
+msgid "User name: %1"
+msgstr ""
+
+#: apps/qml/ServerInfoDialog.qml:51
+msgid "Server version: %1"
+msgstr ""
+
+#: apps/qml/ShowDiscussionsInRoomDialog.qml:54
+msgid "Search Discussions..."
+msgstr ""
+
+#: apps/qml/ShowDiscussionsInRoomDialog.qml:64
+msgid "No Discussion found"
+msgstr ""
+
+#: apps/qml/ShowDiscussionsInRoomDialog.qml:64
+msgid "%1 discussion in room (Total: %2)"
+msgid_plural "%1 discussions in room (Total: %2)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: apps/qml/ShowFilesInRoomDialog.qml:33
+msgid "Attachments"
+msgstr ""
+
+#: apps/qml/ShowFilesInRoomDialog.qml:58
+msgid "Search File..."
+msgstr ""
+
+#: apps/qml/ShowFilesInRoomDialog.qml:68
+msgid "No Attachment found"
+msgstr ""
+
+#: apps/qml/ShowFilesInRoomDialog.qml:68
+msgid "%1 attachment in room (Total: %2)"
+msgid_plural "%1 attachments in room (Total: %2)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: apps/qml/ShowMentionsInRoomDialog.qml:55
+msgid "Search Mentions..."
+msgstr ""
+
+#: apps/qml/ShowMentionsInRoomDialog.qml:65
+msgid "No Mention found"
+msgstr ""
+
+#: apps/qml/ShowMentionsInRoomDialog.qml:65
+msgid "%1 mention in room (Total: %2)"
+msgid_plural "%1 mentions in room (Total: %2)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: apps/qml/ShowPinnedMessagesDialog.qml:52
+msgid "Search Pinned Messages..."
+msgstr ""
+
+#: apps/qml/ShowPinnedMessagesDialog.qml:62
+msgid "No Pinned Messages found"
+msgstr ""
+
+#: apps/qml/ShowPinnedMessagesDialog.qml:62
+msgid "%1 Pinned Message in room (Total: %2)"
+msgid_plural "%1 Pinned Messages in room (Total: %2)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: apps/qml/ShowSearchMessageDialog.qml:33
+msgid "Search Message"
+msgstr ""
+
+#: apps/qml/ShowSearchMessageDialog.qml:59
+msgid "Search Word... (You can use regular expression as /^text$/i)"
+msgstr ""
+
+#: apps/qml/ShowSearchMessageDialog.qml:68
+msgid "Any string found"
+msgstr ""
+
+#: apps/qml/ShowThreadMessagesDialog.qml:36
+msgid "Thread Messages: %1"
+msgstr ""
+
+#: apps/qml/ShowThreadsInRoomDialog.qml:56
+msgid "Search Threads..."
+msgstr ""
+
+#: apps/qml/ShowThreadsInRoomDialog.qml:66
+msgid "No Thread found"
+msgstr ""
+
+#: apps/qml/ShowThreadsInRoomDialog.qml:66
+msgid "%1 thread in room (Total: %2)"
+msgid_plural "%1 threads in room (Total: %2)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: apps/qml/ShowThreadsInRoomDialog.qml:130
+msgid "Open Thread"
+msgstr ""
+
+#: apps/qml/TakeVideoMessageDialog.qml:58
+msgid "There is no camera available."
+msgstr ""
+
+#: apps/qml/TakeVideoMessageDialog.qml:65
+msgid ""
+"Your camera is busy.\n"
+"Try to close other applications using the camera."
+msgstr ""
+
+#: apps/qml/TakeVideoMessageDialog.qml:77
+msgid "Video"
+msgstr ""
+
+#: apps/qml/UploadFileDialog.qml:31
+msgid "Upload File"
+msgstr ""
+
+#: apps/qml/UploadFileDialog.qml:61
+msgid "Description"
+msgstr ""
+
+#: apps/qml/UploadFileDialog.qml:68
+msgid "Message"
+msgstr ""
+
+#: apps/qml/UploadFileDialog.qml:76
+msgid "Select File..."
+msgstr ""
+
+#: apps/qml/UserInfoDialog.qml:30
+msgid "User Info"
+msgstr ""
+
+#: apps/qml/UserInput.qml:57
+msgid "Attach Files"
+msgstr ""
+
+#: apps/qml/UserInput.qml:100
+msgid "Insert Emoji"
+msgstr ""
+
+#: apps/qml/UserInput.qml:119
+msgid "Send Message"
+msgstr ""
+
+#: apps/qml/UserMenu.qml:50
+msgid "Remove as Owner"
+msgstr ""
+
+#: apps/qml/UserMenu.qml:50
+msgid "Add as Owner"
+msgstr ""
+
+#: apps/qml/UserMenu.qml:55
+msgid "Remove as Leader"
+msgstr ""
+
+#: apps/qml/UserMenu.qml:55
+msgid "Add as Leader"
+msgstr ""
+
+#: apps/qml/UserMenu.qml:60
+msgid "Remove as Moderator"
+msgstr ""
+
+#: apps/qml/UserMenu.qml:60
+msgid "Add as Moderator"
+msgstr ""
+
+#: apps/qml/UserMenu.qml:68
+msgid "Conversation"
+msgstr ""
+
+#: apps/qml/UserMenu.qml:119
+msgid "Remove from Room"
+msgstr ""
+
+#: plugins/authentication/google/googlepluginauthentication.cpp:50
+msgid "Google"
+msgstr ""
+
+#: plugins/authentication/password/passwordpluginauthentication.cpp:49
+msgid "Login/Password"
+msgstr ""
+
+#: rocketchatrestapi-qt5/channels/getchannelrolesjob.cpp:119
+msgid "Extract Roles"
+msgstr ""
+
+#: rocketchatrestapi-qt5/groups/groupremoveownerjob.cpp:67
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:376
+msgid ""
+"This is the last owner. Please set a new owner before removing this one."
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:202
+msgid "Unauthorized"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:216
+msgid "%1:%2"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:222
+msgid "__action__ is not allowed"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:224
+msgid "Application not found"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:226
+msgid "There's an archived channel with name '__room_name__'"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:228
+msgid "Invalid avatar URL: __url__"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:230
+msgid ""
+"Error while handling avatar setting from a URL (__url__) for __username__"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:232
+msgid "Can't invite user to direct rooms"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:234
+msgid "The channel default setting is the same as what it would be changed to."
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:236
+msgid "The bodyParam 'default' is required"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:238
+msgid "Could not change email"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:240
+msgid "Could not change name"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:242
+msgid "Could not change username"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:244
+msgid "Cannot delete a protected role"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:246
+msgid "Department not found"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:248
+msgid "File sharing not allowed in direct messages"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:250
+msgid "A channel with name '__channel_name__' exists"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:252
+msgid "Editing permissions is not allowed"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:254
+msgid "The email domain is blacklisted"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:256
+msgid "Error trying to send email: __message__"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:258
+msgid "<strong>__field__</strong> is already in use :("
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:260
+msgid "File is too large"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:262
+msgid "The importer was not defined correctly, it is missing the Import class."
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:264
+msgid "Failed to extract import file."
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:266
+msgid "Imported file seems to be empty."
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:268
+msgid "The file to be imported was not found on the specified path."
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:270
+msgid "__input__ is not a valid __field__"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:272
+msgid "Invalid action link"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:274
+msgid "Invalid Account"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:276
+msgid "Invalid arguments"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:278
+msgid "Invalid asset"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:280
+msgid "Invalid channel."
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:282
+msgid "Invalid channel. Start with @ or #"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:284
+msgid "Invalid custom field"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:286
+msgid ""
+"Invalid custom field name. Use only letters, numbers, hyphens and "
+"underscores."
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:288
+msgid "Invalid date provided."
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:290
+msgid "Invalid description"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:292
+msgid "Invalid domain"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:294
+msgid "Invalid email __email__"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:296
+msgid "Invalid email address"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:298
+msgid "Invalid file height"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:300
+msgid "Invalid file type"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:302
+msgid "Invalid file width"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:304
+msgid "You informed an invalid FROM address."
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:306
+msgid "Invalid integration"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:308
+msgid "Invalid message"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:310
+msgid "Invalid method"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:312
+msgid "Invalid name"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:314
+msgid "Invalid password"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:316
+msgid "Invalid permission"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:318
+msgid "Invalid redirectUri"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:320
+msgid "Invalid role"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:322
+msgid "Invalid room"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:324
+msgid "<strong>__room_name__</strong> is not a valid room name"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:326
+msgid "<strong>__type__</strong> is not a valid room type."
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:328
+msgid "Invalid settings provided"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:330
+msgid "Invalid subscription"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:332
+msgid "Invalid token"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:334
+msgid "Invalid triggerWords"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:336
+msgid "Invalid URLs"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:338
+msgid "Invalid user"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:340
+msgid "Invalid username"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:342
+msgid "The webhook URL responded with a status other than 200"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:344
+msgid "Message deleting is blocked"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:346
+msgid "Message editing is blocked"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:348
+msgid "Message size exceeds Message_MaxAllowedSize"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:350
+msgid "You must provide the [unsubscribe] link."
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:352
+msgid "There are no tokens for this user"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:354
+msgid "Not allowed"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:356
+msgid "Not authorized"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:358
+msgid "Password does not meet the server's policy"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:360
+msgid ""
+"Password does not meet the server's policy of maximum length (password too "
+"long)"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:362
+msgid ""
+"Password does not meet the server's policy of minimum length (password too "
+"short)"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:364
+msgid ""
+"Password does not meet the server's policy of at least one lowercase "
+"character"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:366
+msgid ""
+"Password does not meet the server's policy of at least one numerical "
+"character"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:368
+msgid ""
+"Password does not meet the server's policy of at least one special character"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:370
+msgid ""
+"Password does not meet the server's policy of at least one uppercase "
+"character"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:372
+msgid ""
+"Password does not meet the server's policy of forbidden repeating characters "
+"(you have too many of the same characters next to each other)"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:374
+msgid "Push is disabled"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:378
+msgid "Cannot delete role because it's in use"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:380
+msgid "Role name is required"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:382
+msgid "Room is not closed"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:384
+msgid "The field __field__ is required."
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:386
+msgid "This is not a Livechat room"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:388
+msgid "Personal Access Tokens are currently disabled"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:390
+msgid "A token with this name already exists"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:392
+msgid "Token does not exists"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:394
+msgid ""
+"Error, too many requests. Please slow down. You must wait __seconds__ "
+"seconds before trying again."
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:396
+msgid "User has no roles"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:398
+msgid "User is not activated"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:400
+msgid ""
+"The number of users you are trying to invite to #channel_name exceeds the "
+"limit set by the administrator"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:402
+msgid "User is not in this room"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:404
+msgid "You are not in the room `%s`"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:406
+msgid "User registration is disabled"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:408
+msgid "User registration is only allowed via Secret URL"
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:410
+msgid "You are the last owner. Please set new owner before leaving the room."
+msgstr ""
+
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:412
+msgid "The private group is archived"
+msgstr ""
+
+#: rocketchatrestapi-qt5/users/getavatarjob.cpp:123
+msgid "Get Avatar"
+msgstr ""
+
+#: ruqolacore/aboutdata/qmlaboutdata.cpp:55
+msgid "Version %1"
+msgstr ""
+
+#: ruqolacore/aboutdata/qmlaboutdata.cpp:79
+msgid "KDE has a bug tracking system. Visit <a href=\"%1\">%1</a>"
+msgstr ""
+
+#: ruqolacore/aboutdata/qmlaboutdata.cpp:102
+msgid "License: %1"
+msgstr ""
+
+#: ruqolacore/aboutdata/qmlaboutdata.cpp:109
+msgid ""
+"<ul><li>KDE Frameworks %1</li><li>Qt %2 (built against %3)</li><li>The <em>"
+"%4</em> windowing system</li></ul>"
+msgstr ""
+
+#: ruqolacore/aboutdata/qmlaboutdata.cpp:122
+msgid ""
+"Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
+"report bugs.\n"
+msgstr ""
+
+#: ruqolacore/aboutdata/qmlaboutdata.cpp:128
+msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
+msgstr ""
+
+#: ruqolacore/discussion.cpp:88
+msgid "(Last Message: %1)"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:407
+msgid "%1 has joined the channel"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:409
+msgid "%1 has left the channel"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:412
+msgid "Topic was cleared by: %1"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:414
+msgid "%2 changed topic to: <i>%1</i>"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:417
+msgid "%2 added %1 to the conversation"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:419
+msgid "%2 changed room name to <a href=\"ruqola:/room/%1\">#%1</a>"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:421
+msgid "%2 removed user %1"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:424
+msgid "Description was cleared by %1"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:426
+msgid "%2 changed room description to %1"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:430
+msgid "Announcement was cleared by %1"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:432
+msgid "%2 changed room announcement to %1"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:435
+msgid "%2 changed room privacy to %1"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:437
+msgid "Click to join to video"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:440
+msgid "Message Deleted"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:442
+msgid "Message Pinned"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:444
+msgid "Encrypted Message"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:447
+msgid "%1 was unmuted"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:450
+msgid "%1 was muted"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:452
+msgid "Role '%3' was added to %1 by %2"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:454
+msgid "Role '%3' was removed to %1 by %2"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:457
+msgid "Encrypted message: %1"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:459
+msgid "Discussion created about \"%1\""
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:461
+msgid "%1 has joined the conversation"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:463
+msgid "This room has been archived by %1"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:465
+msgid "This room has been unarchived by %1"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:468 ruqolacore/messages/message.cpp:475
+msgid "Unknown action!"
+msgstr ""
+
+#: ruqolacore/messages/message.cpp:472
+msgid "Welcome %1!"
+msgstr ""
+
+#: ruqolacore/messages/messageattachment.cpp:130
+msgid "File Uploaded:"
+msgstr ""
+
+#: ruqolacore/messages/reaction.cpp:38 ruqolacore/messages/reaction.cpp:51
+msgid "%1 had reacted with %2"
+msgstr ""
+
+#: ruqolacore/messages/reaction.cpp:46
+#: ruqolacore/receivetypingnotificationmanager.cpp:80
+msgid "%1, %2"
+msgstr ""
+
+#: ruqolacore/messages/reaction.cpp:48
+#: ruqolacore/receivetypingnotificationmanager.cpp:82
+msgid "%1 and %2"
+msgstr ""
+
+#: ruqolacore/model/mentionsmodel.cpp:73 ruqolacore/model/messagemodel.cpp:235
+#: ruqolacore/model/searchmessagemodel.cpp:60
+msgid "Ignored Message"
+msgstr ""
+
+#: ruqolacore/model/notificationdesktopdurationpreferencemodel.cpp:71
+#: ruqolacore/model/notificationdesktopsoundpreferencemodel.cpp:71
+#: ruqolacore/model/notificationpreferencemodel.cpp:69
+msgid "Default"
+msgstr ""
+
+#: ruqolacore/model/notificationdesktopdurationpreferencemodel.cpp:77
+msgid "1 second"
+msgid_plural "%1 seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ruqolacore/model/notificationdesktopsoundpreferencemodel.cpp:77
+#: ruqolacore/model/notificationpreferencemodel.cpp:87
+msgid "Nothing"
+msgstr ""
+
+#: ruqolacore/model/notificationdesktopsoundpreferencemodel.cpp:83
+msgid "Beep"
+msgstr ""
+
+#: ruqolacore/model/notificationdesktopsoundpreferencemodel.cpp:89
+msgid "Chelle"
+msgstr ""
+
+#: ruqolacore/model/notificationdesktopsoundpreferencemodel.cpp:95
+msgid "Ding"
+msgstr ""
+
+#: ruqolacore/model/notificationdesktopsoundpreferencemodel.cpp:101
+msgid "Droplet"
+msgstr ""
+
+#: ruqolacore/model/notificationdesktopsoundpreferencemodel.cpp:107
+msgid "Highbell"
+msgstr ""
+
+#: ruqolacore/model/notificationdesktopsoundpreferencemodel.cpp:113
+msgid "Seasons"
+msgstr ""
+
+#: ruqolacore/model/notificationpreferencemodel.cpp:75
+msgid "All Messages"
+msgstr ""
+
+#: ruqolacore/model/roommodel.cpp:473
+msgid "Favorites"
+msgstr ""
+
+#: ruqolacore/model/roommodel.cpp:479 ruqolacore/model/roommodel.cpp:484
+msgid "Unread Rooms"
+msgstr ""
+
+#: ruqolacore/model/roommodel.cpp:481
+msgid "Unread Discussions"
+msgstr ""
+
+#: ruqolacore/model/roommodel.cpp:486
+msgid "Unread Private Messages"
+msgstr ""
+
+#: ruqolacore/model/roommodel.cpp:498
+msgid "Private Messages"
+msgstr ""
+
+#: ruqolacore/model/statusmodel.cpp:73
+msgid "Online"
+msgstr ""
+
+#: ruqolacore/model/statusmodel.cpp:80
+msgid "Busy"
+msgstr ""
+
+#: ruqolacore/model/statusmodel.cpp:87
+msgid "Away"
+msgstr ""
+
+#: ruqolacore/model/statusmodel.cpp:94
+msgid "Offline"
+msgstr ""
+
+#: ruqolacore/notification.cpp:92
+msgid "Has %1 Unread Message"
+msgstr ""
+
+#: ruqolacore/receivetypingnotificationmanager.cpp:72
+msgid "%1 is typing..."
+msgstr ""
+
+#: ruqolacore/receivetypingnotificationmanager.cpp:85
+msgid "%1 are typing..."
+msgstr ""
+
+#: ruqolacore/room.cpp:811
+msgid "Owner"
+msgstr ""
+
+#: ruqolacore/room.cpp:814
+msgid "Leader"
+msgstr ""
+
+#: ruqolacore/room.cpp:817
+msgid "Moderator"
+msgstr ""
+
+#: ruqolacore/room.cpp:1110
+msgid "Channel is read only."
+msgstr ""
+
+#: ruqolacore/room.cpp:1113
+msgid "You have blocked this channel."
+msgstr ""
+
+#: ruqolacore/room.cpp:1116
+msgid "Channel was blocked."
+msgstr ""
