@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-09-20 03:31+0200\n"
-"PO-Revision-Date: 2019-09-23 19:33+0800\n"
+"PO-Revision-Date: 2019-09-29 20:57+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -447,7 +447,7 @@ msgstr ""
 #: advanced.ui:35
 #, kde-format
 msgid "On titlebar hover after:"
-msgstr ""
+msgstr "在標題列懸停超過："
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, shadeHover)
 #: advanced.ui:42
@@ -502,6 +502,32 @@ msgid ""
 "\"><span style=\" font-style:italic;\">Under mouse</span> will place the "
 "window under the pointer</li></ul></body></html>"
 msgstr ""
+"<html><head/><body><p>放置策略會決定新視窗在桌面上顯示的位置。"
+"</p><ul style=\"margin-top: 0px; margin-bottom: "
+"0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" "
+"margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-"
+"block-indent:0; text-indent:0px;\"><span style=\" font-style:italic;"
+"\">智慧型</span> 會盡可能不覆蓋視窗</li><li style=\" margin-top:0px; "
+"margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
+"italic;\">最大化</span> 會嘗試將視窗最大化到貼合整個螢幕。"
+"這可能會在使用視窗指定設定選擇性地影響部份視窗的擺放位置時很有用。"
+"</li><li style=\" margin-top:0px; "
+"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\"><span style=\" font-style:italic;\">重疊顯示</span> "
+"會重疊視窗</li><li style=\" margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+"\"><span style=\" font-style:italic;\">隨機</span> 會使用隨機位置"
+"</li><li style=\" margin-top:0px; margin-bottom:0px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+"style=\" font-style:italic;\">置中</span> 會置中擺放視窗"
+"</li><li style=\" margin-top:0px; margin-bottom:0px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+"style=\" font-style:italic;\">無角落</span> 會將視窗擺放在左上角"
+"</li><li style=\" margin-top:0px; margin-bottom:12px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+"\"><span style=\" font-style:italic;\">游標下</span> 會將視窗擺放在游標下"
+"</li></ul></body></html>"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
 #: advanced.ui:80
@@ -543,7 +569,7 @@ msgstr "在左上角"
 #: advanced.ui:110
 #, kde-format
 msgid "Under mouse"
-msgstr "在滑鼠下"
+msgstr "游標下"
 
 #. i18n: ectx: property (text), widget (QLabel, specialWindowsLabel)
 #: advanced.ui:118
@@ -641,7 +667,7 @@ msgstr "防止盜取焦點(&S)："
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, focusStealing)
 #: focus.ui:114
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<p>This option specifies how much KWin will try to prevent unwanted focus "
 #| "stealing caused by unexpected activation of new windows. (Note: This "
@@ -698,19 +724,6 @@ msgid ""
 "by default means their taskbar entry will be highlighted. This can be "
 "changed in the Notifications control module.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>這個選項指定 KWin 要如何防止未預期開啟的新視窗取得焦"
-"點。（注意：這項功能在焦點追隨滑鼠或焦點相黏追隨滑鼠政策下無法運作。）\n"
-"<ul><li><em>無：</em>關閉防堵功能，新視窗都能取得焦點。</li>\n"
-"<li><em>低：</em>啟用防堵功能；當某些視窗不支援取得優先權(underlying)機制而 "
-"KWin 不能有效決定是否讓該視窗取得焦點時則讓它成為作用中視窗。這個設定值造成的"
-"結果可能比普通等級好，也可能不好，取決於應用程式自身。</li>\n"
-"<li><em>中：</em>啟用防堵功能。</li>\n"
-"<li><em>高：</em>新視窗只有在當時沒有作用中的視窗或者它們自身屬於目前作用中的"
-"應用程式才能取得焦點。這個設定在不使用滑鼠焦點政策時可能不怎麼實用。</li>\n"
-"<li><em>最高：</em>所有的視窗都需要經由使用者明定。</li>\n"
-"</ul></p>\n"
-"<p>要防止失去焦點的視窗需要標記為隨選注意，亦即預設突顯它們的工作列項目。這可"
-"以在通知控制模組中改變。</p>"
 
 #. i18n: Focus Stealing Prevention Level
 #. i18n: ectx: property (text), item, widget (KComboBox, focusStealing)
@@ -1017,7 +1030,7 @@ msgstr "在所有桌面顯示"
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, coTiAct4)
 #: mouse.ui:98
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Behavior on <em>double</em> click into the titlebar."
 msgid "Behavior on <em>mouse wheel</em> scroll over the titlebar."
 msgstr "<em>滑鼠滾輪</em>捲動標題列時的行為。"
@@ -1290,8 +1303,8 @@ msgid ""
 "under the mouse is the preferred candidate. Choose this, if you want a hover "
 "controlled focus.</p></body></html>"
 msgstr ""
-"<b>焦點跟隨滑鼠 - 再來依滑鼠位置</b><br/>\n"
-"跟「焦點跟隨滑鼠」幾乎一樣<br/><br/>\n"
+"<html><head/><body><p>這跟 <span style=\" font-style:"
+"italic;\">焦點跟隨滑鼠</span> 幾乎一樣<br/><br/>\n"
 "不過在系統必須決定目前作用的視窗（例如作用中<br/>的視窗被關閉）的狀況下，會改"
 "用滑鼠位置下的視窗。<br/><br/>\n"
 "如果您要用滑鼠移動的位置決定焦點視窗，則選取此項。"
