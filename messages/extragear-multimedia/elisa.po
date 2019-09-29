@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-11 02:41+0200\n"
+"POT-Creation-Date: 2019-09-29 02:38+0200\n"
 "PO-Revision-Date: 2016-09-22 20:30+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
@@ -284,10 +284,28 @@ msgctxt "Show playlist"
 msgid "Show Playlist"
 msgstr ""
 
-#: qml/ContextView.qml:82
+#: qml/ContextView.qml:83
 #, kde-format
 msgctxt "Title of the context view related to the currently playing track"
 msgid "Now Playing"
+msgstr ""
+
+#: qml/ContextView.qml:158
+#, kde-format
+msgctxt "display of artist and album in context view"
+msgid "<i>by</i> <b>%1</b> <i>from</i> <b>%2</b>"
+msgstr ""
+
+#: qml/ContextView.qml:160
+#, kde-format
+msgctxt "display of album in context view"
+msgid "<i>from</i> <b>%1</b>"
+msgstr ""
+
+#: qml/ContextView.qml:162
+#, kde-format
+msgctxt "display of artist in context view"
+msgid "<i>by</i> <b>%1</b>"
 msgstr ""
 
 #: qml/EditableMetaDataDelegate.qml:41 qml/MetaDataDelegate.qml:39

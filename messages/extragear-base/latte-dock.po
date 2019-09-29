@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-24 02:30+0200\n"
+"POT-Creation-Date: 2019-09-29 02:30+0200\n"
 "PO-Revision-Date: 2019-07-24 23:06+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -2360,6 +2360,26 @@ msgstr "從網際網路下載指示器樣式"
 #, kde-format
 msgid "Download"
 msgstr "下載"
+
+#: shell/package/contents/controls/CustomIndicatorButton.qml:143
+#, fuzzy, kde-format
+#| msgid "Remove Indicator"
+msgid "Remove indicator"
+msgstr "移除指示器"
+
+#: shell/package/contents/controls/CustomIndicatorButton.qml:197
+#, fuzzy, kde-format
+#| msgctxt "add indicator"
+#| msgid "Add Indicator"
+msgid "Add Indicator..."
+msgstr "新增指示器"
+
+#: shell/package/contents/controls/CustomIndicatorButton.qml:207
+#, fuzzy, kde-format
+#| msgctxt "add indicator file"
+#| msgid "Latte Indicator"
+msgid "Get New Indicators..."
+msgstr "Latte 指示器"
 
 #: shell/package/contents/controls/TypeSelection.qml:67
 #, kde-format

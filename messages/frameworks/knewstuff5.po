@@ -218,12 +218,11 @@ msgid ""
 "attempt). Continuing means overwriting it. Do you wish to overwrite the "
 "existing file?"
 msgstr ""
-"此檔案已在磁碟中（可能是因為稍早的下載嘗試失敗）。選擇繼續則會覆寫該檔案，"
-"確定覆寫？"
+"此檔案已在磁碟中（可能是因為稍早的下載嘗試失敗）。選擇繼續則會覆寫該檔案，確"
+"定覆寫？"
 
 #: core/installation.cpp:540
 #, kde-format
-#| msgid "Overwrite existing file?"
 msgid "Overwrite File"
 msgstr "覆寫檔案"
 
@@ -560,7 +559,6 @@ msgstr "更多工具..."
 
 #: qtquick/categoriesmodel.cpp:79
 #, kde-format
-#| msgid "All Categories"
 msgctxt ""
 "The first entry in the category selection list (also the default value)"
 msgid "Show All Categories"
@@ -568,7 +566,6 @@ msgstr "顯示所有分類"
 
 #: qtquick/categoriesmodel.cpp:108
 #, kde-format
-#| msgid "Category:"
 msgctxt ""
 "The string passed back in the case the requested category is not known"
 msgid "Unknown Category"
@@ -588,7 +585,6 @@ msgstr "項目"
 
 #: qtquick/qml/Button.qml:59 qtquick/qml/Dialog.qml:55
 #, kde-format
-#| msgid "Download New Stuff..."
 msgid "Download New %1"
 msgstr "下載新%1"
 
@@ -610,13 +606,11 @@ msgid ""
 "options, please contact the author of this item and ask that they clarify "
 "this through the naming of the items."
 msgstr ""
-"請在下方的可下載項目清單中選擇你要安裝的選項。"
-"如果你所要選的可用選項不夠清楚，請聯絡作者關於此項目，"
-"並請求他們闡述這個項目的命名原因。"
+"請在下方的可下載項目清單中選擇你要安裝的選項。如果你所要選的可用選項不夠清"
+"楚，請聯絡作者關於此項目，並請求他們闡述這個項目的命名原因。"
 
 #: qtquick/qml/EntryDetails.qml:63 qtquick/qml/Page.qml:206
 #, kde-format
-#| msgid "Installing"
 msgctxt ""
 "A passive notification shown when installation of an item is initiated"
 msgid "Installing %1 from %2"
@@ -645,9 +639,7 @@ msgctxt ""
 msgid ""
 "This item is currently in an invalid or unknown state. Please report this to "
 "the KDE Community in a bug report."
-msgstr ""
-"這個項目目前無效或處於不明狀態。"
-"請在漏洞回報中回報此問題至 KDE 社群。"
+msgstr "這個項目目前無效或處於不明狀態。請在漏洞回報中回報此問題至 KDE 社群。"
 
 #: qtquick/qml/EntryDetails.qml:93
 #, kde-format
@@ -662,7 +654,6 @@ msgstr "%1 由 %2"
 #: qtquick/qml/private/entrygriddelegates/ThumbDelegate.qml:57
 #: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:65
 #, kde-format
-#| msgid "Install"
 msgctxt ""
 "Request installation of this item, available when there is exactly one "
 "downloadable item"
@@ -674,7 +665,6 @@ msgstr "安裝"
 #: qtquick/qml/private/entrygriddelegates/ThumbDelegate.qml:57
 #: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:65
 #, kde-format
-#| msgid "Install"
 msgctxt ""
 "Show installation options, where there is more than one downloadable item"
 msgid "Install..."
@@ -711,14 +701,11 @@ msgstr "%1 個評論"
 
 #: qtquick/qml/EntryDetails.qml:199
 #, kde-format
-#| msgid "Rating"
 msgid "Rating:"
 msgstr "評價："
 
 #: qtquick/qml/EntryDetails.qml:203
 #, kde-format
-#| msgctxt "A link to the description of this Get Hot New Stuff item"
-#| msgid "Homepage"
 msgid "Homepage:"
 msgstr "首頁："
 
@@ -758,7 +745,6 @@ msgstr "顯示所有項目"
 
 #: qtquick/qml/NewStuffList.qml:84 qtquick/qml/Page.qml:173
 #, kde-format
-#| msgid "Installed"
 msgctxt ""
 "List option which will set the filter so only installed items are shown"
 msgid "Installed Only"
@@ -796,7 +782,6 @@ msgstr "先顯示最高評價"
 
 #: qtquick/qml/NewStuffList.qml:100 qtquick/qml/Page.qml:189
 #, kde-format
-#| msgid "Most downloads"
 msgctxt ""
 "List option which will set the sort order to based on number of downloads"
 msgid "Show most downloaded first"
@@ -804,7 +789,6 @@ msgstr "先顯示下載數最多項"
 
 #: qtquick/qml/Page.qml:78
 #, kde-format
-#| msgid "Use"
 msgctxt ""
 "If a knsrc file defines an adoption command, the option to run this command "
 "and 'use' an item becomes available. This is the text for an action to do so."
@@ -813,7 +797,6 @@ msgstr "使用"
 
 #: qtquick/qml/Page.qml:139
 #, kde-format
-#| msgid "Search:"
 msgid "Search..."
 msgstr "搜尋…"
 
@@ -841,8 +824,6 @@ msgstr "%1 的留言及評論"
 #: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:180
 #: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:198
 #, kde-format
-#| msgid "1 download"
-#| msgid_plural "%1 downloads"
 msgctxt "The number of times the item has been downloaded"
 msgid "%1 downloads"
 msgstr "下載 %1 次"
@@ -850,8 +831,6 @@ msgstr "下載 %1 次"
 #: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:193
 #: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:180
 #, kde-format
-#| msgctxt "Show the author of this item in a list"
-#| msgid "By <i>%1</i>"
 msgctxt ""
 "Subheading for the tile view, located immediately underneath the name of the "
 "item"
@@ -860,7 +839,6 @@ msgstr "由 <i>%1</i>"
 
 #: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:94
 #, kde-format
-#| msgid "Details"
 msgctxt "Show a page with details for this item"
 msgid "Details..."
 msgstr "詳細資料..."
@@ -879,8 +857,7 @@ msgid ""
 "You are not authorized to Get Hot New Stuff. If you think this is in error, "
 "please contact the person in charge of your permissions."
 msgstr ""
-"您未授權使用「取得新熱門項目」。如果你認為這是錯誤，"
-"請聯絡負責您權限的人。"
+"您未授權使用「取得新熱門項目」。如果你認為這是錯誤，請聯絡負責您權限的人。"
 
 #: qtquick/quickitemsmodel.cpp:418
 #, kde-format

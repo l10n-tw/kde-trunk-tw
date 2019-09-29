@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-28 02:46+0200\n"
+"POT-Creation-Date: 2019-09-29 02:50+0200\n"
 "PO-Revision-Date: 2019-09-22 13:14+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -6297,25 +6297,25 @@ msgstr "重試"
 msgid "Authentication Dialog"
 msgstr "認證對話框"
 
-#: urifilters/ikws/ikwsopts.cpp:54
+#: urifilters/ikws/ikwsopts.cpp:50
 #, kde-format
 msgctxt "@title:column Name label from web shortcuts column"
 msgid "Name"
 msgstr "名稱"
 
-#: urifilters/ikws/ikwsopts.cpp:56
+#: urifilters/ikws/ikwsopts.cpp:52
 #, kde-format
 msgctxt "@title:column"
 msgid "Shortcuts"
 msgstr "捷徑"
 
-#: urifilters/ikws/ikwsopts.cpp:58
+#: urifilters/ikws/ikwsopts.cpp:54
 #, kde-format
 msgctxt "@title:column"
 msgid "Preferred"
 msgstr "偏好"
 
-#: urifilters/ikws/ikwsopts.cpp:107
+#: urifilters/ikws/ikwsopts.cpp:105
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -6326,13 +6326,13 @@ msgstr ""
 "勾選此選項，可以將突顯的網頁捷徑設為預設。<nl/> 預設的網頁捷徑會在只能顯示少"
 "量的捷徑的地方使用。"
 
-#: urifilters/ikws/ikwsopts.cpp:201
+#: urifilters/ikws/ikwsopts.cpp:202
 #, kde-format
 msgctxt "@item:inlistbox No default web shortcut"
 msgid "None"
 msgstr "無"
 
-#: urifilters/ikws/ikwsopts.cpp:264
+#: urifilters/ikws/ikwsopts.cpp:268
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6478,17 +6478,17 @@ msgctxt "Space as keyword delimiter"
 msgid "Space"
 msgstr "空白"
 
-#: urifilters/ikws/kuriikwsfilter.cpp:123
+#: urifilters/ikws/kuriikwsfilter.cpp:119
 #, kde-format
 msgid "No preferred search providers were found."
 msgstr "找不到想要的搜尋提供者。"
 
-#: urifilters/ikws/kuriikwsfilter.cpp:142
+#: urifilters/ikws/kuriikwsfilter.cpp:134
 #, kde-format
 msgid "No search providers were found."
 msgstr "找不到搜尋提供者。"
 
-#: urifilters/ikws/kurisearchfilter.cpp:95
+#: urifilters/ikws/kurisearchfilter.cpp:94
 #, kde-format
 msgid "Search F&ilters"
 msgstr "搜尋過濾器(&I)"
@@ -6499,30 +6499,30 @@ msgctxt "@item:inlistbox The default character set"
 msgid "Default"
 msgstr "預設"
 
-#: urifilters/ikws/searchproviderdlg.cpp:62
+#: urifilters/ikws/searchproviderdlg.cpp:61
 #, kde-format
 msgid "Modify Web Shortcut"
 msgstr "變更網頁捷徑"
 
-#: urifilters/ikws/searchproviderdlg.cpp:72
+#: urifilters/ikws/searchproviderdlg.cpp:69
 #, kde-format
 msgid "New Web Shortcut"
 msgstr "新增網頁捷徑"
 
-#: urifilters/ikws/searchproviderdlg.cpp:125
+#: urifilters/ikws/searchproviderdlg.cpp:124
 #, kde-format
 msgid ""
 "The shortcut \"%1\" is already assigned to \"%2\". Please choose a different "
 "one."
 msgstr "捷徑 %1 已指定給 %2。請選擇不同的捷徑。"
 
-#: urifilters/ikws/searchproviderdlg.cpp:130
+#: urifilters/ikws/searchproviderdlg.cpp:129
 #, kde-format
 msgctxt "- web short cut (e.g. gg): what it refers to (e.g. Google)"
 msgid "- %1: \"%2\""
 msgstr "- %1: \"%2\""
 
-#: urifilters/ikws/searchproviderdlg.cpp:134
+#: urifilters/ikws/searchproviderdlg.cpp:133
 #, kde-format
 msgid ""
 "The following shortcuts are already assigned. Please choose different ones.\n"
@@ -6531,7 +6531,7 @@ msgstr ""
 "以下的捷徑已經被指定。請選擇其它的捷徑。\n"
 "%1"
 
-#: urifilters/ikws/searchproviderdlg.cpp:146
+#: urifilters/ikws/searchproviderdlg.cpp:145
 #, kde-format
 msgid ""
 "The Shortcut URL does not contain a \\{...} placeholder for the user query.\n"
@@ -6540,7 +6540,7 @@ msgid ""
 msgstr ""
 "此捷徑網址不包含 \\{...} 符號。這表示不管輸入什麼文字，都會跑到同一個網址。"
 
-#: urifilters/ikws/searchproviderdlg.cpp:149
+#: urifilters/ikws/searchproviderdlg.cpp:148
 #, kde-format
 msgid "Keep It"
 msgstr "保留"
@@ -6653,12 +6653,12 @@ msgstr "字元集(&C)："
 msgid "Insert query placeholder"
 msgstr "插入查詢佔位符"
 
-#: urifilters/shorturi/kshorturifilter.cpp:279
+#: urifilters/shorturi/kshorturifilter.cpp:264
 #, kde-format
 msgid "<qt><b>%1</b> does not have a home folder.</qt>"
 msgstr "<qt><b>%1</b> 沒有家目錄。</qt>"
 
-#: urifilters/shorturi/kshorturifilter.cpp:281
+#: urifilters/shorturi/kshorturifilter.cpp:266
 #, kde-format
 msgid "<qt>There is no user called <b>%1</b>.</qt>"
 msgstr "<qt>沒有叫做 <b>%1</b> 的使用者。</qt>"
