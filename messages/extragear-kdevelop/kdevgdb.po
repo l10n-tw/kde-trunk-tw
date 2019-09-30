@@ -4,19 +4,20 @@
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009.
 # Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009.
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2012, 2013, 2014.
+# pan93412 <pan93412@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdevcppdebugger\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-09-28 02:35+0200\n"
-"PO-Revision-Date: 2014-02-27 11:05+0800\n"
-"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
-"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"PO-Revision-Date: 2019-09-30 18:42+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 19.08.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: debuggerplugin.cpp:56 debuggerplugin.cpp:132 gdbconfigpage.cpp:131
@@ -89,15 +90,14 @@ msgid "Custom format string"
 msgstr "自訂格式字串"
 
 #: debugsession.cpp:181
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "No environment group specified, looks like a broken configuration, please "
 #| "check run configuration '%1'. Using default environment group."
 msgid ""
 "No environment profile specified, looks like a broken configuration, please "
 "check run configuration '%1'. Using default environment profile."
-msgstr ""
-"沒有指定環境群組，似乎是設定有問題。請檢查執行設定 %1。將改用預設的環境群組。"
+msgstr "沒有指定環境設定檔，似乎是設定有問題。請檢查執行設定 %1。將改用預設的環境設定檔。"
 
 #: debugsession.cpp:293
 #, kde-format
@@ -120,13 +120,13 @@ msgid "Startup error"
 msgstr "啟動錯誤"
 
 #: debugsession.cpp:319
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<b>Debugger error</b><p>Debugger reported the following error:<p><tt>%1"
 msgid ""
 "<b>Failed to load core file</b><p>Debugger reported the following error:"
 "<p><tt>%1"
-msgstr "<b>除錯器錯誤</b><p>除錯器回報了以下的錯誤：<p><tt>%1"
+msgstr "<b>無法載入核心檔案</b><p>除錯器回報了以下錯誤：<p><tt>%1"
 
 #: gdb.cpp:80
 #, kde-format
@@ -144,17 +144,17 @@ msgid "GDB Configuration"
 msgstr "除錯器設定"
 
 #: gdbconfigpage.cpp:149
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "A program is already being debugged. Do you want to abort the currently "
 "running debug session and continue with the launch?"
-msgstr ""
+msgstr "某個應用程式正在除錯中。是否中止目前執行的除錯階段，並使用此啟動階段繼續？"
 
 #: gdbconfigpage.cpp:175
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Executes a Native application in GDB"
 msgid "Executes a native application in GDB"
-msgstr "在 GDB 中執行原始應用程式"
+msgstr "在 GDB 執行原生應用程式"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: gdbconfigpage.ui:17
@@ -164,10 +164,10 @@ msgstr "除錯器"
 
 #. i18n: ectx: property (text), widget (QLabel, gdbPath_label)
 #: gdbconfigpage.ui:23
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Debugger executable:"
 msgid "Debugger e&xecutable:"
-msgstr "除錯器執行檔："
+msgstr "除錯器執行檔(&X)："
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_gdbPath)
 #: gdbconfigpage.ui:36
@@ -177,7 +177,7 @@ msgstr "Gdb 執行檔"
 
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_gdbPath)
 #: gdbconfigpage.ui:39
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "To run \"gdb\" binary from $PATH, leave this field empty. To run custom "
 #| "gdb, for example, for a different architecture, enter the executable name "
@@ -191,19 +191,20 @@ msgid ""
 "\"arm-gdb\"), by typing the name here, or specify full path to the gdb "
 "executable."
 msgstr ""
-"若這個欄位留白，則會從 $PATH 中尋找 gdb。要跑自訂的 gdb 程式，比方說其它平台"
-"上的 gdb，則可以在這裡直接指定執行檔路徑。"
+"若要從 $PATH 執行「gdb」執行檔，請留白此欄位。若要執行自訂 gdb，例如"
+"其他平台的 gdb，請在此輸入執行檔名稱。你亦可從 $PATH 執行不同名稱的 gdb"
+"（例如「arm-gdb」），請在此輸入其名稱，或指定指向該 gdb 執行檔的完整路徑。"
 
 #. i18n: ectx: property (placeholderText), widget (KUrlRequester, kcfg_gdbPath)
 #: gdbconfigpage.ui:42
 #, kde-format
 msgid "Override path to gdb executable"
-msgstr ""
+msgstr "覆蓋 gdb 可執行檔的路徑"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, debuggingShell_label)
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_debuggingShell)
 #: gdbconfigpage.ui:49 gdbconfigpage.ui:68
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body><p>If you want gdb to be executed by a special shell "
 #| "script, which for example properly sets the library path, insert it here "
@@ -222,15 +223,15 @@ msgstr ""
 "<html><head/><body><p>若您要 gdb 用一個特殊的 shell 文稿來執行，比方說可能要"
 "設定額外的函式庫路徑等等，請設定在此處。例如：/path/to/script.sh --"
 "scriptArguments</p><p>注意：您的文稿將會以這種方式啟動：/path/to/script.sh --"
-"scriptArguments debugger --debuggerArguments。因此 script.sh 裡必須手動啟動除"
-"錯器。</p></body></html>"
+"scriptArguments debugger --debuggerArguments。因此 script.sh 裡"
+"<span style=\" font-weight:600;\">必須</span>手動啟動除錯器。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, debuggingShell_label)
 #: gdbconfigpage.ui:55
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Shell script:"
 msgid "She&ll script:"
-msgstr "&Shell 文稿："
+msgstr "Shell 文稿(&L)："
 
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_debuggingShell)
 #: gdbconfigpage.ui:71
@@ -284,10 +285,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: gdbconfigpage.ui:137
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Start Debugger with:"
 msgid "S&tart debugger with:"
-msgstr "啟動除錯器方式："
+msgstr "除錯器開啟方式(&T)："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_startWith)
 #: gdbconfigpage.ui:148
@@ -442,16 +443,16 @@ msgid "Debugger Toolbar"
 msgstr "除錯器工具列"
 
 #: memviewdlg.cpp:74
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Start"
 msgid "Start:"
-msgstr "開始"
+msgstr "開啟："
 
 #: memviewdlg.cpp:77
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Amount"
 msgid "Amount:"
-msgstr "數量"
+msgstr "數量："
 
 #: memviewdlg.cpp:104
 #, kde-format

@@ -2,19 +2,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2012, 2013.
+# pan93412 <pan93412@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-06-28 02:42+0200\n"
-"PO-Revision-Date: 2013-10-21 13:34+0800\n"
-"Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
-"Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
+"PO-Revision-Date: 2019-09-30 18:59+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 19.08.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: editexternalscript.cpp:45
@@ -114,7 +115,7 @@ msgid ""
 msgstr "<p>定義是否要在文稿執行前先儲存文件。</p>"
 
 #: editexternalscript.cpp:109
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<p>Defines whether the output of the script should be shown in a toolview."
 #| "</p>"
@@ -128,8 +129,7 @@ msgstr "<p>定義是否要在工具檢視中顯示文稿的輸出。</p>"
 msgid ""
 "<p>Defines what type of filtering should be applied to the output. E.g. to "
 "indicate errors by red text.</p>"
-msgstr ""
-"<p>定義輸出要套用哪一種型態的過濾器。例如：將錯誤以紅色文字標記出來。</p>"
+msgstr "<p>定義輸出要套用哪一種型態的過濾器。例如：將錯誤以紅色文字標記出來。</p>"
 
 #: editexternalscript.cpp:121
 #, kde-format
@@ -149,7 +149,7 @@ msgstr "名稱(&N)："
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, nameEdit)
 #: editexternalscript.ui:30
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<p>The name will also be used as the identifier during code completion.</"
 #| "p>\n"
@@ -271,7 +271,7 @@ msgstr "與正常輸出合併"
 
 #. i18n: ectx: property (text), widget (QLabel, saveLabel)
 #: editexternalscript.ui:193
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Save &Mode:"
 msgid "Save &mode:"
 msgstr "儲存模式(&M)："
@@ -296,14 +296,14 @@ msgstr "儲存所有開啟的文件"
 
 #. i18n: ectx: property (text), widget (QLabel)
 #: editexternalscript.ui:222
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show Out&put"
 msgid "Show out&put:"
-msgstr "顯示輸出(&P)"
+msgstr "顯示輸出："
 
 #. i18n: ectx: property (text), widget (QLabel, outputFilterLabel)
 #: editexternalscript.ui:239
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Output Filter:"
 msgid "Output filter:"
 msgstr "輸出過濾器："
@@ -417,7 +417,7 @@ msgstr "在 Google 上查詢選取區文字"
 #: externalscriptplugin.cpp:171
 #, kde-format
 msgid "Paste to Hastebin"
-msgstr ""
+msgstr "貼至 Hastebin"
 
 #: externalscriptview.cpp:62
 #, kde-format
