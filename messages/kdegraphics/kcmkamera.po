@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkamera\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-20 02:56+0200\n"
+"POT-Creation-Date: 2019-09-30 02:55+0200\n"
 "PO-Revision-Date: 2016-11-04 09:17+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -95,12 +95,12 @@ msgstr "取消"
 msgid "Click this button to cancel the current camera operation."
 msgstr "請點選這個按鈕以取消目前照相機的動作。"
 
-#: kamera.cpp:357
+#: kamera.cpp:370
 #, kde-format
 msgid "Camera test was successful."
 msgstr "照相機測試成功"
 
-#: kamera.cpp:440
+#: kamera.cpp:453
 #, kde-format
 msgid ""
 "<h1>Digital Camera</h1>\n"
@@ -142,7 +142,7 @@ msgstr "無法配置記憶體。"
 msgid "Could not load ability list."
 msgstr "無法載入功能清單"
 
-#: kameradevice.cpp:103 kameradevice.cpp:518 kameradevice.cpp:534
+#: kameradevice.cpp:103 kameradevice.cpp:517 kameradevice.cpp:533
 #, kde-format
 msgid ""
 "Description of abilities for camera %1 is not available. Configuration "
@@ -194,7 +194,7 @@ msgstr "未知通訊埠"
 msgid "Select Camera Device"
 msgstr "選擇照相機裝置"
 
-#: kameradevice.cpp:319
+#: kameradevice.cpp:320
 #, kde-format
 msgctxt "@title:column"
 msgid "Supported Cameras"
@@ -226,22 +226,22 @@ msgstr "若是這個項目開啟了，那照相機應該連結到您主機的 US
 msgid "Port Settings"
 msgstr "通訊埠設定"
 
-#: kameradevice.cpp:371
+#: kameradevice.cpp:370
 #, kde-format
 msgid "No port type selected."
 msgstr "沒有選擇通訊埠的種類。"
 
-#: kameradevice.cpp:379
+#: kameradevice.cpp:378
 #, kde-format
 msgid "Port:"
 msgstr "通訊埠："
 
-#: kameradevice.cpp:382
+#: kameradevice.cpp:381
 #, kde-format
 msgid "Specify here the serial port to which you connect the camera."
 msgstr "您可以在這裡選擇您照相幾所連結的序列埠位址。"
 
-#: kameradevice.cpp:390
+#: kameradevice.cpp:389
 #, kde-format
 msgid "No further configuration is required for USB cameras."
 msgstr "沒有進一步可供 USB 的設定。"

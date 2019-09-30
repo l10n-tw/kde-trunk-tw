@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-29 02:50+0200\n"
+"POT-Creation-Date: 2019-09-30 02:42+0200\n"
 "PO-Revision-Date: 2019-09-22 13:14+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -2723,37 +2723,37 @@ msgstr "屬性"
 msgid "&View"
 msgstr "檢視(&V)"
 
-#: filewidgets/kdiroperator.cpp:2203 filewidgets/kdiroperator.cpp:2215
+#: filewidgets/kdiroperator.cpp:2204 filewidgets/kdiroperator.cpp:2216
 #, kde-format
 msgctxt "Sort descending"
 msgid "Z-A"
 msgstr "Z-A"
 
-#: filewidgets/kdiroperator.cpp:2204 filewidgets/kdiroperator.cpp:2216
+#: filewidgets/kdiroperator.cpp:2205 filewidgets/kdiroperator.cpp:2217
 #, kde-format
 msgctxt "Sort ascending"
 msgid "A-Z"
 msgstr "A-Z"
 
-#: filewidgets/kdiroperator.cpp:2207
+#: filewidgets/kdiroperator.cpp:2208
 #, kde-format
 msgctxt "Sort descending"
 msgid "Newest First"
 msgstr "由新至舊"
 
-#: filewidgets/kdiroperator.cpp:2208
+#: filewidgets/kdiroperator.cpp:2209
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Oldest First"
 msgstr "由舊至新"
 
-#: filewidgets/kdiroperator.cpp:2211
+#: filewidgets/kdiroperator.cpp:2212
 #, kde-format
 msgctxt "Sort descending"
 msgid "Largest First"
 msgstr "由大至小"
 
-#: filewidgets/kdiroperator.cpp:2212
+#: filewidgets/kdiroperator.cpp:2213
 #, kde-format
 msgctxt "Sort ascending"
 msgid "Smallest First"
@@ -2802,19 +2802,19 @@ msgctxt "@title:menu"
 msgid "Root Folder"
 msgstr "根目錄"
 
-#: filewidgets/kfilecopytomenu.cpp:153
+#: filewidgets/kfilecopytomenu.cpp:154
 #, kde-format
 msgctxt "@title:menu in Copy To or Move To submenu"
 msgid "Browse..."
 msgstr "瀏覽..."
 
-#: filewidgets/kfilecopytomenu.cpp:234
+#: filewidgets/kfilecopytomenu.cpp:235
 #, kde-format
 msgctxt "@title:menu"
 msgid "Copy Here"
 msgstr "複製到這裡"
 
-#: filewidgets/kfilecopytomenu.cpp:235
+#: filewidgets/kfilecopytomenu.cpp:236
 #, kde-format
 msgctxt "@title:menu"
 msgid "Move Here"
@@ -3393,12 +3393,12 @@ msgstr ""
 "以將此選項關閉或者您可以在檔案名稱的結尾加上句點(.)來限制它（這個句點會自動被"
 "移除）。</li></ol>如果不確定，保持啟用此選項，因為它會讓您的檔案更容易管理。"
 
-#: filewidgets/kfilewidget.cpp:2676
+#: filewidgets/kfilewidget.cpp:2677
 #, kde-format
 msgid "Bookmarks"
 msgstr "書籤"
 
-#: filewidgets/kfilewidget.cpp:2680
+#: filewidgets/kfilewidget.cpp:2681
 #, kde-format
 msgid ""
 "<qt>This button allows you to bookmark specific locations. Click on this "
@@ -3410,24 +3410,24 @@ msgstr ""
 "添加、編輯或選擇書籤。<br /><br />這些書籤專用於檔案對話方塊，但是可以像 KDE "
 "其他地方的書籤一樣操作。</qt>"
 
-#: filewidgets/kfilewidget.cpp:2823
+#: filewidgets/kfilewidget.cpp:2824
 #, kde-format
 msgid "&File type:"
 msgstr "檔案類型(&F)："
 
-#: filewidgets/kfilewidget.cpp:2824
+#: filewidgets/kfilewidget.cpp:2825
 #, kde-format
 msgid ""
 "<qt>This is the file type selector. It is used to select the format that the "
 "file will be saved as.</qt>"
 msgstr "<qt>此為檔案類型選取器，用來選取儲存檔案的格式。</qt>"
 
-#: filewidgets/kfilewidget.cpp:2826
+#: filewidgets/kfilewidget.cpp:2827
 #, kde-format
 msgid "&Filter:"
 msgstr "篩選器(&F)："
 
-#: filewidgets/kfilewidget.cpp:2827
+#: filewidgets/kfilewidget.cpp:2828
 #, kde-format
 msgid ""
 "<qt>This is the filter to apply to the file list. File names that do not "
@@ -3543,19 +3543,19 @@ msgstr "新增"
 msgid "Link to Device"
 msgstr "連結到裝置"
 
-#: filewidgets/knewfilemenu.cpp:1258
+#: filewidgets/knewfilemenu.cpp:1256
 #, kde-format
 msgctxt "Default name for a new folder"
 msgid "New Folder"
 msgstr "新資料夾"
 
-#: filewidgets/knewfilemenu.cpp:1269
+#: filewidgets/knewfilemenu.cpp:1267
 #, kde-format
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "新資料夾"
 
-#: filewidgets/knewfilemenu.cpp:1279
+#: filewidgets/knewfilemenu.cpp:1277
 #, kde-format
 msgid "Create new folder in %1:"
 msgstr "在 %1 建立新資料夾："
@@ -3760,12 +3760,12 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ioslaves/ftp/ftp.cpp:581 ioslaves/http/http.cpp:5342
+#: ioslaves/ftp/ftp.cpp:581 ioslaves/http/http.cpp:5343
 #, kde-format
 msgid "You need to supply a username and a password to access this site."
 msgstr "您必須提供一組使用者名稱和密碼來存取這個網站。"
 
-#: ioslaves/ftp/ftp.cpp:583 ioslaves/http/http.cpp:5344
+#: ioslaves/ftp/ftp.cpp:583 ioslaves/http/http.cpp:5345
 #, kde-format
 msgid "Site:"
 msgstr "網站:"
@@ -3794,8 +3794,8 @@ msgstr ""
 "\n"
 "伺服器回傳：「%1」"
 
-#: ioslaves/ftp/ftp.cpp:2591 ioslaves/http/http.cpp:5223
-#: ioslaves/http/http.cpp:5356
+#: ioslaves/ftp/ftp.cpp:2591 ioslaves/http/http.cpp:5224
+#: ioslaves/http/http.cpp:5357
 #, kde-format
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
@@ -3803,20 +3803,20 @@ msgid ""
 msgstr ""
 "您必須為下列的代理伺服器提供一組使用者名稱和密碼，才能夠取得存取網站的權限。"
 
-#: ioslaves/ftp/ftp.cpp:2595 ioslaves/http/http.cpp:5227
-#: ioslaves/http/http.cpp:5359
+#: ioslaves/ftp/ftp.cpp:2595 ioslaves/http/http.cpp:5228
+#: ioslaves/http/http.cpp:5360
 #, kde-format
 msgid "Proxy:"
 msgstr "代理伺服器:"
 
-#: ioslaves/ftp/ftp.cpp:2596 ioslaves/http/http.cpp:5228
-#: ioslaves/http/http.cpp:5465
+#: ioslaves/ftp/ftp.cpp:2596 ioslaves/http/http.cpp:5229
+#: ioslaves/http/http.cpp:5466
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> 在 <b>%2</b>"
 
-#: ioslaves/ftp/ftp.cpp:2597 ioslaves/http/http.cpp:5230
-#: ioslaves/http/http.cpp:5376
+#: ioslaves/ftp/ftp.cpp:2597 ioslaves/http/http.cpp:5231
+#: ioslaves/http/http.cpp:5377
 #, kde-format
 msgid "Proxy Authentication Failed."
 msgstr "代理伺服器認證失敗。"
@@ -4041,12 +4041,12 @@ msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "在連線到 %2 發生了無預期的錯誤 (%1)。"
 
-#: ioslaves/http/http.cpp:2657
+#: ioslaves/http/http.cpp:2658
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1 已聯繫上。等待回應中..."
 
-#: ioslaves/http/http.cpp:3001
+#: ioslaves/http/http.cpp:3002
 #, kde-format
 msgctxt "@info Security check on url being accessed"
 msgid ""
@@ -4057,38 +4057,38 @@ msgstr ""
 "<p>您準備使用帳號 %2 登入站台 %1，但是該站台不需要認證。這可能是騙人的網站。"
 "</p><p>您確定您要造訪的站台是 %1 嗎？</p>"
 
-#: ioslaves/http/http.cpp:3007
+#: ioslaves/http/http.cpp:3008
 #, kde-format
 msgctxt "@title:window"
 msgid "Confirm Website Access"
 msgstr "確認網站存取"
 
-#: ioslaves/http/http.cpp:3096
+#: ioslaves/http/http.cpp:3097
 #, kde-format
 msgid "Server processing request, please wait..."
 msgstr "伺服器產生請求中，請稍後..."
 
-#: ioslaves/http/http.cpp:3806 ioslaves/http/http.cpp:3864
+#: ioslaves/http/http.cpp:3807 ioslaves/http/http.cpp:3865
 #, kde-format
 msgid "Sending data to %1"
 msgstr "送出資料至 %1"
 
-#: ioslaves/http/http.cpp:4319
+#: ioslaves/http/http.cpp:4320
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr "從 %2 接收 %1 資料..."
 
-#: ioslaves/http/http.cpp:5375
+#: ioslaves/http/http.cpp:5376
 #, kde-format
 msgid "Authentication Failed."
 msgstr "認證失敗。"
 
-#: ioslaves/http/http.cpp:5506
+#: ioslaves/http/http.cpp:5507
 #, kde-format
 msgid "Authorization failed."
 msgstr "授權失敗。"
 
-#: ioslaves/http/http.cpp:5523
+#: ioslaves/http/http.cpp:5524
 #, kde-format
 msgid "Unknown Authorization method."
 msgstr "未知的授權方法。"
@@ -4514,12 +4514,12 @@ msgstr "清空垃圾桶"
 msgid "Restore a trashed file to its original location"
 msgstr "將垃圾桶內的檔案回復到原來的位置"
 
-#: ioslaves/trash/trashimpl.cpp:1382
+#: ioslaves/trash/trashimpl.cpp:1383
 #, kde-format
 msgid "The file is too large to be trashed."
 msgstr "檔案太大無法擺在垃圾桶內。"
 
-#: ioslaves/trash/trashimpl.cpp:1388
+#: ioslaves/trash/trashimpl.cpp:1389
 #, kde-format
 msgid ""
 "The trash has reached its maximum size!\n"

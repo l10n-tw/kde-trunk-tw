@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-29 02:33+0200\n"
+"POT-Creation-Date: 2019-09-30 02:29+0200\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -2848,7 +2848,7 @@ msgid "Map Search"
 msgstr "地圖搜尋"
 
 #: core/app/views/stack/itemiconview.cpp:231
-#: core/libs/database/coredb/coredbschemaupdater.cpp:1031
+#: core/libs/database/coredb/coredbschemaupdater.cpp:1032
 #, kde-format
 msgid "Last Search"
 msgstr "上次搜尋"
@@ -22837,7 +22837,7 @@ msgstr ""
 "更新綱要版本從版本 %1 到 %2 時失敗。請讀取主控台上的錯誤訊息並到 bugs.kde."
 "org 回報此錯誤。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:636
+#: core/libs/database/coredb/coredbschemaupdater.cpp:637
 #, kde-format
 msgid ""
 "The database update action cannot be found. Please ensure that the dbconfig."
@@ -22847,12 +22847,12 @@ msgstr ""
 "找不到資料庫更新動作。請確定目前板的 digiKam 裡的 dbconfig.xml 檔已安裝在正確"
 "的位置。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:655
+#: core/libs/database/coredb/coredbschemaupdater.cpp:656
 #, kde-format
 msgid "Updated schema to version %1."
 msgstr "更新綱要到版本 %1。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:717
+#: core/libs/database/coredb/coredbschemaupdater.cpp:718
 #, kde-format
 msgid ""
 "Failed to copy the old database file (\"%1\") to its new location (\"%2\"). "
@@ -22862,12 +22862,12 @@ msgstr ""
 "將舊的資料庫檔案 (\"%1\") 複製到新的位置 (\"%2\") 失敗。錯誤訊息：「%3」。請"
 "確認檔案已經複製或者刪除它。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:739
+#: core/libs/database/coredb/coredbschemaupdater.cpp:740
 #, kde-format
 msgid "Copied database file"
 msgstr "複製的資料庫檔案"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:744
+#: core/libs/database/coredb/coredbschemaupdater.cpp:745
 #, kde-format
 msgid ""
 "The old database file (\"%1\") has been copied to the new location (\"%2\") "
@@ -22877,22 +22877,22 @@ msgstr ""
 "已經將舊的資料庫檔案 (\"%1\") 複製到新的位置 (\"%2\") ，但是無法開啟。請將檔"
 "案都刪除並重試一次，以空白資料庫啟動。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:765
+#: core/libs/database/coredb/coredbschemaupdater.cpp:766
 #, kde-format
 msgid "Opened new database file"
 msgstr "開啟的新資料庫檔案"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:860
+#: core/libs/database/coredb/coredbschemaupdater.cpp:861
 #, kde-format
 msgid "Prepared table creation"
 msgstr "已準備資料表建立"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:879
+#: core/libs/database/coredb/coredbschemaupdater.cpp:880
 #, kde-format
 msgid "Created tables"
 msgstr "已建立的資料表"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:892
+#: core/libs/database/coredb/coredbschemaupdater.cpp:893
 #, kde-format
 msgid ""
 "No album library path has been found in the configuration file. Giving up "
@@ -22902,7 +22902,7 @@ msgstr ""
 "在組態設定檔中沒有找到相簿櫃路徑。放棄綱要更新處理。請用空白資料庫重試一次，"
 "或者修復您的組態設定。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:914
+#: core/libs/database/coredb/coredbschemaupdater.cpp:915
 #, fuzzy, kde-format
 #| msgid ""
 #| "There was an error associating your albumLibraryPath (\"%1\") with a "
@@ -22926,52 +22926,52 @@ msgstr ""
 "至 digikam-devel@kde.or 郵件論壇尋求意見。此資料庫更新動作會立刻中止，因為我"
 "們不希望從毀損的安裝作出錯誤之假設來建立一個新的資料庫。"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:941
+#: core/libs/database/coredb/coredbschemaupdater.cpp:942
 #, kde-format
 msgid "Configured one album root"
 msgstr "已設定一個相簿的根"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:967
+#: core/libs/database/coredb/coredbschemaupdater.cpp:968
 #, kde-format
 msgid "Imported albums"
 msgstr "匯入的相簿"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:1003
+#: core/libs/database/coredb/coredbschemaupdater.cpp:1004
 #, kde-format
 msgid "Imported images information"
 msgstr "匯入的影像資訊"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:1033
+#: core/libs/database/coredb/coredbschemaupdater.cpp:1034
 #, kde-format
 msgid "Last Search (0.9)"
 msgstr "上次搜尋 (0.9)"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:1090
+#: core/libs/database/coredb/coredbschemaupdater.cpp:1091
 #, kde-format
 msgid "Initialized and imported file suffix filter"
 msgstr "已初始化且匯入的檔案字根過濾器"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:1112
+#: core/libs/database/coredb/coredbschemaupdater.cpp:1113
 #, kde-format
 msgid "Did the initial full scan"
 msgstr "已執行過最初的完整掃描"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:1135
+#: core/libs/database/coredb/coredbschemaupdater.cpp:1136
 #, kde-format
 msgid "Imported creation dates"
 msgstr "匯入的建立日期"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:1165
+#: core/libs/database/coredb/coredbschemaupdater.cpp:1166
 #, kde-format
 msgid "Imported comments"
 msgstr "匯入的註解"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:1191
+#: core/libs/database/coredb/coredbschemaupdater.cpp:1192
 #, kde-format
 msgid "Imported ratings"
 msgstr "匯入的評等"
 
-#: core/libs/database/coredb/coredbschemaupdater.cpp:1202
+#: core/libs/database/coredb/coredbschemaupdater.cpp:1203
 #, kde-format
 msgid "Dropped v3 tables"
 msgstr "刪除的 v3 資料表"

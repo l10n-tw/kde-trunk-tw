@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-24 02:53+0200\n"
+"POT-Creation-Date: 2019-09-30 02:44+0200\n"
 "PO-Revision-Date: 2019-09-22 13:18+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -37,48 +37,48 @@ msgstr "程式碼自動補完設定"
 msgid "Always"
 msgstr "永遠"
 
-#: completion/katecompletionmodel.cpp:146
+#: completion/katecompletionmodel.cpp:149
 #, kde-format
 msgid "Argument-hints"
 msgstr "參數提示"
 
-#: completion/katecompletionmodel.cpp:147
+#: completion/katecompletionmodel.cpp:150
 #, kde-format
 msgid "Best matches"
 msgstr "最佳符合"
 
-#: completion/katecompletionmodel.cpp:793
+#: completion/katecompletionmodel.cpp:794
 #, kde-format
 msgid "Namespaces"
 msgstr "命名空間"
 
-#: completion/katecompletionmodel.cpp:795
+#: completion/katecompletionmodel.cpp:796
 #, kde-format
 msgid "Classes"
 msgstr "類別"
 
-#: completion/katecompletionmodel.cpp:797
+#: completion/katecompletionmodel.cpp:798
 #, kde-format
 msgid "Structs"
 msgstr "結構"
 
-#: completion/katecompletionmodel.cpp:799
+#: completion/katecompletionmodel.cpp:800
 #, kde-format
 msgid "Unions"
 msgstr "聯合"
 
-#: completion/katecompletionmodel.cpp:801
+#: completion/katecompletionmodel.cpp:802
 #, kde-format
 msgid "Functions"
 msgstr "函式"
 
-#: completion/katecompletionmodel.cpp:803
-#: utils/katevariableexpansionhelpers.cpp:231
+#: completion/katecompletionmodel.cpp:804
+#: utils/katevariableexpansionhelpers.cpp:229
 #, kde-format
 msgid "Variables"
 msgstr "變數"
 
-#: completion/katecompletionmodel.cpp:805
+#: completion/katecompletionmodel.cpp:806
 #, kde-format
 msgid "Enumerations"
 msgstr "Enum"
@@ -115,142 +115,142 @@ msgstr "參數"
 msgid "Postfix"
 msgstr "後置字串"
 
-#: completion/katecompletionmodel.cpp:2055
+#: completion/katecompletionmodel.cpp:2049
 #, kde-format
 msgid "Public"
 msgstr "Public"
 
-#: completion/katecompletionmodel.cpp:2058
+#: completion/katecompletionmodel.cpp:2052
 #, kde-format
 msgid "Protected"
 msgstr "Protected"
 
-#: completion/katecompletionmodel.cpp:2061
+#: completion/katecompletionmodel.cpp:2055
 #, kde-format
 msgid "Private"
 msgstr "Private"
 
-#: completion/katecompletionmodel.cpp:2064
+#: completion/katecompletionmodel.cpp:2058
 #, kde-format
 msgid "Static"
 msgstr "Static"
 
-#: completion/katecompletionmodel.cpp:2067
+#: completion/katecompletionmodel.cpp:2061
 #, kde-format
 msgid "Constant"
 msgstr "常數"
 
-#: completion/katecompletionmodel.cpp:2070
+#: completion/katecompletionmodel.cpp:2064
 #, kde-format
 msgid "Namespace"
 msgstr "命名空間"
 
-#: completion/katecompletionmodel.cpp:2073
+#: completion/katecompletionmodel.cpp:2067
 #, kde-format
 msgid "Class"
 msgstr "類別"
 
-#: completion/katecompletionmodel.cpp:2076
+#: completion/katecompletionmodel.cpp:2070
 #, kde-format
 msgid "Struct"
 msgstr "結構"
 
-#: completion/katecompletionmodel.cpp:2079
+#: completion/katecompletionmodel.cpp:2073
 #, kde-format
 msgid "Union"
 msgstr "聯合"
 
-#: completion/katecompletionmodel.cpp:2082
+#: completion/katecompletionmodel.cpp:2076
 #, kde-format
 msgid "Function"
 msgstr "功能"
 
-#: completion/katecompletionmodel.cpp:2085
+#: completion/katecompletionmodel.cpp:2079
 #, kde-format
 msgid "Variable"
 msgstr "變數"
 
-#: completion/katecompletionmodel.cpp:2088
+#: completion/katecompletionmodel.cpp:2082
 #, kde-format
 msgid "Enumeration"
 msgstr "Enum"
 
-#: completion/katecompletionmodel.cpp:2091
+#: completion/katecompletionmodel.cpp:2085
 #, kde-format
 msgid "Template"
 msgstr "Template"
 
-#: completion/katecompletionmodel.cpp:2094
+#: completion/katecompletionmodel.cpp:2088
 #, kde-format
 msgid "Virtual"
 msgstr "虛擬"
 
-#: completion/katecompletionmodel.cpp:2097
+#: completion/katecompletionmodel.cpp:2091
 #, kde-format
 msgid "Override"
 msgstr "覆寫"
 
-#: completion/katecompletionmodel.cpp:2100
+#: completion/katecompletionmodel.cpp:2094
 #, kde-format
 msgid "Inline"
 msgstr "內含"
 
-#: completion/katecompletionmodel.cpp:2103
+#: completion/katecompletionmodel.cpp:2097
 #, kde-format
 msgid "Friend"
 msgstr "朋友"
 
-#: completion/katecompletionmodel.cpp:2106
+#: completion/katecompletionmodel.cpp:2100
 #, kde-format
 msgid "Signal"
 msgstr "信號"
 
-#: completion/katecompletionmodel.cpp:2109
+#: completion/katecompletionmodel.cpp:2103
 #, kde-format
 msgid "Slot"
 msgstr "信號槽"
 
-#: completion/katecompletionmodel.cpp:2112
+#: completion/katecompletionmodel.cpp:2106
 #, kde-format
 msgid "Local Scope"
 msgstr "本地範圍"
 
-#: completion/katecompletionmodel.cpp:2115
+#: completion/katecompletionmodel.cpp:2109
 #, kde-format
 msgid "Namespace Scope"
 msgstr "命名空間範圍"
 
-#: completion/katecompletionmodel.cpp:2118
+#: completion/katecompletionmodel.cpp:2112
 #, kde-format
 msgid "Global Scope"
 msgstr "全域範圍"
 
-#: completion/katecompletionmodel.cpp:2121
+#: completion/katecompletionmodel.cpp:2115
 #, kde-format
 msgid "Unknown Property"
 msgstr "未知屬性"
 
-#: completion/katekeywordcompletion.cpp:150
+#: completion/katekeywordcompletion.cpp:145
 #, kde-format
 msgid "Language keywords"
 msgstr "語言關鍵字"
 
-#: completion/katewordcompletion.cpp:91
+#: completion/katewordcompletion.cpp:90
 #, kde-format
 msgid "Auto Word Completion"
 msgstr "自動文字補完"
 
-#: completion/katewordcompletion.cpp:343
+#: completion/katewordcompletion.cpp:338
 #, kde-format
 msgid "Shell Completion"
 msgstr "Shell 補完"
 
-#: completion/katewordcompletion.cpp:348
+#: completion/katewordcompletion.cpp:343
 #, kde-format
 msgid "Reuse Word Above"
 msgstr "重新使用上方的單字"
 
-#: completion/katewordcompletion.cpp:353
+#: completion/katewordcompletion.cpp:348
 #, kde-format
 msgid "Reuse Word Below"
 msgstr "重新使用下方的單字"
@@ -324,7 +324,7 @@ msgid "Word Completion"
 msgstr "文字補完"
 
 #. i18n: ectx: Menu (spelling)
-#: data/katepart5ui.rc:118 spellcheck/spellingmenu.cpp:95
+#: data/katepart5ui.rc:118 spellcheck/spellingmenu.cpp:96
 #, kde-format
 msgid "Spelling"
 msgstr "拼字"
@@ -867,7 +867,7 @@ msgid "Shown"
 msgstr "已顯示"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbStaticWordWrap)
-#: dialogs/editconfigwidget.ui:17 view/kateview.cpp:723
+#: dialogs/editconfigwidget.ui:17 view/kateview.cpp:722
 #, kde-format
 msgid "Static Word Wrap"
 msgstr "靜態文字折行"
@@ -1017,7 +1017,7 @@ msgid "Delete the current file type."
 msgstr "刪除目前的檔案型態。"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnDelete)
-#: dialogs/filetypeconfigwidget.ui:44 schema/kateschemaconfig.cpp:922
+#: dialogs/filetypeconfigwidget.ui:44 schema/kateschemaconfig.cpp:892
 #, kde-format
 msgid "&Delete"
 msgstr "刪除(&D)"
@@ -1365,29 +1365,29 @@ msgstr "拼字檢查"
 msgid "Text Navigation"
 msgstr "文字導覽"
 
-#: dialogs/katedialogs.cpp:535
+#: dialogs/katedialogs.cpp:536
 #, kde-format
 msgctxt "Wrap words at (value is at 20 or larger)"
 msgid " character"
 msgid_plural " characters"
 msgstr[0] " 個字元"
 
-#: dialogs/katedialogs.cpp:542
+#: dialogs/katedialogs.cpp:543
 #, kde-format
 msgid "Disable Feature"
 msgstr "停用功能"
 
-#: dialogs/katedialogs.cpp:544
+#: dialogs/katedialogs.cpp:545
 #, kde-format
 msgid "May be handy with Markdown"
 msgstr "可能對編輯 Markdown 很有用"
 
-#: dialogs/katedialogs.cpp:546
+#: dialogs/katedialogs.cpp:547
 #, kde-format
 msgid "Mirror characters, similar but not exactly like auto brackets"
 msgstr "對稱字元，跟「自動補齊括號」很像，但實際上不同"
 
-#: dialogs/katedialogs.cpp:548
+#: dialogs/katedialogs.cpp:549
 #, kde-format
 msgid "Non letter character"
 msgstr "非單字字元"
@@ -1423,133 +1423,133 @@ msgstr "外觀"
 msgid "Advanced"
 msgstr "進階"
 
-#: dialogs/katedialogs.cpp:969
+#: dialogs/katedialogs.cpp:963
 #, kde-format
 msgid ""
 "You did not provide a backup suffix or prefix. Using default suffix: '~'"
 msgstr "你沒有提供備份的後綴或前綴。使用預設後綴：'~'"
 
-#: dialogs/katedialogs.cpp:970
+#: dialogs/katedialogs.cpp:963
 #, kde-format
 msgid "No Backup Suffix or Prefix"
 msgstr "沒有備份後綴和前綴"
 
-#: dialogs/katedialogs.cpp:1093
+#: dialogs/katedialogs.cpp:1085
 #, kde-format
 msgid "Open/Save"
 msgstr "開啟/儲存"
 
-#: dialogs/katedialogs.cpp:1098
+#: dialogs/katedialogs.cpp:1090
 #, kde-format
 msgid "File Opening & Saving"
 msgstr "檔案的開啟與儲存"
 
-#: dialogs/katedialogs.cpp:1121
+#: dialogs/katedialogs.cpp:1113
 #, kde-format
 msgid "&Line:"
 msgstr "行號(&L)："
 
-#: dialogs/katedialogs.cpp:1122
+#: dialogs/katedialogs.cpp:1114
 #, kde-format
 msgid "Go to line number from clipboard"
 msgstr "前往剪貼簿所複製的行號"
 
-#: dialogs/katedialogs.cpp:1134
+#: dialogs/katedialogs.cpp:1126
 #, kde-format
 msgid "Go to"
 msgstr "前往"
 
-#: dialogs/katedialogs.cpp:1211
+#: dialogs/katedialogs.cpp:1202
 #, kde-format
 msgid "No valid line number found in clipboard"
 msgstr "未在剪貼簿找到有效行號"
 
-#: dialogs/katedialogs.cpp:1269
+#: dialogs/katedialogs.cpp:1257
 #, kde-format
 msgid "Dictionary:"
 msgstr "字典："
 
-#: dialogs/katedialogs.cpp:1323
+#: dialogs/katedialogs.cpp:1309
 #, kde-format
 msgid "Enable Auto Reload"
 msgstr "開啟自動重新載入"
 
-#: dialogs/katedialogs.cpp:1325
+#: dialogs/katedialogs.cpp:1311
 #, kde-format
 msgid "Will never again warn about on disk changes but always reload."
 msgstr "將永遠不再顯示關於磁碟上變更的警告，直接重新載入。"
 
-#: dialogs/katedialogs.cpp:1330
+#: dialogs/katedialogs.cpp:1316
 #, kde-format
 msgid "View &Difference"
 msgstr "檢視差異(&D)"
 
-#: dialogs/katedialogs.cpp:1331
+#: dialogs/katedialogs.cpp:1317
 #, kde-format
 msgid "Shows a diff of the changes"
 msgstr "顯示變更間的差異"
 
-#: dialogs/katedialogs.cpp:1336
+#: dialogs/katedialogs.cpp:1322
 #, kde-format
 msgid "&Reload"
 msgstr "重新載入(&R)"
 
-#: dialogs/katedialogs.cpp:1338
+#: dialogs/katedialogs.cpp:1324
 #, kde-format
 msgid "Reload the file from disk. Unsaved changes will be lost."
 msgstr "自磁碟重新載入檔案。未儲存的變更將會遺失。"
 
-#: dialogs/katedialogs.cpp:1342
+#: dialogs/katedialogs.cpp:1328
 #, kde-format
 msgctxt "@action:button closes the opened file"
 msgid "&Close File"
 msgstr "關閉檔案(&C)"
 
-#: dialogs/katedialogs.cpp:1344
+#: dialogs/katedialogs.cpp:1330
 #, kde-format
 msgid "Close the file, discarding its content."
 msgstr "關閉檔案，放棄檔案內容。"
 
-#: dialogs/katedialogs.cpp:1348
+#: dialogs/katedialogs.cpp:1334
 #, kde-format
 msgid "&Save As..."
 msgstr "另存新檔(&S)..."
 
-#: dialogs/katedialogs.cpp:1350
+#: dialogs/katedialogs.cpp:1336
 #, kde-format
 msgid "Lets you select a location and save the file again."
 msgstr "讓您選擇一個位置並再次儲存檔案。"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_skipBtn)
-#: dialogs/katedialogs.cpp:1355 spellcheck/spellcheckbar.ui:143
+#: dialogs/katedialogs.cpp:1341 spellcheck/spellcheckbar.ui:143
 #, kde-format
 msgid "&Ignore"
 msgstr "忽略(&I)"
 
-#: dialogs/katedialogs.cpp:1356
+#: dialogs/katedialogs.cpp:1342
 #, kde-format
 msgid "Ignores the changes on disk without any action."
 msgstr "沒有動作，忽略在磁碟上的變更。"
 
-#: dialogs/katedialogs.cpp:1423 swapfile/kateswapdiffcreator.cpp:139
+#: dialogs/katedialogs.cpp:1408 swapfile/kateswapdiffcreator.cpp:139
 #, kde-format
 msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in "
 "your PATH."
 msgstr "diff 指令失敗。請確定 diff(1) 已安裝於您的 PATH。"
 
-#: dialogs/katedialogs.cpp:1425 swapfile/kateswapdiffcreator.cpp:107
+#: dialogs/katedialogs.cpp:1410 swapfile/kateswapdiffcreator.cpp:107
 #: swapfile/kateswapdiffcreator.cpp:141
 #, kde-format
 msgid "Error Creating Diff"
 msgstr "建立 Diff 發生錯誤"
 
-#: dialogs/katedialogs.cpp:1433 swapfile/kateswapdiffcreator.cpp:149
+#: dialogs/katedialogs.cpp:1417 swapfile/kateswapdiffcreator.cpp:148
 #, kde-format
 msgid "The files are identical."
 msgstr "檔案完全相同。"
 
-#: dialogs/katedialogs.cpp:1434 swapfile/kateswapdiffcreator.cpp:150
+#: dialogs/katedialogs.cpp:1417 swapfile/kateswapdiffcreator.cpp:148
 #, kde-format
 msgid "Diff Output"
 msgstr "Diff 輸出"
@@ -1990,7 +1990,7 @@ msgid ""
 msgstr "如果核取此選項，文字會根據螢幕上視窗寬度來折行。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbWordWrap)
-#: dialogs/textareaappearanceconfigwidget.ui:20 view/kateview.cpp:708
+#: dialogs/textareaappearanceconfigwidget.ui:20 view/kateview.cpp:706
 #, kde-format
 msgid "&Dynamic Word Wrap"
 msgstr "動態折行(&D)"
@@ -2188,28 +2188,28 @@ msgstr "在狀態列顯示/隱藏行數"
 msgid "Show line count"
 msgstr "顯示行數"
 
-#: document/katebuffer.cpp:179
+#: document/katebuffer.cpp:176
 #, kde-format
 msgctxt "short translation, user created new file"
 msgid "New file"
 msgstr "新增檔案"
 
-#: document/katebuffer.cpp:187
+#: document/katebuffer.cpp:183
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr "檔案 %1 不存在。"
 
-#: document/katedocument.cpp:264
+#: document/katedocument.cpp:272
 #, kde-format
 msgid "Auto Reload Document"
 msgstr "自動重新載入文件"
 
-#: document/katedocument.cpp:265
+#: document/katedocument.cpp:273
 #, kde-format
 msgid "Automatic reload the document when it was changed on disk"
 msgstr "當文件在磁碟被變更時，自動重新載入文件"
 
-#: document/katedocument.cpp:2268
+#: document/katedocument.cpp:2269
 #, kde-format
 msgid ""
 "The file %1 could not be loaded, as it was not possible to read from it.<br /"
@@ -2224,12 +2224,12 @@ msgctxt "translators: you can also translate 'Try Again' with 'Reload'"
 msgid "Try Again"
 msgstr "再試一次"
 
-#: document/katedocument.cpp:2274 document/katedocument.cpp:6055
+#: document/katedocument.cpp:2274 document/katedocument.cpp:6031
 #, kde-format
 msgid "&Close"
 msgstr "關閉(&C)"
 
-#: document/katedocument.cpp:2275 document/katedocument.cpp:6056
+#: document/katedocument.cpp:2275 document/katedocument.cpp:6032
 #, kde-format
 msgid "Close message"
 msgstr "關閉訊息"
@@ -2245,7 +2245,7 @@ msgstr ""
 "\n"
 "請檢查您是否有這個檔案的讀取權限。"
 
-#: document/katedocument.cpp:2402
+#: document/katedocument.cpp:2400
 #, kde-format
 msgid ""
 "The file %1 was opened with %2 encoding but contained invalid characters."
@@ -2269,7 +2269,7 @@ msgstr ""
 "式，因為若是做儲存的動作可能會將其內容損毀。請選用正確的編碼來重新開啟此檔"
 "案，或是在工具選單中開啟讀寫模式來編輯。"
 
-#: document/katedocument.cpp:2423
+#: document/katedocument.cpp:2424
 #, kde-format
 msgid ""
 "The file %1 was opened and contained lines longer than the configured Line "
@@ -2281,17 +2281,17 @@ msgstr ""
 ">這些行中最長的有 %3 個字元。<br/>這些行已被折行，文件已被設定為唯讀，因為若"
 "是做儲存該過長的行將會被修改成折行後的結果。"
 
-#: document/katedocument.cpp:2428
+#: document/katedocument.cpp:2431
 #, kde-format
 msgid "Temporarily raise limit and reload file"
 msgstr "暫時提高上限並重新載入檔案"
 
-#: document/katedocument.cpp:2431
+#: document/katedocument.cpp:2434
 #, kde-format
 msgid "Close"
 msgstr "關閉"
 
-#: document/katedocument.cpp:2437
+#: document/katedocument.cpp:2441
 #, kde-format
 msgid ""
 "The file %1 was opened and contained lines longer than the configured Line "
@@ -2303,25 +2303,25 @@ msgstr ""
 "這些行中最長的有 %3 個字元。<br/>這些行已被折行，文件已被設定為唯讀，因為若是"
 "做儲存該過長的行將會被修改成折行後的結果。"
 
-#: document/katedocument.cpp:2460
+#: document/katedocument.cpp:2467
 #, kde-format
 msgid ""
 "Do you really want to save this unmodified file? You could overwrite changed "
 "data in the file on disk."
 msgstr "您確定要儲存這個未修改的檔案？您可能會覆蓋磁碟上檔案裡已變更的資料。"
 
-#: document/katedocument.cpp:2460
+#: document/katedocument.cpp:2467
 #, kde-format
 msgid "Trying to Save Unmodified File"
 msgstr "嘗試儲存未更改檔案"
 
-#: document/katedocument.cpp:2460 document/katedocument.cpp:2465
-#: document/katedocument.cpp:2477
+#: document/katedocument.cpp:2467 document/katedocument.cpp:2475
+#: document/katedocument.cpp:2489
 #, kde-format
 msgid "Save Nevertheless"
 msgstr "不管，給我存就對了"
 
-#: document/katedocument.cpp:2465
+#: document/katedocument.cpp:2473
 #, kde-format
 msgid ""
 "Do you really want to save this file? Both your open file and the file on "
@@ -2330,13 +2330,13 @@ msgstr ""
 "您確定要儲存這個檔案？您所開啟的檔案與磁碟上的檔案都已變更。可能會有某些資料"
 "遺失。"
 
-#: document/katedocument.cpp:2465 document/katedocument.cpp:2477
-#: document/katedocument.cpp:2776
+#: document/katedocument.cpp:2474 document/katedocument.cpp:2488
+#: document/katedocument.cpp:2793
 #, kde-format
 msgid "Possible Data Loss"
 msgstr "可能會遺失資料"
 
-#: document/katedocument.cpp:2477
+#: document/katedocument.cpp:2487
 #, kde-format
 msgid ""
 "The selected encoding cannot encode every Unicode character in this "
@@ -2345,7 +2345,7 @@ msgstr ""
 "所選的編碼無法轉換這個文件中的每一個 unicode 字元。您確定要儲存它？可能會有某"
 "些資料遺失。"
 
-#: document/katedocument.cpp:2518
+#: document/katedocument.cpp:2531
 #, kde-format
 msgid ""
 "The document could not be saved, as it was not possible to write to %1.\n"
@@ -2358,7 +2358,7 @@ msgstr ""
 "請檢查您是否有此檔案的寫入權限或具有足夠的磁碟空間。\n"
 "原始檔可能已經消失或損壞，檔案完全寫入之前請勿關閉此應用程式。"
 
-#: document/katedocument.cpp:2649
+#: document/katedocument.cpp:2665
 #, kde-format
 msgid ""
 "For file %1 no backup copy could be created before saving. If an error "
@@ -2369,48 +2369,48 @@ msgstr ""
 "檔案 %1 儲存前沒有建立備份。如果儲存時發生問題，例如硬碟滿了，或是儲存的目錄"
 "您無法寫入，您可能會遺失檔案內的所有內容。"
 
-#: document/katedocument.cpp:2652
+#: document/katedocument.cpp:2669
 #, kde-format
 msgid "Failed to create backup copy."
 msgstr "建立備份失敗。"
 
-#: document/katedocument.cpp:2653
+#: document/katedocument.cpp:2670
 #, kde-format
 msgid "Try to Save Nevertheless"
 msgstr "不管，給我存就對了"
 
-#: document/katedocument.cpp:2775
+#: document/katedocument.cpp:2792
 #, kde-format
 msgid "Do you really want to continue to close this file? Data loss may occur."
 msgstr "您確定要繼續關閉這個檔案？可能發生資料的遺失。"
 
-#: document/katedocument.cpp:2776
+#: document/katedocument.cpp:2794
 #, kde-format
 msgid "Close Nevertheless"
 msgstr "關閉"
 
-#: document/katedocument.cpp:4263
+#: document/katedocument.cpp:4244
 #, kde-format
 msgid "Untitled"
 msgstr "未命名"
 
-#: document/katedocument.cpp:4311 document/katedocument.cpp:4495
-#: document/katedocument.cpp:4505 document/katedocument.cpp:5214
+#: document/katedocument.cpp:4292 document/katedocument.cpp:4476
+#: document/katedocument.cpp:4486 document/katedocument.cpp:5196
 #, kde-format
 msgid "Save File"
 msgstr "儲存檔案"
 
-#: document/katedocument.cpp:4314
+#: document/katedocument.cpp:4295
 #, kde-format
 msgid "Save failed"
 msgstr "儲存失敗"
 
-#: document/katedocument.cpp:4516
+#: document/katedocument.cpp:4497
 #, kde-format
 msgid "Save Copy of File"
 msgstr "儲存檔案副本"
 
-#: document/katedocument.cpp:4527
+#: document/katedocument.cpp:4510
 #, kde-format
 msgid ""
 "The document could not be saved, as it was not possible to write to %1.\n"
@@ -2422,7 +2422,7 @@ msgstr ""
 "\n"
 "請檢查您是否有此檔案的寫入權限或具有足夠的磁碟空間。"
 
-#: document/katedocument.cpp:4766
+#: document/katedocument.cpp:4749
 #, kde-format
 msgid ""
 "Using deprecated modeline 'remove-trailing-space'. Please replace with "
@@ -2433,7 +2433,7 @@ msgstr ""
 "modified;' 來取代。詳情請參考 https://docs.kde.org/stable5/en/applications/"
 "katepart/config-variables.html#variable-remove-trailing-spaces"
 
-#: document/katedocument.cpp:4771
+#: document/katedocument.cpp:4755
 #, kde-format
 msgid ""
 "Using deprecated modeline 'replace-trailing-space-save'. Please replace with "
@@ -2444,22 +2444,22 @@ msgstr ""
 "spaces all;' 來取代。詳情請參考 https://docs.kde.org/stable5/en/applications/"
 "katepart/config-variables.html#variable-remove-trailing-spaces"
 
-#: document/katedocument.cpp:5098
+#: document/katedocument.cpp:5080
 #, kde-format
 msgid "The file '%1' was modified by another program."
 msgstr "檔案「%1」已被另一個程式修改了。"
 
-#: document/katedocument.cpp:5101
+#: document/katedocument.cpp:5083
 #, kde-format
 msgid "The file '%1' was created by another program."
 msgstr "檔案「%1」已被另一個程式建立了。"
 
-#: document/katedocument.cpp:5104
+#: document/katedocument.cpp:5086
 #, kde-format
 msgid "The file '%1' was deleted by another program."
 msgstr "檔案「%1」已被另一個程式刪除了。"
 
-#: document/katedocument.cpp:5380
+#: document/katedocument.cpp:5361
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -2468,17 +2468,17 @@ msgstr ""
 "文件 %1 已變更。\n"
 "您要儲存變更還是放棄變更？"
 
-#: document/katedocument.cpp:5382
+#: document/katedocument.cpp:5364
 #, kde-format
 msgid "Close Document"
 msgstr "關閉文件"
 
-#: document/katedocument.cpp:5515
+#: document/katedocument.cpp:5498
 #, kde-format
 msgid "The file <a href=\"%1\">%2</a> is still loading."
 msgstr "檔案 <a href=\"%1\">%2</a> 仍在載入中。"
 
-#: document/katedocument.cpp:5522
+#: document/katedocument.cpp:5505
 #, kde-format
 msgid "&Abort Loading"
 msgstr "中止載入(&A)"
@@ -2493,53 +2493,53 @@ msgstr "覆寫"
 msgid "INSERT"
 msgstr "插入"
 
-#: inputmode/katenormalinputmodefactory.cpp:52
+#: inputmode/katenormalinputmodefactory.cpp:50
 #, kde-format
 msgid "Normal Mode"
 msgstr "正常模式"
 
-#: inputmode/kateviinputmode.cpp:40
+#: inputmode/kateviinputmode.cpp:41
 #, kde-format
 msgid "VI: INSERT MODE"
 msgstr "VI：插入模式"
 
-#: inputmode/kateviinputmode.cpp:43
+#: inputmode/kateviinputmode.cpp:44
 #, kde-format
 msgid "VI: NORMAL MODE"
 msgstr "VI：正常模式"
 
-#: inputmode/kateviinputmode.cpp:46
+#: inputmode/kateviinputmode.cpp:47
 #, kde-format
 msgid "VI: VISUAL"
 msgstr "VI：視覺模式"
 
-#: inputmode/kateviinputmode.cpp:49
+#: inputmode/kateviinputmode.cpp:50
 #, kde-format
 msgid "VI: VISUAL BLOCK"
 msgstr "VI：視覺區塊"
 
-#: inputmode/kateviinputmode.cpp:52
+#: inputmode/kateviinputmode.cpp:53
 #, kde-format
 msgid "VI: VISUAL LINE"
 msgstr "VI：視覺行模式"
 
-#: inputmode/kateviinputmode.cpp:55
+#: inputmode/kateviinputmode.cpp:56
 #, kde-format
 msgid "VI: REPLACE"
 msgstr "VI：取代模式"
 
-#: inputmode/kateviinputmode.cpp:160
+#: inputmode/kateviinputmode.cpp:159
 #, kde-format
 msgid "vi-mode"
 msgstr "vi 模式"
 
-#: inputmode/kateviinputmode.cpp:173
+#: inputmode/kateviinputmode.cpp:172
 #, kde-format
 msgid "recording"
 msgstr "紀錄中"
 
-#: inputmode/kateviinputmodefactory.cpp:55 utils/kateglobal.cpp:115
-#: vimode/config/configtab.cpp:249
+#: inputmode/kateviinputmodefactory.cpp:55 utils/kateglobal.cpp:120
+#: vimode/config/configtab.cpp:244
 #, kde-format
 msgid "Vi Input Mode"
 msgstr "VI 輸入模式"
@@ -2584,13 +2584,13 @@ msgstr "選擇 MIME 類型"
 msgid "Modes && Filetypes"
 msgstr "模式與檔案類型"
 
-#: mode/katemodemenulist.cpp:98
+#: mode/katemodemenulist.cpp:99
 #, kde-format
 msgctxt "Placeholder in search bar"
 msgid "Search..."
 msgstr "搜尋…"
 
-#: mode/katemodemenulist.cpp:99
+#: mode/katemodemenulist.cpp:100
 #, kde-format
 msgctxt "ToolTip of the search bar of modes of syntax highlighting"
 msgid ""
@@ -2598,13 +2598,13 @@ msgid ""
 "example, C++ or .cpp)"
 msgstr "依語言名稱或檔案副檔名搜尋語法標示模式（例如：C++ 或 .cpp）"
 
-#: mode/katemodemenulist.cpp:463
+#: mode/katemodemenulist.cpp:460
 #, kde-format
 msgctxt "A search yielded no results"
 msgid "No items matching your search"
 msgstr "沒有項目符合您的搜尋"
 
-#: mode/katemodemenulist.cpp:940
+#: mode/katemodemenulist.cpp:921
 #, kde-format
 msgctxt ""
 "Title (in singular) of the best result in an item search. Please, that the "
@@ -2613,7 +2613,7 @@ msgctxt ""
 msgid "Best Search Match"
 msgstr "最佳搜尋符合"
 
-#: mode/katemodemenulist.cpp:943
+#: mode/katemodemenulist.cpp:924
 #, kde-format
 msgctxt ""
 "Title (in plural) of the best results in an item search. Please, that the "
@@ -2637,91 +2637,91 @@ msgstr "列印行號(&N)"
 msgid "Print &legend"
 msgstr "列印圖示(&L)"
 
-#: printing/printconfigwidgets.cpp:65
+#: printing/printconfigwidgets.cpp:64
 #, kde-format
 msgid ""
 "<p>If enabled, line numbers will be printed on the left side of the page(s)."
 "</p>"
 msgstr "<p>如果啟用，行的編號會印在紙張的左邊。</p>"
 
-#: printing/printconfigwidgets.cpp:67
+#: printing/printconfigwidgets.cpp:66
 #, kde-format
 msgid ""
 "<p>Print a box displaying typographical conventions for the document type, "
 "as defined by the syntax highlighting being used.</p>"
 msgstr "<p>列印一個方塊來顯示所用語法突顯定義的文件類型的印刷協定。</p>"
 
-#: printing/printconfigwidgets.cpp:119
+#: printing/printconfigwidgets.cpp:118
 #, kde-format
 msgid "Hea&der && Footer"
 msgstr "頁首 && 頁尾(&D)"
 
-#: printing/printconfigwidgets.cpp:126
+#: printing/printconfigwidgets.cpp:125
 #, kde-format
 msgid "Pr&int header"
 msgstr "列印頁首(&I)"
 
-#: printing/printconfigwidgets.cpp:128
+#: printing/printconfigwidgets.cpp:127
 #, kde-format
 msgid "Pri&nt footer"
 msgstr "列印頁尾(&N)"
 
-#: printing/printconfigwidgets.cpp:134
+#: printing/printconfigwidgets.cpp:133
 #, kde-format
 msgid "Header/footer font:"
 msgstr "頁首/頁尾字型:"
 
-#: printing/printconfigwidgets.cpp:139
+#: printing/printconfigwidgets.cpp:138
 #, kde-format
 msgid "Choo&se Font..."
 msgstr "選擇字型(&S)..."
 
-#: printing/printconfigwidgets.cpp:145
+#: printing/printconfigwidgets.cpp:144
 #, kde-format
 msgid "Header Properties"
 msgstr "頁首屬性"
 
-#: printing/printconfigwidgets.cpp:149
+#: printing/printconfigwidgets.cpp:148
 #, kde-format
 msgid "&Format:"
 msgstr "格式(&F):"
 
-#: printing/printconfigwidgets.cpp:171 printing/printconfigwidgets.cpp:217
+#: printing/printconfigwidgets.cpp:170 printing/printconfigwidgets.cpp:216
 #, kde-format
 msgid "Colors:"
 msgstr "顏色:"
 
-#: printing/printconfigwidgets.cpp:178 printing/printconfigwidgets.cpp:224
+#: printing/printconfigwidgets.cpp:177 printing/printconfigwidgets.cpp:223
 #, kde-format
 msgid "Foreground:"
 msgstr "前景:"
 
-#: printing/printconfigwidgets.cpp:183
+#: printing/printconfigwidgets.cpp:182
 #, kde-format
 msgid "Bac&kground"
 msgstr "背景(&K)"
 
-#: printing/printconfigwidgets.cpp:189
+#: printing/printconfigwidgets.cpp:188
 #, kde-format
 msgid "Footer Properties"
 msgstr "頁尾屬性"
 
-#: printing/printconfigwidgets.cpp:194
+#: printing/printconfigwidgets.cpp:193
 #, kde-format
 msgid "For&mat:"
 msgstr "格式(&M):"
 
-#: printing/printconfigwidgets.cpp:229
+#: printing/printconfigwidgets.cpp:228
 #, kde-format
 msgid "&Background"
 msgstr "背景(&B):"
 
-#: printing/printconfigwidgets.cpp:258
+#: printing/printconfigwidgets.cpp:257
 #, kde-format
 msgid "<p>Format of the page header. The following tags are supported:</p>"
 msgstr "<p>頁首的格式。下面是支援的標籤：</p>"
 
-#: printing/printconfigwidgets.cpp:260
+#: printing/printconfigwidgets.cpp:259
 #, kde-format
 msgid ""
 "<ul><li><tt>%u</tt>: current user name</li><li><tt>%d</tt>: complete date/"
@@ -2737,117 +2737,117 @@ msgstr ""
 "的目前日期</li><li><tt>%f</tt>： 檔案名稱</li><li><tt>%U</tt>： 文件的完整網"
 "址</li><li><tt>%p</tt>： 頁碼</li><li><tt>%P></tt>：總頁數</li></ul><br />"
 
-#: printing/printconfigwidgets.cpp:274
+#: printing/printconfigwidgets.cpp:273
 #, kde-format
 msgid "<p>Format of the page footer. The following tags are supported:</p>"
 msgstr "<p>頁尾的格式。下面是支援的標籤：</p>"
 
-#: printing/printconfigwidgets.cpp:352
+#: printing/printconfigwidgets.cpp:351
 #, kde-format
 msgid "%1, %2pt"
 msgstr "%1，%2 點"
 
-#: printing/printconfigwidgets.cpp:370
+#: printing/printconfigwidgets.cpp:369
 #, kde-format
 msgid "Add Placeholder..."
 msgstr "新增取代符..."
 
-#: printing/printconfigwidgets.cpp:372
+#: printing/printconfigwidgets.cpp:371
 #, kde-format
 msgid "Current User Name"
 msgstr "目前使用者名稱"
 
-#: printing/printconfigwidgets.cpp:374
+#: printing/printconfigwidgets.cpp:373
 #, kde-format
 msgid "Complete Date/Time (short format)"
 msgstr "完整的日期/時間（短格式）"
 
-#: printing/printconfigwidgets.cpp:376
+#: printing/printconfigwidgets.cpp:375
 #, kde-format
 msgid "Complete Date/Time (long format)"
 msgstr "完整的日期/時間（長格式）"
 
-#: printing/printconfigwidgets.cpp:378
+#: printing/printconfigwidgets.cpp:377
 #, kde-format
 msgid "Current Time"
 msgstr "目前時間"
 
-#: printing/printconfigwidgets.cpp:380
+#: printing/printconfigwidgets.cpp:379
 #, kde-format
 msgid "Current Date (short format)"
 msgstr "目前日期（短格式）"
 
-#: printing/printconfigwidgets.cpp:382
+#: printing/printconfigwidgets.cpp:381
 #, kde-format
 msgid "Current Date (long format)"
 msgstr "目前日期（長格式）"
 
-#: printing/printconfigwidgets.cpp:384
+#: printing/printconfigwidgets.cpp:383
 #, kde-format
 msgid "File Name"
 msgstr "檔案名稱"
 
-#: printing/printconfigwidgets.cpp:386
+#: printing/printconfigwidgets.cpp:385
 #, kde-format
 msgid "Full document URL"
 msgstr "完整文件網址"
 
-#: printing/printconfigwidgets.cpp:388
+#: printing/printconfigwidgets.cpp:387
 #, kde-format
 msgid "Page Number"
 msgstr "頁碼"
 
-#: printing/printconfigwidgets.cpp:390
+#: printing/printconfigwidgets.cpp:389
 #, kde-format
 msgid "Total Amount of Pages"
 msgstr "總頁數"
 
-#: printing/printconfigwidgets.cpp:499
+#: printing/printconfigwidgets.cpp:498
 #, kde-format
 msgid "L&ayout"
 msgstr "佈局(&A)"
 
-#: printing/printconfigwidgets.cpp:505 schema/kateschemaconfig.cpp:909
+#: printing/printconfigwidgets.cpp:504 schema/kateschemaconfig.cpp:879
 #, kde-format
 msgid "&Schema:"
 msgstr "機制(&S):"
 
-#: printing/printconfigwidgets.cpp:512
+#: printing/printconfigwidgets.cpp:511
 #, kde-format
 msgid "Draw bac&kground color"
 msgstr "繪出背景顏色(&K)"
 
-#: printing/printconfigwidgets.cpp:515
+#: printing/printconfigwidgets.cpp:514
 #, kde-format
 msgid "Draw &boxes"
 msgstr "繪出方塊(&B)"
 
-#: printing/printconfigwidgets.cpp:519
+#: printing/printconfigwidgets.cpp:518
 #, kde-format
 msgid "Box Properties"
 msgstr "方塊屬性"
 
-#: printing/printconfigwidgets.cpp:523
+#: printing/printconfigwidgets.cpp:522
 #, kde-format
 msgid "W&idth:"
 msgstr "寬度(&I):"
 
-#: printing/printconfigwidgets.cpp:531
+#: printing/printconfigwidgets.cpp:530
 #, kde-format
 msgid "&Margin:"
 msgstr "邊界(&M):"
 
-#: printing/printconfigwidgets.cpp:539
+#: printing/printconfigwidgets.cpp:538
 #, kde-format
 msgid "Co&lor:"
 msgstr "顏色(&L):"
 
-#: printing/printconfigwidgets.cpp:562
+#: printing/printconfigwidgets.cpp:560
 #, kde-format
 msgid "Select the color scheme to use for the print."
 msgstr "設定列印使用的顏色機制"
 
-#: printing/printconfigwidgets.cpp:564
+#: printing/printconfigwidgets.cpp:562
 #, kde-format
 msgid ""
 "<p>If enabled, the background color of the editor will be used.</p><p>This "
@@ -2856,7 +2856,7 @@ msgstr ""
 "<p>如果啟用，會使用編輯器的背景顏色。</p><p>這在您的配色設定是設計為暗色背景"
 "時可能很有用。</p>"
 
-#: printing/printconfigwidgets.cpp:567
+#: printing/printconfigwidgets.cpp:565
 #, kde-format
 msgid ""
 "<p>If enabled, a box as defined in the properties below will be drawn around "
@@ -2866,32 +2866,32 @@ msgstr ""
 "<p>如果啟用，在下面的屬性中定義的方塊會畫在每一頁內容的周圍。頁首與頁尾也會以"
 "線絛來與內容隔開。</p>"
 
-#: printing/printconfigwidgets.cpp:571
+#: printing/printconfigwidgets.cpp:568
 #, kde-format
 msgid "The width of the box outline"
 msgstr "方塊輪廓的寬度"
 
-#: printing/printconfigwidgets.cpp:573
+#: printing/printconfigwidgets.cpp:569
 #, kde-format
 msgid "The margin inside boxes, in pixels"
 msgstr "方塊內部的邊界，以像素為單位"
 
-#: printing/printconfigwidgets.cpp:575
+#: printing/printconfigwidgets.cpp:570
 #, kde-format
 msgid "The line color to use for boxes"
 msgstr "用於方塊的線條顏色"
 
-#: printing/printpainter.cpp:272
+#: printing/printpainter.cpp:273
 #, kde-format
 msgid "(Selection of) "
 msgstr "(選取區於)"
 
-#: printing/printpainter.cpp:530
+#: printing/printpainter.cpp:528
 #, kde-format
 msgid "Typographical Conventions for %1"
 msgstr "印刷慣例轉換於 %1"
 
-#: printing/printpainter.cpp:562
+#: printing/printpainter.cpp:560
 #, kde-format
 msgid "text"
 msgstr "文字"
@@ -2909,7 +2909,7 @@ msgid "Replace current schema?"
 msgstr "取代目前的機制？"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioReplaceExisting)
-#: schema/howtoimportschema.ui:34 schema/kateschemaconfig.cpp:1067
+#: schema/howtoimportschema.ui:34 schema/kateschemaconfig.cpp:1034
 #, no-c-format, kde-format
 msgid "Replace existing schema %1"
 msgstr "取代現有的機制 %1"
@@ -3046,7 +3046,7 @@ msgstr "<p>此顏色用於畫出行號與圖示框。</p>"
 msgid "Word Wrap Marker"
 msgstr "文字折行標記"
 
-#: schema/kateschemaconfig.cpp:149
+#: schema/kateschemaconfig.cpp:150
 #, kde-format
 msgid ""
 "<p>Sets the color of Word Wrap-related markers:</p><dl><dt>Static Word Wrap</"
@@ -3058,79 +3058,79 @@ msgstr ""
 "折行的地方顯示一條垂直線。</dd> <dt>動態文字折行</dt><dd>會在折行的左方顯示一"
 "個箭頭。</dd></dl>"
 
-#: schema/kateschemaconfig.cpp:153
+#: schema/kateschemaconfig.cpp:155
 #, kde-format
 msgid "Code Folding"
 msgstr "程式碼摺疊"
 
-#: schema/kateschemaconfig.cpp:155
+#: schema/kateschemaconfig.cpp:157
 #, kde-format
 msgid "<p>Sets the color of the code folding bar.</p>"
 msgstr "<p>設定程式碼折疊列的顏色。</p>"
 
-#: schema/kateschemaconfig.cpp:159
+#: schema/kateschemaconfig.cpp:161
 #, kde-format
 msgid "Modified Lines"
 msgstr "已變更行"
 
-#: schema/kateschemaconfig.cpp:161
+#: schema/kateschemaconfig.cpp:163
 #, kde-format
 msgid ""
 "<p>Sets the color of the line modification marker for modified lines.</p>"
 msgstr "<p>設定已變更行的標記顏色。</p>"
 
-#: schema/kateschemaconfig.cpp:165
+#: schema/kateschemaconfig.cpp:167
 #, kde-format
 msgid "Saved Lines"
 msgstr "已儲存行"
 
-#: schema/kateschemaconfig.cpp:167
+#: schema/kateschemaconfig.cpp:169
 #, kde-format
 msgid "<p>Sets the color of the line modification marker for saved lines.</p>"
 msgstr "<p>設定已儲存行的標記顏色。</p>"
 
-#: schema/kateschemaconfig.cpp:174
+#: schema/kateschemaconfig.cpp:176
 #, kde-format
 msgid "Text Decorations"
 msgstr "文字裝飾"
 
-#: schema/kateschemaconfig.cpp:176
+#: schema/kateschemaconfig.cpp:178
 #, kde-format
 msgid "Spelling Mistake Line"
 msgstr "拼字錯誤行"
 
-#: schema/kateschemaconfig.cpp:178
+#: schema/kateschemaconfig.cpp:180
 #, kde-format
 msgid ""
 "<p>Sets the color of the line that is used to indicate spelling mistakes.</p>"
 msgstr "<p>設定指出拼字錯誤行的顏色。</p>"
 
-#: schema/kateschemaconfig.cpp:182
+#: schema/kateschemaconfig.cpp:184
 #, kde-format
 msgid "Tab and Space Markers"
 msgstr "定位點與空白標記"
 
-#: schema/kateschemaconfig.cpp:184
+#: schema/kateschemaconfig.cpp:186
 #, kde-format
 msgid "<p>Sets the color of the tabulator marks.</p>"
 msgstr "<p>設定定位標記的顏色。</p>"
 
-#: schema/kateschemaconfig.cpp:188
+#: schema/kateschemaconfig.cpp:190
 #, kde-format
 msgid "Indentation Line"
 msgstr "縮排行"
 
-#: schema/kateschemaconfig.cpp:190
+#: schema/kateschemaconfig.cpp:192
 #, kde-format
 msgid "<p>Sets the color of the vertical indentation lines.</p>"
 msgstr "<p>設定垂直縮排行的顏色。</p>"
 
-#: schema/kateschemaconfig.cpp:194
+#: schema/kateschemaconfig.cpp:196
 #, kde-format
 msgid "Bracket Highlight"
 msgstr "括號突顯"
 
-#: schema/kateschemaconfig.cpp:196
+#: schema/kateschemaconfig.cpp:198
 #, kde-format
 msgid ""
 "<p>Sets the bracket matching color. This means, if you place the cursor e.g. "
@@ -3139,12 +3139,12 @@ msgstr ""
 "<p>設定括號配對顏色。這表示若是您的游標正在某個括號（如 { ）上面時，跟它配對"
 "的括號（ } ）會以此顏色突顯出來。</p>"
 
-#: schema/kateschemaconfig.cpp:203
+#: schema/kateschemaconfig.cpp:205
 #, kde-format
 msgid "Marker Colors"
 msgstr "標記顏色"
 
-#: schema/kateschemaconfig.cpp:206 view/kateviewhelpers.cpp:1456
+#: schema/kateschemaconfig.cpp:207 view/kateviewhelpers.cpp:1428
 #, kde-format
 msgid "Bookmark"
 msgstr "書籤"
@@ -3154,32 +3154,32 @@ msgstr "書籤"
 msgid "Active Breakpoint"
 msgstr "使用中斷點"
 
-#: schema/kateschemaconfig.cpp:208
+#: schema/kateschemaconfig.cpp:207
 #, kde-format
 msgid "Reached Breakpoint"
 msgstr "達到中斷點"
 
-#: schema/kateschemaconfig.cpp:209
+#: schema/kateschemaconfig.cpp:207
 #, kde-format
 msgid "Disabled Breakpoint"
 msgstr "停用中斷點"
 
-#: schema/kateschemaconfig.cpp:210
+#: schema/kateschemaconfig.cpp:207
 #, kde-format
 msgid "Execution"
 msgstr "執行"
 
-#: schema/kateschemaconfig.cpp:211
+#: schema/kateschemaconfig.cpp:207
 #, kde-format
 msgid "Warning"
 msgstr "警告"
 
-#: schema/kateschemaconfig.cpp:212
+#: schema/kateschemaconfig.cpp:207
 #, kde-format
 msgid "Error"
 msgstr "錯誤"
 
-#: schema/kateschemaconfig.cpp:215
+#: schema/kateschemaconfig.cpp:209
 #, kde-format
 msgid ""
 "<p>Sets the background color of mark type.</p><p><b>Note</b>: The marker "
@@ -3188,32 +3188,32 @@ msgstr ""
 "<p>設定標記型態的背景顏色。</p> <p><b>注意</b>：此標記顏色會因為透明度關係所"
 "以比較淡。</p>"
 
-#: schema/kateschemaconfig.cpp:226
+#: schema/kateschemaconfig.cpp:220
 #, kde-format
 msgid "Text Templates & Snippets"
 msgstr "文字樣本與片段"
 
-#: schema/kateschemaconfig.cpp:230
+#: schema/kateschemaconfig.cpp:224
 #, kde-format
 msgid "Background"
 msgstr "背景"
 
-#: schema/kateschemaconfig.cpp:235
+#: schema/kateschemaconfig.cpp:229
 #, kde-format
 msgid "Editable Placeholder"
 msgstr "可編輯取代符"
 
-#: schema/kateschemaconfig.cpp:240
+#: schema/kateschemaconfig.cpp:234
 #, kde-format
 msgid "Focused Editable Placeholder"
 msgstr "聚焦可編輯取代符"
 
-#: schema/kateschemaconfig.cpp:245
+#: schema/kateschemaconfig.cpp:239
 #, kde-format
 msgid "Not Editable Placeholder"
 msgstr "不可編輯取代符"
 
-#: schema/kateschemaconfig.cpp:469
+#: schema/kateschemaconfig.cpp:463
 #, kde-format
 msgid ""
 "<p>This list displays the default styles for the current schema and offers "
@@ -3226,52 +3226,52 @@ msgstr ""
 "風格設定值。</p> <p>要編輯顏色，單擊顏色方塊，或從彈出選單選擇要編輯的顏色。"
 "</p> <p>您可以在適當的時候從彈出式選單中取消設定背景與選擇的背景顏色。</p>"
 
-#: schema/kateschemaconfig.cpp:504
+#: schema/kateschemaconfig.cpp:498
 #, kde-format
 msgctxt "@item:intable"
 msgid "Normal Text & Source Code"
 msgstr "純文字與程式源碼"
 
-#: schema/kateschemaconfig.cpp:513
+#: schema/kateschemaconfig.cpp:505
 #, kde-format
 msgctxt "@item:intable"
 msgid "Numbers, Types & Constants"
 msgstr "數字、型態與常數"
 
-#: schema/kateschemaconfig.cpp:522
+#: schema/kateschemaconfig.cpp:512
 #, kde-format
 msgctxt "@item:intable"
 msgid "Strings & Characters"
 msgstr "字串與字元"
 
-#: schema/kateschemaconfig.cpp:531
+#: schema/kateschemaconfig.cpp:519
 #, kde-format
 msgctxt "@item:intable"
 msgid "Comments & Documentation"
 msgstr "註解與文件"
 
-#: schema/kateschemaconfig.cpp:540
+#: schema/kateschemaconfig.cpp:526
 #, kde-format
 msgctxt "@item:intable"
 msgid "Miscellaneous"
 msgstr "其他"
 
-#: schema/kateschemaconfig.cpp:613
+#: schema/kateschemaconfig.cpp:597
 #, kde-format
 msgid "H&ighlight:"
 msgstr "突顯(&I):"
 
-#: schema/kateschemaconfig.cpp:623 schema/kateschemaconfig.cpp:926
+#: schema/kateschemaconfig.cpp:607 schema/kateschemaconfig.cpp:896
 #, kde-format
 msgid "Export..."
 msgstr "匯出..."
 
-#: schema/kateschemaconfig.cpp:627 schema/kateschemaconfig.cpp:930
+#: schema/kateschemaconfig.cpp:611 schema/kateschemaconfig.cpp:900
 #, kde-format
 msgid "Import..."
 msgstr "匯入..."
 
-#: schema/kateschemaconfig.cpp:660
+#: schema/kateschemaconfig.cpp:644
 #, kde-format
 msgid ""
 "<p>This list displays the contexts of the current syntax highlight mode and "
@@ -3288,263 +3288,263 @@ msgstr ""
 "的顏色。</p> <p>您可以在適當的時候從快顯選單中取消設定背景與選擇的背景顏色。"
 "</p>"
 
-#: schema/kateschemaconfig.cpp:681
+#: schema/kateschemaconfig.cpp:665
 #, kde-format
 msgid "Loading all highlightings for schema"
 msgstr "載入所有機制的突顯"
 
-#: schema/kateschemaconfig.cpp:792
+#: schema/kateschemaconfig.cpp:776
 #, kde-format
 msgid "Importing colors for single highlighting"
 msgstr "匯入單一突顯的顏色中 "
 
-#: schema/kateschemaconfig.cpp:794 schema/kateschemaconfig.cpp:864
-#: schema/kateschemaconfig.cpp:983 schema/kateschemaconfig.cpp:1114
+#: schema/kateschemaconfig.cpp:776 schema/kateschemaconfig.cpp:835
+#: schema/kateschemaconfig.cpp:950 schema/kateschemaconfig.cpp:1078
 #, kde-format
 msgid "Kate color schema"
 msgstr "Kate 顏色機制"
 
-#: schema/kateschemaconfig.cpp:808
+#: schema/kateschemaconfig.cpp:788
 #, kde-format
 msgid "File is not a single highlighting color file"
 msgstr "檔案不是個單一突顯顏色檔"
 
-#: schema/kateschemaconfig.cpp:809 schema/kateschemaconfig.cpp:1125
+#: schema/kateschemaconfig.cpp:788 schema/kateschemaconfig.cpp:1088
 #, kde-format
 msgid "Fileformat error"
 msgstr "檔案格式錯誤"
 
-#: schema/kateschemaconfig.cpp:818
+#: schema/kateschemaconfig.cpp:795
 #, kde-format
 msgid "The selected file contains colors for a non existing highlighting:%1"
 msgstr "選取的檔案包含了不存在的突顯的顏色：%1 "
 
-#: schema/kateschemaconfig.cpp:819
+#: schema/kateschemaconfig.cpp:795
 #, kde-format
 msgid "Import failure"
 msgstr "匯入失敗"
 
-#: schema/kateschemaconfig.cpp:842
+#: schema/kateschemaconfig.cpp:815
 #, kde-format
 msgid "Colors have been imported for highlighting: %1"
 msgstr "突顯顏色已匯入：%1"
 
-#: schema/kateschemaconfig.cpp:843
+#: schema/kateschemaconfig.cpp:815
 #, kde-format
 msgid "Import has finished"
 msgstr "匯入完成"
 
-#: schema/kateschemaconfig.cpp:862
+#: schema/kateschemaconfig.cpp:833
 #, kde-format
 msgid "Exporting colors for single highlighting: %1"
 msgstr "匯出單一突顯的顏色中 : %1"
 
-#: schema/kateschemaconfig.cpp:918
+#: schema/kateschemaconfig.cpp:888
 #, kde-format
 msgid "&New..."
 msgstr "新的(&N)..."
 
-#: schema/kateschemaconfig.cpp:941
+#: schema/kateschemaconfig.cpp:911
 #, kde-format
 msgid "Colors"
 msgstr "顏色"
 
-#: schema/kateschemaconfig.cpp:945
+#: schema/kateschemaconfig.cpp:915
 #, kde-format
 msgid "Font"
 msgstr "字型"
 
-#: schema/kateschemaconfig.cpp:949
+#: schema/kateschemaconfig.cpp:919
 #, kde-format
 msgid "Default Text Styles"
 msgstr "普通文字風格"
 
-#: schema/kateschemaconfig.cpp:953
+#: schema/kateschemaconfig.cpp:923
 #, kde-format
 msgid "Highlighting Text Styles"
 msgstr "突顯文字風格"
 
-#: schema/kateschemaconfig.cpp:959
+#: schema/kateschemaconfig.cpp:929
 #, kde-format
 msgid "&Default schema for %1:"
 msgstr "%1 的預設機制(&D):"
 
-#: schema/kateschemaconfig.cpp:981
+#: schema/kateschemaconfig.cpp:950
 #, kde-format
 msgid "Exporting color schema: %1"
 msgstr "匯出顏色機制中：%1"
 
-#: schema/kateschemaconfig.cpp:1013
+#: schema/kateschemaconfig.cpp:980
 #, kde-format
 msgid "Exporting schema"
 msgstr "匯出顏色機制中"
 
-#: schema/kateschemaconfig.cpp:1112
+#: schema/kateschemaconfig.cpp:1078
 #, kde-format
 msgid "Importing Color Schema"
 msgstr "匯入顏色機制中"
 
-#: schema/kateschemaconfig.cpp:1124
+#: schema/kateschemaconfig.cpp:1088
 #, kde-format
 msgid "The file does not contain a full color schema."
 msgstr "檔案不是完整的顏色機制檔。"
 
-#: schema/kateschemaconfig.cpp:1131
+#: schema/kateschemaconfig.cpp:1094
 #, kde-format
 msgid "Name unspecified"
 msgstr "名稱未指定"
 
-#: schema/kateschemaconfig.cpp:1180
+#: schema/kateschemaconfig.cpp:1143
 #, kde-format
 msgid "Importing schema"
 msgstr "匯入機制中"
 
-#: schema/kateschemaconfig.cpp:1322
+#: schema/kateschemaconfig.cpp:1285
 #, kde-format
 msgid "Name for New Schema"
 msgstr "新機制名稱"
 
-#: schema/kateschemaconfig.cpp:1322
+#: schema/kateschemaconfig.cpp:1285
 #, kde-format
 msgid "Name:"
 msgstr "名稱:"
 
-#: schema/kateschemaconfig.cpp:1322 schema/kateschemaconfig.cpp:1330
+#: schema/kateschemaconfig.cpp:1285 schema/kateschemaconfig.cpp:1293
 #, kde-format
 msgid "New Schema"
 msgstr "新增機制"
 
-#: schema/kateschemaconfig.cpp:1330
+#: schema/kateschemaconfig.cpp:1293
 #, kde-format
 msgid ""
 "<p>The schema %1 already exists.</p><p>Please choose a different schema name."
 "</p>"
 msgstr "<p>機制 %1 已存在。</p> <p>請選擇不同的機制名稱。</p>"
 
-#: schema/kateschemaconfig.cpp:1365
+#: schema/kateschemaconfig.cpp:1328
 #, kde-format
 msgid "Fonts & Colors"
 msgstr "字型與顏色"
 
-#: schema/kateschemaconfig.cpp:1370
+#: schema/kateschemaconfig.cpp:1333
 #, kde-format
 msgid "Font & Color Schemas"
 msgstr "字型與顏色機制"
 
-#: schema/katestyletreewidget.cpp:138
+#: schema/katestyletreewidget.cpp:128
 #, kde-format
 msgctxt "@title:column Meaning of text in editor"
 msgid "Context"
 msgstr "內容"
 
-#: schema/katestyletreewidget.cpp:138
+#: schema/katestyletreewidget.cpp:128
 #, kde-format
 msgctxt "@title:column Text style"
 msgid "Normal"
 msgstr "一般"
 
-#: schema/katestyletreewidget.cpp:138
+#: schema/katestyletreewidget.cpp:128
 #, kde-format
 msgctxt "@title:column Text style"
 msgid "Selected"
 msgstr "已選取"
 
-#: schema/katestyletreewidget.cpp:138
+#: schema/katestyletreewidget.cpp:129
 #, kde-format
 msgctxt "@title:column Text style"
 msgid "Background"
 msgstr "背景"
 
-#: schema/katestyletreewidget.cpp:138
+#: schema/katestyletreewidget.cpp:129
 #, kde-format
 msgctxt "@title:column Text style"
 msgid "Background Selected"
 msgstr "背景選擇"
 
-#: schema/katestyletreewidget.cpp:140
+#: schema/katestyletreewidget.cpp:131
 #, kde-format
 msgid "Use Default Style"
 msgstr "使用預設風格"
 
-#: schema/katestyletreewidget.cpp:235
+#: schema/katestyletreewidget.cpp:226
 #, kde-format
 msgid "&Bold"
 msgstr "粗體(&B)"
 
-#: schema/katestyletreewidget.cpp:240
+#: schema/katestyletreewidget.cpp:231
 #, kde-format
 msgid "&Italic"
 msgstr "斜體(&I)"
 
-#: schema/katestyletreewidget.cpp:245
+#: schema/katestyletreewidget.cpp:236
 #, kde-format
 msgid "&Underline"
 msgstr "加底線(&U)"
 
-#: schema/katestyletreewidget.cpp:250
+#: schema/katestyletreewidget.cpp:241
 #, kde-format
 msgid "S&trikeout"
 msgstr "刪除線(&T)"
 
-#: schema/katestyletreewidget.cpp:257
+#: schema/katestyletreewidget.cpp:248
 #, kde-format
 msgid "Normal &Color..."
 msgstr "一般色彩(&C)..."
 
-#: schema/katestyletreewidget.cpp:260
+#: schema/katestyletreewidget.cpp:251
 #, kde-format
 msgid "&Selected Color..."
 msgstr "已選取的顏色(&S)..."
 
-#: schema/katestyletreewidget.cpp:263
+#: schema/katestyletreewidget.cpp:254
 #, kde-format
 msgid "&Background Color..."
 msgstr "背景顏色(&B)..."
 
-#: schema/katestyletreewidget.cpp:266
+#: schema/katestyletreewidget.cpp:257
 #, kde-format
 msgid "S&elected Background Color..."
 msgstr "選擇背景顏色(&E)..."
 
-#: schema/katestyletreewidget.cpp:272
+#: schema/katestyletreewidget.cpp:263
 #, kde-format
 msgid "Unset Normal Color"
 msgstr "取消設定一般色彩"
 
-#: schema/katestyletreewidget.cpp:275
+#: schema/katestyletreewidget.cpp:266
 #, kde-format
 msgid "Unset Selected Color"
 msgstr "取消設定選定的色彩"
 
-#: schema/katestyletreewidget.cpp:281
+#: schema/katestyletreewidget.cpp:272
 #, kde-format
 msgid "Unset Background Color"
 msgstr "取消設定背景顏色"
 
-#: schema/katestyletreewidget.cpp:286
+#: schema/katestyletreewidget.cpp:277
 #, kde-format
 msgid "Unset Selected Background Color"
 msgstr "取消設定選定的背景色彩"
 
-#: schema/katestyletreewidget.cpp:292
+#: schema/katestyletreewidget.cpp:283
 #, kde-format
 msgid "Use &Default Style"
 msgstr "使用預設風格(&D)"
 
-#: schema/katestyletreewidget.cpp:403
+#: schema/katestyletreewidget.cpp:394
 #, kde-format
 msgctxt "No text or background color set"
 msgid "None set"
 msgstr "未設定"
 
-#: schema/katestyletreewidget.cpp:636
+#: schema/katestyletreewidget.cpp:618
 #, kde-format
 msgid ""
 "\"Use Default Style\" will be automatically unset when you change any style "
 "properties."
 msgstr "當您改變任何風格的屬性時，「使用預設風格」會自動取消。"
 
-#: schema/katestyletreewidget.cpp:637
+#: schema/katestyletreewidget.cpp:618
 #, kde-format
 msgid "Kate Styles"
 msgstr "Kate 風格"
@@ -4105,38 +4105,38 @@ msgstr "函式 %1 不在文稿中：%2"
 msgid "Error calling %1"
 msgstr "呼叫 %1 時發生錯誤"
 
-#: script/katecommandlinescript.cpp:85
+#: script/katecommandlinescript.cpp:84
 #, kde-format
 msgid "Bad quoting in call: %1. Please escape single quotes with a backslash."
 msgstr "呼叫 %1 時括號不對稱。請用反斜線來脫逸單括號。"
 
-#: script/katecommandlinescript.cpp:93 utils/katecmds.cpp:203
-#: vimode/cmds.cpp:56
+#: script/katecommandlinescript.cpp:92 utils/katecmds.cpp:227
+#: vimode/cmds.cpp:55
 #, kde-format
 msgid "Could not access view"
 msgstr "無法存取檢視"
 
-#: script/katecommandlinescript.cpp:135
+#: script/katecommandlinescript.cpp:134
 #, kde-format
 msgid "Error calling 'help %1'"
 msgstr "呼叫 'help %1' 時發生錯誤"
 
-#: script/katecommandlinescript.cpp:140
+#: script/katecommandlinescript.cpp:139
 #, kde-format
 msgid "No help specified for command '%1' in script %2"
 msgstr "在文稿 %2 中未指定指令 %1 的說明"
 
-#: script/katescript.cpp:224
+#: script/katescript.cpp:220
 #, kde-format
 msgid "Error loading script %1\n"
 msgstr "載入文稿 %1 時發生錯誤\n"
 
-#: script/katescript.cpp:225
+#: script/katescript.cpp:221
 #, kde-format
 msgid "Error loading script %1"
 msgstr "載入文稿 %1 時發生錯誤"
 
-#: script/katescriptmanager.cpp:333
+#: script/katescriptmanager.cpp:326
 #, kde-format
 msgid "Reload all JavaScript files (indenters, command line scripts, etc)."
 msgstr "重新載入所有的 JavaScript 檔（縮排器、命令列文稿等）"
@@ -4146,236 +4146,236 @@ msgstr "重新載入所有的 JavaScript 檔（縮排器、命令列文稿等）
 msgid "Command not found: %1"
 msgstr "找不到指令：%1"
 
-#: search/katesearchbar.cpp:88
+#: search/katesearchbar.cpp:86
 #, kde-format
 msgid "Add..."
 msgstr "新增..."
 
-#: search/katesearchbar.cpp:292
+#: search/katesearchbar.cpp:283
 #, kde-format
 msgctxt "short translation"
 msgid "1 replacement made"
 msgid_plural "%1 replacements made"
 msgstr[0] "取代了 %1 個地方"
 
-#: search/katesearchbar.cpp:294
+#: search/katesearchbar.cpp:285
 #, kde-format
 msgctxt "short translation"
 msgid "1 match found"
 msgid_plural "%1 matches found"
 msgstr[0] "找到了 %1 個相符項目"
 
-#: search/katesearchbar.cpp:317
+#: search/katesearchbar.cpp:306
 #, kde-format
 msgid "Search wrapped"
 msgstr "搜尋"
 
-#: search/katesearchbar.cpp:388
+#: search/katesearchbar.cpp:376
 #, kde-format
 msgid "Reached top, continued from bottom"
 msgstr "到達頂端，從底部處繼續"
 
-#: search/katesearchbar.cpp:390
+#: search/katesearchbar.cpp:378
 #, kde-format
 msgid "Reached bottom, continued from top"
 msgstr "到達底部，從頂端處繼續"
 
-#: search/katesearchbar.cpp:395
+#: search/katesearchbar.cpp:383
 #, kde-format
 msgid "Not found"
 msgstr "未找到"
 
-#: search/katesearchbar.cpp:643
+#: search/katesearchbar.cpp:626
 #, kde-format
 msgid "Bottom of file reached. Continue from top?"
 msgstr "到達檔案底部。要從頂端繼續嗎？"
 
-#: search/katesearchbar.cpp:644
+#: search/katesearchbar.cpp:626
 #, kde-format
 msgid "Top of file reached. Continue from bottom?"
 msgstr "到達檔案頂端。要從底部繼續嗎？"
 
-#: search/katesearchbar.cpp:645
+#: search/katesearchbar.cpp:627
 #, kde-format
 msgid "Continue search?"
 msgstr "要繼續搜尋嗎？"
 
-#: search/katesearchbar.cpp:951
+#: search/katesearchbar.cpp:906
 #, kde-format
 msgid "SearchHighLight"
 msgstr "搜尋突顯"
 
-#: search/katesearchbar.cpp:1195
+#: search/katesearchbar.cpp:1144
 #, kde-format
 msgid "Beginning of line"
 msgstr "行開頭"
 
-#: search/katesearchbar.cpp:1196
+#: search/katesearchbar.cpp:1145
 #, kde-format
 msgid "End of line"
 msgstr "行結尾"
 
-#: search/katesearchbar.cpp:1198
+#: search/katesearchbar.cpp:1147
 #, kde-format
 msgid "Any single character (excluding line breaks)"
 msgstr "任何單一字元（不含行中斷）"
 
-#: search/katesearchbar.cpp:1200
+#: search/katesearchbar.cpp:1149
 #, kde-format
 msgid "One or more occurrences"
 msgstr "一次或一次以上"
 
-#: search/katesearchbar.cpp:1201
+#: search/katesearchbar.cpp:1150
 #, kde-format
 msgid "Zero or more occurrences"
 msgstr "零次或一次以上"
 
-#: search/katesearchbar.cpp:1202
+#: search/katesearchbar.cpp:1151
 #, kde-format
 msgid "Zero or one occurrences"
 msgstr "零次或一次"
 
-#: search/katesearchbar.cpp:1203
+#: search/katesearchbar.cpp:1152
 #, kde-format
 msgid "<a> through <b> occurrences"
 msgstr "<a> 次到 <b> 次之間"
 
-#: search/katesearchbar.cpp:1205
+#: search/katesearchbar.cpp:1154
 #, kde-format
 msgid "Group, capturing"
 msgstr "群組，抓取中"
 
-#: search/katesearchbar.cpp:1206
+#: search/katesearchbar.cpp:1155
 #, kde-format
 msgid "Or"
 msgstr "或"
 
-#: search/katesearchbar.cpp:1207
+#: search/katesearchbar.cpp:1156
 #, kde-format
 msgid "Set of characters"
 msgstr "字元集"
 
-#: search/katesearchbar.cpp:1208
+#: search/katesearchbar.cpp:1157
 #, kde-format
 msgid "Negative set of characters"
 msgstr "字元補集"
 
-#: search/katesearchbar.cpp:1212
+#: search/katesearchbar.cpp:1161
 #, kde-format
 msgid "Whole match reference"
 msgstr "完全符合參考"
 
-#: search/katesearchbar.cpp:1225
+#: search/katesearchbar.cpp:1171
 #, kde-format
 msgid "Reference"
 msgstr "參考"
 
-#: search/katesearchbar.cpp:1232
+#: search/katesearchbar.cpp:1178
 #, kde-format
 msgid "Line break"
 msgstr "行中斷"
 
-#: search/katesearchbar.cpp:1233
+#: search/katesearchbar.cpp:1179
 #, kde-format
 msgid "Tab"
 msgstr "定位"
 
-#: search/katesearchbar.cpp:1236
+#: search/katesearchbar.cpp:1182
 #, kde-format
 msgid "Word boundary"
 msgstr "字元邊界"
 
-#: search/katesearchbar.cpp:1237
+#: search/katesearchbar.cpp:1183
 #, kde-format
 msgid "Not word boundary"
 msgstr "非字元邊界"
 
-#: search/katesearchbar.cpp:1238
+#: search/katesearchbar.cpp:1184
 #, kde-format
 msgid "Digit"
 msgstr "數字"
 
-#: search/katesearchbar.cpp:1239
+#: search/katesearchbar.cpp:1185
 #, kde-format
 msgid "Non-digit"
 msgstr "非數字"
 
-#: search/katesearchbar.cpp:1240
+#: search/katesearchbar.cpp:1186
 #, kde-format
 msgid "Whitespace (excluding line breaks)"
 msgstr "空白（不含行中斷）"
 
-#: search/katesearchbar.cpp:1241
+#: search/katesearchbar.cpp:1187
 #, kde-format
 msgid "Non-whitespace (excluding line breaks)"
 msgstr "非空白（不含行中斷）"
 
-#: search/katesearchbar.cpp:1242
+#: search/katesearchbar.cpp:1188
 #, kde-format
 msgid "Word character (alphanumerics plus '_')"
 msgstr "單字字元（字母、數字與底線）"
 
-#: search/katesearchbar.cpp:1243
+#: search/katesearchbar.cpp:1189
 #, kde-format
 msgid "Non-word character"
 msgstr "非單字字元"
 
-#: search/katesearchbar.cpp:1246
+#: search/katesearchbar.cpp:1192
 #, kde-format
 msgid "Octal character 000 to 377 (2^8-1)"
 msgstr "八進位數字，從 000 到 377（2^8-1）"
 
-#: search/katesearchbar.cpp:1247
+#: search/katesearchbar.cpp:1193
 #, kde-format
 msgid "Hex character 0000 to FFFF (2^16-1)"
 msgstr "十六進位數字，從 0000 到 FFFF"
 
-#: search/katesearchbar.cpp:1248
+#: search/katesearchbar.cpp:1194
 #, kde-format
 msgid "Backslash"
 msgstr "反斜線"
 
-#: search/katesearchbar.cpp:1252
+#: search/katesearchbar.cpp:1198
 #, kde-format
 msgid "Group, non-capturing"
 msgstr "群組，未抓取"
 
-#: search/katesearchbar.cpp:1253
+#: search/katesearchbar.cpp:1199
 #, kde-format
 msgid "Lookahead"
 msgstr "Lookahead"
 
-#: search/katesearchbar.cpp:1254
+#: search/katesearchbar.cpp:1200
 #, kde-format
 msgid "Negative lookahead"
 msgstr "Negative lookahead"
 
-#: search/katesearchbar.cpp:1259
+#: search/katesearchbar.cpp:1205
 #, kde-format
 msgid "Begin lowercase conversion"
 msgstr "開頭小寫的轉換"
 
-#: search/katesearchbar.cpp:1260
+#: search/katesearchbar.cpp:1206
 #, kde-format
 msgid "Begin uppercase conversion"
 msgstr "開頭大寫的轉換"
 
-#: search/katesearchbar.cpp:1261
+#: search/katesearchbar.cpp:1207
 #, kde-format
 msgid "End case conversion"
 msgstr "結束大小寫的轉換"
 
-#: search/katesearchbar.cpp:1262
+#: search/katesearchbar.cpp:1208
 #, kde-format
 msgid "Lowercase first character conversion"
 msgstr "第一個字元小寫的轉換"
 
-#: search/katesearchbar.cpp:1263
+#: search/katesearchbar.cpp:1209
 #, kde-format
 msgid "Uppercase first character conversion"
 msgstr "第一個字元大寫的轉換"
 
-#: search/katesearchbar.cpp:1264
+#: search/katesearchbar.cpp:1210
 #, kde-format
 msgid "Replacement counter (for Replace All)"
 msgstr "取代計數器（全部取代時用）"
@@ -4521,24 +4521,24 @@ msgstr "切換到漸進搜尋列"
 msgid "Text to replace with"
 msgstr "要取代的文字"
 
-#: spellcheck/spellcheckbar.cpp:149
+#: spellcheck/spellcheckbar.cpp:158
 #, kde-format
 msgid "Spell check canceled."
 msgstr "拼字檢查已取消。"
 
-#: spellcheck/spellcheckbar.cpp:257
+#: spellcheck/spellcheckbar.cpp:256
 #, kde-format
 msgctxt "progress label"
 msgid "Spell checking in progress..."
 msgstr "拼字檢查進行中..."
 
-#: spellcheck/spellcheckbar.cpp:258 spellcheck/spellcheckbar.cpp:451
+#: spellcheck/spellcheckbar.cpp:257 spellcheck/spellcheckbar.cpp:446
 #, kde-format
 msgctxt "@title:window"
 msgid "Check Spelling"
 msgstr "拼字檢查"
 
-#: spellcheck/spellcheckbar.cpp:448 spellcheck/spellcheckbar.cpp:451
+#: spellcheck/spellcheckbar.cpp:443 spellcheck/spellcheckbar.cpp:446
 #, kde-format
 msgid "Spell check complete."
 msgstr "拼字檢查已完成。"
@@ -4759,12 +4759,12 @@ msgstr "拼字檢查（從游標處）..."
 msgid "Check the document's spelling from the cursor and forward"
 msgstr "從游標處向前檢查文件的拼字"
 
-#: spellcheck/spellingmenu.cpp:100
+#: spellcheck/spellingmenu.cpp:101
 #, kde-format
 msgid "Ignore Word"
 msgstr "忽略單字"
 
-#: spellcheck/spellingmenu.cpp:103
+#: spellcheck/spellingmenu.cpp:104
 #, kde-format
 msgid "Add to Dictionary"
 msgstr "加到字典中"
@@ -4776,219 +4776,219 @@ msgid ""
 "installed and in your PATH."
 msgstr "無法啟動 diff 指令。請確保 diff(1) 已經安裝，且存在 PATH 中。"
 
-#: swapfile/kateswapfile.cpp:641
+#: swapfile/kateswapfile.cpp:637
 #, kde-format
 msgid "The file was not closed properly."
 msgstr "檔案沒有正確關閉。"
 
-#: swapfile/kateswapfile.cpp:645
+#: swapfile/kateswapfile.cpp:640
 #, kde-format
 msgid "View Changes"
 msgstr "檢視變更"
 
-#: swapfile/kateswapfile.cpp:646
+#: swapfile/kateswapfile.cpp:641
 #, kde-format
 msgid "Recover Data"
 msgstr "回復資料"
 
-#: swapfile/kateswapfile.cpp:647
+#: swapfile/kateswapfile.cpp:642
 #, kde-format
 msgid "Discard"
 msgstr "丟棄"
 
-#: syntax/katesyntaxmanager.cpp:133
+#: syntax/katesyntaxmanager.cpp:132
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Normal"
 msgstr "一般"
 
-#: syntax/katesyntaxmanager.cpp:134
+#: syntax/katesyntaxmanager.cpp:133
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Keyword"
 msgstr "關鍵字"
 
-#: syntax/katesyntaxmanager.cpp:135
+#: syntax/katesyntaxmanager.cpp:134
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Function"
 msgstr "功能"
 
-#: syntax/katesyntaxmanager.cpp:136
+#: syntax/katesyntaxmanager.cpp:135
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Variable"
 msgstr "變數"
 
-#: syntax/katesyntaxmanager.cpp:137
+#: syntax/katesyntaxmanager.cpp:136
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Control Flow"
 msgstr "控制流程"
 
-#: syntax/katesyntaxmanager.cpp:138
+#: syntax/katesyntaxmanager.cpp:137
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Operator"
 msgstr "操作者"
 
-#: syntax/katesyntaxmanager.cpp:139
+#: syntax/katesyntaxmanager.cpp:138
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Built-in"
 msgstr "內建"
 
-#: syntax/katesyntaxmanager.cpp:140
+#: syntax/katesyntaxmanager.cpp:139
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Extension"
 msgstr "延伸"
 
-#: syntax/katesyntaxmanager.cpp:141
+#: syntax/katesyntaxmanager.cpp:140
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Preprocessor"
 msgstr "前置處理器"
 
-#: syntax/katesyntaxmanager.cpp:142
+#: syntax/katesyntaxmanager.cpp:141
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Attribute"
 msgstr "屬性"
 
-#: syntax/katesyntaxmanager.cpp:144
+#: syntax/katesyntaxmanager.cpp:143
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Character"
 msgstr "字元"
 
-#: syntax/katesyntaxmanager.cpp:145
+#: syntax/katesyntaxmanager.cpp:144
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Special Character"
 msgstr "特殊字元"
 
-#: syntax/katesyntaxmanager.cpp:146
+#: syntax/katesyntaxmanager.cpp:145
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "String"
 msgstr "字串"
 
-#: syntax/katesyntaxmanager.cpp:147
+#: syntax/katesyntaxmanager.cpp:146
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Verbatim String"
 msgstr "逐字字串"
 
-#: syntax/katesyntaxmanager.cpp:148
+#: syntax/katesyntaxmanager.cpp:147
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Special String"
 msgstr "特別字串"
 
-#: syntax/katesyntaxmanager.cpp:149
+#: syntax/katesyntaxmanager.cpp:148
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Imports, Modules, Includes"
 msgstr "匯入、模組、引入"
 
-#: syntax/katesyntaxmanager.cpp:151
+#: syntax/katesyntaxmanager.cpp:150
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Data Type"
 msgstr "資料類型"
 
-#: syntax/katesyntaxmanager.cpp:152
+#: syntax/katesyntaxmanager.cpp:151
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Decimal/Value"
 msgstr "十進制/數值"
 
-#: syntax/katesyntaxmanager.cpp:153
+#: syntax/katesyntaxmanager.cpp:152
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Base-N Integer"
 msgstr "N進制整數"
 
-#: syntax/katesyntaxmanager.cpp:154
+#: syntax/katesyntaxmanager.cpp:153
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Floating Point"
 msgstr "浮點數"
 
-#: syntax/katesyntaxmanager.cpp:155
+#: syntax/katesyntaxmanager.cpp:154
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Constant"
 msgstr "常數"
 
-#: syntax/katesyntaxmanager.cpp:157
+#: syntax/katesyntaxmanager.cpp:156
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Comment"
 msgstr "註解"
 
-#: syntax/katesyntaxmanager.cpp:158
+#: syntax/katesyntaxmanager.cpp:157
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Documentation"
 msgstr "文件"
 
-#: syntax/katesyntaxmanager.cpp:159
+#: syntax/katesyntaxmanager.cpp:158
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Annotation"
 msgstr "註記"
 
-#: syntax/katesyntaxmanager.cpp:160
+#: syntax/katesyntaxmanager.cpp:159
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Comment Variable"
 msgstr "註解變數"
 
-#: syntax/katesyntaxmanager.cpp:162
+#: syntax/katesyntaxmanager.cpp:161
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Region Marker"
 msgstr "區域標記"
 
-#: syntax/katesyntaxmanager.cpp:163
+#: syntax/katesyntaxmanager.cpp:162
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Information"
 msgstr "資訊"
 
-#: syntax/katesyntaxmanager.cpp:164
+#: syntax/katesyntaxmanager.cpp:163
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Warning"
 msgstr "警告"
 
-#: syntax/katesyntaxmanager.cpp:165
+#: syntax/katesyntaxmanager.cpp:164
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Alert"
 msgstr "警示"
 
-#: syntax/katesyntaxmanager.cpp:167
+#: syntax/katesyntaxmanager.cpp:166
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Others"
 msgstr "其他"
 
-#: syntax/katesyntaxmanager.cpp:169
+#: syntax/katesyntaxmanager.cpp:168
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Error"
 msgstr "錯誤"
 
-#: utils/kateautoindent.cpp:94
+#: utils/kateautoindent.cpp:95
 #, kde-format
 msgctxt "Autoindent mode"
 msgid "None"
 msgstr "無"
 
-#: utils/kateautoindent.cpp:98
+#: utils/kateautoindent.cpp:99
 #, kde-format
 msgctxt "Autoindent mode"
 msgid "Normal"
@@ -5014,7 +5014,7 @@ msgstr "清除所有的書籤(&A)"
 msgid "Remove all bookmarks of the current document."
 msgstr "移除目前文件的所有書籤。"
 
-#: utils/katebookmarks.cpp:75 utils/katebookmarks.cpp:247
+#: utils/katebookmarks.cpp:75 utils/katebookmarks.cpp:234
 #, kde-format
 msgid "Next Bookmark"
 msgstr "下個書籤"
@@ -5024,7 +5024,7 @@ msgstr "下個書籤"
 msgid "Go to the next bookmark."
 msgstr "移至下一個書籤。"
 
-#: utils/katebookmarks.cpp:82 utils/katebookmarks.cpp:248
+#: utils/katebookmarks.cpp:82 utils/katebookmarks.cpp:235
 #, kde-format
 msgid "Previous Bookmark"
 msgstr "上個書籤"
@@ -5039,27 +5039,27 @@ msgstr "移至上一個書籤。"
 msgid "&Bookmarks"
 msgstr "書籤(&B)"
 
-#: utils/katebookmarks.cpp:208
+#: utils/katebookmarks.cpp:198
 #, kde-format
 msgid "&Next: %1 - \"%2\""
 msgstr "下一個(&N)：%1 - 「%2」"
 
-#: utils/katebookmarks.cpp:215
+#: utils/katebookmarks.cpp:204
 #, kde-format
 msgid "&Previous: %1 - \"%2\""
 msgstr "上一個(&P)：%1 - 「%2」"
 
-#: utils/katecmds.cpp:65
+#: utils/katecmds.cpp:66
 #, kde-format
 msgid "<p>indent</p><p>Indents the selected lines or the current line</p>"
 msgstr "<p>indent</p><p>將選取的行或目前的行做縮排</p>"
 
-#: utils/katecmds.cpp:69
+#: utils/katecmds.cpp:71
 #, kde-format
 msgid "<p>unindent</p><p>Unindents the selected lines or current line.</p>"
 msgstr "<p>unindent</p><p>取消選取的行或目前的行的縮排。</p>"
 
-#: utils/katecmds.cpp:73
+#: utils/katecmds.cpp:76
 #, kde-format
 msgid ""
 "<p>cleanindent</p><p>Cleans up the indentation of the selected lines or "
@@ -5068,7 +5068,7 @@ msgstr ""
 "<p>cleanindent</p><p>根據目前文件中的縮排設定，清除選取的行或目前的行的縮排。"
 "</p>"
 
-#: utils/katecmds.cpp:77
+#: utils/katecmds.cpp:81
 #, kde-format
 msgid ""
 "<p>comment</p><p>Inserts comment markers to make the selection or selected "
@@ -5078,7 +5078,7 @@ msgstr ""
 "<p>comment</p><p>根據文件的語法突顯定義設定的文字格式，插入註解標記來將選取"
 "區，選擇的行或目前的行變成註解。</p>"
 
-#: utils/katecmds.cpp:81
+#: utils/katecmds.cpp:86
 #, kde-format
 msgid ""
 "<p>uncomment</p><p>Removes comment markers from the selection or selected "
@@ -5088,14 +5088,14 @@ msgstr ""
 "<p>uncomment</p><p>根據文件的語法突顯定義設定的文字格式，將選取區，選擇的行或"
 "目前的行的註解標記移除掉。</p>"
 
-#: utils/katecmds.cpp:85
+#: utils/katecmds.cpp:91
 #, kde-format
 msgid ""
 "<p>goto <b>line number</b></p><p>This command navigates to the specified "
 "line number.</p>"
 msgstr "<p>goto <b>行號</b></p><p>此指令會跳到指定的行號。</p>"
 
-#: utils/katecmds.cpp:89
+#: utils/katecmds.cpp:96
 #, kde-format
 msgid ""
 "<p>set-indent-pasted-text <b>enable</b></p><p>If enabled, indentation of "
@@ -5107,19 +5107,19 @@ msgstr ""
 "的文字會使用目前的縮排器進行縮排。</p><p>1，on，true 表示開啟，<br/>0，off，"
 "false 表示關閉</p>"
 
-#: utils/katecmds.cpp:95
+#: utils/katecmds.cpp:102
 #, kde-format
 msgid "Deletes the current line."
 msgstr "刪除目前行。"
 
-#: utils/katecmds.cpp:98
+#: utils/katecmds.cpp:106
 #, kde-format
 msgid ""
 "<p>set-tab-width <b>width</b></p><p>Sets the tab width to the number "
 "<b>width</b></p>"
 msgstr "<p>set-tab-width <b>寬度</b></p><p>設定定位點 (tab) 的寬度。</p>"
 
-#: utils/katecmds.cpp:102
+#: utils/katecmds.cpp:111
 #, kde-format
 msgid ""
 "<p>set-replace-tab <b>enable</b></p><p>If enabled, tabs are replaced with "
@@ -5130,7 +5130,7 @@ msgstr ""
 "白。</p><p>要開啟選項，可以用：1 或 on 或 true<br/>若要關閉選項，則可以用：0 "
 "或 off 或 false</p>"
 
-#: utils/katecmds.cpp:108
+#: utils/katecmds.cpp:118
 #, kde-format
 msgid ""
 "<p>set-show-tabs <b>enable</b></p><p>If enabled, TAB characters and trailing "
@@ -5141,7 +5141,7 @@ msgstr ""
 "以小點來呈現。</p><p>要開啟選項，可以用：1 或 on 或 true<br/>若要關閉選項，則"
 "可以用：0 或 off 或 false</p>"
 
-#: utils/katecmds.cpp:114
+#: utils/katecmds.cpp:125
 #, kde-format
 msgid ""
 "<p>set-remove-trailing-spaces <b>mode</b></p><p>Removes the trailing spaces "
@@ -5155,7 +5155,7 @@ msgstr ""
 "尾端的空白。</li><li><b>modified</b>：只針對已變更行移除尾端的空白。</"
 "li><li><b>all</b>：移除整份文件中的尾端的空白。</li></ul></p>"
 
-#: utils/katecmds.cpp:124
+#: utils/katecmds.cpp:136
 #, kde-format
 msgid ""
 "<p>set-indent-width <b>width</b></p><p>Sets the indentation width to the "
@@ -5164,7 +5164,7 @@ msgstr ""
 "<p>set-indent-width <b>寬度</b></p><p>設定縮排的寬度。只在您設定使用空白字元"
 "做縮排時有用。</p>"
 
-#: utils/katecmds.cpp:128
+#: utils/katecmds.cpp:141
 #, kde-format
 msgid ""
 "<p>set-indent-mode <b>mode</b></p><p>The mode parameter is a value as seen "
@@ -5173,7 +5173,7 @@ msgstr ""
 "<p>set-indent-mode <b>模式</b></p><p>「模式」的參數值可以參考「工具」─「縮"
 "排」選單中的值。</p>"
 
-#: utils/katecmds.cpp:132
+#: utils/katecmds.cpp:146
 #, kde-format
 msgid ""
 "<p>set-auto-indent <b>enable</b></p><p>Enable or disable autoindentation.</"
@@ -5184,7 +5184,7 @@ msgstr ""
 "選項，可以用：1 或 on 或 true<br/>若要關閉選項，則可以用：0 或 off 或 false</"
 "p>"
 
-#: utils/katecmds.cpp:138
+#: utils/katecmds.cpp:153
 #, kde-format
 msgid ""
 "<p>set-line-numbers <b>enable</b></p><p>Sets the visibility of the line "
@@ -5194,7 +5194,7 @@ msgstr ""
 "<p>set-line-numbers <b>enable</b></p><p>設定是否讓行號可見。</p><p>要開啟選"
 "項，可以用：1 或 on 或 true<br/>若要關閉選項，則可以用：0 或 off 或 false</p>"
 
-#: utils/katecmds.cpp:144
+#: utils/katecmds.cpp:160
 #, kde-format
 msgid ""
 "<p>set-folding-markers <b>enable</b></p><p>Sets the visibility of the "
@@ -5205,7 +5205,7 @@ msgstr ""
 "開啟選項，可以用：1 或 on 或 true<br/>若要關閉選項，則可以用：0 或 off 或 "
 "false</p>"
 
-#: utils/katecmds.cpp:150
+#: utils/katecmds.cpp:167
 #, kde-format
 msgid ""
 "<p>set-icon-border <b>enable</b></p><p>Sets the visibility of the icon "
@@ -5216,7 +5216,7 @@ msgstr ""
 "選項，可以用：1 或 on 或 true<br/>若要關閉選項，則可以用：0 或 off 或 false</"
 "p>"
 
-#: utils/katecmds.cpp:156
+#: utils/katecmds.cpp:174
 #, kde-format
 msgid ""
 "<p>set-word-wrap <b>enable</b></p><p>Enables dynamic word wrap according to "
@@ -5227,7 +5227,7 @@ msgstr ""
 "啟選項，可以用：1 或 on 或 true<br/>若要關閉選項，則可以用：0 或 off 或 "
 "false</p>"
 
-#: utils/katecmds.cpp:162
+#: utils/katecmds.cpp:181
 #, kde-format
 msgid ""
 "<p>set-word-wrap-column <b>width</b></p><p>Sets the line width for hard "
@@ -5237,7 +5237,7 @@ msgstr ""
 "<p>set-word-wrap-column <b>寬度</b></p><p>設定強制折行的寬度。這個設定在您設"
 "定成自動文字折行時使用。</p>"
 
-#: utils/katecmds.cpp:166
+#: utils/katecmds.cpp:186
 #, kde-format
 msgid ""
 "<p>set-replace-tabs-save <b>enable</b></p><p>When enabled, tabs will be "
@@ -5248,7 +5248,7 @@ msgstr ""
 "點字元取代為空白字元。</p><p>要開啟選項，可以用：1 或 on 或 true<br/>若要關閉"
 "選項，則可以用：0 或 off 或 false</p>"
 
-#: utils/katecmds.cpp:172
+#: utils/katecmds.cpp:193
 #, kde-format
 msgid ""
 "<p>set-highlight <b>highlight</b></p><p>Sets the syntax highlighting system "
@@ -5259,12 +5259,12 @@ msgstr ""
 "<p>set-highlight <b>突顯</b></p><p>設定文件的語法突顯系統。參數必須是一個合法"
 "的突顯名稱，在「工具」─「突顯」選單中。此指令提供參數的自動補完功能。</p>"
 
-#: utils/katecmds.cpp:176
+#: utils/katecmds.cpp:198
 #, kde-format
 msgid "<p>set-mode <b>mode</b></p><p>Sets the mode as seen in Tools - Mode</p>"
 msgstr "<p>set-mode <b>模式</b></p><p>設定「工具」─「模式」中的模式。</p>"
 
-#: utils/katecmds.cpp:180
+#: utils/katecmds.cpp:203
 #, kde-format
 msgid ""
 "<p>set-show-indent <b>enable</b></p><p>If enabled, indentation will be "
@@ -5275,64 +5275,64 @@ msgstr ""
 "現。</p><p>要開啟選項，可以用：1 或 on 或 true<br/>若要關閉選項，則可以用：0 "
 "或 off 或 false</p>"
 
-#: utils/katecmds.cpp:186
+#: utils/katecmds.cpp:209
 #, kde-format
 msgid "<p>Open the Print dialog to print the current document.</p>"
 msgstr "<p>開啟列印對話框來列印目前的文件。</p>"
 
-#: utils/katecmds.cpp:301 utils/katecmds.cpp:330
+#: utils/katecmds.cpp:323 utils/katecmds.cpp:349
 #, kde-format
 msgid "Missing argument. Usage: %1 <value>"
 msgstr "漏掉引數。用法：%1 <value>"
 
-#: utils/katecmds.cpp:314
+#: utils/katecmds.cpp:336
 #, kde-format
 msgid "No such highlighting '%1'"
 msgstr "突顯「%1」不存在"
 
-#: utils/katecmds.cpp:320
+#: utils/katecmds.cpp:342
 #, kde-format
 msgid "No such mode '%1'"
 msgstr "模式「%1」不存在"
 
-#: utils/katecmds.cpp:335
+#: utils/katecmds.cpp:354
 #, kde-format
 msgid "Failed to convert argument '%1' to integer."
 msgstr "轉換引數「%1」為整數失敗。"
 
-#: utils/katecmds.cpp:340 utils/katecmds.cpp:345
+#: utils/katecmds.cpp:358 utils/katecmds.cpp:363
 #, kde-format
 msgid "Width must be at least 1."
 msgstr "寬度必須最少為 1。"
 
-#: utils/katecmds.cpp:350
+#: utils/katecmds.cpp:368
 #, kde-format
 msgid "Column must be at least 1."
 msgstr "欄必須最少為 1。"
 
-#: utils/katecmds.cpp:386
+#: utils/katecmds.cpp:396
 #, kde-format
 msgid "Usage: %1 on|off|1|0|true|false"
 msgstr "用法：%1 on|off|1|0|true|false"
 
-#: utils/katecmds.cpp:413
+#: utils/katecmds.cpp:423
 #, kde-format
 msgid "Bad argument '%1'. Usage: %2 on|off|1|0|true|false"
 msgstr "錯誤的引數「%1」。用法：%2 on|off|1|0|true|false"
 
-#: utils/katecmds.cpp:418
+#: utils/katecmds.cpp:427
 #, kde-format
 msgid ""
 "Usage: set-remove-trailing-spaces 0|-|none or 1|+|mod|modified or 2|*|all"
 msgstr ""
 "用法：set-remove-trailing-spaces 0|-|none 或 1|+|mod|modified 或 2|*|all"
 
-#: utils/katecmds.cpp:432 vimode/cmds.cpp:180
+#: utils/katecmds.cpp:441 vimode/cmds.cpp:175
 #, kde-format
 msgid "Unknown command '%1'"
 msgstr "未知的指令「%1」"
 
-#: utils/katecmds.cpp:486
+#: utils/katecmds.cpp:496
 #, kde-format
 msgid ""
 "<p> char <b>identifier</b> </p><p>This command allows you to insert literal "
@@ -5344,7 +5344,7 @@ msgstr ""
 "以是十進位、八進位或十六進位格式。</p><p>例如：<ul><li>char <b>234</b></"
 "li><li>char <b>0x1234</b></li></ul></p>"
 
-#: utils/katecmds.cpp:552
+#: utils/katecmds.cpp:563
 #, kde-format
 msgid ""
 "<p>date or date <b>format</b></p><p>Inserts a date/time string as defined by "
@@ -5391,583 +5391,583 @@ msgstr ""
 "td></tr><tr><td>ap</td><td>12 時制，AP 會被取代為 am 或是 pm。</td></tr></"
 "table></p>"
 
-#: utils/kateglobal.cpp:83
+#: utils/kateglobal.cpp:84
 #, kde-format
 msgid "Kate Part"
 msgstr "Kate Part"
 
-#: utils/kateglobal.cpp:84
+#: utils/kateglobal.cpp:86
 #, kde-format
 msgid "Embeddable editor component"
 msgstr "可嵌入編輯器元件"
 
-#: utils/kateglobal.cpp:85
+#: utils/kateglobal.cpp:88
 #, kde-format
 msgid "(c) 2000-2019 The Kate Authors"
 msgstr "(c) 2000-2019 Kate 作者群"
 
-#: utils/kateglobal.cpp:111
+#: utils/kateglobal.cpp:116
 #, kde-format
 msgid "Christoph Cullmann"
 msgstr "Christoph Cullmann"
 
-#: utils/kateglobal.cpp:111
+#: utils/kateglobal.cpp:116
 #, kde-format
 msgid "Maintainer"
 msgstr "維護者"
 
-#: utils/kateglobal.cpp:112
+#: utils/kateglobal.cpp:117
 #, kde-format
 msgid "Dominik Haumann"
 msgstr "Dominik Haumann"
 
-#: utils/kateglobal.cpp:112 utils/kateglobal.cpp:113 utils/kateglobal.cpp:114
-#: utils/kateglobal.cpp:117 utils/kateglobal.cpp:120 utils/kateglobal.cpp:125
+#: utils/kateglobal.cpp:117 utils/kateglobal.cpp:118 utils/kateglobal.cpp:119
+#: utils/kateglobal.cpp:122 utils/kateglobal.cpp:125 utils/kateglobal.cpp:130
 #, kde-format
 msgid "Core Developer"
 msgstr "核心發展者"
 
-#: utils/kateglobal.cpp:113
+#: utils/kateglobal.cpp:118
 #, kde-format
 msgid "Milian Wolff"
 msgstr "Milian Wolff"
 
-#: utils/kateglobal.cpp:114
+#: utils/kateglobal.cpp:119
 #, kde-format
 msgid "Joseph Wenninger"
 msgstr "Joseph Wenninger"
 
-#: utils/kateglobal.cpp:115
+#: utils/kateglobal.cpp:120
 #, kde-format
 msgid "Erlend Hamberg"
 msgstr "Erlend Hamberg"
 
-#: utils/kateglobal.cpp:116
+#: utils/kateglobal.cpp:121
 #, kde-format
 msgid "Bernhard Beschow"
 msgstr "Bernhard Beschow"
 
-#: utils/kateglobal.cpp:116 utils/kateglobal.cpp:132
+#: utils/kateglobal.cpp:121 utils/kateglobal.cpp:137
 #, kde-format
 msgid "Developer"
 msgstr "開發者"
 
-#: utils/kateglobal.cpp:117
+#: utils/kateglobal.cpp:122
 #, kde-format
 msgid "Anders Lund"
 msgstr "Anders Lund"
 
-#: utils/kateglobal.cpp:118
+#: utils/kateglobal.cpp:123
 #, kde-format
 msgid "Michel Ludwig"
 msgstr "Michel Ludwig"
 
-#: utils/kateglobal.cpp:118
+#: utils/kateglobal.cpp:123
 #, kde-format
 msgid "On-the-fly spell checking"
 msgstr "即時拼字檢查"
 
-#: utils/kateglobal.cpp:119
+#: utils/kateglobal.cpp:124
 #, kde-format
 msgid "Pascal Létourneau"
 msgstr "Pascal Létourneau"
 
-#: utils/kateglobal.cpp:119
+#: utils/kateglobal.cpp:124
 #, kde-format
 msgid "Large scale bug fixing"
 msgstr "大幅度的錯誤修正"
 
-#: utils/kateglobal.cpp:120
+#: utils/kateglobal.cpp:125
 #, kde-format
 msgid "Hamish Rodda"
 msgstr "Hamish Rodda"
 
-#: utils/kateglobal.cpp:121
+#: utils/kateglobal.cpp:126
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: utils/kateglobal.cpp:121
+#: utils/kateglobal.cpp:126
 #, kde-format
 msgid "The cool buffersystem"
 msgstr "很棒的緩衝區系統"
 
-#: utils/kateglobal.cpp:122
+#: utils/kateglobal.cpp:127
 #, kde-format
 msgid "Charles Samuels"
 msgstr "Charles Samuels"
 
-#: utils/kateglobal.cpp:122
+#: utils/kateglobal.cpp:127
 #, kde-format
 msgid "The Editing Commands"
 msgstr "編輯命令"
 
-#: utils/kateglobal.cpp:123
+#: utils/kateglobal.cpp:128
 #, kde-format
 msgid "Matt Newell"
 msgstr "Matt Newell"
 
-#: utils/kateglobal.cpp:123
+#: utils/kateglobal.cpp:128
 #, kde-format
 msgid "Testing, ..."
 msgstr "測試中，..."
 
-#: utils/kateglobal.cpp:124
+#: utils/kateglobal.cpp:129
 #, kde-format
 msgid "Michael Bartl"
 msgstr "Michael Bartl"
 
-#: utils/kateglobal.cpp:124
+#: utils/kateglobal.cpp:129
 #, kde-format
 msgid "Former Core Developer"
 msgstr "早期核心發展者"
 
-#: utils/kateglobal.cpp:125
+#: utils/kateglobal.cpp:130
 #, kde-format
 msgid "Michael McCallum"
 msgstr "Michael McCallum"
 
-#: utils/kateglobal.cpp:126
+#: utils/kateglobal.cpp:131
 #, kde-format
 msgid "Michael Koch"
 msgstr "Michael Koch"
 
-#: utils/kateglobal.cpp:126
+#: utils/kateglobal.cpp:131
 #, kde-format
 msgid "KWrite port to KParts"
 msgstr "KWrite 移植到 KParts"
 
-#: utils/kateglobal.cpp:127
+#: utils/kateglobal.cpp:132
 #, kde-format
 msgid "Christian Gebauer"
 msgstr "Christian Gebauer"
 
-#: utils/kateglobal.cpp:128
+#: utils/kateglobal.cpp:133
 #, kde-format
 msgid "Simon Hausmann"
 msgstr "Simon Hausmann"
 
-#: utils/kateglobal.cpp:129
+#: utils/kateglobal.cpp:134
 #, kde-format
 msgid "Glen Parker"
 msgstr "Glen Parker"
 
-#: utils/kateglobal.cpp:129
+#: utils/kateglobal.cpp:134
 #, kde-format
 msgid "KWrite Undo History, Kspell integration"
 msgstr "KWrite 復原的歷史紀錄，Kspell 整合"
 
-#: utils/kateglobal.cpp:130
+#: utils/kateglobal.cpp:135
 #, kde-format
 msgid "Scott Manson"
 msgstr "Scott Manson"
 
-#: utils/kateglobal.cpp:130
+#: utils/kateglobal.cpp:135
 #, kde-format
 msgid "KWrite XML Syntax highlighting support"
 msgstr "KWrite XML 語法突顯支援"
 
-#: utils/kateglobal.cpp:131
+#: utils/kateglobal.cpp:136
 #, kde-format
 msgid "John Firebaugh"
 msgstr "John Firebaugh"
 
-#: utils/kateglobal.cpp:131
+#: utils/kateglobal.cpp:136
 #, kde-format
 msgid "Patches and more"
 msgstr "修正檔以及其他"
 
-#: utils/kateglobal.cpp:132
+#: utils/kateglobal.cpp:137
 #, kde-format
 msgid "Andreas Kling"
 msgstr "Andreas Kling"
 
-#: utils/kateglobal.cpp:133
+#: utils/kateglobal.cpp:138
 #, kde-format
 msgid "Mirko Stocker"
 msgstr "Mirko Stocker"
 
-#: utils/kateglobal.cpp:133
+#: utils/kateglobal.cpp:138
 #, kde-format
 msgid "Various bugfixes"
 msgstr "Various bugfixes"
 
-#: utils/kateglobal.cpp:134
+#: utils/kateglobal.cpp:139
 #, kde-format
 msgid "Matthew Woehlke"
 msgstr "Matthew Woehlke"
 
-#: utils/kateglobal.cpp:134
+#: utils/kateglobal.cpp:139
 #, kde-format
 msgid "Selection, KColorScheme integration"
 msgstr "選取與 KColorScheme 整合"
 
-#: utils/kateglobal.cpp:135
+#: utils/kateglobal.cpp:140
 #, kde-format
 msgid "Sebastian Pipping"
 msgstr "Sebastian Pipping"
 
-#: utils/kateglobal.cpp:135
+#: utils/kateglobal.cpp:140
 #, kde-format
 msgid "Search bar back- and front-end"
 msgstr "搜尋列的後端與前端介面"
 
-#: utils/kateglobal.cpp:136
+#: utils/kateglobal.cpp:141
 #, kde-format
 msgid "Jochen Wilhelmy"
 msgstr "Jochen Wilhelmy"
 
-#: utils/kateglobal.cpp:136
+#: utils/kateglobal.cpp:141
 #, kde-format
 msgid "Original KWrite Author"
 msgstr "KWrite 原始作者"
 
-#: utils/kateglobal.cpp:137
+#: utils/kateglobal.cpp:142
 #, kde-format
 msgid "Gerald Senarclens de Grancy"
 msgstr "Gerald Senarclens de Grancy"
 
-#: utils/kateglobal.cpp:137
+#: utils/kateglobal.cpp:142
 #, kde-format
 msgid "QA and Scripting"
 msgstr "問答與文稿"
 
-#: utils/kateglobal.cpp:139
+#: utils/kateglobal.cpp:144
 #, kde-format
 msgid "Matteo Merli"
 msgstr "Matteo Merli"
 
-#: utils/kateglobal.cpp:139
+#: utils/kateglobal.cpp:144
 #, kde-format
 msgid "Highlighting for RPM Spec-Files, Perl, Diff and more"
 msgstr "RPM Spec-Files，Perl，Diff 和其他語法的突顯支援"
 
-#: utils/kateglobal.cpp:140
+#: utils/kateglobal.cpp:145
 #, kde-format
 msgid "Rocky Scaletta"
 msgstr "Rocky Scaletta"
 
-#: utils/kateglobal.cpp:140
+#: utils/kateglobal.cpp:145
 #, kde-format
 msgid "Highlighting for VHDL"
 msgstr "VHDL 突顯支援"
 
-#: utils/kateglobal.cpp:141
+#: utils/kateglobal.cpp:146
 #, kde-format
 msgid "Yury Lebedev"
 msgstr "Yury Lebedev"
 
-#: utils/kateglobal.cpp:141
+#: utils/kateglobal.cpp:146
 #, kde-format
 msgid "Highlighting for SQL"
 msgstr "SQL 突顯支援"
 
-#: utils/kateglobal.cpp:142
+#: utils/kateglobal.cpp:147
 #, kde-format
 msgid "Chris Ross"
 msgstr "Chris Ross"
 
-#: utils/kateglobal.cpp:142
+#: utils/kateglobal.cpp:147
 #, kde-format
 msgid "Highlighting for Ferite"
 msgstr "Ferite 突顯支援"
 
-#: utils/kateglobal.cpp:143
+#: utils/kateglobal.cpp:148
 #, kde-format
 msgid "Nick Roux"
 msgstr "Nick Roux"
 
-#: utils/kateglobal.cpp:143
+#: utils/kateglobal.cpp:148
 #, kde-format
 msgid "Highlighting for ILERPG"
 msgstr "ILERPG 突顯支援"
 
-#: utils/kateglobal.cpp:144
+#: utils/kateglobal.cpp:149
 #, kde-format
 msgid "Carsten Niehaus"
 msgstr "Carsten Niehaus"
 
-#: utils/kateglobal.cpp:144
+#: utils/kateglobal.cpp:149
 #, kde-format
 msgid "Highlighting for LaTeX"
 msgstr "Latex 突顯支援"
 
-#: utils/kateglobal.cpp:145
+#: utils/kateglobal.cpp:150
 #, kde-format
 msgid "Per Wigren"
 msgstr "Per Wigren"
 
-#: utils/kateglobal.cpp:145
+#: utils/kateglobal.cpp:150
 #, kde-format
 msgid "Highlighting for Makefiles, Python"
 msgstr "Makefile 與 Python 顏色醒目設定"
 
-#: utils/kateglobal.cpp:146
+#: utils/kateglobal.cpp:151
 #, kde-format
 msgid "Jan Fritz"
 msgstr "Jan Fritz"
 
-#: utils/kateglobal.cpp:146
+#: utils/kateglobal.cpp:151
 #, kde-format
 msgid "Highlighting for Python"
 msgstr "Python 突顯支援"
 
-#: utils/kateglobal.cpp:147
+#: utils/kateglobal.cpp:152
 #, kde-format
 msgid "Daniel Naber"
 msgstr "Daniel Naber"
 
-#: utils/kateglobal.cpp:148
+#: utils/kateglobal.cpp:153
 #, kde-format
 msgid "Roland Pabel"
 msgstr "Roland Pabel"
 
-#: utils/kateglobal.cpp:148
+#: utils/kateglobal.cpp:153
 #, kde-format
 msgid "Highlighting for Scheme"
 msgstr "Scheme 突顯支援"
 
-#: utils/kateglobal.cpp:149
+#: utils/kateglobal.cpp:154
 #, kde-format
 msgid "Cristi Dumitrescu"
 msgstr "Cristi Dumitrescu"
 
-#: utils/kateglobal.cpp:149
+#: utils/kateglobal.cpp:154
 #, kde-format
 msgid "PHP Keyword/Datatype list"
 msgstr "PHP 關鍵字/資料類型 清單"
 
-#: utils/kateglobal.cpp:150
+#: utils/kateglobal.cpp:155
 #, kde-format
 msgid "Carsten Pfeiffer"
 msgstr "Carsten Pfeiffer"
 
-#: utils/kateglobal.cpp:150
+#: utils/kateglobal.cpp:155
 #, kde-format
 msgid "Very nice help"
 msgstr "很棒的說明"
 
-#: utils/kateglobal.cpp:151
+#: utils/kateglobal.cpp:156
 #, kde-format
 msgid "Bruno Massa"
 msgstr "Bruno Massa"
 
-#: utils/kateglobal.cpp:151
+#: utils/kateglobal.cpp:156
 #, kde-format
 msgid "Highlighting for Lua"
 msgstr "Lua 突顯支援"
 
-#: utils/kateglobal.cpp:153
+#: utils/kateglobal.cpp:158
 #, kde-format
 msgid "All people who have contributed and I have forgotten to mention"
 msgstr "所有曾經貢獻而我忘了提到的人們"
 
-#: utils/kateglobal.cpp:155
+#: utils/kateglobal.cpp:160
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "AceLan,Kenduest Lee,Chao-Hsiung Liao"
 
-#: utils/kateglobal.cpp:155
+#: utils/kateglobal.cpp:160
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 "acelan@kde.linux.org.tw,kenduest@i18n.linux.org.tw,pesder.liao@msa.hinet.net"
 
-#: utils/kateglobal.cpp:289
+#: utils/kateglobal.cpp:294
 #, kde-format
 msgid "Configure"
 msgstr "設定"
 
-#: utils/katesedcmd.cpp:273
+#: utils/katesedcmd.cpp:268
 #, kde-format
 msgid "replace with %1?"
 msgstr "要用 %1 取代嗎？"
 
-#: utils/katesedcmd.cpp:279
-#, kde-format
-msgctxt "%2 is the translation of the next message"
-msgid "1 replacement done on %2"
-msgid_plural "%1 replacements done on %2"
-msgstr[0] "於 %2 完成 %1 次取代"
-
-#: utils/katesedcmd.cpp:281
+#: utils/katesedcmd.cpp:273
 #, kde-format
 msgctxt "substituted into the previous message"
 msgid "1 line"
 msgid_plural "%1 lines"
 msgstr[0] "%1 行"
 
-#: utils/katevariableexpansionhelpers.cpp:145
+#: utils/katesedcmd.cpp:273
+#, kde-format
+msgctxt "%2 is the translation of the next message"
+msgid "1 replacement done on %2"
+msgid_plural "%1 replacements done on %2"
+msgstr[0] "於 %2 完成 %1 次取代"
+
+#: utils/katevariableexpansionhelpers.cpp:141
 #, kde-format
 msgid "<value>"
 msgstr "<值>"
 
-#: utils/katevariableexpansionhelpers.cpp:227
+#: utils/katevariableexpansionhelpers.cpp:225
 #, kde-format
 msgid "Insert variable"
 msgstr "插入變數"
 
-#: utils/katevariableexpansionhelpers.cpp:235
+#: utils/katevariableexpansionhelpers.cpp:233
 #, kde-format
 msgid "Filter"
 msgstr "過濾"
 
-#: utils/katevariableexpansionhelpers.cpp:254
-#: utils/katevariableexpansionhelpers.cpp:273
+#: utils/katevariableexpansionhelpers.cpp:252
+#: utils/katevariableexpansionhelpers.cpp:271
 #, kde-format
 msgid "Please select a variable."
 msgstr "請選取變數。"
 
-#: utils/katevariableexpansionhelpers.cpp:266
+#: utils/katevariableexpansionhelpers.cpp:264
 #, kde-format
 msgid "Current value: %1<value>"
 msgstr "目前的值：%1<value>"
 
-#: utils/katevariableexpansionhelpers.cpp:270
+#: utils/katevariableexpansionhelpers.cpp:268
 #, kde-format
 msgid "Current value: %1"
 msgstr "目前的值：%1"
 
-#: utils/katevariableexpansionmanager.cpp:43
+#: utils/katevariableexpansionmanager.cpp:45
 #, kde-format
 msgid "File base name without path and suffix of the current document."
 msgstr "不包含目前文件之路徑及後綴的檔案基礎名稱。"
 
-#: utils/katevariableexpansionmanager.cpp:47
+#: utils/katevariableexpansionmanager.cpp:53
 #, kde-format
 msgid "File extension of the current document."
 msgstr "目前文件的檔案副檔名。"
 
-#: utils/katevariableexpansionmanager.cpp:51
+#: utils/katevariableexpansionmanager.cpp:61
 #, kde-format
 msgid "File name without path of the current document."
 msgstr "不包含目前文件路徑的檔名。"
 
-#: utils/katevariableexpansionmanager.cpp:55
+#: utils/katevariableexpansionmanager.cpp:69
 #, kde-format
 msgid "Full path of the current document including the file name."
 msgstr "包含檔名的目前文件完整路徑。"
 
-#: utils/katevariableexpansionmanager.cpp:59
+#: utils/katevariableexpansionmanager.cpp:76
 #, kde-format
 msgid "Contents of the current document."
 msgstr "目前文件的內容。"
 
-#: utils/katevariableexpansionmanager.cpp:62
+#: utils/katevariableexpansionmanager.cpp:79
 #, kde-format
 msgid "Full path of the current document excluding the file name."
 msgstr "不包含檔名的目前文件完整路徑。"
 
-#: utils/katevariableexpansionmanager.cpp:66
+#: utils/katevariableexpansionmanager.cpp:87
 #, kde-format
 msgid ""
 "Full document path including file name, with native path separator "
 "(backslash on Windows)."
 msgstr "包含檔名、使用原生路徑分隔符號（Windows 上是反斜槓）的完整文件路徑。"
 
-#: utils/katevariableexpansionmanager.cpp:70
+#: utils/katevariableexpansionmanager.cpp:95
 #, kde-format
 msgid ""
 "Full document path excluding file name, with native path separator "
 "(backslash on Windows)."
 msgstr "不包含檔名、使用原生路徑分隔符號（Windows 上是反斜槓）的完整文件路徑。"
 
-#: utils/katevariableexpansionmanager.cpp:74
+#: utils/katevariableexpansionmanager.cpp:103
 #, kde-format
 msgid ""
 "Line number of the text cursor position in current document (starts with 0)."
 msgstr "目前文件中文字游標位置的行號（從 0 開始）。"
 
-#: utils/katevariableexpansionmanager.cpp:77
+#: utils/katevariableexpansionmanager.cpp:108
 #, kde-format
 msgid ""
 "Column number of the text cursor position in current document (starts with "
 "0)."
 msgstr "目前文件中文字游標位置的列號（從 0 開始）。"
 
-#: utils/katevariableexpansionmanager.cpp:80
+#: utils/katevariableexpansionmanager.cpp:113
 #, kde-format
 msgid "X component in global screen coordinates of the cursor position."
 msgstr "游標位置中全域螢幕座標的 X 部份。"
 
-#: utils/katevariableexpansionmanager.cpp:83
+#: utils/katevariableexpansionmanager.cpp:118
 #, kde-format
 msgid "Y component in global screen coordinates of the cursor position."
 msgstr "游標位置中全域螢幕座標的 Y 部份。"
 
-#: utils/katevariableexpansionmanager.cpp:86
+#: utils/katevariableexpansionmanager.cpp:122
 #, kde-format
 msgid "Text selection of the current document."
 msgstr "目前文件的文字選取區域。"
 
-#: utils/katevariableexpansionmanager.cpp:89
+#: utils/katevariableexpansionmanager.cpp:125
 #, kde-format
 msgid "Start line of selected text of the current document."
 msgstr "目前文件選取文字的第一行。"
 
-#: utils/katevariableexpansionmanager.cpp:92
+#: utils/katevariableexpansionmanager.cpp:130
 #, kde-format
 msgid "Start column of selected text of the current document."
 msgstr "目前文件選取文字的第一列。"
 
-#: utils/katevariableexpansionmanager.cpp:95
+#: utils/katevariableexpansionmanager.cpp:135
 #, kde-format
 msgid "End line of selected text of the current document."
 msgstr "目前文件選取文字的最後一行。"
 
-#: utils/katevariableexpansionmanager.cpp:98
+#: utils/katevariableexpansionmanager.cpp:140
 #, kde-format
 msgid "End column of selected text of the current document."
 msgstr "目前文件選取文字的最後一列。"
 
-#: utils/katevariableexpansionmanager.cpp:101
+#: utils/katevariableexpansionmanager.cpp:144
 #, kde-format
 msgid "Number of rows of the current document."
 msgstr "目前文件的行數。"
 
-#: utils/katevariableexpansionmanager.cpp:105
+#: utils/katevariableexpansionmanager.cpp:147
 #, kde-format
 msgid "The current date in current locale format."
 msgstr "使用目前語系格式的目前日期。"
 
-#: utils/katevariableexpansionmanager.cpp:108
+#: utils/katevariableexpansionmanager.cpp:149
 #, kde-format
 msgid "The current date (ISO)."
 msgstr "目前日期 (ISO)。"
 
-#: utils/katevariableexpansionmanager.cpp:111
+#: utils/katevariableexpansionmanager.cpp:151
 #, kde-format
 msgid "The current date (QDate formatstring)."
 msgstr "目前日期 (QDate formatstring)。"
 
-#: utils/katevariableexpansionmanager.cpp:115
+#: utils/katevariableexpansionmanager.cpp:154
 #, kde-format
 msgid "The current time in current locale format."
 msgstr "使用目前語系格式的目前時間。"
 
-#: utils/katevariableexpansionmanager.cpp:118
+#: utils/katevariableexpansionmanager.cpp:156
 #, kde-format
 msgid "The current time (ISO)."
 msgstr "目前時間 (ISO)。"
 
-#: utils/katevariableexpansionmanager.cpp:121
+#: utils/katevariableexpansionmanager.cpp:158
 #, kde-format
 msgid "The current time (QTime formatstring)."
 msgstr "目前時間 (QTime formatstring)。"
 
-#: utils/katevariableexpansionmanager.cpp:125
+#: utils/katevariableexpansionmanager.cpp:161
 #, kde-format
 msgid "Access to environment variables."
 msgstr "存取環境變數。"
 
-#: utils/katevariableexpansionmanager.cpp:129
+#: utils/katevariableexpansionmanager.cpp:165
 #, kde-format
 msgid "Evaluate simple JavaScript statements."
 msgstr "計算簡單的 JavaScript 陳述句。"
 
-#: utils/katevariableexpansionmanager.cpp:135
+#: utils/katevariableexpansionmanager.cpp:174
 #, kde-format
 msgid "Generate a new UUID."
 msgstr "產生新 UUID。"
@@ -6256,62 +6256,62 @@ msgctxt "short translation please"
 msgid "Enable word wrap while typing text."
 msgstr "輸入文字時即開啟折行。"
 
-#: view/katestatusbar.cpp:103
+#: view/katestatusbar.cpp:109
 #, kde-format
 msgid "Current cursor position. Click to go to a specific line."
 msgstr "目前的游標位置。點擊以跳到指定行。"
 
-#: view/katestatusbar.cpp:114
+#: view/katestatusbar.cpp:120
 #, kde-format
 msgid "Insert mode and VI input mode indicator. Click to change the mode."
 msgstr "VI 模式或插入模式的指示器。點擊以更換模式"
 
-#: view/katestatusbar.cpp:122
+#: view/katestatusbar.cpp:128
 #, kde-format
 msgid "Change dictionary"
 msgstr "變更字典…"
 
-#: view/katestatusbar.cpp:150 view/katestatusbar.cpp:499
+#: view/katestatusbar.cpp:156 view/katestatusbar.cpp:499
 #, kde-format
 msgid "Tab Width"
 msgstr "定位點寬度"
 
-#: view/katestatusbar.cpp:158 view/katestatusbar.cpp:511
+#: view/katestatusbar.cpp:164 view/katestatusbar.cpp:512
 #, kde-format
 msgid "Indentation Width"
 msgstr "縮排寬度"
 
-#: view/katestatusbar.cpp:166
+#: view/katestatusbar.cpp:172
 #, kde-format
 msgid "Indentation Mode"
 msgstr "縮排模式"
 
-#: view/katestatusbar.cpp:168
+#: view/katestatusbar.cpp:174
 #, kde-format
 msgid "Tabulators && Spaces"
 msgstr "定位點與空白"
 
-#: view/katestatusbar.cpp:171
+#: view/katestatusbar.cpp:177
 #, kde-format
 msgid "Tabulators"
 msgstr "定位點"
 
-#: view/katestatusbar.cpp:174
+#: view/katestatusbar.cpp:180
 #, kde-format
 msgid "Spaces"
 msgstr "空白"
 
-#: view/katestatusbar.cpp:188
+#: view/katestatusbar.cpp:194
 #, kde-format
 msgid "Encoding"
 msgstr "編碼"
 
-#: view/katestatusbar.cpp:194
+#: view/katestatusbar.cpp:200
 #, kde-format
 msgid "Mode"
 msgstr "模式"
 
-#: view/katestatusbar.cpp:195 view/kateview.cpp:646
+#: view/katestatusbar.cpp:201 view/kateview.cpp:644
 #, kde-format
 msgid ""
 "Here you can choose which mode should be used for the current document. This "
@@ -6319,22 +6319,22 @@ msgid ""
 msgstr ""
 "您可以在此選擇要用於目前文件的模式。這會影響一些像是使用突顯或是折疊等設定。"
 
-#: view/katestatusbar.cpp:205
+#: view/katestatusbar.cpp:211
 #, kde-format
 msgid "Syntax highlighting"
 msgstr "語法突出顯示"
 
-#: view/katestatusbar.cpp:295
+#: view/katestatusbar.cpp:300
 #, kde-format
 msgid "[BLOCK] %1"
 msgstr "[區塊] %1"
 
-#: view/katestatusbar.cpp:307
+#: view/katestatusbar.cpp:312
 #, kde-format
 msgid "Line %1 of %2, Column %3"
 msgstr "第 %1 行（共 %2 行），第 %3 欄"
 
-#: view/katestatusbar.cpp:312
+#: view/katestatusbar.cpp:314
 #, kde-format
 msgid "Line %1, Column %2"
 msgstr "第 %1 行第 %2 欄"
@@ -6355,32 +6355,32 @@ msgid ""
 "Meaning of current icon: Document was modified or deleted by another program"
 msgstr "目前圖示的意義：文件在載入後已被變更或是被其他程式刪除"
 
-#: view/katestatusbar.cpp:410
+#: view/katestatusbar.cpp:409
 #, kde-format
 msgid "Meaning of current icon: Document is in read-only mode"
 msgstr "目前圖示的意思：文件現為唯讀模式"
 
-#: view/katestatusbar.cpp:423
+#: view/katestatusbar.cpp:422
 #, kde-format
 msgid "Soft Tabs: %1"
 msgstr "空白定位：%1"
 
-#: view/katestatusbar.cpp:424
+#: view/katestatusbar.cpp:423
 #, kde-format
 msgid "Soft Tabs: %1 (%2)"
 msgstr "空白定位：%1（%2）"
 
-#: view/katestatusbar.cpp:425
+#: view/katestatusbar.cpp:424
 #, kde-format
 msgid "Tab Size: %1"
 msgstr "定位字元寬度：%1"
 
-#: view/katestatusbar.cpp:426
+#: view/katestatusbar.cpp:425
 #, kde-format
 msgid "Indent/Tab: %1/%2"
 msgstr "縮排/定位：%1/%2"
 
-#: view/katestatusbar.cpp:465 view/katestatusbar.cpp:486
+#: view/katestatusbar.cpp:464 view/katestatusbar.cpp:486
 #, kde-format
 msgid "Other..."
 msgstr "其他..."
@@ -6396,12 +6396,12 @@ msgstr[0] "其他（%1）"
 msgid "Please specify the wanted tab width:"
 msgstr "請輸入定位點的寬度："
 
-#: view/katestatusbar.cpp:511
+#: view/katestatusbar.cpp:512
 #, kde-format
 msgid "Please specify the wanted indentation width:"
 msgstr "請指定定位點的寬度："
 
-#: view/katestatusbar.cpp:564
+#: view/katestatusbar.cpp:565
 #, kde-format
 msgctxt ""
 "%1 and %3 are the selected words/chars count, %2 and %4 are the total words/"
@@ -6409,53 +6409,53 @@ msgctxt ""
 msgid "Words %1/%2, Chars %3/%4"
 msgstr "選取了 %1/%2 個單字，%3/%4 個字元"
 
-#: view/kateview.cpp:478
+#: view/kateview.cpp:469
 #, kde-format
 msgid "Cut the selected text and move it to the clipboard"
 msgstr "剪下選擇的文字並將它移至剪貼簿"
 
-#: view/kateview.cpp:481
+#: view/kateview.cpp:472
 #, kde-format
 msgid "Paste previously copied or cut clipboard contents"
 msgstr "貼上先前複製或剪下的剪貼簿"
 
-#: view/kateview.cpp:484
+#: view/kateview.cpp:475
 #, kde-format
 msgid ""
 "Use this command to copy the currently selected text to the system clipboard."
 msgstr "使用這個指令來將目前選擇的文字複製到系統剪貼簿。"
 
-#: view/kateview.cpp:486
+#: view/kateview.cpp:477
 #, kde-format
 msgid "Clipboard &History"
 msgstr "剪貼簿歷史紀錄(&H)"
 
-#: view/kateview.cpp:491
+#: view/kateview.cpp:482
 #, kde-format
 msgid "Save the current document"
 msgstr "儲存目前文件"
 
-#: view/kateview.cpp:494
+#: view/kateview.cpp:485
 #, kde-format
 msgid "Revert the most recent editing actions"
 msgstr "回復最接近的編輯動作"
 
-#: view/kateview.cpp:497
+#: view/kateview.cpp:488
 #, kde-format
 msgid "Revert the most recent undo operation"
 msgstr "回復最接近的復原操作"
 
-#: view/kateview.cpp:501
+#: view/kateview.cpp:492
 #, kde-format
 msgid "&Scripts"
 msgstr "文稿(&S)"
 
-#: view/kateview.cpp:505
+#: view/kateview.cpp:496
 #, kde-format
 msgid "Apply &Word Wrap"
 msgstr "套用文字折行(&W)"
 
-#: view/kateview.cpp:506
+#: view/kateview.cpp:498
 #, kde-format
 msgid ""
 "Use this to wrap the current line, or to reformat the selected lines as "
@@ -6465,12 +6465,12 @@ msgstr ""
 "使用此選項以折行目前行，或者是將選取的行都格式化成一行以套用設定對話框的「文"
 "字折行位置」設定。<br /><br />由於此為靜態折行，因此會變更文件內容。"
 
-#: view/kateview.cpp:512
+#: view/kateview.cpp:504
 #, kde-format
 msgid "&Clean Indentation"
 msgstr "清除縮排(&C)"
 
-#: view/kateview.cpp:513
+#: view/kateview.cpp:506
 #, kde-format
 msgid ""
 "Use this to clean the indentation of a selected block of text (only tabs/"
@@ -6480,24 +6480,24 @@ msgstr ""
 "使用這個來清除所選文字區塊的縮排(只有跳格/只有空白)<br /><br />您可以在組態對"
 "話盒中設定要優先使用跳格(Tab)或以空格代替。"
 
-#: view/kateview.cpp:518
+#: view/kateview.cpp:511
 #, kde-format
 msgid "&Align"
 msgstr "對齊(&A)"
 
-#: view/kateview.cpp:519
+#: view/kateview.cpp:512
 #, kde-format
 msgid ""
 "Use this to align the current line or block of text to its proper indent "
 "level."
 msgstr "使用這個將目前的行或文字的區塊對齊它的縮排層級。"
 
-#: view/kateview.cpp:523
+#: view/kateview.cpp:516
 #, kde-format
 msgid "C&omment"
 msgstr "註解(&O)"
 
-#: view/kateview.cpp:525
+#: view/kateview.cpp:519
 #, kde-format
 msgid ""
 "This command comments out the current line or a selected block of text.<br /"
@@ -6507,22 +6507,22 @@ msgstr ""
 "這個指令為目前的行或選擇的文字區塊加上註解。<br /><br />單行/多行的註解字元都"
 "在語言的突顯中定義。"
 
-#: view/kateview.cpp:530
+#: view/kateview.cpp:524
 #, kde-format
 msgid "Go to previous editing line"
 msgstr "跳到前一個編輯行"
 
-#: view/kateview.cpp:535
+#: view/kateview.cpp:529
 #, kde-format
 msgid "Go to next editing line"
 msgstr "跳到下一個編輯行"
 
-#: view/kateview.cpp:540
+#: view/kateview.cpp:534
 #, kde-format
 msgid "Unco&mment"
 msgstr "取消註解(&M)"
 
-#: view/kateview.cpp:542
+#: view/kateview.cpp:537
 #, kde-format
 msgid ""
 "This command removes comments from the current line or a selected block of "
@@ -6532,253 +6532,253 @@ msgstr ""
 "這個指令會移除目前的行或選擇的文字區塊的註解。<br /><br />單行/多行的註解字元"
 "都在語言的突顯中定義。"
 
-#: view/kateview.cpp:547
+#: view/kateview.cpp:542
 #, kde-format
 msgid "Toggle Comment"
 msgstr "切換註解"
 
-#: view/kateview.cpp:551
+#: view/kateview.cpp:546
 #, kde-format
 msgid "&Read Only Mode"
 msgstr "唯讀模式(&R)"
 
-#: view/kateview.cpp:552
+#: view/kateview.cpp:547
 #, kde-format
 msgid "Lock/unlock the document for writing"
 msgstr "鎖定/取消鎖定此文件的寫入"
 
-#: view/kateview.cpp:559
+#: view/kateview.cpp:554
 #, kde-format
 msgid "Uppercase"
 msgstr "大寫"
 
-#: view/kateview.cpp:561
+#: view/kateview.cpp:557
 #, kde-format
 msgid ""
 "Convert the selection to uppercase, or the character to the right of the "
 "cursor if no text is selected."
 msgstr "將選擇區轉換為大寫，如果沒有選擇文字則使用游標右方的字元。"
 
-#: view/kateview.cpp:567
+#: view/kateview.cpp:563
 #, kde-format
 msgid "Lowercase"
 msgstr "小寫"
 
-#: view/kateview.cpp:569
+#: view/kateview.cpp:566
 #, kde-format
 msgid ""
 "Convert the selection to lowercase, or the character to the right of the "
 "cursor if no text is selected."
 msgstr "將選擇區轉換為小寫，如果沒有選擇文字則使用游標右方的字元。"
 
-#: view/kateview.cpp:575
+#: view/kateview.cpp:572
 #, kde-format
 msgid "Capitalize"
 msgstr "保持大寫字"
 
-#: view/kateview.cpp:577
+#: view/kateview.cpp:575
 #, kde-format
 msgid ""
 "Capitalize the selection, or the word under the cursor if no text is "
 "selected."
 msgstr "將選擇區轉換為大寫，如果沒有選擇文字則使用游標下方的文字。"
 
-#: view/kateview.cpp:582
+#: view/kateview.cpp:580
 #, kde-format
 msgid "Join Lines"
 msgstr "連接線段"
 
-#: view/kateview.cpp:587
+#: view/kateview.cpp:585
 #, kde-format
 msgid "Invoke Code Completion"
 msgstr "啟動程式碼自動補完"
 
-#: view/kateview.cpp:588
+#: view/kateview.cpp:586
 #, kde-format
 msgid ""
 "Manually invoke command completion, usually by using a shortcut bound to "
 "this action."
 msgstr "手動啟動指令補完，通常使用此動作的捷徑。"
 
-#: view/kateview.cpp:600
+#: view/kateview.cpp:598
 #, kde-format
 msgid "Print the current document."
 msgstr "列印目前的文件。"
 
-#: view/kateview.cpp:603
+#: view/kateview.cpp:601
 #, kde-format
 msgid "Show print preview of current document"
 msgstr "顯示目前文件的預覽列印"
 
-#: view/kateview.cpp:607
+#: view/kateview.cpp:605
 #, kde-format
 msgid "Reloa&d"
 msgstr "重新載入(&D)"
 
-#: view/kateview.cpp:609
+#: view/kateview.cpp:607
 #, kde-format
 msgid "Reload the current document from disk."
 msgstr "由磁碟重新載入目前的文件。"
 
-#: view/kateview.cpp:613
+#: view/kateview.cpp:611
 #, kde-format
 msgid "Save the current document to disk, with a name of your choice."
 msgstr "儲存目前檔案到磁碟內，請指定檔案名稱。"
 
-#: view/kateview.cpp:615
+#: view/kateview.cpp:613
 #, kde-format
 msgid "Save As with Encoding..."
 msgstr "以此編碼另存新檔..."
 
-#: view/kateview.cpp:621
+#: view/kateview.cpp:619
 #, kde-format
 msgid "Save &Copy As..."
 msgstr "另存新檔(&C)..."
 
-#: view/kateview.cpp:622
+#: view/kateview.cpp:620
 #, kde-format
 msgid "Save a copy of the current document to disk."
 msgstr "儲存目前文件的副本到磁碟。"
 
-#: view/kateview.cpp:626
+#: view/kateview.cpp:624
 #, kde-format
 msgid ""
 "This command opens a dialog and lets you choose a line that you want the "
 "cursor to move to."
 msgstr "這個指令開啟對話盒並讓您選擇您想要游標移動到哪一行。"
 
-#: view/kateview.cpp:629
+#: view/kateview.cpp:627
 #, kde-format
 msgid "Move to Previous Modified Line"
 msgstr "移至上一個變更過的行"
 
-#: view/kateview.cpp:630
+#: view/kateview.cpp:628
 #, kde-format
 msgid "Move upwards to the previous modified line."
 msgstr "向上移至上一個變更過的行。"
 
-#: view/kateview.cpp:634
+#: view/kateview.cpp:632
 #, kde-format
 msgid "Move to Next Modified Line"
 msgstr "移至下一個變更過的行"
 
-#: view/kateview.cpp:635
+#: view/kateview.cpp:633
 #, kde-format
 msgid "Move downwards to the next modified line."
 msgstr "向下移至下一個變更過的行。"
 
-#: view/kateview.cpp:639
+#: view/kateview.cpp:637
 #, kde-format
 msgid "&Configure Editor..."
 msgstr "編輯器設定(&C)..."
 
-#: view/kateview.cpp:641
+#: view/kateview.cpp:639
 #, kde-format
 msgid "Configure various aspects of this editor."
 msgstr "設定這個編輯器的各方面選項。"
 
-#: view/kateview.cpp:644
+#: view/kateview.cpp:642
 #, kde-format
 msgid "&Mode"
 msgstr "模式(&M)"
 
-#: view/kateview.cpp:649
+#: view/kateview.cpp:647
 #, kde-format
 msgid "&Highlighting"
 msgstr "突顯(&H)"
 
-#: view/kateview.cpp:651
+#: view/kateview.cpp:649
 #, kde-format
 msgid "Here you can choose how the current document should be highlighted."
 msgstr "您可以選擇目前的文件要怎麼突顯。"
 
-#: view/kateview.cpp:654
+#: view/kateview.cpp:652
 #, kde-format
 msgid "&Schema"
 msgstr "機制(&S)"
 
-#: view/kateview.cpp:659
+#: view/kateview.cpp:657
 #, kde-format
 msgid "&Indentation"
 msgstr "縮排(&I)"
 
-#: view/kateview.cpp:663
+#: view/kateview.cpp:661
 #, kde-format
 msgid "Select the entire text of the current document."
 msgstr "選擇目前文件的所有文字。"
 
-#: view/kateview.cpp:666
+#: view/kateview.cpp:664
 #, kde-format
 msgid ""
 "If you have selected something within the current document, this will no "
 "longer be selected."
 msgstr "如果您在目前的文件中已經選擇某些東西，將無法選擇此項。"
 
-#: view/kateview.cpp:670
+#: view/kateview.cpp:668
 #, kde-format
 msgid "Enlarge Font"
 msgstr "加大字型"
 
-#: view/kateview.cpp:672
+#: view/kateview.cpp:670
 #, kde-format
 msgid "This increases the display font size."
 msgstr "這會增加顯示字型的大小。"
 
-#: view/kateview.cpp:677
+#: view/kateview.cpp:675
 #, kde-format
 msgid "Shrink Font"
 msgstr "收縮字型"
 
-#: view/kateview.cpp:679
+#: view/kateview.cpp:677
 #, kde-format
 msgid "This decreases the display font size."
 msgstr "這會減少顯示字型的大小。"
 
-#: view/kateview.cpp:684
+#: view/kateview.cpp:682
 #, kde-format
 msgid "Reset Font Size"
 msgstr "重設字型大小"
 
-#: view/kateview.cpp:686
+#: view/kateview.cpp:684
 #, kde-format
 msgid "This resets the display font size."
 msgstr "這會重設顯示字型的大小。"
 
-#: view/kateview.cpp:689
+#: view/kateview.cpp:687
 #, kde-format
 msgid "Bl&ock Selection Mode"
 msgstr "區塊選擇模式(&O)"
 
-#: view/kateview.cpp:692
+#: view/kateview.cpp:690
 #, kde-format
 msgid ""
 "This command allows switching between the normal (line based) selection mode "
 "and the block selection mode."
 msgstr "這個指令允許在一般（以行為基礎）選擇模式與區塊選擇模式之間切換。"
 
-#: view/kateview.cpp:696
+#: view/kateview.cpp:694
 #, kde-format
 msgid "Switch to next Input Mode"
 msgstr "切換到下一個輸入模式"
 
-#: view/kateview.cpp:698
+#: view/kateview.cpp:696
 #, kde-format
 msgid "Switch to the next input mode."
 msgstr "切換到下一個輸入模式。"
 
-#: view/kateview.cpp:701
+#: view/kateview.cpp:699
 #, kde-format
 msgid "Overwr&ite Mode"
 msgstr "覆寫模式(&I)"
 
-#: view/kateview.cpp:704
+#: view/kateview.cpp:702
 #, kde-format
 msgid ""
 "Choose whether you want the text you type to be inserted or to overwrite "
 "existing text."
 msgstr "選擇您希望您輸入的文字插入或覆蓋既存的文字。"
 
-#: view/kateview.cpp:711
+#: view/kateview.cpp:710
 #, kde-format
 msgid ""
 "If this option is checked, the text lines will be wrapped at the view border "
@@ -6788,102 +6788,102 @@ msgstr ""
 "如果核取此選項，文字會根據螢幕上視窗寬度來折行。<br /><br />由於這只是個檢視"
 "選項，因此不會變更文件內容。"
 
-#: view/kateview.cpp:715
+#: view/kateview.cpp:714
 #, kde-format
 msgid "Dynamic Word Wrap Indicators"
 msgstr "動態文字折行指示器"
 
-#: view/kateview.cpp:717
+#: view/kateview.cpp:716
 #, kde-format
 msgid "Choose when the Dynamic Word Wrap Indicators should be displayed"
 msgstr "選擇何時要顯示動態文字折行指示器"
 
-#: view/kateview.cpp:719
+#: view/kateview.cpp:718
 #, kde-format
 msgid "&Off"
 msgstr "關閉(&O)"
 
-#: view/kateview.cpp:719
+#: view/kateview.cpp:718
 #, kde-format
 msgid "Follow &Line Numbers"
 msgstr "跟隨行號(&L)"
 
-#: view/kateview.cpp:719
+#: view/kateview.cpp:718
 #, kde-format
 msgid "&Always On"
 msgstr "永遠開啟(&A)"
 
-#: view/kateview.cpp:725
+#: view/kateview.cpp:724
 #, kde-format
 msgid ""
 "If this option is checked, the text lines will be wrapped at the column "
 "defined in the editing properties."
 msgstr "如果核取此選項，文字會根據定義在「編輯」屬性的欄數來折行。"
 
-#: view/kateview.cpp:728
+#: view/kateview.cpp:731
 #, kde-format
 msgid "Show Static &Word Wrap Marker"
 msgstr "顯示靜態文字折行標記(&W)"
 
-#: view/kateview.cpp:730
+#: view/kateview.cpp:734
 #, kde-format
 msgid ""
 "Show/hide the Word Wrap Marker, a vertical line drawn at the word wrap "
 "column as defined in the editing properties"
 msgstr "顯示/隱藏文字折行標記，一條在編輯屬性中定義繪製於文字折行處的垂直線"
 
-#: view/kateview.cpp:734
+#: view/kateview.cpp:738
 #, kde-format
 msgid "Show Folding &Markers"
 msgstr "顯示摺疊記號"
 
-#: view/kateview.cpp:737
+#: view/kateview.cpp:741
 #, kde-format
 msgid ""
 "You can choose if the codefolding marks should be shown, if codefolding is "
 "possible."
 msgstr "如果能使用摺疊，您可以選擇是否要顯示摺疊記號。"
 
-#: view/kateview.cpp:740
+#: view/kateview.cpp:744
 #, kde-format
 msgid "Show &Icon Border"
 msgstr "顯示圖示邊框(&I)"
 
-#: view/kateview.cpp:742
+#: view/kateview.cpp:746
 #, kde-format
 msgid ""
 "Show/hide the icon border.<br /><br />The icon border shows bookmark "
 "symbols, for instance."
 msgstr "顯示/隱藏圖示邊框。<br /><br />例如，圖示邊框顯示書籤標記。"
 
-#: view/kateview.cpp:745
+#: view/kateview.cpp:749
 #, kde-format
 msgid "Show &Line Numbers"
 msgstr "顯示行號(&L)"
 
-#: view/kateview.cpp:748
+#: view/kateview.cpp:752
 #, kde-format
 msgid "Show/hide the line numbers on the left hand side of the view."
 msgstr "顯示/隱藏在檢視左手邊的行編號。"
 
-#: view/kateview.cpp:751
+#: view/kateview.cpp:755
 #, kde-format
 msgid "Show Scroll&bar Marks"
 msgstr "顯示捲動軸標記(&B)"
 
-#: view/kateview.cpp:753
+#: view/kateview.cpp:757
 #, kde-format
 msgid ""
 "Show/hide the marks on the vertical scrollbar.<br /><br />The marks show "
 "bookmarks, for instance."
 msgstr "顯示/隱藏垂直捲動軸標記。<br /><br />例如，顯示書籤標記。"
 
-#: view/kateview.cpp:756
+#: view/kateview.cpp:760
 #, kde-format
 msgid "Show Scrollbar Mini-Map"
 msgstr "顯示捲動軸小地圖"
 
-#: view/kateview.cpp:758
+#: view/kateview.cpp:762
 #, kde-format
 msgid ""
 "Show/hide the mini-map on the vertical scrollbar.<br /><br />The mini-map "
@@ -6895,59 +6895,59 @@ msgstr "顯示/隱藏垂直捲動軸的小地圖。<br /><br />小地圖顯示�
 #. a->setWhatsThis(i18n("Display the whole document in the mini-map.<br /><br />With this option set the whole document will be visible in the mini-map."));
 #. connect(a, SIGNAL(triggered(bool)), SLOT(toggleScrollBarMiniMapAll()));
 #. connect(m_toggleScrollBarMiniMap, SIGNAL(triggered(bool)), m_toggleScrollBarMiniMapAll, SLOT(setEnabled(bool)));
-#: view/kateview.cpp:770
+#: view/kateview.cpp:774
 #, kde-format
 msgid "Show Non-Printable Spaces"
 msgstr "顯示不可列印空白"
 
-#: view/kateview.cpp:772
+#: view/kateview.cpp:776
 #, kde-format
 msgid "Show/hide bounding box around non-printable spaces"
 msgstr "在不可列印的空白周圍顯示/隱藏指示符號"
 
-#: view/kateview.cpp:776
+#: view/kateview.cpp:780
 #, kde-format
 msgid "Switch to Command Line"
 msgstr "切換至命令列"
 
-#: view/kateview.cpp:778
+#: view/kateview.cpp:782
 #, kde-format
 msgid "Show/hide the command line on the bottom of the view."
 msgstr "顯示/隱藏在檢視底部的命令列。"
 
-#: view/kateview.cpp:781
+#: view/kateview.cpp:785
 #, kde-format
 msgid "Input Modes"
 msgstr "輸入模式"
 
-#: view/kateview.cpp:790
+#: view/kateview.cpp:794
 #, kde-format
 msgid "Activate/deactivate %1"
 msgstr "啟動/不啟動 %1"
 
-#: view/kateview.cpp:799
+#: view/kateview.cpp:803
 #, kde-format
 msgid "&End of Line"
 msgstr "行的結尾(&E)"
 
-#: view/kateview.cpp:801
+#: view/kateview.cpp:805
 #, kde-format
 msgid "Choose which line endings should be used, when you save the document"
 msgstr "選擇當您儲存文件時應使用何種行結尾"
 
-#: view/kateview.cpp:803
+#: view/kateview.cpp:806
 #, kde-format
 msgctxt "@item:inmenu End of Line"
 msgid "&UNIX"
 msgstr "UNIX(&U)"
 
-#: view/kateview.cpp:804
+#: view/kateview.cpp:806
 #, kde-format
 msgctxt "@item:inmenu End of Line"
 msgid "&Windows/DOS"
 msgstr "DOS/Windows(&W)"
 
-#: view/kateview.cpp:805
+#: view/kateview.cpp:806
 #, kde-format
 msgctxt "@item:inmenu End of Line"
 msgid "&Macintosh"
@@ -7060,199 +7060,199 @@ msgstr "使用這個指令來將目前選擇的文字以 HTML 形式複製到系
 msgid "E&xport as HTML..."
 msgstr "匯出為 HTML(&X)"
 
-#: view/kateview.cpp:875
+#: view/kateview.cpp:876
 #, kde-format
 msgid ""
 "This command allows you to export the current document with all highlighting "
 "information into a HTML document."
 msgstr "這個指令允許您將目前的文件與突顯的資訊匯出成 HTML 文件。"
 
-#: view/kateview.cpp:914
+#: view/kateview.cpp:915
 #, kde-format
 msgid "Move Word Left"
 msgstr "左移文字"
 
-#: view/kateview.cpp:920
+#: view/kateview.cpp:921
 #, kde-format
 msgid "Select Character Left"
 msgstr "選擇左方字元"
 
-#: view/kateview.cpp:926
+#: view/kateview.cpp:927
 #, kde-format
 msgid "Select Word Left"
 msgstr "選擇左方文字"
 
-#: view/kateview.cpp:932
+#: view/kateview.cpp:933
 #, kde-format
 msgid "Move Word Right"
 msgstr "右移文字"
 
-#: view/kateview.cpp:938
+#: view/kateview.cpp:939
 #, kde-format
 msgid "Select Character Right"
 msgstr "選擇右方字元"
 
-#: view/kateview.cpp:944
+#: view/kateview.cpp:945
 #, kde-format
 msgid "Select Word Right"
 msgstr "選擇右方文字"
 
-#: view/kateview.cpp:950
+#: view/kateview.cpp:951
 #, kde-format
 msgid "Move to Beginning of Line"
 msgstr "移至行的開頭"
 
-#: view/kateview.cpp:956
+#: view/kateview.cpp:957
 #, kde-format
 msgid "Move to Beginning of Document"
 msgstr "移至文件的開頭"
 
-#: view/kateview.cpp:962
+#: view/kateview.cpp:963
 #, kde-format
 msgid "Select to Beginning of Line"
 msgstr "選擇至行的開頭"
 
-#: view/kateview.cpp:968
+#: view/kateview.cpp:969
 #, kde-format
 msgid "Select to Beginning of Document"
 msgstr "選擇至文件的開頭"
 
-#: view/kateview.cpp:974
+#: view/kateview.cpp:975
 #, kde-format
 msgid "Move to End of Line"
 msgstr "移至行的結尾"
 
-#: view/kateview.cpp:980
+#: view/kateview.cpp:981
 #, kde-format
 msgid "Move to End of Document"
 msgstr "移至文件的結尾"
 
-#: view/kateview.cpp:986
+#: view/kateview.cpp:987
 #, kde-format
 msgid "Select to End of Line"
 msgstr "選擇至行的開頭"
 
-#: view/kateview.cpp:992
+#: view/kateview.cpp:993
 #, kde-format
 msgid "Select to End of Document"
 msgstr "選擇至文件的開頭"
 
-#: view/kateview.cpp:998
+#: view/kateview.cpp:999
 #, kde-format
 msgid "Select to Previous Line"
 msgstr "選擇至上一行"
 
-#: view/kateview.cpp:1004
+#: view/kateview.cpp:1005
 #, kde-format
 msgid "Scroll Line Up"
 msgstr "向上捲動一行"
 
-#: view/kateview.cpp:1010
+#: view/kateview.cpp:1011
 #, kde-format
 msgid "Move to Next Line"
 msgstr "移至下一行"
 
-#: view/kateview.cpp:1016
+#: view/kateview.cpp:1017
 #, kde-format
 msgid "Move to Previous Line"
 msgstr "移至上一行"
 
-#: view/kateview.cpp:1022
+#: view/kateview.cpp:1023
 #, kde-format
 msgid "Move Cursor Right"
 msgstr "游標右移"
 
-#: view/kateview.cpp:1028
+#: view/kateview.cpp:1029
 #, kde-format
 msgid "Move Cursor Left"
 msgstr "游標左移"
 
-#: view/kateview.cpp:1034
+#: view/kateview.cpp:1035
 #, kde-format
 msgid "Select to Next Line"
 msgstr "選擇至下一行"
 
-#: view/kateview.cpp:1040
+#: view/kateview.cpp:1041
 #, kde-format
 msgid "Scroll Line Down"
 msgstr "向下捲動一行"
 
-#: view/kateview.cpp:1046
+#: view/kateview.cpp:1047
 #, kde-format
 msgid "Scroll Page Up"
 msgstr "向上捲動一頁"
 
-#: view/kateview.cpp:1052
+#: view/kateview.cpp:1053
 #, kde-format
 msgid "Select Page Up"
 msgstr "向上選擇一頁"
 
-#: view/kateview.cpp:1058
+#: view/kateview.cpp:1059
 #, kde-format
 msgid "Move to Top of View"
 msgstr "移至檢視頂端"
 
-#: view/kateview.cpp:1064
+#: view/kateview.cpp:1065
 #, kde-format
 msgid "Select to Top of View"
 msgstr "選擇至檢視頂端"
 
-#: view/kateview.cpp:1070
+#: view/kateview.cpp:1071
 #, kde-format
 msgid "Scroll Page Down"
 msgstr "向下捲動一頁"
 
-#: view/kateview.cpp:1076
+#: view/kateview.cpp:1077
 #, kde-format
 msgid "Select Page Down"
 msgstr "向下選擇一頁"
 
-#: view/kateview.cpp:1082
+#: view/kateview.cpp:1083
 #, kde-format
 msgid "Move to Bottom of View"
 msgstr "移至檢視底部"
 
-#: view/kateview.cpp:1088
+#: view/kateview.cpp:1089
 #, kde-format
 msgid "Select to Bottom of View"
 msgstr "選擇至檢視底部"
 
-#: view/kateview.cpp:1094
+#: view/kateview.cpp:1095
 #, kde-format
 msgid "Move to Matching Bracket"
 msgstr "移至對應括號"
 
-#: view/kateview.cpp:1100
+#: view/kateview.cpp:1101
 #, kde-format
 msgid "Select to Matching Bracket"
 msgstr "選擇至對應括號"
 
-#: view/kateview.cpp:1108
+#: view/kateview.cpp:1109
 #, kde-format
 msgid "Transpose Characters"
 msgstr "調換字元"
 
-#: view/kateview.cpp:1114
+#: view/kateview.cpp:1115
 #, kde-format
 msgid "Delete Line"
 msgstr "刪除行"
 
-#: view/kateview.cpp:1120
+#: view/kateview.cpp:1121
 #, kde-format
 msgid "Delete Word Left"
 msgstr "刪除左方文字"
 
-#: view/kateview.cpp:1126
+#: view/kateview.cpp:1127
 #, kde-format
 msgid "Delete Word Right"
 msgstr "刪除右方文字"
 
-#: view/kateview.cpp:1132
+#: view/kateview.cpp:1133
 #, kde-format
 msgid "Delete Next Character"
 msgstr "刪除下個字元"
 
-#: view/kateview.cpp:1138
+#: view/kateview.cpp:1139
 #, kde-format
 msgid "Backspace"
 msgstr "Backspace"
@@ -7274,23 +7274,23 @@ msgid ""
 "not letters or numbers."
 msgstr "插入新行，並將目前行中帶頭的非字母或數字的字元加入。"
 
-#: view/kateview.cpp:1162
+#: view/kateview.cpp:1161
 #, kde-format
 msgid "Insert a non-indented Newline"
 msgstr "插入未經縮排的換行"
 
-#: view/kateview.cpp:1163
+#: view/kateview.cpp:1162
 #, kde-format
 msgid ""
 "Insert a new line without indentation, regardless of indentation settings."
 msgstr "插入無縮排的換行，忽略縮排設定。"
 
-#: view/kateview.cpp:1173
+#: view/kateview.cpp:1171
 #, kde-format
 msgid "&Indent"
 msgstr "縮排(&I)"
 
-#: view/kateview.cpp:1174
+#: view/kateview.cpp:1173
 #, kde-format
 msgid ""
 "Use this to indent a selected block of text.<br /><br />You can configure "
@@ -7300,76 +7300,76 @@ msgstr ""
 "使用這個來將選擇的文字區塊縮排。<br /><br />您可以在組態對話盒中設定要優先使"
 "用跳格(Tab)或以空格代替。"
 
-#: view/kateview.cpp:1181
+#: view/kateview.cpp:1180
 #, kde-format
 msgid "&Unindent"
 msgstr "取消縮排(&U)"
 
-#: view/kateview.cpp:1182
+#: view/kateview.cpp:1181
 #, kde-format
 msgid "Use this to unindent a selected block of text."
 msgstr "使用這個來取消所選文字區塊的縮排。"
 
-#: view/kateview.cpp:1200
+#: view/kateview.cpp:1199
 #, kde-format
 msgid "Fold Toplevel Nodes"
 msgstr "收起頂層節點"
 
-#: view/kateview.cpp:1205
+#: view/kateview.cpp:1204
 #, kde-format
 msgid "Unfold Toplevel Nodes"
 msgstr "展開頂層節點"
 
-#: view/kateview.cpp:1218
+#: view/kateview.cpp:1217
 #, kde-format
 msgid "Toggle Current Node"
 msgstr "切換目前節點"
 
-#: view/kateview.cpp:1222
+#: view/kateview.cpp:1221
 #, kde-format
 msgid "Toggle Contained Nodes"
 msgstr "切換包含節點"
 
-#: view/kateview.cpp:1381
+#: view/kateview.cpp:1380
 #, kde-format
 msgid "(R/O) %1"
 msgstr "(唯讀) %1"
 
-#: view/kateview.cpp:3745
+#: view/kateview.cpp:3727
 #, kde-format
 msgid "Export File as HTML"
 msgstr "匯出檔案為 HTML"
 
-#: view/kateviewhelpers.cpp:307 view/kateviewhelpers.cpp:354
-#: view/kateviewhelpers.cpp:953
+#: view/kateviewhelpers.cpp:300 view/kateviewhelpers.cpp:343
+#: view/kateviewhelpers.cpp:933
 #, kde-format
 msgctxt "from line - to line"
 msgid "<center>%1<br/>&#x2014;<br/>%2</center>"
 msgstr "<center>%1<br/>&#x2014;<br/>%2</center>"
 
-#: view/kateviewhelpers.cpp:1128
+#: view/kateviewhelpers.cpp:1105
 #, kde-format
 msgid "Available Commands"
 msgstr "可用的指令"
 
-#: view/kateviewhelpers.cpp:1130
+#: view/kateviewhelpers.cpp:1105
 #, kde-format
 msgid ""
 "<p>For help on individual commands, do <code>'help &lt;command&gt;'</code></"
 "p>"
 msgstr "<p>需要個別指令的協助，請使用 <code>'help &lt;command&gt;'</code></p>"
 
-#: view/kateviewhelpers.cpp:1138
+#: view/kateviewhelpers.cpp:1112
 #, kde-format
 msgid "No help for '%1'"
 msgstr "沒有「%1」的說明"
 
-#: view/kateviewhelpers.cpp:1141
+#: view/kateviewhelpers.cpp:1115
 #, kde-format
 msgid "No such command <b>%1</b>"
 msgstr "沒有這樣的指令 <b>%1</b>"
 
-#: view/kateviewhelpers.cpp:1147
+#: view/kateviewhelpers.cpp:1121
 #, kde-format
 msgid ""
 "<p>This is the Katepart <b>command line</b>.<br />Syntax: <code><b>command "
@@ -7381,47 +7381,47 @@ msgstr ""
 "b></code><br />需要可以用指令的清單，輸入 <code><b>help list</b></code><br />"
 "需要個別制定的說明，輸入 <code><b>help &lt;command&gt;</b></code></p>"
 
-#: view/kateviewhelpers.cpp:1235 vimode/emulatedcommandbar/commandmode.cpp:221
+#: view/kateviewhelpers.cpp:1209 vimode/emulatedcommandbar/commandmode.cpp:221
 #, kde-format
 msgid "No such command: \"%1\""
 msgstr "沒有這樣的指令：「%1」"
 
-#: view/kateviewhelpers.cpp:1238 vimode/emulatedcommandbar/commandmode.cpp:202
+#: view/kateviewhelpers.cpp:1212 vimode/emulatedcommandbar/commandmode.cpp:203
 #, kde-format
 msgid "Error: No range allowed for command \"%1\"."
 msgstr "錯誤：命令 %1 不允許有範圍。"
 
-#: view/kateviewhelpers.cpp:1249 vimode/emulatedcommandbar/commandmode.cpp:207
+#: view/kateviewhelpers.cpp:1222 vimode/emulatedcommandbar/commandmode.cpp:207
 #, kde-format
 msgid "Success: "
 msgstr "成功："
 
-#: view/kateviewhelpers.cpp:1263 vimode/emulatedcommandbar/commandmode.cpp:216
+#: view/kateviewhelpers.cpp:1236 vimode/emulatedcommandbar/commandmode.cpp:216
 #, kde-format
 msgid "Command \"%1\" failed."
 msgstr "指令「%1」失敗。"
 
-#: view/kateviewhelpers.cpp:2465 view/kateviewhelpers.cpp:2466
+#: view/kateviewhelpers.cpp:2414 view/kateviewhelpers.cpp:2415
 #, kde-format
 msgid "Mark Type %1"
 msgstr "標記類型 %1"
 
-#: view/kateviewhelpers.cpp:2489
+#: view/kateviewhelpers.cpp:2438
 #, kde-format
 msgid "Set Default Mark Type"
 msgstr "設定預設遮罩類型"
 
-#: view/kateviewhelpers.cpp:2631
+#: view/kateviewhelpers.cpp:2568
 #, kde-format
 msgid "Disable Annotation Bar"
 msgstr "關閉註記列"
 
-#: vimode/appcommands.cpp:79
+#: vimode/appcommands.cpp:78
 #, kde-format
 msgid "All documents written to disk"
 msgstr "所有文件已寫入磁碟"
 
-#: vimode/appcommands.cpp:82
+#: vimode/appcommands.cpp:81
 #, kde-format
 msgid "Document written to disk"
 msgstr "文件已寫入磁碟"
@@ -7440,7 +7440,7 @@ msgstr ""
 "磁碟。<br /> <tt>wa</tt> &mdash; 將所有的文件寫入磁碟。</p><p>若尚未指定檔"
 "名，會跳出一個檔案對話框。</p>"
 
-#: vimode/appcommands.cpp:223
+#: vimode/appcommands.cpp:224
 #, kde-format
 msgid ""
 "<p><b>q/qa/wq/wqa &mdash; [write and] quit</b></p><p>Usage: <tt><b>[w]q[a]</"
@@ -7462,7 +7462,7 @@ msgstr ""
 "件並離開。</p><p>在以上所有的狀況中，若是該檢視為最後一個檢視，則會一併離開應"
 "用程式。若是指定寫入但尚未指定檔名，則會顯示檔案對話框。</p>"
 
-#: vimode/appcommands.cpp:237
+#: vimode/appcommands.cpp:239
 #, kde-format
 msgid ""
 "<p><b>x/xa &mdash; write and quit</b></p><p>Usage: <tt><b>x[a]</b></tt></"
@@ -7481,7 +7481,7 @@ msgstr ""
 "式。若是指定寫入但尚未指定檔名，則會顯示檔案對話框。</p> <p>跟 'w' 指令不同，"
 "此命令只在有變更時才會做寫入的動作。</p>"
 
-#: vimode/appcommands.cpp:250
+#: vimode/appcommands.cpp:253
 #, kde-format
 msgid ""
 "<p><b>sp,split&mdash; Split horizontally the current view into two</b></"
@@ -7492,7 +7492,7 @@ msgstr ""
 "<tt><b>sp[lit]</b></tt></p><p>它會將檢視切成上下兩半，內容則是同一份文件。</"
 "p>"
 
-#: vimode/appcommands.cpp:255
+#: vimode/appcommands.cpp:259
 #, kde-format
 msgid ""
 "<p><b>vs,vsplit&mdash; Split vertically the current view into two</b></"
@@ -7503,7 +7503,7 @@ msgstr ""
 "<tt><b>vs[plit]</b></tt></p><p>它會將檢視切成左右兩半，內容則是同一份文件。</"
 "p>"
 
-#: vimode/appcommands.cpp:260
+#: vimode/appcommands.cpp:265
 #, kde-format
 msgid ""
 "<p><b>clo[se]&mdash; Close the current view</b></p><p>Usage: <tt><b>clo[se]</"
@@ -7512,7 +7512,7 @@ msgstr ""
 "<p><b>clo[se]&mdash; 關閉目前的檢視</b></p><p>用法：<tt><b>clo[se]</b></tt></"
 "p><p>執行後，目前的檢視會關閉。</p>"
 
-#: vimode/appcommands.cpp:265
+#: vimode/appcommands.cpp:271
 #, kde-format
 msgid ""
 "<p><b>[v]new &mdash; split view and create new document</b></p><p>Usage: "
@@ -7527,7 +7527,7 @@ msgstr ""
 "種用法：<br /> <tt>new</tt> &mdash; 將目前檢視做水平切割，並開啟新文件。<br /"
 "> <tt>vnew</tt> &mdash; 將目前檢視做垂直切割，並開啟新文件。<br /></p>"
 
-#: vimode/appcommands.cpp:274
+#: vimode/appcommands.cpp:281
 #, kde-format
 msgid ""
 "<p><b>e[dit] &mdash; reload current document</b></p><p>Usage: <tt><b>e[dit]</"
@@ -7539,7 +7539,7 @@ msgstr ""
 "tt></p><p>重新開始編輯目前的文件。這指令可以在另一個應用程式變更了目前的文件"
 "時，讓您重新編輯。</p>"
 
-#: vimode/appcommands.cpp:492
+#: vimode/appcommands.cpp:511
 #, kde-format
 msgid ""
 "<p><b>b,buffer &mdash; Edit document N from the document list</b></"
@@ -7548,7 +7548,7 @@ msgstr ""
 "<p><b>b,buffer &mdash; 編輯文件清單中第 N 份文件。</b></p> <p>用法："
 "<tt><b>b[uffer] [N]</b></tt></p>"
 
-#: vimode/appcommands.cpp:497
+#: vimode/appcommands.cpp:516
 #, kde-format
 msgid ""
 "<p><b>bp,bprev &mdash; previous buffer</b></p><p>Usage: <tt><b>bp[revious] "
@@ -7560,7 +7560,7 @@ msgstr ""
 "b></tt></p><p>切換到文件清單中往前數第 <b>[N]</b> 份文件。</p> <p> <b>[N]</"
 "b> 預設為 1。</p> <p>若是遇到文件清單的結尾，則會回到開頭繼續計算。</p>"
 
-#: vimode/appcommands.cpp:505
+#: vimode/appcommands.cpp:524
 #, kde-format
 msgid ""
 "<p><b>bn,bnext &mdash; switch to next document</b></p><p>Usage: "
@@ -7572,7 +7572,7 @@ msgstr ""
 "tt></p><p>切換到文件清單中往後數第 <b>[N]</b> 份文件。<b>[N]</b> 預設為 1。</"
 "p> <p>若是遇到文件清單的結尾，則會回到開頭繼續計算。</p>"
 
-#: vimode/appcommands.cpp:513
+#: vimode/appcommands.cpp:532
 #, kde-format
 msgid ""
 "<p><b>bf,bfirst &mdash; first document</b></p><p>Usage: <tt><b>bf[irst]</b></"
@@ -7582,7 +7582,7 @@ msgstr ""
 "<p><b>bf,bfirst &mdash; 切換到第一份文件</b></p><p>用法：<tt><b>bf[irst]</"
 "b></tt></p><p>前往文件清單中的第一份文件。 </p>"
 
-#: vimode/appcommands.cpp:519
+#: vimode/appcommands.cpp:538
 #, kde-format
 msgid ""
 "<p><b>bl,blast &mdash; last document</b></p><p>Usage: <tt><b>bl[ast]</b></"
@@ -7592,42 +7592,42 @@ msgstr ""
 "<p><b>bl, blast &mdash; 切換到最後一份文件</b></p><p>用法：<tt><b>bl[ast]</"
 "b></tt></p><p>前往文件清單中的最後一份文件。 </p>"
 
-#: vimode/appcommands.cpp:524
+#: vimode/appcommands.cpp:544
 #, kde-format
 msgid "<p><b>ls</b></p><p>list current buffers<p>"
 msgstr "<p><b>ls</b></p><p>列出目前的暫存器<p>"
 
-#: vimode/cmds.cpp:71
+#: vimode/cmds.cpp:70
 #, kde-format
 msgid "Missing argument. Usage: %1 <from>"
 msgstr "漏掉引數。用法：%1 <from>"
 
-#: vimode/cmds.cpp:78
+#: vimode/cmds.cpp:77
 #, kde-format
 msgid "No mapping found for \"%1\""
 msgstr "找不到 %1 的映射"
 
-#: vimode/cmds.cpp:81
+#: vimode/cmds.cpp:80
 #, kde-format
 msgid "\"%1\" is mapped to \"%2\""
 msgstr "%1 映射到 %2"
 
-#: vimode/cmds.cpp:87
+#: vimode/cmds.cpp:86
 #, kde-format
 msgid "Missing argument(s). Usage: %1 <from> [<to>]"
 msgstr "漏掉引數。用法：%1 <from> [<to>] "
 
-#: vimode/cmds.cpp:156 vimode/cmds.cpp:173
+#: vimode/cmds.cpp:152 vimode/cmds.cpp:168
 #, kde-format
 msgid "Wrong arguments"
 msgstr "錯誤的參數"
 
-#: vimode/config/configtab.cpp:216
+#: vimode/config/configtab.cpp:214
 #, kde-format
 msgid "Unable to open the config file for reading."
 msgstr "無法開啟設定檔以讀取。"
 
-#: vimode/config/configtab.cpp:216
+#: vimode/config/configtab.cpp:214
 #, kde-format
 msgid "Unable to open file"
 msgstr "無法開啟檔案"
@@ -7751,28 +7751,28 @@ msgstr "讀取 vimrc 檔並試著匯入以 \"[n] noremap\" 指令所指定的對
 msgid "Import from vimrc file"
 msgstr "從 vimrc 檔匯入"
 
-#: vimode/marks.cpp:129
+#: vimode/marks.cpp:125
 #, kde-format
 msgid "Mark set: %1"
 msgstr "標記設定：%1"
 
-#: vimode/marks.cpp:177
+#: vimode/marks.cpp:170
 #, kde-format
 msgid "There are no more chars for the next bookmark."
 msgstr "下一個書籤沒有更多字元了。"
 
-#: vimode/modes/insertvimode.cpp:276 vimode/modes/modebase.cpp:808
-#: vimode/modes/normalvimode.cpp:3771
+#: vimode/modes/insertvimode.cpp:273 vimode/modes/modebase.cpp:796
+#: vimode/modes/normalvimode.cpp:3742
 #, kde-format
 msgid "Nothing in register %1"
 msgstr "暫存器 %1 中沒有東西"
 
-#: vimode/modes/normalvimode.cpp:1718
+#: vimode/modes/normalvimode.cpp:1695
 #, kde-format
 msgid "'%1' %2,  Hex %3,  Octal %4"
 msgstr "'%1' %2，十六進位 %3，八進位 %4"
 
-#: vimode/modes/normalvimode.cpp:2559
+#: vimode/modes/normalvimode.cpp:2535
 #, kde-format
 msgid "Mark not set: %1"
 msgstr "標記未設定：%1"

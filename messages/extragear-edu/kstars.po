@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-26 02:31+0200\n"
+"POT-Creation-Date: 2019-09-30 02:29+0200\n"
 "PO-Revision-Date: 2019-01-03 18:34+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -120,9 +120,9 @@ msgstr "赤道"
 msgid "Ecliptic"
 msgstr "黃道"
 
-#: auxiliary/colorscheme.cpp:57 projections/equirectangularprojector.cpp:167
-#: projections/projector.cpp:284
-#, kde-format
+#: auxiliary/colorscheme.cpp:57 kstarslite/qml/modules/TopMenu.qml:263
+#: projections/equirectangularprojector.cpp:167 projections/projector.cpp:284
+#, kde-format, kde-kuit-format
 msgid "Horizon"
 msgstr "水平線"
 
@@ -202,6 +202,7 @@ msgstr "可見衛星"
 #: auxiliary/colorscheme.cpp:72 data/qml/whatisinteresting/wiview.qml:238
 #: dialogs/finddialog.cpp:60 kstarsactions.cpp:1044
 #: kstarslite/dialogs/finddialoglite.cpp:48
+#: kstarslite/qml/modules/TopMenu.qml:185
 #, kde-format, kde-kuit-format
 msgid "Satellites"
 msgstr "衛星"
@@ -214,6 +215,7 @@ msgstr "衛星標籤"
 #: auxiliary/colorscheme.cpp:74 data/qml/whatisinteresting/wiview.qml:514
 #: dialogs/finddialog.cpp:59 kstarsactions.cpp:1047
 #: kstarslite/dialogs/finddialoglite.cpp:47
+#: kstarslite/qml/modules/TopMenu.qml:176
 #, kde-format, kde-kuit-format
 msgid "Supernovae"
 msgstr "超新星"
@@ -526,9 +528,11 @@ msgstr "中止扭轉"
 
 #: auxiliary/ksmessagebox.h:42 indi/telescopewizardprocess.cpp:222
 #: indi/telescopewizardprocess.cpp:229
+#: kstarslite/qml/dialogs/FindDialog.qml:114
 #: kstarslite/qml/dialogs/helpers/DetailsAddLink.qml:112
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:446
 #: kstarslite/qml/dialogs/helpers/LocationLoading.qml:52
+#: kstarslite/qml/modules/TimePage.qml:570
 #: kstarslite/qml/modules/tutorial/TutorialExitPopup.qml:41
 #, kde-format, kde-kuit-format
 msgid "Cancel"
@@ -1670,6 +1674,208 @@ msgstr "望遠鏡工具列"
 msgid "Dome Toolbar"
 msgstr "檢視工具列"
 
+#: data/qml/mount/mountbox.qml:274
+#, fuzzy, kde-format
+#| msgctxt "City in California USA"
+#| msgid "Riverside"
+msgid "Reverse"
+msgstr "Riverside"
+
+#: data/qml/mount/mountbox.qml:280
+#, fuzzy, kde-format
+#| msgctxt "City in California USA"
+#| msgid "Downey"
+msgid "Up/Down"
+msgstr "Downey"
+
+#: data/qml/mount/mountbox.qml:288
+#, fuzzy, kde-format
+#| msgctxt "string from libindi, used in the config dialog"
+#| msgid "Light"
+msgid "Left/Right"
+msgstr "亮"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, zoomLevelCombo)
+#: data/qml/mount/mountbox.qml:324 indi/streamform.ui:169
+#, fuzzy, kde-format
+#| msgctxt "string from libindi, used in the config dialog"
+#| msgid "10x"
+msgid "1x"
+msgstr "10x"
+
+#. i18n: ectx: property (text), widget (QLabel, raLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: ectx: property (text), widget (QCheckBox, raCheckBatch)
+#. i18n: ectx: property (text), widget (QCheckBox, RACheckBatch)
+#: data/qml/mount/mountbox.qml:352 dialogs/focusdialog.ui:107
+#: ekos/align/align.ui:261 ekos/align/align.ui:352 ekos/manager.ui:1094
+#: tools/adddeepskyobject.ui:167 tools/altvstime.ui:97 tools/argsetradec.ui:37
+#: tools/modcalcgalcoord.ui:288 tools/modcalcplanets.ui:251
+#: tools/modcalcvlsr.ui:508
+#, kde-format
+msgid "RA:"
+msgstr "赤經："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: data/qml/mount/mountbox.qml:372 ekos/manager.ui:1131
+#, fuzzy, kde-format
+#| msgid "RA:"
+msgid "AZ:"
+msgstr "赤經："
+
+#. i18n: ectx: property (text), widget (QLabel, decLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: data/qml/mount/mountbox.qml:391 dialogs/focusdialog.ui:64
+#: ekos/align/align.ui:217 ekos/align/align.ui:419 ekos/manager.ui:1111
+#, fuzzy, kde-format
+#| msgid "DEC:"
+msgid "DE:"
+msgstr "赤緯："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: data/qml/mount/mountbox.qml:410 ekos/manager.ui:1148
+#, fuzzy, kde-format
+#| msgid "RA:"
+msgid "AL:"
+msgstr "赤經："
+
+#: data/qml/mount/mountbox.qml:429
+#, fuzzy, kde-format
+#| msgid "H:"
+msgid "HA:"
+msgstr "高度："
+
+#: data/qml/mount/mountbox.qml:448
+#, fuzzy, kde-format
+#| msgid "RA:"
+msgid "ZA:"
+msgstr "赤經："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, targetLabel)
+#: data/qml/mount/mountbox.qml:477 ekos/manager.ui:1064
+#: ekos/scheduler/scheduler.ui:315
+#, fuzzy, kde-format
+#| msgctxt "City in Nebraska USA"
+#| msgid "Sargent"
+msgid "Target:"
+msgstr "Sargent"
+
+#: data/qml/mount/mountbox.qml:535
+#, kde-format
+msgid "RA/AZ:"
+msgstr ""
+
+#: data/qml/mount/mountbox.qml:553
+#, kde-format
+msgid "DE/AL:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_17)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label6)
+#. i18n: ectx: property (text), widget (QLabel, label_22)
+#: data/qml/mount/mountbox.qml:570 dialogs/detaildialog.cpp:288
+#: ekos/capture/capture.ui:533 oal/equipmentwriter.ui:98
+#: oal/equipmentwriter.ui:665 oal/execute.ui:146 printing/detailstable.cpp:345
+#, kde-format
+msgid "Type:"
+msgstr "型態："
+
+#: data/qml/mount/mountbox.qml:580
+#, fuzzy, kde-format
+#| msgid "RA/Dec"
+msgid "RA/DE"
+msgstr "赤經/赤緯"
+
+#: data/qml/mount/mountbox.qml:589
+#, kde-format
+msgid "AZ/AL"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, epochLabel)
+#. i18n: ectx: property (text), widget (QLabel, EpochLabel)
+#. i18n: ectx: property (text), widget (QLabel, EpochLabel2)
+#. i18n: ectx: property (text), widget (QCheckBox, epochCheckBatch)
+#. i18n: ectx: property (text), widget (QCheckBox, EpochCheckBatch)
+#: data/qml/mount/mountbox.qml:596 dialogs/focusdialog.ui:114
+#: tools/flagmanager.ui:64 tools/modcalcapcoord.ui:127
+#: tools/modcalcapcoord.ui:215 tools/modcalcapcoord.ui:527
+#: tools/modcalcgalcoord.ui:214 tools/modcalcvlsr.ui:521
+#, kde-format
+msgid "Epoch:"
+msgstr "紀元："
+
+#. i18n: ectx: property (text), widget (QPushButton, JNowB)
+#: data/qml/mount/mountbox.qml:606 dialogs/focusdialog.ui:74
+#, kde-format
+msgid "JNow"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, J2000B)
+#: data/qml/mount/mountbox.qml:613 dialogs/focusdialog.ui:84
+#, fuzzy, kde-format
+#| msgid "2000.0"
+msgid "J2000"
+msgstr "2000.0"
+
+#: data/qml/mount/mountbox.qml:632
+#, fuzzy, kde-format
+#| msgctxt "string from libindi, used in the config dialog"
+#| msgid "GOTO"
+msgid "GOTO"
+msgstr "移至"
+
+#: data/qml/mount/mountbox.qml:643
+#, kde-format
+msgid "SYNC"
+msgstr ""
+
+#: data/qml/mount/mountbox.qml:655
+#, kde-format
+msgid "PARK"
+msgstr ""
+
+#: data/qml/mount/mountbox.qml:667
+#, kde-format
+msgid "UNPARK"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: data/qml/mount/mountbox.qml:686 ekos/manager.ui:665 ekos/manager.ui:1025
+#: ekos/manager.ui:1221 ekos/manager.ui:1415 fitsviewer/fitsdebayer.ui:123
+#, kde-format
+msgid "Status:"
+msgstr "狀態："
+
+#. i18n: ectx: property (text), widget (QLabel, captureStatus)
+#. i18n: ectx: property (text), widget (QLabel, mountStatus)
+#. i18n: ectx: property (text), widget (QLabel, focusStatus)
+#. i18n: ectx: property (text), widget (QLabel, guideStatus)
+#. i18n: ectx: property (text), widget (QLabel, jobStatus)
+#: data/qml/mount/mountbox.qml:695 ekos/align/align.cpp:66
+#: ekos/capture/sequencejob.cpp:29 ekos/ekos.h:24 ekos/ekos.h:72
+#: ekos/ekos.h:104 ekos/ekos.h:122 ekos/ekos.h:139 ekos/ekos.h:155
+#: ekos/manager.cpp:467 ekos/manager.cpp:469 ekos/manager.cpp:470
+#: ekos/manager.cpp:471 ekos/manager.ui:675 ekos/manager.ui:1038
+#: ekos/manager.ui:1231 ekos/manager.ui:1425 ekos/scheduler/scheduler.ui:1078
+#: ekos/scheduler/schedulerjob.cpp:447 ekos/scheduler/schedulerjob.cpp:471
+#: indi/indicap.cpp:235 indi/indidome.cpp:525 indi/inditelescope.cpp:1260
+#, kde-format
+msgid "Idle"
+msgstr "閒置"
+
 #: data/qml/whatisinteresting/wiview.qml:37 kstarsinit.cpp:425
 #, kde-format, kde-kuit-format
 msgid "What's Interesting..."
@@ -1690,7 +1896,8 @@ msgstr "行星"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
 #: data/qml/whatisinteresting/wiview.qml:270 dialogs/finddialog.cpp:49
-#: kstarslite/dialogs/finddialoglite.cpp:37 tools/conjunctions.cpp:108
+#: kstarslite/dialogs/finddialoglite.cpp:37
+#: kstarslite/qml/modules/TopMenu.qml:148 tools/conjunctions.cpp:108
 #: tools/obslistwizard.cpp:401 tools/obslistwizard.cpp:443
 #: tools/obslistwizard.ui:105 tools/wutdialog.cpp:104
 #, kde-format, kde-kuit-format
@@ -1782,6 +1989,12 @@ msgstr "星表"
 msgid "Sharpless Catalog"
 msgstr "星表"
 
+#: data/qml/whatisinteresting/wiview.qml:743
+#: data/qml/whatisinteresting/wiview.qml:1449
+#, kde-kuit-format
+msgid "No Items to display"
+msgstr ""
+
 #: data/qml/whatisinteresting/wiview.qml:890
 #: data/qml/whatisinteresting/wiview.qml:913
 #: data/qml/whatisinteresting/wiview.qml:1138
@@ -1811,6 +2024,19 @@ msgstr ""
 msgid "Slew Telescope"
 msgstr "旋轉望遠鏡"
 
+#: data/qml/whatisinteresting/wiview.qml:1081
+#, fuzzy, kde-kuit-format
+#| msgid "Information"
+msgid "Object Information"
+msgstr "資訊"
+
+#: data/qml/whatisinteresting/wiview.qml:1162
+#, fuzzy, kde-kuit-format
+#| msgctxt "Image/info menu item (should be translated)"
+#| msgid "Wikipedia Page"
+msgid "Wikipedia Infotext"
+msgstr "維基網頁"
+
 #: data/qml/whatisinteresting/wiview.qml:1274
 #, fuzzy, kde-kuit-format
 #| msgid "Info Box Text"
@@ -1835,6 +2061,91 @@ msgstr "下一個"
 #, kde-kuit-format
 msgid "Previous"
 msgstr "前一個"
+
+#: data/qml/whatisinteresting/wiview.qml:1515
+#, fuzzy, kde-kuit-format
+#| msgid "Downloading..."
+msgid "Loading..."
+msgstr "下載中..."
+
+#: data/qml/whatisinteresting/wiview.qml:1545
+#, fuzzy, kde-kuit-format
+#| msgid "What's Interesting..."
+msgid "Explanation of the What's Interesting Panel"
+msgstr "有什麼好玩的..."
+
+#: data/qml/whatisinteresting/wiview.qml:1559
+#, kde-kuit-format
+msgid ""
+"The What's Interesting Panel is intended to allow you to explore many "
+"different interesting objects in the night sky.  It includes objects visible "
+"to the naked eye as well as objects that require telescopes.  It is intended "
+"to appeal to both beginners and advanced astronomers.  If you click on a "
+"category or catalog, a list of objects will appear.  Clicking on an object "
+"in the list will bring up the details view where you can find out more "
+"information about the object.  If you have thumbnail images or wikipedia "
+"information for this object, these will be displayed as well.  If not, you "
+"can download them using the download icon.  If you make What's Interesting "
+"wider, the display will dynamically change to display the information more "
+"conveniently.  Please see the descriptions below for details on what the "
+"buttons at the bottom do."
+msgstr ""
+
+#: data/qml/whatisinteresting/wiview.qml:1581
+#, kde-kuit-format
+msgid ""
+"This button will bring up the What's Interesting Settings. It will let you "
+"configure what is displayed in What's Interesting based upon which equipment "
+"you are using and the observing conditions."
+msgstr ""
+
+#: data/qml/whatisinteresting/wiview.qml:1602
+#, kde-kuit-format
+msgid ""
+"This button will turn on and off the Inspector Mode.  In this mode you can "
+"click on any object in the map and What's Interesting will display the "
+"information about it."
+msgstr ""
+
+#: data/qml/whatisinteresting/wiview.qml:1623
+#, kde-kuit-format
+msgid ""
+"This button will reload the current object list, update all displayed "
+"information, update any images, and update the information and images for "
+"the currently selected object."
+msgstr ""
+
+#: data/qml/whatisinteresting/wiview.qml:1644
+#, kde-kuit-format
+msgid ""
+"This button will toggle whether to filter the list to display only currently "
+"visible objects in a list or to display all of the objects in the list.  The "
+"visibility is determined based on the current KStars date and time, the "
+"current observing equipment, and the current sky conditions based on the "
+"What's Interesting Settings."
+msgstr ""
+
+#: data/qml/whatisinteresting/wiview.qml:1665
+#, kde-kuit-format
+msgid ""
+"This button will toggle whether to filter the list to display only "
+"'interesting' objects or to display any of the objects in the list.  This "
+"setting only applies to the Galaxies, Nebulas, and Clusters lists.  The "
+"objects are considered 'interesting' if they appear on the KStars "
+"'interesting' list."
+msgstr ""
+
+#: data/qml/whatisinteresting/wiview.qml:1686
+#, kde-kuit-format
+msgid ""
+"This button will attempt to download information and pictures about the "
+"object(s) from Wikipedia.  You can select whether to download the "
+"information about just one object, all of the objects in a list, or only the "
+"objects in a list for which no data was downloaded yet.  Please note: If the "
+"list is currently filtered for visible objects or 'interesting' objects, "
+"only the filtered objects will be downloaded.  If you actually want all the "
+"objects in the list, turn off the filters."
+msgstr ""
 
 #: data/qml/whatisinteresting/wiview.qml:1723
 #, kde-kuit-format
@@ -2393,17 +2704,6 @@ msgstr "超新星"
 #, kde-format
 msgid "Discovery Date:"
 msgstr "發現日期："
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_17)
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#. i18n: ectx: property (text), widget (QLabel, label6)
-#. i18n: ectx: property (text), widget (QLabel, label_22)
-#: dialogs/detaildialog.cpp:288 ekos/capture/capture.ui:533
-#: oal/equipmentwriter.ui:98 oal/equipmentwriter.ui:665 oal/execute.ui:146
-#: printing/detailstable.cpp:345
-#, kde-format
-msgid "Type:"
-msgstr "型態："
 
 #: dialogs/detaildialog.cpp:293
 #, kde-format
@@ -3166,9 +3466,10 @@ msgid "Any"
 msgstr "任何"
 
 #: dialogs/finddialog.cpp:50 kstarsactions.cpp:1041 kstarsinit.cpp:453
-#: kstarslite/dialogs/finddialoglite.cpp:38 tools/astrocalc.cpp:173
+#: kstarslite/dialogs/finddialoglite.cpp:38
+#: kstarslite/qml/modules/TopMenu.qml:166 tools/astrocalc.cpp:173
 #: tools/conjunctions.cpp:109
-#, kde-format
+#, kde-format, kde-kuit-format
 msgid "Solar System"
 msgstr "太陽系"
 
@@ -3313,17 +3614,6 @@ msgstr "高度仰角值必須在 -90.0 與 90.0 之間。"
 msgid "RA/Dec"
 msgstr "赤經/赤緯"
 
-#. i18n: ectx: property (text), widget (QLabel, decLabel)
-#. i18n: ectx: property (text), widget (QLabel, label_13)
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: dialogs/focusdialog.ui:64 ekos/align/align.ui:217 ekos/align/align.ui:419
-#: ekos/manager.ui:1111
-#, fuzzy, kde-format
-#| msgid "DEC:"
-msgid "DE:"
-msgstr "赤緯："
-
 #. i18n: ectx: property (toolTip), widget (QPushButton, JNowB)
 #: dialogs/focusdialog.ui:71
 #, fuzzy, kde-format
@@ -3331,54 +3621,11 @@ msgstr "赤緯："
 msgid "Set Epoch to now"
 msgstr "設定位置..."
 
-#. i18n: ectx: property (text), widget (QPushButton, JNowB)
-#: dialogs/focusdialog.ui:74
-#, kde-format
-msgid "JNow"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QPushButton, J2000B)
 #: dialogs/focusdialog.ui:81
 #, kde-format
 msgid "Set Epoch to J2000"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, J2000B)
-#: dialogs/focusdialog.ui:84
-#, fuzzy, kde-format
-#| msgid "2000.0"
-msgid "J2000"
-msgstr "2000.0"
-
-#. i18n: ectx: property (text), widget (QLabel, raLabel)
-#. i18n: ectx: property (text), widget (QLabel, label_12)
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#. i18n: ectx: property (text), widget (QCheckBox, raCheckBatch)
-#. i18n: ectx: property (text), widget (QCheckBox, RACheckBatch)
-#: dialogs/focusdialog.ui:107 ekos/align/align.ui:261 ekos/align/align.ui:352
-#: ekos/manager.ui:1094 tools/adddeepskyobject.ui:167 tools/altvstime.ui:97
-#: tools/argsetradec.ui:37 tools/modcalcgalcoord.ui:288
-#: tools/modcalcplanets.ui:251 tools/modcalcvlsr.ui:508
-#, kde-format
-msgid "RA:"
-msgstr "赤經："
-
-#. i18n: ectx: property (text), widget (QLabel, epochLabel)
-#. i18n: ectx: property (text), widget (QLabel, EpochLabel)
-#. i18n: ectx: property (text), widget (QLabel, EpochLabel2)
-#. i18n: ectx: property (text), widget (QCheckBox, epochCheckBatch)
-#. i18n: ectx: property (text), widget (QCheckBox, EpochCheckBatch)
-#: dialogs/focusdialog.ui:114 tools/flagmanager.ui:64
-#: tools/modcalcapcoord.ui:127 tools/modcalcapcoord.ui:215
-#: tools/modcalcapcoord.ui:527 tools/modcalcgalcoord.ui:214
-#: tools/modcalcvlsr.ui:521
-#, kde-format
-msgid "Epoch:"
-msgstr "紀元："
 
 #. i18n: ectx: property (text), widget (QLineEdit, epochBox)
 #. i18n: ectx: property (text), widget (QLabel, EpochTarget)
@@ -4493,10 +4740,11 @@ msgid "UTC Now"
 msgstr "現在格林威至時間"
 
 #. i18n: ectx: property (text), widget (QPushButton, NowButton)
-#: dialogs/timedialog.cpp:69 tools/modcalcaltaz.ui:100
+#: dialogs/timedialog.cpp:69 kstarslite/qml/modules/TimePage.qml:443
+#: kstarslite/qml/modules/TimePage.qml:537 tools/modcalcaltaz.ui:100
 #: tools/modcalceclipticcoords.ui:54 tools/modcalcjd.ui:48
 #: tools/modcalcvlsr.ui:72
-#, kde-format
+#, kde-format, kde-kuit-format
 msgid "Now"
 msgstr "現在"
 
@@ -4734,23 +4982,6 @@ msgid ""
 msgstr ""
 "<p>這個精靈會幫您設定一些基本的選項，如您在地球上的位置。</p><p>按下「下一"
 "步」就可以開始。</p>"
-
-#. i18n: ectx: property (text), widget (QLabel, captureStatus)
-#. i18n: ectx: property (text), widget (QLabel, mountStatus)
-#. i18n: ectx: property (text), widget (QLabel, focusStatus)
-#. i18n: ectx: property (text), widget (QLabel, guideStatus)
-#. i18n: ectx: property (text), widget (QLabel, jobStatus)
-#: ekos/align/align.cpp:66 ekos/capture/sequencejob.cpp:29 ekos/ekos.h:24
-#: ekos/ekos.h:72 ekos/ekos.h:104 ekos/ekos.h:122 ekos/ekos.h:139
-#: ekos/ekos.h:155 ekos/manager.cpp:467 ekos/manager.cpp:469
-#: ekos/manager.cpp:470 ekos/manager.cpp:471 ekos/manager.ui:675
-#: ekos/manager.ui:1038 ekos/manager.ui:1231 ekos/manager.ui:1425
-#: ekos/scheduler/scheduler.ui:1078 ekos/scheduler/schedulerjob.cpp:447
-#: ekos/scheduler/schedulerjob.cpp:471 indi/indicap.cpp:235
-#: indi/indidome.cpp:525 indi/inditelescope.cpp:1260
-#, kde-format
-msgid "Idle"
-msgstr "閒置"
 
 #: ekos/align/align.cpp:67
 #, fuzzy, kde-format
@@ -15030,7 +15261,8 @@ msgstr "3. 開始與停止 INDI"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, indiControlPanelB)
 #: ekos/manager.ui:430 indi/guimanager.cpp:70
-#, kde-format
+#: kstarslite/qml/indi/INDIControlPanel.qml:22
+#, kde-format, kde-kuit-format
 msgid "INDI Control Panel"
 msgstr "INDI 控制面板"
 
@@ -15054,17 +15286,6 @@ msgstr "4. 連線或中斷連線裝置"
 msgid "Summary"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#. i18n: ectx: property (text), widget (QLabel, label_12)
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: ekos/manager.ui:665 ekos/manager.ui:1025 ekos/manager.ui:1221
-#: ekos/manager.ui:1415 fitsviewer/fitsdebayer.ui:123
-#, kde-format
-msgid "Status:"
-msgstr "狀態："
-
 #. i18n: ectx: property (text), widget (QLabel, imageRemainingTime)
 #. i18n: ectx: property (text), widget (QLabel, sequenceRemainingTime)
 #. i18n: ectx: property (text), widget (QLabel, overallRemainingTime)
@@ -15085,29 +15306,6 @@ msgstr ""
 #| msgid "Polar Alignment"
 msgid "Mount && Alignment"
 msgstr "極地校準"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: ectx: property (text), widget (QLabel, targetLabel)
-#: ekos/manager.ui:1064 ekos/scheduler/scheduler.ui:315
-#, fuzzy, kde-format
-#| msgctxt "City in Nebraska USA"
-#| msgid "Sargent"
-msgid "Target:"
-msgstr "Sargent"
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: ekos/manager.ui:1131
-#, fuzzy, kde-format
-#| msgid "RA:"
-msgid "AZ:"
-msgstr "赤經："
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: ekos/manager.ui:1148
-#, fuzzy, kde-format
-#| msgid "RA:"
-msgid "AL:"
-msgstr "赤經："
 
 #. i18n: ectx: property (toolTip), widget (QLabel, focusProfileImage)
 #: ekos/manager.ui:1314
@@ -22320,14 +22518,6 @@ msgstr "切換星體"
 #| msgid "Zoom level:"
 msgid "Zoom level"
 msgstr "縮放等級："
-
-#. i18n: ectx: property (text), item, widget (QComboBox, zoomLevelCombo)
-#: indi/streamform.ui:169
-#, fuzzy, kde-format
-#| msgctxt "string from libindi, used in the config dialog"
-#| msgid "10x"
-msgid "1x"
-msgstr "10x"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, zoomLevelCombo)
 #: indi/streamform.ui:174
@@ -89552,6 +89742,18 @@ msgstr "尋找物件"
 msgid "Filter by name: "
 msgstr "以名稱過濾："
 
+#: kstarslite/qml/dialogs/FindDialog.qml:61
+#, fuzzy, kde-kuit-format
+#| msgid "Filter by type:"
+msgid "Filter by type: "
+msgstr "以型態過濾："
+
+#: kstarslite/qml/dialogs/FindDialog.qml:107
+#, fuzzy, kde-kuit-format
+#| msgid "Read from input file"
+msgid "Search in internet"
+msgstr "從輸入檔中讀取"
+
 #: kstarslite/qml/dialogs/helpers/DetailsAddLink.qml:20
 #, fuzzy, kde-kuit-format
 #| msgid "Edit Link"
@@ -89732,6 +89934,12 @@ msgstr "時區位移："
 msgid "DST Rule: "
 msgstr "日光節約時間規則："
 
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:359
+#: kstarslite/qml/dialogs/LocationDialog.qml:146
+#, kde-kuit-format
+msgid "Set from GPS"
+msgstr ""
+
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:385
 #, fuzzy, kde-kuit-format
 #| msgid " and longitude "
@@ -89816,6 +90024,12 @@ msgstr "省份過濾器："
 msgid "Country filter: "
 msgstr "國家過濾器："
 
+#: kstarslite/qml/dialogs/LocationDialog.qml:134
+#, fuzzy, kde-kuit-format
+#| msgid "location"
+msgid "Add Location"
+msgstr "位置"
+
 #: kstarslite/qml/dialogs/menus/DetailsLinkMenu.qml:43
 #, fuzzy, kde-kuit-format
 #| msgid "View Resource"
@@ -89866,6 +90080,18 @@ msgstr "檢視(&V)"
 #| msgid "set location"
 msgid "Deleted location %1"
 msgstr "設定位置"
+
+#: kstarslite/qml/indi/ImagePreview.qml:22
+#, fuzzy, kde-kuit-format
+#| msgid "Preview of %1"
+msgid "Image Preview - %1"
+msgstr "%1 的預覽"
+
+#: kstarslite/qml/indi/ImagePreview.qml:43
+#, fuzzy, kde-kuit-format
+#| msgid "Save Script As..."
+msgid "Save As"
+msgstr "儲存文稿為..."
 
 #: kstarslite/qml/indi/INDIControlPanel.qml:65
 #, fuzzy, kde-kuit-format
@@ -89990,6 +90216,11 @@ msgstr "東南"
 #| msgid "Slew rate"
 msgid "Slew rate: "
 msgstr "扭轉率"
+
+#: kstarslite/qml/main.qml:169
+#, kde-kuit-format
+msgid "Sky Map"
+msgstr ""
 
 #: kstarslite/qml/main.qml:437
 #, fuzzy, kde-kuit-format
@@ -90180,6 +90411,103 @@ msgstr "球心切面投影（Gnomonic）"
 #, kde-format, kde-kuit-format
 msgid "Set Time"
 msgstr "設定時間"
+
+#: kstarslite/qml/modules/TimePage.qml:240
+#, fuzzy, kde-kuit-format
+#| msgid "Year:"
+msgid "Year"
+msgstr "年："
+
+#: kstarslite/qml/modules/TimePage.qml:282 tools/calendarwidget.cpp:223
+#, kde-format, kde-kuit-format
+msgid "Month"
+msgstr "月"
+
+#: kstarslite/qml/modules/TimePage.qml:335
+#, kde-kuit-format
+msgid "Week"
+msgstr ""
+
+#: kstarslite/qml/modules/TimePage.qml:381
+#, fuzzy, kde-kuit-format
+#| msgid "day"
+msgid "Day"
+msgstr "天"
+
+#: kstarslite/qml/modules/TimePage.qml:455
+#, fuzzy, kde-kuit-format
+#| msgid "hours"
+msgid "Hour"
+msgstr "小時"
+
+#: kstarslite/qml/modules/TimePage.qml:486
+#, fuzzy, kde-kuit-format
+#| msgid "Min. Alt:"
+msgid "Min."
+msgstr "最小高度："
+
+#: kstarslite/qml/modules/TimePage.qml:542
+#: kstarslite/qml/modules/TimePage.qml:560
+#, fuzzy, kde-kuit-format
+#| msgctxt "City in Siberia Russia"
+#| msgid "Omsk"
+msgid "Ok"
+msgstr "Omsk"
+
+#: kstarslite/qml/modules/TopMenu.qml:123
+#, fuzzy, kde-kuit-format
+#| msgid "Auto mode"
+msgid "Automatic mode"
+msgstr "自動模式"
+
+#: kstarslite/qml/modules/TopMenu.qml:157
+#, fuzzy, kde-kuit-format
+#| msgid "Deep-sky Objects"
+msgid "DeepSky Objects"
+msgstr "深天空物件"
+
+#: kstarslite/qml/modules/TopMenu.qml:194
+#: skycomponents/constellationlines.cpp:34
+#, kde-format, kde-kuit-format
+msgid "Constellation Lines"
+msgstr "星座線條"
+
+#: kstarslite/qml/modules/TopMenu.qml:203 tools/scriptbuilder.cpp:600
+#, kde-format, kde-kuit-format
+msgid "Constellation Names"
+msgstr "星座名稱"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowConstellationArt)
+#: kstarslite/qml/modules/TopMenu.qml:213 options/opsguides.ui:71
+#, fuzzy, kde-format, kde-kuit-format
+#| msgid "Constellation"
+msgid "Constellation Art"
+msgstr "星座"
+
+#: kstarslite/qml/modules/TopMenu.qml:224
+#, fuzzy, kde-kuit-format
+#| msgid "Constellation Boundaries"
+msgid "Constellation Bounds"
+msgstr "星座邊界"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideMilkyWay)
+#: kstarslite/qml/modules/TopMenu.qml:233 options/opsadvanced.ui:627
+#: skycomponents/milkyway.cpp:33
+#, kde-format, kde-kuit-format
+msgid "Milky Way"
+msgstr "銀河"
+
+#: kstarslite/qml/modules/TopMenu.qml:243
+#, fuzzy, kde-kuit-format
+#| msgid "Equatorial Coordinates"
+msgid "Equatorial Grid"
+msgstr "赤道座標"
+
+#: kstarslite/qml/modules/TopMenu.qml:253
+#, fuzzy, kde-kuit-format
+#| msgid "Horizontal "
+msgid "Horizontal Grid"
+msgstr "水平線"
 
 #: kstarslite/qml/modules/tutorial/TutorialExitPopup.qml:34
 #, fuzzy, kde-kuit-format
@@ -93945,12 +94273,6 @@ msgid ""
 "motion."
 msgstr "勾選此選項的話，移動天體圖時會隱藏銀河的輪廓。"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideMilkyWay)
-#: options/opsadvanced.ui:627 skycomponents/milkyway.cpp:33
-#, kde-format
-msgid "Milky Way"
-msgstr "銀河"
-
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideMessier)
 #: options/opsadvanced.ui:634
 #, kde-format
@@ -94551,13 +94873,6 @@ msgstr "您可以在此選擇星座要如何呈現。"
 #, kde-format
 msgid "Constellation &boundaries"
 msgstr "星座邊界(&B)"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowConstellationArt)
-#: options/opsguides.ui:71
-#, fuzzy, kde-format
-#| msgid "Constellation"
-msgid "Constellation Art"
-msgstr "星座"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowHighlightedCBound)
 #: options/opsguides.ui:81
@@ -96022,11 +96337,6 @@ msgstr "星座邊界"
 #, kde-format
 msgid "Loading Constellation Boundaries"
 msgstr "載入星座邊界中"
-
-#: skycomponents/constellationlines.cpp:34
-#, kde-format
-msgid "Constellation Lines"
-msgstr "星座線條"
 
 #: skycomponents/constellationlines.cpp:111
 #, kde-format
@@ -98536,11 +98846,6 @@ msgstr "本地時間"
 #, kde-format
 msgid "Universal time"
 msgstr "格林威治標準時間"
-
-#: tools/calendarwidget.cpp:223
-#, kde-format
-msgid "Month"
-msgstr "月"
 
 #: tools/calendarwidget.cpp:227
 #, kde-format
@@ -101503,11 +101808,6 @@ msgstr "切換顯示行星名稱標籤"
 #, kde-format
 msgid "Toggle display of planet images"
 msgstr "切換顯示行星影像"
-
-#: tools/scriptbuilder.cpp:600
-#, kde-format
-msgid "Constellation Names"
-msgstr "星座名稱"
 
 #: tools/scriptbuilder.cpp:601
 #, kde-format

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-29 02:38+0200\n"
+"POT-Creation-Date: 2019-09-30 02:34+0200\n"
 "PO-Revision-Date: 2016-09-22 20:30+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
@@ -40,7 +40,8 @@ msgctxt "Title of the view of all artists"
 msgid "Artists"
 msgstr ""
 
-#: android/ElisaMainWindow.qml:41 main.cpp:115 qml/ElisaMainWindow.qml:42
+#: android/ElisaMainWindow.qml:33 android/ElisaMainWindow.qml:41 main.cpp:115
+#: qml/ElisaMainWindow.qml:42
 #, kde-format
 msgid "Elisa"
 msgstr ""
@@ -538,6 +539,21 @@ msgstr ""
 #, kde-format
 msgctxt "Window title for track metadata"
 msgid "View Details"
+msgstr ""
+
+#: qml/MediaTrackMetadataView.qml:177
+#, kde-format
+msgid "Delete"
+msgstr ""
+
+#: qml/MediaTrackMetadataView.qml:197
+#, kde-format
+msgid "Apply"
+msgstr ""
+
+#: qml/MediaTrackMetadataView.qml:210
+#, kde-format
+msgid "Close"
 msgstr ""
 
 #: qml/NavigationActionBar.qml:55
