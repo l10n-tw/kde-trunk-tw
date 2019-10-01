@@ -35,7 +35,6 @@ msgstr "變數型態與識別子"
 
 #: filetemplatesplugin.cpp:70
 #, kde-format
-#| msgid "New From Template"
 msgid "New From Template..."
 msgstr "由樣本建立…"
 
@@ -58,7 +57,6 @@ msgstr "樣本預覽"
 
 #: filetemplatesplugin.cpp:116
 #, kde-format
-#| msgid "Create From Template"
 msgid "Create From Template..."
 msgstr "從樣本建立…"
 
@@ -100,14 +98,12 @@ msgstr[0] "不合法的輸出檔：%2"
 
 #: outputpage.cpp:183
 #, kde-format
-#| msgid "Output file(s)"
 msgid "Output file"
 msgid_plural "Output files"
 msgstr[0] "輸出檔案"
 
 #: outputpage.cpp:184
 #, kde-format
-#| msgid "Location within existing file(s)"
 msgid "Location within existing file"
 msgid_plural "Location within existing files"
 msgstr[0] "現存檔案位置"
@@ -327,7 +323,6 @@ msgstr "從檔案載入樣本"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: ui/licensechooser.ui:17
 #, kde-format
-#| msgid "Choose the license under which to place the new class."
 msgid "Choose the license under which to place the generated content."
 msgstr "請選擇產生內容的授權條款。"
 
@@ -346,24 +341,19 @@ msgstr "若您要儲存此授權以便將來使用，請點擊此處"
 #. i18n: ectx: property (text), widget (QCheckBox, saveLicense)
 #: ui/licensechooser.ui:55
 #, kde-format
-#| msgid "Save License"
 msgid "Save license"
 msgstr "儲存授權"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ui/licensechooser.ui:82
 #, kde-format
-#| msgid ""
-#| "<p>You can use <code>&lt;year&gt;</code> and <code>&lt;copyright "
-#| "holder&gt;</code> as placeholders.</p>"
 msgid ""
 "<p>You can use <code>&lt;year&gt;</code>, <code>&lt;month&gt;</code>, "
 "<code>&lt;day&gt;</code> and <code>&lt;copyright holder&gt;</code> as "
 "placeholders.</p>"
 msgstr ""
-"<p>您可使用 <code>&lt;year&gt;</code>, <code>&lt;month&gt;</code>, "
-"<code>&lt;day&gt;</code> and <code>&lt;copyright holder&gt;</code> 作為"
-"替代符。</p>"
+"<p>您可使用 <code>&lt;year&gt;</code>, <code>&lt;month&gt;</code>, <code>&lt;"
+"day&gt;</code> and <code>&lt;copyright holder&gt;</code> 作為替代符。</p>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: ui/newclass.ui:17
@@ -386,7 +376,6 @@ msgstr "繼承(&H)："
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: ui/outputlocation.ui:17
 #, kde-format
-#| msgid "Choose where to save the new class."
 msgid "Choose where to save the generated content."
 msgstr "請選擇產生內容的儲存位置。"
 
@@ -441,6 +430,5 @@ msgstr "設定測試名稱與測試項目。"
 #. i18n: ectx: property (text), widget (QLabel, testCasesLabel)
 #: ui/testcases.ui:36
 #, kde-format
-#| msgid "&Test Cases:"
 msgid "&Test cases:"
 msgstr "測試項目(&T)："

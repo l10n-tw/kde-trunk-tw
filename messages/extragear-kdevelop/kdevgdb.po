@@ -91,13 +91,12 @@ msgstr "自訂格式字串"
 
 #: debugsession.cpp:181
 #, kde-format
-#| msgid ""
-#| "No environment group specified, looks like a broken configuration, please "
-#| "check run configuration '%1'. Using default environment group."
 msgid ""
 "No environment profile specified, looks like a broken configuration, please "
 "check run configuration '%1'. Using default environment profile."
-msgstr "沒有指定環境設定檔，似乎是設定有問題。請檢查執行設定 %1。將改用預設的環境設定檔。"
+msgstr ""
+"沒有指定環境設定檔，似乎是設定有問題。請檢查執行設定 %1。將改用預設的環境設定"
+"檔。"
 
 #: debugsession.cpp:293
 #, kde-format
@@ -121,8 +120,6 @@ msgstr "啟動錯誤"
 
 #: debugsession.cpp:319
 #, kde-format
-#| msgid ""
-#| "<b>Debugger error</b><p>Debugger reported the following error:<p><tt>%1"
 msgid ""
 "<b>Failed to load core file</b><p>Debugger reported the following error:"
 "<p><tt>%1"
@@ -148,11 +145,11 @@ msgstr "除錯器設定"
 msgid ""
 "A program is already being debugged. Do you want to abort the currently "
 "running debug session and continue with the launch?"
-msgstr "某個應用程式正在除錯中。是否中止目前執行的除錯階段，並使用此啟動階段繼續？"
+msgstr ""
+"某個應用程式正在除錯中。是否中止目前執行的除錯階段，並使用此啟動階段繼續？"
 
 #: gdbconfigpage.cpp:175
 #, kde-format
-#| msgid "Executes a Native application in GDB"
 msgid "Executes a native application in GDB"
 msgstr "在 GDB 執行原生應用程式"
 
@@ -165,7 +162,6 @@ msgstr "除錯器"
 #. i18n: ectx: property (text), widget (QLabel, gdbPath_label)
 #: gdbconfigpage.ui:23
 #, kde-format
-#| msgid "Debugger executable:"
 msgid "Debugger e&xecutable:"
 msgstr "除錯器執行檔(&X)："
 
@@ -178,12 +174,6 @@ msgstr "Gdb 執行檔"
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_gdbPath)
 #: gdbconfigpage.ui:39
 #, kde-format
-#| msgid ""
-#| "To run \"gdb\" binary from $PATH, leave this field empty. To run custom "
-#| "gdb, for example, for a different architecture, enter the executable name "
-#| "here. You can either run gdb from $PATH, but with a different name (say, "
-#| "\"arm-gdb\"), by typing the name here, or specify full path to the gdb "
-#| "executable."
 msgid ""
 "To run \"gdb\" executable from $PATH, leave this field empty. To run custom "
 "gdb, for example, for a different architecture, enter the executable name "
@@ -191,9 +181,9 @@ msgid ""
 "\"arm-gdb\"), by typing the name here, or specify full path to the gdb "
 "executable."
 msgstr ""
-"若要從 $PATH 執行「gdb」執行檔，請留白此欄位。若要執行自訂 gdb，例如"
-"其他平台的 gdb，請在此輸入執行檔名稱。你亦可從 $PATH 執行不同名稱的 gdb"
-"（例如「arm-gdb」），請在此輸入其名稱，或指定指向該 gdb 執行檔的完整路徑。"
+"若要從 $PATH 執行「gdb」執行檔，請留白此欄位。若要執行自訂 gdb，例如其他平台"
+"的 gdb，請在此輸入執行檔名稱。你亦可從 $PATH 執行不同名稱的 gdb（例如「arm-"
+"gdb」），請在此輸入其名稱，或指定指向該 gdb 執行檔的完整路徑。"
 
 #. i18n: ectx: property (placeholderText), widget (KUrlRequester, kcfg_gdbPath)
 #: gdbconfigpage.ui:42
@@ -205,13 +195,6 @@ msgstr "覆蓋 gdb 可執行檔的路徑"
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_debuggingShell)
 #: gdbconfigpage.ui:49 gdbconfigpage.ui:68
 #, kde-format
-#| msgid ""
-#| "<html><head/><body><p>If you want gdb to be executed by a special shell "
-#| "script, which for example properly sets the library path, insert it here "
-#| "e.g.: /path/to/script.sh --scriptArguments</p><p>Note: your script'll be "
-#| "invoked like this: /path/to/script.sh --scriptArguments debbuger --"
-#| "debuggerArguments. So script.sh <span style=\" font-weight:600;\">must</"
-#| "span> invoke \"debugger\" executable manually.</p></body></html>"
 msgid ""
 "<html><head/><body><p>If you want gdb to be executed by a special shell "
 "script, which for example properly sets the library path, insert it here e."
@@ -223,13 +206,12 @@ msgstr ""
 "<html><head/><body><p>若您要 gdb 用一個特殊的 shell 文稿來執行，比方說可能要"
 "設定額外的函式庫路徑等等，請設定在此處。例如：/path/to/script.sh --"
 "scriptArguments</p><p>注意：您的文稿將會以這種方式啟動：/path/to/script.sh --"
-"scriptArguments debugger --debuggerArguments。因此 script.sh 裡"
-"<span style=\" font-weight:600;\">必須</span>手動啟動除錯器。</p></body></html>"
+"scriptArguments debugger --debuggerArguments。因此 script.sh 裡<span style="
+"\" font-weight:600;\">必須</span>手動啟動除錯器。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, debuggingShell_label)
 #: gdbconfigpage.ui:55
 #, kde-format
-#| msgid "&Shell script:"
 msgid "She&ll script:"
 msgstr "Shell 文稿(&L)："
 
@@ -286,7 +268,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: gdbconfigpage.ui:137
 #, kde-format
-#| msgid "Start Debugger with:"
 msgid "S&tart debugger with:"
 msgstr "除錯器開啟方式(&T)："
 
@@ -444,13 +425,11 @@ msgstr "除錯器工具列"
 
 #: memviewdlg.cpp:74
 #, kde-format
-#| msgid "Start"
 msgid "Start:"
 msgstr "開啟："
 
 #: memviewdlg.cpp:77
 #, kde-format
-#| msgid "Amount"
 msgid "Amount:"
 msgstr "數量："
 

@@ -116,9 +116,6 @@ msgstr "<p>定義是否要在文稿執行前先儲存文件。</p>"
 
 #: editexternalscript.cpp:109
 #, kde-format
-#| msgid ""
-#| "<p>Defines whether the output of the script should be shown in a toolview."
-#| "</p>"
 msgid ""
 "<p>Defines whether the output of the script should be shown in a tool view.</"
 "p>"
@@ -129,7 +126,8 @@ msgstr "<p>定義是否要在工具檢視中顯示文稿的輸出。</p>"
 msgid ""
 "<p>Defines what type of filtering should be applied to the output. E.g. to "
 "indicate errors by red text.</p>"
-msgstr "<p>定義輸出要套用哪一種型態的過濾器。例如：將錯誤以紅色文字標記出來。</p>"
+msgstr ""
+"<p>定義輸出要套用哪一種型態的過濾器。例如：將錯誤以紅色文字標記出來。</p>"
 
 #: editexternalscript.cpp:121
 #, kde-format
@@ -150,10 +148,6 @@ msgstr "名稱(&N)："
 #. i18n: ectx: property (toolTip), widget (QLineEdit, nameEdit)
 #: editexternalscript.ui:30
 #, kde-format
-#| msgid ""
-#| "<p>The name will also be used as the identifier during code completion.</"
-#| "p>\n"
-#| "<p><b>Note:</b> No spaces allowed.</p>"
 msgid ""
 "<p>The name will also be used as the identifier during code completion.</p>\n"
 "  <p><b>Note:</b> No spaces allowed.</p>"
@@ -272,7 +266,6 @@ msgstr "與正常輸出合併"
 #. i18n: ectx: property (text), widget (QLabel, saveLabel)
 #: editexternalscript.ui:193
 #, kde-format
-#| msgid "Save &Mode:"
 msgid "Save &mode:"
 msgstr "儲存模式(&M)："
 
@@ -297,14 +290,12 @@ msgstr "儲存所有開啟的文件"
 #. i18n: ectx: property (text), widget (QLabel)
 #: editexternalscript.ui:222
 #, kde-format
-#| msgid "Show Out&put"
 msgid "Show out&put:"
 msgstr "顯示輸出："
 
 #. i18n: ectx: property (text), widget (QLabel, outputFilterLabel)
 #: editexternalscript.ui:239
 #, kde-format
-#| msgid "Output Filter:"
 msgid "Output filter:"
 msgstr "輸出過濾器："
 

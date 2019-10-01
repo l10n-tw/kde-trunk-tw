@@ -31,7 +31,8 @@ msgstr "在啟動設定 %1 的參數中有一個引號錯誤。啟動中止。"
 msgid ""
 "A shell meta character was included in the arguments for the launch "
 "configuration '%1', this is not supported currently. Aborting start."
-msgstr "在啟動設定 %1 的參數中有一個 shell 中繼字元。目前尚未支援這種用法。啟動中止。"
+msgstr ""
+"在啟動設定 %1 的參數中有一個 shell 中繼字元。目前尚未支援這種用法。啟動中止。"
 
 #: executeplugin.cpp:129
 #, kde-format
@@ -66,7 +67,6 @@ msgstr "設定原始應用程式"
 
 #: nativeappconfig.cpp:165
 #, kde-format
-#| msgid "Native Application"
 msgid "Executes Native Applications"
 msgstr "執行原生應用程式"
 
@@ -94,14 +94,12 @@ msgstr "執行檔"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: nativeappconfig.ui:23
 #, kde-format
-#| msgid "Project Target:"
 msgid "Project &target:"
 msgstr "專案目標(&T)："
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: nativeappconfig.ui:63
 #, kde-format
-#| msgid "Executable:"
 msgid "E&xecutable:"
 msgstr "執行檔(&X)："
 
@@ -120,7 +118,6 @@ msgstr "行為"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: nativeappconfig.ui:109
 #, kde-format
-#| msgid "Arguments:"
 msgid "Ar&guments:"
 msgstr "參數(&G)："
 
@@ -144,7 +141,6 @@ msgstr "請輸入要送給執行檔的參數"
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: nativeappconfig.ui:129
 #, kde-format
-#| msgid "Working Directory:"
 msgid "Working &directory:"
 msgstr "工作目錄(&D)："
 
@@ -158,7 +154,6 @@ msgstr "請選擇執行檔的工作目錄"
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: nativeappconfig.ui:149
 #, kde-format
-#| msgid "Environment:"
 msgid "E&nvironment:"
 msgstr "環境(&N)："
 
@@ -171,25 +166,19 @@ msgstr "請選擇要使用的環境"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, runInTerminal)
 #: nativeappconfig.ui:194
 #, kde-format
-#| msgid ""
-#| "<p>By default applications will be run in the background and only their "
-#| "output will be displayed in a toolview. This makes it impossible to "
-#| "interact with applications requiring user input from a terminal emulator. "
-#| "To run such applications, you should use an external terminal.</p>"
 msgid ""
 "<p>By default applications will be run in the background and only their "
 "output will be displayed in a tool view. This makes it impossible to "
 "interact with applications requiring user input from a terminal emulator. To "
 "run such applications, you should use an external terminal.</p>"
 msgstr ""
-"<p>應用程式預設會在背景執行，其輸出會顯示在工具檢視中。不過這樣您無法與"
-"此應用程式有互動，也就是使用者無法從終端進行輸入。若您的應用程式需要使用者輸"
-"入，您應該改用外部終端機。</p>"
+"<p>應用程式預設會在背景執行，其輸出會顯示在工具檢視中。不過這樣您無法與此應用"
+"程式有互動，也就是使用者無法從終端進行輸入。若您的應用程式需要使用者輸入，您"
+"應該改用外部終端機。</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, runInTerminal)
 #: nativeappconfig.ui:197
 #, kde-format
-#| msgid "Use External Terminal:"
 msgid "Use external terminal:"
 msgstr "使用外部終端機："
 
@@ -225,7 +214,6 @@ msgstr "相依性"
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: nativeappconfig.ui:256
 #, kde-format
-#| msgid "Action:"
 msgid "Act&ion:"
 msgstr "動作(&I)："
 
@@ -276,13 +264,12 @@ msgstr "目標："
 
 #: nativeappjob.cpp:75
 #, kde-format
-#| msgid ""
-#| "No environment group specified, looks like a broken configuration, please "
-#| "check run configuration '%1'. Using default environment group."
 msgid ""
 "No environment profile specified, looks like a broken configuration, please "
 "check run configuration '%1'. Using default environment profile."
-msgstr "沒有指定環境設定檔，似乎是設定有問題。請檢查執行設定 %1。將改用預設的環境設定檔。"
+msgstr ""
+"沒有指定環境設定檔，似乎是設定有問題。請檢查執行設定 %1。將改用預設的環境設定"
+"檔。"
 
 #: nativeappjob.cpp:149
 #, kde-format

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-12 02:28+0200\n"
+"POT-Creation-Date: 2019-10-01 02:28+0200\n"
 "PO-Revision-Date: 2019-08-31 18:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -2370,50 +2370,50 @@ msgstr "Linux 主控台"
 msgid "Solaris console"
 msgstr "Solaris 主控台"
 
-#: Session.cpp:388
+#: Session.cpp:389
 #, kde-format
 msgid "Could not find binary: "
 msgstr "找不到執行檔："
 
-#: Session.cpp:397
+#: Session.cpp:398
 #, kde-format
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "警告："
 
-#: Session.cpp:455
+#: Session.cpp:456
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
 "settings."
 msgstr "找不到 %1，改啟動 %2。請檢查您的設定檔。"
 
-#: Session.cpp:458
+#: Session.cpp:459
 #, kde-format
 msgid "Could not find an interactive shell to start."
 msgstr "找不到互動式 shell。"
 
-#: Session.cpp:496
+#: Session.cpp:497
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "無法啟動程式 %1，參數為 %2。"
 
-#: Session.cpp:632
+#: Session.cpp:633
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "工作階段「%1」為無聲息"
 
-#: Session.cpp:692
+#: Session.cpp:693
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "工作階段「%1」的響鈴"
 
-#: Session.cpp:705
+#: Session.cpp:706
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "工作階段「%1」作用中"
 
-#: Session.cpp:916
+#: Session.cpp:917
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -2425,23 +2425,23 @@ msgstr ""
 "要的話，這些方法只能由重新編譯 Konsole 來變更為內部使用。<p>這個警告將只會在"
 "這個Konsole 實體中顯示一次。</p>"
 
-#: Session.cpp:944
+#: Session.cpp:945
 #, kde-format
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "已完成"
 
-#: Session.cpp:958 Session.cpp:971
+#: Session.cpp:959 Session.cpp:972
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "程式 %1 當掉了。"
 
-#: Session.cpp:960
+#: Session.cpp:961
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "程式 %1 以 %2 狀態結束。"
 
-#: Session.cpp:1401
+#: Session.cpp:1402
 #, kde-format
 msgid "ZModem Progress"
 msgstr "ZModem 進度"
