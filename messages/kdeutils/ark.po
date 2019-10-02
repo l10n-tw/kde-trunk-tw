@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-10-01 03:09+0200\n"
-"PO-Revision-Date: 2019-09-22 19:08+0800\n"
+"PO-Revision-Date: 2019-10-02 16:04+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -89,8 +89,7 @@ msgctxt "@info"
 msgid ""
 "There was an error while extracting <filename>%1</filename>:<nl/><message>"
 "%2</message>"
-msgstr ""
-"解壓縮 <filename>%1</filename> 時發生錯誤：<nl/><message>%2</message><nl/>"
+msgstr "解壓縮 <filename>%1</filename> 時發生錯誤：<nl/><message>%2</message><nl/>"
 
 #: app/compressfileitemaction.cpp:67
 #, kde-format
@@ -317,8 +316,7 @@ msgstr "詢問使用者壓縮檔名稱，並將指定的檔案加入。完成後
 msgid ""
 "Add the specified files to 'filename'. Create archive if it does not exist. "
 "Quit when finished."
-msgstr ""
-"將指定的檔案加入壓縮檔 filename 中。若壓縮檔不存在則建立新檔案。完成即離開。"
+msgstr "將指定的檔案加入壓縮檔 filename 中。若壓縮檔不存在則建立新檔案。完成即離開。"
 
 #: app/main.cpp:181
 #, kde-format
@@ -1321,8 +1319,7 @@ msgstr "以文字模式預覽"
 msgid ""
 "The internal viewer cannot preview this unknown type of file.<nl/><nl/>Do "
 "you want to try to view it as plain text?"
-msgstr ""
-"內部檢視器無法預覽此未知型態的檔案。<nl/><nl/>您要試著以純文字模式檢視嗎？"
+msgstr "內部檢視器無法預覽此未知型態的檔案。<nl/><nl/>您要試著以純文字模式檢視嗎？"
 
 #: part/arkviewer.cpp:158
 #, kde-format
@@ -1609,35 +1606,35 @@ msgid "Quick Extract To..."
 msgstr "快速解開到..."
 
 #: part/part.cpp:804
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:tab"
 #| msgid "General Settings"
 msgctxt "@title:tab"
 msgid "General"
-msgstr "一般設定"
+msgstr "一般"
 
 #: part/part.cpp:805
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Extract"
 msgctxt "@title:tab"
 msgid "Extraction"
 msgstr "解開"
 
 #: part/part.cpp:806
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:tab"
 #| msgid "Plugin Settings"
 msgctxt "@title:tab"
 msgid "Plugins"
-msgstr "外掛程式設定"
+msgstr "外掛程式"
 
 #: part/part.cpp:807
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "to preview a file inside an archive"
 #| msgid "Pre&view"
 msgctxt "@title:tab"
 msgid "Previews"
-msgstr "預覽(&V)"
+msgstr "預覽"
 
 #: part/part.cpp:819
 #, kde-kuit-format
@@ -1822,8 +1819,7 @@ msgstr "解開失敗，因為未知的原因。"
 msgid ""
 "Extraction failed due to one or more corrupt files. Any extracted files may "
 "be damaged."
-msgstr ""
-"壓縮失敗，因為一個或多個有損壞的檔案。已壓縮完成的所有檔案也許已經損壞。"
+msgstr "壓縮失敗，因為一個或多個有損壞的檔案。已壓縮完成的所有檔案也許已經損壞。"
 
 #: plugins/cli7zplugin/cliplugin.cpp:313
 #, kde-format
