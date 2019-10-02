@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-01 03:07+0200\n"
+"POT-Creation-Date: 2019-10-02 03:11+0200\n"
 "PO-Revision-Date: 2019-09-28 03:06+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -567,31 +567,31 @@ msgstr ""
 msgid "Pin Message"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:53
+#: apps/qml/messages/MessageMenu.qml:58
 msgid "Start a Discussion"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:65
+#: apps/qml/messages/MessageMenu.qml:70
 msgid "Reply in Thread"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:77
+#: apps/qml/messages/MessageMenu.qml:82
 msgid "Copy"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:89
+#: apps/qml/messages/MessageMenu.qml:94
 msgid "Edit"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:99
+#: apps/qml/messages/MessageMenu.qml:104
 msgid "Reply"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:134
+#: apps/qml/messages/MessageMenu.qml:139
 msgid "Delete"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:144
+#: apps/qml/messages/MessageMenu.qml:149
 msgid "Report Message"
 msgstr ""
 
@@ -717,7 +717,7 @@ msgstr ""
 msgid "Search Room..."
 msgstr ""
 
-#: apps/qml/RoomsComponent.qml:146
+#: apps/qml/RoomsComponent.qml:145
 msgid "Status:"
 msgstr ""
 
@@ -1383,111 +1383,111 @@ msgstr ""
 msgid "(Last Message: %1)"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:407
+#: ruqolacore/messages/message.cpp:418
 msgid "%1 has joined the channel"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:409
+#: ruqolacore/messages/message.cpp:420
 msgid "%1 has left the channel"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:412
+#: ruqolacore/messages/message.cpp:423
 msgid "Topic was cleared by: %1"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:414
+#: ruqolacore/messages/message.cpp:425
 msgid "%2 changed topic to: <i>%1</i>"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:417
+#: ruqolacore/messages/message.cpp:428
 msgid "%2 added %1 to the conversation"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:419
+#: ruqolacore/messages/message.cpp:430
 msgid "%2 changed room name to <a href=\"ruqola:/room/%1\">#%1</a>"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:421
+#: ruqolacore/messages/message.cpp:432
 msgid "%2 removed user %1"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:424
+#: ruqolacore/messages/message.cpp:435
 msgid "Description was cleared by %1"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:426
+#: ruqolacore/messages/message.cpp:437
 msgid "%2 changed room description to %1"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:430
+#: ruqolacore/messages/message.cpp:441
 msgid "Announcement was cleared by %1"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:432
+#: ruqolacore/messages/message.cpp:443
 msgid "%2 changed room announcement to %1"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:435
+#: ruqolacore/messages/message.cpp:446
 msgid "%2 changed room privacy to %1"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:437
+#: ruqolacore/messages/message.cpp:448
 msgid "Click to join to video"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:440
+#: ruqolacore/messages/message.cpp:451
 msgid "Message Deleted"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:442
+#: ruqolacore/messages/message.cpp:453
 msgid "Message Pinned"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:444
+#: ruqolacore/messages/message.cpp:455
 msgid "Encrypted Message"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:447
+#: ruqolacore/messages/message.cpp:458
 msgid "%1 was unmuted"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:450
+#: ruqolacore/messages/message.cpp:461
 msgid "%1 was muted"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:452
+#: ruqolacore/messages/message.cpp:463
 msgid "Role '%3' was added to %1 by %2"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:454
+#: ruqolacore/messages/message.cpp:465
 msgid "Role '%3' was removed to %1 by %2"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:457
+#: ruqolacore/messages/message.cpp:468
 msgid "Encrypted message: %1"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:459
+#: ruqolacore/messages/message.cpp:470
 msgid "Discussion created about \"%1\""
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:461
+#: ruqolacore/messages/message.cpp:472
 msgid "%1 has joined the conversation"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:463
+#: ruqolacore/messages/message.cpp:474
 msgid "This room has been archived by %1"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:465
+#: ruqolacore/messages/message.cpp:476
 msgid "This room has been unarchived by %1"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:468 ruqolacore/messages/message.cpp:475
+#: ruqolacore/messages/message.cpp:479 ruqolacore/messages/message.cpp:486
 msgid "Unknown action!"
 msgstr ""
 
-#: ruqolacore/messages/message.cpp:472
+#: ruqolacore/messages/message.cpp:483
 msgid "Welcome %1!"
 msgstr ""
 
