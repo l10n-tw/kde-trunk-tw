@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-01 01:34+0000\n"
+"POT-Creation-Date: 2019-10-03 01:19+0000\n"
 "PO-Revision-Date: 2019-07-31 16:52+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -55,7 +55,7 @@ msgctxt "Name"
 msgid "Global Menu"
 msgstr "全域選單"
 
-#: applets/appmenu/package/metadata.desktop:41
+#: applets/appmenu/package/metadata.desktop:42
 msgctxt "Comment"
 msgid "Global menubar on top of the screen"
 msgstr "在螢幕上方顯示全域選單列"
@@ -272,7 +272,7 @@ msgctxt "Name"
 msgid "Standard Menu"
 msgstr "標準選單"
 
-#: containmentactions/contextmenu/plasma-containmentactions-contextmenu.desktop:68
+#: containmentactions/contextmenu/plasma-containmentactions-contextmenu.desktop:69
 msgctxt "Comment"
 msgid "The menu that normally shows on right-click"
 msgstr "此選單通常由滑鼠右鍵叫出"
@@ -292,7 +292,7 @@ msgctxt "Name"
 msgid "Switch Activity"
 msgstr "切換活動"
 
-#: containmentactions/switchactivity/plasma-containmentactions-switchactivity.desktop:68
+#: containmentactions/switchactivity/plasma-containmentactions-switchactivity.desktop:69
 msgctxt "Comment"
 msgid "Switch to another activity"
 msgstr "切換到其它活動"
@@ -302,7 +302,7 @@ msgctxt "Name"
 msgid "Switch Desktop"
 msgstr "切換桌面"
 
-#: containmentactions/switchdesktop/plasma-containmentactions-switchdesktop.desktop:70
+#: containmentactions/switchdesktop/plasma-containmentactions-switchdesktop.desktop:71
 msgctxt "Comment"
 msgid "Switch to another virtual desktop"
 msgstr "切換到其它虛擬桌面"
@@ -312,7 +312,7 @@ msgctxt "Name"
 msgid "Switch Window"
 msgstr "切換視窗"
 
-#: containmentactions/switchwindow/plasma-containmentactions-switchwindow.desktop:68
+#: containmentactions/switchwindow/plasma-containmentactions-switchwindow.desktop:69
 msgctxt "Comment"
 msgid "Show a list of windows to switch to"
 msgstr "列出視窗並切換"
@@ -651,6 +651,21 @@ msgctxt "Name"
 msgid "GMenuDBusMenuProxy"
 msgstr "GMenuDBusMenuProxy"
 
+#: kcms/feedback/kcm_feedback.desktop:13
+msgctxt "Name"
+msgid "User Feedback"
+msgstr ""
+
+#: kcms/feedback/kcm_feedback.desktop:14
+msgctxt "Comment"
+msgid "Configure user feedback settings"
+msgstr ""
+
+#: kcms/feedback/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Feedback"
+msgstr ""
+
 #: kcms/translations/kcm_translations.desktop:14
 #: kcms/translations/package/metadata.desktop:2
 msgctxt "Name"
@@ -677,7 +692,7 @@ msgctxt "Name"
 msgid "Trash"
 msgstr "垃圾桶"
 
-#: kioslave/desktop/./directory.trash:44
+#: kioslave/desktop/./directory.trash:45
 msgctxt "Comment"
 msgid "Contains removed files"
 msgstr "包含已移除的檔案"

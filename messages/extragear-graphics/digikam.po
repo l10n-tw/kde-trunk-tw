@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-01 02:32+0200\n"
+"POT-Creation-Date: 2019-10-03 02:31+0200\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -521,19 +521,19 @@ msgstr "用檔案管理程式開啟"
 
 #: core/app/items/utils/contextmenuhelper.cpp:305
 #: core/app/items/utils/contextmenuhelper.cpp:322
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2669
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2675
 #, kde-format
 msgid "Open With"
 msgstr "開啟方式"
 
 #: core/app/items/utils/contextmenuhelper.cpp:336
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2682
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2688
 #, kde-format
 msgid "Other..."
 msgstr "其他..."
 
 #: core/app/items/utils/contextmenuhelper.cpp:345
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2691
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2697
 #, kde-format
 msgid "Open With..."
 msgstr "開啟方式..."
@@ -1637,7 +1637,7 @@ msgid "Open the selected item."
 msgstr "用影像編輯器開啟選擇的項目。"
 
 #: core/app/main/digikamapp_setup.cpp:330
-#: core/utilities/imageeditor/editor/editorwindow.cpp:416
+#: core/utilities/imageeditor/editor/editorwindow.cpp:422
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:77
 #, kde-format
 msgid "Open With Default Application"
@@ -1751,7 +1751,7 @@ msgid "Change the filename of the currently selected item."
 msgstr "變更目前選擇項目的檔案名稱。"
 
 #: core/app/main/digikamapp_setup.cpp:431
-#: core/utilities/imageeditor/editor/editorwindow.cpp:423
+#: core/utilities/imageeditor/editor/editorwindow.cpp:429
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:95
 #, kde-format
 msgctxt "Non-pluralized"
@@ -1972,7 +1972,7 @@ msgid "Select All"
 msgstr "全部選取"
 
 #: core/app/main/digikamapp_setup.cpp:624
-#: core/utilities/imageeditor/editor/editorwindow.cpp:467
+#: core/utilities/imageeditor/editor/editorwindow.cpp:473
 #, kde-format
 msgid "Select None"
 msgstr "全部不選"
@@ -1984,7 +1984,7 @@ msgid "Show Thumbbar"
 msgstr "顯示縮圖列"
 
 #: core/app/main/digikamapp_setup.cpp:665
-#: core/utilities/imageeditor/editor/editorwindow.cpp:480
+#: core/utilities/imageeditor/editor/editorwindow.cpp:486
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:158
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:180
 #, kde-format
@@ -1992,7 +1992,7 @@ msgid "Zoom to 100%"
 msgstr "縮放為 100%"
 
 #: core/app/main/digikamapp_setup.cpp:672
-#: core/utilities/imageeditor/editor/editorwindow.cpp:485
+#: core/utilities/imageeditor/editor/editorwindow.cpp:491
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:163
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:185
 #, kde-format
@@ -2002,7 +2002,7 @@ msgstr "符合視窗(&W)"
 #: core/app/main/digikamapp_setup.cpp:684
 #: core/dplugins/generic/view/slideshow/slideshowplugin.cpp:103
 #: core/libs/settings/applicationsettings_miscs.cpp:403
-#: core/utilities/imageeditor/editor/editorwindow.cpp:520
+#: core/utilities/imageeditor/editor/editorwindow.cpp:526
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:143
 #: core/utilities/slideshow/slideshow.cpp:116
 #, kde-format
@@ -2028,7 +2028,7 @@ msgid "With All Sub-Albums"
 msgstr "包含所有子相簿"
 
 #: core/app/main/digikamapp_setup.cpp:708
-#: core/utilities/imageeditor/editor/editorwindow.cpp:543
+#: core/utilities/imageeditor/editor/editorwindow.cpp:549
 #: core/utilities/import/main/importui.cpp:584
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:192
 #, kde-format
@@ -2085,7 +2085,7 @@ msgid "Next Image"
 msgstr "下一張影像"
 
 #: core/app/main/digikamapp_setup.cpp:814
-#: core/utilities/imageeditor/editor/editorwindow.cpp:622
+#: core/utilities/imageeditor/editor/editorwindow.cpp:628
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:218
 #, kde-format
 msgid "Previous Image"
@@ -2322,7 +2322,7 @@ msgid "Main Tools"
 msgstr "主工具列"
 
 #: core/app/main/digikamapp_tools.cpp:46
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2516
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2522
 #, fuzzy, kde-format
 #| msgid "Post Processing"
 msgctxt "@title Post Processing Tools"
@@ -2330,14 +2330,14 @@ msgid "Post-Processing"
 msgstr "後製"
 
 #: core/app/main/digikamapp_tools.cpp:58
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2533
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2539
 #, kde-format
 msgctxt "@title Export Tools"
 msgid "Export"
 msgstr "匯出"
 
 #: core/app/main/digikamapp_tools.cpp:65
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2540
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2546
 #, kde-format
 msgctxt "@title Import Tools"
 msgid "Import"
@@ -2513,42 +2513,42 @@ msgid ""
 "written to.</p>"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:123
+#: core/app/utils/digikam_globals.cpp:135
 #, fuzzy, kde-format
 msgid "%1 Image (%2)"
 msgstr "%1 張影像"
 
-#: core/app/utils/digikam_globals.cpp:129
+#: core/app/utils/digikam_globals.cpp:141
 #, kde-format
 msgid "TIFF Image (*.tiff *.tif)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:135
+#: core/app/utils/digikam_globals.cpp:147
 #, kde-format
 msgid "JPEG Image (*.jpg *.jpeg *.jpe)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:142
+#: core/app/utils/digikam_globals.cpp:154
 #, kde-format
 msgid "JPEG2000 Image (*.jp2 *.j2k *.jpx *.pgx)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:147
+#: core/app/utils/digikam_globals.cpp:159
 #, fuzzy, kde-format
 msgid "Progressive Graphics file (*.pgf)"
 msgstr "漸進式圖形檔案"
 
-#: core/app/utils/digikam_globals.cpp:150
+#: core/app/utils/digikam_globals.cpp:165
 #, kde-format
 msgid "High Efficiency Image Coding (*.heic)"
 msgstr ""
 
-#: core/app/utils/digikam_globals.cpp:155
+#: core/app/utils/digikam_globals.cpp:172
 #, fuzzy, kde-format
 msgid "Raw Images (%1)"
 msgstr "參考影像"
 
-#: core/app/utils/digikam_globals.cpp:157
+#: core/app/utils/digikam_globals.cpp:174
 #, fuzzy, kde-format
 msgid "All supported files (%1)"
 msgstr "略過檔案 %1"
@@ -2895,7 +2895,7 @@ msgid "DigiKam Thumbnail Dock"
 msgstr "縮圖"
 
 #: core/app/views/stack/trashview.cpp:120
-#: core/utilities/imageeditor/editor/editorwindow.cpp:438
+#: core/utilities/imageeditor/editor/editorwindow.cpp:444
 #, kde-format
 msgid "Undo"
 msgstr "復原"
@@ -3335,7 +3335,7 @@ msgstr "檔名"
 #: core/app/views/tableview/tableview_column_file.cpp:86
 #: core/libs/dialogs/deletedialog.cpp:182
 #: core/utilities/setup/camera/setupcamera.cpp:303
-#: core/utilities/setup/collections/setupcollectionview.cpp:886
+#: core/utilities/setup/collections/setupcollectionview.cpp:892
 #, kde-format
 msgid "Path"
 msgstr "路徑"
@@ -3409,7 +3409,7 @@ msgstr "高度"
 #: core/libs/dialogs/libsinfodlg.cpp:141 core/libs/dialogs/libsinfodlg.cpp:143
 #: core/libs/dialogs/libsinfodlg.cpp:145 core/libs/dialogs/libsinfodlg.cpp:147
 #: core/libs/dialogs/libsinfodlg.cpp:149 core/libs/dialogs/libsinfodlg.cpp:151
-#: core/libs/dialogs/libsinfodlg.cpp:220
+#: core/libs/dialogs/libsinfodlg.cpp:226
 #: core/libs/properties/import/importitempropertiestab.cpp:418
 #: core/libs/properties/import/importitempropertiestab.cpp:433
 #: core/libs/properties/import/importitempropertiestab.cpp:511
@@ -3434,7 +3434,7 @@ msgstr "是"
 #: core/libs/dialogs/libsinfodlg.cpp:141 core/libs/dialogs/libsinfodlg.cpp:143
 #: core/libs/dialogs/libsinfodlg.cpp:145 core/libs/dialogs/libsinfodlg.cpp:147
 #: core/libs/dialogs/libsinfodlg.cpp:149 core/libs/dialogs/libsinfodlg.cpp:151
-#: core/libs/dialogs/libsinfodlg.cpp:222
+#: core/libs/dialogs/libsinfodlg.cpp:228
 #: core/libs/properties/import/importitempropertiestab.cpp:414
 #: core/libs/properties/import/importitempropertiestab.cpp:429
 #: core/libs/properties/import/importitempropertiestab.cpp:515
@@ -4130,6 +4130,33 @@ msgid ""
 "p><p>The Digital Negative is a lossless RAW image format created by Adobe.</"
 "p><p>See details about this format from <a href='https://en.wikipedia.org/"
 "wiki/Digital_Negative'>this page</a>.</p>"
+msgstr ""
+
+#: core/dplugins/bqm/convert/converttoheif/converttoheifplugin.cpp:54
+#, fuzzy, kde-format
+#| msgid "Convert To TIFF"
+msgid "Convert To HEIF"
+msgstr "轉換成 TIFF"
+
+#: core/dplugins/bqm/convert/converttoheif/converttoheifplugin.cpp:69
+#, fuzzy, kde-format
+#| msgid "Convert images to TIFF format."
+msgid "A tool to convert images to HEIF format"
+msgstr "將影像轉換成 TIFF 格式。"
+
+#: core/dplugins/bqm/convert/converttoheif/converttoheifplugin.cpp:74
+#, kde-format
+msgid ""
+"<p>This Batch Queue Manager tool can convert images data to HEIF format.</"
+"p><p>High Efficiency Image File Format (HEIF), also known as High Efficiency "
+"Image Coding (HEIC), is a file format for individual images and image "
+"sequences. It was developed by the Moving Picture Experts Group (MPEG) and "
+"it claims that twice as much information can be stored in a HEIF image as in "
+"a JPEG image of the same size, resulting in a better quality image. HEIF "
+"also supports animation, and is capable of storing more information than an "
+"animated GIF at a small fraction of the size.</p><p>See <a href='https://en."
+"wikipedia.org/wiki/High_Efficiency_Image_File_Format'>High Efficiency Image "
+"File Format</a> for details.</p>"
 msgstr ""
 
 #: core/dplugins/bqm/convert/converttojp2/converttojp2plugin.cpp:54
@@ -5211,18 +5238,38 @@ msgstr "自動旋轉/翻轉影像"
 msgid "<p>This Batch Queue Manager tool can rotate images.</p>"
 msgstr ""
 
-#: core/dplugins/dimg/heif/dimgheifplugin.cpp:58
+#: core/dplugins/dimg/heif/dimgheifplugin.cpp:59
 #, fuzzy, kde-format
 #| msgid "TIFF Files"
 msgid "HEIF loader"
 msgstr "TIFF 檔案"
 
-#: core/dplugins/dimg/heif/dimgheifplugin.cpp:73
+#: core/dplugins/dimg/heif/dimgheifplugin.cpp:74
 #, kde-format
 msgid "An image loader based on Libheif codec"
 msgstr ""
 
-#: core/dplugins/dimg/heif/dimgheifplugin.cpp:78
+#: core/dplugins/dimg/heif/dimgheifplugin.cpp:79
+#, fuzzy, kde-format
+#| msgid "OpenGL support is not available on your system."
+msgid "This library is not present on your system."
+msgstr "您的系統無法支援 OpenGL。"
+
+#: core/dplugins/dimg/heif/dimgheifplugin.cpp:86
+#, kde-format
+msgid ""
+"This library is available on your system with a maximum color depth support "
+"of %1 bits."
+msgstr ""
+
+#: core/dplugins/dimg/heif/dimgheifplugin.cpp:91
+#, kde-format
+msgid ""
+"This library is available on your system but is not able to encode image "
+"with a suitable color depth."
+msgstr ""
+
+#: core/dplugins/dimg/heif/dimgheifplugin.cpp:96
 #, kde-format
 msgid ""
 "<p>This plugin permit to load and save image using Libheif codec.</p><p>High "
@@ -5232,7 +5279,8 @@ msgid ""
 "that twice as much information can be stored in a HEIF image as in a JPEG "
 "image of the same size, resulting in a better quality image. HEIF also "
 "supports animation, and is capable of storing more information than an "
-"animated GIF at a small fraction of the size.</p><p>See <a href='https://en."
+"animated GIF at a small fraction of the size.</p><p>Encoding HEIC is "
+"relevant of optional libx265 codec. %1<p><p>See <a href='https://en."
 "wikipedia.org/wiki/High_Efficiency_Image_File_Format'>High Efficiency Image "
 "File Format</a> for details.</p>"
 msgstr ""
@@ -8872,7 +8920,7 @@ msgid "Scan Images"
 msgstr "掃描影像"
 
 #: core/dplugins/generic/import/dscanner/scandialog.cpp:150
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1759
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1765
 #, kde-format
 msgid "New Image File Name"
 msgstr "新的影像檔案名稱"
@@ -8903,14 +8951,14 @@ msgstr ""
 "到 \"%2\" 失敗。"
 
 #: core/dplugins/generic/import/dscanner/scandialog.cpp:215
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2206
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2225
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2212
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2231
 #, kde-format
 msgid "Overwrite File?"
 msgstr "覆寫檔案嗎？"
 
 #: core/dplugins/generic/import/dscanner/scandialog.cpp:216
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2226
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2232
 #, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
@@ -10619,7 +10667,7 @@ msgid "Subject distance type:"
 msgstr "拍攝主體距離類型："
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:315
-#: core/libs/dialogs/libsinfodlg.cpp:224
+#: core/libs/dialogs/libsinfodlg.cpp:230
 #: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:618
 #: core/libs/properties/itempropertiessidebar.cpp:248
 #: core/libs/properties/itempropertiessidebar.cpp:252
@@ -11306,7 +11354,7 @@ msgstr "類別"
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:148
 #: core/dplugins/generic/metadata/timeadjust/timeadjustlist.cpp:48
 #: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:544
-#: core/utilities/setup/collections/setupcollectionview.cpp:889
+#: core/utilities/setup/collections/setupcollectionview.cpp:895
 #, kde-format
 msgid "Status"
 msgstr "狀態"
@@ -12793,7 +12841,7 @@ msgstr "調整："
 #: core/libs/database/utils/widgets/dbmigrationdlg.cpp:148
 #: core/libs/dplugins/webservices/wstooldialog.cpp:117
 #: core/utilities/imageeditor/editor/editortoolsettings.cpp:207
-#: core/utilities/imageeditor/editor/editorwindow.cpp:634
+#: core/utilities/imageeditor/editor/editorwindow.cpp:640
 #, kde-format
 msgid "Cancel"
 msgstr "取消"
@@ -17727,7 +17775,7 @@ msgstr ""
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:679
 #: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:276
 #: core/libs/tags/manager/tagsmanager.cpp:854
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1118
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1124
 #: core/utilities/import/main/importui.cpp:1987
 #: core/utilities/setup/metadata/advancedmetadatatab.cpp:138
 #, kde-format
@@ -19233,7 +19281,7 @@ msgstr "上傳檔案 <filename>%1</filename> 失敗。您要繼續嗎？"
 #: core/dplugins/generic/webservices/google/gswindow.cpp:1054
 #: core/utilities/facemanagement/assignnamewidget.cpp:250
 #: core/utilities/imageeditor/editor/editortoolsettings.cpp:203
-#: core/utilities/imageeditor/editor/editorwindow.cpp:629
+#: core/utilities/imageeditor/editor/editorwindow.cpp:635
 #: core/utilities/maintenance/facesdetector.cpp:72
 #: core/utilities/searchwindow/searchutilities.cpp:628
 #, kde-format
@@ -21627,7 +21675,7 @@ msgstr "後製"
 
 #: core/dplugins/rawimport/native/rawimport.cpp:180
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:316
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:241
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:251
 #, kde-format
 msgid "Raw Decoding"
 msgstr "Raw 解碼"
@@ -24263,13 +24311,13 @@ msgctxt "component is not available/supported"
 msgid "No"
 msgstr "否"
 
-#: core/libs/dialogs/libsinfodlg.cpp:207
+#: core/libs/dialogs/libsinfodlg.cpp:213
 #, fuzzy, kde-format
 msgctxt "Name of the component"
 msgid "Component"
 msgstr "組成元件"
 
-#: core/libs/dialogs/libsinfodlg.cpp:207
+#: core/libs/dialogs/libsinfodlg.cpp:213
 #, fuzzy, kde-format
 msgctxt "Is supported / version of the component"
 msgid "Info"
@@ -25354,7 +25402,7 @@ msgid "Texture Filter"
 msgstr "紋理濾鏡"
 
 #: core/libs/dimg/filters/dimgbuiltinfilter.cpp:335
-#: core/utilities/imageeditor/editor/editorwindow.cpp:593
+#: core/utilities/imageeditor/editor/editorwindow.cpp:599
 #, kde-format
 msgid "Rotate Right"
 msgstr "向右旋轉"
@@ -25365,19 +25413,19 @@ msgid "Rotate 180°"
 msgstr "旋轉 180 度"
 
 #: core/libs/dimg/filters/dimgbuiltinfilter.cpp:341
-#: core/utilities/imageeditor/editor/editorwindow.cpp:586
+#: core/utilities/imageeditor/editor/editorwindow.cpp:592
 #, kde-format
 msgid "Rotate Left"
 msgstr "向左旋轉"
 
 #: core/libs/dimg/filters/dimgbuiltinfilter.cpp:344
-#: core/utilities/imageeditor/editor/editorwindow.cpp:570
+#: core/utilities/imageeditor/editor/editorwindow.cpp:576
 #, kde-format
 msgid "Flip Horizontally"
 msgstr "水平翻轉"
 
 #: core/libs/dimg/filters/dimgbuiltinfilter.cpp:347
-#: core/utilities/imageeditor/editor/editorwindow.cpp:577
+#: core/utilities/imageeditor/editor/editorwindow.cpp:583
 #, kde-format
 msgid "Flip Vertically"
 msgstr "垂直翻轉"
@@ -27419,12 +27467,55 @@ msgstr "要儲存的白平衡設定檔"
 msgid "Cannot save settings to the White Color Balance text file."
 msgstr "無法將設定值儲存到白平衡純文字檔。"
 
-#: core/libs/dimg/loaders/jp2ksettings.cpp:77
+#: core/libs/dimg/loaders/heifsettings.cpp:78
+#, fuzzy, kde-format
+#| msgid "Lossless PGF files"
+msgid "Lossless HEIF files"
+msgstr "無損壓縮 PGF 檔案"
+
+#: core/libs/dimg/loaders/heifsettings.cpp:80
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>Toggle lossless compression for PGF images.</p><p>If this option is "
+#| "enabled, a lossless method will be used to compress PGF pictures.</p>"
+msgid ""
+"<p>Toggle lossless compression for HEIF images.</p><p>If this option is "
+"enabled, a lossless method will be used to compress HEIF pictures.</p>"
+msgstr ""
+"<p>PGF 影像切換為無損壓縮。</p><p>如果啟用這個選項，會使用無損的方式來壓縮 "
+"PGF 影像。</p>"
+
+#: core/libs/dimg/loaders/heifsettings.cpp:87
+#, fuzzy, kde-format
+#| msgid "PGF quality:"
+msgid "HEIF quality:"
+msgstr "PGF 品質:"
+
+#: core/libs/dimg/loaders/heifsettings.cpp:89
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>The quality value for PGF images:</p><p><b>1</b>: high quality (no "
+#| "compression and large file size)<br/><b>3</b>: good quality (default)<br/"
+#| "><b>6</b>: medium quality<br/><b>9</b>: low quality (high compression and "
+#| "small file size)</p><p><b>Note: PGF is not a lossless image compression "
+#| "format when you use this setting.</b></p>"
+msgid ""
+"<p>The quality value for HEIF images:</p><p><b>1</b>: high quality (no "
+"compression and large file size)<br/><b>3</b>: good quality (default)<br/"
+"><b>6</b>: medium quality<br/><b>9</b>: low quality (high compression and "
+"small file size)</p><p><b>Note: HEIF is not a lossless image compression "
+"format when you use this setting.</b></p>"
+msgstr ""
+"<p>PGF 影像的品質：</p><p><b>1</b>：高品質 (不壓縮、檔案大)<br/><b>3</b>：較"
+"好品質 (預設)<br/><b>6</b>：中等品質<br/><b>9</b>：低品質 (高壓縮比，檔案"
+"小)</p><p><b>備註：當您使用這個設定值時，PGF 就不是無損影像壓縮格式。</b></p>"
+
+#: core/libs/dimg/loaders/jp2ksettings.cpp:78
 #, kde-format
 msgid "Lossless JPEG 2000 files"
 msgstr "JPEG 2000 無損檔案"
 
-#: core/libs/dimg/loaders/jp2ksettings.cpp:79
+#: core/libs/dimg/loaders/jp2ksettings.cpp:80
 #, kde-format
 msgid ""
 "<p>Toggle lossless compression for JPEG 2000 images.</p><p>If this option is "
@@ -27433,12 +27524,12 @@ msgstr ""
 "<p>切換 JPEG 2000 影像的無損壓縮。</p><p>如果您啟用了此選項，就會使用無損方式"
 "來壓縮 JPEG 2000 的影像。</p>"
 
-#: core/libs/dimg/loaders/jp2ksettings.cpp:86
+#: core/libs/dimg/loaders/jp2ksettings.cpp:87
 #, kde-format
 msgid "JPEG 2000 quality:"
 msgstr "JPEG 2000 品質："
 
-#: core/libs/dimg/loaders/jp2ksettings.cpp:88
+#: core/libs/dimg/loaders/jp2ksettings.cpp:89
 #, kde-format
 msgid ""
 "<p>The quality value for JPEG 2000 images:</p><p><b>1</b>: low quality (high "
@@ -27513,12 +27604,12 @@ msgid ""
 "JPEG always uses lossy compression.</b></p>"
 msgstr ""
 
-#: core/libs/dimg/loaders/pgfsettings.cpp:77
+#: core/libs/dimg/loaders/pgfsettings.cpp:78
 #, kde-format
 msgid "Lossless PGF files"
 msgstr "無損壓縮 PGF 檔案"
 
-#: core/libs/dimg/loaders/pgfsettings.cpp:79
+#: core/libs/dimg/loaders/pgfsettings.cpp:80
 #, kde-format
 msgid ""
 "<p>Toggle lossless compression for PGF images.</p><p>If this option is "
@@ -27527,12 +27618,12 @@ msgstr ""
 "<p>PGF 影像切換為無損壓縮。</p><p>如果啟用這個選項，會使用無損的方式來壓縮 "
 "PGF 影像。</p>"
 
-#: core/libs/dimg/loaders/pgfsettings.cpp:86
+#: core/libs/dimg/loaders/pgfsettings.cpp:87
 #, kde-format
 msgid "PGF quality:"
 msgstr "PGF 品質:"
 
-#: core/libs/dimg/loaders/pgfsettings.cpp:88
+#: core/libs/dimg/loaders/pgfsettings.cpp:89
 #, kde-format
 msgid ""
 "<p>The quality value for PGF images:</p><p><b>1</b>: high quality (no "
@@ -27545,12 +27636,12 @@ msgstr ""
 "好品質 (預設)<br/><b>6</b>：中等品質<br/><b>9</b>：低品質 (高壓縮比，檔案"
 "小)</p><p><b>備註：當您使用這個設定值時，PGF 就不是無損影像壓縮格式。</b></p>"
 
-#: core/libs/dimg/loaders/pngsettings.cpp:76
+#: core/libs/dimg/loaders/pngsettings.cpp:77
 #, kde-format
 msgid "PNG compression:"
 msgstr "PNG 壓縮："
 
-#: core/libs/dimg/loaders/pngsettings.cpp:78
+#: core/libs/dimg/loaders/pngsettings.cpp:79
 #, kde-format
 msgid ""
 "<p>The compression value for PNG images:</p><p><b>1</b>: low compression "
@@ -27563,12 +27654,12 @@ msgstr ""
 "設)<br/><b>5</b>：中等壓縮比<br/> <b>9</b>：高壓縮比(檔案較小，但壓縮時間較"
 "長)</p> <p><b>備註：PNG 是一種無損影像壓縮格式。</b></p>"
 
-#: core/libs/dimg/loaders/tiffsettings.cpp:67
+#: core/libs/dimg/loaders/tiffsettings.cpp:68
 #, kde-format
 msgid "Compress TIFF files"
 msgstr "壓縮 TIFF 檔案"
 
-#: core/libs/dimg/loaders/tiffsettings.cpp:69
+#: core/libs/dimg/loaders/tiffsettings.cpp:70
 #, kde-format
 msgid ""
 "<p>Toggle compression for TIFF images.</p><p>If this option is enabled, the "
@@ -27716,7 +27807,7 @@ msgstr "作者"
 #: core/libs/dplugins/setup/dpluginconfview.cpp:133
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:131
 #: core/libs/widgets/metadata/metadataselector.cpp:99
-#: core/utilities/setup/collections/setupcollectionview.cpp:883
+#: core/utilities/setup/collections/setupcollectionview.cpp:889
 #, kde-format
 msgid "Name"
 msgstr "名稱"
@@ -28342,7 +28433,7 @@ msgstr "處理項目"
 msgid "Failed to revise Exif orientation these files:"
 msgstr "修改這些檔案的 EXIF 方向標示失敗："
 
-#: core/libs/fileactionmanager/fileworkeriface.cpp:305
+#: core/libs/fileactionmanager/fileworkeriface.cpp:306
 #, kde-format
 msgid "Failed to transform these files:"
 msgstr "轉換這些檔案失敗："
@@ -28529,39 +28620,51 @@ msgid "TIFF Files"
 msgstr "TIFF 檔案"
 
 #: core/libs/filters/mimefilter.cpp:42
+#, fuzzy, kde-format
+#| msgid "PNG Files"
+msgid "PGF Files"
+msgstr "PNG 檔案"
+
+#: core/libs/filters/mimefilter.cpp:43
+#, fuzzy, kde-format
+#| msgid "TIFF Files"
+msgid "HEIF Files"
+msgstr "TIFF 檔案"
+
+#: core/libs/filters/mimefilter.cpp:44
 #, kde-format
 msgid "DNG Files"
 msgstr "DNG 檔案"
 
-#: core/libs/filters/mimefilter.cpp:43
+#: core/libs/filters/mimefilter.cpp:45
 #, kde-format
 msgid "RAW Files"
 msgstr "RAW 檔案"
 
-#: core/libs/filters/mimefilter.cpp:44
+#: core/libs/filters/mimefilter.cpp:46
 #: core/utilities/setup/album/setupmime.cpp:137
 #, kde-format
 msgid "Video Files"
 msgstr "影像檔"
 
-#: core/libs/filters/mimefilter.cpp:45
+#: core/libs/filters/mimefilter.cpp:47
 #: core/utilities/setup/album/setupmime.cpp:172
 #, kde-format
 msgid "Audio Files"
 msgstr "音訊檔案"
 
-#: core/libs/filters/mimefilter.cpp:46
+#: core/libs/filters/mimefilter.cpp:48
 #, fuzzy, kde-format
 #| msgid "Raster Files"
 msgid "Raster Graphics"
 msgstr "Raster 檔案"
 
-#: core/libs/filters/mimefilter.cpp:48
+#: core/libs/filters/mimefilter.cpp:50
 #, kde-format
 msgid "Filter by file type"
 msgstr "依檔案類型過濾"
 
-#: core/libs/filters/mimefilter.cpp:49
+#: core/libs/filters/mimefilter.cpp:51
 #, fuzzy, kde-format
 #| msgid ""
 #| "Select the file types (MIME types) that you want shown. Note: \"Raster "
@@ -32869,7 +32972,7 @@ msgstr "以不同名稱儲存"
 msgid "Overwrite automatically"
 msgstr "自動覆寫"
 
-#: core/libs/widgets/files/filesaveoptionsbox.cpp:107
+#: core/libs/widgets/files/filesaveoptionsbox.cpp:118
 #, kde-format
 msgid "No options available"
 msgstr "沒有可用的選項"
@@ -36601,7 +36704,7 @@ msgid "%1 (%2 of %3)"
 msgstr "%1 (第 %2 張，共 %3 張)"
 
 #: core/showfoto/main/showfoto.cpp:672
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2252
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2258
 #, kde-format
 msgid "Error Saving File"
 msgstr "儲存檔案發生錯誤"
@@ -36866,7 +36969,7 @@ msgstr ""
 "a> - 一種用於數位相片的新式標準，目的是取代 IPTC。</p>"
 
 #: core/showfoto/setup/showfotosetupmetadata.cpp:157
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:232
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:242
 #: core/utilities/setup/camera/setupcamera.cpp:392
 #: core/utilities/setup/setupicc.cpp:504
 #, kde-format
@@ -40615,132 +40718,138 @@ msgctxt "@action:inmenu"
 msgid "JPEG 2000"
 msgstr "JPEG 2000"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:393
+#: core/utilities/imageeditor/editor/editorwindow.cpp:390
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "HEIC"
+msgstr ""
+
+#: core/utilities/imageeditor/editor/editorwindow.cpp:399
 #, kde-format
 msgctxt "@action"
 msgid "Export"
 msgstr "匯出"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:394
+#: core/utilities/imageeditor/editor/editorwindow.cpp:400
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Save the file in a folder outside your collection"
 msgstr "將檔案存在收藏以外的資料夾"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:403
+#: core/utilities/imageeditor/editor/editorwindow.cpp:409
 #, kde-format
 msgctxt "@action"
 msgid "Discard Changes"
 msgstr "丟棄變更"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:404
+#: core/utilities/imageeditor/editor/editorwindow.cpp:410
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Discard all current changes to this file"
 msgstr "丟棄此檔案目前的所有變更"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:417
+#: core/utilities/imageeditor/editor/editorwindow.cpp:423
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:78
 #, fuzzy, kde-format
 msgid "Open the item with default assigned application."
 msgstr "用影像編輯器開啟選擇的項目。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:450
+#: core/utilities/imageeditor/editor/editorwindow.cpp:456
 #, kde-format
 msgid "Redo"
 msgstr "取消復原"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:462
+#: core/utilities/imageeditor/editor/editorwindow.cpp:468
 #, kde-format
 msgctxt "Create a selection containing the full image"
 msgid "Select All"
 msgstr "全部選擇"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:491
+#: core/utilities/imageeditor/editor/editorwindow.cpp:497
 #, kde-format
 msgid "Fit to &Selection"
 msgstr "符合選擇區域"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:496
+#: core/utilities/imageeditor/editor/editorwindow.cpp:502
 #, kde-format
 msgid ""
 "This option can be used to zoom the image to the current selection area."
 msgstr "這個選項可將影像顯示縮放為目前選擇的區域。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:525
+#: core/utilities/imageeditor/editor/editorwindow.cpp:531
 #, kde-format
 msgid "Under-Exposure Indicator"
 msgstr "曝光不足指示功能"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:527
+#: core/utilities/imageeditor/editor/editorwindow.cpp:533
 #, kde-format
 msgid ""
 "Set this option to display black overlaid on the image. This will help you "
 "to avoid under-exposing the image."
 msgstr "設定這個選項會在影像上顯示黑色層疊。這會幫助您避免影像曝光不足。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:534
+#: core/utilities/imageeditor/editor/editorwindow.cpp:540
 #, kde-format
 msgid "Over-Exposure Indicator"
 msgstr "曝光過度指示功能"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:536
+#: core/utilities/imageeditor/editor/editorwindow.cpp:542
 #, kde-format
 msgid ""
 "Set this option to display white overlaid on the image. This will help you "
 "to avoid over-exposing the image."
 msgstr "設定這個選項會在影像上顯示白色層疊。這會幫助您避免影像曝光過度。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:549
+#: core/utilities/imageeditor/editor/editorwindow.cpp:555
 #, kde-format
 msgid "Soft Proofing Options..."
 msgstr "螢幕校樣選項..."
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:553
+#: core/utilities/imageeditor/editor/editorwindow.cpp:559
 #, kde-format
 msgid "Soft Proofing View"
 msgstr "螢幕校樣檢視"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:560
+#: core/utilities/imageeditor/editor/editorwindow.cpp:566
 #, kde-format
 msgctxt "@action"
 msgid "Crop to Selection"
 msgstr "裁剪選擇區域外的影像"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:563
+#: core/utilities/imageeditor/editor/editorwindow.cpp:569
 #, kde-format
 msgid ""
 "This option can be used to crop the image. Select a region of the image to "
 "enable this action."
 msgstr "這個選項可裁剪此影像。選擇一個影像區域來執行這個動作。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:650
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1444
+#: core/utilities/imageeditor/editor/editorwindow.cpp:656
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1450
 #, kde-format
 msgid "No selection"
 msgstr "沒有選擇區域"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:653
+#: core/utilities/imageeditor/editor/editorwindow.cpp:659
 #, kde-format
 msgid "Information about current image selection"
 msgstr "關於目前選擇影像的資訊"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:658
+#: core/utilities/imageeditor/editor/editorwindow.cpp:664
 #, kde-format
 msgid "Information about image size"
 msgstr "影像大小的資訊"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1094
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1100
 #, kde-format
 msgid "Saving image..."
 msgstr "儲存影像中..."
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1095
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1101
 #, kde-format
 msgid "Please wait for the image to be saved..."
 msgstr "請稍候，正在儲存影像..."
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1114
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1120
 #, kde-format
 msgid ""
 "About to overwrite file \"%1\"\n"
@@ -40749,26 +40858,26 @@ msgstr ""
 "即將覆寫檔案「%1」\n"
 "您是否確定？"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1228
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1234
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
 "<qt>The image <b>%1</b> has been modified.<br/>Do you want to save it?</qt>"
 msgstr "影像 <filename>%1</filename> 已經修改。<nl/>您要儲存它嗎？"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1371
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1377
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "The image <b>%1</b> has been modified.<br/>All changes will be lost."
 msgstr "影像 <filename>%1</filename> 已經修改。<nl/>您要儲存它嗎？"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1463
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1469
 #, fuzzy, kde-format
 #| msgid "Loading: "
 msgid "Loading:"
 msgstr "載入："
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1489
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1495
 #, fuzzy, kde-format
 #| msgid ""
 #| "Cannot display image\n"
@@ -40778,7 +40887,7 @@ msgstr ""
 "無法顯示影像\n"
 "「%1」"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1530
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1536
 #, kde-format
 msgid ""
 "Cannot open the specified working space profile (\"%1\"). No color "
@@ -40788,13 +40897,13 @@ msgstr ""
 "無法開啟指定的正在使用的色彩空間描述檔 (「%1」)。不會套用任何色彩轉換。請檢查"
 "在 digiKam 設定中的色彩管理。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1579
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1585
 #, fuzzy, kde-format
 #| msgid "Saving: "
 msgid "Saving:"
 msgstr "儲存："
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1598
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1604
 #, kde-format
 msgid ""
 "Failed to save file\n"
@@ -40807,22 +40916,22 @@ msgstr ""
 "儲存到\n"
 "「%2」失敗。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1710
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1716
 #, kde-format
 msgid "Could not open a temporary file in the folder \"%1\": %2 (%3)"
 msgstr "無法開啟在資料夾  \"%1\": %2 (%3) 的暫存檔"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1888
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1894
 #, kde-format
 msgid "Unable to determine the format to save the target image with."
 msgstr "無法決定用來儲存目標影像的格式。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1895
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1901
 #, fuzzy, kde-format
 msgid "Cannot Save: Found file path <b>%1</b> is invalid."
 msgstr "無法儲存：找到的檔案路徑 <filename>%1</filename>不合法。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2137
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2143
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Cannot save file <b>%1</b> to the suggested version file name <b>%2</b>"
@@ -40830,80 +40939,80 @@ msgstr ""
 "無法儲存檔案 <filename>%1</filename> 到建議的版本檔案名稱 <filename>%2</"
 "filename>"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2207
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2213
 #, kde-format
 msgid ""
 "You do not have write permissions for the file named \"%1\". Are you sure "
 "you want to overwrite it?"
 msgstr "您沒有寫入名稱為「%1」檔案的權限。您確定要覆寫嗎？"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2253
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2259
 #, kde-format
 msgid "Failed to overwrite original file"
 msgstr "覆寫原始檔案失敗"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2330
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2336
 #, kde-format
 msgid "Color-Managed View is enabled."
 msgstr "啟用色彩管理檢視。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2334
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2340
 #, kde-format
 msgid "Color-Managed View is disabled."
 msgstr "停用色彩管理檢視。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2339
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2345
 #, kde-format
 msgid ""
 "Color Management is not configured, so the Color-Managed View is not "
 "available."
 msgstr "未設定色彩管理，所以無法使用色彩管理檢視。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2374
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2380
 #, kde-format
 msgid "Under-Exposure indicator is enabled"
 msgstr "啟用曝光不足指示功能"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2375
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2381
 #, kde-format
 msgid "Under-Exposure indicator is disabled"
 msgstr "停用曝光不足指示功能"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2389
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2395
 #, kde-format
 msgid "Over-Exposure indicator is enabled"
 msgstr "啟用曝光過度指示功能"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2390
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2396
 #, kde-format
 msgid "Over-Exposure indicator is disabled"
 msgstr "停用曝光過度指示功能"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2481
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2487
 #, kde-format
 msgctxt "@title Image Transform"
 msgid "Transform"
 msgstr "變形"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2488
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2494
 #, kde-format
 msgctxt "@title Image Decorate"
 msgid "Decorate"
 msgstr "裝飾"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2495
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2501
 #, kde-format
 msgctxt "@title Image Effect"
 msgid "Effects"
 msgstr "效果"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2502
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2508
 #, kde-format
 msgctxt "@title Image Colors"
 msgid "Colors"
 msgstr "顏色"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2509
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2515
 #, kde-format
 msgctxt "@title Image Enhance"
 msgid "Enhance"
@@ -42073,33 +42182,33 @@ msgstr "轉換成無損壓縮檔案格式"
 msgid "New image format:"
 msgstr "新的影像格式："
 
-#: core/utilities/import/widgets/advancedsettings.cpp:115
+#: core/utilities/import/widgets/advancedsettings.cpp:118
 #, kde-format
 msgid ""
 "Set here all options to fix/transform JPEG files automatically as they are "
 "downloaded."
 msgstr "在這裡設定  JPEG 檔案下載後自動修改/變形的所有選項。"
 
-#: core/utilities/import/widgets/advancedsettings.cpp:117
+#: core/utilities/import/widgets/advancedsettings.cpp:120
 #, kde-format
 msgid ""
 "Enable this option if you want images automatically rotated or flipped using "
 "EXIF information provided by the camera."
 msgstr "如果您想要用相機所提供的 EXIF 資訊自動旋轉或翻轉影像，請啟用這個選項。"
 
-#: core/utilities/import/widgets/advancedsettings.cpp:119
+#: core/utilities/import/widgets/advancedsettings.cpp:122
 #, kde-format
 msgid "Select here which metadata template you want to apply to images."
 msgstr "在這裡選擇您要套用到影像的中繼資料範本。"
 
-#: core/utilities/import/widgets/advancedsettings.cpp:121
+#: core/utilities/import/widgets/advancedsettings.cpp:124
 #, kde-format
 msgid ""
 "Enable this option to write the document name to the EXIF metadata. The "
 "document name is the original file name of the imported file."
 msgstr ""
 
-#: core/utilities/import/widgets/advancedsettings.cpp:123
+#: core/utilities/import/widgets/advancedsettings.cpp:126
 #, kde-format
 msgid ""
 "Enable this option to set date and time metadata tags to the right values if "
@@ -42111,7 +42220,7 @@ msgstr ""
 "籤設定為正確值。數值會儲存在日期時間數位化和日期時間建立的 EXIF、XMP 和 IPTC "
 "標籤中。"
 
-#: core/utilities/import/widgets/advancedsettings.cpp:127
+#: core/utilities/import/widgets/advancedsettings.cpp:130
 #, kde-format
 msgid ""
 "Enable this option to automatically convert all JPEG files to a lossless "
@@ -42121,7 +42230,7 @@ msgstr ""
 "啟用這個選項可自動將全部 JPEG 檔案轉換成無損壓縮影像格式。<b>備註：</b>在運算"
 "能力差的電腦上影像轉換需要一段時間。"
 
-#: core/utilities/import/widgets/advancedsettings.cpp:130
+#: core/utilities/import/widgets/advancedsettings.cpp:133
 #, kde-format
 msgid ""
 "Select your preferred lossless image file format to convert to. <b>Note:</b> "
@@ -43267,7 +43376,7 @@ msgid "This is the list of images to batch process."
 msgstr "這是要批次處理的影像清單。"
 
 #: core/utilities/queuemanager/views/queuelist.cpp:315
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:157
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:167
 #, kde-format
 msgid "Target"
 msgstr "目標"
@@ -43295,53 +43404,53 @@ msgid ""
 "tools."
 msgstr "下面列出的佇列所指定的批次工具清單是空的。請指定工具。"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:155
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:165
 #, kde-format
 msgid "Use original Album"
 msgstr "使用原始專輯"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:167
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:177
 #, kde-format
 msgid "Use original filenames"
 msgstr "使用原始檔名"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:168
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:178
 #, kde-format
 msgid "Turn on this option to use original filenames without modifications."
 msgstr "啟用這個選項會不修改使用原始檔名。"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:171
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:181
 #, kde-format
 msgid "Customize filenames:"
 msgstr "自訂檔名："
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:187
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:197
 #, kde-format
 msgid "File Renaming"
 msgstr "檔案重新命名"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:199
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:209
 #, kde-format
 msgid "Raw Files Loading:"
 msgstr "Raw 檔案載入："
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:203
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:213
 #, kde-format
 msgid "Perform RAW demosaicing"
 msgstr "執行 RAW 的去馬賽克"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:204
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:214
 #, kde-format
 msgid "Extract embedded preview (faster)"
 msgstr "展開內嵌的預覽 (較快)"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:219
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:229
 #, kde-format
 msgctxt "@option:check"
 msgid "Work on all processor cores"
 msgstr "在所有的處理器核心上工作"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:220
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:230
 #, kde-format
 msgid ""
 "Turn on this option to use all CPU core from your computer to process more "
@@ -43350,7 +43459,7 @@ msgstr ""
 "開啟此選項的話，在您的佇列中有一個以上的項目時，會使用您電腦所有的 CPU 核心來"
 "處理。"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:292
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:311
 #, kde-format
 msgid "Saving Images"
 msgstr "儲存影像"
@@ -45327,102 +45436,102 @@ msgstr ""
 msgid "It was not possible to add a collection for the following paths:"
 msgstr "下列路徑已不能加入收藏："
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:649
+#: core/utilities/setup/collections/setupcollectionview.cpp:655
 #, kde-format
 msgid "Remove Collection?"
 msgstr "是否移除收藏？"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:650
+#: core/utilities/setup/collections/setupcollectionview.cpp:656
 #, kde-format
 msgid ""
 "Do you want to remove the collection \"%1\" from your list of collections?"
 msgstr "您要從收藏清單中移除此收藏「%1」嗎？"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:683
-#: core/utilities/setup/collections/setupcollectionview.cpp:1247
+#: core/utilities/setup/collections/setupcollectionview.cpp:689
+#: core/utilities/setup/collections/setupcollectionview.cpp:1253
 #, kde-format
 msgid "Local Collections"
 msgstr "本機收藏"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:686
-#: core/utilities/setup/collections/setupcollectionview.cpp:1248
+#: core/utilities/setup/collections/setupcollectionview.cpp:692
+#: core/utilities/setup/collections/setupcollectionview.cpp:1254
 #, kde-format
 msgid "Collections on Removable Media"
 msgstr "抽取式媒體上的收藏"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:689
-#: core/utilities/setup/collections/setupcollectionview.cpp:1249
+#: core/utilities/setup/collections/setupcollectionview.cpp:695
+#: core/utilities/setup/collections/setupcollectionview.cpp:1255
 #, kde-format
 msgid "Collections on Network Shares"
 msgstr "網路分享上的收藏"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:714
+#: core/utilities/setup/collections/setupcollectionview.cpp:720
 #, kde-format
 msgid "Add Collection"
 msgstr "加入收藏"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:744
+#: core/utilities/setup/collections/setupcollectionview.cpp:750
 #, kde-format
 msgid "Col. %1"
 msgstr "收藏 %1"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:818
+#: core/utilities/setup/collections/setupcollectionview.cpp:824
 #, kde-format
 msgid "This collection is currently not available."
 msgstr "這個收藏目前無法使用。"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:821
+#: core/utilities/setup/collections/setupcollectionview.cpp:827
 #, kde-format
 msgid "No problems found, enjoy this collection."
 msgstr "沒有發現任何問題，請享受這個收藏。"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:824
+#: core/utilities/setup/collections/setupcollectionview.cpp:830
 #, kde-format
 msgid "This collection is hidden."
 msgstr "這個收藏是隱藏狀態。"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:838
+#: core/utilities/setup/collections/setupcollectionview.cpp:844
 #, fuzzy, kde-format
 #| msgid "Add Collection"
 msgid "Update collection"
 msgstr "加入收藏"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:857
+#: core/utilities/setup/collections/setupcollectionview.cpp:863
 #, kde-format
 msgid "Remove collection"
 msgstr "移除收藏"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:1094
+#: core/utilities/setup/collections/setupcollectionview.cpp:1100
 #, kde-format
 msgid "Choose the folder containing your collection"
 msgstr "選擇含有您的收藏的資料夾"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:1134
+#: core/utilities/setup/collections/setupcollectionview.cpp:1140
 #, kde-format
 msgid "You have previously added a collection that contains the path \"%1\"."
 msgstr "您先前已經加入一個含有路徑 \"%1\" 的收藏了。"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:1158
+#: core/utilities/setup/collections/setupcollectionview.cpp:1164
 #, kde-format
 msgid "Problem Adding Collection"
 msgstr "加入收藏發生問題"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:1165
+#: core/utilities/setup/collections/setupcollectionview.cpp:1171
 #, kde-format
 msgid "Adding Collection"
 msgstr "正在加入收藏"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:1169
+#: core/utilities/setup/collections/setupcollectionview.cpp:1175
 #, kde-format
 msgid "Your new collection will be created with this name:"
 msgstr "以這個名稱建立您的新收藏："
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:1238
+#: core/utilities/setup/collections/setupcollectionview.cpp:1244
 #, fuzzy, kde-format
 msgid "Select Category"
 msgstr "選擇項目"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:1242
+#: core/utilities/setup/collections/setupcollectionview.cpp:1248
 #, fuzzy, kde-format
 #| msgid "Your new collection will be created with this name:"
 msgid "Your collection will use this category:"
@@ -45564,12 +45673,12 @@ msgid ""
 "the last session. Otherwise, the default settings will be used."
 msgstr ""
 
-#: core/utilities/setup/editor/setupiofiles.cpp:132
+#: core/utilities/setup/editor/setupiofiles.cpp:149
 #, kde-format
 msgid "Show Settings Dialog when Saving Image Files"
 msgstr "儲存影像檔時顯示設定值對話框"
 
-#: core/utilities/setup/editor/setupiofiles.cpp:133
+#: core/utilities/setup/editor/setupiofiles.cpp:150
 #, kde-format
 msgid ""
 "<ul><li>Checked: A dialog where settings can be changed when saving image "
