@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-03 02:31+0200\n"
+"POT-Creation-Date: 2019-10-04 02:31+0200\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -5280,9 +5280,14 @@ msgid ""
 "image of the same size, resulting in a better quality image. HEIF also "
 "supports animation, and is capable of storing more information than an "
 "animated GIF at a small fraction of the size.</p><p>Encoding HEIC is "
-"relevant of optional libx265 codec. %1<p><p>See <a href='https://en."
+"relevant of optional libx265 codec. %1</p><p>See <a href='https://en."
 "wikipedia.org/wiki/High_Efficiency_Image_File_Format'>High Efficiency Image "
 "File Format</a> for details.</p>"
+msgstr ""
+
+#: core/dplugins/dimg/heif/dimgheifplugin.cpp:125
+#, kde-format
+msgid "High efficiency image coding"
 msgstr ""
 
 #: core/dplugins/dimg/imagemagick/dimgimagemagickplugin.cpp:68
@@ -5354,6 +5359,27 @@ msgid ""
 "details.</p>"
 msgstr ""
 
+#: core/dplugins/dimg/jpeg2000/dimgjpeg2000plugin.cpp:105
+#: core/dplugins/dimg/jpeg2000/dimgjpeg2000plugin.cpp:106
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "JPEG 2000"
+msgid "JPEG-2000 image"
+msgstr "JPEG 2000"
+
+#: core/dplugins/dimg/jpeg2000/dimgjpeg2000plugin.cpp:107
+#: core/dplugins/dimg/jpeg2000/dimgjpeg2000plugin.cpp:108
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "JPEG 2000"
+msgid "JPEG-2000 stream"
+msgstr "JPEG 2000"
+
+#: core/dplugins/dimg/jpeg2000/dimgjpeg2000plugin.cpp:109
+#, kde-format
+msgid "JPEG-2000 verification model"
+msgstr ""
+
 #: core/dplugins/dimg/pgf/dimgpgfplugin.cpp:58
 #, kde-format
 msgid "PGF loader"
@@ -5376,6 +5402,11 @@ msgid ""
 "Progressive_Graphics_File'>Progressive Graphics File documentation</a> for "
 "details.</p>"
 msgstr ""
+
+#: core/dplugins/dimg/pgf/dimgpgfplugin.cpp:105
+#, fuzzy, kde-format
+msgid "Progressive Graphics File"
+msgstr "漸進式圖形檔案"
 
 #: core/dplugins/dimg/png/dimgpngplugin.cpp:58
 #, fuzzy, kde-format
@@ -5418,18 +5449,18 @@ msgid ""
 "Framework documentation</a> for details.</p>"
 msgstr ""
 
-#: core/dplugins/dimg/raw/dimgrawplugin.cpp:59
+#: core/dplugins/dimg/raw/dimgrawplugin.cpp:60
 #, fuzzy, kde-format
 #| msgid "RAW Files"
 msgid "RAW loader"
 msgstr "RAW 檔案"
 
-#: core/dplugins/dimg/raw/dimgrawplugin.cpp:74
+#: core/dplugins/dimg/raw/dimgrawplugin.cpp:75
 #, kde-format
 msgid "An image loader based on Libraw codec"
 msgstr ""
 
-#: core/dplugins/dimg/raw/dimgrawplugin.cpp:79
+#: core/dplugins/dimg/raw/dimgrawplugin.cpp:80
 #, kde-format
 msgid ""
 "<p>This plugin permit to load and save image using Libraw codec.</p><p>A "
@@ -27835,6 +27866,7 @@ msgstr "工具提示"
 msgid "Library"
 msgstr "相簿櫃"
 
+#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:150
 #: core/libs/dplugins/setup/dpluginconfview.cpp:136
 #: core/libs/properties/captions/itemdescedittab.cpp:264
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:132
@@ -27845,6 +27877,13 @@ msgstr "相簿櫃"
 #, kde-format
 msgid "Description"
 msgstr "描述"
+
+#: core/libs/dplugins/setup/dpluginaboutdlg.cpp:150
+#, fuzzy, kde-format
+#| msgctxt "File extension"
+#| msgid "Extension"
+msgid "Extension"
+msgstr "副檔名"
 
 #: core/libs/dplugins/setup/dpluginsetup.cpp:88
 #, fuzzy, kde-format
@@ -31038,6 +31077,182 @@ msgid ""
 "<title>Threshold</title><para>Set here the noise reduction threshold value "
 "to use.</para>"
 msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:58
+#, kde-format
+msgid "Casio Digital Camera Raw File Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:59
+#, fuzzy, kde-format
+#| msgid "New Image File Name"
+msgid "NuCore Raw Image File"
+msgstr "新的影像檔案名稱"
+
+#: core/libs/rawengine/drawfiles.cpp:64
+#, fuzzy, kde-format
+#| msgid "Tagged Image File Format (version 5.0)"
+msgid "Canon Digital Camera RAW Image Format version 2.0"
+msgstr "編籤圖像檔案格式 (版本 5.0)"
+
+#: core/libs/rawengine/drawfiles.cpp:66
+#, fuzzy, kde-format
+#| msgid "Tagged Image File Format (version 5.0)"
+msgid "Canon Digital Camera RAW Image Format version 1.0"
+msgstr "編籤圖像檔案格式 (版本 5.0)"
+
+#: core/libs/rawengine/drawfiles.cpp:67
+#, fuzzy, kde-format
+#| msgid "Print Image"
+msgid "Capture Shop Raw Image File"
+msgstr "列印影像"
+
+#: core/libs/rawengine/drawfiles.cpp:68
+#, kde-format
+msgid "Kodak DC25 Digital Camera File"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:73 core/libs/rawengine/drawfiles.cpp:86
+#, kde-format
+msgid "Kodak Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:80
+#, kde-format
+msgid "Adobe Digital Negative"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:82
+#, kde-format
+msgid "Epson Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:83
+#, kde-format
+msgid "Imacon Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:84
+#, fuzzy, kde-format
+#| msgid "New Image File Name"
+msgid "Leaf Raw Image File"
+msgstr "新的影像檔案名稱"
+
+#: core/libs/rawengine/drawfiles.cpp:85
+#, kde-format
+msgid "Kodak DC25 Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:87
+#, kde-format
+msgid "Minolta RD175 Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:88 core/libs/rawengine/drawfiles.cpp:120
+#, kde-format
+msgid "Mamiya Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:89
+#, kde-format
+msgid "Minolta Dimage Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:90 core/libs/rawengine/drawfiles.cpp:121
+#, kde-format
+msgid "Nikon Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:91
+#, kde-format
+msgid "Olympus Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:92
+#, kde-format
+msgid "Pentax Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:93
+#, kde-format
+msgid "Logitech Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:94
+#, kde-format
+msgid "Fuji Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:95
+#, kde-format
+msgid "Panasonic Digital Camera Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:96
+#, fuzzy, kde-format
+#| msgid "Print Image"
+msgid "Digital Foto Maker Raw Image File"
+msgstr "列印影像"
+
+#: core/libs/rawengine/drawfiles.cpp:97 core/libs/rawengine/drawfiles.cpp:102
+#: core/libs/rawengine/drawfiles.cpp:112
+#, kde-format
+msgid "Sony Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:107
+#, kde-format
+msgid "Sigma Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:116
+#, kde-format
+msgid "Hasselblad Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:117
+#, fuzzy, kde-format
+#| msgid "Print Image"
+msgid "Phantom Software Raw Image File"
+msgstr "列印影像"
+
+#: core/libs/rawengine/drawfiles.cpp:118
+#, fuzzy, kde-format
+#| msgid "Print Image"
+msgid "Sinar Raw Image File"
+msgstr "列印影像"
+
+#: core/libs/rawengine/drawfiles.cpp:119
+#, kde-format
+msgid "Kodak DCS200 Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:122
+#, kde-format
+msgid "Apple Quicktake 100/150 Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:123
+#, kde-format
+msgid "Panasonic LX3 Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:124
+#, fuzzy, kde-format
+#| msgid "Print Image"
+msgid "Sinar Capture Shop Raw Image File"
+msgstr "列印影像"
+
+#: core/libs/rawengine/drawfiles.cpp:128
+#, kde-format
+msgid "Leica Digital Camera Raw Image Format"
+msgstr ""
+
+#: core/libs/rawengine/drawfiles.cpp:132
+#, fuzzy, kde-format
+#| msgid "Show image Format"
+msgid "Samnsung Raw Image Format"
+msgstr "顯示影像格式"
 
 #: core/libs/settings/applicationsettings_miscs.cpp:367
 #, kde-format

@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-01 02:49+0200\n"
+"POT-Creation-Date: 2019-10-04 02:44+0200\n"
 "PO-Revision-Date: 2019-09-22 13:14+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -2156,7 +2156,7 @@ msgstr "重新格式化目標硬碟的檔案系統到支援大檔案的檔案系
 msgid "Undocumented Error"
 msgstr "未說明的錯誤"
 
-#: core/kcoredirlister.cpp:395 widgets/krun.cpp:923 widgets/paste.cpp:275
+#: core/kcoredirlister.cpp:395 widgets/krun.cpp:922 widgets/paste.cpp:275
 #: widgets/renamedialog.cpp:458
 #, kde-format
 msgid ""
@@ -4456,8 +4456,8 @@ msgstr "滿的垃圾桶："
 
 #: ioslaves/trash/kio_trash.cpp:107 ioslaves/trash/kio_trash.cpp:150
 #: ioslaves/trash/kio_trash.cpp:211 ioslaves/trash/kio_trash.cpp:366
-#: ioslaves/trash/kio_trash.cpp:399 ioslaves/trash/kio_trash.cpp:565
-#: ioslaves/trash/kio_trash.cpp:577
+#: ioslaves/trash/kio_trash.cpp:399 ioslaves/trash/kio_trash.cpp:563
+#: ioslaves/trash/kio_trash.cpp:575
 #, kde-format
 msgid "Malformed URL %1"
 msgstr "不正確的 URL %1"
@@ -4514,12 +4514,12 @@ msgstr "清空垃圾桶"
 msgid "Restore a trashed file to its original location"
 msgstr "將垃圾桶內的檔案回復到原來的位置"
 
-#: ioslaves/trash/trashimpl.cpp:1383
+#: ioslaves/trash/trashimpl.cpp:1381
 #, kde-format
 msgid "The file is too large to be trashed."
 msgstr "檔案太大無法擺在垃圾桶內。"
 
-#: ioslaves/trash/trashimpl.cpp:1389
+#: ioslaves/trash/trashimpl.cpp:1387
 #, kde-format
 msgid ""
 "The trash has reached its maximum size!\n"
@@ -5749,7 +5749,7 @@ msgstr "預設使用者名稱:"
 msgid "Default password:"
 msgstr "預設密碼:"
 
-#: kcms/kio/smbrodlg.cpp:178
+#: kcms/kio/smbrodlg.cpp:176
 #, kde-format
 msgid ""
 "<h1>Windows Shares</h1><p>Applications using the SMB kioslave (like "
@@ -7303,17 +7303,17 @@ msgctxt "@info mimetype"
 msgid "Unknown"
 msgstr "未知"
 
-#: widgets/kopenwithdialog.cpp:298
+#: widgets/kopenwithdialog.cpp:296
 #, kde-format
 msgid "Known Applications"
 msgstr "已知的應用程式"
 
-#: widgets/kopenwithdialog.cpp:555
+#: widgets/kopenwithdialog.cpp:553
 #, kde-format
 msgid "Open With"
 msgstr "開啟用"
 
-#: widgets/kopenwithdialog.cpp:559
+#: widgets/kopenwithdialog.cpp:557
 #, kde-format
 msgid ""
 "<qt>Select the program that should be used to open <b>%1</b>. If the program "
@@ -7322,34 +7322,34 @@ msgstr ""
 "<qt>選取用來開啟 <b>%1</b> 的程式。如果程式不在清單中，請輸入程式名稱或按一下"
 "瀏覽按鈕。</qt>"
 
-#: widgets/kopenwithdialog.cpp:565
+#: widgets/kopenwithdialog.cpp:563
 #, kde-format
 msgid "Choose the name of the program with which to open the selected files."
 msgstr "選擇用來開啟選定檔案的程式名稱。"
 
-#: widgets/kopenwithdialog.cpp:581
+#: widgets/kopenwithdialog.cpp:579
 #, kde-format
 msgid "<qt>Select the program you want to use to open the file<br/>%1</qt>"
 msgstr "<qt>選取您想要用於開啟檔案的程式<br/>%1</qt>"
 
-#: widgets/kopenwithdialog.cpp:583
+#: widgets/kopenwithdialog.cpp:581
 #, kde-format
 msgid "<qt>Select the program you want to use to open the file.</qt>"
 msgid_plural ""
 "<qt>Select the program you want to use to open the %1 files.</qt>"
 msgstr[0] "<qt>選取您想要用於開啟檔案 %1 的程式。</qt>"
 
-#: widgets/kopenwithdialog.cpp:587 widgets/kopenwithdialog.cpp:616
+#: widgets/kopenwithdialog.cpp:585 widgets/kopenwithdialog.cpp:614
 #, kde-format
 msgid "Choose Application"
 msgstr "選擇應用程式"
 
-#: widgets/kopenwithdialog.cpp:598
+#: widgets/kopenwithdialog.cpp:596
 #, kde-format
 msgid "Choose Application for %1"
 msgstr "為 %1 選擇應用程式"
 
-#: widgets/kopenwithdialog.cpp:599
+#: widgets/kopenwithdialog.cpp:597
 #, kde-format
 msgid ""
 "<qt>Select the program for the file type: <b>%1</b>. If the program is not "
@@ -7358,7 +7358,7 @@ msgstr ""
 "<qt>選取開啟檔案類型 <b>%1</b> 使用的程式。如果要使用的程式不在清單中，請輸入"
 "程式名稱或按一下瀏覽按鈕。</qt>"
 
-#: widgets/kopenwithdialog.cpp:617
+#: widgets/kopenwithdialog.cpp:615
 #, kde-format
 msgid ""
 "<qt>Select a program. If the program is not listed, enter the name or click "
@@ -7367,7 +7367,7 @@ msgstr ""
 "<qt>請選擇程式。如果所需程式不在清單中，請輸入程式名稱或按一下[瀏覽]按鈕。</"
 "qt>"
 
-#: widgets/kopenwithdialog.cpp:657
+#: widgets/kopenwithdialog.cpp:655
 #, kde-format
 msgid ""
 "Type to filter the applications below, or specify the name of a command.\n"
@@ -7376,7 +7376,7 @@ msgstr ""
 "輸入以過濾以在下方過濾應用程式，或是指定指令名稱。\n"
 "按方向鍵下以查看結果。"
 
-#: widgets/kopenwithdialog.cpp:680
+#: widgets/kopenwithdialog.cpp:678
 #, kde-format
 msgid ""
 "Following the command, you can have several place holders which will be "
@@ -7403,7 +7403,7 @@ msgstr ""
 "%m - 小型圖示\n"
 "%c - 註解"
 
-#: widgets/kopenwithdialog.cpp:722
+#: widgets/kopenwithdialog.cpp:720
 #, kde-format
 msgid ""
 "&Remember application association for all files of type\n"
@@ -7412,29 +7412,29 @@ msgstr ""
 "記住所有檔案類型為「%1」 (%2)應用程式\n"
 "關聯(&R)"
 
-#: widgets/kopenwithdialog.cpp:731
+#: widgets/kopenwithdialog.cpp:729
 #, kde-format
 msgid "Terminal options"
 msgstr "終端機選項"
 
-#: widgets/kopenwithdialog.cpp:736
+#: widgets/kopenwithdialog.cpp:734
 #, kde-format
 msgid "Run in &terminal"
 msgstr "於終端機執行(&T)"
 
-#: widgets/kopenwithdialog.cpp:754
+#: widgets/kopenwithdialog.cpp:752
 #, kde-format
 msgid "&Do not close when command exits"
 msgstr "當指令存在時不要關閉(&D)"
 
-#: widgets/kopenwithdialog.cpp:943
+#: widgets/kopenwithdialog.cpp:941
 #, kde-format
 msgid ""
 "Could not extract executable name from '%1', please type a valid program "
 "name."
 msgstr "無法從 %1 解開執行檔名撐，請輸入合法的程式名稱"
 
-#: widgets/kopenwithdialog.cpp:993
+#: widgets/kopenwithdialog.cpp:991
 #, kde-format
 msgid "'%1' not found, please type a valid program name."
 msgstr "找不到 %1，請輸入合法的程式名稱"
@@ -7893,7 +7893,7 @@ msgstr "掛載點:"
 msgid "Mounted from:"
 msgstr "掛載於："
 
-#: widgets/kpropertiesdialog.cpp:1185 widgets/kpropertiesdialog.cpp:3248
+#: widgets/kpropertiesdialog.cpp:1185 widgets/kpropertiesdialog.cpp:3246
 #, kde-format
 msgctxt "Amount of used and available space on this device or partition"
 msgid "Free space:"
@@ -7905,7 +7905,7 @@ msgctxt "@info:status"
 msgid "Unknown size"
 msgstr "未知的大小"
 
-#: widgets/kpropertiesdialog.cpp:1284 widgets/kpropertiesdialog.cpp:3380
+#: widgets/kpropertiesdialog.cpp:1284 widgets/kpropertiesdialog.cpp:3378
 #, kde-format
 msgctxt "Available space out of total partition size (percent used)"
 msgid "%1 free of %2 (%3% used)"
@@ -7948,7 +7948,7 @@ msgid "The new file name is empty."
 msgstr "新的檔案名稱是空的。"
 
 #: widgets/kpropertiesdialog.cpp:1580 widgets/kpropertiesdialog.cpp:3124
-#: widgets/kpropertiesdialog.cpp:3425 widgets/kpropertiesdialog.cpp:3701
+#: widgets/kpropertiesdialog.cpp:3423 widgets/kpropertiesdialog.cpp:3699
 #, kde-format
 msgid ""
 "<qt>Could not save properties. You do not have sufficient access to write to "
@@ -8364,7 +8364,7 @@ msgstr "URL(&R)"
 msgid "URL:"
 msgstr "URL："
 
-#: widgets/kpropertiesdialog.cpp:3117 widgets/kpropertiesdialog.cpp:3691
+#: widgets/kpropertiesdialog.cpp:3117 widgets/kpropertiesdialog.cpp:3689
 #, kde-format
 msgid ""
 "Could not save properties. Only entries on local file systems are supported."
@@ -8375,57 +8375,57 @@ msgstr "無法儲存屬性。只支援本地檔案系統的項目。"
 msgid "De&vice"
 msgstr "裝置(&V)"
 
-#: widgets/kpropertiesdialog.cpp:3212
+#: widgets/kpropertiesdialog.cpp:3210
 #, kde-format
 msgid "Device (/dev/fd0):"
 msgstr "裝置 (/dev/fd0)："
 
-#: widgets/kpropertiesdialog.cpp:3213
+#: widgets/kpropertiesdialog.cpp:3211
 #, kde-format
 msgid "Device:"
 msgstr "裝置："
 
-#: widgets/kpropertiesdialog.cpp:3226
+#: widgets/kpropertiesdialog.cpp:3224
 #, kde-format
 msgid "Read only"
 msgstr "唯讀"
 
-#: widgets/kpropertiesdialog.cpp:3230
+#: widgets/kpropertiesdialog.cpp:3228
 #, kde-format
 msgid "File system:"
 msgstr "檔案系統:"
 
-#: widgets/kpropertiesdialog.cpp:3238
+#: widgets/kpropertiesdialog.cpp:3236
 #, kde-format
 msgid "Mount point (/mnt/floppy):"
 msgstr "裝載點 (/mnt/floppy)："
 
-#: widgets/kpropertiesdialog.cpp:3239
+#: widgets/kpropertiesdialog.cpp:3237
 #, kde-format
 msgid "Mount point:"
 msgstr "裝載點："
 
-#: widgets/kpropertiesdialog.cpp:3484
+#: widgets/kpropertiesdialog.cpp:3482
 #, kde-format
 msgid "&Application"
 msgstr "應用程式(&A)"
 
-#: widgets/kpropertiesdialog.cpp:3629
+#: widgets/kpropertiesdialog.cpp:3627
 #, kde-format
 msgid "Add File Type for %1"
 msgstr "加入 %1 的檔案類型"
 
-#: widgets/kpropertiesdialog.cpp:3630
+#: widgets/kpropertiesdialog.cpp:3628
 #, kde-format
 msgid "Select one or more file types to add:"
 msgstr "選擇一個或多個要加入的檔案類型："
 
-#: widgets/kpropertiesdialog.cpp:3770
+#: widgets/kpropertiesdialog.cpp:3768
 #, kde-format
 msgid "Only executables on local file systems are supported."
 msgstr "只支援本地檔案系統的執行檔。"
 
-#: widgets/kpropertiesdialog.cpp:3784
+#: widgets/kpropertiesdialog.cpp:3782
 #, kde-format
 msgid "Advanced Options for %1"
 msgstr "%1 的進階選項"
@@ -8482,12 +8482,12 @@ msgstr "<qt>您沒有執行 <b>%1</b> 的權限。</qt>"
 msgid "You are not authorized to select an application to open this file."
 msgstr "您未獲授權去選取應用程式以開啟此檔案。"
 
-#: widgets/krun.cpp:692
+#: widgets/krun.cpp:691
 #, kde-format
 msgid "You are not authorized to execute this service."
 msgstr "您未獲授權去執行此服務。"
 
-#: widgets/krun.cpp:722
+#: widgets/krun.cpp:721
 #, kde-format
 msgid ""
 "Unable to make the service %1 executable, aborting execution.\n"
@@ -8496,34 +8496,34 @@ msgstr ""
 "無法使 %1 服務可被執行，取消執行。\n"
 "%2。"
 
-#: widgets/krun.cpp:958
+#: widgets/krun.cpp:957
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
 "not exist.</qt>"
 msgstr "<qt>無法執行指定的命令。這個檔案或資料夾 <b>%1</b> 不存在。</qt>"
 
-#: widgets/krun.cpp:1018
+#: widgets/krun.cpp:1017
 #, kde-format
 msgid "Could not find any application or handler for %1"
 msgstr "找不到任何 %1 的應用程式或操作器"
 
-#: widgets/krun.cpp:1589
+#: widgets/krun.cpp:1588
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr "處理 %1 中的 Exec 欄位時發生錯誤"
 
-#: widgets/krun.cpp:1657
+#: widgets/krun.cpp:1656
 #, kde-format
 msgid "You are not authorized to execute this file."
 msgstr "您未獲授權去執行此檔案。"
 
-#: widgets/krun.cpp:1678
+#: widgets/krun.cpp:1677
 #, kde-format
 msgid "Launching %1"
 msgstr "裝載 %1 中"
 
-#: widgets/krun.cpp:1784
+#: widgets/krun.cpp:1783
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "找不到程式「%1」"
@@ -8571,39 +8571,39 @@ msgstr "該文件內的主要部份是使用 SSL 連線，但是有些部份則�
 msgid "Some of this document is secured with SSL, but the main part is not."
 msgstr "該文件內的一部份有是使用 SSL 保護，但是主要部份都不是。"
 
-#: widgets/ksslinfodialog.cpp:180
+#: widgets/ksslinfodialog.cpp:179
 #, kde-format
 msgctxt "%1, using %2 bits of a %3 bit key"
 msgid "%1, %2 %3"
 msgstr "%1，%2 %3"
 
-#: widgets/ksslinfodialog.cpp:182
+#: widgets/ksslinfodialog.cpp:181
 #, kde-format
 msgctxt "Part of: %1, using %2 bits of a %3 bit key"
 msgid "using %1 bit"
 msgid_plural "using %1 bits"
 msgstr[0] "使用 %1 位元，"
 
-#: widgets/ksslinfodialog.cpp:184
+#: widgets/ksslinfodialog.cpp:183
 #, kde-format
 msgctxt "Part of: %1, using %2 bits of a %3 bit key"
 msgid "of a %1 bit key"
 msgid_plural "of a %1 bit key"
 msgstr[0] "於 %1 位元金鑰中"
 
-#: widgets/ksslinfodialog.cpp:200
+#: widgets/ksslinfodialog.cpp:199
 #, kde-format
 msgctxt "The certificate is not trusted"
 msgid "NO, there were errors:"
 msgstr "否，有一些錯誤："
 
-#: widgets/ksslinfodialog.cpp:206
+#: widgets/ksslinfodialog.cpp:205
 #, kde-format
 msgctxt "The certificate is trusted"
 msgid "Yes"
 msgstr "是"
 
-#: widgets/ksslinfodialog.cpp:210
+#: widgets/ksslinfodialog.cpp:209
 #, kde-format
 msgctxt "%1 is the effective date of the certificate, %2 is the expiry date"
 msgid "%1 to %2"

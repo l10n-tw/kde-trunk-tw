@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-28 02:24+0200\n"
+"POT-Creation-Date: 2019-10-04 02:27+0200\n"
 "PO-Revision-Date: 2019-09-28 15:07+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -167,6 +167,18 @@ msgid ""
 "The index is not enabled. Please add '\"index\": true' to your .kateproject "
 "file."
 msgstr "未啟用索引。請新增「\"index\": true」到你的 .kateproject 檔案。"
+
+#: kateprojectplugin.cpp:380
+#, kde-format
+msgid "Full path to current project excluding the file name."
+msgstr ""
+
+#: kateprojectplugin.cpp:396
+#, kde-format
+msgid ""
+"Full path to current project excluding the file name, with native path "
+"separator (backslash on Windows)."
+msgstr ""
 
 #: kateprojectpluginview.cpp:56
 #, kde-format

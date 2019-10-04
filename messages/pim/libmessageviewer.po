@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-23 03:03+0200\n"
+"POT-Creation-Date: 2019-10-04 03:14+0200\n"
 "PO-Revision-Date: 2015-06-17 09:27+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -309,6 +309,17 @@ msgstr "未知的簽章狀態"
 #: messagepartthemes/default/templates/signedmessagepart.html:170
 msgid "End of signed message"
 msgstr "已簽署信件的尾端"
+
+#: dkim-verify/dkimchecksignaturejob.cpp:84
+#, fuzzy, kde-format
+#| msgid "The signature has expired."
+msgid "Signature Expired"
+msgstr "簽章已經過期。"
+
+#: dkim-verify/dkimchecksignaturejob.cpp:87
+#, kde-format
+msgid "Signature created in the future"
+msgstr ""
 
 #: header/grantleeheaderformatter.cpp:169
 #, kde-format

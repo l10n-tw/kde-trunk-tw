@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-03 02:33+0200\n"
+"POT-Creation-Date: 2019-10-04 02:33+0200\n"
 "PO-Revision-Date: 2019-10-02 16:00+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -17283,7 +17283,7 @@ msgstr "反轉漸變"
 
 #. i18n: ectx: attribute (title), widget (QWidget, textureOptionsTab)
 #: libs/ui/kis_stopgradient_editor.cpp:240
-#: libs/ui/KisImportExportManager.cpp:553
+#: libs/ui/KisImportExportManager.cpp:572
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:59
 #, kde-format
 msgid "Options"
@@ -17995,23 +17995,23 @@ msgctxt "@titile:window"
 msgid "Open Audio"
 msgstr "開啟音訊"
 
-#: libs/ui/KisImportExportManager.cpp:358
+#: libs/ui/KisImportExportManager.cpp:359
 #, kde-format
 msgid "Opening document..."
 msgstr "正在開啟檔案…"
 
-#: libs/ui/KisImportExportManager.cpp:401
+#: libs/ui/KisImportExportManager.cpp:420
 #, kde-format
 msgid "Saving document..."
 msgstr "正在儲存檔案…"
 
-#: libs/ui/KisImportExportManager.cpp:477
+#: libs/ui/KisImportExportManager.cpp:496
 #, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>assistants</b>. The assistants will not be saved."
 msgstr "此影像包含<b>輔助尺</b>。輔助尺將不被儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:480
+#: libs/ui/KisImportExportManager.cpp:499
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -18019,13 +18019,13 @@ msgid ""
 "saved."
 msgstr "此影像包含<b>參考圖</b>。參考圖將不被儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:483
+#: libs/ui/KisImportExportManager.cpp:502
 #, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>guides</b>. The guides will not be saved."
 msgstr "此影像包含<b> 參考線 </b>。參考線將不被儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:486
+#: libs/ui/KisImportExportManager.cpp:505
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -18033,40 +18033,40 @@ msgid ""
 "will not be saved."
 msgstr "此影像包含<b>自訂網格設定</b>。自訂網格設定將不被儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:491
+#: libs/ui/KisImportExportManager.cpp:510
 #, kde-format
 msgid "Error: cannot save this image as a %1."
 msgstr "錯誤：無法將此影像儲存為 %1。"
 
-#: libs/ui/KisImportExportManager.cpp:492
-#: libs/ui/KisImportExportManager.cpp:540
+#: libs/ui/KisImportExportManager.cpp:511
+#: libs/ui/KisImportExportManager.cpp:559
 #, kde-format
 msgid "Reasons:"
 msgstr "原因："
 
-#: libs/ui/KisImportExportManager.cpp:500
+#: libs/ui/KisImportExportManager.cpp:519
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Export Error"
 msgstr "Krita：匯出錯誤"
 
-#: libs/ui/KisImportExportManager.cpp:523
+#: libs/ui/KisImportExportManager.cpp:542
 #, kde-format
 msgctxt "Keep the extra space at the end of the sentence, please"
 msgid "Warning: saving as %1 will lose information from your image.    "
 msgstr "警告：儲存為 %1 將遺失影像中的訊息。    "
 
-#: libs/ui/KisImportExportManager.cpp:534
+#: libs/ui/KisImportExportManager.cpp:553
 #, kde-format
 msgid "You will lose information when saving this image as a %1."
 msgstr "將此影像儲存為 %1 時將遺失訊息。"
 
-#: libs/ui/KisImportExportManager.cpp:537
+#: libs/ui/KisImportExportManager.cpp:556
 #, kde-format
 msgid "Reason:"
 msgstr "原因："
 
-#: libs/ui/KisImportExportManager.cpp:562
+#: libs/ui/KisImportExportManager.cpp:581
 #, kde-format
 msgid "Also save your image as a Krita file."
 msgstr "請將影像另存為 Krita 格式檔案。"
