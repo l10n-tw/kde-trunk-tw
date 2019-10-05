@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-25 02:29+0200\n"
+"POT-Creation-Date: 2019-10-05 02:35+0200\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -314,76 +314,76 @@ msgstr "Amarok 選單"
 msgid "Play/Pause"
 msgstr "播放/暫停"
 
-#: ActionClasses.cpp:315
+#: ActionClasses.cpp:316
 #, kde-format
 msgid "Click to change"
 msgstr "點擊以變更狀態"
 
-#: ActionClasses.cpp:332
+#: ActionClasses.cpp:333
 #, kde-format
 msgid "&Replay Gain Mode"
 msgstr "重播增益模式(&R)"
 
-#: ActionClasses.cpp:334
+#: ActionClasses.cpp:335
 #, kde-format
 msgctxt "Replay Gain state, as in, disabled"
 msgid "&Off"
 msgstr "關閉(&O)"
 
-#: ActionClasses.cpp:335
+#: ActionClasses.cpp:336
 #, kde-format
 msgctxt "Item, as in, music"
 msgid "&Track"
 msgstr "曲目(&T)"
 
-#: ActionClasses.cpp:336
+#: ActionClasses.cpp:337
 #, kde-format
 msgid "&Album"
 msgstr "專輯(&A)"
 
-#: ActionClasses.cpp:356
+#: ActionClasses.cpp:357
 #, kde-format
 msgid "Burn"
 msgstr "燒錄"
 
-#: ActionClasses.cpp:395
+#: ActionClasses.cpp:396
 #, kde-format
 msgid "Current Playlist"
 msgstr "目前的播放清單"
 
-#: ActionClasses.cpp:396
+#: ActionClasses.cpp:397
 #, kde-format
 msgid "Selected Tracks"
 msgstr "選擇的曲目"
 
-#: ActionClasses.cpp:427 scripting/scriptconsole/ScriptConsole.cpp:101
+#: ActionClasses.cpp:428 scripting/scriptconsole/ScriptConsole.cpp:101
 #, kde-format
 msgid "Stop"
 msgstr "停止"
 
-#: ActionClasses.cpp:471
+#: ActionClasses.cpp:472
 #, kde-format
 msgid "Stop after current Track"
 msgstr "在目前曲目後停止"
 
-#: ActionClasses.cpp:488
+#: ActionClasses.cpp:489
 #, kde-format
 msgid "Stop after current track: Off"
 msgstr "在目前曲目後停止：關閉"
 
-#: ActionClasses.cpp:493
+#: ActionClasses.cpp:494
 #, kde-format
 msgid "Stop after current track: On"
 msgstr "在目前曲目後停止：開啟"
 
-#: ActionClasses.cpp:497 EngineController.cpp:1319 mac/GrowlInterface.cpp:43
+#: ActionClasses.cpp:498 EngineController.cpp:1319 mac/GrowlInterface.cpp:43
 #: widgets/Osd.cpp:669
 #, kde-format
 msgid "No track playing"
 msgstr "沒有播放任何曲目"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
-#: ActionClasses.cpp:501
+#: ActionClasses.cpp:502
 #: core-impl/collections/audiocd/FormatSelectionDialog.ui:14 main.cpp:56
 #: main.cpp:97 MainWindow.cpp:112
 #, kde-format
@@ -6332,7 +6332,7 @@ msgid "Cancel Download and Quit."
 msgstr "取消下載並離開"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1156
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1404
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1406
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr "無法儲存 podcast episode 檔案到 %1"

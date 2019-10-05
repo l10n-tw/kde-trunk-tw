@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-01 02:27+0200\n"
+"POT-Creation-Date: 2019-10-05 02:26+0200\n"
 "PO-Revision-Date: 2019-10-02 15:44+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -95,64 +95,69 @@ msgstr "完成，結束碼是：%1"
 msgid "Starts the external tool '%1'"
 msgstr "啟動外部工具「%1」"
 
-#: kateexternaltoolsconfigwidget.cpp:124
+#: kateexternaltoolsconfigwidget.cpp:139
 #, kde-format
 msgid "Edit External Tool"
 msgstr "編輯外部工具"
 
-#: kateexternaltoolsconfigwidget.cpp:160
+#: kateexternaltoolsconfigwidget.cpp:170
+#, kde-format
+msgid "Revert tool to default settings"
+msgstr ""
+
+#: kateexternaltoolsconfigwidget.cpp:194
 #, kde-format
 msgid "External Tool"
 msgstr "外部工具"
 
-#: kateexternaltoolsconfigwidget.cpp:160
+#: kateexternaltoolsconfigwidget.cpp:194
 #, kde-format
 msgid "You must specify at least a name and an executable"
 msgstr "您必須至少指定一個檔案及一個可執行檔"
 
-#: kateexternaltoolsconfigwidget.cpp:169
+#: kateexternaltoolsconfigwidget.cpp:203
 #, fuzzy, kde-format
 msgid "Select the MimeTypes for which to enable this tool."
 msgstr "選取會啟用工具的 Mime 類型。"
 
-#: kateexternaltoolsconfigwidget.cpp:171
+#: kateexternaltoolsconfigwidget.cpp:205
 #, kde-format
 msgid "Select Mime Types"
 msgstr "選取 Mime 類型"
 
-#: kateexternaltoolsconfigwidget.cpp:219
+#: kateexternaltoolsconfigwidget.cpp:253
 #, kde-format
 msgid "Add Tool..."
 msgstr "新增工具…"
 
-#: kateexternaltoolsconfigwidget.cpp:220
+#: kateexternaltoolsconfigwidget.cpp:254
 #, kde-format
 msgid "Add Tool from Defaults"
 msgstr "從預設值新增工具"
 
-#: kateexternaltoolsconfigwidget.cpp:222
+#: kateexternaltoolsconfigwidget.cpp:256
 #, kde-format
 msgid "Add Category"
 msgstr "新增分類"
 
-#: kateexternaltoolsconfigwidget.cpp:254 kateexternaltoolsconfigwidget.cpp:259
+#: kateexternaltoolsconfigwidget.cpp:288 kateexternaltoolsconfigwidget.cpp:293
 #: kateexternaltoolsview.cpp:151 kateexternaltoolsview.cpp:155
 #: kateexternaltoolsview.cpp:202
 #, kde-format
 msgid "External Tools"
 msgstr "外部工具"
 
-#: kateexternaltoolsconfigwidget.cpp:273 kateexternaltoolsconfigwidget.cpp:380
+#: kateexternaltoolsconfigwidget.cpp:307 kateexternaltoolsconfigwidget.cpp:414
 #, kde-format
 msgid "Uncategorized"
 msgstr "未分類"
 
-#: kateexternaltoolsconfigwidget.cpp:474
+#: kateexternaltoolsconfigwidget.cpp:508
 #, kde-format
 msgid "New Category"
 msgstr "新分類"
 
-#: kateexternaltoolsconfigwidget.cpp:477
+#: kateexternaltoolsconfigwidget.cpp:511
 #, kde-format
 msgid "New Category %1"
 msgstr "新分類 %1"
@@ -197,56 +202,44 @@ msgstr "工具的短名稱"
 msgid "E&xecutable:"
 msgstr "可執行檔(&X)："
 
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, edtExecutable)
-#: tooldialog.ui:59
-#, kde-format
-msgid "Application or interpreter"
-msgstr "應用程式或解譯器"
-
 #. i18n: ectx: property (text), widget (QLabel, lblArgs)
-#: tooldialog.ui:79
+#: tooldialog.ui:54
 #, kde-format
 msgid "Ar&guments:"
 msgstr "參數(&G)："
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edtArgs)
-#: tooldialog.ui:89
+#: tooldialog.ui:64
 #, kde-format
 msgid "Command line arguments"
 msgstr "指令列參數"
 
 #. i18n: ectx: property (text), widget (QLabel, lblInput)
-#: tooldialog.ui:96
+#: tooldialog.ui:71
 #, kde-format
 msgid "&Input:"
 msgstr "輸入檔(&I)："
 
 #. i18n: ectx: property (placeholderText), widget (QTextEdit, edtInput)
-#: tooldialog.ui:106
+#: tooldialog.ui:81
 #, kde-format
 msgid "Optional standard input"
 msgstr "選用標準輸入"
 
 #. i18n: ectx: property (text), widget (QLabel, lblWorkingDir)
-#: tooldialog.ui:113
+#: tooldialog.ui:88
 #, kde-format
 msgid "Working &directory:"
 msgstr "工作目錄(&D)："
 
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, edtWorkingDir)
-#: tooldialog.ui:125
-#, kde-format
-msgid "Uses current document path if empty"
-msgstr "如果空白，則使用目前文件路徑"
-
 #. i18n: ectx: property (text), widget (QLabel, lblMimeType)
-#: tooldialog.ui:145
+#: tooldialog.ui:95
 #, kde-format
 msgid "Mime &types:"
 msgstr "Mime 類型(&T)："
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, edtMimeType)
-#: tooldialog.ui:157
+#: tooldialog.ui:107
 #, kde-format
 msgid ""
 "A semicolon-separated list of mime types for which this tool should be "
@@ -254,25 +247,25 @@ msgid ""
 msgstr "工具可用於的 Mime 類型列表。如果空白，則工具則永遠可供使用。"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edtMimeType)
-#: tooldialog.ui:160
+#: tooldialog.ui:110
 #, kde-format
 msgid "Show tool only for given mime types"
 msgstr "僅顯示用於指定 Mime 類型的工具"
 
 #. i18n: ectx: property (whatsThis), widget (QToolButton, btnMimeType)
-#: tooldialog.ui:167
+#: tooldialog.ui:117
 #, kde-format
 msgid "Opens a dialog that helps in creating a list of mimetypes."
 msgstr "開啟協助建立 Mime 類型列表的對話框。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSave)
-#: tooldialog.ui:180
+#: tooldialog.ui:130
 #, kde-format
 msgid "Save:"
 msgstr "儲存："
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, cmbSave)
-#: tooldialog.ui:190
+#: tooldialog.ui:140
 #, kde-format
 msgid ""
 "Optionally save the current or all modified documents prior to running the "
@@ -283,91 +276,91 @@ msgstr ""
 "的應用程式十分有用。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSave)
-#: tooldialog.ui:194
+#: tooldialog.ui:144
 #, kde-format
 msgid "None"
 msgstr "無"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSave)
-#: tooldialog.ui:199
+#: tooldialog.ui:149
 #, kde-format
 msgid "Current Document"
 msgstr "目前文件"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSave)
-#: tooldialog.ui:204
+#: tooldialog.ui:154
 #, kde-format
 msgid "All Documents"
 msgstr "所有文件"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkReload)
-#: tooldialog.ui:212
+#: tooldialog.ui:162
 #, kde-format
 msgid "Reload current document after execution"
 msgstr "執行後重新載入目前文件"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: tooldialog.ui:219
+#: tooldialog.ui:169
 #, kde-format
 msgid "O&utput:"
 msgstr "輸出(&U)："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbOutput)
-#: tooldialog.ui:230
+#: tooldialog.ui:180
 #, kde-format
 msgid "Ignore"
 msgstr "忽略"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbOutput)
-#: tooldialog.ui:235
+#: tooldialog.ui:185
 #, kde-format
 msgid "Insert at Cursor Position"
 msgstr "在游標位置插入"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbOutput)
-#: tooldialog.ui:240
+#: tooldialog.ui:190
 #, kde-format
 msgid "Replace Selected Text"
 msgstr "取代選取文字"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbOutput)
-#: tooldialog.ui:245
+#: tooldialog.ui:195
 #, kde-format
 msgid "Replace Current Document"
 msgstr "取代目前文件"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbOutput)
-#: tooldialog.ui:250
+#: tooldialog.ui:200
 #, kde-format
 msgid "Append to Current Document"
 msgstr "加至目前文件末尾"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbOutput)
-#: tooldialog.ui:255
+#: tooldialog.ui:205
 #, kde-format
 msgid "Insert in New Document"
 msgstr "在新文件中插入"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbOutput)
-#: tooldialog.ui:260
+#: tooldialog.ui:210
 #, kde-format
 msgid "Copy to Clipboard"
 msgstr "複製至剪貼簿"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbOutput)
-#: tooldialog.ui:265
+#: tooldialog.ui:215
 #, kde-format
 msgid "Display in Pane"
 msgstr "在窗格中顯示"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: tooldialog.ui:273
+#: tooldialog.ui:223
 #, kde-format
 msgid "Editor command:"
 msgstr "編輯器指令："
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, edtCommand)
-#: tooldialog.ui:283
+#: tooldialog.ui:233
 #, kde-format
 msgid ""
 "If you specify a name here, you can invoke the command from the view command "
@@ -378,10 +371,22 @@ msgstr ""
 "中不能有空白或 Tab。"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edtCommand)
-#: tooldialog.ui:286
+#: tooldialog.ui:236
 #, kde-format
 msgid "Optional view command line name"
 msgstr "選用檢視 (view) 指令列名稱"
+
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, edtExecutable)
+#: tooldialog.ui:250
+#, kde-format
+msgid "Application or interpreter"
+msgstr "應用程式或解譯器"
+
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, edtWorkingDir)
+#: tooldialog.ui:257
+#, kde-format
+msgid "Uses current document path if empty"
+msgstr "如果空白，則使用目前文件路徑"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabOutput)
 #: toolview.ui:27

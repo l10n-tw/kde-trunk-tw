@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstyle_config\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-23 03:12+0200\n"
+"POT-Creation-Date: 2019-10-05 03:25+0200\n"
 "PO-Revision-Date: 2017-06-29 21:09+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -527,15 +527,17 @@ msgstr "框架"
 
 #. i18n: ectx: property (text), widget (QRadioButton, raisedFrameRadioButton)
 #: ui/oxygenframedemowidget.ui:104
-#, kde-format
-msgid "Raised"
+#, fuzzy, kde-format
+#| msgid "Raised"
+msgid "&Raised"
 msgstr "抬升"
 
 #. i18n: ectx: property (text), widget (QRadioButton, plainFrameRadioButton)
 #: ui/oxygenframedemowidget.ui:117
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Flat"
 msgctxt "Flat frame. No frame is actually drawn."
-msgid "Flat"
+msgid "&Flat"
 msgstr "平面"
 
 #. i18n: ectx: property (text), widget (QRadioButton, sunkenFrameRadioButton)
@@ -961,3 +963,7 @@ msgstr "隱藏分頁列"
 #, kde-format
 msgid "Preview"
 msgstr "預覽"
+
+#~ msgctxt "Flat frame. No frame is actually drawn."
+#~ msgid "Flat"
+#~ msgstr "平面"
