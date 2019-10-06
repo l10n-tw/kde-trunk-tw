@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-04 02:44+0200\n"
+"POT-Creation-Date: 2019-10-06 02:48+0200\n"
 "PO-Revision-Date: 2019-09-22 13:14+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -2927,9 +2927,9 @@ msgstr "遠端"
 
 #: filewidgets/kfileplacesitem.cpp:113
 #, kde-format
-msgctxt "@item"
-msgid "Recently Saved"
-msgstr "最近儲存"
+msgctxt "@item The place group section name for recent dynamic lists"
+msgid "Recent"
+msgstr ""
 
 #: filewidgets/kfileplacesitem.cpp:116
 #, kde-format
@@ -2960,103 +2960,117 @@ msgstr "標籤"
 msgid "All tags"
 msgstr "所有標籤"
 
-#: filewidgets/kfileplacesmodel.cpp:276
+#: filewidgets/kfileplacesmodel.cpp:289
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr "家目錄"
 
-#: filewidgets/kfileplacesmodel.cpp:284
+#: filewidgets/kfileplacesmodel.cpp:297
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Desktop"
 msgstr "桌面"
 
-#: filewidgets/kfileplacesmodel.cpp:290 filewidgets/kfileplacesmodel.cpp:332
+#: filewidgets/kfileplacesmodel.cpp:303 filewidgets/kfileplacesmodel.cpp:371
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "文件"
 
-#: filewidgets/kfileplacesmodel.cpp:296
+#: filewidgets/kfileplacesmodel.cpp:309
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Downloads"
 msgstr "下載"
 
-#: filewidgets/kfileplacesmodel.cpp:301
+#: filewidgets/kfileplacesmodel.cpp:314
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "網路"
 
-#: filewidgets/kfileplacesmodel.cpp:305
+#: filewidgets/kfileplacesmodel.cpp:318
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "垃圾桶"
 
-#: filewidgets/kfileplacesmodel.cpp:326
+#: filewidgets/kfileplacesmodel.cpp:340
+#, fuzzy, kde-format
+#| msgid "Delete Files"
+msgctxt "KFile System Bookmarks"
+msgid "Recent Files"
+msgstr "刪除檔案"
+
+#: filewidgets/kfileplacesmodel.cpp:344
+#, fuzzy, kde-format
+#| msgid "Location:"
+msgctxt "KFile System Bookmarks"
+msgid "Recent Locations"
+msgstr "位置："
+
+#: filewidgets/kfileplacesmodel.cpp:365
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Today"
 msgstr "今天"
 
-#: filewidgets/kfileplacesmodel.cpp:329
+#: filewidgets/kfileplacesmodel.cpp:368
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Yesterday"
 msgstr "昨天"
 
-#: filewidgets/kfileplacesmodel.cpp:335
+#: filewidgets/kfileplacesmodel.cpp:374
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr "影像"
 
-#: filewidgets/kfileplacesmodel.cpp:338
+#: filewidgets/kfileplacesmodel.cpp:377
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr "音訊"
 
-#: filewidgets/kfileplacesmodel.cpp:341
+#: filewidgets/kfileplacesmodel.cpp:380
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr "影片"
 
-#: filewidgets/kfileplacesmodel.cpp:1224
+#: filewidgets/kfileplacesmodel.cpp:1263
 #, kde-format
 msgid "&Release '%1'"
 msgstr "釋出 %1(&R)"
 
-#: filewidgets/kfileplacesmodel.cpp:1226
+#: filewidgets/kfileplacesmodel.cpp:1265
 #, kde-format
 msgid "&Safely Remove '%1'"
 msgstr "安全地移除 %1(&S)"
 
-#: filewidgets/kfileplacesmodel.cpp:1229
+#: filewidgets/kfileplacesmodel.cpp:1268
 #, kde-format
 msgid "&Unmount '%1'"
 msgstr "卸載 %1(&U)"
 
-#: filewidgets/kfileplacesmodel.cpp:1250
+#: filewidgets/kfileplacesmodel.cpp:1289
 #, kde-format
 msgid "&Eject '%1'"
 msgstr "跳出 %1(&E)"
 
-#: filewidgets/kfileplacesmodel.cpp:1284
+#: filewidgets/kfileplacesmodel.cpp:1323
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "裝置 %1 不是光碟機，無法跳出。"
 
-#: filewidgets/kfileplacesmodel.cpp:1320
+#: filewidgets/kfileplacesmodel.cpp:1359
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "存取 %1 時發生錯誤，系統訊息：%2"
 
-#: filewidgets/kfileplacesmodel.cpp:1324
+#: filewidgets/kfileplacesmodel.cpp:1363
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "存取 %1 時發生錯誤"
@@ -8947,3 +8961,7 @@ msgid ""
 msgstr ""
 "遠端主機並未送出任何 SSL 憑證。\n"
 "因為無法建立主機身份，因此將中止。"
+
+#~ msgctxt "@item"
+#~ msgid "Recently Saved"
+#~ msgstr "最近儲存"

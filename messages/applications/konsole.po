@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-04 02:27+0200\n"
+"POT-Creation-Date: 2019-10-06 02:26+0200\n"
 "PO-Revision-Date: 2019-08-31 18:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -850,6 +850,13 @@ msgstr "閃爍："
 msgid "Make the cursor blink regularly"
 msgstr "讓游標定時閃動"
 
+#. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingCursorButton)
+#. i18n: ectx: property (text), widget (QCheckBox, alignToCenterButton)
+#: EditProfileAppearancePage.ui:407 EditProfileAppearancePage.ui:576
+#, kde-format
+msgid "Enabled"
+msgstr "啟用"
+
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #. i18n: ectx: attribute (title), widget (QWidget, miscTab)
 #: EditProfileAppearancePage.ui:430 EditProfileMousePage.ui:249
@@ -896,12 +903,6 @@ msgstr "外邊距："
 #, kde-format
 msgid "Align to center:"
 msgstr "對齊中央："
-
-#. i18n: ectx: property (text), widget (QCheckBox, alignToCenterButton)
-#: EditProfileAppearancePage.ui:576
-#, kde-format
-msgid "Enabled"
-msgstr "啟用"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: EditProfileAppearancePage.ui:602

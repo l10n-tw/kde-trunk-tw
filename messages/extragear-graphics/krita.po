@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-04 02:33+0200\n"
+"POT-Creation-Date: 2019-10-06 02:32+0200\n"
 "PO-Revision-Date: 2019-10-02 16:00+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -17835,90 +17835,19 @@ msgstr "操作已由使用者取消。"
 msgid "Unknown error."
 msgstr "未知錯誤。"
 
-#: libs/ui/KisImportExportFilter.cpp:130
-#, kde-format
-msgid "Krita does not support this file format"
-msgstr "Krita 不支援此檔案格式"
-
-#: libs/ui/KisImportExportFilter.cpp:133
-#, kde-format
-msgid "Could not create the output document"
-msgstr "無法建立輸出檔案"
-
-#: libs/ui/KisImportExportFilter.cpp:136
-#, kde-format
-msgid "File not found"
-msgstr "無法找到檔案"
-
-#: libs/ui/KisImportExportFilter.cpp:139
-#, kde-format
-msgid "Cannot create storage"
-msgstr "無法建立存儲"
-
-#: libs/ui/KisImportExportFilter.cpp:142
-#, kde-format
-msgid "Bad MIME type"
-msgstr "無效的 MIME 類型"
-
-#: libs/ui/KisImportExportFilter.cpp:145
-#, kde-format
-msgid "Format not recognized"
-msgstr "無法識別格式"
-
-#: libs/ui/KisImportExportFilter.cpp:148
-#, kde-format
-msgid "Not implemented"
-msgstr "尚未實現"
-
-#: libs/ui/KisImportExportFilter.cpp:151
-#, kde-format
-msgid "Parsing error"
-msgstr "解析錯誤"
-
-#: libs/ui/KisImportExportFilter.cpp:154
-#, kde-format
-msgid "Invalid file format"
-msgstr "無效的檔案格式"
-
-#: libs/ui/KisImportExportFilter.cpp:158
-#, kde-format
-msgid "Internal error"
-msgstr "內部錯誤"
-
-#: libs/ui/KisImportExportFilter.cpp:161
-#, kde-format
-msgid "Cancelled by user"
-msgstr "已被使用者取消"
-
-#: libs/ui/KisImportExportFilter.cpp:165
-#: plugins/impex/heightmap/kis_heightmap_import.cpp:82
-#, kde-format
-msgid "Unknown file type"
-msgstr "未知檔案格式"
-
-#: libs/ui/KisImportExportFilter.cpp:169
-#, kde-format
-msgid "Unsupported file version"
-msgstr "不支援的檔案版本"
-
-#: libs/ui/KisImportExportFilter.cpp:177
-#, kde-format
-msgid "Unknown error"
-msgstr "未知錯誤"
-
-#: libs/ui/KisImportExportFilter.cpp:218
+#: libs/ui/KisImportExportFilter.cpp:159
 #, kde-format
 msgid ""
 "%1 does not exist after writing. Try saving again under a different name, in "
 "another location."
 msgstr "%1 寫入後仍不存在。試試看在其他位置使用不同名稱重新儲存。"
 
-#: libs/ui/KisImportExportFilter.cpp:222
+#: libs/ui/KisImportExportFilter.cpp:163
 #, kde-format
 msgid "%1 is not readable"
 msgstr "%1 不可寫入"
 
-#: libs/ui/KisImportExportFilter.cpp:226
+#: libs/ui/KisImportExportFilter.cpp:167
 #, kde-format
 msgid ""
 "%1 is smaller than 10 bytes, it must be corrupt. Try saving again under a "
@@ -17926,7 +17855,7 @@ msgid ""
 msgstr ""
 "%1 小於 10 位元組，可能是損壞的。試試看在其他位置使用不同名稱重新儲存。"
 
-#: libs/ui/KisImportExportFilter.cpp:241
+#: libs/ui/KisImportExportFilter.cpp:182
 #, kde-format
 msgid ""
 "%1 has only zero bytes in the first 1000 bytes, it's probably corrupt. Try "
@@ -17935,7 +17864,7 @@ msgstr ""
 "%1 的開頭 1000 位元組只有 0 位元組，可能是損壞的。試試看在其他位置使用不同名"
 "稱重新儲存。"
 
-#: libs/ui/KisImportExportFilter.cpp:305
+#: libs/ui/KisImportExportFilter.cpp:246
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -17945,7 +17874,7 @@ msgstr ""
 "%1 無法使用顏色模式 <b>%2 </b> 和色板深度 <b>%3 </b> 儲存影像。影像的色彩空間"
 "將被轉換。"
 
-#: libs/ui/KisImportExportFilter.cpp:310
+#: libs/ui/KisImportExportFilter.cpp:251
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -17955,7 +17884,7 @@ msgstr ""
 "%1 無法使用顏色模式 <b>%2 </b> 和色板深度 <b>%3 </b> 儲存圖層。這些圖層的色彩"
 "空間將被轉換或忽略。"
 
-#: libs/ui/KisImportExportFilter.cpp:315
+#: libs/ui/KisImportExportFilter.cpp:256
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -17965,7 +17894,7 @@ msgstr ""
 "%1 無法使用顏色模式 <b>%2 </b> 和色板深度 <b>%3 </b> 儲存影像。影像將不會被儲"
 "存。"
 
-#: libs/ui/KisImportExportFilter.cpp:320
+#: libs/ui/KisImportExportFilter.cpp:261
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -17975,14 +17904,14 @@ msgstr ""
 "%1 無法使用顏色模式 <b>%2 </b> 和色板深度 <b>%3 </b> 儲存圖層。這些圖層將被忽"
 "略。"
 
-#: libs/ui/KisImportExportFilter.cpp:338
+#: libs/ui/KisImportExportFilter.cpp:279
 #, kde-format
 msgid ""
 "Could not open the saved file %1. Please try to save again in a different "
 "location."
 msgstr "無法開啟儲存的 %1 檔案。請試試在其他位置重新儲存。"
 
-#: libs/ui/KisImportExportFilter.cpp:343
+#: libs/ui/KisImportExportFilter.cpp:284
 #, kde-format
 msgid ""
 "File %1 is missing in %2 and is broken. Please try to save again in a "
@@ -32946,6 +32875,11 @@ msgstr "有損進階設定"
 msgid "Quality:"
 msgstr "品質："
 
+#: plugins/impex/heightmap/kis_heightmap_import.cpp:82
+#, kde-format
+msgid "Unknown file type"
+msgstr "未知檔案格式"
+
 #: plugins/impex/heightmap/kis_heightmap_import.cpp:101
 #, kde-format
 msgid "Heightmap Import Options"
@@ -42830,3 +42764,42 @@ msgstr "顯示原始輪廓"
 #, kde-format
 msgid "Work Recursively"
 msgstr "以遞迴方式作業"
+
+#~ msgid "Krita does not support this file format"
+#~ msgstr "Krita 不支援此檔案格式"
+
+#~ msgid "Could not create the output document"
+#~ msgstr "無法建立輸出檔案"
+
+#~ msgid "File not found"
+#~ msgstr "無法找到檔案"
+
+#~ msgid "Cannot create storage"
+#~ msgstr "無法建立存儲"
+
+#~ msgid "Bad MIME type"
+#~ msgstr "無效的 MIME 類型"
+
+#~ msgid "Format not recognized"
+#~ msgstr "無法識別格式"
+
+#~ msgid "Not implemented"
+#~ msgstr "尚未實現"
+
+#~ msgid "Parsing error"
+#~ msgstr "解析錯誤"
+
+#~ msgid "Invalid file format"
+#~ msgstr "無效的檔案格式"
+
+#~ msgid "Internal error"
+#~ msgstr "內部錯誤"
+
+#~ msgid "Cancelled by user"
+#~ msgstr "已被使用者取消"
+
+#~ msgid "Unsupported file version"
+#~ msgstr "不支援的檔案版本"
+
+#~ msgid "Unknown error"
+#~ msgstr "未知錯誤"

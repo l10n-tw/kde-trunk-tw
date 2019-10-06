@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: partitionmanager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-28 02:41+0200\n"
+"POT-Creation-Date: 2019-10-06 02:43+0200\n"
 "PO-Revision-Date: 2019-06-11 00:52+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -2162,57 +2162,45 @@ msgctxt "@title:window"
 msgid "Create a new partition"
 msgstr "建立新分割區"
 
-#. i18n: ectx: ToolBar (editToolBar)
-#: gui/partitionmanagerui.rc:5
-#, kde-format
-msgctxt "@title:menu turn on and off edit toolbar"
-msgid "Edit Toolbar"
-msgstr "編輯工具列"
-
 #. i18n: ectx: ToolBar (partitionToolBar)
-#: gui/partitionmanagerui.rc:11
-#, kde-format
+#: gui/partitionmanagerui.rc:5
+#, fuzzy, kde-format
+#| msgctxt "@title:menu"
+#| msgid "Partition Toolbar"
 msgctxt "@title:menu"
-msgid "Partition Toolbar"
+msgid "Partition Manager Toolbar"
 msgstr "分割區工具列"
 
-#. i18n: ectx: ToolBar (deviceToolBar)
-#: gui/partitionmanagerui.rc:18
-#, kde-format
-msgctxt "@title:menu"
-msgid "Device Toolbar"
-msgstr "裝置工具列"
-
 #. i18n: ectx: Menu (device)
-#: gui/partitionmanagerui.rc:30
+#: gui/partitionmanagerui.rc:22
 #, kde-format
 msgctxt "@title:menu"
 msgid "Device"
 msgstr "裝置"
 
 #. i18n: ectx: Menu (selectedDevice)
-#: gui/partitionmanagerui.rc:32
+#: gui/partitionmanagerui.rc:24
 #, kde-format
 msgctxt "@title:menu"
 msgid "Select Current Device"
 msgstr "選擇目前的裝置"
 
 #. i18n: ectx: Menu (tools)
-#: gui/partitionmanagerui.rc:48
+#: gui/partitionmanagerui.rc:40
 #, kde-format
 msgctxt "@title:menu"
 msgid "Tools"
 msgstr "工具"
 
 #. i18n: ectx: Menu (partition)
-#: gui/partitionmanagerui.rc:55
+#: gui/partitionmanagerui.rc:47
 #, kde-format
 msgctxt "@title:menu"
 msgid "Partition"
 msgstr "分割區"
 
 #. i18n: ectx: Menu (panels)
-#: gui/partitionmanagerui.rc:77
+#: gui/partitionmanagerui.rc:69
 #, kde-format
 msgctxt "@title:menu"
 msgid "Panels Shown"
@@ -3390,3 +3378,11 @@ msgstr ""
 msgctxt "@title:menu"
 msgid "Columns"
 msgstr "欄"
+
+#~ msgctxt "@title:menu turn on and off edit toolbar"
+#~ msgid "Edit Toolbar"
+#~ msgstr "編輯工具列"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Device Toolbar"
+#~ msgstr "裝置工具列"

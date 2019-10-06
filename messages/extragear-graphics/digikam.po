@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-05 02:31+0200\n"
+"POT-Creation-Date: 2019-10-06 02:30+0200\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -32377,34 +32377,34 @@ msgstr "姓名："
 msgid "Usages:"
 msgstr "用途："
 
-#: core/libs/threadimageio/thumb/thumbnailcreator.cpp:237
+#: core/libs/threadimageio/thumb/thumbnailcreator.cpp:192
 #, kde-format
 msgid "No or invalid size specified"
 msgstr "未指定或指定了無效的大小"
 
-#: core/libs/threadimageio/thumb/thumbnailcreator.cpp:311
+#: core/libs/threadimageio/thumb/thumbnailcreator.cpp:266
 #, kde-format
 msgid "Thumbnail is null"
 msgstr "縮圖是空的"
 
-#: core/libs/threadimageio/thumb/thumbnailcreator.cpp:488
+#: core/libs/threadimageio/thumb/thumbnailcreator_engine.cpp:38
 #, fuzzy, kde-format
 #| msgid "The selected folder does not exist or is not readable"
 msgid "File does not exist or is not a file"
 msgstr "選擇的資料夾不存在或無法讀取"
 
-#: core/libs/threadimageio/thumb/thumbnailcreator.cpp:628
+#: core/libs/threadimageio/thumb/thumbnailcreator_engine.cpp:181
 #, kde-format
 msgid "Cannot create thumbnail for %1"
 msgstr "無法建立 %1 的縮圖"
 
-#: core/libs/threadimageio/thumb/thumbnailloadthread.cpp:222
+#: core/libs/threadimageio/thumb/thumbnailloadthread.cpp:165
 #, fuzzy, kde-format
 #| msgid "Failed to initialize thumbnail database"
 msgid "Failed to initialize thumbnails database"
 msgstr "初始化縮圖資料庫時失敗"
 
-#: core/libs/threadimageio/thumb/thumbnailloadthread.cpp:223
+#: core/libs/threadimageio/thumb/thumbnailloadthread.cpp:166
 #, kde-format
 msgid "Error message: %1"
 msgstr "錯誤訊息：%1"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplatoui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-05 02:28+0200\n"
+"POT-Creation-Date: 2019-10-06 02:27+0200\n"
 "PO-Revision-Date: 2011-12-26 08:35+0800\n"
 "Last-Translator: Franklin Weng <franklin@mail.everfocus.com.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
@@ -7409,7 +7409,7 @@ msgstr "第 %1 週"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: ui/kpttaskprogresspanelbase.ui:20 ui/kptworkpackagemergepanel.ui:63
-#: ui/RelationEditorDialog.ui:61
+#: ui/RelationEditorDialog.ui:58
 #, fuzzy, kde-format
 #| msgid "Task"
 msgid "Task:"
@@ -8148,14 +8148,8 @@ msgctxt "(qtundo-format)"
 msgid "Modify dependency"
 msgstr "變更工作相依性"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, KPlato::RelationEditorDialog)
-#: ui/RelationEditorDialog.ui:14
-#, kde-format
-msgid "Form"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QToolButton, addBtn)
-#: ui/RelationEditorDialog.ui:134
+#: ui/RelationEditorDialog.ui:131
 #, fuzzy, kde-format
 #| msgid "Per task"
 msgctxt "Insert task dependency"
