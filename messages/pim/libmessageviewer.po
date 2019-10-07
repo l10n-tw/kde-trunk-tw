@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-05 03:16+0200\n"
+"POT-Creation-Date: 2019-10-07 03:08+0200\n"
 "PO-Revision-Date: 2015-06-17 09:27+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -310,13 +310,13 @@ msgstr "未知的簽章狀態"
 msgid "End of signed message"
 msgstr "已簽署信件的尾端"
 
-#: dkim-verify/dkimchecksignaturejob.cpp:191
+#: dkim-verify/dkimchecksignaturejob.cpp:231
 #, fuzzy, kde-format
 #| msgid "The signature has expired."
 msgid "Signature Expired"
 msgstr "簽章已經過期。"
 
-#: dkim-verify/dkimchecksignaturejob.cpp:194
+#: dkim-verify/dkimchecksignaturejob.cpp:234
 #, kde-format
 msgid "Signature created in the future"
 msgstr ""
@@ -412,7 +412,7 @@ msgstr "列印模式"
 msgid "[vcard]"
 msgstr "[vcard]"
 
-#: header/grantleeheaderformatter.cpp:455 viewer/viewer_p.cpp:2438
+#: header/grantleeheaderformatter.cpp:455 viewer/viewer_p.cpp:2445
 #, kde-format
 msgid "Attachments:"
 msgstr "附加檔："
@@ -1069,7 +1069,7 @@ msgid ""
 msgstr "勾選此項目的話，已接收的邀請信函會在回覆成功送出後移到垃圾桶。"
 
 #. i18n: ectx: label, entry (UseFixedFont), group (Composer)
-#: settings/messageviewer.kcfg.cmake:229 viewer/viewer_p.cpp:1651
+#: settings/messageviewer.kcfg.cmake:229 viewer/viewer_p.cpp:1658
 #, kde-format
 msgid "Use Fi&xed Font"
 msgstr "使用固定寬度文字(&X)"
@@ -1421,7 +1421,7 @@ msgstr "大小"
 msgid "Turn on HTML rendering for this message."
 msgstr "顯示信件的 HTML 格式。"
 
-#: viewer/urlhandlermanager.cpp:436 viewer/viewer_p.cpp:1734
+#: viewer/urlhandlermanager.cpp:436 viewer/viewer_p.cpp:1741
 #, kde-format
 msgid "Load external references from the Internet for this message."
 msgstr "從網路上下載遠端連結。"
@@ -1504,7 +1504,7 @@ msgstr "開啟通訊錄(&O)"
 msgid "&Copy Email Address"
 msgstr "複製電子郵件地址(&C)"
 
-#: viewer/urlhandlermanager.cpp:645 viewer/viewer_p.cpp:2762
+#: viewer/urlhandlermanager.cpp:645 viewer/viewer_p.cpp:2769
 #, kde-format
 msgid "Address copied to clipboard."
 msgstr "信件位址已複製到剪貼簿。"
@@ -1560,350 +1560,350 @@ msgstr "執行"
 msgid "Loading message..."
 msgstr "載入信件中..."
 
-#: viewer/viewer_p.cpp:372
+#: viewer/viewer_p.cpp:376
 #, kde-format
 msgid ""
 "Deleting an attachment from an encrypted or old-style mailman message is not "
 "supported."
 msgstr "不支援從已加密或舊式 mailman 信件中刪除附件的功能。"
 
-#: viewer/viewer_p.cpp:373 viewer/viewer_p.cpp:380 viewer/viewer_p.cpp:616
+#: viewer/viewer_p.cpp:377 viewer/viewer_p.cpp:384 viewer/viewer_p.cpp:620
 #, kde-format
 msgid "Delete Attachment"
 msgstr "移除附件"
 
-#: viewer/viewer_p.cpp:379
+#: viewer/viewer_p.cpp:383
 #, kde-format
 msgid ""
 "Deleting an attachment might invalidate any digital signature on this "
 "message."
 msgstr "刪除附件可能造成此信件的簽章不正確。"
 
-#: viewer/viewer_p.cpp:465
+#: viewer/viewer_p.cpp:469
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "開啟方式(&O)"
 
-#: viewer/viewer_p.cpp:483
+#: viewer/viewer_p.cpp:487
 #, kde-format
 msgctxt "@action:inmenu Open With"
 msgid "&Other..."
 msgstr "其他(&O)..."
 
-#: viewer/viewer_p.cpp:485 viewer/viewer_p.cpp:499
+#: viewer/viewer_p.cpp:489 viewer/viewer_p.cpp:503
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "開啟方式(&O)..."
 
-#: viewer/viewer_p.cpp:562 viewer/viewer_p.cpp:1791
+#: viewer/viewer_p.cpp:566 viewer/viewer_p.cpp:1798
 #, kde-format
 msgctxt "to open"
 msgid "Open"
 msgstr "開啟"
 
-#: viewer/viewer_p.cpp:582 viewer/viewer_p.cpp:1801
+#: viewer/viewer_p.cpp:586 viewer/viewer_p.cpp:1808
 #, kde-format
 msgctxt "to view something"
 msgid "View"
 msgstr "檢視"
 
-#: viewer/viewer_p.cpp:590
+#: viewer/viewer_p.cpp:594
 #, kde-format
 msgid "Scroll To"
 msgstr "捲軸至"
 
-#: viewer/viewer_p.cpp:596
+#: viewer/viewer_p.cpp:600
 #, kde-format
 msgid "Save As..."
 msgstr "另存新檔..."
 
-#: viewer/viewer_p.cpp:602 viewer/viewer_p.cpp:1813
+#: viewer/viewer_p.cpp:606 viewer/viewer_p.cpp:1820
 #, kde-format
 msgid "Copy"
 msgstr "複製"
 
-#: viewer/viewer_p.cpp:627
+#: viewer/viewer_p.cpp:631
 #, fuzzy, kde-format
 #| msgid "Reply to A&uthor..."
 msgid "Reply To Author"
 msgstr "回覆給原作者(&U)..."
 
-#: viewer/viewer_p.cpp:635
+#: viewer/viewer_p.cpp:639
 #, fuzzy, kde-format
 #| msgctxt "Message->"
 #| msgid "Reply to All"
 msgid "Reply To All"
 msgstr "全部回覆"
 
-#: viewer/viewer_p.cpp:641 viewer/viewer_p.cpp:1819
+#: viewer/viewer_p.cpp:645 viewer/viewer_p.cpp:1826
 #, kde-format
 msgid "Properties"
 msgstr "屬性"
 
-#: viewer/viewer_p.cpp:804
+#: viewer/viewer_p.cpp:808
 #, kde-format
 msgid "KMail"
 msgstr "KMail"
 
-#: viewer/viewer_p.cpp:805
+#: viewer/viewer_p.cpp:809
 #, fuzzy, kde-format
 #| msgid "The KDE email client."
 msgid "The KDE Mail Client"
 msgstr "KDE 信件用戶端"
 
-#: viewer/viewer_p.cpp:1360
+#: viewer/viewer_p.cpp:1367
 #, kde-format
 msgid "View Attachment: %1"
 msgstr "檢視附件：%1"
 
-#: viewer/viewer_p.cpp:1563
+#: viewer/viewer_p.cpp:1570
 #, kde-format
 msgctxt "View->"
 msgid "&Attachments"
 msgstr "檢視附件(&A)"
 
-#: viewer/viewer_p.cpp:1565
+#: viewer/viewer_p.cpp:1572
 #, kde-format
 msgid "Choose display style of attachments"
 msgstr "選擇附件的顯示方式"
 
-#: viewer/viewer_p.cpp:1568
+#: viewer/viewer_p.cpp:1575
 #, kde-format
 msgctxt "View->attachments->"
 msgid "&As Icons"
 msgstr "圖示型附件(&A)"
 
-#: viewer/viewer_p.cpp:1571
+#: viewer/viewer_p.cpp:1578
 #, kde-format
 msgid "Show all attachments as icons. Click to see them."
 msgstr "附件以小圖示表示，點擊開啟。"
 
-#: viewer/viewer_p.cpp:1575
+#: viewer/viewer_p.cpp:1582
 #, kde-format
 msgctxt "View->attachments->"
 msgid "&Smart"
 msgstr "智慧型附件(&S)"
 
-#: viewer/viewer_p.cpp:1578
+#: viewer/viewer_p.cpp:1585
 #, kde-format
 msgid "Show attachments as suggested by sender."
 msgstr "附件以寄件者建議的方式表示"
 
-#: viewer/viewer_p.cpp:1582
+#: viewer/viewer_p.cpp:1589
 #, kde-format
 msgctxt "View->attachments->"
 msgid "&Inline"
 msgstr "內含式附件(&I)"
 
-#: viewer/viewer_p.cpp:1585
+#: viewer/viewer_p.cpp:1592
 #, kde-format
 msgid "Show all attachments inline (if possible)"
 msgstr "附件直接顯示在信件裡(如果可以的話)"
 
-#: viewer/viewer_p.cpp:1589
+#: viewer/viewer_p.cpp:1596
 #, kde-format
 msgctxt "View->attachments->"
 msgid "&Hide"
 msgstr "隱藏附件(&H)"
 
-#: viewer/viewer_p.cpp:1592
+#: viewer/viewer_p.cpp:1599
 #, kde-format
 msgid "Do not show attachments in the message viewer"
 msgstr "不在預覽信件時顯示附件"
 
-#: viewer/viewer_p.cpp:1597
+#: viewer/viewer_p.cpp:1604
 #, kde-format
 msgctxt "View->attachments->"
 msgid "In Header Only"
 msgstr "只在標頭顯示"
 
-#: viewer/viewer_p.cpp:1602
+#: viewer/viewer_p.cpp:1609
 #, kde-format
 msgid "Show Attachments only in the header of the mail"
 msgstr "只在信件的標頭顯示附件"
 
-#: viewer/viewer_p.cpp:1609
+#: viewer/viewer_p.cpp:1616
 #, kde-format
 msgid "&Set Encoding"
 msgstr "設定編碼(&S)"
 
-#: viewer/viewer_p.cpp:1615 widgets/configurewidget.cpp:58
+#: viewer/viewer_p.cpp:1622 widgets/configurewidget.cpp:58
 #: widgets/configurewidget.cpp:103
 #, kde-format
 msgid "Auto"
 msgstr "自動"
 
-#: viewer/viewer_p.cpp:1625
+#: viewer/viewer_p.cpp:1632
 #, fuzzy, kde-format
 #| msgid "&Copy To"
 msgid "Copy Text"
 msgstr "複製到(&C)"
 
-#: viewer/viewer_p.cpp:1633
+#: viewer/viewer_p.cpp:1640
 #, kde-format
 msgid "Select All Text"
 msgstr "選取所有文字"
 
-#: viewer/viewer_p.cpp:1640 viewer/viewer_p.cpp:2120
+#: viewer/viewer_p.cpp:1647 viewer/viewer_p.cpp:2127
 #, kde-format
 msgid "Copy Link Address"
 msgstr "複製連結位址"
 
-#: viewer/viewer_p.cpp:1646
+#: viewer/viewer_p.cpp:1653
 #, kde-format
 msgid "Open URL"
 msgstr "開啟 URL"
 
-#: viewer/viewer_p.cpp:1657
+#: viewer/viewer_p.cpp:1664
 #, kde-format
 msgid "Show Message Structure"
 msgstr "信件結構列表"
 
-#: viewer/viewer_p.cpp:1663
+#: viewer/viewer_p.cpp:1670
 #, kde-format
 msgid "&View Source"
 msgstr "檢視來源(&V)"
 
-#: viewer/viewer_p.cpp:1670
+#: viewer/viewer_p.cpp:1677
 #, kde-format
 msgid "&Save message..."
 msgstr "儲存信件(&S)..."
 
-#: viewer/viewer_p.cpp:1676
+#: viewer/viewer_p.cpp:1683
 #, kde-format
 msgid "&Save Display Format"
 msgstr "儲存顯示格式(&S)"
 
-#: viewer/viewer_p.cpp:1681
+#: viewer/viewer_p.cpp:1688
 #, kde-format
 msgid "&Reset Display Format"
 msgstr "重置顯示格式(&R)"
 
-#: viewer/viewer_p.cpp:1689
+#: viewer/viewer_p.cpp:1696
 #, kde-format
 msgid "Scroll Message Up"
 msgstr "將信件上捲"
 
-#: viewer/viewer_p.cpp:1695
+#: viewer/viewer_p.cpp:1702
 #, kde-format
 msgid "Scroll Message Down"
 msgstr "將信件下捲"
 
-#: viewer/viewer_p.cpp:1701
+#: viewer/viewer_p.cpp:1708
 #, kde-format
 msgid "Scroll Message Up (More)"
 msgstr "將信件上捲更多"
 
-#: viewer/viewer_p.cpp:1707
+#: viewer/viewer_p.cpp:1714
 #, kde-format
 msgid "Scroll Message Down (More)"
 msgstr "將信件下捲更多"
 
-#: viewer/viewer_p.cpp:1718
+#: viewer/viewer_p.cpp:1725
 #, kde-format
 msgid "Toggle HTML Display Mode"
 msgstr "切換 HTML 顯示模式"
 
-#: viewer/viewer_p.cpp:1724
+#: viewer/viewer_p.cpp:1731
 #, kde-format
 msgid "Toggle display mode between HTML and plain text"
 msgstr "在 HTML 與純文字顯示模式間切換"
 
-#: viewer/viewer_p.cpp:1727
+#: viewer/viewer_p.cpp:1734
 #, kde-format
 msgid "Load external references"
 msgstr "從遠端下載連結"
 
-#: viewer/viewer_p.cpp:1736 widgets/mailsourceviewtextbrowserwidget.cpp:158
+#: viewer/viewer_p.cpp:1743 widgets/mailsourceviewtextbrowserwidget.cpp:158
 #, kde-format
 msgid "Speak Text"
 msgstr "唸出文字"
 
-#: viewer/viewer_p.cpp:1742
+#: viewer/viewer_p.cpp:1749
 #, kde-format
 msgid "Copy Image Location"
 msgstr "複製影像位置"
 
-#: viewer/viewer_p.cpp:1751
+#: viewer/viewer_p.cpp:1758
 #, kde-format
 msgid "&Find in Message..."
 msgstr "在信件中尋找(&F)..."
 
-#: viewer/viewer_p.cpp:1761
+#: viewer/viewer_p.cpp:1768
 #, kde-format
 msgid "Disable Emoticon"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1786
+#: viewer/viewer_p.cpp:1793
 #, kde-format
 msgid "Save &As..."
 msgstr "另存新檔(&A)..."
 
-#: viewer/viewer_p.cpp:1798
+#: viewer/viewer_p.cpp:1805
 #, kde-format
 msgid "Open With..."
 msgstr "開啟用..."
 
-#: viewer/viewer_p.cpp:1806
+#: viewer/viewer_p.cpp:1813
 #, kde-format
 msgid "Save All Attachments..."
 msgstr "儲存所有附件..."
 
-#: viewer/viewer_p.cpp:2038
+#: viewer/viewer_p.cpp:2045
 #, kde-format
 msgid "The network is broken."
 msgstr ""
 
-#: viewer/viewer_p.cpp:2038 viewer/viewer_p.cpp:2042
+#: viewer/viewer_p.cpp:2045 viewer/viewer_p.cpp:2049
 #, kde-format
 msgid "Check Phishing URL"
 msgstr ""
 
-#: viewer/viewer_p.cpp:2041
+#: viewer/viewer_p.cpp:2048
 #, fuzzy, kde-format
 #| msgid "Grantlee theme \"%1\" is not valid."
 msgid "The URL %1 is not valid."
 msgstr "Grantlee 主題 %1 不合法。"
 
-#: viewer/viewer_p.cpp:2063
+#: viewer/viewer_p.cpp:2070
 #, kde-format
 msgid "This web site is a malware, do you want to continue to show it?"
 msgstr ""
 
-#: viewer/viewer_p.cpp:2064
+#: viewer/viewer_p.cpp:2071
 #, kde-format
 msgid "Malware"
 msgstr ""
 
-#: viewer/viewer_p.cpp:2118
+#: viewer/viewer_p.cpp:2125
 #, kde-format
 msgid "Copy Email Address"
 msgstr "複製電子郵件地址"
 
-#: viewer/viewer_p.cpp:2212
+#: viewer/viewer_p.cpp:2219
 #, kde-format
 msgid "Message as Plain Text"
 msgstr "純文字信件"
 
-#: viewer/viewer_p.cpp:2393
+#: viewer/viewer_p.cpp:2400
 #, fuzzy, kde-format
 #| msgid "Documentation"
 msgid "Print Document"
 msgstr "文件"
 
-#: viewer/viewer_p.cpp:2768
+#: viewer/viewer_p.cpp:2775
 #, kde-format
 msgid "URL copied to clipboard."
 msgstr "URL 已複製到剪貼簿。"
 
-#: viewer/viewer_p.cpp:2918
+#: viewer/viewer_p.cpp:2925
 #, kde-format
 msgid "Message loading failed: %1."
 msgstr "信件載入失敗：%1。"
 
-#: viewer/viewer_p.cpp:2923
+#: viewer/viewer_p.cpp:2930
 #, kde-format
 msgid "Message not found."
 msgstr "找不到信件。"

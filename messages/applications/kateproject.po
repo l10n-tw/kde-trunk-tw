@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-04 02:27+0200\n"
+"POT-Creation-Date: 2019-10-07 02:28+0200\n"
 "PO-Revision-Date: 2019-09-28 15:07+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.08.1\n"
 
-#: kateproject.cpp:343
+#: kateproject.cpp:381
 #, kde-format
 msgid "<untracked>"
 msgstr "<未追蹤>"
@@ -29,13 +29,13 @@ msgstr "<未追蹤>"
 msgid "Project Completion"
 msgstr "專案補完"
 
-#: kateprojectconfigpage.cpp:36
+#: kateprojectconfigpage.cpp:37
 #, kde-format
 msgctxt "Groupbox title"
 msgid "Autoload Repositories"
 msgstr "自動載入資料庫"
 
-#: kateprojectconfigpage.cpp:38
+#: kateprojectconfigpage.cpp:39
 #, kde-format
 msgid ""
 "Project plugin is able to autoload repository working copies when there is "
@@ -44,27 +44,44 @@ msgstr ""
 "專案外掛程式可以在 .kateproject 檔尚未定義的狀況下，自動載入主目錄的工作複"
 "本。"
 
-#: kateprojectconfigpage.cpp:41
+#: kateprojectconfigpage.cpp:42
 #, kde-format
 msgid "&Git"
 msgstr "Git(&G)"
 
-#: kateprojectconfigpage.cpp:44
+#: kateprojectconfigpage.cpp:45
 #, kde-format
 msgid "&Subversion"
 msgstr "Subversion(&S)"
 
-#: kateprojectconfigpage.cpp:46
+#: kateprojectconfigpage.cpp:47
 #, kde-format
 msgid "&Mercurial"
 msgstr "Mercurial(&M)"
 
-#: kateprojectconfigpage.cpp:64 kateprojectpluginview.cpp:62
+#: kateprojectconfigpage.cpp:56
+#, fuzzy, kde-format
+#| msgid "Project"
+msgctxt "Groupbox title"
+msgid "Project Index"
+msgstr "專案"
+
+#: kateprojectconfigpage.cpp:57
+#, kde-format
+msgid "Project ctags index settings"
+msgstr ""
+
+#: kateprojectconfigpage.cpp:58
+#, kde-format
+msgid "Enable indexing"
+msgstr ""
+
+#: kateprojectconfigpage.cpp:84 kateprojectpluginview.cpp:62
 #, kde-format
 msgid "Projects"
 msgstr "專案"
 
-#: kateprojectconfigpage.cpp:69
+#: kateprojectconfigpage.cpp:89
 #, kde-format
 msgctxt "Groupbox title"
 msgid "Projects Properties"
@@ -168,12 +185,12 @@ msgid ""
 "file."
 msgstr "未啟用索引。請新增「\"index\": true」到你的 .kateproject 檔案。"
 
-#: kateprojectplugin.cpp:380
+#: kateprojectplugin.cpp:404
 #, kde-format
 msgid "Full path to current project excluding the file name."
 msgstr ""
 
-#: kateprojectplugin.cpp:396
+#: kateprojectplugin.cpp:419
 #, kde-format
 msgid ""
 "Full path to current project excluding the file name, with native path "

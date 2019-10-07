@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-02 03:35+0200\n"
+"POT-Creation-Date: 2019-10-07 03:17+0200\n"
 "PO-Revision-Date: 2019-07-09 14:10+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -53,14 +53,14 @@ msgctxt "@action:inmenu Global shortcut"
 msgid "Decrease Screen Brightness"
 msgstr "遞減螢幕亮度"
 
-#: actions/bundled/brightnesscontrolconfig.cpp:71
+#: actions/bundled/brightnesscontrolconfig.cpp:70
 #, kde-format
 msgctxt "Brightness level, label for the slider"
 msgid "Level"
 msgstr "等級"
 
 #: actions/bundled/dimdisplayconfig.cpp:64
-#: actions/bundled/runscriptconfig.cpp:83
+#: actions/bundled/runscriptconfig.cpp:82
 #: actions/bundled/suspendsessionconfig.cpp:86
 #: actions/dpms/powerdevildpmsactionconfig.cpp:60
 #, kde-format
@@ -68,8 +68,8 @@ msgid " min"
 msgstr " 分鐘"
 
 #: actions/bundled/dimdisplayconfig.cpp:74
-#: actions/bundled/runscriptconfig.cpp:86
-#: actions/bundled/runscriptconfig.cpp:107
+#: actions/bundled/runscriptconfig.cpp:85
+#: actions/bundled/runscriptconfig.cpp:106
 #, kde-format
 msgid "After"
 msgstr "多久之後："
@@ -178,22 +178,22 @@ msgctxt "@label:slider Brightness level"
 msgid "Level"
 msgstr "等級"
 
-#: actions/bundled/runscriptconfig.cpp:72
+#: actions/bundled/runscriptconfig.cpp:71
 #, kde-format
 msgid "Script"
 msgstr "文稿"
 
-#: actions/bundled/runscriptconfig.cpp:84
+#: actions/bundled/runscriptconfig.cpp:83
 #, kde-format
 msgid "On Profile Load"
 msgstr "設定檔載入時"
 
-#: actions/bundled/runscriptconfig.cpp:85
+#: actions/bundled/runscriptconfig.cpp:84
 #, kde-format
 msgid "On Profile Unload"
 msgstr "設定檔卸載時"
 
-#: actions/bundled/runscriptconfig.cpp:96
+#: actions/bundled/runscriptconfig.cpp:95
 #, kde-format
 msgid "Run script"
 msgstr "執行文稿"

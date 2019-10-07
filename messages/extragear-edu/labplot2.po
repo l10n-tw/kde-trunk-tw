@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-06 02:29+0200\n"
+"POT-Creation-Date: 2019-10-07 02:33+0200\n"
 "PO-Revision-Date: 2014-03-25 11:30+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -37,7 +37,7 @@ msgstr ""
 #: src/backend/datapicker/DatapickerCurve.cpp:496
 #: src/backend/datapicker/DatapickerImage.cpp:523
 #: src/backend/datapicker/DatapickerPoint.cpp:497
-#: src/backend/datasources/filters/AsciiFilter.cpp:1692
+#: src/backend/datasources/filters/AsciiFilter.cpp:1698
 #: src/backend/datasources/filters/BinaryFilter.cpp:554
 #: src/backend/datasources/filters/JsonFilter.cpp:771
 #: src/backend/datasources/filters/ROOTFilter.cpp:141
@@ -952,7 +952,7 @@ msgstr "行數："
 
 #: src/backend/datasources/filters/AsciiFilter.cpp:583
 #: src/backend/datasources/filters/AsciiFilter.cpp:717
-#: src/backend/datasources/filters/AsciiFilter.cpp:1462
+#: src/backend/datasources/filters/AsciiFilter.cpp:1467
 #: src/backend/datasources/filters/BinaryFilter.cpp:310
 #: src/backend/datasources/filters/BinaryFilter.cpp:425
 #: src/backend/nsl/nsl_dft.c:39 src/backend/nsl/nsl_filter.c:41
@@ -963,7 +963,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lValue)
 #: src/backend/datasources/filters/AsciiFilter.cpp:717
 #: src/backend/datasources/filters/AsciiFilter.cpp:721
-#: src/backend/datasources/filters/AsciiFilter.cpp:1464
+#: src/backend/datasources/filters/AsciiFilter.cpp:1469
 #: src/commonfrontend/matrix/MatrixView.cpp:623
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1692
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1709
@@ -975,19 +975,19 @@ msgstr ""
 msgid "Value"
 msgstr "數值"
 
-#: src/backend/datasources/filters/AsciiFilter.cpp:1768
+#: src/backend/datasources/filters/AsciiFilter.cpp:1774
 #: src/backend/datasources/filters/JsonFilter.cpp:286
 #, kde-format
 msgid "index"
 msgstr ""
 
-#: src/backend/datasources/filters/AsciiFilter.cpp:1774
+#: src/backend/datasources/filters/AsciiFilter.cpp:1780
 #: src/backend/datasources/filters/JsonFilter.cpp:294
 #, kde-format
 msgid "timestamp"
 msgstr ""
 
-#: src/backend/datasources/filters/AsciiFilter.cpp:1786
+#: src/backend/datasources/filters/AsciiFilter.cpp:1792
 #, fuzzy, kde-format
 msgid "value %1"
 msgstr "數值"
@@ -1013,8 +1013,8 @@ msgstr "影像"
 msgid "Tables: %1"
 msgstr "可讀取："
 
-#: src/backend/datasources/filters/FITSFilter.cpp:1012
-#: src/backend/datasources/filters/FITSFilter.cpp:1535
+#: src/backend/datasources/filters/FITSFilter.cpp:1011
+#: src/backend/datasources/filters/FITSFilter.cpp:1534
 #: src/kdefrontend/datasources/FITSOptionsWidget.cpp:58
 #: src/kdefrontend/datasources/FITSOptionsWidget.cpp:93
 #: src/kdefrontend/datasources/FITSOptionsWidget.cpp:164
@@ -1022,27 +1022,27 @@ msgstr "可讀取："
 msgid "Primary header"
 msgstr ""
 
-#: src/backend/datasources/filters/FITSFilter.cpp:1014
+#: src/backend/datasources/filters/FITSFilter.cpp:1013
 #, kde-format
 msgid "IMAGE #%1"
 msgstr ""
 
-#: src/backend/datasources/filters/FITSFilter.cpp:1017
+#: src/backend/datasources/filters/FITSFilter.cpp:1016
 #, kde-format
 msgid "ASCII_TBL #%1"
 msgstr ""
 
-#: src/backend/datasources/filters/FITSFilter.cpp:1020
+#: src/backend/datasources/filters/FITSFilter.cpp:1019
 #, kde-format
 msgid "BINARY_TBL #%1"
 msgstr ""
 
-#: src/backend/datasources/filters/FITSFilter.cpp:1528
+#: src/backend/datasources/filters/FITSFilter.cpp:1527
 #, kde-format
 msgid "Images"
 msgstr "影像"
 
-#: src/backend/datasources/filters/FITSFilter.cpp:1554
+#: src/backend/datasources/filters/FITSFilter.cpp:1553
 #, fuzzy, kde-format
 #| msgid "Variance"
 msgid "Tables"
@@ -5522,7 +5522,7 @@ msgstr "可見"
 #: src/backend/worksheet/plots/cartesian/Axis.cpp:234
 #: src/kdefrontend/dockwidgets/AxisDock.cpp:217
 #: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:310
-#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1187
+#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1191
 #: src/kdefrontend/dockwidgets/HistogramDock.cpp:213
 #, kde-format
 msgid "Horizontal"
@@ -5535,7 +5535,7 @@ msgstr "水平"
 #: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:311
 #: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:419
 #: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:423
-#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1188
+#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1192
 #: src/kdefrontend/dockwidgets/HistogramDock.cpp:212
 #, kde-format
 msgid "Vertical"
@@ -9724,7 +9724,7 @@ msgstr "初始大小"
 #: src/kdefrontend/dockwidgets/AxisDock.cpp:493
 #: src/kdefrontend/dockwidgets/AxisDock.cpp:495
 #: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:314
-#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1191
+#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1195
 #: src/kdefrontend/dockwidgets/CartesianPlotLegendDock.cpp:263
 #: src/kdefrontend/SettingsGeneralPage.cpp:102
 #: src/kdefrontend/widgets/LabelWidget.cpp:96
@@ -9797,7 +9797,7 @@ msgstr ""
 #: src/kdefrontend/dockwidgets/AxisDock.cpp:504
 #: src/kdefrontend/dockwidgets/AxisDock.cpp:507
 #: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:313
-#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1190
+#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1194
 #: src/kdefrontend/dockwidgets/CartesianPlotLegendDock.cpp:259
 #: src/kdefrontend/dockwidgets/HistogramDock.cpp:262
 #: src/kdefrontend/dockwidgets/XYCurveDock.cpp:410
@@ -9931,7 +9931,7 @@ msgid "%1 axes: template \"%2\" loaded"
 msgstr ""
 
 #: src/kdefrontend/dockwidgets/AxisDock.cpp:1991
-#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1554
+#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1558
 #: src/kdefrontend/dockwidgets/CartesianPlotLegendDock.cpp:955
 #: src/kdefrontend/dockwidgets/CustomPointDock.cpp:456
 #: src/kdefrontend/dockwidgets/HistogramDock.cpp:1686
@@ -10191,9 +10191,9 @@ msgstr "置中鋪排"
 #. i18n: ectx: property (text), widget (QLabel, lFontColor)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. i18n: ectx: property (text), widget (QLabel, lDropLineColor)
-#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:959
-#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:983
-#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1011
+#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:963
+#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:987
+#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1015
 #: src/kdefrontend/dockwidgets/CartesianPlotLegendDock.cpp:408
 #: src/kdefrontend/dockwidgets/CartesianPlotLegendDock.cpp:432
 #: src/kdefrontend/dockwidgets/CartesianPlotLegendDock.cpp:460
@@ -10248,8 +10248,8 @@ msgstr "顏色"
 #. i18n: ectx: property (text), widget (QLabel, lFillingFirstColor)
 #. i18n: ectx: property (text), widget (QLabel, lBoxFillingFirstColor)
 #. i18n: ectx: property (text), widget (QLabel, lBackgroundFirstColor)
-#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:963
-#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1015
+#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:967
+#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1019
 #: src/kdefrontend/dockwidgets/CartesianPlotLegendDock.cpp:412
 #: src/kdefrontend/dockwidgets/CartesianPlotLegendDock.cpp:464
 #: src/kdefrontend/dockwidgets/HistogramDock.cpp:1099
@@ -10268,7 +10268,7 @@ msgstr "顏色"
 msgid "First color:"
 msgstr "第一色彩"
 
-#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1078
+#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1082
 #: src/kdefrontend/dockwidgets/CartesianPlotLegendDock.cpp:527
 #: src/kdefrontend/dockwidgets/HistogramDock.cpp:1309
 #: src/kdefrontend/dockwidgets/WorksheetDock.cpp:675
@@ -10278,7 +10278,7 @@ msgstr "第一色彩"
 msgid "Select the image file"
 msgstr ""
 
-#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1078
+#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1082
 #: src/kdefrontend/dockwidgets/CartesianPlotLegendDock.cpp:527
 #: src/kdefrontend/dockwidgets/HistogramDock.cpp:1309
 #: src/kdefrontend/dockwidgets/WorksheetDock.cpp:675
@@ -10289,7 +10289,7 @@ msgstr ""
 msgid "Images (%1)"
 msgstr "影像"
 
-#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1552
+#: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:1556
 #, kde-format
 msgid "%1 cartesian plots: template \"%2\" loaded"
 msgstr ""
