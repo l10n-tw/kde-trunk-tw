@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:15+0200\n"
+"POT-Creation-Date: 2019-10-08 03:10+0200\n"
 "PO-Revision-Date: 2019-03-22 00:33+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -16,6 +16,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 18.12.3\n"
+
+#: dkim-verify/dkimconfiguretab.cpp:48
+#, kde-format
+msgid "General"
+msgstr ""
+
+#: dkim-verify/dkimgeneralwidget.cpp:35
+#, fuzzy, kde-format
+#| msgid "Enable Gravatar Support"
+msgid "Enable DKIM Support"
+msgstr "啟用大頭貼支援"
+
+#: dkim-verify/dkimgeneralwidget.cpp:40
+#, kde-format
+msgid "Save DKIM Result"
+msgstr ""
+
+#: dkim-verify/dkimgeneralwidget.cpp:45
+#, kde-format
+msgid "Save Key"
+msgstr ""
 
 #: gravatar/gravatarconfiguresettingsplugindialog.cpp:27
 #, kde-format

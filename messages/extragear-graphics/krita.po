@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-06 02:32+0200\n"
+"POT-Creation-Date: 2019-10-08 02:32+0200\n"
 "PO-Revision-Date: 2019-10-02 16:00+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -8475,7 +8475,7 @@ msgstr "取消選擇"
 
 #: libs/image/commands/kis_image_layer_add_command.cpp:32
 #: libs/image/commands/kis_image_layer_add_command.cpp:48
-#: libs/ui/kis_layer_manager.cc:668
+#: libs/ui/kis_layer_manager.cc:660
 msgctxt "(qtundo-format)"
 msgid "Add Layer"
 msgstr "新增圖層"
@@ -11865,7 +11865,7 @@ msgstr "選擇背景影像"
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:131
 #: libs/ui/input/kis_tablet_debugger.cpp:103 libs/ui/kis_filter_manager.cc:226
 #: libs/ui/kis_filter_manager.cc:235 libs/ui/kis_layer_manager.cc:326
-#: libs/ui/kis_layer_manager.cc:961 libs/ui/kis_node_manager.cpp:1132
+#: libs/ui/kis_layer_manager.cc:953 libs/ui/kis_node_manager.cpp:1132
 #: libs/ui/kis_node_manager.cpp:1188 libs/ui/KisApplication.cpp:792
 #: libs/ui/KisApplication.cpp:795 libs/ui/KisApplication.cpp:820
 #: libs/ui/KisApplication.cpp:846 libs/ui/KisApplication.cpp:867
@@ -16653,7 +16653,7 @@ msgstr "填充圖層屬性"
 msgid "File Layer Properties"
 msgstr "檔案圖層屬性"
 
-#: libs/ui/kis_layer_manager.cc:326 libs/ui/kis_layer_manager.cc:961
+#: libs/ui/kis_layer_manager.cc:326 libs/ui/kis_layer_manager.cc:953
 #, kde-format
 msgid "No file name specified"
 msgstr "未指定檔案名"
@@ -16685,23 +16685,23 @@ msgid ""
 "will then reference this location."
 msgstr "選擇圖層儲存的位置。新檔案圖層將在此後將引用此位置的資料。"
 
-#: libs/ui/kis_layer_manager.cc:562
+#: libs/ui/kis_layer_manager.cc:554
 msgctxt "(qtundo-format)"
 msgid "Convert to a file layer"
 msgstr "轉成檔案圖層"
 
-#: libs/ui/kis_layer_manager.cc:675
+#: libs/ui/kis_layer_manager.cc:667
 #, kde-format
 msgid "New Filter Layer"
 msgstr "建立濾鏡圖層"
 
-#: libs/ui/kis_layer_manager.cc:742
+#: libs/ui/kis_layer_manager.cc:734
 #, kde-format
 msgctxt "@title:window"
 msgid "Flatten Image"
 msgstr "平整影像"
 
-#: libs/ui/kis_layer_manager.cc:743
+#: libs/ui/kis_layer_manager.cc:735
 #, kde-format
 msgid ""
 "The image contains hidden layers that will be lost. Do you want to flatten "
@@ -16709,23 +16709,23 @@ msgid ""
 msgstr ""
 "此影像包含已隱藏的圖層，這些圖層將不會在平整後被保留，確定要平整影像嗎？"
 
-#: libs/ui/kis_layer_manager.cc:824
+#: libs/ui/kis_layer_manager.cc:816
 #, kde-format
 msgctxt "floating message in layer manager"
 msgid "Layer is locked "
 msgstr "圖層已鎖定 "
 
-#: libs/ui/kis_layer_manager.cc:870
+#: libs/ui/kis_layer_manager.cc:862
 msgctxt "(qtundo-format)"
 msgid "Rasterize Layer"
 msgstr "柵格化圖層"
 
-#: libs/ui/kis_layer_manager.cc:909
+#: libs/ui/kis_layer_manager.cc:901
 #, kde-format
 msgid "Convert Invisible Groups"
 msgstr "轉換不可見分組"
 
-#: libs/ui/kis_layer_manager.cc:912
+#: libs/ui/kis_layer_manager.cc:904
 #, kde-format
 msgid "Export Only Toplevel Groups"
 msgstr "僅匯出最頂層圖層分組"

@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-04 02:27+0200\n"
+"POT-Creation-Date: 2019-10-08 02:24+0200\n"
 "PO-Revision-Date: 2019-09-30 18:36+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -287,7 +287,7 @@ msgid ""
 "<emphasis>Cut</emphasis> action they are removed from their old location."
 msgstr ""
 
-#: dolphinmainwindow.cpp:1291 search/dolphinsearchbox.cpp:359
+#: dolphinmainwindow.cpp:1291 search/dolphinsearchbox.cpp:363
 #, kde-format
 msgid "Search..."
 msgstr "搜尋…"
@@ -1185,7 +1185,7 @@ msgstr ""
 msgid "Running Dolphin as root can be dangerous. Please be careful."
 msgstr "以管理員權限執行 Dolphin 可能有危險性，請小心使用。"
 
-#: dolphinviewcontainer.cpp:431 search/dolphinsearchbox.cpp:307
+#: dolphinviewcontainer.cpp:431 search/dolphinsearchbox.cpp:311
 #, kde-format
 msgid "Search for %1 in %2"
 msgstr "在 %2 中搜尋 %1"
@@ -2302,66 +2302,66 @@ msgctxt "@option:option"
 msgid "Highest Rating"
 msgstr "最高分"
 
-#: search/dolphinsearchbox.cpp:103
+#: search/dolphinsearchbox.cpp:107
 #, kde-format
 msgctxt "action:button"
 msgid "From Here (%1)"
 msgstr "從這裡（%1）"
 
-#: search/dolphinsearchbox.cpp:104
+#: search/dolphinsearchbox.cpp:108
 #, kde-format
 msgctxt "action:button"
 msgid "Limit search to '%1' and its subfolders"
 msgstr "將搜尋限制至「%1」與其子目錄"
 
-#: search/dolphinsearchbox.cpp:354
+#: search/dolphinsearchbox.cpp:358
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Quit searching"
 msgstr "離開搜尋"
 
-#: search/dolphinsearchbox.cpp:372
+#: search/dolphinsearchbox.cpp:376
 #, kde-format
 msgctxt "action:button"
 msgid "Save this search to quickly access it again in the future"
 msgstr "儲存此搜尋條件以供將來快速尋找"
 
-#: search/dolphinsearchbox.cpp:385
+#: search/dolphinsearchbox.cpp:389
 #, kde-format
 msgctxt "action:button"
 msgid "Filename"
 msgstr "檔案名稱"
 
-#: search/dolphinsearchbox.cpp:389
+#: search/dolphinsearchbox.cpp:393
 #, kde-format
 msgctxt "action:button"
 msgid "Content"
 msgstr "內容"
 
-#: search/dolphinsearchbox.cpp:400
+#: search/dolphinsearchbox.cpp:404
 #, kde-format
 msgctxt "action:button"
 msgid "From Here"
 msgstr "從這裡"
 
-#: search/dolphinsearchbox.cpp:404
+#: search/dolphinsearchbox.cpp:408
 #, kde-format
 msgctxt "action:button"
 msgid "Your files"
 msgstr "您的檔案"
 
-#: search/dolphinsearchbox.cpp:405
+#: search/dolphinsearchbox.cpp:409
 #, kde-format
 msgctxt "action:button"
 msgid "Search in your home directory"
 msgstr "在家目錄中搜尋"
 
-#: search/dolphinsearchbox.cpp:419
+#: search/dolphinsearchbox.cpp:423
 #, kde-format
 msgid "More Search Tools"
 msgstr "更多搜尋工具"
 
-#: search/dolphinsearchbox.cpp:511
+#: search/dolphinsearchbox.cpp:515
 #, kde-format
 msgctxt ""
 "@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
@@ -2369,13 +2369,13 @@ msgctxt ""
 msgid "Query Results from '%1'"
 msgstr "從 %1 得到的查詢結果"
 
-#: search/dolphinsearchbox.cpp:562
+#: search/dolphinsearchbox.cpp:566
 #, kde-format
 msgctxt "action:button"
 msgid "Fewer Options"
 msgstr "較少選項"
 
-#: search/dolphinsearchbox.cpp:562
+#: search/dolphinsearchbox.cpp:566
 #, kde-format
 msgctxt "action:button"
 msgid "More Options"
