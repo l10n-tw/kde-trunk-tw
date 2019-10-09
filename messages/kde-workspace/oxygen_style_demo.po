@@ -1,24 +1,25 @@
 # translation of kstyle_config.po to Chinese Traditional
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
+#
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012, 2013, 2014.
 # Jeff Huang <s8321414@gmail.com>, 2017.
-#
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009, 2010.
+# pan93412 <pan93412@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstyle_config\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-10-05 03:25+0200\n"
-"PO-Revision-Date: 2017-06-29 21:09+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2019-10-09 20:43+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.08.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: main.cpp:58 oxygendemodialog.cpp:56 oxygendemodialog.cpp:220
@@ -527,18 +528,18 @@ msgstr "框架"
 
 #. i18n: ectx: property (text), widget (QRadioButton, raisedFrameRadioButton)
 #: ui/oxygenframedemowidget.ui:104
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Raised"
 msgid "&Raised"
-msgstr "抬升"
+msgstr "抬升(&R)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, plainFrameRadioButton)
 #: ui/oxygenframedemowidget.ui:117
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Flat"
 msgctxt "Flat frame. No frame is actually drawn."
 msgid "&Flat"
-msgstr "平面"
+msgstr "平面(&F)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, sunkenFrameRadioButton)
 #: ui/oxygenframedemowidget.ui:124

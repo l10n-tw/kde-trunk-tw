@@ -1,529 +1,527 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# pan93412 <pan93412@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-10-09 03:00+0200\n"
-"PO-Revision-Date: 2016-09-22 20:30+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
+"PO-Revision-Date: 2019-10-09 22:27+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: Traditional Chinese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Generator: Lokalize 19.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "pan93412"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "pan93412@gmail.com"
 
 #: android/AlbumsView.qml:36 models/viewsmodel.cpp:48
 #, kde-format
 msgctxt "Title of the view of all albums"
 msgid "Albums"
-msgstr ""
+msgstr "專輯"
 
 #: android/ArtistsView.qml:36 models/viewsmodel.cpp:49
 #, kde-format
 msgctxt "Title of the view of all artists"
 msgid "Artists"
-msgstr ""
+msgstr "藝人"
 
 #: android/ElisaMainWindow.qml:33 android/ElisaMainWindow.qml:41 main.cpp:115
 #: qml/ElisaMainWindow.qml:42
 #, kde-format
 msgid "Elisa"
-msgstr ""
+msgstr "Elisa"
 
 #: android/ElisaMainWindow.qml:83
 #, kde-format
 msgctxt "message of passive notification when playlist load failed"
 msgid "Load of playlist failed"
-msgstr ""
+msgstr "載入播放清單失敗"
 
 #: android/GenresView.qml:36 models/viewsmodel.cpp:51
 #, kde-format
 msgctxt "Title of the view of all genres"
 msgid "Genres"
-msgstr ""
+msgstr "曲風"
 
 #: android/TracksView.qml:36 models/viewsmodel.cpp:50
 #, kde-format
 msgctxt "Title of the view of all tracks"
 msgid "Tracks"
-msgstr ""
+msgstr "音軌"
 
 #: databaseinterface.cpp:6353 databaseinterface.cpp:7371
 #: databaseinterface.cpp:7421
 #, kde-format
 msgid "Various Artists"
-msgstr ""
+msgstr "多名藝人"
 
 #: databaseinterface.cpp:6419
 #, kde-format
 msgid "Radios"
-msgstr ""
+msgstr "廣播"
 
 #: main.cpp:117
 #, kde-format
 msgid "A Simple Music Player written with KDE Frameworks"
-msgstr ""
+msgstr "使用 KDE Frameworks 撰寫而成的簡易音樂播放器"
 
 #: main.cpp:119
 #, kde-format
 msgid "(c) 2015-2019, Elisa contributors"
-msgstr ""
+msgstr "(c) 2015-2019, Elisa 貢獻群"
 
 #: main.cpp:121
 #, kde-format
 msgid "Creator"
-msgstr ""
+msgstr "建立者"
 
 #: main.cpp:122
 #, kde-format
 msgid "Author"
-msgstr ""
+msgstr "作者"
 
 #: main.cpp:124
 #, kde-format
 msgid "Concept and design work"
-msgstr ""
+msgstr "概念及設計工作"
 
 #: main.cpp:125
 #, kde-format
 msgid "Localization support"
-msgstr ""
+msgstr "本地化支援"
 
 #: main.cpp:126
 #, kde-format
 msgid "Right to left support in interface"
-msgstr ""
+msgstr "在介面支援右至左文字 (RTL)"
 
 #: main.cpp:127
 #, kde-format
 msgid "Various improvements to the interface"
-msgstr ""
+msgstr "各種介面改良"
 
 #: models/trackmetadatamodel.cpp:109
 #, kde-format
 msgctxt "Track title for track metadata view"
 msgid "Title"
-msgstr ""
+msgstr "標題"
 
 #: models/trackmetadatamodel.cpp:112
 #, kde-format
 msgctxt "Duration label for track metadata view"
 msgid "Duration"
-msgstr ""
+msgstr "長度"
 
 #: models/trackmetadatamodel.cpp:115
 #, kde-format
 msgctxt "Track artist for track metadata view"
 msgid "Artist"
-msgstr ""
+msgstr "藝人"
 
 #: models/trackmetadatamodel.cpp:118
 #, kde-format
 msgctxt "Album name for track metadata view"
 msgid "Album"
-msgstr ""
+msgstr "專輯"
 
 #: models/trackmetadatamodel.cpp:121
 #, kde-format
 msgctxt "Album artist for track metadata view"
 msgid "Album Artist"
-msgstr ""
+msgstr "專輯作曲者"
 
 #: models/trackmetadatamodel.cpp:124
 #, kde-format
 msgctxt "Track number for track metadata view"
 msgid "Track Number"
-msgstr ""
+msgstr "音軌號碼"
 
 #: models/trackmetadatamodel.cpp:127
 #, kde-format
 msgctxt "Disc number for track metadata view"
 msgid "Disc Number"
-msgstr ""
+msgstr "光碟號碼"
 
 #: models/trackmetadatamodel.cpp:130
 #, kde-format
 msgctxt "Rating label for information panel"
 msgid "Rating"
-msgstr ""
+msgstr "評分"
 
 #: models/trackmetadatamodel.cpp:133
 #, kde-format
 msgctxt "Genre label for track metadata view"
 msgid "Genre"
-msgstr ""
+msgstr "曲風"
 
 #: models/trackmetadatamodel.cpp:136
 #, kde-format
 msgctxt "Lyricist label for track metadata view"
 msgid "Lyricist"
-msgstr ""
+msgstr "作詞者"
 
 #: models/trackmetadatamodel.cpp:139
 #, kde-format
 msgctxt "Composer name for track metadata view"
 msgid "Composer"
-msgstr ""
+msgstr "作曲者"
 
 #: models/trackmetadatamodel.cpp:142
 #, kde-format
 msgctxt "Comment label for track metadata view"
 msgid "Comment"
-msgstr ""
+msgstr "備註"
 
 #: models/trackmetadatamodel.cpp:145
 #, kde-format
 msgctxt "Year label for track metadata view"
 msgid "Year"
-msgstr ""
+msgstr "年份"
 
 #: models/trackmetadatamodel.cpp:148
 #, kde-format
 msgctxt "Channels label for track metadata view"
 msgid "Channels"
-msgstr ""
+msgstr "頻道"
 
 #: models/trackmetadatamodel.cpp:151
 #, kde-format
 msgctxt "Bit rate label for track metadata view"
 msgid "Bit Rate"
-msgstr ""
+msgstr "位元速率"
 
 #: models/trackmetadatamodel.cpp:154
 #, kde-format
 msgctxt "Sample Rate label for track metadata view"
 msgid "Sample Rate"
-msgstr ""
+msgstr "採樣率"
 
 #: models/trackmetadatamodel.cpp:157
 #, kde-format
 msgctxt "Last play date label for track metadata view"
 msgid "Last played"
-msgstr ""
+msgstr "上次播放時間"
 
 #: models/trackmetadatamodel.cpp:160
 #, kde-format
 msgctxt "Play counter label for track metadata view"
 msgid "Play count"
-msgstr ""
+msgstr "播放次數"
 
 #: models/trackmetadatamodel.cpp:163
 #, kde-format
 msgctxt "Lyrics label for track metadata view"
 msgid "Lyrics"
-msgstr ""
+msgstr "歌詞"
 
 #: models/trackmetadatamodel.cpp:166
 #, kde-format
 msgctxt "Radio HTTP address for radio metadata view"
 msgid "Stream Http Address"
-msgstr ""
+msgstr "HTTP 串流位址"
 
 #: models/viewsmodel.cpp:45
 #, kde-format
 msgctxt "Title of the view of the playlist"
 msgid "Now Playing"
-msgstr ""
+msgstr "現正播放"
 
 #: models/viewsmodel.cpp:46
 #, kde-format
 msgctxt "Title of the view of recently played tracks"
 msgid "Recently Played"
-msgstr ""
+msgstr "最近播放"
 
 #: models/viewsmodel.cpp:47
 #, kde-format
 msgctxt "Title of the view of frequently played tracks"
 msgid "Frequently Played"
-msgstr ""
+msgstr "最常播放"
 
 #: models/viewsmodel.cpp:52 qml/FileBrowserView.qml:68
 #, kde-format
 msgctxt "Title of the file browser view"
 msgid "Files"
-msgstr ""
+msgstr "檔案"
 
 #: models/viewsmodel.cpp:53
 #, kde-format
 msgctxt "Title of the file radios browser view"
 msgid "Radios"
-msgstr ""
+msgstr "廣播"
 
 #: powermanagementinterface.cpp:185 powermanagementinterface.cpp:228
 #, kde-format
 msgctxt "explanation for sleep inhibit during play of music"
 msgid "Playing Music"
-msgstr ""
+msgstr "正在播放音樂"
 
 #: qml/ApplicationMenu.qml:25 qml/MediaPlayerControl.qml:62
 #: qml/NativeApplicationMenu.qml:26
 #, kde-format
 msgctxt "open application menu"
 msgid "Application Menu"
-msgstr ""
+msgstr "應用程式選單"
 
 #: qml/ApplicationMenu.qml:36 qml/NativeApplicationMenu.qml:37
 #, kde-format
 msgctxt "Refresh Music Collection application menu entry"
 msgid "Refresh Music Collection"
-msgstr ""
+msgstr "重新整理音樂收藏"
 
 #: qml/ApplicationMenu.qml:60 qml/NativeApplicationMenu.qml:63
 #, kde-format
 msgctxt "Hide playlist"
 msgid "Hide Playlist"
-msgstr ""
+msgstr "隱藏播放清單"
 
 #: qml/ApplicationMenu.qml:60 qml/NativeApplicationMenu.qml:63
 #, kde-format
 msgctxt "Show playlist"
 msgid "Show Playlist"
-msgstr ""
+msgstr "顯示播放清單"
 
 #: qml/ContextView.qml:83
 #, kde-format
 msgctxt "Title of the context view related to the currently playing track"
 msgid "Now Playing"
-msgstr ""
+msgstr "現正播放"
 
 #: qml/ContextView.qml:158
 #, kde-format
 msgctxt "display of artist and album in context view"
 msgid "<i>by</i> <b>%1</b> <i>from</i> <b>%2</b>"
-msgstr ""
+msgstr "<i>作者：</i><b>%1</b>；<i>來自：</i><b>%2</b>"
 
 #: qml/ContextView.qml:160
 #, kde-format
 msgctxt "display of album in context view"
 msgid "<i>from</i> <b>%1</b>"
-msgstr ""
+msgstr "<i>來自：</i><b>%1</b>"
 
 #: qml/ContextView.qml:162
 #, kde-format
 msgctxt "display of artist in context view"
 msgid "<i>by</i> <b>%1</b>"
-msgstr ""
+msgstr "<i>作者：</i><b>%1</b>"
 
 #: qml/EditableMetaDataDelegate.qml:41 qml/MetaDataDelegate.qml:39
 #, kde-format
 msgctxt "Label for a piece of metadata, e.g. 'Album Artist:'"
 msgid "%1:"
-msgstr ""
+msgstr "%1："
 
 #: qml/GridBrowserDelegate.qml:157 qml/ListBrowserDelegate.qml:62
 #: qml/PlayListEntry.qml:93
 #, kde-format
 msgctxt "Show track metadata"
 msgid "View Details"
-msgstr ""
+msgstr "檢視詳細資訊"
 
 #: qml/GridBrowserDelegate.qml:191
 #, kde-format
 msgctxt "Clear play list and add whole container to play list"
 msgid "Play now, replacing current playlist"
-msgstr ""
+msgstr "立即播放，取代目前播放清單"
 
 #: qml/GridBrowserDelegate.qml:216
 #, kde-format
 msgctxt "Add whole container to play list"
 msgid "Add to playlist"
-msgstr ""
+msgstr "新增至播放清單"
 
 #: qml/GridBrowserDelegate.qml:241
 #, kde-format
 msgctxt "Open view of the container"
 msgid "Open"
-msgstr ""
+msgstr "開啟"
 
 #: qml/HeaderBar.qml:326
 #, kde-format
 msgid "1 track remaining"
 msgid_plural "%1 tracks remaining"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "剩餘 %1 個音軌"
 
 #: qml/HeaderBar.qml:326
 #, kde-format
 msgid "No remaining tracks"
-msgstr ""
+msgstr "無剩餘音軌"
 
 #: qml/ListBrowserDelegate.qml:55
 #, kde-format
 msgctxt "Enqueue current track"
 msgid "Enqueue"
-msgstr ""
+msgstr "加入清單"
 
 #: qml/ListBrowserDelegate.qml:71
 #, kde-format
 msgctxt "Clear play list and enqueue current track"
 msgid "Play Now and Replace Play List"
-msgstr ""
+msgstr "立即播放，並取代播放清單"
 
 #: qml/ListBrowserDelegate.qml:116
 #, kde-format
 msgctxt "%1: track number. %2: track title. %3: artist name"
 msgid "<b>%1 - %2</b> - <i>%3</i>"
-msgstr ""
+msgstr "<b>%1 - %2</b> - <i>%3</i>"
 
 #: qml/ListBrowserDelegate.qml:121
 #, kde-format
 msgctxt "%1: track number. %2: track title."
 msgid "<b>%1 - %2</b>"
-msgstr ""
+msgstr "<b>%1 - %2</b>"
 
 #: qml/ListBrowserDelegate.qml:127
 #, kde-format
 msgctxt "%1: track title. %2: artist name"
 msgid "<b>%1</b> - <i>%2</i>"
-msgstr ""
+msgstr "<b>%1</b> - <i>%2</i>"
 
 #: qml/ListBrowserDelegate.qml:131
 #, kde-format
 msgctxt "%1: track title"
 msgid "<b>%1</b>"
-msgstr ""
+msgstr "<b>%1</b>"
 
 #: qml/ListBrowserDelegate.qml:207
 #, kde-format
 msgctxt "%1: track number. %2: track title"
 msgid "%1 - %2"
-msgstr ""
+msgstr "%1 - %2"
 
 #: qml/MediaPlayerControl.qml:69
 #, kde-format
 msgctxt "toggle repeat mode for playlist"
 msgid "Toggle Repeat"
-msgstr ""
+msgstr "切換循環播放"
 
 #: qml/MediaPlayerControl.qml:76
 #, kde-format
 msgctxt "toggle shuffle mode for playlist"
 msgid "Toggle Shuffle"
-msgstr ""
+msgstr "切換隨機播放"
 
 #: qml/MediaPlayerControl.qml:83
 #, kde-format
 msgctxt "toggle mute mode for player"
 msgid "Toggle Mute"
-msgstr ""
+msgstr "切換靜音模式"
 
 #: qml/MediaPlayerControl.qml:90
 #, kde-format
 msgctxt "toggle play and pause for the audio player"
 msgid "Toggle Play and Pause"
-msgstr ""
+msgstr "切換播放暫停"
 
 #: qml/MediaPlayerControl.qml:98
 #, kde-format
 msgctxt "skip backward in playlists"
 msgid "Skip Backward"
-msgstr ""
+msgstr "倒轉"
 
 #: qml/MediaPlayerControl.qml:106
 #, kde-format
 msgctxt "skip forward in playlists"
 msgid "Skip Forward"
-msgstr ""
+msgstr "快轉"
 
 #: qml/MediaPlayerControl.qml:114
 #, kde-format
 msgctxt "toggle between maximized and minimized ivre"
 msgid "Toggle Maximize"
-msgstr ""
+msgstr "切換最大化"
 
 #: qml/MediaPlayerControl.qml:169
 #, kde-format
 msgctxt "This is used to preserve a fixed width for the duration text."
 msgid "00:00:00"
-msgstr ""
+msgstr "00:00:00"
 
 #: qml/MediaPlayListView.qml:62
 #, kde-format
 msgctxt "Undo"
 msgid "Undo"
-msgstr ""
+msgstr "復原"
 
 #: qml/MediaPlayListView.qml:69 qml/MediaPlayListView.qml:76
 #, kde-format
 msgctxt "Retry"
 msgid "Retry"
-msgstr ""
+msgstr "重試"
 
 #: qml/MediaPlayListView.qml:84
 #, kde-format
 msgctxt "Message when playlist load failed"
 msgid "Loading failed"
-msgstr ""
+msgstr "載入失敗"
 
 #: qml/MediaPlayListView.qml:91
 #, kde-format
 msgctxt "Playlist cleared"
 msgid "Playlist cleared"
-msgstr ""
+msgstr "已清空播放清單"
 
 #: qml/MediaPlayListView.qml:107
 #, kde-format
 msgctxt "Remove all tracks from play list"
 msgid "Clear Playlist"
-msgstr ""
+msgstr "清空播放清單"
 
 #: qml/MediaPlayListView.qml:115
 #, kde-format
 msgctxt "Show currently played track inside playlist"
 msgid "Show Current Track"
-msgstr ""
+msgstr "顯示目前音軌"
 
 #: qml/MediaPlayListView.qml:127
 #, kde-format
 msgctxt "Load a playlist file"
 msgid "Load Playlist..."
-msgstr ""
+msgstr "載入播放清單…"
 
 #: qml/MediaPlayListView.qml:139
 #, kde-format
 msgctxt "Save a playlist file"
 msgid "Save Playlist..."
-msgstr ""
+msgstr "儲存播放清單…"
 
 #: qml/MediaPlayListView.qml:155
 #, kde-format
 msgctxt "file type (mime type) for m3u playlist"
 msgid "Playlist (*.m3u)"
-msgstr ""
+msgstr "播放清單 (*.m3u)"
 
 #: qml/MediaPlayListView.qml:161
 #, kde-format
 msgctxt "Message when saving a playlist failed"
 msgid "Saving failed"
-msgstr ""
+msgstr "儲存失敗"
 
 #: qml/MediaPlayListView.qml:184
 #, kde-format
 msgctxt "Title of the view of the playlist"
 msgid "Playlist"
-msgstr ""
+msgstr "播放清單"
 
 #: qml/MediaPlayListView.qml:261
 #, kde-format
 msgctxt "Your playlist is empty"
 msgid "Your playlist is empty"
-msgstr ""
+msgstr "播放清單空白"
 
 #: qml/MediaPlayListView.qml:276
 #, kde-format
@@ -531,132 +529,131 @@ msgctxt "Text shown when play list is empty"
 msgid ""
 "Add some songs to get started. You can browse your music using the views on "
 "the left."
-msgstr ""
+msgstr "加入一些歌曲來開始使用吧！你可以在左側使用檢視瀏覽音樂。"
 
 #: qml/MediaPlayListView.qml:343
 #, kde-format
 msgid "1 track"
 msgid_plural "%1 tracks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 個音軌"
 
 #: qml/MediaTrackMetadataView.qml:44
 #, kde-format
 msgctxt "Window title for track metadata"
 msgid "Create a Radio"
-msgstr ""
+msgstr "建立廣播"
 
 #: qml/MediaTrackMetadataView.qml:44
 #, kde-format
 msgctxt "Window title for track metadata"
 msgid "View Details"
-msgstr ""
+msgstr "檢視詳細資訊"
 
 #: qml/MediaTrackMetadataView.qml:177
 #, kde-format
 msgid "Delete"
-msgstr ""
+msgstr "刪除"
 
 #: qml/MediaTrackMetadataView.qml:197
 #, kde-format
 msgid "Apply"
-msgstr ""
+msgstr "套用"
 
 #: qml/MediaTrackMetadataView.qml:210
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "關閉"
 
 #: qml/NavigationActionBar.qml:55
 #, kde-format
 msgctxt "navigate back in the views stack"
 msgid "Back"
-msgstr ""
+msgstr "返回"
 
 #: qml/NavigationActionBar.qml:63
 #, kde-format
 msgid "Play now, replacing contents of Playlist"
-msgstr ""
+msgstr "立刻播放，取代播放清單的內容"
 
 #: qml/NavigationActionBar.qml:70
 #, kde-format
 msgctxt "Add current list to playlist"
 msgid "Enqueue"
-msgstr ""
+msgstr "加入清單"
 
 #: qml/NavigationActionBar.qml:77
 #, kde-format
 msgctxt "Create a new radio"
 msgid "Create a radio"
-msgstr ""
+msgstr "建立廣播"
 
 #: qml/NavigationActionBar.qml:84
 #, kde-format
 msgctxt "Show filters in the navigation bar"
 msgid "Show Search Options"
-msgstr ""
+msgstr "顯示搜尋選項"
 
 #: qml/NavigationActionBar.qml:84
 #, kde-format
 msgctxt "Hide filters in the navigation bar"
 msgid "Hide Search Options"
-msgstr ""
+msgstr "隱藏搜尋選項"
 
 #: qml/NavigationActionBar.qml:93
 #, kde-format
 msgctxt "Toggle between ascending and descending order"
 msgid "Toggle sort order"
-msgstr ""
+msgstr "切換排序順序"
 
 #: qml/NavigationActionBar.qml:100
 #, kde-format
 msgctxt "Button to navigate to the artist of the album"
 msgid "Display Artist"
-msgstr ""
+msgstr "顯示藝人"
 
 #: qml/NavigationActionBar.qml:252
 #, kde-format
 msgid "Search for album name, artist, etc."
-msgstr ""
+msgstr "搜尋專輯名稱、藝人等等。"
 
 #: qml/NavigationActionBar.qml:258
 #, kde-format
 msgid "Filter by rating: "
-msgstr ""
+msgstr "依評分過濾："
 
 #: qml/PlayListEntry.qml:63
 #, kde-format
 msgctxt "Remove current track from play list"
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #: qml/PlayListEntry.qml:72
 #, kde-format
 msgctxt "Play now current track from play list"
 msgid "Play Now"
-msgstr ""
+msgstr "立刻播放"
 
 #: qml/PlayListEntry.qml:85
 #, kde-format
 msgctxt "Pause current track from play list"
 msgid "Pause"
-msgstr ""
+msgstr "暫停"
 
 #: qml/TrackImportNotification.qml:81 qml/TrackImportNotification.qml:96
 #, kde-format
 msgctxt "number of imported tracks"
 msgid "Imported one track"
 msgid_plural "Imported %1 tracks"
-msgstr[0] ""
+msgstr[0] "已匯入 %1 個音軌"
 
 #: qml/TrackImportNotification.qml:84
 #, kde-format
 msgctxt "message to show when Elisa is scanning music files"
 msgid "Scanning music"
-msgstr ""
+msgstr "正在掃描音樂"
 
 #: qml/TracksDiscHeader.qml:29
 #, kde-format
 msgctxt "disc header text when showing an album"
 msgid "Disc %1"
-msgstr ""
+msgstr "光碟 %1"
