@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplatoui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-08 02:26+0200\n"
+"POT-Creation-Date: 2019-10-09 02:28+0200\n"
 "PO-Revision-Date: 2011-12-26 08:35+0800\n"
 "Last-Translator: Franklin Weng <franklin@mail.everfocus.com.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
@@ -44,13 +44,13 @@ msgid "Account"
 msgstr "帳號"
 
 #: kernel/kptcalendar.cpp:99 kernel/kptcalendar.cpp:111
-#: ui/kptcalendareditor.cpp:205 ui/kptcalendareditor.cpp:660
+#: ui/kptcalendareditor.cpp:206 ui/kptcalendareditor.cpp:665
 #, kde-format
 msgid "Undefined"
 msgstr "未定義"
 
 #: kernel/kptcalendar.cpp:101 kernel/kptcalendar.cpp:111
-#: ui/kptcalendareditor.cpp:203 ui/kptcalendareditor.cpp:658
+#: ui/kptcalendareditor.cpp:204 ui/kptcalendareditor.cpp:663
 #, kde-format
 msgid "Non-working"
 msgstr "不工作"
@@ -527,7 +527,7 @@ msgstr "將工作往後安排"
 msgid "Finished scheduling backward: %1 ms"
 msgstr "延遲完成已計算：%1"
 
-#: kernel/kptproject.cpp:2646
+#: kernel/kptproject.cpp:2647
 #, kde-format
 msgid "Plan"
 msgstr "計畫"
@@ -629,7 +629,7 @@ msgstr "預期"
 msgid "Info"
 msgstr "資訊"
 
-#: kernel/kptschedule.cpp:1572 main/KoMainWindow.cpp:1751
+#: kernel/kptschedule.cpp:1572 main/KoMainWindow.cpp:1752
 #, kde-format
 msgid "Warning"
 msgstr "警告"
@@ -851,13 +851,13 @@ msgstr ""
 msgid "<empty>"
 msgstr ""
 
-#: kundo2/kundo2stack.cpp:1359 main/KoMainWindow.cpp:1541
+#: kundo2/kundo2stack.cpp:1359 main/KoMainWindow.cpp:1542
 #: main/KoUndoStackAction.cpp:47
 #, kde-format
 msgid "Redo"
 msgstr ""
 
-#: kundo2/kundo2stack.cpp:1378 main/KoMainWindow.cpp:1540
+#: kundo2/kundo2stack.cpp:1378 main/KoMainWindow.cpp:1541
 #: main/KoUndoStackAction.cpp:39
 #, kde-format
 msgid "Undo"
@@ -1198,13 +1198,13 @@ msgid ""
 "an old version."
 msgstr ""
 
-#: main/KoDocument.cpp:2090 main/KoDocument.cpp:2573 main/KoMainWindow.cpp:1228
+#: main/KoDocument.cpp:2090 main/KoDocument.cpp:2573 main/KoMainWindow.cpp:1229
 #, fuzzy, kde-format
 #| msgid "Until"
 msgid "Untitled"
 msgstr "到"
 
-#: main/KoDocument.cpp:2093 main/KoMainWindow.cpp:1231
+#: main/KoDocument.cpp:2093 main/KoMainWindow.cpp:1232
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
@@ -1394,98 +1394,98 @@ msgstr ""
 msgid "Save"
 msgstr "已成功儲存"
 
-#: main/KoMainWindow.cpp:843 widgets/KoDocumentInfoDlg.cpp:408
+#: main/KoMainWindow.cpp:844 widgets/KoDocumentInfoDlg.cpp:408
 #, kde-format
 msgid "%1 (unknown file type)"
 msgstr ""
 
-#: main/KoMainWindow.cpp:851
+#: main/KoMainWindow.cpp:852
 #, kde-format
 msgid ""
 "<qt>Saving as a %1 may result in some loss of formatting.<p>Do you still "
 "want to save in this format?</qt>"
 msgstr ""
 
-#: main/KoMainWindow.cpp:854
+#: main/KoMainWindow.cpp:855
 #, fuzzy, kde-format
 #| msgid "Not Started"
 msgid "Confirm Save"
 msgstr "未開始"
 
-#: main/KoMainWindow.cpp:863
+#: main/KoMainWindow.cpp:864
 #, kde-format
 msgid ""
 "<qt>Exporting as a %1 may result in some loss of formatting.<p>Do you still "
 "want to export to this format?</qt>"
 msgstr ""
 
-#: main/KoMainWindow.cpp:866
+#: main/KoMainWindow.cpp:867
 #, fuzzy, kde-format
 #| msgid "Not Started"
 msgid "Confirm Export"
 msgstr "未開始"
 
-#: main/KoMainWindow.cpp:867 ui/reports/reportview.cpp:381
+#: main/KoMainWindow.cpp:868 ui/reports/reportview.cpp:381
 #: ui/reports/reportview.cpp:401 ui/reports/reportview.cpp:423
 #, kde-format
 msgid "Export"
 msgstr "匯出"
 
-#: main/KoMainWindow.cpp:971
+#: main/KoMainWindow.cpp:972
 #, fuzzy, kde-format
 #| msgid "Until"
 msgid "untitled"
 msgstr "到"
 
-#: main/KoMainWindow.cpp:1297 ui/welcome/WelcomeView.cpp:301
+#: main/KoMainWindow.cpp:1298 ui/welcome/WelcomeView.cpp:301
 #, fuzzy, kde-format
 #| msgid "Documents"
 msgid "Open Document"
 msgstr "文件"
 
-#: main/KoMainWindow.cpp:1306
+#: main/KoMainWindow.cpp:1307
 #, fuzzy, kde-format
 #| msgid "Documents"
 msgid "Import Document"
 msgstr "文件"
 
-#: main/KoMainWindow.cpp:1481
+#: main/KoMainWindow.cpp:1482
 #, fuzzy, kde-format
 #| msgid "Export"
 msgid "Export as PDF"
 msgstr "匯出"
 
-#: main/KoMainWindow.cpp:1518
+#: main/KoMainWindow.cpp:1519
 #, fuzzy, kde-format
 #| msgid "Cannot open report template file!"
 msgid "Cannot export to the specified file"
 msgstr "無法開啟報告樣本檔！"
 
-#: main/KoMainWindow.cpp:1720
+#: main/KoMainWindow.cpp:1721
 #, fuzzy, kde-format
 #| msgid "&Documents"
 msgid "Document"
 msgstr "文件(&D)"
 
-#: main/KoMainWindow.cpp:1728
+#: main/KoMainWindow.cpp:1729
 #, fuzzy, kde-format
 #| msgid "&Documents"
 msgid "Document - %1"
 msgstr "文件(&D)"
 
-#: main/KoMainWindow.cpp:1749
+#: main/KoMainWindow.cpp:1750
 #, kde-format
 msgid ""
 "You will lose all changes made since your last save\n"
 "Do you want to continue?"
 msgstr ""
 
-#: main/KoMainWindow.cpp:2116
+#: main/KoMainWindow.cpp:2117
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr ""
 
-#: main/KoMainWindow.cpp:2118
+#: main/KoMainWindow.cpp:2119
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr ""
@@ -1495,8 +1495,8 @@ msgstr ""
 msgid "Stop"
 msgstr ""
 
-#: main/KoPrintingDialog.cpp:147 ui/kptaccountseditor.cpp:72
-#: ui/kptaccountsviewconfigdialog.cpp:89 ui/kptdependencyeditor.cpp:1982
+#: main/KoPrintingDialog.cpp:147 ui/kptaccountseditor.cpp:73
+#: ui/kptaccountsviewconfigdialog.cpp:89 ui/kptdependencyeditor.cpp:1983
 #: ui/kptganttview.cpp:183 ui/kptganttview.cpp:1324 ui/kptganttview.cpp:1760
 #: ui/kptitemviewsettup.cpp:201 ui/kptitemviewsettup.cpp:285
 #: ui/kptresourceappointmentsview.cpp:105
@@ -1598,7 +1598,7 @@ msgstr "%1（預設帳號）"
 #: models/kptschedulemodel.cpp:990 models/kptschedulemodel.cpp:1311
 #: models/reportgenerator/ReportGeneratorOdt.cpp:191
 #: ui/kptresourceassignmentview.ui:21 ui/projectview/ProjectView.cpp:53
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:221
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:225
 #, kde-format
 msgid "Name"
 msgstr "名稱"
@@ -3965,7 +3965,7 @@ msgstr "新增子工作"
 msgid "Path"
 msgstr "路徑"
 
-#: models/kptpertcpmmodel.cpp:439 ui/kptscheduleeditor.cpp:741
+#: models/kptpertcpmmodel.cpp:439 ui/kptscheduleeditor.cpp:747
 #, kde-format
 msgid "Critical Path"
 msgstr "要徑"
@@ -5298,14 +5298,14 @@ msgstr ""
 msgid "Calligra Storage"
 msgstr ""
 
-#: ui/kptaccountseditor.cpp:59 ui/kptaccountsviewconfigdialog.cpp:45
-#: ui/kptdependencyeditor.cpp:1969
+#: ui/kptaccountseditor.cpp:60 ui/kptaccountsviewconfigdialog.cpp:45
+#: ui/kptdependencyeditor.cpp:1970
 #, kde-format
 msgid "Settings"
 msgstr "設定"
 
-#: ui/kptaccountseditor.cpp:73 ui/kptaccountsviewconfigdialog.cpp:90
-#: ui/kptdependencyeditor.cpp:1983 ui/kptganttview.cpp:183
+#: ui/kptaccountseditor.cpp:74 ui/kptaccountsviewconfigdialog.cpp:90
+#: ui/kptdependencyeditor.cpp:1984 ui/kptganttview.cpp:183
 #: ui/kptganttview.cpp:1324 ui/kptganttview.cpp:1760
 #: ui/kptitemviewsettup.cpp:201 ui/kptitemviewsettup.cpp:285
 #: ui/kptresourceappointmentsview.cpp:106
@@ -5315,7 +5315,7 @@ msgstr "設定"
 msgid "Printing Options"
 msgstr "選項"
 
-#: ui/kptaccountseditor.cpp:192
+#: ui/kptaccountseditor.cpp:198
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5327,19 +5327,19 @@ msgid ""
 "menu.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptaccountseditor.cpp:285
+#: ui/kptaccountseditor.cpp:291
 #, kde-format
 msgid "Add Account"
 msgstr "新增帳號"
 
-#: ui/kptaccountseditor.cpp:290
+#: ui/kptaccountseditor.cpp:296
 #, kde-format
 msgid "Add Subaccount"
 msgstr "新增子帳號"
 
-#: ui/kptaccountseditor.cpp:295 ui/kptcalendareditor.cpp:651
-#: ui/kptdependencyeditor.cpp:2351 ui/kptresourceeditor.cpp:299
-#: ui/kptscheduleeditor.cpp:313 ui/kpttaskeditor.cpp:850
+#: ui/kptaccountseditor.cpp:301 ui/kptcalendareditor.cpp:656
+#: ui/kptdependencyeditor.cpp:2357 ui/kptresourceeditor.cpp:304
+#: ui/kptscheduleeditor.cpp:318 ui/kpttaskeditor.cpp:854
 #, kde-format, kde-kuit-format
 msgctxt "@action"
 msgid "Delete"
@@ -5471,17 +5471,17 @@ msgstr "目前的日期"
 msgid "Project end"
 msgstr "專案結束"
 
-#: ui/kptcalendareditor.cpp:201 ui/kptcalendareditor.cpp:656
+#: ui/kptcalendareditor.cpp:202 ui/kptcalendareditor.cpp:661
 #, kde-format
 msgid "Work..."
 msgstr "工作..."
 
-#: ui/kptcalendareditor.cpp:275 ui/kptcalendareditor.cpp:305
+#: ui/kptcalendareditor.cpp:276 ui/kptcalendareditor.cpp:306
 msgctxt "(qtundo-format)"
 msgid "Modify Weekday State"
 msgstr "變更工作日狀態"
 
-#: ui/kptcalendareditor.cpp:390
+#: ui/kptcalendareditor.cpp:395
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:whatsthis"
 #| msgid ""
@@ -5523,28 +5523,28 @@ msgstr ""
 "為「預設行事曆」。預設行事曆會在資源行事曆並未被特別設定時，被工作資源所引"
 "用。</para> "
 
-#: ui/kptcalendareditor.cpp:641
+#: ui/kptcalendareditor.cpp:646
 #, kde-format
 msgid "Add Calendar"
 msgstr "新增行事曆"
 
-#: ui/kptcalendareditor.cpp:646
+#: ui/kptcalendareditor.cpp:651
 #, kde-format
 msgid "Add Subcalendar"
 msgstr "新增子行事曆"
 
-#: ui/kptcalendareditor.cpp:810 ui/kptcalendareditor.cpp:844
+#: ui/kptcalendareditor.cpp:815 ui/kptcalendareditor.cpp:849
 msgctxt "(qtundo-format)"
 msgid "Modify Calendar"
 msgstr "變更行事曆"
 
-#: ui/kptcalendareditor.cpp:819 ui/kptcalendareditor.cpp:825
+#: ui/kptcalendareditor.cpp:824 ui/kptcalendareditor.cpp:830
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "%1: Set to Non-Working"
 msgstr "%1：設為非工作中"
 
-#: ui/kptcalendareditor.cpp:851
+#: ui/kptcalendareditor.cpp:856
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Set %1 to Undefined"
@@ -5594,7 +5594,7 @@ msgstr "是"
 msgid "%"
 msgstr "%"
 
-#: ui/kptdependencyeditor.cpp:2020
+#: ui/kptdependencyeditor.cpp:2026
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5605,39 +5605,39 @@ msgid ""
 "printing using the context menu.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2322 ui/kpttaskeditor.cpp:821
-#: ui/kpttaskeditor.cpp:825
+#: ui/kptdependencyeditor.cpp:2328 ui/kpttaskeditor.cpp:825
+#: ui/kpttaskeditor.cpp:829
 #, kde-format
 msgid "Add Task"
 msgstr "新增工作"
 
-#: ui/kptdependencyeditor.cpp:2326
+#: ui/kptdependencyeditor.cpp:2332
 #, kde-format
 msgid "Add Task..."
 msgstr "新增工作..."
 
-#: ui/kptdependencyeditor.cpp:2331
+#: ui/kptdependencyeditor.cpp:2337
 #, kde-format
 msgid "Add Milestone..."
 msgstr "新增里程碑..."
 
-#: ui/kptdependencyeditor.cpp:2337 ui/kpttaskeditor.cpp:836
-#: ui/kpttaskeditor.cpp:840
+#: ui/kptdependencyeditor.cpp:2343 ui/kpttaskeditor.cpp:840
+#: ui/kpttaskeditor.cpp:844
 #, kde-format
 msgid "Add Sub-Task"
 msgstr "新增子工作"
 
-#: ui/kptdependencyeditor.cpp:2341
+#: ui/kptdependencyeditor.cpp:2347
 #, kde-format
 msgid "Add Sub-Task..."
 msgstr "新增子工作..."
 
-#: ui/kptdependencyeditor.cpp:2346
+#: ui/kptdependencyeditor.cpp:2352
 #, kde-format
 msgid "Add Sub-Milestone..."
 msgstr "新增子里程碑..."
 
-#: ui/kptdependencyeditor.cpp:2356 ui/kpttaskeditor.cpp:855
+#: ui/kptdependencyeditor.cpp:2362 ui/kpttaskeditor.cpp:859
 #, fuzzy, kde-kuit-format
 #| msgid "Open"
 msgctxt "@action"
@@ -5650,8 +5650,8 @@ msgstr "開啟"
 msgid "Task Documents"
 msgstr "文件(&D)"
 
-#: ui/kptdocumentseditor.cpp:219 ui/kptscheduleeditor.cpp:652
-#: ui/kpttaskeditor.cpp:661
+#: ui/kptdocumentseditor.cpp:219 ui/kptscheduleeditor.cpp:658
+#: ui/kpttaskeditor.cpp:665
 #, kde-format
 msgid "Edit..."
 msgstr "編輯..."
@@ -6064,7 +6064,7 @@ msgid ""
 "><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptganttview.cpp:991 ui/kpttaskeditor.cpp:877 ui/kpttaskeditor.cpp:1385
+#: ui/kptganttview.cpp:991 ui/kpttaskeditor.cpp:881 ui/kpttaskeditor.cpp:1389
 #, kde-format
 msgid "Show Project"
 msgstr "顯示專案"
@@ -6187,7 +6187,7 @@ msgstr "長度"
 
 #. i18n: ectx: property (text), widget (QPushButton, bAddInterval)
 #: ui/kptintervaleditbase.ui:70
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:221
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:225
 #, kde-format
 msgid "Add"
 msgstr "新增"
@@ -6741,7 +6741,7 @@ msgctxt "(qtundo-format)"
 msgid "Modify Resource"
 msgstr "變更資源"
 
-#: ui/kptresourceeditor.cpp:125
+#: ui/kptresourceeditor.cpp:130
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:whatsthis"
 #| msgid ""
@@ -6767,17 +6767,17 @@ msgstr ""
 "資源指定給一個工作時，型態為「工作」的資源可以影響該工作期間，而型態為「物"
 "質」的則不行。資源必須指定給某個定義工作時數的行事曆。</para>"
 
-#: ui/kptresourceeditor.cpp:289
+#: ui/kptresourceeditor.cpp:294
 #, kde-format
 msgid "Add Resource Group"
 msgstr "新增資源群組"
 
-#: ui/kptresourceeditor.cpp:294
+#: ui/kptresourceeditor.cpp:299
 #, kde-format
 msgid "Add Resource"
 msgstr "新增資源"
 
-#: ui/kptscheduleeditor.cpp:177
+#: ui/kptscheduleeditor.cpp:182
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6793,60 +6793,60 @@ msgid ""
 "para>"
 msgstr ""
 
-#: ui/kptscheduleeditor.cpp:303
+#: ui/kptscheduleeditor.cpp:308
 #, kde-format
 msgid "Add Schedule"
 msgstr "新增排程"
 
-#: ui/kptscheduleeditor.cpp:308
+#: ui/kptscheduleeditor.cpp:313
 #, kde-format
 msgid "Add Sub-schedule"
 msgstr "新增子排程..."
 
-#: ui/kptscheduleeditor.cpp:318
+#: ui/kptscheduleeditor.cpp:323
 #, kde-format
 msgid "Calculate"
 msgstr "計算"
 
-#: ui/kptscheduleeditor.cpp:323
+#: ui/kptscheduleeditor.cpp:328
 #, kde-format
 msgid "Baseline"
 msgstr "基線"
 
-#: ui/kptscheduleeditor.cpp:328
+#: ui/kptscheduleeditor.cpp:333
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Detach"
 msgstr "分離"
 
-#: ui/kptscheduleeditor.cpp:384 ui/kptscheduleeditor.cpp:417
+#: ui/kptscheduleeditor.cpp:390 ui/kptscheduleeditor.cpp:423
 msgctxt "(qtundo-format)"
 msgid "Create sub-schedule"
 msgstr "建立子排程"
 
-#: ui/kptscheduleeditor.cpp:395
+#: ui/kptscheduleeditor.cpp:401
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Add schedule %1"
 msgstr "新增排程 %1"
 
-#: ui/kptscheduleeditor.cpp:500
+#: ui/kptscheduleeditor.cpp:506
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Show Debug Information"
 msgstr "顯示除錯資訊"
 
-#: ui/kptscheduleeditor.cpp:736
+#: ui/kptscheduleeditor.cpp:742
 #, kde-format
 msgid "Result"
 msgstr "結果"
 
-#: ui/kptscheduleeditor.cpp:746
+#: ui/kptscheduleeditor.cpp:752
 #, kde-format
 msgid "Scheduling Log"
 msgstr "排程紀錄"
 
-#: ui/kptscheduleeditor.cpp:820
+#: ui/kptscheduleeditor.cpp:832
 #, fuzzy
 #| msgctxt "@info:tooltip"
 #| msgid "Schedule project from target start time"
@@ -6854,7 +6854,7 @@ msgctxt "(qtundo-format)"
 msgid "Modify project target start time"
 msgstr "從目標開始時間排程專案"
 
-#: ui/kptscheduleeditor.cpp:832
+#: ui/kptscheduleeditor.cpp:844
 #, fuzzy
 #| msgctxt "@info:tooltip"
 #| msgid "Schedule project from target end time"
@@ -7089,7 +7089,7 @@ msgctxt "(qtundo-format)"
 msgid "Set type to %1"
 msgstr "設定型態為 %1"
 
-#: ui/kpttaskeditor.cpp:380
+#: ui/kpttaskeditor.cpp:384
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -7099,20 +7099,20 @@ msgid ""
 "the context menu.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:434
+#: ui/kpttaskeditor.cpp:438
 #, fuzzy, kde-kuit-format
 #| msgid "Allocation"
 msgctxt "@title resource allocations"
 msgid "Allocations"
 msgstr "配置"
 
-#: ui/kpttaskeditor.cpp:455
+#: ui/kpttaskeditor.cpp:459
 #, kde-kuit-format
 msgctxt "@title"
 msgid "Resources"
 msgstr "資源"
 
-#: ui/kpttaskeditor.cpp:457
+#: ui/kpttaskeditor.cpp:461
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -7120,7 +7120,7 @@ msgid ""
 "responsible column"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:484
+#: ui/kpttaskeditor.cpp:488
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:tooltip"
 #| msgid "Task notes"
@@ -7128,7 +7128,7 @@ msgctxt "@title"
 msgid "Task Modules"
 msgstr "工作備忘"
 
-#: ui/kpttaskeditor.cpp:485
+#: ui/kpttaskeditor.cpp:489
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -7136,37 +7136,37 @@ msgid ""
 "the project"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:830
+#: ui/kpttaskeditor.cpp:834
 #, kde-format
 msgid "Add Milestone"
 msgstr "新增里程碑"
 
-#: ui/kpttaskeditor.cpp:845
+#: ui/kpttaskeditor.cpp:849
 #, kde-format
 msgid "Add Sub-Milestone"
 msgstr "新增子里程碑"
 
-#: ui/kpttaskeditor.cpp:860
+#: ui/kpttaskeditor.cpp:864
 #, kde-format
 msgid "Indent Task"
 msgstr "縮排工作"
 
-#: ui/kpttaskeditor.cpp:864
+#: ui/kpttaskeditor.cpp:868
 #, kde-format
 msgid "Unindent Task"
 msgstr "取消縮排工作"
 
-#: ui/kpttaskeditor.cpp:868
+#: ui/kpttaskeditor.cpp:872
 #, kde-format
 msgid "Move Up"
 msgstr "上移"
 
-#: ui/kpttaskeditor.cpp:872
+#: ui/kpttaskeditor.cpp:876
 #, kde-format
 msgid "Move Down"
 msgstr "下移"
 
-#: ui/kpttaskeditor.cpp:1217
+#: ui/kpttaskeditor.cpp:1221
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -7177,19 +7177,19 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, ui_publish)
-#: ui/kpttaskeditor.cpp:1704 ui/kptworkpackagesendpanel.ui:45
+#: ui/kpttaskeditor.cpp:1712 ui/kptworkpackagesendpanel.ui:45
 #, kde-format
 msgid "Publish..."
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:1708
+#: ui/kpttaskeditor.cpp:1716
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Send Work Packages"
 msgid "Work Packages..."
 msgstr "傳送工作套件"
 
-#: ui/kpttaskeditor.cpp:1726
+#: ui/kpttaskeditor.cpp:1734
 msgctxt "(qtundo-format)"
 msgid "Log Send Workpackage"
 msgstr "傳送紀錄套件"
@@ -8620,21 +8620,21 @@ msgstr "在錢之前"
 msgid "Nothing"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:221
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:225
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Report Designer"
 msgid "Report File"
 msgstr "報告設計器"
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:221
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:225
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Report Designer"
 msgid "Report Template"
 msgstr "報告設計器"
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:222
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:226
 #, fuzzy, kde-kuit-format
 #| msgctxt "@title:window"
 #| msgid "Report Designer"
@@ -8642,27 +8642,27 @@ msgctxt "@info:tooltip"
 msgid "Report name"
 msgstr "報告設計器"
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:223
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:227
 #, fuzzy, kde-kuit-format
 #| msgid "Malformed template filename: %1"
 msgctxt "@info:tooltip"
 msgid "Report template file name"
 msgstr "不正確的樣本檔名：%1"
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:224
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:228
 #, fuzzy, kde-kuit-format
 #| msgid "Unable to download template file: %1"
 msgctxt "@info:tooltip"
 msgid "Name of the generated report file"
 msgstr "無法下載樣本檔案：%1"
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:225
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:229
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Information added to filename"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:260
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:266
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -8672,40 +8672,40 @@ msgid ""
 "url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:318
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:340
 #, fuzzy, kde-format
 #| msgid "Edit Report"
 msgid "Add Report"
 msgstr "編輯報告"
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:324
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:346
 #, fuzzy, kde-format
 #| msgctxt "(qtundo-format)"
 #| msgid "Remove document"
 msgid "Remove Report"
 msgstr "移除文件"
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:330
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:352
 #, fuzzy, kde-format
 #| msgid "Print Report"
 msgid "Generate Report"
 msgstr "列印報告"
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:358
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:380
 #, fuzzy, kde-format
 #| msgid "Edit Report"
 msgid "New report"
 msgstr "編輯報告"
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:398
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:405
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:420
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:427
 #, fuzzy, kde-kuit-format
 #| msgid "Print Report"
 msgctxt "@title:window"
 msgid "Generate Report"
 msgstr "列印報告"
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:399
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:421
 #, fuzzy, kde-format
 #| msgid "Unable to download template file: %1"
 msgid ""
@@ -8713,7 +8713,7 @@ msgid ""
 "Template file name is empty."
 msgstr "無法下載樣本檔案：%1"
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:406
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:428
 #, fuzzy, kde-format
 #| msgid "Unable to download template file: %1"
 msgid ""
@@ -8721,32 +8721,32 @@ msgid ""
 "Report file name is empty."
 msgstr "無法下載樣本檔案：%1"
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:425
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:447
 #, kde-format
 msgid "File exists. Continue?"
 msgstr ""
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:425
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:447
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Report Designer"
 msgid "Report Generation"
 msgstr "報告設計器"
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:443
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:465
 #, fuzzy, kde-format
 #| msgid "Failed to open %1 in KSpread"
 msgid "Failed to open report generator"
 msgstr "在 KSpread 中開啟 %1 失敗"
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:447
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:469
 #, fuzzy, kde-format
 #| msgctxt "1=type of constraint"
 #| msgid "%1: Failed to meet constraint"
 msgid "Failed to create report"
 msgstr "%1：無法符合限制"
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:450
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:472
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Report Designer"
@@ -8754,7 +8754,7 @@ msgctxt "@title"
 msgid "Report Generation"
 msgstr "報告設計器"
 
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:450
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:472
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Cannot open file:<br/><filename>%1</filename>"

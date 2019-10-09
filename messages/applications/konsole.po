@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-06 02:26+0200\n"
+"POT-Creation-Date: 2019-10-09 02:27+0200\n"
 "PO-Revision-Date: 2019-08-31 18:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -2644,50 +2644,50 @@ msgstr "使用者信號 1(&1)"
 msgid "User Signal &2"
 msgstr "使用者信號 2(&2)"
 
-#: SessionController.cpp:903
+#: SessionController.cpp:904
 #, kde-format
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "有程式正在此工作階段中執行。您確定要將它關閉嗎？"
 
-#: SessionController.cpp:906
+#: SessionController.cpp:907
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr "程式 %1 正在此工作階段中執行。您確定要將它關閉嗎？"
 
-#: SessionController.cpp:910 SessionController.cpp:937
+#: SessionController.cpp:913 SessionController.cpp:943
 #, kde-format
 msgid "Confirm Close"
 msgstr "確認關閉"
 
-#: SessionController.cpp:930
+#: SessionController.cpp:936
 #, kde-format
 msgid ""
 "A program in this session would not die.  Are you sure you want to kill it "
 "by force?"
 msgstr "有程式正在此工作階段中執行。您確定要將它強制關閉嗎？"
 
-#: SessionController.cpp:933
+#: SessionController.cpp:939
 #, kde-format
 msgid ""
 "The program '%1' is in this session would not die.  Are you sure you want to "
 "kill it by force?"
 msgstr "程式 %1 正在此工作階段中執行。您確定要將它強制關閉嗎？"
 
-#: SessionController.cpp:1472
+#: SessionController.cpp:1478
 #, kde-format
 msgid "Print Shell"
 msgstr "列印 Shell"
 
-#: SessionController.cpp:1742
+#: SessionController.cpp:1748
 #, kde-format
 msgid "Save ZModem Download to..."
 msgstr "儲存 ZModem 下載檔到..."
 
-#: SessionController.cpp:1752
+#: SessionController.cpp:1758
 #, kde-format
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
@@ -2697,13 +2697,13 @@ msgstr ""
 "<p>偵測到要使用 ZModem 做檔案傳輸，但是此系統上找不到適合的 ZModem 軟體。</"
 "p><p>您可能需要安裝 rzsz 或 lrzsz 等軟體包。</p>"
 
-#: SessionController.cpp:1763
+#: SessionController.cpp:1769
 #, kde-format
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>目前的工作階段已經有一個 ZModem 檔案傳輸在進行中。</p>"
 
-#: SessionController.cpp:1773
+#: SessionController.cpp:1779
 #, kde-format
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
@@ -2712,7 +2712,7 @@ msgstr ""
 "<p>此系統上找不到適合的 ZModem 軟體。</p><p>您可能需要安裝 rzsz 或 lrzsz 等軟"
 "體包。</p>"
 
-#: SessionController.cpp:1779
+#: SessionController.cpp:1785
 #, kde-format
 msgid "Select Files for ZModem Upload"
 msgstr "選擇要用 ZModem 上傳的檔案"

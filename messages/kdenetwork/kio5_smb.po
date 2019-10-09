@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_smb\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:10+0200\n"
+"POT-Creation-Date: 2019-10-09 03:02+0200\n"
 "PO-Revision-Date: 2017-07-30 21:44+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -54,39 +54,39 @@ msgstr ""
 "%1:\n"
 "不明的檔案類別，不論是目錄或檔案。"
 
-#: kio_smb_browse.cpp:235
+#: kio_smb_browse.cpp:240
 #, kde-format
 msgid ""
 "Unable to find any workgroups in your local network. This might be caused by "
 "an enabled firewall."
 msgstr "無法在您的本地網路發現任何工作群組。這可能是由於使用了防火牆造成的。"
 
-#: kio_smb_browse.cpp:240
+#: kio_smb_browse.cpp:245
 #, kde-format
 msgid "No media in device for %1"
 msgstr "裝置中沒有 %1 的媒體"
 
-#: kio_smb_browse.cpp:246
+#: kio_smb_browse.cpp:251
 #, kde-format
 msgid "Could not connect to host for %1"
 msgstr "無法為 %1 連線至主機"
 
-#: kio_smb_browse.cpp:259
+#: kio_smb_browse.cpp:264
 #, kde-format
 msgid "Error while connecting to server responsible for %1"
 msgstr "當連線到伺服器回應 %1 時發生錯誤"
 
-#: kio_smb_browse.cpp:265
+#: kio_smb_browse.cpp:270
 #, kde-format
 msgid "Share could not be found on given server"
 msgstr "所指定伺服器找不到分享"
 
-#: kio_smb_browse.cpp:267
+#: kio_smb_browse.cpp:272
 #, kde-format
 msgid "Bad file descriptor"
 msgstr "錯誤的檔案描述"
 
-#: kio_smb_browse.cpp:274
+#: kio_smb_browse.cpp:279
 #, kde-format
 msgid ""
 "The given name could not be resolved to a unique server. Make sure your "
@@ -96,7 +96,7 @@ msgstr ""
 "無法將指定的名稱解析為特定的伺服器。請確定您的網路設定跟 Windows 與 UNIX 解析"
 "之間使用的名稱沒有衝突。"
 
-#: kio_smb_browse.cpp:279
+#: kio_smb_browse.cpp:284
 #, kde-format
 msgid ""
 "libsmbclient reported an error, but did not specify what the problem is. "
@@ -113,12 +113,12 @@ msgstr ""
 "私人資料，如果您不確定請勿公開散佈。如果程式開發者跟您要求相關資料，您可以私"
 "底下Email給他)"
 
-#: kio_smb_browse.cpp:289
+#: kio_smb_browse.cpp:294
 #, kde-format
 msgid "Unknown error condition in stat: %1"
 msgstr "不明錯誤狀況: %1"
 
-#: kio_smb_browse.cpp:305
+#: kio_smb_browse.cpp:310
 #, kde-kuit-format
 msgid "Error occurred while trying to access %1<nl/>%2"
 msgstr "在嘗試存取 %1 時遇到錯誤<nl/>%2"

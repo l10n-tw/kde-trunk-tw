@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-08 03:13+0200\n"
+"POT-Creation-Date: 2019-10-09 03:17+0200\n"
 "PO-Revision-Date: 2015-06-17 09:27+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -310,31 +310,31 @@ msgstr "未知的簽章狀態"
 msgid "End of signed message"
 msgstr "已簽署信件的尾端"
 
-#: dkim-verify/dkimchecksignaturejob.cpp:296
-#, fuzzy, kde-format
-#| msgid "The signature has expired."
-msgid "Signature Expired"
-msgstr "簽章已經過期。"
-
-#: dkim-verify/dkimchecksignaturejob.cpp:299
-#, kde-format
-msgid "Signature created in the future"
-msgstr ""
-
-#: dkim-verify/dkimmanagerkeywidget.cpp:37
+#: dkim-verify/dkimmanagerkeywidget.cpp:39
 #, kde-format
 msgid "SDID"
 msgstr ""
 
-#: dkim-verify/dkimmanagerkeywidget.cpp:37
+#: dkim-verify/dkimmanagerkeywidget.cpp:39
 #, kde-format
 msgid "Selector"
 msgstr ""
 
-#: dkim-verify/dkimmanagerkeywidget.cpp:37
+#: dkim-verify/dkimmanagerkeywidget.cpp:39
 #, kde-format
 msgid "DKIM Key"
 msgstr ""
+
+#: dkim-verify/dkimmanagerkeywidget.cpp:57
+#, kde-format
+msgid "Remove Key"
+msgstr ""
+
+#: dkim-verify/dkimmanagerkeywidget.cpp:61
+#, fuzzy, kde-format
+#| msgid "Select All Text"
+msgid "Delete All"
+msgstr "選取所有文字"
 
 #: header/grantleeheaderformatter.cpp:169
 #, kde-format
@@ -844,20 +844,26 @@ msgstr ""
 msgid "Specifies the font to use for printing"
 msgstr ""
 
+#. i18n: ectx: label, entry (CheckPhishingUrl), group (Security)
+#: settings/messageviewer.kcfg.cmake:49
+#, kde-format
+msgid "Check if url can be a phishing"
+msgstr ""
+
 #. i18n: ectx: label, entry (CloseAfterReplyOrForward), group (Reader)
-#: settings/messageviewer.kcfg.cmake:54
+#: settings/messageviewer.kcfg.cmake:55
 #, kde-format
 msgid "Close message window after replying or forwarding"
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowExpandQuotesMark), group (Reader)
-#: settings/messageviewer.kcfg.cmake:71
+#: settings/messageviewer.kcfg.cmake:72
 #, kde-format
 msgid "Show expand/collapse quote marks"
 msgstr "顯示展開/折疊引言符號"
 
 #. i18n: ectx: whatsthis, entry (ShowExpandQuotesMark), group (Reader)
-#: settings/messageviewer.kcfg.cmake:72
+#: settings/messageviewer.kcfg.cmake:73
 #, kde-format
 msgid ""
 "Enable this option to show different levels of quoted text. Disable to hide "
@@ -865,92 +871,92 @@ msgid ""
 msgstr "如果您要顯示出不同的引言層次，請打開這個選項。"
 
 #. i18n: ectx: label, entry (CollapseQuoteLevelSpin), group (Reader)
-#: settings/messageviewer.kcfg.cmake:75
+#: settings/messageviewer.kcfg.cmake:76
 #, kde-format
 msgid "Automatic collapse level:"
 msgstr "自動折疊層次："
 
 #. i18n: ectx: label, entry (ShrinkQuotes), group (Reader)
-#: settings/messageviewer.kcfg.cmake:82
+#: settings/messageviewer.kcfg.cmake:83
 #, kde-format
 msgid "Reduce font size for quoted text"
 msgstr "引言字型變小"
 
 #. i18n: ectx: whatsthis, entry (ShrinkQuotes), group (Reader)
-#: settings/messageviewer.kcfg.cmake:83
+#: settings/messageviewer.kcfg.cmake:84
 #, kde-format
 msgid "Enable this option to show quoted text with a smaller font."
 msgstr "這個選項會讓引言使用較小的字型。"
 
 #. i18n: ectx: label, entry (AlwaysDecrypt), group (Reader)
-#: settings/messageviewer.kcfg.cmake:87
+#: settings/messageviewer.kcfg.cmake:88
 #, kde-format
 msgid "Always decrypt messages when viewing or ask before decrypting"
 msgstr "檢視信件時總是解密，或是解密前必須先詢問"
 
 #. i18n: ectx: label, entry (MimeTreeMode2), group (Reader)
-#: settings/messageviewer.kcfg.cmake:90
+#: settings/messageviewer.kcfg.cmake:91
 #, kde-format
 msgid "Message Structure Viewer"
 msgstr "信件結構列表"
 
 #. i18n: ectx: label, entry (MimeTreeMode2), group (Reader)
-#: settings/messageviewer.kcfg.cmake:93
+#: settings/messageviewer.kcfg.cmake:94
 #, kde-format
 msgid "Show never"
 msgstr "不顯示"
 
 #. i18n: ectx: label, entry (MimeTreeMode2), group (Reader)
-#: settings/messageviewer.kcfg.cmake:96
+#: settings/messageviewer.kcfg.cmake:97
 #, kde-format
 msgid "Show always"
 msgstr "顯示"
 
 #. i18n: ectx: label, entry (headerPluginStyleName), group (Reader)
 #. i18n: ectx: label, entry (headerStyle), group (Reader)
-#: settings/messageviewer.kcfg.cmake:108 settings/messageviewer.kcfg.cmake:114
+#: settings/messageviewer.kcfg.cmake:109 settings/messageviewer.kcfg.cmake:115
 #, kde-format
 msgid "What style of headers should be displayed"
 msgstr "要顯示哪種樣式的標頭"
 
 #. i18n: ectx: label, entry (headerSetDisplayed), group (Reader)
-#: settings/messageviewer.kcfg.cmake:118
+#: settings/messageviewer.kcfg.cmake:119
 #, kde-format
 msgid "How much of headers should be displayed"
 msgstr "要顯示多少標頭"
 
 #. i18n: ectx: label, entry (htmlMail), group (Reader)
-#: settings/messageviewer.kcfg.cmake:122
+#: settings/messageviewer.kcfg.cmake:123
 #, kde-format
 msgid "Prefer HTML to plain text"
 msgstr "偏好使用 HTML 而非純文字"
 
 #. i18n: ectx: label, entry (htmlLoadExternal), group (Reader)
-#: settings/messageviewer.kcfg.cmake:126
+#: settings/messageviewer.kcfg.cmake:127
 #, kde-format
 msgid "Allow messages to load external references from the Internet"
 msgstr "允許從遠端下載連結"
 
 #. i18n: ectx: label, entry (attachmentStrategy), group (Reader)
-#: settings/messageviewer.kcfg.cmake:130
+#: settings/messageviewer.kcfg.cmake:131
 #, kde-format
 msgid "How attachments are shown"
 msgstr "如何顯示附件"
 
 #. i18n: ectx: label, entry (RecycleQuoteColors), group (Reader)
-#: settings/messageviewer.kcfg.cmake:134
+#: settings/messageviewer.kcfg.cmake:135
 #, kde-format
 msgid "Specifies whether to reuse the quote color, beyond the 3rd level"
 msgstr "指定引言超過三層以上時，是否要重覆使用引言顏色"
 
 #. i18n: ectx: label, entry (AccessKeyEnabled), group (Reader)
-#: settings/messageviewer.kcfg.cmake:138
+#: settings/messageviewer.kcfg.cmake:139
 #, kde-format
 msgid "Activate Access Key"
 msgstr "啟動存取金鑰"
 
 #. i18n: ectx: label, entry (ScamDetectionEnabled), group (Reader)
-#: settings/messageviewer.kcfg.cmake:142
+#: settings/messageviewer.kcfg.cmake:143
 #, kde-format
 msgid ""
 "KMail can analyze messages for suspected email scams by looking for common "
@@ -960,25 +966,25 @@ msgstr ""
 "件。"
 
 #. i18n: ectx: label, entry (ScamDetectionWhiteList), group (Reader)
-#: settings/messageviewer.kcfg.cmake:146
+#: settings/messageviewer.kcfg.cmake:147
 #, kde-format
 msgid "List of emails in scam white list"
 msgstr "在詐騙白名單裡的電子郵件地址清單"
 
 #. i18n: ectx: label, entry (MailTrackingUrlEnabled), group (Reader)
-#: settings/messageviewer.kcfg.cmake:150
+#: settings/messageviewer.kcfg.cmake:151
 #, kde-format
 msgid "Scan emails for tracking URLs"
 msgstr ""
 
 #. i18n: ectx: label, entry (notSendWhenEncrypted), group (MDN)
-#: settings/messageviewer.kcfg.cmake:156
+#: settings/messageviewer.kcfg.cmake:157
 #, kde-format
 msgid "Do not send MDNs in response to encrypted messages"
 msgstr "對加密信件不要送出 MDN"
 
 #. i18n: ectx: label, entry (DefaultPolicy), group (MDN)
-#: settings/messageviewer.kcfg.cmake:160
+#: settings/messageviewer.kcfg.cmake:161
 #, kde-format
 msgid ""
 "Specifies the default policy to use, for the Message Disposition "
@@ -986,7 +992,7 @@ msgid ""
 msgstr "指定信件處理通知使用的預設政策（只內部使用）"
 
 #. i18n: ectx: label, entry (QuoteMessage), group (MDN)
-#: settings/messageviewer.kcfg.cmake:164
+#: settings/messageviewer.kcfg.cmake:165
 #, kde-format
 msgid ""
 "Specifies the default quoting action to take, when replying to a message "
@@ -994,13 +1000,13 @@ msgid ""
 msgstr "指定回覆信件時預設的引言動作（只內部使用）"
 
 #. i18n: ectx: label, entry (LegacyMangleFromToHeaders), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:180
+#: settings/messageviewer.kcfg.cmake:181
 #, kde-format
 msgid "Mangle From:/To: headers in replies to replies"
 msgstr "在回覆回信時 Mangle From/To headers"
 
 #. i18n: ectx: whatsthis, entry (LegacyMangleFromToHeaders), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:181
+#: settings/messageviewer.kcfg.cmake:182
 #, kde-format
 msgid ""
 "Microsoft Outlook has a number of shortcomings in its implementation of the "
@@ -1012,13 +1018,13 @@ msgstr ""
 "用 Outlook 的使用者收不到您的回覆，請試著打開這個選項。"
 
 #. i18n: ectx: label, entry (LegacyBodyInvites), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:186
+#: settings/messageviewer.kcfg.cmake:187
 #, kde-format
 msgid "Send groupware invitations in the mail body"
 msgstr "在信件主體中送出群組邀請函"
 
 #. i18n: ectx: whatsthis, entry (LegacyBodyInvites), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:187
+#: settings/messageviewer.kcfg.cmake:188
 #, kde-format
 msgid ""
 "Microsoft Outlook has a number of shortcomings in its implementation of the "
@@ -1030,13 +1036,13 @@ msgstr ""
 "用 Outlook 的使用者收不到您的邀請函，請試著打開這個選項。"
 
 #. i18n: ectx: label, entry (ExchangeCompatibleInvitations), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:192
+#: settings/messageviewer.kcfg.cmake:193
 #, kde-format
 msgid "Exchange-compatible invitation naming"
 msgstr "與 Exchange 相容的邀請函命名"
 
 #. i18n: ectx: whatsthis, entry (ExchangeCompatibleInvitations), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:193
+#: settings/messageviewer.kcfg.cmake:194
 #, kde-format
 msgid ""
 "Microsoft Outlook, when used in combination with a Microsoft Exchange "
@@ -1049,13 +1055,13 @@ msgstr ""
 "請函。"
 
 #. i18n: ectx: label, entry (AutomaticSending), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:198
+#: settings/messageviewer.kcfg.cmake:199
 #, kde-format
 msgid "Automatic invitation sending"
 msgstr "自動送出邀請函"
 
 #. i18n: ectx: whatsthis, entry (AutomaticSending), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:199
+#: settings/messageviewer.kcfg.cmake:200
 #, kde-format
 msgid ""
 "When this is checked, you will not see the mail composer window. Instead, "
@@ -1070,13 +1076,13 @@ msgstr ""
 
 #. i18n: ectx: label, entry (DeleteInvitationEmailsAfterSendingReply), group (Invitations)
 #. i18n: ectx: property (text), widget (QCheckBox, mDeleteInvitations)
-#: settings/messageviewer.kcfg.cmake:204 ui/invitationsettings.ui:74
+#: settings/messageviewer.kcfg.cmake:205 ui/invitationsettings.ui:74
 #, kde-format
 msgid "Delete invitation emails after the reply to them has been sent"
 msgstr "回覆後刪除邀請信函"
 
 #. i18n: ectx: whatsthis, entry (DeleteInvitationEmailsAfterSendingReply), group (Invitations)
-#: settings/messageviewer.kcfg.cmake:205
+#: settings/messageviewer.kcfg.cmake:206
 #, kde-format
 msgid ""
 "When this is checked, received invitation emails that have been replied to "
@@ -1084,25 +1090,25 @@ msgid ""
 msgstr "勾選此項目的話，已接收的邀請信函會在回覆成功送出後移到垃圾桶。"
 
 #. i18n: ectx: label, entry (UseFixedFont), group (Composer)
-#: settings/messageviewer.kcfg.cmake:229 viewer/viewer_p.cpp:1660
+#: settings/messageviewer.kcfg.cmake:230 viewer/viewer_p.cpp:1660
 #, kde-format
 msgid "Use Fi&xed Font"
 msgstr "使用固定寬度文字(&X)"
 
 #. i18n: ectx: whatsthis, entry (LastSelectedFolder), group (Todo)
-#: settings/messageviewer.kcfg.cmake:236
+#: settings/messageviewer.kcfg.cmake:237
 #, kde-format
 msgid "The most recent selected folder using for Todo."
 msgstr "最近選擇的用於待辦事項的資料夾。"
 
 #. i18n: ectx: whatsthis, entry (LastEventSelectedFolder), group (Event)
-#: settings/messageviewer.kcfg.cmake:242
+#: settings/messageviewer.kcfg.cmake:243
 #, kde-format
 msgid "The most recent selected folder using for Event."
 msgstr "最近選擇的用於事件的資料夾。"
 
 #. i18n: ectx: whatsthis, entry (LastNoteSelectedFolder), group (Note)
-#: settings/messageviewer.kcfg.cmake:248
+#: settings/messageviewer.kcfg.cmake:249
 #, kde-format
 msgid "The most recent selected folder using for Notes."
 msgstr "最近選擇的用於便條的資料夾。"
@@ -2096,3 +2102,8 @@ msgstr "下一張名片(&N)"
 #, kde-format
 msgid "&Previous Card"
 msgstr "上一張名片(&P)"
+
+#, fuzzy
+#~| msgid "The signature has expired."
+#~ msgid "Signature Expired"
+#~ msgstr "簽章已經過期。"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-08 03:19+0200\n"
+"POT-Creation-Date: 2019-10-09 03:27+0200\n"
 "PO-Revision-Date: 2019-09-22 18:51+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -19,24 +19,24 @@ msgstr ""
 "X-Generator: Lokalize 19.08.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: discover/DiscoverObject.cpp:156
+#: discover/DiscoverObject.cpp:161
 #, kde-format
 msgid "No application back-ends found, please report to your distribution."
 msgstr "找不到應用程式後端，請回報此問題到您的發行版。"
 
-#: discover/DiscoverObject.cpp:227
+#: discover/DiscoverObject.cpp:232
 #, kde-format
 msgid "Could not find category '%1'"
 msgstr "找不到分類 '%1'"
 
-#: discover/DiscoverObject.cpp:262
+#: discover/DiscoverObject.cpp:267
 #, kde-format
 msgid ""
 "Cannot interact with flatpak resources without the flatpak backend %1. "
 "Please install it first."
 msgstr "無法在無 Flatpak 前端 %1 情況下與 Flatpak 資源互動。請先安裝它。"
 
-#: discover/DiscoverObject.cpp:265 discover/DiscoverObject.cpp:293
+#: discover/DiscoverObject.cpp:270 discover/DiscoverObject.cpp:298
 #, kde-format
 msgid "Couldn't open %1"
 msgstr "無法開啟 %1"
@@ -91,7 +91,7 @@ msgstr "搜尋字串。"
 msgid "Supports appstream: url scheme"
 msgstr "支援 appstream：網址機制"
 
-#: discover/main.cpp:102 discover/qml/DiscoverWindow.qml:51
+#: discover/main.cpp:102 discover/qml/DiscoverWindow.qml:57
 #, kde-format
 msgid "Discover"
 msgstr "探詢"
@@ -168,9 +168,9 @@ msgstr "增加一個新的 %1 軟體庫"
 msgid "Add"
 msgstr "新增"
 
-#: discover/qml/AddSourceDialog.qml:86 discover/qml/DiscoverWindow.qml:219
+#: discover/qml/AddSourceDialog.qml:86 discover/qml/DiscoverWindow.qml:225
 #: discover/qml/InstallApplicationButton.qml:31
-#: discover/qml/SourcesPage.qml:128 discover/qml/UpdatesPage.qml:104
+#: discover/qml/SourcesPage.qml:130 discover/qml/UpdatesPage.qml:104
 #, kde-format
 msgid "Cancel"
 msgstr "取消"
@@ -186,8 +186,7 @@ msgstr[0] "%1 個評分"
 msgid "No ratings yet"
 msgstr "目前還沒有評分"
 
-#: discover/qml/ApplicationPage.qml:71 discover/qml/DiscoverWindow.qml:89
-#: discover/qml/SourcesPage.qml:12
+#: discover/qml/ApplicationPage.qml:71
 #, kde-format
 msgid "Sources"
 msgstr "來源"
@@ -344,67 +343,123 @@ msgstr "無法載入應用程式。<nl/>請檢查網路是否可供連線。"
 msgid "Return to the Featured page"
 msgstr "回到「特色應用程式」頁面"
 
-#: discover/qml/DiscoverWindow.qml:46
+#: discover/qml/DiscoverWindow.qml:47
 #, kde-format
 msgid "Running as <em>root</em> is discouraged and unnecessary."
 msgstr "以 <em>root</em> 身份執行是不被鼓勵且不需要的。"
 
-#: discover/qml/DiscoverWindow.qml:60
+#: discover/qml/DiscoverWindow.qml:66
 #, kde-format
 msgid "Search"
 msgstr "搜尋"
 
-#: discover/qml/DiscoverWindow.qml:68 discover/qml/InstalledPage.qml:16
+#: discover/qml/DiscoverWindow.qml:74 discover/qml/InstalledPage.qml:16
 #, kde-format
 msgid "Installed"
 msgstr "已安裝"
 
-#: discover/qml/DiscoverWindow.qml:75
+#: discover/qml/DiscoverWindow.qml:81
 #, kde-format
 msgid "Fetching Updates..."
 msgstr "抓取更新中…"
 
-#: discover/qml/DiscoverWindow.qml:75
+#: discover/qml/DiscoverWindow.qml:81
 #, kde-format
 msgid "Up to Date"
 msgstr "更新至最新"
 
-#: discover/qml/DiscoverWindow.qml:75
+#: discover/qml/DiscoverWindow.qml:81
 #, kde-format
 msgctxt "Update section name"
 msgid "Update (%1)"
 msgstr "更新 (%1)"
 
-#: discover/qml/DiscoverWindow.qml:82
+#: discover/qml/DiscoverWindow.qml:88
 #, kde-format
 msgid "About"
 msgstr "關於"
 
-#: discover/qml/DiscoverWindow.qml:129
+#: discover/qml/DiscoverWindow.qml:95 discover/qml/SourcesPage.qml:12
+#, kde-format
+msgid "Settings"
+msgstr ""
+
+#: discover/qml/DiscoverWindow.qml:135
 #, kde-format
 msgid "Sorry..."
 msgstr "抱歉 ..."
 
-#: discover/qml/DiscoverWindow.qml:132
+#: discover/qml/DiscoverWindow.qml:138
 #, kde-format
 msgid "Could not close Discover, there are tasks that need to be done."
 msgstr "無法關閉 Discover，仍有需要完成的作業。"
 
-#: discover/qml/DiscoverWindow.qml:132
+#: discover/qml/DiscoverWindow.qml:138
 #, kde-format
 msgid "Quit Anyway"
 msgstr "仍然關閉"
 
-#: discover/qml/DiscoverWindow.qml:134
+#: discover/qml/DiscoverWindow.qml:140
 #, kde-format
 msgid "Unable to find resource: %1"
 msgstr "找不到資源：%1"
 
-#: discover/qml/DiscoverWindow.qml:207 discover/qml/SourcesPage.qml:118
+#: discover/qml/DiscoverWindow.qml:213 discover/qml/SourcesPage.qml:120
 #: discover/qml/UpdatesPage.qml:50
 #, kde-format
 msgid "Proceed"
 msgstr "繼續"
+
+#: discover/qml/Feedback.qml:10
+#, kde-format
+msgid "Submit usage information"
+msgstr ""
+
+#: discover/qml/Feedback.qml:11
+#, kde-format
+msgid ""
+"Sends anonymized usage information to KDE so we can better understand our "
+"users. For more information see https://kde.org/privacypolicy-apps.php."
+msgstr ""
+
+#: discover/qml/Feedback.qml:14
+#, fuzzy, kde-format
+#| msgid "More Information..."
+msgid "Submitting usage information..."
+msgstr "更多資訊..."
+
+#: discover/qml/Feedback.qml:14
+#, kde-format
+msgid "Configure"
+msgstr ""
+
+#: discover/qml/Feedback.qml:18
+#, kde-format
+msgid "Configure feedback..."
+msgstr ""
+
+#: discover/qml/Feedback.qml:47
+#, kde-format
+msgid ""
+"You can help us improving this application by sharing statistics and "
+"participate in surveys."
+msgstr ""
+
+#: discover/qml/Feedback.qml:47
+#, fuzzy, kde-format
+#| msgid "More..."
+msgid "Contribute..."
+msgstr "更多..."
+
+#: discover/qml/Feedback.qml:52
+#, kde-format
+msgid "We are looking for your feedback!"
+msgstr ""
+
+#: discover/qml/Feedback.qml:52
+#, kde-format
+msgid "Participate..."
+msgstr ""
 
 #: discover/qml/InstallApplicationButton.qml:14
 #, kde-format
@@ -561,47 +616,47 @@ msgstr "搜尋..."
 msgid "Search in '%1'..."
 msgstr "搜尋於 %1..."
 
-#: discover/qml/SourcesPage.qml:39
+#: discover/qml/SourcesPage.qml:41
 #, kde-format
 msgid "%1 (Default)"
 msgstr "%1（預設值）"
 
-#: discover/qml/SourcesPage.qml:66
+#: discover/qml/SourcesPage.qml:68
 #, kde-format
 msgid "Add Source..."
 msgstr "新增來源 ..."
 
-#: discover/qml/SourcesPage.qml:90
+#: discover/qml/SourcesPage.qml:92
 #, kde-format
 msgid "Make default"
 msgstr "設為預設值"
 
-#: discover/qml/SourcesPage.qml:160
+#: discover/qml/SourcesPage.qml:162
 #, kde-format
 msgid "Failed to increase '%1' preference"
 msgstr "無法增加「%1」設定"
 
-#: discover/qml/SourcesPage.qml:170
+#: discover/qml/SourcesPage.qml:172
 #, kde-format
 msgid "Failed to decrease '%1' preference"
 msgstr "無法移除「%1」設定"
 
-#: discover/qml/SourcesPage.qml:175
+#: discover/qml/SourcesPage.qml:177
 #, kde-format
 msgid "Delete the origin"
 msgstr "刪除來源"
 
-#: discover/qml/SourcesPage.qml:180
+#: discover/qml/SourcesPage.qml:182
 #, kde-format
 msgid "Failed to remove the source '%1'"
 msgstr "無法移除資源「%1」"
 
-#: discover/qml/SourcesPage.qml:186
+#: discover/qml/SourcesPage.qml:188
 #, kde-format
 msgid "Show contents"
 msgstr "顯示內容"
 
-#: discover/qml/SourcesPage.qml:225
+#: discover/qml/SourcesPage.qml:227
 #, kde-format
 msgid "Missing Backends"
 msgstr "遺失後輟"

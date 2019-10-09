@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-20 02:46+0200\n"
+"POT-Creation-Date: 2019-10-09 02:43+0200\n"
 "PO-Revision-Date: 2019-03-23 12:05+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -62,19 +62,24 @@ msgid ""
 "or the module has been disabled by the administrator.</p></qt>"
 msgstr "<qt><p>此模組設定的軟硬體無法使用，或是模組已被管理者關閉。</p></qt>"
 
-#: kcmoduleloader.cpp:139
+#: kcmoduleloader.cpp:106
+#, kde-format
+msgid "Error loading QML file."
+msgstr ""
+
+#: kcmoduleloader.cpp:143
 #, kde-format
 msgid "The module %1 is not a valid configuration module."
 msgstr "模組 %1 不是一個有效的設定模組。"
 
-#: kcmoduleloader.cpp:140
+#: kcmoduleloader.cpp:144
 #, kde-format
 msgid ""
 "<qt>The diagnosis is:<br />The desktop file %1 does not specify a library.</"
 "qt>"
 msgstr "<qt>診斷結果：<br />桌面設定檔 %1 未指定一個程式庫。</qt>"
 
-#: kcmoduleloader.cpp:155
+#: kcmoduleloader.cpp:159
 #, kde-format
 msgid ""
 "<qt><p>Possible reasons:<ul><li>An error occurred during your last system "
