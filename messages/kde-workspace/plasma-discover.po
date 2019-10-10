@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-09 03:27+0200\n"
+"POT-Creation-Date: 2019-10-10 03:32+0200\n"
 "PO-Revision-Date: 2019-10-09 20:43+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -168,7 +168,7 @@ msgstr "增加一個新的 %1 軟體庫"
 msgid "Add"
 msgstr "新增"
 
-#: discover/qml/AddSourceDialog.qml:86 discover/qml/DiscoverWindow.qml:225
+#: discover/qml/AddSourceDialog.qml:86 discover/qml/DiscoverWindow.qml:243
 #: discover/qml/InstallApplicationButton.qml:31
 #: discover/qml/SourcesPage.qml:130 discover/qml/UpdatesPage.qml:104
 #, kde-format
@@ -404,7 +404,17 @@ msgstr "仍然關閉"
 msgid "Unable to find resource: %1"
 msgstr "找不到資源：%1"
 
-#: discover/qml/DiscoverWindow.qml:213 discover/qml/SourcesPage.qml:120
+#: discover/qml/DiscoverWindow.qml:225
+#, kde-format
+msgid "Show all"
+msgstr ""
+
+#: discover/qml/DiscoverWindow.qml:225
+#, kde-format
+msgid "Hide"
+msgstr ""
+
+#: discover/qml/DiscoverWindow.qml:231 discover/qml/SourcesPage.qml:120
 #: discover/qml/UpdatesPage.qml:50
 #, kde-format
 msgid "Proceed"
@@ -421,12 +431,11 @@ msgid ""
 "Sends anonymized usage information to KDE so we can better understand our "
 "users. For more information see https://kde.org/privacypolicy-apps.php."
 msgstr ""
-"傳送匿名使用資訊給 KDE，以讓這程式能更貼合使用者的需求。"
-"請瀏覽 https://kde.org/privacypolicy-apps.php 取得更多資訊。"
+"傳送匿名使用資訊給 KDE，以讓這程式能更貼合使用者的需求。請瀏覽 https://kde."
+"org/privacypolicy-apps.php 取得更多資訊。"
 
 #: discover/qml/Feedback.qml:14
 #, kde-format
-#| msgid "More Information..."
 msgid "Submitting usage information..."
 msgstr "提交使用量資訊…"
 
@@ -449,7 +458,6 @@ msgstr "您可以藉由分享統計資料及參與問卷調查以協助我們改
 
 #: discover/qml/Feedback.qml:47
 #, kde-format
-#| msgid "More..."
 msgid "Contribute..."
 msgstr "貢獻…"
 
@@ -538,12 +546,14 @@ msgstr "來自 %1 的註解"
 #: discover/qml/ReviewDelegate.qml:73
 #, kde-format
 msgid "<em>Useful? <a href='true'><b>Yes</b></a>/<a href='false'>No</a></em>"
-msgstr "<em>有用嗎？<a href='true'><b>是的</b></a>/<a href='false'>沒用</a></em>"
+msgstr ""
+"<em>有用嗎？<a href='true'><b>是的</b></a>/<a href='false'>沒用</a></em>"
 
 #: discover/qml/ReviewDelegate.qml:76
 #, kde-format
 msgid "<em>Useful? <a href='true'>Yes</a>/<a href='false'><b>No</b></a></em>"
-msgstr "<em>有用嗎？<a href='true'>是的</a>/<a href='false'><b>沒用</b></a></em>"
+msgstr ""
+"<em>有用嗎？<a href='true'>是的</a>/<a href='false'><b>沒用</b></a></em>"
 
 #: discover/qml/ReviewDelegate.qml:79
 #, kde-format

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-08 03:09+0200\n"
+"POT-Creation-Date: 2019-10-10 03:18+0200\n"
 "PO-Revision-Date: 2018-05-19 11:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -33,19 +33,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "keanu@ms50.url.com.tw, franklin@goodhorse.idv.tw"
 
-#: akonadimodel.cpp:731 resourceselector.cpp:592
+#: akonadimodel.cpp:732 resourceselector.cpp:592
 #, kde-format
 msgctxt "@info"
 msgid "Disabled"
 msgstr "已關閉"
 
-#: akonadimodel.cpp:819
+#: akonadimodel.cpp:820
 #, kde-format
 msgctxt "@info"
 msgid "Failed to update calendar \"%1\"."
 msgstr "更新行事曆「%1」失敗。"
 
-#: akonadimodel.cpp:821
+#: akonadimodel.cpp:822
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -55,19 +55,19 @@ msgstr ""
 "%1\n"
 "(%2)"
 
-#: akonadimodel.cpp:1121
+#: akonadimodel.cpp:1122
 #, kde-format
 msgctxt "@info"
 msgid "Failed to create alarm."
 msgstr "建立鬧鐘失敗。"
 
-#: akonadimodel.cpp:1123
+#: akonadimodel.cpp:1124
 #, kde-format
 msgctxt "@info"
 msgid "Failed to update alarm."
 msgstr "更新鬧鐘失敗。"
 
-#: akonadimodel.cpp:1125
+#: akonadimodel.cpp:1126
 #, kde-format
 msgctxt "@info"
 msgid "Failed to delete alarm."
@@ -93,7 +93,7 @@ msgid ""
 "para><para><filename>%1</filename></para>"
 msgstr ""
 
-#: alarmcalendar.cpp:250 alarmcalendar.cpp:636
+#: alarmcalendar.cpp:251 alarmcalendar.cpp:645
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot download calendar: <filename>%1</filename>"
@@ -101,7 +101,7 @@ msgstr ""
 "無法下載行事曆：\n"
 "<filename>%1</filename>"
 
-#: alarmcalendar.cpp:278
+#: alarmcalendar.cpp:279
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -111,49 +111,49 @@ msgstr ""
 "<para>載入行事曆錯誤：</para><para><filename>%1</filename></para><para>請修復"
 "或刪除此檔案。</para>"
 
-#: alarmcalendar.cpp:339
+#: alarmcalendar.cpp:340
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Failed to save calendar to <filename>%1</filename>"
 msgstr "無法儲存行事曆到 <filename>%1</filename>"
 
-#: alarmcalendar.cpp:353
+#: alarmcalendar.cpp:354
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot upload calendar to <filename>%1</filename>"
 msgstr "無法上傳行事曆到 <filename>%1</filename>"
 
-#: alarmcalendar.cpp:602 alarmcalendar.cpp:734
+#: alarmcalendar.cpp:611 alarmcalendar.cpp:741
 #, kde-format
 msgctxt "@info"
 msgid "Calendar Files"
 msgstr "行事曆檔案"
 
-#: alarmcalendar.cpp:625 alarmcalendar.cpp:654
+#: alarmcalendar.cpp:634 alarmcalendar.cpp:663
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not load calendar <filename>%1</filename>."
 msgstr "無法載入行事曆檔 <filename>%1</filename>"
 
-#: alarmcalendar.cpp:735
+#: alarmcalendar.cpp:742
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose Export Calendar"
 msgstr "選擇要匯出的行事曆"
 
-#: alarmcalendar.cpp:760
+#: alarmcalendar.cpp:767
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Error loading calendar to append to:<nl/><filename>%1</filename>"
 msgstr "無法載褥行事曆並附加到：<nl/><filename>%1</filename>"
 
-#: alarmcalendar.cpp:800
+#: alarmcalendar.cpp:807
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Failed to save new calendar to:<nl/><filename>%1</filename>"
 msgstr "無法儲存行事曆到：<nl/><filename>%1</filename>"
 
-#: alarmcalendar.cpp:813
+#: alarmcalendar.cpp:820
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot upload new calendar to:<nl/><filename>%1</filename>"
@@ -2364,7 +2364,7 @@ msgstr ""
 "無法建立或更新鬧鐘，因為沒有開啟任何可寫入的鬧鐘行事曆。<nl/><nl/>要修正這個"
 "問題，請用<interface>檢視 | 顯示行事曆</interface>來檢查或變更行事曆狀態。"
 
-#: kalarmapp.cpp:2060
+#: kalarmapp.cpp:2062
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -2374,19 +2374,19 @@ msgstr ""
 "執行指令失敗\n"
 "（指令鬧鐘尚未指定終端）"
 
-#: kalarmapp.cpp:2208
+#: kalarmapp.cpp:2210
 #, kde-format
 msgctxt "@info"
 msgid "Error creating temporary script file"
 msgstr "產生暫時文稿檔案時發生錯誤"
 
-#: kalarmapp.cpp:2297
+#: kalarmapp.cpp:2299
 #, kde-format
 msgctxt "@info"
 msgid "Pre-alarm action:"
 msgstr "鬧鐘響鈴前動作："
 
-#: kalarmapp.cpp:2303
+#: kalarmapp.cpp:2305
 #, kde-format
 msgctxt "@info"
 msgid "Post-alarm action:"

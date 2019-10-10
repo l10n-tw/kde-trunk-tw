@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-09 03:17+0200\n"
+"POT-Creation-Date: 2019-10-10 03:24+0200\n"
 "PO-Revision-Date: 2015-06-17 09:27+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -561,128 +561,128 @@ msgstr "密件副本："
 msgid "Reply to: "
 msgstr "回覆給："
 
-#: messagepartthemes/default/defaultrenderer.cpp:84
+#: messagepartthemes/default/defaultrenderer.cpp:85
 #, kde-format
 msgid "Error: Signature not verified"
 msgstr "錯誤： 簽章未驗證"
 
-#: messagepartthemes/default/defaultrenderer.cpp:88
+#: messagepartthemes/default/defaultrenderer.cpp:89
 #, kde-format
 msgid "Good signature"
 msgstr "好的簽章"
 
-#: messagepartthemes/default/defaultrenderer.cpp:92
+#: messagepartthemes/default/defaultrenderer.cpp:93
 #, fuzzy, kde-format
 #| msgid "Good signature"
 msgid "Bad signature"
 msgstr "好的簽章"
 
-#: messagepartthemes/default/defaultrenderer.cpp:96
+#: messagepartthemes/default/defaultrenderer.cpp:97
 #, kde-format
 msgid "No public key to verify the signature"
 msgstr "沒有公開金鑰可以驗證簽章"
 
-#: messagepartthemes/default/defaultrenderer.cpp:100
+#: messagepartthemes/default/defaultrenderer.cpp:101
 #, kde-format
 msgid "No signature found"
 msgstr "找不到簽章"
 
-#: messagepartthemes/default/defaultrenderer.cpp:104
+#: messagepartthemes/default/defaultrenderer.cpp:105
 #, kde-format
 msgid "Error verifying the signature"
 msgstr "驗證簽章時發生錯誤"
 
-#: messagepartthemes/default/defaultrenderer.cpp:108
+#: messagepartthemes/default/defaultrenderer.cpp:109
 #, kde-format
 msgid "Different results for signatures"
 msgstr "簽章檢查結果不同"
 
-#: messagepartthemes/default/defaultrenderer.cpp:128
+#: messagepartthemes/default/defaultrenderer.cpp:129
 #, kde-format
 msgid "No status information available."
 msgstr "沒有可用的狀態資訊"
 
-#: messagepartthemes/default/defaultrenderer.cpp:135
-#: messagepartthemes/default/defaultrenderer.cpp:220
+#: messagepartthemes/default/defaultrenderer.cpp:136
+#: messagepartthemes/default/defaultrenderer.cpp:221
 #, kde-format
 msgid "Good signature."
 msgstr "好的簽章。"
 
-#: messagepartthemes/default/defaultrenderer.cpp:156
+#: messagepartthemes/default/defaultrenderer.cpp:157
 #, kde-format
 msgid "One key has expired."
 msgstr "有一個金鑰已經過期了。"
 
-#: messagepartthemes/default/defaultrenderer.cpp:160
+#: messagepartthemes/default/defaultrenderer.cpp:161
 #, kde-format
 msgid "The signature has expired."
 msgstr "簽章已經過期。"
 
-#: messagepartthemes/default/defaultrenderer.cpp:165
+#: messagepartthemes/default/defaultrenderer.cpp:166
 #, kde-format
 msgid "Unable to verify: key missing."
 msgstr "無法驗證：金鑰遺失。"
 
-#: messagepartthemes/default/defaultrenderer.cpp:172
+#: messagepartthemes/default/defaultrenderer.cpp:173
 #, kde-format
 msgid "CRL not available."
 msgstr "無效的 CRL。"
 
-#: messagepartthemes/default/defaultrenderer.cpp:176
+#: messagepartthemes/default/defaultrenderer.cpp:177
 #, kde-format
 msgid "Available CRL is too old."
 msgstr "有效的 CRL 已經太舊了"
 
-#: messagepartthemes/default/defaultrenderer.cpp:180
+#: messagepartthemes/default/defaultrenderer.cpp:181
 #, kde-format
 msgid "A policy was not met."
 msgstr "沒有找到原則"
 
-#: messagepartthemes/default/defaultrenderer.cpp:184
+#: messagepartthemes/default/defaultrenderer.cpp:185
 #, kde-format
 msgid "A system error occurred."
 msgstr "系統發生錯誤"
 
-#: messagepartthemes/default/defaultrenderer.cpp:195
+#: messagepartthemes/default/defaultrenderer.cpp:196
 #, kde-format
 msgid "One key has been revoked."
 msgstr "已撤消一個金鑰。"
 
-#: messagepartthemes/default/defaultrenderer.cpp:222
+#: messagepartthemes/default/defaultrenderer.cpp:223
 #, fuzzy, kde-format
 #| msgid "Good signature."
 msgid "Bad signature."
 msgstr "好的簽章。"
 
-#: messagepartthemes/default/defaultrenderer.cpp:649
-#: messagepartthemes/default/defaultrenderer.cpp:651
+#: messagepartthemes/default/defaultrenderer.cpp:653
+#: messagepartthemes/default/defaultrenderer.cpp:655
 #, kde-format
 msgid "certificate"
 msgstr "憑證"
 
-#: messagepartthemes/default/defaultrenderer.cpp:658
-#: messagepartthemes/default/defaultrenderer.cpp:687
+#: messagepartthemes/default/defaultrenderer.cpp:662
+#: messagepartthemes/default/defaultrenderer.cpp:691
 #, kde-format
 msgctxt "Start of warning message."
 msgid "Warning:"
 msgstr "警告："
 
-#: messagepartthemes/default/defaultrenderer.cpp:661
+#: messagepartthemes/default/defaultrenderer.cpp:665
 #, kde-format
 msgid "Sender's mail address is not stored in the %1 used for signing."
 msgstr "寄件者用於簽署的電子郵件地址沒有保存在 %1。"
 
-#: messagepartthemes/default/defaultrenderer.cpp:664
+#: messagepartthemes/default/defaultrenderer.cpp:668
 #, kde-format
 msgid "sender: "
 msgstr "寄件者："
 
-#: messagepartthemes/default/defaultrenderer.cpp:667
+#: messagepartthemes/default/defaultrenderer.cpp:671
 #, kde-format
 msgid "stored: "
 msgstr "保存："
 
-#: messagepartthemes/default/defaultrenderer.cpp:689
+#: messagepartthemes/default/defaultrenderer.cpp:693
 #, kde-format
 msgid ""
 "No mail address is stored in the %1 used for signing, so we cannot compare "
