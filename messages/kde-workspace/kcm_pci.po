@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kcm_pci\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-08-02 03:09+0200\n"
-"PO-Revision-Date: 2019-08-06 23:01+0800\n"
+"PO-Revision-Date: 2019-10-11 19:06+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "dot tw>\n"
-"X-Generator: Lokalize 19.07.90\n"
+"X-Generator: Lokalize 19.08.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -993,9 +993,9 @@ msgid "Processing accelerators"
 msgstr "處理加速器"
 
 #: kpci_private.h:469
-#, fuzzy, kde-format
+#, kde-format
 msgid "Non-Essential Instrumentation"
-msgstr "非必須儀器裝置"
+msgstr "非基本檢測工具"
 
 #: kpci_private.h:470
 #, kde-format
@@ -1621,16 +1621,14 @@ msgstr "PCI 僅原生模式控制器，支援匯流排主控"
 msgid ""
 "ISA Compatibility mode controller, supports both channels switched to PCI "
 "native mode, supports bus mastering"
-msgstr ""
-"ISA 相容模式控制器，支援兩個切換到 PCI 原生模式的頻道，且支援匯流排主控"
+msgstr "ISA 相容模式控制器，支援兩個切換到 PCI 原生模式的頻道，且支援匯流排主控"
 
 #: kpci_private.h:638
 #, kde-format
 msgid ""
 "PCI native mode controller, supports both channels switched to ISA "
 "compatibility mode, supports bus mastering"
-msgstr ""
-"PCI 原生模式控制器，支援兩個切換到 ISA 相容模式的頻道，且支援匯流排主控"
+msgstr "PCI 原生模式控制器，支援兩個切換到 ISA 相容模式的頻道，且支援匯流排主控"
 
 #: kpci_private.h:640
 #, kde-format

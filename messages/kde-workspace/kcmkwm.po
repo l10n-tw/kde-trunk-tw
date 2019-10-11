@@ -12,14 +12,14 @@ msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-09-20 03:31+0200\n"
-"PO-Revision-Date: 2019-09-29 20:57+0800\n"
+"PO-Revision-Date: 2019-10-11 18:59+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.08.1\n"
+"X-Generator: Lokalize 19.08.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -609,13 +609,13 @@ msgstr "您可使用此選項指定何時或如何使視窗變成焦點。"
 #, kde-format
 msgctxt "sassa asas"
 msgid "Click to focus"
-msgstr "按一下成為焦點"
+msgstr "按一下取得焦點"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
 #: focus.ui:41
 #, kde-format
 msgid "Click to focus (mouse precedence)"
-msgstr "按一下成為焦點（滑鼠優先）"
+msgstr "按一下取得焦點 (滑鼠優先)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
 #: focus.ui:46
@@ -627,7 +627,7 @@ msgstr "將焦點設為滑鼠所在位置"
 #: focus.ui:51
 #, kde-format
 msgid "Focus follows mouse (mouse precedence)"
-msgstr "將焦點設為滑鼠所在位置（滑鼠優先）"
+msgstr "將焦點設為滑鼠所在位置 (滑鼠優先)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
 #: focus.ui:56
@@ -639,7 +639,7 @@ msgstr "將游標下位置設為焦點"
 #: focus.ui:61
 #, kde-format
 msgid "Focus strictly under mouse"
-msgstr "將游標下位置嚴格設為焦點"
+msgstr "嚴格將游標下位置設為焦點"
 
 #. i18n: ectx: property (text), widget (QLabel, delayFocusOnLabel)
 #: focus.ui:69
@@ -1213,7 +1213,7 @@ msgstr ""
 "</p></body></html>"
 
 #: windows.cpp:175
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<b>Click To Focus - Mouse Precedence</b><br>\n"
 #| "This is mostly the same as <i>Click To Focus</i><br><br>\n"
@@ -1229,14 +1229,14 @@ msgid ""
 "the mouse is the preferred candidate. Unusual, but possible variant of <span "
 "style=\" font-style:italic;\">Click to focus</span>.</p></body></html>"
 msgstr ""
-"<b>點擊以取得焦點 - 再來依滑鼠位置</b><br/>\n"
-"跟「點擊以取得焦點」幾乎一樣<br/><br/>\n"
-"不過在系統必須決定目前作用的視窗（例如作用中<br/>的視窗被關閉）的狀況下，會改"
-"用滑鼠位置下的視窗。<br/><br/>\n"
-"算是「點擊以取得焦點」的一種變化形。"
+"<html><head/><body><p><span style=\" font-style:italic;\">按一下取得焦點 ("
+"滑鼠優先)：</span>幾乎跟 <span style=\" font-style: italic;\">按一下取得焦點</span> "
+"一樣。如果系統要選取某個視窗成使用中（例如：因為目前的使用中視窗已被關閉），"
+"則滑鼠下方的視窗會第一順位使用。算是 <span style=\" font-style:italic;\">"
+"按一下取得焦點</span> 的變化型。</p></body></html>"
 
 #: windows.cpp:178
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<b>Focus Follows Mouse</b><br>\n"
 #| "Moving the mouse onto a window will activate it.<br><br>\n"
@@ -1252,14 +1252,17 @@ msgid ""
 "Think as <span style=\" font-style:italic;\">Click to focus</span> just "
 "without having to actually click.</p></body></html>"
 msgstr ""
-"<b>焦點跟隨滑鼠</b><br/>\n"
-"將滑鼠移到某個視窗上，該視窗即設為作用中。<br/><br/>\n"
-"不過如果是隨機跳出到滑鼠位置下的視窗則不會取得焦點。<br/>\n"
-"也就是焦點不會隨便被「偷」走。<br/><br/>\n"
-"可以想像成就是「點擊以取得焦點」，但不必真的點擊。"
+"<html><head/><body><p>"
+"<span style=\"font-style:italic;\">將焦點設成滑鼠所在位置：</span>"
+"將會把某個滑鼠移動到的視窗設為焦點。"
+"例如：隨機出現在滑鼠底下的視窗不會取得焦點。"
+"通常會有<span style=\"font-style:italic;\">防止盜取焦點</span>。"
+"可以想成<span style=\"font-style:italic;\">按一下取得焦點</span>，"
+"但不用實際點選。"
+"</p></body></html>"
 
 #: windows.cpp:181
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<b>Focus Follows Mouse - Mouse Precedence</b><br>\n"
 #| "This is mostly the same as <i>Focus Follows Mouse</i><br><br>\n"
@@ -1274,14 +1277,13 @@ msgid ""
 "under the mouse is the preferred candidate. Choose this, if you want a hover "
 "controlled focus.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>這跟 <span style=\" font-style:italic;\">焦點跟隨滑鼠</"
-"span> 幾乎一樣<br/><br/>\n"
-"不過在系統必須決定目前作用的視窗（例如作用中<br/>的視窗被關閉）的狀況下，會改"
-"用滑鼠位置下的視窗。<br/><br/>\n"
-"如果您要用滑鼠移動的位置決定焦點視窗，則選取此項。"
+"<html><head/><body><p>這跟 <span style=\" font-style: italic;\">"
+"將焦點設成滑鼠所在位置</span> 幾乎相同。如果系統要選取某個視窗成"
+"使用中（例如：因為目前的使用中視窗已被關閉），則滑鼠下方的視窗會"
+"第一順位使用。如果你想要由懸停控制的焦點，請選擇。</p></body></html>"
 
 #: windows.cpp:184
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<b>Focus Under Mouse</b><br>\n"
 #| "The focus always remains on the window under the mouse.<br><br>\n"
@@ -1300,15 +1302,15 @@ msgid ""
 "work. You very likely want to use <span style=\" font-style:italic;\">Focus "
 "follows mouse (mouse precedence)</span> instead!</p></body></html>"
 msgstr ""
-"<b>焦點在滑鼠下</b><br/>\n"
-"焦點永遠維持在滑鼠下的視窗。<br/><br/>\n"
-"\n"
-"注意：<br/>\n"
-"「<b>防止盜取焦點</b>」與 「\"Alt+Tab\" 切換視窗」在此政策下無法運作。<br/>\n"
-"您可能改用「焦點跟隨滑鼠 - 再來依滑鼠位置」比較好。"
+"<html><head/><body><p><span style=\" font-style:italic;\">將游標下位置設為焦點："
+"</span> 焦點將永遠維持在滑鼠下的視窗。<br/><span style=\" font-weight:600;\">"
+"警告：</span><span style=\" font-style:italic;\">防止盜取焦點</span> 及 <span style="
+"\" font-style:italic;\">tabbox ('Alt+Tab') </span>會與啟用策略相衝突，且不會運作。"
+"通常你可能會想用<span style=\" font-style:italic;\">將焦點設為滑鼠所在位置 (滑鼠優先) "
+"代替！</p></body></html>"
 
 #: windows.cpp:187
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<b>Focus Strictly Under Mouse</b><br>\n"
 #| "The focus is always on the window under the mouse - in doubt nowhere -"
@@ -1339,3 +1341,10 @@ msgstr ""
 "注意：<br/>\n"
 "「<b>防止盜取焦點</b>」與 「\"Alt+Tab\" 切換視窗」在此政策下無法運作。<br/>\n"
 "您可能改用「焦點跟隨滑鼠 - 再來依滑鼠位置」比較好。"
+"<html><head/><body><p><span style=\" font-style:italic;\">嚴格將游標下位置"
+"設為焦點：</span> 焦點永遠在滑鼠下方的視窗（就算在不確定的地方），非常類似"
+"過去未管理之舊式 X11 環境的焦點行為。<br/><span style=\" font-weight:600;\">"
+"警告：</span><span style=\" font-style:italic;\">防止盜取焦點</span> 及 <span style="
+"\" font-style:italic;\">tabbox ('Alt+Tab') </span>會與啟用策略相衝突，且不會運作。"
+"通常你可能會想用<span style=\" font-style:italic;\">將焦點設為滑鼠所在位置 (滑鼠優先) "
+"代替！</p></body></html>"
