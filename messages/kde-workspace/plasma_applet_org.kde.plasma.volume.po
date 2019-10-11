@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.plasma.volume\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-28 03:24+0200\n"
+"POT-Creation-Date: 2019-10-11 03:39+0200\n"
 "PO-Revision-Date: 2019-09-22 18:52+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -54,75 +54,55 @@ msgctxt "label of device items"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: contents/ui/ListItemBase.qml:130
+#: contents/ui/ListItemBase.qml:151
+#, kde-format
+msgid "Default Device"
+msgstr "預設裝置"
+
+#: contents/ui/ListItemBase.qml:164
 #, kde-format
 msgid "Show additional options for %1"
 msgstr "顯示 %1 的額外選項"
 
-#: contents/ui/ListItemBase.qml:140
+#: contents/ui/ListItemBase.qml:174
 #, kde-format
 msgid "Mute %1"
 msgstr "靜音 %1"
 
-#: contents/ui/ListItemBase.qml:164
+#: contents/ui/ListItemBase.qml:198
 #, kde-format
 msgctxt "Accessibility data on volume slider"
 msgid "Adjust volume for %1"
 msgstr "調整 %1 的音量"
 
-#: contents/ui/ListItemBase.qml:215
+#: contents/ui/ListItemBase.qml:249
 #, kde-format
 msgctxt "volume percentage"
 msgid "%1%"
 msgstr "%1%"
 
-#: contents/ui/ListItemBase.qml:221
+#: contents/ui/ListItemBase.qml:255
 #, kde-format
 msgctxt "only used for sizing, should be widest possible string"
 msgid "100%"
 msgstr "100%"
 
-#: contents/ui/ListItemBase.qml:234
-#, kde-format
-msgid "Default Device"
-msgstr "預設裝置"
-
-#: contents/ui/ListItemBase.qml:295
+#: contents/ui/ListItemBase.qml:311
 #, kde-format
 msgid "Raise maximum volume"
 msgstr "提高最大音量"
 
-#: contents/ui/ListItemBase.qml:309
+#: contents/ui/ListItemBase.qml:325
 #, kde-format
 msgid "Record all audio via this device"
 msgstr "透過此裝置錄製所有音訊"
 
-#: contents/ui/ListItemBase.qml:317
+#: contents/ui/ListItemBase.qml:333
 #, kde-format
 msgid "Play all audio via this device"
 msgstr "透過此裝置播放所有音訊"
 
-#: contents/ui/ListItemBase.qml:331
-#, kde-format
-msgctxt ""
-"Heading for a list of ports of a device (for example built-in laptop "
-"speakers or a plug for headphones)"
-msgid "Ports"
-msgstr "連接埠"
-
-#: contents/ui/ListItemBase.qml:341
-#, kde-format
-msgctxt "Port is unavailable"
-msgid " (unavailable)"
-msgstr "（無法使用）"
-
-#: contents/ui/ListItemBase.qml:343
-#, kde-format
-msgctxt "Port is unplugged"
-msgid " (unplugged)"
-msgstr "（未插入）"
-
-#: contents/ui/ListItemBase.qml:365
+#: contents/ui/ListItemBase.qml:347
 #, kde-format
 msgctxt ""
 "Heading for a list of possible output devices (speakers, headphones, ...) to "
@@ -130,7 +110,7 @@ msgctxt ""
 msgid "Play audio using"
 msgstr "播放音樂透過"
 
-#: contents/ui/ListItemBase.qml:367
+#: contents/ui/ListItemBase.qml:349
 #, kde-format
 msgctxt ""
 "Heading for a list of possible input devices (built-in microphone, "
@@ -233,3 +213,17 @@ msgstr "找不到輸出或輸入裝置"
 msgctxt "label of stream items"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
+
+#~ msgctxt ""
+#~ "Heading for a list of ports of a device (for example built-in laptop "
+#~ "speakers or a plug for headphones)"
+#~ msgid "Ports"
+#~ msgstr "連接埠"
+
+#~ msgctxt "Port is unavailable"
+#~ msgid " (unavailable)"
+#~ msgstr "（無法使用）"
+
+#~ msgctxt "Port is unplugged"
+#~ msgid " (unplugged)"
+#~ msgstr "（未插入）"

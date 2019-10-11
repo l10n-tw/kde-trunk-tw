@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-05 02:48+0200\n"
+"POT-Creation-Date: 2019-10-11 03:03+0200\n"
 "PO-Revision-Date: 2019-10-02 16:02+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -2603,13 +2603,13 @@ msgid ""
 "example, C++ or .cpp)"
 msgstr "依語言名稱或檔案副檔名搜尋語法標示模式（例如：C++ 或 .cpp）"
 
-#: mode/katemodemenulist.cpp:460
+#: mode/katemodemenulist.cpp:481
 #, kde-format
 msgctxt "A search yielded no results"
 msgid "No items matching your search"
 msgstr "沒有項目符合您的搜尋"
 
-#: mode/katemodemenulist.cpp:921
+#: mode/katemodemenulist.cpp:942
 #, kde-format
 msgctxt ""
 "Title (in singular) of the best result in an item search. Please, that the "
@@ -2618,7 +2618,7 @@ msgctxt ""
 msgid "Best Search Match"
 msgstr "最佳搜尋符合"
 
-#: mode/katemodemenulist.cpp:924
+#: mode/katemodemenulist.cpp:945
 #, kde-format
 msgctxt ""
 "Title (in plural) of the best results in an item search. Please, that the "
@@ -6276,12 +6276,12 @@ msgstr "VI 模式或插入模式的指示器。點擊以更換模式"
 msgid "Change dictionary"
 msgstr "變更字典…"
 
-#: view/katestatusbar.cpp:156 view/katestatusbar.cpp:499
+#: view/katestatusbar.cpp:156 view/katestatusbar.cpp:498
 #, kde-format
 msgid "Tab Width"
 msgstr "定位點寬度"
 
-#: view/katestatusbar.cpp:164 view/katestatusbar.cpp:512
+#: view/katestatusbar.cpp:164 view/katestatusbar.cpp:511
 #, kde-format
 msgid "Indentation Width"
 msgstr "縮排寬度"
@@ -6324,89 +6324,89 @@ msgid ""
 msgstr ""
 "您可以在此選擇要用於目前文件的模式。這會影響一些像是使用突顯或是折疊等設定。"
 
-#: view/katestatusbar.cpp:211
+#: view/katestatusbar.cpp:210
 #, kde-format
 msgid "Syntax highlighting"
 msgstr "語法突出顯示"
 
-#: view/katestatusbar.cpp:300
+#: view/katestatusbar.cpp:299
 #, kde-format
 msgid "[BLOCK] %1"
 msgstr "[區塊] %1"
 
-#: view/katestatusbar.cpp:312
+#: view/katestatusbar.cpp:311
 #, kde-format
 msgid "Line %1 of %2, Column %3"
 msgstr "第 %1 行（共 %2 行），第 %3 欄"
 
-#: view/katestatusbar.cpp:314
+#: view/katestatusbar.cpp:313
 #, kde-format
 msgid "Line %1, Column %2"
 msgstr "第 %1 行第 %2 欄"
 
-#: view/katestatusbar.cpp:386
+#: view/katestatusbar.cpp:385
 #, kde-format
 msgid "Meaning of current icon: Document was not modified since it was loaded"
 msgstr "目前圖示的意義：文件在載入後尚未被變更"
 
-#: view/katestatusbar.cpp:392
+#: view/katestatusbar.cpp:391
 #, kde-format
 msgid "Meaning of current icon: Document was modified since it was loaded"
 msgstr "目前圖示的意義：文件在載入後已被變更"
 
-#: view/katestatusbar.cpp:398
+#: view/katestatusbar.cpp:397
 #, kde-format
 msgid ""
 "Meaning of current icon: Document was modified or deleted by another program"
 msgstr "目前圖示的意義：文件在載入後已被變更或是被其他程式刪除"
 
-#: view/katestatusbar.cpp:409
+#: view/katestatusbar.cpp:408
 #, kde-format
 msgid "Meaning of current icon: Document is in read-only mode"
 msgstr "目前圖示的意思：文件現為唯讀模式"
 
-#: view/katestatusbar.cpp:422
+#: view/katestatusbar.cpp:421
 #, kde-format
 msgid "Soft Tabs: %1"
 msgstr "空白定位：%1"
 
-#: view/katestatusbar.cpp:423
+#: view/katestatusbar.cpp:422
 #, kde-format
 msgid "Soft Tabs: %1 (%2)"
 msgstr "空白定位：%1（%2）"
 
-#: view/katestatusbar.cpp:424
+#: view/katestatusbar.cpp:423
 #, kde-format
 msgid "Tab Size: %1"
 msgstr "定位字元寬度：%1"
 
-#: view/katestatusbar.cpp:425
+#: view/katestatusbar.cpp:424
 #, kde-format
 msgid "Indent/Tab: %1/%2"
 msgstr "縮排/定位：%1/%2"
 
-#: view/katestatusbar.cpp:464 view/katestatusbar.cpp:486
+#: view/katestatusbar.cpp:463 view/katestatusbar.cpp:485
 #, kde-format
 msgid "Other..."
 msgstr "其他..."
 
-#: view/katestatusbar.cpp:488
+#: view/katestatusbar.cpp:487
 #, kde-format
 msgid "Other (%1)"
 msgid_plural "Other (%1)"
 msgstr[0] "其他（%1）"
 
-#: view/katestatusbar.cpp:499
+#: view/katestatusbar.cpp:498
 #, kde-format
 msgid "Please specify the wanted tab width:"
 msgstr "請輸入定位點的寬度："
 
-#: view/katestatusbar.cpp:512
+#: view/katestatusbar.cpp:511
 #, kde-format
 msgid "Please specify the wanted indentation width:"
 msgstr "請指定定位點的寬度："
 
-#: view/katestatusbar.cpp:565
+#: view/katestatusbar.cpp:564
 #, kde-format
 msgctxt ""
 "%1 and %3 are the selected words/chars count, %2 and %4 are the total words/"
