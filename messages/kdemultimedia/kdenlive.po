@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-11 03:18+0200\n"
+"POT-Creation-Date: 2019-10-12 03:07+0200\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -8831,7 +8831,7 @@ msgid "Monitor %1"
 msgstr "預覽視窗"
 
 #: src/mainwindow.cpp:304 src/monitor/recmanager.cpp:120
-#: src/timeline2/view/qml/timeline.qml:672
+#: src/timeline2/view/qml/timeline.qml:670
 #, fuzzy, kde-format
 msgid "Configure Recording"
 msgstr "配置軌道"
@@ -9463,7 +9463,7 @@ msgstr "添加軌道"
 #: src/timeline2/view/dialogs/trackdialog.cpp:31
 #: src/timeline2/view/dialogs/trackdialog.cpp:66
 #: src/timeline2/view/dialogs/tracksconfigdialog.cpp:89
-#: src/timeline2/view/qml/timeline.qml:654
+#: src/timeline2/view/qml/timeline.qml:652
 #, kde-format
 msgid "Delete Track"
 msgstr "移除軌道"
@@ -9485,9 +9485,9 @@ msgstr "關閉預覽"
 
 #: src/mainwindow.cpp:1425 src/monitor/view/SceneToolBar.qml:55
 #: src/timeline2/view/qml/timeline.qml:535
-#: src/timeline2/view/qml/timeline.qml:576
-#: src/timeline2/view/qml/timeline.qml:591
-#: src/timeline2/view/qml/timeline.qml:626
+#: src/timeline2/view/qml/timeline.qml:575
+#: src/timeline2/view/qml/timeline.qml:590
+#: src/timeline2/view/qml/timeline.qml:624
 #, kde-format
 msgid "Add Guide"
 msgstr "添加參照線"
@@ -9497,8 +9497,8 @@ msgstr "添加參照線"
 msgid "Delete Guide"
 msgstr "移除參照線"
 
-#: src/mainwindow.cpp:1427 src/timeline2/view/qml/timeline.qml:551
-#: src/timeline2/view/qml/timeline.qml:607
+#: src/mainwindow.cpp:1427 src/timeline2/view/qml/timeline.qml:550
+#: src/timeline2/view/qml/timeline.qml:605
 #, kde-format
 msgid "Edit Guide"
 msgstr "編輯參照線"
@@ -9539,7 +9539,7 @@ msgstr "切換軌道目標"
 msgid "Toggle Track Active"
 msgstr "鎖定軌道"
 
-#: src/mainwindow.cpp:1484 src/timeline2/view/qml/timeline.qml:615
+#: src/mainwindow.cpp:1484 src/timeline2/view/qml/timeline.qml:613
 #, fuzzy, kde-format
 #| msgid "Project Notes"
 msgid "Add Project Note"
@@ -10178,7 +10178,7 @@ msgid "Go to marker..."
 msgstr "跳轉到記號..."
 
 #: src/monitor/monitor.cpp:265 src/timeline2/view/qml/timeline.qml:541
-#: src/timeline2/view/qml/timeline.qml:597
+#: src/timeline2/view/qml/timeline.qml:596
 #, kde-format
 msgid "Go to guide..."
 msgstr "去引導"
@@ -10557,8 +10557,8 @@ msgstr "特效"
 msgid "Change Overlay"
 msgstr "覆蓋"
 
-#: src/monitor/view/SceneToolBar.qml:64 src/timeline2/view/qml/timeline.qml:573
-#: src/timeline2/view/qml/timeline.qml:623
+#: src/monitor/view/SceneToolBar.qml:64 src/timeline2/view/qml/timeline.qml:572
+#: src/timeline2/view/qml/timeline.qml:621
 #, fuzzy, kde-format
 #| msgid "Remove file"
 msgid "Remove Guide"
@@ -12093,7 +12093,7 @@ msgstr "軌道"
 
 #: src/timeline2/view/dialogs/trackdialog.cpp:31
 #: src/timeline2/view/dialogs/tracksconfigdialog.cpp:85
-#: src/timeline2/view/qml/timeline.qml:648
+#: src/timeline2/view/qml/timeline.qml:646
 #, kde-format
 msgid "Add Track"
 msgstr "新增軌道"
@@ -12228,7 +12228,7 @@ msgid "Insert an effect..."
 msgstr "重置特效"
 
 #: src/timeline2/view/qml/ClipMenu.qml:145
-#: src/timeline2/view/qml/timeline.qml:558
+#: src/timeline2/view/qml/timeline.qml:557
 #, fuzzy, kde-format
 #| msgid "Compositing"
 msgid "Insert a composition..."
@@ -12244,55 +12244,55 @@ msgstr "素材播放清單"
 msgid "Remove Space On Active Track"
 msgstr "移除空白空間"
 
-#: src/timeline2/view/qml/timeline.qml:633
+#: src/timeline2/view/qml/timeline.qml:631
 #, fuzzy, kde-format
 msgid "Timeline error"
 msgstr "時間軸"
 
-#: src/timeline2/view/qml/timeline.qml:635
+#: src/timeline2/view/qml/timeline.qml:633
 #, kde-format
 msgid ""
 "Impossible to add a composition at that position. There might not be enough "
 "space"
 msgstr ""
 
-#: src/timeline2/view/qml/timeline.qml:662
+#: src/timeline2/view/qml/timeline.qml:660
 #, fuzzy, kde-format
 #| msgid "Show Record Control"
 msgid "Show Record Controls"
 msgstr "顯示錄制按鈕"
 
-#: src/timeline2/view/qml/timeline.qml:678
+#: src/timeline2/view/qml/timeline.qml:676
 #, fuzzy, kde-format
 #| msgid "Thumbnails"
 msgid "Track thumbnails"
 msgstr "縮略圖"
 
-#: src/timeline2/view/qml/timeline.qml:682
+#: src/timeline2/view/qml/timeline.qml:680
 #, fuzzy, kde-format
 #| msgid " frames"
 msgid "In frame"
 msgstr "影格"
 
-#: src/timeline2/view/qml/timeline.qml:689
+#: src/timeline2/view/qml/timeline.qml:687
 #, fuzzy, kde-format
 #| msgid " frames"
 msgid "In / out frames"
 msgstr "影格"
 
-#: src/timeline2/view/qml/timeline.qml:697
+#: src/timeline2/view/qml/timeline.qml:695
 #, fuzzy, kde-format
 #| msgid " frames"
 msgid "All frames"
 msgstr "影格"
 
-#: src/timeline2/view/qml/timeline.qml:704
+#: src/timeline2/view/qml/timeline.qml:702
 #, fuzzy, kde-format
 #| msgid "Show thumbnails"
 msgid "No thumbnails"
 msgstr "察看縮略圖"
 
-#: src/timeline2/view/qml/timeline.qml:1225
+#: src/timeline2/view/qml/timeline.qml:1219
 #, fuzzy, kde-format
 #| msgid "Position"
 msgid ""
