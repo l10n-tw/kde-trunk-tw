@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.kdeconnect\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-21 02:42+0200\n"
+"POT-Creation-Date: 2019-10-13 02:40+0200\n"
 "PO-Revision-Date: 2019-09-29 21:04+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -38,61 +38,57 @@ msgstr "檔案傳輸"
 msgid "Drop a file to transfer it onto your phone."
 msgstr "拖曳檔案至此以傳送該檔案至您的手機。"
 
-#: package/contents/ui/DeviceDelegate.qml:82
+#: package/contents/ui/DeviceDelegate.qml:84
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: package/contents/ui/DeviceDelegate.qml:92
+#: package/contents/ui/DeviceDelegate.qml:106
 msgid "Please choose a file"
 msgstr "請選擇檔案"
 
-#: package/contents/ui/DeviceDelegate.qml:100
+#: package/contents/ui/DeviceDelegate.qml:114
 msgid "Share file"
 msgstr "分享檔案"
 
-#: package/contents/ui/DeviceDelegate.qml:120
+#: package/contents/ui/DeviceDelegate.qml:134
 msgid "Ring my phone"
 msgstr "讓您的電話響鈴"
 
-#: package/contents/ui/DeviceDelegate.qml:138
+#: package/contents/ui/DeviceDelegate.qml:152
 msgid "Browse this device"
 msgstr "瀏覽此裝置"
 
-#: package/contents/ui/DeviceDelegate.qml:155
+#: package/contents/ui/DeviceDelegate.qml:169
 msgid "SMS Messages"
 msgstr "簡訊"
 
-#: package/contents/ui/DeviceDelegate.qml:177
+#: package/contents/ui/DeviceDelegate.qml:190
 msgid "Remote Keyboard"
 msgstr "遠端鍵盤"
 
-#: package/contents/ui/DeviceDelegate.qml:193
+#: package/contents/ui/DeviceDelegate.qml:206
 msgid "Notifications:"
 msgstr "通知："
 
-#: package/contents/ui/DeviceDelegate.qml:200
+#: package/contents/ui/DeviceDelegate.qml:213
 msgid "Dismiss all notifications"
 msgstr "忽略所有通知"
 
-#: package/contents/ui/DeviceDelegate.qml:236
+#: package/contents/ui/DeviceDelegate.qml:249
 msgid "Reply"
 msgstr "回覆"
 
-#: package/contents/ui/DeviceDelegate.qml:245
+#: package/contents/ui/DeviceDelegate.qml:258
 msgid "Dismiss"
 msgstr "忽略"
 
-#: package/contents/ui/DeviceDelegate.qml:262
+#: package/contents/ui/DeviceDelegate.qml:275
 msgid "Run command"
 msgstr "執行指令"
 
-#: package/contents/ui/DeviceDelegate.qml:270
+#: package/contents/ui/DeviceDelegate.qml:283
 msgid "Add command"
 msgstr "增加指令"
-
-#: package/contents/ui/DeviceDelegate.qml:299
-msgid "Share text"
-msgstr "分享文字"
 
 #: package/contents/ui/FullRepresentation.qml:47
 msgid "No paired devices available"
@@ -114,3 +110,6 @@ msgstr "從 F-Droid 安裝"
 #: package/contents/ui/main.qml:66
 msgid "KDE Connect Settings..."
 msgstr "KDE 連線設定..."
+
+#~ msgid "Share text"
+#~ msgstr "分享文字"
