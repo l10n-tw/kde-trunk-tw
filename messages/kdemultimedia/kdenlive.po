@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-12 03:07+0200\n"
+"POT-Creation-Date: 2019-10-14 03:01+0200\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -27,7 +27,7 @@ msgid "Your emails"
 msgstr ""
 
 #: data/effects/audiobalance.xml:3 data/effects/audiobalance.xml:8
-#: src/audiomixer/mixerwidget.cpp:111
+#: src/audiomixer/mixerwidget.cpp:118
 #, kde-format
 msgid "Balance"
 msgstr "平衡"
@@ -5369,7 +5369,7 @@ msgstr "重置游標之後的關鍵影格"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/assets/view/widgets/animationwidget.cpp:201
 #: src/assets/view/widgets/keyframewidget.cpp:155 src/bin/bin.cpp:788
-#: src/monitor/monitor.cpp:336 src/ui/clipstabilize_ui.ui:20
+#: src/monitor/monitor.cpp:335 src/ui/clipstabilize_ui.ui:20
 #, kde-format
 msgid "Options"
 msgstr "選項"
@@ -5623,29 +5623,29 @@ msgstr "溶解"
 msgid "Lift"
 msgstr ""
 
-#: src/audiomixer/mixermanager.cpp:156
+#: src/audiomixer/mixermanager.cpp:155
 #: src/audiospectrum/audiographspectrum.cpp:105
 #, kde-format
 msgid "Master"
 msgstr ""
 
-#: src/audiomixer/mixerwidget.cpp:98 src/monitor/monitor.cpp:290
+#: src/audiomixer/mixerwidget.cpp:105 src/monitor/monitor.cpp:289
 #, kde-format
 msgid "Volume"
 msgstr "音量"
 
-#: src/audiomixer/mixerwidget.cpp:101
+#: src/audiomixer/mixerwidget.cpp:108
 #, fuzzy, kde-format
 #| msgid "B"
 msgid "dB"
 msgstr "B"
 
-#: src/audiomixer/mixerwidget.cpp:154
+#: src/audiomixer/mixerwidget.cpp:165
 #, fuzzy, kde-format
 msgid "Mute track"
 msgstr "軌道"
 
-#: src/audiomixer/mixerwidget.cpp:154
+#: src/audiomixer/mixerwidget.cpp:165
 #, fuzzy, kde-format
 msgid "Unmute track"
 msgstr "靜音預覽"
@@ -6264,7 +6264,7 @@ msgid ""
 "can change this from Kdenlive's settings panel"
 msgstr ""
 
-#: src/core.cpp:334
+#: src/core.cpp:333
 #, fuzzy, kde-format
 #| msgid ""
 #| "Document project folder is invalid, setting it to the default one: %1"
@@ -6928,7 +6928,7 @@ msgid ""
 "you are doing you will probably have to change it to 'mlt_profile'."
 msgstr ""
 
-#: src/dialogs/renderwidget.cpp:1942 src/monitor/monitor.cpp:1030
+#: src/dialogs/renderwidget.cpp:1942 src/monitor/monitor.cpp:1029
 #, kde-format
 msgid "untitled"
 msgstr "無字幕 / 標題"
@@ -7823,7 +7823,7 @@ msgstr ""
 msgid "File %1 is not a Kdenlive project file."
 msgstr "檔案 %1 不是 Kdenlive 項目檔案。"
 
-#: src/dvdwizard/dvdwizardmenu.cpp:167 src/monitor/monitor.cpp:239
+#: src/dvdwizard/dvdwizardmenu.cpp:167 src/monitor/monitor.cpp:238
 #: src/monitor/monitormanager.cpp:351
 #, kde-format
 msgid "Play"
@@ -8103,7 +8103,7 @@ msgstr "編輯素材剪輯"
 msgid "Extracting thumb from clip %1"
 msgstr "編輯素材剪輯"
 
-#: src/jobs/cutclipjob.cpp:60 src/monitor/monitor.cpp:490
+#: src/jobs/cutclipjob.cpp:60 src/monitor/monitor.cpp:489
 #, fuzzy, kde-format
 msgid "Extract Zone"
 msgstr "切除選取區段後前移"
@@ -10124,13 +10124,13 @@ msgstr ""
 msgid "Open Analysis Data"
 msgstr "開啟分析數據"
 
-#: src/monitor/glwidget.cpp:1851 src/monitor/glwidget.cpp:1872
+#: src/monitor/glwidget.cpp:1842 src/monitor/glwidget.cpp:1863
 #, fuzzy, kde-format
 #| msgid "Selection tool"
 msgid "Select a zone to play"
 msgstr "選取工具"
 
-#: src/monitor/glwidget.cpp:1928
+#: src/monitor/glwidget.cpp:1919
 #, kde-format
 msgid ""
 "Could not create the video preview window.\n"
@@ -10146,155 +10146,155 @@ msgstr ""
 msgid "Insert Zone to Project Bin"
 msgstr "插入區段到專案素材庫"
 
-#: src/monitor/monitor.cpp:221 src/monitor/monitormanager.cpp:465
+#: src/monitor/monitor.cpp:220 src/monitor/monitormanager.cpp:465
 #, kde-format
 msgid "Set Zone In"
 msgstr "設定區段起點"
 
-#: src/monitor/monitor.cpp:222 src/monitor/monitormanager.cpp:469
+#: src/monitor/monitor.cpp:221 src/monitor/monitormanager.cpp:469
 #, kde-format
 msgid "Set Zone Out"
 msgstr "設定區段終點"
 
-#: src/monitor/monitor.cpp:237
+#: src/monitor/monitor.cpp:236
 #, kde-format
 msgid "Play..."
 msgstr "播放..."
 
-#: src/monitor/monitor.cpp:239 src/monitor/monitormanager.cpp:351
+#: src/monitor/monitor.cpp:238 src/monitor/monitormanager.cpp:351
 #: src/monitor/monitormanager.cpp:357
 #, kde-format
 msgid "Pause"
 msgstr "暫停"
 
-#: src/monitor/monitor.cpp:259
+#: src/monitor/monitor.cpp:258
 #, kde-format
 msgid "Misc..."
 msgstr "基本..."
 
-#: src/monitor/monitor.cpp:263
+#: src/monitor/monitor.cpp:262
 #, kde-format
 msgid "Go to marker..."
 msgstr "跳轉到記號..."
 
-#: src/monitor/monitor.cpp:265 src/timeline2/view/qml/timeline.qml:541
+#: src/monitor/monitor.cpp:264 src/timeline2/view/qml/timeline.qml:541
 #: src/timeline2/view/qml/timeline.qml:596
 #, kde-format
 msgid "Go to guide..."
 msgstr "去引導"
 
-#: src/monitor/monitor.cpp:270
+#: src/monitor/monitor.cpp:269
 #, kde-format
 msgid "Force Monitor Size"
 msgstr "預覽視窗尺寸"
 
-#: src/monitor/monitor.cpp:271
+#: src/monitor/monitor.cpp:270
 #, kde-format
 msgid "Force 100%"
 msgstr "100%"
 
-#: src/monitor/monitor.cpp:273
+#: src/monitor/monitor.cpp:272
 #, kde-format
 msgid "Force 50%"
 msgstr "50%"
 
-#: src/monitor/monitor.cpp:275
+#: src/monitor/monitor.cpp:274
 #, kde-format
 msgid "Free Resize"
 msgstr "自動調整大小"
 
-#: src/monitor/monitor.cpp:288
+#: src/monitor/monitor.cpp:287
 #, fuzzy, kde-format
 msgid "Audio volume"
 msgstr "只有音訊"
 
-#: src/monitor/monitor.cpp:324
+#: src/monitor/monitor.cpp:323
 #, kde-format
 msgid "Show/Hide edit mode"
 msgstr "顯示/隱藏 編輯模式"
 
-#: src/monitor/monitor.cpp:488
+#: src/monitor/monitor.cpp:487
 #, fuzzy, kde-format
 msgid "Save zone"
 msgstr "儲存區段"
 
-#: src/monitor/monitor.cpp:500
+#: src/monitor/monitor.cpp:499
 #, kde-format
 msgid "Set current image as thumbnail"
 msgstr "將目前圖片設定為縮略圖"
 
-#: src/monitor/monitor.cpp:508
+#: src/monitor/monitor.cpp:507
 #, kde-format
 msgid "Overlay audio waveform"
 msgstr "顯示音波圖形"
 
-#: src/monitor/monitor.cpp:514
+#: src/monitor/monitor.cpp:513
 #, kde-format
 msgid "Show Audio Levels"
 msgstr "顯示音量等級"
 
-#: src/monitor/monitor.cpp:548
+#: src/monitor/monitor.cpp:547
 #, kde-format
 msgid "Your screen resolution is not sufficient for this action"
 msgstr "螢幕解析度不夠執行此操作"
 
-#: src/monitor/monitor.cpp:1042
+#: src/monitor/monitor.cpp:1041
 #, fuzzy, kde-format
 msgid "Save Image"
 msgstr "載入圖片"
 
-#: src/monitor/monitor.cpp:1042
+#: src/monitor/monitor.cpp:1041
 #, fuzzy, kde-format
 msgid "Save Image to Project"
 msgstr "儲存 DVD 項目"
 
-#: src/monitor/monitor.cpp:1047
+#: src/monitor/monitor.cpp:1046
 #, kde-format
 msgid "Export image using source resolution"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1144
+#: src/monitor/monitor.cpp:1143
 #, kde-format
 msgid "In Point"
 msgstr "起點"
 
-#: src/monitor/monitor.cpp:1146
+#: src/monitor/monitor.cpp:1145
 #, kde-format
 msgid "Out Point"
 msgstr "終點"
 
-#: src/monitor/monitor.cpp:1761
+#: src/monitor/monitor.cpp:1760
 #, kde-format
 msgid "Cannot initialize Movit's GLSL manager, please disable Movit"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1803 src/monitor/monitor.cpp:1858
+#: src/monitor/monitor.cpp:1802 src/monitor/monitor.cpp:1857
 #, kde-format
 msgid ""
 "The alphagrad filter is required for that feature, please install frei0r and "
 "restart Kdenlive"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1825
+#: src/monitor/monitor.cpp:1824
 #, fuzzy, kde-format
 #| msgid "Clip has no markers"
 msgid "Clip has no effects"
 msgstr "素材沒有記號"
 
-#: src/monitor/monitor.cpp:1827
+#: src/monitor/monitor.cpp:1826
 #, fuzzy, kde-format
 #| msgid "Select a clip if you want to apply an effect"
 msgid "Select a clip in project bin to compare effect"
 msgstr "如果您想使用特效請選取一個素材"
 
-#: src/monitor/monitor.cpp:1865
+#: src/monitor/monitor.cpp:1864
 #, kde-format
 msgid ""
 "The cairoblend transition is required for that feature, please install "
 "frei0r and restart Kdenlive"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1911
+#: src/monitor/monitor.cpp:1910
 #, kde-format
 msgid "Enable edit mode in monitor to edit effect"
 msgstr ""
@@ -11762,42 +11762,42 @@ msgstr "波形"
 msgid "Histogram"
 msgstr "直方圖"
 
-#: src/timeline2/model/builders/meltBuilder.cpp:153
+#: src/timeline2/model/builders/meltBuilder.cpp:163
 #, kde-format
 msgid ""
 "Invalid composition %1 found on track %2 at %3, compositing with track %4."
 msgstr ""
 
-#: src/timeline2/model/builders/meltBuilder.cpp:162
+#: src/timeline2/model/builders/meltBuilder.cpp:172
 #, kde-format
 msgid ""
 "Incorrect composition %1 found on track %2 at %3, compositing with track %4 "
 "was set to forced track."
 msgstr ""
 
-#: src/timeline2/model/builders/meltBuilder.cpp:172
+#: src/timeline2/model/builders/meltBuilder.cpp:182
 #, fuzzy, kde-format
 #| msgid "Invalid clip removed from track %1 at %2\n"
 msgid "Invalid composition %1 found on track %2 at %3."
 msgstr "從 %2 的軌道 %1 中移除無效的素材\n"
 
-#: src/timeline2/model/builders/meltBuilder.cpp:189
+#: src/timeline2/model/builders/meltBuilder.cpp:199
 #, fuzzy, kde-format
 #| msgid "Default folder for project files"
 msgid "Problems found in your project file"
 msgstr "項目檔案的預設檔案夾"
 
-#: src/timeline2/model/builders/meltBuilder.cpp:303
+#: src/timeline2/model/builders/meltBuilder.cpp:313
 #, kde-format
 msgid "Invalid clip %1 (%2) not found in project bin, recovered."
 msgstr ""
 
-#: src/timeline2/model/builders/meltBuilder.cpp:306
+#: src/timeline2/model/builders/meltBuilder.cpp:316
 #, kde-format
 msgid "Project corrupted. Clip %1 (%2) not found in project bin."
 msgstr ""
 
-#: src/timeline2/model/builders/meltBuilder.cpp:327
+#: src/timeline2/model/builders/meltBuilder.cpp:337
 #, fuzzy, kde-format
 #| msgid "Invalid clip removed from track %1 at %2\n"
 msgid "Invalid clip %1 found on track %2 at %3."

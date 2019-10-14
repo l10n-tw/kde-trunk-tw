@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kile\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-23 02:36+0200\n"
+"POT-Creation-Date: 2019-10-14 02:39+0200\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -236,7 +236,7 @@ msgstr "失敗，但非嚴重錯誤"
 msgid "System Check"
 msgstr "系統檢查"
 
-#: dialogs/configcheckerdialog.cpp:110
+#: dialogs/configcheckerdialog.cpp:113
 #, kde-format
 msgid ""
 "<p>This configuration assistant will check whether your system is set up "
@@ -246,28 +246,28 @@ msgid ""
 "time.</p><p>Please press 'Next' now to start the test procedure.</p>"
 msgstr ""
 
-#: dialogs/configcheckerdialog.cpp:121
+#: dialogs/configcheckerdialog.cpp:124
 #, kde-format
 msgid "System Check & Configuration Assistant"
 msgstr ""
 
-#: dialogs/configcheckerdialog.cpp:124
+#: dialogs/configcheckerdialog.cpp:127
 #, kde-format
 msgid "Checking whether the system is set up correctly..."
 msgstr ""
 
-#: dialogs/configcheckerdialog.cpp:144
+#: dialogs/configcheckerdialog.cpp:147
 #, kde-format
 msgid "Configure the viewer tools to use the document viewer"
 msgstr ""
 
-#: dialogs/configcheckerdialog.cpp:146
+#: dialogs/configcheckerdialog.cpp:149
 #, fuzzy, kde-format
 #| msgid "Choose a configuration for the current tool"
 msgid "Use the 'modern' configuration for the TeX, PDFTeX, and LaTeX tools"
 msgstr "選擇目前工具的設定"
 
-#: dialogs/configcheckerdialog.cpp:148
+#: dialogs/configcheckerdialog.cpp:151
 #, fuzzy, kde-format
 #| msgid ""
 #| "Supported, use the 'Modern' configuration for (La)TeX and PDF(La)TeX to "
@@ -277,19 +277,19 @@ msgid ""
 msgstr ""
 "支援，用「現代」的 (La)TeX 與 PDF(La)TeX 設定來自動開啟往前或往後搜尋功能。"
 
-#: dialogs/configcheckerdialog.cpp:150
+#: dialogs/configcheckerdialog.cpp:153
 #, kde-format
 msgid ""
 "<br/>Please press 'Finish' now to accept the recommended configuration "
 "changes."
 msgstr ""
 
-#: dialogs/configcheckerdialog.cpp:153 dialogs/configcheckerdialog.cpp:227
+#: dialogs/configcheckerdialog.cpp:156 dialogs/configcheckerdialog.cpp:230
 #, kde-format
 msgid "Test Results"
 msgstr "測試結果"
 
-#: dialogs/configcheckerdialog.cpp:230
+#: dialogs/configcheckerdialog.cpp:233
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>The following tools did not pass all <b>critical</b> tests:<br>"
@@ -303,7 +303,7 @@ msgstr ""
 "<qt>以下的工具未通過所有關鍵的測試：<br/>%1<br/> 您的系統目前尚無法使用。請參"
 "考此結果並找出解決方式。</qt>"
 
-#: dialogs/configcheckerdialog.cpp:236
+#: dialogs/configcheckerdialog.cpp:239
 #, fuzzy, kde-format
 #| msgid ""
 #| "The following tools did not pass all tests:\n"
@@ -318,27 +318,27 @@ msgstr ""
 "%1\n"
 "您仍然可以使用 Kile，但是有些功能可能無法運作。"
 
-#: dialogs/configcheckerdialog.cpp:241
+#: dialogs/configcheckerdialog.cpp:244
 #, fuzzy, kde-format
 #| msgid "No problems detected, your system is ready to use."
 msgid ""
 "<b>No problems were detected. Kile will work correctly on your system.</b>"
 msgstr "沒有偵測到問題。您的系統現在已可使用。"
 
-#: dialogs/configcheckerdialog.cpp:254
+#: dialogs/configcheckerdialog.cpp:257
 #, kde-format
 msgid ""
 "The embedded document viewer is available and live preview is supported."
 msgstr ""
 
-#: dialogs/configcheckerdialog.cpp:257
+#: dialogs/configcheckerdialog.cpp:260
 #, kde-format
 msgid ""
 "The embedded document viewer is available, but the installed version of "
 "PDFLaTeX is<br/><b>not compatible</b> with live preview."
 msgstr ""
 
-#: dialogs/configcheckerdialog.cpp:265
+#: dialogs/configcheckerdialog.cpp:268
 #, kde-format
 msgid ""
 "The embedded document viewer is <b>not available</b> (as Okular is either "
@@ -346,7 +346,7 @@ msgid ""
 "hence not supported."
 msgstr ""
 
-#: dialogs/configcheckerdialog.cpp:288
+#: dialogs/configcheckerdialog.cpp:291
 #, fuzzy, kde-format
 #| msgid ""
 #| "The file %1 could not be saved, check the permissions and free disk space."
@@ -364,7 +364,7 @@ msgstr "無法儲存檔案 %1，請檢查權限及磁碟空間。"
 msgid "Configure"
 msgstr "設定"
 
-#: dialogs/configurationdialog.cpp:69 main.cpp:105
+#: dialogs/configurationdialog.cpp:69 main.cpp:106
 #, kde-format
 msgid "Kile"
 msgstr "Kile"
@@ -509,7 +509,7 @@ msgid "Project"
 msgstr "專案"
 
 #: dialogs/findfilesdialog.cpp:101 dialogs/managetemplatesdialog.cpp:84
-#: dialogs/tabular/newtabulardialog.cpp:129
+#: dialogs/tabular/newtabulardialog.cpp:128
 #, kde-format
 msgid "Name:"
 msgstr "名稱："
@@ -554,7 +554,7 @@ msgstr "指令[]"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: dialogs/findfilesdialog.cpp:145 dialogs/floatdialog_base.ui:29
 #: dialogs/latexcommanddialog_base.ui:69 dialogs/mathenvironmentdialog.cpp:56
-#: dialogs/tabular/newtabulardialog.cpp:125 kile.cpp:935
+#: dialogs/tabular/newtabulardialog.cpp:124 kile.cpp:935
 #, kde-format
 msgid "Environment"
 msgstr "環境"
@@ -795,7 +795,7 @@ msgid "Extra page"
 msgstr "額外頁面"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_cbCenter)
-#: dialogs/floatdialog_base.ui:116 dialogs/tabular/newtabulardialog.cpp:161
+#: dialogs/floatdialog_base.ui:116 dialogs/tabular/newtabulardialog.cpp:160
 #: kilestdactions.cpp:46
 #, kde-format
 msgid "Center"
@@ -1647,7 +1647,7 @@ msgstr "現有的樣本"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
 #: dialogs/managetemplatesdialog.cpp:112 dialogs/managetemplatesdialog.cpp:169
-#: widgets/newdocumentwidget.ui:17
+#: widgets/newdocumentwidget.ui:32
 #, kde-format
 msgid "Document Type"
 msgstr "文件類型"
@@ -1803,19 +1803,19 @@ msgid "Use &bullets:"
 msgstr "使用圓點(&B)："
 
 #: dialogs/mathenvironmentdialog.cpp:146
-#: dialogs/tabular/newtabulardialog.cpp:175
+#: dialogs/tabular/newtabulardialog.cpp:174
 #, kde-format
 msgid "Choose an environment."
 msgstr "選擇一個環境。"
 
 #: dialogs/mathenvironmentdialog.cpp:147
-#: dialogs/tabular/newtabulardialog.cpp:181
+#: dialogs/tabular/newtabulardialog.cpp:180
 #, kde-format
 msgid "Use the starred version of this environment."
 msgstr "使用此環境的標記星號版本。"
 
 #: dialogs/mathenvironmentdialog.cpp:148
-#: dialogs/tabular/newtabulardialog.cpp:177
+#: dialogs/tabular/newtabulardialog.cpp:176
 #, kde-format
 msgid "Choose the number of table rows."
 msgstr "選擇表格的列數。"
@@ -1852,7 +1852,7 @@ msgstr ""
 "格移動到另一個儲存格。"
 
 #: dialogs/mathenvironmentdialog.cpp:207
-#: dialogs/tabular/newtabulardialog.cpp:147
+#: dialogs/tabular/newtabulardialog.cpp:146
 #, kde-format
 msgid "Number of cols:"
 msgstr "欄數："
@@ -2161,7 +2161,7 @@ msgstr ""
 #: dialogs/pdf-wizard/pdfdialog.cpp:797 dialogs/pdf-wizard/pdfdialog.cpp:802
 #: dialogs/pdf-wizard/pdfdialog_base.ui:277 dialogs/postscriptdialog.cpp:499
 #: dialogs/postscriptdialog_base.ui:153
-#: dialogs/tabular/newtabulardialog.cpp:134
+#: dialogs/tabular/newtabulardialog.cpp:133
 #: dialogs/usermenu/usermenudialog_base.ui:607
 #, kde-format
 msgid "Parameter:"
@@ -4320,112 +4320,112 @@ msgstr "間隔(&S)："
 msgid "Tabular Environments"
 msgstr "表格環境"
 
-#: dialogs/tabular/newtabulardialog.cpp:83
+#: dialogs/tabular/newtabulardialog.cpp:82
 #: dialogs/tabular/tabularheaderitem.cpp:37 kilestdactions.cpp:47
 #, kde-format
 msgid "Align Left"
 msgstr "置左"
 
-#: dialogs/tabular/newtabulardialog.cpp:84
+#: dialogs/tabular/newtabulardialog.cpp:83
 #: dialogs/tabular/tabularheaderitem.cpp:38
 #, kde-format
 msgid "Align Center"
 msgstr "置中"
 
-#: dialogs/tabular/newtabulardialog.cpp:85
+#: dialogs/tabular/newtabulardialog.cpp:84
 #: dialogs/tabular/tabularheaderitem.cpp:39 kilestdactions.cpp:48
 #, kde-format
 msgid "Align Right"
 msgstr "置右"
 
-#: dialogs/tabular/newtabulardialog.cpp:87 kilestdactions.cpp:209
+#: dialogs/tabular/newtabulardialog.cpp:86 kilestdactions.cpp:209
 #, kde-format
 msgid "Bold"
 msgstr "粗體"
 
-#: dialogs/tabular/newtabulardialog.cpp:88 kilestdactions.cpp:212
+#: dialogs/tabular/newtabulardialog.cpp:87 kilestdactions.cpp:212
 #, kde-format
 msgid "Italic"
 msgstr "斜體"
 
-#: dialogs/tabular/newtabulardialog.cpp:89 kilestdactions.cpp:138
+#: dialogs/tabular/newtabulardialog.cpp:88 kilestdactions.cpp:138
 #, kde-format
 msgid "Underline"
 msgstr "底線"
 
-#: dialogs/tabular/newtabulardialog.cpp:91
+#: dialogs/tabular/newtabulardialog.cpp:90
 #, kde-format
 msgid "Join Cells"
 msgstr "加入儲存格"
 
-#: dialogs/tabular/newtabulardialog.cpp:92
+#: dialogs/tabular/newtabulardialog.cpp:91
 #, kde-format
 msgid "Split Cells"
 msgstr "分割儲存格"
 
-#: dialogs/tabular/newtabulardialog.cpp:94
+#: dialogs/tabular/newtabulardialog.cpp:93
 #, kde-format
 msgid "Edit Frame"
 msgstr "編輯外框"
 
-#: dialogs/tabular/newtabulardialog.cpp:99
+#: dialogs/tabular/newtabulardialog.cpp:98
 #, kde-format
 msgid "Background Color"
 msgstr "背景顏色"
 
-#: dialogs/tabular/newtabulardialog.cpp:104
+#: dialogs/tabular/newtabulardialog.cpp:103
 #, kde-format
 msgid "Text Color"
 msgstr "文字顏色"
 
-#: dialogs/tabular/newtabulardialog.cpp:111
+#: dialogs/tabular/newtabulardialog.cpp:110
 #, kde-format
 msgid "Clear Text"
 msgstr "清除文字"
 
-#: dialogs/tabular/newtabulardialog.cpp:112
+#: dialogs/tabular/newtabulardialog.cpp:111
 #, kde-format
 msgid "Clear Attributes"
 msgstr "清除屬性"
 
-#: dialogs/tabular/newtabulardialog.cpp:113
+#: dialogs/tabular/newtabulardialog.cpp:112
 #, kde-format
 msgid "Clear All"
 msgstr "全部清除"
 
-#: dialogs/tabular/newtabulardialog.cpp:115
+#: dialogs/tabular/newtabulardialog.cpp:114
 #, kde-format
 msgid "Paste content from clipboard"
 msgstr "貼上剪貼簿中的內容"
 
-#: dialogs/tabular/newtabulardialog.cpp:140
+#: dialogs/tabular/newtabulardialog.cpp:139
 #, kde-format
 msgid "Number of rows:"
 msgstr "列數："
 
-#: dialogs/tabular/newtabulardialog.cpp:155
+#: dialogs/tabular/newtabulardialog.cpp:154
 #, kde-format
 msgid "Use starred version"
 msgstr "使用標記星號版本"
 
-#: dialogs/tabular/newtabulardialog.cpp:156
+#: dialogs/tabular/newtabulardialog.cpp:155
 #, kde-format
 msgid "Table width:"
 msgstr "表格寬度："
 
-#: dialogs/tabular/newtabulardialog.cpp:163
+#: dialogs/tabular/newtabulardialog.cpp:162
 #, kde-format
 msgid "Use booktabs package"
 msgstr "使用 booktabs 套件"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_setbullets)
-#: dialogs/tabular/newtabulardialog.cpp:164
+#: dialogs/tabular/newtabulardialog.cpp:163
 #: widgets/codecompletionconfigwidget.ui:198
 #, kde-format
 msgid "Insert bullets"
 msgstr "插入圓點"
 
-#: dialogs/tabular/newtabulardialog.cpp:174
+#: dialogs/tabular/newtabulardialog.cpp:173
 #, kde-format
 msgid ""
 "Input data. Enter text when a cell is selected. When return is pressed, the "
@@ -4433,32 +4433,32 @@ msgid ""
 msgstr ""
 "輸入資料。選擇一個儲存格然後輸入文字。按下 Enter 時，會自動選取相鄰的儲存格。"
 
-#: dialogs/tabular/newtabulardialog.cpp:176
+#: dialogs/tabular/newtabulardialog.cpp:175
 #, kde-format
 msgid "Optional parameter for the chosen environment."
 msgstr "選取的環境的選擇性參數。"
 
-#: dialogs/tabular/newtabulardialog.cpp:178
+#: dialogs/tabular/newtabulardialog.cpp:177
 #, kde-format
 msgid "Choose the number of table columns."
 msgstr "選擇表格的欄數。"
 
-#: dialogs/tabular/newtabulardialog.cpp:179
+#: dialogs/tabular/newtabulardialog.cpp:178
 #, kde-format
 msgid "The tabular will be centered."
 msgstr "此表格將置中。"
 
-#: dialogs/tabular/newtabulardialog.cpp:180
+#: dialogs/tabular/newtabulardialog.cpp:179
 #, kde-format
 msgid "Use line commands of the booktabs package."
 msgstr "使用 booktabs 套件中的行指令。"
 
-#: dialogs/tabular/newtabulardialog.cpp:182
+#: dialogs/tabular/newtabulardialog.cpp:181
 #, kde-format
 msgid "Set the width of the table."
 msgstr "設定表格寬度。"
 
-#: dialogs/tabular/newtabulardialog.cpp:183
+#: dialogs/tabular/newtabulardialog.cpp:182
 #, kde-format
 msgid ""
 "Insert bullets in each cell. Alt+Ctrl+Right and Alt+Ctrl+Left will move very "
@@ -4467,97 +4467,97 @@ msgstr ""
 "在每個儲存格中插入圓點。使用 Alt+Ctrl+Right 和 Alt+Ctrl+Left 將快速從一個儲存"
 "格移動到另一個儲存格。"
 
-#: dialogs/tabular/newtabulardialog.cpp:184
+#: dialogs/tabular/newtabulardialog.cpp:183
 #, kde-format
 msgid "Set bold font series."
 msgstr "設定粗體字型系列。"
 
-#: dialogs/tabular/newtabulardialog.cpp:185
+#: dialogs/tabular/newtabulardialog.cpp:184
 #, kde-format
 msgid "Set italic font shape."
 msgstr "設定意大利斜體字形。"
 
-#: dialogs/tabular/newtabulardialog.cpp:186
+#: dialogs/tabular/newtabulardialog.cpp:185
 #, kde-format
 msgid "Set underlined font shape."
 msgstr ""
 
-#: dialogs/tabular/newtabulardialog.cpp:187
+#: dialogs/tabular/newtabulardialog.cpp:186
 #, kde-format
 msgid "The text will be aligned at the left border of the cell."
 msgstr "將文字對齊儲存格的左邊。"
 
-#: dialogs/tabular/newtabulardialog.cpp:188
+#: dialogs/tabular/newtabulardialog.cpp:187
 #, kde-format
 msgid "The text will be centered."
 msgstr "將文字置中。"
 
-#: dialogs/tabular/newtabulardialog.cpp:189
+#: dialogs/tabular/newtabulardialog.cpp:188
 #, kde-format
 msgid "The text will be aligned at the right border of the cell."
 msgstr "將文字對齊儲存格的右邊。"
 
-#: dialogs/tabular/newtabulardialog.cpp:190
+#: dialogs/tabular/newtabulardialog.cpp:189
 #, kde-format
 msgid "Joins adjacent cells when they are in the same row."
 msgstr ""
 
-#: dialogs/tabular/newtabulardialog.cpp:191
+#: dialogs/tabular/newtabulardialog.cpp:190
 #, kde-format
 msgid "Splits joined cells."
 msgstr "分割聯接的儲存格。"
 
-#: dialogs/tabular/newtabulardialog.cpp:192
+#: dialogs/tabular/newtabulardialog.cpp:191
 #, kde-format
 msgid ""
 "Choose the border for the selected cells. When clicking on the button, the "
 "current border will be applied to the selected cells."
 msgstr ""
 
-#: dialogs/tabular/newtabulardialog.cpp:193
+#: dialogs/tabular/newtabulardialog.cpp:192
 #, kde-format
 msgid "Choose a background color (needs color package)."
 msgstr "選擇背景顏色（需要 color 套件）。"
 
-#: dialogs/tabular/newtabulardialog.cpp:194
+#: dialogs/tabular/newtabulardialog.cpp:193
 #, kde-format
 msgid "Choose a text color (needs color package)."
 msgstr "選擇文字顏色（需要 color 套件）。"
 
-#: dialogs/tabular/newtabulardialog.cpp:195
+#: dialogs/tabular/newtabulardialog.cpp:194
 #, kde-format
 msgid ""
 "Clears the text of the selected cells but keeps attributes such as alignment "
 "and font shape."
 msgstr ""
 
-#: dialogs/tabular/newtabulardialog.cpp:196
+#: dialogs/tabular/newtabulardialog.cpp:195
 #, kde-format
 msgid ""
 "Resets the attributes of the selected cells to the default values but keeps "
 "the text."
 msgstr ""
 
-#: dialogs/tabular/newtabulardialog.cpp:197
+#: dialogs/tabular/newtabulardialog.cpp:196
 #, kde-format
 msgid "Clears the text of the selected cells and resets the attributes."
 msgstr ""
 
-#: dialogs/tabular/newtabulardialog.cpp:198
+#: dialogs/tabular/newtabulardialog.cpp:197
 #, kde-format
 msgid "Pastes a table stored in the clipboard into this wizard."
 msgstr ""
 
-#: dialogs/tabular/newtabulardialog.cpp:660
-#: dialogs/tabular/newtabulardialog.cpp:681
+#: dialogs/tabular/newtabulardialog.cpp:659
+#: dialogs/tabular/newtabulardialog.cpp:680
 #, kde-format
 msgid ""
 "Setting the new size for the table will delete content. Are you sure to set "
 "the new size?"
 msgstr ""
 
-#: dialogs/tabular/newtabulardialog.cpp:660
-#: dialogs/tabular/newtabulardialog.cpp:681
+#: dialogs/tabular/newtabulardialog.cpp:659
+#: dialogs/tabular/newtabulardialog.cpp:680
 #, kde-format
 msgid "Resizing table"
 msgstr "調整表格大小"
@@ -10605,145 +10605,145 @@ msgstr "預覽"
 msgid "StandardInput.tex"
 msgstr ""
 
-#: main.cpp:106
+#: main.cpp:107
 #, kde-format
 msgid "KDE Integrated LaTeX Environment"
 msgstr "KDE 整合 LaTeX 環境"
 
-#: main.cpp:108
+#: main.cpp:109
 #, fuzzy, kde-format
 #| msgid "by the Kile Team (2003 - 2011)"
 msgctxt "the parameter is the last copyright year"
 msgid "by the Kile Team (2003 - %1)"
 msgstr "由 Kile 團隊 (2003 - 2011)"
 
-#: main.cpp:111
+#: main.cpp:112
 #, kde-format
 msgid "Michel Ludwig"
 msgstr "Michel Ludwig"
 
-#: main.cpp:111
+#: main.cpp:112
 #, kde-format
 msgid "Project Management/Developer"
 msgstr "專案管理員與開發者"
 
-#: main.cpp:112
+#: main.cpp:113
 #, kde-format
 msgid "Holger Danielsson"
 msgstr "Holger Danielsson"
 
-#: main.cpp:112
+#: main.cpp:113
 #, fuzzy, kde-format
 #| msgid "Former Developer"
 msgid "Developer"
 msgstr "前任開發者"
 
-#: main.cpp:113
+#: main.cpp:114
 #, kde-format
 msgid "Thomas Braun"
 msgstr "Thomas Braun"
 
-#: main.cpp:113
+#: main.cpp:114
 #, kde-format
 msgid "Former Developer"
 msgstr "前任開發者"
 
-#: main.cpp:114
+#: main.cpp:115
 #, kde-format
 msgid "Jeroen Wijnhout"
 msgstr "Jeroen Wijnhout"
 
-#: main.cpp:114
+#: main.cpp:115
 #, kde-format
 msgid "Former Maintainer/Developer"
 msgstr "前任維護者與開發者"
 
-#: main.cpp:115
+#: main.cpp:116
 #, kde-format
 msgid "Brachet Pascal"
 msgstr "Brachet Pascal"
 
-#: main.cpp:117
+#: main.cpp:118
 #, kde-format
 msgid "Andrius Štikonas"
 msgstr "Andrius Štikonas"
 
-#: main.cpp:117
+#: main.cpp:118
 #, kde-format
 msgid "Migration from Subversion to Git"
 msgstr "從 Subversion 移植至 Git"
 
-#: main.cpp:118
+#: main.cpp:119
 #, kde-format
 msgid "Simon Martin"
 msgstr "Simon Martin"
 
-#: main.cpp:118
+#: main.cpp:119
 #, kde-format
 msgid "KConfig XT, Various Improvements and Bug-Fixing"
 msgstr "KConfig XT，各種改進和 Bug 修復"
 
-#: main.cpp:119
+#: main.cpp:120
 #, kde-format
 msgid "Roland Schulz"
 msgstr "Roland Schulz"
 
-#: main.cpp:119
+#: main.cpp:120
 #, kde-format
 msgid "KatePart Integration"
 msgstr "KatePart 整合"
 
-#: main.cpp:120
+#: main.cpp:121
 #, kde-format
 msgid "Thorsten Lück"
 msgstr "Thorsten Lück"
 
-#: main.cpp:120
+#: main.cpp:121
 #, kde-format
 msgid "Log Parsing"
 msgstr "日誌解析"
 
-#: main.cpp:121
+#: main.cpp:122
 #, kde-format
 msgid "Jan-Marek Glogowski"
 msgstr "Jan-Marek Glogowski"
 
-#: main.cpp:121
+#: main.cpp:122
 #, kde-format
 msgid "Find-in-Files Dialog"
 msgstr ""
 
-#: main.cpp:122
+#: main.cpp:123
 #, kde-format
 msgid "Jonathan Pechta"
 msgstr "Jonathan Pechta"
 
-#: main.cpp:122 main.cpp:123
+#: main.cpp:123 main.cpp:124
 #, kde-format
 msgid "Documentation"
 msgstr "文件"
 
-#: main.cpp:123
+#: main.cpp:124
 #, kde-format
 msgid "Federico Zenith"
 msgstr "Federico Zenith"
 
-#: main.cpp:141
+#: main.cpp:142
 #, kde-format
 msgid "Jump to line"
 msgstr ""
 
-#: main.cpp:142
+#: main.cpp:143
 #, kde-format
 msgid "Start a new Kile mainwindow"
 msgstr ""
 
-#: main.cpp:144
+#: main.cpp:145
 #, kde-format
 msgid "Files to open / specify '-' to read from standard input"
 msgstr ""
 
-#: main.cpp:175
+#: main.cpp:176
 #, kde-format
 msgid ""
 "Kile cannot start as a recent version the Okular library could not be "
@@ -10752,7 +10752,7 @@ msgid ""
 "Please install the Okular library before running Kile."
 msgstr ""
 
-#: main.cpp:177
+#: main.cpp:178
 #, fuzzy, kde-format
 #| msgid "The template could not be removed."
 msgid "Okular library not found"
@@ -11835,27 +11835,27 @@ msgid "Restore Default Tools..."
 msgstr "回復預設工具..."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: widgets/newdocumentwidget.ui:23
+#: widgets/newdocumentwidget.ui:38
 #, fuzzy, kde-format
 #| msgid "A template for this type of document cannot be created."
 msgid "Please select the type of document you want to create:"
 msgstr "無法建立此型態的文件樣本。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: widgets/newdocumentwidget.ui:59
+#: widgets/newdocumentwidget.ui:74
 #, kde-format
 msgid "Template"
 msgstr "樣本"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: widgets/newdocumentwidget.ui:65
+#: widgets/newdocumentwidget.ui:80
 #, fuzzy, kde-format
 #| msgid "Please select a template that should be removed."
 msgid "Please select the template that should be used:"
 msgstr "請選擇要移除的樣本。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, quickStartWizardCheckBox)
-#: widgets/newdocumentwidget.ui:78
+#: widgets/newdocumentwidget.ui:93
 #, kde-format
 msgid "Start the Quick Start wizard when creating an empty LaTeX file"
 msgstr ""
