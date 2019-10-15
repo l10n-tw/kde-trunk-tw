@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-14 03:01+0200\n"
+"POT-Creation-Date: 2019-10-15 03:00+0200\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -27,7 +27,7 @@ msgid "Your emails"
 msgstr ""
 
 #: data/effects/audiobalance.xml:3 data/effects/audiobalance.xml:8
-#: src/audiomixer/mixerwidget.cpp:118
+#: src/audiomixer/mixerwidget.cpp:133
 #, kde-format
 msgid "Balance"
 msgstr "平衡"
@@ -5623,29 +5623,29 @@ msgstr "溶解"
 msgid "Lift"
 msgstr ""
 
-#: src/audiomixer/mixermanager.cpp:155
+#: src/audiomixer/mixermanager.cpp:147
 #: src/audiospectrum/audiographspectrum.cpp:105
 #, kde-format
 msgid "Master"
 msgstr ""
 
-#: src/audiomixer/mixerwidget.cpp:105 src/monitor/monitor.cpp:289
+#: src/audiomixer/mixerwidget.cpp:116 src/monitor/monitor.cpp:289
 #, kde-format
 msgid "Volume"
 msgstr "音量"
 
-#: src/audiomixer/mixerwidget.cpp:108
+#: src/audiomixer/mixerwidget.cpp:119
 #, fuzzy, kde-format
 #| msgid "B"
 msgid "dB"
 msgstr "B"
 
-#: src/audiomixer/mixerwidget.cpp:165
+#: src/audiomixer/mixerwidget.cpp:183
 #, fuzzy, kde-format
 msgid "Mute track"
 msgstr "軌道"
 
-#: src/audiomixer/mixerwidget.cpp:165
+#: src/audiomixer/mixerwidget.cpp:183
 #, fuzzy, kde-format
 msgid "Unmute track"
 msgstr "靜音預覽"

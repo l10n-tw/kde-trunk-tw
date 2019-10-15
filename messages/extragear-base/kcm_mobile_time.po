@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-settings\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-08 02:27+0200\n"
+"POT-Creation-Date: 2019-10-15 02:35+0200\n"
 "PO-Revision-Date: 2019-10-11 18:10+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -90,62 +90,63 @@ msgstr "11月"
 msgid "Dec"
 msgstr "12月"
 
-#: package/contents/ui/Time.qml:51
+#: package/contents/ui/Time.qml:50
 #, kde-format
 msgid "Time Display"
 msgstr "時間顯示"
 
-#: package/contents/ui/Time.qml:55
+#: package/contents/ui/Time.qml:54
 #, kde-format
 msgid "Use 24-hour clock:"
 msgstr "使用 24 小時制時鐘："
 
-#: package/contents/ui/Time.qml:77
+#: package/contents/ui/Time.qml:76
 #, kde-format
 msgid "Set Time and Date"
 msgstr "設定日期及時間"
 
-#: package/contents/ui/Time.qml:81
+#: package/contents/ui/Time.qml:80
 #, kde-format
 msgid "Set time automatically:"
 msgstr "自動設定時間："
 
-#: package/contents/ui/Time.qml:96
+#: package/contents/ui/Time.qml:95
 #, kde-format
 msgid "Time"
 msgstr "時間"
 
-#: package/contents/ui/Time.qml:108
+#: package/contents/ui/Time.qml:107
 #, kde-format
 msgid "Date"
 msgstr "日期"
 
-#: package/contents/ui/Time.qml:123
+#: package/contents/ui/Time.qml:122
 #, kde-format
 msgctxt "@title:window"
 msgid "Pick Timezone"
 msgstr "挑選時區"
 
-#: package/contents/ui/Time.qml:136 package/contents/ui/Time.qml:192
-#: package/contents/ui/Time.qml:237
+#: package/contents/ui/Time.qml:135 package/contents/ui/Time.qml:191
+#: package/contents/ui/Time.qml:236
 #, kde-format
 msgctxt "@action:button"
 msgid "Close"
 msgstr "關閉"
 
-#: package/contents/ui/Time.qml:156
+#: package/contents/ui/Time.qml:155
 #, kde-format
 msgid "Pick Time"
 msgstr "挑選時間"
 
-#: package/contents/ui/Time.qml:201
+#: package/contents/ui/Time.qml:200
 #, kde-format
 msgid "Pick Date"
 msgstr "挑選日期"
 
 #: timesettings.cpp:92
-#, kde-format
-msgid "Configure Date and Time"
+#, fuzzy, kde-format
+#| msgid "Configure Date and Time"
+msgid "Date and Time"
 msgstr "設定日期及時間"
 
 #: timesettings.cpp:94
