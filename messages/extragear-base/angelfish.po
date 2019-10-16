@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-28 02:27+0200\n"
+"POT-Creation-Date: 2019-10-16 02:34+0200\n"
 "PO-Revision-Date: 2019-08-19 21:54+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -17,17 +17,67 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.07.90\n"
 
-#: src/contents/ui/Bookmarks.qml:30 src/contents/ui/webbrowser.qml:281
+#: src/contents/ui/AuthSheet.qml:18
+#, kde-format
+msgid "Authentication required"
+msgstr "需要身份驗證"
+
+#: src/contents/ui/AuthSheet.qml:24
+#, kde-format
+msgid "Username"
+msgstr "使用者名稱"
+
+#: src/contents/ui/AuthSheet.qml:31
+#, kde-format
+msgid "Password"
+msgstr "密碼"
+
+#: src/contents/ui/AuthSheet.qml:40 src/contents/ui/PermissionQuestion.qml:24
+#, kde-format
+msgid "Accept"
+msgstr "允許"
+
+#: src/contents/ui/AuthSheet.qml:49 src/contents/ui/DownloadQuestion.qml:22
+#, kde-format
+msgid "Cancel"
+msgstr "取消"
+
+#: src/contents/ui/Bookmarks.qml:30 src/contents/ui/webbrowser.qml:115
 #, kde-format
 msgid "Bookmarks"
 msgstr "書籤"
+
+#: src/contents/ui/DownloadQuestion.qml:6
+#, kde-format
+msgid "Do you want to download this file?"
+msgstr "是否下載此檔案？"
+
+#: src/contents/ui/DownloadQuestion.qml:14 src/contents/ui/WebView.qml:122
+#, kde-format
+msgid "Download"
+msgstr "下載"
 
 #: src/contents/ui/ErrorHandler.qml:52
 #, kde-format
 msgid "Error loading the page"
 msgstr "載入頁面錯誤"
 
-#: src/contents/ui/History.qml:29 src/contents/ui/webbrowser.qml:288
+#: src/contents/ui/FindInPageSheet.qml:3 src/contents/ui/webbrowser.qml:223
+#, kde-format
+msgid "Find in page"
+msgstr "在頁面中尋找內容"
+
+#: src/contents/ui/FindInPageSheet.qml:4
+#, kde-format
+msgid "Find..."
+msgstr "尋找…"
+
+#: src/contents/ui/FindInPageSheet.qml:5
+#, kde-format
+msgid "Highlight text on the current website"
+msgstr "在目前網站突顯文字"
+
+#: src/contents/ui/History.qml:29 src/contents/ui/webbrowser.qml:122
 #, kde-format
 msgid "History"
 msgstr "歷史記錄"
@@ -37,7 +87,47 @@ msgstr "歷史記錄"
 msgid "OK"
 msgstr "確定"
 
-#: src/contents/ui/Settings.qml:30 src/contents/ui/webbrowser.qml:292
+#: src/contents/ui/NewTabQuestion.qml:8
+#, kde-format
+msgid ""
+"Site wants to open a new tab: \n"
+"%1"
+msgstr ""
+"網站欲開啟新分頁：\n"
+"%1"
+
+#: src/contents/ui/NewTabQuestion.qml:16
+#, kde-format
+msgid "Open"
+msgstr "開啟"
+
+#: src/contents/ui/PermissionQuestion.qml:11
+#, kde-format
+msgid "Do you want to allow the website to access the geo location?"
+msgstr "是否允許網站存取地理位置？"
+
+#: src/contents/ui/PermissionQuestion.qml:13
+#, kde-format
+msgid "Do you want to allow the website to access the microphone?"
+msgstr "是否允許網站使用麥克風？"
+
+#: src/contents/ui/PermissionQuestion.qml:15
+#, kde-format
+msgid "Do you want to allow the website to access the camera?"
+msgstr "是否允許網站使用相機？"
+
+#: src/contents/ui/PermissionQuestion.qml:17
+#, kde-format
+msgid ""
+"Do you want to allow the website to access the camera and the microphone?"
+msgstr "是否允許網站使用相機及麥克風？"
+
+#: src/contents/ui/PermissionQuestion.qml:34
+#, kde-format
+msgid "Decline"
+msgstr "拒絕"
+
+#: src/contents/ui/Settings.qml:30 src/contents/ui/webbrowser.qml:126
 #, kde-format
 msgid "Settings"
 msgstr "設定"
@@ -72,197 +162,107 @@ msgstr "搜尋引擎"
 msgid "Base URL of your preferred search engine"
 msgstr "偏好搜尋引擎的基礎網址"
 
-#: src/contents/ui/Tabs.qml:38 src/contents/ui/webbrowser.qml:267
+#: src/contents/ui/Tabs.qml:38 src/contents/ui/webbrowser.qml:101
 #, kde-format
 msgid "Tabs"
 msgstr "分頁"
 
-#: src/contents/ui/webbrowser.qml:32
+#: src/contents/ui/webbrowser.qml:33
 #, kde-format
 msgid "Angelfish Web Browser"
 msgstr "Angelfish 網路瀏覽器"
 
-#: src/contents/ui/webbrowser.qml:115
-#, kde-format
-msgid ""
-"Site wants to open a new tab: \n"
-"%1"
-msgstr ""
-"網站欲開啟新分頁：\n"
-"%1"
-
-#: src/contents/ui/webbrowser.qml:126
-#, kde-format
-msgid "Open"
-msgstr "開啟"
-
-#: src/contents/ui/webbrowser.qml:138
-#, kde-format
-msgid "Do you want to download this file?"
-msgstr "是否下載此檔案？"
-
-#: src/contents/ui/webbrowser.qml:149 src/contents/ui/WebView.qml:109
-#, kde-format
-msgid "Download"
-msgstr "下載"
-
-#: src/contents/ui/webbrowser.qml:157 src/contents/ui/WebView.qml:162
-#, kde-format
-msgid "Cancel"
-msgstr "取消"
-
-#: src/contents/ui/webbrowser.qml:174
-#, kde-format
-msgid "Do you want to allow the website to access the geo location?"
-msgstr "是否允許網站存取地理位置？"
-
-#: src/contents/ui/webbrowser.qml:176
-#, kde-format
-msgid "Do you want to allow the website to access the microphone?"
-msgstr "是否允許網站使用麥克風？"
-
-#: src/contents/ui/webbrowser.qml:178
-#, kde-format
-msgid "Do you want to allow the website to access the camera?"
-msgstr "是否允許網站使用相機？"
-
-#: src/contents/ui/webbrowser.qml:180
-#, kde-format
-msgid ""
-"Do you want to allow the website to access the camera and the microphone?"
-msgstr "是否允許網站使用相機及麥克風？"
-
-#: src/contents/ui/webbrowser.qml:192 src/contents/ui/WebView.qml:153
-#, kde-format
-msgid "Accept"
-msgstr "允許"
-
-#: src/contents/ui/webbrowser.qml:200
-#, kde-format
-msgid "Decline"
-msgstr "拒絕"
-
-#: src/contents/ui/webbrowser.qml:240 src/contents/ui/webbrowser.qml:305
-#, kde-format
-msgid "Find in page"
-msgstr "在頁面中尋找內容"
-
-#: src/contents/ui/webbrowser.qml:241
-#, kde-format
-msgid "Find..."
-msgstr "尋找…"
-
-#: src/contents/ui/webbrowser.qml:242
-#, kde-format
-msgid "Highlight text on the current website"
-msgstr "在目前網站突顯文字"
-
-#: src/contents/ui/webbrowser.qml:274
+#: src/contents/ui/webbrowser.qml:108
 #, kde-format
 msgid "Leave private mode"
 msgstr "離開隱私模式"
 
-#: src/contents/ui/webbrowser.qml:274
+#: src/contents/ui/webbrowser.qml:108
 #, kde-format
 msgid "Private mode"
 msgstr "隱私模式"
 
-#: src/contents/ui/webbrowser.qml:309
+#: src/contents/ui/webbrowser.qml:227
 #, kde-format
 msgid "Share page"
 msgstr "分享頁面"
 
-#: src/contents/ui/webbrowser.qml:319
+#: src/contents/ui/webbrowser.qml:238
 #, kde-format
 msgid "Go previous"
 msgstr "上一頁"
 
-#: src/contents/ui/webbrowser.qml:328
+#: src/contents/ui/webbrowser.qml:247
 #, kde-format
 msgid "Go forward"
 msgstr "下一頁"
 
-#: src/contents/ui/webbrowser.qml:337
+#: src/contents/ui/webbrowser.qml:256
 #, kde-format
 msgid "Stop loading"
 msgstr "停止載入"
 
-#: src/contents/ui/webbrowser.qml:337
+#: src/contents/ui/webbrowser.qml:256
 #, kde-format
 msgid "Refresh"
 msgstr "重新整理"
 
-#: src/contents/ui/webbrowser.qml:345
+#: src/contents/ui/webbrowser.qml:264
 #, kde-format
 msgid "Add bookmark"
 msgstr "新增書籤"
 
-#: src/contents/ui/WebView.qml:64
+#: src/contents/ui/WebView.qml:75
 #, kde-format
 msgid "Download finished"
 msgstr "下載完成"
 
-#: src/contents/ui/WebView.qml:67
+#: src/contents/ui/WebView.qml:78
 #, kde-format
 msgid "Download failed"
 msgstr "下載失敗"
 
-#: src/contents/ui/WebView.qml:85
+#: src/contents/ui/WebView.qml:98
 #, kde-format
 msgid "Copy"
 msgstr "複製"
 
-#: src/contents/ui/WebView.qml:90
+#: src/contents/ui/WebView.qml:103
 #, kde-format
 msgid "Cut"
 msgstr "剪下"
 
-#: src/contents/ui/WebView.qml:95
+#: src/contents/ui/WebView.qml:108
 #, kde-format
 msgid "Paste"
 msgstr "貼上"
 
-#: src/contents/ui/WebView.qml:101
+#: src/contents/ui/WebView.qml:114
 #, kde-format
 msgid "Copy Url"
 msgstr "複製網址"
 
-#: src/contents/ui/WebView.qml:105
+#: src/contents/ui/WebView.qml:118
 #, kde-format
 msgid "View source"
 msgstr "檢視原始碼"
 
-#: src/contents/ui/WebView.qml:114
+#: src/contents/ui/WebView.qml:127
 #, kde-format
 msgid "Open in new Tab"
 msgstr "在新分頁開啟"
 
-#: src/contents/ui/WebView.qml:131
-#, kde-format
-msgid "Authentication required"
-msgstr "需要身份驗證"
-
-#: src/contents/ui/WebView.qml:137
-#, kde-format
-msgid "Username"
-msgstr "使用者名稱"
-
-#: src/contents/ui/WebView.qml:144
-#, kde-format
-msgid "Password"
-msgstr "密碼"
-
-#: src/contents/ui/WebView.qml:226
+#: src/contents/ui/WebView.qml:175
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "已在新分頁中開啟網站"
 
-#: src/main.cpp:42
+#: src/main.cpp:43
 #, kde-format
 msgid "URL to open"
 msgstr "欲開啟網址"
 
-#: src/main.cpp:43
+#: src/main.cpp:44
 #, kde-format
 msgid "Start without UI"
 msgstr "無 UI 啟動"
