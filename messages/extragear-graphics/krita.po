@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-15 02:38+0200\n"
+"POT-Creation-Date: 2019-10-17 02:34+0200\n"
 "PO-Revision-Date: 2019-10-02 16:00+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -8460,7 +8460,7 @@ msgstr "取消選擇"
 
 #: libs/image/commands/kis_image_layer_add_command.cpp:32
 #: libs/image/commands/kis_image_layer_add_command.cpp:48
-#: libs/ui/kis_layer_manager.cc:660
+#: libs/ui/kis_layer_manager.cc:659
 msgctxt "(qtundo-format)"
 msgid "Add Layer"
 msgstr "新增圖層"
@@ -11842,9 +11842,9 @@ msgstr "選擇背景影像"
 #: libs/ui/dialogs/kis_dlg_preferences.cc:437
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:131
 #: libs/ui/input/kis_tablet_debugger.cpp:103 libs/ui/kis_filter_manager.cc:226
-#: libs/ui/kis_filter_manager.cc:235 libs/ui/kis_layer_manager.cc:326
-#: libs/ui/kis_layer_manager.cc:953 libs/ui/kis_node_manager.cpp:1132
-#: libs/ui/kis_node_manager.cpp:1188 libs/ui/KisApplication.cpp:792
+#: libs/ui/kis_filter_manager.cc:235 libs/ui/kis_layer_manager.cc:325
+#: libs/ui/kis_layer_manager.cc:952 libs/ui/kis_node_manager.cpp:1130
+#: libs/ui/kis_node_manager.cpp:1186 libs/ui/KisApplication.cpp:792
 #: libs/ui/KisApplication.cpp:795 libs/ui/KisApplication.cpp:820
 #: libs/ui/KisApplication.cpp:846 libs/ui/KisApplication.cpp:867
 #: libs/ui/KisDocument.cpp:782 libs/ui/KisDocument.cpp:1393
@@ -16597,88 +16597,88 @@ msgstr "匯入影像"
 msgid "Select a Color"
 msgstr "選擇一種顏色"
 
-#: libs/ui/kis_layer_manager.cc:200
+#: libs/ui/kis_layer_manager.cc:199
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Merge Group"
 msgstr "合併圖層分組"
 
-#: libs/ui/kis_layer_manager.cc:201
+#: libs/ui/kis_layer_manager.cc:200
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Merge with Layer Below"
 msgstr "向下合併圖層"
 
-#: libs/ui/kis_layer_manager.cc:220
+#: libs/ui/kis_layer_manager.cc:219
 #, kde-format
 msgctxt "floating message in layer manager"
 msgid "Layer is empty "
 msgstr "圖層為空"
 
-#: libs/ui/kis_layer_manager.cc:253
+#: libs/ui/kis_layer_manager.cc:252
 #, kde-format
 msgid "Filter Layer Properties"
 msgstr "濾鏡圖層屬性"
 
-#: libs/ui/kis_layer_manager.cc:301
+#: libs/ui/kis_layer_manager.cc:300
 #, kde-format
 msgid "Fill Layer Properties"
 msgstr "填充圖層屬性"
 
-#: libs/ui/kis_layer_manager.cc:317
+#: libs/ui/kis_layer_manager.cc:316
 #, kde-format
 msgid "File Layer Properties"
 msgstr "檔案圖層屬性"
 
-#: libs/ui/kis_layer_manager.cc:326 libs/ui/kis_layer_manager.cc:953
+#: libs/ui/kis_layer_manager.cc:325 libs/ui/kis_layer_manager.cc:952
 #, kde-format
 msgid "No file name specified"
 msgstr "未指定檔案名"
 
-#: libs/ui/kis_layer_manager.cc:377
+#: libs/ui/kis_layer_manager.cc:376
 #, kde-format
 msgid "Change Clone Layer"
 msgstr "變更複製圖層"
 
-#: libs/ui/kis_layer_manager.cc:446
+#: libs/ui/kis_layer_manager.cc:445
 msgctxt "(qtundo-format)"
 msgid "Convert to a Paint Layer"
 msgstr "轉成顏料圖層"
 
-#: libs/ui/kis_layer_manager.cc:473
+#: libs/ui/kis_layer_manager.cc:472
 msgctxt "(qtundo-format)"
 msgid "Convert to an animated layer"
 msgstr "轉成動畫圖層"
 
-#: libs/ui/kis_layer_manager.cc:490
+#: libs/ui/kis_layer_manager.cc:489
 #, kde-format
 msgid "Save layers to..."
 msgstr "將圖層儲存至…"
 
-#: libs/ui/kis_layer_manager.cc:491
+#: libs/ui/kis_layer_manager.cc:490
 #, kde-format
 msgid ""
 "Choose the location where the layer will be saved to. The new file layer "
 "will then reference this location."
 msgstr "選擇圖層儲存的位置。新檔案圖層將在此後將引用此位置的資料。"
 
-#: libs/ui/kis_layer_manager.cc:554
+#: libs/ui/kis_layer_manager.cc:553
 msgctxt "(qtundo-format)"
 msgid "Convert to a file layer"
 msgstr "轉成檔案圖層"
 
-#: libs/ui/kis_layer_manager.cc:667
+#: libs/ui/kis_layer_manager.cc:666
 #, kde-format
 msgid "New Filter Layer"
 msgstr "建立濾鏡圖層"
 
-#: libs/ui/kis_layer_manager.cc:734
+#: libs/ui/kis_layer_manager.cc:733
 #, kde-format
 msgctxt "@title:window"
 msgid "Flatten Image"
 msgstr "平整影像"
 
-#: libs/ui/kis_layer_manager.cc:735
+#: libs/ui/kis_layer_manager.cc:734
 #, kde-format
 msgid ""
 "The image contains hidden layers that will be lost. Do you want to flatten "
@@ -16686,23 +16686,23 @@ msgid ""
 msgstr ""
 "此影像包含已隱藏的圖層，這些圖層將不會在平整後被保留，確定要平整影像嗎？"
 
-#: libs/ui/kis_layer_manager.cc:816
+#: libs/ui/kis_layer_manager.cc:815
 #, kde-format
 msgctxt "floating message in layer manager"
 msgid "Layer is locked "
 msgstr "圖層已鎖定 "
 
-#: libs/ui/kis_layer_manager.cc:862
+#: libs/ui/kis_layer_manager.cc:861
 msgctxt "(qtundo-format)"
 msgid "Rasterize Layer"
 msgstr "柵格化圖層"
 
-#: libs/ui/kis_layer_manager.cc:901
+#: libs/ui/kis_layer_manager.cc:900
 #, kde-format
 msgid "Convert Invisible Groups"
 msgstr "轉換不可見分組"
 
-#: libs/ui/kis_layer_manager.cc:904
+#: libs/ui/kis_layer_manager.cc:903
 #, kde-format
 msgid "Export Only Toplevel Groups"
 msgstr "僅匯出最頂層圖層分組"
@@ -16752,114 +16752,114 @@ msgstr "濾鏡遮罩屬性"
 msgid "Mirror View"
 msgstr "鏡像顯示"
 
-#: libs/ui/kis_node_manager.cpp:453
+#: libs/ui/kis_node_manager.cpp:451
 msgctxt "(qtundo-format)"
 msgid "Move Nodes"
 msgstr "移動節點"
 
-#: libs/ui/kis_node_manager.cpp:460
+#: libs/ui/kis_node_manager.cpp:458
 msgctxt "(qtundo-format)"
 msgid "Copy Nodes"
 msgstr "複製節點"
 
-#: libs/ui/kis_node_manager.cpp:467
+#: libs/ui/kis_node_manager.cpp:465
 msgctxt "(qtundo-format)"
 msgid "Add Nodes"
 msgstr "新增節點"
 
-#: libs/ui/kis_node_manager.cpp:629
+#: libs/ui/kis_node_manager.cpp:627
 msgctxt "(qtundo-format)"
 msgid "Convert to a Selection Mask"
 msgstr "轉成選取區域遮罩"
 
-#: libs/ui/kis_node_manager.cpp:879
+#: libs/ui/kis_node_manager.cpp:877
 #, kde-format
 msgid "Onion skins require a layer with transparent background."
 msgstr "洋蔥皮功能需要在透明背景的圖層上使用。"
 
-#: libs/ui/kis_node_manager.cpp:906
+#: libs/ui/kis_node_manager.cpp:904
 msgctxt "(qtundo-format)"
 msgid "Duplicate Nodes"
 msgstr "複製節點"
 
-#: libs/ui/kis_node_manager.cpp:929
+#: libs/ui/kis_node_manager.cpp:927
 msgctxt "(qtundo-format)"
 msgid "Raise Nodes"
 msgstr "升高節點"
 
-#: libs/ui/kis_node_manager.cpp:936
+#: libs/ui/kis_node_manager.cpp:934
 msgctxt "(qtundo-format)"
 msgid "Lower Nodes"
 msgstr "降低節點"
 
-#: libs/ui/kis_node_manager.cpp:954
+#: libs/ui/kis_node_manager.cpp:952
 msgctxt "(qtundo-format)"
 msgid "Remove Nodes"
 msgstr "刪除節點"
 
-#: libs/ui/kis_node_manager.cpp:970
+#: libs/ui/kis_node_manager.cpp:968
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer X"
 msgstr "沿 X 軸翻轉圖層"
 
-#: libs/ui/kis_node_manager.cpp:972
+#: libs/ui/kis_node_manager.cpp:970
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask X"
 msgstr "沿 X 軸翻轉遮罩"
 
-#: libs/ui/kis_node_manager.cpp:983
+#: libs/ui/kis_node_manager.cpp:981
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer Y"
 msgstr "沿 Y 軸翻轉圖層"
 
-#: libs/ui/kis_node_manager.cpp:985
+#: libs/ui/kis_node_manager.cpp:983
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask Y"
 msgstr "沿 Y 軸翻轉遮罩"
 
-#: libs/ui/kis_node_manager.cpp:993
+#: libs/ui/kis_node_manager.cpp:991
 msgctxt "(qtundo-format)"
 msgid "Mirror All Layers X"
 msgstr "沿 X 軸鏡像所有圖層"
 
-#: libs/ui/kis_node_manager.cpp:1000
+#: libs/ui/kis_node_manager.cpp:998
 msgctxt "(qtundo-format)"
 msgid "Mirror All Layers Y"
 msgstr "沿 Y 軸鏡像所有圖層"
 
-#: libs/ui/kis_node_manager.cpp:1102
+#: libs/ui/kis_node_manager.cpp:1100
 #, kde-format
 msgid "Export \"%1\""
 msgstr "匯出「%1」"
 
-#: libs/ui/kis_node_manager.cpp:1133
+#: libs/ui/kis_node_manager.cpp:1131
 #, kde-format
 msgid "Could not save the layer. %1"
 msgstr "無法儲存圖層。%1"
 
-#: libs/ui/kis_node_manager.cpp:1168
+#: libs/ui/kis_node_manager.cpp:1166
 #, kde-format
 msgctxt "@title:window"
 msgid "Export to SVG"
 msgstr "匯出為 SVG"
 
-#: libs/ui/kis_node_manager.cpp:1188
+#: libs/ui/kis_node_manager.cpp:1186
 #, kde-format
 msgid "Could not save to svg: %1"
 msgstr "無法儲存為 SVG：%1"
 
-#: libs/ui/kis_node_manager.cpp:1208
+#: libs/ui/kis_node_manager.cpp:1206
 msgctxt "(qtundo-format)"
 msgid "Split Alpha into a Mask"
 msgstr "分割透明度為遮罩"
 
-#: libs/ui/kis_node_manager.cpp:1238
+#: libs/ui/kis_node_manager.cpp:1236
 #, kde-format
 msgctxt "@title:window"
 msgid "Layer %1 is not editable"
 msgstr "圖層 %1 不可編輯"
 
-#: libs/ui/kis_node_manager.cpp:1239
+#: libs/ui/kis_node_manager.cpp:1237
 #, kde-format
 msgid ""
 "Cannot write alpha channel of the parent layer \"%1\".\n"
@@ -16868,39 +16868,39 @@ msgstr ""
 "無法寫入父圖層的透明度色板 \"%1\"。\n"
 "操作將被取消。"
 
-#: libs/ui/kis_node_manager.cpp:1270
+#: libs/ui/kis_node_manager.cpp:1268
 msgctxt "(qtundo-format)"
 msgid "Write Alpha into a Layer"
 msgstr "寫入透明度到圖層"
 
-#: libs/ui/kis_node_manager.cpp:1385
+#: libs/ui/kis_node_manager.cpp:1383
 msgctxt "(qtundo-format)"
 msgid "Cut Nodes"
 msgstr "剪下節點"
 
-#: libs/ui/kis_node_manager.cpp:1460
+#: libs/ui/kis_node_manager.cpp:1458
 msgctxt "(qtundo-format)"
 msgid "Quick Group"
 msgstr "快速分組"
 
-#: libs/ui/kis_node_manager.cpp:1471
+#: libs/ui/kis_node_manager.cpp:1469
 msgctxt "(qtundo-format)"
 msgid "Quick Clipping Group"
 msgstr "快速剪貼分組"
 
-#: libs/ui/kis_node_manager.cpp:1478
+#: libs/ui/kis_node_manager.cpp:1476
 #, kde-format
 msgctxt "default name for a clipping group layer"
 msgid "Clipping Group"
 msgstr "剪貼分組"
 
-#: libs/ui/kis_node_manager.cpp:1480
+#: libs/ui/kis_node_manager.cpp:1478
 #, kde-format
 msgctxt "default name for quick clip group mask layer"
 msgid "Mask Layer"
 msgstr "遮罩圖層"
 
-#: libs/ui/kis_node_manager.cpp:1494
+#: libs/ui/kis_node_manager.cpp:1492
 msgctxt "(qtundo-format)"
 msgid "Quick Ungroup"
 msgstr "快速拆散分組"
@@ -17896,8 +17896,10 @@ msgid ""
 msgstr "%1 不存在於 %2 且損壞。請試試在其他位置重新儲存。"
 
 #: libs/ui/KisImportExportManager.cpp:272
-#, kde-format
-msgctxt "@titile:window"
+#, fuzzy, kde-format
+#| msgctxt "@titile:window"
+#| msgid "Open Audio"
+msgctxt "@title:window"
 msgid "Open Audio"
 msgstr "開啟音訊"
 
@@ -25032,42 +25034,42 @@ msgstr "重設為預設值"
 msgid "Channels"
 msgstr "色板"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:55
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:56
 #, kde-format
 msgid "Compositions"
 msgstr "圖層合成方案"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:66
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:68
 #, kde-format
 msgid "Delete Composition"
 msgstr "刪除方案"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:67
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:69
 #, kde-format
 msgid "New Composition"
 msgstr "建立方案"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:68
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:70
 #, kde-format
 msgid "Export Composition"
 msgstr "匯出方案"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:82
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:84
 #, kde-format
 msgid "Insert Name"
 msgstr "新構圖名稱"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:193
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:195
 #, kde-format
 msgid "Select a Directory"
 msgstr "選擇資料夾"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:295
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:305
 #, kde-format
 msgid "Rename Composition"
 msgstr "重新命名方案"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:296
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:306
 #, kde-format
 msgid "New Name:"
 msgstr "新名稱："
@@ -33248,32 +33250,32 @@ msgstr "無法載入像質資料：%1。"
 msgid "Could not load profile: %1."
 msgstr "無法載入設定檔：%1 。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:610
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:609
 #, kde-format
 msgid "Could not filter configuration %1."
 msgstr "無法過濾設定 %1。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:651
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:650
 #, kde-format
 msgid "Could not load metadata for layer %1."
 msgstr "無法為圖層 %1 載入中繼資料。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:673
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:672
 #, kde-format
 msgid "Could not load raster selection %1."
 msgstr "無法載入柵格選取區域 %1。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:691
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:690
 #, kde-format
 msgid "Could not load vector selection %1."
 msgstr "無法載入向量選取區域 %1。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:718
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:717
 #, kde-format
 msgid "Could not load keyframes from %1."
 msgstr "無法從 %1 載入關鍵影格。"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:732
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:731
 #, kde-format
 msgid ""
 "parsing error in the keyframe file %1 at line %2, column %3\n"
@@ -33282,7 +33284,7 @@ msgstr ""
 "在關鍵影格檔案 %1 的第 %2 行第 %3 列發生解析錯誤\n"
 "錯誤消息：%4"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:745
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:744
 #, kde-format
 msgid "unknown keyframe channel type: %1 in %2"
 msgstr "未知的關鍵影格色板類型：%1 在 %2 中"
@@ -38186,8 +38188,13 @@ msgstr ""
 "但它適用與改編作品的場合。"
 
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:401
+#, fuzzy
+#| msgid ""
+#| "Whether the comic is an adaption of an existing source, and if so, how to "
+#| "find information about that source. So for example, for an adapted "
+#| "webcomic, the official website url should go here."
 msgid ""
-"Whether the comic is an adaption of an existing source, and if so, how to "
+"Whether the comic is an adaptation of an existing source, and if so, how to "
 "find information about that source. So for example, for an adapted webcomic, "
 "the official website url should go here."
 msgstr ""
@@ -39795,7 +39802,7 @@ msgstr ""
 "用。"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:170
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:645
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:651
 #, kde-format
 msgid "Threshold: "
 msgstr "閾值："
@@ -41471,7 +41478,7 @@ msgstr "路徑選取區域工具"
 msgid "Magnetic Selection"
 msgstr "影像選取區域(&I)"
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:451
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:452
 #, fuzzy
 #| msgctxt "(qtundo-format)"
 #| msgid "Invert Selection"
@@ -41479,19 +41486,19 @@ msgctxt "(qtundo-format)"
 msgid "Magnetic Selection"
 msgstr "反轉選擇"
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:633
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:639
 #, fuzzy, kde-format
 #| msgid "Filter radius:"
 msgid "Filter Radius: "
 msgstr "濾鏡半徑："
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:657
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:663
 #, fuzzy, kde-format
 #| msgid "Patch Radius:"
 msgid "Search Radius: "
 msgstr "補丁半徑："
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:670
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:676
 #, fuzzy, kde-format
 #| msgid "Anchor:"
 msgid "Anchor Gap: "

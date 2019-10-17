@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-30 03:10+0200\n"
+"POT-Creation-Date: 2019-10-17 03:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: app/AboutPage.qml:26 app/main.qml:73
+#: app/AboutPage.qml:26 app/main.qml:82
 #, kde-format
 msgid "About"
 msgstr ""
@@ -64,34 +64,22 @@ msgstr ""
 msgid "KDE Itinerary uses public transport data from the following sources."
 msgstr ""
 
-#: app/applicationcontroller.cpp:178
-#, kde-format
-msgid "Import Reservation"
-msgstr ""
-
-#: app/applicationcontroller.cpp:180
-#, kde-format
-msgid ""
-"All Files (*.*);;PkPass files (*.pkpass);;PDF files (*.pdf);;KDE Itinerary "
-"files (*.itinerary)"
-msgstr ""
-
-#: app/applicationcontroller.cpp:340
+#: app/applicationcontroller.cpp:323
 #, kde-format
 msgid "Export Itinerary Data"
 msgstr ""
 
-#: app/applicationcontroller.cpp:342
+#: app/applicationcontroller.cpp:325 app/main.qml:37
 #, kde-format
 msgid "KDE Itinerary files (*.itinerary)"
 msgstr ""
 
-#: app/applicationcontroller.cpp:439
+#: app/applicationcontroller.cpp:422
 #, kde-format
 msgid "Add Document"
 msgstr ""
 
-#: app/applicationcontroller.cpp:441
+#: app/applicationcontroller.cpp:424 app/main.qml:37
 #, kde-format
 msgid "All Files (*.*)"
 msgstr ""
@@ -693,7 +681,7 @@ msgstr ""
 msgid "Itinerary change"
 msgstr ""
 
-#: app/main.cpp:115 app/main.qml:26 app/main.qml:33
+#: app/main.cpp:115 app/main.qml:27 app/main.qml:42
 #, kde-format
 msgid "KDE Itinerary"
 msgstr ""
@@ -703,32 +691,47 @@ msgstr ""
 msgid "PkPass or JSON-LD file to import."
 msgstr ""
 
+#: app/main.qml:35
+#, kde-format
+msgid "Import Reservation"
+msgstr ""
+
 #: app/main.qml:37
+#, kde-format
+msgid "PkPass files (*.pkpass)"
+msgstr ""
+
+#: app/main.qml:37
+#, kde-format
+msgid "PDF files (*.pdf)"
+msgstr ""
+
+#: app/main.qml:46
 #, kde-format
 msgid "Import..."
 msgstr ""
 
-#: app/main.qml:42
+#: app/main.qml:51
 #, kde-format
 msgid "Paste"
 msgstr ""
 
-#: app/main.qml:48
+#: app/main.qml:57
 #, kde-format
 msgid "Check Calendar"
 msgstr ""
 
-#: app/main.qml:54
+#: app/main.qml:63
 #, kde-format
 msgid "Check for Updates"
 msgstr ""
 
-#: app/main.qml:62
+#: app/main.qml:71
 #, kde-format
 msgid "Settings..."
 msgstr ""
 
-#: app/main.qml:67
+#: app/main.qml:76
 #, kde-format
 msgid "Export..."
 msgstr ""
