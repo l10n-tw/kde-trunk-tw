@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-17 03:17+0200\n"
+"POT-Creation-Date: 2019-10-18 03:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -969,7 +969,7 @@ msgid_plural "Date: %2 (%1 days)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/TripGroupDelegate.qml:91
+#: app/TripGroupDelegate.qml:91 app/WeatherForecastPage.qml:58
 #, kde-format
 msgid "%1°C / %2°C"
 msgstr ""
@@ -1019,22 +1019,17 @@ msgstr ""
 msgid "Precipitation: %1 mm"
 msgstr ""
 
-#: app/WeatherForecastPage.qml:47
+#: app/WeatherForecastPage.qml:56
 #, kde-format
-msgid "%1 %2°C"
+msgid "%1°C"
 msgstr ""
 
-#: app/WeatherForecastPage.qml:49
+#: app/WeatherForecastPage.qml:65
 #, kde-format
-msgid "%1 %2°C ☂ %3mm"
+msgid "☂ %1 mm"
 msgstr ""
 
-#: app/WeatherForecastPage.qml:52
+#: app/WeatherForecastPage.qml:70
 #, kde-format
-msgid "%1 %2°C / %3°C"
-msgstr ""
-
-#: app/WeatherForecastPage.qml:53
-#, kde-format
-msgid "%1 %2°C / %3°C ☂ %4 mm"
+msgid "🌬️ %1 m/s"
 msgstr ""

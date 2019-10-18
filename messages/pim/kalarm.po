@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-17 03:11+0200\n"
+"POT-Creation-Date: 2019-10-18 03:20+0200\n"
 "PO-Revision-Date: 2018-05-19 11:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -244,7 +244,7 @@ msgid ""
 "para>"
 msgstr "<para>請輸入時間以排程鬧鐘。</para> <para>%1</para> <para>%2</para>"
 
-#: alarmtimewidget.cpp:141 recurrenceedit.cpp:291
+#: alarmtimewidget.cpp:141 recurrenceedit.cpp:290
 #, kde-format
 msgctxt "@option:check"
 msgid "Any time"
@@ -477,7 +477,7 @@ msgid ""
 "Select whether the reminder should be triggered before or after the birthday."
 msgstr "選擇是否在生日前後觸發提醒。"
 
-#: birthdaydlg.cpp:214 recurrenceedit.cpp:175
+#: birthdaydlg.cpp:214 recurrenceedit.cpp:174
 #, kde-format
 msgctxt "@action:button"
 msgid "Sub-Repetition"
@@ -3984,19 +3984,19 @@ msgctxt "@action"
 msgid "Disa&ble"
 msgstr "關閉(&B)"
 
-#: messagewin.cpp:341
+#: messagewin.cpp:340
 #, kde-format
 msgctxt "@title:window"
 msgid "Reminder"
 msgstr "提醒"
 
-#: messagewin.cpp:341 messagewin.cpp:772
+#: messagewin.cpp:340 messagewin.cpp:771
 #, kde-format
 msgctxt "@title:window"
 msgid "Message"
 msgstr "訊息"
 
-#: messagewin.cpp:360
+#: messagewin.cpp:359
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4004,109 +4004,109 @@ msgid ""
 "display)."
 msgstr "此訊息原先所排定顯示之日期與時間（而非實際顯示之時間）"
 
-#: messagewin.cpp:370
+#: messagewin.cpp:369
 #, kde-format
 msgctxt "@info"
 msgid "Reminder"
 msgstr "提醒"
 
-#: messagewin.cpp:394
+#: messagewin.cpp:393
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The file whose contents are displayed below"
 msgstr "顯示內容之檔案"
 
-#: messagewin.cpp:452
+#: messagewin.cpp:451
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The contents of the file to be displayed"
 msgstr "顯示檔案之內容"
 
-#: messagewin.cpp:458
+#: messagewin.cpp:457
 #, kde-format
 msgctxt "@info"
 msgid "File is a folder"
 msgstr "檔案是個目錄"
 
-#: messagewin.cpp:458
+#: messagewin.cpp:457
 #, kde-format
 msgctxt "@info"
 msgid "Failed to open file"
 msgstr "開啟檔案失敗"
 
-#: messagewin.cpp:458
+#: messagewin.cpp:457
 #, kde-format
 msgctxt "@info"
 msgid "File not found"
 msgstr "找不到檔案"
 
-#: messagewin.cpp:478
+#: messagewin.cpp:477
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The alarm message"
 msgstr "鬧鐘訊息"
 
-#: messagewin.cpp:505
+#: messagewin.cpp:504
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The output of the alarm's command"
 msgstr "鬧鐘指令的輸出"
 
-#: messagewin.cpp:547
+#: messagewin.cpp:546
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The email to send"
 msgstr "要寄的信件"
 
-#: messagewin.cpp:553
+#: messagewin.cpp:552
 #, kde-format
 msgctxt "@info Email addressee"
 msgid "To:"
 msgstr "收件人："
 
-#: messagewin.cpp:560
+#: messagewin.cpp:559
 #, kde-format
 msgctxt "@info Email subject"
 msgid "Subject:"
 msgstr "主旨："
 
-#: messagewin.cpp:586
+#: messagewin.cpp:585
 #, kde-format
 msgctxt "@title:window"
 msgid "Error"
 msgstr "錯誤"
 
-#: messagewin.cpp:607
+#: messagewin.cpp:606
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not display this error message again for this alarm"
 msgstr "對此鬧鐘不要再顯示此錯誤訊息"
 
-#: messagewin.cpp:626
+#: messagewin.cpp:625
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Acknowledge the alarm"
 msgstr "確認鬧鐘"
 
-#: messagewin.cpp:631
+#: messagewin.cpp:630
 #, kde-format
 msgctxt "@action:button"
 msgid "&Edit..."
 msgstr "編輯(&E)..."
 
-#: messagewin.cpp:636
+#: messagewin.cpp:635
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Edit the alarm."
 msgstr "編輯鬧鐘"
 
-#: messagewin.cpp:640
+#: messagewin.cpp:639
 #, kde-format
 msgctxt "@action:button"
 msgid "&Defer..."
 msgstr "延期(&D)..."
 
-#: messagewin.cpp:645
+#: messagewin.cpp:644
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4116,109 +4116,109 @@ msgstr ""
 "<para>延遲鬧鐘響鈴時間（賴床功能）。</para><para>您會被要求指定鬧鐘何時要重新"
 "響鈴。</para>"
 
-#: messagewin.cpp:661 sounddlg.cpp:468
+#: messagewin.cpp:660 sounddlg.cpp:468
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Stop sound"
 msgstr "停止聲音"
 
-#: messagewin.cpp:662 sounddlg.cpp:469
+#: messagewin.cpp:661 sounddlg.cpp:469
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Stop playing the sound"
 msgstr "停止播放聲音"
 
-#: messagewin.cpp:675
+#: messagewin.cpp:674
 #, kde-kuit-format
 msgctxt "@info:tooltip Locate this email in KMail"
 msgid "Locate in <application>KMail</application>"
 msgstr "無法在 <application>KMail</application> 中找到這信件"
 
-#: messagewin.cpp:676
+#: messagewin.cpp:675
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "Locate and highlight this email in <application>KMail</application>"
 msgstr "在 KMail 中尋找並選擇這封電子郵件"
 
-#: messagewin.cpp:685
+#: messagewin.cpp:684
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Activate <application>KAlarm</application>"
 msgstr "啟動 <application>KAlarm</application>"
 
-#: messagewin.cpp:686
+#: messagewin.cpp:685
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "Activate <application>KAlarm</application>"
 msgstr "啟動 <application>KAlarm</application>"
 
-#: messagewin.cpp:852
+#: messagewin.cpp:851
 #, kde-format
 msgctxt "@info"
 msgid "Today"
 msgstr "今天"
 
-#: messagewin.cpp:854
+#: messagewin.cpp:853
 #, kde-format
 msgctxt "@info"
 msgid "Tomorrow"
 msgid_plural "in %1 days' time"
 msgstr[0] "%1 天內"
 
-#: messagewin.cpp:856
+#: messagewin.cpp:855
 #, kde-format
 msgctxt "@info"
 msgid "in 1 week's time"
 msgid_plural "in %1 weeks' time"
 msgstr[0] "%1 週內"
 
-#: messagewin.cpp:870
+#: messagewin.cpp:869
 #, kde-format
 msgctxt "@info"
 msgid "in 1 minute's time"
 msgid_plural "in %1 minutes' time"
 msgstr[0] "%1 分鐘內"
 
-#: messagewin.cpp:872
+#: messagewin.cpp:871
 #, kde-format
 msgctxt "@info"
 msgid "in 1 hour's time"
 msgid_plural "in %1 hours' time"
 msgstr[0] "%1 小時內"
 
-#: messagewin.cpp:875
+#: messagewin.cpp:874
 #, kde-format
 msgctxt "@item:intext inserted into 'in ... %1 minute's time' below"
 msgid "1 hour"
 msgid_plural "%1 hours"
 msgstr[0] "%1 小時"
 
-#: messagewin.cpp:876
+#: messagewin.cpp:875
 #, kde-format
 msgctxt "@info '%2' is the previous message '1 hour'/'%1 hours'"
 msgid "in %2 1 minute's time"
 msgid_plural "in %2 %1 minutes' time"
 msgstr[0] "於 %2 %1 分鐘內"
 
-#: messagewin.cpp:1329
+#: messagewin.cpp:1328
 #, kde-format
 msgctxt "@info"
 msgid "Unable to speak message"
 msgstr "無法用語音說出訊息"
 
-#: messagewin.cpp:1329
+#: messagewin.cpp:1328
 #, kde-format
 msgctxt "@info"
 msgid "Text-to-speech subsystem is not available"
 msgstr "文字轉語音子系統不支援"
 
-#: messagewin.cpp:1492
+#: messagewin.cpp:1491
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot open audio file: <filename>%1</filename>"
 msgstr "無法開啟音效檔：<filename>%1</filename>"
 
-#: messagewin.cpp:1590
+#: messagewin.cpp:1589
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -4226,31 +4226,31 @@ msgid ""
 msgstr ""
 "<para>播放音效檔：<filename>%1</filename> 時發生錯誤</para> <para>%2</para>"
 
-#: messagewin.cpp:1920
+#: messagewin.cpp:1919
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to acknowledge this alarm?"
 msgstr "你真的要確認該鬧鐘嗎？"
 
-#: messagewin.cpp:1921
+#: messagewin.cpp:1920
 #, kde-format
 msgctxt "@action:button"
 msgid "Acknowledge Alarm"
 msgstr "鬧鐘確認"
 
-#: messagewin.cpp:1921
+#: messagewin.cpp:1920
 #, kde-format
 msgctxt "@action:button"
 msgid "Acknowledge"
 msgstr "確認"
 
-#: messagewin.cpp:1992
+#: messagewin.cpp:1991
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Unable to locate this email in <application>KMail</application>"
 msgstr "無法在 <application>KMail</application> 中找到這信件"
 
-#: messagewin.cpp:2154
+#: messagewin.cpp:2153
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>Cannot defer alarm:</para><para>Alarm not found.</para>"
@@ -5296,61 +5296,61 @@ msgstr ""
 "含有標題列，並且會取得鍵盤輸入的焦點。</li> <li>如果不勾選，則顯示時無法與您"
 "互動，沒有標題列也無法移動或改變大小。</li></ul></p>"
 
-#: recurrenceedit.cpp:74
+#: recurrenceedit.cpp:73
 #, kde-format
 msgctxt "@item:inlistbox Recurrence type"
 msgid "No Recurrence"
 msgstr "不循環"
 
-#: recurrenceedit.cpp:75
+#: recurrenceedit.cpp:74
 #, kde-format
 msgctxt "@item:inlistbox Recurrence type"
 msgid "At Login"
 msgstr "登入時"
 
-#: recurrenceedit.cpp:76
+#: recurrenceedit.cpp:75
 #, kde-format
 msgctxt "@item:inlistbox Recurrence type"
 msgid "Hourly/Minutely"
 msgstr "小時/分鐘"
 
-#: recurrenceedit.cpp:77
+#: recurrenceedit.cpp:76
 #, kde-format
 msgctxt "@item:inlistbox Recurrence type"
 msgid "Daily"
 msgstr "天"
 
-#: recurrenceedit.cpp:78
+#: recurrenceedit.cpp:77
 #, kde-format
 msgctxt "@item:inlistbox Recurrence type"
 msgid "Weekly"
 msgstr "週"
 
-#: recurrenceedit.cpp:79
+#: recurrenceedit.cpp:78
 #, kde-format
 msgctxt "@item:inlistbox Recurrence type"
 msgid "Monthly"
 msgstr "月"
 
-#: recurrenceedit.cpp:80
+#: recurrenceedit.cpp:79
 #, kde-format
 msgctxt "@item:inlistbox Recurrence type"
 msgid "Yearly"
 msgstr "年"
 
-#: recurrenceedit.cpp:106
+#: recurrenceedit.cpp:105
 #, kde-format
 msgctxt "@title:group"
 msgid "Recurrence Rule"
 msgstr "循環規則"
 
-#: recurrenceedit.cpp:125
+#: recurrenceedit.cpp:124
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Do not repeat the alarm"
 msgstr "不重覆響鈴"
 
-#: recurrenceedit.cpp:133
+#: recurrenceedit.cpp:132
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5361,37 +5361,37 @@ msgstr ""
 "<para>在每次登入時重覆響鈴直到指定的時間。</para> <para>注意每次 "
 "<application>KAlarm</application> 重新啟動時也會響鈴。</para>"
 
-#: recurrenceedit.cpp:141
+#: recurrenceedit.cpp:140
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Repeat the alarm at hourly/minutely intervals"
 msgstr "以小時/分鐘為單位重覆響鈴"
 
-#: recurrenceedit.cpp:148
+#: recurrenceedit.cpp:147
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Repeat the alarm at daily intervals"
 msgstr "以天為單位重覆響鈴"
 
-#: recurrenceedit.cpp:155
+#: recurrenceedit.cpp:154
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Repeat the alarm at weekly intervals"
 msgstr "以週為單位重覆響鈴"
 
-#: recurrenceedit.cpp:162
+#: recurrenceedit.cpp:161
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Repeat the alarm at monthly intervals"
 msgstr "以月為單位重覆響鈴"
 
-#: recurrenceedit.cpp:169
+#: recurrenceedit.cpp:168
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Repeat the alarm at annual intervals"
 msgstr "以年為單位重覆響鈴"
 
-#: recurrenceedit.cpp:179
+#: recurrenceedit.cpp:178
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5399,55 +5399,55 @@ msgid ""
 "times each time the recurrence is due."
 msgstr "設定循環內的重覆，在每次循環時觸發鬧鐘多次。"
 
-#: recurrenceedit.cpp:227
+#: recurrenceedit.cpp:226
 #, kde-format
 msgctxt "@title:group"
 msgid "Recurrence End"
 msgstr "重覆結束"
 
-#: recurrenceedit.cpp:236
+#: recurrenceedit.cpp:235
 #, kde-format
 msgctxt "@option:radio"
 msgid "No end"
 msgstr "不結束"
 
-#: recurrenceedit.cpp:239
+#: recurrenceedit.cpp:238
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Repeat the alarm indefinitely"
 msgstr "無限期重覆鬧鐘"
 
-#: recurrenceedit.cpp:247
+#: recurrenceedit.cpp:246
 #, kde-format
 msgctxt "@option:radio"
 msgid "End after:"
 msgstr "多久之後結束："
 
-#: recurrenceedit.cpp:249
+#: recurrenceedit.cpp:248
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Repeat the alarm for the number of times specified"
 msgstr "在指定時間內重覆響鈴"
 
-#: recurrenceedit.cpp:256
+#: recurrenceedit.cpp:255
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Enter the total number of times to trigger the alarm"
 msgstr "輸入鬧鐘響鈴的總次數"
 
-#: recurrenceedit.cpp:260
+#: recurrenceedit.cpp:259
 #, kde-format
 msgctxt "@label"
 msgid "occurrence(s)"
 msgstr "發生"
 
-#: recurrenceedit.cpp:272
+#: recurrenceedit.cpp:271
 #, kde-format
 msgctxt "@option:radio"
 msgid "End by:"
 msgstr "結束時間："
 
-#: recurrenceedit.cpp:275
+#: recurrenceedit.cpp:274
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5458,19 +5458,19 @@ msgstr ""
 "<para>重覆鬧鐘直到指定的日期與時間。</para> <para><note>這只會套用到主要循"
 "環。不會限制任何子循環。</note></para>"
 
-#: recurrenceedit.cpp:280
+#: recurrenceedit.cpp:279
 #, kde-format
 msgctxt "@info"
 msgid "This uses the same time zone as the start time."
 msgstr "這會使用跟啟始時間一樣的時區設定。"
 
-#: recurrenceedit.cpp:282
+#: recurrenceedit.cpp:281
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<para>Enter the last date to repeat the alarm.</para><para>%1</para>"
 msgstr "<para>輸入鬧鐘最後一次響鈴的日期</para> <para>%1</para>"
 
-#: recurrenceedit.cpp:289
+#: recurrenceedit.cpp:288
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5478,7 +5478,7 @@ msgid ""
 "%2</para>"
 msgstr "<para>輸入鬧鐘最後一次響鈴的時間</para><para>%1</para><para>%2</para>"
 
-#: recurrenceedit.cpp:294
+#: recurrenceedit.cpp:293
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5486,19 +5486,19 @@ msgid ""
 "end date"
 msgstr "在第一次登入之後，或在指定的結束日期之後停止重覆響鈴。"
 
-#: recurrenceedit.cpp:312
+#: recurrenceedit.cpp:311
 #, kde-format
 msgctxt "@title:group"
 msgid "Exceptions"
 msgstr "例外"
 
-#: recurrenceedit.cpp:323
+#: recurrenceedit.cpp:322
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The list of exceptions, i.e. dates/times excluded from the recurrence"
 msgstr "除外的日期/時間"
 
-#: recurrenceedit.cpp:342
+#: recurrenceedit.cpp:341
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5506,25 +5506,25 @@ msgid ""
 "Add or Change button below."
 msgstr "輸入一個日期放進例外清單中。可以使用底下的「新增」、「變更」鍵。"
 
-#: recurrenceedit.cpp:349
+#: recurrenceedit.cpp:348
 #, kde-format
 msgctxt "@action:button"
 msgid "Add"
 msgstr "新增"
 
-#: recurrenceedit.cpp:350
+#: recurrenceedit.cpp:349
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Add the date entered above to the exceptions list"
 msgstr "將上面輸入的日期加入例外清單中"
 
-#: recurrenceedit.cpp:354
+#: recurrenceedit.cpp:353
 #, kde-format
 msgctxt "@action:button"
 msgid "Change"
 msgstr "變更"
 
-#: recurrenceedit.cpp:356
+#: recurrenceedit.cpp:355
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5532,25 +5532,25 @@ msgid ""
 "entered above"
 msgstr "將例外清單中所選取的日期改換成所輸入的日期"
 
-#: recurrenceedit.cpp:360 templatedlg.cpp:101
+#: recurrenceedit.cpp:359 templatedlg.cpp:101
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete"
 msgstr "刪除"
 
-#: recurrenceedit.cpp:361
+#: recurrenceedit.cpp:360
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Remove the currently highlighted item from the exceptions list"
 msgstr "從例外清單中移除所選取的日期時間"
 
-#: recurrenceedit.cpp:368
+#: recurrenceedit.cpp:367
 #, kde-format
 msgctxt "@option:check"
 msgid "Exclude holidays"
 msgstr "排除假日設定"
 
-#: recurrenceedit.cpp:371
+#: recurrenceedit.cpp:370
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5560,13 +5560,13 @@ msgstr ""
 "<para>只在工作日的工作時間內執行鬧鐘。</para> <para>您可以在設定對話框中設定"
 "工作時間。</para>"
 
-#: recurrenceedit.cpp:376
+#: recurrenceedit.cpp:375
 #, kde-format
 msgctxt "@option:check"
 msgid "Only during working time"
 msgstr "只在工作時間內"
 
-#: recurrenceedit.cpp:379
+#: recurrenceedit.cpp:378
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5577,266 +5577,266 @@ msgstr ""
 "<para>只在工作日的工作時間內執行鬧鐘。</para> <para>您可以在喜好設定中設定工"
 "作時間。</para>"
 
-#: recurrenceedit.cpp:422
+#: recurrenceedit.cpp:421
 #, kde-format
 msgctxt "@info"
 msgid "End date is earlier than start date"
 msgstr "結束日期比開始日期還早"
 
-#: recurrenceedit.cpp:423
+#: recurrenceedit.cpp:422
 #, kde-format
 msgctxt "@info"
 msgid "End date/time is earlier than start date/time"
 msgstr "結束日期/時間比開始日期/時間還早"
 
-#: recurrenceedit.cpp:693
+#: recurrenceedit.cpp:692
 #, kde-format
 msgctxt "@info"
 msgid "Date cannot be earlier than start date"
 msgstr "日期不能比開始日期還早"
 
-#: recurrenceedit.cpp:1108
+#: recurrenceedit.cpp:1107
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Recur e&very"
 msgstr "循環週期 (&V)："
 
-#: recurrenceedit.cpp:1177
+#: recurrenceedit.cpp:1176
 #, kde-format
 msgctxt "@label Time units for user-entered numbers"
 msgid "hours:minutes"
 msgstr "小時:分鐘"
 
-#: recurrenceedit.cpp:1178
+#: recurrenceedit.cpp:1177
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Enter the number of hours and minutes between repetitions of the alarm"
 msgstr "輸入鬧鐘要重覆響鈴的時間（以小時與分鐘為單位）"
 
-#: recurrenceedit.cpp:1198
+#: recurrenceedit.cpp:1197
 #, kde-format
 msgctxt "@label On: Tuesday"
 msgid "O&n:"
 msgstr "於(&N)："
 
-#: recurrenceedit.cpp:1284
+#: recurrenceedit.cpp:1283
 #, kde-format
 msgctxt "@info"
 msgid "No day selected"
 msgstr "沒有選擇天數"
 
-#: recurrenceedit.cpp:1313
+#: recurrenceedit.cpp:1312
 #, kde-format
 msgctxt "@label Time unit for user-entered number"
 msgid "day(s)"
 msgstr "天"
 
-#: recurrenceedit.cpp:1314
+#: recurrenceedit.cpp:1313
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Enter the number of days between repetitions of the alarm"
 msgstr "輸入鬧鐘要重覆響鈴的時間（以天為單位）"
 
-#: recurrenceedit.cpp:1315
+#: recurrenceedit.cpp:1314
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Select the days of the week on which the alarm is allowed to occur"
 msgstr "選擇在一週之中哪幾天要重覆響鈴"
 
-#: recurrenceedit.cpp:1326
+#: recurrenceedit.cpp:1325
 #, kde-format
 msgctxt "@label Time unit for user-entered number"
 msgid "week(s)"
 msgstr "週"
 
-#: recurrenceedit.cpp:1327
+#: recurrenceedit.cpp:1326
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Enter the number of weeks between repetitions of the alarm"
 msgstr "輸入鬧鐘要重覆響鈴的時間（以週為單位）"
 
-#: recurrenceedit.cpp:1328
+#: recurrenceedit.cpp:1327
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Select the days of the week on which to repeat the alarm"
 msgstr "選擇在一週之中哪幾天要重覆響鈴"
 
-#: recurrenceedit.cpp:1351
+#: recurrenceedit.cpp:1350
 #, kde-format
 msgctxt "@option:radio On day number in the month"
 msgid "O&n day"
 msgstr "於(&N)："
 
-#: recurrenceedit.cpp:1355
+#: recurrenceedit.cpp:1354
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Repeat the alarm on the selected day of the month"
 msgstr "在一個月中的某幾天重覆響鈴"
 
-#: recurrenceedit.cpp:1363
+#: recurrenceedit.cpp:1362
 #, kde-format
 msgctxt "@item:inlistbox Last day of month"
 msgid "Last"
 msgstr "最後一"
 
-#: recurrenceedit.cpp:1366
+#: recurrenceedit.cpp:1365
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Select the day of the month on which to repeat the alarm"
 msgstr "選擇一月中的那幾天要重覆響鈴"
 
-#: recurrenceedit.cpp:1373
+#: recurrenceedit.cpp:1372
 #, kde-format
 msgctxt "@option:radio On the 1st Tuesday"
 msgid "On t&he"
 msgstr "於(&H)："
 
-#: recurrenceedit.cpp:1377
+#: recurrenceedit.cpp:1376
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "Repeat the alarm on one day of the week, in the selected week of the month"
 msgstr "選擇一個月中第幾週的星期幾重覆響鈴"
 
-#: recurrenceedit.cpp:1382
+#: recurrenceedit.cpp:1381
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "1st"
 msgstr "第一"
 
-#: recurrenceedit.cpp:1383
+#: recurrenceedit.cpp:1382
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "2nd"
 msgstr "第二"
 
-#: recurrenceedit.cpp:1384
+#: recurrenceedit.cpp:1383
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "3rd"
 msgstr "第三"
 
-#: recurrenceedit.cpp:1385
+#: recurrenceedit.cpp:1384
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "4th"
 msgstr "第四"
 
-#: recurrenceedit.cpp:1386
+#: recurrenceedit.cpp:1385
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "5th"
 msgstr "第五"
 
-#: recurrenceedit.cpp:1387
+#: recurrenceedit.cpp:1386
 #, kde-format
 msgctxt "@item:inlistbox Last Monday in March"
 msgid "Last"
 msgstr "最後一"
 
-#: recurrenceedit.cpp:1388
+#: recurrenceedit.cpp:1387
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "2nd Last"
 msgstr "倒數第二個"
 
-#: recurrenceedit.cpp:1389
+#: recurrenceedit.cpp:1388
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "3rd Last"
 msgstr "倒數第三個"
 
-#: recurrenceedit.cpp:1390
+#: recurrenceedit.cpp:1389
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "4th Last"
 msgstr "倒數第四個"
 
-#: recurrenceedit.cpp:1391
+#: recurrenceedit.cpp:1390
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "5th Last"
 msgstr "倒數第五個"
 
-#: recurrenceedit.cpp:1394
+#: recurrenceedit.cpp:1393
 #, kde-format
 msgctxt "@item:inlistbox Every (Monday...) in month"
 msgid "Every"
 msgstr "每"
 
-#: recurrenceedit.cpp:1397
+#: recurrenceedit.cpp:1396
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Select the week of the month in which to repeat the alarm"
 msgstr "選擇一個月中哪幾週要重覆響鈴"
 
-#: recurrenceedit.cpp:1413
+#: recurrenceedit.cpp:1412
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Select the day of the week on which to repeat the alarm"
 msgstr "選擇一週中哪幾天要重覆響鈴"
 
-#: recurrenceedit.cpp:1535
+#: recurrenceedit.cpp:1534
 #, kde-format
 msgctxt "@label Time unit for user-entered number"
 msgid "month(s)"
 msgstr "個月"
 
-#: recurrenceedit.cpp:1536
+#: recurrenceedit.cpp:1535
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Enter the number of months between repetitions of the alarm"
 msgstr "輸入月數在每次鬧鐘重覆之間"
 
-#: recurrenceedit.cpp:1547
+#: recurrenceedit.cpp:1546
 #, kde-format
 msgctxt "@label Time unit for user-entered number"
 msgid "year(s)"
 msgstr "年"
 
-#: recurrenceedit.cpp:1548
+#: recurrenceedit.cpp:1547
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Enter the number of years between repetitions of the alarm"
 msgstr "輸入鬧鐘每幾年要重覆一次"
 
-#: recurrenceedit.cpp:1555
+#: recurrenceedit.cpp:1554
 #, kde-format
 msgctxt "@label List of months to select"
 msgid "Months:"
 msgstr "月份："
 
-#: recurrenceedit.cpp:1576
+#: recurrenceedit.cpp:1575
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Select the months of the year in which to repeat the alarm"
 msgstr "選擇一年中哪幾個月要重覆響鈴"
 
-#: recurrenceedit.cpp:1586
+#: recurrenceedit.cpp:1585
 #, kde-format
 msgctxt "@label:listbox"
 msgid "February 2&9th alarm in non-leap years:"
 msgstr "非閏年遇到二月廿九號響鈴時要改到(&9)："
 
-#: recurrenceedit.cpp:1591
+#: recurrenceedit.cpp:1590
 #, kde-format
 msgctxt "@item:inlistbox No date"
 msgid "None"
 msgstr "無"
 
-#: recurrenceedit.cpp:1592
+#: recurrenceedit.cpp:1591
 #, kde-format
 msgctxt "@item:inlistbox 1st March (short form)"
 msgid "1 Mar"
 msgstr "三月一日"
 
-#: recurrenceedit.cpp:1593
+#: recurrenceedit.cpp:1592
 #, kde-format
 msgctxt "@item:inlistbox 28th February (short form)"
 msgid "28 Feb"
 msgstr "二月廿八日"
 
-#: recurrenceedit.cpp:1600
+#: recurrenceedit.cpp:1599
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5844,7 +5844,7 @@ msgid ""
 "leap years"
 msgstr "如果在非閏年中遇到要在二月廿九日響鈴的鬧鐘，選擇要改到哪一天響鈴。"
 
-#: recurrenceedit.cpp:1682
+#: recurrenceedit.cpp:1681
 #, kde-format
 msgctxt "@info"
 msgid "No month selected"

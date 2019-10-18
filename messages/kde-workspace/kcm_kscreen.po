@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-17 03:22+0200\n"
+"POT-Creation-Date: 2019-10-18 03:32+0200\n"
 "PO-Revision-Date: 2019-10-09 20:51+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -113,30 +113,25 @@ msgstr "複本"
 
 #: package/contents/ui/OutputPanel.qml:32
 #, kde-format
-msgid "Settings for %1"
-msgstr "%1 的設定"
-
-#: package/contents/ui/OutputPanel.qml:40
-#, kde-format
 msgid "Enabled"
 msgstr "已開啟"
 
-#: package/contents/ui/OutputPanel.qml:47
+#: package/contents/ui/OutputPanel.qml:39
 #, kde-format
 msgid "Primary"
 msgstr "主顯示"
 
-#: package/contents/ui/OutputPanel.qml:54
+#: package/contents/ui/OutputPanel.qml:46
 #, kde-format
 msgid "Resolution:"
 msgstr "解析度："
 
-#: package/contents/ui/OutputPanel.qml:65
+#: package/contents/ui/OutputPanel.qml:57
 #, kde-format
 msgid "Scale:"
 msgstr "比例："
 
-#: package/contents/ui/OutputPanel.qml:94 package/contents/ui/Panel.qml:99
+#: package/contents/ui/OutputPanel.qml:86 package/contents/ui/Panel.qml:124
 #, fuzzy, kde-format
 #| msgctxt "Scale factor (e.g. 1.0x, 1.5x, 2.0x)"
 #| msgid "%1x"
@@ -144,44 +139,50 @@ msgctxt "Global scale factor expressed in percentage form"
 msgid "%1%"
 msgstr "%1x"
 
-#: package/contents/ui/OutputPanel.qml:109
+#: package/contents/ui/OutputPanel.qml:101
 #, kde-format
 msgid "Orientation:"
 msgstr "方向："
 
-#: package/contents/ui/OutputPanel.qml:126
+#: package/contents/ui/OutputPanel.qml:118
 #, kde-format
 msgid "Refresh rate:"
 msgstr "刷新頻率："
 
-#: package/contents/ui/OutputPanel.qml:134
+#: package/contents/ui/OutputPanel.qml:126
 #, kde-format
 msgid "Replica of:"
 msgstr "複本來源："
 
-#: package/contents/ui/Panel.qml:63
+#. i18n change text in master
+#: package/contents/ui/Panel.qml:34
+#, kde-format
+msgid "Settings for %1"
+msgstr "%1 的設定"
+
+#: package/contents/ui/Panel.qml:88
 #, kde-format
 msgid "Global scale:"
 msgstr "全域縮放比例："
 
-#: package/contents/ui/Panel.qml:120
+#: package/contents/ui/Panel.qml:145
 #, kde-format
 msgid ""
 "The global scale factor is limited to multiples of 6.25% to minimize visual "
 "glitches in applications using the X11 windowing system."
 msgstr ""
 
-#: package/contents/ui/Panel.qml:132
+#: package/contents/ui/Panel.qml:157
 #, kde-format
 msgid "Save displays' properties:"
 msgstr "儲存顯示器的屬性："
 
-#: package/contents/ui/Panel.qml:138
+#: package/contents/ui/Panel.qml:163
 #, kde-format
 msgid "For any display arrangement"
 msgstr "用於任意顯示器排序"
 
-#: package/contents/ui/Panel.qml:145
+#: package/contents/ui/Panel.qml:170
 #, kde-format
 msgid "For only this specific display arrangement"
 msgstr "僅用於此指定顯示器排序"

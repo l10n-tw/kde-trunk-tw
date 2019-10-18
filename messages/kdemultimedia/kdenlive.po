@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-17 03:03+0200\n"
+"POT-Creation-Date: 2019-10-18 03:09+0200\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -8440,7 +8440,7 @@ msgid "Tracks"
 msgstr "軌道"
 
 #. i18n: ectx: Menu (video_effects_menu)
-#: src/kdenliveui.rc:144 src/mainwindow.cpp:399
+#: src/kdenliveui.rc:144 src/mainwindow.cpp:398
 #, kde-format
 msgid "Add Effect"
 msgstr "添加特效"
@@ -8830,93 +8830,93 @@ msgstr ""
 msgid "Library"
 msgstr "資料庫"
 
-#: src/mainwindow.cpp:244
+#: src/mainwindow.cpp:243
 #, fuzzy, kde-format
 #| msgid "Audio driver:"
 msgid "Audio Mixer"
 msgstr "聲訊驅動:"
 
-#: src/mainwindow.cpp:294
+#: src/mainwindow.cpp:293
 #, fuzzy, kde-format
 msgid "Monitor %1"
 msgstr "預覽視窗"
 
-#: src/mainwindow.cpp:304 src/monitor/recmanager.cpp:120
+#: src/mainwindow.cpp:303 src/monitor/recmanager.cpp:120
 #: src/timeline2/view/qml/timeline.qml:670
 #, fuzzy, kde-format
 msgid "Configure Recording"
 msgstr "配置軌道"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: src/mainwindow.cpp:309 src/monitor/recmanager.cpp:111
+#: src/mainwindow.cpp:308 src/monitor/recmanager.cpp:111
 #: src/ui/configcapture_ui.ui:306
 #, kde-format
 msgid "Screen Grab"
 msgstr "擷取螢幕"
 
-#: src/mainwindow.cpp:313
+#: src/mainwindow.cpp:312
 #, kde-format
 msgid "Audio Spectrum"
 msgstr "音波譜"
 
-#: src/mainwindow.cpp:319
+#: src/mainwindow.cpp:318
 #, kde-format
 msgid "Project Bin"
 msgstr "專案素材庫"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #. i18n: ectx: property (title), widget (QGroupBox, properties)
-#: src/mainwindow.cpp:322 src/mltcontroller/clippropertiescontroller.cpp:722
+#: src/mainwindow.cpp:321 src/mltcontroller/clippropertiescontroller.cpp:722
 #: src/ui/profiledialog_ui.ui:54 src/ui/titlewidget_ui.ui:566
 #, kde-format
 msgid "Properties"
 msgstr "屬性"
 
-#: src/mainwindow.cpp:361 src/mainwindow.cpp:400
+#: src/mainwindow.cpp:360 src/mainwindow.cpp:399
 #, kde-format
 msgid "Effects"
 msgstr "特效"
 
-#: src/mainwindow.cpp:364
+#: src/mainwindow.cpp:363
 #: src/transitions/transitionlist/model/transitiontreemodel.cpp:45
 #, fuzzy, kde-format
 #| msgid "Compositing"
 msgid "Compositions"
 msgstr "混合方式"
 
-#: src/mainwindow.cpp:367
+#: src/mainwindow.cpp:366
 #, kde-format
 msgid "Clip Monitor"
 msgstr "素材預覽視窗"
 
-#: src/mainwindow.cpp:368
+#: src/mainwindow.cpp:367
 #, kde-format
 msgid "Project Monitor"
 msgstr "項目預覽視窗"
 
-#: src/mainwindow.cpp:372
+#: src/mainwindow.cpp:371
 #, kde-format
 msgid "Clean"
 msgstr "清除"
 
-#: src/mainwindow.cpp:374
+#: src/mainwindow.cpp:373
 #, kde-format
 msgid "Undo History"
 msgstr "歷史記錄"
 
-#: src/mainwindow.cpp:380
+#: src/mainwindow.cpp:379
 #, kde-format
 msgid "Force Breeze Icon Theme"
 msgstr "強制使用Breeze圖示主題"
 
-#: src/mainwindow.cpp:403
+#: src/mainwindow.cpp:402
 #, kde-format
 msgid "Add Transition"
 msgstr "添加轉場特效"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_raisepropstransitions)
-#: src/mainwindow.cpp:404 src/mainwindow.cpp:1490
+#: src/mainwindow.cpp:403 src/mainwindow.cpp:1490
 #: src/transitions/transitionlist/model/transitiontreemodel.cpp:46
 #: src/ui/configmisc_ui.ui:94 src/ui/configtimeline_ui.ui:108
 #, kde-format
@@ -8924,7 +8924,7 @@ msgid "Transitions"
 msgstr "轉場特效"
 
 #. i18n("Favorite Effects"));
-#: src/mainwindow.cpp:420 src/mainwindow.cpp:431 src/mainwindow.cpp:435
+#: src/mainwindow.cpp:419 src/mainwindow.cpp:430 src/mainwindow.cpp:434
 #, kde-format
 msgid "Favorite Effects"
 msgstr "最愛的特效"
@@ -9599,7 +9599,7 @@ msgstr "無法在已鎖定的軌道中使用調整工具"
 msgid "Cannot perform operation, target directory already exists: %1"
 msgstr "無法在已鎖定的軌道中使用調整工具"
 
-#: src/mainwindow.cpp:1759 src/mainwindow.cpp:3664 src/mainwindow.cpp:3679
+#: src/mainwindow.cpp:1759 src/mainwindow.cpp:3669 src/mainwindow.cpp:3684
 #, kde-format
 msgid "Rendering using low quality track compositing"
 msgstr ""
@@ -9757,55 +9757,55 @@ msgstr ""
 msgid "Archiving project"
 msgstr "專案封存"
 
-#: src/mainwindow.cpp:3546
+#: src/mainwindow.cpp:3551
 #, fuzzy, kde-format
 msgid "Icon Size"
 msgstr "預覽視窗尺寸"
 
-#: src/mainwindow.cpp:3550
+#: src/mainwindow.cpp:3555
 #, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr "預設"
 
-#: src/mainwindow.cpp:3571 src/mainwindow.cpp:3599
+#: src/mainwindow.cpp:3576 src/mainwindow.cpp:3604
 #, kde-format
 msgid "Small (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3573 src/mainwindow.cpp:3601
+#: src/mainwindow.cpp:3578 src/mainwindow.cpp:3606
 #, kde-format
 msgid "Medium (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3575 src/mainwindow.cpp:3603
+#: src/mainwindow.cpp:3580 src/mainwindow.cpp:3608
 #, kde-format
 msgid "Large (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3577 src/mainwindow.cpp:3605
+#: src/mainwindow.cpp:3582 src/mainwindow.cpp:3610
 #, kde-format
 msgid "Huge (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3643
+#: src/mainwindow.cpp:3648
 #, kde-format
 msgid "Manage Cache Data"
 msgstr "管理緩存數據"
 
-#: src/mainwindow.cpp:3686
+#: src/mainwindow.cpp:3691
 #, kde-format
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing Ctrl"
 "+M."
 msgstr ""
 
-#: src/mainwindow.cpp:3686
+#: src/mainwindow.cpp:3691
 #, fuzzy, kde-format
 msgid "Hide menu bar"
 msgstr "隱藏幀"
 
-#: src/mainwindow.cpp:3701
+#: src/mainwindow.cpp:3706
 #, fuzzy, kde-format
 #| msgid ""
 #| "Kdenlive needs to be restarted to apply icon theme change. Restart now ?"

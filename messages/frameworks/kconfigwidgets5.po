@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-12 02:45+0200\n"
+"POT-Creation-Date: 2019-10-18 02:49+0200\n"
 "PO-Revision-Date: 2017-09-27 08:50+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -37,12 +37,12 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
 
-#: kcmodule.cpp:170
+#: kcmodule.cpp:172
 #, kde-format
 msgid "You will be asked to authenticate before saving"
 msgstr "您在儲存前將會被要求認證"
 
-#: kcmodule.cpp:174
+#: kcmodule.cpp:176
 #, kde-format
 msgid "You are not allowed to save the configuration"
 msgstr "您沒有權限儲存此設定"
@@ -93,18 +93,18 @@ msgctxt "home page"
 msgid "&Home"
 msgstr "首頁(&H)"
 
-#: kstandardaction.cpp:170
+#: kstandardaction.cpp:171
 #, kde-format
 msgctxt "show help"
 msgid "&Help"
 msgstr "說明(&H)"
 
-#: kstandardaction.cpp:214
+#: kstandardaction.cpp:216
 #, kde-format
 msgid "Show Menubar<p>Shows the menubar again after it has been hidden</p>"
 msgstr "顯示選單列<p>隱藏選單列後再次顯示它</p>"
 
-#: kstandardaction.cpp:234
+#: kstandardaction.cpp:236
 #, kde-format
 msgid ""
 "Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
@@ -261,337 +261,337 @@ msgstr "複製(&C)"
 msgid "Copy selection to clipboard"
 msgstr "將選取區複製到剪貼簿中"
 
-#: kstandardaction_p.h:57 kstandardaction_p.h:58
+#: kstandardaction_p.h:57 kstandardaction_p.h:59
 #, kde-format
 msgid "&Paste"
 msgstr "貼上(&P)"
 
-#: kstandardaction_p.h:57 kstandardaction_p.h:58
+#: kstandardaction_p.h:57 kstandardaction_p.h:59
 #, kde-format
 msgid "Paste clipboard content"
 msgstr "貼上剪貼簿內容"
 
-#: kstandardaction_p.h:59
+#: kstandardaction_p.h:61
 #, kde-format
 msgid "C&lear"
 msgstr "清除(&L)"
 
-#: kstandardaction_p.h:60
+#: kstandardaction_p.h:62
 #, kde-format
 msgid "Select &All"
 msgstr "全選(&A)"
 
-#: kstandardaction_p.h:61
+#: kstandardaction_p.h:63
 #, kde-format
 msgid "Dese&lect"
 msgstr "取消選擇(&L)"
 
-#: kstandardaction_p.h:62
+#: kstandardaction_p.h:64
 #, kde-format
 msgid "&Find..."
 msgstr "尋找(&F)..."
 
-#: kstandardaction_p.h:63
+#: kstandardaction_p.h:65
 #, kde-format
 msgid "Find &Next"
 msgstr "尋找下一個(&N)"
 
-#: kstandardaction_p.h:64
+#: kstandardaction_p.h:66
 #, kde-format
 msgid "Find Pre&vious"
 msgstr "尋找上一個(&V)"
 
-#: kstandardaction_p.h:65
+#: kstandardaction_p.h:67
 #, kde-format
 msgid "&Replace..."
 msgstr "取代(&R)..."
 
-#: kstandardaction_p.h:67
+#: kstandardaction_p.h:69
 #, kde-format
 msgid "&Actual Size"
 msgstr "實際大小(&A)"
 
-#: kstandardaction_p.h:67
+#: kstandardaction_p.h:69
 #, kde-format
 msgid "View document at its actual size"
 msgstr "以實際大小檢視文件"
 
-#: kstandardaction_p.h:68
+#: kstandardaction_p.h:70
 #, kde-format
 msgid "&Fit to Page"
 msgstr "調整成適合頁面大小(&F)"
 
-#: kstandardaction_p.h:68
+#: kstandardaction_p.h:70
 #, kde-format
 msgid "Zoom to fit page in window"
 msgstr "縮放到適合視窗內頁面"
 
-#: kstandardaction_p.h:69
+#: kstandardaction_p.h:71
 #, kde-format
 msgid "Fit to Page &Width"
 msgstr "調整成適合頁面寬度(&W)"
 
-#: kstandardaction_p.h:69
+#: kstandardaction_p.h:71
 #, kde-format
 msgid "Zoom to fit page width in window"
 msgstr "縮放到適合視窗內頁面寬度"
 
-#: kstandardaction_p.h:70
+#: kstandardaction_p.h:72
 #, kde-format
 msgid "Fit to Page &Height"
 msgstr "調整成適合頁面高度(&H)"
 
-#: kstandardaction_p.h:70
+#: kstandardaction_p.h:72
 #, kde-format
 msgid "Zoom to fit page height in window"
 msgstr "縮放到適合視窗內頁面高度"
 
-#: kstandardaction_p.h:71
+#: kstandardaction_p.h:73
 #, kde-format
 msgid "Zoom &In"
 msgstr "放大(&I)"
 
-#: kstandardaction_p.h:72
+#: kstandardaction_p.h:74
 #, kde-format
 msgid "Zoom &Out"
 msgstr "縮小(&O)"
 
-#: kstandardaction_p.h:73
+#: kstandardaction_p.h:75
 #, kde-format
 msgid "&Zoom..."
 msgstr "縮放(&Z)..."
 
-#: kstandardaction_p.h:73
+#: kstandardaction_p.h:75
 #, kde-format
 msgid "Select zoom level"
 msgstr "選擇縮放等級"
 
-#: kstandardaction_p.h:74
+#: kstandardaction_p.h:76
 #, kde-format
 msgid "&Redisplay"
 msgstr "重新顯示(&R)"
 
-#: kstandardaction_p.h:74
+#: kstandardaction_p.h:76
 #, kde-format
 msgid "Redisplay document"
 msgstr "重新顯示文件"
 
-#: kstandardaction_p.h:76
+#: kstandardaction_p.h:78
 #, kde-format
 msgid "&Up"
 msgstr "向上(&U)"
 
-#: kstandardaction_p.h:76
+#: kstandardaction_p.h:78
 #, kde-format
 msgid "Go up"
 msgstr "往上"
 
-#: kstandardaction_p.h:81
+#: kstandardaction_p.h:83
 #, kde-format
 msgid "&Previous Page"
 msgstr "前一頁(&P)"
 
-#: kstandardaction_p.h:81
+#: kstandardaction_p.h:83
 #, kde-format
 msgid "Go to previous page"
 msgstr "回到上一頁"
 
-#: kstandardaction_p.h:82
+#: kstandardaction_p.h:84
 #, kde-format
 msgid "&Next Page"
 msgstr "下一頁(&N)"
 
-#: kstandardaction_p.h:82
+#: kstandardaction_p.h:84
 #, kde-format
 msgid "Go to next page"
 msgstr "前往下一頁"
 
-#: kstandardaction_p.h:83
+#: kstandardaction_p.h:85
 #, kde-format
 msgid "&Go To..."
 msgstr "移至(&G)..."
 
-#: kstandardaction_p.h:84
+#: kstandardaction_p.h:86
 #, kde-format
 msgid "&Go to Page..."
 msgstr "移至頁面(&G)..."
 
-#: kstandardaction_p.h:85
+#: kstandardaction_p.h:87
 #, kde-format
 msgid "&Go to Line..."
 msgstr "跳至行數(&G)..."
 
-#: kstandardaction_p.h:86
+#: kstandardaction_p.h:88
 #, kde-format
 msgid "&First Page"
 msgstr "第一頁(&F)"
 
-#: kstandardaction_p.h:86
+#: kstandardaction_p.h:88
 #, kde-format
 msgid "Go to first page"
 msgstr "前往第一頁"
 
-#: kstandardaction_p.h:87
+#: kstandardaction_p.h:89
 #, kde-format
 msgid "&Last Page"
 msgstr "最後一頁(&L)"
 
-#: kstandardaction_p.h:87
+#: kstandardaction_p.h:89
 #, kde-format
 msgid "Go to last page"
 msgstr "前往最末頁"
 
-#: kstandardaction_p.h:88
+#: kstandardaction_p.h:90
 #, kde-format
 msgid "&Back"
 msgstr "上一步(&B)"
 
-#: kstandardaction_p.h:88
+#: kstandardaction_p.h:90
 #, kde-format
 msgid "Go back in document"
 msgstr "在文件內返回"
 
-#: kstandardaction_p.h:89
+#: kstandardaction_p.h:91
 #, kde-format
 msgid "&Forward"
 msgstr "往前(&F)"
 
-#: kstandardaction_p.h:89
+#: kstandardaction_p.h:91
 #, kde-format
 msgid "Go forward in document"
 msgstr "在文件內往前"
 
-#: kstandardaction_p.h:91
+#: kstandardaction_p.h:93
 #, kde-format
 msgid "&Add Bookmark"
 msgstr "加入書籤(&A)"
 
-#: kstandardaction_p.h:92
+#: kstandardaction_p.h:94
 #, kde-format
 msgid "&Edit Bookmarks..."
 msgstr "編輯書籤(&E)..."
 
-#: kstandardaction_p.h:94
+#: kstandardaction_p.h:96
 #, kde-format
 msgid "&Spelling..."
 msgstr "拼字檢查(&S)..."
 
-#: kstandardaction_p.h:94
+#: kstandardaction_p.h:96
 #, kde-format
 msgid "Check spelling in document"
 msgstr "檢查文件內的拼字"
 
-#: kstandardaction_p.h:96
+#: kstandardaction_p.h:98
 #, kde-format
 msgid "Show &Menubar"
 msgstr "顯示選單列(&M)"
 
-#: kstandardaction_p.h:96
+#: kstandardaction_p.h:98
 #, kde-format
 msgid "Show or hide menubar"
 msgstr "顯示或隱藏選單列"
 
-#: kstandardaction_p.h:97
+#: kstandardaction_p.h:99
 #, kde-format
 msgid "Show &Toolbar"
 msgstr "顯示工具列(&T)"
 
-#: kstandardaction_p.h:97
+#: kstandardaction_p.h:99
 #, kde-format
 msgid "Show or hide toolbar"
 msgstr "顯示或隱藏工具列"
 
-#: kstandardaction_p.h:98
+#: kstandardaction_p.h:100
 #, kde-format
 msgid "Show St&atusbar"
 msgstr "顯示狀態列(&A)"
 
-#: kstandardaction_p.h:98
+#: kstandardaction_p.h:100
 #, kde-format
 msgid "Show or hide statusbar"
 msgstr "顯示或隱藏狀態列"
 
-#: kstandardaction_p.h:99
+#: kstandardaction_p.h:101
 #, kde-format
 msgid "F&ull Screen Mode"
 msgstr "全螢幕模式(&U)"
 
-#: kstandardaction_p.h:100
+#: kstandardaction_p.h:103
 #, kde-format
 msgid "&Save Settings"
 msgstr "儲存設定(&S)"
 
-#: kstandardaction_p.h:101
+#: kstandardaction_p.h:105
 #, kde-format
 msgid "Configure S&hortcuts..."
 msgstr "設定快捷鍵(&H)..."
 
-#: kstandardaction_p.h:102
+#: kstandardaction_p.h:106
 #, kde-format
 msgid "&Configure %1..."
 msgstr "設定 %1(&C)..."
 
-#: kstandardaction_p.h:103
+#: kstandardaction_p.h:107
 #, kde-format
 msgid "Configure Tool&bars..."
 msgstr "設定工具列(&B)..."
 
-#: kstandardaction_p.h:104
+#: kstandardaction_p.h:108
 #, kde-format
 msgid "Configure &Notifications..."
 msgstr "設定通知(&N)..."
 
-#: kstandardaction_p.h:109
+#: kstandardaction_p.h:115
 #, kde-format
 msgid "%1 &Handbook"
 msgstr "%1 手冊(&H)"
 
-#: kstandardaction_p.h:110
+#: kstandardaction_p.h:116
 #, kde-format
 msgid "What's &This?"
 msgstr "這是什麼？(&T)"
 
-#: kstandardaction_p.h:111
+#: kstandardaction_p.h:117
 #, kde-format
 msgid "Tip of the &Day"
 msgstr "每日小祕訣(&D)"
 
-#: kstandardaction_p.h:112
+#: kstandardaction_p.h:118
 #, kde-format
 msgid "&Report Bug..."
 msgstr "報告問題(&R)..."
 
-#: kstandardaction_p.h:113
+#: kstandardaction_p.h:119
 #, kde-format
 msgid "Switch Application &Language..."
 msgstr "切換應用程式語言(&L)..."
 
-#: kstandardaction_p.h:114
+#: kstandardaction_p.h:120
 #, kde-format
 msgid "&About %1"
 msgstr "關於 %1(&A)"
 
-#: kstandardaction_p.h:115
+#: kstandardaction_p.h:121
 #, kde-format
 msgid "About &KDE"
 msgstr "關於 KDE(&K)"
 
-#: kstandardaction_p.h:116
+#: kstandardaction_p.h:122
 #, kde-format
 msgid "&Delete"
 msgstr "刪除(&D)"
 
-#: kstandardaction_p.h:117
+#: kstandardaction_p.h:123
 #, kde-format
 msgid "&Rename..."
 msgstr "重新命名(&R)..."
 
-#: kstandardaction_p.h:118
+#: kstandardaction_p.h:124
 #, kde-format
 msgid "&Move to Trash"
 msgstr "移到垃圾桶(&M)"
 
-#: kstandardaction_p.h:119
+#: kstandardaction_p.h:125
 #, kde-format
 msgid "&Donate"
 msgstr "贊助(&D)"
