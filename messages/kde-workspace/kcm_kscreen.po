@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-10-18 03:32+0200\n"
-"PO-Revision-Date: 2019-10-09 20:51+0800\n"
+"PO-Revision-Date: 2019-10-19 15:13+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.08.1\n"
+"X-Generator: Lokalize 19.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -132,12 +132,12 @@ msgid "Scale:"
 msgstr "比例："
 
 #: package/contents/ui/OutputPanel.qml:86 package/contents/ui/Panel.qml:124
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Scale factor (e.g. 1.0x, 1.5x, 2.0x)"
 #| msgid "%1x"
 msgctxt "Global scale factor expressed in percentage form"
 msgid "%1%"
-msgstr "%1x"
+msgstr "%1%"
 
 #: package/contents/ui/OutputPanel.qml:101
 #, kde-format
@@ -171,6 +171,8 @@ msgid ""
 "The global scale factor is limited to multiples of 6.25% to minimize visual "
 "glitches in applications using the X11 windowing system."
 msgstr ""
+"全域縮放比例已限制成 6.25% 的倍數，以最小化使用 X11 視窗系統之應用程式中的"
+"畫面故障 (glitch) 問題。"
 
 #: package/contents/ui/Panel.qml:157
 #, kde-format

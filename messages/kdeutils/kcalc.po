@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: kcalc\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-10-16 03:18+0200\n"
-"PO-Revision-Date: 2019-09-28 15:32+0800\n"
+"PO-Revision-Date: 2019-10-19 15:17+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.08.1\n"
+"X-Generator: Lokalize 19.08.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -1226,20 +1226,20 @@ msgstr "點選某一位元來切換。"
 #: kcalc.ui:65
 #, kde-format
 msgid "&Deg"
-msgstr ""
+msgstr "角度(&D)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radRadio)
 #: kcalc.ui:72
 #, kde-format
 msgid "&Rad"
-msgstr ""
+msgstr "弧度(&R)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, gradRadio)
 #: kcalc.ui:79
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Grad"
 msgid "&Grad"
-msgstr "斜度"
+msgstr "斜度(&G)"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, hexRadio)
 #: kcalc.ui:107
@@ -1287,7 +1287,7 @@ msgstr "切換到八進制。"
 #: kcalc.ui:182
 #, kde-format
 msgid "Oc&t"
-msgstr ""
+msgstr "八進位(&T)"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, binRadio)
 #: kcalc.ui:215

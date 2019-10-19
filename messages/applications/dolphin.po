@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-10-14 02:24+0200\n"
-"PO-Revision-Date: 2019-09-30 18:36+0800\n"
+"PO-Revision-Date: 2019-10-19 14:49+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.08.1\n"
+"X-Generator: Lokalize 19.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -493,20 +493,20 @@ msgid ""
 msgstr ""
 
 #: dolphinmainwindow.cpp:1514
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Activate Next Tab"
 msgctxt "@action:inmenu"
 msgid "Activate Tab %1"
-msgstr "跳到下一個分頁"
+msgstr "跳到第 %1 個分頁"
 
 #: dolphinmainwindow.cpp:1525
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Activate Next Tab"
 msgctxt "@action:inmenu"
 msgid "Activate Last Tab"
-msgstr "跳到下一個分頁"
+msgstr "跳到上個分頁"
 
 #: dolphinmainwindow.cpp:1531
 #, kde-format
@@ -2184,8 +2184,7 @@ msgstr "隱藏「%1」部份"
 msgid ""
 "Terminal cannot be shown because Konsole is not installed. Please install it "
 "and then reopen the panel."
-msgstr ""
-"因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
+msgstr "因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
 
 #: panels/terminal/terminalpanel.cpp:163
 #, kde-format
@@ -2386,7 +2385,7 @@ msgid "Query Results from '%1'"
 msgstr "從 %1 得到的查詢結果"
 
 #: search/dolphinsearchbox.cpp:572
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "action:button"
 #| msgid "Fewer Options"
 msgctxt "@action:button"
@@ -2394,7 +2393,7 @@ msgid "Fewer Options"
 msgstr "較少選項"
 
 #: search/dolphinsearchbox.cpp:573
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "action:button"
 #| msgid "More Options"
 msgctxt "@action:button"
@@ -2407,7 +2406,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "Advanced search options are not available because the file indexing service "
 "is disabled."
-msgstr ""
+msgstr "因為檔案索引服務已停用，因此無法使用進階搜尋選項。"
 
 #: search/dolphinsearchbox.cpp:583
 #, kde-format
@@ -2415,7 +2414,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "Advanced search options are not available because this location is not "
 "indexed."
-msgstr ""
+msgstr "因為尚未索引此位置，因此無法使用進階搜尋選項。"
 
 #: search/dolphinsearchbox.cpp:586
 #, kde-format
@@ -2423,7 +2422,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "Advanced search options are not available because this version of Dolphin "
 "does not support the Baloo file indexer."
-msgstr ""
+msgstr "因為此 Dolphin 版本不支援 Baloo 檔案索引工具，因此無法使用進階搜尋選項。"
 
 #. i18n: ectx: label, entry (UseSystemFont), group (CompactMode)
 #. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
