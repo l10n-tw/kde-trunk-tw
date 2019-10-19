@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-10 03:32+0200\n"
+"POT-Creation-Date: 2019-10-19 03:28+0200\n"
 "PO-Revision-Date: 2019-10-11 12:22+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -532,7 +532,7 @@ msgid "Adding remote '%1' in %2 from %3"
 msgstr "正在增加來自 %3 的 %2 中「%1」遠端位置"
 
 #: libdiscover/backends/FwupdBackend/FwupdSourcesBackend.cpp:123
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:329
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:330
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:274
 #, kde-format
 msgid "Accept EULA"
@@ -1349,12 +1349,12 @@ msgstr[0] "%2 （加上 %1 個依賴庫）"
 msgid "Repository URL:"
 msgstr "軟體庫 URL："
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:213
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:214
 #, kde-format
 msgid "Packages to remove"
 msgstr "個軟體包要移除"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:213
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:214
 #, kde-format
 msgid ""
 "The following packages will be removed by the update:\n"
@@ -1367,12 +1367,12 @@ msgstr ""
 "為了安裝：\n"
 "<ul><li>%2</li></ul>"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:229
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:230
 #, kde-format
 msgid "Please restart the computer to finish the update"
 msgstr "重新啟動電腦以完成更新程序"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:316
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:317
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:289
 #, kde-format
 msgid ""
@@ -1382,7 +1382,7 @@ msgstr ""
 "要求變更型態 %1 的媒體：\n"
 "%2"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:329
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:330
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:274
 #, kde-format
 msgid ""
@@ -1392,13 +1392,13 @@ msgstr ""
 "軟體包 %1 的提供廠商 %2 要求您接受他們的授權條款：\n"
 "%3"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:423
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:424
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:301
 #, kde-format
 msgid "Missing signature for %1 in %2"
 msgstr "在 %2 中缺少對 %1 的簽名"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:424
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:425
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:302
 #, kde-format
 msgid ""

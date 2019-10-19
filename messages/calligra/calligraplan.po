@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplato\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-18 02:32+0200\n"
+"POT-Creation-Date: 2019-10-19 02:34+0200\n"
 "PO-Revision-Date: 2012-06-14 08:33+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
@@ -912,8 +912,8 @@ msgid "Week"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_GenerateHolidays)
-#: ConfigWorkVacationPanel.ui:73 kptmaindocument.cpp:1534
-#: kptmaindocument.cpp:1539
+#: ConfigWorkVacationPanel.ui:73 kptmaindocument.cpp:1538
+#: kptmaindocument.cpp:1543
 #, kde-format
 msgid "Holidays"
 msgstr ""
@@ -1014,7 +1014,7 @@ msgstr ""
 "以 Plan 開啟此檔可能會遺失某些資訊。"
 
 #: KPlatoXmlLoader.cpp:71 KPlatoXmlLoader.cpp:83 KPlatoXmlLoader.cpp:125
-#: kptmaindocument.cpp:347 kptmaindocument.cpp:634
+#: kptmaindocument.cpp:351 kptmaindocument.cpp:638
 #, kde-format
 msgid "Continue"
 msgstr "繼續"
@@ -1036,8 +1036,8 @@ msgstr ""
 "語法版本：%1）\n"
 "以此版本的 Plan 開啟可能會遺失某些資訊。"
 
-#: KPlatoXmlLoader.cpp:83 KPlatoXmlLoader.cpp:125 kptmaindocument.cpp:347
-#: kptmaindocument.cpp:634
+#: KPlatoXmlLoader.cpp:83 KPlatoXmlLoader.cpp:125 kptmaindocument.cpp:351
+#: kptmaindocument.cpp:638
 #, kde-format
 msgid "File-Format Mismatch"
 msgstr "檔案格式不相符"
@@ -1464,17 +1464,17 @@ msgctxt "@title:window"
 msgid "Load Resource Assignments"
 msgstr "資源分配"
 
-#: kptmaindocument.cpp:299 kptmaindocument.cpp:604
+#: kptmaindocument.cpp:303 kptmaindocument.cpp:608
 #, kde-format
 msgid "Invalid document. No mimetype specified."
 msgstr "無效的文件。未指定 MIME 類型。"
 
-#: kptmaindocument.cpp:338
+#: kptmaindocument.cpp:342
 #, kde-format
 msgid "Invalid document. Expected mimetype application/x-vnd.kde.plan, got %1"
 msgstr "無效的文件。MIME 類型應為 application/x-vnd.kde.plan，但是得到 %1"
 
-#: kptmaindocument.cpp:345
+#: kptmaindocument.cpp:349
 #, kde-format
 msgid ""
 "This document was created with a newer version of Plan (syntax version: %1)\n"
@@ -1483,28 +1483,28 @@ msgstr ""
 "此文件是由較新版的 Plan（語法版本：%1）所建立。\n"
 "以此版本的 Plan 開啟可能會遺失某些資訊。"
 
-#: kptmaindocument.cpp:492
+#: kptmaindocument.cpp:496
 #, kde-format
 msgid "Could not create the workpackage file for saving: %1"
 msgstr "無法建立工作套件檔以儲存：%1"
 
-#: kptmaindocument.cpp:500
+#: kptmaindocument.cpp:504
 #, kde-format
 msgid "Not able to write '%1'. Partition full?"
 msgstr "無法寫入 %1。磁碟是否已滿？"
 
-#: kptmaindocument.cpp:527
+#: kptmaindocument.cpp:531
 #, kde-format
 msgid "Saving..."
 msgstr "儲存中..."
 
-#: kptmaindocument.cpp:621
+#: kptmaindocument.cpp:625
 #, kde-format
 msgid ""
 "Invalid document. Expected mimetype application/x-vnd.kde.plan.work, got %1"
 msgstr "無效的文件。MIME 類型應為 application/x-vnd.kde.plan.work，但是得到 %1"
 
-#: kptmaindocument.cpp:632
+#: kptmaindocument.cpp:636
 #, kde-format
 msgid ""
 "This document was created with a newer version of PlanWork (syntax version: "
@@ -1514,57 +1514,57 @@ msgstr ""
 "此文件是由較新版的 PlanWork（語法版本：%1）所建立。\n"
 "以此版本的 PlanWork 開啟可能會遺失某些資訊。"
 
-#: kptmaindocument.cpp:1014 kptmaindocument.cpp:1048 kptmaindocument.cpp:1177
+#: kptmaindocument.cpp:1018 kptmaindocument.cpp:1052 kptmaindocument.cpp:1181
 #, kde-format
 msgid "Internal error, failed to insert file."
 msgstr ""
 
-#: kptmaindocument.cpp:1204
+#: kptmaindocument.cpp:1208
 msgctxt "(qtundo-format)"
 msgid "Insert project"
 msgstr "插入專案"
 
-#: kptmaindocument.cpp:1277
+#: kptmaindocument.cpp:1281
 #, kde-format
 msgid "Group: %1"
 msgstr ""
 
-#: kptmaindocument.cpp:1283
+#: kptmaindocument.cpp:1287
 #, fuzzy, kde-format
 #| msgid "Resources"
 msgid "Resource: %1"
 msgstr "資源"
 
-#: kptmaindocument.cpp:1288
+#: kptmaindocument.cpp:1292
 #, kde-format
 msgid "Calendar: %1"
 msgstr ""
 
-#: kptmaindocument.cpp:1293
+#: kptmaindocument.cpp:1297
 #, kde-format
 msgid ""
 "Shared resources has been removed from the shared resources file.\n"
 "Select how they shall be treated in this project."
 msgstr ""
 
-#: kptmaindocument.cpp:1296
+#: kptmaindocument.cpp:1300
 #, fuzzy, kde-kuit-format
 #| msgid "Tasks by resources"
 msgctxt "@title:window"
 msgid "Shared resources"
 msgstr "依資源檢視工作狀態"
 
-#: kptmaindocument.cpp:1298
+#: kptmaindocument.cpp:1302
 #, kde-format
 msgid "Convert"
 msgstr ""
 
-#: kptmaindocument.cpp:1299
+#: kptmaindocument.cpp:1303
 #, kde-format
 msgid "Keep"
 msgstr ""
 
-#: kptmaindocument.cpp:1505
+#: kptmaindocument.cpp:1509
 #, kde-format
 msgctxt "Base calendar name"
 msgid "Base"
@@ -1793,7 +1793,7 @@ msgstr "工作顏色"
 msgid "Generate reports"
 msgstr ""
 
-#: kptview.cpp:614 kptview.cpp:3295
+#: kptview.cpp:614 kptview.cpp:3294
 #, kde-format
 msgid "Task Status Report"
 msgstr "工作狀態報告"
@@ -1991,7 +1991,7 @@ msgctxt "@info:tooltip"
 msgid "Generate reports"
 msgstr ""
 
-#: kptview.cpp:748 kptview.cpp:3292 kptviewlistdialog.cpp:122
+#: kptview.cpp:748 kptview.cpp:3291 kptviewlistdialog.cpp:122
 #: kptviewlistdialog.cpp:562
 #, kde-format, kde-kuit-format
 msgid "Report"
@@ -2024,111 +2024,111 @@ msgstr "執行"
 msgid "Reports"
 msgstr "報告"
 
-#: kptview.cpp:1767
+#: kptview.cpp:1766
 #, kde-format
 msgctxt "(qtundo-format) @info:status 1=schedule name"
 msgid "Calculate %1"
 msgstr "計算 %1"
 
-#: kptview.cpp:1786
+#: kptview.cpp:1785
 #, kde-format
 msgid "Cannot baseline. The project is already baselined."
 msgstr "無法設定基線。此專案已經有基線。"
 
-#: kptview.cpp:1791
+#: kptview.cpp:1790
 #, kde-format
 msgid "This schedule is baselined. Do you want to remove the baseline?"
 msgstr "此行程已設定基線。您要移除它嗎？"
 
-#: kptview.cpp:1795
+#: kptview.cpp:1794
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Reset baseline %1"
 msgstr "重置基線 %1"
 
-#: kptview.cpp:1798 kptview.cpp:1802
+#: kptview.cpp:1797 kptview.cpp:1801
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Baseline %1"
 msgstr "基線 %1"
 
-#: kptview.cpp:1813
+#: kptview.cpp:1812
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Add schedule %1"
 msgstr "新增排程 %1"
 
-#: kptview.cpp:1822
+#: kptview.cpp:1821
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Delete schedule %1"
 msgstr "刪除排程 %1"
 
-#: kptview.cpp:1831
+#: kptview.cpp:1830
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Move schedule %1"
 msgstr "移動排程 %1"
 
-#: kptview.cpp:1894
+#: kptview.cpp:1893
 msgctxt "(qtundo-format)"
 msgid "Add milestone"
 msgstr "新增里程碑"
 
-#: kptview.cpp:1918
+#: kptview.cpp:1917
 msgctxt "(qtundo-format)"
 msgid "Add sub-milestone"
 msgstr "新增子里程碑"
 
-#: kptview.cpp:2321
+#: kptview.cpp:2320
 #, kde-format
 msgid ""
 "A task that has been scheduled will be deleted. This will invalidate the "
 "schedule."
 msgstr "將刪除一個已排程的工作。這可能會讓排程無效。"
 
-#: kptview.cpp:2329 kptview.cpp:2333 kptview.cpp:2349 kptview.cpp:2373
+#: kptview.cpp:2328 kptview.cpp:2332 kptview.cpp:2348 kptview.cpp:2372
 msgctxt "(qtundo-format)"
 msgid "Delete task"
 msgid_plural "Delete tasks"
 msgstr[0] "刪除工作"
 
-#: kptview.cpp:2368
+#: kptview.cpp:2367
 #, kde-format
 msgid "This task has been scheduled. This will invalidate the schedule."
 msgstr "此工作已排程。這樣會使排程無效。"
 
-#: kptview.cpp:2392
+#: kptview.cpp:2391
 msgctxt "(qtundo-format)"
 msgid "Indent task"
 msgstr "縮排工作"
 
-#: kptview.cpp:2406
+#: kptview.cpp:2405
 msgctxt "(qtundo-format)"
 msgid "Unindent task"
 msgstr "取消縮排工作"
 
-#: kptview.cpp:2428
+#: kptview.cpp:2427
 msgctxt "(qtundo-format)"
 msgid "Move task up"
 msgstr "工作上移"
 
-#: kptview.cpp:2449
+#: kptview.cpp:2448
 msgctxt "(qtundo-format)"
 msgid "Move task down"
 msgstr "工作下移"
 
-#: kptview.cpp:2485
+#: kptview.cpp:2484
 msgctxt "(qtundo-format)"
 msgid "Add task dependency"
 msgstr "新增工作相依性"
 
-#: kptview.cpp:2546
+#: kptview.cpp:2545
 msgctxt "(qtundo-format)"
 msgid "Delete task dependency"
 msgstr "刪除工作相依性"
 
-#: kptview.cpp:2583 kptview.cpp:2644
+#: kptview.cpp:2582 kptview.cpp:2643
 #, fuzzy
 #| msgctxt "(qtundo-format)"
 #| msgid "Delete resource"
@@ -2137,7 +2137,7 @@ msgid "Delete resource"
 msgid_plural "Delete resources"
 msgstr[0] "刪除資源"
 
-#: kptview.cpp:2588 kptview.cpp:2646
+#: kptview.cpp:2587 kptview.cpp:2645
 #, fuzzy
 #| msgctxt "(qtundo-format)"
 #| msgid "Delete resourcegroup"
@@ -2146,72 +2146,72 @@ msgid "Delete resourcegroup"
 msgid_plural "Delete resourcegroups"
 msgstr[0] "刪除資源群組"
 
-#: kptview.cpp:2597 kptview.cpp:2605
+#: kptview.cpp:2596 kptview.cpp:2604
 #, kde-format
 msgid ""
 "A resource that has been scheduled will be deleted. This will invalidate the "
 "schedule."
 msgstr "將刪除一個已排程的資源。這樣會使排程無效。"
 
-#: kptview.cpp:2642
+#: kptview.cpp:2641
 msgctxt "(qtundo-format)"
 msgid "Delete resourcegroups and resources"
 msgstr "刪除資源群組與資源"
 
-#: kptview.cpp:2813
+#: kptview.cpp:2812
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot open file:<br/><filename>%1</filename>"
 msgstr "無法開啟檔案：<br/><filename>%1</filename>"
 
-#: kptview.cpp:2939
+#: kptview.cpp:2938
 msgctxt "(qtundo-format)"
 msgid "Modify name"
 msgstr "變更名稱"
 
-#: kptview.cpp:2941
+#: kptview.cpp:2940
 msgctxt "(qtundo-format)"
 msgid "Modify task name"
 msgstr "變更工作名稱"
 
-#: kptview.cpp:2942
+#: kptview.cpp:2941
 msgctxt "(qtundo-format)"
 msgid "Modify milestone name"
 msgstr "變更里程碑名稱"
 
-#: kptview.cpp:2943
+#: kptview.cpp:2942
 msgctxt "(qtundo-format)"
 msgid "Modify summarytask name"
 msgstr "變更摘要工作名稱"
 
-#: kptview.cpp:2944
+#: kptview.cpp:2943
 msgctxt "(qtundo-format)"
 msgid "Modify project name"
 msgstr "變更專案名稱"
 
-#: kptview.cpp:3036
+#: kptview.cpp:3035
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Not scheduled"
 msgstr "未排程"
 
-#: kptview.cpp:3078
+#: kptview.cpp:3077
 #, kde-format
 msgid "Failed to open temporary file"
 msgstr "開啟暫存檔失敗"
 
-#: kptview.cpp:3084
+#: kptview.cpp:3083
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Failed to save to temporary file:<br/> <filename>%1</filename>"
 msgstr "儲存暫存檔失敗：<br/><filename>%1</filename>"
 
-#: kptview.cpp:3092
+#: kptview.cpp:3091
 #, kde-format
 msgid "Work Package: %1"
 msgstr "工作套件：%1"
 
-#: kptview.cpp:3093
+#: kptview.cpp:3092
 #, kde-format
 msgctxt "1=project name, 2=task name"
 msgid ""
@@ -2221,13 +2221,13 @@ msgstr ""
 "%1\n"
 "%2"
 
-#: kptview.cpp:3123
+#: kptview.cpp:3122
 #, fuzzy, kde-format
 #| msgid "Failed to open temporary file"
 msgid "Failed to open work package file"
 msgstr "開啟暫存檔失敗"
 
-#: kptview.cpp:3130
+#: kptview.cpp:3129
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid "Failed to save to temporary file:<br/> <filename>%1</filename>"
@@ -2235,40 +2235,40 @@ msgctxt "@info"
 msgid "Failed to save to temporary file:<br/><filename>%1</filename>"
 msgstr "儲存暫存檔失敗：<br/><filename>%1</filename>"
 
-#: kptview.cpp:3139
+#: kptview.cpp:3138
 #, kde-format
 msgid "Work Package for project: %1"
 msgstr "此專案的工作套件：%1"
 
-#: kptview.cpp:3293
+#: kptview.cpp:3292
 #, kde-format
 msgctxt "Project manager"
 msgid "Manager:"
 msgstr "管理者："
 
-#: kptview.cpp:3294
+#: kptview.cpp:3293
 #, kde-format
 msgid "Project:"
 msgstr "專案："
 
-#: kptview.cpp:3296
+#: kptview.cpp:3295
 #, kde-format
 msgctxt "As in: Page 1 of 2"
 msgid "of"
 msgstr "之"
 
-#: kptview.cpp:3297
+#: kptview.cpp:3296
 #, kde-format
 msgid "Page"
 msgstr "頁面"
 
-#: kptview.cpp:3298
+#: kptview.cpp:3297
 #, kde-format
 msgctxt "Task name"
 msgid "Name"
 msgstr "名稱"
 
-#: kptview.cpp:3299
+#: kptview.cpp:3298
 #, kde-format
 msgctxt "Task completion"
 msgid "Completion (%)"
