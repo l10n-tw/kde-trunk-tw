@@ -133,8 +133,6 @@ msgstr "比例："
 
 #: package/contents/ui/OutputPanel.qml:86 package/contents/ui/Panel.qml:124
 #, kde-format
-#| msgctxt "Scale factor (e.g. 1.0x, 1.5x, 2.0x)"
-#| msgid "%1x"
 msgctxt "Global scale factor expressed in percentage form"
 msgid "%1%"
 msgstr "%1%"
@@ -171,8 +169,8 @@ msgid ""
 "The global scale factor is limited to multiples of 6.25% to minimize visual "
 "glitches in applications using the X11 windowing system."
 msgstr ""
-"全域縮放比例已限制成 6.25% 的倍數，以最小化使用 X11 視窗系統之應用程式中的"
-"畫面故障 (glitch) 問題。"
+"全域縮放比例已限制成 6.25% 的倍數，以最小化使用 X11 視窗系統之應用程式中的畫"
+"面故障 (glitch) 問題。"
 
 #: package/contents/ui/Panel.qml:157
 #, kde-format

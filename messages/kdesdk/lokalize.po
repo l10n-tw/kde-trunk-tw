@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lokalize\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-08 03:05+0200\n"
+"POT-Creation-Date: 2019-10-20 03:09+0200\n"
 "PO-Revision-Date: 2019-10-11 17:58+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -3507,44 +3507,49 @@ msgctxt "project folder name. %2 is targetLangCode"
 msgid "%1 %2 Translation"
 msgstr "%1 的 %2 翻譯"
 
+#: src/project/projectbase.kcfg:11
+#, kde-format
+msgid "default"
+msgstr ""
+
 #. i18n: ectx: label, entry (LangCode), group (General)
-#: src/project/projectbase.kcfg:17
+#: src/project/projectbase.kcfg:18
 #, kde-format
 msgid "Language"
 msgstr "語言"
 
 #. i18n: ectx: label, entry (UserLangTeam), group (General)
-#: src/project/projectbase.kcfg:31
+#: src/project/projectbase.kcfg:32
 #, kde-format
 msgid "User Language Team in Lokalize settings"
 msgstr "Lokalize 設定中的「使用者語言團隊」"
 
 #. i18n: ectx: label, entry (OverrideLangTeam), group (General)
-#: src/project/projectbase.kcfg:37
+#: src/project/projectbase.kcfg:38
 #, kde-format
 msgid "Override Lokalize Language Team"
 msgstr "覆蓋 Lokalize 語言團隊"
 
 #. i18n: ectx: label, entry (ProjLangTeam), group (General)
-#: src/project/projectbase.kcfg:43
+#: src/project/projectbase.kcfg:44
 #, kde-format
 msgid "Project Language Team"
 msgstr "專案語言團隊"
 
 #. i18n: ectx: label, entry (PoBaseDir), group (General)
-#: src/project/projectbase.kcfg:58
+#: src/project/projectbase.kcfg:59
 #, kde-format
 msgid "The base directory for PO files (translations)"
 msgstr "PO （翻譯）檔的基礎目錄"
 
 #. i18n: ectx: label, entry (PotBaseDir), group (General)
-#: src/project/projectbase.kcfg:64
+#: src/project/projectbase.kcfg:65
 #, kde-format
 msgid "The base directory for POT files (templates to be translated)"
 msgstr "POT （要翻譯的樣本）檔的基礎目錄"
 
 #. i18n: ectx: label, entry (GlossaryTbx), group (General)
-#: src/project/projectbase.kcfg:72
+#: src/project/projectbase.kcfg:73
 #, kde-format
 msgid "Project's glossary"
 msgstr "專案字彙"

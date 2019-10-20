@@ -494,16 +494,12 @@ msgstr ""
 
 #: dolphinmainwindow.cpp:1514
 #, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Activate Next Tab"
 msgctxt "@action:inmenu"
 msgid "Activate Tab %1"
 msgstr "跳到第 %1 個分頁"
 
 #: dolphinmainwindow.cpp:1525
 #, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Activate Next Tab"
 msgctxt "@action:inmenu"
 msgid "Activate Last Tab"
 msgstr "跳到上個分頁"
@@ -2184,7 +2180,8 @@ msgstr "隱藏「%1」部份"
 msgid ""
 "Terminal cannot be shown because Konsole is not installed. Please install it "
 "and then reopen the panel."
-msgstr "因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
+msgstr ""
+"因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
 
 #: panels/terminal/terminalpanel.cpp:163
 #, kde-format
@@ -2386,16 +2383,12 @@ msgstr "從 %1 得到的查詢結果"
 
 #: search/dolphinsearchbox.cpp:572
 #, kde-format
-#| msgctxt "action:button"
-#| msgid "Fewer Options"
 msgctxt "@action:button"
 msgid "Fewer Options"
 msgstr "較少選項"
 
 #: search/dolphinsearchbox.cpp:573
 #, kde-format
-#| msgctxt "action:button"
-#| msgid "More Options"
 msgctxt "@action:button"
 msgid "More Options"
 msgstr "更多選項"
@@ -2422,7 +2415,8 @@ msgctxt "@info:tooltip"
 msgid ""
 "Advanced search options are not available because this version of Dolphin "
 "does not support the Baloo file indexer."
-msgstr "因為此 Dolphin 版本不支援 Baloo 檔案索引工具，因此無法使用進階搜尋選項。"
+msgstr ""
+"因為此 Dolphin 版本不支援 Baloo 檔案索引工具，因此無法使用進階搜尋選項。"
 
 #. i18n: ectx: label, entry (UseSystemFont), group (CompactMode)
 #. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)

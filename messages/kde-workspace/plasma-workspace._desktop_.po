@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-19 01:37+0000\n"
+"POT-Creation-Date: 2019-10-20 01:33+0000\n"
 "PO-Revision-Date: 2019-10-19 14:54+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -845,30 +845,24 @@ msgid "Plasma"
 msgstr "Plasma"
 
 #: login-sessions/plasma.desktop.cmake:52
-#: login-sessions/plasmawayland.desktop.cmake:11
-#: login-sessions/plasmawayland-dev.desktop.cmake:10
-#: login-sessions/plasmax11-dev.desktop.cmake:11
+#: login-sessions/plasmawayland.desktop.cmake:13
+#: login-sessions/plasmawayland-dev.desktop.cmake:11
+#: login-sessions/plasmax11-dev.desktop.cmake:12
 msgctxt "Comment"
 msgid "Plasma by KDE"
 msgstr "Plasma by KDE"
 
 #: login-sessions/plasmawayland.desktop.cmake:5
-#| msgctxt "Name"
-#| msgid "Plasma Windowed"
 msgctxt "Name"
 msgid "Plasma (Wayland)"
 msgstr "Plasma (Wayland)"
 
 #: login-sessions/plasmawayland-dev.desktop.cmake:4
-#| msgctxt "Name"
-#| msgid "Plasma (Development ${CMAKE_INSTALL_FULL_BINDIR})"
 msgctxt "Name"
 msgid "Plasma (Development, Wayland ${CMAKE_INSTALL_FULL_BINDIR})"
 msgstr "Plasma (開發版本，Wayland ${CMAKE_INSTALL_FULL_BINDIR})"
 
 #: login-sessions/plasmax11-dev.desktop.cmake:5
-#| msgctxt "Name"
-#| msgid "Plasma (Development ${CMAKE_INSTALL_FULL_BINDIR})"
 msgctxt "Name"
 msgid "Plasma (Development, X11 ${CMAKE_INSTALL_FULL_BINDIR})"
 msgstr "Plasma (開發版本，X11 ${CMAKE_INSTALL_FULL_BINDIR})"
@@ -1019,8 +1013,6 @@ msgid "Multimedia"
 msgstr "多媒體"
 
 #: menu/desktop/kf5-network.directory:3
-#| msgctxt "Name"
-#| msgid "Network Monitor"
 msgctxt "Name"
 msgid "Network"
 msgstr "網路"
@@ -1401,7 +1393,8 @@ msgctxt "Comment"
 msgid ""
 "A special Plasma sub-dataengine for the Plasma Weather dataengine, providing "
 "access to one weather data service provider"
-msgstr "一個特殊的 Plasma 天氣資料引擎的子引擎，提供對一個天氣資料服務提供者的存取"
+msgstr ""
+"一個特殊的 Plasma 天氣資料引擎的子引擎，提供對一個天氣資料服務提供者的存取"
 
 #: themes/qtcde.themerc:2
 msgctxt "Name"
