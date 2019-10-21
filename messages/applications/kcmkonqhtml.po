@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 02:40+0200\n"
+"POT-Creation-Date: 2019-10-21 02:27+0200\n"
 "PO-Revision-Date: 2019-01-19 19:40+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -993,27 +993,27 @@ msgstr "接受"
 msgid "Reject"
 msgstr "拒絕"
 
-#: filteropts.cpp:64
+#: filteropts.cpp:63
 #, kde-format
 msgid "Enable filters"
 msgstr "啟用過濾器"
 
-#: filteropts.cpp:67
+#: filteropts.cpp:66
 #, kde-format
 msgid "Hide filtered images"
 msgstr "隱藏過濾的圖片"
 
-#: filteropts.cpp:74
+#: filteropts.cpp:73
 #, kde-format
 msgid "Manual Filter"
 msgstr "手動過濾"
 
-#: filteropts.cpp:92
+#: filteropts.cpp:91
 #, kde-format
 msgid "Search:"
 msgstr "搜尋："
 
-#: filteropts.cpp:100
+#: filteropts.cpp:99
 #, kde-format
 msgid ""
 "<qt>Filter expression (e.g. <tt>http://www.example.com/ad/*</tt>, <a href="
@@ -1022,48 +1022,48 @@ msgstr ""
 "<qt>過濾器表示式（例如，<tt>http://www.example.com/ad/*</tt>，詳情請參考<a "
 "href=\"filterhelp\">這裡。</a>）："
 
-#: filteropts.cpp:116
+#: filteropts.cpp:115
 #, kde-format
 msgid "Automatic Filter"
 msgstr "自動過濾"
 
-#: filteropts.cpp:125
+#: filteropts.cpp:124
 #, kde-format
 msgid "Automatic update interval:"
 msgstr "自動更新間隔："
 
-#: filteropts.cpp:130
+#: filteropts.cpp:129
 #, kde-format
 msgid " day"
 msgid_plural " days"
 msgstr[0] " 天"
 
-#: filteropts.cpp:136
+#: filteropts.cpp:135
 #, kde-format
 msgid "Insert"
 msgstr "插入"
 
-#: filteropts.cpp:139
+#: filteropts.cpp:138
 #, kde-format
 msgid "Update"
 msgstr "更新"
 
-#: filteropts.cpp:142
+#: filteropts.cpp:141
 #, kde-format
 msgid "Remove"
 msgstr "移除"
 
-#: filteropts.cpp:146
+#: filteropts.cpp:145
 #, kde-format
 msgid "Import..."
 msgstr "匯入..."
 
-#: filteropts.cpp:149
+#: filteropts.cpp:148
 #, kde-format
 msgid "Export..."
 msgstr "匯出..."
 
-#: filteropts.cpp:156
+#: filteropts.cpp:155
 #, kde-format
 msgid ""
 "<qt>More information on <a href=\"importhelp\">import format</a>, <a href="
@@ -1072,7 +1072,7 @@ msgstr ""
 "<qt>請參考關於<a href=\"importhelp\">匯入格式</a>與<a href=\"exporthelp\">匯"
 "出格式</a>的更多資訊。"
 
-#: filteropts.cpp:170
+#: filteropts.cpp:169
 #, kde-format
 msgid ""
 "Enable or disable AdBlocK filters. When enabled, a set of URL expressions "
@@ -1081,7 +1081,7 @@ msgstr ""
 "啟用或停用 AdBlocK 過濾器。當啟用時應在過濾器清單中定義網址的表示式才能使阻擋"
 "功能生效。"
 
-#: filteropts.cpp:172
+#: filteropts.cpp:171
 #, kde-format
 msgid ""
 "When enabled blocked images will be removed from the page completely, "
@@ -1089,14 +1089,14 @@ msgid ""
 msgstr ""
 "當啟用時被阻擋的圖片會完全從網頁中移除，另外就是使用「被阻擋的」佔位符圖片。"
 
-#: filteropts.cpp:179
+#: filteropts.cpp:178
 #, kde-format
 msgid ""
 "This is the list of URL filters that will be applied to all embedded images "
 "and media objects."
 msgstr "這是套用到所有連結的圖片與框架的網址過濾器清單。"
 
-#: filteropts.cpp:183
+#: filteropts.cpp:182
 #, kde-format
 msgid ""
 "<qt><p>Enter an expression to filter. Filters can be defined as either:"
@@ -1113,7 +1113,7 @@ msgstr ""
 "banner)\\./</tt></li> </ul> <p>任何過濾器前面加上 <tt>@@</tt> 都表示是屬於白"
 "名單，優先權在黑名單之前。"
 
-#: filteropts.cpp:199
+#: filteropts.cpp:198
 #, kde-format
 msgid ""
 "<qt><p>The filter import format is a plain text file. Blank lines, comment "
@@ -1123,7 +1123,7 @@ msgstr ""
 "<qt><p>過濾器匯入格式是純文字檔。空白行、以 '<tt>!</tt>' 開頭的註解行，以及標"
 "頭行 <tt>[AdBlock]</tt> 會被忽略。任何其它行都會視為過濾器表示式。"
 
-#: filteropts.cpp:204
+#: filteropts.cpp:203
 #, kde-format
 msgid ""
 "<qt><p>The filter export format is a plain text file. The file begins with a "
@@ -1133,7 +1133,7 @@ msgstr ""
 "<qt><p>過濾器匯出格式是純文字檔。空白行、以 '<tt>!</tt>' 開頭的註解行，以及標"
 "頭行 <tt>[AdBlock]</tt> 會被忽略。每個過濾器都會單獨一行。"
 
-#: filteropts.cpp:452
+#: filteropts.cpp:451
 #, kde-format
 msgid ""
 "<h1>Konqueror AdBlocK</h1> Konqueror AdBlocK allows you to create a list of "
@@ -1143,12 +1143,12 @@ msgstr ""
 "<h1>Konqueror AdBlocK</h1> Konqueror AdBlocK 讓您建立一個過濾器清單來檢查連結"
 "的圖片和框架。符合的 URL 會被取消或以佔位符圖片代替。"
 
-#: filteropts.cpp:574
+#: filteropts.cpp:573
 #, kde-format
 msgid "Name"
 msgstr "名稱"
 
-#: filteropts.cpp:575
+#: filteropts.cpp:574
 #, kde-format
 msgid "URL"
 msgstr "網址"

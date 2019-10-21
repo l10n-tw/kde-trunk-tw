@@ -5376,7 +5376,7 @@ msgctxt "Marble::DownloadRegionDialog|"
 msgid "Download Region"
 msgstr "下載區域"
 
-#: src/lib/marble/DownloadRegionDialog.cpp:456
+#: src/lib/marble/DownloadRegionDialog.cpp:455
 #, fuzzy, qt-format
 #| msgid "Number of tiles to download:"
 msgctxt "Marble::DownloadRegionDialog|"
@@ -5384,18 +5384,18 @@ msgid "There is a limit of %n tile(s) to download."
 msgid_plural "There is a limit of %n tile(s) to download."
 msgstr[0] "下載數量"
 
-#: src/lib/marble/DownloadRegionDialog.cpp:461
+#: src/lib/marble/DownloadRegionDialog.cpp:460
 msgctxt "Marble::DownloadRegionDialog|"
 msgid "Approximate size of the tiles to be downloaded"
 msgstr "大約要下載的地圖大小"
 
-#: src/lib/marble/DownloadRegionDialog.cpp:465
+#: src/lib/marble/DownloadRegionDialog.cpp:464
 #, qt-format
 msgctxt "Marble::DownloadRegionDialog|"
 msgid "Estimated download size: %1 MB"
 msgstr "大約要下載的大小：%1 MB"
 
-#: src/lib/marble/DownloadRegionDialog.cpp:468
+#: src/lib/marble/DownloadRegionDialog.cpp:467
 #, qt-format
 msgctxt "Marble::DownloadRegionDialog|"
 msgid "Estimated download size: %1 kB"
@@ -8195,22 +8195,22 @@ msgctxt "Marble::GeoDataTreeModel|"
 msgid "Name"
 msgstr "名稱"
 
-#: src/lib/marble/GeoDataTreeModel.cpp:189
+#: src/lib/marble/GeoDataTreeModel.cpp:188
 msgctxt "Marble::GeoDataTreeModel|"
 msgid "Type"
 msgstr "型態"
 
-#: src/lib/marble/GeoDataTreeModel.cpp:192
+#: src/lib/marble/GeoDataTreeModel.cpp:190
 msgctxt "Marble::GeoDataTreeModel|"
 msgid "Popularity"
 msgstr "知名度"
 
-#: src/lib/marble/GeoDataTreeModel.cpp:195
+#: src/lib/marble/GeoDataTreeModel.cpp:192
 msgctxt "Marble::GeoDataTreeModel|Popularity index"
 msgid "PopIndex"
 msgstr "知名度索引"
 
-#: src/lib/marble/GeoDataTreeModel.cpp:252
+#: src/lib/marble/GeoDataTreeModel.cpp:248
 msgctxt "Marble::GeoDataTreeModel|"
 msgid "Playlist"
 msgstr "播放清單"
@@ -8709,57 +8709,57 @@ msgctxt "Marble::MapWizard|"
 msgid "Please specify a preview image."
 msgstr "請指定預覽影像。"
 
-#: src/lib/marble/MapWizard.cpp:898
+#: src/lib/marble/MapWizard.cpp:895
 msgctxt "Marble::MapWizard|"
 msgid "Geographic Pole"
 msgstr "地極"
 
-#: src/lib/marble/MapWizard.cpp:904
+#: src/lib/marble/MapWizard.cpp:901
 msgctxt "Marble::MapWizard|"
 msgid "Magnetic Pole"
 msgstr "磁極"
 
-#: src/lib/marble/MapWizard.cpp:910
+#: src/lib/marble/MapWizard.cpp:907
 msgctxt "Marble::MapWizard|"
 msgid "Airport"
 msgstr "機場"
 
-#: src/lib/marble/MapWizard.cpp:916
+#: src/lib/marble/MapWizard.cpp:913
 msgctxt "Marble::MapWizard|"
 msgid "Shipwreck"
 msgstr "海難船"
 
-#: src/lib/marble/MapWizard.cpp:922
+#: src/lib/marble/MapWizard.cpp:919
 msgctxt "Marble::MapWizard|"
 msgid "Observatory"
 msgstr "觀測所"
 
-#: src/lib/marble/MapWizard.cpp:944
+#: src/lib/marble/MapWizard.cpp:941
 msgctxt "Marble::MapWizard|"
 msgid "Mountain"
 msgstr "山"
 
-#: src/lib/marble/MapWizard.cpp:950
+#: src/lib/marble/MapWizard.cpp:947
 msgctxt "Marble::MapWizard|"
 msgid "Volcano"
 msgstr "火山"
 
-#: src/lib/marble/MapWizard.cpp:981
+#: src/lib/marble/MapWizard.cpp:978
 msgctxt "Marble::MapWizard|"
 msgid "International"
 msgstr "國際"
 
-#: src/lib/marble/MapWizard.cpp:987
+#: src/lib/marble/MapWizard.cpp:984
 msgctxt "Marble::MapWizard|"
 msgid "State"
 msgstr "州"
 
-#: src/lib/marble/MapWizard.cpp:1091
+#: src/lib/marble/MapWizard.cpp:1088
 msgctxt "Marble::MapWizard|"
 msgid "Problem while creating files"
 msgstr "建立檔案時發生問題"
 
-#: src/lib/marble/MapWizard.cpp:1091
+#: src/lib/marble/MapWizard.cpp:1088
 msgctxt "Marble::MapWizard|"
 msgid "Check if a theme with the same name exists."
 msgstr "檢查是否有同名的主題已存在。"
@@ -12643,89 +12643,89 @@ msgctxt "QObject|"
 msgid "Exit the roundabout."
 msgstr "離開圓環。"
 
-#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:419
+#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:418
 msgctxt "QObject|"
 msgid "Take the exit to the left."
 msgstr "從出口離開往左。"
 
-#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:421
+#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:420
 msgctxt "QObject|"
 msgid "Take the exit to the right."
 msgstr "從出口離開往右。"
 
-#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:426
+#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:425
 #, qt-format
 msgctxt "QObject|"
 msgid "Continue onto %1."
 msgstr "繼續開在 %1 上。"
 
-#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:428
+#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:427
 #, qt-format
 msgctxt "QObject|"
 msgid "Merge onto %1."
 msgstr "併線到 %1。"
 
-#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:430
+#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:429
 #, qt-format
 msgctxt "QObject|"
 msgid "Turn around onto %1."
 msgstr "掉頭到 %1。"
 
-#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:432
+#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:431
 #, qt-format
 msgctxt "QObject|"
 msgid "Turn sharp left on %1."
 msgstr "向左急轉於 %1。"
 
-#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:434
+#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:433
 #, qt-format
 msgctxt "QObject|"
 msgid "Turn left into %1."
 msgstr "左轉到 %1。"
 
-#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:436
+#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:435
 #, qt-format
 msgctxt "QObject|"
 msgid "Keep slightly left on %1."
 msgstr "保持左側於 %1。"
 
-#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:438
+#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:437
 #, qt-format
 msgctxt "QObject|"
 msgid "Continue on %1."
 msgstr "繼續開 %1。"
 
-#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:440
+#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:439
 #, qt-format
 msgctxt "QObject|"
 msgid "Keep slightly right on %1."
 msgstr "保持右側於 %1。"
 
-#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:442
+#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:441
 #, qt-format
 msgctxt "QObject|"
 msgid "Turn right into %1."
 msgstr "右轉到 %1。"
 
-#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:444
+#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:443
 #, qt-format
 msgctxt "QObject|"
 msgid "Turn sharp right into %1."
 msgstr "向右急轉到 %1。"
 
-#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:446
+#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:445
 #, qt-format
 msgctxt "QObject|"
 msgid "Exit the roundabout into %2."
 msgstr "離開圓環到 %2。"
 
-#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:455
+#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:453
 #, qt-format
 msgctxt "QObject|"
 msgid "Take the exit to the left onto %1."
 msgstr "從出口離開往左到 %1。"
 
-#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:457
+#: src/lib/marble/routing/instructions/RoutingInstruction.cpp:455
 #, qt-format
 msgctxt "QObject|"
 msgid "Take the exit to the right onto %1."

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-09 03:16+0200\n"
+"POT-Creation-Date: 2019-10-21 03:23+0200\n"
 "PO-Revision-Date: 2019-09-22 18:58+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -91,13 +91,15 @@ msgid "Maximum rows:"
 msgstr "最大列數："
 
 #: package/contents/ui/ConfigAppearance.qml:111
-#, kde-format
-msgid "Always arrange tasks in as many rows as columns"
-msgstr "總是將任務安排在與列數一樣多的欄中"
+#, fuzzy, kde-format
+#| msgid "Always arrange tasks in as many columns as rows"
+msgid "Always arrange tasks in rows of as many columns"
+msgstr "總是將任務安排在與欄數一樣多的列中"
 
 #: package/contents/ui/ConfigAppearance.qml:111
-#, kde-format
-msgid "Always arrange tasks in as many columns as rows"
+#, fuzzy, kde-format
+#| msgid "Always arrange tasks in as many columns as rows"
+msgid "Always arrange tasks in columns of as many rows"
 msgstr "總是將任務安排在與欄數一樣多的列中"
 
 #: package/contents/ui/ConfigBehavior.qml:52
@@ -446,3 +448,6 @@ msgstr[0] "%1 個更多位置"
 #, kde-format
 msgid "Forget Recent Documents"
 msgstr "忘掉最近的文件"
+
+#~ msgid "Always arrange tasks in as many rows as columns"
+#~ msgstr "總是將任務安排在與列數一樣多的欄中"

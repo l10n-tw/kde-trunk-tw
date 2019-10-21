@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-21 02:56+0200\n"
+"POT-Creation-Date: 2019-10-21 02:51+0200\n"
 "PO-Revision-Date: 2019-08-06 22:36+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -165,25 +165,25 @@ msgctxt "@item Contributor name in about dialog."
 msgid "%1"
 msgstr "%1"
 
-#: kaboutapplicationpersonmodel_p.cpp:206
+#: kaboutapplicationpersonmodel_p.cpp:202
 #, kde-format
 msgctxt "City, Country"
 msgid "%1, %2"
 msgstr "%1, %2"
 
-#: kaboutapplicationpersonmodel_p.cpp:309
+#: kaboutapplicationpersonmodel_p.cpp:305
 #, kde-format
 msgctxt "A generic social network or homepage link of an unlisted type."
 msgid "Other"
 msgstr "其他"
 
-#: kaboutapplicationpersonmodel_p.cpp:311
+#: kaboutapplicationpersonmodel_p.cpp:307
 #, kde-format
 msgctxt "A type of link."
 msgid "Blog"
 msgstr "部落格"
 
-#: kaboutapplicationpersonmodel_p.cpp:319
+#: kaboutapplicationpersonmodel_p.cpp:315
 #, kde-format
 msgctxt "A type of link."
 msgid "Homepage"
@@ -621,29 +621,29 @@ msgstr "圖示文字(&X):"
 msgid "&Hide text when toolbar shows text alongside icons"
 msgstr "工具列在圖示旁顯示文字時隱藏文字(&H)"
 
-#: kedittoolbar.cpp:617
+#: kedittoolbar.cpp:616
 #, kde-format
 msgid "Configure Toolbars"
 msgstr "設定工具列"
 
-#: kedittoolbar.cpp:680
+#: kedittoolbar.cpp:679
 #, kde-format
 msgid ""
 "Do you really want to reset all toolbars of this application to their "
 "default? The changes will be applied immediately."
 msgstr "您真的要重設這個應用程式的所有工具列嗎？這個動作會即時生效。"
 
-#: kedittoolbar.cpp:680
+#: kedittoolbar.cpp:679
 #, kde-format
 msgid "Reset Toolbars"
 msgstr "重設工具列"
 
-#: kedittoolbar.cpp:680
+#: kedittoolbar.cpp:679
 #, kde-format
 msgid "Reset"
 msgstr "重設"
 
-#: kedittoolbar.cpp:1006
+#: kedittoolbar.cpp:1004
 #, kde-format
 msgid "&Toolbar:"
 msgstr "工具列(&T)："
@@ -655,54 +655,54 @@ msgstr "工具列(&T)："
 #. del_toolbar->setPixmap(BarIcon("edit-delete", KIconLoader::SizeSmall));
 #. del_toolbar->setEnabled(false); // disabled until implemented
 #. our list of inactive actions
-#: kedittoolbar.cpp:1021
+#: kedittoolbar.cpp:1019
 #, kde-format
 msgid "A&vailable actions:"
 msgstr "可用的動作(&V)："
 
-#: kedittoolbar.cpp:1036 kedittoolbar.cpp:1055
+#: kedittoolbar.cpp:1034 kedittoolbar.cpp:1053
 #, kde-format
 msgid "Filter"
 msgstr "過濾器"
 
-#: kedittoolbar.cpp:1039
+#: kedittoolbar.cpp:1037
 #, kde-format
 msgid "Curr&ent actions:"
 msgstr "目前的動作(&E)："
 
-#: kedittoolbar.cpp:1058
+#: kedittoolbar.cpp:1056
 #, kde-format
 msgid "Change &Icon..."
 msgstr "變更圖示(&I)..."
 
-#: kedittoolbar.cpp:1066
+#: kedittoolbar.cpp:1064
 #, kde-format
 msgid "Change Te&xt..."
 msgstr "改變文字(&X)..."
 
-#: kedittoolbar.cpp:1221
+#: kedittoolbar.cpp:1217
 #, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1"
 
-#: kedittoolbar.cpp:1248
+#: kedittoolbar.cpp:1244
 #, kde-format
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr "此元件將會被內嵌部分的所有元件取代。"
 
-#: kedittoolbar.cpp:1250
+#: kedittoolbar.cpp:1246
 #, kde-format
 msgid "<Merge>"
 msgstr "<合併>"
 
-#: kedittoolbar.cpp:1252
+#: kedittoolbar.cpp:1248
 #, kde-format
 msgid "<Merge %1>"
 msgstr "<合併 %1>"
 
-#: kedittoolbar.cpp:1258
+#: kedittoolbar.cpp:1254
 #, kde-format
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
@@ -711,47 +711,47 @@ msgstr ""
 "這是一份動作的動態清單。您可以移動它，不過如果您將它移除，您將無法重新加回"
 "它。"
 
-#: kedittoolbar.cpp:1259
+#: kedittoolbar.cpp:1255
 #, kde-format
 msgid "ActionList: %1"
 msgstr "動作清單: %1"
 
-#: kedittoolbar.cpp:1365 kedittoolbar.cpp:1392
+#: kedittoolbar.cpp:1357 kedittoolbar.cpp:1384
 #, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
 msgstr "%1"
 
-#: kedittoolbar.cpp:1621
+#: kedittoolbar.cpp:1611
 #, kde-format
 msgid "Change Icon"
 msgstr "變更圖示"
 
-#: kgesture.cpp:503
+#: kgesture.cpp:502
 #, kde-format
 msgctxt "left mouse button"
 msgid "left button"
 msgstr "左鍵"
 
-#: kgesture.cpp:505
+#: kgesture.cpp:504
 #, kde-format
 msgctxt "middle mouse button"
 msgid "middle button"
 msgstr "中鍵"
 
-#: kgesture.cpp:507
+#: kgesture.cpp:506
 #, kde-format
 msgctxt "right mouse button"
 msgid "right button"
 msgstr "右鍵"
 
-#: kgesture.cpp:509
+#: kgesture.cpp:508
 #, kde-format
 msgctxt "a nonexistent value of mouse button"
 msgid "invalid button"
 msgstr "不合法的按鍵"
 
-#: kgesture.cpp:522
+#: kgesture.cpp:521
 #, kde-format
 msgctxt ""
 "a kind of mouse gesture: hold down one mouse button, then press another "
@@ -1187,17 +1187,17 @@ msgstr "全域："
 msgid "Global alternate:"
 msgstr "全域替代："
 
-#: kshortcutseditor.cpp:734
+#: kshortcutseditor.cpp:735
 #, kde-format
 msgid "Action Name"
 msgstr "動作名稱"
 
-#: kshortcutseditor.cpp:738
+#: kshortcutseditor.cpp:739
 #, kde-format
 msgid "Shortcuts"
 msgstr "快捷鍵"
 
-#: kshortcutseditor.cpp:742
+#: kshortcutseditor.cpp:743
 #, kde-format
 msgid "Description"
 msgstr "描述"
@@ -1230,41 +1230,41 @@ msgid ""
 "contain a proper translation."
 msgstr "新增當其他語言若沒有適當翻譯時要使用的語言。"
 
-#: kswitchlanguagedialog_p.cpp:289 kswitchlanguagedialog_p.cpp:311
+#: kswitchlanguagedialog_p.cpp:288 kswitchlanguagedialog_p.cpp:310
 #, kde-format
 msgid ""
 "The language for this application has been changed. The change will take "
 "effect the next time the application is started."
 msgstr "此應用程式的語言已變更。將在下次啟動時生效。"
 
-#: kswitchlanguagedialog_p.cpp:290 kswitchlanguagedialog_p.cpp:312
+#: kswitchlanguagedialog_p.cpp:289 kswitchlanguagedialog_p.cpp:311
 #, kde-format
 msgid "Application Language Changed"
 msgstr "應用程式語言已變更"
 
-#: kswitchlanguagedialog_p.cpp:400
+#: kswitchlanguagedialog_p.cpp:399
 #, kde-format
 msgid "Primary language:"
 msgstr "主要語言："
 
-#: kswitchlanguagedialog_p.cpp:400
+#: kswitchlanguagedialog_p.cpp:399
 #, kde-format
 msgid "Fallback language:"
 msgstr "預設語言："
 
-#: kswitchlanguagedialog_p.cpp:415
+#: kswitchlanguagedialog_p.cpp:414
 #, kde-format
 msgid "Remove"
 msgstr "移除"
 
-#: kswitchlanguagedialog_p.cpp:422
+#: kswitchlanguagedialog_p.cpp:421
 #, kde-format
 msgid ""
 "This is the main application language which will be used first, before any "
 "other languages."
 msgstr "這個是會優先使用的語言。"
 
-#: kswitchlanguagedialog_p.cpp:423
+#: kswitchlanguagedialog_p.cpp:422
 #, kde-format
 msgid ""
 "This is the language which will be used if any previous languages do not "

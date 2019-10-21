@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-20 02:34+0200\n"
+"POT-Creation-Date: 2019-10-21 02:35+0200\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -340,101 +340,101 @@ msgstr "設為標籤縮圖"
 msgid "Assign Tag(s) '%1' to Items"
 msgstr "指定標籤「%1」到項目"
 
-#: core/app/filters/filtersidebarwidget.cpp:129
+#: core/app/filters/filtersidebarwidget.cpp:133
 #, kde-format
 msgid "Text Filter"
 msgstr "文字過濾器"
 
-#: core/app/filters/filtersidebarwidget.cpp:135
+#: core/app/filters/filtersidebarwidget.cpp:139
 #, kde-format
 msgid "MIME Type Filter"
 msgstr "MIME 型態過濾器"
 
-#: core/app/filters/filtersidebarwidget.cpp:141
+#: core/app/filters/filtersidebarwidget.cpp:145
 #, kde-format
 msgid "Geolocation Filter"
 msgstr "地理位置濾鏡"
 
-#: core/app/filters/filtersidebarwidget.cpp:154
+#: core/app/filters/filtersidebarwidget.cpp:158
 #, kde-format
 msgid "Images Without Tags"
 msgstr "影像不含標籤"
 
-#: core/app/filters/filtersidebarwidget.cpp:156
+#: core/app/filters/filtersidebarwidget.cpp:160
 #, kde-format
 msgid "Show images without a tag."
 msgstr "顯示影像不含標籤"
 
-#: core/app/filters/filtersidebarwidget.cpp:159
+#: core/app/filters/filtersidebarwidget.cpp:163
 #, kde-format
 msgid "Tags Matching Condition"
 msgstr "符合條件的標籤"
 
-#: core/app/filters/filtersidebarwidget.cpp:162
+#: core/app/filters/filtersidebarwidget.cpp:166
 #, kde-format
 msgid ""
 "Defines in which way the selected tags are combined to filter the images. "
 "This also includes the '%1' check box."
 msgstr "定義用哪種方式合併選擇的標籤和過濾的影像。這也包含此「%1」勾選框。"
 
-#: core/app/filters/filtersidebarwidget.cpp:167
+#: core/app/filters/filtersidebarwidget.cpp:171
 #: core/utilities/searchwindow/searchgroup.cpp:677
 #, kde-format
 msgid "OR"
 msgstr "或"
 
-#: core/app/filters/filtersidebarwidget.cpp:169
+#: core/app/filters/filtersidebarwidget.cpp:173
 #: core/utilities/searchwindow/searchgroup.cpp:673
 #, kde-format
 msgid "AND"
 msgstr "且"
 
-#: core/app/filters/filtersidebarwidget.cpp:183
+#: core/app/filters/filtersidebarwidget.cpp:187
 #, kde-format
 msgid "Tags Filter"
 msgstr "標籤過濾器"
 
-#: core/app/filters/filtersidebarwidget.cpp:201
+#: core/app/filters/filtersidebarwidget.cpp:205
 #, kde-format
 msgid "Labels Filter"
 msgstr "標記過濾器"
 
-#: core/app/filters/tagfilterview.cpp:79
+#: core/app/filters/tagfilterview.cpp:80
 #, kde-format
 msgid "Restore Tag Filters"
 msgstr "恢復標籤過濾器"
 
-#: core/app/filters/tagfilterview.cpp:80
+#: core/app/filters/tagfilterview.cpp:81
 #, kde-format
 msgid "On"
 msgstr "開"
 
-#: core/app/filters/tagfilterview.cpp:81
+#: core/app/filters/tagfilterview.cpp:82
 #, kde-format
 msgid "Off"
 msgstr "關"
 
-#: core/app/filters/tagfilterview.cpp:83
+#: core/app/filters/tagfilterview.cpp:84
 #, kde-format
 msgid "Tag Filter Mode"
 msgstr "標籤過濾器模式"
 
-#: core/app/filters/tagfilterview.cpp:84
+#: core/app/filters/tagfilterview.cpp:85
 #, kde-format
 msgid "Ignore This Tag"
 msgstr "忽略這個標籤"
 
-#: core/app/filters/tagfilterview.cpp:85
+#: core/app/filters/tagfilterview.cpp:86
 #, kde-format
 msgid "Must Have This Tag"
 msgstr "必須有這個標籤"
 
-#: core/app/filters/tagfilterview.cpp:86
+#: core/app/filters/tagfilterview.cpp:87
 #, kde-format
 msgid "Must Not Have This Tag"
 msgstr "必須沒有這個標籤"
 
-#: core/app/items/delegate/itemdelegate.cpp:368
+#: core/app/items/delegate/itemdelegate.cpp:372
 #, fuzzy, kde-format
 #| msgid "Reference:"
 msgid "Reference Image"
@@ -551,7 +551,7 @@ msgid "Delete Tag"
 msgstr "刪除標籤"
 
 #: core/app/items/utils/contextmenuhelper.cpp:493
-#: core/libs/tags/manager/tagmngrtreeview.cpp:141
+#: core/libs/tags/manager/tagmngrtreeview.cpp:145
 #, kde-format
 msgid "Delete Tags"
 msgstr "刪除標籤"
@@ -732,7 +732,7 @@ msgstr "取消選擇"
 
 #: core/app/items/utils/contextmenuhelper.cpp:936
 #: core/app/main/digikamapp_setup.cpp:634
-#: core/libs/tags/manager/tagmngrtreeview.cpp:156
+#: core/libs/tags/manager/tagmngrtreeview.cpp:160
 #: core/libs/tags/manager/tagsmanager.cpp:694
 #, kde-format
 msgid "Invert Selection"
@@ -921,7 +921,7 @@ msgstr "名稱："
 #: core/app/items/utils/tooltipfiller.cpp:92
 #: core/app/items/utils/tooltipfiller.cpp:603
 #: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:230
-#: core/libs/properties/captions/itemdescedittab.cpp:206
+#: core/libs/properties/captions/itemdescedittab.cpp:210
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:79
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:178
 #: core/utilities/import/items/importtooltipfiller.cpp:77
@@ -966,7 +966,7 @@ msgstr "%1 (%2)"
 #: core/dplugins/generic/tools/videoslideshow/wizard/vidslidevideopage.cpp:240
 #: core/libs/database/utils/widgets/dbsettingswidget.cpp:168
 #: core/libs/dimg/filters/decorate/bordersettings.cpp:130
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:120
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:124
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:92
 #: core/utilities/import/items/importtooltipfiller.cpp:90
 #, kde-format
@@ -1478,7 +1478,7 @@ msgid "Forward"
 msgstr "前進"
 
 #: core/app/main/digikamapp_setup.cpp:171
-#: core/libs/album/treeview/albumselectiontreeview.cpp:196
+#: core/libs/album/treeview/albumselectiontreeview.cpp:200
 #, kde-format
 msgid "Refresh"
 msgstr "重新整理"
@@ -1515,7 +1515,7 @@ msgstr "刪除相簿"
 
 #: core/app/main/digikamapp_setup.cpp:219
 #: core/app/main/digikamapp_setup.cpp:425
-#: core/utilities/searchwindow/editablesearchtreeview.cpp:66
+#: core/utilities/searchwindow/editablesearchtreeview.cpp:70
 #, kde-format
 msgid "Rename..."
 msgstr "重新命名..."
@@ -1587,7 +1587,7 @@ msgstr "新增(&E)..."
 
 #: core/app/main/digikamapp_setup.cpp:278
 #: core/libs/database/utils/ifaces/dio.cpp:626
-#: core/utilities/searchwindow/editablesearchtreeview.cpp:67
+#: core/utilities/searchwindow/editablesearchtreeview.cpp:71
 #: core/utilities/setup/metadata/advancedmetadatatab.cpp:343
 #, kde-format
 msgid "Delete"
@@ -1728,8 +1728,8 @@ msgid "Reread Metadata From Selected Files"
 msgstr "從選擇的影像重新讀取中繼資料"
 
 #: core/app/main/digikamapp_setup.cpp:412
-#: core/libs/album/treeview/albumselectiontreeview.cpp:194
-#: core/libs/album/treeview/albumselectiontreeview.cpp:249
+#: core/libs/album/treeview/albumselectiontreeview.cpp:198
+#: core/libs/album/treeview/albumselectiontreeview.cpp:253
 #, fuzzy, kde-format
 #| msgid "Scan for New Images"
 msgid "Scan for Faces"
@@ -2036,7 +2036,7 @@ msgid "Color-Managed View"
 msgstr "顏色管理檢視"
 
 #: core/app/main/digikamapp_setup.cpp:728
-#: core/libs/widgets/common/searchtextbar.h:105
+#: core/libs/widgets/common/searchtextbar.cpp:96
 #, kde-format
 msgid "Search..."
 msgstr "搜尋..."
@@ -2048,7 +2048,7 @@ msgid "Advanced Search..."
 msgstr "進階搜尋..."
 
 #: core/app/main/digikamapp_setup.cpp:742
-#: core/libs/album/treeview/albumselectiontreeview.cpp:193
+#: core/libs/album/treeview/albumselectiontreeview.cpp:197
 #: core/libs/tags/widgets/tagfolderview.cpp:80
 #, kde-format
 msgid "Find Duplicates..."
@@ -2448,7 +2448,7 @@ msgstr ""
 msgid "Main Toolbar"
 msgstr "主工具列"
 
-#: core/app/main/main.cpp:104 core/app/views/stack/welcomepageview.cpp:217
+#: core/app/main/main.cpp:108 core/app/views/stack/welcomepageview.cpp:217
 #: core/libs/album/manager/albummanager_album.cpp:135
 #: core/libs/album/manager/albummanager_dalbum.cpp:102
 #: core/libs/album/manager/albummanager_falbum.cpp:69
@@ -2457,35 +2457,35 @@ msgstr "主工具列"
 msgid "digiKam"
 msgstr "digiKam"
 
-#: core/app/main/main.cpp:121
+#: core/app/main/main.cpp:125
 #, kde-format
 msgid "Open camera dialog at <path>"
 msgstr "開啟相機對話框於 <path>"
 
-#: core/app/main/main.cpp:124
+#: core/app/main/main.cpp:128
 #, kde-format
 msgid "Open camera dialog for the device with Solid UDI <udi>"
 msgstr "用 Solid UDI 開啟裝置的相機對話框 <udi>"
 
-#: core/app/main/main.cpp:127
+#: core/app/main/main.cpp:131
 #, kde-format
 msgid "Automatically detect and open a connected gphoto2 camera"
 msgstr "自動偵測並開啟已連線的 gphoto2 相機"
 
-#: core/app/main/main.cpp:129
+#: core/app/main/main.cpp:133
 #, kde-format
 msgid ""
 "Start digikam with the SQLite database file found in the directory <dir>"
 msgstr "用在目錄 <dir> 中找到的 SQLite 資料庫檔案啟動 digikam"
 
-#: core/app/main/main.cpp:132
+#: core/app/main/main.cpp:136
 #, fuzzy, kde-format
 #| msgid ""
 #| "Start digikam with the SQLite database file found in the directory <dir>"
 msgid "Start digikam with the configuration file <config>"
 msgstr "用在目錄 <dir> 中找到的 SQLite 資料庫檔案啟動 digikam"
 
-#: core/app/main/main.cpp:152
+#: core/app/main/main.cpp:156
 #, fuzzy, kde-format
 msgid ""
 "Run-time Qt SQLite or MySQL database plugin is not available. please install "
@@ -2495,7 +2495,7 @@ msgstr ""
 "無法使用 Run-time Qt4 SQLite 或 MySQL 資料庫外掛程式 - 請安裝此外掛程式。\n"
 "您的電腦上沒有安裝資料庫外掛程式。"
 
-#: core/app/main/main.cpp:161
+#: core/app/main/main.cpp:165
 #, fuzzy, kde-format
 msgid ""
 "Run-time Qt SQLite or MySQL database plugin are not available. Please "
@@ -2505,7 +2505,7 @@ msgstr ""
 "無法使用 Run-time Qt4 SQLite 或 MySQL 資料庫外掛程式 - 請安裝此外掛程式。\n"
 "下面列出您的電腦上已安裝的資料庫外掛程式："
 
-#: core/app/main/main.cpp:198
+#: core/app/main/main.cpp:202
 #, kde-format
 msgid ""
 "<p>The given path for the config file is not valid. Either its parent "
@@ -2632,7 +2632,7 @@ msgstr ""
 #: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:142
 #: core/libs/album/engine/album.cpp:458
 #: core/libs/album/manager/albummanager.cpp:158
-#: core/libs/album/treeview/albumselectiontreeview.cpp:213
+#: core/libs/album/treeview/albumselectiontreeview.cpp:217
 #: core/libs/album/widgets/albumselectors.cpp:133
 #: core/libs/album/widgets/albumselecttabs.cpp:194
 #: core/libs/database/utils/widgets/dbstatdlg.cpp:70
@@ -2642,7 +2642,7 @@ msgid "Albums"
 msgstr "相簿"
 
 #: core/app/views/sidebar/leftsidebarwidgets.cpp:234
-#: core/libs/properties/captions/itemdescedittab.cpp:282
+#: core/libs/properties/captions/itemdescedittab.cpp:286
 #, kde-format
 msgid "Open Tag Manager"
 msgstr "開啟標籤管理員"
@@ -2670,7 +2670,7 @@ msgstr "前往相簿"
 #: core/libs/database/utils/widgets/dbstatdlg.cpp:74
 #: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:42
 #: core/libs/models/albummodel.cpp:88
-#: core/libs/properties/captions/itemdescedittab.cpp:321
+#: core/libs/properties/captions/itemdescedittab.cpp:325
 #: core/libs/tags/widgets/tagfolderview.cpp:104
 #: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:545
 #: core/utilities/searchwindow/searchfields.cpp:131
@@ -3094,17 +3094,17 @@ msgstr "歡迎使用 digiKam %1"
 msgid "Background Image Credits"
 msgstr "背景不透明度："
 
-#: core/app/views/tableview/tableview.cpp:314
+#: core/app/views/tableview/tableview.cpp:318
 #, kde-format
 msgid "Hide grouped items"
 msgstr "隱藏已群組之項目"
 
-#: core/app/views/tableview/tableview.cpp:324
+#: core/app/views/tableview/tableview.cpp:328
 #, kde-format
 msgid "Ignore grouping"
 msgstr "忽略群組"
 
-#: core/app/views/tableview/tableview.cpp:334
+#: core/app/views/tableview/tableview.cpp:338
 #, kde-format
 msgid "Show grouping in tree"
 msgstr "以樹狀顯示群組"
@@ -3166,7 +3166,7 @@ msgstr "digiKam 屬性"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:74
 #: core/app/views/tableview/tableview_column_digikam.cpp:90
-#: core/libs/album/treeview/labelstreeview.cpp:337
+#: core/libs/album/treeview/labelstreeview.cpp:341
 #: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:47
 #: core/libs/widgets/metadata/ratingwidget.cpp:543
 #: core/utilities/searchwindow/searchfields.cpp:190
@@ -3214,21 +3214,21 @@ msgid "None"
 msgstr "無"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:271
-#: core/libs/album/treeview/labelstreeview.cpp:806
+#: core/libs/album/treeview/labelstreeview.cpp:810
 #: core/libs/widgets/metadata/picklabelwidget.cpp:282
 #, kde-format
 msgid "Rejected"
 msgstr "已拒絕"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:275
-#: core/libs/album/treeview/labelstreeview.cpp:809
+#: core/libs/album/treeview/labelstreeview.cpp:813
 #: core/libs/widgets/metadata/picklabelwidget.cpp:285
 #, kde-format
 msgid "Pending"
 msgstr "暫停"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:279
-#: core/libs/album/treeview/labelstreeview.cpp:812
+#: core/libs/album/treeview/labelstreeview.cpp:816
 #: core/libs/widgets/metadata/picklabelwidget.cpp:288
 #, kde-format
 msgid "Accepted"
@@ -3236,8 +3236,8 @@ msgstr "已接受"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:301
 #: core/dplugins/bqm/colors/curvesadjust/curvesadjust.cpp:70
-#: core/libs/album/treeview/labelstreeview.cpp:423
-#: core/libs/album/treeview/labelstreeview.cpp:755
+#: core/libs/album/treeview/labelstreeview.cpp:427
+#: core/libs/album/treeview/labelstreeview.cpp:759
 #: core/libs/dimg/filters/bw/mixersettings.cpp:138
 #: core/libs/dimg/filters/cb/cbsettings.cpp:93
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:425
@@ -3246,16 +3246,16 @@ msgid "Red"
 msgstr "紅"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:305
-#: core/libs/album/treeview/labelstreeview.cpp:423
-#: core/libs/album/treeview/labelstreeview.cpp:758
+#: core/libs/album/treeview/labelstreeview.cpp:427
+#: core/libs/album/treeview/labelstreeview.cpp:762
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:428
 #, kde-format
 msgid "Orange"
 msgstr "橘"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:309
-#: core/libs/album/treeview/labelstreeview.cpp:424
-#: core/libs/album/treeview/labelstreeview.cpp:761
+#: core/libs/album/treeview/labelstreeview.cpp:428
+#: core/libs/album/treeview/labelstreeview.cpp:765
 #: core/libs/dimg/filters/cb/cbsettings.cpp:111
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:431
 #, kde-format
@@ -3264,8 +3264,8 @@ msgstr "黃色"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:313
 #: core/dplugins/bqm/colors/curvesadjust/curvesadjust.cpp:71
-#: core/libs/album/treeview/labelstreeview.cpp:424
-#: core/libs/album/treeview/labelstreeview.cpp:764
+#: core/libs/album/treeview/labelstreeview.cpp:428
+#: core/libs/album/treeview/labelstreeview.cpp:768
 #: core/libs/dimg/filters/bw/mixersettings.cpp:139
 #: core/libs/dimg/filters/cb/cbsettings.cpp:106
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:434
@@ -3275,8 +3275,8 @@ msgstr "綠"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:317
 #: core/dplugins/bqm/colors/curvesadjust/curvesadjust.cpp:72
-#: core/libs/album/treeview/labelstreeview.cpp:425
-#: core/libs/album/treeview/labelstreeview.cpp:767
+#: core/libs/album/treeview/labelstreeview.cpp:429
+#: core/libs/album/treeview/labelstreeview.cpp:771
 #: core/libs/dimg/filters/bw/mixersettings.cpp:140
 #: core/libs/dimg/filters/cb/cbsettings.cpp:114
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:437
@@ -3285,8 +3285,8 @@ msgid "Blue"
 msgstr "藍"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:321
-#: core/libs/album/treeview/labelstreeview.cpp:425
-#: core/libs/album/treeview/labelstreeview.cpp:770
+#: core/libs/album/treeview/labelstreeview.cpp:429
+#: core/libs/album/treeview/labelstreeview.cpp:774
 #: core/libs/dimg/filters/cb/cbsettings.cpp:98
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:440
 #, kde-format
@@ -3294,24 +3294,24 @@ msgid "Magenta"
 msgstr "紫紅色"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:325
-#: core/libs/album/treeview/labelstreeview.cpp:426
-#: core/libs/album/treeview/labelstreeview.cpp:773
+#: core/libs/album/treeview/labelstreeview.cpp:430
+#: core/libs/album/treeview/labelstreeview.cpp:777
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:443
 #, kde-format
 msgid "Gray"
 msgstr "灰"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:329
-#: core/libs/album/treeview/labelstreeview.cpp:426
-#: core/libs/album/treeview/labelstreeview.cpp:776
+#: core/libs/album/treeview/labelstreeview.cpp:430
+#: core/libs/album/treeview/labelstreeview.cpp:780
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:446
 #, kde-format
 msgid "Black"
 msgstr "黑"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:333
-#: core/libs/album/treeview/labelstreeview.cpp:427
-#: core/libs/album/treeview/labelstreeview.cpp:779
+#: core/libs/album/treeview/labelstreeview.cpp:431
+#: core/libs/album/treeview/labelstreeview.cpp:783
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:449
 #, kde-format
 msgid "White"
@@ -3674,12 +3674,12 @@ msgstr "單位"
 msgid "Thumbnail"
 msgstr "縮圖"
 
-#: core/app/views/tableview/tableview_treeview.cpp:88
+#: core/app/views/tableview/tableview_treeview.cpp:92
 #, kde-format
 msgid "Remove this column"
 msgstr "移除此欄"
 
-#: core/app/views/tableview/tableview_treeview.cpp:93
+#: core/app/views/tableview/tableview_treeview.cpp:97
 #, kde-format
 msgid "Configure this column"
 msgstr "設定此欄位"
@@ -4054,7 +4054,7 @@ msgstr ""
 #: core/dplugins/editor/colors/profileconversion/profileconversiontool.cpp:233
 #: core/dplugins/editor/colors/profileconversion/profileconversiontool.cpp:261
 #: core/dplugins/editor/colors/profileconversion/profileconversiontoolplugin.cpp:58
-#: core/libs/dimg/filters/icc/icctransformfilter.h:53
+#: core/libs/dimg/filters/icc/icctransformfilter.cpp:62
 #, kde-format
 msgid "Color Profile Conversion"
 msgstr "色彩描述檔轉換"
@@ -5510,7 +5510,7 @@ msgid "Adjust Curve"
 msgstr "調整曲線"
 
 #: core/dplugins/editor/colors/adjustcurves/adjustcurvestoolplugin.cpp:52
-#: core/libs/dimg/filters/curves/curvesfilter.h:68
+#: core/libs/dimg/filters/curves/curvesfilter.cpp:82
 #, kde-format
 msgid "Adjust Curves"
 msgstr "調整曲線"
@@ -6587,7 +6587,7 @@ msgctxt ""
 msgid "HP"
 msgstr "HP"
 
-#: core/dplugins/editor/enhance/hotpixels/hotpixelfixer.h:81
+#: core/dplugins/editor/enhance/hotpixels/hotpixelfixer.cpp:88
 #, kde-format
 msgid "Hot Pixels Tool"
 msgstr "熱點工具"
@@ -6894,7 +6894,7 @@ msgstr "修復..."
 
 #: core/dplugins/editor/enhance/sharpen/sharpentool.cpp:278
 #: core/dplugins/editor/enhance/sharpen/sharpentoolplugin.cpp:52
-#: core/libs/dimg/filters/sharp/sharpenfilter.h:58
+#: core/libs/dimg/filters/sharp/sharpenfilter.cpp:101
 #, kde-format
 msgid "Sharpen"
 msgstr "銳利化"
@@ -6905,7 +6905,7 @@ msgid "Unsharp Mask"
 msgstr "遮罩銳利化"
 
 #: core/dplugins/editor/enhance/sharpen/sharpentool.cpp:292
-#: core/libs/dimg/filters/sharp/refocusfilter.h:58
+#: core/libs/dimg/filters/sharp/refocusfilter.cpp:110
 #: core/libs/dimg/filters/sharp/sharpsettings.cpp:146
 #, kde-format
 msgid "Refocus"
@@ -7255,31 +7255,31 @@ msgid "This is the color effects preview"
 msgstr "這是顏色效果預覽"
 
 #: core/dplugins/editor/filters/colorfx/colorfxtool.cpp:215
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:122
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:126
 #, kde-format
 msgid "Solarize"
 msgstr "曝光過度："
 
 #: core/dplugins/editor/filters/colorfx/colorfxtool.cpp:219
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:123
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:127
 #, kde-format
 msgid "Vivid"
 msgstr "鮮豔"
 
 #: core/dplugins/editor/filters/colorfx/colorfxtool.cpp:223
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:124
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:128
 #, kde-format
 msgid "Neon"
 msgstr "霓虹"
 
 #: core/dplugins/editor/filters/colorfx/colorfxtool.cpp:227
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:125
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:129
 #, kde-format
 msgid "Find Edges"
 msgstr "尋找邊緣"
 
 #: core/dplugins/editor/filters/colorfx/colorfxtool.cpp:231
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:126
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:130
 #, kde-format
 msgid "Lut3D"
 msgstr ""
@@ -7425,20 +7425,20 @@ msgstr ""
 "p><p><b>拼貼</b>：將相片分割成方塊並於影像內隨機移動這些方塊。</p>"
 
 #: core/dplugins/editor/filters/distortionfx/distortionfxtool.cpp:163
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:152
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:156
 #, kde-format
 msgctxt "level of the effect"
 msgid "Level:"
 msgstr "等級："
 
 #: core/dplugins/editor/filters/distortionfx/distortionfxtool.cpp:167
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:156
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:160
 #, kde-format
 msgid "Set here the level of the effect."
 msgstr "在這裡設定效果的等級。"
 
 #: core/dplugins/editor/filters/distortionfx/distortionfxtool.cpp:169
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:158
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:162
 #, kde-format
 msgid "Iteration:"
 msgstr "重複："
@@ -8052,7 +8052,7 @@ msgstr "設定值"
 
 #: core/dplugins/editor/transform/freerotation/freerotationtool.cpp:359
 #: core/dplugins/editor/transform/freerotation/freerotationtoolplugin.cpp:52
-#: core/libs/dimg/filters/transform/freerotationfilter.h:107
+#: core/libs/dimg/filters/transform/freerotationfilter.cpp:80
 #, kde-format
 msgid "Free Rotation"
 msgstr "任意旋轉"
@@ -8174,12 +8174,12 @@ msgctxt "@action"
 msgid "Perspective Adjustment..."
 msgstr "透視調整..."
 
-#: core/dplugins/editor/transform/perspective/perspectivewidget.cpp:313
+#: core/dplugins/editor/transform/perspective/perspectivewidget.cpp:317
 #, kde-format
 msgid "Perspective Adjustment Tool"
 msgstr "透視調整工具"
 
-#: core/dplugins/editor/transform/perspective/perspectivewidget.cpp:330
+#: core/dplugins/editor/transform/perspective/perspectivewidget.cpp:334
 #, kde-format
 msgid "Perspective Adjustment"
 msgstr "透視調整"
@@ -8885,7 +8885,7 @@ msgstr ""
 "有一點模糊。"
 
 #: core/dplugins/editor/transform/shear/sheartool.cpp:337
-#: core/libs/dimg/filters/transform/shearfilter.h:61
+#: core/libs/dimg/filters/transform/shearfilter.cpp:104
 #, kde-format
 msgid "Shear Tool"
 msgstr "傾斜工具"
@@ -9128,11 +9128,11 @@ msgstr "儲存變更中 - %p% "
 #: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:166
 #: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:332
 #: core/dplugins/generic/webservices/box/boxtalker.cpp:383
-#: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:381
+#: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:382
 #: core/dplugins/generic/webservices/facebook/fbtalker.cpp:586
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:736
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:760
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:920
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:740
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:764
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:924
 #: core/dplugins/generic/webservices/flickr/flickrwindow.cpp:474
 #: core/dplugins/generic/webservices/google/gdrive/gdtalker.cpp:307
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:644
@@ -9213,7 +9213,7 @@ msgid "DOP"
 msgstr "DOP"
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/gpsitemdetails.cpp:169
-#: core/libs/properties/captions/itemdescedittab.cpp:229
+#: core/libs/properties/captions/itemdescedittab.cpp:233
 #, kde-format
 msgid "Apply"
 msgstr "套用"
@@ -10713,7 +10713,7 @@ msgstr "拍攝主體距離類型："
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:389
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:421
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:444
-#: core/utilities/imageeditor/core/undoaction.h:118
+#: core/utilities/imageeditor/core/undoaction.cpp:155
 #: core/utilities/imageeditor/main/imagewindow.cpp:357
 #, kde-format
 msgid "Unknown"
@@ -15964,7 +15964,7 @@ msgid "Add again"
 msgstr "加入膠片顆粒"
 
 #: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:478
-#: core/utilities/facemanagement/assignnamewidget.cpp:264
+#: core/utilities/facemanagement/assignnamewidget.cpp:268
 #: core/utilities/geolocation/geoiface/bookmark/bookmarksdlg.cpp:364
 #, fuzzy, kde-format
 msgid "Remove"
@@ -17710,8 +17710,8 @@ msgid "Export to &Box..."
 msgstr "匯出工具"
 
 #: core/dplugins/generic/webservices/box/boxtalker.cpp:429
-#: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:424
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1095
+#: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:425
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1099
 #: core/dplugins/generic/webservices/google/gdrive/gdtalker.cpp:476
 #: core/dplugins/generic/webservices/onedrive/odtalker.cpp:465
 #: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:678
@@ -17727,7 +17727,7 @@ msgid "Failed to upload photo"
 msgstr "載入影像失敗"
 
 #: core/dplugins/generic/webservices/box/boxtalker.cpp:453
-#: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:451
+#: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:452
 #: core/dplugins/generic/webservices/google/gdrive/gdtalker.cpp:379
 #: core/dplugins/generic/webservices/onedrive/odtalker.cpp:489
 #: core/dplugins/generic/webservices/twitter/twittertalker.cpp:907
@@ -17868,7 +17868,7 @@ msgid "Box export"
 msgstr "起始顏色："
 
 #: core/dplugins/generic/webservices/box/boxwindow.cpp:344
-#: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:334
+#: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:335
 #: core/dplugins/generic/webservices/facebook/fbwindow.cpp:631
 #: core/dplugins/generic/webservices/imageshack/imageshackwindow.cpp:427
 #: core/dplugins/generic/webservices/imgur/imgurwindow.cpp:278
@@ -17896,7 +17896,7 @@ msgstr "上傳檔案 <filename>%1</filename> 失敗。您要繼續嗎？"
 
 #: core/dplugins/generic/webservices/box/boxwindow.cpp:402
 #: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:269
-#: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:392
+#: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:393
 #: core/dplugins/generic/webservices/onedrive/odwindow.cpp:401
 #: core/dplugins/generic/webservices/pinterest/pwindow.cpp:401
 #: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:364
@@ -17907,7 +17907,7 @@ msgstr "儲存於檔案"
 
 #: core/dplugins/generic/webservices/box/boxwindow.cpp:403
 #: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:270
-#: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:393
+#: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:394
 #: core/dplugins/generic/webservices/onedrive/odwindow.cpp:402
 #: core/dplugins/generic/webservices/pinterest/pwindow.cpp:402
 #: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:410
@@ -18070,7 +18070,7 @@ msgstr ""
 msgid "Dropbox export"
 msgstr ""
 
-#: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:335
+#: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:336
 #, fuzzy, kde-format
 msgid ""
 "Failed to upload photo to Dropbox.\n"
@@ -18078,8 +18078,8 @@ msgid ""
 "Do you want to continue?"
 msgstr "上傳檔案 <filename>%1</filename> 失敗。您要繼續嗎？"
 
-#: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:407
-#: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:412
+#: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:408
+#: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:413
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your search failed:\n"
@@ -18553,24 +18553,24 @@ msgctxt "@action"
 msgid "Export to &Flickr..."
 msgstr "匯出工具"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:309
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:313
 #, kde-format
 msgid "Getting the maximum allowed file size."
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:584
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:588
 #, kde-format
 msgid "File Size exceeds maximum allowed file size."
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:667
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:671
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:566
 #, fuzzy, kde-format
 #| msgid "Unspecified"
 msgid "No photo specified"
 msgstr "未指定"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:671
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:675
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:569
 #, fuzzy, kde-format
 #| msgctxt "@label"
@@ -18578,90 +18578,90 @@ msgstr "未指定"
 msgid "General upload failure"
 msgstr "旋轉檔案時"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:675
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:679
 #, fuzzy, kde-format
 #| msgid "File Size"
 msgid "Filesize was zero"
 msgstr "檔案大小"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:679
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:683
 #, kde-format
 msgid "Filetype was not recognized"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:683
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:687
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:578
 #, kde-format
 msgid "User exceeded upload limit"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:687
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:691
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:581
 #, kde-format
 msgid "Invalid signature"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:691
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:695
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:584
 #, kde-format
 msgid "Missing signature"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:695
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:699
 #, kde-format
 msgid "Login Failed / Invalid auth token"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:699
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:703
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:590
 #, kde-format
 msgid "Invalid API Key"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:703
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:707
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:593
 #, fuzzy, kde-format
 #| msgid "This collection is currently not available."
 msgid "Service currently unavailable"
 msgstr "這個收藏目前無法使用。"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:707
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:711
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:596
 #, kde-format
 msgid "Invalid Frob"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:711
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:715
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:599
 #, kde-format
 msgid "Format \"xxx\" not found"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:715
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:719
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:602
 #, fuzzy, kde-format
 #| msgid "Collection not found"
 msgid "Method \"xxx\" not found"
 msgstr "沒有找到任何收藏"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:719
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:723
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:605
 #, kde-format
 msgid "Invalid SOAP envelope"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:723
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:727
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:608
 #, kde-format
 msgid "Invalid XML-RPC Method Call"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:727
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:731
 #, kde-format
 msgid "The POST method is now required for all setters"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:731
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:735
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:614
 #: core/dplugins/generic/webservices/rajce/rajcewidget.cpp:236
 #: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:765
@@ -18670,26 +18670,26 @@ msgstr ""
 msgid "Unknown error"
 msgstr "未知的濾鏡"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:737
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:741
 #, kde-format
 msgid ""
 "Error Occurred: %1\n"
 "Cannot proceed any further."
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:920
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:924
 #, fuzzy, kde-format
 #| msgid "Correlation failed"
 msgid "PhotoSet creation failed: "
 msgstr "建立關聯失敗"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1015
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1019
 #, fuzzy, kde-format
 #| msgid "Failed to save tags to file."
 msgid "Failed to fetch list of photo sets."
 msgstr "儲存標籤到檔案中失敗。"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1154
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1158
 #, fuzzy, kde-format
 #| msgid "Failed to save some information:"
 msgid "Failed to query photo information"
@@ -19311,7 +19311,7 @@ msgid ""
 msgstr "上傳檔案 <filename>%1</filename> 失敗。您要繼續嗎？"
 
 #: core/dplugins/generic/webservices/google/gswindow.cpp:1054
-#: core/utilities/facemanagement/assignnamewidget.cpp:250
+#: core/utilities/facemanagement/assignnamewidget.cpp:254
 #: core/utilities/imageeditor/editor/editortoolsettings.cpp:203
 #: core/utilities/imageeditor/editor/editorwindow.cpp:635
 #: core/utilities/maintenance/facesdetector.cpp:72
@@ -19736,7 +19736,7 @@ msgstr ""
 
 #: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:228
 #: core/dplugins/generic/webservices/vkontakte/vknewalbumdlg.cpp:126
-#: core/libs/properties/captions/itemdescedittab.cpp:200
+#: core/libs/properties/captions/itemdescedittab.cpp:204
 #, kde-format
 msgid "Title:"
 msgstr "標題："
@@ -19926,7 +19926,7 @@ msgid "Logout and change the account used for transfer"
 msgstr ""
 
 #: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:379
-#: core/libs/properties/captions/itemdescedittab.cpp:343
+#: core/libs/properties/captions/itemdescedittab.cpp:347
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:133
 #: core/utilities/advancedrename/common/tooltipdialog.cpp:62
 #: core/utilities/import/main/importui.cpp:1969
@@ -21818,7 +21818,7 @@ msgstr "這是影像明度的曲線調整。"
 
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:270
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:322
-#: core/libs/tags/manager/tagpropwidget.cpp:138
+#: core/libs/tags/manager/tagpropwidget.cpp:139
 #: core/libs/tags/widgets/tageditdlg.cpp:195
 #: core/utilities/searchwindow/searchview.cpp:504
 #, kde-format
@@ -21925,7 +21925,7 @@ msgstr "輸入新的相簿名稱："
 #: core/libs/album/manager/albummanager.cpp:164
 #: core/libs/album/widgets/albumselecttabs.cpp:196
 #: core/libs/models/albummodel.cpp:147
-#: core/utilities/searchwindow/editablesearchtreeview.cpp:81
+#: core/utilities/searchwindow/editablesearchtreeview.cpp:85
 #, kde-format
 msgid "Searches"
 msgstr "搜尋"
@@ -22361,58 +22361,58 @@ msgstr "不要再詢問"
 msgid "Context menu"
 msgstr "右鍵功能表"
 
-#: core/libs/album/treeview/albumselectiontreeview.cpp:195
+#: core/libs/album/treeview/albumselectiontreeview.cpp:199
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "&Sort Items"
 msgid "Repair hidden Items"
 msgstr "項目排序(&S)"
 
-#: core/libs/album/treeview/albumselectiontreeview.cpp:250
+#: core/libs/album/treeview/albumselectiontreeview.cpp:254
 #, kde-format
 msgid "Should be scanned in the sub-albums also for faces?"
 msgstr ""
 
-#: core/libs/album/treeview/labelstreeview.cpp:107
+#: core/libs/album/treeview/labelstreeview.cpp:111
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Labels"
 msgstr "標籤"
 
-#: core/libs/album/treeview/labelstreeview.cpp:342
-#: core/libs/album/treeview/labelstreeview.cpp:727
+#: core/libs/album/treeview/labelstreeview.cpp:346
+#: core/libs/album/treeview/labelstreeview.cpp:731
 #, fuzzy, kde-format
 msgid "No Rating"
 msgstr "評等"
 
-#: core/libs/album/treeview/labelstreeview.cpp:378
+#: core/libs/album/treeview/labelstreeview.cpp:382
 #: core/libs/widgets/metadata/picklabelwidget.cpp:371
 #, kde-format
 msgid "Pick"
 msgstr "挑選"
 
-#: core/libs/album/treeview/labelstreeview.cpp:383
-#: core/libs/album/treeview/labelstreeview.cpp:803
+#: core/libs/album/treeview/labelstreeview.cpp:387
+#: core/libs/album/treeview/labelstreeview.cpp:807
 #, fuzzy, kde-format
 msgid "No Pick"
 msgstr "挑選"
 
-#: core/libs/album/treeview/labelstreeview.cpp:384
+#: core/libs/album/treeview/labelstreeview.cpp:388
 #, fuzzy, kde-format
 msgid "Rejected Item"
 msgstr "已拒絕"
 
-#: core/libs/album/treeview/labelstreeview.cpp:385
+#: core/libs/album/treeview/labelstreeview.cpp:389
 #, fuzzy, kde-format
 msgid "Pending Item"
 msgstr "暫停"
 
-#: core/libs/album/treeview/labelstreeview.cpp:386
+#: core/libs/album/treeview/labelstreeview.cpp:390
 #, fuzzy, kde-format
 msgid "Accepted Item"
 msgstr "已接受"
 
-#: core/libs/album/treeview/labelstreeview.cpp:406
+#: core/libs/album/treeview/labelstreeview.cpp:410
 #: core/libs/dplugins/core/dpluginaction.cpp:110
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:532
 #: core/utilities/geolocation/geoiface/correlator/track_listmodel.cpp:223
@@ -22421,35 +22421,35 @@ msgstr "已接受"
 msgid "Color"
 msgstr "顏色"
 
-#: core/libs/album/treeview/labelstreeview.cpp:411
-#: core/libs/album/treeview/labelstreeview.cpp:752
+#: core/libs/album/treeview/labelstreeview.cpp:415
+#: core/libs/album/treeview/labelstreeview.cpp:756
 #, fuzzy, kde-format
 msgid "No Color"
 msgstr "顏色"
 
-#: core/libs/album/treeview/labelstreeview.cpp:717
+#: core/libs/album/treeview/labelstreeview.cpp:721
 #: core/libs/properties/itempropertiestab.cpp:365
 #, kde-format
 msgid "Rating: "
 msgstr "評分："
 
-#: core/libs/album/treeview/labelstreeview.cpp:743
+#: core/libs/album/treeview/labelstreeview.cpp:747
 #, fuzzy, kde-format
 msgid "Colors: "
 msgstr "顏色"
 
-#: core/libs/album/treeview/labelstreeview.cpp:794
+#: core/libs/album/treeview/labelstreeview.cpp:798
 #, fuzzy, kde-format
 msgid "Picks: "
 msgstr "挑選"
 
-#: core/libs/album/treeview/labelstreeview.cpp:876
+#: core/libs/album/treeview/labelstreeview.cpp:880
 #, fuzzy, kde-format
 #| msgid "Exporting"
 msgid "Exported Labels"
 msgstr "匯出中"
 
-#: core/libs/album/treeview/labelstreeview.cpp:880
+#: core/libs/album/treeview/labelstreeview.cpp:884
 #, fuzzy, kde-format
 msgid "Labels Album"
 msgstr "新增相簿"
@@ -22470,7 +22470,7 @@ msgid "<qt><b>\"%1\"<br/>Album Properties</b></qt>"
 msgstr "<qt><b>\"%1\"<br/> 相簿屬性</b></qt>"
 
 #: core/libs/album/widgets/albumpropsedit.cpp:152
-#: core/libs/tags/manager/tagpropwidget.cpp:111
+#: core/libs/tags/manager/tagpropwidget.cpp:112
 #: core/libs/tags/widgets/tageditdlg.cpp:145
 #: core/utilities/queuemanager/views/workflowdlg.cpp:108
 #, kde-format
@@ -25245,7 +25245,7 @@ msgstr ""
 "x:%1\n"
 "y:%2"
 
-#: core/libs/dimg/filters/decorate/borderfilter.h:141
+#: core/libs/dimg/filters/decorate/borderfilter.cpp:131
 #, kde-format
 msgid "Border Tool"
 msgstr "邊框工具"
@@ -25429,7 +25429,7 @@ msgstr "在這裡設定第一條線的顏色。"
 msgid "Set here the color of the second line."
 msgstr "在這裡設定第二條線的顏色。"
 
-#: core/libs/dimg/filters/decorate/texturefilter.h:61
+#: core/libs/dimg/filters/decorate/texturefilter.cpp:69
 #, kde-format
 msgid "Texture Filter"
 msgstr "紋理濾鏡"
@@ -25508,7 +25508,7 @@ msgstr "轉換深度"
 msgid "Unknown filter"
 msgstr "未知的濾鏡"
 
-#: core/libs/dimg/filters/film/filmfilter.h:148
+#: core/libs/dimg/filters/film/filmfilter.cpp:363
 #, kde-format
 msgid "Color Negative Inverter"
 msgstr "負片轉換器"
@@ -25523,27 +25523,27 @@ msgstr "不支援內建的變形"
 msgid "Filter identifier or version is not supported"
 msgstr "濾鏡的識別子或版號不被支援"
 
-#: core/libs/dimg/filters/fx/blurfilter.h:59
+#: core/libs/dimg/filters/fx/blurfilter.cpp:95
 #, kde-format
 msgid "Blur Filter"
 msgstr "模糊濾鏡"
 
-#: core/libs/dimg/filters/fx/blurfxfilter.h:60
+#: core/libs/dimg/filters/fx/blurfxfilter.cpp:100
 #, kde-format
 msgid "Blur FX Filter"
 msgstr "模糊 FX 濾鏡"
 
-#: core/libs/dimg/filters/fx/charcoalfilter.h:56
+#: core/libs/dimg/filters/fx/charcoalfilter.cpp:101
 #, kde-format
 msgid "Charcoal Effect"
 msgstr "炭畫效果"
 
-#: core/libs/dimg/filters/fx/colorfxfilter.h:100
+#: core/libs/dimg/filters/fx/colorfxfilter.cpp:87
 #, kde-format
 msgid "Color FX Filter"
 msgstr "色彩 FX 濾鏡"
 
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:128
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:132
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>Select the effect type to apply to the image here.</p><p><b>Solarize</"
@@ -25564,14 +25564,14 @@ msgstr ""
 "中的邊緣著色來仿造螢光燈效果。</p><p><b>尋找邊緣</b>：偵測相片中的邊緣和邊緣"
 "的濃淡程度。</p>"
 
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:162
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:166
 #, kde-format
 msgid ""
 "This value controls the number of iterations to use with the Neon and Find "
 "Edges effects."
 msgstr "這項數值可控制用於霓虹和尋找邊緣效果的重複次數。"
 
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:194
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:198
 #: core/libs/dimg/filters/fx/filmgrainsettings.cpp:192
 #: core/libs/dimg/filters/fx/filmgrainsettings.cpp:239
 #: core/libs/dimg/filters/fx/filmgrainsettings.cpp:286
@@ -25579,89 +25579,89 @@ msgstr "這項數值可控制用於霓虹和尋找邊緣效果的重複次數。
 msgid "Intensity:"
 msgstr "強度："
 
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:198
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:202
 #, fuzzy, kde-format
 #| msgid "Select the input intensity of the histogram here."
 msgid "Set here the intensity of the filter."
 msgstr "在這裡選擇分佈圖的輸入強度。"
 
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:378
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:382
 #, kde-format
 msgid "Bleach"
 msgstr ""
 
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:382
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:386
 #, kde-format
 msgid "Blue Crush"
 msgstr ""
 
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:386
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:390
 #, fuzzy, kde-format
 #| msgid "Contrast:"
 msgid "BW Contrast"
 msgstr "對比："
 
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:390
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:394
 #, kde-format
 msgid "Instant"
 msgstr ""
 
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:394
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:398
 #: core/utilities/queuemanager/views/queuelist.cpp:314
 #, fuzzy, kde-format
 #| msgid "Origin"
 msgid "Original"
 msgstr "來源"
 
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:398
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:402
 #, kde-format
 msgid "Punch"
 msgstr ""
 
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:402
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:406
 #, fuzzy, kde-format
 #| msgctxt "Content type"
 #| msgid "Summary"
 msgid "Summer"
 msgstr "摘要"
 
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:406
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:410
 #, kde-format
 msgid "Tokyo"
 msgstr ""
 
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:410
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:414
 #, kde-format
 msgid "Vintage"
 msgstr ""
 
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:414
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:418
 #, kde-format
 msgid "Washout"
 msgstr ""
 
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:418
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:422
 #, fuzzy, kde-format
 msgid "Washout Color"
 msgstr "顏色"
 
-#: core/libs/dimg/filters/fx/colorfxsettings.cpp:422
+#: core/libs/dimg/filters/fx/colorfxsettings.cpp:426
 #, fuzzy, kde-format
 #| msgid "Batch Process"
 msgid "X Process"
 msgstr "批次處理"
 
-#: core/libs/dimg/filters/fx/distortionfxfilter.h:59
+#: core/libs/dimg/filters/fx/distortionfxfilter.cpp:115
 #, kde-format
 msgid "Distortion Effect"
 msgstr "扭曲效果"
 
-#: core/libs/dimg/filters/fx/embossfilter.h:57
+#: core/libs/dimg/filters/fx/embossfilter.cpp:74
 #, kde-format
 msgid "Emboss Effect"
 msgstr "浮雕效果"
 
-#: core/libs/dimg/filters/fx/filmgrainfilter.h:125
+#: core/libs/dimg/filters/fx/filmgrainfilter.cpp:121
 #, kde-format
 msgid "Film Grain Effect"
 msgstr "膠片顆粒效果"
@@ -25768,22 +25768,22 @@ msgstr "色度藍雜訊"
 msgid "Chrominance Red Noise"
 msgstr "色度紅雜訊"
 
-#: core/libs/dimg/filters/fx/invertfilter.h:60
+#: core/libs/dimg/filters/fx/invertfilter.cpp:67
 #, kde-format
 msgid "Invert Effect"
 msgstr "反相效果"
 
-#: core/libs/dimg/filters/fx/oilpaintfilter.h:54
+#: core/libs/dimg/filters/fx/oilpaintfilter.cpp:96
 #, kde-format
 msgid "Oil Painter Effect"
 msgstr "油畫效果"
 
-#: core/libs/dimg/filters/fx/raindropfilter.h:62
+#: core/libs/dimg/filters/fx/raindropfilter.cpp:107
 #, kde-format
 msgid "Rain Drops Effect"
 msgstr "雨滴效果"
 
-#: core/libs/dimg/filters/greycstoration/greycstorationfilter.h:197
+#: core/libs/dimg/filters/greycstoration/greycstorationfilter.cpp:168
 #, kde-format
 msgid "Greycstoration Filter"
 msgstr "Greycstoration 濾鏡"
@@ -25948,7 +25948,7 @@ msgstr "快速逼近法"
 msgid "Enable fast approximation when rendering images."
 msgstr "演算影像時啟用快速逼近法。"
 
-#: core/libs/dimg/filters/hsl/hslfilter.h:81
+#: core/libs/dimg/filters/hsl/hslfilter.cpp:94
 #, kde-format
 msgid "Hue / Saturation / Lightness Filter"
 msgstr "色調/飽和度/亮度濾鏡"
@@ -26012,12 +26012,12 @@ msgstr "轉換成："
 msgid "Select the profile of the color space to convert to."
 msgstr "選擇要轉換成的色彩空間描述檔。"
 
-#: core/libs/dimg/filters/icc/icctransformfilter.cpp:113
+#: core/libs/dimg/filters/icc/icctransformfilter.cpp:122
 #, kde-format
 msgid "Input color profile \"%1\" not available"
 msgstr "沒有可用的輸入色彩設定檔 \"%1\""
 
-#: core/libs/dimg/filters/icc/icctransformfilter.cpp:117
+#: core/libs/dimg/filters/icc/icctransformfilter.cpp:126
 #, kde-format
 msgid "Output color profile \"%1\" not available"
 msgstr "沒有可用的輸出色彩設定檔 \"%1\""
@@ -26185,7 +26185,7 @@ msgstr "壓縮權重："
 msgid "Weight to assign to Compression Algorithm"
 msgstr "判定壓縮演算法的權重"
 
-#: core/libs/dimg/filters/lc/localcontrastfilter.h:60
+#: core/libs/dimg/filters/lc/localcontrastfilter.cpp:88
 #, kde-format
 msgid "Local Contrast Filter"
 msgstr "本地對比濾鏡"
@@ -26339,7 +26339,7 @@ msgstr "要儲存的相片局部對比設定檔"
 msgid "Cannot save settings to the Photograph Local Contrast text file."
 msgstr "無法將設定值儲存到相片局部對比純文字檔。"
 
-#: core/libs/dimg/filters/lens/antivignettingfilter.h:98
+#: core/libs/dimg/filters/lens/antivignettingfilter.cpp:70
 #, kde-format
 msgid "Anti-Vignetting Tool"
 msgstr "消除暈映工具"
@@ -26438,7 +26438,7 @@ msgstr "Y 位移："
 msgid "Y offset "
 msgstr "Y 位移"
 
-#: core/libs/dimg/filters/lens/lensdistortionfilter.h:56
+#: core/libs/dimg/filters/lens/lensdistortionfilter.cpp:80
 #, kde-format
 msgid "Lens Distortion Tool"
 msgstr "鏡頭變形工具"
@@ -26532,80 +26532,80 @@ msgstr "（找到部份符合的）"
 msgid "(exact match found)"
 msgstr "（找到完全符合的）"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:329
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:95
+#, kde-format
+msgid "Lens Auto-Correction Tool"
+msgstr "鏡頭自動校正工具"
+
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:338
 #, kde-format
 msgid "Camera: %1-%2"
 msgstr "相機： %1-%2"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:331
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:340
 #, kde-format
 msgid "Lens: %1"
 msgstr "鏡頭：%1"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:333
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:342
 #, fuzzy, kde-format
 #| msgid "Subject Distance: %1"
 msgid "Subject Distance: <numid>%1</numid>"
 msgstr "拍攝主體距離：%1"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:335
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:344
 #, fuzzy, kde-format
 #| msgid "Aperture: %1"
 msgid "Aperture: <numid>%1</numid>"
 msgstr "光圈：%1"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:337
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:346
 #, fuzzy, kde-format
 #| msgid "Focal Length: %1"
 msgid "Focal Length: <numid>%1</numid>"
 msgstr "焦距： %1"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:339
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:348
 #, fuzzy, kde-format
 #| msgid "Crop Factor: %1"
 msgid "Crop Factor: <numid>%1</numid>"
 msgstr "切割參數：%1"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:341
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:343
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:345
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:347
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:350
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:352
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:354
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:356
 #, kde-format
 msgid "enabled"
 msgstr "已開啟"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:341
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:343
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:345
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:347
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:350
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:352
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:354
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:356
 #, kde-format
 msgid "disabled"
 msgstr "已關閉"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:341
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:350
 #, kde-format
 msgid "CCA Correction: %1"
 msgstr "CCA 修正: %1"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:343
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:352
 #, kde-format
 msgid "VIG Correction: %1"
 msgstr "VIG 修正： %1"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:345
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:354
 #, kde-format
 msgid "DST Correction: %1"
 msgstr "DST 修正：%1"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:347
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:356
 #, kde-format
 msgid "GEO Correction: %1"
 msgstr "GEO 修正：%1"
-
-#: core/libs/dimg/filters/lens/lensfunfilter.h:94
-#, kde-format
-msgid "Lens Auto-Correction Tool"
-msgstr "鏡頭自動校正工具"
 
 #: core/libs/dimg/filters/lens/lensfunsettings.cpp:83
 #, kde-format
@@ -26823,12 +26823,12 @@ msgstr "中值："
 msgid "Percent:"
 msgstr "百分比："
 
-#: core/libs/dimg/filters/levels/levelsfilter.h:96
+#: core/libs/dimg/filters/levels/levelsfilter.cpp:77
 #, kde-format
 msgid "Levels Adjust Tool"
 msgstr "色階調整工具"
 
-#: core/libs/dimg/filters/nr/nrfilter.cpp:154
+#: core/libs/dimg/filters/nr/nrfilter.cpp:158
 #, kde-format
 msgid "Noise Reduction Filter"
 msgstr "減少雜訊濾鏡"
@@ -26920,12 +26920,12 @@ msgstr "要儲存的相片雜訊減少設定檔"
 msgid "Cannot save settings to the Photograph Noise Reduction text file."
 msgstr "無法將設定值儲存到相片雜訊減少純文字檔。"
 
-#: core/libs/dimg/filters/rawprocessingfilter.h:109
+#: core/libs/dimg/filters/rawprocessingfilter.cpp:77
 #, kde-format
 msgid "Raw Conversion"
 msgstr "Raw 轉換"
 
-#: core/libs/dimg/filters/redeye/redeyecorrectionfilter.h:62
+#: core/libs/dimg/filters/redeye/redeyecorrectionfilter.cpp:108
 #, fuzzy, kde-format
 #| msgid "Red-Eye Correction Tool"
 msgid "RedEye Correction Filter"
@@ -27136,12 +27136,12 @@ msgstr "要儲存的相片設定檔"
 msgid "Cannot save settings to the Photograph Refocus text file."
 msgstr "無法將設定值儲存到相片對焦純文字檔。"
 
-#: core/libs/dimg/filters/sharp/unsharpmaskfilter.h:60
+#: core/libs/dimg/filters/sharp/unsharpmaskfilter.cpp:83
 #, kde-format
 msgid "Unsharp Mask Tool"
 msgstr "遮罩取消銳利化工具"
 
-#: core/libs/dimg/filters/transform/contentawarefilter.h:112
+#: core/libs/dimg/filters/transform/contentawarefilter.cpp:204
 #, kde-format
 msgid "Content-Aware Filter"
 msgstr "內容感知濾鏡"
@@ -27209,7 +27209,7 @@ msgid ""
 "around a rotated image here."
 msgstr "在這裡選擇要處理影像自動裁剪的方式，以移除旋轉後影像周圍的黑色區塊。"
 
-#: core/libs/dimg/filters/wb/wbfilter.h:68
+#: core/libs/dimg/filters/wb/wbfilter.cpp:108
 #, kde-format
 msgid "White Balance Tool"
 msgstr "白平衡工具"
@@ -27870,7 +27870,7 @@ msgstr "相簿櫃"
 
 #: core/libs/dplugins/setup/dpluginaboutdlg.cpp:150
 #: core/libs/dplugins/setup/dpluginconfview.cpp:136
-#: core/libs/properties/captions/itemdescedittab.cpp:264
+#: core/libs/properties/captions/itemdescedittab.cpp:268
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:132
 #: core/libs/widgets/metadata/metadataselector.cpp:100
 #: core/utilities/advancedrename/parser/options/database/dbkeyselector.cpp:102
@@ -27930,7 +27930,7 @@ msgstr[0] ""
 msgid "No plugin found"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wscomboboxintermediate.h:59
+#: core/libs/dplugins/webservices/wscomboboxintermediate.cpp:54
 #, fuzzy, kde-format
 msgid "Various"
 msgstr "上一步"
@@ -29749,57 +29749,57 @@ msgstr "在這裡輸入標題描述文字。"
 msgid "Enter caption author name here."
 msgstr "在這裡輸入標題描述作者名稱。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:201
+#: core/libs/properties/captions/itemdescedittab.cpp:205
 #, kde-format
 msgid "Enter title here."
 msgstr "在這裡輸入標題。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:210
+#: core/libs/properties/captions/itemdescedittab.cpp:214
 #, kde-format
 msgid "Pick Label:"
 msgstr "挑選標籤："
 
-#: core/libs/properties/captions/itemdescedittab.cpp:215
+#: core/libs/properties/captions/itemdescedittab.cpp:219
 #, kde-format
 msgid "Color Label:"
 msgstr "色彩標籤："
 
-#: core/libs/properties/captions/itemdescedittab.cpp:220
+#: core/libs/properties/captions/itemdescedittab.cpp:224
 #, kde-format
 msgid "Rating:"
 msgstr "評分："
 
-#: core/libs/properties/captions/itemdescedittab.cpp:232
+#: core/libs/properties/captions/itemdescedittab.cpp:236
 #, kde-format
 msgid "Apply all changes to images"
 msgstr "套用所有變更至影像"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:240
+#: core/libs/properties/captions/itemdescedittab.cpp:244
 #, kde-format
 msgid "Revert all changes"
 msgstr "還原所有更動"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:243
+#: core/libs/properties/captions/itemdescedittab.cpp:247
 #, kde-format
 msgid "Apply to all versions"
 msgstr "套用到所有版本"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:246
+#: core/libs/properties/captions/itemdescedittab.cpp:250
 #, kde-format
 msgid "Apply all changes to all versions of this image"
 msgstr "套用所有變更此影像的所有版本"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:248
+#: core/libs/properties/captions/itemdescedittab.cpp:252
 #, kde-format
 msgid "More"
 msgstr "更多"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:289
+#: core/libs/properties/captions/itemdescedittab.cpp:293
 #, fuzzy, kde-format
 msgid "Enter tag here."
 msgstr "在這裡輸入新的標籤..."
 
-#: core/libs/properties/captions/itemdescedittab.cpp:290
+#: core/libs/properties/captions/itemdescedittab.cpp:294
 #, fuzzy, kde-format
 msgid ""
 "Enter the text used to create tags here. '/' can be used to create a "
@@ -29809,147 +29809,147 @@ msgstr ""
 "在這裡輸入用於建立的新標籤的文字。可用「/」來建立標籤的層級。也可用「,」來同"
 "時建立多個的層級。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:303
+#: core/libs/properties/captions/itemdescedittab.cpp:307
 #, kde-format
 msgid "Tags already assigned"
 msgstr "標籤已指定"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:309
+#: core/libs/properties/captions/itemdescedittab.cpp:313
 #, kde-format
 msgid "Recent Tags"
 msgstr "最近的標籤"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:589
+#: core/libs/properties/captions/itemdescedittab.cpp:593
 #, kde-format
 msgid "You have edited the image caption. "
 msgid_plural "You have edited the captions of %1 images. "
 msgstr[0] "您已經修改了 %1 張影像的標題描述。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:593
+#: core/libs/properties/captions/itemdescedittab.cpp:597
 #, kde-format
 msgid "You have edited the image title. "
 msgid_plural "You have edited the titles of %1 images. "
 msgstr[0] "您已經修改了 %1 張影像的標題。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:597
+#: core/libs/properties/captions/itemdescedittab.cpp:601
 #, kde-format
 msgid "You have edited the date of the image. "
 msgid_plural "You have edited the date of %1 images. "
 msgstr[0] "您已經編輯了 %1 張影像的日期。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:601
+#: core/libs/properties/captions/itemdescedittab.cpp:605
 #, kde-format
 msgid "You have edited the pick label of the image. "
 msgid_plural "You have edited the pick label of %1 images. "
 msgstr[0] "您已經編輯了 %1 張影像的挑選標籤。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:605
+#: core/libs/properties/captions/itemdescedittab.cpp:609
 #, kde-format
 msgid "You have edited the color label of the image. "
 msgid_plural "You have edited the color label of %1 images. "
 msgstr[0] "您已經編輯了 %1 張影像的色彩標籤。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:609
+#: core/libs/properties/captions/itemdescedittab.cpp:613
 #, kde-format
 msgid "You have edited the rating of the image. "
 msgid_plural "You have edited the rating of %1 images. "
 msgstr[0] "您已經編輯了 %1 張影像的評等。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:613
+#: core/libs/properties/captions/itemdescedittab.cpp:617
 #, kde-format
 msgid "You have edited the tags of the image. "
 msgid_plural "You have edited the tags of %1 images. "
 msgstr[0] "您已經編輯了 %1 張影像的標籤。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:617
+#: core/libs/properties/captions/itemdescedittab.cpp:621
 #, kde-format
 msgid "Do you want to apply your changes?"
 msgstr "您要套用變更嗎？"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:621
+#: core/libs/properties/captions/itemdescedittab.cpp:625
 #, kde-format
 msgid "<p>You have edited the metadata of the image: </p><p><ul>"
 msgid_plural "<p>You have edited the metadata of %1 images: </p><p><ul>"
 msgstr[0] "<p>您已經編輯了 %1 張影像的中繼資料：</p><p><ul>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:627
+#: core/libs/properties/captions/itemdescedittab.cpp:631
 #, kde-format
 msgid "<li>title</li>"
 msgstr "<li>標題</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:632
+#: core/libs/properties/captions/itemdescedittab.cpp:636
 #, kde-format
 msgid "<li>caption</li>"
 msgstr "<li>標題描述</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:637
+#: core/libs/properties/captions/itemdescedittab.cpp:641
 #, kde-format
 msgid "<li>date</li>"
 msgstr "<li>日期</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:642
+#: core/libs/properties/captions/itemdescedittab.cpp:646
 #, kde-format
 msgid "<li>pick label</li>"
 msgstr "<li>挑選標籤</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:647
+#: core/libs/properties/captions/itemdescedittab.cpp:651
 #, kde-format
 msgid "<li>color label</li>"
 msgstr "<li>色彩標籤</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:652
+#: core/libs/properties/captions/itemdescedittab.cpp:656
 #, kde-format
 msgid "<li>rating</li>"
 msgstr "<li>評等</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:657
+#: core/libs/properties/captions/itemdescedittab.cpp:661
 #, kde-format
 msgid "<li>tags</li>"
 msgstr "<li>標籤</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:662
+#: core/libs/properties/captions/itemdescedittab.cpp:666
 #, kde-format
 msgid "<p>Do you want to apply your changes?</p>"
 msgstr "<p>您要套用您的變更嗎？</p>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:665
+#: core/libs/properties/captions/itemdescedittab.cpp:669
 #, kde-format
 msgid "Always apply changes without confirmation"
 msgstr "永遠直接套用變更而不詢問"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:668
-#: core/libs/properties/captions/itemdescedittab.cpp:677
+#: core/libs/properties/captions/itemdescedittab.cpp:672
+#: core/libs/properties/captions/itemdescedittab.cpp:681
 #, kde-format
 msgid "Apply changes?"
 msgstr "套用改變？"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:817
+#: core/libs/properties/captions/itemdescedittab.cpp:821
 #, kde-format
 msgid "Reading metadata from files. Please wait..."
 msgstr "正在從檔案讀取中繼資料。請稍候..."
 
-#: core/libs/properties/captions/itemdescedittab.cpp:848
+#: core/libs/properties/captions/itemdescedittab.cpp:852
 #, kde-format
 msgid "Writing metadata to files. Please wait..."
 msgstr "正在將中繼資料寫入檔案。請稍候..."
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1219
+#: core/libs/properties/captions/itemdescedittab.cpp:1223
 #, kde-format
 msgid "Read metadata from file to database"
 msgstr "從檔案讀取中繼資料到資料庫"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1220
-#: core/libs/properties/captions/itemdescedittab.cpp:1234
+#: core/libs/properties/captions/itemdescedittab.cpp:1224
+#: core/libs/properties/captions/itemdescedittab.cpp:1238
 #, kde-format
 msgid "Write metadata to each file"
 msgstr "將中繼資料寫入到每個檔案"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1233
+#: core/libs/properties/captions/itemdescedittab.cpp:1237
 #, kde-format
 msgid "Read metadata from each file to database"
 msgstr "從每個檔案中讀取中繼資料到資料庫"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1348
+#: core/libs/properties/captions/itemdescedittab.cpp:1352
 #: core/libs/tags/widgets/tagspopupmenu.cpp:526
 #, kde-format
 msgid "No Recently Assigned Tags"
@@ -31493,88 +31493,88 @@ msgstr "快速存取清單"
 msgid "Delete Selected from List"
 msgstr "從清單中刪除選擇的項目"
 
-#: core/libs/tags/manager/taglist.cpp:74
+#: core/libs/tags/manager/taglist.cpp:75
 #, kde-format
 msgid "Add to List"
 msgstr "新增到清單"
 
-#: core/libs/tags/manager/taglist.cpp:75
+#: core/libs/tags/manager/taglist.cpp:76
 #, kde-format
 msgid "Add selected tags to Quick Access List"
 msgstr "將選取的標籤新增到快速存取清單中"
 
-#: core/libs/tags/manager/tagmngrtreeview.cpp:149
+#: core/libs/tags/manager/tagmngrtreeview.cpp:153
 #: core/libs/tags/manager/tagsmanager.cpp:684
 #, fuzzy, kde-format
 msgid "Edit Tag Title"
 msgstr "項目標題"
 
-#: core/libs/tags/manager/tagmngrtreeview.cpp:153
+#: core/libs/tags/manager/tagmngrtreeview.cpp:157
 #: core/libs/tags/manager/tagsmanager.cpp:688
 #: core/libs/tags/widgets/tagfolderview.cpp:79
 #, kde-format
 msgid "Reset Tag Icon"
 msgstr "重設標籤圖示"
 
-#: core/libs/tags/manager/tagmngrtreeview.cpp:159
+#: core/libs/tags/manager/tagmngrtreeview.cpp:163
 #: core/libs/tags/manager/tagsmanager.cpp:697
 #, kde-format
 msgid "Expand Tag Tree"
 msgstr "展開標籤樹狀圖"
 
-#: core/libs/tags/manager/tagmngrtreeview.cpp:162
+#: core/libs/tags/manager/tagmngrtreeview.cpp:166
 #: core/libs/tags/manager/tagsmanager.cpp:700
 #: core/libs/tags/widgets/tagfolderview.cpp:124
 #, kde-format
 msgid "Expand Selected Nodes"
 msgstr "展開選取的節點"
 
-#: core/libs/tags/manager/tagmngrtreeview.cpp:165
+#: core/libs/tags/manager/tagmngrtreeview.cpp:169
 #: core/libs/tags/manager/tagsmanager.cpp:702
 #, kde-format
 msgid "Remove Tag from Images"
 msgstr "從影像移除標籤"
 
-#: core/libs/tags/manager/tagpropwidget.cpp:102
+#: core/libs/tags/manager/tagpropwidget.cpp:103
 #, kde-format
 msgid "Tag Properties"
 msgstr "標籤屬性"
 
-#: core/libs/tags/manager/tagpropwidget.cpp:116
+#: core/libs/tags/manager/tagpropwidget.cpp:117
 #, kde-format
 msgid "Enter tag name here"
 msgstr "在這裡輸入標籤名稱"
 
-#: core/libs/tags/manager/tagpropwidget.cpp:129
+#: core/libs/tags/manager/tagpropwidget.cpp:130
 #: core/libs/tags/widgets/tageditdlg.cpp:185
 #, kde-format
 msgid "&Icon:"
 msgstr "圖示(&I)："
 
-#: core/libs/tags/manager/tagpropwidget.cpp:149
+#: core/libs/tags/manager/tagpropwidget.cpp:150
 #: core/libs/tags/widgets/tageditdlg.cpp:211
 #, kde-format
 msgid "&Shortcut:"
 msgstr "捷徑(&S)"
 
-#: core/libs/tags/manager/tagpropwidget.cpp:160
+#: core/libs/tags/manager/tagpropwidget.cpp:161
 #, kde-format
 msgid ""
 "<p><b>Note:</b> <i>This shortcut can be used to assign or unassign tag to "
 "items.</i></p>"
 msgstr "<p><b>注意</b>：<i>此捷徑可以用於指定或取消指定項目的標籤。</i></p>"
 
-#: core/libs/tags/manager/tagpropwidget.cpp:165
+#: core/libs/tags/manager/tagpropwidget.cpp:166
 #, fuzzy, kde-format
 msgid "Save"
 msgstr "要儲存？"
 
-#: core/libs/tags/manager/tagpropwidget.cpp:166
+#: core/libs/tags/manager/tagpropwidget.cpp:167
 #, fuzzy, kde-format
 msgid "Discard"
 msgstr "丟棄變更"
 
-#: core/libs/tags/manager/tagpropwidget.cpp:232
+#: core/libs/tags/manager/tagpropwidget.cpp:233
 #, kde-format
 msgid "Previous tags were changed. Save changes? "
 msgstr "先前的標籤已變更。要儲存變更嗎？"
@@ -31770,30 +31770,30 @@ msgid "%1 unused tag were removed."
 msgid_plural "%1 unused tags were removed."
 msgstr[0] "相簿名稱不可為空。"
 
-#: core/libs/tags/widgets/tagcheckview.cpp:88
+#: core/libs/tags/widgets/tagcheckview.cpp:89
 #, kde-format
 msgid "Toggle Auto"
 msgstr "切換自動"
 
-#: core/libs/tags/widgets/tagcheckview.cpp:89
+#: core/libs/tags/widgets/tagcheckview.cpp:90
 #, kde-format
 msgctxt "no auto toggle"
 msgid "None"
 msgstr "無"
 
-#: core/libs/tags/widgets/tagcheckview.cpp:91
+#: core/libs/tags/widgets/tagcheckview.cpp:92
 #, kde-format
 msgctxt "toggle child tags"
 msgid "Children"
 msgstr "子層"
 
-#: core/libs/tags/widgets/tagcheckview.cpp:92
+#: core/libs/tags/widgets/tagcheckview.cpp:93
 #, kde-format
 msgctxt "toggle parent tag"
 msgid "Parents"
 msgstr "母層"
 
-#: core/libs/tags/widgets/tagcheckview.cpp:93
+#: core/libs/tags/widgets/tagcheckview.cpp:94
 #, kde-format
 msgctxt "toggle child and parent tags"
 msgid "Both"
@@ -33101,7 +33101,7 @@ msgctxt "@info:tooltip"
 msgid "Reset to default value"
 msgstr "重置為預設值"
 
-#: core/libs/widgets/common/searchtextbar.cpp:289
+#: core/libs/widgets/common/searchtextbar.cpp:290
 #, kde-format
 msgid "Case sensitive"
 msgstr "區分大小寫"
@@ -37380,22 +37380,22 @@ msgctxt "@title:tab"
 msgid "Appearance"
 msgstr "參考："
 
-#: core/showfoto/setup/showfotosetupplugins.cpp:71
-#: core/utilities/setup/setupplugins.cpp:78
+#: core/showfoto/setup/showfotosetupplugins.cpp:75
+#: core/utilities/setup/setupplugins.cpp:82
 #, kde-format
 msgctxt "@title:tab"
 msgid "Generic"
 msgstr "一般"
 
-#: core/showfoto/setup/showfotosetupplugins.cpp:77
-#: core/utilities/setup/setupplugins.cpp:84
+#: core/showfoto/setup/showfotosetupplugins.cpp:81
+#: core/utilities/setup/setupplugins.cpp:88
 #, kde-format
 msgctxt "@title:tab"
 msgid "Image Editor"
 msgstr "影像編輯器"
 
-#: core/showfoto/setup/showfotosetupplugins.cpp:83
-#: core/utilities/setup/setupplugins.cpp:96
+#: core/showfoto/setup/showfotosetupplugins.cpp:87
+#: core/utilities/setup/setupplugins.cpp:100
 #, fuzzy, kde-format
 #| msgid "Image Files"
 msgctxt "@title:tab"
@@ -38520,12 +38520,12 @@ msgstr "沒有找到通訊錄條目"
 msgid "BalooTags"
 msgstr "標籤"
 
-#: core/utilities/facemanagement/assignnamewidget.cpp:254
+#: core/utilities/facemanagement/assignnamewidget.cpp:258
 #, kde-format
 msgid "Confirm"
 msgstr "確認"
 
-#: core/utilities/facemanagement/assignnamewidget.cpp:517
+#: core/utilities/facemanagement/assignnamewidget.cpp:521
 #, kde-format
 msgid "Who is this?"
 msgstr "這是誰？"
@@ -39680,13 +39680,13 @@ msgstr "匯出工具"
 msgid "error saving bookmarks"
 msgstr ""
 
-#: core/utilities/geolocation/geoiface/bookmark/gpsbookmarkowner.cpp:149
+#: core/utilities/geolocation/geoiface/bookmark/gpsbookmarkowner.cpp:153
 #, fuzzy, kde-format
 #| msgid "Bookmarks"
 msgid "Edit Bookmarks"
 msgstr "書籤"
 
-#: core/utilities/geolocation/geoiface/bookmark/gpsbookmarkowner.cpp:155
+#: core/utilities/geolocation/geoiface/bookmark/gpsbookmarkowner.cpp:159
 #, fuzzy, kde-format
 #| msgid "Add Border..."
 msgid "Add Bookmark..."
@@ -40400,19 +40400,19 @@ msgstr "地理位置濾鏡"
 msgid "Sort by rating"
 msgstr "依評等排序"
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:159
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:163
 #, fuzzy, kde-format
 msgid ""
 "Enter the name of the current map search to save in the \"Map Searches\" "
 "view."
 msgstr "在這裡輸入目前地圖搜尋的名稱以儲存在「我的地圖搜尋」檢視中。"
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:165
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:169
 #, kde-format
 msgid "Save current map search to a new virtual album."
 msgstr "將目前地圖搜尋儲存到新的虛擬相簿。"
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:166
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:170
 #, kde-format
 msgid ""
 "If this button is pressed, the current map search will be saved to a new "
@@ -40420,17 +40420,17 @@ msgid ""
 msgstr ""
 "如果按下這個按鈕，目前地圖搜尋會用左側設定的名稱儲存到新的搜尋虛擬相簿。"
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:209
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:213
 #, kde-format
 msgid "Search by area:"
 msgstr "依區域搜尋："
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:237
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:241
 #, fuzzy, kde-format
 msgid "Show Non-Geolocated Items"
 msgstr "尋找重覆的項目"
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:530
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:534
 #: core/utilities/searchwindow/searchmodificationhelper.cpp:121
 #: core/utilities/searchwindow/searchtabheader.cpp:543
 #, kde-format
@@ -40441,14 +40441,14 @@ msgstr ""
 "已經存在相同的搜尋名稱。\n"
 "請輸入一個新名稱："
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:534
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:538
 #: core/utilities/searchwindow/searchmodificationhelper.cpp:125
 #: core/utilities/searchwindow/searchtabheader.cpp:547
 #, kde-format
 msgid "Name exists"
 msgstr "名稱已存在"
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:647
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:651
 #, fuzzy, kde-format
 msgid "Non Geo-located Items"
 msgstr "尋找重覆的項目"
@@ -44435,13 +44435,13 @@ msgstr "橫向"
 msgid "Portrait orientation"
 msgstr "縱向"
 
-#: core/utilities/searchwindow/searchfolderview.cpp:63
+#: core/utilities/searchwindow/searchfolderview.cpp:67
 #, kde-format
 msgctxt "Create new search"
 msgid "New..."
 msgstr "新增..."
 
-#: core/utilities/searchwindow/searchfolderview.cpp:64
+#: core/utilities/searchwindow/searchfolderview.cpp:68
 #, kde-format
 msgctxt "Edit selected search"
 msgid "Edit..."
@@ -47793,7 +47793,7 @@ msgctxt "@title:tab"
 msgid "Grouping"
 msgstr "群組"
 
-#: core/utilities/setup/setupplugins.cpp:90
+#: core/utilities/setup/setupplugins.cpp:94
 #, kde-format
 msgctxt "@title:tab"
 msgid "Batch Queue Manager"
