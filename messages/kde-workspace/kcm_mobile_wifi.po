@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-21 03:24+0200\n"
+"POT-Creation-Date: 2019-10-22 03:13+0200\n"
 "PO-Revision-Date: 2019-10-19 15:14+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -39,7 +39,7 @@ msgid "SSID"
 msgstr "SSID"
 
 #: package/contents/ui/ConnectionEditor.qml:44
-#: package/contents/ui/NetworkSettings.qml:95
+#: package/contents/ui/NetworkSettings.qml:81
 #, kde-format
 msgid "None"
 msgstr "無"
@@ -101,27 +101,27 @@ msgstr "從裝置刪除 %1 連線？"
 msgid "Delete"
 msgstr "刪除"
 
-#: package/contents/ui/NetworkSettings.qml:65
+#: package/contents/ui/NetworkSettings.qml:58
 #, kde-format
 msgid "Connection Name"
 msgstr "連線名稱"
 
-#: package/contents/ui/NetworkSettings.qml:80
+#: package/contents/ui/NetworkSettings.qml:66
 #, kde-format
 msgid "Security"
 msgstr "安全性"
 
-#: package/contents/ui/NetworkSettings.qml:86
+#: package/contents/ui/NetworkSettings.qml:72
 #, kde-format
 msgid "Security type:"
 msgstr "安全性類型："
 
-#: package/contents/ui/NetworkSettings.qml:96
+#: package/contents/ui/NetworkSettings.qml:82
 #, kde-format
 msgid "WEP Key"
 msgstr "WEP 碼"
 
-#: package/contents/ui/NetworkSettings.qml:97
+#: package/contents/ui/NetworkSettings.qml:83
 #, kde-format
 msgid "Dynamic WEP"
 msgstr "動態 WEP"
@@ -129,82 +129,82 @@ msgstr "動態 WEP"
 # 不要翻譯它。
 #
 # 這是個 Wi-Fi 密碼加密方式，也因此翻譯此加密方式毫無意義。
-#: package/contents/ui/NetworkSettings.qml:98
+#: package/contents/ui/NetworkSettings.qml:84
 #, kde-format
 msgid "WPA/WPA2 Personal"
 msgstr "WPA/WPA2 Personal"
 
-#: package/contents/ui/NetworkSettings.qml:99
+#: package/contents/ui/NetworkSettings.qml:85
 #, kde-format
 msgid "WPA/WPA2 Enterprise"
 msgstr "WPA/WPA2 Enterprise"
 
-#: package/contents/ui/NetworkSettings.qml:110
+#: package/contents/ui/NetworkSettings.qml:96
 #, kde-format
 msgid "Password:"
 msgstr "密碼："
 
-#: package/contents/ui/NetworkSettings.qml:117
+#: package/contents/ui/NetworkSettings.qml:103
 #, kde-format
 msgid "Authentication:"
 msgstr "身份驗證："
 
-#: package/contents/ui/NetworkSettings.qml:119
+#: package/contents/ui/NetworkSettings.qml:105
 #, kde-format
 msgid "TLS"
 msgstr "TLS"
 
-#: package/contents/ui/NetworkSettings.qml:119
+#: package/contents/ui/NetworkSettings.qml:105
 #, kde-format
 msgid "LEAP"
 msgstr "LEAP"
 
-#: package/contents/ui/NetworkSettings.qml:119
+#: package/contents/ui/NetworkSettings.qml:105
 #, kde-format
 msgid "FAST"
 msgstr "FAST"
 
-#: package/contents/ui/NetworkSettings.qml:119
+#: package/contents/ui/NetworkSettings.qml:105
 #, kde-format
 msgid "Tunneled TLS"
 msgstr "隧道 TLS (Tunneled TLS)"
 
-#: package/contents/ui/NetworkSettings.qml:119
+#: package/contents/ui/NetworkSettings.qml:105
 #, kde-format
 msgid "Protected EAP"
 msgstr "受保護 EAP"
 
-#: package/contents/ui/NetworkSettings.qml:135
+#: package/contents/ui/NetworkSettings.qml:121
 #, kde-format
 msgid "Automatic"
 msgstr "自動設定"
 
-#: package/contents/ui/NetworkSettings.qml:135
+#: package/contents/ui/NetworkSettings.qml:121
 #, kde-format
 msgid "Manual"
 msgstr "手動設定"
 
-#: package/contents/ui/NetworkSettings.qml:156
+#: package/contents/ui/NetworkSettings.qml:142
 #, kde-format
 msgid "IP Address:"
 msgstr "IP 位址："
 
-#: package/contents/ui/NetworkSettings.qml:167
+#: package/contents/ui/NetworkSettings.qml:153
 #, kde-format
 msgid "Gateway:"
 msgstr "閘道："
 
-#: package/contents/ui/NetworkSettings.qml:178
+#: package/contents/ui/NetworkSettings.qml:164
 #, kde-format
 msgid "Network prefix length:"
 msgstr "網路前置詞長度："
 
-#: package/contents/ui/NetworkSettings.qml:187
+#: package/contents/ui/NetworkSettings.qml:173
 #, kde-format
 msgid "DNS:"
 msgstr "DNS："
 
-#: package/contents/ui/NetworkSettings.qml:229
+#: package/contents/ui/NetworkSettings.qml:215
 #, kde-format
 msgid "(Unchanged)"
 msgstr "（不修改）"

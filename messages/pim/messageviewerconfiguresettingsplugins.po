@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-16 03:23+0200\n"
+"POT-Creation-Date: 2019-10-22 02:59+0200\n"
 "PO-Revision-Date: 2019-03-22 00:33+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -17,14 +17,24 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 18.12.3\n"
 
-#: dkim-verify/dkimconfiguretab.cpp:49
+#: dkim-verify/dkimconfiguretab.cpp:51
 #, kde-format
 msgid "General"
 msgstr ""
 
-#: dkim-verify/dkimconfiguretab.cpp:52
+#: dkim-verify/dkimconfiguretab.cpp:54
 #, kde-format
 msgid "Record Keys"
+msgstr ""
+
+#: dkim-verify/dkimconfiguretab.cpp:57
+#, kde-format
+msgid "Policy"
+msgstr ""
+
+#: dkim-verify/dkimconfiguretab.cpp:60
+#, kde-format
+msgid "Advanced"
 msgstr ""
 
 #: dkim-verify/dkimgeneralwidget.cpp:36
@@ -41,6 +51,16 @@ msgstr ""
 #: dkim-verify/dkimgeneralwidget.cpp:46
 #, kde-format
 msgid "Save Record Key"
+msgstr ""
+
+#: dkim-verify/dkimpolicywidget.cpp:37
+#, kde-format
+msgid "Check if e-mail should be signed"
+msgstr ""
+
+#: dkim-verify/dkimpolicywidget.cpp:44
+#, kde-format
+msgid "Use DMARC to heuristically determine if an e-mail should be signed"
 msgstr ""
 
 #: gravatar/gravatarconfiguresettingsplugindialog.cpp:27

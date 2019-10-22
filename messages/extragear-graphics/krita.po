@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-21 02:37+0200\n"
+"POT-Creation-Date: 2019-10-22 02:35+0200\n"
 "PO-Revision-Date: 2019-10-19 14:52+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -13450,9 +13450,10 @@ msgstr "其他"
 
 #. i18n: ectx: property (text), widget (QCheckBox, hideScrollbars)
 #: libs/ui/forms/wdgdisplaysettings.ui:531
-#, kde-format
-msgid "Hide Window Scrollbars"
-msgstr "隱藏視窗滾動條"
+#, fuzzy, kde-format
+#| msgid "Hide Scrollbars"
+msgid "Hide Canvas Scrollbars"
+msgstr "隱藏滾動條"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkHidePopups)
 #: libs/ui/forms/wdgdisplaysettings.ui:541
@@ -13987,9 +13988,10 @@ msgstr "靈敏度："
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkKineticScrollingHideScrollbars)
 #: libs/ui/forms/wdggeneralsettings.ui:487
-#, kde-format
-msgid "Hide Scrollbars"
-msgstr "隱藏滾動條"
+#, fuzzy, kde-format
+#| msgid "Kinetic Scrolling (needs restart)"
+msgid "Hide docker scrollbars if kinetic scrolling is enabled (needs restart)"
+msgstr "拖曳滾動 (需要重啟程式)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: libs/ui/forms/wdggeneralsettings.ui:514
@@ -42768,6 +42770,9 @@ msgstr "顯示原始輪廓"
 #, kde-format
 msgid "Work Recursively"
 msgstr "以遞迴方式作業"
+
+#~ msgid "Hide Window Scrollbars"
+#~ msgstr "隱藏視窗滾動條"
 
 #~ msgid ""
 #~ "Created image \"%1\", %2 * %3 pixels, %4 dpi. Color model: %6 %5 (%7). "

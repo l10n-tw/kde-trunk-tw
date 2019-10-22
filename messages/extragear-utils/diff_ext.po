@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdiff3\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-05 02:42+0200\n"
+"POT-Creation-Date: 2019-10-22 02:39+0200\n"
 "PO-Revision-Date: 2019-06-19 14:37+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -17,117 +17,115 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.04.2\n"
 
-#: diff_ext.cpp:244
+#: diff_ext.cpp:216
 #, kde-format
 msgid "Compare with %1"
 msgstr "與 %1 比較"
 
-#: diff_ext.cpp:245
+#: diff_ext.cpp:217
 #, kde-format
 msgid "Merge with %1"
 msgstr "與 %1 合併"
 
-#: diff_ext.cpp:261
+#: diff_ext.cpp:233
 #, kde-format
 msgid "3-way merge with base"
 msgstr ""
 
-#: diff_ext.cpp:264
+#: diff_ext.cpp:236
 #, kde-format
 msgid "Save '%1' for later"
 msgstr "儲存「%1」供稍候使用"
 
-#: diff_ext.cpp:279
+#: diff_ext.cpp:250
 #, kde-format
 msgid "Compare with ..."
 msgstr "跟哪個比較 …"
 
-#: diff_ext.cpp:282
+#: diff_ext.cpp:253
 #, kde-format
 msgid "Clear list"
 msgstr "清除列表"
 
-#: diff_ext.cpp:287
+#: diff_ext.cpp:258
 #, kde-format
 msgid "Compare"
 msgstr "比較"
 
-#: diff_ext.cpp:291
+#: diff_ext.cpp:262
 #, kde-format
 msgid "3 way comparison"
 msgstr "三路比較"
 
-#: diff_ext.cpp:297
+#: diff_ext.cpp:268
 #, kde-format
 msgid "About Diff-Ext ..."
 msgstr "關於 Diff-Ext…"
 
-#: diff_ext.cpp:368
+#: diff_ext.cpp:339
 #, kde-format
 msgid "(32 Bit)"
 msgstr "(32 位元)"
 
-#: diff_ext.cpp:370
-#, kde-format
-msgid "(64 Bit)"
-msgstr "(64 位元)"
-
-#: diff_ext.cpp:371
+#: diff_ext.cpp:341
 #, kde-format
 msgid "Diff-Ext Copyright (c) 2003-2006, Sergey Zorin. All rights reserved.\n"
 msgstr "Diff-Ext 版權所有 (c) 2003-2006, Sergey Zorin. 保留所有權利。\n"
 
-#: diff_ext.cpp:372
+#: diff_ext.cpp:342
 #, kde-format
 msgid "This software is distributable under the BSD-2-Clause license.\n"
 msgstr "此軟體根據 BSD-2-Clause 授權重散布。\n"
 
-#: diff_ext.cpp:373
+#: diff_ext.cpp:343
 #, kde-format
 msgid "Some extensions for KDiff3 (c) 2006-2013 by Joachim Eibl.\n"
 msgstr "部份用於 KDiff3 的擴充元件 (c) 2006-2013 by Joachim Eibl.\n"
 
-#: diff_ext.cpp:374
+#: diff_ext.cpp:344
 #, kde-format
 msgid "Homepage for Diff-Ext: http://diff-ext.sourceforge.net\n"
 msgstr "Diff-Ext 首頁：http://diff-ext.sourceforge.net\n"
 
-#: diff_ext.cpp:375
+#: diff_ext.cpp:345
 #, kde-format
 msgid "About Diff-Ext for KDiff3 "
 msgstr "關於適用 KDiff3 的 Diff-Ext"
 
-#: diff_ext.cpp:404
+#: diff_ext.cpp:374
 #, kde-format
 msgid "Compare selected files"
 msgstr "比較選取檔案"
 
-#: diff_ext.cpp:410 diff_ext.cpp:430
+#: diff_ext.cpp:380 diff_ext.cpp:398
 #, kde-format
 msgid "Compare '%1' with '%2'"
 msgstr "將「%1」跟「%2」比較"
 
-#: diff_ext.cpp:416
+#: diff_ext.cpp:385
 #, kde-format
 msgid "Save '%1' for later operation"
 msgstr "儲存「%1」供稍候操作"
 
-#: diff_ext.cpp:472
+#: diff_ext.cpp:439
 #, kde-format
 msgid "Could not start KDiff3. Please rerun KDiff3 installation."
 msgstr "無法啟動 KDiff3。請重新執行 KDiff3 安裝套件。"
 
-#: diff_ext.cpp:473
+#: diff_ext.cpp:440
 #, kde-format
 msgid "Command"
 msgstr "指令"
 
-#: diff_ext.cpp:474
+#: diff_ext.cpp:441
 #, kde-format
 msgid "CommandLine"
 msgstr "指令行"
 
-#: diff_ext.cpp:475
+#: diff_ext.cpp:442
 #, kde-format
 msgid "Diff-Ext For KDiff3"
 msgstr "適用於 KDiff3 的 Diff-Ext"
+
+#~ msgid "(64 Bit)"
+#~ msgstr "(64 位元)"

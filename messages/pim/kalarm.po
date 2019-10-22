@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-21 03:11+0200\n"
+"POT-Creation-Date: 2019-10-22 02:59+0200\n"
 "PO-Revision-Date: 2018-05-19 11:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -2202,8 +2202,12 @@ msgid "<filename>%1</filename> appears not to be a text or image file"
 msgstr "<filename>%1</filename> 似乎不是個文字或圖片檔"
 
 #: functions.cpp:1673
-#, kde-kuit-format
-msgctxt "@info"
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Calendar <resource>%1</resource> is in an old format "
+#| "(<application>KAlarm</application> version %2), and will be read-only "
+#| "unless you choose to update it to the current format."
 msgid ""
 "Calendar <resource>%1</resource> is in an old format (<application>KAlarm</"
 "application> version %2), and will be read-only unless you choose to update "
@@ -2213,8 +2217,12 @@ msgstr ""
 "版本 %2），除非您選擇將它更新為目前的格式，否則將會設為唯讀。"
 
 #: functions.cpp:1676
-#, kde-kuit-format
-msgctxt "@info"
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Some or all of the alarms in calendar <resource>%1</resource> are in an "
+#| "old <application>KAlarm</application> format, and will be read-only "
+#| "unless you choose to update them to the current format."
 msgid ""
 "Some or all of the alarms in calendar <resource>%1</resource> are in an old "
 "<application>KAlarm</application> format, and will be read-only unless you "

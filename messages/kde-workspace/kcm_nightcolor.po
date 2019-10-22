@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-07 03:21+0200\n"
+"POT-Creation-Date: 2019-10-22 03:13+0200\n"
 "PO-Revision-Date: 2019-10-11 19:09+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -64,72 +64,90 @@ msgstr "開啟夜色模式"
 msgid "Night Color temperature:"
 msgstr "夜色色溫："
 
-#: package/contents/ui/main.qml:137
+#: package/contents/ui/main.qml:141
 #, kde-format
 msgid " K"
 msgstr " K"
 
-#: package/contents/ui/main.qml:143
+#: package/contents/ui/main.qml:145
+#, kde-format
+msgctxt "Night colour red-ish"
+msgid "Warm"
+msgstr ""
+
+#: package/contents/ui/main.qml:151
+#, kde-format
+msgctxt "Night colour blue-ish"
+msgid "Cool"
+msgstr ""
+
+#: package/contents/ui/main.qml:158
 #, kde-format
 msgid "Operation mode:"
 msgstr "操作模式："
 
-#: package/contents/ui/main.qml:146
+#: package/contents/ui/main.qml:161
 #, kde-format
 msgid "Automatic"
 msgstr "自動設定"
 
-#: package/contents/ui/main.qml:147
+#: package/contents/ui/main.qml:162
 #, kde-format
 msgid "Location"
 msgstr "位置"
 
-#: package/contents/ui/main.qml:148
+#: package/contents/ui/main.qml:163
 #, kde-format
 msgid "Times"
 msgstr "時間"
 
-#: package/contents/ui/main.qml:149
+#: package/contents/ui/main.qml:164
 #, kde-format
 msgid "Constant"
 msgstr "恆定不變"
 
-#: package/contents/ui/main.qml:263 package/contents/ui/TimingsView.qml:38
+#: package/contents/ui/main.qml:278 package/contents/ui/TimingsView.qml:38
 #, kde-format
 msgid "Sunrise begins:"
 msgstr "開始日出："
 
-#: package/contents/ui/main.qml:270
+#: package/contents/ui/main.qml:285
 #, kde-format
 msgid "(Input format: HH:MM)"
 msgstr "（輸入格式：HH:MM）"
 
-#: package/contents/ui/main.qml:276 package/contents/ui/TimingsView.qml:52
+#: package/contents/ui/main.qml:291 package/contents/ui/TimingsView.qml:52
 #, kde-format
 msgid "Sunset begins:"
 msgstr "開始日落："
 
-#: package/contents/ui/main.qml:283
+#: package/contents/ui/main.qml:298
 #, kde-format
 msgid "Input format: HH:MM"
 msgstr "輸入格式：HH:MM"
 
-#: package/contents/ui/main.qml:289
+#: package/contents/ui/main.qml:306
 #, kde-format
 msgid "Transition duration:"
 msgstr "過渡時間："
 
-#: package/contents/ui/main.qml:299
+#: package/contents/ui/main.qml:316
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] ""
+
+#: package/contents/ui/main.qml:323
 #, kde-format
 msgid "Input minutes - min. 1, max. 600"
 msgstr "輸入分鐘 - 最小值：1，最大值：600"
 
-#: package/contents/ui/main.qml:307
+#: package/contents/ui/main.qml:331
 #, kde-format
 msgid "Error: Morning is before evening."
 msgstr "錯誤：早上比晚上還早。"
 
-#: package/contents/ui/main.qml:323
+#: package/contents/ui/main.qml:347
 #, kde-format
 msgid "Error: Transition time overlaps."
 msgstr "錯誤：過渡時間重疊。"

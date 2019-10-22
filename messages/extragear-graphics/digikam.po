@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-21 02:35+0200\n"
+"POT-Creation-Date: 2019-10-22 02:33+0200\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -887,14 +887,14 @@ msgctxt "Month String - Year String"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: core/app/items/utils/itemviewutilities.cpp:201
+#: core/app/items/utils/itemviewutilities.cpp:202
 #, kde-format
 msgid ""
 "<p>Please select the destination album from the digiKam library to move the "
 "selected images into.</p>"
 msgstr "<p>請選擇要移動資料夾到 digiKam 相簿櫃之目的相簿。</p>"
 
-#: core/app/items/utils/itemviewutilities.cpp:325
+#: core/app/items/utils/itemviewutilities.cpp:326
 #: core/utilities/imageeditor/main/imagewindow.cpp:1080
 #: core/utilities/imageeditor/main/imagewindow.cpp:1104
 #: core/utilities/imageeditor/main/imagewindow.cpp:1135
@@ -1380,53 +1380,53 @@ msgid "Reread Metadata From File"
 msgid_plural "Reread Metadata From Selected Files"
 msgstr[0] "從選擇的影像中重新讀取中繼資料"
 
-#: core/app/main/digikamapp_camera.cpp:49
+#: core/app/main/digikamapp_camera.cpp:36
 #, kde-format
 msgid "Auto-Detecting Camera..."
 msgstr "自動偵測相機中..."
 
-#: core/app/main/digikamapp_camera.cpp:63
-#: core/app/main/digikamapp_camera.cpp:78
+#: core/app/main/digikamapp_camera.cpp:50
+#: core/app/main/digikamapp_camera.cpp:65
 #, kde-format
 msgid "Opening Download Dialog..."
 msgstr "正在開啟下載對話框..."
 
-#: core/app/main/digikamapp_camera.cpp:89 core/utilities/setup/setup.cpp:214
+#: core/app/main/digikamapp_camera.cpp:76 core/utilities/setup/setup.cpp:214
 #, kde-format
 msgid "Cameras"
 msgstr "相機"
 
-#: core/app/main/digikamapp_camera.cpp:91
+#: core/app/main/digikamapp_camera.cpp:78
 #, kde-format
 msgid "USB Storage Devices"
 msgstr "USB 儲存裝置"
 
-#: core/app/main/digikamapp_camera.cpp:93
+#: core/app/main/digikamapp_camera.cpp:80
 #, kde-format
 msgid "Card Readers"
 msgstr "讀卡機"
 
-#: core/app/main/digikamapp_camera.cpp:102
+#: core/app/main/digikamapp_camera.cpp:89
 #, kde-format
 msgid "Add Images..."
 msgstr "加入影像..."
 
-#: core/app/main/digikamapp_camera.cpp:103
+#: core/app/main/digikamapp_camera.cpp:90
 #, kde-format
 msgid "Adds new items to an Album."
 msgstr "將新的項目加入到相簿。"
 
-#: core/app/main/digikamapp_camera.cpp:110
+#: core/app/main/digikamapp_camera.cpp:97
 #, kde-format
 msgid "Add Folders..."
 msgstr "加入資料夾..."
 
-#: core/app/main/digikamapp_camera.cpp:111
+#: core/app/main/digikamapp_camera.cpp:98
 #, kde-format
 msgid "Adds new folders to Album library."
 msgstr "將新的資料夾加入到相簿櫃。"
 
-#: core/app/main/digikamapp_camera.cpp:263
+#: core/app/main/digikamapp_camera.cpp:234
 #, kde-format
 msgid "Images found in %1"
 msgstr "在 %1 中找到影像"
@@ -1612,7 +1612,7 @@ msgid "Thumbnails"
 msgstr "縮圖"
 
 #: core/app/main/digikamapp_setup.cpp:302
-#: core/app/views/stack/itemiconview.cpp:2624
+#: core/app/views/stack/itemiconview.cpp:2625
 #, kde-format
 msgctxt "View the selected image"
 msgid "Preview"
@@ -1978,7 +1978,7 @@ msgid "Select None"
 msgstr "全部不選"
 
 #: core/app/main/digikamapp_setup.cpp:641
-#: core/libs/widgets/mainview/thumbbardock.h:111
+#: core/libs/widgets/mainview/thumbbardock.cpp:174
 #, kde-format
 msgid "Show Thumbbar"
 msgstr "顯示縮圖列"
@@ -2234,85 +2234,85 @@ msgstr "佈景主題(&T)"
 msgid "Loading tools..."
 msgstr "正在載入工具..."
 
-#: core/app/main/digikamapp_solid.cpp:157
+#: core/app/main/digikamapp_solid.cpp:260
 #, kde-format
 msgid "CompactFlash Card Reader"
 msgstr "CompactFlash 讀卡機"
 
-#: core/app/main/digikamapp_solid.cpp:160
+#: core/app/main/digikamapp_solid.cpp:263
 #, kde-format
 msgid "Memory Stick Reader"
 msgstr "Memory Stick 讀卡機"
 
-#: core/app/main/digikamapp_solid.cpp:163
+#: core/app/main/digikamapp_solid.cpp:266
 #, kde-format
 msgid "SmartMedia Card Reader"
 msgstr "SmartMedia 讀卡機"
 
-#: core/app/main/digikamapp_solid.cpp:166
+#: core/app/main/digikamapp_solid.cpp:269
 #, kde-format
 msgid "SD / MMC Card Reader"
 msgstr "SD / MMC 讀卡機"
 
-#: core/app/main/digikamapp_solid.cpp:169
+#: core/app/main/digikamapp_solid.cpp:272
 #, kde-format
 msgid "xD Card Reader"
 msgstr "xD 讀卡機"
 
-#: core/app/main/digikamapp_solid.cpp:181
+#: core/app/main/digikamapp_solid.cpp:284
 #, kde-format
 msgid "USB Disk"
 msgstr "USB 隨身碟"
 
-#: core/app/main/digikamapp_solid.cpp:185
+#: core/app/main/digikamapp_solid.cpp:288
 #, kde-format
 msgctxt "non-USB removable storage device"
 msgid "Disk"
 msgstr "磁碟"
 
-#: core/app/main/digikamapp_solid.cpp:256
+#: core/app/main/digikamapp_solid.cpp:359
 #, kde-format
 msgctxt "<drive type> \"<device name or label>\" at <mount path>"
 msgid "%1 \"%2\" at %3"
 msgstr "%1 \"%2\" 於 %3"
 
-#: core/app/main/digikamapp_solid.cpp:262
+#: core/app/main/digikamapp_solid.cpp:365
 #, kde-format
 msgctxt "<drive type> \"<device name or label>\""
 msgid "%1 \"%2\""
 msgstr "%1 \"%2\""
 
-#: core/app/main/digikamapp_solid.cpp:270
+#: core/app/main/digikamapp_solid.cpp:373
 #, kde-format
 msgctxt "<drive type> at <mount path>"
 msgid "%1 at %2"
 msgstr "%1 於 %2"
 
-#: core/app/main/digikamapp_solid.cpp:282
+#: core/app/main/digikamapp_solid.cpp:385
 #, kde-format
 msgctxt "device label etc... (<formatted byte size>)"
 msgid " (%1)"
 msgstr " (%1)"
 
-#: core/app/main/digikamapp_solid.cpp:602
+#: core/app/main/digikamapp_solid.cpp:617
+#, kde-format
+msgid "Cannot access the storage device.\n"
+msgstr "無法存取此儲存裝置。\n"
+
+#: core/app/main/digikamapp_solid.cpp:647
 #, kde-format
 msgid "Images on %1"
 msgstr "在 %1 的影像"
 
-#: core/app/main/digikamapp_solid.cpp:635
+#: core/app/main/digikamapp_solid.cpp:680
 #, kde-format
 msgid "The specified device (\"%1\") is not valid."
 msgstr "指定的裝置 (\"%1\") 無效。"
 
-#: core/app/main/digikamapp_solid.cpp:648
+#: core/app/main/digikamapp_solid.cpp:693
 #, kde-format
 msgid "The specified camera (\"%1\") is not supported."
 msgstr "指定的相機 (\"%1\") 不支援。"
-
-#: core/app/main/digikamapp_solid.cpp:669
-#, kde-format
-msgid "Cannot access the storage device.\n"
-msgstr "無法存取此儲存裝置。\n"
 
 #: core/app/main/digikamapp_tools.cpp:38
 #, fuzzy, kde-format
@@ -2553,7 +2553,7 @@ msgstr "參考影像"
 msgid "All supported files (%1)"
 msgstr "略過檔案 %1"
 
-#: core/app/utils/digikam_version.cpp:46
+#: core/app/utils/digikam_version.cpp:51
 #, fuzzy, kde-format
 msgid ""
 "IRC: irc.freenode.net - #digikam\n"
@@ -2569,7 +2569,7 @@ msgstr ""
 "\n"
 "編譯日期: %1 (target: %2)"
 
-#: core/app/utils/digikam_version.cpp:54
+#: core/app/utils/digikam_version.cpp:59
 #, fuzzy, kde-format
 msgid ""
 "IRC: irc.freenode.net - #digikam\n"
@@ -2784,7 +2784,7 @@ msgstr ""
 "簿。"
 
 #: core/app/views/sidebar/leftsidebarwidgets.cpp:932
-#: core/app/views/stack/itemiconview.cpp:235
+#: core/app/views/stack/itemiconview.cpp:236
 #, kde-format
 msgid "Timeline"
 msgstr "時間軸"
@@ -2837,57 +2837,57 @@ msgctxt "Browse images sorted by depicted people"
 msgid "People"
 msgstr "人物"
 
-#: core/app/views/stack/itemiconview.cpp:218
+#: core/app/views/stack/itemiconview.cpp:219
 #, kde-format
 msgid "Fuzzy Sketch Search"
 msgstr "模糊速寫搜尋"
 
-#: core/app/views/stack/itemiconview.cpp:222
+#: core/app/views/stack/itemiconview.cpp:223
 #, kde-format
 msgid "Fuzzy Image Search"
 msgstr "影像模糊搜尋"
 
-#: core/app/views/stack/itemiconview.cpp:226
+#: core/app/views/stack/itemiconview.cpp:227
 #, kde-format
 msgid "Map Search"
 msgstr "地圖搜尋"
 
-#: core/app/views/stack/itemiconview.cpp:231
+#: core/app/views/stack/itemiconview.cpp:232
 #: core/libs/database/coredb/coredbschemaupdater.cpp:1032
 #, kde-format
 msgid "Last Search"
 msgstr "上次搜尋"
 
-#: core/app/views/stack/itemiconview.cpp:395
+#: core/app/views/stack/itemiconview.cpp:396
 #: core/utilities/queuemanager/manager/batchtool.cpp:205
 #: core/utilities/queuemanager/views/toolslistview.cpp:83
 #, kde-format
 msgid "Filters"
 msgstr "濾鏡"
 
-#: core/app/views/stack/itemiconview.cpp:1294
+#: core/app/views/stack/itemiconview.cpp:1295
 #, fuzzy, kde-format
 msgid "Cannot open the root album. It is not a physical location."
 msgstr "無法開啟根目錄。它不是一個實體位置。"
 
-#: core/app/views/stack/itemiconview.cpp:1714
+#: core/app/views/stack/itemiconview.cpp:1715
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
 "<i>The storage location of this image<br/>is currently not available</i>"
 msgstr "提供的收藏位置無效或者目前無法使用。"
 
-#: core/app/views/stack/itemiconview.cpp:2574
+#: core/app/views/stack/itemiconview.cpp:2575
 #: core/libs/dplugins/setup/dpluginconfview.cpp:135
 #: core/libs/widgets/metadata/metadatawidget.cpp:155
-#: core/utilities/imageeditor/editor/editortooliface.cpp:100
-#: core/utilities/imageeditor/editor/editortooliface.cpp:216
+#: core/utilities/imageeditor/editor/editortooliface.cpp:104
+#: core/utilities/imageeditor/editor/editortooliface.cpp:220
 #: core/utilities/queuemanager/views/workflowlist.cpp:99
 #, kde-format
 msgid "Tools"
 msgstr "工具"
 
-#: core/app/views/stack/stackedview.cpp:134
+#: core/app/views/stack/stackedview.cpp:135
 #, fuzzy, kde-format
 #| msgctxt "@action Go to thumbnails (icon) view"
 #| msgid "Thumbnails"
@@ -5295,18 +5295,18 @@ msgstr ""
 msgid "High efficiency image file format"
 msgstr ""
 
-#: core/dplugins/dimg/imagemagick/dimgimagemagickplugin.cpp:66
+#: core/dplugins/dimg/imagemagick/dimgimagemagickplugin.cpp:70
 #, fuzzy, kde-format
 #| msgid "Flash has been fired"
 msgid "ImageMagick loader"
 msgstr "已開啟閃光"
 
-#: core/dplugins/dimg/imagemagick/dimgimagemagickplugin.cpp:81
+#: core/dplugins/dimg/imagemagick/dimgimagemagickplugin.cpp:85
 #, kde-format
 msgid "An image loader based on ImageMagick coders"
 msgstr ""
 
-#: core/dplugins/dimg/imagemagick/dimgimagemagickplugin.cpp:86
+#: core/dplugins/dimg/imagemagick/dimgimagemagickplugin.cpp:90
 #, kde-format
 msgid ""
 "<p>This plugin permit to load and save image using ImageMagick coders.</"
@@ -17336,7 +17336,7 @@ msgid "Image #%1"
 msgstr "在 %1 的影像"
 
 #: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:400
-#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:629
+#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:628
 #, kde-format
 msgid "Ken Burns"
 msgstr "肯伯恩斯"
@@ -17467,84 +17467,84 @@ msgstr "音樂"
 msgid "Advanced"
 msgstr "進階"
 
-#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:506
-#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:908
+#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:505
+#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:907
 #, kde-format
 msgctxt "Filter Effect: No effect"
 msgid "None"
 msgstr "無"
 
-#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:507
+#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:506
 #, kde-format
 msgctxt "Filter Effect: Bend"
 msgid "Bend"
 msgstr "彎曲"
 
-#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:508
+#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:507
 #, fuzzy, kde-format
 msgctxt "Filter Effect: Blend"
 msgid "Blend"
 msgstr "月曆"
 
-#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:509
+#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:508
 #, kde-format
 msgctxt "Filter Effect: Cube"
 msgid "Cube"
 msgstr "立方體"
 
-#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:510
+#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:509
 #, kde-format
 msgctxt "Filter Effect: Fade"
 msgid "Fade"
 msgstr "淡化"
 
-#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:511
+#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:510
 #, kde-format
 msgctxt "Filter Effect: Flutter"
 msgid "Flutter"
 msgstr "飄動"
 
-#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:512
+#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:511
 #, kde-format
 msgctxt "Filter Effect: In Out"
 msgid "In Out"
 msgstr "進/出"
 
-#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:513
+#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:512
 #, kde-format
 msgctxt "Filter Effect: Rotate"
 msgid "Rotate"
 msgstr "旋轉"
 
-#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:514
+#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:513
 #, fuzzy, kde-format
 #| msgid "Slideshow"
 msgctxt "Filter Effect: Slide"
 msgid "Slide"
 msgstr "投影片放映"
 
-#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:515
-#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:921
+#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:514
+#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:920
 #, kde-format
 msgctxt "Filter Effect: Random effect"
 msgid "Random"
 msgstr "隨機"
 
-#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:796
-#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:774
+#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:795
+#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:773
 #, fuzzy, kde-format
 msgid "Slideshow Completed"
 msgstr "投影片放映"
 
-#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:797
-#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:582
-#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:775
+#: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:796
+#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:581
+#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:774
 #, fuzzy, kde-format
 #| msgid "Click To Exit..."
 msgid "Click to Exit..."
 msgstr "點擊滑鼠離開..."
 
-#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:581
+#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:580
 #, fuzzy, kde-format
 #| msgid "Slide Show"
 msgid "SlideShow Completed"
@@ -17582,31 +17582,31 @@ msgctxt "@action"
 msgid "Presentation..."
 msgstr "任意旋轉..."
 
-#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:909
+#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:908
 #, kde-format
 msgctxt "Filter Effect: Chess Board"
 msgid "Chess Board"
 msgstr "棋盤"
 
-#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:910
+#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:909
 #, fuzzy, kde-format
 msgctxt "Filter Effect: Melt Down"
 msgid "Melt Down"
 msgstr "下移"
 
-#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:911
+#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:910
 #, kde-format
 msgctxt "Filter Effect: Sweep"
 msgid "Sweep"
 msgstr "清掃"
 
-#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:912
+#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:911
 #, kde-format
 msgctxt "Filter Effect: Mosaic"
 msgid "Mosaic"
 msgstr "馬賽克"
 
-#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:913
+#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:912
 #, fuzzy, kde-format
 #| msgctxt "cubic filter mode"
 #| msgid "Cubic"
@@ -17614,45 +17614,45 @@ msgctxt "Filter Effect: Cubism"
 msgid "Cubism"
 msgstr "立方"
 
-#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:914
+#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:913
 #, kde-format
 msgctxt "Filter Effect: Growing"
 msgid "Growing"
 msgstr "成長"
 
-#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:915
+#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:914
 #, fuzzy, kde-format
 #| msgid "Horizontal"
 msgctxt "Filter Effect: Horizontal Lines"
 msgid "Horizontal Lines"
 msgstr "水平"
 
-#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:916
+#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:915
 #, fuzzy, kde-format
 #| msgid "Vertically first"
 msgctxt "Filter Effect: Vertical Lines"
 msgid "Vertical Lines"
 msgstr "先調整垂直"
 
-#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:917
+#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:916
 #, kde-format
 msgctxt "Filter Effect: Circle Out"
 msgid "Circle Out"
 msgstr "圓形擴大"
 
-#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:918
+#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:917
 #, kde-format
 msgctxt "Filter Effect: Multi-Circle Out"
 msgid "Multi-Circle Out"
 msgstr "多個圓形擴大"
 
-#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:919
+#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:918
 #, kde-format
 msgctxt "Filter Effect: Spiral In"
 msgid "Spiral In"
 msgstr "內螺旋"
 
-#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:920
+#: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:919
 #, kde-format
 msgctxt "Filter Effect: Blobs"
 msgid "Blobs"
@@ -24063,14 +24063,14 @@ msgstr "綱要名稱"
 msgid "total"
 msgstr "總計"
 
-#: core/libs/database/utils/widgets/mysqlinitbinary.h:49
+#: core/libs/database/utils/widgets/mysqlinitbinary.cpp:42
 #, kde-format
 msgid ""
 "This binary file is used to initialize the MariaDB data files for the "
 "database."
 msgstr ""
 
-#: core/libs/database/utils/widgets/mysqlservbinary.h:49
+#: core/libs/database/utils/widgets/mysqlservbinary.cpp:42
 #, kde-format
 msgid ""
 "This binary file is used to start a dedicated instance of MariaDB server."
@@ -34406,7 +34406,7 @@ msgctxt "default theme name"
 msgid "Default"
 msgstr "預設"
 
-#: core/libs/widgets/mainview/thumbbardock.cpp:58
+#: core/libs/widgets/mainview/thumbbardock.cpp:62
 #, kde-format
 msgid "Drag to reposition"
 msgstr "拖曳以重新定位"
@@ -42363,7 +42363,7 @@ msgstr "相機資料夾"
 msgid "Escape preview"
 msgstr "離開預覽"
 
-#: core/utilities/import/views/importstackedview.cpp:100
+#: core/utilities/import/views/importstackedview.cpp:104
 #, fuzzy, kde-format
 #| msgctxt "@action Go to thumbnails (icon) view"
 #| msgid "Thumbnails"

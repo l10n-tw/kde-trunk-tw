@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcron\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:00+0200\n"
+"POT-Creation-Date: 2019-10-22 02:44+0200\n"
 "PO-Revision-Date: 2010-10-22 08:46+0800\n"
 "Last-Translator: Franklin Weng <franklin@mail.everfocus.com.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
@@ -589,17 +589,17 @@ msgstr "使用者帳號："
 msgid "Show All Personal Crons"
 msgstr "顯示所有個人排程"
 
-#: src/kcmCron.cpp:61
+#: src/kcmCron.cpp:60
 #, kde-format
 msgid "Task Scheduler"
 msgstr "工作排程器"
 
-#: src/kcmCron.cpp:62
+#: src/kcmCron.cpp:61
 #, kde-format
 msgid "KDE Task Scheduler"
 msgstr "KDE 工作排程器"
 
-#: src/kcmCron.cpp:62
+#: src/kcmCron.cpp:61
 #, kde-format
 msgid ""
 "(c) 2008, Nicolas Ternisien\n"
@@ -608,32 +608,32 @@ msgstr ""
 "(c) 2008, Nicolas Ternisien\n"
 "(c) 1999-2000, Gary Meyer"
 
-#: src/kcmCron.cpp:64
+#: src/kcmCron.cpp:63
 #, kde-format
 msgid "Nicolas Ternisien"
 msgstr "Nicolas Ternisien"
 
-#: src/kcmCron.cpp:65
+#: src/kcmCron.cpp:64
 #, kde-format
 msgid "Gary Meyer"
 msgstr "Gary Meyer"
 
-#: src/kcmCron.cpp:66
+#: src/kcmCron.cpp:65
 #, kde-format
 msgid "Robert Berry"
 msgstr "Robert Berry"
 
-#: src/kcmCron.cpp:67
+#: src/kcmCron.cpp:66
 #, kde-format
 msgid "James Ots"
 msgstr "James Ots"
 
-#: src/kcmCron.cpp:68
+#: src/kcmCron.cpp:67
 #, kde-format
 msgid "Alberto G. Hierro"
 msgstr "Alberto G. Hierro"
 
-#: src/kcmCron.cpp:77
+#: src/kcmCron.cpp:76
 #, kde-format
 msgid ""
 "The following error occurred while initializing KCron:\n"
@@ -648,7 +648,7 @@ msgstr ""
 "\n"
 "KCron 將會結束執行。\n"
 
-#: src/kcmCron.cpp:144
+#: src/kcmCron.cpp:143
 #, kde-format
 msgid ""
 "You can use this application to schedule programs to run in the background.\n"
@@ -658,7 +658,7 @@ msgstr ""
 "你可以使用這個程式來排程程式在背景執行。\n"
 "要立刻排程一個新工作，請按下工作資料夾並從選單中選編輯/新增。"
 
-#: src/kcmCron.cpp:144
+#: src/kcmCron.cpp:143
 #, kde-format
 msgid "Welcome to the Task Scheduler"
 msgstr "歡迎來到工作排程器"
@@ -668,7 +668,7 @@ msgstr "歡迎來到工作排程器"
 msgid "Add or modify a scheduled task"
 msgstr "新增或變更已排程的工作"
 
-#: src/taskEditorDialog.cpp:77 src/taskEditorDialog.cpp:847
+#: src/taskEditorDialog.cpp:77 src/taskEditorDialog.cpp:852
 #, kde-format
 msgid "<i>This task will be executed at the specified intervals.</i>"
 msgstr "<i>這個工作會每隔特定的間隔執行一次。</i>"
@@ -788,59 +788,59 @@ msgstr "早上："
 msgid "PM:"
 msgstr "下午："
 
-#: src/taskEditorDialog.cpp:703 src/taskEditorDialog.cpp:714
+#: src/taskEditorDialog.cpp:708 src/taskEditorDialog.cpp:719
 #, kde-format
 msgid "<i>Please type a valid command line...</i>"
 msgstr "<i>請輸入合法的指令...</i>"
 
-#: src/taskEditorDialog.cpp:737
+#: src/taskEditorDialog.cpp:742
 #, kde-format
 msgid "<i>Please select an executable program...</i>"
 msgstr "<i>請選取可執行檔。</i>"
 
-#: src/taskEditorDialog.cpp:745 src/taskEditorDialog.cpp:771
+#: src/taskEditorDialog.cpp:750 src/taskEditorDialog.cpp:776
 #, kde-format
 msgid "<i>Please browse for a program to execute...</i>"
 msgstr "<i>請瀏覽尋找要執行的程式。</i>"
 
-#: src/taskEditorDialog.cpp:758
+#: src/taskEditorDialog.cpp:763
 #, kde-format
 msgid "<i>This task is disabled.</i>"
 msgstr "<i>這個工作已被關閉。</i>"
 
-#: src/taskEditorDialog.cpp:765
+#: src/taskEditorDialog.cpp:770
 #, kde-format
 msgid "<i>This task will be run on system bootup.</i>"
 msgstr "<i>這個工作將在系統啟動時執行。</i>"
 
-#: src/taskEditorDialog.cpp:790
+#: src/taskEditorDialog.cpp:795
 #, kde-format
 msgid "<i>Please select from the 'Months' section...</i>"
 msgstr "<i>請從「月」區段選取...</i>"
 
-#: src/taskEditorDialog.cpp:809
+#: src/taskEditorDialog.cpp:814
 #, kde-format
 msgid ""
 "<i>Please select from either the 'Days of Month' or the 'Days of Week' "
 "section...</i>"
 msgstr "<i>請從「月份中的天數」或「星期中的天數」區段中選取...</i>"
 
-#: src/taskEditorDialog.cpp:824
+#: src/taskEditorDialog.cpp:829
 #, kde-format
 msgid "<i>Please select from the 'Hours' section...</i>"
 msgstr "<i>請從「小時」區段選取...</i>"
 
-#: src/taskEditorDialog.cpp:839
+#: src/taskEditorDialog.cpp:844
 #, kde-format
 msgid "<i>Please select from the 'Minutes' section...</i>"
 msgstr "<i>請從「分鐘」區段選取...</i>"
 
-#: src/taskEditorDialog.cpp:1042
+#: src/taskEditorDialog.cpp:1047
 #, kde-format
 msgid "Set All"
 msgstr "全部設定"
 
-#: src/taskEditorDialog.cpp:1044
+#: src/taskEditorDialog.cpp:1049
 #, kde-format
 msgid "Clear All"
 msgstr "全部清除"
@@ -958,17 +958,17 @@ msgstr "開啟此變數(&E)"
 msgid "<i>This variable will be used by scheduled tasks.</i>"
 msgstr "<i>這個變數會用於已計劃的工作。</i>"
 
-#: src/variableEditorDialog.cpp:199
+#: src/variableEditorDialog.cpp:210
 #, kde-format
 msgid "<i>This variable is disabled.</i>"
 msgstr "<i>這個變數已被關閉。</i>"
 
-#: src/variableEditorDialog.cpp:206
+#: src/variableEditorDialog.cpp:217
 #, kde-format
 msgid "<i>Please enter the variable name...</i>"
 msgstr "<i>請輸入變數名稱...</i>"
 
-#: src/variableEditorDialog.cpp:213
+#: src/variableEditorDialog.cpp:224
 #, kde-format
 msgid "<i>Please enter the variable value ...</i>"
 msgstr "<i>請輸入變數數值...</i>"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-18 03:31+0200\n"
+"POT-Creation-Date: 2019-10-22 03:10+0200\n"
 "PO-Revision-Date: 2019-10-19 15:13+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -175,13 +175,21 @@ msgstr "新增"
 msgid "Cancel"
 msgstr "取消"
 
-#: discover/qml/ApplicationDelegate.qml:96 discover/qml/ApplicationPage.qml:146
+#: discover/qml/ApplicationDelegate.qml:88
+#, kde-format
+msgctxt "Part of a string like this: '<app name> - <category>'"
+msgid "- %1"
+msgstr ""
+
+#: discover/qml/ApplicationDelegate.qml:111
+#: discover/qml/ApplicationPage.qml:146
 #, kde-format
 msgid "%1 rating"
 msgid_plural "%1 ratings"
 msgstr[0] "%1 個評分"
 
-#: discover/qml/ApplicationDelegate.qml:96 discover/qml/ApplicationPage.qml:146
+#: discover/qml/ApplicationDelegate.qml:111
+#: discover/qml/ApplicationPage.qml:146
 #, kde-format
 msgid "No ratings yet"
 msgstr "目前還沒有評分"
@@ -415,7 +423,6 @@ msgid "Hide"
 msgstr "隱藏"
 
 #: discover/qml/DiscoverWindow.qml:231 discover/qml/SourcesPage.qml:120
-#: discover/qml/UpdatesPage.qml:50
 #, kde-format
 msgid "Proceed"
 msgstr "繼續"
@@ -675,6 +682,11 @@ msgstr "遺失後輟"
 #, kde-format
 msgid "Updates"
 msgstr "更新"
+
+#: discover/qml/UpdatesPage.qml:50
+#, kde-format
+msgid "OK"
+msgstr ""
 
 #: discover/qml/UpdatesPage.qml:73
 #, kde-format

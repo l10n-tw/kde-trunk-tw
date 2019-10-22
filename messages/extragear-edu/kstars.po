@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-21 02:34+0200\n"
+"POT-Creation-Date: 2019-10-22 02:32+0200\n"
 "PO-Revision-Date: 2019-01-03 18:34+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -91599,139 +91599,147 @@ msgid "Equatorial JNow"
 msgstr "赤道 JNow"
 
 #: libindi_strings.cpp:141
+#, fuzzy, kde-kuit-format
+#| msgctxt "Asteroid name (optional)"
+#| msgid "Etheridgea"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Ethernet"
+msgstr "Etheridgea"
+
+#: libindi_strings.cpp:142
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Exec"
 msgstr "執行"
 
-#: libindi_strings.cpp:142
+#: libindi_strings.cpp:143
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Expose Abort"
 msgstr "曝光中止"
 
-#: libindi_strings.cpp:143
+#: libindi_strings.cpp:144
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Expose"
 msgstr "曝光"
 
-#: libindi_strings.cpp:144
+#: libindi_strings.cpp:145
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Exposure"
 msgstr "曝光"
 
-#: libindi_strings.cpp:145
+#: libindi_strings.cpp:146
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Extended GPS Features"
 msgstr "延伸 GPS 功能"
 
-#: libindi_strings.cpp:146
+#: libindi_strings.cpp:147
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Extrema"
 msgstr "極值"
 
-#: libindi_strings.cpp:147
+#: libindi_strings.cpp:148
 #, fuzzy, kde-kuit-format
 #| msgid "FITS Header"
 msgctxt "string from libindi, used in the config dialog"
 msgid "FITS Header"
 msgstr "FITS 標頭"
 
-#: libindi_strings.cpp:148
+#: libindi_strings.cpp:149
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "FWHM (arcseconds)"
 msgstr "FWHM (弧秒)"
 
-#: libindi_strings.cpp:149
+#: libindi_strings.cpp:150
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "FWHM"
 msgstr "FWHM"
 
-#: libindi_strings.cpp:150
+#: libindi_strings.cpp:151
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Factory"
 msgstr "工廠"
 
-#: libindi_strings.cpp:151
+#: libindi_strings.cpp:152
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Fan"
 msgstr "風扇"
 
-#: libindi_strings.cpp:152
+#: libindi_strings.cpp:153
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Fast"
 msgstr "快"
 
-#: libindi_strings.cpp:153
+#: libindi_strings.cpp:154
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Feed"
 msgstr "Feed"
 
-#: libindi_strings.cpp:154
+#: libindi_strings.cpp:155
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Feedback"
 msgstr "回饋"
 
-#: libindi_strings.cpp:155
+#: libindi_strings.cpp:156
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Field De-rotator"
 msgstr "視場反旋轉器"
 
-#: libindi_strings.cpp:156
+#: libindi_strings.cpp:157
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Filter #1"
 msgstr "過濾器 #1"
 
-#: libindi_strings.cpp:157
+#: libindi_strings.cpp:158
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Filter #2"
 msgstr "過濾器 #2"
 
-#: libindi_strings.cpp:158
+#: libindi_strings.cpp:159
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Filter #3"
 msgstr "過濾器 #3"
 
-#: libindi_strings.cpp:159
+#: libindi_strings.cpp:160
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Filter #4"
 msgstr "過濾器 #4"
 
-#: libindi_strings.cpp:160
+#: libindi_strings.cpp:161
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Filter #5"
 msgstr "過濾器 #5"
 
-#: libindi_strings.cpp:161
+#: libindi_strings.cpp:162
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Filter Count"
 msgstr "過濾器計數"
 
-#: libindi_strings.cpp:162
+#: libindi_strings.cpp:163
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Filter Simulator"
 msgstr "過濾器模擬器"
 
-#: libindi_strings.cpp:163
+#: libindi_strings.cpp:164
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Filter Count"
@@ -91739,19 +91747,19 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Filter Slot"
 msgstr "過濾器計數"
 
-#: libindi_strings.cpp:164
+#: libindi_strings.cpp:165
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Filter Wheel"
 msgstr "過濾器輪"
 
-#: libindi_strings.cpp:165
+#: libindi_strings.cpp:166
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Filter"
 msgstr "過濾器"
 
-#: libindi_strings.cpp:166
+#: libindi_strings.cpp:167
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Filter #1"
@@ -91759,7 +91767,7 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Filter#1"
 msgstr "過濾器 #1"
 
-#: libindi_strings.cpp:167
+#: libindi_strings.cpp:168
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Filter #2"
@@ -91767,7 +91775,7 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Filter#2"
 msgstr "過濾器 #2"
 
-#: libindi_strings.cpp:168
+#: libindi_strings.cpp:169
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Filter #3"
@@ -91775,7 +91783,7 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Filter#3"
 msgstr "過濾器 #3"
 
-#: libindi_strings.cpp:169
+#: libindi_strings.cpp:170
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Filter #4"
@@ -91783,7 +91791,7 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Filter#4"
 msgstr "過濾器 #4"
 
-#: libindi_strings.cpp:170
+#: libindi_strings.cpp:171
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Filter #5"
@@ -91791,149 +91799,149 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Filter#5"
 msgstr "過濾器 #5"
 
-#: libindi_strings.cpp:171
+#: libindi_strings.cpp:172
 #, fuzzy, kde-kuit-format
 #| msgid "Filter"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Filter#6"
 msgstr "過濾器"
 
-#: libindi_strings.cpp:172
+#: libindi_strings.cpp:173
 #, fuzzy, kde-kuit-format
 #| msgid "Filter"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Filter#7"
 msgstr "過濾器"
 
-#: libindi_strings.cpp:173
+#: libindi_strings.cpp:174
 #, fuzzy, kde-kuit-format
 #| msgid "Filter"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Filter#8"
 msgstr "過濾器"
 
-#: libindi_strings.cpp:174
+#: libindi_strings.cpp:175
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Find"
 msgstr "尋找"
 
-#: libindi_strings.cpp:175
+#: libindi_strings.cpp:176
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Firmware Info"
 msgstr "韌體資訊"
 
-#: libindi_strings.cpp:176
+#: libindi_strings.cpp:177
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Firmware data"
 msgstr "韌體資料"
 
-#: libindi_strings.cpp:177
+#: libindi_strings.cpp:178
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Firmware version"
 msgstr "韌體版本"
 
-#: libindi_strings.cpp:178
+#: libindi_strings.cpp:179
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Firmware"
 msgstr "韌體"
 
-#: libindi_strings.cpp:179
+#: libindi_strings.cpp:180
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Flat"
 msgstr "平面"
 
-#: libindi_strings.cpp:180
+#: libindi_strings.cpp:181
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Fluorescent"
 msgstr "螢光燈"
 
-#: libindi_strings.cpp:181 libindi_strings.cpp:182
+#: libindi_strings.cpp:182 libindi_strings.cpp:183
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focal Length (mm)"
 msgstr "焦距 (mm)"
 
-#: libindi_strings.cpp:183
+#: libindi_strings.cpp:184
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focus Control"
 msgstr "焦點控制"
 
-#: libindi_strings.cpp:184
+#: libindi_strings.cpp:185
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focus In"
 msgstr "對內聚焦"
 
-#: libindi_strings.cpp:185
+#: libindi_strings.cpp:186
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focus Out"
 msgstr "對外聚焦"
 
-#: libindi_strings.cpp:186
+#: libindi_strings.cpp:187
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focus Speed"
 msgstr "焦速"
 
-#: libindi_strings.cpp:187
+#: libindi_strings.cpp:188
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focus Timer"
 msgstr "焦點計時器"
 
-#: libindi_strings.cpp:188
+#: libindi_strings.cpp:189
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focus in"
 msgstr "對內聚焦"
 
-#: libindi_strings.cpp:189
+#: libindi_strings.cpp:190
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focus out"
 msgstr "對外聚焦"
 
-#: libindi_strings.cpp:190
+#: libindi_strings.cpp:191
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focuser Simulator"
 msgstr "焦點模擬器"
 
-#: libindi_strings.cpp:191
+#: libindi_strings.cpp:192
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focuser"
 msgstr "焦點器"
 
-#: libindi_strings.cpp:192
+#: libindi_strings.cpp:193
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Focusers"
 msgstr "對焦者"
 
-#: libindi_strings.cpp:193
+#: libindi_strings.cpp:194
 #, fuzzy, kde-kuit-format
 #| msgid "GSC"
 msgctxt "string from libindi, used in the config dialog"
 msgid "FPS"
 msgstr "GSC"
 
-#: libindi_strings.cpp:194
+#: libindi_strings.cpp:195
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Frame Rate"
 msgstr "影格率"
 
-#: libindi_strings.cpp:195
+#: libindi_strings.cpp:196
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "FrameType"
@@ -91941,7 +91949,7 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Frame Type"
 msgstr "影格型態"
 
-#: libindi_strings.cpp:196
+#: libindi_strings.cpp:197
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Frame Rate"
@@ -91949,19 +91957,19 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Frame Values"
 msgstr "影格率"
 
-#: libindi_strings.cpp:197
+#: libindi_strings.cpp:198
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Frame"
 msgstr "影格"
 
-#: libindi_strings.cpp:198
+#: libindi_strings.cpp:199
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "FrameType"
 msgstr "影格型態"
 
-#: libindi_strings.cpp:199
+#: libindi_strings.cpp:200
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Frame"
@@ -91969,37 +91977,37 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Frames"
 msgstr "影格"
 
-#: libindi_strings.cpp:200
+#: libindi_strings.cpp:201
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Freq"
 msgstr "頻率"
 
-#: libindi_strings.cpp:201
+#: libindi_strings.cpp:202
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Full"
 msgstr "完全"
 
-#: libindi_strings.cpp:202
+#: libindi_strings.cpp:203
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "GCVS"
 msgstr "GCVS"
 
-#: libindi_strings.cpp:203
+#: libindi_strings.cpp:204
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "GOTO"
 msgstr "移至"
 
-#: libindi_strings.cpp:204
+#: libindi_strings.cpp:205
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "GPS Power"
 msgstr "GPS 電源"
 
-#: libindi_strings.cpp:205
+#: libindi_strings.cpp:206
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "CCD Simulator"
@@ -92007,81 +92015,81 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "GPS Simulator"
 msgstr "CCD 模擬器"
 
-#: libindi_strings.cpp:206
+#: libindi_strings.cpp:207
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "GPS Status"
 msgstr "GPS 狀態"
 
-#: libindi_strings.cpp:207
+#: libindi_strings.cpp:208
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "GPS System"
 msgstr "GPS 系統"
 
-#: libindi_strings.cpp:208
+#: libindi_strings.cpp:209
 #, fuzzy, kde-kuit-format
 #| msgid "GSC"
 msgctxt "string from libindi, used in the config dialog"
 msgid "GPS"
 msgstr "GSC"
 
-#: libindi_strings.cpp:209
+#: libindi_strings.cpp:210
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "GPS/16 inch Features"
 msgstr "GPS/16 吋功能"
 
-#: libindi_strings.cpp:210
+#: libindi_strings.cpp:211
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Gamma"
 msgstr "Gamma"
 
-#: libindi_strings.cpp:211
+#: libindi_strings.cpp:212
 #, fuzzy, kde-kuit-format
 #| msgid "General"
 msgctxt "string from libindi, used in the config dialog"
 msgid "General Info"
 msgstr "一般"
 
-#: libindi_strings.cpp:212
+#: libindi_strings.cpp:213
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Generic Video4Linux"
 msgstr "一般 Video4Linux"
 
-#: libindi_strings.cpp:213 libindi_strings.cpp:214
+#: libindi_strings.cpp:214 libindi_strings.cpp:215
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Geographic Location"
 msgstr "地理位置"
 
-#: libindi_strings.cpp:215
+#: libindi_strings.cpp:216
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Goto"
 msgstr "移至"
 
-#: libindi_strings.cpp:216
+#: libindi_strings.cpp:217
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Green"
 msgstr "綠"
 
-#: libindi_strings.cpp:217
+#: libindi_strings.cpp:218
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Grey"
 msgstr "灰色"
 
-#: libindi_strings.cpp:218
+#: libindi_strings.cpp:219
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guide Abort"
 msgstr "導引中止"
 
-#: libindi_strings.cpp:219
+#: libindi_strings.cpp:220
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Guide East/West"
@@ -92089,75 +92097,75 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Guide E/W"
 msgstr "導引東/西"
 
-#: libindi_strings.cpp:220
+#: libindi_strings.cpp:221
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guide East/West"
 msgstr "導引東/西"
 
-#: libindi_strings.cpp:221
+#: libindi_strings.cpp:222
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guide Head"
 msgstr "導引頭"
 
-#: libindi_strings.cpp:222
+#: libindi_strings.cpp:223
 #, fuzzy, kde-kuit-format
 #| msgid "Save Telescope Info"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guide Info"
 msgstr "儲存望遠鏡資訊"
 
-#: libindi_strings.cpp:223
+#: libindi_strings.cpp:224
 #, fuzzy, kde-kuit-format
 #| msgid "Guider"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guide N/S"
 msgstr "導引器"
 
-#: libindi_strings.cpp:224
+#: libindi_strings.cpp:225
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guide North/South"
 msgstr "導引北/南"
 
-#: libindi_strings.cpp:225
+#: libindi_strings.cpp:226
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guide West/East"
 msgstr "導引西/東"
 
-#: libindi_strings.cpp:226
+#: libindi_strings.cpp:227
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guide Wheel"
 msgstr "導引輪"
 
-#: libindi_strings.cpp:227
+#: libindi_strings.cpp:228
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guide"
 msgstr "導引"
 
-#: libindi_strings.cpp:228
+#: libindi_strings.cpp:229
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guider Aperture (mm)"
 msgstr "導引器光圈 (mm)"
 
-#: libindi_strings.cpp:229
+#: libindi_strings.cpp:230
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guider Control"
 msgstr "導引器控制"
 
-#: libindi_strings.cpp:230
+#: libindi_strings.cpp:231
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guider Focal Length (mm)"
 msgstr "導引器焦距 (mm)"
 
-#: libindi_strings.cpp:231
+#: libindi_strings.cpp:232
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Guide Head"
@@ -92165,45 +92173,45 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Guider Head"
 msgstr "導引頭"
 
-#: libindi_strings.cpp:232
+#: libindi_strings.cpp:233
 #, fuzzy, kde-kuit-format
 #| msgid "Rapid Guide"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guider Head Rapid Guide"
 msgstr "快速引導"
 
-#: libindi_strings.cpp:233
+#: libindi_strings.cpp:234
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guider Image"
 msgstr "導引器影像"
 
-#: libindi_strings.cpp:234
+#: libindi_strings.cpp:235
 #, fuzzy, kde-kuit-format
 #| msgid "Guiding"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Guiding Rate"
 msgstr "引導"
 
-#: libindi_strings.cpp:235
+#: libindi_strings.cpp:236
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "H Alpha"
 msgstr "H Alpha"
 
-#: libindi_strings.cpp:236
+#: libindi_strings.cpp:237
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "H:M:S"
 msgstr "時：分：秒"
 
-#: libindi_strings.cpp:237
+#: libindi_strings.cpp:238
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "HA H:M:S"
 msgstr "HA 時：分：秒"
 
-#: libindi_strings.cpp:238
+#: libindi_strings.cpp:239
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "H Alpha"
@@ -92211,128 +92219,128 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "H_Alpha"
 msgstr "H Alpha"
 
-#: libindi_strings.cpp:239
+#: libindi_strings.cpp:240
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Halt"
 msgstr "關機"
 
-#: libindi_strings.cpp:240
+#: libindi_strings.cpp:241
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Height m"
 msgstr "高度 (公尺)"
 
-#: libindi_strings.cpp:241
+#: libindi_strings.cpp:242
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Height"
 msgstr "高度"
 
-#: libindi_strings.cpp:242
+#: libindi_strings.cpp:243
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "High"
 msgstr "高"
 
-#: libindi_strings.cpp:243
+#: libindi_strings.cpp:244
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Horizontal Coords"
 msgstr "水平座標"
 
-#: libindi_strings.cpp:244
+#: libindi_strings.cpp:245
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Hour axis"
 msgstr "小時軸"
 
-#: libindi_strings.cpp:245
+#: libindi_strings.cpp:246
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Hourangle Coords"
 msgstr "小時角度座標"
 
-#: libindi_strings.cpp:246
+#: libindi_strings.cpp:247
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Hue"
 msgstr "色調"
 
-#: libindi_strings.cpp:247
+#: libindi_strings.cpp:248
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Humidity Perc."
 msgstr "濕度"
 
-#: libindi_strings.cpp:248
+#: libindi_strings.cpp:249
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "IC"
 msgstr "IC"
 
-#: libindi_strings.cpp:249
+#: libindi_strings.cpp:250
 #, fuzzy, kde-kuit-format
 #| msgid "Ignore"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Ignore dome"
 msgstr "忽略"
 
-#: libindi_strings.cpp:250
+#: libindi_strings.cpp:251
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Image Adjustments"
 msgstr "影像調整"
 
-#: libindi_strings.cpp:251
+#: libindi_strings.cpp:252
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Image Control"
 msgstr "影像控制"
 
-#: libindi_strings.cpp:252
+#: libindi_strings.cpp:253
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Image Data"
 msgstr "影像資料"
 
-#: libindi_strings.cpp:253
+#: libindi_strings.cpp:254
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Image Info"
 msgstr "影像資訊"
 
-#: libindi_strings.cpp:254
+#: libindi_strings.cpp:255
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Image Settings"
 msgstr "影像設定"
 
-#: libindi_strings.cpp:255
+#: libindi_strings.cpp:256
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Image Type"
 msgstr "影像型式"
 
-#: libindi_strings.cpp:256
+#: libindi_strings.cpp:257
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Image"
 msgstr "影像"
 
-#: libindi_strings.cpp:257
+#: libindi_strings.cpp:258
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Indoor"
 msgstr "室內"
 
-#: libindi_strings.cpp:258
+#: libindi_strings.cpp:259
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Info"
 msgstr "資訊"
 
-#: libindi_strings.cpp:259
+#: libindi_strings.cpp:260
 #, fuzzy, kde-kuit-format
 #| msgctxt "City in Turkey"
 #| msgid "Istanbul"
@@ -92340,179 +92348,179 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Instant."
 msgstr "Istanbul"
 
-#: libindi_strings.cpp:260
+#: libindi_strings.cpp:261
 #, fuzzy, kde-kuit-format
 #| msgid "Interval:"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Interface"
 msgstr "間隔："
 
-#: libindi_strings.cpp:261
+#: libindi_strings.cpp:262
 #, fuzzy, kde-kuit-format
 #| msgid "ticks"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Joystick"
 msgstr "ticks"
 
-#: libindi_strings.cpp:262
+#: libindi_strings.cpp:263
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Jupiter"
 msgstr "木星"
 
-#: libindi_strings.cpp:263
+#: libindi_strings.cpp:264
 #, fuzzy, kde-kuit-format
 #| msgid "LSR"
 msgctxt "string from libindi, used in the config dialog"
 msgid "LPR"
 msgstr "LSR"
 
-#: libindi_strings.cpp:264
+#: libindi_strings.cpp:265
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "LX200 Basic"
 msgstr "LX200 基本"
 
-#: libindi_strings.cpp:265
+#: libindi_strings.cpp:266
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Lat (dd:mm:ss)"
 msgstr "緯度（度：分：秒）"
 
-#: libindi_strings.cpp:266
+#: libindi_strings.cpp:267
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Lat.  D:M:S +N"
 msgstr "緯度 度：分：秒 +北"
 
-#: libindi_strings.cpp:267
+#: libindi_strings.cpp:268
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Lat. D:M:S +N"
 msgstr "緯度 度：分：秒 +北"
 
-#: libindi_strings.cpp:268
+#: libindi_strings.cpp:269
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Left "
 msgstr "左 "
 
-#: libindi_strings.cpp:269
+#: libindi_strings.cpp:270
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Library"
 msgstr "函式庫"
 
-#: libindi_strings.cpp:270
+#: libindi_strings.cpp:271
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Light"
 msgstr "亮"
 
-#: libindi_strings.cpp:271
+#: libindi_strings.cpp:272
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Limiting Mag"
 msgstr "限制星等"
 
-#: libindi_strings.cpp:272
+#: libindi_strings.cpp:273
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Load"
 msgstr "載入"
 
-#: libindi_strings.cpp:273
+#: libindi_strings.cpp:274
 #, fuzzy, kde-kuit-format
 #| msgid "Local"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Local"
 msgstr "本地端"
 
-#: libindi_strings.cpp:274
+#: libindi_strings.cpp:275
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Lon (dd:mm:ss)"
 msgstr "經度（度：分：秒）"
 
-#: libindi_strings.cpp:275
+#: libindi_strings.cpp:276
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Long. D:M:S +E"
 msgstr "經度 度：分：秒 +東"
 
-#: libindi_strings.cpp:276
+#: libindi_strings.cpp:277
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Low"
 msgstr "低"
 
-#: libindi_strings.cpp:277
+#: libindi_strings.cpp:278
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Luminance"
 msgstr ""
 
-#: libindi_strings.cpp:278
+#: libindi_strings.cpp:279
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Luminosity"
 msgstr "明亮度"
 
-#: libindi_strings.cpp:279
+#: libindi_strings.cpp:280
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Lunar"
 msgstr "月亮"
 
-#: libindi_strings.cpp:280
+#: libindi_strings.cpp:281
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Main Control"
 msgstr "主控制"
 
-#: libindi_strings.cpp:281
+#: libindi_strings.cpp:282
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Manual Blue"
 msgstr "手動藍"
 
-#: libindi_strings.cpp:282
+#: libindi_strings.cpp:283
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Manual Red"
 msgstr "手動紅"
 
-#: libindi_strings.cpp:283
+#: libindi_strings.cpp:284
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Manual"
 msgstr "手動"
 
-#: libindi_strings.cpp:284
+#: libindi_strings.cpp:285
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Mars"
 msgstr "火星"
 
-#: libindi_strings.cpp:285
+#: libindi_strings.cpp:286
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Master alarm"
 msgstr "主要警報"
 
-#: libindi_strings.cpp:286
+#: libindi_strings.cpp:287
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Max slew Rate"
 msgstr "最大扭轉率"
 
-#: libindi_strings.cpp:287
+#: libindi_strings.cpp:288
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Max"
 msgstr "最大值"
 
-#: libindi_strings.cpp:288
+#: libindi_strings.cpp:289
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Height"
@@ -92520,14 +92528,14 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Max. Height"
 msgstr "高度"
 
-#: libindi_strings.cpp:289
+#: libindi_strings.cpp:290
 #, fuzzy, kde-kuit-format
 #| msgid "Position"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Max. Position"
 msgstr "位置"
 
-#: libindi_strings.cpp:290
+#: libindi_strings.cpp:291
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Width"
@@ -92535,73 +92543,73 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Max. Width"
 msgstr "寬度"
 
-#: libindi_strings.cpp:291
+#: libindi_strings.cpp:292
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Max. travel"
 msgstr "最大行進"
 
-#: libindi_strings.cpp:292
+#: libindi_strings.cpp:293
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Maximum Tick"
 msgstr "最大步調"
 
-#: libindi_strings.cpp:293
+#: libindi_strings.cpp:294
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Maximum travel"
 msgstr "最大行進"
 
-#: libindi_strings.cpp:294
+#: libindi_strings.cpp:295
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Medium"
 msgstr "中等"
 
-#: libindi_strings.cpp:295
+#: libindi_strings.cpp:296
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Mercury"
 msgstr "水星"
 
-#: libindi_strings.cpp:296
+#: libindi_strings.cpp:297
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Messier"
 msgstr "梅西爾"
 
-#: libindi_strings.cpp:297
+#: libindi_strings.cpp:298
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Minimum Tick"
 msgstr "最小步調"
 
-#: libindi_strings.cpp:298
+#: libindi_strings.cpp:299
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Mode"
 msgstr "模式"
 
-#: libindi_strings.cpp:299
+#: libindi_strings.cpp:300
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Model"
 msgstr "型號"
 
-#: libindi_strings.cpp:300
+#: libindi_strings.cpp:301
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Moon"
 msgstr "月球"
 
-#: libindi_strings.cpp:301
+#: libindi_strings.cpp:302
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Motion Control"
 msgstr "移動控制"
 
-#: libindi_strings.cpp:302
+#: libindi_strings.cpp:303
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Motion"
@@ -92609,7 +92617,7 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Motion N/S"
 msgstr "移動"
 
-#: libindi_strings.cpp:303
+#: libindi_strings.cpp:304
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Motion"
@@ -92617,91 +92625,91 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Motion W/E"
 msgstr "移動"
 
-#: libindi_strings.cpp:304
+#: libindi_strings.cpp:305
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Motion"
 msgstr "移動"
 
-#: libindi_strings.cpp:305
+#: libindi_strings.cpp:306
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Motor Steps"
 msgstr "馬達步驟"
 
-#: libindi_strings.cpp:306
+#: libindi_strings.cpp:307
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Motor steps per tick"
 msgstr "每步調的馬達步驟"
 
-#: libindi_strings.cpp:307
+#: libindi_strings.cpp:308
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Mount coordinates"
 msgstr "掛載座標"
 
-#: libindi_strings.cpp:308
+#: libindi_strings.cpp:309
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Mount init."
 msgstr "掛載初始"
 
-#: libindi_strings.cpp:309
+#: libindi_strings.cpp:310
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Mounting"
 msgstr "掛載"
 
-#: libindi_strings.cpp:310
+#: libindi_strings.cpp:311
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Move to rate"
 msgstr "移動到頻率"
 
-#: libindi_strings.cpp:311
+#: libindi_strings.cpp:312
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Movement Control"
 msgstr "移動控制"
 
-#: libindi_strings.cpp:312
+#: libindi_strings.cpp:313
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "N/S Rate"
 msgstr "北/南比率"
 
-#: libindi_strings.cpp:313
+#: libindi_strings.cpp:314
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "NGC"
 msgstr "NGC"
 
-#: libindi_strings.cpp:314
+#: libindi_strings.cpp:315
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Name"
 msgstr "名稱"
 
-#: libindi_strings.cpp:315
+#: libindi_strings.cpp:316
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Neptune"
 msgstr "海王星"
 
-#: libindi_strings.cpp:316
+#: libindi_strings.cpp:317
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Noise Reduction"
 msgstr "減少雜訊"
 
-#: libindi_strings.cpp:317
+#: libindi_strings.cpp:318
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "None"
 msgstr "無"
 
-#: libindi_strings.cpp:318
+#: libindi_strings.cpp:319
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "North (msec)"
@@ -92709,147 +92717,147 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "North (ms)"
 msgstr "北 (毫秒)"
 
-#: libindi_strings.cpp:319
+#: libindi_strings.cpp:320
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "North (msec)"
 msgstr "北 (毫秒)"
 
-#: libindi_strings.cpp:320
+#: libindi_strings.cpp:321
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "North (sec)"
 msgstr "北 (秒)"
 
-#: libindi_strings.cpp:321
+#: libindi_strings.cpp:322
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "North"
 msgstr "北"
 
-#: libindi_strings.cpp:322
+#: libindi_strings.cpp:323
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "North/South"
 msgstr "北/南"
 
-#: libindi_strings.cpp:323
+#: libindi_strings.cpp:324
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Note"
 msgstr "備註"
 
-#: libindi_strings.cpp:324
+#: libindi_strings.cpp:325
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Number"
 msgstr "數字"
 
-#: libindi_strings.cpp:325
+#: libindi_strings.cpp:326
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "OFF"
 msgstr "關閉"
 
-#: libindi_strings.cpp:326
+#: libindi_strings.cpp:327
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "OIII"
 msgstr ""
 
-#: libindi_strings.cpp:327
+#: libindi_strings.cpp:328
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "ON"
 msgstr "開啟"
 
-#: libindi_strings.cpp:328
+#: libindi_strings.cpp:329
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "OTA Temperature (C)"
 msgstr "OTA 溫度（攝氏）"
 
-#: libindi_strings.cpp:329
+#: libindi_strings.cpp:330
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "OTA Update"
 msgstr "OTA 更新"
 
-#: libindi_strings.cpp:330
+#: libindi_strings.cpp:331
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Oag Offset (arcminutes)"
 msgstr "Oag 位移（弧分）"
 
-#: libindi_strings.cpp:331
+#: libindi_strings.cpp:332
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Object Info"
 msgstr "物件資訊"
 
-#: libindi_strings.cpp:332
+#: libindi_strings.cpp:333
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Object Number"
 msgstr "物件編號"
 
-#: libindi_strings.cpp:333
+#: libindi_strings.cpp:334
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Object"
 msgstr "物件"
 
-#: libindi_strings.cpp:334
+#: libindi_strings.cpp:335
 #, fuzzy, kde-kuit-format
 #| msgid "Observer"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Observer"
 msgstr "觀測者"
 
-#: libindi_strings.cpp:335
+#: libindi_strings.cpp:336
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Off"
 msgstr "關閉"
 
-#: libindi_strings.cpp:336
+#: libindi_strings.cpp:337
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Offset"
 msgstr "位移"
 
-#: libindi_strings.cpp:337
+#: libindi_strings.cpp:338
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "On Set"
 msgstr "落下時"
 
-#: libindi_strings.cpp:338
+#: libindi_strings.cpp:339
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "On"
 msgstr "開啟"
 
-#: libindi_strings.cpp:339
+#: libindi_strings.cpp:340
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Options"
 msgstr "選項"
 
-#: libindi_strings.cpp:340
+#: libindi_strings.cpp:341
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Outdoor"
 msgstr "室外"
 
-#: libindi_strings.cpp:341
+#: libindi_strings.cpp:342
 #, fuzzy, kde-kuit-format
 #| msgid "arcminutes"
 msgctxt "string from libindi, used in the config dialog"
 msgid "PAE (arcminutes)"
 msgstr "弧分"
 
-#: libindi_strings.cpp:342
+#: libindi_strings.cpp:343
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Oag Offset (arcminutes)"
@@ -92857,45 +92865,45 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "PAE Drift (minutes)"
 msgstr "Oag 位移（弧分）"
 
-#: libindi_strings.cpp:343
+#: libindi_strings.cpp:344
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "PE N/S"
 msgstr "PE 北/南"
 
-#: libindi_strings.cpp:344
+#: libindi_strings.cpp:345
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "PE W/E"
 msgstr "PE 西/東"
 
-#: libindi_strings.cpp:345
+#: libindi_strings.cpp:346
 #, fuzzy, kde-kuit-format
 #| msgid "Options"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Park Options"
 msgstr "選項"
 
-#: libindi_strings.cpp:346
+#: libindi_strings.cpp:347
 #, fuzzy, kde-kuit-format
 #| msgid "Position"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Park Position"
 msgstr "位置"
 
-#: libindi_strings.cpp:347
+#: libindi_strings.cpp:348
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Park Scope"
 msgstr "帕克望遠鏡"
 
-#: libindi_strings.cpp:348
+#: libindi_strings.cpp:349
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Park"
 msgstr "帕克"
 
-#: libindi_strings.cpp:349
+#: libindi_strings.cpp:350
 #, fuzzy, kde-kuit-format
 #| msgctxt "City in China"
 #| msgid "Peking"
@@ -92903,26 +92911,26 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Parking"
 msgstr "Peking"
 
-#: libindi_strings.cpp:350
+#: libindi_strings.cpp:351
 #, fuzzy, kde-kuit-format
 #| msgid "Period:"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Period (ms)"
 msgstr "期間："
 
-#: libindi_strings.cpp:351
+#: libindi_strings.cpp:352
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Periodic Error"
 msgstr "週期錯誤"
 
-#: libindi_strings.cpp:352
+#: libindi_strings.cpp:353
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Philips Webcam"
 msgstr "Philips 網路攝影機"
 
-#: libindi_strings.cpp:353
+#: libindi_strings.cpp:354
 #, fuzzy, kde-kuit-format
 #| msgctxt "City in Nebraska USA"
 #| msgid "Pierce"
@@ -92930,37 +92938,37 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Pier Side"
 msgstr "Pierce"
 
-#: libindi_strings.cpp:354
+#: libindi_strings.cpp:355
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Pixel size (um)"
 msgstr "像素大小 (um)"
 
-#: libindi_strings.cpp:355
+#: libindi_strings.cpp:356
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Pixel size X"
 msgstr "像素大小 X"
 
-#: libindi_strings.cpp:356
+#: libindi_strings.cpp:357
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Pixel size Y"
 msgstr "像素大小 Y"
 
-#: libindi_strings.cpp:357
+#: libindi_strings.cpp:358
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Pluto"
 msgstr "冥王星"
 
-#: libindi_strings.cpp:358
+#: libindi_strings.cpp:359
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Polar"
 msgstr "北極星"
 
-#: libindi_strings.cpp:359
+#: libindi_strings.cpp:360
 #, fuzzy, kde-kuit-format
 #| msgctxt "City in Montana USA"
 #| msgid "Billings"
@@ -92968,37 +92976,76 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Polling"
 msgstr "Billings"
 
-#: libindi_strings.cpp:360
+#: libindi_strings.cpp:361
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Port"
 msgstr "連接埠"
 
-#: libindi_strings.cpp:361
+#: libindi_strings.cpp:362
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Ports"
 msgstr "連接埠"
 
-#: libindi_strings.cpp:362
+#: libindi_strings.cpp:363
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Position"
 msgstr "位置"
 
-#: libindi_strings.cpp:363
+#: libindi_strings.cpp:364
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Power"
 msgstr "電源"
 
-#: libindi_strings.cpp:364
+#: libindi_strings.cpp:365
+#, fuzzy, kde-kuit-format
+#| msgid "Prefix:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Prefix"
+msgstr "前置文字："
+
+#: libindi_strings.cpp:366
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Pressure hPa"
 msgstr "壓力 (hPa)"
 
-#: libindi_strings.cpp:365
+#: libindi_strings.cpp:367
+#, fuzzy, kde-kuit-format
+#| msgctxt "string from libindi, used in the config dialog"
+#| msgid "reset"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Presets"
+msgstr "重置"
+
+#: libindi_strings.cpp:368
+#, fuzzy, kde-kuit-format
+#| msgctxt "string from libindi, used in the config dialog"
+#| msgid "reset"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Preset 1"
+msgstr "重置"
+
+#: libindi_strings.cpp:369
+#, fuzzy, kde-kuit-format
+#| msgctxt "string from libindi, used in the config dialog"
+#| msgid "reset"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Preset 2"
+msgstr "重置"
+
+#: libindi_strings.cpp:370
+#, fuzzy, kde-kuit-format
+#| msgctxt "string from libindi, used in the config dialog"
+#| msgid "reset"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Preset 3"
+msgstr "重置"
+
+#: libindi_strings.cpp:371
 #, fuzzy, kde-kuit-format
 #| msgctxt "City in Iowa USA"
 #| msgid "Primghar"
@@ -93006,13 +93053,13 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Primary"
 msgstr "Primghar"
 
-#: libindi_strings.cpp:366
+#: libindi_strings.cpp:372
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Property"
 msgstr "屬性"
 
-#: libindi_strings.cpp:367
+#: libindi_strings.cpp:373
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Image Data"
@@ -93020,7 +93067,7 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Purge Data"
 msgstr "影像資料"
 
-#: libindi_strings.cpp:368
+#: libindi_strings.cpp:374
 #, fuzzy, kde-kuit-format
 #| msgctxt "City in Newfoundland Canada"
 #| msgid "Burgeo"
@@ -93028,141 +93075,141 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Purge"
 msgstr "Burgeo"
 
-#: libindi_strings.cpp:369
+#: libindi_strings.cpp:375
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "RA  H:M:S"
 msgstr "赤經  時：分：秒"
 
-#: libindi_strings.cpp:370
+#: libindi_strings.cpp:376
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "RA (arcmin)"
 msgstr "赤經（弧分）"
 
-#: libindi_strings.cpp:371
+#: libindi_strings.cpp:377
 #, fuzzy, kde-kuit-format
 #| msgid "dRA (arcsec)"
 msgctxt "string from libindi, used in the config dialog"
 msgid "RA (arcsecs/s)"
 msgstr "赤經（弧分）"
 
-#: libindi_strings.cpp:372
+#: libindi_strings.cpp:378
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "RA (hh:mm:ss)"
 msgstr "赤經（時：分：秒）"
 
-#: libindi_strings.cpp:373
+#: libindi_strings.cpp:379
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "RA H:M:S"
 msgstr "赤經  時：分：秒"
 
-#: libindi_strings.cpp:374
+#: libindi_strings.cpp:380
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "RA motor"
 msgstr "赤經  馬達"
 
-#: libindi_strings.cpp:375
+#: libindi_strings.cpp:381
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Ra (hh:mm:ss)"
 msgstr "赤經（時：分：秒）"
 
-#: libindi_strings.cpp:376
+#: libindi_strings.cpp:382
 #, fuzzy, kde-kuit-format
 #| msgid "Rapid Guide"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Rapid Guide"
 msgstr "快速引導"
 
-#: libindi_strings.cpp:377
+#: libindi_strings.cpp:383
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Rate"
 msgstr "比率"
 
-#: libindi_strings.cpp:378
+#: libindi_strings.cpp:384
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Raw"
 msgstr "原始"
 
-#: libindi_strings.cpp:379
+#: libindi_strings.cpp:385
 #, fuzzy, kde-kuit-format
 #| msgid "Plate Solve Options"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Record (Duration)"
 msgstr "星體自動識別選項"
 
-#: libindi_strings.cpp:380
+#: libindi_strings.cpp:386
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Record (Frames)"
 msgstr ""
 
-#: libindi_strings.cpp:381
+#: libindi_strings.cpp:387
 #, fuzzy, kde-kuit-format
 #| msgid "Import File"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Record File"
 msgstr "匯入檔案"
 
-#: libindi_strings.cpp:382
+#: libindi_strings.cpp:388
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Record Off"
 msgstr ""
 
-#: libindi_strings.cpp:383
+#: libindi_strings.cpp:389
 #, fuzzy, kde-kuit-format
 #| msgid "Plate Solve Options"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Record On"
 msgstr "星體自動識別選項"
 
-#: libindi_strings.cpp:384
+#: libindi_strings.cpp:390
 #, fuzzy, kde-kuit-format
 #| msgid "Plate Solve Options"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Record Options"
 msgstr "星體自動識別選項"
 
-#: libindi_strings.cpp:385
+#: libindi_strings.cpp:391
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Recorder"
 msgstr ""
 
-#: libindi_strings.cpp:386
+#: libindi_strings.cpp:392
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Red"
 msgstr "紅"
 
-#: libindi_strings.cpp:387
+#: libindi_strings.cpp:393
 #, fuzzy, kde-kuit-format
 #| msgid "2. Select Devices"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Refresh"
 msgstr "2. 選擇裝置"
 
-#: libindi_strings.cpp:388
+#: libindi_strings.cpp:394
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Relative Position"
 msgstr "相對位置"
 
-#: libindi_strings.cpp:389
+#: libindi_strings.cpp:395
 #, fuzzy, kde-kuit-format
 #| msgid "Interactive Mode"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Relative"
 msgstr "互動模式"
 
-#: libindi_strings.cpp:390
+#: libindi_strings.cpp:396
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "reset"
@@ -93170,93 +93217,93 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Reset"
 msgstr "重置"
 
-#: libindi_strings.cpp:391
+#: libindi_strings.cpp:397
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Resolution x"
 msgstr "解析度 x"
 
-#: libindi_strings.cpp:392
+#: libindi_strings.cpp:398
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Resolution y"
 msgstr "解析度 y"
 
-#: libindi_strings.cpp:393
+#: libindi_strings.cpp:399
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Restart"
 msgstr "重新啟動"
 
-#: libindi_strings.cpp:394
+#: libindi_strings.cpp:400
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Restore"
 msgstr "回復"
 
-#: libindi_strings.cpp:395
+#: libindi_strings.cpp:401
 #, fuzzy, kde-kuit-format
 #| msgid "Longitude in degrees"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Rotation CW (degrees)"
 msgstr "經度（以度為單位）"
 
-#: libindi_strings.cpp:396
+#: libindi_strings.cpp:402
 #, fuzzy, kde-kuit-format
 #| msgid "Rotation:"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Rotation"
 msgstr "旋轉："
 
-#: libindi_strings.cpp:397
+#: libindi_strings.cpp:403
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "SAO"
 msgstr "SAO"
 
-#: libindi_strings.cpp:398
+#: libindi_strings.cpp:404
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "SII"
 msgstr ""
 
-#: libindi_strings.cpp:399
+#: libindi_strings.cpp:405
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "SQM"
 msgstr ""
 
-#: libindi_strings.cpp:400
+#: libindi_strings.cpp:406
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "STAR"
 msgstr "STAR"
 
-#: libindi_strings.cpp:401
+#: libindi_strings.cpp:407
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Saturation Mag"
 msgstr "飽和度星等"
 
-#: libindi_strings.cpp:402
+#: libindi_strings.cpp:408
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Saturn"
 msgstr "土星"
 
-#: libindi_strings.cpp:403
+#: libindi_strings.cpp:409
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Save home"
 msgstr "儲存家位置"
 
-#: libindi_strings.cpp:404
+#: libindi_strings.cpp:410
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Save"
 msgstr "儲存"
 
-#: libindi_strings.cpp:405
+#: libindi_strings.cpp:411
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Ports"
@@ -93264,20 +93311,20 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Scan Ports"
 msgstr "連接埠"
 
-#: libindi_strings.cpp:406
+#: libindi_strings.cpp:412
 #, fuzzy, kde-kuit-format
 #| msgid "config:"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Scope Configs"
 msgstr "設定："
 
-#: libindi_strings.cpp:407
+#: libindi_strings.cpp:413
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Scope Location"
 msgstr "望遠鏡位置"
 
-#: libindi_strings.cpp:408
+#: libindi_strings.cpp:414
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Site Name"
@@ -93285,37 +93332,37 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Scope Name"
 msgstr "站台名稱"
 
-#: libindi_strings.cpp:409
+#: libindi_strings.cpp:415
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Scope Properties"
 msgstr "望遠鏡屬性"
 
-#: libindi_strings.cpp:410
+#: libindi_strings.cpp:416
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Seeing"
 msgstr "視覺"
 
-#: libindi_strings.cpp:411
+#: libindi_strings.cpp:417
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Select item..."
 msgstr "選擇項目..."
 
-#: libindi_strings.cpp:412
+#: libindi_strings.cpp:418
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Select"
 msgstr "選擇"
 
-#: libindi_strings.cpp:413
+#: libindi_strings.cpp:419
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Selenographic Sync"
 msgstr "立體投影同步"
 
-#: libindi_strings.cpp:414
+#: libindi_strings.cpp:420
 #, fuzzy, kde-kuit-format
 #| msgctxt "Region/state in Russia"
 #| msgid "Siberia"
@@ -93323,146 +93370,146 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Serial"
 msgstr "Siberia（西伯利亞）"
 
-#: libindi_strings.cpp:415
+#: libindi_strings.cpp:421
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Set Register"
 msgstr "設定暫存器"
 
-#: libindi_strings.cpp:416
+#: libindi_strings.cpp:422
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Set home"
 msgstr "設定家位置"
 
-#: libindi_strings.cpp:417
+#: libindi_strings.cpp:423
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Set register"
 msgstr "設定暫存器"
 
-#: libindi_strings.cpp:418
+#: libindi_strings.cpp:424
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Set"
 msgstr "設定"
 
-#: libindi_strings.cpp:419
+#: libindi_strings.cpp:425
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Settings"
 msgstr "設定"
 
-#: libindi_strings.cpp:420
+#: libindi_strings.cpp:426
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Shutter Speed"
 msgstr "快門速度"
 
-#: libindi_strings.cpp:421
+#: libindi_strings.cpp:427
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Sidereal Time"
 msgstr "恆星時間"
 
-#: libindi_strings.cpp:422
+#: libindi_strings.cpp:428
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Sidereal time"
 msgstr "恆星時間"
 
-#: libindi_strings.cpp:423
+#: libindi_strings.cpp:429
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Sidereal"
 msgstr "恆星"
 
-#: libindi_strings.cpp:424
+#: libindi_strings.cpp:430
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Simulation"
 msgstr "模擬"
 
-#: libindi_strings.cpp:425
+#: libindi_strings.cpp:431
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Simulator Config"
 msgstr "模擬器設定"
 
-#: libindi_strings.cpp:426
+#: libindi_strings.cpp:432
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Simulator Settings"
 msgstr "模擬器設定"
 
-#: libindi_strings.cpp:427
+#: libindi_strings.cpp:433
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Site 1"
 msgstr "站台 1"
 
-#: libindi_strings.cpp:428
+#: libindi_strings.cpp:434
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Site 2"
 msgstr "站台 2"
 
-#: libindi_strings.cpp:429
+#: libindi_strings.cpp:435
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Site 3"
 msgstr "站台 3"
 
-#: libindi_strings.cpp:430
+#: libindi_strings.cpp:436
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Site 4"
 msgstr "站台 4"
 
-#: libindi_strings.cpp:431
+#: libindi_strings.cpp:437
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Site Management"
 msgstr "站台管理者"
 
-#: libindi_strings.cpp:432
+#: libindi_strings.cpp:438
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Site Name"
 msgstr "站台名稱"
 
-#: libindi_strings.cpp:433
+#: libindi_strings.cpp:439
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Sites"
 msgstr "站台"
 
-#: libindi_strings.cpp:434
+#: libindi_strings.cpp:440
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Sky Glow (magnitudes)"
 msgstr "天體閃光（星等）"
 
-#: libindi_strings.cpp:435
+#: libindi_strings.cpp:441
 #, fuzzy, kde-kuit-format
 #| msgid "JPEG Quality"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Sky Quality"
 msgstr "JPEG 品質"
 
-#: libindi_strings.cpp:436
+#: libindi_strings.cpp:442
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Sleep"
 msgstr "睡眠"
 
-#: libindi_strings.cpp:437
+#: libindi_strings.cpp:443
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Slew Accuracy"
 msgstr "扭轉精確度"
 
-#: libindi_strings.cpp:438
+#: libindi_strings.cpp:444
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Slew rate"
@@ -93470,68 +93517,68 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Slew Rate"
 msgstr "扭轉率"
 
-#: libindi_strings.cpp:439
+#: libindi_strings.cpp:445
 #, fuzzy, kde-kuit-format
 #| msgid "Slew to Target"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Slew Target"
 msgstr "旋轉到目標"
 
-#: libindi_strings.cpp:440
+#: libindi_strings.cpp:446
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Slew rate"
 msgstr "扭轉率"
 
-#: libindi_strings.cpp:441
+#: libindi_strings.cpp:447
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Slew"
 msgstr "扭轉"
 
-#: libindi_strings.cpp:442
+#: libindi_strings.cpp:448
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Slow"
 msgstr "慢"
 
-#: libindi_strings.cpp:443
+#: libindi_strings.cpp:449
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Snoop dc connection"
 msgstr "監視 dc 連線"
 
-#: libindi_strings.cpp:444
+#: libindi_strings.cpp:450
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Snoop dc master alarm"
 msgstr "監視 dc 主要警報"
 
-#: libindi_strings.cpp:445
+#: libindi_strings.cpp:451
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Snoop dc mode"
 msgstr "監視 dc 模式"
 
-#: libindi_strings.cpp:446
+#: libindi_strings.cpp:452
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Snoop devices"
 msgstr "監視裝置"
 
-#: libindi_strings.cpp:447
+#: libindi_strings.cpp:453
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Solar System"
 msgstr "太陽系"
 
-#: libindi_strings.cpp:448
+#: libindi_strings.cpp:454
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Solar"
 msgstr "太陽"
 
-#: libindi_strings.cpp:449
+#: libindi_strings.cpp:455
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "South (msec)"
@@ -93539,61 +93586,68 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "South (ms)"
 msgstr "南 (毫秒)"
 
-#: libindi_strings.cpp:450
+#: libindi_strings.cpp:456
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "South (msec)"
 msgstr "南 (毫秒)"
 
-#: libindi_strings.cpp:451
+#: libindi_strings.cpp:457
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "South (sec)"
 msgstr "南 (秒)"
 
-#: libindi_strings.cpp:452
+#: libindi_strings.cpp:458
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "South"
 msgstr "南"
 
-#: libindi_strings.cpp:453
+#: libindi_strings.cpp:459
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Speed"
 msgstr "速度"
 
-#: libindi_strings.cpp:454
+#: libindi_strings.cpp:460
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Star Catalogs"
 msgstr "星表"
 
-#: libindi_strings.cpp:455
+#: libindi_strings.cpp:461
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Step delay"
 msgstr "單步延遲"
 
-#: libindi_strings.cpp:456
+#: libindi_strings.cpp:462
+#, fuzzy, kde-kuit-format
+#| msgid "Step:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Steps"
+msgstr "間隔值："
+
+#: libindi_strings.cpp:463
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Stop"
 msgstr "停止"
 
-#: libindi_strings.cpp:457
+#: libindi_strings.cpp:464
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Stream Off"
 msgstr "串流關閉"
 
-#: libindi_strings.cpp:458
+#: libindi_strings.cpp:465
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Stream On"
 msgstr "串流開啟"
 
-#: libindi_strings.cpp:459
+#: libindi_strings.cpp:466
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Stream On"
@@ -93601,85 +93655,85 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Streaming"
 msgstr "串流開啟"
 
-#: libindi_strings.cpp:460
+#: libindi_strings.cpp:467
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Swap buttons"
 msgstr "交換按鍵"
 
-#: libindi_strings.cpp:461
+#: libindi_strings.cpp:468
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Switch 1"
 msgstr "開關 1"
 
-#: libindi_strings.cpp:462
+#: libindi_strings.cpp:469
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Switch 2"
 msgstr "開關 2"
 
-#: libindi_strings.cpp:463
+#: libindi_strings.cpp:470
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Switch 3"
 msgstr "開關 3"
 
-#: libindi_strings.cpp:464
+#: libindi_strings.cpp:471
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Switch 4"
 msgstr "開關 4"
 
-#: libindi_strings.cpp:465
+#: libindi_strings.cpp:472
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Sync"
 msgstr "同步"
 
-#: libindi_strings.cpp:466 libindi_strings.cpp:467
+#: libindi_strings.cpp:473
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Telescope Simulator"
 msgstr "望遠鏡模擬器"
 
-#: libindi_strings.cpp:468
+#: libindi_strings.cpp:474
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Telescope"
 msgstr "望遠鏡"
 
-#: libindi_strings.cpp:469
+#: libindi_strings.cpp:475
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Telescopes"
 msgstr "望遠鏡"
 
-#: libindi_strings.cpp:470
+#: libindi_strings.cpp:476
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Temma Driver"
 msgstr "Temma 驅動程式"
 
-#: libindi_strings.cpp:471
+#: libindi_strings.cpp:477
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Temma version"
 msgstr "Temma 版本"
 
-#: libindi_strings.cpp:472
+#: libindi_strings.cpp:478
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Temma"
 msgstr "Temma"
 
-#: libindi_strings.cpp:473
+#: libindi_strings.cpp:479
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Temp."
 msgstr "溫度"
 
-#: libindi_strings.cpp:474
+#: libindi_strings.cpp:480
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "OTA Temperature (C)"
@@ -93687,13 +93741,13 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Temperature (C)"
 msgstr "OTA 溫度（攝氏）"
 
-#: libindi_strings.cpp:475
+#: libindi_strings.cpp:481
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Temperature K"
 msgstr "溫度 K"
 
-#: libindi_strings.cpp:476
+#: libindi_strings.cpp:482
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Temperature K"
@@ -93701,61 +93755,61 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Temperature"
 msgstr "溫度 K"
 
-#: libindi_strings.cpp:477
+#: libindi_strings.cpp:483
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Theta D:M:S"
 msgstr "Theta 度：分：秒"
 
-#: libindi_strings.cpp:478
+#: libindi_strings.cpp:484
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Ticks"
 msgstr "步調"
 
-#: libindi_strings.cpp:479
+#: libindi_strings.cpp:485
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Time Factor"
 msgstr "時間因素"
 
-#: libindi_strings.cpp:480
+#: libindi_strings.cpp:486
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Time"
 msgstr "時間"
 
-#: libindi_strings.cpp:481
+#: libindi_strings.cpp:487
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Timer (ms)"
 msgstr "計時器 (毫秒)"
 
-#: libindi_strings.cpp:482
+#: libindi_strings.cpp:488
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Timer"
 msgstr "計時器"
 
-#: libindi_strings.cpp:483
+#: libindi_strings.cpp:489
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Top"
 msgstr "頂端"
 
-#: libindi_strings.cpp:484
+#: libindi_strings.cpp:490
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Total Exposure Time (ms)"
 msgstr "總曝光時間 (毫秒)"
 
-#: libindi_strings.cpp:485
+#: libindi_strings.cpp:491
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Track Mode"
 msgstr "追蹤模式"
 
-#: libindi_strings.cpp:486
+#: libindi_strings.cpp:492
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Track Mode"
@@ -93763,106 +93817,106 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Track Rates"
 msgstr "追蹤模式"
 
-#: libindi_strings.cpp:487
+#: libindi_strings.cpp:493
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Track"
 msgstr "追蹤"
 
-#: libindi_strings.cpp:488
+#: libindi_strings.cpp:494
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Tracking Accuracy"
 msgstr "追蹤精確度"
 
-#: libindi_strings.cpp:489
+#: libindi_strings.cpp:495
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Tracking Frequency"
 msgstr "追蹤頻率"
 
-#: libindi_strings.cpp:490
+#: libindi_strings.cpp:496
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Tracking Mode"
 msgstr "追蹤模式"
 
-#: libindi_strings.cpp:491
+#: libindi_strings.cpp:497
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Tracking mode"
 msgstr "追蹤模式"
 
-#: libindi_strings.cpp:492
+#: libindi_strings.cpp:498
 #, fuzzy, kde-kuit-format
 #| msgid "Track"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Tracking"
 msgstr "軌跡"
 
-#: libindi_strings.cpp:493
+#: libindi_strings.cpp:499
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Transformation"
 msgstr "轉換"
 
-#: libindi_strings.cpp:494
+#: libindi_strings.cpp:500
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "UGC"
 msgstr "UGC"
 
-#: libindi_strings.cpp:495
+#: libindi_strings.cpp:501
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "UTC Offset"
 msgstr "UTC 位移"
 
-#: libindi_strings.cpp:496
+#: libindi_strings.cpp:502
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "UTC Time"
 msgstr "UTC 時間"
 
-#: libindi_strings.cpp:497
+#: libindi_strings.cpp:503
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "UTC"
 msgstr "UTC"
 
-#: libindi_strings.cpp:498
+#: libindi_strings.cpp:504
 #, fuzzy, kde-kuit-format
 #| msgid "UnPark"
 msgctxt "string from libindi, used in the config dialog"
 msgid "UnPark"
 msgstr "取消停駐"
 
-#: libindi_strings.cpp:499
+#: libindi_strings.cpp:505
 #, fuzzy, kde-kuit-format
 #| msgid "Unknown"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Unknown"
 msgstr "未知"
 
-#: libindi_strings.cpp:500
+#: libindi_strings.cpp:506
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Update Client"
 msgstr "更新客戶端"
 
-#: libindi_strings.cpp:501
+#: libindi_strings.cpp:507
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Update GPS"
 msgstr "更新 GPS"
 
-#: libindi_strings.cpp:502
+#: libindi_strings.cpp:508
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Update"
 msgstr "更新"
 
-#: libindi_strings.cpp:503
+#: libindi_strings.cpp:509
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Simulator Settings"
@@ -93870,81 +93924,81 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "Upload Settings"
 msgstr "模擬器設定"
 
-#: libindi_strings.cpp:504
+#: libindi_strings.cpp:510
 #, fuzzy, kde-kuit-format
 #| msgid "Upload"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Upload"
 msgstr "上傳"
 
-#: libindi_strings.cpp:505
+#: libindi_strings.cpp:511
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Uranus"
 msgstr "天王星"
 
-#: libindi_strings.cpp:506
+#: libindi_strings.cpp:512
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Use Pulse Cmd"
 msgstr "用脈衝指令"
 
-#: libindi_strings.cpp:507
+#: libindi_strings.cpp:513
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Venus"
 msgstr "金星"
 
-#: libindi_strings.cpp:508
+#: libindi_strings.cpp:514
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Version"
 msgstr "版本"
 
-#: libindi_strings.cpp:509
+#: libindi_strings.cpp:515
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Video Record"
 msgstr ""
 
-#: libindi_strings.cpp:510
+#: libindi_strings.cpp:516
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Video Stream"
 msgstr "視訊流"
 
-#: libindi_strings.cpp:511
+#: libindi_strings.cpp:517
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Video"
 msgstr "視訊"
 
-#: libindi_strings.cpp:512
+#: libindi_strings.cpp:518
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "W/E Rate"
 msgstr "西/東比率"
 
-#: libindi_strings.cpp:513
+#: libindi_strings.cpp:519
 #, fuzzy, kde-kuit-format
 #| msgid "WCS"
 msgctxt "string from libindi, used in the config dialog"
 msgid "WCS"
 msgstr "WCS"
 
-#: libindi_strings.cpp:514
+#: libindi_strings.cpp:520
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Wake up"
 msgstr "叫醒"
 
-#: libindi_strings.cpp:515
+#: libindi_strings.cpp:521
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Webcam Name"
 msgstr "網路攝影機名稱"
 
-#: libindi_strings.cpp:516
+#: libindi_strings.cpp:522
 #, fuzzy, kde-kuit-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "West (msec)"
@@ -93952,200 +94006,200 @@ msgctxt "string from libindi, used in the config dialog"
 msgid "West (ms)"
 msgstr "西 (毫秒)"
 
-#: libindi_strings.cpp:517
+#: libindi_strings.cpp:523
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "West (msec)"
 msgstr "西 (毫秒)"
 
-#: libindi_strings.cpp:518
+#: libindi_strings.cpp:524
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "West (pointing east)"
 msgstr ""
 
-#: libindi_strings.cpp:519
+#: libindi_strings.cpp:525
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "West (sec)"
 msgstr "西 (秒)"
 
-#: libindi_strings.cpp:520
+#: libindi_strings.cpp:526
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "West"
 msgstr "西"
 
-#: libindi_strings.cpp:521
+#: libindi_strings.cpp:527
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "West/East"
 msgstr "西/東"
 
-#: libindi_strings.cpp:522
+#: libindi_strings.cpp:528
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "White Balance Mode"
 msgstr "白平衡模式"
 
-#: libindi_strings.cpp:523
+#: libindi_strings.cpp:529
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "White Balance"
 msgstr "白平衡"
 
-#: libindi_strings.cpp:524
+#: libindi_strings.cpp:530
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Whiteness"
 msgstr "白度"
 
-#: libindi_strings.cpp:525
+#: libindi_strings.cpp:531
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Width"
 msgstr "寬度"
 
-#: libindi_strings.cpp:526
+#: libindi_strings.cpp:532
 #, fuzzy, kde-kuit-format
 #| msgid "Script Data"
 msgctxt "string from libindi, used in the config dialog"
 msgid "Write Data"
 msgstr "文稿資料"
 
-#: libindi_strings.cpp:527
+#: libindi_strings.cpp:533
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "X"
 msgstr "X"
 
-#: libindi_strings.cpp:528
+#: libindi_strings.cpp:534
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "Y"
 msgstr "Y"
 
-#: libindi_strings.cpp:529
+#: libindi_strings.cpp:535
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "app. to refracted"
 msgstr "估計折射"
 
-#: libindi_strings.cpp:530
+#: libindi_strings.cpp:536
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "app., refr., tel., observed"
 msgstr "app., refr., tel., observed"
 
-#: libindi_strings.cpp:531
+#: libindi_strings.cpp:537
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "app., refr., telescope"
 msgstr "app., refr., telescope"
 
-#: libindi_strings.cpp:532
+#: libindi_strings.cpp:538
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "arcseconds"
 msgstr "弧秒"
 
-#: libindi_strings.cpp:533
+#: libindi_strings.cpp:539
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "cold"
 msgstr "冷"
 
-#: libindi_strings.cpp:534
+#: libindi_strings.cpp:540
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "danger"
 msgstr "危險"
 
-#: libindi_strings.cpp:535
+#: libindi_strings.cpp:541
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "decPEC (dd:mm:ss)"
 msgstr "decPEC (度：分：秒)"
 
-#: libindi_strings.cpp:536
+#: libindi_strings.cpp:542
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "dome control"
 msgstr "球機控制"
 
-#: libindi_strings.cpp:537
+#: libindi_strings.cpp:543
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "identity"
 msgstr "身份"
 
-#: libindi_strings.cpp:538
+#: libindi_strings.cpp:544
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "lunar"
 msgstr "月亮"
 
-#: libindi_strings.cpp:539
+#: libindi_strings.cpp:545
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "manual"
 msgstr "手動"
 
-#: libindi_strings.cpp:540
+#: libindi_strings.cpp:546
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "max Alt"
 msgstr "最大高度"
 
-#: libindi_strings.cpp:541
+#: libindi_strings.cpp:547
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "min Alt"
 msgstr "最小高度"
 
-#: libindi_strings.cpp:542
+#: libindi_strings.cpp:548
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "off"
 msgstr "關閉"
 
-#: libindi_strings.cpp:543
+#: libindi_strings.cpp:549
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "on"
 msgstr "開啟"
 
-#: libindi_strings.cpp:544
+#: libindi_strings.cpp:550
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "rel. to HA"
 msgstr "相對於 HA"
 
-#: libindi_strings.cpp:545
+#: libindi_strings.cpp:551
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "reset"
 msgstr "重置"
 
-#: libindi_strings.cpp:546
+#: libindi_strings.cpp:552
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "sidereal"
 msgstr "恆星"
 
-#: libindi_strings.cpp:547
+#: libindi_strings.cpp:553
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "solar"
 msgstr "太陽"
 
-#: libindi_strings.cpp:548
+#: libindi_strings.cpp:554
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "undefined"
 msgstr "未定義"
 
-#: libindi_strings.cpp:549
+#: libindi_strings.cpp:555
 #, kde-kuit-format
 msgctxt "string from libindi, used in the config dialog"
 msgid "warm"
