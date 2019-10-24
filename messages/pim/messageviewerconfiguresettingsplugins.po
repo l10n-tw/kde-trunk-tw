@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-23 03:14+0200\n"
+"POT-Creation-Date: 2019-10-24 03:23+0200\n"
 "PO-Revision-Date: 2019-03-22 00:33+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -17,22 +17,27 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 18.12.3\n"
 
-#: dkim-verify/dkimadvancedwidget.cpp:38
+#: dkim-verify/dkimadvancedwidget.cpp:37
+#, kde-format
+msgid "Still verify the signature, if a domain is only testing DKIM"
+msgstr ""
+
+#: dkim-verify/dkimadvancedwidget.cpp:43
 #, kde-format
 msgid "Nothing"
 msgstr ""
 
-#: dkim-verify/dkimadvancedwidget.cpp:38
+#: dkim-verify/dkimadvancedwidget.cpp:43
 #, kde-format
 msgid "Warning"
 msgstr ""
 
-#: dkim-verify/dkimadvancedwidget.cpp:38
+#: dkim-verify/dkimadvancedwidget.cpp:43
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: dkim-verify/dkimadvancedwidget.cpp:40
+#: dkim-verify/dkimadvancedwidget.cpp:45
 #, kde-format
 msgid "Treat RSA-SHA1 sign algorithm as:"
 msgstr ""

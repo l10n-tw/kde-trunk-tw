@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-23 02:34+0200\n"
+"POT-Creation-Date: 2019-10-24 02:38+0200\n"
 "PO-Revision-Date: 2019-01-03 18:34+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -7581,11 +7581,14 @@ msgstr "容錯值："
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ASTAPDownSample)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_ASTAPDownSampleValue)
 #: ekos/align/opsastap.ui:53 ekos/align/opsastap.ui:66
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<html><head/><body><p>Enforce temperature value before capturing an "
+#| "image</p></body></html>"
 msgid ""
 "<html><head/><body><p>Down sample prior to solving. Also called binning. A "
-"zero value 0 will result in auto selection downsampling.</p></body></html>"
-msgstr ""
+"zero value will result in auto selection downsampling.</p></body></html>"
+msgstr "<html><head/><body><p>抓取影像前強制設定溫度值</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ASTAPDownSample)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AstrometryUseDownsample)

@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-22 02:42+0200\n"
+"POT-Creation-Date: 2019-10-24 02:56+0200\n"
 "PO-Revision-Date: 2019-10-09 20:40+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -3772,12 +3772,12 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ioslaves/ftp/ftp.cpp:569 ioslaves/http/http.cpp:5343
+#: ioslaves/ftp/ftp.cpp:569 ioslaves/http/http.cpp:5344
 #, kde-format
 msgid "You need to supply a username and a password to access this site."
 msgstr "您必須提供一組使用者名稱和密碼來存取這個網站。"
 
-#: ioslaves/ftp/ftp.cpp:571 ioslaves/http/http.cpp:5345
+#: ioslaves/ftp/ftp.cpp:571 ioslaves/http/http.cpp:5346
 #, kde-format
 msgid "Site:"
 msgstr "網站:"
@@ -3806,8 +3806,8 @@ msgstr ""
 "\n"
 "伺服器回傳：「%1」"
 
-#: ioslaves/ftp/ftp.cpp:2603 ioslaves/http/http.cpp:5224
-#: ioslaves/http/http.cpp:5357
+#: ioslaves/ftp/ftp.cpp:2603 ioslaves/http/http.cpp:5225
+#: ioslaves/http/http.cpp:5358
 #, kde-format
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
@@ -3815,14 +3815,14 @@ msgid ""
 msgstr ""
 "您必須為下列的代理伺服器提供一組使用者名稱和密碼，才能夠取得存取網站的權限。"
 
-#: ioslaves/ftp/ftp.cpp:2607 ioslaves/http/http.cpp:5228
-#: ioslaves/http/http.cpp:5360
+#: ioslaves/ftp/ftp.cpp:2607 ioslaves/http/http.cpp:5229
+#: ioslaves/http/http.cpp:5361
 #, kde-format
 msgid "Proxy:"
 msgstr "代理伺服器:"
 
-#: ioslaves/ftp/ftp.cpp:2610 ioslaves/http/http.cpp:5231
-#: ioslaves/http/http.cpp:5377
+#: ioslaves/ftp/ftp.cpp:2610 ioslaves/http/http.cpp:5232
+#: ioslaves/http/http.cpp:5378
 #, kde-format
 msgid "Proxy Authentication Failed."
 msgstr "代理伺服器認證失敗。"
@@ -3867,100 +3867,100 @@ msgstr "正在找尋段落"
 msgid "Could not find filename %1 in %2."
 msgstr "在%2當中找不到名稱為 %1 的檔案。"
 
-#: ioslaves/http/http.cpp:596
+#: ioslaves/http/http.cpp:597
 #, kde-format
 msgid "No host specified."
 msgstr "沒有指定主機。"
 
-#: ioslaves/http/http.cpp:1554
+#: ioslaves/http/http.cpp:1555
 #, kde-format
 msgid "Otherwise, the request would have succeeded."
 msgstr "否則，該請求就已經成功了。"
 
-#: ioslaves/http/http.cpp:1558
+#: ioslaves/http/http.cpp:1559
 #, kde-format
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr "接收屬性數值"
 
-#: ioslaves/http/http.cpp:1561
+#: ioslaves/http/http.cpp:1562
 #, kde-format
 msgctxt "request type"
 msgid "set property values"
 msgstr "設定屬性數值"
 
-#: ioslaves/http/http.cpp:1564
+#: ioslaves/http/http.cpp:1565
 #, kde-format
 msgctxt "request type"
 msgid "create the requested folder"
 msgstr "建立所請求的資料夾"
 
-#: ioslaves/http/http.cpp:1567
+#: ioslaves/http/http.cpp:1568
 #, kde-format
 msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr "複製指定的檔案或資料夾"
 
-#: ioslaves/http/http.cpp:1570
+#: ioslaves/http/http.cpp:1571
 #, kde-format
 msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr "搬移指定的檔案或資料夾"
 
-#: ioslaves/http/http.cpp:1573
+#: ioslaves/http/http.cpp:1574
 #, kde-format
 msgctxt "request type"
 msgid "search in the specified folder"
 msgstr "在指定的資料夾搜尋"
 
-#: ioslaves/http/http.cpp:1576
+#: ioslaves/http/http.cpp:1577
 #, kde-format
 msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr "鎖住指定的檔案或資料夾"
 
-#: ioslaves/http/http.cpp:1579
+#: ioslaves/http/http.cpp:1580
 #, kde-format
 msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr "解除鎖定指定的檔案或資料夾"
 
-#: ioslaves/http/http.cpp:1582
+#: ioslaves/http/http.cpp:1583
 #, kde-format
 msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr "刪除指定的檔案或資料夾"
 
-#: ioslaves/http/http.cpp:1585
+#: ioslaves/http/http.cpp:1586
 #, kde-format
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr "查詢伺服器的性能"
 
-#: ioslaves/http/http.cpp:1588
+#: ioslaves/http/http.cpp:1589
 #, kde-format
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr "接收所指定的檔案或資料夾的內容"
 
-#: ioslaves/http/http.cpp:1591
+#: ioslaves/http/http.cpp:1592
 #, kde-format
 msgctxt "request type"
 msgid "run a report in the specified folder"
 msgstr "在指定的資料夾執行報告"
 
-#: ioslaves/http/http.cpp:1602
+#: ioslaves/http/http.cpp:1603
 #, kde-format
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "在連線到 %2 發生了非預期的錯誤 (%1)。"
 
-#: ioslaves/http/http.cpp:1609
+#: ioslaves/http/http.cpp:1610
 #, kde-format
 msgid "The server does not support the WebDAV protocol."
 msgstr "對方伺服器並不支援 WebDAV 通訊協定。"
 
-#: ioslaves/http/http.cpp:1650
+#: ioslaves/http/http.cpp:1651
 #, kde-format
 msgctxt "%1: request type, %2: url"
 msgid ""
@@ -3968,20 +3968,20 @@ msgid ""
 "below."
 msgstr "在連線到 %2 要求 %1 時發生錯誤。錯誤原因如下。"
 
-#: ioslaves/http/http.cpp:1666 ioslaves/http/http.cpp:1799
+#: ioslaves/http/http.cpp:1667 ioslaves/http/http.cpp:1800
 #, kde-format
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "連線到 %1 被拒絕，存取失敗。"
 
-#: ioslaves/http/http.cpp:1679 ioslaves/http/http.cpp:1805
+#: ioslaves/http/http.cpp:1680 ioslaves/http/http.cpp:1806
 #, kde-format
 msgid ""
 "A resource cannot be created at the destination until one or more "
 "intermediate collections (folders) have been created."
 msgstr "資源無法在目標被建立，直到一個或多個中間集合(資料夾)已經被建立之後。"
 
-#: ioslaves/http/http.cpp:1687
+#: ioslaves/http/http.cpp:1688
 #, kde-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -3994,28 +3994,28 @@ msgstr ""
 "的\n"
 "檔案裡覆寫一個檔案。 %1"
 
-#: ioslaves/http/http.cpp:1695
+#: ioslaves/http/http.cpp:1696
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr "發出的鎖定請求無法被許可。%1"
 
-#: ioslaves/http/http.cpp:1701
+#: ioslaves/http/http.cpp:1702
 #, kde-format
 msgid "The server does not support the request type of the body."
 msgstr "伺服器並不支援請求內容的類型。"
 
-#: ioslaves/http/http.cpp:1706 ioslaves/http/http.cpp:1813
+#: ioslaves/http/http.cpp:1707 ioslaves/http/http.cpp:1814
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr "無法連線到 %1，因為資源被鎖定，所以無法進行。"
 
-#: ioslaves/http/http.cpp:1710
+#: ioslaves/http/http.cpp:1711
 #, kde-format
 msgid "This action was prevented by another error."
 msgstr "該動作被另外一個錯誤所阻止。"
 
-#: ioslaves/http/http.cpp:1716 ioslaves/http/http.cpp:1819
+#: ioslaves/http/http.cpp:1717 ioslaves/http/http.cpp:1820
 #, kde-format
 msgctxt "%1: request type"
 msgid ""
@@ -4023,36 +4023,36 @@ msgid ""
 "folder."
 msgstr "無法連線到 %1，因為對方伺服器拒絕接收該檔案或資料夾。"
 
-#: ioslaves/http/http.cpp:1723 ioslaves/http/http.cpp:1826
+#: ioslaves/http/http.cpp:1724 ioslaves/http/http.cpp:1827
 #, kde-format
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
 msgstr "目標資源需的空間並不足以紀錄在執行這個方式之後的資源狀態"
 
-#: ioslaves/http/http.cpp:1777
+#: ioslaves/http/http.cpp:1778
 #, kde-format
 msgid "The resource cannot be deleted."
 msgstr "資源無法被刪除。"
 
-#: ioslaves/http/http.cpp:1790
+#: ioslaves/http/http.cpp:1791
 #, kde-format
 msgctxt "request type"
 msgid "upload %1"
 msgstr "上傳 %1"
 
-#: ioslaves/http/http.cpp:1840
+#: ioslaves/http/http.cpp:1841
 #, kde-format
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "在連線到 %2 發生了無預期的錯誤 (%1)。"
 
-#: ioslaves/http/http.cpp:2658
+#: ioslaves/http/http.cpp:2659
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1 已聯繫上。等待回應中..."
 
-#: ioslaves/http/http.cpp:3002
+#: ioslaves/http/http.cpp:3003
 #, kde-format
 msgctxt "@info Security check on url being accessed"
 msgid ""
@@ -4063,43 +4063,43 @@ msgstr ""
 "<p>您準備使用帳號 %2 登入站台 %1，但是該站台不需要認證。這可能是騙人的網站。"
 "</p><p>您確定您要造訪的站台是 %1 嗎？</p>"
 
-#: ioslaves/http/http.cpp:3008
+#: ioslaves/http/http.cpp:3009
 #, kde-format
 msgctxt "@title:window"
 msgid "Confirm Website Access"
 msgstr "確認網站存取"
 
-#: ioslaves/http/http.cpp:3097
+#: ioslaves/http/http.cpp:3098
 #, kde-format
 msgid "Server processing request, please wait..."
 msgstr "伺服器產生請求中，請稍後..."
 
-#: ioslaves/http/http.cpp:3807 ioslaves/http/http.cpp:3865
+#: ioslaves/http/http.cpp:3808 ioslaves/http/http.cpp:3866
 #, kde-format
 msgid "Sending data to %1"
 msgstr "送出資料至 %1"
 
-#: ioslaves/http/http.cpp:4320
+#: ioslaves/http/http.cpp:4321
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr "從 %2 接收 %1 資料..."
 
-#: ioslaves/http/http.cpp:5229 ioslaves/http/http.cpp:5466
+#: ioslaves/http/http.cpp:5230 ioslaves/http/http.cpp:5467
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> 在 <b>%2</b>"
 
-#: ioslaves/http/http.cpp:5376
+#: ioslaves/http/http.cpp:5377
 #, kde-format
 msgid "Authentication Failed."
 msgstr "認證失敗。"
 
-#: ioslaves/http/http.cpp:5507
+#: ioslaves/http/http.cpp:5508
 #, kde-format
 msgid "Authorization failed."
 msgstr "授權失敗。"
 
-#: ioslaves/http/http.cpp:5524
+#: ioslaves/http/http.cpp:5525
 #, kde-format
 msgid "Unknown Authorization method."
 msgstr "未知的授權方法。"

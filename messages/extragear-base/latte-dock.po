@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-21 02:32+0200\n"
+"POT-Creation-Date: 2019-10-24 02:37+0200\n"
 "PO-Revision-Date: 2019-09-30 19:23+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -60,6 +60,12 @@ msgstr "您想要從您的系統中移除 <b>%0</b> 指示器嗎？"
 msgctxt "indicator_name, removed success"
 msgid "<b>%0</b> indicator removed successfully"
 msgstr "<b>%0</b> 指示器移除成功"
+
+#: app/lattecorona.cpp:1027
+#, fuzzy, kde-format
+#| msgid "The layout cannot be imported"
+msgid "The layout cannot be imported from file :: "
+msgstr "無法匯入佈局"
 
 #: app/layout/genericlayout.cpp:1311
 #, kde-format
