@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-24 03:36+0200\n"
+"POT-Creation-Date: 2019-10-25 03:34+0200\n"
 "PO-Revision-Date: 2019-10-19 15:14+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -50,7 +50,7 @@ msgstr "無"
 msgid "Save"
 msgstr "儲存"
 
-#: package/contents/ui/ConnectionEditor.qml:77 package/contents/ui/main.qml:187
+#: package/contents/ui/ConnectionEditor.qml:77
 #: package/contents/ui/TetheringSetting.qml:129
 #, kde-format
 msgid "Cancel"
@@ -80,16 +80,6 @@ msgstr "建立熱點"
 #, kde-format
 msgid "Saved Connections"
 msgstr "儲存的連線"
-
-#: package/contents/ui/main.qml:176
-#, kde-format
-msgid "Delete connection %1 from device?"
-msgstr "從裝置刪除 %1 連線？"
-
-#: package/contents/ui/main.qml:179
-#, kde-format
-msgid "Delete"
-msgstr "刪除"
 
 #: package/contents/ui/NetworkSettings.qml:58
 #, kde-format
@@ -285,6 +275,12 @@ msgstr "Wi-Fi 網路"
 #, kde-format
 msgid "Martin Kacej"
 msgstr "Martin Kacej"
+
+#~ msgid "Delete connection %1 from device?"
+#~ msgstr "從裝置刪除 %1 連線？"
+
+#~ msgid "Delete"
+#~ msgstr "刪除"
 
 #~ msgid "Saved networks"
 #~ msgstr "儲存的網路"

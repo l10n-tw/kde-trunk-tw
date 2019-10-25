@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-24 03:24+0200\n"
+"POT-Creation-Date: 2019-10-25 03:21+0200\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -201,8 +201,8 @@ msgid "Multiple encryption keys per address"
 msgstr "一個位址可使用多組加密金鑰的功能"
 
 #: aboutdata.cpp:361 collectionpage/collectionmailinglistpage.cpp:102
-#: editor/kmcomposerwin.cpp:2109 kmreaderwin.cpp:309 kmsystemtray.cpp:58
-#: kmsystemtray.cpp:88
+#: editor/kmcomposerwin.cpp:2112 kmreaderwin.cpp:309 kmsystemtray.cpp:57
+#: kmsystemtray.cpp:87
 #, kde-format
 msgid "KMail"
 msgstr "KMail"
@@ -363,103 +363,103 @@ msgstr "此資料夾內使用自訂的信件樣本(&U)"
 msgid "&Copy Global Templates"
 msgstr "複製全域樣本(&C)"
 
-#: collectionpage/collectionviewpage.cpp:52
+#: collectionpage/collectionviewpage.cpp:51
 #, kde-format
 msgctxt "@title:tab View settings for a folder."
 msgid "View"
 msgstr "檢視"
 
-#: collectionpage/collectionviewpage.cpp:69
+#: collectionpage/collectionviewpage.cpp:68
 #, kde-format
 msgid "Use custom &icons"
 msgstr "使用自訂圖示(&I)"
 
-#: collectionpage/collectionviewpage.cpp:72
+#: collectionpage/collectionviewpage.cpp:71
 #, kde-format
 msgctxt "Icon used for folders with no unread messages."
 msgid "&Normal:"
 msgstr "正常(&N)："
 
-#: collectionpage/collectionviewpage.cpp:85
+#: collectionpage/collectionviewpage.cpp:84
 #, kde-format
 msgctxt "Icon used for folders which do have unread messages."
 msgid "&Unread:"
 msgstr "未讀(&U)："
 
-#: collectionpage/collectionviewpage.cpp:117
+#: collectionpage/collectionviewpage.cpp:116
 #, kde-format
 msgid "Show Sender/Receiver Column in List of Messages"
 msgstr "信件列表中顯示寄件者與收件者欄位。"
 
-#: collectionpage/collectionviewpage.cpp:119
+#: collectionpage/collectionviewpage.cpp:118
 #, kde-format
 msgid "Sho&w column:"
 msgstr "顯示欄位(&W)："
 
-#: collectionpage/collectionviewpage.cpp:123
+#: collectionpage/collectionviewpage.cpp:122
 #, kde-format
 msgctxt "@item:inlistbox Show default value."
 msgid "Default"
 msgstr "預設"
 
-#: collectionpage/collectionviewpage.cpp:124
+#: collectionpage/collectionviewpage.cpp:123
 #, kde-format
 msgctxt "@item:inlistbox Show sender."
 msgid "Sender"
 msgstr "寄件者"
 
-#: collectionpage/collectionviewpage.cpp:125
+#: collectionpage/collectionviewpage.cpp:124
 #, kde-format
 msgctxt "@item:inlistbox Show receiver."
 msgid "Receiver"
 msgstr "收件者"
 
-#: collectionpage/collectionviewpage.cpp:133
+#: collectionpage/collectionviewpage.cpp:132
 #: configuredialog/configureappearancepage.cpp:119
 #: configuredialog/configureappearancepage.cpp:140
 #, kde-format
 msgid "Message List"
 msgstr "信件清單"
 
-#: collectionpage/collectionviewpage.cpp:138
+#: collectionpage/collectionviewpage.cpp:137
 #, kde-format
 msgid "Use default aggregation"
 msgstr "使用預設集合模式"
 
-#: collectionpage/collectionviewpage.cpp:144
+#: collectionpage/collectionviewpage.cpp:143
 #, kde-format
 msgid "Aggregation"
 msgstr "集合模式"
 
-#: collectionpage/collectionviewpage.cpp:159
+#: collectionpage/collectionviewpage.cpp:158
 #, kde-format
 msgid "Use default theme"
 msgstr "使用預設主題"
 
-#: collectionpage/collectionviewpage.cpp:165
+#: collectionpage/collectionviewpage.cpp:164
 #, kde-format
 msgid "Theme"
 msgstr "主題"
 
-#: collectionpage/collectionviewpage.cpp:180
+#: collectionpage/collectionviewpage.cpp:179
 #: widgets/displaymessageformatactionmenu.cpp:30
 #, kde-format
 msgid "Message Default Format"
 msgstr "信件預設格式"
 
-#: collectionpage/collectionviewpage.cpp:182
+#: collectionpage/collectionviewpage.cpp:181
 #, fuzzy, kde-format
 #| msgid "Prefer HTML to plain text"
 msgid "Prefer HTML to text"
 msgstr "偏好使用 HTML 而非純文字"
 
-#: collectionpage/collectionviewpage.cpp:184
+#: collectionpage/collectionviewpage.cpp:183
 #, fuzzy, kde-format
 #| msgid "Prefer &Plain Text to HTML"
 msgid "Prefer text to HTML"
 msgstr "偏好使用純文字而非 HTML(&P)"
 
-#: collectionpage/collectionviewpage.cpp:186
+#: collectionpage/collectionviewpage.cpp:185
 #, fuzzy, kde-format
 #| msgid "Use Global Setting"
 msgid "Use Global Settings"
@@ -470,102 +470,107 @@ msgstr "（使用全域設定）"
 msgid "Retrieval Options"
 msgstr "收取選項"
 
-#: configuredialog/configureaccountpage.cpp:68
+#: configuredialog/configureaccountpage.cpp:69
 #, fuzzy, kde-format
 #| msgid "&Identity"
 msgctxt "@title:tab Tab page where the user configures identities"
 msgid "Identities"
 msgstr "身份(&I)"
 
-#: configuredialog/configureaccountpage.cpp:74
+#: configuredialog/configureaccountpage.cpp:75
 #, kde-format
 msgctxt ""
 "@title:tab Tab page where the user configures accounts to receive mail"
 msgid "Receiving"
 msgstr "收信"
 
-#: configuredialog/configureaccountpage.cpp:81
+#: configuredialog/configureaccountpage.cpp:82
 #, kde-format
 msgctxt "@title:tab Tab page where the user configures accounts to send mail"
 msgid "Sending"
 msgstr "送信"
 
-#: configuredialog/configureaccountpage.cpp:87
+#: configuredialog/configureaccountpage.cpp:88
 #, kde-format
 msgctxt "@title:tab Tab page where the user configures ldap server"
 msgid "LDAP server"
 msgstr ""
 
-#: configuredialog/configureaccountpage.cpp:104
+#: configuredialog/configureaccountpage.cpp:105
 #, kde-format
 msgid "Outgoing accounts (add at least one):"
 msgstr "發信帳號（至少新增一個帳號）："
 
-#: configuredialog/configureaccountpage.cpp:111
+#: configuredialog/configureaccountpage.cpp:112
 #, kde-format
 msgid "Common Options"
 msgstr "一般選項"
 
 #. i18n: ectx: label, entry (ConfirmBeforeSend), group (Composer)
-#: configuredialog/configureaccountpage.cpp:120 settings/kmail.kcfg.cmake:208
+#: configuredialog/configureaccountpage.cpp:121 settings/kmail.kcfg.cmake:208
 #, kde-format
 msgid "Confirm &before send"
 msgstr "傳送前先確認(&B)"
 
-#: configuredialog/configureaccountpage.cpp:124
+#: configuredialog/configureaccountpage.cpp:125
 #, kde-format
 msgid "Check spelling before sending"
 msgstr "傳送前檢查拼字"
 
-#: configuredialog/configureaccountpage.cpp:132
+#: configuredialog/configureaccountpage.cpp:133
 #, kde-format
 msgid "Never Automatically"
 msgstr "不自動執行"
 
-#: configuredialog/configureaccountpage.cpp:133
+#: configuredialog/configureaccountpage.cpp:134
 #, kde-format
 msgid "On Manual Mail Checks"
 msgstr "手動檢查信件時"
 
-#: configuredialog/configureaccountpage.cpp:134
+#: configuredialog/configureaccountpage.cpp:135
 #, kde-format
 msgid "On All Mail Checks"
 msgstr "檢查所有帳號信件時"
 
-#: configuredialog/configureaccountpage.cpp:142
+#: configuredialog/configureaccountpage.cpp:143
 #: editor/potentialphishingemail/potentialphishingemailwarning.cpp:38
 #, kde-format
 msgid "Send Now"
 msgstr "立即傳送"
 
-#: configuredialog/configureaccountpage.cpp:143
+#: configuredialog/configureaccountpage.cpp:144
 #, kde-format
 msgid "Send Later"
 msgstr "稍後傳送"
 
-#: configuredialog/configureaccountpage.cpp:148
+#: configuredialog/configureaccountpage.cpp:149
 #, kde-format
 msgid "Send &messages in outbox folder:"
 msgstr "檢查時傳送寄件匣內的信件(&F)"
 
-#: configuredialog/configureaccountpage.cpp:156
+#: configuredialog/configureaccountpage.cpp:157
 #, kde-format
 msgid "Defa&ult send method:"
 msgstr "預設傳送方式(&U)："
 
-#: configuredialog/configureaccountpage.cpp:220
+#: configuredialog/configureaccountpage.cpp:161
+#, kde-format
+msgid "Enable Undo Send"
+msgstr ""
+
+#: configuredialog/configureaccountpage.cpp:237
 #, fuzzy, kde-format
 #| msgid "Add Account"
 msgid "Add Mail Account..."
 msgstr "新增帳號"
 
-#: configuredialog/configureaccountpage.cpp:221
+#: configuredialog/configureaccountpage.cpp:238
 #, fuzzy, kde-format
 #| msgid "Customize accounts order..."
 msgid "Custom Account..."
 msgstr "自訂帳號順序..."
 
-#: configuredialog/configureaccountpage.cpp:242
+#: configuredialog/configureaccountpage.cpp:259
 #: kmlaunchexternalcomponent.cpp:127
 #, fuzzy, kde-format
 #| msgid "Could not start the account wizard. Please check your installation."
@@ -574,30 +579,30 @@ msgid ""
 "properly installed."
 msgstr "無法啟動帳號精靈。請檢查安裝是否完全！"
 
-#: configuredialog/configureaccountpage.cpp:244
+#: configuredialog/configureaccountpage.cpp:261
 #: kmlaunchexternalcomponent.cpp:129
 #, kde-format
 msgid "Unable to start account wizard"
 msgstr "無法啟動帳號精靈"
 
-#: configuredialog/configureaccountpage.cpp:293
+#: configuredialog/configureaccountpage.cpp:310
 #, kde-format
 msgctxt "Label to a checkbox, so is either checked/unchecked"
 msgid "Include in Manual Mail Check"
 msgstr "手動檢查信件時檢查這個帳號"
 
-#: configuredialog/configureaccountpage.cpp:301
+#: configuredialog/configureaccountpage.cpp:318
 #, kde-format
 msgctxt "Label to a checkbox, so is either checked/unchecked"
 msgid "Switch offline on KMail Shutdown"
 msgstr "KMail 關閉時切換到離線模式"
 
-#: configuredialog/configureaccountpage.cpp:308
+#: configuredialog/configureaccountpage.cpp:325
 #, kde-format
 msgid "Check mail on startup"
 msgstr "啟動時檢查信件"
 
-#: configuredialog/configureaccountpage.cpp:355
+#: configuredialog/configureaccountpage.cpp:372
 #, kde-format
 msgid ""
 "New Mail Notifier Agent not registered. Please contact your administrator."
@@ -1775,7 +1780,7 @@ msgid "Send"
 msgstr "傳送"
 
 #: editor/kmcomposerwin.cpp:1045 editor/kmcomposerwin.cpp:1057
-#: editor/kmcomposerwin.cpp:2822
+#: editor/kmcomposerwin.cpp:2844
 #, kde-format
 msgid "Send &Later"
 msgstr "稍後傳送(&L)"
@@ -2032,13 +2037,13 @@ msgstr "<qt>這會完全隱藏選單列。您可以按下 %1 重新顯示選單�
 msgid "Hide menu bar"
 msgstr "隱藏選單列"
 
-#: editor/kmcomposerwin.cpp:1444 editor/kmcomposerwin.cpp:3271
+#: editor/kmcomposerwin.cpp:1444 editor/kmcomposerwin.cpp:3293
 #, kde-format
 msgctxt "Shows the linenumber of the cursor position."
 msgid " Line: %1 "
 msgstr " 行：%1"
 
-#: editor/kmcomposerwin.cpp:1448 editor/kmcomposerwin.cpp:3273
+#: editor/kmcomposerwin.cpp:1448 editor/kmcomposerwin.cpp:3295
 #, kde-format
 msgid " Column: %1 "
 msgstr " 欄位：%1"
@@ -2107,61 +2112,61 @@ msgstr "自動儲存信件失敗"
 msgid "Sending Message Failed"
 msgstr "傳送信件失敗。"
 
-#: editor/kmcomposerwin.cpp:2029
+#: editor/kmcomposerwin.cpp:2032
 #, kde-format
 msgctxt "@title:window"
 msgid "Insert File"
 msgstr "插入檔案"
 
-#: editor/kmcomposerwin.cpp:2092
+#: editor/kmcomposerwin.cpp:2095
 #, kde-format
 msgid "Add as &Inline Image"
 msgstr "新增為內含影像(&I)"
 
-#: editor/kmcomposerwin.cpp:2093
+#: editor/kmcomposerwin.cpp:2096
 #, kde-format
 msgid "Add as &Attachment"
 msgstr "以附件加入(&A)"
 
-#: editor/kmcomposerwin.cpp:2109 editor/kmcomposerwin.cpp:2207
+#: editor/kmcomposerwin.cpp:2112 editor/kmcomposerwin.cpp:2210
 #, kde-format
 msgid "Name of the attachment:"
 msgstr "附件名稱："
 
-#: editor/kmcomposerwin.cpp:2116
+#: editor/kmcomposerwin.cpp:2119
 #, kde-format
 msgid "Attachment name can't be empty"
 msgstr ""
 
-#: editor/kmcomposerwin.cpp:2117
+#: editor/kmcomposerwin.cpp:2120
 #, fuzzy, kde-format
 #| msgid "Invalid date"
 msgid "Invalid Attachment Name"
 msgstr "不合法的日期"
 
-#: editor/kmcomposerwin.cpp:2163
+#: editor/kmcomposerwin.cpp:2166
 #, kde-format
 msgid "Add URL into Message"
 msgid_plural "Add URLs into Message"
 msgstr[0] "新增網址到信件內"
 
-#: editor/kmcomposerwin.cpp:2164
+#: editor/kmcomposerwin.cpp:2167
 #, kde-format
 msgid "Add File as &Attachment"
 msgid_plural "Add Files as &Attachment"
 msgstr[0] "附加檔案(&A)"
 
-#: editor/kmcomposerwin.cpp:2206
+#: editor/kmcomposerwin.cpp:2209
 #, kde-format
 msgid "Insert clipboard text as attachment"
 msgstr "插入剪貼簿的文字成附件(&H)"
 
-#: editor/kmcomposerwin.cpp:2305
+#: editor/kmcomposerwin.cpp:2308
 #, kde-format
 msgid "unnamed"
 msgstr "未命名"
 
-#: editor/kmcomposerwin.cpp:2331
+#: editor/kmcomposerwin.cpp:2334
 #, kde-format
 msgid ""
 "<qt><p>You have requested that messages be encrypted to yourself, but the "
@@ -2172,12 +2177,12 @@ msgstr ""
 "<qt> <p>您要求對自己加密，但目前的身份並未定義 OpenPGP 或 S/MIME 的加密金鑰或"
 "憑證。</p> <p>請在身份設定處選擇您要使用的金鑰。</p></qt>"
 
-#: editor/kmcomposerwin.cpp:2338
+#: editor/kmcomposerwin.cpp:2341
 #, kde-format
 msgid "Undefined Encryption Key"
 msgstr "未定義的加密金鑰"
 
-#: editor/kmcomposerwin.cpp:2402
+#: editor/kmcomposerwin.cpp:2405
 #, kde-format
 msgid ""
 "<qt><p>In order to be able to sign this message you first have to define the "
@@ -2187,12 +2192,12 @@ msgstr ""
 "<qt><p>為了要簽署信件，您必須指定加密用的 OpenPGP 金鑰或 S/MIME 憑證。</p> "
 "<p>請在身份設定處選擇要使用的金鑰或憑證。</p></qt>"
 
-#: editor/kmcomposerwin.cpp:2409
+#: editor/kmcomposerwin.cpp:2412
 #, kde-format
 msgid "Undefined Signing Key"
 msgstr "未定義的簽署金鑰"
 
-#: editor/kmcomposerwin.cpp:2553
+#: editor/kmcomposerwin.cpp:2570
 #, kde-format
 msgid ""
 "You must enter your email address in the From: field. You should also set "
@@ -2202,131 +2207,131 @@ msgstr ""
 "您必須在「寄件者」欄位中填入自己的電子郵件地址。您應該在身份設定中設定電子信"
 "件地址，這樣就不必每次送信都重新填寫。"
 
-#: editor/kmcomposerwin.cpp:2562
+#: editor/kmcomposerwin.cpp:2579
 #, kde-format
 msgid ""
 "You must specify at least one receiver, either in the To: field or as CC or "
 "as BCC."
 msgstr "您必須在收件者、副本或密件副本欄位中指定最少一位收件者。"
 
-#: editor/kmcomposerwin.cpp:2568
+#: editor/kmcomposerwin.cpp:2585
 #, kde-format
 msgid "To: field is empty. Send message anyway?"
 msgstr "您沒有指定收件者。確定要送出訊息？"
 
-#: editor/kmcomposerwin.cpp:2570
+#: editor/kmcomposerwin.cpp:2587
 #, kde-format
 msgid "No To: specified"
 msgstr "沒有指定收件者"
 
-#: editor/kmcomposerwin.cpp:2583
+#: editor/kmcomposerwin.cpp:2600
 #, kde-format
 msgid "You did not specify a subject. Send message anyway?"
 msgstr "您沒有寫主題。確定要送出訊息？"
 
-#: editor/kmcomposerwin.cpp:2585
+#: editor/kmcomposerwin.cpp:2602
 #, kde-format
 msgid "No Subject Specified"
 msgstr "沒有主題"
 
-#: editor/kmcomposerwin.cpp:2586
+#: editor/kmcomposerwin.cpp:2603
 #, kde-format
 msgid "S&end as Is"
 msgstr "就這樣送吧(&E)"
 
-#: editor/kmcomposerwin.cpp:2587
+#: editor/kmcomposerwin.cpp:2604
 #, kde-format
 msgid "&Specify the Subject"
 msgstr "感謝提醒(&S)"
 
-#: editor/kmcomposerwin.cpp:2632
+#: editor/kmcomposerwin.cpp:2649
 #, kde-format
 msgid ""
 "You must specify at least one receiver in order to be able to encrypt a "
 "draft."
 msgstr "您必須指定最少一位收件者，才能加密草稿。"
 
-#: editor/kmcomposerwin.cpp:2819
+#: editor/kmcomposerwin.cpp:2841
 #, kde-format
 msgid "About to send email..."
 msgstr "即將傳送信件..."
 
-#: editor/kmcomposerwin.cpp:2820
+#: editor/kmcomposerwin.cpp:2842
 #, kde-format
 msgid "Send Confirmation"
 msgstr "傳送確認"
 
-#: editor/kmcomposerwin.cpp:2821
+#: editor/kmcomposerwin.cpp:2843
 #, kde-format
 msgid "&Send Now"
 msgstr "立即傳送(&S)"
 
-#: editor/kmcomposerwin.cpp:2895
+#: editor/kmcomposerwin.cpp:2917
 #, kde-format
 msgid ""
 "You are trying to send the mail to more than %1 recipients. Send message "
 "anyway?"
 msgstr "您正試圖傳送電子郵件給多於 %1 個收件者。確定要傳送嗎？"
 
-#: editor/kmcomposerwin.cpp:2896
+#: editor/kmcomposerwin.cpp:2918
 #, kde-format
 msgid "Too many recipients"
 msgstr "太多收件者"
 
-#: editor/kmcomposerwin.cpp:2897
+#: editor/kmcomposerwin.cpp:2919
 #, kde-format
 msgid "&Send as Is"
 msgstr "就這樣送吧(&S)"
 
-#: editor/kmcomposerwin.cpp:2898
+#: editor/kmcomposerwin.cpp:2920
 #, kde-format
 msgid "&Edit Recipients"
 msgstr "編輯收件者(&E)"
 
-#: editor/kmcomposerwin.cpp:2932
+#: editor/kmcomposerwin.cpp:2954
 #, kde-format
 msgid ""
 "Turning HTML mode off will cause the text to lose the formatting. Are you "
 "sure?"
 msgstr "關閉 HTML 模式會造成失去文字排版格式。您確定要這樣做嗎？"
 
-#: editor/kmcomposerwin.cpp:2934
+#: editor/kmcomposerwin.cpp:2956
 #, kde-format
 msgid "Lose the formatting?"
 msgstr "要拿掉排版格式嗎？"
 
-#: editor/kmcomposerwin.cpp:2934
+#: editor/kmcomposerwin.cpp:2956
 #, kde-format
 msgid "Lose Formatting"
 msgstr "遺失格式"
 
-#: editor/kmcomposerwin.cpp:2934
+#: editor/kmcomposerwin.cpp:2956
 #, kde-format
 msgid "Add Markup Plain Text"
 msgstr "新增標記純文字"
 
-#: editor/kmcomposerwin.cpp:3604
+#: editor/kmcomposerwin.cpp:3626
 #, kde-format
 msgid ""
 "High security encryption will be used for this recipient (the encryption key "
 "is fully trusted). Click the icon for details."
 msgstr ""
 
-#: editor/kmcomposerwin.cpp:3609
+#: editor/kmcomposerwin.cpp:3631
 #, kde-format
 msgid ""
 "Medium security encryption will be used for this recipient (the encryption "
 "key is marginally trusted). Click the icon for details."
 msgstr ""
 
-#: editor/kmcomposerwin.cpp:3614
+#: editor/kmcomposerwin.cpp:3636
 #, kde-format
 msgid ""
 "Low security encryption will be used for this recipient (the encryption key "
 "is untrusted). Click the icon for details."
 msgstr ""
 
-#: editor/kmcomposerwin.cpp:3620
+#: editor/kmcomposerwin.cpp:3642
 #, kde-format
 msgid ""
 "The email to this recipient will be encrypted, but the security of the "
@@ -2334,7 +2339,7 @@ msgid ""
 "icon for details."
 msgstr ""
 
-#: editor/kmcomposerwin.cpp:3654
+#: editor/kmcomposerwin.cpp:3676
 #, fuzzy, kde-format
 #| msgid "Login Information"
 msgid "Plugin Editor Information"
@@ -4938,17 +4943,17 @@ msgstr ""
 msgid "Contact modified successfully"
 msgstr "聯絡人已成功變更"
 
-#: kmsystemtray.cpp:210
+#: kmsystemtray.cpp:209
 #, kde-format
 msgid "New Messages In"
 msgstr "新信件在"
 
-#: kmsystemtray.cpp:265
+#: kmsystemtray.cpp:264
 #, kde-format
 msgid "There are no unread messages"
 msgstr "沒有未讀信件"
 
-#: kmsystemtray.cpp:266
+#: kmsystemtray.cpp:265
 #, kde-format
 msgid "1 unread message"
 msgid_plural "%1 unread messages"

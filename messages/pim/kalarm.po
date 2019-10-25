@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-24 03:22+0200\n"
+"POT-Creation-Date: 2019-10-25 03:19+0200\n"
 "PO-Revision-Date: 2018-05-19 11:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -325,37 +325,37 @@ msgctxt "@info"
 msgid "Alarm time has already expired"
 msgstr "鬧鐘時間已過"
 
-#: autostart/autostart.cpp:59
+#: autostart/autostart.cpp:60
 #, kde-format
 msgid "KAlarm Autostart"
 msgstr "KAlarm 自動啟動"
 
-#: autostart/autostart.cpp:60
+#: autostart/autostart.cpp:61
 #, kde-format
 msgid "KAlarm autostart at login"
 msgstr "在登入時自動啟動 KAlarm"
 
-#: autostart/autostart.cpp:62 main.cpp:57
+#: autostart/autostart.cpp:63 main.cpp:57
 #, kde-format
 msgid "Copyright 2001-%1, David Jarvie"
 msgstr "Copyright 2001-%1, David Jarvie"
 
-#: autostart/autostart.cpp:64 main.cpp:59
+#: autostart/autostart.cpp:65 main.cpp:59
 #, kde-format
 msgid "David Jarvie"
 msgstr "David Jarvie"
 
-#: autostart/autostart.cpp:64 main.cpp:59
+#: autostart/autostart.cpp:65 main.cpp:59
 #, kde-format
 msgid "Author"
 msgstr "作者"
 
-#: autostart/autostart.cpp:70
+#: autostart/autostart.cpp:71
 #, kde-format
 msgid "Application to run"
 msgstr "要執行的應用程式"
 
-#: autostart/autostart.cpp:71
+#: autostart/autostart.cpp:72
 #, kde-format
 msgid "Command line arguments to pass to application"
 msgstr "要傳送到應用程式的命令列參數"
@@ -2046,97 +2046,97 @@ msgctxt "@title:window"
 msgid "Choose Alarm Font & Color"
 msgstr "選擇鬧鐘字型與顏色"
 
-#: functions.cpp:174
+#: functions.cpp:175
 #, kde-format
 msgctxt "@action"
 msgid "Enable &Alarms"
 msgstr "開啟鬧鐘(&A)"
 
-#: functions.cpp:187
+#: functions.cpp:188
 #, kde-format
 msgctxt "@action"
 msgid "Stop Play"
 msgstr "停止播放"
 
-#: functions.cpp:200
+#: functions.cpp:201
 #, kde-format
 msgctxt "@action"
 msgid "Spread Windows"
 msgstr "散布視窗"
 
-#: functions.cpp:778
+#: functions.cpp:779
 #, kde-format
 msgctxt "@info"
 msgid "Unable to show alarms in KOrganizer"
 msgstr "無法顯示 KOrganizer 中的鬧鐘"
 
-#: functions.cpp:779
+#: functions.cpp:780
 #, kde-format
 msgctxt "@info"
 msgid "Unable to show alarm in KOrganizer"
 msgstr "無法顯示 KOrganizer 中的鬧鐘"
 
-#: functions.cpp:782
+#: functions.cpp:783
 #, kde-format
 msgctxt "@info"
 msgid "Unable to update alarm in KOrganizer"
 msgstr "無法更新 KOrganizer 中的鬧鐘"
 
-#: functions.cpp:785
+#: functions.cpp:786
 #, kde-format
 msgctxt "@info"
 msgid "Unable to delete alarms from KOrganizer"
 msgstr "無法刪除 KOrganizer 中的鬧鐘"
 
-#: functions.cpp:786
+#: functions.cpp:787
 #, kde-format
 msgctxt "@info"
 msgid "Unable to delete alarm from KOrganizer"
 msgstr "無法刪除 KOrganizer 中的鬧鐘"
 
-#: functions.cpp:796
+#: functions.cpp:797
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>%1</para><para>(Could not start KOrganizer)</para>"
 msgstr "<para>%1</para> <para>（無法啟動 KOrganizer）</para>"
 
-#: functions.cpp:799
+#: functions.cpp:800
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>%1</para><para>(KOrganizer not fully started)</para>"
 msgstr "<para>%1</para> <para>（KOrganizer 未完整啟動）</para>"
 
-#: functions.cpp:802
+#: functions.cpp:803
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>%1</para><para>(Error communicating with KOrganizer)</para>"
 msgstr "<para>%1</para> <para>（與 KOrganizer 通訊時發生錯誤）</para>"
 
-#: functions.cpp:1048
+#: functions.cpp:1049
 #, kde-format
 msgctxt "info"
 msgid "The scheduled Wake from Suspend has been cancelled."
 msgstr "已排程的「從休眠中喚醒」已被取消。"
 
-#: functions.cpp:1081
+#: functions.cpp:1082
 #, kde-format
 msgctxt "@info"
 msgid "Error obtaining authorization (%1)"
 msgstr "取得授權時發生錯誤（%1）"
 
-#: functions.cpp:1102
+#: functions.cpp:1103
 #, kde-format
 msgctxt "@info"
 msgid "You must enable a template calendar to save the template in"
 msgstr "您必須開啟樣本行事曆才能儲存樣本"
 
-#: functions.cpp:1323
+#: functions.cpp:1324
 #, kde-kuit-format
 msgctxt "@info Please set the 'From' email address..."
 msgid "<para>%1</para><para>Please set it in the Configuration dialog.</para>"
 msgstr "<para>%1</para> <para>請在設定對話框中設定。</para>"
 
-#: functions.cpp:1327
+#: functions.cpp:1328
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2144,19 +2144,19 @@ msgid ""
 "alarms now?</para>"
 msgstr "<para>鬧鐘目前關閉中。</para><para>您要打開它嗎？</para>"
 
-#: functions.cpp:1328
+#: functions.cpp:1329
 #, kde-format
 msgctxt "@action:button"
 msgid "Enable"
 msgstr "開啟鬧鐘"
 
-#: functions.cpp:1328
+#: functions.cpp:1329
 #, kde-format
 msgctxt "@action:button"
 msgid "Keep Disabled"
 msgstr "保持關閉"
 
-#: functions.cpp:1393
+#: functions.cpp:1394
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2165,43 +2165,43 @@ msgstr ""
 "無法啟動 <application>KMail</application><nl/>（訊息為 <message>%1</"
 "message>）"
 
-#: functions.cpp:1588
+#: functions.cpp:1589
 #, kde-format
 msgctxt "@info"
 msgid "Please select a file to display"
 msgstr "請選擇要顯示的檔案。"
 
-#: functions.cpp:1590
+#: functions.cpp:1591
 #, kde-format
 msgctxt "@info"
 msgid "Please select a file to play"
 msgstr "請選擇要播放的檔案。"
 
-#: functions.cpp:1596
+#: functions.cpp:1597
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<filename>%1</filename> is a folder"
 msgstr "<filename>%1</filename> 是個資料夾"
 
-#: functions.cpp:1598
+#: functions.cpp:1599
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<filename>%1</filename> not found"
 msgstr "找不到 <filename>%1</filename>"
 
-#: functions.cpp:1599
+#: functions.cpp:1600
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<filename>%1</filename> is not readable"
 msgstr "<filename>%1</filename> 無法讀取"
 
-#: functions.cpp:1600
+#: functions.cpp:1601
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<filename>%1</filename> appears not to be a text or image file"
 msgstr "<filename>%1</filename> 似乎不是個文字或圖片檔"
 
-#: functions.cpp:1673
+#: functions.cpp:1674
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -2216,7 +2216,7 @@ msgstr ""
 "行事曆 <resource>%1</resource> 是舊的格式（<application>KAlarm</application> "
 "版本 %2），除非您選擇將它更新為目前的格式，否則將會設為唯讀。"
 
-#: functions.cpp:1676
+#: functions.cpp:1677
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -2232,7 +2232,7 @@ msgstr ""
 "<application>KAlarm</application> 格式。除非您選擇將它們更新為目前的格式，否"
 "則將會設為唯讀。"
 
-#: functions.cpp:1679
+#: functions.cpp:1680
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2245,49 +2245,49 @@ msgstr ""
 "<application>KAlarm</application> 使用者共享，不要更新此資源，這樣可能會變成"
 "無法使用。</warning></para><para>您要更新此行事曆嗎？</para>"
 
-#: functions.cpp:1727
+#: functions.cpp:1728
 #, kde-format
 msgctxt "@info"
 msgid "Error saving alarms"
 msgstr "儲存鬧鐘時發生錯誤"
 
-#: functions.cpp:1728
+#: functions.cpp:1729
 #, kde-format
 msgctxt "@info"
 msgid "Error saving alarm"
 msgstr "儲存鬧鐘時發生錯誤"
 
-#: functions.cpp:1731
+#: functions.cpp:1732
 #, kde-format
 msgctxt "@info"
 msgid "Error deleting alarms"
 msgstr "刪除鬧鐘時發生錯誤"
 
-#: functions.cpp:1732
+#: functions.cpp:1733
 #, kde-format
 msgctxt "@info"
 msgid "Error deleting alarm"
 msgstr "刪除鬧鐘時發生錯誤"
 
-#: functions.cpp:1735
+#: functions.cpp:1736
 #, kde-format
 msgctxt "@info"
 msgid "Error saving reactivated alarms"
 msgstr "儲存重新啟動的鬧鐘時發生錯誤"
 
-#: functions.cpp:1736
+#: functions.cpp:1737
 #, kde-format
 msgctxt "@info"
 msgid "Error saving reactivated alarm"
 msgstr "儲存重新啟動的鬧鐘時發生錯誤"
 
-#: functions.cpp:1739
+#: functions.cpp:1740
 #, kde-format
 msgctxt "@info"
 msgid "Error saving alarm templates"
 msgstr "儲存鬧鐘樣本時發生錯誤"
 
-#: functions.cpp:1740
+#: functions.cpp:1741
 #, kde-format
 msgctxt "@info"
 msgid "Error saving alarm template"
