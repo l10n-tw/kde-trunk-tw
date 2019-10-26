@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-24 03:26+0200\n"
+"POT-Creation-Date: 2019-10-26 03:03+0200\n"
 "PO-Revision-Date: 2015-06-17 09:27+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -344,9 +344,10 @@ msgid "Unknown"
 msgstr "未知"
 
 #: dkim-verify/dkimwidgetinfo.cpp:83
-#, kde-format
-msgid "DKIM: valid (Signed by %1)"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Message was signed by %1."
+msgid "DKIM: valid (signed by %1)"
+msgstr "信件由 %1 簽署。"
 
 #: dkim-verify/dkimwidgetinfo.cpp:90
 #, kde-format
@@ -450,7 +451,7 @@ msgstr ""
 msgid "Impossible to download key."
 msgstr "沒有公開金鑰可以驗證簽章"
 
-#: dkim-verify/dkimwidgetinfo.cpp:164 dkim-verify/dkimwidgetinfo.cpp:185
+#: dkim-verify/dkimwidgetinfo.cpp:164 dkim-verify/dkimwidgetinfo.cpp:188
 #, kde-format
 msgid "Hash Algorithm unsafe (sha1)"
 msgstr ""
@@ -460,18 +461,23 @@ msgstr ""
 msgid "AUID is not in a subdomain of SDID"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:176
+#: dkim-verify/dkimwidgetinfo.cpp:170
+#, kde-format
+msgid "Problem during converting public key"
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:179
 #, fuzzy, kde-format
 #| msgid "The signature has expired."
 msgid "Signature expired"
 msgstr "簽章已經過期。"
 
-#: dkim-verify/dkimwidgetinfo.cpp:179
+#: dkim-verify/dkimwidgetinfo.cpp:182
 #, kde-format
 msgid "Signature created in the future"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:182
+#: dkim-verify/dkimwidgetinfo.cpp:185
 #, fuzzy, kde-format
 #| msgid "Signature is valid."
 msgid "Signature too small"

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-25 02:33+0200\n"
+"POT-Creation-Date: 2019-10-26 02:27+0200\n"
 "PO-Revision-Date: 2019-08-31 18:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -1670,43 +1670,37 @@ msgctxt "Do not save any lines to the scrollback history"
 msgid "None"
 msgstr "無"
 
-#: IncrementalSearchBar.cpp:56
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Close the search bar"
-msgstr "關閉搜尋列"
-
-#: IncrementalSearchBar.cpp:64
+#: IncrementalSearchBar.cpp:60
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Find..."
 msgstr "尋找…"
 
-#: IncrementalSearchBar.cpp:66
+#: IncrementalSearchBar.cpp:62
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Enter the text to search for here"
 msgstr "在此輸入要搜尋的文字"
 
-#: IncrementalSearchBar.cpp:90
+#: IncrementalSearchBar.cpp:88
 #, kde-format
 msgctxt "@action:button Go to the next phrase"
 msgid "Next"
 msgstr "下一個"
 
-#: IncrementalSearchBar.cpp:94
+#: IncrementalSearchBar.cpp:92
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Find the next match for the current search phrase"
 msgstr "尋找下一筆符合的結果"
 
-#: IncrementalSearchBar.cpp:101
+#: IncrementalSearchBar.cpp:100
 #, kde-format
 msgctxt "@action:button Go to the previous phrase"
 msgid "Previous"
 msgstr "前一個"
 
-#: IncrementalSearchBar.cpp:104
+#: IncrementalSearchBar.cpp:103
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Find the previous match for the current search phrase"
@@ -1718,55 +1712,61 @@ msgctxt "@info:tooltip"
 msgid "Display the options menu"
 msgstr "顯示選項選單"
 
-#: IncrementalSearchBar.cpp:128
+#: IncrementalSearchBar.cpp:127
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close the search bar"
+msgstr "關閉搜尋列"
+
+#: IncrementalSearchBar.cpp:137
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Case sensitive"
 msgstr "區分大小寫"
 
-#: IncrementalSearchBar.cpp:130
+#: IncrementalSearchBar.cpp:139
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Sets whether the search is case sensitive"
 msgstr "設定搜尋時是否要區分大小寫"
 
-#: IncrementalSearchBar.cpp:134
+#: IncrementalSearchBar.cpp:143
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Match regular expression"
 msgstr "符合正則表達式"
 
-#: IncrementalSearchBar.cpp:139
+#: IncrementalSearchBar.cpp:148
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Highlight all matches"
 msgstr "突顯所有的符合"
 
-#: IncrementalSearchBar.cpp:142
+#: IncrementalSearchBar.cpp:151
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Sets whether matching text should be highlighted"
 msgstr "設定符合的文字是否要突顯出來"
 
-#: IncrementalSearchBar.cpp:146
+#: IncrementalSearchBar.cpp:155
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Search backwards"
 msgstr "向後尋找"
 
-#: IncrementalSearchBar.cpp:149
+#: IncrementalSearchBar.cpp:158
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Sets whether search should start from the bottom"
 msgstr "設定是否要從底端開始搜尋"
 
-#: IncrementalSearchBar.cpp:180
+#: IncrementalSearchBar.cpp:189
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Search for the current search phrase from the bottom"
 msgstr "從底端開始搜尋目前的搜尋字串"
 
-#: IncrementalSearchBar.cpp:186
+#: IncrementalSearchBar.cpp:195
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Search for the current search phrase from the top"
