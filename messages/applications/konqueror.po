@@ -12,19 +12,20 @@
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2012.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2013, 2017.
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-10-21 02:27+0200\n"
-"PO-Revision-Date: 2017-11-11 19:17+0800\n"
-"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
-"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"PO-Revision-Date: 2019-10-26 22:55+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.08.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -1088,10 +1089,10 @@ msgid "Access denied"
 msgstr "存取被拒"
 
 #: src/konqmainwindow.cpp:1521
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Open File..."
 msgid "Open File"
-msgstr "開啟檔案(&O)..."
+msgstr "開啟檔案"
 
 #: src/konqmainwindow.cpp:1603
 #, kde-format
@@ -1652,16 +1653,14 @@ msgstr "列印目前文件"
 msgid ""
 "A locked view cannot change folders. Use in combination with 'link view' to "
 "explore many files from one folder"
-msgstr ""
-"在鎖定的檢視下不能更改資料夾。請使用「連結檢視」以瀏覽資料夾中的多個檔案"
+msgstr "在鎖定的檢視下不能更改資料夾。請使用「連結檢視」以瀏覽資料夾中的多個檔案"
 
 #: src/konqmainwindow.cpp:3846
 #, kde-format
 msgid ""
 "Sets the view as 'linked'. A linked view follows folder changes made in "
 "other linked views."
-msgstr ""
-"設定此檢視為 \"linked\"。一個連結的檢視將會因目錄其他連結檢視變更而跟著變動。"
+msgstr "設定此檢視為 \"linked\"。一個連結的檢視將會因目錄其他連結檢視變更而跟著變動。"
 
 #: src/konqmainwindow.cpp:4012
 #, kde-format

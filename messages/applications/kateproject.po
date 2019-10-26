@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-10-21 02:26+0200\n"
-"PO-Revision-Date: 2019-10-09 20:38+0800\n"
+"PO-Revision-Date: 2019-10-26 23:03+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.08.1\n"
+"X-Generator: Lokalize 19.08.2\n"
 
 #: kateproject.cpp:381
 #, kde-format
@@ -79,24 +79,24 @@ msgstr "啟用索引"
 #, kde-format
 msgctxt "Groupbox title"
 msgid "Cross-Project Functionality"
-msgstr ""
+msgstr "跨專案功能"
 
 #: kateprojectconfigpage.cpp:72
 #, kde-format
 msgid ""
 "Project plugin is able to perform some operations across multiple projects"
-msgstr ""
+msgstr "專案外掛程式可以跨多專案執行一些動作"
 
 #: kateprojectconfigpage.cpp:73
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Project Completion"
 msgid "Cross-Project Completion"
-msgstr "專案補完"
+msgstr "跨專案補完"
 
 #: kateprojectconfigpage.cpp:75
 #, kde-format
 msgid "Cross-Project Goto Symbol"
-msgstr ""
+msgstr "跨專案前往符號"
 
 #: kateprojectconfigpage.cpp:97 kateprojectpluginview.cpp:65
 #, kde-format
@@ -232,10 +232,10 @@ msgid "Current Project"
 msgstr "目前的專案"
 
 #: kateprojectpluginview.cpp:125
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Lookup: %1"
 msgid "Lookup"
-msgstr "尋找：%1"
+msgstr "尋找"
 
 #: kateprojectpluginview.cpp:130
 #, kde-format
@@ -248,13 +248,13 @@ msgid "Lookup: %1"
 msgstr "尋找：%1"
 
 #: kateprojectpluginview.cpp:134 kateprojectpluginview.cpp:519
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Lookup: %1"
 msgid "Goto: %1"
-msgstr "尋找：%1"
+msgstr "前往：%1"
 
 #: kateprojectpluginview.cpp:183
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Groupbox title"
 #| msgid "Project Index"
 msgid "Projects Index"

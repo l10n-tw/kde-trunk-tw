@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-10-25 02:56+0200\n"
-"PO-Revision-Date: 2019-10-11 19:11+0800\n"
+"PO-Revision-Date: 2019-10-26 23:09+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -1249,8 +1249,7 @@ msgid ""
 "If this option is selected, the <b>Backspace</b> key decreases the "
 "indentation level if the cursor is located in the leading blank space of a "
 "line."
-msgstr ""
-"若選取此選項，當游標放在某行的前方空白處時，按下 Backspace 鍵會減少縮排級數。"
+msgstr "若選取此選項，當游標放在某行的前方空白處時，按下 Backspace 鍵會減少縮排級數。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBackspaceUnindents)
 #: dialogs/indentationconfigwidget.ui:182
@@ -1662,8 +1661,7 @@ msgstr "允許捲軸超過文件的尾端"
 msgid ""
 "When selected, composed characters are removed with their diacritics instead "
 "of only removing the base character. This is useful for Indic locales."
-msgstr ""
-"當選取時，不僅基本字元會被移除，組合字元也會被移除。這對印度語系來說很有用。"
+msgstr "當選取時，不僅基本字元會被移除，組合字元也會被移除。這對印度語系來說很有用。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBackspaceRemoveComposed)
 #: dialogs/navigationconfigwidget.ui:141
@@ -2086,7 +2084,7 @@ msgstr "突顯標記的大小。"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dialogs/textareaappearanceconfigwidget.ui:209
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Whitepaces"
 msgid "Whitespaces"
 msgstr "空白"
@@ -3698,8 +3696,7 @@ msgstr ""
 msgid ""
 "Wraps the selected text in XML tags constructed from the provided Emmet "
 "expression (defaults to div)."
-msgstr ""
-"在所提供的 Emmet 表示式所建構的 XML 標籤內，將選取的文字折行（預設為 div）。"
+msgstr "在所提供的 Emmet 表示式所建構的 XML 標籤內，將選取的文字折行（預設為 div）。"
 
 #: script/data/commands/emmet.js:98
 #, kde-format
@@ -5330,8 +5327,7 @@ msgstr "錯誤的引數「%1」。用法：%2 on|off|1|0|true|false"
 #, kde-format
 msgid ""
 "Usage: set-remove-trailing-spaces 0|-|none or 1|+|mod|modified or 2|*|all"
-msgstr ""
-"用法：set-remove-trailing-spaces 0|-|none 或 1|+|mod|modified 或 2|*|all"
+msgstr "用法：set-remove-trailing-spaces 0|-|none 或 1|+|mod|modified 或 2|*|all"
 
 #: utils/katecmds.cpp:441 vimode/cmds.cpp:175
 #, kde-format
@@ -6322,8 +6318,7 @@ msgstr "模式"
 msgid ""
 "Here you can choose which mode should be used for the current document. This "
 "will influence the highlighting and folding being used, for example."
-msgstr ""
-"您可以在此選擇要用於目前文件的模式。這會影響一些像是使用突顯或是折疊等設定。"
+msgstr "您可以在此選擇要用於目前文件的模式。這會影響一些像是使用突顯或是折疊等設定。"
 
 #: view/katestatusbar.cpp:210
 #, kde-format
