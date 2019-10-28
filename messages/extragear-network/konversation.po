@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konversation\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-25 02:46+0200\n"
+"POT-Creation-Date: 2019-10-28 02:42+0100\n"
 "PO-Revision-Date: 2019-10-26 23:08+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -144,8 +144,8 @@ msgid ""
 "is found."
 msgstr "\"/media { 播放器 }\" - 回報指定的播放器（若找到的話）正在播放什麼。"
 
-#: src/application.cpp:367 src/irc/server.cpp:1781 src/irc/server.cpp:3825
-#: src/irc/server.cpp:3830
+#: src/application.cpp:367 src/irc/server.cpp:1798 src/irc/server.cpp:3848
+#: src/irc/server.cpp:3853
 #, kde-format
 msgid "D-Bus"
 msgstr "D-Bus"
@@ -1466,10 +1466,10 @@ msgstr "頻道"
 #: src/dcc/chatcontainer.cpp:135 src/irc/inputfilter.cpp:355
 #: src/irc/inputfilter.cpp:371 src/irc/inputfilter.cpp:387
 #: src/irc/inputfilter.cpp:416 src/irc/inputfilter.cpp:424
-#: src/irc/server.cpp:2352 src/irc/server.cpp:2482 src/irc/server.cpp:2494
-#: src/irc/server.cpp:2506 src/irc/server.cpp:2641 src/irc/server.cpp:2697
-#: src/irc/server.cpp:2768 src/irc/server.cpp:2773 src/irc/server.cpp:2785
-#: src/irc/server.cpp:2788 src/irc/server.cpp:2802 src/irc/server.cpp:2809
+#: src/irc/server.cpp:2375 src/irc/server.cpp:2505 src/irc/server.cpp:2517
+#: src/irc/server.cpp:2529 src/irc/server.cpp:2664 src/irc/server.cpp:2720
+#: src/irc/server.cpp:2791 src/irc/server.cpp:2796 src/irc/server.cpp:2808
+#: src/irc/server.cpp:2811 src/irc/server.cpp:2825 src/irc/server.cpp:2832
 #: src/viewer/ignorelistviewitem.cpp:46
 #, kde-format
 msgid "DCC"
@@ -1480,7 +1480,7 @@ msgstr "DCC"
 #: src/irc/inputfilter.cpp:559 src/irc/inputfilter.cpp:564
 #: src/irc/inputfilter.cpp:570 src/irc/inputfilter.cpp:785
 #: src/irc/inputfilter.cpp:1683 src/irc/outputfilter.cpp:664
-#: src/irc/outputfilter.cpp:900 src/irc/server.cpp:4299 src/irc/server.cpp:4328
+#: src/irc/outputfilter.cpp:900 src/irc/server.cpp:4325 src/irc/server.cpp:4354
 #: src/viewer/ignorelistviewitem.cpp:44
 #, kde-format
 msgid "Notice"
@@ -2510,8 +2510,8 @@ msgstr "更新間隔(&U)："
 #: src/irc/inputfilter.cpp:2500 src/irc/inputfilter.cpp:2522
 #: src/irc/outputfilter.cpp:2019 src/irc/server.cpp:275 src/irc/server.cpp:418
 #: src/irc/server.cpp:481 src/irc/server.cpp:688 src/irc/server.cpp:723
-#: src/irc/server.cpp:775 src/irc/server.cpp:789 src/irc/server.cpp:807
-#: src/irc/server.cpp:1120 src/irc/server.cpp:1150
+#: src/irc/server.cpp:785 src/irc/server.cpp:800 src/irc/server.cpp:818
+#: src/irc/server.cpp:1131 src/irc/server.cpp:1161
 #, kde-format
 msgid "Info"
 msgstr "資訊"
@@ -2542,12 +2542,12 @@ msgstr[0] "在 %1 秒內嘗試重新連線到 %2（連接埠 %3）。"
 #: src/irc/inputfilter.cpp:2461 src/irc/inputfilter.cpp:2485
 #: src/irc/inputfilter.cpp:2513 src/irc/outputfilter.cpp:2028
 #: src/irc/outputfilterresolvejob.cpp:85 src/irc/server.cpp:763
-#: src/irc/server.cpp:797 src/irc/server.cpp:820 src/irc/server.cpp:934
-#: src/irc/server.cpp:2320 src/irc/server.cpp:2391 src/irc/server.cpp:2564
-#: src/irc/server.cpp:2600 src/irc/server.cpp:2651 src/irc/server.cpp:2719
-#: src/irc/server.cpp:2738 src/irc/server.cpp:2754 src/irc/server.cpp:4257
-#: src/irc/server.cpp:4269 src/irc/server.cpp:4293 src/irc/server.cpp:4316
-#: src/irc/server.cpp:4332
+#: src/irc/server.cpp:808 src/irc/server.cpp:831 src/irc/server.cpp:945
+#: src/irc/server.cpp:2343 src/irc/server.cpp:2414 src/irc/server.cpp:2587
+#: src/irc/server.cpp:2623 src/irc/server.cpp:2674 src/irc/server.cpp:2742
+#: src/irc/server.cpp:2761 src/irc/server.cpp:2777 src/irc/server.cpp:4283
+#: src/irc/server.cpp:4295 src/irc/server.cpp:4319 src/irc/server.cpp:4342
+#: src/irc/server.cpp:4358
 #, kde-format
 msgid "Error"
 msgstr "錯誤"
@@ -5001,22 +5001,22 @@ msgstr "受密碼保護頻道。"
 msgid "Set user limit to channel."
 msgstr "設定頻道使用者數限制。"
 
-#: src/irc/channel.cpp:2408
+#: src/irc/channel.cpp:2411
 #, kde-format
 msgid "Do you want to leave %1?"
 msgstr "您想要離開 %1 嗎？"
 
-#: src/irc/channel.cpp:2409
+#: src/irc/channel.cpp:2412
 #, kde-format
 msgid "Leave Channel"
 msgstr "離開頻道"
 
-#: src/irc/channel.cpp:2410
+#: src/irc/channel.cpp:2413
 #, kde-format
 msgid "Leave"
 msgstr "離開"
 
-#: src/irc/channel.cpp:2581 src/irc/query.cpp:411
+#: src/irc/channel.cpp:2584 src/irc/query.cpp:411
 #: src/viewer/statuspanel.cpp:310
 #, kde-format
 msgid "Identity Default ( %1 )"
@@ -5559,8 +5559,8 @@ msgid "Current users on %1: %2."
 msgstr "目前在 %1 的使用者：%2。"
 
 #: src/irc/inputfilter.cpp:1741 src/irc/nicksonline.cpp:220
-#: src/irc/server.cpp:4078 src/irc/server.cpp:4080 src/irc/server.cpp:4105
-#: src/irc/server.cpp:4114
+#: src/irc/server.cpp:4101 src/irc/server.cpp:4103 src/irc/server.cpp:4128
+#: src/irc/server.cpp:4137
 #, kde-format
 msgid "Away"
 msgstr "離開"
@@ -6333,8 +6333,8 @@ msgctxt "%1 = Comma-separated list of nicknames"
 msgid "Current notify list: %1."
 msgstr "目前通知清單：%1。"
 
-#: src/irc/outputfilter.cpp:1316 src/irc/server.cpp:3140
-#: src/irc/server.cpp:3154
+#: src/irc/outputfilter.cpp:1316 src/irc/server.cpp:3163
+#: src/irc/server.cpp:3177
 #, kde-format
 msgctxt "Message type"
 msgid "Notify"
@@ -6632,38 +6632,38 @@ msgid ""
 "authentication."
 msgstr "伺服器不支援將 %1 作為 SASL 驗證機制，跳過 SASL 驗證。"
 
-#: src/irc/server.cpp:775
+#: src/irc/server.cpp:785
 #, kde-format
 msgid "Requesting capabilities: %1"
 msgstr "請求能力：%1"
 
-#: src/irc/server.cpp:789
+#: src/irc/server.cpp:800
 #, kde-format
 msgid "Closing capabilities negotiation."
 msgstr "關閉能力協調。"
 
-#: src/irc/server.cpp:797
+#: src/irc/server.cpp:808
 #, kde-format
 msgid "Capabilities negotiation failed: Appears not supported by server."
 msgstr "能力協調失敗：伺服器端似乎未支援。"
 
-#: src/irc/server.cpp:807
+#: src/irc/server.cpp:818
 #, kde-format
 msgid ""
 "SASL capability acknowledged by server, attempting SASL %1 authentication..."
 msgstr "伺服器已認可 SASL 能力，試著用 SASL %1 認證中..."
 
-#: src/irc/server.cpp:820
+#: src/irc/server.cpp:831
 #, kde-format
 msgid "SASL capability denied or not supported by server."
 msgstr "伺服器未支援或拒絕認可 SASL 能力。"
 
-#: src/irc/server.cpp:908 src/irc/server.cpp:1017
+#: src/irc/server.cpp:919 src/irc/server.cpp:1028
 #, kde-format
 msgid "SSL Connection Error"
 msgstr "SSL 連線發生錯誤"
 
-#: src/irc/server.cpp:909
+#: src/irc/server.cpp:920
 #, kde-format
 msgid ""
 "Connection to server %1 (port %2) lost while waiting for user response to an "
@@ -6672,24 +6672,24 @@ msgstr ""
 "到伺服器 %1（連接埠 %2）的連線在等待使用者回應 SSL 錯誤時遺失。若是忽略此錯"
 "誤，則將自動重新連線。"
 
-#: src/irc/server.cpp:929
+#: src/irc/server.cpp:940
 #, kde-format
 msgid "Connection to server %1 (port %2) lost: %3."
 msgstr "遺失到伺服器 %1 （連接埠 %2）的連線：%3。"
 
-#: src/irc/server.cpp:978
+#: src/irc/server.cpp:989
 #, kde-format
 msgid ""
 "The SSL certificate for the server %1 (port %2) failed the authenticity "
 "check."
 msgstr "伺服器 %1（連接埠 %2）的 SSL 憑證檢查失敗。"
 
-#: src/irc/server.cpp:982
+#: src/irc/server.cpp:993
 #, kde-format
 msgid "SSL Connection Warning"
 msgstr "SSL 連線警告"
 
-#: src/irc/server.cpp:1012
+#: src/irc/server.cpp:1023
 #, kde-format
 msgid ""
 "Could not connect to %1 (port %2) using SSL encryption. Either the server "
@@ -6699,17 +6699,17 @@ msgstr ""
 "無法使用 SSL 加密連線到 %1（連接埠 %2）。也許此伺服器不支援 SSL（您指定的連接"
 "埠正確嗎？），或是您拒絕了此憑證。%3"
 
-#: src/irc/server.cpp:1120
+#: src/irc/server.cpp:1131
 #, kde-format
 msgid "Delayed connect aborted."
 msgstr "延遲連線已中止。"
 
-#: src/irc/server.cpp:1150
+#: src/irc/server.cpp:1161
 #, kde-format
 msgid "Disconnected from %1 (port %2)."
 msgstr "已中斷與 %1（連接埠 %2）的連線。"
 
-#: src/irc/server.cpp:1317
+#: src/irc/server.cpp:1328
 #, kde-format
 msgid ""
 "No nicknames from the \"%1\" identity were accepted by the connection "
@@ -6717,69 +6717,69 @@ msgid ""
 "Please enter a new one or press Cancel to disconnect:"
 msgstr "身份 %1 在連線 %2 的暱稱未被接受。請輸入新的暱稱，或按取消來斷線："
 
-#: src/irc/server.cpp:1318
+#: src/irc/server.cpp:1329
 #, kde-format
 msgid "Nickname error"
 msgstr "暱稱錯誤"
 
-#: src/irc/server.cpp:2148
+#: src/irc/server.cpp:2171
 #, kde-format
 msgid "Select File(s) to Send to %1"
 msgstr "選擇要傳送到 %1 的檔案"
 
-#: src/irc/server.cpp:2321
+#: src/irc/server.cpp:2344
 #, kde-format
 msgctxt "%1=nickname"
 msgid "Received invalid DCC SEND request from %1."
 msgstr "收到來自 %1 的不合法的 DCC SEND 請求。"
 
-#: src/irc/server.cpp:2353
+#: src/irc/server.cpp:2376
 #, kde-format
 msgid "%1 offers to send you \"%2\" (%3)..."
 msgstr "%1 提議要傳送 %2（%3）給您..."
 
-#: src/irc/server.cpp:2356 src/irc/server.cpp:2486 src/irc/server.cpp:2498
-#: src/irc/server.cpp:2647 src/irc/server.cpp:2703 src/irc/server.cpp:2812
+#: src/irc/server.cpp:2379 src/irc/server.cpp:2509 src/irc/server.cpp:2521
+#: src/irc/server.cpp:2670 src/irc/server.cpp:2726 src/irc/server.cpp:2835
 #, kde-format
 msgid "unknown size"
 msgstr "大小不明"
 
-#: src/irc/server.cpp:2392
+#: src/irc/server.cpp:2415
 #, kde-format
 msgctxt "%1=nickname"
 msgid "Received invalid DCC CHAT request from %1."
 msgstr "收到來自 %1 的不合法的 DCC CHAT 請求。"
 
-#: src/irc/server.cpp:2483
+#: src/irc/server.cpp:2506
 #, kde-format
 msgid "Asking %1 to accept upload of \"%2\" (%3)..."
 msgstr "詢問 %1 是否接受上傳 \"%2\"（%3）..."
 
-#: src/irc/server.cpp:2495
+#: src/irc/server.cpp:2518
 #, kde-format
 msgid "Asking %1 to accept passive upload of \"%2\" (%3)..."
 msgstr "詢問 %1 是否接受被動上傳 \"%2\"（%3）..."
 
-#: src/irc/server.cpp:2507
+#: src/irc/server.cpp:2530
 #, kde-format
 msgctxt "%1=name, %2=dcc extension, chat or wboard for example"
 msgid "Asking %1 to accept %2..."
 msgstr "詢問 %1 是否接受 %2..."
 
-#: src/irc/server.cpp:2566
+#: src/irc/server.cpp:2589
 #, kde-format
 msgctxt "%1 = nickname"
 msgid "Received invalid passive DCC chat acceptance message from %1."
 msgstr "從 %1 接收到不正確被動 DCC 聊天接受訊息。"
 
-#: src/irc/server.cpp:2602
+#: src/irc/server.cpp:2625
 #, kde-format
 msgctxt "%1 = file name, %2 = nickname"
 msgid ""
 "Received invalid passive DCC send acceptance message for \"%1\" from %2."
 msgstr "從 %2 接收到不正確的對 %1 的被動 DCC 傳送接受訊息。"
 
-#: src/irc/server.cpp:2643
+#: src/irc/server.cpp:2666
 #, kde-format
 msgctxt ""
 "%1 = file name, %2 = nickname of sender, %3 = percentage of file size, %4 = "
@@ -6787,13 +6787,13 @@ msgctxt ""
 msgid "Resuming download of \"%1\" from %2 starting at %3% of %4..."
 msgstr "從 %2 續傳 %1，由 %3% 的地方開始（大小總計 %4）..."
 
-#: src/irc/server.cpp:2653
+#: src/irc/server.cpp:2676
 #, kde-format
 msgctxt "%1 = file name, %2 = nickname"
 msgid "Received invalid resume acceptance message for \"%1\" from %2."
 msgstr "從 %2 接收到不正確的對檔案「%1」的續傳接受訊息。"
 
-#: src/irc/server.cpp:2699
+#: src/irc/server.cpp:2722
 #, kde-format
 msgctxt ""
 "%1 = file name, %2 = nickname of recipient, %3 = percentage of file size, %4 "
@@ -6801,140 +6801,140 @@ msgctxt ""
 msgid "Resuming upload of \"%1\" to %2 starting at %3% of %4..."
 msgstr "續傳 %1 到 %2，由 %3% 的地方開始（大小總計 %4）..."
 
-#: src/irc/server.cpp:2721
+#: src/irc/server.cpp:2744
 #, kde-format
 msgctxt "%1 = file name, %2 = nickname"
 msgid "Received invalid resume request for \"%1\" from %2."
 msgstr "從 %2 接收到不正確的對檔案「%1」的續傳請求。"
 
-#: src/irc/server.cpp:2740
+#: src/irc/server.cpp:2763
 #, kde-format
 msgctxt "%1 = file name, %2 = nickname"
 msgid "Received invalid reject request for \"%1\" from %2."
 msgstr "從 %2 接收到不正確的對 \"%1\" 的拒絕請求。"
 
-#: src/irc/server.cpp:2756
+#: src/irc/server.cpp:2779
 #, kde-format
 msgctxt "%1 = nickname"
 msgid "Received invalid reject request from %1."
 msgstr "從 %1 接收到不正確的對 \"\" 的拒絕請求。"
 
-#: src/irc/server.cpp:2769
+#: src/irc/server.cpp:2792
 #, kde-format
 msgctxt "%1 = file name, %2 = nickname of sender"
 msgid "Download of \"%1\" from %2 finished."
 msgstr "從 %2 下載檔案「%1」完成。"
 
-#: src/irc/server.cpp:2774
+#: src/irc/server.cpp:2797
 #, kde-format
 msgctxt "%1 = file name, %2 = nickname of sender"
 msgid "Download of \"%1\" from %2 failed. Reason: %3."
 msgstr "從 %2 下載檔案「%1」失敗。原因：%3。"
 
-#: src/irc/server.cpp:2786
+#: src/irc/server.cpp:2809
 #, kde-format
 msgctxt "%1 = file name, %2 = nickname of recipient"
 msgid "Upload of \"%1\" to %2 finished."
 msgstr "上傳 %1 到 %2 已完成。"
 
-#: src/irc/server.cpp:2789
+#: src/irc/server.cpp:2812
 #, kde-format
 msgctxt "%1 = file name, %2 = nickname of recipient"
 msgid "Upload of \"%1\" to %2 failed. Reason: %3."
 msgstr "上傳「%1」到 %2 失敗，原因：%3。"
 
-#: src/irc/server.cpp:2803
+#: src/irc/server.cpp:2826
 #, kde-format
 msgctxt "%1 = file name, %2 nickname of recipient"
 msgid "Sending \"%1\" to %2..."
 msgstr "傳送 \"%1\" 到 %2..."
 
-#: src/irc/server.cpp:2810
+#: src/irc/server.cpp:2833
 #, kde-format
 msgctxt "%1 = file name, %2 = file size, %3 = nickname of sender"
 msgid "Downloading \"%1\" (%2) from %3..."
 msgstr "從 %3 下載 %1（%2）..."
 
-#: src/irc/server.cpp:3140 src/notificationhandler.cpp:341
+#: src/irc/server.cpp:3163 src/notificationhandler.cpp:341
 #, kde-format
 msgid "%1 is online (%2)."
 msgstr "%1 上線(%2)。"
 
-#: src/irc/server.cpp:3154 src/notificationhandler.cpp:355
+#: src/irc/server.cpp:3177 src/notificationhandler.cpp:355
 #, kde-format
 msgid "%1 went offline (%2)."
 msgstr "%1 離線(%2)。"
 
-#: src/irc/server.cpp:3825
+#: src/irc/server.cpp:3848
 #, kde-format
 msgid "Error: Could not find script \"%1\"."
 msgstr "錯誤：無法找到命令稿「%1」。"
 
-#: src/irc/server.cpp:3830
+#: src/irc/server.cpp:3853
 #, kde-format
 msgid "Error: Could not execute script \"%1\". Check file permissions."
 msgstr "錯誤：無法執行命令稿「%1」，請檢查檔案權限。"
 
-#: src/irc/server.cpp:4047
+#: src/irc/server.cpp:4070
 #, kde-format
 msgid "Gone away for now"
 msgstr "已經離開"
 
-#: src/irc/server.cpp:4078
+#: src/irc/server.cpp:4101
 #, kde-format
 msgid "You are now marked as being away (reason: %1)."
 msgstr "您已經被標記為離開（理由：%1）。"
 
-#: src/irc/server.cpp:4080
+#: src/irc/server.cpp:4103
 #, kde-format
 msgid "You are now marked as being away."
 msgstr "您已經被標記為離開。"
 
-#: src/irc/server.cpp:4105
+#: src/irc/server.cpp:4128
 #, kde-format
 msgid "You are no longer marked as being away."
 msgstr "您不再標記為離開。"
 
-#: src/irc/server.cpp:4114
+#: src/irc/server.cpp:4137
 #, kde-format
 msgid "You are not marked as being away."
 msgstr "您不再標記為離開。"
 
-#: src/irc/server.cpp:4257
+#: src/irc/server.cpp:4283
 #, kde-format
 msgid "Failed to initiate key exchange with %1."
 msgstr "初始化與 %1 的金鑰交換時失敗。"
 
-#: src/irc/server.cpp:4269
+#: src/irc/server.cpp:4295
 #, kde-format
 msgid "Unable to perform key exchange with %1."
 msgstr "無法執行與 %1 的金鑰交換。"
 
-#: src/irc/server.cpp:4293
+#: src/irc/server.cpp:4319
 #, kde-format
 msgid "Failed to parse the DH1080_INIT of %1. Key exchange failed."
 msgstr "剖析 %1 的 DH1080_INIT 時失敗。金鑰交換失敗。"
 
-#: src/irc/server.cpp:4299
+#: src/irc/server.cpp:4325
 #, kde-format
 msgid ""
 "Your key is set and your messages will now be encrypted, sending "
 "DH1080_FINISH to %1."
 msgstr "您的金鑰已設定，您的訊息將被加密。傳送 DH1080_FINISH 給 %1。"
 
-#: src/irc/server.cpp:4316
+#: src/irc/server.cpp:4342
 #, kde-format
 msgid "Unable to complete key exchange with %1."
 msgstr "無法完成與 %1 的金鑰交換。"
 
-#: src/irc/server.cpp:4328
+#: src/irc/server.cpp:4354
 #, kde-format
 msgid ""
 "Successfully parsed DH1080_FINISH sent by %1. Your key is set and your "
 "messages will now be encrypted."
 msgstr "成功剖析 %1 傳送的 DH1080_FINISH。您的金鑰已設定，您的訊息將被加密。"
 
-#: src/irc/server.cpp:4332
+#: src/irc/server.cpp:4358
 #, kde-format
 msgid "Failed to parse DH1080_FINISH sent by %1. Key exchange failed."
 msgstr "剖析 %1 送出的 DH1080_FINISH 時失敗。金鑰交換失敗。"

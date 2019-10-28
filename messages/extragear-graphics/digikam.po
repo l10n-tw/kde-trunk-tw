@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-27 02:32+0200\n"
+"POT-Creation-Date: 2019-10-28 02:34+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -1289,13 +1289,13 @@ msgstr ""
 "<p>此 ICC 描述檔資料夾似乎無效。</p><p>如果您想要再設定一次，在這裡點選"
 "「是」，反之請選「否」，而「色彩管理」功能會停用，直到您解決這個問題。</p>"
 
-#: core/app/main/digikamapp.cpp:539 core/app/views/stack/trashview.cpp:444
+#: core/app/main/digikamapp.cpp:556 core/app/views/stack/trashview.cpp:444
 #, kde-format
 msgid "No item selected (%1 item)"
 msgid_plural "No item selected (%1 items)"
 msgstr[0] "沒有選擇任何項目（共 %1 個項目）"
 
-#: core/app/main/digikamapp.cpp:545
+#: core/app/main/digikamapp.cpp:562
 #, fuzzy, kde-format
 #| msgid "No item selected (%1 item)"
 #| msgid_plural "No item selected (%1 items)"
@@ -1303,7 +1303,7 @@ msgid "No item selected (%1 [%2] item)"
 msgid_plural "No item selected (%1 [%2] items)"
 msgstr[0] "沒有選擇任何項目（共 %1 個項目）"
 
-#: core/app/main/digikamapp.cpp:549
+#: core/app/main/digikamapp.cpp:566
 #, fuzzy, kde-format
 #| msgid "No item selected (%1 item)"
 #| msgid_plural "No item selected (%1 items)"
@@ -1311,60 +1311,60 @@ msgid "No item selected (%1 item. With grouped items: %2)"
 msgid_plural "No item selected (%1 items. With grouped items: %2)"
 msgstr[0] "沒有選擇任何項目（共 %1 個項目）"
 
-#: core/app/main/digikamapp.cpp:558 core/app/views/stack/trashview.cpp:451
+#: core/app/main/digikamapp.cpp:575 core/app/views/stack/trashview.cpp:451
 #, fuzzy, kde-format
 #| msgid "%2/%1 item selected"
 #| msgid_plural "%2/%1 items selected"
 msgid "%1/%2 items selected"
 msgstr "%2/%1 個項目已選擇"
 
-#: core/app/main/digikamapp.cpp:568
+#: core/app/main/digikamapp.cpp:585
 #, fuzzy, kde-format
 #| msgid "%2/%1 item selected"
 #| msgid_plural "%2/%1 items selected"
 msgid "%1/%2 [%3] items selected"
 msgstr "%2/%1 個項目已選擇"
 
-#: core/app/main/digikamapp.cpp:571
+#: core/app/main/digikamapp.cpp:588
 #, kde-format
 msgid "%1/%2 items selected. Total with grouped items: %3"
 msgstr ""
 
-#: core/app/main/digikamapp.cpp:578
+#: core/app/main/digikamapp.cpp:595
 #, fuzzy, kde-format
 #| msgid "%2/%1 item selected"
 #| msgid_plural "%2/%1 items selected"
 msgid "%1/%2 [%3/%4] items selected"
 msgstr "%2/%1 個項目已選擇"
 
-#: core/app/main/digikamapp.cpp:582
+#: core/app/main/digikamapp.cpp:599
 #, kde-format
 msgid "%1/%2 items selected. With grouped items: %3/%4"
 msgstr ""
 
-#: core/app/main/digikamapp.cpp:604
+#: core/app/main/digikamapp.cpp:621
 #, kde-format
 msgid " (%1 of %2)"
 msgstr "(第 %1 張，共 %2 張)"
 
-#: core/app/main/digikamapp.cpp:613
+#: core/app/main/digikamapp.cpp:630
 #, fuzzy, kde-format
 #| msgid " (%1 of %2)"
 msgid " (%1 of %2 [%3])"
 msgstr "(第 %1 張，共 %2 張)"
 
-#: core/app/main/digikamapp.cpp:617
+#: core/app/main/digikamapp.cpp:634
 #, kde-format
 msgid " (%1 of %2. Total with grouped items: %3)"
 msgstr ""
 
-#: core/app/main/digikamapp.cpp:628
+#: core/app/main/digikamapp.cpp:645
 #, kde-format
 msgid "%1 item hidden by grouping or versioning"
 msgid_plural "%1 items hidden by grouping or versioning"
 msgstr[0] ""
 
-#: core/app/main/digikamapp.cpp:678
+#: core/app/main/digikamapp.cpp:695
 #, fuzzy, kde-format
 #| msgid "Write Metadata to Image"
 #| msgid_plural "Write Metadata to Selected Images"
@@ -1372,7 +1372,7 @@ msgid "Write Metadata to File"
 msgid_plural "Write Metadata to Selected Files"
 msgstr[0] "將中繼資料寫入選擇的影像"
 
-#: core/app/main/digikamapp.cpp:680
+#: core/app/main/digikamapp.cpp:697
 #, fuzzy, kde-format
 #| msgid "Reread Metadata From Image"
 #| msgid_plural "Reread Metadata From Selected Images"
@@ -2553,7 +2553,7 @@ msgstr "參考影像"
 msgid "All supported files (%1)"
 msgstr "略過檔案 %1"
 
-#: core/app/utils/digikam_version.cpp:51
+#: core/app/utils/digikam_version.cpp:56
 #, fuzzy, kde-format
 msgid ""
 "IRC: irc.freenode.net - #digikam\n"
@@ -2569,7 +2569,7 @@ msgstr ""
 "\n"
 "編譯日期: %1 (target: %2)"
 
-#: core/app/utils/digikam_version.cpp:59
+#: core/app/utils/digikam_version.cpp:64
 #, fuzzy, kde-format
 msgid ""
 "IRC: irc.freenode.net - #digikam\n"
@@ -42989,8 +42989,8 @@ msgstr "著作權管理"
 #: core/utilities/maintenance/dbcleaner.cpp:219
 #: core/utilities/maintenance/dbcleaner.cpp:246
 #: core/utilities/maintenance/dbcleaner.cpp:275
-#: core/utilities/maintenance/dbcleaner.cpp:309
-#: core/utilities/maintenance/dbcleaner.cpp:346
+#: core/utilities/maintenance/dbcleaner.cpp:310
+#: core/utilities/maintenance/dbcleaner.cpp:347
 #, kde-format
 msgid "Clean up the databases : "
 msgstr ""
@@ -43018,19 +43018,19 @@ msgstr "建立缺少的縮圖"
 msgid "cleaning recognition db"
 msgstr "臉孔辨識"
 
-#: core/utilities/maintenance/dbcleaner.cpp:309
+#: core/utilities/maintenance/dbcleaner.cpp:310
 #, fuzzy, kde-format
 #| msgid "Build Missing Thumbnails"
 msgid "cleaning similarity db"
 msgstr "建立缺少的縮圖"
 
-#: core/utilities/maintenance/dbcleaner.cpp:346
+#: core/utilities/maintenance/dbcleaner.cpp:347
 #, fuzzy, kde-format
 #| msgid "Initializing database..."
 msgid "shrinking databases"
 msgstr "初始化資料庫..."
 
-#: core/utilities/maintenance/dbcleaner.cpp:473
+#: core/utilities/maintenance/dbcleaner.cpp:474
 #, kde-format
 msgid ""
 "<p>Database shrinking in progress.</p><p>Currently, your databases are being "
@@ -43040,26 +43040,26 @@ msgid ""
 "Status:"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:486
+#: core/utilities/maintenance/dbcleaner.cpp:487
 #, fuzzy, kde-format
 #| msgid "Schema Name"
 msgid "Core DB"
 msgstr "綱要名稱"
 
-#: core/utilities/maintenance/dbcleaner.cpp:487
+#: core/utilities/maintenance/dbcleaner.cpp:488
 #, fuzzy, kde-format
 #| msgctxt "@action Go to thumbnails (icon) view"
 #| msgid "Thumbnails"
 msgid "Thumbnails DB"
 msgstr "縮圖"
 
-#: core/utilities/maintenance/dbcleaner.cpp:488
+#: core/utilities/maintenance/dbcleaner.cpp:489
 #, fuzzy, kde-format
 #| msgid "Face Recognition"
 msgid "Face Recognition DB"
 msgstr "臉孔辨識"
 
-#: core/utilities/maintenance/dbcleaner.cpp:489
+#: core/utilities/maintenance/dbcleaner.cpp:490
 #, fuzzy, kde-format
 #| msgid "Similarity:"
 msgid "Similarity DB"

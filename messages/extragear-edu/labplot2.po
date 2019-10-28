@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-25 02:36+0200\n"
+"POT-Creation-Date: 2019-10-28 02:33+0100\n"
 "PO-Revision-Date: 2014-03-25 11:30+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -381,7 +381,7 @@ msgid "invalid row value"
 msgstr ""
 
 #: src/backend/core/column/Column.cpp:1241
-#: src/backend/spreadsheet/SpreadsheetModel.cpp:467
+#: src/backend/spreadsheet/SpreadsheetModel.cpp:465
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:243
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:235
 #, kde-format
@@ -389,21 +389,21 @@ msgid "X-error"
 msgstr ""
 
 #: src/backend/core/column/Column.cpp:1243
-#: src/backend/spreadsheet/SpreadsheetModel.cpp:470
+#: src/backend/spreadsheet/SpreadsheetModel.cpp:468
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:237
 #, fuzzy, kde-format
 msgid "X-error +"
 msgstr "格式"
 
 #: src/backend/core/column/Column.cpp:1245
-#: src/backend/spreadsheet/SpreadsheetModel.cpp:473
+#: src/backend/spreadsheet/SpreadsheetModel.cpp:471
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:236
 #, fuzzy, kde-format
 msgid "X-error -"
 msgstr "格式"
 
 #: src/backend/core/column/Column.cpp:1247
-#: src/backend/spreadsheet/SpreadsheetModel.cpp:476
+#: src/backend/spreadsheet/SpreadsheetModel.cpp:474
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:252
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:238
 #, kde-format
@@ -411,14 +411,14 @@ msgid "Y-error"
 msgstr ""
 
 #: src/backend/core/column/Column.cpp:1249
-#: src/backend/spreadsheet/SpreadsheetModel.cpp:479
+#: src/backend/spreadsheet/SpreadsheetModel.cpp:477
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:240
 #, fuzzy, kde-format
 msgid "Y-error +"
 msgstr "格式"
 
 #: src/backend/core/column/Column.cpp:1251
-#: src/backend/spreadsheet/SpreadsheetModel.cpp:482
+#: src/backend/spreadsheet/SpreadsheetModel.cpp:480
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:239
 #, fuzzy, kde-format
 msgid "Y-error -"
@@ -5417,13 +5417,13 @@ msgstr ""
 msgid "invalid cell (ignored in all operations)"
 msgstr ""
 
-#: src/backend/spreadsheet/SpreadsheetModel.cpp:434
+#: src/backend/spreadsheet/SpreadsheetModel.cpp:432
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:223
 #, kde-format
 msgid "Numeric"
 msgstr "數值"
 
-#: src/backend/spreadsheet/SpreadsheetModel.cpp:437
+#: src/backend/spreadsheet/SpreadsheetModel.cpp:435
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:224
 #, fuzzy, kde-format
 #| msgid "Orientation"
@@ -5431,7 +5431,7 @@ msgid "Integer"
 msgstr "方向"
 
 #. i18n: ectx: property (text), widget (QLabel, lValuesText)
-#: src/backend/spreadsheet/SpreadsheetModel.cpp:440
+#: src/backend/spreadsheet/SpreadsheetModel.cpp:438
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:225
 #: src/kdefrontend/dockwidgets/HistogramDock.cpp:916
 #: src/kdefrontend/dockwidgets/XYCurveDock.cpp:700
@@ -5441,20 +5441,20 @@ msgstr "方向"
 msgid "Text"
 msgstr "文字"
 
-#: src/backend/spreadsheet/SpreadsheetModel.cpp:443
+#: src/backend/spreadsheet/SpreadsheetModel.cpp:441
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:226
 #, kde-format
 msgid "Month Names"
 msgstr ""
 
-#: src/backend/spreadsheet/SpreadsheetModel.cpp:446
+#: src/backend/spreadsheet/SpreadsheetModel.cpp:444
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:227
 #, fuzzy, kde-format
 #| msgid "Name"
 msgid "Day Names"
 msgstr "名稱"
 
-#: src/backend/spreadsheet/SpreadsheetModel.cpp:449
+#: src/backend/spreadsheet/SpreadsheetModel.cpp:447
 #: src/kdefrontend/dockwidgets/ColumnDock.cpp:228
 #: src/kdefrontend/widgets/LabelWidget.cpp:643
 #: src/kdefrontend/widgets/LabelWidget.cpp:668

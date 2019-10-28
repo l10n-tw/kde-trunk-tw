@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-26 02:27+0200\n"
+"POT-Creation-Date: 2019-10-28 02:29+0100\n"
 "PO-Revision-Date: 2019-08-31 18:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -1148,8 +1148,9 @@ msgstr "選擇啟始目錄"
 
 #. i18n: ectx: property (text), widget (QCheckBox, startInSameDirButton)
 #: EditProfileGeneralPage.ui:155
-#, kde-format
-msgid "Start in same directory as current tab"
+#, fuzzy, kde-format
+#| msgid "Start in same directory as current tab"
+msgid "Start in same directory as current session"
 msgstr "以目前的分頁所在的目錄開始"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -2141,7 +2142,7 @@ msgctxt "@item"
 msgid "Activate Menu"
 msgstr "啟動選單"
 
-#: MainWindow.cpp:605 MainWindow.cpp:624
+#: MainWindow.cpp:600 MainWindow.cpp:619
 #, kde-format
 msgctxt "@info"
 msgid "There is a process running in this window. Do you still want to quit?"
@@ -2149,49 +2150,49 @@ msgid_plural ""
 "There are %1 processes running in this window. Do you still want to quit?"
 msgstr[0] "此視窗中目前有 %1 個行程執行中。您確定要離開嗎？"
 
-#: MainWindow.cpp:611 MainWindow.cpp:630 MainWindow.cpp:648
+#: MainWindow.cpp:606 MainWindow.cpp:625 MainWindow.cpp:643
 #, kde-format
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "確認關閉"
 
-#: MainWindow.cpp:613 MainWindow.cpp:632 MainWindow.cpp:649
+#: MainWindow.cpp:608 MainWindow.cpp:627 MainWindow.cpp:644
 #, kde-format
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "關閉視窗(&W)"
 
-#: MainWindow.cpp:635 MainWindow.cpp:652
+#: MainWindow.cpp:630 MainWindow.cpp:647
 #, kde-format
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "關閉目前的分頁(&T)"
 
-#: MainWindow.cpp:645
+#: MainWindow.cpp:640
 #, kde-format
 msgctxt "@info"
 msgid "There are %1 open terminals in this window. Do you still want to quit?"
 msgstr "此視窗中目前有 %1 個開啟的終端機。您確定要離開嗎？"
 
-#: MainWindow.cpp:759
+#: MainWindow.cpp:754
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "一般"
 
-#: MainWindow.cpp:764 Part.cpp:332
+#: MainWindow.cpp:759 Part.cpp:332
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Profiles"
 msgstr "設定檔"
 
-#: MainWindow.cpp:769
+#: MainWindow.cpp:764
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Tab Bar"
 msgstr "分頁列"
 
-#: MainWindow.cpp:774
+#: MainWindow.cpp:769
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Temporary Files"

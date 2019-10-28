@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-25 02:56+0200\n"
+"POT-Creation-Date: 2019-10-28 02:52+0100\n"
 "PO-Revision-Date: 2019-10-26 23:09+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -4131,22 +4131,22 @@ msgstr "呼叫 'help %1' 時發生錯誤"
 msgid "No help specified for command '%1' in script %2"
 msgstr "在文稿 %2 中未指定指令 %1 的說明"
 
-#: script/katescript.cpp:220
+#: script/katescript.cpp:222
 #, kde-format
 msgid "Error loading script %1\n"
 msgstr "載入文稿 %1 時發生錯誤\n"
 
-#: script/katescript.cpp:221
+#: script/katescript.cpp:223
 #, kde-format
 msgid "Error loading script %1"
 msgstr "載入文稿 %1 時發生錯誤"
 
-#: script/katescriptmanager.cpp:326
+#: script/katescriptmanager.cpp:329
 #, kde-format
 msgid "Reload all JavaScript files (indenters, command line scripts, etc)."
 msgstr "重新載入所有的 JavaScript 檔（縮排器、命令列文稿等）"
 
-#: script/katescriptview.cpp:136
+#: script/katescriptview.cpp:138
 #, kde-format
 msgid "Command not found: %1"
 msgstr "找不到指令：%1"
@@ -4999,57 +4999,57 @@ msgctxt "Autoindent mode"
 msgid "Normal"
 msgstr "一般"
 
-#: utils/katebookmarks.cpp:62
+#: utils/katebookmarks.cpp:64
 #, kde-format
 msgid "Set &Bookmark"
 msgstr "設定書籤(&B)"
 
-#: utils/katebookmarks.cpp:66
+#: utils/katebookmarks.cpp:68
 #, kde-format
 msgid "If a line has no bookmark then add one, otherwise remove it."
 msgstr "如果某行沒有書籤就增加一個，否則就移除它。"
 
-#: utils/katebookmarks.cpp:69
+#: utils/katebookmarks.cpp:71
 #, kde-format
 msgid "Clear &All Bookmarks"
 msgstr "清除所有的書籤(&A)"
 
-#: utils/katebookmarks.cpp:72
+#: utils/katebookmarks.cpp:74
 #, kde-format
 msgid "Remove all bookmarks of the current document."
 msgstr "移除目前文件的所有書籤。"
 
-#: utils/katebookmarks.cpp:75 utils/katebookmarks.cpp:234
+#: utils/katebookmarks.cpp:77 utils/katebookmarks.cpp:236
 #, kde-format
 msgid "Next Bookmark"
 msgstr "下個書籤"
 
-#: utils/katebookmarks.cpp:79
+#: utils/katebookmarks.cpp:81
 #, kde-format
 msgid "Go to the next bookmark."
 msgstr "移至下一個書籤。"
 
-#: utils/katebookmarks.cpp:82 utils/katebookmarks.cpp:235
+#: utils/katebookmarks.cpp:84 utils/katebookmarks.cpp:237
 #, kde-format
 msgid "Previous Bookmark"
 msgstr "上個書籤"
 
-#: utils/katebookmarks.cpp:86
+#: utils/katebookmarks.cpp:88
 #, kde-format
 msgid "Go to the previous bookmark."
 msgstr "移至上一個書籤。"
 
-#: utils/katebookmarks.cpp:89
+#: utils/katebookmarks.cpp:91
 #, kde-format
 msgid "&Bookmarks"
 msgstr "書籤(&B)"
 
-#: utils/katebookmarks.cpp:198
+#: utils/katebookmarks.cpp:200
 #, kde-format
 msgid "&Next: %1 - \"%2\""
 msgstr "下一個(&N)：%1 - 「%2」"
 
-#: utils/katebookmarks.cpp:204
+#: utils/katebookmarks.cpp:206
 #, kde-format
 msgid "&Previous: %1 - \"%2\""
 msgstr "上一個(&P)：%1 - 「%2」"

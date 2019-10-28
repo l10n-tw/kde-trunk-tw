@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-21 02:26+0200\n"
+"POT-Creation-Date: 2019-10-28 02:27+0100\n"
 "PO-Revision-Date: 2019-10-19 14:49+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -2055,43 +2055,64 @@ msgid ""
 "Size of icons in the Places Panel (-1 means \"use the style's small size\")"
 msgstr "書籤面板裡的圖示大小（-1 表示「使用此樣式的小尺寸」）"
 
-#: panels/places/placesitemmodel.cpp:201
+#: panels/places/placesitemmodel.cpp:203
 #, kde-format
 msgctxt "@item"
 msgid "Eject"
 msgstr "退出"
 
-#: panels/places/placesitemmodel.cpp:236
+#: panels/places/placesitemmodel.cpp:238
 #, kde-format
 msgctxt "@item"
 msgid "Release"
 msgstr "放開"
 
-#: panels/places/placesitemmodel.cpp:238
+#: panels/places/placesitemmodel.cpp:240
 #, kde-format
 msgctxt "@item"
 msgid "Safely Remove"
 msgstr "安全地移除"
 
-#: panels/places/placesitemmodel.cpp:241
+#: panels/places/placesitemmodel.cpp:243
 #, kde-format
 msgctxt "@item"
 msgid "Unmount"
 msgstr "卸載"
 
-#: panels/places/placesitemmodel.cpp:263
+#: panels/places/placesitemmodel.cpp:265
 #, kde-format
 msgctxt "@info"
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "裝置 %1 不是光碟機，無法跳出。"
 
-#: panels/places/placesitemmodel.cpp:498
+#: panels/places/placesitemmodel.cpp:485
+#, kde-format
+msgid "One or more files on this device are open within an application."
+msgstr ""
+
+#: panels/places/placesitemmodel.cpp:492
+#, kde-kuit-format
+msgid ""
+"One or more files on this device are opened in application <application>"
+"\"%2\"</application>."
+msgid_plural ""
+"One or more files on this device are opened in following applications: "
+"<application>%2</application>."
+msgstr[0] ""
+
+#: panels/places/placesitemmodel.cpp:494
+#, kde-format
+msgctxt "separator in list of apps blocking device unmount"
+msgid ", "
+msgstr ""
+
+#: panels/places/placesitemmodel.cpp:522
 #, kde-format
 msgctxt "@info"
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "存取 %1 時發生錯誤，系統訊息：%2"
 
-#: panels/places/placesitemmodel.cpp:502
+#: panels/places/placesitemmodel.cpp:526
 #, kde-format
 msgctxt "@info"
 msgid "An error occurred while accessing '%1'"
@@ -2206,111 +2227,147 @@ msgstr "什麼"
 msgid "Show facets widget"
 msgstr "顯示多面體元件"
 
-#: search/dolphinfacetswidget.cpp:52
-#, kde-format
-msgctxt "@option:check"
-msgid "Any"
-msgstr "任何"
+#: search/dolphinfacetswidget.cpp:38
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Type"
+msgctxt "@item:inlistbox"
+msgid "Any Type"
+msgstr "類型"
 
-#: search/dolphinfacetswidget.cpp:53
-#, kde-format
-msgctxt "@option:check"
+#: search/dolphinfacetswidget.cpp:39
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Folders"
+msgctxt "@item:inlistbox"
 msgid "Folders"
 msgstr "資料夾"
 
-#: search/dolphinfacetswidget.cpp:54
-#, kde-format
-msgctxt "@option:check"
+#: search/dolphinfacetswidget.cpp:40
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Documents"
+msgctxt "@item:inlistbox"
 msgid "Documents"
 msgstr "文件"
 
-#: search/dolphinfacetswidget.cpp:55
-#, kde-format
-msgctxt "@option:check"
+#: search/dolphinfacetswidget.cpp:41
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Images"
+msgctxt "@item:inlistbox"
 msgid "Images"
 msgstr "影像"
 
-#: search/dolphinfacetswidget.cpp:56
-#, kde-format
-msgctxt "@option:check"
+#: search/dolphinfacetswidget.cpp:42
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Audio Files"
+msgctxt "@item:inlistbox"
 msgid "Audio Files"
 msgstr "音效檔"
 
-#: search/dolphinfacetswidget.cpp:57
-#, kde-format
-msgctxt "@option:check"
+#: search/dolphinfacetswidget.cpp:43
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Videos"
+msgctxt "@item:inlistbox"
 msgid "Videos"
 msgstr "影片"
 
-#: search/dolphinfacetswidget.cpp:70
-#, kde-format
-msgctxt "@option:option"
-msgid "Anytime"
-msgstr "任何時間"
+#: search/dolphinfacetswidget.cpp:49
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "Any Rating"
+msgctxt "@item:inlistbox"
+msgid "Any Date"
+msgstr "任何評分"
 
-#: search/dolphinfacetswidget.cpp:71
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:50
+#, fuzzy, kde-format
+#| msgctxt "@title:group Date"
+#| msgid "Today"
+msgctxt "@item:inlistbox"
 msgid "Today"
 msgstr "今天"
 
-#: search/dolphinfacetswidget.cpp:72
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:51
+#, fuzzy, kde-format
+#| msgctxt "@title:group Date"
+#| msgid "Yesterday"
+msgctxt "@item:inlistbox"
 msgid "Yesterday"
 msgstr "昨天"
 
-#: search/dolphinfacetswidget.cpp:73
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:52
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "This Week"
+msgctxt "@item:inlistbox"
 msgid "This Week"
 msgstr "本週"
 
-#: search/dolphinfacetswidget.cpp:74
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:53
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "This Month"
+msgctxt "@item:inlistbox"
 msgid "This Month"
 msgstr "這個月"
 
-#: search/dolphinfacetswidget.cpp:75
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:54
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "This Year"
+msgctxt "@item:inlistbox"
 msgid "This Year"
 msgstr "今年"
 
-#: search/dolphinfacetswidget.cpp:88
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:58
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "Any Rating"
+msgctxt "@item:inlistbox"
 msgid "Any Rating"
 msgstr "任何評分"
 
-#: search/dolphinfacetswidget.cpp:89
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:59
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "1 or more"
+msgctxt "@item:inlistbox"
 msgid "1 or more"
 msgstr "一個以上"
 
-#: search/dolphinfacetswidget.cpp:90
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:60
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "2 or more"
+msgctxt "@item:inlistbox"
 msgid "2 or more"
 msgstr "兩個以上"
 
-#: search/dolphinfacetswidget.cpp:91
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:61
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "3 or more"
+msgctxt "@item:inlistbox"
 msgid "3 or more"
 msgstr "三個以上"
 
-#: search/dolphinfacetswidget.cpp:92
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:62
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "4 or more"
+msgctxt "@item:inlistbox"
 msgid "4 or more"
 msgstr "四個以上"
 
-#: search/dolphinfacetswidget.cpp:93
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:63
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "Highest Rating"
+msgctxt "@item:inlistbox"
 msgid "Highest Rating"
 msgstr "最高分"
 
@@ -4116,6 +4173,26 @@ msgstr "# 會取代為遞增的數字，由此數字開始："
 msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "更新版本資訊中..."
+
+#~ msgctxt "@option:check"
+#~ msgid "Any"
+#~ msgstr "任何"
+
+#~ msgctxt "@option:check"
+#~ msgid "Folders"
+#~ msgstr "資料夾"
+
+#~ msgctxt "@option:option"
+#~ msgid "Anytime"
+#~ msgstr "任何時間"
+
+#~ msgctxt "@option:option"
+#~ msgid "Today"
+#~ msgstr "今天"
+
+#~ msgctxt "@option:option"
+#~ msgid "Yesterday"
+#~ msgstr "昨天"
 
 #~ msgctxt "@option:check Ask for confirmation when"
 #~ msgid "Executing scripts or desktop files"
