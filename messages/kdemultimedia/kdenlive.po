@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-28 03:06+0100\n"
+"POT-Creation-Date: 2019-10-29 03:05+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -5917,7 +5917,7 @@ msgstr[0] "移動素材"
 msgid "No valid clip to insert"
 msgstr "無效的剪輯處理"
 
-#: src/bin/bin.cpp:2309 src/timeline2/view/timelinecontroller.cpp:913
+#: src/bin/bin.cpp:2309 src/timeline2/view/timelinecontroller.cpp:918
 #, fuzzy, kde-format
 #| msgid "Select a clip if you want to apply an effect"
 msgid "Select a clip to apply an effect"
@@ -8281,7 +8281,7 @@ msgid "Scene %1"
 msgstr "區段終點：%1"
 
 #: src/jobs/speedjob.cpp:56 src/mainwindow.cpp:3139
-#: src/timeline2/model/timelinemodel.cpp:3239
+#: src/timeline2/model/timelinemodel.cpp:3257
 #, fuzzy, kde-format
 #| msgid "Change clip type"
 msgid "Change clip speed"
@@ -9531,7 +9531,7 @@ msgstr "移除空白空間"
 msgid "Insert Track"
 msgstr "添加軌道"
 
-#: src/mainwindow.cpp:1454 src/timeline2/model/timelinemodel.cpp:2162
+#: src/mainwindow.cpp:1454 src/timeline2/model/timelinemodel.cpp:2179
 #: src/timeline2/view/dialogs/trackdialog.cpp:31
 #: src/timeline2/view/dialogs/trackdialog.cpp:66
 #: src/timeline2/view/dialogs/tracksconfigdialog.cpp:89
@@ -9726,11 +9726,11 @@ msgstr "遊標時間上找不到記號"
 msgid "An error occurred while deleting markers"
 msgstr ""
 
-#: src/mainwindow.cpp:2355 src/timeline2/view/timelinecontroller.cpp:780
-#: src/timeline2/view/timelinecontroller.cpp:788
-#: src/timeline2/view/timelinecontroller.cpp:802
-#: src/timeline2/view/timelinecontroller.cpp:820
-#: src/timeline2/view/timelinecontroller.cpp:839
+#: src/mainwindow.cpp:2355 src/timeline2/view/timelinecontroller.cpp:785
+#: src/timeline2/view/timelinecontroller.cpp:793
+#: src/timeline2/view/timelinecontroller.cpp:807
+#: src/timeline2/view/timelinecontroller.cpp:825
+#: src/timeline2/view/timelinecontroller.cpp:844
 #, fuzzy, kde-format
 #| msgid "Cannot find clip to add marker"
 msgid "Cannot find clip to edit marker"
@@ -11421,7 +11421,7 @@ msgstr "項目檔案"
 #. i18n: ectx: property (text), item, widget (QComboBox, bgBox)
 #: src/project/transitionsettings.cpp:152
 #: src/scopes/colorscopes/vectorscope.cpp:52
-#: src/timeline2/view/timelinecontroller.cpp:181
+#: src/timeline2/view/timelinecontroller.cpp:182
 #: src/ui/selectivecolor_ui.ui:154 src/ui/titlewidget_ui.ui:284
 #, kde-format
 msgid "Black"
@@ -11926,14 +11926,14 @@ msgstr "無法移動特效"
 
 #: src/timeline2/model/timelinefunctions.cpp:603
 #: src/timeline2/view/qml/ClipMenu.qml:138
-#: src/timeline2/view/timelinecontroller.cpp:2238
+#: src/timeline2/view/timelinecontroller.cpp:2243
 #, fuzzy, kde-format
 msgid "Disable clip"
 msgstr "關閉素材"
 
 #: src/timeline2/model/timelinefunctions.cpp:603
 #: src/timeline2/view/qml/ClipMenu.qml:138
-#: src/timeline2/view/timelinecontroller.cpp:2238
+#: src/timeline2/view/timelinecontroller.cpp:2243
 #, fuzzy, kde-format
 msgid "Enable clip"
 msgstr "關閉素材"
@@ -12065,7 +12065,7 @@ msgstr "混合方式"
 
 #: src/timeline2/model/timelinemodel.cpp:1266
 #: src/timeline2/model/timelinemodel.cpp:1374
-#: src/timeline2/view/timelinecontroller.cpp:2365
+#: src/timeline2/view/timelinecontroller.cpp:2370
 #, kde-format
 msgid "Move group"
 msgstr "移動組合"
@@ -12103,67 +12103,67 @@ msgstr "組合素材"
 msgid "Ungroup clips"
 msgstr "取消組合"
 
-#: src/timeline2/model/timelinemodel.cpp:2172
+#: src/timeline2/model/timelinemodel.cpp:2189
 #, fuzzy, kde-format
 #| msgid "Cannot remove space in a locked track"
 msgid "Cannot delete last track in timeline"
 msgstr "無法在已經鎖定的軌道中移除空白空間"
 
-#: src/timeline2/model/timelinemodel.cpp:2317
+#: src/timeline2/model/timelinemodel.cpp:2335
 #, fuzzy, kde-format
 msgid "Cannot add effect %1 to selected track"
 msgstr "無法添加視訊濾鏡​​到這個素材"
 
-#: src/timeline2/model/timelinemodel.cpp:2332
+#: src/timeline2/model/timelinemodel.cpp:2350
 #, fuzzy, kde-format
 #| msgid "Cannot paste clip to selected place"
 msgid "Cannot paste effect to selected track"
 msgstr "無法將素材貼到所選位置"
 
-#: src/timeline2/model/timelinemodel.cpp:2350
-#: src/timeline2/view/timelinecontroller.cpp:910
+#: src/timeline2/model/timelinemodel.cpp:2368
+#: src/timeline2/view/timelinecontroller.cpp:915
 #, fuzzy, kde-format
 #| msgid "Cannot add a video effect to this clip"
 msgid "Cannot add effect %1 to selected clip"
 msgstr "無法添加視訊濾鏡​​到這個素材"
 
-#: src/timeline2/model/timelinemodel.cpp:2385
+#: src/timeline2/model/timelinemodel.cpp:2403
 #, fuzzy, kde-format
 #| msgid "Adjust levels"
 msgid "Adjust Fade"
 msgstr "調整色階"
 
-#: src/timeline2/model/timelinemodel.cpp:2547
+#: src/timeline2/model/timelinemodel.cpp:2565
 #, fuzzy, kde-format
 #| msgid "Compositing"
 msgid "Insert Composition"
 msgstr "混合方式"
 
-#: src/timeline2/model/timelinemodel.cpp:2667
+#: src/timeline2/model/timelinemodel.cpp:2685
 #, fuzzy, kde-format
 #| msgid "More options"
 msgid "Move composition"
 msgstr "更多選項"
 
-#: src/timeline2/model/timelinemodel.cpp:3229
+#: src/timeline2/model/timelinemodel.cpp:3247
 #, fuzzy, kde-format
 #| msgid "Captured files"
 msgid "Change speed failed"
 msgstr "擷取的檔案"
 
-#: src/timeline2/model/timelinemodel.cpp:3519
+#: src/timeline2/model/timelinemodel.cpp:3537
 #: src/timeline2/view/qml/TrackHead.qml:342
 #, fuzzy, kde-format
 msgid "Lock track"
 msgstr "軌道"
 
-#: src/timeline2/model/timelinemodel.cpp:3524
+#: src/timeline2/model/timelinemodel.cpp:3542
 #: src/timeline2/view/qml/TrackHead.qml:342
 #, fuzzy, kde-format
 msgid "Unlock track"
 msgstr "軌道"
 
-#: src/timeline2/model/timelinemodel.cpp:3566
+#: src/timeline2/model/timelinemodel.cpp:3584
 #, fuzzy, kde-format
 #| msgid "Center position (X)"
 msgid "Change composition"
@@ -12435,152 +12435,152 @@ msgstr ""
 msgid "Edit track name"
 msgstr "軌道名稱"
 
-#: src/timeline2/view/timelinecontroller.cpp:178
+#: src/timeline2/view/timelinecontroller.cpp:179
 #, fuzzy, kde-format
 msgid "unknown"
 msgstr "未知的素材"
 
-#: src/timeline2/view/timelinecontroller.cpp:264
+#: src/timeline2/view/timelinecontroller.cpp:265
 #, kde-format
 msgid "No item under timeline cursor in active track"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:433
+#: src/timeline2/view/timelinecontroller.cpp:434
 #, kde-format
 msgid "Could not add composition at selected position"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:654
+#: src/timeline2/view/timelinecontroller.cpp:659
 #, kde-format
 msgid "Select at least 2 items to group"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:881
+#: src/timeline2/view/timelinecontroller.cpp:886
 #, fuzzy, kde-format
 #| msgid "No guide at cursor time"
 msgid "No guide found at current position"
 msgstr "遊標時間上沒有參照線"
 
-#: src/timeline2/view/timelinecontroller.cpp:885
+#: src/timeline2/view/timelinecontroller.cpp:890
 #, fuzzy, kde-format
 #| msgid "Guide"
 msgid "guide"
 msgstr "參照線"
 
-#: src/timeline2/view/timelinecontroller.cpp:1115
+#: src/timeline2/view/timelinecontroller.cpp:1120
 #, fuzzy, kde-format
 msgid "No clip to cut"
 msgstr "沒有複製任何素材"
 
-#: src/timeline2/view/timelinecontroller.cpp:1277
+#: src/timeline2/view/timelinecontroller.cpp:1282
 #, fuzzy, kde-format
 #| msgid "Select a clip if you want to apply an effect"
 msgid "Select a clip to compare effect"
 msgstr "如果您想使用特效請選取一個素材"
 
-#: src/timeline2/view/timelinecontroller.cpp:1528
+#: src/timeline2/view/timelinecontroller.cpp:1533
 #, fuzzy, kde-format
 msgid "No clips found to insert space"
 msgstr "沒有複製任何素材"
 
-#: src/timeline2/view/timelinecontroller.cpp:1545
+#: src/timeline2/view/timelinecontroller.cpp:1550
 #, fuzzy, kde-format
 #| msgid "Cannot move transition"
 msgid "Cannot remove space at given position"
 msgstr "無法移動轉場特效"
 
-#: src/timeline2/view/timelinecontroller.cpp:1583
-#: src/timeline2/view/timelinecontroller.cpp:2104
-#: src/timeline2/view/timelinecontroller.cpp:2122
+#: src/timeline2/view/timelinecontroller.cpp:1588
+#: src/timeline2/view/timelinecontroller.cpp:2109
+#: src/timeline2/view/timelinecontroller.cpp:2127
 #, fuzzy, kde-format
 #| msgid "Align item to left"
 msgid "No item to edit"
 msgstr "左對齊"
 
-#: src/timeline2/view/timelinecontroller.cpp:1815
+#: src/timeline2/view/timelinecontroller.cpp:1820
 #, fuzzy, kde-format
 #| msgid "Compositing"
 msgid "Select a favorite composition"
 msgstr "混合方式"
 
-#: src/timeline2/view/timelinecontroller.cpp:1844
+#: src/timeline2/view/timelinecontroller.cpp:1849
 #, fuzzy, kde-format
 msgid "No clip found to perform AV split operation"
 msgstr "複製前請選取一個素材"
 
-#: src/timeline2/view/timelinecontroller.cpp:1867
-#: src/timeline2/view/timelinecontroller.cpp:1894
+#: src/timeline2/view/timelinecontroller.cpp:1872
+#: src/timeline2/view/timelinecontroller.cpp:1899
 #, fuzzy, kde-format
 #| msgid "Cannot move clip to position %1"
 msgid "Cannot move clip to frame %1."
 msgstr "無法移動素材到位置 %1"
 
-#: src/timeline2/view/timelinecontroller.cpp:1877
+#: src/timeline2/view/timelinecontroller.cpp:1882
 #, kde-format
 msgid "Set audio reference before attempting to align"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:2015
-#: src/timeline2/view/timelinecontroller.cpp:2045
+#: src/timeline2/view/timelinecontroller.cpp:2020
+#: src/timeline2/view/timelinecontroller.cpp:2050
 #, fuzzy, kde-format
 msgid "No clip selected"
 msgstr "沒有複製任何素材"
 
-#: src/timeline2/view/timelinecontroller.cpp:2051
-#: src/timeline2/view/timelinecontroller.cpp:2057
+#: src/timeline2/view/timelinecontroller.cpp:2056
 #: src/timeline2/view/timelinecontroller.cpp:2062
+#: src/timeline2/view/timelinecontroller.cpp:2067
 #, fuzzy, kde-format
 msgid "No information in clipboard"
 msgstr "關鍵影格與素材同步"
 
-#: src/timeline2/view/timelinecontroller.cpp:2086
+#: src/timeline2/view/timelinecontroller.cpp:2091
 #, fuzzy, kde-format
 #| msgid "Paste Effects"
 msgid "Paste effects"
 msgstr "黏貼特效"
 
-#: src/timeline2/view/timelinecontroller.cpp:2088
+#: src/timeline2/view/timelinecontroller.cpp:2093
 #, fuzzy, kde-format
 #| msgid "Cannot paste selected clips"
 msgid "Cannot paste effect on selected clip"
 msgstr "無法黏貼所選素材"
 
-#: src/timeline2/view/timelinecontroller.cpp:2189
+#: src/timeline2/view/timelinecontroller.cpp:2194
 #, fuzzy, kde-format
 #| msgid "Edit Guide"
 msgid "Edit item"
 msgstr "編輯參照線"
 
-#: src/timeline2/view/timelinecontroller.cpp:2233
+#: src/timeline2/view/timelinecontroller.cpp:2238
 #, fuzzy, kde-format
 #| msgid "Split Audio"
 msgid "Split video"
 msgstr "分離聲訊"
 
-#: src/timeline2/view/timelinecontroller.cpp:2233
+#: src/timeline2/view/timelinecontroller.cpp:2238
 #, kde-format
 msgid "Split audio"
 msgstr "分離聲訊"
 
-#: src/timeline2/view/timelinecontroller.cpp:2346
+#: src/timeline2/view/timelinecontroller.cpp:2351
 #, fuzzy, kde-format
 #| msgid "Move guide"
 msgid "Move item"
 msgstr "移動參照線"
 
-#: src/timeline2/view/timelinecontroller.cpp:2588
+#: src/timeline2/view/timelinecontroller.cpp:2593
 #, kde-format
 msgid "Impossible to capture on a locked track"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:2599
+#: src/timeline2/view/timelinecontroller.cpp:2604
 #, kde-format
 msgid ""
 "Impossible to capture here: the capture could override clips. Please remove "
 "clips after the current position or choose a different track"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:2644
+#: src/timeline2/view/timelinecontroller.cpp:2649
 #, fuzzy, kde-format
 #| msgid "Extract Audio"
 msgid "Record audio"

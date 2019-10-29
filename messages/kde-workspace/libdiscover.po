@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-27 02:21+0100\n"
+"POT-Creation-Date: 2019-10-29 03:29+0100\n"
 "PO-Revision-Date: 2019-10-11 12:22+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -468,14 +468,13 @@ msgctxt "Category"
 msgid "System Settings"
 msgstr "系統設定"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:393
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:394
 #, kde-format
 msgid "Local bundle"
 msgstr "本機 Bundle"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1214
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:475
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:489
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1216
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:488
 #, kde-format
 msgid "Malformed appstream url '%1'"
 msgstr "不正確的 appstream 網址 '%1'"
@@ -622,7 +621,7 @@ msgstr "使用"
 msgid "Log in information for %1"
 msgstr "%1 的登入資訊"
 
-#: libdiscover/backends/PackageKitBackend/AppPackageKitResource.cpp:233
+#: libdiscover/backends/PackageKitBackend/AppPackageKitResource.cpp:234
 #, kde-format
 msgid "Cannot launch %1"
 msgstr "無法啟動 %1"
@@ -645,7 +644,7 @@ msgctxt "Category"
 msgid "Fonts"
 msgstr "字型"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:173
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:174
 #, kde-format
 msgid "Please make sure that Appstream is properly set up on your system"
 msgstr "請確認 Appstream 已經在您的系統上設定好了"
@@ -1440,7 +1439,7 @@ msgstr[0] ""
 "這動作也會移除下述的軟體包：\n"
 "%2"
 
-#: libdiscover/backends/SnapBackend/SnapBackend.cpp:50
+#: libdiscover/backends/SnapBackend/SnapBackend.cpp:51
 #, kde-format
 msgid "Snap"
 msgstr "Snap"
