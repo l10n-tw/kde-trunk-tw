@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplato\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-26 02:28+0200\n"
+"POT-Creation-Date: 2019-10-30 02:35+0100\n"
 "PO-Revision-Date: 2012-06-14 08:33+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
@@ -1025,10 +1025,10 @@ msgstr "建立報告..."
 msgid "Show Selector"
 msgstr "顯示選擇器"
 
-#: kptview.cpp:223
+#: kptview.cpp:223 kptview.cpp:264
 #, kde-format
-msgid "Edit Main Project..."
-msgstr "編輯主專案..."
+msgid "Edit..."
+msgstr "編輯..."
 
 #: kptview.cpp:227
 #, kde-format
@@ -1071,11 +1071,6 @@ msgstr ""
 #, kde-format
 msgid "Introduction to Plan"
 msgstr "介紹 Plan"
-
-#: kptview.cpp:264
-#, kde-format
-msgid "Edit..."
-msgstr "編輯..."
 
 #: kptview.cpp:267
 #, kde-format
@@ -2016,6 +2011,9 @@ msgstr ""
 #, kde-format
 msgid "The description of the category"
 msgstr ""
+
+#~ msgid "Edit Main Project..."
+#~ msgstr "編輯主專案..."
 
 #~ msgid ""
 #~ "The person responsible for this task.\n"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-29 03:15+0100\n"
+"POT-Creation-Date: 2019-10-30 03:23+0100\n"
 "PO-Revision-Date: 2019-03-22 00:33+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -41,6 +41,12 @@ msgstr ""
 #, kde-format
 msgid "Treat RSA-SHA1 sign algorithm as:"
 msgstr ""
+
+#: dkim-verify/dkimconfiguredialog.cpp:36
+#, fuzzy, kde-format
+#| msgid "Configure Gravatar"
+msgid "Configure DKIM"
+msgstr "設定大頭貼"
 
 #: dkim-verify/dkimconfiguretab.cpp:51
 #, kde-format
@@ -78,64 +84,90 @@ msgstr ""
 msgid "Save Record Key"
 msgstr ""
 
-#: dkim-verify/dkimmanageruleswidget.cpp:62
+#: dkim-verify/dkimmanagerulesdialog.cpp:36
+#, fuzzy, kde-format
+#| msgid "Configure Gravatar"
+msgid "Configure Rule"
+msgstr "設定大頭貼"
+
+#: dkim-verify/dkimmanageruleswidget.cpp:72
+#, kde-format
+msgid "Active"
+msgstr ""
+
+#: dkim-verify/dkimmanageruleswidget.cpp:72
 #, kde-format
 msgid "Domain"
 msgstr ""
 
-#: dkim-verify/dkimmanageruleswidget.cpp:62
+#: dkim-verify/dkimmanageruleswidget.cpp:72
 #, kde-format
 msgid "List-ID"
 msgstr ""
 
-#: dkim-verify/dkimmanageruleswidget.cpp:62
+#: dkim-verify/dkimmanageruleswidget.cpp:72
 #, kde-format
 msgid "From"
 msgstr ""
 
-#: dkim-verify/dkimmanageruleswidget.cpp:62
+#: dkim-verify/dkimmanageruleswidget.cpp:72
 #, kde-format
 msgid "SDID"
 msgstr ""
 
-#: dkim-verify/dkimmanageruleswidget.cpp:62
+#: dkim-verify/dkimmanageruleswidget.cpp:72
 #, kde-format
 msgid "Rule type"
 msgstr ""
 
-#: dkim-verify/dkimmanageruleswidget.cpp:110
+#: dkim-verify/dkimmanageruleswidget.cpp:115
 #, kde-format
 msgid "Add..."
 msgstr ""
 
-#: dkim-verify/dkimmanageruleswidget.cpp:117
+#: dkim-verify/dkimmanageruleswidget.cpp:125
 #, kde-format
 msgid "Modify..."
 msgstr ""
 
-#: dkim-verify/dkimmanageruleswidget.cpp:126
+#: dkim-verify/dkimmanageruleswidget.cpp:134
 #, kde-format
 msgid "Remove Rule"
 msgstr ""
 
-#: dkim-verify/dkimmanageruleswidget.cpp:131
+#: dkim-verify/dkimmanageruleswidget.cpp:139
 #, kde-format
 msgid "Delete All"
 msgstr ""
 
-#: dkim-verify/dkimpolicywidget.cpp:37
+#: dkim-verify/dkimpolicywidget.cpp:40
 #, kde-format
 msgid "Check if e-mail should be signed"
 msgstr ""
 
-#: dkim-verify/dkimpolicywidget.cpp:45
+#: dkim-verify/dkimpolicywidget.cpp:49
 #, kde-format
 msgid "Use default rule"
 msgstr ""
 
-#: dkim-verify/dkimpolicywidget.cpp:49
+#: dkim-verify/dkimpolicywidget.cpp:54
 #, kde-format
 msgid "Use DMARC to heuristically determine if an e-mail should be signed"
+msgstr ""
+
+#: dkim-verify/dkimpolicywidget.cpp:61
+#, kde-format
+msgid "Show Rules"
+msgstr ""
+
+#: dkim-verify/dkimruledialog.cpp:36
+#, kde-format
+msgid "Add Rule"
+msgstr ""
+
+#: dkim-verify/dkimruledialog.cpp:82
+#, kde-format
+msgid "Modify Rule"
 msgstr ""
 
 #: dkim-verify/dkimrulewidget.cpp:33
