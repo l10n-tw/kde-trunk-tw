@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"POT-Creation-Date: 2019-10-31 03:24+0100\n"
 "PO-Revision-Date: 2019-01-04 20:41+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -47,31 +47,6 @@ msgstr "David Edmundson"
 msgid "Maintainer"
 msgstr "維護者"
 
-#: kcmqtquicksettings.cpp:45 kcmqtquicksettings.cpp:49
-#, kde-format
-msgid "Automatic"
-msgstr "自動調整"
-
-#: kcmqtquicksettings.cpp:46
-#, kde-format
-msgid "Open GL"
-msgstr "OpenGL"
-
-#: kcmqtquicksettings.cpp:47
-#, kde-format
-msgid "Software"
-msgstr "軟體繪製"
-
-#: kcmqtquicksettings.cpp:50
-#, kde-format
-msgid "Basic"
-msgstr "基本繪製模式"
-
-#: kcmqtquicksettings.cpp:51
-#, kde-format
-msgid "Threaded"
-msgstr "多執行緒模式"
-
 #. i18n: ectx: property (text), widget (KMessageWidget, kmessagewidget)
 #: kcmqtquicksettingswidget.ui:23
 #, kde-format
@@ -86,20 +61,51 @@ msgstr "此處為 Plasma 所用的 QtQuick 設定。請確保您知道你正調�
 msgid "Rendering Backend:"
 msgstr "繪製後端："
 
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SceneGraphBackend)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_RenderLoop)
+#: kcmqtquicksettingswidget.ui:46 kcmqtquicksettingswidget.ui:79
+#, kde-format
+msgid "Automatic"
+msgstr "自動調整"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SceneGraphBackend)
+#: kcmqtquicksettingswidget.ui:51
+#, kde-format
+msgid "Open GL"
+msgstr "OpenGL"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SceneGraphBackend)
+#: kcmqtquicksettingswidget.ui:56
+#, kde-format
+msgid "Software"
+msgstr "軟體繪製"
+
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: kcmqtquicksettingswidget.ui:48
+#: kcmqtquicksettingswidget.ui:64
 #, kde-format
 msgid "GL Core Profile:"
 msgstr "GL 核心設定檔："
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: kcmqtquicksettingswidget.ui:55
+#: kcmqtquicksettingswidget.ui:71
 #, kde-format
 msgid "Render Loop:"
 msgstr "繪製循環："
 
-#. i18n: ectx: property (text), widget (QCheckBox, glCoreProfileCheckbox)
-#: kcmqtquicksettingswidget.ui:65
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_RenderLoop)
+#: kcmqtquicksettingswidget.ui:84
+#, kde-format
+msgid "Basic"
+msgstr "基本繪製模式"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_RenderLoop)
+#: kcmqtquicksettingswidget.ui:89
+#, kde-format
+msgid "Threaded"
+msgstr "多執行緒模式"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ForceGlCoreProfile)
+#: kcmqtquicksettingswidget.ui:97
 #, kde-format
 msgid "Force"
 msgstr "強制"

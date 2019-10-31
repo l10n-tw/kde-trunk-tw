@@ -597,7 +597,7 @@ msgstr ""
 "螢幕上會顯示一條乘法算式。用電腦鍵盤或螢幕上的小鍵盤輸入兩個數字相乘的答案。"
 "您動作必須要快，要在企鵝降落前答對！"
 
-#: activities/algebra_by/Algebra.qml:89
+#: activities/algebra_by/Algebra.qml:77
 msgctxt "Algebra|"
 msgid "Speed"
 msgstr ""
@@ -7968,7 +7968,7 @@ msgctxt "Gletters|"
 msgid "Uppercase only mode"
 msgstr "大寫模式"
 
-#: activities/gletters/Gletters.qml:200
+#: activities/gletters/Gletters.qml:189
 msgctxt "Gletters|"
 msgid "Speed"
 msgstr ""
@@ -10876,17 +10876,72 @@ msgstr ""
 "  Ctrl-M  切換背景音樂播放或靜音\n"
 "  Ctrl-S  切換活動區塊列"
 
-#: activities/menu/ConfigurationItem.qml:77
+#: activities/menu/BackgroundMusicList.qml:64
+#, fuzzy
+#| msgctxt "DownloadDialog|"
+#| msgid "Background"
+msgctxt "BackgroundMusicList|"
+msgid "Background music"
+msgstr "背景"
+
+#: activities/menu/BackgroundMusicList.qml:126
+msgctxt "BackgroundMusicList|"
+msgid "Disable the background music if you don't want to play them."
+msgstr ""
+
+#. Current background music playing
+#: activities/menu/BackgroundMusicList.qml:168
+msgctxt "BackgroundMusicList|"
+msgid "Now Playing:"
+msgstr ""
+
+#. Title of the current background music playing
+#: activities/menu/BackgroundMusicList.qml:177
+#, fuzzy, qt-format
+#| msgctxt "LyricsArea|"
+#| msgid "Title: %1"
+msgctxt "BackgroundMusicList|"
+msgid "Title: %1"
+msgstr "標題：%1"
+
+#. Artist of the current background music playing
+#: activities/menu/BackgroundMusicList.qml:186
+#, fuzzy, qt-format
+#| msgctxt "LandSafe|"
+#| msgid "Altitude: %1"
+msgctxt "BackgroundMusicList|"
+msgid "Artist: %1"
+msgstr "高度：%1"
+
+#. Date of the current background music playing
+#: activities/menu/BackgroundMusicList.qml:195
+#, fuzzy, qt-format
+#| msgctxt "LyricsArea|"
+#| msgid "Title: %1"
+msgctxt "BackgroundMusicList|"
+msgid "Date: %1"
+msgstr "標題：%1"
+
+#. Copyright of the current background music playing
+#: activities/menu/BackgroundMusicList.qml:204
+#, fuzzy, qt-format
+#| msgctxt "LyricsArea|"
+#| msgid "Origin: %1"
+msgctxt "BackgroundMusicList|"
+msgid "Copyright: %1"
+msgstr "來源：%1"
+
+#: activities/menu/ConfigurationItem.qml:78
 msgctxt "ConfigurationItem|"
 msgid "You have the full version"
 msgstr "您有完整的版本"
 
-#: activities/menu/ConfigurationItem.qml:78
+#: activities/menu/ConfigurationItem.qml:79
 msgctxt "ConfigurationItem|"
 msgid "Buy the full version"
 msgstr "購買完整版"
 
-#: activities/menu/ConfigurationItem.qml:141
+#: activities/menu/ConfigurationItem.qml:142
 msgctxt "ConfigurationItem|"
 msgid ""
 "On <a href='https://gcompris.net'>https://gcompris.net</a> you will find the "
@@ -10894,118 +10949,166 @@ msgid ""
 msgstr ""
 "在<a href='https://gcompris.net'>官方網站</a>上您會找到取得啟動代碼的說明。"
 
-#: activities/menu/ConfigurationItem.qml:163
+#: activities/menu/ConfigurationItem.qml:164
 msgctxt "ConfigurationItem|"
 msgid "Enter your activation code"
 msgstr "請輸入啟動代碼"
 
-#: activities/menu/ConfigurationItem.qml:166
+#: activities/menu/ConfigurationItem.qml:167
 msgctxt "ConfigurationItem|"
 msgid "Sorry, your code is too old for this version of GCompris"
 msgstr "抱歉，您使用的代碼太舊了，不適用於此版本的 GCompris"
 
-#: activities/menu/ConfigurationItem.qml:169
+#: activities/menu/ConfigurationItem.qml:170
 msgctxt "ConfigurationItem|"
 msgid "Your code is valid, thanks a lot for your support"
 msgstr "代碼正確，感謝您的支持"
 
-#: activities/menu/ConfigurationItem.qml:189
+#: activities/menu/ConfigurationItem.qml:190
 msgctxt "ConfigurationItem|"
 msgid "Show locked activities"
 msgstr "顯示鎖定的活動"
 
-#: activities/menu/ConfigurationItem.qml:199
+#: activities/menu/ConfigurationItem.qml:200
 msgctxt "ConfigurationItem|"
 msgid "Enable audio voices"
 msgstr "開啟語音"
 
-#: activities/menu/ConfigurationItem.qml:208
+#: activities/menu/ConfigurationItem.qml:209
 msgctxt "ConfigurationItem|"
 msgid "Enable audio effects"
 msgstr "開啟音效"
 
-#: activities/menu/ConfigurationItem.qml:217
+#: activities/menu/ConfigurationItem.qml:221
+#, fuzzy
+#| msgctxt "ConfigurationItem|"
+#| msgid "Enable audio effects"
+msgctxt "ConfigurationItem|"
+msgid "Audio effects volume"
+msgstr "開啟音效"
+
+#: activities/menu/ConfigurationItem.qml:243
+#, fuzzy
+#| msgctxt "ConfigurationItem|"
+#| msgid "Enable audio voices"
+msgctxt "ConfigurationItem|"
+msgid "Enable background music"
+msgstr "開啟語音"
+
+#: activities/menu/ConfigurationItem.qml:254
+#, fuzzy
+#| msgctxt "DownloadDialog|"
+#| msgid "Background"
+msgctxt "ConfigurationItem|"
+msgid "Background Music"
+msgstr "背景"
+
+#: activities/menu/ConfigurationItem.qml:281
+msgctxt "ConfigurationItem|"
+msgid "Not playing"
+msgstr ""
+
+#: activities/menu/ConfigurationItem.qml:283
+#, qt-format
+msgctxt "ConfigurationItem|"
+msgid "Title: %1  Artist: %2"
+msgstr ""
+
+#: activities/menu/ConfigurationItem.qml:285
+msgctxt "ConfigurationItem|"
+msgid "Introduction music"
+msgstr ""
+
+#: activities/menu/ConfigurationItem.qml:301
+#, fuzzy
+#| msgctxt "DownloadDialog|"
+#| msgid "Background"
+msgctxt "ConfigurationItem|"
+msgid "Background music volume"
+msgstr "背景"
+
+#: activities/menu/ConfigurationItem.qml:319
 msgctxt "ConfigurationItem|"
 msgid "Fullscreen"
 msgstr "全螢幕"
 
-#: activities/menu/ConfigurationItem.qml:227
+#: activities/menu/ConfigurationItem.qml:329
 msgctxt "ConfigurationItem|"
 msgid "Virtual Keyboard"
 msgstr "虛擬鍵盤"
 
-#: activities/menu/ConfigurationItem.qml:237
+#: activities/menu/ConfigurationItem.qml:339
 msgctxt "ConfigurationItem|"
 msgid "Enable automatic downloads/updates of sound files"
 msgstr "開啟自動下載/更新聲音檔"
 
-#: activities/menu/ConfigurationItem.qml:251
+#: activities/menu/ConfigurationItem.qml:353
 msgctxt "ConfigurationItem|"
 msgid "Use full word image set"
 msgstr "使用完整單字圖集"
 
-#: activities/menu/ConfigurationItem.qml:251
+#: activities/menu/ConfigurationItem.qml:353
 msgctxt "ConfigurationItem|"
 msgid "Download full word image set"
 msgstr "下載完整單字圖集"
 
-#: activities/menu/ConfigurationItem.qml:262
+#: activities/menu/ConfigurationItem.qml:364
 msgctxt "ConfigurationItem|"
 msgid "The activity section menu is visible"
 msgstr "活動區塊選單可見"
 
-#: activities/menu/ConfigurationItem.qml:275
+#: activities/menu/ConfigurationItem.qml:377
 msgctxt "ConfigurationItem|"
 msgid "Font selector"
 msgstr "字型選擇器"
 
-#: activities/menu/ConfigurationItem.qml:292
+#: activities/menu/ConfigurationItem.qml:382
 msgctxt "ConfigurationItem|"
 msgid "Font size"
 msgstr "字型大小"
 
-#: activities/menu/ConfigurationItem.qml:298
-#: activities/menu/ConfigurationItem.qml:333
+#: activities/menu/ConfigurationItem.qml:400
+#: activities/menu/ConfigurationItem.qml:435
 msgctxt "ConfigurationItem|"
 msgid "Default"
 msgstr "預設"
 
-#: activities/menu/ConfigurationItem.qml:310
+#: activities/menu/ConfigurationItem.qml:412
 msgctxt "ConfigurationItem|"
 msgid "Font Capitalization"
 msgstr "字型大寫"
 
-#: activities/menu/ConfigurationItem.qml:327
+#: activities/menu/ConfigurationItem.qml:417
 msgctxt "ConfigurationItem|"
 msgid "Font letter spacing"
 msgstr "字型字母間隔"
 
-#: activities/menu/ConfigurationItem.qml:346
+#: activities/menu/ConfigurationItem.qml:448
 msgctxt "ConfigurationItem|"
 msgid "Language selector"
 msgstr "語言選擇器"
 
-#: activities/menu/ConfigurationItem.qml:373
+#: activities/menu/ConfigurationItem.qml:475
 msgctxt "ConfigurationItem|"
 msgid "Localized voices"
 msgstr "本地化的聲音"
 
-#: activities/menu/ConfigurationItem.qml:389
+#: activities/menu/ConfigurationItem.qml:491
 msgctxt "ConfigurationItem|"
 msgid "Check for updates"
 msgstr "檢查更新"
 
-#: activities/menu/ConfigurationItem.qml:390
+#: activities/menu/ConfigurationItem.qml:492
 msgctxt "ConfigurationItem|"
 msgid "Download"
 msgstr "下載"
 
-#: activities/menu/ConfigurationItem.qml:408
+#: activities/menu/ConfigurationItem.qml:510
 msgctxt "ConfigurationItem|"
 msgid "Difficulty filter:"
 msgstr "困難度過濾器："
 
-#: activities/menu/ConfigurationItem.qml:610
+#: activities/menu/ConfigurationItem.qml:721
 msgctxt "ConfigurationItem|"
 msgid ""
 "You selected a new locale. You need to restart GCompris to play in your new "
@@ -11014,39 +11117,57 @@ msgstr ""
 "您選擇了一個新的語系。您需要重新啟動 GCompris 才能切換到新的語系。<br/>您要現"
 "在下載相關的音效檔嗎？"
 
-#: activities/menu/ConfigurationItem.qml:611
-#: activities/menu/ConfigurationItem.qml:648
+#: activities/menu/ConfigurationItem.qml:722
+#: activities/menu/ConfigurationItem.qml:759
+#: activities/menu/ConfigurationItem.qml:790
 msgctxt "ConfigurationItem|"
 msgid "Yes"
 msgstr "是"
 
-#: activities/menu/ConfigurationItem.qml:617
-#: activities/menu/ConfigurationItem.qml:653
+#: activities/menu/ConfigurationItem.qml:728
+#: activities/menu/ConfigurationItem.qml:764
+#: activities/menu/ConfigurationItem.qml:795
 msgctxt "ConfigurationItem|"
 msgid "No"
 msgstr "否"
 
-#: activities/menu/ConfigurationItem.qml:646
+#: activities/menu/ConfigurationItem.qml:757
 msgctxt "ConfigurationItem|"
 msgid "The images for several activities are not yet installed. "
 msgstr "有些活動的影像尚未安裝。 "
 
-#: activities/menu/ConfigurationItem.qml:647
+#: activities/menu/ConfigurationItem.qml:758
 msgctxt "ConfigurationItem|"
 msgid "Do you want to download them now?"
 msgstr "您要現在下載嗎？"
 
-#: activities/menu/ConfigurationItem.qml:706
+#: activities/menu/ConfigurationItem.qml:788
+#, fuzzy
+#| msgctxt "ConfigurationItem|"
+#| msgid "The images for several activities are not yet installed. "
+msgctxt "ConfigurationItem|"
+msgid "The background music is not yet installed. "
+msgstr "有些活動的影像尚未安裝。 "
+
+#: activities/menu/ConfigurationItem.qml:789
+#, fuzzy
+#| msgctxt "ConfigurationItem|"
+#| msgid "Do you want to download them now?"
+msgctxt "ConfigurationItem|"
+msgid "Do you want to download it now?"
+msgstr "您要現在下載嗎？"
+
+#: activities/menu/ConfigurationItem.qml:846
 msgctxt "ConfigurationItem|"
 msgid "Mixed case (default)"
 msgstr "大小寫混用(預設)"
 
-#: activities/menu/ConfigurationItem.qml:707
+#: activities/menu/ConfigurationItem.qml:847
 msgctxt "ConfigurationItem|"
 msgid "All uppercase"
 msgstr "全部大寫"
 
-#: activities/menu/ConfigurationItem.qml:708
+#: activities/menu/ConfigurationItem.qml:848
 msgctxt "ConfigurationItem|"
 msgid "All lowercase"
 msgstr "全部小寫"
@@ -11596,19 +11717,19 @@ msgctxt "ActivityInfo|"
 msgid "Identify the notes correctly and score a 100% to complete a level."
 msgstr "正確指出音符，達到 100% 分後即完成關卡。"
 
-#: activities/note_names/NoteNames.qml:140
+#: activities/note_names/NoteNames.qml:130
 msgctxt "NoteNames|"
 msgid "Speed"
 msgstr ""
 
-#: activities/note_names/NoteNames.qml:221
+#: activities/note_names/NoteNames.qml:222
 #, qt-format
 msgctxt "NoteNames|"
 msgid "New note: %1"
 msgstr "新的音符：%1"
 
 #. The following translation represents percentage.
-#: activities/note_names/NoteNames.qml:315
+#: activities/note_names/NoteNames.qml:316
 #, qt-format
 msgctxt "NoteNames|"
 msgid "%1%"
@@ -13051,7 +13172,7 @@ msgctxt "Readingh|"
 msgid "Select your locale"
 msgstr "選擇您的地區"
 
-#: activities/readingh/Readingh.qml:123
+#: activities/readingh/Readingh.qml:112
 msgctxt "Readingh|"
 msgid "Speed"
 msgstr ""
@@ -16185,29 +16306,29 @@ msgctxt "QObject|"
 msgid "Download cancelled by user"
 msgstr "使用者中止下載"
 
-#: core/DownloadManager.cpp:216
+#: core/DownloadManager.cpp:221
 msgctxt "QObject|"
 msgid "Could not create resource path"
 msgstr "無法建立資源路徑"
 
-#: core/DownloadManager.cpp:223
+#: core/DownloadManager.cpp:228
 #, qt-format
 msgctxt "QObject|"
 msgid "Could not open target file %1"
 msgstr "無法開啟目標檔案 %1"
 
-#: core/DownloadManager.cpp:491
+#: core/DownloadManager.cpp:498
 msgctxt "QObject|"
 msgid "Invalid format of Contents file"
 msgstr "Contents 檔格式錯誤"
 
-#: core/DownloadManager.cpp:512
+#: core/DownloadManager.cpp:519
 #, qt-format
 msgctxt "QObject|"
 msgid "The url %1 does not exist."
 msgstr "網址 %1 不存在。"
 
-#: core/DownloadManager.cpp:525
+#: core/DownloadManager.cpp:532
 #, qt-format
 msgctxt "QObject|"
 msgid "Checksum of downloaded file does not match: %1"
@@ -16357,34 +16478,47 @@ msgid ""
 "depending on your graphical card)."
 msgstr "使用 OpenGL 算繪（比較快，但您的顯卡未必支援）。"
 
-#: core/main.qml:131
+#: core/main.qml:190
 msgctxt "main|"
 msgid ""
 "The images for several activities are not yet installed. Do you want to "
 "download them now?"
 msgstr "有些活動的影像尚未安裝。您要現在下載嗎？"
 
-#: core/main.qml:133 core/main.qml:172
+#: core/main.qml:192 core/main.qml:227 core/main.qml:268
 msgctxt "main|"
 msgid "Yes"
 msgstr "是"
 
-#: core/main.qml:138 core/main.qml:178
+#: core/main.qml:197 core/main.qml:233 core/main.qml:274
 msgctxt "main|"
 msgid "No"
 msgstr "否"
 
-#: core/main.qml:161
+#: core/main.qml:225
+msgctxt "main|"
+msgid "The background music is not yet downloaded. "
+msgstr ""
+
+#: core/main.qml:226
+#, fuzzy
+#| msgctxt "ConfigurationItem|"
+#| msgid "Do you want to download them now?"
+msgctxt "main|"
+msgid "Do you want to download it now?"
+msgstr "您要現在下載嗎？"
+
+#: core/main.qml:257
 msgctxt "main|"
 msgid "Welcome to GCompris!"
 msgstr "歡迎使用 GCompris!"
 
-#: core/main.qml:162
+#: core/main.qml:258
 msgctxt "main|"
 msgid "You are running GCompris for the first time."
 msgstr "您是第一次執行 GCompris。"
 
-#: core/main.qml:163
+#: core/main.qml:259
 msgctxt "main|"
 msgid ""
 "You should verify that your application settings especially your language is "
@@ -16394,23 +16528,23 @@ msgstr ""
 "您應該檢查您的應用程式設定，特別是您的語言是否正確，還有語言相關的聲音檔是否"
 "都已安裝。您可以在喜好設定對話框中進行設定。"
 
-#: core/main.qml:165
+#: core/main.qml:261
 msgctxt "main|"
 msgid "Have Fun!"
 msgstr "祝您玩得開心！"
 
-#: core/main.qml:167
+#: core/main.qml:263
 #, qt-format
 msgctxt "main|"
 msgid "Your current language is %1 (%2)."
 msgstr "您目前的語言為 %1 (%2)。"
 
-#: core/main.qml:171
+#: core/main.qml:267
 msgctxt "main|"
 msgid "Do you want to download the corresponding sound files now?"
 msgstr "您要現在下載相關的音效檔嗎？"
 
-#: core/main.qml:199
+#: core/main.qml:295
 msgctxt "main|"
 msgid "GCompris has been updated! Here are the new changes:<br/>"
 msgstr "GCompris 已經更新了。新的變更包括：<br/>"

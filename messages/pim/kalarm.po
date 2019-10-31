@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-30 03:23+0100\n"
+"POT-Creation-Date: 2019-10-31 03:07+0100\n"
 "PO-Revision-Date: 2018-05-19 11:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -39,7 +39,7 @@ msgctxt "@info"
 msgid "Failed to create new calendar resource"
 msgstr "建立行事曆資源失敗。"
 
-#: akonadiresourcecreator.cpp:112 calendarmigrator.cpp:482
+#: akonadiresourcecreator.cpp:112 calendarmigrator.cpp:484
 #, kde-kuit-format
 msgctxt "@info"
 msgid "%1<nl/>(%2)"
@@ -53,7 +53,7 @@ msgid ""
 "para><para><filename>%1</filename></para>"
 msgstr ""
 
-#: alarmcalendar.cpp:249 alarmcalendar.cpp:640
+#: alarmcalendar.cpp:250 alarmcalendar.cpp:645
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot download calendar: <filename>%1</filename>"
@@ -61,7 +61,7 @@ msgstr ""
 "無法下載行事曆：\n"
 "<filename>%1</filename>"
 
-#: alarmcalendar.cpp:277
+#: alarmcalendar.cpp:278
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -71,49 +71,49 @@ msgstr ""
 "<para>載入行事曆錯誤：</para><para><filename>%1</filename></para><para>請修復"
 "或刪除此檔案。</para>"
 
-#: alarmcalendar.cpp:338
+#: alarmcalendar.cpp:339
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Failed to save calendar to <filename>%1</filename>"
 msgstr "無法儲存行事曆到 <filename>%1</filename>"
 
-#: alarmcalendar.cpp:352
+#: alarmcalendar.cpp:353
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot upload calendar to <filename>%1</filename>"
 msgstr "無法上傳行事曆到 <filename>%1</filename>"
 
-#: alarmcalendar.cpp:606 alarmcalendar.cpp:735
+#: alarmcalendar.cpp:611 alarmcalendar.cpp:740
 #, kde-format
 msgctxt "@info"
 msgid "Calendar Files"
 msgstr "行事曆檔案"
 
-#: alarmcalendar.cpp:629 alarmcalendar.cpp:658
+#: alarmcalendar.cpp:634 alarmcalendar.cpp:663
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not load calendar <filename>%1</filename>."
 msgstr "無法載入行事曆檔 <filename>%1</filename>"
 
-#: alarmcalendar.cpp:736
+#: alarmcalendar.cpp:741
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose Export Calendar"
 msgstr "選擇要匯出的行事曆"
 
-#: alarmcalendar.cpp:761
+#: alarmcalendar.cpp:766
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Error loading calendar to append to:<nl/><filename>%1</filename>"
 msgstr "無法載褥行事曆並附加到：<nl/><filename>%1</filename>"
 
-#: alarmcalendar.cpp:801
+#: alarmcalendar.cpp:806
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Failed to save new calendar to:<nl/><filename>%1</filename>"
 msgstr "無法儲存行事曆到：<nl/><filename>%1</filename>"
 
-#: alarmcalendar.cpp:814
+#: alarmcalendar.cpp:819
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot upload new calendar to:<nl/><filename>%1</filename>"
@@ -659,37 +659,37 @@ msgctxt "@info"
 msgid "<para>%1</para><para>%2<nl/>(%3)</para>"
 msgstr "<para>%1</para><para>%2<nl/>(%3)</para>"
 
-#: calendarmigrator.cpp:469
+#: calendarmigrator.cpp:471
 #, kde-format
 msgctxt "@info"
 msgid "Invalid collection"
 msgstr "不合法的收藏"
 
-#: calendarmigrator.cpp:483
+#: calendarmigrator.cpp:485
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Failed to update format of calendar <resource>%1</resource>"
 msgstr "無法更新行事曆 <resource>%1</resource> 的格式。"
 
-#: calendarmigrator.cpp:765
+#: calendarmigrator.cpp:767
 #, kde-format
 msgctxt "@info"
 msgid "New configuration timed out"
 msgstr "新設定已逾時"
 
-#: calendarmigrator.cpp:778
+#: calendarmigrator.cpp:780
 #, kde-format
 msgctxt "@info"
 msgid "New configuration was corrupt"
 msgstr "新設定已損毀"
 
-#: collectionmodel.cpp:372
+#: collectionmodel.cpp:373
 #, kde-format
 msgctxt "@info"
 msgid "You cannot disable your default active alarm calendar."
 msgstr "您無法關閉作用中的預設鬧鐘行事曆。"
 
-#: collectionmodel.cpp:378
+#: collectionmodel.cpp:379
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -697,13 +697,13 @@ msgid ""
 "are configured to be kept."
 msgstr "您無法關閉您預設的歸檔鬧鐘行事曆，因為您設定將逾時的鬧鐘保留住。"
 
-#: collectionmodel.cpp:382
+#: collectionmodel.cpp:383
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to disable your default calendar?"
 msgstr "您真的要關閉您的預設行事曆嗎？"
 
-#: collectionmodel.cpp:868
+#: collectionmodel.cpp:822
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -715,7 +715,7 @@ msgid ""
 msgstr ""
 "行事曆 <resource>%1</resource> 已變成唯讀。這是作用中鬧鐘的預設行事曆。"
 
-#: collectionmodel.cpp:873
+#: collectionmodel.cpp:827
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -726,7 +726,7 @@ msgid ""
 "default calendar for archived alarms."
 msgstr "行事曆 <resource>%1</resource> 已變成唯讀。這是歸檔鬧鐘的預設行事曆。"
 
-#: collectionmodel.cpp:878
+#: collectionmodel.cpp:832
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -737,7 +737,7 @@ msgid ""
 "default calendar for alarm templates."
 msgstr "行事曆 <resource>%1</resource> 已變成唯讀。這是鬧鐘樣本的預設行事曆。"
 
-#: collectionmodel.cpp:883
+#: collectionmodel.cpp:837
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -748,13 +748,13 @@ msgstr ""
 "<para>行事曆 <resource>%1</resource> 已變成唯讀。這是 %2 的預設行事曆。</"
 "para> <para>請選擇新的預設行事曆。</para>"
 
-#: collectionmodel.cpp:891
+#: collectionmodel.cpp:845
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>%1</para><para>Please select a new default calendar.</para>"
 msgstr "<para>%1</para> <para>請選擇新的預設行事曆。</para>"
 
-#: collectionmodel.cpp:1149
+#: collectionmodel.cpp:1160
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose Calendar"
@@ -3747,7 +3747,7 @@ msgstr "KAlarm"
 msgid "Personal alarm message, command and email scheduler by KDE"
 msgstr "來自 KDE 的私人的鬧鐘訊息、指令與信箱排程器"
 
-#: mainwindow.cpp:397
+#: mainwindow.cpp:398
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3755,195 +3755,195 @@ msgid ""
 "corrupted)"
 msgstr "建立選單時失敗（也許 <filename>%1</filename> 已遺失或損毀）"
 
-#: mainwindow.cpp:417
+#: mainwindow.cpp:418
 #, kde-format
 msgctxt "@action"
 msgid "&Templates..."
 msgstr "樣本(&T)..."
 
-#: mainwindow.cpp:421
+#: mainwindow.cpp:422
 #, kde-format
 msgctxt "@action"
 msgid "&New"
 msgstr "新增(&N)..."
 
-#: mainwindow.cpp:439
+#: mainwindow.cpp:440
 #, kde-format
 msgctxt "@action"
 msgid "Create Tem&plate..."
 msgstr "產生樣本(&P)..."
 
-#: mainwindow.cpp:443
+#: mainwindow.cpp:444
 #, kde-format
 msgctxt "@action"
 msgid "&Copy..."
 msgstr "複製(&C)..."
 
-#: mainwindow.cpp:448 resourceselector.cpp:309
+#: mainwindow.cpp:449 resourceselector.cpp:309
 #, kde-format
 msgctxt "@action"
 msgid "&Edit..."
 msgstr "編輯(&E)..."
 
-#: mainwindow.cpp:453
+#: mainwindow.cpp:454
 #, kde-format
 msgctxt "@action"
 msgid "&Delete"
 msgstr "刪除(&D)"
 
-#: mainwindow.cpp:459
+#: mainwindow.cpp:460
 #, kde-format
 msgctxt "@action"
 msgid "Delete Without Confirmation"
 msgstr "不經確認即刪除"
 
-#: mainwindow.cpp:464
+#: mainwindow.cpp:465
 #, kde-format
 msgctxt "@action"
 msgid "Reac&tivate"
 msgstr "重新啟動(&T)"
 
-#: mainwindow.cpp:474
+#: mainwindow.cpp:475
 #, kde-format
 msgctxt "@action"
 msgid "Wake From Suspend..."
 msgstr "從休眠中喚醒..."
 
-#: mainwindow.cpp:482
+#: mainwindow.cpp:483
 #, kde-format
 msgctxt "@action"
 msgid "Show Archi&ved Alarms"
 msgstr "顯示已歸檔的鬧鐘(&V)"
 
-#: mainwindow.cpp:487
+#: mainwindow.cpp:488
 #, kde-format
 msgctxt "@action"
 msgid "Show in System &Tray"
 msgstr "在系統匣內顯示(&T)"
 
-#: mainwindow.cpp:491
+#: mainwindow.cpp:492
 #, kde-format
 msgctxt "@action"
 msgid "Show &Calendars"
 msgstr "顯示行事曆(&C)"
 
-#: mainwindow.cpp:499
+#: mainwindow.cpp:500
 #, kde-format
 msgctxt "@action"
 msgid "Import &Alarms..."
 msgstr "匯入鬧鐘(&A)..."
 
-#: mainwindow.cpp:503
+#: mainwindow.cpp:504
 #, kde-format
 msgctxt "@action"
 msgid "Import &Birthdays..."
 msgstr "匯入生日(&B)..."
 
-#: mainwindow.cpp:507
+#: mainwindow.cpp:508
 #, kde-format
 msgctxt "@action"
 msgid "E&xport Selected Alarms..."
 msgstr "匯出選取的鬧鐘(&X)..."
 
-#: mainwindow.cpp:511 resourceselector.cpp:327
+#: mainwindow.cpp:512 resourceselector.cpp:327
 #, kde-format
 msgctxt "@action"
 msgid "E&xport..."
 msgstr "匯出(&X)..."
 
-#: mainwindow.cpp:515
+#: mainwindow.cpp:516
 #, kde-format
 msgctxt "@action"
 msgid "&Refresh Alarms"
 msgstr "更新鬧鐘(&R)"
 
-#: mainwindow.cpp:723
+#: mainwindow.cpp:724
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to delete the selected alarm?"
 msgid_plural "Do you really want to delete the %1 selected alarms?"
 msgstr[0] "您真的要刪除這 %1 個鬧鐘嗎？"
 
-#: mainwindow.cpp:725
+#: mainwindow.cpp:726
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Alarm"
 msgid_plural "Delete Alarms"
 msgstr[0] "刪除鬧鐘"
 
-#: mainwindow.cpp:726 templatedlg.cpp:187
+#: mainwindow.cpp:727 templatedlg.cpp:187
 #, kde-format
 msgctxt "@action:button"
 msgid "&Delete"
 msgstr "刪除(&D)"
 
-#: mainwindow.cpp:811
+#: mainwindow.cpp:812
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Hide Archived Alarms"
 msgstr "隱藏已歸檔的鬧鐘"
 
-#: mainwindow.cpp:812
+#: mainwindow.cpp:813
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Show Archived Alarms"
 msgstr "顯示已歸檔的鬧鐘"
 
-#: mainwindow.cpp:883
+#: mainwindow.cpp:884
 #, kde-format
 msgctxt "@info"
 msgid "Import birthdays"
 msgstr "匯入生日..."
 
-#: mainwindow.cpp:1054
+#: mainwindow.cpp:1055
 #, kde-format
 msgctxt "@action Undo/Redo [action]"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: mainwindow.cpp:1055
+#: mainwindow.cpp:1056
 #, kde-format
 msgctxt "@action Undo [action]: message"
 msgid "%1 %2: %3"
 msgstr "%1 %2: %3"
 
-#: mainwindow.cpp:1404
+#: mainwindow.cpp:1405
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Display Alarm"
 msgstr "顯示鬧鐘"
 
-#: mainwindow.cpp:1406
+#: mainwindow.cpp:1407
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Email Alarm"
 msgstr "電子郵件型鬧鐘"
 
-#: mainwindow.cpp:1408
+#: mainwindow.cpp:1409
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Command Alarm"
 msgstr "指令型鬧鐘"
 
-#: mainwindow.cpp:1410
+#: mainwindow.cpp:1411
 #, kde-format
 msgctxt "@title:window"
 msgid "Alarm Type"
 msgstr "鬧鐘型態"
 
-#: mainwindow.cpp:1411
+#: mainwindow.cpp:1412
 #, kde-format
 msgctxt "@info"
 msgid "Choose alarm type to create:"
 msgstr "選擇鬧鐘樣本"
 
-#: mainwindow.cpp:1542
+#: mainwindow.cpp:1543
 #, kde-format
 msgctxt "@action"
 msgid "Ena&ble"
 msgstr "開啟(&B)"
 
-#: mainwindow.cpp:1542
+#: mainwindow.cpp:1543
 #, kde-format
 msgctxt "@action"
 msgid "Disa&ble"
@@ -4221,55 +4221,55 @@ msgctxt "@info"
 msgid "<para>Cannot defer alarm:</para><para>Alarm not found.</para>"
 msgstr "<para>無法延遲鬧鐘：</para><para>找不到鬧鐘</para>"
 
-#: newalarmaction.cpp:60
+#: newalarmaction.cpp:61
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "&Display Alarm Template"
 msgstr "顯示鬧鐘樣本(&D)"
 
-#: newalarmaction.cpp:60
+#: newalarmaction.cpp:61
 #, kde-format
 msgctxt "@action"
 msgid "New Display Alarm"
 msgstr "新增顯示型鬧鐘"
 
-#: newalarmaction.cpp:63
+#: newalarmaction.cpp:64
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "&Command Alarm Template"
 msgstr "指令型鬧鐘樣本(&C)"
 
-#: newalarmaction.cpp:63
+#: newalarmaction.cpp:64
 #, kde-format
 msgctxt "@action"
 msgid "New Command Alarm"
 msgstr "新增指令型鬧鐘"
 
-#: newalarmaction.cpp:66
+#: newalarmaction.cpp:67
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "&Email Alarm Template"
 msgstr "電子郵件型鬧鐘樣本(&E)"
 
-#: newalarmaction.cpp:66
+#: newalarmaction.cpp:67
 #, kde-format
 msgctxt "@action"
 msgid "New Email Alarm"
 msgstr "新增電子郵件型鬧鐘"
 
-#: newalarmaction.cpp:69
+#: newalarmaction.cpp:70
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "&Audio Alarm Template"
 msgstr "音效型鬧鐘樣本(&A)"
 
-#: newalarmaction.cpp:69
+#: newalarmaction.cpp:70
 #, kde-format
 msgctxt "@action"
 msgid "New Audio Alarm"
 msgstr "新增音效型鬧鐘"
 
-#: newalarmaction.cpp:83
+#: newalarmaction.cpp:84
 #, kde-format
 msgctxt "@action"
 msgid "New Alarm From &Template"
@@ -5912,31 +5912,31 @@ msgctxt "@info:whatsthis"
 msgid "Enter the length of time to repeat the alarm"
 msgstr "輸入要重覆響鈴的時間"
 
-#: resources/akonadiresource.cpp:547
+#: resources/akonadiresource.cpp:601
 #, kde-format
 msgctxt "@info"
 msgid "Failed to create alarm."
 msgstr "建立鬧鐘失敗。"
 
-#: resources/akonadiresource.cpp:549
+#: resources/akonadiresource.cpp:603
 #, kde-format
 msgctxt "@info"
 msgid "Failed to update alarm."
 msgstr "更新鬧鐘失敗。"
 
-#: resources/akonadiresource.cpp:551
+#: resources/akonadiresource.cpp:605
 #, kde-format
 msgctxt "@info"
 msgid "Failed to delete alarm."
 msgstr "刪除鬧鐘失敗。"
 
-#: resources/akonadiresource.cpp:679
+#: resources/akonadiresource.cpp:733
 #, kde-format
 msgctxt "@info"
 msgid "Failed to update calendar \"%1\"."
 msgstr "更新行事曆「%1」失敗。"
 
-#: resources/resourcetype.cpp:109
+#: resources/resourcetype.cpp:118
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Calendar Files"
@@ -5944,26 +5944,26 @@ msgctxt "@info"
 msgid "KAlarm Calendar File"
 msgstr "行事曆檔案"
 
-#: resources/resourcetype.cpp:109
+#: resources/resourcetype.cpp:118
 #, fuzzy, kde-format
 #| msgid "Path to KAlarm directory."
 msgctxt "@info"
 msgid "KAlarm Calendar Directory"
 msgstr "KAlarm 目錄的路徑。"
 
-#: resources/resourcetype.cpp:110
+#: resources/resourcetype.cpp:119
 #, kde-format
 msgctxt "@info"
 msgid "File"
 msgstr "檔案"
 
-#: resources/resourcetype.cpp:111
+#: resources/resourcetype.cpp:120
 #, kde-format
 msgctxt "@info"
 msgid "URL"
 msgstr "網址"
 
-#: resources/resourcetype.cpp:112
+#: resources/resourcetype.cpp:121
 #, kde-format
 msgctxt "@info Directory in filesystem"
 msgid "Directory"

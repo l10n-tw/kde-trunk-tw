@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-30 02:38+0100\n"
+"POT-Creation-Date: 2019-10-31 02:37+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -42,17 +42,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 18.12.1\n"
-
-#, fuzzy, kde-format
-#| msgid "Suriname"
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "蘇利南"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
 
 #: core/app/date/ddateedit.cpp:481
 #, kde-format
@@ -208,7 +197,7 @@ msgstr "%1 %2"
 #: core/app/dragdrop/albumdragdrop.cpp:202
 #: core/app/dragdrop/albumdragdrop.cpp:304
 #: core/app/dragdrop/importdragdrop.cpp:98
-#: core/app/dragdrop/itemdragdrop.cpp:124 core/app/dragdrop/tagdragdrop.cpp:85
+#: core/app/dragdrop/itemdragdrop.cpp:126 core/app/dragdrop/tagdragdrop.cpp:85
 #, kde-format
 msgid "&Move Here"
 msgstr "移至此處(&M)"
@@ -220,7 +209,7 @@ msgstr "移至此處(&M)"
 #: core/app/dragdrop/albumdragdrop.cpp:307
 #: core/app/dragdrop/importdragdrop.cpp:64
 #: core/app/dragdrop/importdragdrop.cpp:161
-#: core/app/dragdrop/itemdragdrop.cpp:91 core/app/dragdrop/itemdragdrop.cpp:619
+#: core/app/dragdrop/itemdragdrop.cpp:93 core/app/dragdrop/itemdragdrop.cpp:670
 #: core/app/dragdrop/tagdragdrop.cpp:88 core/app/dragdrop/tagdragdrop.cpp:194
 #: core/app/dragdrop/tagdragdrop.cpp:250
 #: core/showfoto/thumbbar/showfotodragdrophandler.cpp:59
@@ -238,19 +227,19 @@ msgstr "設為相簿縮圖"
 #: core/app/dragdrop/albumdragdrop.cpp:203
 #: core/app/dragdrop/albumdragdrop.cpp:305
 #: core/app/dragdrop/importdragdrop.cpp:101
-#: core/app/dragdrop/itemdragdrop.cpp:127
+#: core/app/dragdrop/itemdragdrop.cpp:129
 #, kde-format
 msgid "&Copy Here"
 msgstr "複製至此處(&C)"
 
 #: core/app/dragdrop/albumdragdrop.cpp:262
-#: core/app/dragdrop/itemdragdrop.cpp:615
+#: core/app/dragdrop/itemdragdrop.cpp:666
 #, kde-format
 msgid "Download From Camera"
 msgstr "從相機下載"
 
 #: core/app/dragdrop/albumdragdrop.cpp:263
-#: core/app/dragdrop/itemdragdrop.cpp:617
+#: core/app/dragdrop/itemdragdrop.cpp:668
 #, kde-format
 msgid "Download && Delete From Camera"
 msgstr "從相機下載和刪除(&&)"
@@ -272,53 +261,66 @@ msgstr "匯出中"
 msgid "Upload to Camera"
 msgstr "上傳到相機"
 
-#: core/app/dragdrop/itemdragdrop.cpp:72
+#: core/app/dragdrop/itemdragdrop.cpp:74
 #, kde-format
 msgctxt "@action:inmenu Group images with this item"
 msgid "Group here"
 msgstr "此處的群組"
 
-#: core/app/dragdrop/itemdragdrop.cpp:79
+#: core/app/dragdrop/itemdragdrop.cpp:81
 #, fuzzy, kde-format
 #| msgid "Invert image colors."
 msgctxt "@action:inmenu Insert dragged images before this item"
 msgid "Insert Items here"
 msgstr "反轉影像顏色。"
 
-#: core/app/dragdrop/itemdragdrop.cpp:86
+#: core/app/dragdrop/itemdragdrop.cpp:88
 #, kde-format
 msgctxt "@action:inmenu Group images with this item and move them to its album"
 msgid "Group here and move to album"
 msgstr ""
 
-#: core/app/dragdrop/itemdragdrop.cpp:169
+#: core/app/dragdrop/itemdragdrop.cpp:171
 #, kde-format
 msgid "Assign Tag to Dropped Items"
 msgstr "指定標籤到丟棄的項目"
 
-#: core/app/dragdrop/itemdragdrop.cpp:560
-#, kde-format
-msgid "Assign Tags to &Selected Items"
-msgstr "指定標籤到選擇的項目(&S)"
-
-#: core/app/dragdrop/itemdragdrop.cpp:568
-#: core/app/views/preview/itempreviewview.cpp:553
-#, kde-format
-msgid "Assign Tags to &This Item"
-msgstr "指定標籤到這個項目(&T)"
-
-#: core/app/dragdrop/itemdragdrop.cpp:572
-#, kde-format
-msgid "Assign Tags to &All Items"
-msgstr "指定標籤到所有項目(&A)"
-
 #: core/app/dragdrop/itemdragdrop.cpp:575
+#, fuzzy, kde-format
+#| msgid "Show Face Tags"
+msgid "Change Face Tags"
+msgstr "顯示臉孔標籤"
+
+#: core/app/dragdrop/itemdragdrop.cpp:579
+#, fuzzy, kde-format
+#| msgid "Change Case"
+msgid "Change Face Tag"
+msgstr "改變大小寫"
+
+#: core/app/dragdrop/itemdragdrop.cpp:583
+#: core/app/dragdrop/itemdragdrop.cpp:626
 #: core/app/views/preview/itempreviewview.cpp:555
 #, kde-format
 msgid "&Cancel"
 msgstr "取消(&C)"
 
-#: core/app/dragdrop/itemdragdrop.cpp:613
+#: core/app/dragdrop/itemdragdrop.cpp:611
+#, kde-format
+msgid "Assign Tags to &Selected Items"
+msgstr "指定標籤到選擇的項目(&S)"
+
+#: core/app/dragdrop/itemdragdrop.cpp:619
+#: core/app/views/preview/itempreviewview.cpp:553
+#, kde-format
+msgid "Assign Tags to &This Item"
+msgstr "指定標籤到這個項目(&T)"
+
+#: core/app/dragdrop/itemdragdrop.cpp:623
+#, kde-format
+msgid "Assign Tags to &All Items"
+msgstr "指定標籤到所有項目(&A)"
+
+#: core/app/dragdrop/itemdragdrop.cpp:664
 #, kde-format
 msgid "Importing"
 msgstr "匯入中"
@@ -340,61 +342,88 @@ msgstr "設為標籤縮圖"
 msgid "Assign Tag(s) '%1' to Items"
 msgstr "指定標籤「%1」到項目"
 
-#: core/app/filters/filtersidebarwidget.cpp:134
+#: core/app/filters/filtersidebarwidget.cpp:144
 #, kde-format
 msgid "Text Filter"
 msgstr "文字過濾器"
 
-#: core/app/filters/filtersidebarwidget.cpp:140
+#: core/app/filters/filtersidebarwidget.cpp:150
 #, kde-format
 msgid "MIME Type Filter"
 msgstr "MIME 型態過濾器"
 
-#: core/app/filters/filtersidebarwidget.cpp:146
+#: core/app/filters/filtersidebarwidget.cpp:156
 #, kde-format
 msgid "Geolocation Filter"
 msgstr "地理位置濾鏡"
 
-#: core/app/filters/filtersidebarwidget.cpp:159
+#: core/app/filters/filtersidebarwidget.cpp:173
 #, kde-format
 msgid "Images Without Tags"
 msgstr "影像不含標籤"
 
-#: core/app/filters/filtersidebarwidget.cpp:161
+#: core/app/filters/filtersidebarwidget.cpp:175
 #, kde-format
 msgid "Show images without a tag."
 msgstr "顯示影像不含標籤"
 
-#: core/app/filters/filtersidebarwidget.cpp:164
+#: core/app/filters/filtersidebarwidget.cpp:178
 #, kde-format
 msgid "Tags Matching Condition"
 msgstr "符合條件的標籤"
 
-#: core/app/filters/filtersidebarwidget.cpp:167
+#: core/app/filters/filtersidebarwidget.cpp:181
+#: core/app/filters/filtersidebarwidget.cpp:227
 #, kde-format
 msgid ""
 "Defines in which way the selected tags are combined to filter the images. "
 "This also includes the '%1' check box."
 msgstr "定義用哪種方式合併選擇的標籤和過濾的影像。這也包含此「%1」勾選框。"
 
-#: core/app/filters/filtersidebarwidget.cpp:172
+#: core/app/filters/filtersidebarwidget.cpp:186
+#: core/app/filters/filtersidebarwidget.cpp:232
 #: core/utilities/searchwindow/searchgroup.cpp:677
 #, kde-format
 msgid "OR"
 msgstr "或"
 
-#: core/app/filters/filtersidebarwidget.cpp:174
+#: core/app/filters/filtersidebarwidget.cpp:188
+#: core/app/filters/filtersidebarwidget.cpp:234
 #: core/utilities/searchwindow/searchgroup.cpp:673
 #, kde-format
 msgid "AND"
 msgstr "且"
 
-#: core/app/filters/filtersidebarwidget.cpp:188
+#: core/app/filters/filtersidebarwidget.cpp:202
 #, kde-format
 msgid "Tags Filter"
 msgstr "標籤過濾器"
 
-#: core/app/filters/filtersidebarwidget.cpp:206
+#: core/app/filters/filtersidebarwidget.cpp:219
+#, fuzzy, kde-format
+#| msgid "Images Without Tags"
+msgid "Images Without Face tags"
+msgstr "影像不含標籤"
+
+#: core/app/filters/filtersidebarwidget.cpp:221
+#, fuzzy, kde-format
+#| msgid "Show images without a tag."
+msgid "Show images without a face tag."
+msgstr "顯示影像不含標籤"
+
+#: core/app/filters/filtersidebarwidget.cpp:224
+#, fuzzy, kde-format
+#| msgid "Tags Matching Condition"
+msgid "Face tags Matching Condition"
+msgstr "符合條件的標籤"
+
+#: core/app/filters/filtersidebarwidget.cpp:248
+#, fuzzy, kde-format
+#| msgid "Tags Filter"
+msgid "Face Tags Filter"
+msgstr "標籤過濾器"
+
+#: core/app/filters/filtersidebarwidget.cpp:266
 #, kde-format
 msgid "Labels Filter"
 msgstr "標記過濾器"
@@ -733,7 +762,7 @@ msgstr "取消選擇"
 #: core/app/items/utils/contextmenuhelper.cpp:936
 #: core/app/main/digikamapp_setup.cpp:633
 #: core/libs/tags/manager/tagmngrtreeview.cpp:160
-#: core/libs/tags/manager/tagsmanager.cpp:695
+#: core/libs/tags/manager/tagsmanager.cpp:698
 #, kde-format
 msgid "Invert Selection"
 msgstr "反相選擇"
@@ -1182,7 +1211,7 @@ msgstr "相簿屬性"
 #: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:312
 #: core/dplugins/generic/webservices/vkontakte/vkauthwidget.cpp:80
 #: core/libs/widgets/metadata/subjectwidget.cpp:200
-#: core/utilities/setup/camera/importfilters.cpp:107
+#: core/utilities/setup/camera/importfilterdlg.cpp:107
 #: core/utilities/setup/metadata/namespaceeditdlg.cpp:270
 #, kde-format
 msgid "Name:"
@@ -1289,13 +1318,13 @@ msgstr ""
 "<p>此 ICC 描述檔資料夾似乎無效。</p><p>如果您想要再設定一次，在這裡點選"
 "「是」，反之請選「否」，而「色彩管理」功能會停用，直到您解決這個問題。</p>"
 
-#: core/app/main/digikamapp.cpp:555 core/app/views/stack/trashview.cpp:444
+#: core/app/main/digikamapp.cpp:557 core/app/views/stack/trashview.cpp:444
 #, kde-format
 msgid "No item selected (%1 item)"
 msgid_plural "No item selected (%1 items)"
 msgstr[0] "沒有選擇任何項目（共 %1 個項目）"
 
-#: core/app/main/digikamapp.cpp:561
+#: core/app/main/digikamapp.cpp:563
 #, fuzzy, kde-format
 #| msgid "No item selected (%1 item)"
 #| msgid_plural "No item selected (%1 items)"
@@ -1303,7 +1332,7 @@ msgid "No item selected (%1 [%2] item)"
 msgid_plural "No item selected (%1 [%2] items)"
 msgstr[0] "沒有選擇任何項目（共 %1 個項目）"
 
-#: core/app/main/digikamapp.cpp:565
+#: core/app/main/digikamapp.cpp:567
 #, fuzzy, kde-format
 #| msgid "No item selected (%1 item)"
 #| msgid_plural "No item selected (%1 items)"
@@ -1311,60 +1340,60 @@ msgid "No item selected (%1 item. With grouped items: %2)"
 msgid_plural "No item selected (%1 items. With grouped items: %2)"
 msgstr[0] "沒有選擇任何項目（共 %1 個項目）"
 
-#: core/app/main/digikamapp.cpp:574 core/app/views/stack/trashview.cpp:451
+#: core/app/main/digikamapp.cpp:576 core/app/views/stack/trashview.cpp:451
 #, fuzzy, kde-format
 #| msgid "%2/%1 item selected"
 #| msgid_plural "%2/%1 items selected"
 msgid "%1/%2 items selected"
 msgstr "%2/%1 個項目已選擇"
 
-#: core/app/main/digikamapp.cpp:584
+#: core/app/main/digikamapp.cpp:586
 #, fuzzy, kde-format
 #| msgid "%2/%1 item selected"
 #| msgid_plural "%2/%1 items selected"
 msgid "%1/%2 [%3] items selected"
 msgstr "%2/%1 個項目已選擇"
 
-#: core/app/main/digikamapp.cpp:587
+#: core/app/main/digikamapp.cpp:589
 #, kde-format
 msgid "%1/%2 items selected. Total with grouped items: %3"
 msgstr ""
 
-#: core/app/main/digikamapp.cpp:594
+#: core/app/main/digikamapp.cpp:596
 #, fuzzy, kde-format
 #| msgid "%2/%1 item selected"
 #| msgid_plural "%2/%1 items selected"
 msgid "%1/%2 [%3/%4] items selected"
 msgstr "%2/%1 個項目已選擇"
 
-#: core/app/main/digikamapp.cpp:598
+#: core/app/main/digikamapp.cpp:600
 #, kde-format
 msgid "%1/%2 items selected. With grouped items: %3/%4"
 msgstr ""
 
-#: core/app/main/digikamapp.cpp:620
+#: core/app/main/digikamapp.cpp:622
 #, kde-format
 msgid " (%1 of %2)"
 msgstr "(第 %1 張，共 %2 張)"
 
-#: core/app/main/digikamapp.cpp:629
+#: core/app/main/digikamapp.cpp:631
 #, fuzzy, kde-format
 #| msgid " (%1 of %2)"
 msgid " (%1 of %2 [%3])"
 msgstr "(第 %1 張，共 %2 張)"
 
-#: core/app/main/digikamapp.cpp:633
+#: core/app/main/digikamapp.cpp:635
 #, kde-format
 msgid " (%1 of %2. Total with grouped items: %3)"
 msgstr ""
 
-#: core/app/main/digikamapp.cpp:644
+#: core/app/main/digikamapp.cpp:646
 #, kde-format
 msgid "%1 item hidden by grouping or versioning"
 msgid_plural "%1 items hidden by grouping or versioning"
 msgstr[0] ""
 
-#: core/app/main/digikamapp.cpp:694
+#: core/app/main/digikamapp.cpp:696
 #, fuzzy, kde-format
 #| msgid "Write Metadata to Image"
 #| msgid_plural "Write Metadata to Selected Images"
@@ -1372,7 +1401,7 @@ msgid "Write Metadata to File"
 msgid_plural "Write Metadata to Selected Files"
 msgstr[0] "將中繼資料寫入選擇的影像"
 
-#: core/app/main/digikamapp.cpp:696
+#: core/app/main/digikamapp.cpp:698
 #, fuzzy, kde-format
 #| msgid "Reread Metadata From Image"
 #| msgid_plural "Reread Metadata From Selected Images"
@@ -2451,7 +2480,7 @@ msgstr "主工具列"
 #: core/app/main/main.cpp:118 core/app/views/stack/welcomepageview.cpp:217
 #: core/libs/album/manager/albummanager_album.cpp:135
 #: core/libs/album/manager/albummanager_dalbum.cpp:102
-#: core/libs/album/manager/albummanager_falbum.cpp:69
+#: core/libs/album/manager/albummanager_falbum.cpp:74
 #: core/libs/album/manager/albummanager_talbum.cpp:895
 #, kde-format
 msgid "digiKam"
@@ -2623,7 +2652,7 @@ msgstr "顯示臉孔標籤"
 msgid "Show Fullscreen"
 msgstr ""
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:176
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:177
 #: core/dplugins/generic/tools/htmlgallery/wizard/htmlintropage.cpp:96
 #: core/dplugins/generic/tools/jalbum/wizard/jalbumintropage.cpp:101
 #: core/dplugins/generic/tools/printcreator/wizard/advprintintropage.cpp:98
@@ -2633,44 +2662,44 @@ msgstr ""
 #: core/libs/album/engine/album.cpp:458
 #: core/libs/album/manager/albummanager.cpp:158
 #: core/libs/album/treeview/albumselectiontreeview.cpp:217
-#: core/libs/album/widgets/albumselectors.cpp:134
+#: core/libs/album/widgets/albumselectors.cpp:135
 #: core/libs/album/widgets/albumselecttabs.cpp:195
 #: core/libs/database/utils/widgets/dbstatdlg.cpp:70
-#: core/libs/models/albummodel.cpp:50
+#: core/libs/models/albummodel.cpp:51
 #, kde-format
 msgid "Albums"
 msgstr "相簿"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:235
-#: core/libs/properties/captions/itemdescedittab.cpp:287
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:236
+#: core/libs/properties/captions/itemdescedittab.cpp:289
 #, kde-format
 msgid "Open Tag Manager"
 msgstr "開啟標籤管理員"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:236
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:237
 #, fuzzy, kde-format
 msgid "No Tags"
 msgstr "標籤"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:237
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:238
 #, fuzzy, kde-format
 msgid "Existing Tags"
 msgstr "編輯影像"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:375
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:380
 #, fuzzy, kde-format
 msgid "No Tags Album"
 msgstr "前往相簿"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:390
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:395
 #: core/libs/album/engine/album.cpp:522
 #: core/libs/album/manager/albummanager.cpp:161
-#: core/libs/album/widgets/albumselectors.cpp:137
+#: core/libs/album/widgets/albumselectors.cpp:138
 #: core/libs/album/widgets/albumselecttabs.cpp:196
 #: core/libs/database/utils/widgets/dbstatdlg.cpp:74
 #: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:42
-#: core/libs/models/albummodel.cpp:88
-#: core/libs/properties/captions/itemdescedittab.cpp:326
+#: core/libs/models/albummodel.cpp:89
+#: core/libs/properties/captions/itemdescedittab.cpp:329
 #: core/libs/tags/widgets/tagfolderview.cpp:104
 #: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:545
 #: core/utilities/searchwindow/searchfields.cpp:131
@@ -2680,45 +2709,45 @@ msgstr "前往相簿"
 msgid "Tags"
 msgstr "標籤"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:512
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:517
 #: core/libs/album/widgets/albumselecttabs.cpp:198
 #: core/utilities/searchwindow/searchfields.cpp:183
 #, kde-format
 msgid "Labels"
 msgstr "標籤"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:601
-#: core/libs/models/albummodel.cpp:252
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:606
+#: core/libs/models/albummodel.cpp:266
 #, fuzzy, kde-format
 msgid "Dates"
 msgstr "日期"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:684
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:689
 #, kde-format
 msgid "Time Unit:"
 msgstr "時間單位："
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:686
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:691
 #, kde-format
 msgid "Day"
 msgstr "日"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:687
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:692
 #, kde-format
 msgid "Week"
 msgstr "週"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:688
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:693
 #, kde-format
 msgid "Month"
 msgstr "月"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:689
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:694
 #, kde-format
 msgid "Year"
 msgstr "年"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:692
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:697
 #, kde-format
 msgid ""
 "<p>Select the histogram time unit.</p><p>You can change the graph decade to "
@@ -2727,7 +2756,7 @@ msgstr ""
 "<p>選擇分佈圖時間單位。</p><p>您可以隨著時間推移改變圖表十年以放大或縮小。</"
 "p>"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:699
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:704
 #, kde-format
 msgid ""
 "<p>Select the histogram scale.</p><p>If the date's maximal counts are small, "
@@ -2739,42 +2768,42 @@ msgstr ""
 "對數比例可用於最大總數較大時；如果使用這種比例，所有的數值 (小和大) 都可在圖"
 "形上看見。</p>"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:706
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:711
 #: core/libs/dimg/filters/greycstoration/greycstorationsettings.cpp:231
 #: core/libs/dimg/filters/lc/localcontrastsettings.cpp:172
 #, kde-format
 msgid "Linear"
 msgstr "線性內插法"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:712
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:717
 #, kde-format
 msgid "Logarithmic"
 msgstr "對數"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:749
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:754
 #, kde-format
 msgid "Clear current selection"
 msgstr "清除目前選擇區域"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:750
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:755
 #, kde-format
 msgid ""
 "If you press this button, the current date selection on the time-line will "
 "be cleared."
 msgstr "如果您按下這個按鈕，會清除時間軸上目前日期的選擇區域。"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:753
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:758
 #, fuzzy, kde-format
 msgid ""
 "Enter the name of the current dates search to save in the \"Searches\" view"
 msgstr "輸入目前日期搜尋的名稱以儲存在「我的搜尋」檢視中"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:759
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:764
 #, kde-format
 msgid "Save current selection to a new virtual Album"
 msgstr "將目前選擇區域儲存到新的虛擬相簿"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:760
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:765
 #, kde-format
 msgid ""
 "If you press this button, the dates selected on the time-line will be saved "
@@ -2783,18 +2812,18 @@ msgstr ""
 "如果您按下這個按鈕，時間軸上選擇的日期會用左側設定的名稱儲存到新的搜尋虛擬相"
 "簿。"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:933
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:938
 #: core/app/views/stack/itemiconview.cpp:236
 #, kde-format
 msgid "Timeline"
 msgstr "時間軸"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:964
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:969
 #, kde-format
 msgid "no item"
 msgstr "沒有項目"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:965
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:970
 #: core/utilities/queuemanager/main/queuemgrwindow.cpp:488
 #: core/utilities/queuemanager/main/queuemgrwindow.cpp:514
 #, kde-format
@@ -2802,36 +2831,51 @@ msgid "1 item"
 msgid_plural "%1 items"
 msgstr[0] "%1 個項目"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1187
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1192
 #, kde-format
 msgctxt "Advanced search images, access stored searches"
 msgid "Search"
 msgstr "搜尋"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1279
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1284
 #, fuzzy, kde-format
 #| msgid "Similarity:"
 msgctxt "Fuzzy Search images, as duplicates, sketch, searches by similarities"
 msgid "Similarity"
 msgstr "相似檔："
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1387
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1392
 #, fuzzy, kde-format
 msgctxt "Search images on a map"
 msgid "Map"
 msgstr "地圖"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1443
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1448
 #, kde-format
 msgid "Scan collection for faces"
 msgstr "掃描臉孔收藏"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1448
-#, kde-format
-msgid "People Tags"
-msgstr "人物標籤"
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1453
+#, fuzzy, kde-format
+#| msgctxt "Browse images sorted by depicted people"
+#| msgid "People"
+msgid "People"
+msgstr "人物"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1525
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1526
+#, fuzzy, kde-format
+#| msgid "Face Recognition"
+msgid "Face recognition aborted"
+msgstr "臉孔辨識"
+
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1527
+#, kde-format
+msgid ""
+"Face recognition is aborted, because there are no tags to recognize (except "
+"Unconfirmed and Unknown. Please add new tags."
+msgstr ""
+
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1542
 #, kde-format
 msgctxt "Browse images sorted by depicted people"
 msgid "People"
@@ -3192,7 +3236,7 @@ msgstr "色彩標籤"
 #: core/utilities/geolocation/geoiface/bookmark/bookmarksmngr.cpp:308
 #: core/utilities/queuemanager/views/workflowlist.cpp:98
 #: core/utilities/searchwindow/searchfields.cpp:634
-#: core/utilities/setup/camera/setupcamera.cpp:301
+#: core/utilities/setup/camera/setupcamera.cpp:302
 #, kde-format
 msgid "Title"
 msgstr "標題"
@@ -3334,7 +3378,7 @@ msgstr "檔名"
 #: core/app/views/tableview/tableview_column_file.cpp:63
 #: core/app/views/tableview/tableview_column_file.cpp:86
 #: core/libs/dialogs/deletedialog.cpp:182
-#: core/utilities/setup/camera/setupcamera.cpp:304
+#: core/utilities/setup/camera/setupcamera.cpp:305
 #: core/utilities/setup/collections/setupcollectionview.cpp:892
 #, kde-format
 msgid "Path"
@@ -14016,7 +14060,7 @@ msgstr "製造商："
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:449
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:135
-#: core/utilities/setup/camera/setupcamera.cpp:302
+#: core/utilities/setup/camera/setupcamera.cpp:303
 #, kde-format
 msgid "Model"
 msgstr "型號"
@@ -17810,7 +17854,7 @@ msgstr ""
 #: core/dplugins/generic/webservices/pinterest/pwindow.cpp:271
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:679
 #: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:276
-#: core/libs/tags/manager/tagsmanager.cpp:855
+#: core/libs/tags/manager/tagsmanager.cpp:858
 #: core/utilities/imageeditor/editor/editorwindow.cpp:1124
 #: core/utilities/import/main/importui.cpp:1989
 #: core/utilities/setup/metadata/advancedmetadatatab.cpp:138
@@ -19926,7 +19970,7 @@ msgid "Logout and change the account used for transfer"
 msgstr ""
 
 #: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:380
-#: core/libs/properties/captions/itemdescedittab.cpp:348
+#: core/libs/properties/captions/itemdescedittab.cpp:351
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:133
 #: core/utilities/advancedrename/common/tooltipdialog.cpp:62
 #: core/utilities/import/main/importui.cpp:1971
@@ -21924,7 +21968,7 @@ msgstr "輸入新的相簿名稱："
 
 #: core/libs/album/manager/albummanager.cpp:164
 #: core/libs/album/widgets/albumselecttabs.cpp:197
-#: core/libs/models/albummodel.cpp:147
+#: core/libs/models/albummodel.cpp:161
 #: core/utilities/searchwindow/editablesearchtreeview.cpp:85
 #, kde-format
 msgid "Searches"
@@ -22555,13 +22599,13 @@ msgstr "無法計算平均值。"
 
 #: core/libs/album/widgets/albumselectcombobox.cpp:78
 #: core/libs/album/widgets/albumselectcombobox.cpp:92
-#: core/libs/album/widgets/albumselectors.cpp:171
+#: core/libs/album/widgets/albumselectors.cpp:172
 #, kde-format
 msgid "No Album Selected"
 msgstr "沒有選擇任何相簿"
 
 #: core/libs/album/widgets/albumselectcombobox.cpp:99
-#: core/libs/album/widgets/albumselectors.cpp:204
+#: core/libs/album/widgets/albumselectors.cpp:205
 #, kde-format
 msgid "No Tag Selected"
 msgstr "沒有選擇任何標籤"
@@ -22595,35 +22639,35 @@ msgstr[0] "已排除 %1 本相簿"
 msgid "Select Album"
 msgstr "選擇相簿"
 
-#: core/libs/album/widgets/albumselectors.cpp:167
+#: core/libs/album/widgets/albumselectors.cpp:168
 #, kde-format
 msgid "Whole albums collection"
 msgstr "整個相簿收藏"
 
-#: core/libs/album/widgets/albumselectors.cpp:169
+#: core/libs/album/widgets/albumselectors.cpp:170
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select all albums that should be processed."
 msgstr "選擇要處理的所有相簿。"
 
-#: core/libs/album/widgets/albumselectors.cpp:175
+#: core/libs/album/widgets/albumselectors.cpp:176
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Reset selected albums"
 msgstr "重置選取的相簿"
 
-#: core/libs/album/widgets/albumselectors.cpp:200
+#: core/libs/album/widgets/albumselectors.cpp:201
 #, kde-format
 msgid "Whole tags collection"
 msgstr "整個標籤收藏"
 
-#: core/libs/album/widgets/albumselectors.cpp:202
+#: core/libs/album/widgets/albumselectors.cpp:203
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select all tags that should be processed."
 msgstr "選擇要處理的所有標籤。"
 
-#: core/libs/album/widgets/albumselectors.cpp:208
+#: core/libs/album/widgets/albumselectors.cpp:209
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Reset selected tags"
@@ -29794,12 +29838,12 @@ msgstr "套用所有變更此影像的所有版本"
 msgid "More"
 msgstr "更多"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:294
+#: core/libs/properties/captions/itemdescedittab.cpp:297
 #, fuzzy, kde-format
 msgid "Enter tag here."
 msgstr "在這裡輸入新的標籤..."
 
-#: core/libs/properties/captions/itemdescedittab.cpp:295
+#: core/libs/properties/captions/itemdescedittab.cpp:298
 #, fuzzy, kde-format
 msgid ""
 "Enter the text used to create tags here. '/' can be used to create a "
@@ -29809,147 +29853,147 @@ msgstr ""
 "在這裡輸入用於建立的新標籤的文字。可用「/」來建立標籤的層級。也可用「,」來同"
 "時建立多個的層級。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:308
+#: core/libs/properties/captions/itemdescedittab.cpp:311
 #, kde-format
 msgid "Tags already assigned"
 msgstr "標籤已指定"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:314
+#: core/libs/properties/captions/itemdescedittab.cpp:317
 #, kde-format
 msgid "Recent Tags"
 msgstr "最近的標籤"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:594
+#: core/libs/properties/captions/itemdescedittab.cpp:597
 #, kde-format
 msgid "You have edited the image caption. "
 msgid_plural "You have edited the captions of %1 images. "
 msgstr[0] "您已經修改了 %1 張影像的標題描述。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:598
+#: core/libs/properties/captions/itemdescedittab.cpp:601
 #, kde-format
 msgid "You have edited the image title. "
 msgid_plural "You have edited the titles of %1 images. "
 msgstr[0] "您已經修改了 %1 張影像的標題。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:602
+#: core/libs/properties/captions/itemdescedittab.cpp:605
 #, kde-format
 msgid "You have edited the date of the image. "
 msgid_plural "You have edited the date of %1 images. "
 msgstr[0] "您已經編輯了 %1 張影像的日期。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:606
+#: core/libs/properties/captions/itemdescedittab.cpp:609
 #, kde-format
 msgid "You have edited the pick label of the image. "
 msgid_plural "You have edited the pick label of %1 images. "
 msgstr[0] "您已經編輯了 %1 張影像的挑選標籤。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:610
+#: core/libs/properties/captions/itemdescedittab.cpp:613
 #, kde-format
 msgid "You have edited the color label of the image. "
 msgid_plural "You have edited the color label of %1 images. "
 msgstr[0] "您已經編輯了 %1 張影像的色彩標籤。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:614
+#: core/libs/properties/captions/itemdescedittab.cpp:617
 #, kde-format
 msgid "You have edited the rating of the image. "
 msgid_plural "You have edited the rating of %1 images. "
 msgstr[0] "您已經編輯了 %1 張影像的評等。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:618
+#: core/libs/properties/captions/itemdescedittab.cpp:621
 #, kde-format
 msgid "You have edited the tags of the image. "
 msgid_plural "You have edited the tags of %1 images. "
 msgstr[0] "您已經編輯了 %1 張影像的標籤。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:622
+#: core/libs/properties/captions/itemdescedittab.cpp:625
 #, kde-format
 msgid "Do you want to apply your changes?"
 msgstr "您要套用變更嗎？"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:626
+#: core/libs/properties/captions/itemdescedittab.cpp:629
 #, kde-format
 msgid "<p>You have edited the metadata of the image: </p><p><ul>"
 msgid_plural "<p>You have edited the metadata of %1 images: </p><p><ul>"
 msgstr[0] "<p>您已經編輯了 %1 張影像的中繼資料：</p><p><ul>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:632
+#: core/libs/properties/captions/itemdescedittab.cpp:635
 #, kde-format
 msgid "<li>title</li>"
 msgstr "<li>標題</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:637
+#: core/libs/properties/captions/itemdescedittab.cpp:640
 #, kde-format
 msgid "<li>caption</li>"
 msgstr "<li>標題描述</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:642
+#: core/libs/properties/captions/itemdescedittab.cpp:645
 #, kde-format
 msgid "<li>date</li>"
 msgstr "<li>日期</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:647
+#: core/libs/properties/captions/itemdescedittab.cpp:650
 #, kde-format
 msgid "<li>pick label</li>"
 msgstr "<li>挑選標籤</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:652
+#: core/libs/properties/captions/itemdescedittab.cpp:655
 #, kde-format
 msgid "<li>color label</li>"
 msgstr "<li>色彩標籤</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:657
+#: core/libs/properties/captions/itemdescedittab.cpp:660
 #, kde-format
 msgid "<li>rating</li>"
 msgstr "<li>評等</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:662
+#: core/libs/properties/captions/itemdescedittab.cpp:665
 #, kde-format
 msgid "<li>tags</li>"
 msgstr "<li>標籤</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:667
+#: core/libs/properties/captions/itemdescedittab.cpp:670
 #, kde-format
 msgid "<p>Do you want to apply your changes?</p>"
 msgstr "<p>您要套用您的變更嗎？</p>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:670
+#: core/libs/properties/captions/itemdescedittab.cpp:673
 #, kde-format
 msgid "Always apply changes without confirmation"
 msgstr "永遠直接套用變更而不詢問"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:673
-#: core/libs/properties/captions/itemdescedittab.cpp:682
+#: core/libs/properties/captions/itemdescedittab.cpp:676
+#: core/libs/properties/captions/itemdescedittab.cpp:685
 #, kde-format
 msgid "Apply changes?"
 msgstr "套用改變？"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:822
+#: core/libs/properties/captions/itemdescedittab.cpp:825
 #, kde-format
 msgid "Reading metadata from files. Please wait..."
 msgstr "正在從檔案讀取中繼資料。請稍候..."
 
-#: core/libs/properties/captions/itemdescedittab.cpp:853
+#: core/libs/properties/captions/itemdescedittab.cpp:856
 #, kde-format
 msgid "Writing metadata to files. Please wait..."
 msgstr "正在將中繼資料寫入檔案。請稍候..."
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1224
+#: core/libs/properties/captions/itemdescedittab.cpp:1227
 #, kde-format
 msgid "Read metadata from file to database"
 msgstr "從檔案讀取中繼資料到資料庫"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1225
-#: core/libs/properties/captions/itemdescedittab.cpp:1239
+#: core/libs/properties/captions/itemdescedittab.cpp:1228
+#: core/libs/properties/captions/itemdescedittab.cpp:1242
 #, kde-format
 msgid "Write metadata to each file"
 msgstr "將中繼資料寫入到每個檔案"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1238
+#: core/libs/properties/captions/itemdescedittab.cpp:1241
 #, kde-format
 msgid "Read metadata from each file to database"
 msgstr "從每個檔案中讀取中繼資料到資料庫"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1353
+#: core/libs/properties/captions/itemdescedittab.cpp:1356
 #: core/libs/tags/widgets/tagspopupmenu.cpp:526
 #, kde-format
 msgid "No Recently Assigned Tags"
@@ -31366,7 +31410,7 @@ msgstr "待辦"
 msgid "Miscellaneous"
 msgstr "其他"
 
-#: core/libs/tags/engine/taggingactionfactory.cpp:388
+#: core/libs/tags/engine/taggingactionfactory.cpp:391
 #, fuzzy, kde-format
 msgctxt "<tag name> in <tag path>"
 msgid "%1 in %2"
@@ -31374,7 +31418,7 @@ msgstr ""
 "%1\n"
 "  於 %2"
 
-#: core/libs/tags/engine/taggingactionfactory.cpp:396
+#: core/libs/tags/engine/taggingactionfactory.cpp:399
 #, fuzzy, kde-format
 msgctxt "Create New Tag <tag name> in <parent tag path>"
 msgid "Create \"%1\" in %2"
@@ -31382,7 +31426,7 @@ msgstr ""
 "在 %2\n"
 "建立 \"%1\""
 
-#: core/libs/tags/engine/taggingactionfactory.cpp:401
+#: core/libs/tags/engine/taggingactionfactory.cpp:404
 #, kde-format
 msgid "Create \"%1\""
 msgstr "建立 \"%1\""
@@ -31504,33 +31548,33 @@ msgid "Add selected tags to Quick Access List"
 msgstr "將選取的標籤新增到快速存取清單中"
 
 #: core/libs/tags/manager/tagmngrtreeview.cpp:153
-#: core/libs/tags/manager/tagsmanager.cpp:685
+#: core/libs/tags/manager/tagsmanager.cpp:688
 #, fuzzy, kde-format
 msgid "Edit Tag Title"
 msgstr "項目標題"
 
 #: core/libs/tags/manager/tagmngrtreeview.cpp:157
-#: core/libs/tags/manager/tagsmanager.cpp:689
+#: core/libs/tags/manager/tagsmanager.cpp:692
 #: core/libs/tags/widgets/tagfolderview.cpp:79
 #, kde-format
 msgid "Reset Tag Icon"
 msgstr "重設標籤圖示"
 
 #: core/libs/tags/manager/tagmngrtreeview.cpp:163
-#: core/libs/tags/manager/tagsmanager.cpp:698
+#: core/libs/tags/manager/tagsmanager.cpp:701
 #, kde-format
 msgid "Expand Tag Tree"
 msgstr "展開標籤樹狀圖"
 
 #: core/libs/tags/manager/tagmngrtreeview.cpp:166
-#: core/libs/tags/manager/tagsmanager.cpp:701
-#: core/libs/tags/widgets/tagfolderview.cpp:124
+#: core/libs/tags/manager/tagsmanager.cpp:704
+#: core/libs/tags/widgets/tagfolderview.cpp:127
 #, kde-format
 msgid "Expand Selected Nodes"
 msgstr "展開選取的節點"
 
 #: core/libs/tags/manager/tagmngrtreeview.cpp:169
-#: core/libs/tags/manager/tagsmanager.cpp:703
+#: core/libs/tags/manager/tagsmanager.cpp:706
 #, kde-format
 msgid "Remove Tag from Images"
 msgstr "從影像移除標籤"
@@ -31585,7 +31629,7 @@ msgstr "先前的標籤已變更。要儲存變更嗎？"
 msgid "Tags Manager"
 msgstr "標籤管理員"
 
-#: core/libs/tags/manager/tagsmanager.cpp:346
+#: core/libs/tags/manager/tagsmanager.cpp:349
 #, fuzzy, kde-format
 msgctxt "%2 is a comma separated list of tags to be deleted."
 msgid ""
@@ -31597,7 +31641,7 @@ msgid_plural ""
 msgstr[0] ""
 "標籤 '%1' 有一個以上的子標籤。刪除這些標籤也會刪除子標籤。是否要繼續？"
 
-#: core/libs/tags/manager/tagsmanager.cpp:369
+#: core/libs/tags/manager/tagsmanager.cpp:372
 #, fuzzy, kde-format
 msgctxt "%2 is a comma separated list of tags to be deleted."
 msgid "Tag %2 is assigned to one or more items. Do you want to delete it?"
@@ -31605,20 +31649,20 @@ msgid_plural ""
 "Tags %2 are assigned to one or more items. Do you want to delete them?"
 msgstr[0] "標籤 '%1' 被指定到一個以上的項目。是否要繼續？"
 
-#: core/libs/tags/manager/tagsmanager.cpp:379
+#: core/libs/tags/manager/tagsmanager.cpp:382
 #, fuzzy, kde-format
 msgctxt "%2 is a comma separated list of tags to be deleted."
 msgid "Delete tag %2?"
 msgid_plural "Delete tags %2?"
 msgstr[0] "刪除標籤"
 
-#: core/libs/tags/manager/tagsmanager.cpp:385
+#: core/libs/tags/manager/tagsmanager.cpp:388
 #, fuzzy, kde-format
 msgid "Delete tag"
 msgid_plural "Delete tags"
 msgstr[0] "刪除標籤"
 
-#: core/libs/tags/manager/tagsmanager.cpp:509
+#: core/libs/tags/manager/tagsmanager.cpp:512
 #, kde-format
 msgid ""
 "<qt>digiKam will clean up tag metadata before setting tags from database.<br/"
@@ -31626,15 +31670,15 @@ msgid ""
 "Tags from Image).<br/> Do you want to continue?</qt>"
 msgstr ""
 
-#: core/libs/tags/manager/tagsmanager.cpp:521
-#: core/libs/tags/manager/tagsmanager.cpp:540
+#: core/libs/tags/manager/tagsmanager.cpp:524
+#: core/libs/tags/manager/tagsmanager.cpp:543
 #, kde-format
 msgid ""
 "This operation can take long time depending on collection size.\n"
 "Do you want to continue?"
 msgstr "這項操作依照收藏的大小，可能會花很長的時間。您要繼續嗎？"
 
-#: core/libs/tags/manager/tagsmanager.cpp:560
+#: core/libs/tags/manager/tagsmanager.cpp:563
 #, fuzzy, kde-format
 msgid ""
 "This operation will wipe all tags from database only.\n"
@@ -31645,34 +31689,34 @@ msgstr ""
 "要套用變更到檔案，您必須稍後選擇將中繼資料寫入檔案。\n"
 "您要繼續嗎？"
 
-#: core/libs/tags/manager/tagsmanager.cpp:620
+#: core/libs/tags/manager/tagsmanager.cpp:623
 #, fuzzy, kde-format
 msgid "Do you really want to remove the selected tag from all images?"
 msgid_plural "Do you really want to remove the selected tags from all images?"
 msgstr[0] "您要從收藏清單中移除此收藏「%1」嗎？"
 
-#: core/libs/tags/manager/tagsmanager.cpp:681
+#: core/libs/tags/manager/tagsmanager.cpp:684
 #, fuzzy, kde-format
 msgctxt "@title:menu"
 msgid "Organize"
 msgstr "組織"
 
-#: core/libs/tags/manager/tagsmanager.cpp:692
+#: core/libs/tags/manager/tagsmanager.cpp:695
 #, kde-format
 msgid "Create Tag from Address Book"
 msgstr "從通訊錄建立標籤"
 
-#: core/libs/tags/manager/tagsmanager.cpp:706
+#: core/libs/tags/manager/tagsmanager.cpp:709
 #, fuzzy, kde-format
 msgid "Delete Unassigned Tags"
 msgstr "最近指定的標籤"
 
-#: core/libs/tags/manager/tagsmanager.cpp:709
+#: core/libs/tags/manager/tagsmanager.cpp:712
 #, kde-format
 msgid "Add new tag to current tag. Current tag is last clicked tag."
 msgstr "將標籤新增到上次點擊的標籤。"
 
-#: core/libs/tags/manager/tagsmanager.cpp:712
+#: core/libs/tags/manager/tagsmanager.cpp:715
 #, fuzzy, kde-format
 #| msgid ""
 #| "Delete selected items. Also work with multiple items, but won't delete "
@@ -31682,81 +31726,81 @@ msgid ""
 "the root tag."
 msgstr "刪除選取的項目。它可以刪除多個項目，但不會刪除根標籤。"
 
-#: core/libs/tags/manager/tagsmanager.cpp:716
+#: core/libs/tags/manager/tagsmanager.cpp:719
 #, fuzzy, kde-format
 #| msgid "Remove selected tag"
 msgid "Edit title from selected tag."
 msgstr "移除選取的標籤"
 
-#: core/libs/tags/manager/tagsmanager.cpp:718
+#: core/libs/tags/manager/tagsmanager.cpp:721
 #, kde-format
 msgid "Reset icon to selected tags. Works with multiple selection."
 msgstr "重置選取的標籤圖示。可以用於多個選取標籤。"
 
-#: core/libs/tags/manager/tagsmanager.cpp:721
+#: core/libs/tags/manager/tagsmanager.cpp:724
 #, kde-format
 msgid "Invert selection. Only visible items will be selected"
 msgstr "轉換選取的項目。只有可見的項目會被選取。"
 
-#: core/libs/tags/manager/tagsmanager.cpp:724
+#: core/libs/tags/manager/tagsmanager.cpp:727
 #, kde-format
 msgid "Expand tag tree by one level"
 msgstr "將標籤樹展開一層"
 
-#: core/libs/tags/manager/tagsmanager.cpp:726
+#: core/libs/tags/manager/tagsmanager.cpp:729
 #, kde-format
 msgid "Selected items will be expanded"
 msgstr "選取的項目會被展開"
 
-#: core/libs/tags/manager/tagsmanager.cpp:728
+#: core/libs/tags/manager/tagsmanager.cpp:731
 #, kde-format
 msgid "Delete selected tag(s) from images. Works with multiple selection."
 msgstr "從影像刪除選取的標籤。可以用於多個選取標籤。"
 
-#: core/libs/tags/manager/tagsmanager.cpp:731
+#: core/libs/tags/manager/tagsmanager.cpp:734
 #, fuzzy, kde-format
 msgid "Delete all tags that are not assigned to images. Use with caution."
 msgstr "只會從資料庫刪除所有的標籤，而不會與檔案同步。請小心使用。"
 
-#: core/libs/tags/manager/tagsmanager.cpp:768
+#: core/libs/tags/manager/tagsmanager.cpp:771
 #, kde-format
 msgid "Sync &Export"
 msgstr "同步匯出(&E)"
 
-#: core/libs/tags/manager/tagsmanager.cpp:772
+#: core/libs/tags/manager/tagsmanager.cpp:775
 #, kde-format
 msgid "Write Tags from Database to Image"
 msgstr "將標籤從資料庫寫入到影像"
 
-#: core/libs/tags/manager/tagsmanager.cpp:775
+#: core/libs/tags/manager/tagsmanager.cpp:778
 #, kde-format
 msgid "Read Tags from Image"
 msgstr "從影像讀取標籤"
 
-#: core/libs/tags/manager/tagsmanager.cpp:778
+#: core/libs/tags/manager/tagsmanager.cpp:781
 #, kde-format
 msgid "Wipe all tags from Database only"
 msgstr "只抹除資料庫中的所有標籤"
 
-#: core/libs/tags/manager/tagsmanager.cpp:780
+#: core/libs/tags/manager/tagsmanager.cpp:783
 #, kde-format
 msgid "Write Tags Metadata to Image."
 msgstr "將標籤中繼資料寫入影像。"
 
-#: core/libs/tags/manager/tagsmanager.cpp:782
+#: core/libs/tags/manager/tagsmanager.cpp:785
 #, fuzzy, kde-format
 #| msgid "Read tags from Images into Database. Existing tags won't be affected"
 msgid "Read tags from Images into Database. Existing tags will not be affected"
 msgstr "從影像讀取標籤再寫入資料庫。現有的標籤不會受到影響"
 
-#: core/libs/tags/manager/tagsmanager.cpp:785
+#: core/libs/tags/manager/tagsmanager.cpp:788
 #, kde-format
 msgid ""
 "Delete all tags from database only. Will not sync with files. Proceed with "
 "caution."
 msgstr "只會從資料庫刪除所有的標籤，而不會與檔案同步。請小心使用。"
 
-#: core/libs/tags/manager/tagsmanager.cpp:856
+#: core/libs/tags/manager/tagsmanager.cpp:859
 #, fuzzy, kde-format
 msgid ""
 "This option will remove all tags which\n"
@@ -31764,7 +31808,7 @@ msgid ""
 " Do you want to continue?"
 msgstr "這項操作依照收藏的大小，可能會花很長的時間。您要繼續嗎？"
 
-#: core/libs/tags/manager/tagsmanager.cpp:971
+#: core/libs/tags/manager/tagsmanager.cpp:974
 #, fuzzy, kde-format
 msgid "%1 unused tag were removed."
 msgid_plural "%1 unused tags were removed."
@@ -31866,13 +31910,13 @@ msgstr "標籤建立期間發生錯誤："
 msgid "Tag Path"
 msgstr "標籤路徑"
 
-#: core/libs/tags/widgets/tagfolderview.cpp:129
-#: core/libs/tags/widgets/tagfolderview.cpp:296
+#: core/libs/tags/widgets/tagfolderview.cpp:132
+#: core/libs/tags/widgets/tagfolderview.cpp:288
 #, kde-format
 msgid "Collapse Selected Recursively"
 msgstr "遞迴折疊選取的項目"
 
-#: core/libs/tags/widgets/tagfolderview.cpp:291
+#: core/libs/tags/widgets/tagfolderview.cpp:283
 #, kde-format
 msgid "Expand Selected Recursively"
 msgstr "遞迴展開選取的項目"
@@ -33178,13 +33222,13 @@ msgid "If Target File Exists:"
 msgstr "如果目標檔案已存在："
 
 #: core/libs/widgets/files/filesaveconflictbox.cpp:76
-#: core/utilities/setup/camera/setupcamera.cpp:374
+#: core/utilities/setup/camera/setupcamera.cpp:377
 #, kde-format
 msgid "Store as a different name"
 msgstr "以不同名稱儲存"
 
 #: core/libs/widgets/files/filesaveconflictbox.cpp:77
-#: core/utilities/setup/camera/setupcamera.cpp:375
+#: core/utilities/setup/camera/setupcamera.cpp:378
 #, kde-format
 msgid "Overwrite automatically"
 msgstr "自動覆寫"
@@ -37187,7 +37231,7 @@ msgstr ""
 
 #: core/showfoto/setup/showfotosetupmetadata.cpp:157
 #: core/utilities/queuemanager/views/queuesettingsview.cpp:242
-#: core/utilities/setup/camera/setupcamera.cpp:393
+#: core/utilities/setup/camera/setupcamera.cpp:396
 #: core/utilities/setup/setupicc.cpp:505
 #, kde-format
 msgid "Behavior"
@@ -37252,7 +37296,7 @@ msgid "&Show image Format"
 msgstr "顯示影像格式"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:149
-#: core/utilities/setup/camera/setupcamera.cpp:481
+#: core/utilities/setup/camera/setupcamera.cpp:484
 #, kde-format
 msgid "Set this option to show image format over image thumbnail."
 msgstr "設定這個選項會在影像縮圖上顯示檔案格式。"
@@ -37263,7 +37307,7 @@ msgid "&Show Geolocation Indicator"
 msgstr "地理位置濾鏡"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:151
-#: core/utilities/setup/camera/setupcamera.cpp:484
+#: core/utilities/setup/camera/setupcamera.cpp:487
 #, fuzzy, kde-format
 msgid "Set this option to indicate if image has geolocation information."
 msgstr "啟用這個選項會顯示影像外觀比例。"
@@ -38535,19 +38579,19 @@ msgstr "這是誰？"
 msgid "Applying face changes"
 msgstr "套用臉孔改變"
 
-#: core/utilities/facemanagement/facescandialog.cpp:134
+#: core/utilities/facemanagement/facescandialog.cpp:138
 #, kde-format
 msgctxt "@title:window"
 msgid "Scanning faces"
 msgstr "掃描臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:139
+#: core/utilities/facemanagement/facescandialog.cpp:143
 #, kde-format
 msgctxt "@action:button"
 msgid "Scan"
 msgstr "掃描"
 
-#: core/utilities/facemanagement/facescandialog.cpp:274
+#: core/utilities/facemanagement/facescandialog.cpp:278
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
@@ -38558,56 +38602,56 @@ msgstr ""
 "digiKam 可以搜尋您的相片中的臉孔。<nl/> 當您已經在相當數量中的相片標記出您的"
 "朋友後，<nl/> 它可以辨識中您其它相片中的此人。"
 
-#: core/utilities/facemanagement/facescandialog.cpp:283
+#: core/utilities/facemanagement/facescandialog.cpp:287
 #, kde-format
 msgctxt "@option:radio"
 msgid "Detect faces"
 msgstr "偵測臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:284
+#: core/utilities/facemanagement/facescandialog.cpp:288
 #, kde-format
 msgctxt "@info"
 msgid "Find all faces in your photos"
 msgstr "找出您的相片中的所有臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:286
+#: core/utilities/facemanagement/facescandialog.cpp:290
 #, fuzzy, kde-format
 msgctxt "@option:radio"
 msgid "Detect and recognize faces (experimental)"
 msgstr "偵測與辨識臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:287
+#: core/utilities/facemanagement/facescandialog.cpp:291
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
 "Find all faces in your photos and try to recognize which person is depicted"
 msgstr "找出您的相片中的所有臉孔<nl/>並試著辨識標記出來的是哪個人"
 
-#: core/utilities/facemanagement/facescandialog.cpp:290
+#: core/utilities/facemanagement/facescandialog.cpp:294
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Skip images already scanned"
 msgstr "跳過已掃描的影像"
 
-#: core/utilities/facemanagement/facescandialog.cpp:291
+#: core/utilities/facemanagement/facescandialog.cpp:295
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Scan again and merge results"
 msgstr "再次掃描並合併結果"
 
-#: core/utilities/facemanagement/facescandialog.cpp:292
+#: core/utilities/facemanagement/facescandialog.cpp:296
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Clear unconfirmed results and rescan"
 msgstr "清除未確認的結果並重新掃描"
 
-#: core/utilities/facemanagement/facescandialog.cpp:295
+#: core/utilities/facemanagement/facescandialog.cpp:299
 #, fuzzy, kde-format
 msgctxt "@option:radio"
 msgid "Recognize faces (experimental)"
 msgstr "辨認臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:296
+#: core/utilities/facemanagement/facescandialog.cpp:300
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
@@ -38615,48 +38659,47 @@ msgid ""
 "faces."
 msgstr "再試著辨認已標記出來但無法確認的人物臉孔。"
 
-#: core/utilities/facemanagement/facescandialog.cpp:321
+#: core/utilities/facemanagement/facescandialog.cpp:330
 #: core/utilities/fuzzysearch/findduplicatesview.cpp:138
 #, kde-format
 msgctxt "@label"
 msgid "Search in:"
 msgstr "搜尋於："
 
-#: core/utilities/facemanagement/facescandialog.cpp:322
+#: core/utilities/facemanagement/facescandialog.cpp:331
 #, kde-format
 msgctxt "@title:tab"
 msgid "Albums"
 msgstr "相簿"
 
-#: core/utilities/facemanagement/facescandialog.cpp:329
+#: core/utilities/facemanagement/facescandialog.cpp:338
 #, kde-format
 msgctxt "@label"
 msgid "Parameters for face detection and Recognition"
 msgstr "臉孔偵測與辨識的參數"
 
-#: core/utilities/facemanagement/facescandialog.cpp:331
-#, fuzzy, kde-format
-#| msgctxt "@label Two extremities of a scale"
-#| msgid "Fast   -   Accurate"
+#: core/utilities/facemanagement/facescandialog.cpp:340
+#, kde-format
 msgctxt "@label Two extremities of a scale"
-msgid "Fast     -     Accurate"
-msgstr "快 ─ 精確"
+msgid "Sensitivity     -     Specificity"
+msgstr ""
 
-#: core/utilities/facemanagement/facescandialog.cpp:337
+#: core/utilities/facemanagement/facescandialog.cpp:346
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"Adjust speed versus accuracy: The higher the value, the more accurate the "
-"results will be, but it will take more time."
-msgstr "調整速度與精確度：此值越高，精確度越高，但也越慢。"
+"Adjust sensitivity versus specificity: The higher the value, the more "
+"accurately faces will be recognized, but less faces will be recognized (only "
+"faces that are very similar to pretagged faces are recognized)"
+msgstr ""
 
-#: core/utilities/facemanagement/facescandialog.cpp:346
+#: core/utilities/facemanagement/facescandialog.cpp:356
 #, kde-format
 msgctxt "@title:tab"
 msgid "Parameters"
 msgstr "參數"
 
-#: core/utilities/facemanagement/facescandialog.cpp:355
+#: core/utilities/facemanagement/facescandialog.cpp:365
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -38673,7 +38716,7 @@ msgstr ""
 "臉孔偵測是個很花時間的工作。您可以選擇是否要使用您電腦中所有的處理器核心來進"
 "行臉孔偵測，或是只要在單一核心上在背景工作。"
 
-#: core/utilities/facemanagement/facescandialog.cpp:362
+#: core/utilities/facemanagement/facescandialog.cpp:372
 #, fuzzy, kde-format
 #| msgctxt "@option:check"
 #| msgid "Work on all processor cores"
@@ -38681,25 +38724,19 @@ msgctxt "@option:check"
 msgid "Work on all processor cores (experimental)"
 msgstr "在所有的處理器核心上工作"
 
-#: core/utilities/facemanagement/facescandialog.cpp:367
-#, fuzzy, kde-format
-msgctxt "@label:listbox"
-msgid "Recognize faces using LBP algorithm"
-msgstr "辨認臉孔"
-
-#: core/utilities/facemanagement/facescandialog.cpp:371
+#: core/utilities/facemanagement/facescandialog.cpp:381
 #, fuzzy, kde-format
 msgctxt "@label:listbox"
 msgid "Recognize faces using Deep Learning algorithm"
 msgstr "辨認臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:376
+#: core/utilities/facemanagement/facescandialog.cpp:386
 #, kde-format
 msgctxt "@option:check"
 msgid "Clear and rebuild all training data"
 msgstr "清除並重建所有訓練資料"
 
-#: core/utilities/facemanagement/facescandialog.cpp:378
+#: core/utilities/facemanagement/facescandialog.cpp:388
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip"
 #| msgid ""
@@ -38714,20 +38751,20 @@ msgstr ""
 "這會清除所有之前訓練過的資料，並從所有可找到的臉孔重新建立辨識資料。若是有使"
 "用任何其它的應用程式來協助您建立辨識訓練資料，請小心使用。"
 
-#: core/utilities/facemanagement/facescandialog.cpp:388
+#: core/utilities/facemanagement/facescandialog.cpp:398
 #: core/utilities/setup/metadata/setupmetadata.cpp:545
 #, kde-format
 msgctxt "@title:tab"
 msgid "Advanced"
 msgstr "進階"
 
-#: core/utilities/facemanagement/facescandialog.cpp:430
+#: core/utilities/facemanagement/facescandialog.cpp:477
 #, fuzzy, kde-format
 msgctxt "@action:button"
 msgid "Options <<"
 msgstr "選項"
 
-#: core/utilities/facemanagement/facescandialog.cpp:431
+#: core/utilities/facemanagement/facescandialog.cpp:478
 #, fuzzy, kde-format
 msgctxt "@action:button"
 msgid "Options >>"
@@ -39567,8 +39604,8 @@ msgstr "地理位置"
 
 #: core/utilities/geolocation/geoiface/bookmark/bookmarksdlg.cpp:232
 #: core/utilities/setup/album/setupcategory.cpp:106
-#: core/utilities/setup/camera/setupcamera.cpp:320
-#: core/utilities/setup/camera/setupcamera.cpp:436
+#: core/utilities/setup/camera/setupcamera.cpp:321
+#: core/utilities/setup/camera/setupcamera.cpp:439
 #: core/utilities/setup/setuptemplate.cpp:125
 #, kde-format
 msgid "&Remove"
@@ -42640,36 +42677,6 @@ msgid ""
 "Enable this option to convert RAW images to DNG container automatically."
 msgstr "將影像轉換成 PNG 格式。"
 
-#: core/utilities/import/widgets/filtercombo.cpp:117
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "All Files"
-msgstr "所有檔案"
-
-#: core/utilities/import/widgets/filtercombo.cpp:121
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Only New Files"
-msgstr "只有新檔案"
-
-#: core/utilities/import/widgets/filtercombo.cpp:126
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Raw Files"
-msgstr "Raw 檔案"
-
-#: core/utilities/import/widgets/filtercombo.cpp:136
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "JPG/TIFF Files"
-msgstr "JPG/TIFF 檔案"
-
-#: core/utilities/import/widgets/filtercombo.cpp:141
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Video Files"
-msgstr "影像檔"
-
 #: core/utilities/import/widgets/freespacewidget.cpp:333
 #, kde-format
 msgid "Camera Media"
@@ -42717,6 +42724,36 @@ msgstr "其他..."
 msgctxt "@title:menu"
 msgid "Open With..."
 msgstr "開啟方式..."
+
+#: core/utilities/import/widgets/importfiltercombobox.cpp:118
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All Files"
+msgstr "所有檔案"
+
+#: core/utilities/import/widgets/importfiltercombobox.cpp:122
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Only New Files"
+msgstr "只有新檔案"
+
+#: core/utilities/import/widgets/importfiltercombobox.cpp:127
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Raw Files"
+msgstr "Raw 檔案"
+
+#: core/utilities/import/widgets/importfiltercombobox.cpp:137
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "JPG/TIFF Files"
+msgstr "JPG/TIFF 檔案"
+
+#: core/utilities/import/widgets/importfiltercombobox.cpp:142
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Video Files"
+msgstr "影像檔"
 
 #: core/utilities/import/widgets/renamecustomizer.cpp:119
 #, kde-format
@@ -44602,37 +44639,37 @@ msgid "Advanced Search"
 msgstr "進階搜尋"
 
 #: core/utilities/setup/album/setupalbumview.cpp:158
-#: core/utilities/setup/camera/setupcamera.cpp:464
+#: core/utilities/setup/camera/setupcamera.cpp:467
 #, kde-format
 msgid "Show file&name"
 msgstr "顯示檔案名稱(&N)"
 
 #: core/utilities/setup/album/setupalbumview.cpp:159
-#: core/utilities/setup/camera/setupcamera.cpp:465
+#: core/utilities/setup/camera/setupcamera.cpp:468
 #, kde-format
 msgid "Set this option to show the filename below the image thumbnail."
 msgstr "設定這個選項會在影像縮圖下方顯示檔案名稱。"
 
 #: core/utilities/setup/album/setupalbumview.cpp:161
-#: core/utilities/setup/camera/setupcamera.cpp:467
+#: core/utilities/setup/camera/setupcamera.cpp:470
 #, kde-format
 msgid "Show file si&ze"
 msgstr "顯示檔案大小(&Z)"
 
 #: core/utilities/setup/album/setupalbumview.cpp:162
-#: core/utilities/setup/camera/setupcamera.cpp:468
+#: core/utilities/setup/camera/setupcamera.cpp:471
 #, kde-format
 msgid "Set this option to show the file size below the image thumbnail."
 msgstr "設定這個選項會在影像縮圖下方顯示檔案大小。"
 
 #: core/utilities/setup/album/setupalbumview.cpp:164
-#: core/utilities/setup/camera/setupcamera.cpp:470
+#: core/utilities/setup/camera/setupcamera.cpp:473
 #, kde-format
 msgid "Show camera creation &date"
 msgstr "顯示相機建立日期(&D)"
 
 #: core/utilities/setup/album/setupalbumview.cpp:165
-#: core/utilities/setup/camera/setupcamera.cpp:471
+#: core/utilities/setup/camera/setupcamera.cpp:474
 #, kde-format
 msgid ""
 "Set this option to show the camera creation date below the image thumbnail."
@@ -44707,7 +44744,7 @@ msgid "Set this option to show the digiKam captions below the image thumbnail."
 msgstr "設定這個選項會在影像縮圖下方顯示 digiKam 標題描述。"
 
 #: core/utilities/setup/album/setupalbumview.cpp:192
-#: core/utilities/setup/camera/setupcamera.cpp:486
+#: core/utilities/setup/camera/setupcamera.cpp:489
 #, kde-format
 msgid "Show digiKam &tags"
 msgstr "顯示 digiKam 標籤(&T)"
@@ -44730,7 +44767,7 @@ msgid "Set this option to show the digiKam rating below the image thumbnail."
 msgstr "設定這個選項會在影像縮圖下方顯示 digiKam 評等。"
 
 #: core/utilities/setup/album/setupalbumview.cpp:200
-#: core/utilities/setup/camera/setupcamera.cpp:494
+#: core/utilities/setup/camera/setupcamera.cpp:497
 #, kde-format
 msgid "Show rotation overlay buttons"
 msgstr "顯示旋轉覆蓋按鈕"
@@ -44758,7 +44795,7 @@ msgid ""
 msgstr "設定這個選項會在影像縮圖上顯示旋轉影像的覆蓋按鈕。"
 
 #: core/utilities/setup/album/setupalbumview.cpp:208
-#: core/utilities/setup/camera/setupcamera.cpp:483
+#: core/utilities/setup/camera/setupcamera.cpp:486
 #, fuzzy, kde-format
 msgid "Show Geolocation Indicator"
 msgstr "地理位置濾鏡"
@@ -44774,7 +44811,7 @@ msgid ""
 msgstr "設定這個選項會在影像縮圖上顯示旋轉影像的覆蓋按鈕。"
 
 #: core/utilities/setup/album/setupalbumview.cpp:211
-#: core/utilities/setup/camera/setupcamera.cpp:498
+#: core/utilities/setup/camera/setupcamera.cpp:501
 #, kde-format
 msgid "Thumbnail click action:"
 msgstr "縮圖點擊動作："
@@ -44785,19 +44822,19 @@ msgid "Show preview"
 msgstr "顯示相簿名稱"
 
 #: core/utilities/setup/album/setupalbumview.cpp:214
-#: core/utilities/setup/camera/setupcamera.cpp:501
+#: core/utilities/setup/camera/setupcamera.cpp:504
 #, kde-format
 msgid "Start image editor"
 msgstr "啟動影像編輯器"
 
 #: core/utilities/setup/album/setupalbumview.cpp:215
-#: core/utilities/setup/camera/setupcamera.cpp:502
+#: core/utilities/setup/camera/setupcamera.cpp:505
 #, kde-format
 msgid "Choose what should happen when you click on a thumbnail."
 msgstr "選擇當您點擊縮圖時應該執行什麼動作。"
 
 #: core/utilities/setup/album/setupalbumview.cpp:217
-#: core/utilities/setup/camera/setupcamera.cpp:504
+#: core/utilities/setup/camera/setupcamera.cpp:507
 #, kde-format
 msgid "Icon View font:"
 msgstr "圖示檢視字型："
@@ -44931,13 +44968,13 @@ msgid ""
 msgstr "若取消勾選此選項，在影像預覽時您看不到圖示與文字。"
 
 #: core/utilities/setup/album/setupalbumview.cpp:307
-#: core/utilities/setup/camera/setupcamera.cpp:539
+#: core/utilities/setup/camera/setupcamera.cpp:542
 #, kde-format
 msgid "Show icons and text over preview"
 msgstr "在預覽上顯示圖示與文字"
 
 #: core/utilities/setup/album/setupalbumview.cpp:308
-#: core/utilities/setup/camera/setupcamera.cpp:540
+#: core/utilities/setup/camera/setupcamera.cpp:543
 #, fuzzy, kde-format
 msgid ""
 "Uncheck this if you do not want to see icons and text in the image preview."
@@ -44992,8 +45029,8 @@ msgid ""
 msgstr "您可以在這裡加入或移除相簿的類別類型，以便加強 digiKam 對相簿的排序。"
 
 #: core/utilities/setup/album/setupcategory.cpp:105
-#: core/utilities/setup/camera/setupcamera.cpp:318
-#: core/utilities/setup/camera/setupcamera.cpp:434
+#: core/utilities/setup/camera/setupcamera.cpp:319
+#: core/utilities/setup/camera/setupcamera.cpp:437
 #: core/utilities/setup/setuptemplate.cpp:123
 #, kde-format
 msgid "&Add..."
@@ -45347,133 +45384,133 @@ msgstr ""
 "<p>在<a href='http://www.teaser.fr/~hfiguiere/linux/digicam.html'>這個網址</"
 "a>中有一份可用的相機設定值<br/>完整清單。</p>"
 
-#: core/utilities/setup/camera/importfilters.cpp:91
+#: core/utilities/setup/camera/importfilterdlg.cpp:91
 #, kde-format
 msgid "Edit Import Filters"
 msgstr "編輯匯入過濾器"
 
-#: core/utilities/setup/camera/importfilters.cpp:113
+#: core/utilities/setup/camera/importfilterdlg.cpp:113
 #, kde-format
 msgid "Mime filter:"
 msgstr "MIME 過濾："
 
-#: core/utilities/setup/camera/importfilters.cpp:121
+#: core/utilities/setup/camera/importfilterdlg.cpp:121
 #, fuzzy, kde-format
 msgid "Select Type Mime..."
 msgstr "選擇 MIME 型態"
 
-#: core/utilities/setup/camera/importfilters.cpp:126
+#: core/utilities/setup/camera/importfilterdlg.cpp:126
 #, kde-format
 msgid "File name filter:"
 msgstr "檔名過濾："
 
-#: core/utilities/setup/camera/importfilters.cpp:136
+#: core/utilities/setup/camera/importfilterdlg.cpp:136
 #, kde-format
 msgid "Path filter:"
 msgstr "路徑過濾："
 
-#: core/utilities/setup/camera/importfilters.cpp:146
+#: core/utilities/setup/camera/importfilterdlg.cpp:146
 #, kde-format
 msgid "Show only new files"
 msgstr "只顯示新檔案"
 
-#: core/utilities/setup/camera/importfilters.cpp:217
+#: core/utilities/setup/camera/importfilterdlg.cpp:217
 #, kde-format
 msgid "Select the MimeTypes you want for this filter."
 msgstr "選擇您要此過濾器過濾哪些 MIME 型態。"
 
-#: core/utilities/setup/camera/importfilters.cpp:219
+#: core/utilities/setup/camera/importfilterdlg.cpp:219
 #, kde-format
 msgid "Select Mime Types"
 msgstr "選擇 MIME 型態"
 
-#: core/utilities/setup/camera/setupcamera.cpp:297
+#: core/utilities/setup/camera/setupcamera.cpp:298
 #, kde-format
 msgid ""
 "Here you can see the digital camera list used by digiKam via the Gphoto "
 "interface."
 msgstr "您可以在這裡看到 digiKam 透過 Gphoto 介面所用的數位相機清單。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:303
+#: core/utilities/setup/camera/setupcamera.cpp:304
 #, kde-format
 msgid "Port"
 msgstr "連接埠"
 
-#: core/utilities/setup/camera/setupcamera.cpp:322
-#: core/utilities/setup/camera/setupcamera.cpp:438
+#: core/utilities/setup/camera/setupcamera.cpp:323
+#: core/utilities/setup/camera/setupcamera.cpp:441
 #, kde-format
 msgid "&Edit..."
 msgstr "編輯(&E)..."
 
-#: core/utilities/setup/camera/setupcamera.cpp:324
+#: core/utilities/setup/camera/setupcamera.cpp:325
 #, kde-format
 msgid "Auto-&Detect"
 msgstr "自動偵測(&D)"
 
-#: core/utilities/setup/camera/setupcamera.cpp:335
+#: core/utilities/setup/camera/setupcamera.cpp:336
 #, kde-format
 msgid "Visit Gphoto project website"
 msgstr "造訪 Gphoto 專案網站"
 
-#: core/utilities/setup/camera/setupcamera.cpp:356
+#: core/utilities/setup/camera/setupcamera.cpp:359
 #, kde-format
 msgid "Devices"
 msgstr "裝置"
 
-#: core/utilities/setup/camera/setupcamera.cpp:363
+#: core/utilities/setup/camera/setupcamera.cpp:366
 #, kde-format
 msgid "Use file metadata (makes connection slower)"
 msgstr "使用檔案的中繼資料（連線時間會變慢）"
 
-#: core/utilities/setup/camera/setupcamera.cpp:364
+#: core/utilities/setup/camera/setupcamera.cpp:367
 #, kde-format
 msgid "Turn on high quality thumbnail loading (slower loading)"
 msgstr "開啟高畫質縮圖載入功能（載入較慢）"
 
-#: core/utilities/setup/camera/setupcamera.cpp:365
+#: core/utilities/setup/camera/setupcamera.cpp:368
 #, kde-format
 msgid "Use a default target album to download from camera"
 msgstr "從相機下載時使用預設的目標相簿"
 
-#: core/utilities/setup/camera/setupcamera.cpp:371
+#: core/utilities/setup/camera/setupcamera.cpp:374
 #, fuzzy, kde-format
 #| msgid "If Target File Exists:"
 msgid "If target file exists when downloaded from camera"
 msgstr "如果目標檔案已存在："
 
-#: core/utilities/setup/camera/setupcamera.cpp:376
+#: core/utilities/setup/camera/setupcamera.cpp:379
 #, fuzzy, kde-format
 #| msgid "Overwrite automatically"
 msgid "Skip automatically"
 msgstr "自動覆寫"
 
-#: core/utilities/setup/camera/setupcamera.cpp:412
+#: core/utilities/setup/camera/setupcamera.cpp:415
 #, kde-format
 msgid ""
 "Here you can see filters that can be used to filter files in import dialog."
 msgstr "在這裡您可以看到在匯入對話框中用於過濾檔案用的過濾器。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:431
+#: core/utilities/setup/camera/setupcamera.cpp:434
 #, kde-format
 msgid "Always ignore"
 msgstr "總是忽略"
 
-#: core/utilities/setup/camera/setupcamera.cpp:432
+#: core/utilities/setup/camera/setupcamera.cpp:435
 #, kde-format
 msgid "Ignored file names:"
 msgstr "忽略檔案名稱："
 
-#: core/utilities/setup/camera/setupcamera.cpp:433
+#: core/utilities/setup/camera/setupcamera.cpp:436
 #, kde-format
 msgid "Ignored file extensions:"
 msgstr "忽略副檔名："
 
-#: core/utilities/setup/camera/setupcamera.cpp:453
+#: core/utilities/setup/camera/setupcamera.cpp:456
 #, kde-format
 msgid "Import Filters"
 msgstr "匯入過濾器"
 
-#: core/utilities/setup/camera/setupcamera.cpp:461
+#: core/utilities/setup/camera/setupcamera.cpp:464
 #, kde-format
 msgid "Icon-View Options"
 msgstr "圖示檢視選項"
@@ -45482,54 +45519,54 @@ msgstr "圖示檢視選項"
 #. d->iconShowResolutionBox->setWhatsThis(i18n("Set this option to show the image size in pixels "
 #. "below the image thumbnail."));
 #.
-#: core/utilities/setup/camera/setupcamera.cpp:480
+#: core/utilities/setup/camera/setupcamera.cpp:483
 #, kde-format
 msgid "Show image Format"
 msgstr "顯示影像格式"
 
-#: core/utilities/setup/camera/setupcamera.cpp:487
+#: core/utilities/setup/camera/setupcamera.cpp:490
 #, kde-format
 msgid "Set this option to show the digiKam tags below the image thumbnail."
 msgstr "設定這個選項會在影像縮圖下方顯示 digiKam 標籤。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:490
+#: core/utilities/setup/camera/setupcamera.cpp:493
 #, kde-format
 msgid "Show item &rating"
 msgstr "顯示項目評等(&R)"
 
-#: core/utilities/setup/camera/setupcamera.cpp:491
+#: core/utilities/setup/camera/setupcamera.cpp:494
 #, kde-format
 msgid "Set this option to show the item rating below the image thumbnail."
 msgstr "設定這個選項會在影像縮圖下方顯示項目評等。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:495
+#: core/utilities/setup/camera/setupcamera.cpp:498
 #, kde-format
 msgid ""
 "Set this option to show overlay buttons on the image thumbnail for image "
 "rotation."
 msgstr "設定這個選項會在影像縮圖上顯示旋轉影像的覆蓋按鈕。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:500
+#: core/utilities/setup/camera/setupcamera.cpp:503
 #, kde-format
 msgid "Show embedded preview"
 msgstr "顯示內嵌的預覽"
 
-#: core/utilities/setup/camera/setupcamera.cpp:505
+#: core/utilities/setup/camera/setupcamera.cpp:508
 #, kde-format
 msgid "Select here the font used to display text in Icon Views."
 msgstr "在這裡選擇圖示檢視中顯示文字的字型。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:525
+#: core/utilities/setup/camera/setupcamera.cpp:528
 #, kde-format
 msgid "Preview Options"
 msgstr "預覽選項"
 
-#: core/utilities/setup/camera/setupcamera.cpp:528
+#: core/utilities/setup/camera/setupcamera.cpp:531
 #, kde-format
 msgid "Embedded preview loads full-sized images"
 msgstr "內嵌的預覽載入原始大小影像"
 
-#: core/utilities/setup/camera/setupcamera.cpp:529
+#: core/utilities/setup/camera/setupcamera.cpp:532
 #, kde-format
 msgid ""
 "<p>Set this option to load images at their full size for preview, rather "
@@ -45543,34 +45580,34 @@ msgstr ""
 "p><p><b>備註：</b>若是 Raw 影像，則會載入 Raw 資料的一半尺寸版本，而不是內嵌"
 "的 JPEG 預覽。</p>"
 
-#: core/utilities/setup/camera/setupcamera.cpp:536
+#: core/utilities/setup/camera/setupcamera.cpp:539
 #, kde-format
 msgid "Preview each item while downloading it"
 msgstr "下載時預覽每個項目"
 
-#: core/utilities/setup/camera/setupcamera.cpp:537
+#: core/utilities/setup/camera/setupcamera.cpp:540
 #, kde-format
 msgid "<p>Set this option to preview each item while downloading.</p>"
 msgstr "<p>設定此選項會在下載時預覽每個項目。</p>"
 
-#: core/utilities/setup/camera/setupcamera.cpp:559
+#: core/utilities/setup/camera/setupcamera.cpp:562
 #, kde-format
 msgid "Import Window"
 msgstr "匯入視窗"
 
-#: core/utilities/setup/camera/setupcamera.cpp:809
+#: core/utilities/setup/camera/setupcamera.cpp:812
 #, kde-format
 msgid ""
 "No default target album have been selected to process download from camera "
 "device. Please select one."
 msgstr "沒有選擇從相機下載時預設的目標相簿。請選擇一個相簿。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:897
+#: core/utilities/setup/camera/setupcamera.cpp:900
 #, kde-format
 msgid "Device detection under progress, please wait..."
 msgstr "進行裝置偵測，請稍候..."
 
-#: core/utilities/setup/camera/setupcamera.cpp:908
+#: core/utilities/setup/camera/setupcamera.cpp:911
 #, kde-format
 msgid ""
 "Failed to auto-detect camera.\n"
@@ -45580,28 +45617,28 @@ msgstr ""
 "自動偵測相機失敗。\n"
 "請確定相機已正確連線，並已開啟，或是試著進行手動設定。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:922
+#: core/utilities/setup/camera/setupcamera.cpp:925
 #, kde-format
 msgid "Camera '%1' (%2) is already in list."
 msgstr "相機「%1」(%2)已經在清單中。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:926
+#: core/utilities/setup/camera/setupcamera.cpp:929
 #, kde-format
 msgid "Found camera '%1' (%2) and added it to the list."
 msgstr "找到了相機「%1」(%2)並將其加入到了清單。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:942
+#: core/utilities/setup/camera/setupcamera.cpp:945
 #, kde-format
 msgid "Untitled"
 msgstr "未命名"
 
-#: core/utilities/setup/camera/setupcamera.cpp:1005
+#: core/utilities/setup/camera/setupcamera.cpp:1008
 #, kde-format
 msgid ""
 "In order to enable this feature, the full-sized preview will be disabled."
 msgstr "要開啟此選項，必須先關閉全尺寸預覽。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:1015
+#: core/utilities/setup/camera/setupcamera.cpp:1018
 #, kde-format
 msgid ""
 "If the full-sized preview is enabled it will affect the speed of previewing "
@@ -48495,6 +48532,33 @@ msgstr "側邊切換頻率："
 msgctxt "%1 is the screen number (0, 1, ...)"
 msgid "Screen %1"
 msgstr "綠（%）："
+
+#, fuzzy
+#~| msgid "Suriname"
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "蘇利南"
+
+#~ msgid "People Tags"
+#~ msgstr "人物標籤"
+
+#, fuzzy
+#~| msgctxt "@label Two extremities of a scale"
+#~| msgid "Fast   -   Accurate"
+#~ msgctxt "@label Two extremities of a scale"
+#~ msgid "Fast     -     Accurate"
+#~ msgstr "快 ─ 精確"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Adjust speed versus accuracy: The higher the value, the more accurate the "
+#~ "results will be, but it will take more time."
+#~ msgstr "調整速度與精確度：此值越高，精確度越高，但也越慢。"
+
+#, fuzzy
+#~ msgctxt "@label:listbox"
+#~ msgid "Recognize faces using LBP algorithm"
+#~ msgstr "辨認臉孔"
 
 #, fuzzy
 #~| msgid "Group"

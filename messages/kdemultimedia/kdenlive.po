@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-30 03:12+0100\n"
+"POT-Creation-Date: 2019-10-31 02:59+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -4998,75 +4998,75 @@ msgstr "建構程式"
 msgid "Favorites"
 msgstr "收藏夾"
 
-#: src/assets/assetlist/view/qml/assetList.qml:66
+#: src/assets/assetlist/view/qml/assetList.qml:67
 #, fuzzy, kde-format
 msgid "Find effect"
 msgstr "%1 的特效"
 
-#: src/assets/assetlist/view/qml/assetList.qml:66
+#: src/assets/assetlist/view/qml/assetList.qml:67
 #, fuzzy, kde-format
 msgid "Find composition"
 msgstr "逆向執行轉場特效"
 
-#: src/assets/assetlist/view/qml/assetList.qml:82
+#: src/assets/assetlist/view/qml/assetList.qml:84
 #, fuzzy, kde-format
 msgid "Main effects"
 msgstr "%1 的特效"
 
-#: src/assets/assetlist/view/qml/assetList.qml:82
+#: src/assets/assetlist/view/qml/assetList.qml:84
 #, fuzzy, kde-format
 msgid "Main compositions"
 msgstr "逆向執行轉場特效"
 
-#: src/assets/assetlist/view/qml/assetList.qml:94
+#: src/assets/assetlist/view/qml/assetList.qml:96
 #, fuzzy, kde-format
 #| msgid "Sox band audio effect"
 msgid "Show all video effects"
 msgstr "Sox 頻段聲訊特效"
 
-#: src/assets/assetlist/view/qml/assetList.qml:106
+#: src/assets/assetlist/view/qml/assetList.qml:108
 #, fuzzy, kde-format
 #| msgid "Sox band audio effect"
 msgid "Show all audio effects"
 msgstr "Sox 頻段聲訊特效"
 
-#: src/assets/assetlist/view/qml/assetList.qml:117
+#: src/assets/assetlist/view/qml/assetList.qml:119
 #, fuzzy, kde-format
 #| msgid "Sox band audio effect"
 msgid "Show all custom effects"
 msgstr "Sox 頻段聲訊特效"
 
-#: src/assets/assetlist/view/qml/assetList.qml:127
+#: src/assets/assetlist/view/qml/assetList.qml:129
 #, fuzzy, kde-format
 #| msgid "Show video thumbnails"
 msgid "Show favorite items"
 msgstr "察看視訊縮略圖"
 
-#: src/assets/assetlist/view/qml/assetList.qml:136
+#: src/assets/assetlist/view/qml/assetList.qml:138
 #, fuzzy, kde-format
 #| msgid "Download New Title Templates..."
 msgid "Download New Wipes..."
 msgstr "下載新字幕/標題樣板..."
 
-#: src/assets/assetlist/view/qml/assetList.qml:151
+#: src/assets/assetlist/view/qml/assetList.qml:153
 #, fuzzy, kde-format
 #| msgid "Show description"
 msgid "Show/hide description of the effects"
 msgstr "顯示說明"
 
-#: src/assets/assetlist/view/qml/assetList.qml:151
+#: src/assets/assetlist/view/qml/assetList.qml:153
 #, fuzzy, kde-format
 #| msgid "Show description"
 msgid "Show/hide description of the compositions"
 msgstr "顯示說明"
 
-#: src/assets/assetlist/view/qml/assetList.qml:330
+#: src/assets/assetlist/view/qml/assetList.qml:332
 #, fuzzy, kde-format
 #| msgid "Remove file"
 msgid "Remove from favorites"
 msgstr "移除檔案"
 
-#: src/assets/assetlist/view/qml/assetList.qml:330
+#: src/assets/assetlist/view/qml/assetList.qml:332
 #, fuzzy, kde-format
 msgid "Add to favorites"
 msgstr "收藏夾"
@@ -5074,7 +5074,7 @@ msgstr "收藏夾"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/assets/assetlist/view/qml/assetList.qml:344
+#: src/assets/assetlist/view/qml/assetList.qml:346
 #: src/bin/projectitemmodel.cpp:229
 #: src/timeline2/view/dialogs/tracksconfigdialog.cpp:75
 #: src/ui/colorclip_ui.ui:20 src/ui/configtranscode_ui.ui:70
@@ -8281,7 +8281,7 @@ msgid "Scene %1"
 msgstr "區段終點：%1"
 
 #: src/jobs/speedjob.cpp:56 src/mainwindow.cpp:3139
-#: src/timeline2/model/timelinemodel.cpp:3257
+#: src/timeline2/model/timelinemodel.cpp:3261
 #, fuzzy, kde-format
 #| msgid "Change clip type"
 msgid "Change clip speed"
@@ -12109,61 +12109,66 @@ msgstr "取消組合"
 msgid "Cannot delete last track in timeline"
 msgstr "無法在已經鎖定的軌道中移除空白空間"
 
-#: src/timeline2/model/timelinemodel.cpp:2335
+#: src/timeline2/model/timelinemodel.cpp:2339
 #, fuzzy, kde-format
 msgid "Cannot add effect %1 to selected track"
 msgstr "無法添加視訊濾鏡​​到這個素材"
 
-#: src/timeline2/model/timelinemodel.cpp:2350
+#: src/timeline2/model/timelinemodel.cpp:2354
 #, fuzzy, kde-format
 #| msgid "Cannot paste clip to selected place"
 msgid "Cannot paste effect to selected track"
 msgstr "無法將素材貼到所選位置"
 
-#: src/timeline2/model/timelinemodel.cpp:2368
+#: src/timeline2/model/timelinemodel.cpp:2372
 #: src/timeline2/view/timelinecontroller.cpp:918
 #, fuzzy, kde-format
 #| msgid "Cannot add a video effect to this clip"
 msgid "Cannot add effect %1 to selected clip"
 msgstr "無法添加視訊濾鏡​​到這個素材"
 
-#: src/timeline2/model/timelinemodel.cpp:2403
+#: src/timeline2/model/timelinemodel.cpp:2407
 #, fuzzy, kde-format
 #| msgid "Adjust levels"
 msgid "Adjust Fade"
 msgstr "調整色階"
 
-#: src/timeline2/model/timelinemodel.cpp:2565
+#: src/timeline2/model/timelinemodel.cpp:2569
 #, fuzzy, kde-format
 #| msgid "Compositing"
 msgid "Insert Composition"
 msgstr "混合方式"
 
-#: src/timeline2/model/timelinemodel.cpp:2685
+#: src/timeline2/model/timelinemodel.cpp:2689
 #, fuzzy, kde-format
 #| msgid "More options"
 msgid "Move composition"
 msgstr "更多選項"
 
-#: src/timeline2/model/timelinemodel.cpp:3247
+#: src/timeline2/model/timelinemodel.cpp:3251
 #, fuzzy, kde-format
 #| msgid "Captured files"
 msgid "Change speed failed"
 msgstr "擷取的檔案"
 
-#: src/timeline2/model/timelinemodel.cpp:3537
+#: src/timeline2/model/timelinemodel.cpp:3541
 #: src/timeline2/view/qml/TrackHead.qml:342
 #, fuzzy, kde-format
 msgid "Lock track"
 msgstr "軌道"
 
-#: src/timeline2/model/timelinemodel.cpp:3542
+#: src/timeline2/model/timelinemodel.cpp:3546
 #: src/timeline2/view/qml/TrackHead.qml:342
 #, fuzzy, kde-format
 msgid "Unlock track"
 msgstr "軌道"
 
-#: src/timeline2/model/timelinemodel.cpp:3584
+#: src/timeline2/model/timelinemodel.cpp:3573
+#, kde-format
+msgid "Cannot operate on grouped composition, please ungroup"
+msgstr ""
+
+#: src/timeline2/model/timelinemodel.cpp:3595
 #, fuzzy, kde-format
 #| msgid "Center position (X)"
 msgid "Change composition"
