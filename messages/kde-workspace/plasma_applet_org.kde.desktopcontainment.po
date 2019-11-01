@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-22 03:13+0200\n"
+"POT-Creation-Date: 2019-11-01 03:28+0100\n"
 "PO-Revision-Date: 2019-05-01 20:53+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -32,10 +32,6 @@ msgstr "圖示"
 #: package/contents/config/config.qml:43
 msgid "Filter"
 msgstr "過濾器"
-
-#: package/contents/config/config.qml:50
-msgid "Tweaks"
-msgstr "調整"
 
 #: package/contents/ui/BackButtonItem.qml:116
 msgid "Back"
@@ -300,22 +296,6 @@ msgstr "旋轉"
 msgid "Remove"
 msgstr "移除"
 
-#: package/contents/ui/ConfigTweaks.qml:43
-msgid ""
-"With the Desktop Toolbox hidden, right-click on the desktop and choose "
-"'Configure Desktop...' to access this configuration window in the future"
-msgstr ""
-"若已隱藏「桌面工具箱」，未來只需對著桌面按一下右鍵，選擇「設定桌面…」就能存取"
-"此設定視窗"
-
-#: package/contents/ui/ConfigTweaks.qml:54
-msgid "Show the desktop toolbox"
-msgstr "顯示桌面工具盒"
-
-#: package/contents/ui/ConfigTweaks.qml:72
-msgid "Press and hold widgets to move them and reveal their handles"
-msgstr "按住元件以移動它們，並重新顯示它們的把手"
-
 #: package/contents/ui/FolderItemPreviewPluginsDialog.qml:36
 msgid "Preview Plugins"
 msgstr "預覽外掛程式"
@@ -328,19 +308,7 @@ msgstr "確定"
 msgid "Cancel"
 msgstr "取消"
 
-#: package/contents/ui/main.qml:277
-msgid "Widgets unlocked"
-msgstr "元件已解除鎖定"
-
-#: package/contents/ui/main.qml:278
-msgid "You can press and hold widgets to move them and reveal their handles."
-msgstr "您可以按住元件以移動它們，並重新顯示它們的把手."
-
-#: package/contents/ui/main.qml:279
-msgid "Got it"
-msgstr "好了"
-
-#: package/contents/ui/main.qml:405
+#: package/contents/ui/main.qml:361
 msgid "Configure Desktop..."
 msgstr "設定桌面…"
 
@@ -449,3 +417,29 @@ msgstr "顯示預覽"
 #, kde-format
 msgid "Locked"
 msgstr "已鎖定"
+
+#~ msgid "Tweaks"
+#~ msgstr "調整"
+
+#~ msgid ""
+#~ "With the Desktop Toolbox hidden, right-click on the desktop and choose "
+#~ "'Configure Desktop...' to access this configuration window in the future"
+#~ msgstr ""
+#~ "若已隱藏「桌面工具箱」，未來只需對著桌面按一下右鍵，選擇「設定桌面…」就能"
+#~ "存取此設定視窗"
+
+#~ msgid "Show the desktop toolbox"
+#~ msgstr "顯示桌面工具盒"
+
+#~ msgid "Press and hold widgets to move them and reveal their handles"
+#~ msgstr "按住元件以移動它們，並重新顯示它們的把手"
+
+#~ msgid "Widgets unlocked"
+#~ msgstr "元件已解除鎖定"
+
+#~ msgid ""
+#~ "You can press and hold widgets to move them and reveal their handles."
+#~ msgstr "您可以按住元件以移動它們，並重新顯示它們的把手."
+
+#~ msgid "Got it"
+#~ msgstr "好了"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-31 02:59+0100\n"
+"POT-Creation-Date: 2019-11-01 03:04+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -5233,7 +5233,7 @@ msgstr "重置特效"
 msgid "Delete keyframes"
 msgstr "移除關鍵幀"
 
-#: src/assets/keyframes/model/keyframemodellist.cpp:480
+#: src/assets/keyframes/model/keyframemodellist.cpp:495
 #: src/assets/view/widgets/animationwidget.cpp:123
 #: src/assets/view/widgets/keyframewidget.cpp:82
 #, kde-format
@@ -6939,7 +6939,7 @@ msgid ""
 "you are doing you will probably have to change it to 'mlt_profile'."
 msgstr ""
 
-#: src/dialogs/renderwidget.cpp:1942 src/monitor/monitor.cpp:1032
+#: src/dialogs/renderwidget.cpp:1942 src/monitor/monitor.cpp:1024
 #, kde-format
 msgid "untitled"
 msgstr "無字幕 / 標題"
@@ -10315,53 +10315,53 @@ msgstr "顯示音量等級"
 msgid "Your screen resolution is not sufficient for this action"
 msgstr "螢幕解析度不夠執行此操作"
 
-#: src/monitor/monitor.cpp:1044
+#: src/monitor/monitor.cpp:1036
 #, fuzzy, kde-format
 msgid "Save Image"
 msgstr "載入圖片"
 
-#: src/monitor/monitor.cpp:1044
+#: src/monitor/monitor.cpp:1036
 #, fuzzy, kde-format
 msgid "Save Image to Project"
 msgstr "儲存 DVD 項目"
 
-#: src/monitor/monitor.cpp:1049
+#: src/monitor/monitor.cpp:1041
 #, kde-format
 msgid "Export image using source resolution"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1758
+#: src/monitor/monitor.cpp:1750
 #, kde-format
 msgid "Cannot initialize Movit's GLSL manager, please disable Movit"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1800 src/monitor/monitor.cpp:1855
+#: src/monitor/monitor.cpp:1792 src/monitor/monitor.cpp:1847
 #, kde-format
 msgid ""
 "The alphagrad filter is required for that feature, please install frei0r and "
 "restart Kdenlive"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1822
+#: src/monitor/monitor.cpp:1814
 #, fuzzy, kde-format
 #| msgid "Clip has no markers"
 msgid "Clip has no effects"
 msgstr "素材沒有記號"
 
-#: src/monitor/monitor.cpp:1824
+#: src/monitor/monitor.cpp:1816
 #, fuzzy, kde-format
 #| msgid "Select a clip if you want to apply an effect"
 msgid "Select a clip in project bin to compare effect"
 msgstr "如果您想使用特效請選取一個素材"
 
-#: src/monitor/monitor.cpp:1862
+#: src/monitor/monitor.cpp:1854
 #, kde-format
 msgid ""
 "The cairoblend transition is required for that feature, please install "
 "frei0r and restart Kdenlive"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1908
+#: src/monitor/monitor.cpp:1900
 #, kde-format
 msgid "Enable edit mode in monitor to edit effect"
 msgstr ""

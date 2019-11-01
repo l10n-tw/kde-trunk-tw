@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-31 03:07+0100\n"
+"POT-Creation-Date: 2019-11-01 03:11+0100\n"
 "PO-Revision-Date: 2018-05-19 11:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -39,7 +39,7 @@ msgctxt "@info"
 msgid "Failed to create new calendar resource"
 msgstr "建立行事曆資源失敗。"
 
-#: akonadiresourcecreator.cpp:112 calendarmigrator.cpp:484
+#: akonadiresourcecreator.cpp:112 calendarmigrator.cpp:488
 #, kde-kuit-format
 msgctxt "@info"
 msgid "%1<nl/>(%2)"
@@ -659,25 +659,25 @@ msgctxt "@info"
 msgid "<para>%1</para><para>%2<nl/>(%3)</para>"
 msgstr "<para>%1</para><para>%2<nl/>(%3)</para>"
 
-#: calendarmigrator.cpp:471
+#: calendarmigrator.cpp:475
 #, kde-format
 msgctxt "@info"
 msgid "Invalid collection"
 msgstr "不合法的收藏"
 
-#: calendarmigrator.cpp:485
+#: calendarmigrator.cpp:489
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Failed to update format of calendar <resource>%1</resource>"
 msgstr "無法更新行事曆 <resource>%1</resource> 的格式。"
 
-#: calendarmigrator.cpp:767
+#: calendarmigrator.cpp:769
 #, kde-format
 msgctxt "@info"
 msgid "New configuration timed out"
 msgstr "新設定已逾時"
 
-#: calendarmigrator.cpp:780
+#: calendarmigrator.cpp:782
 #, kde-format
 msgctxt "@info"
 msgid "New configuration was corrupt"
@@ -5912,31 +5912,31 @@ msgctxt "@info:whatsthis"
 msgid "Enter the length of time to repeat the alarm"
 msgstr "輸入要重覆響鈴的時間"
 
-#: resources/akonadiresource.cpp:601
+#: resources/akonadiresource.cpp:613
 #, kde-format
 msgctxt "@info"
 msgid "Failed to create alarm."
 msgstr "建立鬧鐘失敗。"
 
-#: resources/akonadiresource.cpp:603
+#: resources/akonadiresource.cpp:615
 #, kde-format
 msgctxt "@info"
 msgid "Failed to update alarm."
 msgstr "更新鬧鐘失敗。"
 
-#: resources/akonadiresource.cpp:605
+#: resources/akonadiresource.cpp:617
 #, kde-format
 msgctxt "@info"
 msgid "Failed to delete alarm."
 msgstr "刪除鬧鐘失敗。"
 
-#: resources/akonadiresource.cpp:733
+#: resources/akonadiresource.cpp:745
 #, kde-format
 msgctxt "@info"
 msgid "Failed to update calendar \"%1\"."
 msgstr "更新行事曆「%1」失敗。"
 
-#: resources/resourcetype.cpp:118
+#: resources/resourcetype.cpp:121
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Calendar Files"
@@ -5944,26 +5944,26 @@ msgctxt "@info"
 msgid "KAlarm Calendar File"
 msgstr "行事曆檔案"
 
-#: resources/resourcetype.cpp:118
+#: resources/resourcetype.cpp:121
 #, fuzzy, kde-format
 #| msgid "Path to KAlarm directory."
 msgctxt "@info"
 msgid "KAlarm Calendar Directory"
 msgstr "KAlarm 目錄的路徑。"
 
-#: resources/resourcetype.cpp:119
+#: resources/resourcetype.cpp:122
 #, kde-format
 msgctxt "@info"
 msgid "File"
 msgstr "檔案"
 
-#: resources/resourcetype.cpp:120
+#: resources/resourcetype.cpp:123
 #, kde-format
 msgctxt "@info"
 msgid "URL"
 msgstr "網址"
 
-#: resources/resourcetype.cpp:121
+#: resources/resourcetype.cpp:124
 #, kde-format
 msgctxt "@info Directory in filesystem"
 msgid "Directory"

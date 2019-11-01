@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: umbrello\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-31 03:03+0100\n"
+"POT-Creation-Date: 2019-11-01 03:08+0100\n"
 "PO-Revision-Date: 2019-08-12 18:54+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -1585,8 +1585,8 @@ msgstr "類別名稱"
 #: dialogs/activitydialog.cpp:42 dialogs/activitydialog.cpp:146
 #: dialogs/classpropertiesdialog.cpp:124 dialogs/objectnodedialog.cpp:43
 #: dialogs/pages/associationgeneralpage.cpp:80
-#: dialogs/parameterpropertiesdialog.cpp:66 dialogs/statedialog.cpp:43
-#: dialogs/statedialog.cpp:119 dialogs/umlviewdialog.cpp:41
+#: dialogs/parameterpropertiesdialog.cpp:66 dialogs/statedialog.cpp:48
+#: dialogs/statedialog.cpp:133 dialogs/umlviewdialog.cpp:41
 #: menus/listpopupmenu.cpp:241 refactoring/refactoringassistant.cpp:462
 #, kde-format
 msgid "Properties"
@@ -1626,7 +1626,7 @@ msgstr "參數活動"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dialogs/activitydialog.cpp:143 dialogs/objectnodedialog.cpp:135
-#: dialogs/statedialog.cpp:116 dialogs/umlattributedialog.cpp:68
+#: dialogs/statedialog.cpp:130 dialogs/umlattributedialog.cpp:68
 #: dialogs/umlentityattributedialog.cpp:67 dialogs/umlenumliteraldialog.cpp:54
 #: dialogs/umlinstanceattributedialog.ui:17 dialogs/umloperationdialog.cpp:88
 #: dialogs/umltemplatedialog.cpp:61
@@ -1856,7 +1856,7 @@ msgstr "隱藏"
 #: menus/widgetbasepopupmenu.cpp:78 menus/widgetbasepopupmenu.cpp:116
 #: menus/widgetbasepopupmenu.cpp:121 menus/widgetbasepopupmenu.cpp:129
 #: menus/widgetbasepopupmenu.cpp:136 menus/widgetbasepopupmenu.cpp:143
-#: menus/widgetbasepopupmenu.cpp:149 menus/widgetbasepopupmenu.cpp:706
+#: menus/widgetbasepopupmenu.cpp:149 menus/widgetbasepopupmenu.cpp:710
 #, kde-format
 msgid "Show"
 msgstr "顯示"
@@ -2312,7 +2312,7 @@ msgstr ""
 msgid "&Apply to all remaining files"
 msgstr "套用到所有剩餘的檔案(&A)"
 
-#: dialogs/pages/activitypage.cpp:63 dialogs/statedialog.cpp:184
+#: dialogs/pages/activitypage.cpp:63 dialogs/statedialog.cpp:227
 #, kde-format
 msgid "Activities"
 msgstr "活動"
@@ -2361,7 +2361,7 @@ msgid "Name:"
 msgstr "名稱："
 
 #: dialogs/pages/associationgeneralpage.cpp:113
-#: menus/widgetbasepopupmenu.cpp:106 menus/widgetbasepopupmenu.cpp:712
+#: menus/widgetbasepopupmenu.cpp:106 menus/widgetbasepopupmenu.cpp:716
 #, kde-format
 msgid "Stereotype"
 msgstr "模板造型"
@@ -3027,7 +3027,7 @@ msgstr "類別操作："
 
 #: dialogs/pages/selectoperationpage.cpp:86
 #: dialogs/selectoperationdialog.cpp:90 menus/listpopupmenu.cpp:222
-#: menus/widgetbasepopupmenu.cpp:491
+#: menus/widgetbasepopupmenu.cpp:495
 #, kde-format
 msgid "New Operation..."
 msgstr "新增操作..."
@@ -3333,75 +3333,88 @@ msgstr "自動佈局設定"
 msgid "Search"
 msgstr "搜尋"
 
-#: dialogs/statedialog.cpp:116
+#: dialogs/statedialog.cpp:130
 #, kde-format
 msgctxt "general page"
 msgid "General"
 msgstr "一般"
 
-#: dialogs/statedialog.cpp:129
+#: dialogs/statedialog.cpp:143
 #, kde-format
 msgctxt "initial state in statechart"
 msgid "Initial state"
 msgstr "初始狀態"
 
-#: dialogs/statedialog.cpp:132
+#: dialogs/statedialog.cpp:146
 #, kde-format
 msgctxt "state in statechart"
 msgid "State"
 msgstr "狀態"
 
-#: dialogs/statedialog.cpp:135
+#: dialogs/statedialog.cpp:149
 #, kde-format
 msgctxt "end state in statechart"
 msgid "End state"
 msgstr "終止狀態"
 
-#: dialogs/statedialog.cpp:138
+#: dialogs/statedialog.cpp:152
 #, kde-format
 msgctxt "fork state in statechart"
 msgid "Fork"
 msgstr "分叉"
 
-#: dialogs/statedialog.cpp:141
+#: dialogs/statedialog.cpp:155
 #, kde-format
 msgctxt "join state in statechart"
 msgid "Join"
 msgstr "連接"
 
-#: dialogs/statedialog.cpp:144
+#: dialogs/statedialog.cpp:158
 #, kde-format
 msgctxt "junction state in statechart"
 msgid "Junction"
 msgstr "接合"
 
-#: dialogs/statedialog.cpp:147
+#: dialogs/statedialog.cpp:161
 #, kde-format
 msgctxt "deep history state in statechart"
 msgid "DeepHistory"
 msgstr "深歷史"
 
-#: dialogs/statedialog.cpp:150
+#: dialogs/statedialog.cpp:164
 #, kde-format
 msgctxt "shallow history state in statechart"
 msgid "ShallowHistory"
 msgstr "淺歷史"
 
-#: dialogs/statedialog.cpp:153
+#: dialogs/statedialog.cpp:167
 #, kde-format
 msgctxt "choice state in statechart"
 msgid "Choice"
 msgstr "選擇"
 
-#: dialogs/statedialog.cpp:160
+#: dialogs/statedialog.cpp:170
+#, fuzzy, kde-format
+#| msgid "CombinedFragment"
+msgctxt "combined state in statechart"
+msgid "Combined"
+msgstr "已組合片段"
+
+#: dialogs/statedialog.cpp:178
 #, kde-format
 msgid "State type:"
 msgstr "狀態類型："
 
-#: dialogs/statedialog.cpp:165
+#: dialogs/statedialog.cpp:183
 #, kde-format
 msgid "State name:"
 msgstr "狀態名稱："
+
+#: dialogs/statedialog.cpp:193
+#, fuzzy, kde-format
+#| msgid "Loading diagrams..."
+msgid "Linked diagram:"
+msgstr "正在載入圖表..."
 
 #: dialogs/umlattributedialog.cpp:48
 #, kde-format
@@ -4284,17 +4297,17 @@ msgstr ""
 msgid "Change Association Name..."
 msgstr "更改關聯名稱..."
 
-#: menus/associationwidgetpopupmenu.cpp:73 menus/widgetbasepopupmenu.cpp:474
+#: menus/associationwidgetpopupmenu.cpp:73 menus/widgetbasepopupmenu.cpp:478
 #, kde-format
 msgid "Change Role A Name..."
 msgstr "更改角色 A 名稱..."
 
-#: menus/associationwidgetpopupmenu.cpp:74 menus/widgetbasepopupmenu.cpp:477
+#: menus/associationwidgetpopupmenu.cpp:74 menus/widgetbasepopupmenu.cpp:481
 #, kde-format
 msgid "Change Role B Name..."
 msgstr "更改角色 B 名稱..."
 
-#: menus/associationwidgetpopupmenu.cpp:81 menus/widgetbasepopupmenu.cpp:492
+#: menus/associationwidgetpopupmenu.cpp:81 menus/widgetbasepopupmenu.cpp:496
 #, kde-format
 msgid "Select Operation..."
 msgstr "選擇操作..."
@@ -4364,7 +4377,7 @@ msgid "Artifact"
 msgstr "產出"
 
 #. i18n("Category...")); break;
-#: menus/listpopupmenu.cpp:159 menus/widgetbasepopupmenu.cpp:540
+#: menus/listpopupmenu.cpp:159 menus/widgetbasepopupmenu.cpp:544
 #, kde-format
 msgid "Change Font..."
 msgstr "改變字型..."
@@ -4475,7 +4488,7 @@ msgstr "匯出成圖片..."
 msgid "Externalize Folder..."
 msgstr "外部化資料夾..."
 
-#: menus/listpopupmenu.cpp:191 menus/widgetbasepopupmenu.cpp:518
+#: menus/listpopupmenu.cpp:191 menus/widgetbasepopupmenu.cpp:522
 #, kde-format
 msgid "Fill Color..."
 msgstr "填充顏色..."
@@ -4562,7 +4575,7 @@ msgstr "內部化資料夾"
 msgid "Junction"
 msgstr "接合"
 
-#: menus/listpopupmenu.cpp:211 menus/widgetbasepopupmenu.cpp:517
+#: menus/listpopupmenu.cpp:211 menus/widgetbasepopupmenu.cpp:521
 #, kde-format
 msgid "Line Color..."
 msgstr "線條顏色..."
@@ -4824,7 +4837,7 @@ msgstr "只公開"
 msgid "Operation Signature"
 msgstr "操作簽名"
 
-#: menus/widgetbasepopupmenu.cpp:99 menus/widgetbasepopupmenu.cpp:709
+#: menus/widgetbasepopupmenu.cpp:99 menus/widgetbasepopupmenu.cpp:713
 #, kde-format
 msgid "Attribute Signature"
 msgstr "屬性簽名"
@@ -4884,7 +4897,7 @@ msgstr "繪製成圓圈"
 msgid "Rename Class..."
 msgstr "重新命名類別..."
 
-#: menus/widgetbasepopupmenu.cpp:274 menus/widgetbasepopupmenu.cpp:431
+#: menus/widgetbasepopupmenu.cpp:274 menus/widgetbasepopupmenu.cpp:435
 #, kde-format
 msgid "Name as Tooltip"
 msgstr "名稱做為工具提示"
@@ -4905,119 +4918,119 @@ msgctxt "clear note"
 msgid "Clear"
 msgstr "清除"
 
-#: menus/widgetbasepopupmenu.cpp:324 menus/widgetbasepopupmenu.cpp:429
-#: menus/widgetbasepopupmenu.cpp:456 menus/widgetbasepopupmenu.cpp:498
+#: menus/widgetbasepopupmenu.cpp:324 menus/widgetbasepopupmenu.cpp:433
+#: menus/widgetbasepopupmenu.cpp:460 menus/widgetbasepopupmenu.cpp:502
 #, kde-format
 msgid "Change Text..."
 msgstr "更改文字..."
 
-#: menus/widgetbasepopupmenu.cpp:326 menus/widgetbasepopupmenu.cpp:568
+#: menus/widgetbasepopupmenu.cpp:326 menus/widgetbasepopupmenu.cpp:572
 #, kde-format
 msgid "Auto resize"
 msgstr "自動調整大小"
 
-#: menus/widgetbasepopupmenu.cpp:354
+#: menus/widgetbasepopupmenu.cpp:358
 #, kde-format
 msgid "Change State Name..."
 msgstr "更改狀態名稱..."
 
-#: menus/widgetbasepopupmenu.cpp:390
+#: menus/widgetbasepopupmenu.cpp:394
 #, kde-format
 msgid "Change Activity Name..."
 msgstr "更改活動名稱..."
 
-#: menus/widgetbasepopupmenu.cpp:410
+#: menus/widgetbasepopupmenu.cpp:414
 #, kde-format
 msgid "Change Object Node Name..."
 msgstr "更改物件節點名稱..."
 
-#: menus/widgetbasepopupmenu.cpp:427
+#: menus/widgetbasepopupmenu.cpp:431
 #, kde-format
 msgctxt "clear precondition"
 msgid "Clear"
 msgstr "清除"
 
-#: menus/widgetbasepopupmenu.cpp:446
+#: menus/widgetbasepopupmenu.cpp:450
 #, kde-format
 msgid "Add Interaction Operand"
 msgstr "新增互動操作"
 
-#: menus/widgetbasepopupmenu.cpp:454
+#: menus/widgetbasepopupmenu.cpp:458
 #, kde-format
 msgctxt "clear combined fragment"
 msgid "Clear"
 msgstr "清除"
 
-#: menus/widgetbasepopupmenu.cpp:465 menus/widgetbasepopupmenu.cpp:468
+#: menus/widgetbasepopupmenu.cpp:469 menus/widgetbasepopupmenu.cpp:472
 #, kde-format
 msgid "Change Multiplicity..."
 msgstr "更改多重性..."
 
-#: menus/widgetbasepopupmenu.cpp:471
+#: menus/widgetbasepopupmenu.cpp:475
 #, kde-format
 msgid "Change Name"
 msgstr "更改名稱"
 
-#: menus/widgetbasepopupmenu.cpp:516 menus/widgetbasepopupmenu.cpp:597
+#: menus/widgetbasepopupmenu.cpp:520 menus/widgetbasepopupmenu.cpp:601
 #, kde-format
 msgctxt "color menu"
 msgid "Color"
 msgstr "顏色"
 
 #. i18n: ectx: label, entry (useFillColor), group (UI Options)
-#: menus/widgetbasepopupmenu.cpp:519 menus/widgetbasepopupmenu.cpp:600
+#: menus/widgetbasepopupmenu.cpp:523 menus/widgetbasepopupmenu.cpp:604
 #: umbrello.kcfg:147
 #, kde-format
 msgid "Use Fill Color"
 msgstr "使用填充顏色"
 
-#: menus/widgetbasepopupmenu.cpp:520
+#: menus/widgetbasepopupmenu.cpp:524
 #, kde-format
 msgid "No Fill Color"
 msgstr "不填充顏色"
 
-#: menus/widgetbasepopupmenu.cpp:576
+#: menus/widgetbasepopupmenu.cpp:580
 #, kde-format
 msgctxt "align menu"
 msgid "Align"
 msgstr "對齊"
 
-#: menus/widgetbasepopupmenu.cpp:577 uml.cpp:573
+#: menus/widgetbasepopupmenu.cpp:581 uml.cpp:573
 #, kde-format
 msgid "Align Right"
 msgstr "置右對齊"
 
-#: menus/widgetbasepopupmenu.cpp:578 uml.cpp:578
+#: menus/widgetbasepopupmenu.cpp:582 uml.cpp:578
 #, kde-format
 msgid "Align Left"
 msgstr "置左對齊"
 
-#: menus/widgetbasepopupmenu.cpp:579 uml.cpp:583
+#: menus/widgetbasepopupmenu.cpp:583 uml.cpp:583
 #, kde-format
 msgid "Align Top"
 msgstr "置頂對齊"
 
-#: menus/widgetbasepopupmenu.cpp:580 uml.cpp:588
+#: menus/widgetbasepopupmenu.cpp:584 uml.cpp:588
 #, kde-format
 msgid "Align Bottom"
 msgstr "置底對齊"
 
-#: menus/widgetbasepopupmenu.cpp:582 uml.cpp:593
+#: menus/widgetbasepopupmenu.cpp:586 uml.cpp:593
 #, kde-format
 msgid "Align Vertical Middle"
 msgstr "垂直置中對齊"
 
-#: menus/widgetbasepopupmenu.cpp:583 uml.cpp:598
+#: menus/widgetbasepopupmenu.cpp:587 uml.cpp:598
 #, kde-format
 msgid "Align Horizontal Middle"
 msgstr "水平置中對齊"
 
-#: menus/widgetbasepopupmenu.cpp:584 uml.cpp:603
+#: menus/widgetbasepopupmenu.cpp:588 uml.cpp:603
 #, kde-format
 msgid "Align Vertical Distribute"
 msgstr "垂直分散對齊"
 
-#: menus/widgetbasepopupmenu.cpp:585 uml.cpp:608
+#: menus/widgetbasepopupmenu.cpp:589 uml.cpp:608
 #, kde-format
 msgid "Align Horizontal Distribute"
 msgstr "水平分散對齊"
@@ -6052,13 +6065,13 @@ msgstr "關聯錯誤"
 msgid "Enter Activity Name"
 msgstr "輸入活動名稱"
 
-#: toolbarstateother.cpp:286 umlwidgets/statewidget.cpp:635
+#: toolbarstateother.cpp:286 umlwidgets/statewidget.cpp:625
 #: umlwidgets/widget_utils.cpp:930
 #, kde-format
 msgid "Enter the name of the new activity:"
 msgstr "輸入新活動的名稱："
 
-#: toolbarstateother.cpp:286 umlwidgets/statewidget.cpp:633
+#: toolbarstateother.cpp:286 umlwidgets/statewidget.cpp:623
 #: umlwidgets/widget_utils.cpp:837
 #, kde-format
 msgid "new activity"
@@ -8134,67 +8147,67 @@ msgstr ""
 msgid "Name Not Valid"
 msgstr "名稱無效"
 
-#: umlscene.cpp:697
+#: umlscene.cpp:698
 #, kde-format
 msgid "Diagram: %2 Page %1"
 msgstr "圖表：%2  頁：%1"
 
-#: umlscene.cpp:1477
+#: umlscene.cpp:1478
 #, kde-format
 msgid "Use fill color"
 msgstr "使用填充顏色"
 
-#: umlscene.cpp:1479
+#: umlscene.cpp:1480
 #, kde-format
 msgid "No fill color"
 msgstr "不填充顏色"
 
-#: umlscene.cpp:1494
+#: umlscene.cpp:1495
 #, kde-format
 msgid "Change font"
 msgstr "變更字型"
 
-#: umlscene.cpp:1508
+#: umlscene.cpp:1509
 #, kde-format
 msgid "Change line color"
 msgstr "改變線顏色"
 
-#: umlscene.cpp:1526
+#: umlscene.cpp:1527
 #, kde-format
 msgid "Change line width"
 msgstr "改變線寬度"
 
-#: umlscene.cpp:1546
+#: umlscene.cpp:1547
 #, kde-format
 msgid "Change fill color"
 msgstr "更改填充顏色"
 
-#: umlscene.cpp:1561
+#: umlscene.cpp:1562
 #, kde-format
 msgid "Change visual property"
 msgstr "改變可見屬性"
 
-#: umlscene.cpp:1612
+#: umlscene.cpp:1613
 #, kde-format
 msgid "Delete widgets"
 msgstr "刪除元件"
 
-#: umlscene.cpp:1658
+#: umlscene.cpp:1659
 #, kde-format
 msgid "Resize widgets"
 msgstr "改變元件大小"
 
-#: umlscene.cpp:3292
+#: umlscene.cpp:3294
 #, kde-format
 msgid "Enter Diagram Name"
 msgstr "輸入圖表名稱"
 
-#: umlscene.cpp:3293
+#: umlscene.cpp:3295
 #, kde-format
 msgid "Enter the new name of the diagram:"
 msgstr "輸入圖表的新名稱："
 
-#: umlscene.cpp:3309
+#: umlscene.cpp:3311
 #, kde-format
 msgid "Failed to import from file."
 msgstr "匯入堆疊追蹤失敗。"
@@ -8468,7 +8481,7 @@ msgstr "輸入信號名稱"
 msgid "Enter the signal name :"
 msgstr "請輸入信號名稱："
 
-#: umlwidgets/statewidget.cpp:634
+#: umlwidgets/statewidget.cpp:624
 #, kde-format
 msgid "Enter Activity"
 msgstr "輸入活動"
