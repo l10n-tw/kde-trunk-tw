@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_sieve\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:18+0200\n"
+"POT-Creation-Date: 2019-11-02 03:22+0100\n"
 "PO-Revision-Date: 2009-03-19 08:53+0800\n"
 "Last-Translator: Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv "
 "dot tw>\n"
@@ -186,8 +186,10 @@ msgid "A protocol error occurred while trying to negotiate script downloading."
 msgstr "取得文稿下載時發生通訊協定錯誤。"
 
 #: sieve.cpp:775
-#, kde-format
-msgctxt "data retrival complete"
+#, fuzzy, kde-format
+#| msgctxt "special command completed"
+#| msgid "Done."
+msgctxt "data retrieval complete"
 msgid "Done."
 msgstr "完成。"
 
@@ -260,3 +262,7 @@ msgstr ""
 #, kde-format
 msgid "A protocol error occurred."
 msgstr "通訊協定錯誤。"
+
+#~ msgctxt "data retrival complete"
+#~ msgid "Done."
+#~ msgstr "完成。"
