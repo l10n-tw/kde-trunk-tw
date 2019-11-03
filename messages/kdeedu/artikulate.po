@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-07 02:52+0200\n"
+"POT-Creation-Date: 2019-11-03 02:52+0100\n"
 "PO-Revision-Date: 2019-09-22 19:06+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -188,7 +188,7 @@ msgstr ""
 msgid "Please select a course"
 msgstr "請選擇課程"
 
-#: src/core/resources/editablecourseresource.cpp:273
+#: src/core/resources/editablecourseresource.cpp:278
 #, kde-format
 msgid "New Unit"
 msgstr "新單位"
@@ -379,7 +379,7 @@ msgctxt "@title:column"
 msgid "Phoneme Unit"
 msgstr "音位單位"
 
-#: src/models/phraselistmodel.cpp:188 src/models/phrasemodel.cpp:301
+#: src/models/phraselistmodel.cpp:188 src/models/phrasemodel.cpp:302
 #, kde-format
 msgctxt "@title:column"
 msgid "Phrase"
@@ -536,6 +536,28 @@ msgstr "下一個"
 msgid "Switch to next phrase."
 msgstr ""
 
+#: src/qml/EditCoursePage.qml:49 src/qml/ProfileUserItem.qml:87
+#: src/qml/ProfileUserItem.qml:184
+#, kde-format
+msgid "Delete"
+msgstr "刪除"
+
+#: src/qml/EditCoursePage.qml:50
+#, fuzzy, kde-format
+#| msgid "Delete User"
+msgid "Delete this phrase."
+msgstr "刪除使用者"
+
+#: src/qml/EditCoursePage.qml:58
+#, kde-format
+msgid "Create Phrase"
+msgstr "建立片語"
+
+#: src/qml/EditCoursePage.qml:59
+#, kde-format
+msgid "Create phrase after current phrase."
+msgstr ""
+
 #: src/qml/EditorCourseSelectionPage.qml:29
 #, fuzzy, kde-format
 #| msgctxt "@title KAboutData: short program description"
@@ -590,19 +612,15 @@ msgid "Edit Prototype"
 msgstr "編輯原型："
 
 #: src/qml/PhraseEditor.qml:63
-#, kde-format
-msgid "Original Phrase: <i>%1</i>"
+#, fuzzy, kde-format
+#| msgid "Original Phrase: <i>%1</i>"
+msgid "Original Phrase:"
 msgstr "原始片語：<i>%1</i>"
 
 #: src/qml/PhraseEditor.qml:154
 #, kde-format
 msgid "Unit Title:"
 msgstr "單位標題："
-
-#: src/qml/PhraseEditor.qml:166
-#, kde-format
-msgid "Create Phrase"
-msgstr "建立片語"
 
 #: src/qml/PhraseEditorEditStateComponent.qml:62
 #, kde-format
@@ -726,11 +744,6 @@ msgstr "刪除使用者"
 #, kde-format
 msgid "Name"
 msgstr "名稱"
-
-#: src/qml/ProfileUserItem.qml:87 src/qml/ProfileUserItem.qml:184
-#, kde-format
-msgid "Delete"
-msgstr "刪除"
 
 #: src/qml/ProfileUserItem.qml:93
 #, kde-format

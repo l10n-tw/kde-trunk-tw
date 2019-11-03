@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-26 02:44+0200\n"
+"POT-Creation-Date: 2019-11-03 02:50+0100\n"
 "PO-Revision-Date: 2019-08-06 22:36+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -643,7 +643,7 @@ msgstr "重設工具列"
 msgid "Reset"
 msgstr "重設"
 
-#: kedittoolbar.cpp:1004
+#: kedittoolbar.cpp:1010
 #, kde-format
 msgid "&Toolbar:"
 msgstr "工具列(&T)："
@@ -655,54 +655,54 @@ msgstr "工具列(&T)："
 #. del_toolbar->setPixmap(BarIcon("edit-delete", KIconLoader::SizeSmall));
 #. del_toolbar->setEnabled(false); // disabled until implemented
 #. our list of inactive actions
-#: kedittoolbar.cpp:1019
+#: kedittoolbar.cpp:1025
 #, kde-format
 msgid "A&vailable actions:"
 msgstr "可用的動作(&V)："
 
-#: kedittoolbar.cpp:1034 kedittoolbar.cpp:1053
+#: kedittoolbar.cpp:1040 kedittoolbar.cpp:1059
 #, kde-format
 msgid "Filter"
 msgstr "過濾器"
 
-#: kedittoolbar.cpp:1037
+#: kedittoolbar.cpp:1043
 #, kde-format
 msgid "Curr&ent actions:"
 msgstr "目前的動作(&E)："
 
-#: kedittoolbar.cpp:1056
+#: kedittoolbar.cpp:1062
 #, kde-format
 msgid "Change &Icon..."
 msgstr "變更圖示(&I)..."
 
-#: kedittoolbar.cpp:1064
+#: kedittoolbar.cpp:1070
 #, kde-format
 msgid "Change Te&xt..."
 msgstr "改變文字(&X)..."
 
-#: kedittoolbar.cpp:1217
+#: kedittoolbar.cpp:1223
 #, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1"
 
-#: kedittoolbar.cpp:1244
+#: kedittoolbar.cpp:1250
 #, kde-format
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr "此元件將會被內嵌部分的所有元件取代。"
 
-#: kedittoolbar.cpp:1246
+#: kedittoolbar.cpp:1252
 #, kde-format
 msgid "<Merge>"
 msgstr "<合併>"
 
-#: kedittoolbar.cpp:1248
+#: kedittoolbar.cpp:1254
 #, kde-format
 msgid "<Merge %1>"
 msgstr "<合併 %1>"
 
-#: kedittoolbar.cpp:1254
+#: kedittoolbar.cpp:1260
 #, kde-format
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
@@ -711,18 +711,18 @@ msgstr ""
 "這是一份動作的動態清單。您可以移動它，不過如果您將它移除，您將無法重新加回"
 "它。"
 
-#: kedittoolbar.cpp:1255
+#: kedittoolbar.cpp:1261
 #, kde-format
 msgid "ActionList: %1"
 msgstr "動作清單: %1"
 
-#: kedittoolbar.cpp:1357 kedittoolbar.cpp:1384
+#: kedittoolbar.cpp:1363 kedittoolbar.cpp:1390
 #, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
 msgstr "%1"
 
-#: kedittoolbar.cpp:1611
+#: kedittoolbar.cpp:1617
 #, kde-format
 msgid "Change Icon"
 msgstr "變更圖示"
