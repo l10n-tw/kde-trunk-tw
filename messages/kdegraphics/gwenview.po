@@ -1680,9 +1680,6 @@ msgstr "無法建立目標資料夾。"
 
 #: importer/importer.cpp:86 importer/importer.cpp:92
 #, kde-format
-#| msgid ""
-#| "Could not create temporary upload folder:\n"
-#| "%1"
 msgid "Could not create temporary upload folder."
 msgstr "無法建立暫存上傳資料夾。"
 
@@ -1935,7 +1932,8 @@ msgctxt "@info"
 msgid ""
 "Could not open file for writing, check that you have the necessary rights in "
 "<filename>%1</filename>."
-msgstr "無法開啟檔案寫入。請檢查您是否有足夠的權限寫入 <filename>%1</filename>。"
+msgstr ""
+"無法開啟檔案寫入。請檢查您是否有足夠的權限寫入 <filename>%1</filename>。"
 
 #: lib/document/savejob.cpp:134
 #, kde-kuit-format

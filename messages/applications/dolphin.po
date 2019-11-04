@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-28 02:27+0100\n"
+"POT-Creation-Date: 2019-11-04 02:29+0100\n"
 "PO-Revision-Date: 2019-11-03 14:02+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -287,7 +287,7 @@ msgid ""
 "<emphasis>Cut</emphasis> action they are removed from their old location."
 msgstr ""
 
-#: dolphinmainwindow.cpp:1297 search/dolphinsearchbox.cpp:357
+#: dolphinmainwindow.cpp:1297 search/dolphinsearchbox.cpp:347
 #, kde-format
 msgid "Search..."
 msgstr "搜尋…"
@@ -1197,7 +1197,7 @@ msgstr ""
 msgid "Running Dolphin as root can be dangerous. Please be careful."
 msgstr "以管理員權限執行 Dolphin 可能有危險性，請小心使用。"
 
-#: dolphinviewcontainer.cpp:431 search/dolphinsearchbox.cpp:303
+#: dolphinviewcontainer.cpp:431 search/dolphinsearchbox.cpp:296
 #, kde-format
 msgid "Search for %1 in %2"
 msgstr "在 %2 中搜尋 %1"
@@ -2099,8 +2099,7 @@ msgid_plural ""
 "One or more files on this device are opened in following applications: "
 "<application>%2</application>."
 msgstr[0] ""
-"裝置上的一或多個檔案會在下述應用程式內開啟："
-"<application>%2</application>。"
+"裝置上的一或多個檔案會在下述應用程式內開啟：<application>%2</application>。"
 
 #: panels/places/placesitemmodel.cpp:494
 #, kde-format
@@ -2203,7 +2202,8 @@ msgstr "隱藏「%1」部份"
 msgid ""
 "Terminal cannot be shown because Konsole is not installed. Please install it "
 "and then reopen the panel."
-msgstr "因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
+msgstr ""
+"因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
 
 #: panels/terminal/terminalpanel.cpp:163
 #, kde-format
@@ -2222,258 +2222,180 @@ msgstr "位置"
 msgid "What"
 msgstr "什麼"
 
-#. i18n: ectx: label, entry (ShowFacetsWidget), group (Search)
-#: search/dolphin_searchsettings.kcfg:18
-#, kde-format
-msgid "Show facets widget"
-msgstr "顯示多面體元件"
-
 #: search/dolphinfacetswidget.cpp:38
 #, kde-format
-#| msgctxt "@label"
-#| msgid "Type"
 msgctxt "@item:inlistbox"
 msgid "Any Type"
 msgstr "任何類型"
 
 #: search/dolphinfacetswidget.cpp:39
 #, kde-format
-#| msgctxt "@title:window"
-#| msgid "Folders"
 msgctxt "@item:inlistbox"
 msgid "Folders"
 msgstr "資料夾"
 
 #: search/dolphinfacetswidget.cpp:40
 #, kde-format
-#| msgctxt "@option:check"
-#| msgid "Documents"
 msgctxt "@item:inlistbox"
 msgid "Documents"
 msgstr "文件"
 
 #: search/dolphinfacetswidget.cpp:41
 #, kde-format
-#| msgctxt "@option:check"
-#| msgid "Images"
 msgctxt "@item:inlistbox"
 msgid "Images"
 msgstr "影像"
 
 #: search/dolphinfacetswidget.cpp:42
 #, kde-format
-#| msgctxt "@option:check"
-#| msgid "Audio Files"
 msgctxt "@item:inlistbox"
 msgid "Audio Files"
 msgstr "音訊檔案"
 
 #: search/dolphinfacetswidget.cpp:43
 #, kde-format
-#| msgctxt "@option:check"
-#| msgid "Videos"
 msgctxt "@item:inlistbox"
 msgid "Videos"
 msgstr "影片"
 
 #: search/dolphinfacetswidget.cpp:49
 #, kde-format
-#| msgctxt "@option:option"
-#| msgid "Any Rating"
 msgctxt "@item:inlistbox"
 msgid "Any Date"
 msgstr "任何日期"
 
 #: search/dolphinfacetswidget.cpp:50
 #, kde-format
-#| msgctxt "@title:group Date"
-#| msgid "Today"
 msgctxt "@item:inlistbox"
 msgid "Today"
 msgstr "今天"
 
 #: search/dolphinfacetswidget.cpp:51
 #, kde-format
-#| msgctxt "@title:group Date"
-#| msgid "Yesterday"
 msgctxt "@item:inlistbox"
 msgid "Yesterday"
 msgstr "昨天"
 
 #: search/dolphinfacetswidget.cpp:52
 #, kde-format
-#| msgctxt "@option:option"
-#| msgid "This Week"
 msgctxt "@item:inlistbox"
 msgid "This Week"
 msgstr "本週"
 
 #: search/dolphinfacetswidget.cpp:53
 #, kde-format
-#| msgctxt "@option:option"
-#| msgid "This Month"
 msgctxt "@item:inlistbox"
 msgid "This Month"
 msgstr "本月"
 
 #: search/dolphinfacetswidget.cpp:54
 #, kde-format
-#| msgctxt "@option:option"
-#| msgid "This Year"
 msgctxt "@item:inlistbox"
 msgid "This Year"
 msgstr "今年"
 
 #: search/dolphinfacetswidget.cpp:58
 #, kde-format
-#| msgctxt "@option:option"
-#| msgid "Any Rating"
 msgctxt "@item:inlistbox"
 msgid "Any Rating"
 msgstr "任何評分"
 
 #: search/dolphinfacetswidget.cpp:59
 #, kde-format
-#| msgctxt "@option:option"
-#| msgid "1 or more"
 msgctxt "@item:inlistbox"
 msgid "1 or more"
 msgstr "一星以上"
 
 #: search/dolphinfacetswidget.cpp:60
 #, kde-format
-#| msgctxt "@option:option"
-#| msgid "2 or more"
 msgctxt "@item:inlistbox"
 msgid "2 or more"
 msgstr "兩星以上"
 
 #: search/dolphinfacetswidget.cpp:61
 #, kde-format
-#| msgctxt "@option:option"
-#| msgid "3 or more"
 msgctxt "@item:inlistbox"
 msgid "3 or more"
 msgstr "三星以上"
 
 #: search/dolphinfacetswidget.cpp:62
 #, kde-format
-#| msgctxt "@option:option"
-#| msgid "4 or more"
 msgctxt "@item:inlistbox"
 msgid "4 or more"
 msgstr "四星以上"
 
 #: search/dolphinfacetswidget.cpp:63
 #, kde-format
-#| msgctxt "@option:option"
-#| msgid "Highest Rating"
 msgctxt "@item:inlistbox"
 msgid "Highest Rating"
 msgstr "最高分"
 
-#: search/dolphinsearchbox.cpp:111
+#: search/dolphinsearchbox.cpp:110
 #, kde-format
 msgctxt "action:button"
 msgid "From Here (%1)"
 msgstr "從這裡（%1）"
 
-#: search/dolphinsearchbox.cpp:112
+#: search/dolphinsearchbox.cpp:111
 #, kde-format
 msgctxt "action:button"
 msgid "Limit search to '%1' and its subfolders"
 msgstr "將搜尋限制至「%1」與其子目錄"
 
-#: search/dolphinsearchbox.cpp:352
+#: search/dolphinsearchbox.cpp:342
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Quit searching"
 msgstr "離開搜尋"
 
-#: search/dolphinsearchbox.cpp:370
+#: search/dolphinsearchbox.cpp:360
 #, kde-format
 msgctxt "action:button"
 msgid "Save this search to quickly access it again in the future"
 msgstr "儲存此搜尋條件以供將來快速尋找"
 
-#: search/dolphinsearchbox.cpp:383
+#: search/dolphinsearchbox.cpp:373
 #, kde-format
 msgctxt "action:button"
 msgid "Filename"
 msgstr "檔案名稱"
 
-#: search/dolphinsearchbox.cpp:387
+#: search/dolphinsearchbox.cpp:377
 #, kde-format
 msgctxt "action:button"
 msgid "Content"
 msgstr "內容"
 
-#: search/dolphinsearchbox.cpp:398
+#: search/dolphinsearchbox.cpp:388
 #, kde-format
 msgctxt "action:button"
 msgid "From Here"
 msgstr "從這裡"
 
-#: search/dolphinsearchbox.cpp:402
+#: search/dolphinsearchbox.cpp:392
 #, kde-format
 msgctxt "action:button"
 msgid "Your files"
 msgstr "您的檔案"
 
-#: search/dolphinsearchbox.cpp:403
+#: search/dolphinsearchbox.cpp:393
 #, kde-format
 msgctxt "action:button"
 msgid "Search in your home directory"
 msgstr "在家目錄中搜尋"
 
-#: search/dolphinsearchbox.cpp:417
+#: search/dolphinsearchbox.cpp:407
 #, kde-format
 msgid "More Search Tools"
 msgstr "更多搜尋工具"
 
-#: search/dolphinsearchbox.cpp:507
+#: search/dolphinsearchbox.cpp:491
 #, kde-format
 msgctxt ""
 "@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
 "user entered."
 msgid "Query Results from '%1'"
 msgstr "從 %1 得到的查詢結果"
-
-#: search/dolphinsearchbox.cpp:576
-#, kde-format
-msgctxt "@action:button"
-msgid "Fewer Options"
-msgstr "較少選項"
-
-#: search/dolphinsearchbox.cpp:577
-#, kde-format
-msgctxt "@action:button"
-msgid "More Options"
-msgstr "更多選項"
-
-#: search/dolphinsearchbox.cpp:585
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Advanced search options are not available because the file indexing service "
-"is disabled."
-msgstr "因為檔案索引服務已停用，因此無法使用進階搜尋選項。"
-
-#: search/dolphinsearchbox.cpp:587
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Advanced search options are not available because this location is not "
-"indexed."
-msgstr "因為尚未索引此位置，因此無法使用進階搜尋選項。"
-
-#: search/dolphinsearchbox.cpp:590
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Advanced search options are not available because this version of Dolphin "
-"does not support the Baloo file indexer."
-msgstr "因為此 Dolphin 版本不支援 Baloo 檔案索引工具，因此無法使用進階搜尋選項。"
 
 #. i18n: ectx: label, entry (UseSystemFont), group (CompactMode)
 #. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
@@ -4173,6 +4095,36 @@ msgstr "# 會取代為遞增的數字，由此數字開始："
 msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "更新版本資訊中..."
+
+#~ msgid "Show facets widget"
+#~ msgstr "顯示多面體元件"
+
+#~ msgctxt "@action:button"
+#~ msgid "Fewer Options"
+#~ msgstr "較少選項"
+
+#~ msgctxt "@action:button"
+#~ msgid "More Options"
+#~ msgstr "更多選項"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Advanced search options are not available because the file indexing "
+#~ "service is disabled."
+#~ msgstr "因為檔案索引服務已停用，因此無法使用進階搜尋選項。"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Advanced search options are not available because this location is not "
+#~ "indexed."
+#~ msgstr "因為尚未索引此位置，因此無法使用進階搜尋選項。"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Advanced search options are not available because this version of Dolphin "
+#~ "does not support the Baloo file indexer."
+#~ msgstr ""
+#~ "因為此 Dolphin 版本不支援 Baloo 檔案索引工具，因此無法使用進階搜尋選項。"
 
 #~ msgctxt "@option:check"
 #~ msgid "Any"

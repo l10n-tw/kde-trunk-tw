@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-03 02:32+0100\n"
+"POT-Creation-Date: 2019-11-04 02:35+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -195,29 +195,29 @@ msgstr "%1 %2"
 
 #: core/app/dragdrop/albumdragdrop.cpp:97
 #: core/app/dragdrop/albumdragdrop.cpp:202
-#: core/app/dragdrop/albumdragdrop.cpp:304
-#: core/app/dragdrop/importdragdrop.cpp:98
-#: core/app/dragdrop/itemdragdrop.cpp:126 core/app/dragdrop/tagdragdrop.cpp:85
+#: core/app/dragdrop/albumdragdrop.cpp:311
+#: core/app/dragdrop/importdragdrop.cpp:100
+#: core/app/dragdrop/itemdragdrop.cpp:126 core/app/dragdrop/tagdragdrop.cpp:86
 #, kde-format
 msgid "&Move Here"
 msgstr "移至此處(&M)"
 
 #: core/app/dragdrop/albumdragdrop.cpp:99
-#: core/app/dragdrop/albumdragdrop.cpp:168
+#: core/app/dragdrop/albumdragdrop.cpp:165
 #: core/app/dragdrop/albumdragdrop.cpp:212
-#: core/app/dragdrop/albumdragdrop.cpp:265
-#: core/app/dragdrop/albumdragdrop.cpp:307
+#: core/app/dragdrop/albumdragdrop.cpp:267
+#: core/app/dragdrop/albumdragdrop.cpp:314
 #: core/app/dragdrop/importdragdrop.cpp:64
-#: core/app/dragdrop/importdragdrop.cpp:161
-#: core/app/dragdrop/itemdragdrop.cpp:93 core/app/dragdrop/itemdragdrop.cpp:670
-#: core/app/dragdrop/tagdragdrop.cpp:88 core/app/dragdrop/tagdragdrop.cpp:194
-#: core/app/dragdrop/tagdragdrop.cpp:250
+#: core/app/dragdrop/importdragdrop.cpp:163
+#: core/app/dragdrop/itemdragdrop.cpp:93 core/app/dragdrop/itemdragdrop.cpp:674
+#: core/app/dragdrop/tagdragdrop.cpp:89 core/app/dragdrop/tagdragdrop.cpp:195
+#: core/app/dragdrop/tagdragdrop.cpp:251
 #: core/showfoto/thumbbar/showfotodragdrophandler.cpp:59
 #, kde-format
 msgid "C&ancel"
 msgstr "取消(&A)"
 
-#: core/app/dragdrop/albumdragdrop.cpp:164
+#: core/app/dragdrop/albumdragdrop.cpp:161
 #: core/app/dragdrop/albumdragdrop.cpp:208
 #: core/app/items/utils/contextmenuhelper.cpp:248
 #, kde-format
@@ -225,21 +225,21 @@ msgid "Set as Album Thumbnail"
 msgstr "設為相簿縮圖"
 
 #: core/app/dragdrop/albumdragdrop.cpp:203
-#: core/app/dragdrop/albumdragdrop.cpp:305
-#: core/app/dragdrop/importdragdrop.cpp:101
+#: core/app/dragdrop/albumdragdrop.cpp:312
+#: core/app/dragdrop/importdragdrop.cpp:103
 #: core/app/dragdrop/itemdragdrop.cpp:129
 #, kde-format
 msgid "&Copy Here"
 msgstr "複製至此處(&C)"
 
-#: core/app/dragdrop/albumdragdrop.cpp:262
-#: core/app/dragdrop/itemdragdrop.cpp:666
+#: core/app/dragdrop/albumdragdrop.cpp:264
+#: core/app/dragdrop/itemdragdrop.cpp:670
 #, kde-format
 msgid "Download From Camera"
 msgstr "從相機下載"
 
-#: core/app/dragdrop/albumdragdrop.cpp:263
-#: core/app/dragdrop/itemdragdrop.cpp:668
+#: core/app/dragdrop/albumdragdrop.cpp:265
+#: core/app/dragdrop/itemdragdrop.cpp:672
 #, kde-format
 msgid "Download && Delete From Camera"
 msgstr "從相機下載和刪除(&&)"
@@ -251,12 +251,12 @@ msgctxt "@action:inmenu Group images with this image"
 msgid "Group here"
 msgstr "此處的群組"
 
-#: core/app/dragdrop/importdragdrop.cpp:157
+#: core/app/dragdrop/importdragdrop.cpp:159
 #, kde-format
 msgid "Exporting"
 msgstr "匯出中"
 
-#: core/app/dragdrop/importdragdrop.cpp:159
+#: core/app/dragdrop/importdragdrop.cpp:161
 #, kde-format
 msgid "Upload to Camera"
 msgstr "上傳到相機"
@@ -285,59 +285,59 @@ msgstr ""
 msgid "Assign Tag to Dropped Items"
 msgstr "指定標籤到丟棄的項目"
 
-#: core/app/dragdrop/itemdragdrop.cpp:575
+#: core/app/dragdrop/itemdragdrop.cpp:578
 #, fuzzy, kde-format
 #| msgid "Show Face Tags"
 msgid "Change Face Tags"
 msgstr "顯示臉孔標籤"
 
-#: core/app/dragdrop/itemdragdrop.cpp:579
+#: core/app/dragdrop/itemdragdrop.cpp:582
 #, fuzzy, kde-format
 #| msgid "Change Case"
 msgid "Change Face Tag"
 msgstr "改變大小寫"
 
-#: core/app/dragdrop/itemdragdrop.cpp:583
-#: core/app/dragdrop/itemdragdrop.cpp:626
+#: core/app/dragdrop/itemdragdrop.cpp:586
+#: core/app/dragdrop/itemdragdrop.cpp:630
 #: core/app/views/preview/itempreviewview.cpp:555
 #, kde-format
 msgid "&Cancel"
 msgstr "取消(&C)"
 
-#: core/app/dragdrop/itemdragdrop.cpp:611
+#: core/app/dragdrop/itemdragdrop.cpp:615
 #, kde-format
 msgid "Assign Tags to &Selected Items"
 msgstr "指定標籤到選擇的項目(&S)"
 
-#: core/app/dragdrop/itemdragdrop.cpp:619
+#: core/app/dragdrop/itemdragdrop.cpp:623
 #: core/app/views/preview/itempreviewview.cpp:553
 #, kde-format
 msgid "Assign Tags to &This Item"
 msgstr "指定標籤到這個項目(&T)"
 
-#: core/app/dragdrop/itemdragdrop.cpp:623
+#: core/app/dragdrop/itemdragdrop.cpp:627
 #, kde-format
 msgid "Assign Tags to &All Items"
 msgstr "指定標籤到所有項目(&A)"
 
-#: core/app/dragdrop/itemdragdrop.cpp:664
+#: core/app/dragdrop/itemdragdrop.cpp:668
 #, kde-format
 msgid "Importing"
 msgstr "匯入中"
 
-#: core/app/dragdrop/tagdragdrop.cpp:86
+#: core/app/dragdrop/tagdragdrop.cpp:87
 #, fuzzy, kde-format
 #| msgid "&Move Here"
 msgid "M&erge Here"
 msgstr "移至此處(&M)"
 
-#: core/app/dragdrop/tagdragdrop.cpp:190
+#: core/app/dragdrop/tagdragdrop.cpp:191
 #: core/app/items/utils/contextmenuhelper.cpp:252
 #, kde-format
 msgid "Set as Tag Thumbnail"
 msgstr "設為標籤縮圖"
 
-#: core/app/dragdrop/tagdragdrop.cpp:248
+#: core/app/dragdrop/tagdragdrop.cpp:249
 #, kde-format
 msgid "Assign Tag(s) '%1' to Items"
 msgstr "指定標籤「%1」到項目"
@@ -958,12 +958,10 @@ msgstr "名稱："
 msgid "Date:"
 msgstr "日期："
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: core/app/items/utils/tooltipfiller.cpp:97
 #: core/dplugins/bqm/transform/crop/crop.cpp:114
 #: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:372
 #: core/dplugins/generic/tools/htmlgallery/wizard/htmlimagesettingspage.cpp:200
-#: core/dplugins/generic/tools/printcreator/ui/advprintcaptionpage.ui:197
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:84
 #: core/utilities/import/items/importtooltipfiller.cpp:82
 #, kde-format
@@ -1388,12 +1386,14 @@ msgid " (%1 of %2. Total with grouped items: %3)"
 msgstr ""
 
 #: core/app/main/digikamapp.cpp:646
-#, kde-format
-msgid "%1 item hidden by grouping or versioning"
-msgid_plural "%1 items hidden by grouping or versioning"
-msgstr[0] ""
+#, fuzzy, kde-format
+#| msgid "1 item"
+#| msgid_plural "%1 items"
+msgid "%1 item hidden"
+msgid_plural "%1 items hidden"
+msgstr[0] "%1 個項目"
 
-#: core/app/main/digikamapp.cpp:696
+#: core/app/main/digikamapp.cpp:695
 #, fuzzy, kde-format
 #| msgid "Write Metadata to Image"
 #| msgid_plural "Write Metadata to Selected Images"
@@ -1401,7 +1401,7 @@ msgid "Write Metadata to File"
 msgid_plural "Write Metadata to Selected Files"
 msgstr[0] "將中繼資料寫入選擇的影像"
 
-#: core/app/main/digikamapp.cpp:698
+#: core/app/main/digikamapp.cpp:697
 #, fuzzy, kde-format
 #| msgid "Reread Metadata From Image"
 #| msgid_plural "Reread Metadata From Selected Images"
@@ -3258,21 +3258,21 @@ msgid "None"
 msgstr "無"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:271
-#: core/libs/album/treeview/labelstreeview.cpp:811
+#: core/libs/album/treeview/labelstreeview.cpp:806
 #: core/libs/widgets/metadata/picklabelwidget.cpp:282
 #, kde-format
 msgid "Rejected"
 msgstr "已拒絕"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:275
-#: core/libs/album/treeview/labelstreeview.cpp:814
+#: core/libs/album/treeview/labelstreeview.cpp:809
 #: core/libs/widgets/metadata/picklabelwidget.cpp:285
 #, kde-format
 msgid "Pending"
 msgstr "暫停"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:279
-#: core/libs/album/treeview/labelstreeview.cpp:817
+#: core/libs/album/treeview/labelstreeview.cpp:812
 #: core/libs/widgets/metadata/picklabelwidget.cpp:288
 #, kde-format
 msgid "Accepted"
@@ -3281,7 +3281,7 @@ msgstr "已接受"
 #: core/app/views/tableview/tableview_column_digikam.cpp:301
 #: core/dplugins/bqm/colors/curvesadjust/curvesadjust.cpp:70
 #: core/libs/album/treeview/labelstreeview.cpp:428
-#: core/libs/album/treeview/labelstreeview.cpp:760
+#: core/libs/album/treeview/labelstreeview.cpp:755
 #: core/libs/dimg/filters/bw/mixersettings.cpp:139
 #: core/libs/dimg/filters/cb/cbsettings.cpp:94
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:425
@@ -3291,7 +3291,7 @@ msgstr "紅"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:305
 #: core/libs/album/treeview/labelstreeview.cpp:428
-#: core/libs/album/treeview/labelstreeview.cpp:763
+#: core/libs/album/treeview/labelstreeview.cpp:758
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:428
 #, kde-format
 msgid "Orange"
@@ -3299,7 +3299,7 @@ msgstr "橘"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:309
 #: core/libs/album/treeview/labelstreeview.cpp:429
-#: core/libs/album/treeview/labelstreeview.cpp:766
+#: core/libs/album/treeview/labelstreeview.cpp:761
 #: core/libs/dimg/filters/cb/cbsettings.cpp:112
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:431
 #, kde-format
@@ -3309,7 +3309,7 @@ msgstr "黃色"
 #: core/app/views/tableview/tableview_column_digikam.cpp:313
 #: core/dplugins/bqm/colors/curvesadjust/curvesadjust.cpp:71
 #: core/libs/album/treeview/labelstreeview.cpp:429
-#: core/libs/album/treeview/labelstreeview.cpp:769
+#: core/libs/album/treeview/labelstreeview.cpp:764
 #: core/libs/dimg/filters/bw/mixersettings.cpp:140
 #: core/libs/dimg/filters/cb/cbsettings.cpp:107
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:434
@@ -3320,7 +3320,7 @@ msgstr "綠"
 #: core/app/views/tableview/tableview_column_digikam.cpp:317
 #: core/dplugins/bqm/colors/curvesadjust/curvesadjust.cpp:72
 #: core/libs/album/treeview/labelstreeview.cpp:430
-#: core/libs/album/treeview/labelstreeview.cpp:772
+#: core/libs/album/treeview/labelstreeview.cpp:767
 #: core/libs/dimg/filters/bw/mixersettings.cpp:141
 #: core/libs/dimg/filters/cb/cbsettings.cpp:115
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:437
@@ -3330,7 +3330,7 @@ msgstr "藍"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:321
 #: core/libs/album/treeview/labelstreeview.cpp:430
-#: core/libs/album/treeview/labelstreeview.cpp:775
+#: core/libs/album/treeview/labelstreeview.cpp:770
 #: core/libs/dimg/filters/cb/cbsettings.cpp:99
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:440
 #, kde-format
@@ -3339,7 +3339,7 @@ msgstr "紫紅色"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:325
 #: core/libs/album/treeview/labelstreeview.cpp:431
-#: core/libs/album/treeview/labelstreeview.cpp:778
+#: core/libs/album/treeview/labelstreeview.cpp:773
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:443
 #, kde-format
 msgid "Gray"
@@ -3347,7 +3347,7 @@ msgstr "灰"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:329
 #: core/libs/album/treeview/labelstreeview.cpp:431
-#: core/libs/album/treeview/labelstreeview.cpp:781
+#: core/libs/album/treeview/labelstreeview.cpp:776
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:446
 #, kde-format
 msgid "Black"
@@ -3355,7 +3355,7 @@ msgstr "黑"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:333
 #: core/libs/album/treeview/labelstreeview.cpp:432
-#: core/libs/album/treeview/labelstreeview.cpp:784
+#: core/libs/album/treeview/labelstreeview.cpp:779
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:449
 #, kde-format
 msgid "White"
@@ -7007,7 +7007,7 @@ msgstr "影像設定值"
 #. i18n: ectx: property (title), widget (QGroupBox, imagePosButtonGroup)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: core/dplugins/editor/file/print/printoptionspage.ui:19
-#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:101
+#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:104
 #, fuzzy, kde-format
 #| msgid "Image orientation"
 msgid "Image Position"
@@ -7016,7 +7016,7 @@ msgstr "影像方向"
 #. i18n: ectx: property (text), widget (QCheckBox, m_autorotate)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrintAutoRotate)
 #: core/dplugins/editor/file/print/printoptionspage.ui:49
-#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:363
+#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:366
 #, fuzzy, kde-format
 #| msgctxt "exposure mode"
 #| msgid "Auto bracket"
@@ -11389,10 +11389,8 @@ msgstr "連絡："
 msgid "Set here the person or organization to contact."
 msgstr "在這裡設定個人或機構的連絡資料。"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:124
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:124
-#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.ui:124
 #, kde-format
 msgid "Content"
 msgstr "連絡資料"
@@ -13151,26 +13149,36 @@ msgstr ""
 msgid "US Letter"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, resolutionCombo)
-#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:86
+#. i18n: ectx: property (currentText), widget (QComboBox, resolutionCombo)
+#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:85
 #, kde-format
 msgid "High"
 msgstr "高"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, resolutionCombo)
-#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:91
-#, kde-format
+#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:89
+#, fuzzy, kde-format
+#| msgid "High"
+msgctxt "High resolution level"
+msgid "High"
+msgstr "高"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, resolutionCombo)
+#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:94
+#, fuzzy, kde-format
+#| msgid "Low"
+msgctxt "Mow resolution level"
 msgid "Low"
 msgstr "低"
 
 #. i18n: ectx: property (text), widget (QRadioButton, topRadio)
-#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:112
+#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:115
 #, kde-format
 msgid "&Top"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, leftRadio)
-#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:122
+#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:125
 #, fuzzy, kde-format
 #| msgctxt "rotate image left"
 #| msgid "Left"
@@ -13178,7 +13186,7 @@ msgid "&Left"
 msgstr "左"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rightRadio)
-#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:132
+#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:135
 #, fuzzy, kde-format
 #| msgctxt "rotate image right"
 #| msgid "Right"
@@ -13186,42 +13194,42 @@ msgid "&Right"
 msgstr "右"
 
 #. i18n: ectx: property (text), widget (QCheckBox, drawLinesCheckBox)
-#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:147
+#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:150
 #, fuzzy, kde-format
 #| msgid "My Calendar"
 msgid "Draw lines on calendar"
 msgstr "我的行事曆"
 
 #. i18n: ectx: property (text), widget (QLabel, ratioLabel)
-#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:159
+#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:162
 #, fuzzy, kde-format
 #| msgid "Show image aspect ratio"
 msgid "Image to text ratio:"
 msgstr "顯示影像外觀比例"
 
 #. i18n: ectx: property (text), widget (QLabel, fontLabel)
-#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:189
+#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:192
 #: core/showfoto/setup/showfotosetuptooltip.cpp:110
 #, kde-format
 msgid "Font:"
 msgstr "字型："
 
 #. i18n: ectx: property (text), widget (QLabel, yearLabel)
-#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:203
+#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:206
 #, fuzzy, kde-format
 #| msgid "Year"
 msgid "Year:"
 msgstr "年"
 
 #. i18n: ectx: property (title), widget (QGroupBox, monthBox)
-#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:231
+#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:234
 #, fuzzy, kde-format
 #| msgid "Select images"
 msgid "Select Images"
 msgstr "選擇影像"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:240
+#: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:243
 #, kde-format
 msgid ""
 "Left click on a month to select an image, right click to clear an image."
@@ -14027,10 +14035,7 @@ msgstr "無法開啟：%1 "
 msgid "Previous"
 msgstr "上一步"
 
-#. i18n: ectx: property (text), widget (QPushButton, m_nextButton)
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:443
-#: core/dplugins/generic/view/presentation/audio/presentationaudiowidget.ui:50
-#: core/dplugins/generic/view/presentation/widgets/presentationctrlwidget.ui:51
 #, fuzzy, kde-format
 msgid "Next"
 msgstr "下一步"
@@ -14647,7 +14652,7 @@ msgstr[0] "%1 個項目"
 #. i18n: ectx: property (text), widget (QPushButton, m_stopButton)
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:269
 #: core/dplugins/generic/view/presentation/audio/presentationaudiowidget.ui:36
-#: core/dplugins/generic/view/presentation/widgets/presentationctrlwidget.ui:37
+#: core/dplugins/generic/view/presentation/widgets/presentationctrlwidget.ui:39
 #: core/utilities/queuemanager/main/queuemgrwindow.cpp:342
 #, kde-format
 msgid "Stop"
@@ -15557,15 +15562,24 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: core/dplugins/generic/tools/printcreator/ui/advprintcaptionpage.ui:174
-#, kde-format
-msgid "Color:"
+#, fuzzy, kde-format
+#| msgid "Color:"
+msgid "Text Color:"
 msgstr "顏色："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: core/dplugins/generic/tools/printcreator/ui/advprintcaptionpage.ui:197
+#, fuzzy, kde-format
+#| msgid "Tile size:"
+msgid "Text Size:"
+msgstr "拼貼大小："
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: core/dplugins/generic/tools/printcreator/ui/advprintcaptionpage.ui:244
-#, kde-format
-msgid "Family:"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Font color:"
+msgid "Font Family:"
+msgstr "字型顏色："
 
 #. i18n: ectx: property (whatsThis), widget (DigikamGenericPrintCreatorPlugin::AdvPrintCropFrame, cropFrame)
 #: core/dplugins/generic/tools/printcreator/ui/advprintcroppage.ui:34
@@ -15666,7 +15680,7 @@ msgstr "(第 %1 張，共 %2 張)"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, AdvPrintCustomLayout)
 #: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:26
-#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:1039
+#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:1047
 #, fuzzy, kde-format
 #| msgid "Custom list"
 msgid "Custom layout"
@@ -15691,66 +15705,60 @@ msgstr ""
 msgid "Photo size"
 msgstr "閃光燈"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:155
-#, fuzzy, kde-format
-#| msgctxt "Pixels"
-#| msgid "px"
-msgid "x"
-msgstr "px"
-
 #. i18n: ectx: property (text), item, widget (QComboBox, m_photoUnits)
-#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:200
-#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:893
+#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:203
+#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:901
 #, kde-format
 msgid "cm"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_photoUnits)
-#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:205
+#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:208
 #, kde-format
 msgid "mm"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_photoUnits)
-#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:210
-#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:888
+#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:213
+#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:896
 #, fuzzy, kde-format
 #| msgid "Inches"
 msgid "inches"
 msgstr "英吋"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:236
+#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:239
 #, kde-format
 msgid "Columns"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_photoGridCheck)
-#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:276
+#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:279
 #, fuzzy, kde-format
 #| msgid "Photo Flash"
 msgid "Photo grid:"
 msgstr "閃光燈"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_photosXPageCheck)
-#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:301
+#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:304
 #, fuzzy, kde-format
 msgid "Automatic layout:"
 msgstr "自動調整"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:313
+#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:316
 #, fuzzy, kde-format
 #| msgid "Photo properties"
 msgid "Photos per page"
 msgstr "相片屬性"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_doneButton)
-#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:385
-#, kde-format
-msgid "Done"
-msgstr ""
+#: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:388
+#, fuzzy, kde-format
+#| msgctxt "point has been set and is valid"
+#| msgid "Okay"
+msgid "Ok"
+msgstr "確定"
 
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2)
 #: core/dplugins/generic/tools/printcreator/ui/advprintphotopage.ui:47
@@ -16008,18 +16016,18 @@ msgid "Add again"
 msgstr "加入膠片顆粒"
 
 #: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:478
-#: core/utilities/facemanagement/assignnamewidget.cpp:268
+#: core/utilities/facemanagement/assignnamewidget_p.cpp:188
 #: core/utilities/geolocation/geoiface/bookmark/bookmarksdlg.cpp:364
 #, fuzzy, kde-format
 msgid "Remove"
 msgstr "移除(&R)"
 
-#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:1040
+#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:1048
 #, kde-format
 msgid "The selected custom photo size can not be applied to the paper size."
 msgstr ""
 
-#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:1222
+#: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:1234
 #, fuzzy, kde-format
 #| msgid "Custom list"
 msgid ""
@@ -17221,18 +17229,26 @@ msgstr "這個檔案是損壞的，可能無法播放。"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_playButton)
 #: core/dplugins/generic/view/presentation/audio/presentationaudiowidget.ui:29
-#: core/dplugins/generic/view/presentation/widgets/presentationctrlwidget.ui:30
+#: core/dplugins/generic/view/presentation/widgets/presentationctrlwidget.ui:32
 #, kde-format
 msgid "Play"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_prevButton)
 #: core/dplugins/generic/view/presentation/audio/presentationaudiowidget.ui:43
-#: core/dplugins/generic/view/presentation/widgets/presentationctrlwidget.ui:44
+#: core/dplugins/generic/view/presentation/widgets/presentationctrlwidget.ui:46
 #, fuzzy, kde-format
-#| msgid "Preview"
-msgid "Prev"
-msgstr "預覽"
+msgctxt "Previous item to show"
+msgid "Previous"
+msgstr "上一步"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_nextButton)
+#: core/dplugins/generic/view/presentation/audio/presentationaudiowidget.ui:50
+#: core/dplugins/generic/view/presentation/widgets/presentationctrlwidget.ui:53
+#, fuzzy, kde-format
+msgctxt "Next item to show"
+msgid "Next"
+msgstr "下一步"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: core/dplugins/generic/view/presentation/audio/presentationaudiowidget.ui:70
@@ -17244,7 +17260,7 @@ msgstr "時間軸"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: core/dplugins/generic/view/presentation/audio/presentationaudiowidget.ui:79
 #, kde-format
-msgid "elapsed:"
+msgid "Elapsed:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_elapsedTimeLabel)
@@ -17258,9 +17274,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: core/dplugins/generic/view/presentation/audio/presentationaudiowidget.ui:93
 #, fuzzy, kde-format
-#| msgid "total"
-msgid "total:"
-msgstr "總計"
+msgctxt "Total amount of time of presentation"
+msgid "Total:"
+msgstr "總計：%1（%）"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: core/dplugins/generic/view/presentation/dialogs/presentation_advpage.ui:23
@@ -17426,6 +17442,13 @@ msgstr ""
 #| msgid "Remove the current selected value from the list"
 msgid "Currently selected image in the portfolio list."
 msgstr "從清單中移除目前選擇的數值"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.ui:124
+#, fuzzy, kde-format
+#| msgid "Content"
+msgid "Content Rendering"
+msgstr "連絡資料"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_printNameCheckBox)
 #: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.ui:132
@@ -19355,7 +19378,7 @@ msgid ""
 msgstr "上傳檔案 <filename>%1</filename> 失敗。您要繼續嗎？"
 
 #: core/dplugins/generic/webservices/google/gswindow.cpp:1054
-#: core/utilities/facemanagement/assignnamewidget.cpp:254
+#: core/utilities/facemanagement/assignnamewidget_p.cpp:174
 #: core/utilities/imageeditor/editor/editortoolsettings.cpp:203
 #: core/utilities/imageeditor/editor/editorwindow.cpp:635
 #: core/utilities/maintenance/facesdetector.cpp:72
@@ -22424,7 +22447,7 @@ msgid "Labels"
 msgstr "標籤"
 
 #: core/libs/album/treeview/labelstreeview.cpp:347
-#: core/libs/album/treeview/labelstreeview.cpp:732
+#: core/libs/album/treeview/labelstreeview.cpp:727
 #, fuzzy, kde-format
 msgid "No Rating"
 msgstr "評等"
@@ -22436,7 +22459,7 @@ msgid "Pick"
 msgstr "挑選"
 
 #: core/libs/album/treeview/labelstreeview.cpp:388
-#: core/libs/album/treeview/labelstreeview.cpp:808
+#: core/libs/album/treeview/labelstreeview.cpp:803
 #, fuzzy, kde-format
 msgid "No Pick"
 msgstr "挑選"
@@ -22466,34 +22489,34 @@ msgid "Color"
 msgstr "顏色"
 
 #: core/libs/album/treeview/labelstreeview.cpp:416
-#: core/libs/album/treeview/labelstreeview.cpp:757
+#: core/libs/album/treeview/labelstreeview.cpp:752
 #, fuzzy, kde-format
 msgid "No Color"
 msgstr "顏色"
 
-#: core/libs/album/treeview/labelstreeview.cpp:722
+#: core/libs/album/treeview/labelstreeview.cpp:717
 #: core/libs/properties/itempropertiestab.cpp:365
 #, kde-format
 msgid "Rating: "
 msgstr "評分："
 
-#: core/libs/album/treeview/labelstreeview.cpp:748
+#: core/libs/album/treeview/labelstreeview.cpp:743
 #, fuzzy, kde-format
 msgid "Colors: "
 msgstr "顏色"
 
-#: core/libs/album/treeview/labelstreeview.cpp:799
+#: core/libs/album/treeview/labelstreeview.cpp:794
 #, fuzzy, kde-format
 msgid "Picks: "
 msgstr "挑選"
 
-#: core/libs/album/treeview/labelstreeview.cpp:881
+#: core/libs/album/treeview/labelstreeview.cpp:876
 #, fuzzy, kde-format
 #| msgid "Exporting"
 msgid "Exported Labels"
 msgstr "匯出中"
 
-#: core/libs/album/treeview/labelstreeview.cpp:885
+#: core/libs/album/treeview/labelstreeview.cpp:880
 #, fuzzy, kde-format
 msgid "Labels Album"
 msgstr "新增相簿"
@@ -31568,7 +31591,7 @@ msgstr "展開標籤樹狀圖"
 
 #: core/libs/tags/manager/tagmngrtreeview.cpp:166
 #: core/libs/tags/manager/tagsmanager.cpp:704
-#: core/libs/tags/widgets/tagfolderview.cpp:127
+#: core/libs/tags/widgets/tagfolderview.cpp:128
 #, kde-format
 msgid "Expand Selected Nodes"
 msgstr "展開選取的節點"
@@ -31910,13 +31933,13 @@ msgstr "標籤建立期間發生錯誤："
 msgid "Tag Path"
 msgstr "標籤路徑"
 
-#: core/libs/tags/widgets/tagfolderview.cpp:132
-#: core/libs/tags/widgets/tagfolderview.cpp:288
+#: core/libs/tags/widgets/tagfolderview.cpp:133
+#: core/libs/tags/widgets/tagfolderview.cpp:287
 #, kde-format
 msgid "Collapse Selected Recursively"
 msgstr "遞迴折疊選取的項目"
 
-#: core/libs/tags/widgets/tagfolderview.cpp:283
+#: core/libs/tags/widgets/tagfolderview.cpp:282
 #, kde-format
 msgid "Expand Selected Recursively"
 msgstr "遞迴展開選取的項目"
@@ -38564,12 +38587,12 @@ msgstr "沒有找到通訊錄條目"
 msgid "BalooTags"
 msgstr "標籤"
 
-#: core/utilities/facemanagement/assignnamewidget.cpp:258
+#: core/utilities/facemanagement/assignnamewidget_p.cpp:178
 #, kde-format
 msgid "Confirm"
 msgstr "確認"
 
-#: core/utilities/facemanagement/assignnamewidget.cpp:521
+#: core/utilities/facemanagement/assignnamewidget_p.cpp:442
 #, kde-format
 msgid "Who is this?"
 msgstr "這是誰？"
@@ -38579,19 +38602,19 @@ msgstr "這是誰？"
 msgid "Applying face changes"
 msgstr "套用臉孔改變"
 
-#: core/utilities/facemanagement/facescandialog.cpp:138
+#: core/utilities/facemanagement/facescandialog.cpp:40
 #, kde-format
 msgctxt "@title:window"
 msgid "Scanning faces"
 msgstr "掃描臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:143
+#: core/utilities/facemanagement/facescandialog.cpp:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Scan"
 msgstr "掃描"
 
-#: core/utilities/facemanagement/facescandialog.cpp:282
+#: core/utilities/facemanagement/facescandialog.cpp:184
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
@@ -38602,56 +38625,56 @@ msgstr ""
 "digiKam 可以搜尋您的相片中的臉孔。<nl/> 當您已經在相當數量中的相片標記出您的"
 "朋友後，<nl/> 它可以辨識中您其它相片中的此人。"
 
-#: core/utilities/facemanagement/facescandialog.cpp:291
+#: core/utilities/facemanagement/facescandialog.cpp:193
 #, kde-format
 msgctxt "@option:radio"
 msgid "Detect faces"
 msgstr "偵測臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:292
+#: core/utilities/facemanagement/facescandialog.cpp:194
 #, kde-format
 msgctxt "@info"
 msgid "Find all faces in your photos"
 msgstr "找出您的相片中的所有臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:294
+#: core/utilities/facemanagement/facescandialog.cpp:196
 #, fuzzy, kde-format
 msgctxt "@option:radio"
 msgid "Detect and recognize faces (experimental)"
 msgstr "偵測與辨識臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:295
+#: core/utilities/facemanagement/facescandialog.cpp:197
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
 "Find all faces in your photos and try to recognize which person is depicted"
 msgstr "找出您的相片中的所有臉孔<nl/>並試著辨識標記出來的是哪個人"
 
-#: core/utilities/facemanagement/facescandialog.cpp:298
+#: core/utilities/facemanagement/facescandialog.cpp:200
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Skip images already scanned"
 msgstr "跳過已掃描的影像"
 
-#: core/utilities/facemanagement/facescandialog.cpp:299
+#: core/utilities/facemanagement/facescandialog.cpp:201
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Scan again and merge results"
 msgstr "再次掃描並合併結果"
 
-#: core/utilities/facemanagement/facescandialog.cpp:300
+#: core/utilities/facemanagement/facescandialog.cpp:202
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Clear unconfirmed results and rescan"
 msgstr "清除未確認的結果並重新掃描"
 
-#: core/utilities/facemanagement/facescandialog.cpp:303
+#: core/utilities/facemanagement/facescandialog.cpp:205
 #, fuzzy, kde-format
 msgctxt "@option:radio"
 msgid "Recognize faces (experimental)"
 msgstr "辨認臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:304
+#: core/utilities/facemanagement/facescandialog.cpp:206
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
@@ -38659,32 +38682,32 @@ msgid ""
 "faces."
 msgstr "再試著辨認已標記出來但無法確認的人物臉孔。"
 
-#: core/utilities/facemanagement/facescandialog.cpp:334
+#: core/utilities/facemanagement/facescandialog.cpp:236
 #: core/utilities/fuzzysearch/findduplicatesview.cpp:138
 #, kde-format
 msgctxt "@label"
 msgid "Search in:"
 msgstr "搜尋於："
 
-#: core/utilities/facemanagement/facescandialog.cpp:335
+#: core/utilities/facemanagement/facescandialog.cpp:237
 #, kde-format
 msgctxt "@title:tab"
 msgid "Albums"
 msgstr "相簿"
 
-#: core/utilities/facemanagement/facescandialog.cpp:342
+#: core/utilities/facemanagement/facescandialog.cpp:244
 #, kde-format
 msgctxt "@label"
 msgid "Parameters for face detection and Recognition"
 msgstr "臉孔偵測與辨識的參數"
 
-#: core/utilities/facemanagement/facescandialog.cpp:344
+#: core/utilities/facemanagement/facescandialog.cpp:246
 #, kde-format
 msgctxt "@label Two extremities of a scale"
 msgid "Sensitivity     -     Specificity"
 msgstr ""
 
-#: core/utilities/facemanagement/facescandialog.cpp:350
+#: core/utilities/facemanagement/facescandialog.cpp:252
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -38693,13 +38716,13 @@ msgid ""
 "faces that are very similar to pretagged faces are recognized)"
 msgstr ""
 
-#: core/utilities/facemanagement/facescandialog.cpp:360
+#: core/utilities/facemanagement/facescandialog.cpp:262
 #, kde-format
 msgctxt "@title:tab"
 msgid "Parameters"
 msgstr "參數"
 
-#: core/utilities/facemanagement/facescandialog.cpp:369
+#: core/utilities/facemanagement/facescandialog.cpp:271
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -38716,7 +38739,7 @@ msgstr ""
 "臉孔偵測是個很花時間的工作。您可以選擇是否要使用您電腦中所有的處理器核心來進"
 "行臉孔偵測，或是只要在單一核心上在背景工作。"
 
-#: core/utilities/facemanagement/facescandialog.cpp:376
+#: core/utilities/facemanagement/facescandialog.cpp:278
 #, fuzzy, kde-format
 #| msgctxt "@option:check"
 #| msgid "Work on all processor cores"
@@ -38728,19 +38751,19 @@ msgstr "在所有的處理器核心上工作"
 #. i18nc("@label:listbox", "Recognize faces using EigenFaces algorithm"),    RecognitionDatabase::RecognizeAlgorithm::EigenFace);
 #. i18nc("@label:listbox", "Recognize faces using FisherFaces algorithm"),   RecognitionDatabase::RecognizeAlgorithm::FisherFace);
 #.
-#: core/utilities/facemanagement/facescandialog.cpp:388
+#: core/utilities/facemanagement/facescandialog.cpp:290
 #, fuzzy, kde-format
 msgctxt "@label:listbox"
 msgid "Recognize faces using Deep Learning algorithm"
 msgstr "辨認臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:393
+#: core/utilities/facemanagement/facescandialog.cpp:295
 #, kde-format
 msgctxt "@option:check"
 msgid "Clear and rebuild all training data"
 msgstr "清除並重建所有訓練資料"
 
-#: core/utilities/facemanagement/facescandialog.cpp:395
+#: core/utilities/facemanagement/facescandialog.cpp:297
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip"
 #| msgid ""
@@ -38755,20 +38778,20 @@ msgstr ""
 "這會清除所有之前訓練過的資料，並從所有可找到的臉孔重新建立辨識資料。若是有使"
 "用任何其它的應用程式來協助您建立辨識訓練資料，請小心使用。"
 
-#: core/utilities/facemanagement/facescandialog.cpp:405
+#: core/utilities/facemanagement/facescandialog.cpp:307
 #: core/utilities/setup/metadata/setupmetadata.cpp:545
 #, kde-format
 msgctxt "@title:tab"
 msgid "Advanced"
 msgstr "進階"
 
-#: core/utilities/facemanagement/facescandialog.cpp:489
+#: core/utilities/facemanagement/facescandialog.cpp:391
 #, fuzzy, kde-format
 msgctxt "@action:button"
 msgid "Options <<"
 msgstr "選項"
 
-#: core/utilities/facemanagement/facescandialog.cpp:490
+#: core/utilities/facemanagement/facescandialog.cpp:392
 #, fuzzy, kde-format
 msgctxt "@action:button"
 msgid "Options >>"
@@ -40258,9 +40281,10 @@ msgid "Write tags to XMP"
 msgstr "將標籤寫到 XMP"
 
 #: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:307
-#, kde-format
-msgid "Apply reverse geocoding"
-msgstr "套用反向地理定位（reverse geocoding）"
+#, fuzzy, kde-format
+#| msgid "Abort reverse geocoding?"
+msgid "Process reverse geocoding"
+msgstr "要中止反向地理定位嗎？"
 
 #: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:431
 #, kde-format
@@ -48536,6 +48560,25 @@ msgstr "側邊切換頻率："
 msgctxt "%1 is the screen number (0, 1, ...)"
 msgid "Screen %1"
 msgstr "綠（%）："
+
+#, fuzzy
+#~| msgctxt "Pixels"
+#~| msgid "px"
+#~ msgid "x"
+#~ msgstr "px"
+
+#, fuzzy
+#~| msgid "Preview"
+#~ msgid "Prev"
+#~ msgstr "預覽"
+
+#, fuzzy
+#~| msgid "total"
+#~ msgid "total:"
+#~ msgstr "總計"
+
+#~ msgid "Apply reverse geocoding"
+#~ msgstr "套用反向地理定位（reverse geocoding）"
 
 #, fuzzy
 #~| msgid "Suriname"

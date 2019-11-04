@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-28 03:22+0100\n"
+"POT-Creation-Date: 2019-11-04 03:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -646,47 +646,47 @@ msgstr ""
 msgid "Replace"
 msgstr ""
 
-#: app/livedatamanager.cpp:248
+#: app/livedatamanager.cpp:257
 #, kde-format
 msgid "Delayed arrival on %1"
 msgstr ""
 
-#: app/livedatamanager.cpp:249
+#: app/livedatamanager.cpp:258
 #, kde-format
 msgid "New arrival time is: %1"
 msgstr ""
 
-#: app/livedatamanager.cpp:289
+#: app/livedatamanager.cpp:298
 #, kde-format
 msgid "Delayed departure on %1"
 msgstr ""
 
-#: app/livedatamanager.cpp:290
+#: app/livedatamanager.cpp:299
 #, kde-format
 msgid "New departure time is: %1"
 msgstr ""
 
-#: app/livedatamanager.cpp:296
+#: app/livedatamanager.cpp:305
 #, kde-format
 msgid "Platform change on %1"
 msgstr ""
 
-#: app/livedatamanager.cpp:297
+#: app/livedatamanager.cpp:306
 #, kde-format
 msgid "New departure platform is: %1"
 msgstr ""
 
-#: app/livedatamanager.cpp:603
+#: app/livedatamanager.cpp:612
 #, kde-format
 msgid "Itinerary change"
 msgstr ""
 
-#: app/main.cpp:115 app/main.qml:27 app/main.qml:42
+#: app/main.cpp:113 app/main.qml:27 app/main.qml:42
 #, kde-format
 msgid "KDE Itinerary"
 msgstr ""
 
-#: app/main.cpp:128
+#: app/main.cpp:126
 #, kde-format
 msgid "PkPass or JSON-LD file to import."
 msgstr ""
@@ -771,6 +771,11 @@ msgstr ""
 msgid "Country:"
 msgstr ""
 
+#: app/PublicTransportBackendPage.qml:26
+#, kde-format
+msgid "Public Transport Information Sources"
+msgstr ""
+
 #: app/reservationmanager.cpp:166
 #, kde-format
 msgid "One reservation imported."
@@ -807,39 +812,39 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: app/SettingsPage.qml:38
+#: app/SettingsPage.qml:45
 #, kde-format
 msgid "Home"
 msgstr ""
 
-#: app/SettingsPage.qml:42
+#: app/SettingsPage.qml:49
 #, kde-format
 msgid "Home Country"
 msgstr ""
 
-#: app/SettingsPage.qml:51
+#: app/SettingsPage.qml:58
 #, kde-format
 msgid "Online Services"
 msgstr ""
 
-#: app/SettingsPage.qml:55
+#: app/SettingsPage.qml:62
 #, kde-format
 msgid "Query Traffic Data"
 msgstr ""
 
-#: app/SettingsPage.qml:63
+#: app/SettingsPage.qml:70
 #, kde-format
 msgid ""
 "When enabled, this will query transport provider online services for changes "
 "such as delays or gate and platform changes."
 msgstr ""
 
-#: app/SettingsPage.qml:66
+#: app/SettingsPage.qml:73
 #, kde-format
 msgid "Use insecure services"
 msgstr ""
 
-#: app/SettingsPage.qml:74
+#: app/SettingsPage.qml:81
 #, kde-format
 msgid ""
 "Enabling this will also use online services that do not offer transport "
@@ -847,17 +852,22 @@ msgid ""
 "on live data from certain providers."
 msgstr ""
 
-#: app/SettingsPage.qml:80 app/WeatherForecastPage.qml:29
+#: app/SettingsPage.qml:86
+#, kde-format
+msgid "Public Transport Information Sources..."
+msgstr ""
+
+#: app/SettingsPage.qml:93 app/WeatherForecastPage.qml:29
 #, kde-format
 msgid "Weather Forecast"
 msgstr ""
 
-#: app/SettingsPage.qml:88
+#: app/SettingsPage.qml:101
 #, kde-format
 msgid "Showing weather forecasts will query online services."
 msgstr ""
 
-#: app/SettingsPage.qml:95
+#: app/SettingsPage.qml:108
 #, kde-format
 msgid ""
 "Using data from <a href=\"https://www.met.no/\">The Norwegian Meteorological "
@@ -870,7 +880,17 @@ msgstr ""
 msgid "In barcode scanning mode"
 msgstr ""
 
-#: app/tickettokenmodel.cpp:108
+#: app/tickettokenmodel.cpp:109
+#, kde-format
+msgid "%1 (%2)"
+msgstr ""
+
+#: app/tickettokenmodel.cpp:114
+#, kde-format
+msgid "Traveler %1 (%2)"
+msgstr ""
+
+#: app/tickettokenmodel.cpp:116
 #, kde-format
 msgid "Traveler %1"
 msgstr ""

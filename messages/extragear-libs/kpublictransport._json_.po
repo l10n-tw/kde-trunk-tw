@@ -3,42 +3,188 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-03 03:29+0000\n"
+"POT-Creation-Date: 2019-11-04 03:41+0000\n"
 "PO-Revision-Date: 2019-11-03 14:22+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.08.2\n"
 
-#: src/networks/de_db.json
+#: src/networks/de_bb_vbb.json
 msgctxt "Name"
-msgid "Deutsche Bahn"
+msgid "Verkehrsverbund Berlin-Brandenburg (VBB)"
+msgstr ""
+
+#: src/networks/de_nw_vrr.json
+msgctxt "Name"
+msgid "Verkehrsverbund Rhein-Ruhr (VRR)"
+msgstr ""
+
+#: src/networks/de_nw_avv.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Berliner Verkehrsbetriebe (BVG)"
+msgctxt "Name"
+msgid "Aachener Verkehrsverbund (AVV)"
+msgstr "Berliner Verkehrsbetriebe (BVG)"
+
+#: src/networks/de_by_vgn.json
+msgctxt "Name"
+msgid "Verkehrsverbund Großraum Nürnberg (VGN)"
+msgstr ""
+
+#: src/networks/de_he_rmv.json
+msgctxt "Name"
+msgid "Rhein-Main-Verkehrsverbund (RMV)"
+msgstr ""
+
+#: src/networks/de_db.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Deutsche Bahn"
+msgctxt "Name"
+msgid "Deutsche Bahn (DB)"
 msgstr "Deutsche Bahn"
+
+#: src/networks/de_ni_gvh.json
+msgctxt "Name"
+msgid "Großraum-Verkehr Hannover (GVH)"
+msgstr ""
+
+#: src/networks/ch_sbb.json
+msgctxt "Name"
+msgid "Swiss Federal Railways (SBB/CFF/FFS)"
+msgstr ""
 
 #: src/networks/fr_sncf.json
 msgctxt "Name"
-msgid "SNCF"
-msgstr "SNCF"
+msgid "Société Nationale des Chemins de Fer français (SNCF)"
+msgstr ""
 
 #: src/networks/navitia.json
 msgctxt "Name"
 msgid "Navitia"
 msgstr "Navitia"
 
+#: src/networks/at_oebb.json
+msgctxt "Name"
+msgid "Österreichische Bundesbahnen (ÖBB)"
+msgstr ""
+
+#: src/networks/uk_traveline.json
+msgctxt "Name"
+msgid "Traveline"
+msgstr ""
+
 #: src/networks/de_be_bvg.json
 msgctxt "Name"
 msgid "Berliner Verkehrsbetriebe (BVG)"
 msgstr "Berliner Verkehrsbetriebe (BVG)"
+
+#: src/networks/de_bw_vvs.json
+msgctxt "Name"
+msgid "Verkehrs- und Tarifverbund Stuttgart (VVS)"
+msgstr ""
+
+#: src/networks/railteam.json
+msgctxt "Name"
+msgid "Railteam"
+msgstr ""
+
+#: src/networks/de_by_mvv.json
+msgctxt "Name"
+msgid "Münchener Verkehrs- und Tarifverbund (MVV)"
+msgstr ""
+
+#: src/networks/se_resrobot.json
+msgctxt "Name"
+msgid "Resrobot"
+msgstr ""
+
+#: src/networks/de_sh_sh.json
+msgctxt "Name"
+msgid "Nahverkehrsverbund Schleswig-Holstein (NAH.SH)"
+msgstr ""
+
+#: src/networks/be_sncb.json
+msgctxt "Name"
+msgid "National Railway Company of Belgium (NMBS/SNCB)"
+msgstr ""
+
+#: src/networks/nl_ns.json
+msgctxt "Name"
+msgid "Nederlandse Spoorwegen (NS)"
+msgstr ""
+
+#: src/networks/au_nsw.json
+msgctxt "Name"
+msgid "Transport for NSW"
+msgstr ""
+
+#: src/networks/dk_dsb.json
+msgctxt "Name"
+msgid "Danske Statsbaner (DSB)"
+msgstr ""
+
+#: src/networks/ie_tfi.json
+msgctxt "Name"
+msgid "Transport For Ireland"
+msgstr ""
+
+#: src/networks/de_st_insa.json
+msgctxt "Name"
+msgid "Nahverkehrsservice Sachsen-Anhalt (INSA)"
+msgstr ""
+
+#: src/networks/pl_pkp.json
+msgctxt "Name"
+msgid "Polskie Koleje Państwowe (PKP)"
+msgstr ""
+
+#: src/networks/de_bb_vbb.json
+msgctxt "Description"
+msgid "Local transport in the Berlin and Brandenburg regions of Germany."
+msgstr ""
+
+#: src/networks/de_nw_vrr.json
+msgctxt "Description"
+msgid "Local transport in the Rhein-Ruhr area, Germany."
+msgstr ""
+
+#: src/networks/de_nw_avv.json
+msgctxt "Description"
+msgid "Local transport in and around Aachen, Germany."
+msgstr ""
+
+#: src/networks/de_by_vgn.json
+msgctxt "Description"
+msgid "Local transport in and around Nuremberg, Germany."
+msgstr ""
+
+#: src/networks/de_he_rmv.json
+msgctxt "Description"
+msgid "Local transport in the Rhein-Main area, Germany."
+msgstr ""
 
 #: src/networks/de_db.json
 msgctxt "Description"
 msgid ""
 "German national railway, covers local and long-distance services in Germany "
 "and neighbouring countries."
+msgstr ""
+
+#: src/networks/de_ni_gvh.json
+msgctxt "Description"
+msgid "Local transport in and around Hannover, Germany."
+msgstr ""
+
+#: src/networks/ch_sbb.json
+msgctxt "Description"
+msgid "Swiss national railway."
 msgstr ""
 
 #: src/networks/fr_sncf.json
@@ -51,7 +197,81 @@ msgctxt "Description"
 msgid "World-wide Free Software and Open Data transport data provider."
 msgstr ""
 
+#: src/networks/at_oebb.json
+msgctxt "Description"
+msgid "Austrian national railway."
+msgstr ""
+
+#: src/networks/uk_traveline.json
+msgctxt "Description"
+msgid "UK public transport information."
+msgstr ""
+
 #: src/networks/de_be_bvg.json
 msgctxt "Description"
 msgid "Local transport operator in Berlin, Germany."
 msgstr ""
+
+#: src/networks/de_bw_vvs.json
+msgctxt "Description"
+msgid "Local transport in and around Stuttgart, Germany."
+msgstr ""
+
+#: src/networks/railteam.json
+msgctxt "Description"
+msgid "Joint service of European national railway operators."
+msgstr ""
+
+#: src/networks/de_by_mvv.json
+msgctxt "Description"
+msgid "Local transport in and around Munich, Germany."
+msgstr ""
+
+#: src/networks/se_resrobot.json
+msgctxt "Description"
+msgid "Public transport information for Sweden."
+msgstr ""
+
+#: src/networks/de_sh_sh.json
+msgctxt "Description"
+msgid "Local transport in Schleswig-Holstein, Germany."
+msgstr ""
+
+#: src/networks/be_sncb.json
+msgctxt "Description"
+msgid "Belgian national railway."
+msgstr ""
+
+#: src/networks/nl_ns.json
+msgctxt "Description"
+msgid "Dutch national railway."
+msgstr ""
+
+#: src/networks/au_nsw.json
+msgctxt "Description"
+msgid "Local transport in New South Wales, Australia."
+msgstr ""
+
+#: src/networks/dk_dsb.json
+msgctxt "Description"
+msgid "Danish national railway."
+msgstr ""
+
+#: src/networks/ie_tfi.json
+msgctxt "Description"
+msgid "Local and national transport in Ireland."
+msgstr ""
+
+#: src/networks/de_st_insa.json
+msgctxt "Description"
+msgid "Local transport in Sachsen-Anhalt, Germany."
+msgstr ""
+
+#: src/networks/pl_pkp.json
+msgctxt "Description"
+msgid "Polish national railway."
+msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "SNCF"
+#~ msgstr "SNCF"
