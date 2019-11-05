@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-24 03:23+0200\n"
+"POT-Creation-Date: 2019-11-05 03:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -68,8 +68,8 @@ msgid "Check-In"
 msgstr ""
 
 #: templates/busreservation.html:43 templates/flightreservation.html:56
-#: templates/flightreservation.html:73 templates/trainreservation.html:52
-#: templates/trainreservation.html:71
+#: templates/flightreservation.html:73 templates/trainreservation.html:56
+#: templates/trainreservation.html:84
 #, kde-format
 msgid "Seat: %1"
 msgstr ""
@@ -130,7 +130,12 @@ msgstr ""
 msgid "Search address on map"
 msgstr ""
 
-#: templates/trainreservation.html:48 templates/trainreservation.html:67
+#: templates/trainreservation.html:48 templates/trainreservation.html:76
+#, kde-format
+msgid "Class: %1"
+msgstr ""
+
+#: templates/trainreservation.html:52 templates/trainreservation.html:80
 #, kde-format
 msgid "Coach: %1"
 msgstr ""

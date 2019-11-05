@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-31 02:39+0100\n"
+"POT-Creation-Date: 2019-11-05 02:39+0100\n"
 "PO-Revision-Date: 2019-11-03 14:09+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -8280,7 +8280,7 @@ msgstr "預設"
 #: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:46
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:54
 #: plugins/python/quick_settings_docker/quick_settings_docker.py:65
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1150
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1151
 #, kde-format
 msgid "Size"
 msgstr "大小"
@@ -11616,7 +11616,7 @@ msgstr "圖層屬性"
 #: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:526
 #: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:532
 #: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:538
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1187
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1188
 #, no-c-format, kde-format
 msgid "%"
 msgstr "%"
@@ -11887,7 +11887,7 @@ msgstr "選擇背景影像"
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:171
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:198
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:207
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:908
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:909
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:338
 #, kde-format
 msgctxt "@title:window"
@@ -14255,7 +14255,7 @@ msgstr "前景色"
 #: plugins/flake/textshape/dialogs/ChangeConfigureDialog.ui:105
 #: plugins/flake/textshape/dialogs/ChangeConfigureDialog.ui:188
 #: plugins/flake/textshape/dialogs/ChangeConfigureDialog.ui:247
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1166
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1167
 #, kde-format
 msgid "Background Color"
 msgstr "背景色"
@@ -31121,7 +31121,7 @@ msgstr "顯示變更"
 
 #: plugins/flake/textshape/dialogs/CharacterGeneral.cpp:72
 #: plugins/flake/textshape/dialogs/FormattingPreview.cpp:51
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1141
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1142
 #, kde-format
 msgid "Font"
 msgstr "字體"
@@ -32496,7 +32496,7 @@ msgid "Text Shape"
 msgstr "文字形狀"
 
 #: plugins/flake/textshape/TextTool.cpp:330
-#: plugins/tools/svgtexttool/kis_font_family_combo_box.cpp:118
+#: plugins/tools/svgtexttool/kis_font_family_combo_box.cpp:199
 #, kde-format
 msgid "Font Family"
 msgstr "字體系列"
@@ -41508,7 +41508,7 @@ msgctxt "action"
 msgid "Similar Selection Tool"
 msgstr "相似顏色選取區域工具"
 
-#: plugins/tools/svgtexttool/kis_font_family_combo_box.cpp:119
+#: plugins/tools/svgtexttool/kis_font_family_combo_box.cpp:200
 #, kde-format
 msgid "Font Style"
 msgstr "字體樣式"
@@ -41528,62 +41528,62 @@ msgstr "文字工具"
 msgid "Conversion failed"
 msgstr "轉換失敗"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:398
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:399
 #, kde-format
 msgid "Find Text"
 msgstr "尋找文字"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:402
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:443
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:403
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:444
 #, kde-format
 msgid "Find:"
 msgstr "尋找："
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:438
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:439
 #, kde-format
 msgid "Find and Replace all"
 msgstr "尋找並取代全部"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:445
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:446
 #, kde-format
 msgid "Replace:"
 msgstr "取代："
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:908
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:909
 #, kde-format
 msgid "You have modified the text. Discard changes?"
 msgstr "文字已被修改。要放棄變更嗎？"
 
 #. i18n: ectx: attribute (title), widget (QWidget, richTab)
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1000
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1006
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1001
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1007
 #: plugins/tools/svgtexttool/WdgSvgTextEditor.ui:24
 #, kde-format
 msgid "Rich text"
 msgstr "富文字"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1003
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1007
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1004
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1008
 #, kde-format
 msgid "SVG Source"
 msgstr "SVG 原始碼"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1158
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1159
 #, kde-format
 msgid "Text Color"
 msgstr "文字顏色"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1173
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1174
 #, kde-format
 msgid "Pick a Color"
 msgstr "拾取顏色"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1184
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1185
 #, kde-format
 msgid "Line height"
 msgstr "行高"
 
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1196
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:1197
 #, kde-format
 msgid "Letter Spacing"
 msgstr "字距"

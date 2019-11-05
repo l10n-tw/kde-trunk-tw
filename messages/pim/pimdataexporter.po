@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-10 03:01+0200\n"
+"POT-Creation-Date: 2019-11-05 03:24+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -217,7 +217,7 @@ msgstr "備份設定中..."
 
 #: core/addressbook/exportaddressbookjob.cpp:172
 #: core/akregator/exportakregatorjob.cpp:62 core/alarm/exportalarmjob.cpp:158
-#: core/calendar/exportcalendarjob.cpp:210 core/mail/exportmailjob.cpp:624
+#: core/calendar/exportcalendarjob.cpp:210 core/mail/exportmailjob.cpp:625
 #: core/notes/exportnotesjob.cpp:175
 #, kde-format
 msgid "Config backup done."
@@ -256,7 +256,7 @@ msgstr "回復郵件..."
 
 #: core/addressbook/importaddressbookjob.cpp:193
 #: core/akregator/importakregatorjob.cpp:79 core/alarm/importalarmjob.cpp:170
-#: core/calendar/importcalendarjob.cpp:287 core/mail/importmailjob.cpp:909
+#: core/calendar/importcalendarjob.cpp:287 core/mail/importmailjob.cpp:910
 #: core/notes/importnotesjob.cpp:113
 #, kde-format
 msgid "Config restored."
@@ -410,22 +410,22 @@ msgstr "過濾器已完成備份。"
 msgid "Filters cannot be exported."
 msgstr "無法匯出過濾器。"
 
-#: core/mail/exportmailjob.cpp:629
+#: core/mail/exportmailjob.cpp:630
 #, kde-format
 msgid "Backing up identity..."
 msgstr "備份身份中..."
 
-#: core/mail/exportmailjob.cpp:664
+#: core/mail/exportmailjob.cpp:665
 #, kde-format
 msgid "vCard file \"%1\" cannot be saved."
 msgstr "vCard 檔 \"%1\" 無法儲存。"
 
-#: core/mail/exportmailjob.cpp:677
+#: core/mail/exportmailjob.cpp:678
 #, kde-format
 msgid "Identity backup done."
 msgstr "身份已完成備份。"
 
-#: core/mail/exportmailjob.cpp:679
+#: core/mail/exportmailjob.cpp:680
 #, kde-format
 msgid "Identity file cannot be added to backup file."
 msgstr "身份檔無法加入備份檔。"
@@ -483,23 +483,23 @@ msgstr "回復郵件..."
 msgid "filters file could not be found in the archive."
 msgstr "封存中找不到過濾器檔。"
 
-#: core/mail/importmailjob.cpp:953 core/mail/importmailjob.cpp:958
+#: core/mail/importmailjob.cpp:954 core/mail/importmailjob.cpp:959
 #, fuzzy, kde-format
 #| msgid "Restore identities..."
 msgid "Restoring identities..."
 msgstr "回復身份..."
 
-#: core/mail/importmailjob.cpp:956
+#: core/mail/importmailjob.cpp:957
 #, kde-format
 msgid "emailidentities file could not be found in the archive."
 msgstr "封存中找不到身份檔。"
 
-#: core/mail/importmailjob.cpp:1028
+#: core/mail/importmailjob.cpp:1029
 #, kde-format
 msgid "Identities restored."
 msgstr "身份已回復。"
 
-#: core/mail/importmailjob.cpp:1030
+#: core/mail/importmailjob.cpp:1031
 #, kde-format
 msgid "Failed to restore identity file."
 msgstr "回復身份檔失敗。"

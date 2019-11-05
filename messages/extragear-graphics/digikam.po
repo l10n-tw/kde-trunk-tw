@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-04 02:35+0100\n"
+"POT-Creation-Date: 2019-11-05 02:37+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -13151,7 +13151,9 @@ msgstr ""
 
 #. i18n: ectx: property (currentText), widget (QComboBox, resolutionCombo)
 #: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:85
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "High"
+msgctxt "Current default resolution"
 msgid "High"
 msgstr "高"
 
@@ -13166,8 +13168,9 @@ msgstr "高"
 #. i18n: ectx: property (text), item, widget (QComboBox, resolutionCombo)
 #: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:94
 #, fuzzy, kde-format
+#| msgctxt "saturation mode"
 #| msgid "Low"
-msgctxt "Mow resolution level"
+msgctxt "Low resolution level"
 msgid "Low"
 msgstr "低"
 
@@ -23153,7 +23156,7 @@ msgstr ""
 "SQLite3 資料庫的驅動程式 \"SQLITE\" 無法使用。\n"
 "digiKam 依賴由 Qt4 的 SQL 模組提供的驅動程式。"
 
-#: core/libs/database/engine/dbengineconfigloader.cpp:178
+#: core/libs/database/engine/dbengineconfigloader.cpp:179
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not open the dbconfig.xml file. This file is installed with the "
@@ -23167,19 +23170,19 @@ msgstr ""
 "無法開啟 dbconfig.xml 檔。此檔案是跟著 digikam 應用程式一起安裝，要執行 "
 "digikam 此檔案是必須存在的。請檢查您的安裝。"
 
-#: core/libs/database/engine/dbengineconfigloader.cpp:187
+#: core/libs/database/engine/dbengineconfigloader.cpp:188
 #, fuzzy, kde-format
 msgid "Could not open configuration file <b>%1</b>"
 msgstr "無法開啟 dbconfig.xml 檔案 <filename>%1</filename>"
 
-#: core/libs/database/engine/dbengineconfigloader.cpp:195
+#: core/libs/database/engine/dbengineconfigloader.cpp:196
 #, fuzzy, kde-format
 msgid ""
 "The XML in the configuration file <b>%1</b> is invalid and cannot be read."
 msgstr ""
 "在 dbconfig.xml 檔案 <filename>%1</filename> 裡的 XML 不合法，或是無法讀取。"
 
-#: core/libs/database/engine/dbengineconfigloader.cpp:206
+#: core/libs/database/engine/dbengineconfigloader.cpp:207
 #, fuzzy, kde-format
 msgid ""
 "The XML in the configuration file <b>%1</b> is missing the required element "
@@ -23188,7 +23191,7 @@ msgstr ""
 "在 dbconfigxml 檔案 <filename>%1</filename> 裡的 XML 遺失了必要的元素 <icode>"
 "%2</icode>。"
 
-#: core/libs/database/engine/dbengineconfigloader.cpp:216
+#: core/libs/database/engine/dbengineconfigloader.cpp:217
 #, fuzzy, kde-format
 msgid ""
 "The XML in the configuration file <b>%1</b> is missing the required element "
@@ -23197,7 +23200,7 @@ msgstr ""
 "在 dbconfigxml 檔案 <filename>%1</filename> 裡的 XML 遺失了必要的元素 <icode>"
 "%2</icode>。"
 
-#: core/libs/database/engine/dbengineconfigloader.cpp:235
+#: core/libs/database/engine/dbengineconfigloader.cpp:236
 #, fuzzy, kde-format
 msgid ""
 "An old version of the configuration file <b>%1</b> is found. Please ensure "
@@ -48560,6 +48563,12 @@ msgstr "側邊切換頻率："
 msgctxt "%1 is the screen number (0, 1, ...)"
 msgid "Screen %1"
 msgstr "綠（%）："
+
+#, fuzzy
+#~| msgid "Low"
+#~ msgctxt "Mow resolution level"
+#~ msgid "Low"
+#~ msgstr "低"
 
 #, fuzzy
 #~| msgctxt "Pixels"
