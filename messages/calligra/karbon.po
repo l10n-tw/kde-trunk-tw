@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 02:40+0200\n"
+"POT-Creation-Date: 2019-11-06 02:33+0100\n"
 "PO-Revision-Date: 2015-09-20 18:13+0800\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Generator: Poedit 1.5.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:917
+#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:787
 msgctxt "(qtundo-format)"
 msgid "Boolean Operation"
 msgstr "布林運算"
@@ -87,26 +87,32 @@ msgstr "效果(&C)"
 msgid "&Settings"
 msgstr "設定(&S)"
 
+#. i18n: ectx: Menu (page)
+#: data/karbon.rc:137
+#, kde-format
+msgid "&Page"
+msgstr ""
+
 #. i18n: ectx: ToolBar (edit_toolbar)
-#: data/karbon.rc:138
+#: data/karbon.rc:150
 #, kde-format
 msgid "Edit"
 msgstr "編輯"
 
 #. i18n: ectx: ToolBar (object_toolbar)
-#: data/karbon.rc:148
+#: data/karbon.rc:160
 #, kde-format
 msgid "Object"
 msgstr "物件"
 
 #. i18n: ectx: ToolBar (align_toolbar)
-#: data/karbon.rc:157
+#: data/karbon.rc:169
 #, kde-format
 msgid "Align"
 msgstr "對齊"
 
 #. i18n: ectx: ToolBar (Effects)
-#: data/karbon.rc:166
+#: data/karbon.rc:178
 #, kde-format
 msgid "Effects"
 msgstr "效果"
@@ -282,147 +288,6 @@ msgstr "作者"
 msgid "Author"
 msgstr "作者"
 
-#: ui/dockers/KarbonLayerDocker.cpp:84
-#, kde-format
-msgid "Layer view"
-msgstr "圖層檢視"
-
-#: ui/dockers/KarbonLayerDocker.cpp:95
-#, kde-format
-msgid "Add a new layer"
-msgstr "新增圖層"
-
-#: ui/dockers/KarbonLayerDocker.cpp:101
-#, kde-format
-msgid "Delete selected objects"
-msgstr "刪除選取的物件"
-
-#: ui/dockers/KarbonLayerDocker.cpp:107
-#, kde-format
-msgid "Raise selected objects"
-msgstr "提升選取的物件"
-
-#: ui/dockers/KarbonLayerDocker.cpp:113
-#, kde-format
-msgid "Lower selected objects"
-msgstr "降低選取的物件"
-
-#: ui/dockers/KarbonLayerDocker.cpp:122
-#, kde-format
-msgid "Minimal View"
-msgstr "最小檢視"
-
-#: ui/dockers/KarbonLayerDocker.cpp:124
-#, kde-format
-msgid "Detailed View"
-msgstr "詳細檢視"
-
-#: ui/dockers/KarbonLayerDocker.cpp:126
-#, kde-format
-msgid "Thumbnail View"
-msgstr "縮圖檢視"
-
-#: ui/dockers/KarbonLayerDocker.cpp:136
-#, kde-format
-msgid "View mode"
-msgstr "檢視模式"
-
-#: ui/dockers/KarbonLayerDocker.cpp:284
-#, kde-format
-msgid "New Layer"
-msgstr "新圖層"
-
-#: ui/dockers/KarbonLayerDocker.cpp:285
-#, kde-format
-msgid "Enter the name of the new layer:"
-msgstr "輸入新圖層的名稱："
-
-#: ui/dockers/KarbonLayerDocker.cpp:287
-#, kde-format
-msgid "New layer"
-msgstr "新圖層"
-
-#: ui/dockers/KarbonLayerDocker.cpp:293
-msgctxt "(qtundo-format)"
-msgid "Create Layer"
-msgstr "建立圖層"
-
-#: ui/dockers/KarbonLayerDocker.cpp:317
-msgctxt "(qtundo-format)"
-msgid "Delete Layer"
-msgstr "刪除圖層"
-
-#: ui/dockers/KarbonLayerDocker.cpp:319
-#, kde-format
-msgid "Could not delete all layers. At least one layer is required."
-msgstr "無法刪除所有的圖層，至少要留一個。"
-
-#: ui/dockers/KarbonLayerDocker.cpp:319
-#, kde-format
-msgid "Error deleting layers"
-msgstr "刪除圖層發生錯誤"
-
-#: ui/dockers/KarbonLayerModel.cpp:165
-#, kde-format
-msgid "Layer"
-msgstr "圖層"
-
-#: ui/dockers/KarbonLayerModel.cpp:167
-#, kde-format
-msgctxt "A group of shapes"
-msgid "Group"
-msgstr "群組"
-
-#: ui/dockers/KarbonLayerModel.cpp:169
-#, kde-format
-msgid "Shape"
-msgstr "物件"
-
-#: ui/dockers/KarbonLayerModel.cpp:264
-#, kde-format
-msgctxt "Visibility state of the shape"
-msgid "Visible"
-msgstr "可看見"
-
-#: ui/dockers/KarbonLayerModel.cpp:265
-#, kde-format
-msgctxt "Lock state of the shape"
-msgid "Locked"
-msgstr "鎖定"
-
-#: ui/dockers/KarbonLayerModel.cpp:266
-#, kde-format
-msgctxt "The z-index of the shape"
-msgid "zIndex"
-msgstr "zIndex"
-
-#: ui/dockers/KarbonLayerModel.cpp:267
-#, kde-format
-msgctxt "The opacity of the shape"
-msgid "Opacity"
-msgstr "不透明度"
-
-#: ui/dockers/KarbonLayerModel.cpp:268
-#, kde-format
-msgctxt "Clipped state of the shape"
-msgid "Clipped"
-msgstr "已修剪"
-
-#: ui/dockers/KarbonLayerModel.cpp:268
-#, kde-format
-msgid "no"
-msgstr "否"
-
-#: ui/dockers/KarbonLayerModel.cpp:268
-#, kde-format
-msgid "yes"
-msgstr "是"
-
-#: ui/dockers/KarbonLayerModel.cpp:469
-msgctxt "(qtundo-format)"
-msgid "Reparent shapes"
-msgstr "重設物件的父物件"
-
 #: ui/KarbonAboutData.h:35
 #, kde-format
 msgid "Karbon"
@@ -528,253 +393,198 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "pesder.liao@msa.hinet.net"
 
-#: ui/KarbonDocument.cpp:196
-#, kde-format
-msgid "Invalid OASIS document. No office:body tag found."
-msgstr "不合法的 OASIS 文件。找不到 office:body 標籤。"
-
-#: ui/KarbonDocument.cpp:203
-#, kde-format
-msgid "Invalid OASIS document. No office:drawing tag found."
-msgstr "不合法的 OASIS 文件。找不到 office:drawing 標籤。"
-
-#: ui/KarbonDocument.cpp:210
-#, kde-format
-msgid "Invalid OASIS document. No draw:page tag found."
-msgstr "不合法的 OASIS 文件。找不到 draw:page 標籤。"
-
-#: ui/KarbonDocument.cpp:689
-#, kde-format
-msgid "Master Page"
-msgstr "主頁面"
-
-#: ui/KarbonDocumentMergeCommand.cpp:59 ui/KarbonView.cpp:560
+#: ui/KarbonDocumentMergeCommand.cpp:120 ui/KarbonView.cpp:424
 msgctxt "(qtundo-format)"
 msgid "Insert graphics"
 msgstr "插入圖片"
 
-#: ui/KarbonView.cpp:491
+#: ui/KarbonView.cpp:360
 #, kde-format
 msgid "Choose Graphic to Add"
 msgstr "選擇要加入的圖片"
 
-#: ui/KarbonView.cpp:531
+#: ui/KarbonView.cpp:395
 #, kde-format
 msgid "Could not load image."
 msgstr "無法載入影像。"
 
-#: ui/KarbonView.cpp:531 ui/KarbonView.cpp:536 ui/KarbonView.cpp:543
+#: ui/KarbonView.cpp:395 ui/KarbonView.cpp:400 ui/KarbonView.cpp:407
 #, kde-format
 msgid "Import graphic"
 msgstr "匯入圖片"
 
-#: ui/KarbonView.cpp:536 ui/KarbonView.cpp:543
+#: ui/KarbonView.cpp:400 ui/KarbonView.cpp:407
 #, kde-format
 msgid "Could not create image shape."
 msgstr "無法建立影像物件。"
 
-#: ui/KarbonView.cpp:791
+#: ui/KarbonView.cpp:661
 msgctxt "(qtundo-format)"
 msgid "Mirror Horizontally"
 msgstr "水平映射"
 
-#: ui/KarbonView.cpp:793
+#: ui/KarbonView.cpp:663
 msgctxt "(qtundo-format)"
 msgid "Mirror Vertically"
 msgstr "垂直映射"
 
-#: ui/KarbonView.cpp:795
+#: ui/KarbonView.cpp:665
 msgctxt "(qtundo-format)"
 msgid "Mirror Horizontally and Vertically"
 msgstr "水平與垂直映射"
 
-#: ui/KarbonView.cpp:850
+#: ui/KarbonView.cpp:720
 msgctxt "(qtundo-format)"
 msgid "Separate paths"
 msgstr "分離路徑"
 
-#: ui/KarbonView.cpp:1028
+#: ui/KarbonView.cpp:901
 #, kde-format
 msgid "Outline &Mode"
 msgstr "大綱模式(&M)"
 
-#: ui/KarbonView.cpp:1032
-#, kde-format
-msgid "Show Page Margins"
-msgstr "顯示頁面邊界"
-
-#: ui/KarbonView.cpp:1050
+#: ui/KarbonView.cpp:919
 #, kde-format
 msgid "&Import Graphic..."
 msgstr "匯入圖片(&I)..."
 
-#: ui/KarbonView.cpp:1054
+#: ui/KarbonView.cpp:923
 #, kde-format
 msgid "D&elete"
 msgstr "刪除(&E)"
 
-#: ui/KarbonView.cpp:1060
+#: ui/KarbonView.cpp:929
 #, kde-format
 msgid "Edit Guides"
 msgstr "編輯引導"
 
-#: ui/KarbonView.cpp:1066
+#: ui/KarbonView.cpp:935
 #, kde-format
 msgctxt "Duplicate selection"
 msgid "&Duplicate"
 msgstr "複製(&D)"
 
-#: ui/KarbonView.cpp:1071
+#: ui/KarbonView.cpp:940
 #, kde-format
 msgid "Distribute Center (Horizontal)"
 msgstr "水平分散置中"
 
-#: ui/KarbonView.cpp:1075
+#: ui/KarbonView.cpp:944
 #, kde-format
 msgid "Distribute Gaps (Horizontal)"
 msgstr "水平分散攤開"
 
-#: ui/KarbonView.cpp:1079
+#: ui/KarbonView.cpp:948
 #, kde-format
 msgid "Distribute Left Borders"
 msgstr "分散置左邊框"
 
-#: ui/KarbonView.cpp:1083
+#: ui/KarbonView.cpp:952
 #, kde-format
 msgid "Distribute Right Borders"
 msgstr "分散置右邊框"
 
-#: ui/KarbonView.cpp:1087
+#: ui/KarbonView.cpp:956
 #, kde-format
 msgid "Distribute Center (Vertical)"
 msgstr "分散垂直置中"
 
-#: ui/KarbonView.cpp:1091
+#: ui/KarbonView.cpp:960
 #, kde-format
 msgid "Distribute Gaps (Vertical)"
 msgstr "分散垂直攤開"
 
-#: ui/KarbonView.cpp:1095
+#: ui/KarbonView.cpp:964
 #, kde-format
 msgid "Distribute Bottom Borders"
 msgstr "分散置底邊框"
 
-#: ui/KarbonView.cpp:1099
+#: ui/KarbonView.cpp:968
 #, kde-format
 msgid "Distribute Top Borders"
 msgstr "分散置頂邊框"
 
-#: ui/KarbonView.cpp:1103
-#, kde-format
-msgid "Show Rulers"
-msgstr "顯示尺規"
-
-#: ui/KarbonView.cpp:1105
-#, kde-format
-msgid "Shows or hides rulers"
-msgstr "顯示或隱藏尺規"
-
-#: ui/KarbonView.cpp:1116
+#: ui/KarbonView.cpp:972
 #, kde-format
 msgid "Show Color Palette"
 msgstr "顯示調色盤"
 
-#: ui/KarbonView.cpp:1118
+#: ui/KarbonView.cpp:974
 #, kde-format
 msgid "Show or hide color palette"
 msgstr "顯示或隱藏調色盤"
 
-#: ui/KarbonView.cpp:1122
-#, kde-format
-msgid "Snap to Grid"
-msgstr "貼齊格線"
-
-#: ui/KarbonView.cpp:1124
-#, kde-format
-msgid "Snaps to grid"
-msgstr "貼齊格線"
-
-#: ui/KarbonView.cpp:1136
+#: ui/KarbonView.cpp:987
 #, kde-format
 msgid "&Clip Object"
 msgstr "修剪物件(&C)"
 
-#: ui/KarbonView.cpp:1140
+#: ui/KarbonView.cpp:991
 #, kde-format
 msgid "&Unclip Objects"
 msgstr "反修剪物件(&U)"
 
-#: ui/KarbonView.cpp:1144
+#: ui/KarbonView.cpp:995
 #, kde-format
 msgid "Mirror Vertically"
 msgstr "垂直映射"
 
-#: ui/KarbonView.cpp:1148
+#: ui/KarbonView.cpp:999
 #, kde-format
 msgid "Mirror Horizontally"
 msgstr "水平映射"
 
-#: ui/KarbonView.cpp:1155
+#: ui/KarbonView.cpp:1006
 #, kde-format
 msgid "&Close Path"
 msgstr "關閉路徑(&C)"
 
-#: ui/KarbonView.cpp:1161
+#: ui/KarbonView.cpp:1012
 #, kde-format
 msgid "Com&bine Path"
 msgstr "組合路徑(&B)"
 
-#: ui/KarbonView.cpp:1167
+#: ui/KarbonView.cpp:1018
 #, kde-format
 msgid "Se&parate Path"
 msgstr "分離路徑(&P)"
 
-#: ui/KarbonView.cpp:1173
+#: ui/KarbonView.cpp:1024
 #, kde-format
 msgid "Re&verse Path"
 msgstr "反轉路徑(&V)"
 
-#: ui/KarbonView.cpp:1179
+#: ui/KarbonView.cpp:1030
 #, kde-format
 msgid "Intersect Paths"
 msgstr "相交路徑"
 
-#: ui/KarbonView.cpp:1185
+#: ui/KarbonView.cpp:1036
 #, kde-format
 msgid "Subtract Paths"
 msgstr "減去路徑"
 
-#: ui/KarbonView.cpp:1191
+#: ui/KarbonView.cpp:1042
 #, kde-format
 msgid "Unite Paths"
 msgstr "統一路徑"
 
-#: ui/KarbonView.cpp:1197
+#: ui/KarbonView.cpp:1048
 #, kde-format
 msgid "Exclude Paths"
 msgstr "排除路徑"
 
-#: ui/KarbonView.cpp:1203
+#: ui/KarbonView.cpp:1054
 #, kde-format
 msgid "Snap Path to Grid"
 msgstr "將路徑貼齊格線"
 
-#: ui/KarbonView.cpp:1210
-#, kde-format
-msgid "Configure Karbon..."
-msgstr "設定 Karbon..."
-
-#: ui/KarbonView.cpp:1218
-#, kde-format
-msgid "Page &Layout..."
-msgstr "頁面佈局(&L)..."
-
-#: ui/KarbonView.cpp:1223
+#: ui/KarbonView.cpp:1062
 #, kde-format
 msgid "Zoom to Selection"
 msgstr "縮放到選取區"
 
-#: ui/KarbonView.cpp:1227
+#: ui/KarbonView.cpp:1066
 #, kde-format
 msgid "Zoom to Drawing"
 msgstr "縮放到繪圖區"
@@ -798,11 +608,6 @@ msgstr "最近檔案的數量："
 #, kde-format
 msgid "Palette font size:"
 msgstr "調色盤字體大小："
-
-#: ui/widgets/KarbonConfigInterfacePage.cpp:86
-#, kde-format
-msgid "Canvas color:"
-msgstr "畫布顏色："
 
 #: ui/widgets/KarbonPaletteBarWidget.cpp:61
 #, kde-format
@@ -846,3 +651,129 @@ msgstr "劃線："
 #, kde-format
 msgid "Fill:"
 msgstr "填滿："
+
+#~ msgid "Layer view"
+#~ msgstr "圖層檢視"
+
+#~ msgid "Add a new layer"
+#~ msgstr "新增圖層"
+
+#~ msgid "Delete selected objects"
+#~ msgstr "刪除選取的物件"
+
+#~ msgid "Raise selected objects"
+#~ msgstr "提升選取的物件"
+
+#~ msgid "Lower selected objects"
+#~ msgstr "降低選取的物件"
+
+#~ msgid "Minimal View"
+#~ msgstr "最小檢視"
+
+#~ msgid "Detailed View"
+#~ msgstr "詳細檢視"
+
+#~ msgid "Thumbnail View"
+#~ msgstr "縮圖檢視"
+
+#~ msgid "View mode"
+#~ msgstr "檢視模式"
+
+#~ msgid "New Layer"
+#~ msgstr "新圖層"
+
+#~ msgid "Enter the name of the new layer:"
+#~ msgstr "輸入新圖層的名稱："
+
+#~ msgid "New layer"
+#~ msgstr "新圖層"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Create Layer"
+#~ msgstr "建立圖層"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete Layer"
+#~ msgstr "刪除圖層"
+
+#~ msgid "Could not delete all layers. At least one layer is required."
+#~ msgstr "無法刪除所有的圖層，至少要留一個。"
+
+#~ msgid "Error deleting layers"
+#~ msgstr "刪除圖層發生錯誤"
+
+#~ msgid "Layer"
+#~ msgstr "圖層"
+
+#~ msgctxt "A group of shapes"
+#~ msgid "Group"
+#~ msgstr "群組"
+
+#~ msgid "Shape"
+#~ msgstr "物件"
+
+#~ msgctxt "Visibility state of the shape"
+#~ msgid "Visible"
+#~ msgstr "可看見"
+
+#~ msgctxt "Lock state of the shape"
+#~ msgid "Locked"
+#~ msgstr "鎖定"
+
+#~ msgctxt "The z-index of the shape"
+#~ msgid "zIndex"
+#~ msgstr "zIndex"
+
+#~ msgctxt "The opacity of the shape"
+#~ msgid "Opacity"
+#~ msgstr "不透明度"
+
+#~ msgctxt "Clipped state of the shape"
+#~ msgid "Clipped"
+#~ msgstr "已修剪"
+
+#~ msgid "no"
+#~ msgstr "否"
+
+#~ msgid "yes"
+#~ msgstr "是"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Reparent shapes"
+#~ msgstr "重設物件的父物件"
+
+#~ msgid "Invalid OASIS document. No office:body tag found."
+#~ msgstr "不合法的 OASIS 文件。找不到 office:body 標籤。"
+
+#~ msgid "Invalid OASIS document. No office:drawing tag found."
+#~ msgstr "不合法的 OASIS 文件。找不到 office:drawing 標籤。"
+
+#~ msgid "Invalid OASIS document. No draw:page tag found."
+#~ msgstr "不合法的 OASIS 文件。找不到 draw:page 標籤。"
+
+#~ msgid "Master Page"
+#~ msgstr "主頁面"
+
+#~ msgid "Show Page Margins"
+#~ msgstr "顯示頁面邊界"
+
+#~ msgid "Show Rulers"
+#~ msgstr "顯示尺規"
+
+#~ msgid "Shows or hides rulers"
+#~ msgstr "顯示或隱藏尺規"
+
+#~ msgid "Snap to Grid"
+#~ msgstr "貼齊格線"
+
+#~ msgid "Snaps to grid"
+#~ msgstr "貼齊格線"
+
+#~ msgid "Configure Karbon..."
+#~ msgstr "設定 Karbon..."
+
+#~ msgid "Page &Layout..."
+#~ msgstr "頁面佈局(&L)..."
+
+#~ msgid "Canvas color:"
+#~ msgstr "畫布顏色："

@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-24 03:33+0200\n"
+"POT-Creation-Date: 2019-11-06 03:32+0100\n"
 "PO-Revision-Date: 2019-08-31 19:10+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -535,14 +535,22 @@ msgctxt "@info:tooltip"
 msgid "Use this button to install the missing debug symbols packages."
 msgstr "用此按鍵來安裝除錯軟體包。"
 
-#: backtracewidget.cpp:81
+#: backtracewidget.cpp:82
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Symbol installation is unavailable because the application was updated or "
+"uninstalled after it had been started."
+msgstr ""
+
+#: backtracewidget.cpp:87
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Use this button to copy the crash information (backtrace) to the clipboard."
 msgstr "用此按鍵來複製錯誤資訊（回溯追蹤資料）到剪貼簿中。"
 
-#: backtracewidget.cpp:88
+#: backtracewidget.cpp:94
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -552,7 +560,7 @@ msgstr ""
 "用此按鍵將錯誤資訊（回溯追蹤資料）儲存到檔案中。若您要稍候再看關於此問題的報"
 "告，您可以先存到檔案中。"
 
-#: backtracewidget.cpp:109
+#: backtracewidget.cpp:115
 #, kde-format
 msgid ""
 "<h2>What is a \"backtrace\" ?</h2><p>A backtrace basically describes what "
@@ -566,20 +574,20 @@ msgstr ""
 "一堆亂七八糟的東西，但是裡面可能包含了很有用的資訊。<br/>回溯追蹤廣泛用於開發"
 "期間的除錯，以及釋出後的錯誤回報。</p>"
 
-#: backtracewidget.cpp:129
+#: backtracewidget.cpp:135
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:648
 #, kde-format
 msgctxt "@info:status"
 msgid "Loading..."
 msgstr "載入中..."
 
-#: backtracewidget.cpp:133
+#: backtracewidget.cpp:139
 #, kde-format
 msgctxt "@info:status"
 msgid "Generating backtrace... (this may take some time)"
 msgstr "產生回溯追蹤中...（可能要花點時間）"
 
-#: backtracewidget.cpp:183
+#: backtracewidget.cpp:189
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -587,13 +595,13 @@ msgid ""
 "information could not be fetched."
 msgstr "目前有另一個除錯器正在除錯此應用程式，因此無法取得錯誤資訊。"
 
-#: backtracewidget.cpp:187
+#: backtracewidget.cpp:193
 #, kde-format
 msgctxt "@info:status"
 msgid "The crash information could not be fetched."
 msgstr "無法取得錯誤資訊。"
 
-#: backtracewidget.cpp:189
+#: backtracewidget.cpp:195
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
@@ -604,31 +612,31 @@ msgstr ""
 "目前有另一個除錯器正在除錯此應用程式，因此 DrKonqi 無法取得錯誤資訊。請關閉另"
 "一個除錯器，並點擊「<interface>重新載入</interface>」。"
 
-#: backtracewidget.cpp:229
+#: backtracewidget.cpp:235
 #, kde-format
 msgctxt "@info"
 msgid "The generated crash information is useful"
 msgstr "產生的錯誤資訊很有用處"
 
-#: backtracewidget.cpp:232
+#: backtracewidget.cpp:238
 #, kde-format
 msgctxt "@info"
 msgid "The generated crash information may be useful"
 msgstr "產生的錯誤資訊可能有點用處"
 
-#: backtracewidget.cpp:235
+#: backtracewidget.cpp:241
 #, kde-format
 msgctxt "@info"
 msgid "The generated crash information is probably not useful"
 msgstr "產生的錯誤資訊可能不夠詳細"
 
-#: backtracewidget.cpp:238
+#: backtracewidget.cpp:244
 #, kde-format
 msgctxt "@info"
 msgid "The generated crash information is not useful"
 msgstr "產生的錯誤資訊沒什麼用處"
 
-#: backtracewidget.cpp:242
+#: backtracewidget.cpp:248
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -636,7 +644,7 @@ msgid ""
 "itself."
 msgstr "關於此錯誤資訊的評比不合法。這是 DrKonqi 自身的問題。"
 
-#: backtracewidget.cpp:253
+#: backtracewidget.cpp:259
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
@@ -652,7 +660,7 @@ msgstr ""
 "如何取得有用的回溯追蹤資訊。在您安裝了一些需要的軟體包（<link url='%2'>需要的"
 "檔案清單</link>）之後，點擊「<interface>重新載入</interface>」按鍵。"
 
-#: backtracewidget.cpp:270
+#: backtracewidget.cpp:276
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
@@ -667,19 +675,19 @@ msgstr ""
 "清單</link>），然後點擊「<interface>重新載入錯誤資訊</interface>」按鍵來重新"
 "載入。"
 
-#: backtracewidget.cpp:286
+#: backtracewidget.cpp:292
 #, kde-format
 msgctxt "@info:status"
 msgid "The debugger has quit unexpectedly."
 msgstr "除錯器非預期結束。"
 
-#: backtracewidget.cpp:289 backtracewidget.cpp:304
+#: backtracewidget.cpp:295 backtracewidget.cpp:310
 #, kde-format
 msgctxt "@info:status"
 msgid "The crash information could not be generated."
 msgstr "無法產生錯誤資訊。"
 
-#: backtracewidget.cpp:292
+#: backtracewidget.cpp:298
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
@@ -688,7 +696,7 @@ msgid ""
 msgstr ""
 "您可以點擊「<interface>重新載入</interface>」來試著重新產生回溯追蹤資料。"
 
-#: backtracewidget.cpp:300
+#: backtracewidget.cpp:306
 #, kde-format
 msgctxt "@info:status"
 msgid ""
@@ -696,7 +704,7 @@ msgid ""
 "strong>"
 msgstr "<strong>找不到或無法啟動除錯器應用程式。</strong>"
 
-#: backtracewidget.cpp:306
+#: backtracewidget.cpp:312
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
@@ -706,20 +714,20 @@ msgstr ""
 "<strong>您需要先安裝除錯軟體包（%1），然後點擊「<interface>重新載入</"
 "interface>」。</strong>"
 
-#: backtracewidget.cpp:365
+#: backtracewidget.cpp:371
 #, kde-format
 msgctxt "@title:window"
 msgid "Error during the installation of debug symbols"
 msgstr "安裝除錯符號軟體包時發生錯誤"
 
-#: backtracewidget.cpp:397
+#: backtracewidget.cpp:403
 #, kde-format
 msgid ""
 "The packages containing debug information for the following application and "
 "libraries are missing:"
 msgstr "找不到包含以下應用程式與函式庫的除錯資訊的軟體包："
 
-#: backtracewidget.cpp:406
+#: backtracewidget.cpp:412
 #, kde-format
 msgctxt "messagebox title"
 msgid "Missing debug information packages"
@@ -2364,13 +2372,25 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
+"<para>The reporting assistant is disabled because the crashed application "
+"appears to have been updated or uninstalled since it had been started. This "
+"prevents accurate crash reporting and can also be the cause of this crash.</"
+"para><para>After updating it is always a good idea to log out and back in to "
+"make sure the update is fully applied and will not cause any side effects.</"
+"para>"
+msgstr ""
+
+#: drkonqidialog.cpp:140
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
 "<para>You can help us improve KDE Software by reporting this error.<nl /"
 "><link url='%1'>Learn more about bug reporting.</link></para>"
 msgstr ""
 "<para>您回報此錯誤可以協助我們改進 KDE 軟體。<nl /><link url='%1'>更多關於錯"
 "誤回報的詳情。</link></para>"
 
-#: drkonqidialog.cpp:138
+#: drkonqidialog.cpp:146
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2380,13 +2400,13 @@ msgstr ""
 "<para>您不能回報此錯誤，因為 <application>%1</application> 並未提供錯誤回報位"
 "址。</para>"
 
-#: drkonqidialog.cpp:147
+#: drkonqidialog.cpp:155
 #, kde-format
 msgctxt "@label"
 msgid "Details:"
 msgstr "詳細資料："
 
-#: drkonqidialog.cpp:150
+#: drkonqidialog.cpp:158
 #, kde-kuit-format
 msgctxt "@info Note the time information is divided into date and time parts"
 msgid ""
@@ -2396,7 +2416,7 @@ msgstr ""
 "<para>執行檔：<application>%1</application> 行程代碼：%2，信號：%3（%4）時"
 "間：%5 %6</para>"
 
-#: drkonqidialog.cpp:180
+#: drkonqidialog.cpp:188
 #, kde-format
 msgctxt ""
 "@action:button this is the debug menu button label which contains the "
@@ -2404,43 +2424,43 @@ msgctxt ""
 msgid "&Debug"
 msgstr "除錯(&D)"
 
-#: drkonqidialog.cpp:182
+#: drkonqidialog.cpp:190
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Starts a program to debug the crashed application."
 msgstr "啟動程式以對發生錯誤的應用程式除錯。"
 
-#: drkonqidialog.cpp:204
+#: drkonqidialog.cpp:212
 #, kde-format
 msgctxt "@action:button"
 msgid "Report &Bug"
 msgstr "報告問題(&B)"
 
-#: drkonqidialog.cpp:206
+#: drkonqidialog.cpp:214
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Starts the bug report assistant."
 msgstr "啟動錯誤回報小助手。"
 
-#: drkonqidialog.cpp:216
+#: drkonqidialog.cpp:224
 #, kde-format
 msgctxt "@action:button"
 msgid "&Restart Application"
 msgstr "重新啟動應用程式(&R)"
 
-#: drkonqidialog.cpp:218
+#: drkonqidialog.cpp:226
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to restart the crashed application."
 msgstr "用此按鍵來重新啟動發生錯誤的應用程式。"
 
-#: drkonqidialog.cpp:230
+#: drkonqidialog.cpp:238
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close this dialog (you will lose the crash information.)"
 msgstr "關閉此對話框（您將會遺失關於此錯誤的資訊。）"
 
-#: drkonqidialog.cpp:240
+#: drkonqidialog.cpp:248
 #, kde-format
 msgctxt "@action:inmenu 1 is the debugger name"
 msgid "Debug in %1"

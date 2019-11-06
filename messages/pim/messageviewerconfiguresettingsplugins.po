@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-05 03:20+0100\n"
+"POT-Creation-Date: 2019-11-06 03:18+0100\n"
 "PO-Revision-Date: 2019-03-22 00:33+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -230,12 +230,17 @@ msgstr ""
 msgid "From:"
 msgstr ""
 
-#: dkim-verify/dkimrulewidget.cpp:52
+#: dkim-verify/dkimrulewidget.cpp:49
+#, kde-format
+msgid "Use '*' for specify all email from domain"
+msgstr ""
+
+#: dkim-verify/dkimrulewidget.cpp:53
 #, kde-format
 msgid "SDID:"
 msgstr ""
 
-#: dkim-verify/dkimrulewidget.cpp:56
+#: dkim-verify/dkimrulewidget.cpp:57
 #, kde-format
 msgid "Rule:"
 msgstr ""

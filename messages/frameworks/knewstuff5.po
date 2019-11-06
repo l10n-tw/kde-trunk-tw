@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-22 02:42+0200\n"
+"POT-Creation-Date: 2019-11-06 02:51+0100\n"
 "PO-Revision-Date: 2019-10-11 19:12+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -609,7 +609,7 @@ msgstr ""
 "請在下方的可下載項目清單中選擇你要安裝的選項。如果你所要選的可用選項不夠清"
 "楚，請聯絡此項目的作者，並請求他們說明這個項目的命名意義。"
 
-#: qtquick/qml/EntryDetails.qml:63 qtquick/qml/Page.qml:206
+#: qtquick/qml/EntryDetails.qml:63 qtquick/qml/Page.qml:200
 #, kde-format
 msgctxt ""
 "A passive notification shown when installation of an item is initiated"
@@ -649,7 +649,7 @@ msgctxt ""
 msgid "%1 by %2"
 msgstr "%1 由 %2"
 
-#: qtquick/qml/EntryDetails.qml:114
+#: qtquick/qml/EntryDetails.qml:97
 #: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:64
 #: qtquick/qml/private/entrygriddelegates/ThumbDelegate.qml:57
 #: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:65
@@ -660,7 +660,7 @@ msgctxt ""
 msgid "Install"
 msgstr "安裝"
 
-#: qtquick/qml/EntryDetails.qml:114
+#: qtquick/qml/EntryDetails.qml:97
 #: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:64
 #: qtquick/qml/private/entrygriddelegates/ThumbDelegate.qml:57
 #: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:65
@@ -670,7 +670,7 @@ msgctxt ""
 msgid "Install..."
 msgstr "安裝…"
 
-#: qtquick/qml/EntryDetails.qml:129 qtquick/qml/NewStuffItem.qml:44
+#: qtquick/qml/EntryDetails.qml:112 qtquick/qml/NewStuffItem.qml:44
 #: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:79
 #: qtquick/qml/private/entrygriddelegates/ThumbDelegate.qml:72
 #: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:80
@@ -679,19 +679,19 @@ msgctxt "Request updating of this item"
 msgid "Update"
 msgstr "更新"
 
-#: qtquick/qml/EntryDetails.qml:136 qtquick/qml/NewStuffItem.qml:51
+#: qtquick/qml/EntryDetails.qml:119 qtquick/qml/NewStuffItem.qml:51
 #: qtquick/qml/Page.qml:77
 #, kde-format
 msgctxt "Request uninstallation of this item"
 msgid "Uninstall"
 msgstr "解除安裝"
 
-#: qtquick/qml/EntryDetails.qml:192
+#: qtquick/qml/EntryDetails.qml:176
 #, kde-format
 msgid "Comments and Reviews:"
 msgstr "留言及評論："
 
-#: qtquick/qml/EntryDetails.qml:194
+#: qtquick/qml/EntryDetails.qml:178
 #, kde-format
 msgctxt ""
 "A link which, when clicked, opens a new sub page with reviews (comments) for "
@@ -699,17 +699,17 @@ msgctxt ""
 msgid "%1 Reviews"
 msgstr "%1 個評論"
 
-#: qtquick/qml/EntryDetails.qml:199
+#: qtquick/qml/EntryDetails.qml:183
 #, kde-format
 msgid "Rating:"
 msgstr "評價："
 
-#: qtquick/qml/EntryDetails.qml:203
+#: qtquick/qml/EntryDetails.qml:187
 #, kde-format
 msgid "Homepage:"
 msgstr "首頁："
 
-#: qtquick/qml/EntryDetails.qml:204
+#: qtquick/qml/EntryDetails.qml:188
 #, kde-format
 msgctxt ""
 "A link which, when clicked, opens the website associated with the entry "
@@ -718,12 +718,12 @@ msgctxt ""
 msgid "Open the homepage for %2"
 msgstr "開啟 %2 首頁"
 
-#: qtquick/qml/EntryDetails.qml:208
+#: qtquick/qml/EntryDetails.qml:192
 #, kde-format
 msgid "How To Donate:"
 msgstr "捐助方法："
 
-#: qtquick/qml/EntryDetails.qml:209
+#: qtquick/qml/EntryDetails.qml:193
 #, kde-format
 msgctxt ""
 "A link which, when clicked, opens a website with information on donation in "
@@ -737,20 +737,20 @@ msgctxt "Request installation of this item"
 msgid "Install"
 msgstr "安裝"
 
-#: qtquick/qml/NewStuffList.qml:83 qtquick/qml/Page.qml:172
+#: qtquick/qml/NewStuffList.qml:83 qtquick/qml/Page.qml:166
 #, kde-format
 msgctxt "List option which will set the filter to show everything"
 msgid "Show Everything"
 msgstr "顯示所有項目"
 
-#: qtquick/qml/NewStuffList.qml:84 qtquick/qml/Page.qml:173
+#: qtquick/qml/NewStuffList.qml:84 qtquick/qml/Page.qml:167
 #, kde-format
 msgctxt ""
 "List option which will set the filter so only installed items are shown"
 msgid "Installed Only"
 msgstr "僅顯示已安裝項"
 
-#: qtquick/qml/NewStuffList.qml:85 qtquick/qml/Page.qml:174
+#: qtquick/qml/NewStuffList.qml:85 qtquick/qml/Page.qml:168
 #, kde-format
 msgctxt ""
 "List option which will set the filter so only installed items with updates "
@@ -758,7 +758,7 @@ msgctxt ""
 msgid "Updateable Only"
 msgstr "只顯示可更新項"
 
-#: qtquick/qml/NewStuffList.qml:97 qtquick/qml/Page.qml:186
+#: qtquick/qml/NewStuffList.qml:97 qtquick/qml/Page.qml:180
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to based on when items were most "
@@ -766,7 +766,7 @@ msgctxt ""
 msgid "Show most recent first"
 msgstr "先顯示最近項目"
 
-#: qtquick/qml/NewStuffList.qml:98 qtquick/qml/Page.qml:187
+#: qtquick/qml/NewStuffList.qml:98 qtquick/qml/Page.qml:181
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to be alphabetical based on the "
@@ -774,13 +774,13 @@ msgctxt ""
 msgid "Sort alphabetically"
 msgstr "依字母排序"
 
-#: qtquick/qml/NewStuffList.qml:99 qtquick/qml/Page.qml:188
+#: qtquick/qml/NewStuffList.qml:99 qtquick/qml/Page.qml:182
 #, kde-format
 msgctxt "List option which will set the sort order to based on user ratings"
 msgid "Show highest rated first"
 msgstr "先顯示最高評價"
 
-#: qtquick/qml/NewStuffList.qml:100 qtquick/qml/Page.qml:189
+#: qtquick/qml/NewStuffList.qml:100 qtquick/qml/Page.qml:183
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to based on number of downloads"
@@ -795,7 +795,7 @@ msgctxt ""
 msgid "Use"
 msgstr "使用"
 
-#: qtquick/qml/Page.qml:139
+#: qtquick/qml/Page.qml:133
 #, kde-format
 msgid "Search..."
 msgstr "搜尋…"

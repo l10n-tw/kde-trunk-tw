@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ikona\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-15 03:17+0200\n"
+"POT-Creation-Date: 2019-11-06 03:27+0100\n"
 "PO-Revision-Date: 2019-10-15 03:17+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,10 +18,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: qrc/BreezePalette.qml:32
+#, kde-format
+msgid "Breeze Colors"
+msgstr ""
+
+#: qrc/BreezePalette.qml:36
+#, kde-format
+msgid "Neutral Colors"
+msgstr ""
+
+#: qrc/BreezePalette.qml:75
+#, kde-format
+msgid "Warm Colors"
+msgstr ""
+
+#: qrc/BreezePalette.qml:122
+#, kde-format
+msgid "Cool Colors"
+msgstr ""
+
 #: qrc/ColorSwatch.qml:88
 #, kde-format
 msgctxt "This color has just been copied!"
 msgid "Copied!"
+msgstr ""
+
+#: qrc/HIGView.qml:39
+#, kde-format
+msgid "Go Back"
+msgstr ""
+
+#: qrc/HIGView.qml:48
+#, kde-format
+msgid "Go Forward"
+msgstr ""
+
+#: qrc/HIGView.qml:61
+#, kde-format
+msgid "Return to HIG Home"
+msgstr ""
+
+#: qrc/HUD.qml:41
+#, kde-format
+msgctxt "The title name of the HUD window"
+msgid "HUD"
 msgstr ""
 
 #: qrc/main.qml:61
@@ -402,58 +443,17 @@ msgstr ""
 msgid "Show Icon in Tray"
 msgstr ""
 
-#: qrc/main.qml:508
-#, kde-format
-msgid "Breeze Colors"
-msgstr ""
-
-#: qrc/main.qml:512
-#, kde-format
-msgid "Neutral Colors"
-msgstr ""
-
-#: qrc/main.qml:551
-#, kde-format
-msgid "Warm Colors"
-msgstr ""
-
-#: qrc/main.qml:598
-#, kde-format
-msgid "Cool Colors"
-msgstr ""
-
-#: qrc/main.qml:660
+#: qrc/main.qml:506
 #, kde-format
 msgid "Enter the name of the icon theme"
-msgstr ""
-
-#: qrc/main.qml:752
-#, kde-format
-msgctxt "The title name of the HUD window"
-msgid "HUD"
-msgstr ""
-
-#: qrc/main.qml:1152
-#, kde-format
-msgid "Enable white effect on icons on dark"
-msgstr ""
-
-#: qrc/main.qml:1169
-#, kde-format
-msgid "Go Back"
-msgstr ""
-
-#: qrc/main.qml:1178
-#, kde-format
-msgid "Go Forward"
-msgstr ""
-
-#: qrc/main.qml:1191
-#, kde-format
-msgid "Return to HIG Home"
 msgstr ""
 
 #: qrc/MonochromaticScreenshot.qml:190 qrc/Screenshot.qml:181
 #, kde-format
 msgid "Montage made with Ikona"
+msgstr ""
+
+#: qrc/MonochromeView.qml:193
+#, kde-format
+msgid "Enable white effect on icons on dark"
 msgstr ""

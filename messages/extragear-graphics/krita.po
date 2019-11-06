@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-05 02:39+0100\n"
+"POT-Creation-Date: 2019-11-06 02:39+0100\n"
 "PO-Revision-Date: 2019-11-03 14:09+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -7821,7 +7821,7 @@ msgstr "直線"
 #. i18n: ectx: property (text), widget (QLabel, typeDescLabel)
 #. i18n: ectx: property (text), widget (QLabel, axisTypeLabel)
 #: libs/flake/KoConnectionShapeConfigWidget.ui:17
-#: libs/ui/forms/wdgimageproperties.ui:350
+#: libs/ui/forms/wdgimageproperties.ui:357
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:62
 #: libs/ui/widgets/KoFillConfigWidget.ui:205
 #: libs/widgets/koDocumentInfoAboutWidget.ui:78
@@ -7848,7 +7848,7 @@ msgstr "其他兩個形狀之間的聯結"
 
 #: libs/flake/KoMarkerCollection.cpp:81
 #: libs/flake/resources/KoSvgSymbolCollectionResource.cpp:154
-#: libs/odf/KoOdfReadStore.cpp:133 libs/ui/flake/kis_shape_layer.cc:525
+#: libs/odf/KoOdfReadStore.cpp:133 libs/ui/flake/kis_shape_layer.cc:527
 #, kde-format
 msgid ""
 "Parsing error in the main document at line %1, column %2\n"
@@ -8473,11 +8473,6 @@ msgctxt "(qtundo-format)"
 msgid "Remove Layer"
 msgstr "移除圖層"
 
-#: libs/image/commands/kis_image_set_projection_color_space_command.cpp:29
-msgctxt "(qtundo-format)"
-msgid "Convert Image Type"
-msgstr "轉換影像類型"
-
 #: libs/image/commands/kis_node_compositeop_command.cpp:27
 msgctxt "(qtundo-format)"
 msgid "Composition Mode Change"
@@ -8529,7 +8524,7 @@ msgid "Node Rename"
 msgstr "節點重新命名"
 
 #: libs/image/commands_new/kis_image_resize_command.cpp:28
-#: libs/image/kis_image.cc:747
+#: libs/image/kis_image.cc:755
 msgctxt "(qtundo-format)"
 msgid "Resize Image"
 msgstr "調整影像大小"
@@ -8733,94 +8728,116 @@ msgstr "Mitchell 演算法"
 msgid "Pass Through"
 msgstr "穿透"
 
-#: libs/image/kis_image.cc:337
+#: libs/image/kis_image.cc:345
 #, kde-format
 msgid "Imported Image"
 msgstr "匯入的影像"
 
-#: libs/image/kis_image.cc:642
+#: libs/image/kis_image.cc:650
 #, kde-format
 msgid "background"
 msgstr "背景"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: libs/image/kis_image.cc:646 plugins/extensions/imagesize/imagesize.xmlgui:9
+#: libs/image/kis_image.cc:654 plugins/extensions/imagesize/imagesize.xmlgui:9
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:396
 #, kde-format
 msgid "Layer"
 msgstr "圖層"
 
-#: libs/image/kis_image.cc:746
+#: libs/image/kis_image.cc:754
 msgctxt "(qtundo-format)"
 msgid "Crop Image"
 msgstr "裁切影像"
 
-#: libs/image/kis_image.cc:788
+#: libs/image/kis_image.cc:796
 msgctxt "(qtundo-format)"
 msgid "Crop Layer"
 msgstr "裁切圖層"
 
-#: libs/image/kis_image.cc:789
+#: libs/image/kis_image.cc:797
 msgctxt "(qtundo-format)"
 msgid "Crop Mask"
 msgstr "裁切遮罩"
 
-#: libs/image/kis_image.cc:821
+#: libs/image/kis_image.cc:829
 msgctxt "(qtundo-format)"
 msgid "Scale Image"
 msgstr "縮放影像"
 
-#: libs/image/kis_image.cc:822
+#: libs/image/kis_image.cc:830
 msgctxt "(qtundo-format)"
 msgid "Change Image Resolution"
 msgstr "修改影像解析度"
 
-#: libs/image/kis_image.cc:869
+#: libs/image/kis_image.cc:877
 msgctxt "(qtundo-format)"
 msgid "Scale Layer"
 msgstr "縮放圖層"
 
-#: libs/image/kis_image.cc:996
+#: libs/image/kis_image.cc:1004
 msgctxt "(qtundo-format)"
 msgid "Rotate Image"
 msgstr "旋轉影像"
 
-#: libs/image/kis_image.cc:1002
+#: libs/image/kis_image.cc:1010
 msgctxt "(qtundo-format)"
 msgid "Rotate Mask"
 msgstr "旋轉遮罩"
 
-#: libs/image/kis_image.cc:1004
+#: libs/image/kis_image.cc:1012
 msgctxt "(qtundo-format)"
 msgid "Rotate Layer"
 msgstr "旋轉圖層"
 
-#: libs/image/kis_image.cc:1086
+#: libs/image/kis_image.cc:1094
 msgctxt "(qtundo-format)"
 msgid "Shear Mask"
 msgstr "切變遮罩"
 
-#: libs/image/kis_image.cc:1089
+#: libs/image/kis_image.cc:1097
 msgctxt "(qtundo-format)"
 msgid "Shear Layer"
 msgstr "切變圖層"
 
-#: libs/image/kis_image.cc:1096
+#: libs/image/kis_image.cc:1104
 msgctxt "(qtundo-format)"
 msgid "Shear Image"
 msgstr "切變影像"
 
-#: libs/image/kis_image.cc:1108
+#: libs/image/kis_image.cc:1120
+#, fuzzy
+#| msgctxt "action"
+#| msgid "Convert Layer Color Space"
+msgctxt "(qtundo-format)"
+msgid "Convert Layer Color Space"
+msgstr "轉換圖層色彩空間"
+
+#: libs/image/kis_image.cc:1173
 msgctxt "(qtundo-format)"
 msgid "Convert Image Color Space"
 msgstr "轉換影像色彩空間"
 
-#: libs/image/kis_image.cc:1143
+#: libs/image/kis_image.cc:1174
 msgctxt "(qtundo-format)"
 msgid "Convert Projection Color Space"
 msgstr "轉換投影色彩空間"
 
-#: libs/image/kis_image.cc:1961
+#: libs/image/kis_image.cc:1240
+#, fuzzy
+#| msgid "Assign Profile to Image"
+msgctxt "(qtundo-format)"
+msgid "Assign Profile to Layer"
+msgstr "為影像指定特性檔案"
+
+#: libs/image/kis_image.cc:1270
+#, fuzzy
+#| msgid "Assign Profile"
+msgctxt "(qtundo-format)"
+msgid "Assign Profile"
+msgstr "指定特性檔案"
+
+#: libs/image/kis_image.cc:2116
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
 msgstr "裁切選取區域"
@@ -9467,7 +9484,7 @@ msgctxt "description of a file type"
 msgid "JP2 Image"
 msgstr "JP2 影像"
 
-#: libs/libkis/Document.cpp:888 libs/ui/KisMainWindow.cpp:1926
+#: libs/libkis/Document.cpp:885 libs/ui/KisMainWindow.cpp:1926
 #, kde-format
 msgid "Import frames"
 msgstr "匯入影格"
@@ -9564,7 +9581,7 @@ msgstr "無效值。"
 msgid "Unknown"
 msgstr "未知"
 
-#: libs/odf/KoOdfReadStore.cpp:102 libs/ui/flake/kis_shape_layer.cc:571
+#: libs/odf/KoOdfReadStore.cpp:102 libs/ui/flake/kis_shape_layer.cc:573
 #, kde-format
 msgid "No store backend"
 msgstr "無資料存儲後端程式"
@@ -10605,7 +10622,7 @@ msgstr "色相"
 #: libs/pigment/KoCompositeOpRegistry.cpp:151
 #: libs/ui/forms/wdgapplyprofile.ui:116 libs/ui/forms/wdgcolorsettings.ui:211
 #: libs/ui/forms/wdgcolorsettings.ui:296
-#: libs/ui/forms/wdgimageproperties.ui:257
+#: libs/ui/forms/wdgimageproperties.ui:264
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:475
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1270
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1300
@@ -11527,7 +11544,7 @@ msgstr "濾鏡：%1"
 msgid "Image Properties"
 msgstr "影像屬性"
 
-#: libs/ui/dialogs/kis_dlg_image_properties.cc:103
+#: libs/ui/dialogs/kis_dlg_image_properties.cc:104
 #, kde-format
 msgid "Set color used for warning"
 msgstr "設定警告色"
@@ -12775,7 +12792,7 @@ msgstr "繪製意圖用於指定轉換顏色時如何處理色彩偏差。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, grpRenderIntent)
-#: libs/ui/forms/wdgapplyprofile.ui:87 libs/ui/forms/wdgimageproperties.ui:237
+#: libs/ui/forms/wdgapplyprofile.ui:87 libs/ui/forms/wdgimageproperties.ui:244
 #, kde-format
 msgid "Rendering Intent"
 msgstr "繪製意圖"
@@ -12797,7 +12814,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, radioPerceptual)
 #: libs/ui/forms/wdgapplyprofile.ui:96 libs/ui/forms/wdgcolorsettings.ui:201
 #: libs/ui/forms/wdgcolorsettings.ui:286
-#: libs/ui/forms/wdgimageproperties.ui:247
+#: libs/ui/forms/wdgimageproperties.ui:254
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:466
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:41
 #, kde-format
@@ -13077,7 +13094,7 @@ msgstr "繪製意圖(&R)："
 #. i18n: ectx: property (text), item, widget (KComboBox, cmbMonitorIntent)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbProofingIntent)
 #: libs/ui/forms/wdgcolorsettings.ui:206 libs/ui/forms/wdgcolorsettings.ui:291
-#: libs/ui/forms/wdgimageproperties.ui:252
+#: libs/ui/forms/wdgimageproperties.ui:259
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:469
 #, kde-format
 msgid "Relative Colorimetric"
@@ -13087,7 +13104,7 @@ msgstr "相對比色模式"
 #. i18n: ectx: property (text), item, widget (KComboBox, cmbMonitorIntent)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbProofingIntent)
 #: libs/ui/forms/wdgcolorsettings.ui:216 libs/ui/forms/wdgcolorsettings.ui:301
-#: libs/ui/forms/wdgimageproperties.ui:262
+#: libs/ui/forms/wdgimageproperties.ui:269
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:472
 #, kde-format
 msgid "Absolute Colorimetric"
@@ -13107,7 +13124,7 @@ msgstr "螢幕校樣"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAdaptationState)
 #: libs/ui/forms/wdgcolorsettings.ui:309
-#: libs/ui/forms/wdgimageproperties.ui:275
+#: libs/ui/forms/wdgimageproperties.ui:282
 #, kde-format
 msgid "Adaptation State:"
 msgstr "適應狀態："
@@ -13120,7 +13137,7 @@ msgstr "螢幕校樣繪製意圖："
 
 #. i18n: ectx: property (text), widget (QLabel, lblGamutWarning)
 #: libs/ui/forms/wdgcolorsettings.ui:326
-#: libs/ui/forms/wdgimageproperties.ui:299
+#: libs/ui/forms/wdgimageproperties.ui:306
 #, kde-format
 msgid "Gamut Warning:"
 msgstr "色域警告顏色："
@@ -13128,7 +13145,7 @@ msgstr "色域警告顏色："
 #. i18n: ectx: property (text), widget (QCheckBox, ckbBlackPointComp)
 #. i18n: ectx: property (text), widget (QCheckBox, ckbProofBlackPoint)
 #: libs/ui/forms/wdgcolorsettings.ui:350
-#: libs/ui/forms/wdgimageproperties.ui:316
+#: libs/ui/forms/wdgimageproperties.ui:323
 #, kde-format
 msgid "Black Point Compensation"
 msgstr "黑點補償"
@@ -14312,32 +14329,28 @@ msgstr "背景不透明度："
 msgid "Image Color Space"
 msgstr "影像色彩空間"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QCheckBox, chkConvertLayers)
 #: libs/ui/forms/wdgimageproperties.ui:207
-#, kde-format
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Note:</span> This "
-"changes only the colorspace of the rendered image. To convert the colorspace "
-"of the layers, use Convert Image Colorspace.</p></body></html>"
-msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">提示</span>：此選項僅"
-"變更已繪製影像本身的色彩空間。如需轉換其中圖層的色彩空間，應使用「轉換影像色"
-"彩空間」。</p></body></html>"
+#, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Convert to a file layer"
+msgid "Convert color space of image layers"
+msgstr "轉成檔案圖層"
 
 #. i18n: ectx: attribute (title), widget (QWidget, grpSoftProof)
-#: libs/ui/forms/wdgimageproperties.ui:221
+#: libs/ui/forms/wdgimageproperties.ui:228
 #, kde-format
 msgid "Softproofing"
 msgstr "螢幕校樣"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSaveProofing)
-#: libs/ui/forms/wdgimageproperties.ui:227
+#: libs/ui/forms/wdgimageproperties.ui:234
 #, kde-format
 msgid "Store Softproofing configuration in the image"
 msgstr "將螢幕校樣設定儲存到影像中"
 
 #. i18n: ectx: property (toolTip), widget (QSlider, sldAdaptationState)
-#: libs/ui/forms/wdgimageproperties.ui:285
+#: libs/ui/forms/wdgimageproperties.ui:292
 #, kde-format
 msgid ""
 "<html><head/><body><p>Set how much you wish to correct the adaptation state. "
@@ -14353,7 +14366,7 @@ msgstr ""
 "在多大程度上用螢幕白來修正紙張白。</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ckbBlackPointComp)
-#: libs/ui/forms/wdgimageproperties.ui:313
+#: libs/ui/forms/wdgimageproperties.ui:320
 #, kde-format
 msgid ""
 "<html><head/><body><p>Black Point compensation matches the darkest color of "
@@ -14368,7 +14381,7 @@ msgstr ""
 "示的最黑的黑色來進行顯示。</p></body></html>"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: libs/ui/forms/wdgimageproperties.ui:339
+#: libs/ui/forms/wdgimageproperties.ui:346
 #, kde-format
 msgid "Annotations"
 msgstr "注釋"
@@ -14379,7 +14392,7 @@ msgstr "注釋"
 #. i18n: ectx: property (text), widget (QLabel, lblSaveLocation)
 #. i18n: ectx: property (text), widget (KSqueezedTextLabel, lblPaletteName)
 #. i18n: ectx: property (text), widget (QLabel, stylesAvailableLabel)
-#: libs/ui/forms/wdgimageproperties.ui:363 libs/ui/forms/wdgnewimage.ui:308
+#: libs/ui/forms/wdgimageproperties.ui:370 libs/ui/forms/wdgnewimage.ui:308
 #: libs/ui/forms/wdgperformancesettings.ui:229
 #: plugins/dockers/palettedocker/wdgpalettedock.ui:145
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:353
@@ -16594,7 +16607,7 @@ msgstr "再次套用濾鏡：%1"
 msgid "Import Image"
 msgstr "匯入影像"
 
-#: libs/ui/kis_image_manager.cc:202 libs/ui/widgets/KoDualColorButton.cpp:101
+#: libs/ui/kis_image_manager.cc:209 libs/ui/widgets/KoDualColorButton.cpp:101
 #, kde-format
 msgid "Select a Color"
 msgstr "選擇一種顏色"
@@ -17262,7 +17275,7 @@ msgstr "反轉漸變"
 
 #. i18n: ectx: attribute (title), widget (QWidget, textureOptionsTab)
 #: libs/ui/kis_stopgradient_editor.cpp:240
-#: libs/ui/KisImportExportManager.cpp:572
+#: libs/ui/KisImportExportManager.cpp:573
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:59
 #, kde-format
 msgid "Options"
@@ -17627,7 +17640,7 @@ msgstr "開啟 %1 時遇到了一些問題。"
 msgid "Not Saved"
 msgstr "未儲存"
 
-#: libs/ui/KisDocument.cpp:2090
+#: libs/ui/KisDocument.cpp:2092
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -17889,29 +17902,29 @@ msgid ""
 "different location."
 msgstr "%1 不存在於 %2 且損壞。請試試在其他位置重新儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:272
+#: libs/ui/KisImportExportManager.cpp:273
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Audio"
 msgstr "開啟音訊"
 
-#: libs/ui/KisImportExportManager.cpp:359
+#: libs/ui/KisImportExportManager.cpp:360
 #, kde-format
 msgid "Opening document..."
 msgstr "正在開啟檔案…"
 
-#: libs/ui/KisImportExportManager.cpp:420
+#: libs/ui/KisImportExportManager.cpp:421
 #, kde-format
 msgid "Saving document..."
 msgstr "正在儲存檔案…"
 
-#: libs/ui/KisImportExportManager.cpp:496
+#: libs/ui/KisImportExportManager.cpp:497
 #, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>assistants</b>. The assistants will not be saved."
 msgstr "此影像包含<b>輔助尺</b>。輔助尺將不被儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:499
+#: libs/ui/KisImportExportManager.cpp:500
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -17919,13 +17932,13 @@ msgid ""
 "saved."
 msgstr "此影像包含<b>參考圖</b>。參考圖將不被儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:502
+#: libs/ui/KisImportExportManager.cpp:503
 #, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>guides</b>. The guides will not be saved."
 msgstr "此影像包含<b> 參考線 </b>。參考線將不被儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:505
+#: libs/ui/KisImportExportManager.cpp:506
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -17933,40 +17946,40 @@ msgid ""
 "will not be saved."
 msgstr "此影像包含<b>自訂網格設定</b>。自訂網格設定將不被儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:510
+#: libs/ui/KisImportExportManager.cpp:511
 #, kde-format
 msgid "Error: cannot save this image as a %1."
 msgstr "錯誤：無法將此影像儲存為 %1。"
 
-#: libs/ui/KisImportExportManager.cpp:511
-#: libs/ui/KisImportExportManager.cpp:559
+#: libs/ui/KisImportExportManager.cpp:512
+#: libs/ui/KisImportExportManager.cpp:560
 #, kde-format
 msgid "Reasons:"
 msgstr "原因："
 
-#: libs/ui/KisImportExportManager.cpp:519
+#: libs/ui/KisImportExportManager.cpp:520
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Export Error"
 msgstr "Krita：匯出錯誤"
 
-#: libs/ui/KisImportExportManager.cpp:542
+#: libs/ui/KisImportExportManager.cpp:543
 #, kde-format
 msgctxt "Keep the extra space at the end of the sentence, please"
 msgid "Warning: saving as %1 will lose information from your image.    "
 msgstr "警告：儲存為 %1 將遺失影像中的訊息。    "
 
-#: libs/ui/KisImportExportManager.cpp:553
+#: libs/ui/KisImportExportManager.cpp:554
 #, kde-format
 msgid "You will lose information when saving this image as a %1."
 msgstr "將此影像儲存為 %1 時將遺失訊息。"
 
-#: libs/ui/KisImportExportManager.cpp:556
+#: libs/ui/KisImportExportManager.cpp:557
 #, kde-format
 msgid "Reason:"
 msgstr "原因："
 
-#: libs/ui/KisImportExportManager.cpp:581
+#: libs/ui/KisImportExportManager.cpp:582
 #, kde-format
 msgid "Also save your image as a Krita file."
 msgstr "請將影像另存為 Krita 格式檔案。"
@@ -26691,20 +26704,15 @@ msgstr "從目前選取區域減去(&M)"
 msgid "&Deselect"
 msgstr "取消選擇(&D)"
 
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:79
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:78
 #, kde-format
 msgid "Convert All Layers From %1"
 msgstr "轉換所有圖層空間，目前空間： %1"
 
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:108
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:107
 #, kde-format
 msgid "Convert Current Layer From %1"
 msgstr "轉換目前圖層空間，目前空間： %1"
-
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:117
-msgctxt "(qtundo-format)"
-msgid "Convert Layer Type"
-msgstr "轉換圖層類型"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgConvertColorSpace)
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:14
@@ -33218,8 +33226,8 @@ msgstr ""
 "是否選擇其他位置？"
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:159
-#: plugins/impex/libkra/kis_kra_loader.cpp:860
-#: plugins/impex/libkra/kis_kra_loader.cpp:1225
+#: plugins/impex/libkra/kis_kra_loader.cpp:862
+#: plugins/impex/libkra/kis_kra_loader.cpp:1227
 #, kde-format
 msgctxt "@title:window"
 msgid "File not found"
@@ -33319,7 +33327,7 @@ msgstr "影像未指定高度。"
 msgid "Image specifies an unsupported color model: %1."
 msgstr "影像指定了一個不支援的色彩模型：%1 。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:470
+#: plugins/impex/libkra/kis_kra_loader.cpp:472
 #: plugins/impex/psd/psd_loader.cpp:349
 #, kde-format
 msgctxt ""
@@ -33327,27 +33335,27 @@ msgctxt ""
 msgid "<%1> (embedded)"
 msgstr "<%1> (內嵌)"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:668
+#: plugins/impex/libkra/kis_kra_loader.cpp:670
 #, kde-format
 msgid "Layer %1 specifies an unsupported color model: %2."
 msgstr "圖層 %1 指定了一個不支援的色彩模型：%2"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:696
+#: plugins/impex/libkra/kis_kra_loader.cpp:698
 #, kde-format
 msgid "Layer %1 has an unsupported type."
 msgstr "圖層 %1 含有不支援的類型。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:730
+#: plugins/impex/libkra/kis_kra_loader.cpp:732
 #, kde-format
 msgid "Layer %1 has an unsupported type: %2."
 msgstr "圖層 %1 含有不支援的類型：%2 。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:737
+#: plugins/impex/libkra/kis_kra_loader.cpp:739
 #, kde-format
 msgid "Failure loading layer %1 of type: %2."
 msgstr "載入類型為：%2 的圖層 %1 時出錯。"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:855
+#: plugins/impex/libkra/kis_kra_loader.cpp:857
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -33365,7 +33373,7 @@ msgstr ""
 "\n"
 "要手動定位該檔案嗎？"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1220
+#: plugins/impex/libkra/kis_kra_loader.cpp:1222
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -42777,6 +42785,23 @@ msgstr "顯示原始輪廓"
 #, kde-format
 msgid "Work Recursively"
 msgstr "以遞迴方式作業"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Convert Image Type"
+#~ msgstr "轉換影像類型"
+
+#~ msgid ""
+#~ "<html><head/><body><p><span style=\" font-weight:600;\">Note:</span> This "
+#~ "changes only the colorspace of the rendered image. To convert the "
+#~ "colorspace of the layers, use Convert Image Colorspace.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head/><body><p><span style=\" font-weight:600;\">提示</span>：此選"
+#~ "項僅變更已繪製影像本身的色彩空間。如需轉換其中圖層的色彩空間，應使用「轉換"
+#~ "影像色彩空間」。</p></body></html>"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Convert Layer Type"
+#~ msgstr "轉換圖層類型"
 
 #~ msgid ""
 #~ "Use to set the size from which the Automatic Precision Setting should "
