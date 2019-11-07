@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-04 03:08+0100\n"
+"POT-Creation-Date: 2019-11-07 03:04+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -27,7 +27,7 @@ msgid "Your emails"
 msgstr ""
 
 #: data/effects/audiobalance.xml:3 data/effects/audiobalance.xml:8
-#: src/audiomixer/mixerwidget.cpp:167
+#: src/audiomixer/mixerwidget.cpp:169
 #, kde-format
 msgid "Balance"
 msgstr "平衡"
@@ -5607,43 +5607,49 @@ msgstr "溶解"
 msgid "Lift"
 msgstr ""
 
-#: src/audiomixer/mixermanager.cpp:149
+#: src/audiomixer/mixermanager.cpp:169
 #: src/audiospectrum/audiographspectrum.cpp:105
 #, kde-format
 msgid "Master"
 msgstr ""
 
-#: src/audiomixer/mixerwidget.cpp:149 src/monitor/monitor.cpp:288
+#: src/audiomixer/mixerwidget.cpp:151 src/monitor/monitor.cpp:288
 #, kde-format
 msgid "Volume"
 msgstr "音量"
 
-#: src/audiomixer/mixerwidget.cpp:152 src/audiomixer/mixerwidget.cpp:448
+#: src/audiomixer/mixerwidget.cpp:154 src/audiomixer/mixerwidget.cpp:463
 #, fuzzy, kde-format
 #| msgid "B"
 msgid "dB"
 msgstr "B"
 
-#: src/audiomixer/mixerwidget.cpp:222
+#: src/audiomixer/mixerwidget.cpp:224
 #, fuzzy, kde-format
 msgid "Mute track"
 msgstr "軌道"
 
-#: src/audiomixer/mixerwidget.cpp:222
+#: src/audiomixer/mixerwidget.cpp:224
 #, fuzzy, kde-format
 msgid "Unmute track"
 msgstr "靜音預覽"
 
-#: src/audiomixer/mixerwidget.cpp:259
+#: src/audiomixer/mixerwidget.cpp:261
 #, fuzzy, kde-format
 #| msgid "Normal mode"
 msgid "Solo mode"
 msgstr "普通型態"
 
-#: src/audiomixer/mixerwidget.cpp:267 src/monitor/recmanager.cpp:55
+#: src/audiomixer/mixerwidget.cpp:269 src/monitor/recmanager.cpp:55
 #, kde-format
 msgid "Record"
 msgstr "擷取"
+
+#: src/audiomixer/mixerwidget.cpp:278
+#, fuzzy, kde-format
+#| msgid "Swap channels"
+msgid "Show Channels"
+msgstr "交換聲道"
 
 #: src/audiospectrum/audiographspectrum.cpp:286
 #: src/monitor/scopes/audiographspectrum.cpp:296
@@ -10196,13 +10202,13 @@ msgstr ""
 msgid "Open Analysis Data"
 msgstr "開啟分析數據"
 
-#: src/monitor/glwidget.cpp:1848 src/monitor/glwidget.cpp:1869
+#: src/monitor/glwidget.cpp:1849 src/monitor/glwidget.cpp:1870
 #, fuzzy, kde-format
 #| msgid "Selection tool"
 msgid "Select a zone to play"
 msgstr "選取工具"
 
-#: src/monitor/glwidget.cpp:1925
+#: src/monitor/glwidget.cpp:1926
 #, kde-format
 msgid ""
 "Could not create the video preview window.\n"
@@ -10571,19 +10577,19 @@ msgstr "縮小"
 msgid "Move Toolbar"
 msgstr "時間軸"
 
-#: src/monitor/view/kdenliveclipmonitor.qml:169
+#: src/monitor/view/kdenliveclipmonitor.qml:207
 #: src/monitor/view/kdenlivemonitor.qml:142
 #, kde-format
 msgid "%1 fps"
 msgstr ""
 
-#: src/monitor/view/kdenliveclipmonitor.qml:185
+#: src/monitor/view/kdenliveclipmonitor.qml:223
 #: src/monitor/view/kdenlivemonitor.qml:158
 #, kde-format
 msgid "In Point"
 msgstr "起點"
 
-#: src/monitor/view/kdenliveclipmonitor.qml:209
+#: src/monitor/view/kdenliveclipmonitor.qml:247
 #: src/monitor/view/kdenlivemonitor.qml:182
 #, kde-format
 msgid "Out Point"
