@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-07 03:13+0100\n"
+"POT-Creation-Date: 2019-11-08 03:20+0100\n"
 "PO-Revision-Date: 2018-05-19 11:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -33,19 +33,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "keanu@ms50.url.com.tw, franklin@goodhorse.idv.tw"
 
-#: akonadiresourcecreator.cpp:112
+#: akonadiresourcecreator.cpp:113
 #, kde-format
 msgctxt "@info"
 msgid "Failed to create new calendar resource"
 msgstr "建立行事曆資源失敗。"
 
-#: akonadiresourcecreator.cpp:112 calendarmigrator.cpp:488
+#: akonadiresourcecreator.cpp:113 calendarmigrator.cpp:487
 #, kde-kuit-format
 msgctxt "@info"
 msgid "%1<nl/>(%2)"
 msgstr "%1<nl/>(%2)"
 
-#: akonadiresourcecreator.cpp:152
+#: akonadiresourcecreator.cpp:153
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -659,25 +659,25 @@ msgctxt "@info"
 msgid "<para>%1</para><para>%2<nl/>(%3)</para>"
 msgstr "<para>%1</para><para>%2<nl/>(%3)</para>"
 
-#: calendarmigrator.cpp:475
+#: calendarmigrator.cpp:474
 #, kde-format
 msgctxt "@info"
 msgid "Invalid collection"
 msgstr "不合法的收藏"
 
-#: calendarmigrator.cpp:489
+#: calendarmigrator.cpp:488
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Failed to update format of calendar <resource>%1</resource>"
 msgstr "無法更新行事曆 <resource>%1</resource> 的格式。"
 
-#: calendarmigrator.cpp:769
+#: calendarmigrator.cpp:768
 #, kde-format
 msgctxt "@info"
 msgid "New configuration timed out"
 msgstr "新設定已逾時"
 
-#: calendarmigrator.cpp:782
+#: calendarmigrator.cpp:781
 #, kde-format
 msgctxt "@info"
 msgid "New configuration was corrupt"
@@ -2284,32 +2284,32 @@ msgctxt "@info"
 msgid "Error saving alarm template"
 msgstr "儲存鬧鐘樣本時發生錯誤"
 
-#: kalarmapp.cpp:416
+#: kalarmapp.cpp:420
 #, kde-kuit-format
 msgctxt "@info:shell"
 msgid "%1: Event <resource>%2</resource> not found, or not unique"
 msgstr "%1：找不到事件 <resource>%2</resource>，或者事件非唯一"
 
-#: kalarmapp.cpp:445
+#: kalarmapp.cpp:449
 #, kde-kuit-format
 msgctxt "@info:shell"
 msgid "%1: Event <resource>%2</resource> not found, or not editable"
 msgstr "%1：找不到事件 <resource>%2</resource>，或者無法編輯"
 
-#: kalarmapp.cpp:703
+#: kalarmapp.cpp:707
 #, kde-format
 msgctxt "@info"
 msgid ""
 "Quitting will disable alarms (once any alarm message windows are closed)."
 msgstr "離開會將所有的鬧鐘關閉。"
 
-#: kalarmapp.cpp:712
+#: kalarmapp.cpp:716
 #, kde-format
 msgctxt "@info"
 msgid "Quitting will cancel the scheduled Wake from Suspend."
 msgstr "離開的話會取消從休眠中喚醒型鬧鐘"
 
-#: kalarmapp.cpp:724
+#: kalarmapp.cpp:728
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2318,7 +2318,7 @@ msgid ""
 msgstr ""
 "您要在登入時啟動 KAlarm 嗎？<nl/>（注意，若 KAlarm 未啟動，鬧鐘都將被關閉）"
 
-#: kalarmapp.cpp:1162
+#: kalarmapp.cpp:1166
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2329,7 +2329,7 @@ msgstr ""
 "無法建立或更新鬧鐘，因為沒有開啟任何可寫入的鬧鐘行事曆。<nl/><nl/>要修正這個"
 "問題，請用<interface>檢視 | 顯示行事曆</interface>來檢查或變更行事曆狀態。"
 
-#: kalarmapp.cpp:2047
+#: kalarmapp.cpp:2059
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -2339,19 +2339,19 @@ msgstr ""
 "執行指令失敗\n"
 "（指令鬧鐘尚未指定終端）"
 
-#: kalarmapp.cpp:2195
+#: kalarmapp.cpp:2207
 #, kde-format
 msgctxt "@info"
 msgid "Error creating temporary script file"
 msgstr "產生暫時文稿檔案時發生錯誤"
 
-#: kalarmapp.cpp:2284
+#: kalarmapp.cpp:2296
 #, kde-format
 msgctxt "@info"
 msgid "Pre-alarm action:"
 msgstr "鬧鐘響鈴前動作："
 
-#: kalarmapp.cpp:2290
+#: kalarmapp.cpp:2302
 #, kde-format
 msgctxt "@info"
 msgid "Post-alarm action:"
@@ -5936,7 +5936,7 @@ msgctxt "@info"
 msgid "Failed to update calendar \"%1\"."
 msgstr "更新行事曆「%1」失敗。"
 
-#: resources/resourcetype.cpp:261
+#: resources/resourcetype.cpp:260
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Calendar Files"
@@ -5944,26 +5944,26 @@ msgctxt "@info"
 msgid "KAlarm Calendar File"
 msgstr "行事曆檔案"
 
-#: resources/resourcetype.cpp:261
+#: resources/resourcetype.cpp:260
 #, fuzzy, kde-format
 #| msgid "Path to KAlarm directory."
 msgctxt "@info"
 msgid "KAlarm Calendar Directory"
 msgstr "KAlarm 目錄的路徑。"
 
-#: resources/resourcetype.cpp:262
+#: resources/resourcetype.cpp:261
 #, kde-format
 msgctxt "@info"
 msgid "File"
 msgstr "檔案"
 
-#: resources/resourcetype.cpp:263
+#: resources/resourcetype.cpp:262
 #, kde-format
 msgctxt "@info"
 msgid "URL"
 msgstr "網址"
 
-#: resources/resourcetype.cpp:264
+#: resources/resourcetype.cpp:263
 #, kde-format
 msgctxt "@info Directory in filesystem"
 msgid "Directory"

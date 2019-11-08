@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: umbrello\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-07 03:08+0100\n"
+"POT-Creation-Date: 2019-11-08 03:17+0100\n"
 "PO-Revision-Date: 2019-08-12 18:54+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -3135,89 +3135,89 @@ msgstr "凍結"
 msgid "Add only"
 msgstr "只新增"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:100
+#: dialogs/pages/umlwidgetstylepage.cpp:109
 #, kde-format
 msgctxt "title of color group"
 msgid "Color"
 msgstr "顏色"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:105
+#: dialogs/pages/umlwidgetstylepage.cpp:114
 #, kde-format
 msgctxt "text color"
 msgid "&Text:"
 msgstr "文字(&T)："
 
-#: dialogs/pages/umlwidgetstylepage.cpp:112
+#: dialogs/pages/umlwidgetstylepage.cpp:121
 #, kde-format
 msgctxt "default text color button"
 msgid "Defaul&t"
 msgstr "預設(&T)"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:115
+#: dialogs/pages/umlwidgetstylepage.cpp:124
 #, kde-format
 msgctxt "line color"
 msgid "&Line:"
 msgstr "線條(&L)："
 
-#: dialogs/pages/umlwidgetstylepage.cpp:122
+#: dialogs/pages/umlwidgetstylepage.cpp:131
 #, kde-format
 msgctxt "default line color button"
 msgid "&Default"
 msgstr "預設(&D)"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:125
+#: dialogs/pages/umlwidgetstylepage.cpp:134
 #, kde-format
 msgid "&Fill:"
 msgstr "填充(&F)："
 
-#: dialogs/pages/umlwidgetstylepage.cpp:132
+#: dialogs/pages/umlwidgetstylepage.cpp:141
 #, kde-format
 msgctxt "default fill color button"
 msgid "D&efault"
 msgstr "預設(&E)"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:135
+#: dialogs/pages/umlwidgetstylepage.cpp:144
 #, kde-format
 msgid "&Use fill"
 msgstr "使用填充(&U)"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:145
+#: dialogs/pages/umlwidgetstylepage.cpp:154
 #, kde-format
 msgctxt "background color"
 msgid "&Background:"
 msgstr "背景(&B)："
 
-#: dialogs/pages/umlwidgetstylepage.cpp:152
+#: dialogs/pages/umlwidgetstylepage.cpp:161
 #, kde-format
 msgctxt "default background color button"
 msgid "De&fault"
 msgstr "預設(&F)"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:155
+#: dialogs/pages/umlwidgetstylepage.cpp:164
 #, kde-format
 msgctxt "grid dot color"
 msgid "&Grid dot:"
 msgstr "格點(&G)："
 
-#: dialogs/pages/umlwidgetstylepage.cpp:162
+#: dialogs/pages/umlwidgetstylepage.cpp:171
 #, kde-format
 msgctxt "default grid dot color button"
 msgid "Def&ault"
 msgstr "預設(&A)"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:170
+#: dialogs/pages/umlwidgetstylepage.cpp:179
 #, kde-format
 msgctxt "title of width group"
 msgid "Width"
 msgstr "寬度"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:175
+#: dialogs/pages/umlwidgetstylepage.cpp:184
 #, kde-format
 msgctxt "line width"
 msgid "Line &width:"
 msgstr "線寬(&W)："
 
-#: dialogs/pages/umlwidgetstylepage.cpp:189
+#: dialogs/pages/umlwidgetstylepage.cpp:198
 #, kde-format
 msgctxt "default line width button"
 msgid "Defa&ult"
@@ -6065,13 +6065,13 @@ msgstr "關聯錯誤"
 msgid "Enter Activity Name"
 msgstr "輸入活動名稱"
 
-#: toolbarstateother.cpp:286 umlwidgets/statewidget.cpp:681
+#: toolbarstateother.cpp:286 umlwidgets/statewidget.cpp:592
 #: umlwidgets/widget_utils.cpp:930
 #, kde-format
 msgid "Enter the name of the new activity:"
 msgstr "輸入新活動的名稱："
 
-#: toolbarstateother.cpp:286 umlwidgets/statewidget.cpp:679
+#: toolbarstateother.cpp:286 umlwidgets/statewidget.cpp:590
 #: umlwidgets/widget_utils.cpp:837
 #, kde-format
 msgid "new activity"
@@ -8152,62 +8152,62 @@ msgstr "名稱無效"
 msgid "Diagram: %2 Page %1"
 msgstr "圖表：%2  頁：%1"
 
-#: umlscene.cpp:1478
+#: umlscene.cpp:1455
 #, kde-format
 msgid "Use fill color"
 msgstr "使用填充顏色"
 
-#: umlscene.cpp:1480
+#: umlscene.cpp:1457
 #, kde-format
 msgid "No fill color"
 msgstr "不填充顏色"
 
-#: umlscene.cpp:1495
+#: umlscene.cpp:1472
 #, kde-format
 msgid "Change font"
 msgstr "變更字型"
 
-#: umlscene.cpp:1509
+#: umlscene.cpp:1486
 #, kde-format
 msgid "Change line color"
 msgstr "改變線顏色"
 
-#: umlscene.cpp:1527
+#: umlscene.cpp:1504
 #, kde-format
 msgid "Change line width"
 msgstr "改變線寬度"
 
-#: umlscene.cpp:1547
+#: umlscene.cpp:1524
 #, kde-format
 msgid "Change fill color"
 msgstr "更改填充顏色"
 
-#: umlscene.cpp:1562
+#: umlscene.cpp:1539
 #, kde-format
 msgid "Change visual property"
 msgstr "改變可見屬性"
 
-#: umlscene.cpp:1613
+#: umlscene.cpp:1590
 #, kde-format
 msgid "Delete widgets"
 msgstr "刪除元件"
 
-#: umlscene.cpp:1659
+#: umlscene.cpp:1636
 #, kde-format
 msgid "Resize widgets"
 msgstr "改變元件大小"
 
-#: umlscene.cpp:3302
+#: umlscene.cpp:3279
 #, kde-format
 msgid "Enter Diagram Name"
 msgstr "輸入圖表名稱"
 
-#: umlscene.cpp:3303
+#: umlscene.cpp:3280
 #, kde-format
 msgid "Enter the new name of the diagram:"
 msgstr "輸入圖表的新名稱："
 
-#: umlscene.cpp:3319
+#: umlscene.cpp:3296
 #, kde-format
 msgid "Failed to import from file."
 msgstr "匯入堆疊追蹤失敗。"
@@ -8286,7 +8286,7 @@ msgstr "角色名稱"
 msgid "Enter role name:"
 msgstr "輸入角色名稱："
 
-#: umlwidgets/associationwidget.cpp:3792
+#: umlwidgets/associationwidget.cpp:3799
 #, kde-format
 msgid "Press Ctrl with left mouse click to delete a point"
 msgstr "按下 Ctrl 並點擊滑鼠左鍵可以刪除點"
@@ -8481,7 +8481,7 @@ msgstr "輸入信號名稱"
 msgid "Enter the signal name :"
 msgstr "請輸入信號名稱："
 
-#: umlwidgets/statewidget.cpp:680
+#: umlwidgets/statewidget.cpp:591
 #, kde-format
 msgid "Enter Activity"
 msgstr "輸入活動"
@@ -8492,7 +8492,7 @@ msgctxt "@info:tooltip of custom toolbar button"
 msgid "%1"
 msgstr "%1"
 
-#: umlwidgets/umlwidget.cpp:501
+#: umlwidgets/umlwidget.cpp:504
 #, kde-format
 msgid ""
 "Hold shift or ctrl to move in X axis. Hold shift and control to move in Y "
@@ -8501,27 +8501,27 @@ msgstr ""
 "按住 shift 或 ctrl 來移動 X 軸。按住 shift 與 control 來移動 Y 軸。點選右鍵取"
 "消移動。"
 
-#: umlwidgets/umlwidget.cpp:586
+#: umlwidgets/umlwidget.cpp:589
 #, kde-format
 msgid "Move widgets"
 msgstr "移動元件"
 
-#: umlwidgets/umlwidget.cpp:828
+#: umlwidgets/umlwidget.cpp:831
 #, kde-format
 msgid "Rename Object"
 msgstr "重新命名物件"
 
-#: umlwidgets/umlwidget.cpp:829
+#: umlwidgets/umlwidget.cpp:832
 #, kde-format
 msgid "Enter object name:"
 msgstr "輸入物件名稱："
 
-#: umlwidgets/umlwidget.cpp:1528
+#: umlwidgets/umlwidget.cpp:1532
 #, fuzzy, kde-format
 msgid "Hold shift or control to move in X axis."
 msgstr "長按 Shift 或 Control 以在 X 軸移動。"
 
-#: umlwidgets/umlwidget.cpp:1529
+#: umlwidgets/umlwidget.cpp:1533
 #, fuzzy, kde-format
 msgid "Hold shift and control to move in Y axis."
 msgstr "長按 Shift 及 Control 以在 Y 軸移動。"

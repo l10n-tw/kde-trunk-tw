@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-07 03:04+0100\n"
+"POT-Creation-Date: 2019-11-08 03:13+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -5914,7 +5914,7 @@ msgid "Select a clip to apply an effect"
 msgstr "如果您想使用特效請選取一個素材"
 
 #: src/bin/bin.cpp:2338 src/effects/effectstack/view/effectstackview.cpp:161
-#: src/mainwindow.cpp:2642
+#: src/mainwindow.cpp:2649
 #, fuzzy, kde-format
 #| msgid "Cannot add a video effect to this clip"
 msgid "Cannot add effect to clip"
@@ -6302,14 +6302,14 @@ msgstr "字幕 / 標題樣板素材"
 
 #: src/dialogs/clipcreationdialog.cpp:352 src/dvdwizard/dvdwizardvob.cpp:269
 #: src/effects/effectstack/view/collapsibleeffectview.cpp:235
-#: src/mainwindow.cpp:3246
+#: src/mainwindow.cpp:3253
 #, kde-format
 msgid "All Supported Files"
 msgstr "所有支援的檔案"
 
 #: src/dialogs/clipcreationdialog.cpp:352 src/dvdwizard/dvdwizardvob.cpp:270
 #: src/effects/effectstack/view/collapsibleeffectview.cpp:235
-#: src/mainwindow.cpp:3246 src/utils/resourcewidget.cpp:386
+#: src/mainwindow.cpp:3253 src/utils/resourcewidget.cpp:386
 #: src/utils/resourcewidget.cpp:389 src/utils/resourcewidget.cpp:391
 #, kde-format
 msgid "All Files"
@@ -6394,7 +6394,7 @@ msgstr "代理剪輯"
 
 #. i18n: ectx: Menu (timeline)
 #: src/dialogs/kdenlivesettingsdialog.cpp:103 src/kdenliveui.rc:77
-#: src/mainwindow.cpp:3204
+#: src/mainwindow.cpp:3211
 #, kde-format
 msgid "Timeline"
 msgstr "時間軸"
@@ -8270,7 +8270,7 @@ msgstr ""
 msgid "Scene %1"
 msgstr "區段終點：%1"
 
-#: src/jobs/speedjob.cpp:56 src/mainwindow.cpp:3144
+#: src/jobs/speedjob.cpp:56 src/mainwindow.cpp:3151
 #: src/timeline2/model/timelinemodel.cpp:3261
 #, fuzzy, kde-format
 #| msgid "Change clip type"
@@ -8360,13 +8360,13 @@ msgid "Markers"
 msgstr "記號"
 
 #. i18n: ectx: Menu (extract_audio)
-#: src/kdenliveui.rc:54 src/mainwindow.cpp:3167
+#: src/kdenliveui.rc:54 src/mainwindow.cpp:3174
 #, kde-format
 msgid "Extract Audio"
 msgstr "提取音訊"
 
 #. i18n: ectx: Menu (clip_actions)
-#: src/kdenliveui.rc:57 src/mainwindow.cpp:3115
+#: src/kdenliveui.rc:57 src/mainwindow.cpp:3122
 #, kde-format
 msgid "Clip Jobs"
 msgstr "剪輯工作"
@@ -8423,7 +8423,7 @@ msgstr "空白空間"
 
 #. i18n: ectx: Menu (timeline_tracks)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_raisepropstracks)
-#: src/kdenliveui.rc:130 src/mainwindow.cpp:1453
+#: src/kdenliveui.rc:130 src/mainwindow.cpp:1460
 #: src/ui/configtimeline_ui.ui:115
 #, kde-format
 msgid "Tracks"
@@ -8938,7 +8938,7 @@ msgstr "添加轉場特效"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_raisepropstransitions)
-#: src/mainwindow.cpp:421 src/mainwindow.cpp:1552
+#: src/mainwindow.cpp:421 src/mainwindow.cpp:1559
 #: src/transitions/transitionlist/model/transitiontreemodel.cpp:46
 #: src/ui/configmisc_ui.ui:94 src/ui/configtimeline_ui.ui:108
 #, kde-format
@@ -9262,272 +9262,272 @@ msgstr "顯示標記/參照線"
 msgid "Monitor Overlay Audio Waveform"
 msgstr "顯示音訊波形(素材預覽)"
 
-#: src/mainwindow.cpp:1280
+#: src/mainwindow.cpp:1287
 #, fuzzy, kde-format
 msgid "Real Time (drop frames)"
 msgstr "實時（啟用丟幀）"
 
-#: src/mainwindow.cpp:1286
+#: src/mainwindow.cpp:1293
 #, kde-format
 msgid "Monitor Gamma"
 msgstr "預覽視窗Gamma"
 
-#: src/mainwindow.cpp:1287
+#: src/mainwindow.cpp:1294
 #, kde-format
 msgid "sRGB (computer)"
 msgstr ""
 
-#: src/mainwindow.cpp:1288
+#: src/mainwindow.cpp:1295
 #, fuzzy, kde-format
 msgid "Rec. 709 (TV)"
 msgstr "Rec. 709"
 
-#: src/mainwindow.cpp:1293
+#: src/mainwindow.cpp:1300
 #, fuzzy, kde-format
 msgid "Trim Mode"
 msgstr "瀏覽模式"
 
-#: src/mainwindow.cpp:1296
+#: src/mainwindow.cpp:1303
 #, kde-format
 msgid "Insert Zone in Project Bin"
 msgstr "插入區段到專案素材庫"
 
-#: src/mainwindow.cpp:1299
+#: src/mainwindow.cpp:1306
 #, kde-format
 msgid "Go to Previous Snap Point"
 msgstr "跳轉到上一個對齊點"
 
-#: src/mainwindow.cpp:1301
+#: src/mainwindow.cpp:1308
 #, kde-format
 msgid "Go to Clip Start"
 msgstr "跳轉到素材起點"
 
-#: src/mainwindow.cpp:1303
+#: src/mainwindow.cpp:1310
 #, kde-format
 msgid "Go to Clip End"
 msgstr "跳轉到素材末尾"
 
-#: src/mainwindow.cpp:1305
+#: src/mainwindow.cpp:1312
 #, kde-format
 msgid "Go to Next Snap Point"
 msgstr "跳轉到下一個對齊點"
 
-#: src/mainwindow.cpp:1308
+#: src/mainwindow.cpp:1315
 #, kde-format
 msgid "Align Playhead to Mouse Position"
 msgstr ""
 
-#: src/mainwindow.cpp:1310
+#: src/mainwindow.cpp:1317
 #, kde-format
 msgid "Grab Current Item"
 msgstr ""
 
-#: src/mainwindow.cpp:1313
+#: src/mainwindow.cpp:1320
 #, kde-format
 msgid "Automatic Transition"
 msgstr "自動轉場特效"
 
-#: src/mainwindow.cpp:1320
+#: src/mainwindow.cpp:1327
 #, kde-format
 msgid "Overwrite Clip Zone in Timeline"
 msgstr "覆蓋素材區段"
 
-#: src/mainwindow.cpp:1322
+#: src/mainwindow.cpp:1329
 #, kde-format
 msgid "Insert Clip Zone in Timeline"
 msgstr "插入素材區段"
 
-#: src/mainwindow.cpp:1324
+#: src/mainwindow.cpp:1331
 #, kde-format
 msgid "Extract Timeline Zone"
 msgstr "切除選取區段後前移"
 
-#: src/mainwindow.cpp:1326
+#: src/mainwindow.cpp:1333
 #, kde-format
 msgid "Lift Timeline Zone"
 msgstr "切除選取區段"
 
-#: src/mainwindow.cpp:1328
+#: src/mainwindow.cpp:1335
 #, kde-format
 msgid "Add Preview Zone"
 msgstr "添加預覽區段"
 
-#: src/mainwindow.cpp:1330
+#: src/mainwindow.cpp:1337
 #, fuzzy, kde-format
 msgid "Remove Preview Zone"
 msgstr "取消預覽區段"
 
-#: src/mainwindow.cpp:1332
+#: src/mainwindow.cpp:1339
 #, fuzzy, kde-format
 msgid "Remove All Preview Zones"
 msgstr "添加預覽區段"
 
-#: src/mainwindow.cpp:1334
+#: src/mainwindow.cpp:1341
 #, kde-format
 msgid "Start Preview Render"
 msgstr "開始運算預覽"
 
-#: src/mainwindow.cpp:1336
+#: src/mainwindow.cpp:1343
 #, kde-format
 msgid "Stop Preview Render"
 msgstr "停止運算預覽"
 
-#: src/mainwindow.cpp:1339
+#: src/mainwindow.cpp:1346
 #, kde-format
 msgid "Select Clip"
 msgstr "選取素材"
 
-#: src/mainwindow.cpp:1341
+#: src/mainwindow.cpp:1348
 #, kde-format
 msgid "Deselect Clip"
 msgstr "取消選取素材"
 
-#: src/mainwindow.cpp:1343
+#: src/mainwindow.cpp:1350
 #, kde-format
 msgid "Add Clip To Selection"
 msgstr "添加素材到所選範圍"
 
-#: src/mainwindow.cpp:1345
+#: src/mainwindow.cpp:1352
 #, kde-format
 msgid "Select Transition"
 msgstr "選取轉場特效"
 
-#: src/mainwindow.cpp:1347
+#: src/mainwindow.cpp:1354
 #, kde-format
 msgid "Deselect Transition"
 msgstr "取消選取轉場特效"
 
-#: src/mainwindow.cpp:1349
+#: src/mainwindow.cpp:1356
 #, kde-format
 msgid "Add Transition To Selection"
 msgstr "添加轉場特效到所選範圍"
 
-#: src/mainwindow.cpp:1351 src/monitor/view/SceneToolBar.qml:80
+#: src/mainwindow.cpp:1358 src/monitor/view/SceneToolBar.qml:80
 #: src/timeline2/view/qml/ClipMenu.qml:74
 #, kde-format
 msgid "Add Marker"
 msgstr "添加記號"
 
-#: src/mainwindow.cpp:1352 src/timeline2/view/qml/ClipMenu.qml:86
+#: src/mainwindow.cpp:1359 src/timeline2/view/qml/ClipMenu.qml:86
 #, kde-format
 msgid "Delete Marker"
 msgstr "移除記號"
 
-#: src/mainwindow.cpp:1353 src/timeline2/view/qml/ClipMenu.qml:90
+#: src/mainwindow.cpp:1360 src/timeline2/view/qml/ClipMenu.qml:90
 #, kde-format
 msgid "Delete All Markers"
 msgstr "移除所有記號"
 
-#: src/mainwindow.cpp:1356 src/timeline2/view/qml/ClipMenu.qml:82
+#: src/mainwindow.cpp:1363 src/timeline2/view/qml/ClipMenu.qml:82
 #, kde-format
 msgid "Edit Marker"
 msgstr "編輯記號"
 
-#: src/mainwindow.cpp:1360 src/timeline2/view/qml/ClipMenu.qml:78
+#: src/mainwindow.cpp:1367 src/timeline2/view/qml/ClipMenu.qml:78
 #, kde-format
 msgid "Add Marker/Guide quickly"
 msgstr "添加標記/參照線"
 
-#: src/mainwindow.cpp:1364
+#: src/mainwindow.cpp:1371
 #, fuzzy, kde-format
 msgid "Current Selection"
 msgstr "項目設定"
 
-#: src/mainwindow.cpp:1365 src/timeline2/model/timelinefunctions.cpp:683
+#: src/mainwindow.cpp:1372 src/timeline2/model/timelinefunctions.cpp:683
 #: src/timeline2/view/qml/ClipMenu.qml:62
 #, kde-format
 msgid "Split Audio"
 msgstr "分離聲訊"
 
-#: src/mainwindow.cpp:1371
+#: src/mainwindow.cpp:1378
 #, fuzzy, kde-format
 msgid "Disable Clip"
 msgstr "關閉素材"
 
-#: src/mainwindow.cpp:1377 src/timeline2/view/qml/ClipMenu.qml:95
+#: src/mainwindow.cpp:1384 src/timeline2/view/qml/ClipMenu.qml:95
 #, kde-format
 msgid "Set Audio Reference"
 msgstr "設置音訊參考"
 
-#: src/mainwindow.cpp:1384
+#: src/mainwindow.cpp:1391
 #, kde-format
 msgid "Align Audio to Reference"
 msgstr "音訊對齊到參考"
 
-#: src/mainwindow.cpp:1389 src/timeline2/view/qml/ClipMenu.qml:46
+#: src/mainwindow.cpp:1396 src/timeline2/view/qml/ClipMenu.qml:46
 #: src/timeline2/view/qml/CompositionMenu.qml:32
 #, kde-format
 msgid "Edit Duration"
 msgstr "持續時間"
 
-#: src/mainwindow.cpp:1393 src/timeline2/view/qml/ClipMenu.qml:121
+#: src/mainwindow.cpp:1400 src/timeline2/view/qml/ClipMenu.qml:121
 #, fuzzy, kde-format
 #| msgid "Change clip type"
 msgid "Change Speed"
 msgstr "修改素材類別"
 
-#: src/mainwindow.cpp:1397 src/timeline2/view/qml/ClipMenu.qml:128
+#: src/mainwindow.cpp:1404 src/timeline2/view/qml/ClipMenu.qml:128
 #, kde-format
 msgid "Clip in Project Bin"
 msgstr "專案素材庫位置"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, CutJobDialog_UI)
-#: src/mainwindow.cpp:1403 src/ui/cutjobdialog_ui.ui:14
+#: src/mainwindow.cpp:1410 src/ui/cutjobdialog_ui.ui:14
 #, kde-format
 msgid "Cut Clip"
 msgstr "分割素材"
 
-#: src/mainwindow.cpp:1406
+#: src/mainwindow.cpp:1413
 #, kde-format
 msgid "Delete Selected Item"
 msgstr "移除所選項目"
 
-#: src/mainwindow.cpp:1409
+#: src/mainwindow.cpp:1416
 #, kde-format
 msgid "Resize Item Start"
 msgstr "調整項目起點位置"
 
-#: src/mainwindow.cpp:1413
+#: src/mainwindow.cpp:1420
 #, kde-format
 msgid "Resize Item End"
 msgstr "調整項目終點位置"
 
-#: src/mainwindow.cpp:1417 src/timeline2/view/qml/ClipMenu.qml:54
+#: src/mainwindow.cpp:1424 src/timeline2/view/qml/ClipMenu.qml:54
 #, kde-format
 msgid "Paste Effects"
 msgstr "黏貼特效"
 
-#: src/mainwindow.cpp:1423
+#: src/mainwindow.cpp:1430
 #, kde-format
 msgid "Group Clips"
 msgstr "組合素材"
 
-#: src/mainwindow.cpp:1429
+#: src/mainwindow.cpp:1436
 #, kde-format
 msgid "Ungroup Clips"
 msgstr "取消組合"
 
-#: src/mainwindow.cpp:1449 src/timeline2/view/qml/timeline.qml:510
+#: src/mainwindow.cpp:1456 src/timeline2/view/qml/timeline.qml:510
 #, kde-format
 msgid "Insert Space"
 msgstr "插入空白空間"
 
-#: src/mainwindow.cpp:1450 src/timeline2/view/qml/timeline.qml:526
+#: src/mainwindow.cpp:1457 src/timeline2/view/qml/timeline.qml:526
 #, kde-format
 msgid "Remove Space"
 msgstr "移除空白空間"
 
-#: src/mainwindow.cpp:1451
+#: src/mainwindow.cpp:1458
 #, fuzzy, kde-format
 msgid "Remove Space In All Tracks"
 msgstr "移除空白空間"
 
-#: src/mainwindow.cpp:1454 src/timeline2/model/timelinemodel.cpp:2111
+#: src/mainwindow.cpp:1461 src/timeline2/model/timelinemodel.cpp:2111
 #, kde-format
 msgid "Insert Track"
 msgstr "添加軌道"
 
-#: src/mainwindow.cpp:1458 src/timeline2/model/timelinemodel.cpp:2179
+#: src/mainwindow.cpp:1465 src/timeline2/model/timelinemodel.cpp:2179
 #: src/timeline2/view/dialogs/trackdialog.cpp:31
 #: src/timeline2/view/dialogs/trackdialog.cpp:66
 #: src/timeline2/view/dialogs/tracksconfigdialog.cpp:89
@@ -9536,22 +9536,22 @@ msgstr "添加軌道"
 msgid "Delete Track"
 msgstr "移除軌道"
 
-#: src/mainwindow.cpp:1463
+#: src/mainwindow.cpp:1470
 #, kde-format
 msgid "Select All in Current Track"
 msgstr "選取軌道所有素材"
 
-#: src/mainwindow.cpp:1480
+#: src/mainwindow.cpp:1487
 #, kde-format
 msgid "Manage Cached Data"
 msgstr "管理緩存的數據"
 
-#: src/mainwindow.cpp:1483
+#: src/mainwindow.cpp:1490
 #, kde-format
 msgid "Disable Timeline Preview"
 msgstr "關閉預覽"
 
-#: src/mainwindow.cpp:1487 src/monitor/view/SceneToolBar.qml:80
+#: src/mainwindow.cpp:1494 src/monitor/view/SceneToolBar.qml:80
 #: src/timeline2/view/qml/timeline.qml:535
 #: src/timeline2/view/qml/timeline.qml:575
 #: src/timeline2/view/qml/timeline.qml:590
@@ -9560,70 +9560,70 @@ msgstr "關閉預覽"
 msgid "Add Guide"
 msgstr "添加參照線"
 
-#: src/mainwindow.cpp:1488
+#: src/mainwindow.cpp:1495
 #, kde-format
 msgid "Delete Guide"
 msgstr "移除參照線"
 
-#: src/mainwindow.cpp:1489 src/timeline2/view/qml/timeline.qml:550
+#: src/mainwindow.cpp:1496 src/timeline2/view/qml/timeline.qml:550
 #: src/timeline2/view/qml/timeline.qml:605
 #, kde-format
 msgid "Edit Guide"
 msgstr "編輯參照線"
 
-#: src/mainwindow.cpp:1490
+#: src/mainwindow.cpp:1497
 #, kde-format
 msgid "Delete All Guides"
 msgstr "移除所有參照線"
 
-#: src/mainwindow.cpp:1496
+#: src/mainwindow.cpp:1503
 #, fuzzy, kde-format
 msgid "Add Timeline Selection to Library"
 msgstr "儲存選擇區段到資料庫"
 
-#: src/mainwindow.cpp:1532
+#: src/mainwindow.cpp:1539
 #, kde-format
 msgid "Disable Timeline Effects"
 msgstr "關閉所有特效"
 
-#: src/mainwindow.cpp:1538
+#: src/mainwindow.cpp:1545
 #, kde-format
 msgid "Toggle Track Lock"
 msgstr "鎖定軌道"
 
-#: src/mainwindow.cpp:1540
+#: src/mainwindow.cpp:1547
 #, kde-format
 msgid "Toggle All Track Lock"
 msgstr "鎖定全部軌道"
 
-#: src/mainwindow.cpp:1542
+#: src/mainwindow.cpp:1549
 #, kde-format
 msgid "Toggle Track Target"
 msgstr "切換軌道目標"
 
-#: src/mainwindow.cpp:1544
+#: src/mainwindow.cpp:1551
 #, fuzzy, kde-format
 #| msgid "Toggle Track Lock"
 msgid "Toggle Track Active"
 msgstr "鎖定軌道"
 
-#: src/mainwindow.cpp:1546 src/timeline2/view/qml/timeline.qml:613
+#: src/mainwindow.cpp:1553 src/timeline2/view/qml/timeline.qml:613
 #, fuzzy, kde-format
 #| msgid "Project Notes"
 msgid "Add Project Note"
 msgstr "專案備註"
 
-#: src/mainwindow.cpp:1563
+#: src/mainwindow.cpp:1570
 #, fuzzy, kde-format
 msgid "Extract frame..."
 msgstr "截取畫面"
 
-#: src/mainwindow.cpp:1566
+#: src/mainwindow.cpp:1573
 #, fuzzy, kde-format
 msgid "Extract frame to project..."
 msgstr "截取畫面"
 
-#: src/mainwindow.cpp:1679 src/mainwindow.cpp:1689
+#: src/mainwindow.cpp:1686 src/mainwindow.cpp:1696
 #, fuzzy, kde-format
 msgid ""
 "You have changed the proxy parameters. Do you want to recreate all proxy "
@@ -9631,7 +9631,7 @@ msgid ""
 msgstr ""
 "您已經修改了項目的檔案夾。您是否要將緩衝區資料從 %1 複製到新檔案夾 %2？"
 
-#: src/mainwindow.cpp:1735
+#: src/mainwindow.cpp:1742
 #, kde-format
 msgid ""
 "The current project has not been saved. This will first save the project, "
@@ -9639,90 +9639,90 @@ msgid ""
 "file will be reloaded"
 msgstr ""
 
-#: src/mainwindow.cpp:1743
+#: src/mainwindow.cpp:1750
 #, kde-format
 msgid ""
 "This will move all temporary files from <b>%1</b> to <b>%2</b>, the project "
 "file will then be reloaded"
 msgstr ""
 
-#: src/mainwindow.cpp:1752
+#: src/mainwindow.cpp:1759
 #, fuzzy, kde-format
 msgid "Cannot perform operation, invalid document id: %1"
 msgstr "無法在已鎖定的軌道中使用調整工具"
 
-#: src/mainwindow.cpp:1757
+#: src/mainwindow.cpp:1764
 #, fuzzy, kde-format
 msgid "Cannot perform operation, target directory already exists: %1"
 msgstr "無法在已鎖定的軌道中使用調整工具"
 
-#: src/mainwindow.cpp:1821 src/mainwindow.cpp:3730 src/mainwindow.cpp:3745
+#: src/mainwindow.cpp:1828 src/mainwindow.cpp:3737 src/mainwindow.cpp:3752
 #, kde-format
 msgid "Rendering using low quality track compositing"
 msgstr ""
 
-#: src/mainwindow.cpp:1895
+#: src/mainwindow.cpp:1902
 #, kde-format
 msgid "This will remove all unused clips from your project."
 msgstr "這會從您的項目中移除所有沒用到的素材。"
 
-#: src/mainwindow.cpp:1895
+#: src/mainwindow.cpp:1902
 #, kde-format
 msgid "Clean up project"
 msgstr "清理本項目"
 
-#: src/mainwindow.cpp:2102
+#: src/mainwindow.cpp:2109
 #, fuzzy, kde-format
 #| msgid "Current clip"
 msgid "Current scheme:"
 msgstr "當前剪輯"
 
-#: src/mainwindow.cpp:2112
+#: src/mainwindow.cpp:2119
 #, fuzzy, kde-format
 #| msgid "More options"
 msgid "More Actions"
 msgstr "更多選項"
 
-#: src/mainwindow.cpp:2114
+#: src/mainwindow.cpp:2121
 #, fuzzy, kde-format
 #| msgid "Download New Title Templates..."
 msgid "Download New Keyboard Schemes..."
 msgstr "下載新字幕/標題樣板..."
 
-#: src/mainwindow.cpp:2121
+#: src/mainwindow.cpp:2128
 #, kde-format
 msgctxt "general keyboard shortcuts"
 msgid "General"
 msgstr "常規"
 
-#: src/mainwindow.cpp:2181
+#: src/mainwindow.cpp:2188
 #, kde-format
 msgid ""
 "This will delete Kdenlive's configuration file and restart the application. "
 "Do you want to proceed?"
 msgstr ""
 
-#: src/mainwindow.cpp:2281 src/mainwindow.cpp:2385
+#: src/mainwindow.cpp:2288 src/mainwindow.cpp:2392
 #, kde-format
 msgid "Cannot find clip to add marker"
 msgstr "無法找到要添加記號的素材"
 
-#: src/mainwindow.cpp:2303 src/mainwindow.cpp:2334
+#: src/mainwindow.cpp:2310 src/mainwindow.cpp:2341
 #, kde-format
 msgid "Cannot find clip to remove marker"
 msgstr "無法找到要移除記號的素材"
 
-#: src/mainwindow.cpp:2314 src/mainwindow.cpp:2367
+#: src/mainwindow.cpp:2321 src/mainwindow.cpp:2374
 #, kde-format
 msgid "No marker found at cursor time"
 msgstr "遊標時間上找不到記號"
 
-#: src/mainwindow.cpp:2339
+#: src/mainwindow.cpp:2346
 #, kde-format
 msgid "An error occurred while deleting markers"
 msgstr ""
 
-#: src/mainwindow.cpp:2359 src/timeline2/view/timelinecontroller.cpp:777
+#: src/mainwindow.cpp:2366 src/timeline2/view/timelinecontroller.cpp:777
 #: src/timeline2/view/timelinecontroller.cpp:785
 #: src/timeline2/view/timelinecontroller.cpp:799
 #: src/timeline2/view/timelinecontroller.cpp:817
@@ -9732,142 +9732,142 @@ msgstr ""
 msgid "Cannot find clip to edit marker"
 msgstr "無法找到要添加記號的素材"
 
-#: src/mainwindow.cpp:2492
+#: src/mainwindow.cpp:2499
 #, fuzzy, kde-format
 msgid "No clip selected in project bin"
 msgstr "沒有複製任何素材"
 
-#: src/mainwindow.cpp:2645
+#: src/mainwindow.cpp:2652
 #, fuzzy, kde-format
 #| msgid "Cannot find clip to add effect"
 msgid "Select an item to add effect"
 msgstr "無法找到要添加特效的素材"
 
-#: src/mainwindow.cpp:2701
+#: src/mainwindow.cpp:2708
 #, fuzzy, kde-format
 #| msgid "Zoom Level: %1/13"
 msgid "Zoom Level: %1/%2"
 msgstr "縮放等級: %1/13"
 
-#: src/mainwindow.cpp:2781
+#: src/mainwindow.cpp:2788
 #, kde-format
 msgid "Ctrl + click to use spacer on current track only"
 msgstr "Ctrl + 點擊 可以只在目前的軌道上使用調整工具"
 
-#: src/mainwindow.cpp:2784
+#: src/mainwindow.cpp:2791
 #, kde-format
 msgid "Click on a clip to cut it, Shift + move to preview cut frame"
 msgstr ""
 
-#: src/mainwindow.cpp:2787
+#: src/mainwindow.cpp:2794
 #, kde-format
 msgid ""
 "Shift + click to create a selection rectangle, Ctrl + click to add an item "
 "to selection"
 msgstr "Shift + 點擊可建立一個選取框，Ctrl + 點擊可添加一個項目到選取範圍"
 
-#: src/mainwindow.cpp:3122
+#: src/mainwindow.cpp:3129
 #, fuzzy, kde-format
 msgid "Stabilize (%1)"
 msgstr "關閉素材"
 
-#: src/mainwindow.cpp:3126 src/project/clipstabilize.cpp:131
+#: src/mainwindow.cpp:3133 src/project/clipstabilize.cpp:131
 #, fuzzy, kde-format
 msgid "Stabilize clip"
 msgid_plural "Stabilize clips"
 msgstr[0] "字幕 / 標題素材"
 
-#: src/mainwindow.cpp:3134
+#: src/mainwindow.cpp:3141
 #, kde-format
 msgid "Automatic scene split"
 msgstr "自動場景分割"
 
-#: src/mainwindow.cpp:3137
+#: src/mainwindow.cpp:3144
 #, fuzzy, kde-format
 msgid "Scene detection"
 msgstr "邊緣檢測"
 
-#: src/mainwindow.cpp:3141
+#: src/mainwindow.cpp:3148
 #, fuzzy, kde-format
 msgid "Duplicate clip with speed change"
 msgstr "無法找到要修改速度的素材"
 
-#: src/mainwindow.cpp:3166
+#: src/mainwindow.cpp:3173
 #, fuzzy, kde-format
 #| msgid "Transcode"
 msgid "Transcoders"
 msgstr "轉換編碼"
 
-#: src/mainwindow.cpp:3203
+#: src/mainwindow.cpp:3210
 #, fuzzy, kde-format
 msgid "Interface"
 msgstr "交錯式"
 
-#: src/mainwindow.cpp:3248
+#: src/mainwindow.cpp:3255
 #, fuzzy, kde-format
 #| msgid "Close after transcode"
 msgid "Files to transcode"
 msgstr "轉換編碼後結束 Kdenlive"
 
-#: src/mainwindow.cpp:3384
+#: src/mainwindow.cpp:3391
 #, kde-format
 msgid "Project file could not be saved for archiving."
 msgstr ""
 
-#: src/mainwindow.cpp:3389
+#: src/mainwindow.cpp:3396
 #, fuzzy, kde-format
 msgid "Archiving project"
 msgstr "專案封存"
 
-#: src/mainwindow.cpp:3612
+#: src/mainwindow.cpp:3619
 #, fuzzy, kde-format
 msgid "Icon Size"
 msgstr "預覽視窗尺寸"
 
-#: src/mainwindow.cpp:3616
+#: src/mainwindow.cpp:3623
 #, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr "預設"
 
-#: src/mainwindow.cpp:3637 src/mainwindow.cpp:3665
+#: src/mainwindow.cpp:3644 src/mainwindow.cpp:3672
 #, kde-format
 msgid "Small (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3639 src/mainwindow.cpp:3667
+#: src/mainwindow.cpp:3646 src/mainwindow.cpp:3674
 #, kde-format
 msgid "Medium (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3641 src/mainwindow.cpp:3669
+#: src/mainwindow.cpp:3648 src/mainwindow.cpp:3676
 #, kde-format
 msgid "Large (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3643 src/mainwindow.cpp:3671
+#: src/mainwindow.cpp:3650 src/mainwindow.cpp:3678
 #, kde-format
 msgid "Huge (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3709
+#: src/mainwindow.cpp:3716
 #, kde-format
 msgid "Manage Cache Data"
 msgstr "管理緩存數據"
 
-#: src/mainwindow.cpp:3752
+#: src/mainwindow.cpp:3759
 #, kde-format
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing Ctrl"
 "+M."
 msgstr ""
 
-#: src/mainwindow.cpp:3752
+#: src/mainwindow.cpp:3759
 #, fuzzy, kde-format
 msgid "Hide menu bar"
 msgstr "隱藏幀"
 
-#: src/mainwindow.cpp:3767
+#: src/mainwindow.cpp:3774
 #, fuzzy, kde-format
 #| msgid ""
 #| "Kdenlive needs to be restarted to apply icon theme change. Restart now ?"
@@ -10331,38 +10331,38 @@ msgstr "儲存 DVD 項目"
 msgid "Export image using source resolution"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1750
+#: src/monitor/monitor.cpp:1752
 #, kde-format
 msgid "Cannot initialize Movit's GLSL manager, please disable Movit"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1792 src/monitor/monitor.cpp:1844
+#: src/monitor/monitor.cpp:1794 src/monitor/monitor.cpp:1846
 #, kde-format
 msgid ""
 "The alphagrad filter is required for that feature, please install frei0r and "
 "restart Kdenlive"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1812
+#: src/monitor/monitor.cpp:1814
 #, fuzzy, kde-format
 #| msgid "Clip has no markers"
 msgid "Clip has no effects"
 msgstr "素材沒有記號"
 
-#: src/monitor/monitor.cpp:1814
+#: src/monitor/monitor.cpp:1816
 #, fuzzy, kde-format
 #| msgid "Select a clip if you want to apply an effect"
 msgid "Select a clip in project bin to compare effect"
 msgstr "如果您想使用特效請選取一個素材"
 
-#: src/monitor/monitor.cpp:1851
+#: src/monitor/monitor.cpp:1853
 #, kde-format
 msgid ""
 "The cairoblend transition is required for that feature, please install "
 "frei0r and restart Kdenlive"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1897
+#: src/monitor/monitor.cpp:1899
 #, kde-format
 msgid "Enable edit mode in monitor to edit effect"
 msgstr ""

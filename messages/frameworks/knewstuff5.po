@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-06 02:51+0100\n"
+"POT-Creation-Date: 2019-11-08 02:56+0100\n"
 "PO-Revision-Date: 2019-10-11 19:12+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -609,7 +609,7 @@ msgstr ""
 "請在下方的可下載項目清單中選擇你要安裝的選項。如果你所要選的可用選項不夠清"
 "楚，請聯絡此項目的作者，並請求他們說明這個項目的命名意義。"
 
-#: qtquick/qml/EntryDetails.qml:63 qtquick/qml/Page.qml:200
+#: qtquick/qml/EntryDetails.qml:63
 #, kde-format
 msgctxt ""
 "A passive notification shown when installation of an item is initiated"
@@ -836,6 +836,45 @@ msgctxt ""
 "item"
 msgid "By <i>%1</i>"
 msgstr "由 <i>%1</i>"
+
+#: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:59
+#, fuzzy, kde-format
+#| msgid "Installing"
+msgctxt "Label for the busy indicator showing an item is being installed"
+msgid "Installing..."
+msgstr "安裝中"
+
+#: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:61
+#, fuzzy, kde-format
+#| msgid "Updating"
+msgctxt ""
+"Label for the busy indicator showing an item is in the process of being "
+"updated"
+msgid "Updating..."
+msgstr "更新中"
+
+#: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:63
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Status message which should only be shown when the entry has been given "
+#| "some unknown or invalid status."
+#| msgid ""
+#| "This item is currently in an invalid or unknown state. Please report this "
+#| "to the KDE Community in a bug report."
+msgctxt ""
+"Label for the busy indicator which should only be shown when the entry has "
+"been given some unknown or invalid status."
+msgid ""
+"Invalid or unknown state. Please report this to the KDE Community in a bug "
+"report."
+msgstr "這個項目目前無效或處於不明狀態。請在漏洞回報中回報此問題至 KDE 社群。"
+
+#: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:75
+#, fuzzy, kde-format
+#| msgid "Installing"
+msgctxt "Label for the busy indicator showing an item is installing"
+msgid "Installing..."
+msgstr "安裝中"
 
 #: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:94
 #, kde-format

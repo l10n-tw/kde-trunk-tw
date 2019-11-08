@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdesu\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:23+0200\n"
+"POT-Creation-Date: 2019-11-08 03:31+0100\n"
 "PO-Revision-Date: 2016-11-03 16:33+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -182,17 +182,17 @@ msgstr "即時:"
 msgid "Priority:"
 msgstr "優先權:"
 
-#: sudlg.cpp:30
+#: sudlg.cpp:34
 #, kde-format
 msgid "Run as %1"
 msgstr "執行 %1"
 
-#: sudlg.cpp:34
+#: sudlg.cpp:38
 #, kde-format
 msgid "Please enter your password below."
 msgstr "請在下方輸入您的密碼。"
 
-#: sudlg.cpp:38
+#: sudlg.cpp:42
 #, kde-format
 msgid ""
 "The action you requested needs <b>root privileges</b>. Please enter "
@@ -202,14 +202,14 @@ msgstr ""
 "你要求的動作需要 root 權限。請在下面輸入 root 的密碼，或是按「忽略」繼續保持"
 "目前的權限。"
 
-#: sudlg.cpp:42
+#: sudlg.cpp:46
 #, kde-format
 msgid ""
 "The action you requested needs <b>root privileges</b>. Please enter "
 "<b>root's</b> password below."
 msgstr "你要求的動作需要 root 權限。請在下面輸入 root 的密碼。"
 
-#: sudlg.cpp:46
+#: sudlg.cpp:50
 #, kde-format
 msgid ""
 "The action you requested needs additional privileges. Please enter the "
@@ -219,25 +219,25 @@ msgstr ""
 "你要求的動作需要額外的權限。請在下面輸入 \"%1\" 的密碼，或是按「忽略」繼續保"
 "持目前的權限。"
 
-#: sudlg.cpp:51
+#: sudlg.cpp:55
 #, kde-format
 msgid ""
 "The action you requested needs additional privileges. Please enter the "
 "password for <b>%1</b> below."
 msgstr "你要求的動作需要額外的權限。請在下面輸入 \"%1\" 的密碼。"
 
-#: sudlg.cpp:75
+#: sudlg.cpp:79
 #, kde-format
 msgid "Conversation with su failed."
 msgstr "與 su 對話失敗。"
 
-#: sudlg.cpp:82
+#: sudlg.cpp:86
 #, kde-format
 msgid ""
 "The program 'su' could not be found.<br />Ensure your PATH is set correctly."
 msgstr "程式「su」 找不到。<br />確定你的環境變數 PATH 設定正確。"
 
-#: sudlg.cpp:92
+#: sudlg.cpp:96
 #, kde-format
 msgid ""
 "Permission denied.<br />Possibly incorrect password, please try again.<br /"
@@ -247,7 +247,7 @@ msgstr ""
 "存取被拒。<br />可能是密碼不正確，請再試一次。<br />在某些系統上，您需要是特"
 "定群組的成員（如 wheel）才能使用此程式。"
 
-#: sudlg.cpp:99
+#: sudlg.cpp:103
 #, kde-format
 msgid "Internal error: illegal return from SuProcess::checkInstall()"
 msgstr "內部錯誤：從 SuProcess::checkInstall() 有不合法的回傳"
