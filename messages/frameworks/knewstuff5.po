@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-08 02:56+0100\n"
+"POT-Creation-Date: 2019-11-09 02:48+0100\n"
 "PO-Revision-Date: 2019-10-11 19:12+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -484,21 +484,27 @@ msgid "Configure menu - %1"
 msgstr "設定選單 - %1"
 
 #: kmoretools/kmoretoolsmenufactory.cpp:185
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "$GenericName - current folder"
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "$GenericName - current folder"
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current folder"
 msgstr "$GenericName - 目前資料夾"
 
 #: kmoretools/kmoretoolsmenufactory.cpp:193
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "$GenericName - current device"
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "$GenericName - current device"
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current device"
 msgstr "$GenericName - 目前裝置"
 
 #: kmoretools/kmoretoolsmenufactory.cpp:208
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "$GenericName - all devices"
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "$GenericName - all devices"
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - all devices"
 msgstr "$GenericName - 所有裝置"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
@@ -737,20 +743,20 @@ msgctxt "Request installation of this item"
 msgid "Install"
 msgstr "安裝"
 
-#: qtquick/qml/NewStuffList.qml:83 qtquick/qml/Page.qml:166
+#: qtquick/qml/NewStuffList.qml:83 qtquick/qml/Page.qml:179
 #, kde-format
 msgctxt "List option which will set the filter to show everything"
 msgid "Show Everything"
 msgstr "顯示所有項目"
 
-#: qtquick/qml/NewStuffList.qml:84 qtquick/qml/Page.qml:167
+#: qtquick/qml/NewStuffList.qml:84 qtquick/qml/Page.qml:180
 #, kde-format
 msgctxt ""
 "List option which will set the filter so only installed items are shown"
 msgid "Installed Only"
 msgstr "僅顯示已安裝項"
 
-#: qtquick/qml/NewStuffList.qml:85 qtquick/qml/Page.qml:168
+#: qtquick/qml/NewStuffList.qml:85 qtquick/qml/Page.qml:181
 #, kde-format
 msgctxt ""
 "List option which will set the filter so only installed items with updates "
@@ -758,7 +764,7 @@ msgctxt ""
 msgid "Updateable Only"
 msgstr "只顯示可更新項"
 
-#: qtquick/qml/NewStuffList.qml:97 qtquick/qml/Page.qml:180
+#: qtquick/qml/NewStuffList.qml:97 qtquick/qml/Page.qml:193
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to based on when items were most "
@@ -766,7 +772,7 @@ msgctxt ""
 msgid "Show most recent first"
 msgstr "先顯示最近項目"
 
-#: qtquick/qml/NewStuffList.qml:98 qtquick/qml/Page.qml:181
+#: qtquick/qml/NewStuffList.qml:98 qtquick/qml/Page.qml:194
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to be alphabetical based on the "
@@ -774,13 +780,13 @@ msgctxt ""
 msgid "Sort alphabetically"
 msgstr "依字母排序"
 
-#: qtquick/qml/NewStuffList.qml:99 qtquick/qml/Page.qml:182
+#: qtquick/qml/NewStuffList.qml:99 qtquick/qml/Page.qml:195
 #, kde-format
 msgctxt "List option which will set the sort order to based on user ratings"
 msgid "Show highest rated first"
 msgstr "先顯示最高評價"
 
-#: qtquick/qml/NewStuffList.qml:100 qtquick/qml/Page.qml:183
+#: qtquick/qml/NewStuffList.qml:100 qtquick/qml/Page.qml:196
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to based on number of downloads"
@@ -795,10 +801,18 @@ msgctxt ""
 msgid "Use"
 msgstr "使用"
 
-#: qtquick/qml/Page.qml:133
+#: qtquick/qml/Page.qml:146
 #, kde-format
 msgid "Search..."
 msgstr "搜尋…"
+
+#: qtquick/qml/Page.qml:243
+#, fuzzy, kde-format
+#| msgid "Loading Preview"
+msgctxt ""
+"A text shown beside a busy indicator suggesting that data is being fetched"
+msgid "Loading more..."
+msgstr "載入預覽"
 
 #: qtquick/qml/private/EntryCommentDelegate.qml:125
 #, kde-format
@@ -887,7 +901,7 @@ msgstr "詳細資料..."
 msgid "None"
 msgstr "無"
 
-#: qtquick/quickengine.cpp:97
+#: qtquick/quickengine.cpp:111
 #, kde-format
 msgctxt ""
 "An informational message which is shown to inform the user they are not "
@@ -898,7 +912,7 @@ msgid ""
 msgstr ""
 "您未授權使用「取得新熱門項目」。如果你認為這是錯誤，請聯絡負責您權限的人。"
 
-#: qtquick/quickitemsmodel.cpp:418
+#: qtquick/quickitemsmodel.cpp:428
 #, kde-format
 msgid "Using %1"
 msgstr "使用 %1"

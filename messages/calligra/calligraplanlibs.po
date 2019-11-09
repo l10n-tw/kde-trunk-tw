@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplatoui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-04 02:32+0100\n"
+"POT-Creation-Date: 2019-11-09 02:31+0100\n"
 "PO-Revision-Date: 2011-12-26 08:35+0800\n"
 "Last-Translator: Franklin Weng <franklin@mail.everfocus.com.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
@@ -222,7 +222,7 @@ msgid "Scheduling error"
 msgstr "排程錯誤"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, risk)
-#: kernel/kptnode.cpp:154 kernel/kptnode.cpp:1658 kernel/kpttask.cpp:3795
+#: kernel/kptnode.cpp:154 kernel/kptnode.cpp:1658 kernel/kpttask.cpp:3827
 #: models/kptcalendarmodel.cpp:429 models/kptcalendarmodel.cpp:449
 #: models/kptnodeitemmodel.cpp:415 models/kptnodeitemmodel.cpp:431
 #: models/kptnodeitemmodel.cpp:441 models/kptnodeitemmodel.cpp:654
@@ -780,17 +780,17 @@ msgstr "尚未配置任何資源"
 msgid "Could not match work duration. Want: %1 got: %2"
 msgstr "無法符合工作期間。需要：%1，取得：%2"
 
-#: kernel/kpttask.cpp:3798
+#: kernel/kpttask.cpp:3830
 #, kde-format
 msgid "Send"
 msgstr "送出"
 
-#: kernel/kpttask.cpp:3801
+#: kernel/kpttask.cpp:3833
 #, kde-format
 msgid "Receive"
 msgstr "接收"
 
-#: kernel/kpttask.cpp:3804
+#: kernel/kpttask.cpp:3836
 #, fuzzy, kde-format
 #| msgid "Project end"
 msgid "Rejected"

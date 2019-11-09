@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-04 03:41+0000\n"
+"POT-Creation-Date: 2019-11-09 03:48+0000\n"
 "PO-Revision-Date: 2019-11-03 14:22+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -90,6 +90,16 @@ msgctxt "Name"
 msgid "Verkehrs- und Tarifverbund Stuttgart (VVS)"
 msgstr ""
 
+#: src/networks/us_il_chicago.json
+msgctxt "Name"
+msgid "Regional Transport Authority Chicago"
+msgstr ""
+
+#: src/networks/us_ca_bart.json
+msgctxt "Name"
+msgid "Bay Area Rapid Transit (BART)"
+msgstr ""
+
 #: src/networks/railteam.json
 msgctxt "Name"
 msgid "Railteam"
@@ -139,6 +149,14 @@ msgstr ""
 msgctxt "Name"
 msgid "Nahverkehrsservice Sachsen-Anhalt (INSA)"
 msgstr ""
+
+#: src/networks/de_bw_kvv.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Berliner Verkehrsbetriebe (BVG)"
+msgctxt "Name"
+msgid "Karlsruher Verkehrsverbund (KVV)"
+msgstr "Berliner Verkehrsbetriebe (BVG)"
 
 #: src/networks/pl_pkp.json
 msgctxt "Name"
@@ -217,6 +235,16 @@ msgctxt "Description"
 msgid "Local transport in and around Stuttgart, Germany."
 msgstr ""
 
+#: src/networks/us_il_chicago.json
+msgctxt "Description"
+msgid "Local transport in and around Chicago, Illinois, United States."
+msgstr ""
+
+#: src/networks/us_ca_bart.json
+msgctxt "Description"
+msgid "Local transport in the bay area in California, United States."
+msgstr ""
+
 #: src/networks/railteam.json
 msgctxt "Description"
 msgid "Joint service of European national railway operators."
@@ -265,6 +293,11 @@ msgstr ""
 #: src/networks/de_st_insa.json
 msgctxt "Description"
 msgid "Local transport in Sachsen-Anhalt, Germany."
+msgstr ""
+
+#: src/networks/de_bw_kvv.json
+msgctxt "Description"
+msgid "Local transport in and around Karlsruhe, Germany."
 msgstr ""
 
 #: src/networks/pl_pkp.json
