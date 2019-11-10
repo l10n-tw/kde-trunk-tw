@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-09 03:14+0100\n"
+"POT-Creation-Date: 2019-11-10 03:18+0100\n"
 "PO-Revision-Date: 2018-05-19 11:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -733,12 +733,6 @@ msgstr ""
 msgctxt "@info"
 msgid "<para>%1</para><para>Please select a new default calendar.</para>"
 msgstr "<para>%1</para> <para>請選擇新的預設行事曆。</para>"
-
-#: collectionmodel.cpp:340
-#, kde-format
-msgctxt "@title:window"
-msgid "Choose Calendar"
-msgstr "選擇行事曆"
 
 #: commandoptions.cpp:64
 #, kde-format
@@ -5916,13 +5910,13 @@ msgctxt "@info"
 msgid "Failed to update calendar \"%1\"."
 msgstr "更新行事曆「%1」失敗。"
 
-#: resources/resourcemodel.cpp:327
+#: resources/resourcemodel.cpp:345
 #, kde-format
 msgctxt "@info"
 msgid "You cannot disable your default active alarm calendar."
 msgstr "您無法關閉作用中的預設鬧鐘行事曆。"
 
-#: resources/resourcemodel.cpp:333
+#: resources/resourcemodel.cpp:351
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -5930,11 +5924,23 @@ msgid ""
 "are configured to be kept."
 msgstr "您無法關閉您預設的歸檔鬧鐘行事曆，因為您設定將逾時的鬧鐘保留住。"
 
-#: resources/resourcemodel.cpp:337
+#: resources/resourcemodel.cpp:355
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to disable your default calendar?"
 msgstr "您真的要關閉您的預設行事曆嗎？"
+
+#: resources/resources.cpp:283
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Calendar"
+msgstr "選擇行事曆"
+
+#: resources/resourceselectdialog.cpp:47
+#, kde-format
+msgctxt "@info A prompt for user to enter what to search for"
+msgid "Search"
+msgstr ""
 
 #: resources/resourcetype.cpp:260
 #, fuzzy, kde-format

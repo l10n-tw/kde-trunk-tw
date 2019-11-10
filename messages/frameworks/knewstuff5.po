@@ -485,24 +485,18 @@ msgstr "設定選單 - %1"
 
 #: kmoretools/kmoretoolsmenufactory.cpp:185
 #, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "$GenericName - current folder"
 msgctxt "@action:inmenu %1=\"$GenericName\""
 msgid "%1 - current folder"
 msgstr "%1 - 目前資料夾"
 
 #: kmoretools/kmoretoolsmenufactory.cpp:193
 #, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "$GenericName - current device"
 msgctxt "@action:inmenu %1=\"$GenericName\""
 msgid "%1 - current device"
 msgstr "%1 - 目前裝置"
 
 #: kmoretools/kmoretoolsmenufactory.cpp:208
 #, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "$GenericName - all devices"
 msgctxt "@action:inmenu %1=\"$GenericName\""
 msgid "%1 - all devices"
 msgstr "%1 - 所有裝置"
@@ -808,7 +802,6 @@ msgstr "搜尋…"
 
 #: qtquick/qml/Page.qml:243
 #, kde-format
-#| msgid "Loading Preview"
 msgctxt ""
 "A text shown beside a busy indicator suggesting that data is being fetched"
 msgid "Loading more..."
@@ -853,14 +846,12 @@ msgstr "由 <i>%1</i>"
 
 #: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:59
 #, kde-format
-#| msgid "Installing"
 msgctxt "Label for the busy indicator showing an item is being installed"
 msgid "Installing..."
 msgstr "安裝中..."
 
 #: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:61
 #, kde-format
-#| msgid "Updating"
 msgctxt ""
 "Label for the busy indicator showing an item is in the process of being "
 "updated"
@@ -869,12 +860,6 @@ msgstr "更新中..."
 
 #: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:63
 #, kde-format
-#| msgctxt ""
-#| "Status message which should only be shown when the entry has been given "
-#| "some unknown or invalid status."
-#| msgid ""
-#| "This item is currently in an invalid or unknown state. Please report this "
-#| "to the KDE Community in a bug report."
 msgctxt ""
 "Label for the busy indicator which should only be shown when the entry has "
 "been given some unknown or invalid status."
@@ -885,7 +870,6 @@ msgstr "處於無效或未知狀態。請在臭蟲報告中回報此問題至 KD
 
 #: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:75
 #, kde-format
-#| msgid "Installing"
 msgctxt "Label for the busy indicator showing an item is installing"
 msgid "Installing..."
 msgstr "安裝中"
@@ -909,7 +893,8 @@ msgctxt ""
 msgid ""
 "You are not authorized to Get Hot New Stuff. If you think this is in error, "
 "please contact the person in charge of your permissions."
-msgstr "您未授權使用「取得新熱門項目」。如果你認為這是錯誤，請聯絡負責您權限的人。"
+msgstr ""
+"您未授權使用「取得新熱門項目」。如果你認為這是錯誤，請聯絡負責您權限的人。"
 
 #: qtquick/quickitemsmodel.cpp:428
 #, kde-format
