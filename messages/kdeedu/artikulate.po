@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-03 02:52+0100\n"
+"POT-Creation-Date: 2019-11-11 03:00+0100\n"
 "PO-Revision-Date: 2019-09-22 19:06+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -188,7 +188,7 @@ msgstr ""
 msgid "Please select a course"
 msgstr "請選擇課程"
 
-#: src/core/resources/editablecourseresource.cpp:278
+#: src/core/resources/editablecourseresource.cpp:279
 #, kde-format
 msgid "New Unit"
 msgstr "新單位"
@@ -308,13 +308,13 @@ msgctxt "@item:inmenu"
 msgid "Learner Profile"
 msgstr "學習者設定檔"
 
-#: src/mainwindow.cpp:127 src/mainwindow_editor.cpp:119
+#: src/mainwindow.cpp:127 src/mainwindow_editor.cpp:116
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Sound Devices"
 msgstr "音效裝置"
 
-#: src/mainwindow.cpp:127 src/mainwindow_editor.cpp:119
+#: src/mainwindow.cpp:127 src/mainwindow_editor.cpp:116
 #, kde-format
 msgctxt "@title:tab"
 msgid "Sound Device Settings"
@@ -414,7 +414,7 @@ msgstr ""
 msgid "Download Training"
 msgstr "下載課程"
 
-#: src/qml/ArtikulateDrawer.qml:145 src/qml/EditorDrawer.qml:150
+#: src/qml/ArtikulateDrawer.qml:145 src/qml/EditorDrawer.qml:161
 #, kde-format
 msgid "About"
 msgstr "關於"
@@ -591,6 +591,11 @@ msgstr "課程"
 #| msgid "Course Repository: %1"
 msgid "Repository"
 msgstr "課程主目錄：%1"
+
+#: src/qml/EditorDrawer.qml:135
+#, kde-format
+msgid "Save"
+msgstr ""
 
 #: src/qml/EditorSkeletonSelectionPage.qml:29
 #, fuzzy, kde-format

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadi_imap_resource\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-04 03:19+0100\n"
+"POT-Creation-Date: 2019-11-11 03:24+0100\n"
 "PO-Revision-Date: 2018-07-10 14:33+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -87,7 +87,7 @@ msgstr "將某些 %1 的權限控制清單寫入 IMAP 伺服器時失敗。 %2"
 msgid "IMAP Account"
 msgstr "IMAP 帳號"
 
-#: imapresource.cpp:76
+#: imapresource.cpp:77
 #, kde-format
 msgid "IMAP Account Settings"
 msgstr "IMAP 帳號設定"
@@ -274,89 +274,89 @@ msgstr "定義自訂的 sieve 伺服器使用的認證型態"
 msgid "No server configured yet."
 msgstr "還沒設定伺服器。"
 
-#: imapresourcebase.cpp:269
+#: imapresourcebase.cpp:270
 #, kde-format
 msgctxt "@title:window"
 msgid "Serverside Subscription"
 msgstr "伺服器端訂閱"
 
-#: imapresourcebase.cpp:291
+#: imapresourcebase.cpp:292
 #, kde-format
 msgid "Connection established."
 msgstr "連線已建立。"
 
-#: imapresourcebase.cpp:308
+#: imapresourcebase.cpp:309
 #, kde-format
 msgid "Server is not available."
 msgstr "伺服器無法使用。"
 
-#: imapresourcebase.cpp:359
+#: imapresourcebase.cpp:360
 #, kde-format
 msgctxt "@info:status"
 msgid "Adding item in '%1'"
 msgstr "於 %1 內新增項目"
 
-#: imapresourcebase.cpp:366
+#: imapresourcebase.cpp:367
 #, kde-format
 msgctxt "@info:status"
 msgid "Updating item in '%1'"
 msgstr "於 %1 內更新項目"
 
-#: imapresourcebase.cpp:373
+#: imapresourcebase.cpp:374
 #, kde-format
 msgctxt "@info:status"
 msgid "Updating items"
 msgstr "更新項目中"
 
-#: imapresourcebase.cpp:387
+#: imapresourcebase.cpp:388
 #, kde-format
 msgctxt "@info:status"
 msgid "Removing items"
 msgstr "移除項目中"
 
-#: imapresourcebase.cpp:404
+#: imapresourcebase.cpp:405
 #, kde-format
 msgctxt "@info:status"
 msgid "Moving items from '%1' to '%2'"
 msgstr "將項目從 %1 移到 %2"
 
-#: imapresourcebase.cpp:413
+#: imapresourcebase.cpp:414
 #, kde-format
 msgctxt "@info:status"
 msgid "Retrieving folders"
 msgstr "取得資料夾中"
 
-#: imapresourcebase.cpp:420
+#: imapresourcebase.cpp:421
 #, kde-format
 msgctxt "@info:status"
 msgid "Retrieving extra folder information for '%1'"
 msgstr "取得 %1 的額外資料夾資訊中"
 
-#: imapresourcebase.cpp:438
+#: imapresourcebase.cpp:439
 #, kde-format
 msgctxt "@info:status"
 msgid "Creating folder '%1'"
 msgstr "建立資料夾 %1 中"
 
-#: imapresourcebase.cpp:444
+#: imapresourcebase.cpp:445
 #, kde-format
 msgctxt "@info:status"
 msgid "Updating folder '%1'"
 msgstr "更新資料夾 %1 中"
 
-#: imapresourcebase.cpp:457
+#: imapresourcebase.cpp:458
 #, kde-format
 msgctxt "@info:status"
 msgid "Removing folder '%1'"
 msgstr "移除資料夾 %1 中"
 
-#: imapresourcebase.cpp:464
+#: imapresourcebase.cpp:465
 #, kde-format
 msgctxt "@info:status"
 msgid "Moving folder '%1' from '%2' to '%3'"
 msgstr "將資料夾 %1 從 %2 移動到 %3 中"
 
-#: imapresourcebase.cpp:495
+#: imapresourcebase.cpp:496
 #, kde-format
 msgctxt "@info:status"
 msgid "Searching..."
@@ -616,7 +616,7 @@ msgctxt "Input username/password manually and not store them"
 msgid "Try Again"
 msgstr "再試一次"
 
-#: settingspasswordrequester.cpp:167
+#: settingspasswordrequester.cpp:168
 #, kde-format
 msgid "Please enter password for user '%1' on IMAP server '%2'."
 msgstr "請輸入使用者 %1 在 IMAP 伺服器 %2 上密碼。"

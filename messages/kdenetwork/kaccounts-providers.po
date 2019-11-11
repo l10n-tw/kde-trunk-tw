@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:09+0200\n"
+"POT-Creation-Date: 2019-11-11 03:12+0100\n"
 "PO-Revision-Date: 2017-03-12 20:45+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -31,16 +31,12 @@ msgstr "無法連線到指定伺服器 URL 的 ownCloud。請檢查伺服器 URL
 msgid "Unable to authenticate using the provided username and password"
 msgstr "無法使用提供的使用者名稱與密碼進行驗證"
 
-#. Runners-ID Contacts - Service name being displayed as a checkbox label to enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes sense
 #. "Contacts" on Facebook - Service name being displayed as a checkbox label to enable/disable this service
 #. Would be nice to use the localized name of this service if it exists/makes sense
-#. Google's Contacts - Service name being displayed as a checkbox label to enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes sense
-#. ownCloud's Contacts - Service name being displayed as a checkbox label to enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes sense
-#: tmp/facebook-contacts.service.in.h:3 tmp/google-contacts.service.in.h:3
-#: tmp/owncloud-contacts.service.in.h:3 tmp/runners-contacts.service.in.h:3
+#: tmp/facebook-contacts.service.in.h:3
+#, fuzzy
+#| msgid "Contacts"
+msgctxt "Facebook Contacts"
 msgid "Contacts"
 msgstr "聯絡人"
 
@@ -83,6 +79,15 @@ msgstr "包括文章、備忘、事件、通知與聊天"
 msgid "Calendars and Tasks"
 msgstr "日曆與待辦事項"
 
+#. Google's Contacts - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: tmp/google-contacts.service.in.h:3
+#, fuzzy
+#| msgid "Contacts"
+msgctxt "Google Contacts"
+msgid "Contacts"
+msgstr "聯絡人"
+
 #: tmp/google.provider.in.h:1
 msgid "Google"
 msgstr "Google"
@@ -106,6 +111,15 @@ msgstr "identi.ca"
 msgid "Calendar"
 msgstr "行事曆"
 
+#. ownCloud's Contacts - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: tmp/owncloud-contacts.service.in.h:3
+#, fuzzy
+#| msgid "Contacts"
+msgctxt "ownCloud Contacts"
+msgid "Contacts"
+msgstr "聯絡人"
+
 #. Runners-ID Storage - Service name being displayed as a checkbox label to enable/disable this service
 #. Would be nice to use the localized name of this service if it exists/makes sense
 #. ownCloud's Storage - Service name being displayed as a checkbox label to enable/disable this service
@@ -122,6 +136,15 @@ msgstr "ownCloud"
 #: tmp/owncloud.provider.in.h:3
 msgid "ownCloud account"
 msgstr "ownCloud 帳號"
+
+#. Runners-ID Contacts - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: tmp/runners-contacts.service.in.h:3
+#, fuzzy
+#| msgid "Contacts"
+msgctxt "Runners-ID Contacts"
+msgid "Contacts"
+msgstr "聯絡人"
 
 #. Runners-ID Music - Service name being displayed as a checkbox label to enable/disable this service
 #. Would be nice to use the localized name of this service if it exists/makes sense

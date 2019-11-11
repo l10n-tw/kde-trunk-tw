@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevplatform\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-02 02:44+0100\n"
+"POT-Creation-Date: 2019-11-11 02:43+0100\n"
 "PO-Revision-Date: 2014-04-23 15:00+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -2306,17 +2306,17 @@ msgstr "顯示文件"
 msgid "Untitled"
 msgstr "未命名"
 
-#: shell/documentcontroller.cpp:128
+#: shell/documentcontroller.cpp:127
 #, kde-format
 msgid "Open File"
 msgstr "開啟檔案"
 
-#: shell/documentcontroller.cpp:129
+#: shell/documentcontroller.cpp:128
 #, kde-format
 msgid "*|Text File\n"
 msgstr "*.*|文字檔\n"
 
-#: shell/documentcontroller.cpp:321
+#: shell/documentcontroller.cpp:320
 #, kde-format
 msgid ""
 "KDevelop could not find the editor for file '%1' of type %2.\n"
@@ -2325,125 +2325,125 @@ msgstr ""
 "KDevelop 找不到編輯器編輯型態為 %2 的檔案 %1。\n"
 "您要以純文字模式開啟嗎？"
 
-#: shell/documentcontroller.cpp:321
+#: shell/documentcontroller.cpp:320
 #, kde-format
 msgctxt "@title:window"
 msgid "Could Not Find Editor"
 msgstr "找不到編輯器"
 
-#: shell/documentcontroller.cpp:600
+#: shell/documentcontroller.cpp:598
 #, kde-format
 msgid "&Open..."
 msgstr "開啟(&O)..."
 
-#: shell/documentcontroller.cpp:603
+#: shell/documentcontroller.cpp:601
 #, kde-format
 msgid "Open file"
 msgstr "開啟檔案"
 
-#: shell/documentcontroller.cpp:604
+#: shell/documentcontroller.cpp:602
 #, kde-format
 msgid "Opens a file for editing."
 msgstr "開啟檔案以編輯。"
 
-#: shell/documentcontroller.cpp:608
+#: shell/documentcontroller.cpp:606
 #, kde-format
 msgid ""
 "This lists files which you have opened recently, and allows you to easily "
 "open them again."
 msgstr "這是您最近開啟的檔案清單，並且讓您可以很容易的再次開啟它們。"
 
-#: shell/documentcontroller.cpp:613
+#: shell/documentcontroller.cpp:611
 #, kde-format
 msgid "Save Al&l"
 msgstr "全部儲存(&L)"
 
-#: shell/documentcontroller.cpp:615
+#: shell/documentcontroller.cpp:613
 #, kde-format
 msgid "Save all open documents"
 msgstr "儲存所有開啟的文件"
 
-#: shell/documentcontroller.cpp:616
+#: shell/documentcontroller.cpp:614
 #, kde-format
 msgid ""
 "Save all open documents, prompting for additional information when necessary."
 msgstr "儲存所有開啟的文件，若需要的話會提示詢問更多資訊。"
 
-#: shell/documentcontroller.cpp:622 shell/mainwindow_p.cpp:383
+#: shell/documentcontroller.cpp:620 shell/mainwindow_p.cpp:383
 #, kde-format
 msgid "Reload All"
 msgstr "全部重新載入"
 
-#: shell/documentcontroller.cpp:624
+#: shell/documentcontroller.cpp:622
 #, kde-format
 msgid "Revert all open documents"
 msgstr "回復所有開啟的文件"
 
-#: shell/documentcontroller.cpp:625
+#: shell/documentcontroller.cpp:623
 #, kde-format
 msgid "Revert all open documents, returning to the previously saved state."
 msgstr "回復所有開啟的文件，回到先前未變更的狀態。"
 
-#: shell/documentcontroller.cpp:631
+#: shell/documentcontroller.cpp:629
 #, kde-format
 msgid "&Close"
 msgstr "關閉(&C)"
 
-#: shell/documentcontroller.cpp:633
+#: shell/documentcontroller.cpp:631
 #, kde-format
 msgid "Close file"
 msgstr "關閉檔案"
 
-#: shell/documentcontroller.cpp:634
+#: shell/documentcontroller.cpp:632
 #, kde-format
 msgid "Closes current file."
 msgstr "關閉目前的檔案。"
 
-#: shell/documentcontroller.cpp:639
+#: shell/documentcontroller.cpp:637
 #, kde-format
 msgid "Clos&e All"
 msgstr "全部關閉(&C)"
 
-#: shell/documentcontroller.cpp:641
+#: shell/documentcontroller.cpp:639
 #, kde-format
 msgid "Close all open documents"
 msgstr "關閉所有開啟的文件。"
 
-#: shell/documentcontroller.cpp:642
+#: shell/documentcontroller.cpp:640
 #, kde-format
 msgid ""
 "Close all open documents, prompting for additional information when "
 "necessary."
 msgstr "關閉所有開啟的文件，若需要的話會提示詢問更多資訊。"
 
-#: shell/documentcontroller.cpp:648
+#: shell/documentcontroller.cpp:646
 #, kde-format
 msgid "Close All Ot&hers"
 msgstr "關閉所有其它的文件(&H)"
 
-#: shell/documentcontroller.cpp:650
+#: shell/documentcontroller.cpp:648
 #, kde-format
 msgid "Close all other documents"
 msgstr "關閉所有其它的文件"
 
-#: shell/documentcontroller.cpp:651
+#: shell/documentcontroller.cpp:649
 #, kde-format
 msgid ""
 "Close all open documents, with the exception of the currently active "
 "document."
 msgstr "關閉所有開啟的文件，只留下目前編輯中的文件。"
 
-#: shell/documentcontroller.cpp:656
+#: shell/documentcontroller.cpp:654
 #, kde-format
 msgid "Show Annotate on current document"
 msgstr "顯示目前文件的註記"
 
-#: shell/documentcontroller.cpp:657
+#: shell/documentcontroller.cpp:655
 #, kde-format
 msgid "Annotate"
 msgstr "最後狀態註記"
 
-#: shell/documentcontroller.cpp:1270
+#: shell/documentcontroller.cpp:1259
 #, kde-format
 msgid ""
 "Could not annotate the document because it is not part of a version-"
@@ -2860,7 +2860,7 @@ msgstr "選取的網址不合法。"
 msgid "Open existing file \"%1\""
 msgstr "開啟現有的檔案"
 
-#: shell/partcontroller.cpp:276
+#: shell/partcontroller.cpp:257
 #, kde-format
 msgid "Use this command to show or hide the view's statusbar"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktimetracker\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-10 03:25+0100\n"
+"POT-Creation-Date: 2019-11-11 03:31+0100\n"
 "PO-Revision-Date: 2019-06-25 16:18+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -746,29 +746,29 @@ msgstr ""
 msgid "Your virtual desktop number is too high, desktop tracking will not work"
 msgstr "您的虛擬桌面編號太大，桌面追蹤將無法運作。"
 
-#: src/taskview.cpp:372
+#: src/taskview.cpp:375
 #, kde-format
 msgid "Stopping timers..."
 msgstr "停止計時器…"
 
-#: src/taskview.cpp:372
+#: src/taskview.cpp:375
 #, kde-format
 msgid "Cancel"
 msgstr "取消"
 
-#: src/taskview.cpp:464
+#: src/taskview.cpp:473
 #, fuzzy, kde-format
 #| msgid "New Task"
 msgctxt "@title:window"
 msgid "New Task"
 msgstr "新工作"
 
-#: src/taskview.cpp:473 src/taskview.cpp:552
+#: src/taskview.cpp:482 src/taskview.cpp:561
 #, kde-format
 msgid "Unnamed Task"
 msgstr "未命名工作"
 
-#: src/taskview.cpp:493
+#: src/taskview.cpp:502
 #, kde-format
 msgid ""
 "Error storing new task. Your changes were not saved. Make sure you can edit "
@@ -779,26 +779,26 @@ msgstr ""
 "也請將所有使用這個檔案的應用程式關閉，並從 ~/.kde/share/apps/kabc/lock 目錄中"
 "將跟這個名字有關的鎖定檔移除。"
 
-#: src/taskview.cpp:532
+#: src/taskview.cpp:541
 #, fuzzy, kde-format
 #| msgid "New Sub Task"
 msgctxt "@title:window"
 msgid "New Sub Task"
 msgstr "新增子工作"
 
-#: src/taskview.cpp:549
+#: src/taskview.cpp:558
 #, fuzzy, kde-format
 #| msgid "Edit Task"
 msgctxt "@title:window"
 msgid "Edit Task"
 msgstr "編輯工作"
 
-#: src/taskview.cpp:611 src/taskview.cpp:651 src/taskview.cpp:672
+#: src/taskview.cpp:620 src/taskview.cpp:660 src/taskview.cpp:681
 #, kde-format
 msgid "No task selected."
 msgstr "沒有選擇工作。"
 
-#: src/taskview.cpp:656
+#: src/taskview.cpp:665
 #, kde-format
 msgid ""
 "Are you sure you want to delete the selected task and its entire history?\n"
@@ -807,7 +807,7 @@ msgstr ""
 "您確定要刪除選取的工作及它所有的歷史紀錄嗎？\n"
 "注意：所有相關子工作及歷史紀錄都會被刪除。"
 
-#: src/taskview.cpp:660
+#: src/taskview.cpp:669
 #, kde-format
 msgid "Deleting Task"
 msgstr "刪除工作中"
@@ -1000,12 +1000,13 @@ msgstr "這會刪除選取的工作與其所有的子工作。"
 
 #: src/timetrackerwidget.cpp:243
 #, kde-format
-msgid "&Edit..."
-msgstr "編輯(&E)..."
+msgid "&Properties"
+msgstr ""
 
 #: src/timetrackerwidget.cpp:244
-#, kde-format
-msgid "Edits name or times for selected task"
+#, fuzzy, kde-format
+#| msgid "Edits name or times for selected task"
+msgid "Edit name or description for selected task"
 msgstr "編輯選取工作的名稱或時間"
 
 #: src/timetrackerwidget.cpp:245
@@ -1222,6 +1223,9 @@ msgstr "5（中等）"
 msgctxt "combox entry for lowest priority"
 msgid "9 (lowest)"
 msgstr "9（最低）"
+
+#~ msgid "&Edit..."
+#~ msgstr "編輯(&E)..."
 
 #~ msgid "Add/Edit a task"
 #~ msgstr "新增/編輯工作"
