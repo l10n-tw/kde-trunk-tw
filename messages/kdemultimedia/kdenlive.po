@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-11 03:11+0100\n"
+"POT-Creation-Date: 2019-11-12 03:14+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -5290,12 +5290,10 @@ msgstr "重置特效"
 msgid "Delete keyframes"
 msgstr "移除關鍵幀"
 
-#: src/assets/keyframes/model/keyframemodellist.cpp:495
-#: src/assets/view/widgets/animationwidget.cpp:123
-#: src/assets/view/widgets/keyframewidget.cpp:82
+#: src/assets/keyframes/model/keyframemodellist.cpp:494
 #, kde-format
-msgid "Keyframe interpolation"
-msgstr "動態曲線"
+msgid "Missing keyframe detected at %1, automatically re-added"
+msgstr ""
 
 #: src/assets/model/assetcommand.cpp:41 src/assets/model/assetcommand.cpp:44
 #: src/assets/model/assetcommand.cpp:92 src/assets/model/assetcommand.cpp:95
@@ -5313,6 +5311,12 @@ msgstr "編輯關鍵幀"
 #, fuzzy, kde-format
 msgid "Update %1"
 msgstr "儲存編碼方案"
+
+#: src/assets/model/assetparametermodel.cpp:690
+#: src/assets/model/assetparametermodel.cpp:737
+#, fuzzy, kde-format
+msgid "Cannot open preset file %1"
+msgstr "無法寫入檔案 %1"
 
 #: src/assets/view/assetparameterview.cpp:65
 #, kde-format
@@ -5369,6 +5373,12 @@ msgstr "下一個關鍵影格"
 #, fuzzy, kde-format
 msgid "Presets"
 msgstr "預設"
+
+#: src/assets/view/widgets/animationwidget.cpp:123
+#: src/assets/view/widgets/keyframewidget.cpp:82
+#, kde-format
+msgid "Keyframe interpolation"
+msgstr "動態曲線"
 
 #: src/assets/view/widgets/animationwidget.cpp:124
 #: src/assets/view/widgets/animationwidget.cpp:140
@@ -6375,14 +6385,14 @@ msgstr "字幕 / 標題樣板素材"
 
 #: src/dialogs/clipcreationdialog.cpp:352 src/dvdwizard/dvdwizardvob.cpp:269
 #: src/effects/effectstack/view/collapsibleeffectview.cpp:235
-#: src/mainwindow.cpp:3253
+#: src/mainwindow.cpp:3252
 #, kde-format
 msgid "All Supported Files"
 msgstr "所有支援的檔案"
 
 #: src/dialogs/clipcreationdialog.cpp:352 src/dvdwizard/dvdwizardvob.cpp:270
 #: src/effects/effectstack/view/collapsibleeffectview.cpp:235
-#: src/mainwindow.cpp:3253 src/utils/resourcewidget.cpp:386
+#: src/mainwindow.cpp:3252 src/utils/resourcewidget.cpp:386
 #: src/utils/resourcewidget.cpp:389 src/utils/resourcewidget.cpp:391
 #, kde-format
 msgid "All Files"
@@ -6500,8 +6510,7 @@ msgstr "播放"
 
 #. i18n: ectx: Menu (transcoders)
 #: src/dialogs/kdenlivesettingsdialog.cpp:227
-#: src/dvdwizard/dvdwizardvob.cpp:133 src/jobs/transcodeclipjob.cpp:50
-#: src/kdenliveui.rc:60
+#: src/dvdwizard/dvdwizardvob.cpp:133 src/kdenliveui.rc:60
 #, kde-format
 msgid "Transcode"
 msgstr "轉換編碼"
@@ -8177,36 +8186,36 @@ msgstr "編輯素材剪輯"
 msgid "Extracting thumb from clip %1"
 msgstr "編輯素材剪輯"
 
-#: src/jobs/cutclipjob.cpp:59 src/monitor/monitor.cpp:488
+#: src/jobs/cutclipjob.cpp:58
 #, fuzzy, kde-format
-msgid "Extract Zone"
-msgstr "切除選取區段後前移"
+msgid "Extract Clip Zone"
+msgstr "截取畫面"
 
-#: src/jobs/cutclipjob.cpp:101
+#: src/jobs/cutclipjob.cpp:100
 #, kde-format
 msgid "Extracting %1 out of %2"
 msgstr ""
 
-#: src/jobs/cutclipjob.cpp:113 src/jobs/speedjob.cpp:139
+#: src/jobs/cutclipjob.cpp:112 src/jobs/speedjob.cpp:139
 #, fuzzy, kde-format
 #| msgid "Profile already exists"
 msgid "File already exists"
 msgstr "編碼方案已經存在"
 
-#: src/jobs/cutclipjob.cpp:135
+#: src/jobs/cutclipjob.cpp:134
 #, kde-format
 msgid "You cannot overwrite original clip."
 msgstr ""
 
-#: src/jobs/cutclipjob.cpp:156 src/jobs/transcodeclipjob.cpp:169
+#: src/jobs/cutclipjob.cpp:155 src/jobs/transcodeclipjob.cpp:169
 #, fuzzy, kde-format
 msgid "Failed to create file."
 msgstr "移除目前的檔案"
 
 #: src/jobs/filterclipjob.cpp:47
-#, fuzzy, kde-format
-msgid "Analyse clip"
-msgstr "分析"
+#, kde-format
+msgid "Apply Filter on Clip"
+msgstr ""
 
 #: src/jobs/filterclipjob.cpp:63 src/jobs/stabilizejob.cpp:64
 #, fuzzy, kde-format
@@ -8399,6 +8408,11 @@ msgstr ""
 #| msgid "Invalid clip"
 msgid "Invalid"
 msgstr "無效的素材"
+
+#: src/jobs/transcodeclipjob.cpp:50 src/project/cliptranscode.cpp:48
+#, kde-format
+msgid "Transcode Clip"
+msgstr "轉換素材編碼"
 
 #. i18n: ectx: Menu (project)
 #: src/kdenliveui.rc:13
@@ -8701,6 +8715,12 @@ msgstr "新增資料夾到資料庫"
 #, kde-format
 msgid "Enter a folder name"
 msgstr "輸入資料夾名稱"
+
+#: src/library/librarywidget.cpp:368
+#, fuzzy, kde-format
+#| msgid "Profile already exists"
+msgid "Folder %1 already exists"
+msgstr "編碼方案已經存在"
 
 #: src/library/librarywidget.cpp:372
 #, kde-format
@@ -9729,7 +9749,7 @@ msgstr "無法在已鎖定的軌道中使用調整工具"
 msgid "Cannot perform operation, target directory already exists: %1"
 msgstr "無法在已鎖定的軌道中使用調整工具"
 
-#: src/mainwindow.cpp:1828 src/mainwindow.cpp:3737 src/mainwindow.cpp:3752
+#: src/mainwindow.cpp:1828 src/mainwindow.cpp:3733 src/mainwindow.cpp:3748
 #, kde-format
 msgid "Rendering using low quality track compositing"
 msgstr ""
@@ -9876,71 +9896,71 @@ msgstr "轉換編碼"
 msgid "Interface"
 msgstr "交錯式"
 
-#: src/mainwindow.cpp:3255
+#: src/mainwindow.cpp:3254
 #, fuzzy, kde-format
 #| msgid "Close after transcode"
 msgid "Files to transcode"
 msgstr "轉換編碼後結束 Kdenlive"
 
-#: src/mainwindow.cpp:3391
+#: src/mainwindow.cpp:3390
 #, kde-format
 msgid "Project file could not be saved for archiving."
 msgstr ""
 
-#: src/mainwindow.cpp:3396
+#: src/mainwindow.cpp:3395
 #, fuzzy, kde-format
 msgid "Archiving project"
 msgstr "專案封存"
 
-#: src/mainwindow.cpp:3619
+#: src/mainwindow.cpp:3615
 #, fuzzy, kde-format
 msgid "Icon Size"
 msgstr "預覽視窗尺寸"
 
-#: src/mainwindow.cpp:3623
+#: src/mainwindow.cpp:3619
 #, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr "預設"
 
-#: src/mainwindow.cpp:3644 src/mainwindow.cpp:3672
+#: src/mainwindow.cpp:3640 src/mainwindow.cpp:3668
 #, kde-format
 msgid "Small (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3646 src/mainwindow.cpp:3674
+#: src/mainwindow.cpp:3642 src/mainwindow.cpp:3670
 #, kde-format
 msgid "Medium (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3648 src/mainwindow.cpp:3676
+#: src/mainwindow.cpp:3644 src/mainwindow.cpp:3672
 #, kde-format
 msgid "Large (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3650 src/mainwindow.cpp:3678
+#: src/mainwindow.cpp:3646 src/mainwindow.cpp:3674
 #, kde-format
 msgid "Huge (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3716
+#: src/mainwindow.cpp:3712
 #, kde-format
 msgid "Manage Cache Data"
 msgstr "管理緩存數據"
 
-#: src/mainwindow.cpp:3759
+#: src/mainwindow.cpp:3755
 #, kde-format
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing Ctrl"
 "+M."
 msgstr ""
 
-#: src/mainwindow.cpp:3759
+#: src/mainwindow.cpp:3755
 #, fuzzy, kde-format
 msgid "Hide menu bar"
 msgstr "隱藏幀"
 
-#: src/mainwindow.cpp:3774
+#: src/mainwindow.cpp:3770
 #, fuzzy, kde-format
 #| msgid ""
 #| "Kdenlive needs to be restarted to apply icon theme change. Restart now ?"
@@ -10368,6 +10388,11 @@ msgstr "顯示/隱藏 編輯模式"
 #, fuzzy, kde-format
 msgid "Save zone"
 msgstr "儲存區段"
+
+#: src/monitor/monitor.cpp:488
+#, fuzzy, kde-format
+msgid "Extract Zone"
+msgstr "切除選取區段後前移"
 
 #: src/monitor/monitor.cpp:498
 #, kde-format
@@ -10803,11 +10828,6 @@ msgstr "項目設定"
 #, kde-format
 msgid "The stabilize job will overwrite the following files:"
 msgstr ""
-
-#: src/project/cliptranscode.cpp:48
-#, kde-format
-msgid "Transcode Clip"
-msgstr "轉換素材編碼"
 
 #: src/project/cliptranscode.cpp:138
 #, kde-format
@@ -16165,6 +16185,10 @@ msgstr ""
 msgctxt "h as hours"
 msgid "%1h"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Analyse clip"
+#~ msgstr "分析"
 
 #, fuzzy
 #~| msgid "Chroma Key"

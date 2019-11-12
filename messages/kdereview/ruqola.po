@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-05 03:13+0100\n"
+"POT-Creation-Date: 2019-11-12 03:18+0100\n"
 "PO-Revision-Date: 2019-09-28 03:06+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -487,36 +487,44 @@ msgstr ""
 msgid "Pinned Messages"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:125 apps/qml/ShowDiscussionsInRoomDialog.qml:29
+#: apps/qml/MainComponent.qml:125 apps/qml/ShowStarredMessagesDialog.qml:29
+msgid "Starred Messages"
+msgstr ""
+
+#: apps/qml/MainComponent.qml:133 apps/qml/ShowSnippetedMessagesDialog.qml:29
+msgid "Snippeted Messages"
+msgstr ""
+
+#: apps/qml/MainComponent.qml:141 apps/qml/ShowDiscussionsInRoomDialog.qml:29
 #: ruqolacore/model/roommodel.cpp:493
 msgid "Discussions"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:133 apps/qml/ShowThreadsInRoomDialog.qml:31
+#: apps/qml/MainComponent.qml:149 apps/qml/ShowThreadsInRoomDialog.qml:31
 msgid "Threads"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:143
+#: apps/qml/MainComponent.qml:159
 msgid "Video Chat"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:149
+#: apps/qml/MainComponent.qml:165
 msgid "Add User In Room"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:160
+#: apps/qml/MainComponent.qml:176
 msgid "Take a Video Message"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:167
+#: apps/qml/MainComponent.qml:183
 msgid "Load Recent History"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:174
+#: apps/qml/MainComponent.qml:190
 msgid "Show Files Attachment In Room"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:224
+#: apps/qml/MainComponent.qml:240
 msgid "Auto-Translate Activated"
 msgstr ""
 
@@ -828,6 +836,32 @@ msgstr ""
 #: apps/qml/ShowSearchMessageDialog.qml:68
 msgid "Any string found"
 msgstr ""
+
+#: apps/qml/ShowSnippetedMessagesDialog.qml:52
+msgid "Search Snippeted Messages..."
+msgstr ""
+
+#: apps/qml/ShowSnippetedMessagesDialog.qml:62
+msgid "No Snippeted Messages found"
+msgstr ""
+
+#: apps/qml/ShowSnippetedMessagesDialog.qml:62
+msgid "%1 Snippeted Message in room (Total: %2)"
+msgid_plural "%1 Starred Messages in room (Total: %2)"
+msgstr[0] ""
+
+#: apps/qml/ShowStarredMessagesDialog.qml:52
+msgid "Search Starred Messages..."
+msgstr ""
+
+#: apps/qml/ShowStarredMessagesDialog.qml:62
+msgid "No Starred Messages found"
+msgstr ""
+
+#: apps/qml/ShowStarredMessagesDialog.qml:62
+msgid "%1 Starred Message in room (Total: %2)"
+msgid_plural "%1 Starred Messages in room (Total: %2)"
+msgstr[0] ""
 
 #: apps/qml/ShowThreadMessagesDialog.qml:36
 msgid "Thread Messages: %1"
