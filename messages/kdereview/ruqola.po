@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-12 03:18+0100\n"
+"POT-Creation-Date: 2019-11-13 03:17+0100\n"
 "PO-Revision-Date: 2019-09-28 03:06+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -412,6 +412,19 @@ msgstr ""
 msgid "License"
 msgstr ""
 
+#: apps/qml/ListMessagesDialogBase.qml:52
+msgid "Search Messages..."
+msgstr ""
+
+#: apps/qml/ListMessagesDialogBase.qml:62
+msgid "No Messages found"
+msgstr ""
+
+#: apps/qml/ListMessagesDialogBase.qml:62
+msgid "%1 Message in room (Total: %2)"
+msgid_plural "%1 Messages in room (Total: %2)"
+msgstr[0] ""
+
 #: apps/qml/Login.qml:59
 msgid "Ruqola Log in"
 msgstr ""
@@ -811,20 +824,6 @@ msgid_plural "%1 mentions in room (Total: %2)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: apps/qml/ShowPinnedMessagesDialog.qml:52
-msgid "Search Pinned Messages..."
-msgstr ""
-
-#: apps/qml/ShowPinnedMessagesDialog.qml:62
-msgid "No Pinned Messages found"
-msgstr ""
-
-#: apps/qml/ShowPinnedMessagesDialog.qml:62
-msgid "%1 Pinned Message in room (Total: %2)"
-msgid_plural "%1 Pinned Messages in room (Total: %2)"
-msgstr[0] ""
-msgstr[1] ""
-
 #: apps/qml/ShowSearchMessageDialog.qml:33
 msgid "Search Message"
 msgstr ""
@@ -836,32 +835,6 @@ msgstr ""
 #: apps/qml/ShowSearchMessageDialog.qml:68
 msgid "Any string found"
 msgstr ""
-
-#: apps/qml/ShowSnippetedMessagesDialog.qml:52
-msgid "Search Snippeted Messages..."
-msgstr ""
-
-#: apps/qml/ShowSnippetedMessagesDialog.qml:62
-msgid "No Snippeted Messages found"
-msgstr ""
-
-#: apps/qml/ShowSnippetedMessagesDialog.qml:62
-msgid "%1 Snippeted Message in room (Total: %2)"
-msgid_plural "%1 Starred Messages in room (Total: %2)"
-msgstr[0] ""
-
-#: apps/qml/ShowStarredMessagesDialog.qml:52
-msgid "Search Starred Messages..."
-msgstr ""
-
-#: apps/qml/ShowStarredMessagesDialog.qml:62
-msgid "No Starred Messages found"
-msgstr ""
-
-#: apps/qml/ShowStarredMessagesDialog.qml:62
-msgid "%1 Starred Message in room (Total: %2)"
-msgid_plural "%1 Starred Messages in room (Total: %2)"
-msgstr[0] ""
 
 #: apps/qml/ShowThreadMessagesDialog.qml:36
 msgid "Thread Messages: %1"

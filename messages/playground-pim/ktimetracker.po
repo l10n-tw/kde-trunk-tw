@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktimetracker\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-12 03:29+0100\n"
+"POT-Creation-Date: 2019-11-13 03:32+0100\n"
 "PO-Revision-Date: 2019-06-25 16:18+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -368,29 +368,39 @@ msgstr "請選擇要刪除的工作。"
 msgid "Edit History"
 msgstr "編輯歷史"
 
-#: src/idletimedetector.cpp:75
-#, kde-format
-msgid "Continue timing. Timing has started at %1"
-msgstr "繼續計時。計時已從 %1 啟動"
-
 #: src/idletimedetector.cpp:76
 #, kde-format
-msgid "Continue timing."
+msgctxt "@info:tooltip"
+msgid ""
+"Apply the idle time since %1 to all active\n"
+"timers and keep them running."
+msgstr ""
+
+#: src/idletimedetector.cpp:77
+#, fuzzy, kde-format
+#| msgid "Continue timing."
+msgctxt "@action:button"
+msgid "Continue Timing"
 msgstr "繼續計時。"
 
-#: src/idletimedetector.cpp:78
-#, kde-format
-msgid "Stop timing and revert back to the time at %1."
+#: src/idletimedetector.cpp:79
+#, fuzzy, kde-format
+#| msgid "Stop timing and revert back to the time at %1."
+msgctxt "@info:tooltip"
+msgid "Stop timing and revert back to the time at %1"
 msgstr "停止計時，並在 %1 時回復"
 
-#: src/idletimedetector.cpp:79
-#, kde-format
-msgid "Revert timing"
+#: src/idletimedetector.cpp:80
+#, fuzzy, kde-format
+#| msgid "Revert timing"
+msgctxt "@action:button"
+msgid "Revert Timing"
 msgstr "重返並繼續"
 
-#: src/idletimedetector.cpp:83
-#, kde-format
-msgid "Desktop has been idle since %1. What do you want to do ?"
+#: src/idletimedetector.cpp:84
+#, fuzzy, kde-format
+#| msgid "Desktop has been idle since %1. What do you want to do ?"
+msgid "Desktop has been idle since %1. What do you want to do?"
 msgstr "桌面從 %1 開始閒置。您打算怎麼做？"
 
 #. i18n: ectx: Menu (clock)
@@ -423,7 +433,7 @@ msgstr "主工具列"
 msgid "Tasks"
 msgstr "工作"
 
-#: src/main.cpp:87 src/model/event.cpp:155 src/model/eventsmodel.cpp:132
+#: src/main.cpp:87 src/model/event.cpp:157 src/model/eventsmodel.cpp:132
 #, kde-format
 msgid "KTimeTracker"
 msgstr "KTimeTracker"
@@ -730,7 +740,7 @@ msgstr "完成百分比"
 msgid "Save tasks every:"
 msgstr "儲存工作間隔："
 
-#: src/taskview.cpp:121
+#: src/taskview.cpp:123
 #, kde-format
 msgid ""
 "Error storing new task. Your changes were not saved. Make sure you can edit "
@@ -741,34 +751,34 @@ msgstr ""
 "也請將所有使用這個檔案的應用程式關閉，並從 ~/.kde/share/apps/kabc/lock 目錄中"
 "將跟這個名字有關的鎖定檔移除。"
 
-#: src/taskview.cpp:213
+#: src/taskview.cpp:215
 #, kde-format
 msgid "Your virtual desktop number is too high, desktop tracking will not work"
 msgstr "您的虛擬桌面編號太大，桌面追蹤將無法運作。"
 
-#: src/taskview.cpp:375
+#: src/taskview.cpp:377
 #, kde-format
 msgid "Stopping timers..."
 msgstr "停止計時器…"
 
-#: src/taskview.cpp:375
+#: src/taskview.cpp:377
 #, kde-format
 msgid "Cancel"
 msgstr "取消"
 
-#: src/taskview.cpp:473
+#: src/taskview.cpp:475
 #, fuzzy, kde-format
 #| msgid "New Task"
 msgctxt "@title:window"
 msgid "New Task"
 msgstr "新工作"
 
-#: src/taskview.cpp:482 src/taskview.cpp:561
+#: src/taskview.cpp:484 src/taskview.cpp:563
 #, kde-format
 msgid "Unnamed Task"
 msgstr "未命名工作"
 
-#: src/taskview.cpp:502
+#: src/taskview.cpp:504
 #, kde-format
 msgid ""
 "Error storing new task. Your changes were not saved. Make sure you can edit "
@@ -779,26 +789,26 @@ msgstr ""
 "也請將所有使用這個檔案的應用程式關閉，並從 ~/.kde/share/apps/kabc/lock 目錄中"
 "將跟這個名字有關的鎖定檔移除。"
 
-#: src/taskview.cpp:541
+#: src/taskview.cpp:543
 #, fuzzy, kde-format
 #| msgid "New Sub Task"
 msgctxt "@title:window"
 msgid "New Sub Task"
 msgstr "新增子工作"
 
-#: src/taskview.cpp:558
+#: src/taskview.cpp:560
 #, fuzzy, kde-format
 #| msgid "Edit Task"
 msgctxt "@title:window"
 msgid "Edit Task"
 msgstr "編輯工作"
 
-#: src/taskview.cpp:620 src/taskview.cpp:660 src/taskview.cpp:681
+#: src/taskview.cpp:622 src/taskview.cpp:662 src/taskview.cpp:683
 #, kde-format
 msgid "No task selected."
 msgstr "沒有選擇工作。"
 
-#: src/taskview.cpp:665
+#: src/taskview.cpp:667
 #, kde-format
 msgid ""
 "Are you sure you want to delete the selected task and its entire history?\n"
@@ -807,7 +817,7 @@ msgstr ""
 "您確定要刪除選取的工作及它所有的歷史紀錄嗎？\n"
 "注意：所有相關子工作及歷史紀錄都會被刪除。"
 
-#: src/taskview.cpp:669
+#: src/taskview.cpp:671
 #, kde-format
 msgid "Deleting Task"
 msgstr "刪除工作中"
@@ -1223,6 +1233,9 @@ msgstr "5（中等）"
 msgctxt "combox entry for lowest priority"
 msgid "9 (lowest)"
 msgstr "9（最低）"
+
+#~ msgid "Continue timing. Timing has started at %1"
+#~ msgstr "繼續計時。計時已從 %1 啟動"
 
 #~ msgid "&Edit..."
 #~ msgstr "編輯(&E)..."

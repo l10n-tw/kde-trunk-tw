@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-12 02:38+0100\n"
+"POT-Creation-Date: 2019-11-13 02:40+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -209,7 +209,7 @@ msgstr "%1 %2"
 #: core/app/dragdrop/albumdragdrop.cpp:202
 #: core/app/dragdrop/albumdragdrop.cpp:311
 #: core/app/dragdrop/importdragdrop.cpp:100
-#: core/app/dragdrop/itemdragdrop.cpp:126 core/app/dragdrop/tagdragdrop.cpp:86
+#: core/app/dragdrop/itemdragdrop.cpp:129 core/app/dragdrop/tagdragdrop.cpp:86
 #, kde-format
 msgid "&Move Here"
 msgstr "移至此處(&M)"
@@ -221,7 +221,7 @@ msgstr "移至此處(&M)"
 #: core/app/dragdrop/albumdragdrop.cpp:314
 #: core/app/dragdrop/importdragdrop.cpp:64
 #: core/app/dragdrop/importdragdrop.cpp:163
-#: core/app/dragdrop/itemdragdrop.cpp:93 core/app/dragdrop/itemdragdrop.cpp:674
+#: core/app/dragdrop/itemdragdrop.cpp:93 core/app/dragdrop/itemdragdrop.cpp:686
 #: core/app/dragdrop/tagdragdrop.cpp:89 core/app/dragdrop/tagdragdrop.cpp:195
 #: core/app/dragdrop/tagdragdrop.cpp:251
 #: core/showfoto/thumbbar/showfotodragdrophandler.cpp:59
@@ -239,19 +239,19 @@ msgstr "設為相簿縮圖"
 #: core/app/dragdrop/albumdragdrop.cpp:203
 #: core/app/dragdrop/albumdragdrop.cpp:312
 #: core/app/dragdrop/importdragdrop.cpp:103
-#: core/app/dragdrop/itemdragdrop.cpp:129
+#: core/app/dragdrop/itemdragdrop.cpp:132
 #, kde-format
 msgid "&Copy Here"
 msgstr "複製至此處(&C)"
 
 #: core/app/dragdrop/albumdragdrop.cpp:264
-#: core/app/dragdrop/itemdragdrop.cpp:670
+#: core/app/dragdrop/itemdragdrop.cpp:682
 #, kde-format
 msgid "Download From Camera"
 msgstr "從相機下載"
 
 #: core/app/dragdrop/albumdragdrop.cpp:265
-#: core/app/dragdrop/itemdragdrop.cpp:672
+#: core/app/dragdrop/itemdragdrop.cpp:684
 #, kde-format
 msgid "Download && Delete From Camera"
 msgstr "從相機下載和刪除(&&)"
@@ -292,47 +292,47 @@ msgctxt "@action:inmenu Group images with this item and move them to its album"
 msgid "Group here and move to album"
 msgstr ""
 
-#: core/app/dragdrop/itemdragdrop.cpp:171
+#: core/app/dragdrop/itemdragdrop.cpp:174
 #, kde-format
 msgid "Assign Tag to Dropped Items"
 msgstr "指定標籤到丟棄的項目"
 
-#: core/app/dragdrop/itemdragdrop.cpp:578
+#: core/app/dragdrop/itemdragdrop.cpp:589
 #, fuzzy, kde-format
 #| msgid "Show Face Tags"
 msgid "Change Face Tags"
 msgstr "顯示臉孔標籤"
 
-#: core/app/dragdrop/itemdragdrop.cpp:582
+#: core/app/dragdrop/itemdragdrop.cpp:593
 #, fuzzy, kde-format
 #| msgid "Change Case"
 msgid "Change Face Tag"
 msgstr "改變大小寫"
 
-#: core/app/dragdrop/itemdragdrop.cpp:586
-#: core/app/dragdrop/itemdragdrop.cpp:630
+#: core/app/dragdrop/itemdragdrop.cpp:597
+#: core/app/dragdrop/itemdragdrop.cpp:642
 #: core/app/views/preview/itempreviewview.cpp:555
 #, kde-format
 msgid "&Cancel"
 msgstr "取消(&C)"
 
-#: core/app/dragdrop/itemdragdrop.cpp:615
+#: core/app/dragdrop/itemdragdrop.cpp:627
 #, kde-format
 msgid "Assign Tags to &Selected Items"
 msgstr "指定標籤到選擇的項目(&S)"
 
-#: core/app/dragdrop/itemdragdrop.cpp:623
+#: core/app/dragdrop/itemdragdrop.cpp:635
 #: core/app/views/preview/itempreviewview.cpp:553
 #, kde-format
 msgid "Assign Tags to &This Item"
 msgstr "指定標籤到這個項目(&T)"
 
-#: core/app/dragdrop/itemdragdrop.cpp:627
+#: core/app/dragdrop/itemdragdrop.cpp:639
 #, kde-format
 msgid "Assign Tags to &All Items"
 msgstr "指定標籤到所有項目(&A)"
 
-#: core/app/dragdrop/itemdragdrop.cpp:668
+#: core/app/dragdrop/itemdragdrop.cpp:680
 #, kde-format
 msgid "Importing"
 msgstr "匯入中"
@@ -4457,183 +4457,183 @@ msgid ""
 "<p>This Batch Queue Manager tool can add decorative border around images.</p>"
 msgstr ""
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:185
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:184
 #, kde-format
 msgid ""
 "Check this if you want the watermark to use the given size of the font or "
 "the image without any adjustment to the actual image."
 msgstr ""
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:188
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:187
 #, kde-format
 msgid "Use Absolute Size"
 msgstr ""
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:194
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:193
 #, kde-format
 msgid "Watermark type:"
 msgstr "浮水印型態："
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:204
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:203
 #: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:478
 #: core/utilities/fuzzysearch/fuzzysearchview.cpp:246
 #, kde-format
 msgid "Image"
 msgstr "影像"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:205
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:204
 #, kde-format
 msgid "Text"
 msgstr "文字"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:212
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:211
 #, kde-format
 msgid "Image settings"
 msgstr "影像設定值"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:220
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:219
 #, kde-format
 msgid "Click to select watermark image."
 msgstr "點擊以選擇浮水印影像。"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:221
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:220
 #, kde-format
 msgid "Watermark image:"
 msgstr "浮水殯影像："
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:230
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:229
 #, kde-format
 msgid ""
 "Check this if you want the watermark to ignore its own aspect ratio and use "
 "the image's aspect ratio instead."
 msgstr ""
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:234
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:233
 #, fuzzy, kde-format
 #| msgid "Item Aspect Ratio"
 msgid "Ignore Watermark aspect Ratio"
 msgstr "項目比例"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:239
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:238
 #, kde-format
 msgid "Text settings"
 msgstr "文字設定"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:248
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:247
 #, kde-format
 msgid "Enter your watermark string here."
 msgstr "在這裡輸入您的浮水印字串。"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:249
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:248
 #, kde-format
 msgid "Watermark text:"
 msgstr "浮水印文字："
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:256
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:255
 #, kde-format
 msgid "Choose the font type and style. Size is auto calculated."
 msgstr ""
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:262
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:261
 #, fuzzy, kde-format
 #| msgid "Set the font color to use here"
 msgid "Set the font color to use here."
 msgstr "在這裡設定字型顏色"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:263
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:262
 #: core/dplugins/generic/view/presentation/dialogs/presentation_captionpage.ui:147
 #, kde-format
 msgid "Font color:"
 msgstr "字型顏色："
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:268
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:267
 #, kde-format
 msgid "Text opacity:"
 msgstr "文字不透明度："
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:272
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:271
 #, kde-format
 msgid ""
 "Set the opacity of the watermark text. 100 is fully opaque, 0 is fully "
 "transparent."
 msgstr "設定浮水印文字的不透明度。100 是完全不透明，0 是完全透明。"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:282
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:281
 #, fuzzy, kde-format
 #| msgid "Check this if you want a background fill behind the text"
 msgid "Check this if you want a background fill behind the text."
 msgstr "若您要在文字後面填上背景，請勾選此項。"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:284
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:283
 #, kde-format
 msgid "Use background"
 msgstr "使用背景"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:290
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:289
 #, fuzzy, kde-format
 #| msgid "Choose the color of the watermark background"
 msgid "Choose the color of the watermark background."
 msgstr "選擇浮水印背景的顏色"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:291
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:290
 #: core/dplugins/generic/view/presentation/dialogs/presentation_captionpage.ui:154
 #, kde-format
 msgid "Background color:"
 msgstr "背景顏色："
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:296
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:295
 #: core/dplugins/generic/view/presentation/dialogs/presentation_captionpage.ui:140
 #, kde-format
 msgid "Background opacity:"
 msgstr "背景不透明度："
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:300
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:299
 #, kde-format
 msgid ""
 "Set the opacity of the watermark background. 100 is fully opaque, 0 is fully "
 "transparent."
 msgstr "設定浮水印背景的不透明度。100 是完全不透明，0 是完全透明。"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:310
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:309
 #, fuzzy, kde-format
 #| msgid "Location"
 msgid "Specific Location"
 msgstr "地點"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:311
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:310
 #, fuzzy, kde-format
 #| msgid "Presentation View"
 msgid "Systematic Repetition"
 msgstr "簡報檢視"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:312
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:311
 #, fuzzy, kde-format
 msgid "Random Repetition"
 msgstr "重新命名選項"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:313
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:312
 #, fuzzy, kde-format
 #| msgid "Placement:"
 msgid "Placement Type:"
 msgstr "位置："
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:321
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:320
 #, kde-format
 msgid ""
 "When you choose to have the watermark repeated many times in the placement "
 "combo box, you can specify here whether the repetition."
 msgstr ""
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:327
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:326
 #, kde-format
 msgid ""
 "Density of watermark repetition (Disabled in \"Specific Location\" mode)"
 msgstr ""
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:335
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:334
 #, kde-format
 msgid ""
 "When you choose to have the watermark repeated randomly in the placement "
@@ -4641,13 +4641,13 @@ msgid ""
 "180, 270 degrees)."
 msgstr ""
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:342
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:341
 #, kde-format
 msgid ""
 "Randomize watermark orientation (Enabled in \"Random Repetition\" mode only)"
 msgstr ""
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:353
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:352
 #, kde-format
 msgid ""
 "Use this to get more control over the sparsity of watermark repetition. The "
@@ -4655,100 +4655,100 @@ msgid ""
 "typically between 1.0 and 3.0. It can also be less than 1.0"
 msgstr ""
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:357
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:356
 #, fuzzy, kde-format
 msgid "Sparsity Factor:"
 msgstr "麥卡托投影（Mercator）"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:361
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:360
 #, kde-format
 msgid "Top left"
 msgstr "左上"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:362
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:361
 #, kde-format
 msgid "Top right"
 msgstr "右上"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:363
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:362
 #, kde-format
 msgid "Bottom left"
 msgstr "左下"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:364
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:363
 #, kde-format
 msgid "Bottom right"
 msgstr "右下"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:365
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:364
 #, kde-format
 msgid "Center"
 msgstr "置中"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:366
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:365
 #, fuzzy, kde-format
 #| msgid "Placement:"
 msgid "Placement Position:"
 msgstr "位置："
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:370
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:369
 #, fuzzy, kde-format
 #| msgid "90 degrees"
 msgid "0 degrees"
 msgstr "90 度"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:371
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:370
 #, fuzzy, kde-format
 #| msgid "90 degrees"
 msgid "90 degrees CW"
 msgstr "90 度"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:372
-#: core/dplugins/bqm/transform/rotate/rotate.cpp:96
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:371
+#: core/dplugins/bqm/transform/rotate/rotate.cpp:95
 #, kde-format
 msgid "180 degrees"
 msgstr "180 度"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:373
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:372
 #, fuzzy, kde-format
 #| msgid "270 degrees"
 msgid "270 degrees CW"
 msgstr "270 度"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:374
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:373
 #: core/dplugins/editor/decorate/inserttext/inserttexttool.cpp:204
 #, kde-format
 msgid "Rotation:"
 msgstr "旋轉："
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:380
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:379
 #, kde-format
 msgid "Size of watermark, as a percentage of the marked image."
 msgstr "浮水印佔影像的大小，單位為百分比。"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:381
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:380
 #, kde-format
 msgid "Size (%):"
 msgstr "大小（%）："
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:387
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:386
 #, fuzzy, kde-format
 #| msgid "Margin from edge in X direction, as a percentage of the marked image"
 msgid "Margin from edge in X direction, as a percentage of the marked image."
 msgstr "X 方向距離邊緣多寬，單位為百分比"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:388
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:387
 #, kde-format
 msgid "X margin (%):"
 msgstr "X 邊界（%）："
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:394
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:393
 #, fuzzy, kde-format
 #| msgid "Margin from edge in Y direction, as a percentage of the marked image"
 msgid "Margin from edge in Y direction, as a percentage of the marked image."
 msgstr "Y 方向距離邊緣多寬，單位為百分比"
 
-#: core/dplugins/bqm/decorate/watermark/watermark.cpp:395
+#: core/dplugins/bqm/decorate/watermark/watermark.cpp:394
 #, kde-format
 msgid "Y margin (%):"
 msgstr "Y 邊界（%）："
@@ -5272,22 +5272,22 @@ msgstr "以自訂長度調整影像大小。"
 msgid "<p>This Batch Queue Manager tool can resize images.</p>"
 msgstr ""
 
-#: core/dplugins/bqm/transform/rotate/rotate.cpp:91
+#: core/dplugins/bqm/transform/rotate/rotate.cpp:90
 #, kde-format
 msgid "Use Exif Orientation"
 msgstr "使用 Exif 方向標示"
 
-#: core/dplugins/bqm/transform/rotate/rotate.cpp:95
+#: core/dplugins/bqm/transform/rotate/rotate.cpp:94
 #, kde-format
 msgid "90 degrees"
 msgstr "90 度"
 
-#: core/dplugins/bqm/transform/rotate/rotate.cpp:97
+#: core/dplugins/bqm/transform/rotate/rotate.cpp:96
 #, kde-format
 msgid "270 degrees"
 msgstr "270 度"
 
-#: core/dplugins/bqm/transform/rotate/rotate.cpp:98
+#: core/dplugins/bqm/transform/rotate/rotate.cpp:97
 #: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:60
 #: core/libs/widgets/metadata/metadatawidget.cpp:142
 #: core/utilities/queuemanager/manager/batchtool.cpp:195
@@ -5295,7 +5295,7 @@ msgstr "270 度"
 msgid "Custom"
 msgstr "自訂"
 
-#: core/dplugins/bqm/transform/rotate/rotate.cpp:100
+#: core/dplugins/bqm/transform/rotate/rotate.cpp:99
 #, kde-format
 msgid "Angle:"
 msgstr "角度："
@@ -9204,9 +9204,9 @@ msgstr "儲存變更中 - %p% "
 #: core/dplugins/generic/webservices/box/boxtalker.cpp:383
 #: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:382
 #: core/dplugins/generic/webservices/facebook/fbtalker.cpp:586
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:799
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:823
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:983
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:797
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:821
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:981
 #: core/dplugins/generic/webservices/flickr/flickrwindow.cpp:474
 #: core/dplugins/generic/webservices/google/gdrive/gdtalker.cpp:307
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:644
@@ -17828,7 +17828,7 @@ msgstr "匯出工具"
 
 #: core/dplugins/generic/webservices/box/boxtalker.cpp:429
 #: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:425
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1158
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1156
 #: core/dplugins/generic/webservices/google/gdrive/gdtalker.cpp:476
 #: core/dplugins/generic/webservices/onedrive/odtalker.cpp:465
 #: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:678
@@ -18670,24 +18670,24 @@ msgctxt "@action"
 msgid "Export to &Flickr..."
 msgstr "匯出工具"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:372
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:370
 #, kde-format
 msgid "Getting the maximum allowed file size."
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:647
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:645
 #, kde-format
 msgid "File Size exceeds maximum allowed file size."
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:730
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:728
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:566
 #, fuzzy, kde-format
 #| msgid "Unspecified"
 msgid "No photo specified"
 msgstr "未指定"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:734
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:732
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:569
 #, fuzzy, kde-format
 #| msgctxt "@label"
@@ -18695,90 +18695,90 @@ msgstr "未指定"
 msgid "General upload failure"
 msgstr "旋轉檔案時"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:738
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:736
 #, fuzzy, kde-format
 #| msgid "File Size"
 msgid "Filesize was zero"
 msgstr "檔案大小"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:742
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:740
 #, kde-format
 msgid "Filetype was not recognized"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:746
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:744
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:578
 #, kde-format
 msgid "User exceeded upload limit"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:750
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:748
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:581
 #, kde-format
 msgid "Invalid signature"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:754
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:752
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:584
 #, kde-format
 msgid "Missing signature"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:758
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:756
 #, kde-format
 msgid "Login Failed / Invalid auth token"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:762
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:760
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:590
 #, kde-format
 msgid "Invalid API Key"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:766
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:764
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:593
 #, fuzzy, kde-format
 #| msgid "This collection is currently not available."
 msgid "Service currently unavailable"
 msgstr "這個收藏目前無法使用。"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:770
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:768
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:596
 #, kde-format
 msgid "Invalid Frob"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:774
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:772
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:599
 #, kde-format
 msgid "Format \"xxx\" not found"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:778
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:776
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:602
 #, fuzzy, kde-format
 #| msgid "Collection not found"
 msgid "Method \"xxx\" not found"
 msgstr "沒有找到任何收藏"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:782
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:780
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:605
 #, kde-format
 msgid "Invalid SOAP envelope"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:786
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:784
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:608
 #, kde-format
 msgid "Invalid XML-RPC Method Call"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:790
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:788
 #, kde-format
 msgid "The POST method is now required for all setters"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:794
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:792
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:614
 #: core/dplugins/generic/webservices/rajce/rajcewidget.cpp:236
 #: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:765
@@ -18787,26 +18787,26 @@ msgstr ""
 msgid "Unknown error"
 msgstr "未知的濾鏡"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:800
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:798
 #, kde-format
 msgid ""
 "Error Occurred: %1\n"
 "Cannot proceed any further."
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:983
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:981
 #, fuzzy, kde-format
 #| msgid "Correlation failed"
 msgid "PhotoSet creation failed: "
 msgstr "建立關聯失敗"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1078
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1076
 #, fuzzy, kde-format
 #| msgid "Failed to save tags to file."
 msgid "Failed to fetch list of photo sets."
 msgstr "儲存標籤到檔案中失敗。"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1217
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1215
 #, fuzzy, kde-format
 #| msgid "Failed to save some information:"
 msgid "Failed to query photo information"
