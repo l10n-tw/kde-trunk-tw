@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mathematik\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-25 02:59+0200\n"
+"POT-Creation-Date: 2019-11-14 02:56+0100\n"
 "PO-Revision-Date: 2019-09-22 19:06+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -1842,11 +1842,15 @@ msgid "*.R *.r|R source files (*.R, *.r)"
 msgstr "*.R *.r|R 語言源碼檔 (*.R, *.r)"
 
 #: backends/sage/sagebackend.cpp:94
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "the url to the documentation of Sage, please check if there is a "
+#| "translated version and use the correct url"
+#| msgid "http://doc.sagemath.org/html/en/reference/index.html"
 msgctxt ""
 "the url to the documentation of Sage, please check if there is a translated "
 "version and use the correct url"
-msgid "http://doc.sagemath.org/html/en/reference/index.html"
+msgid "https://doc.sagemath.org/html/en/reference/index.html"
 msgstr "http://doc.sagemath.org/html/en/reference/index.html"
 
 #: backends/sage/sagebackend.cpp:99

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-12 02:40+0100\n"
+"POT-Creation-Date: 2019-11-14 02:40+0100\n"
 "PO-Revision-Date: 2019-11-09 19:53+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -8830,7 +8830,7 @@ msgctxt "(qtundo-format)"
 msgid "Assign Profile"
 msgstr "指定特性檔案"
 
-#: libs/image/kis_image.cc:2128
+#: libs/image/kis_image.cc:2129
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
 msgstr "裁切選取區域"
@@ -11859,9 +11859,9 @@ msgstr "選擇背景影像"
 #: libs/ui/kis_node_manager.cpp:1186 libs/ui/KisApplication.cpp:792
 #: libs/ui/KisApplication.cpp:795 libs/ui/KisApplication.cpp:820
 #: libs/ui/KisApplication.cpp:846 libs/ui/KisApplication.cpp:867
-#: libs/ui/KisDocument.cpp:782 libs/ui/KisDocument.cpp:1393
-#: libs/ui/KisDocument.cpp:1477 libs/ui/KisDocument.cpp:1520
-#: libs/ui/KisDocument.cpp:1528 libs/ui/KisMainWindow.cpp:787
+#: libs/ui/KisDocument.cpp:784 libs/ui/KisDocument.cpp:1400
+#: libs/ui/KisDocument.cpp:1484 libs/ui/KisDocument.cpp:1527
+#: libs/ui/KisDocument.cpp:1535 libs/ui/KisMainWindow.cpp:787
 #: libs/ui/KisMainWindow.cpp:960 libs/ui/KisMainWindow.cpp:1065
 #: libs/ui/KisMainWindow.cpp:1078 libs/ui/KisMainWindow.cpp:1138
 #: libs/ui/KisMainWindow.cpp:1904 libs/ui/KisMainWindow.cpp:1933
@@ -17523,28 +17523,28 @@ msgctxt "(qtundo-format)"
 msgid "Clone Document"
 msgstr "複製檔案"
 
-#: libs/ui/KisDocument.cpp:619
+#: libs/ui/KisDocument.cpp:621
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr "無法寫入 %1 。請以不同的名稱儲存。"
 
-#: libs/ui/KisDocument.cpp:677
+#: libs/ui/KisDocument.cpp:679
 #, kde-format
 msgid "Exporting Document..."
 msgstr "正在匯出檔案…"
 
-#: libs/ui/KisDocument.cpp:678
+#: libs/ui/KisDocument.cpp:680
 #, kde-format
 msgid "Saving Document..."
 msgstr "正在儲存檔案…"
 
-#: libs/ui/KisDocument.cpp:776
+#: libs/ui/KisDocument.cpp:778
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr "儲存%1 時出錯： %2"
 
-#: libs/ui/KisDocument.cpp:782 plugins/extensions/imagesplit/imagesplit.cpp:86
+#: libs/ui/KisDocument.cpp:784 plugins/extensions/imagesplit/imagesplit.cpp:86
 #, kde-format
 msgid ""
 "Could not save %1\n"
@@ -17553,38 +17553,38 @@ msgstr ""
 "無法儲存 %1\n"
 "原因：%2"
 
-#: libs/ui/KisDocument.cpp:814
+#: libs/ui/KisDocument.cpp:816
 #, kde-format
 msgid "Finished saving %1"
 msgstr "完成儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1108
+#: libs/ui/KisDocument.cpp:1115
 #, kde-format
 msgid "Autosaving... %1"
 msgstr "正在自動儲存… %1"
 
-#: libs/ui/KisDocument.cpp:1116
+#: libs/ui/KisDocument.cpp:1123
 #, kde-format
 msgid "Autosaving..."
 msgstr "正在自動儲存…"
 
-#: libs/ui/KisDocument.cpp:1122
+#: libs/ui/KisDocument.cpp:1129
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr "自動儲存已推遲：檔案正在被占用…"
 
-#: libs/ui/KisDocument.cpp:1162
+#: libs/ui/KisDocument.cpp:1169
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr "自動儲存%1 時出錯：%2"
 
-#: libs/ui/KisDocument.cpp:1176
+#: libs/ui/KisDocument.cpp:1183
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr "完成自動儲存 %1"
 
-#: libs/ui/KisDocument.cpp:1378
+#: libs/ui/KisDocument.cpp:1385
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -17593,7 +17593,7 @@ msgstr ""
 "URL 格式錯誤\n"
 "%1"
 
-#: libs/ui/KisDocument.cpp:1394
+#: libs/ui/KisDocument.cpp:1401
 #, kde-format
 msgid ""
 "An autosaved file exists for this document.\n"
@@ -17602,17 +17602,17 @@ msgstr ""
 "此檔案另有一個自動儲存的檔案。\n"
 "要開啟自動儲存的檔案嗎？"
 
-#: libs/ui/KisDocument.cpp:1477
+#: libs/ui/KisDocument.cpp:1484
 #, kde-format
 msgid "File %1 does not exist."
 msgstr "檔案 %1 不存在。"
 
-#: libs/ui/KisDocument.cpp:1508
+#: libs/ui/KisDocument.cpp:1515
 #, kde-format
 msgid "Opening document"
 msgstr "正在開啟檔案"
 
-#: libs/ui/KisDocument.cpp:1521
+#: libs/ui/KisDocument.cpp:1528
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -17621,17 +17621,17 @@ msgstr ""
 "無法開啟 %2。\n"
 "原因：%1。"
 
-#: libs/ui/KisDocument.cpp:1529
+#: libs/ui/KisDocument.cpp:1536
 #, kde-format
 msgid "There were problems opening %1."
 msgstr "開啟 %1 時遇到了一些問題。"
 
-#: libs/ui/KisDocument.cpp:1662
+#: libs/ui/KisDocument.cpp:1669
 #, kde-format
 msgid "Not Saved"
 msgstr "未儲存"
 
-#: libs/ui/KisDocument.cpp:2092
+#: libs/ui/KisDocument.cpp:2099
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -39981,13 +39981,13 @@ msgstr "%1°"
 msgid "Measure Tool"
 msgstr "測量工具"
 
-#: plugins/tools/basictools/kis_tool_move.cc:249
+#: plugins/tools/basictools/kis_tool_move.cc:246
 #, kde-format
 msgctxt "floating message in move tool"
 msgid "X: %1 px, Y: %2 px"
 msgstr "X：%1 像素， Y：%2 像素"
 
-#: plugins/tools/basictools/kis_tool_move.h:190
+#: plugins/tools/basictools/kis_tool_move.h:191
 #, kde-format
 msgid "Move Tool"
 msgstr "移動工具"
