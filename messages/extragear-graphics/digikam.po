@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-14 02:37+0100\n"
+"POT-Creation-Date: 2019-11-15 02:37+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -1220,7 +1220,7 @@ msgstr "相簿屬性"
 #: core/app/items/utils/tooltipfiller.cpp:661
 #: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:312
 #: core/dplugins/generic/webservices/vkontakte/vkauthwidget.cpp:80
-#: core/libs/widgets/metadata/subjectwidget.cpp:200
+#: core/libs/widgets/metadata/subjectwidget.cpp:203
 #: core/utilities/setup/camera/importfilterdlg.cpp:107
 #: core/utilities/setup/metadata/namespaceeditdlg.cpp:270
 #, kde-format
@@ -1566,7 +1566,7 @@ msgstr "重新命名..."
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptceditwidget.cpp:152
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:152
 #: core/libs/dplugins/setup/dpluginaboutdlg.cpp:135
-#: core/libs/properties/import/importitempropertiessidebar.cpp:94
+#: core/libs/properties/import/importitempropertiessidebar.cpp:96
 #: core/libs/properties/itempropertiessidebar.cpp:83
 #, kde-format
 msgid "Properties"
@@ -11258,7 +11258,7 @@ msgstr "在這裡輸入內容的參考分類。這個字段限制為 32 個 ASCI
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptckeywords.cpp:101
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpcategories.cpp:104
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpkeywords.cpp:92
-#: core/libs/widgets/metadata/subjectwidget.cpp:209
+#: core/libs/widgets/metadata/subjectwidget.cpp:212
 #, kde-format
 msgid "&Add"
 msgstr "加入(&A)"
@@ -11268,7 +11268,7 @@ msgstr "加入(&A)"
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpcategories.cpp:105
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpkeywords.cpp:93
 #: core/libs/dialogs/deletedialog.cpp:593
-#: core/libs/widgets/metadata/subjectwidget.cpp:210
+#: core/libs/widgets/metadata/subjectwidget.cpp:213
 #, kde-format
 msgid "&Delete"
 msgstr "刪除(&D)"
@@ -11277,7 +11277,7 @@ msgstr "刪除(&D)"
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptckeywords.cpp:103
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpcategories.cpp:106
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpkeywords.cpp:94
-#: core/libs/widgets/metadata/subjectwidget.cpp:211
+#: core/libs/widgets/metadata/subjectwidget.cpp:214
 #: core/utilities/setup/album/setupcategory.cpp:107
 #, kde-format
 msgid "&Replace"
@@ -12198,7 +12198,7 @@ msgstr "在這裡選擇內容的編輯類型描述。這個字段限制為 64 �
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:254
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:243
-#: core/libs/widgets/metadata/subjectwidget.cpp:199
+#: core/libs/widgets/metadata/subjectwidget.cpp:202
 #, kde-format
 msgid "Reference:"
 msgstr "參考："
@@ -24080,7 +24080,7 @@ msgstr ""
 "%1</b></p>"
 
 #: core/libs/database/utils/widgets/dbstatdlg.cpp:54
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:292
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:295
 #, kde-format
 msgid "Database Statistics"
 msgstr "資料庫統計"
@@ -25893,7 +25893,7 @@ msgstr "油畫效果"
 msgid "Rain Drops Effect"
 msgstr "雨滴效果"
 
-#: core/libs/dimg/filters/greycstoration/greycstorationfilter.cpp:170
+#: core/libs/dimg/filters/greycstoration/greycstorationfilter.cpp:172
 #, kde-format
 msgid "Greycstoration Filter"
 msgstr "Greycstoration 濾鏡"
@@ -27030,7 +27030,7 @@ msgstr "要儲存的相片雜訊減少設定檔"
 msgid "Cannot save settings to the Photograph Noise Reduction text file."
 msgstr "無法將設定值儲存到相片雜訊減少純文字檔。"
 
-#: core/libs/dimg/filters/rawprocessingfilter.cpp:77
+#: core/libs/dimg/filters/rawprocessingfilter.cpp:79
 #, kde-format
 msgid "Raw Conversion"
 msgstr "Raw 轉換"
@@ -27858,7 +27858,7 @@ msgid "Tool"
 msgstr "工具"
 
 #: core/libs/dplugins/core/dpluginaction.cpp:103
-#: core/libs/properties/import/importitempropertiessidebar.cpp:95
+#: core/libs/properties/import/importitempropertiessidebar.cpp:97
 #: core/libs/properties/itempropertiessidebar.cpp:84
 #: core/libs/settings/applicationsettings_miscs.cpp:397
 #: core/showfoto/setup/showfotosetup.cpp:122
@@ -30157,7 +30157,7 @@ msgctxt "@info:tooltip"
 msgid "Show item permanently"
 msgstr "永久顯示此項目"
 
-#: core/libs/properties/import/importitempropertiessidebar.cpp:99
+#: core/libs/properties/import/importitempropertiessidebar.cpp:101
 #, kde-format
 msgid "Geolocation"
 msgstr "地理位置"
@@ -34391,74 +34391,74 @@ msgstr "Ralf Holzer"
 msgid "Developer (2004)"
 msgstr "開發者 (2004)"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:260
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:263
 #, kde-format
 msgid "Components Information"
 msgstr "組成元件資訊"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:266
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:269
 #, kde-format
 msgid "Supported RAW Cameras"
 msgstr "支援的 RAW 照相機"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:270
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:273
 #, kde-format
 msgid "Donate..."
 msgstr "贊助..."
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:274
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:277
 #, kde-format
 msgid "Recipes Book..."
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:278
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:281
 #, kde-format
 msgid "Contribute..."
 msgstr "捐助..."
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:282
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:285
 #, fuzzy, kde-format
 #| msgid "Kipi Plugins Handbook"
 msgid "Online Handbook..."
 msgstr "Kipi 外掛程式手冊"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:318
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:321
 #, kde-format
 msgid "Toggle Left Side-bar"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:323
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:326
 #, kde-format
 msgid "Toggle Right Side-bar"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:328
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:331
 #, kde-format
 msgid "Previous Left Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:333
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:336
 #, kde-format
 msgid "Next Left Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:338
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:341
 #, kde-format
 msgid "Previous Right Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:343
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:346
 #, kde-format
 msgid "Next Right Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:363
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:366
 #, fuzzy, kde-format
 #| msgid "Show Thumbbar"
 msgid "Show Statusbar"
 msgstr "顯示縮圖列"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:410
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:413
 #, kde-format
 msgctxt "general keyboard shortcuts"
 msgid "General"
@@ -36933,12 +36933,12 @@ msgstr "<p><big><big><b>檔案名稱：%1 (%2)</b></big></big>"
 msgid "Pick Label: %1"
 msgstr "挑選標籤：%1"
 
-#: core/libs/widgets/metadata/subjectwidget.cpp:136
+#: core/libs/widgets/metadata/subjectwidget.cpp:139
 #, kde-format
 msgid "Use structured definition of the subject matter:"
 msgstr "使用主題內容的結構化定義："
 
-#: core/libs/widgets/metadata/subjectwidget.cpp:142
+#: core/libs/widgets/metadata/subjectwidget.cpp:145
 #, fuzzy, kde-format
 #| msgid ""
 #| "Use standard <b><a href='http://www.iptc.org/site/NewsCodes'>reference "
@@ -36949,12 +36949,12 @@ msgid ""
 msgstr ""
 "使用標準的<b><a href='http://www.iptc.org/site/NewsCodes'>參考代碼</a></b>"
 
-#: core/libs/widgets/metadata/subjectwidget.cpp:152
+#: core/libs/widgets/metadata/subjectwidget.cpp:155
 #, kde-format
 msgid "Use custom definition"
 msgstr "使用自訂定義"
 
-#: core/libs/widgets/metadata/subjectwidget.cpp:198
+#: core/libs/widgets/metadata/subjectwidget.cpp:201
 #, kde-format
 msgctxt ""
 "Information Provider Reference: A name, registered with the IPTC/NAA, "
@@ -36962,12 +36962,12 @@ msgctxt ""
 msgid "I.P.R:"
 msgstr "I.P.R："
 
-#: core/libs/widgets/metadata/subjectwidget.cpp:201
+#: core/libs/widgets/metadata/subjectwidget.cpp:204
 #, kde-format
 msgid "Matter:"
 msgstr "內容："
 
-#: core/libs/widgets/metadata/subjectwidget.cpp:202
+#: core/libs/widgets/metadata/subjectwidget.cpp:205
 #, kde-format
 msgid "Detail:"
 msgstr "詳細："
@@ -40913,7 +40913,7 @@ msgid ""
 "</qt>"
 msgstr "目前的影像已經修改。<nl/>您要儲存您的變更嗎？"
 
-#: core/utilities/imageeditor/editor/editortool.cpp:398
+#: core/utilities/imageeditor/editor/editortool.cpp:399
 #, kde-format
 msgid "(%1,%2) RGBA:%3,%4,%5,%6"
 msgstr "(%1,%2) RGBA:%3,%4,%5,%6"
@@ -43419,7 +43419,7 @@ msgstr ""
 msgid "digiKam Maintenance"
 msgstr "digiKam 維護"
 
-#: core/utilities/maintenance/maintenancetool.cpp:95
+#: core/utilities/maintenance/maintenancetool.cpp:96
 #, kde-format
 msgid ""
 "Process is done.\n"

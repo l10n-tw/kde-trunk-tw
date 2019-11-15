@@ -2791,12 +2791,19 @@ msgid "Pick from the pictures on the left and put them on the red dots"
 msgstr "從左邊挑選圖片，放到右邊的紅點上"
 
 #: activities/chronos/ActivityInfo.qml:41
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "Moon photo is copyright NASA. The space sounds come from Tuxpaint and "
+#| "Vegastrike which are released under the GPL license. The transportation "
+#| "images are copyright Franck Doucet. Dates of Transportation are based on "
+#| "those found in &lt;http://www.wikipedia.org&gt;."
 msgctxt "ActivityInfo|"
 msgid ""
 "Moon photo is copyright NASA. The space sounds come from Tuxpaint and "
 "Vegastrike which are released under the GPL license. The transportation "
 "images are copyright Franck Doucet. Dates of Transportation are based on "
-"those found in &lt;http://www.wikipedia.org&gt;."
+"those found in &lt;https://www.wikipedia.org&gt;."
 msgstr ""
 "月球的相片為 NASA 版權所有。太空音效由 Tuxpaint 與 Vegastrike 而來，兩者都是 "
 "GPL 授權。太空站影像為 Franck Doucet 版權所有。交通工具的日期是由維基百科 "
@@ -3315,8 +3322,11 @@ msgstr ""
 
 #: activities/color_mix/ActivityInfo.qml:42
 #: activities/color_mix_light/ActivityInfo.qml:41
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Images from http://openclipart.org"
 msgctxt "ActivityInfo|"
-msgid "Images from http://openclipart.org"
+msgid "Images from https://openclipart.org"
 msgstr "從 http://openclipart.org 拿來的圖片"
 
 #: activities/color_mix/ColorMix.qml:97
@@ -6084,8 +6094,11 @@ msgstr ""
 "有題目，你就過關了。\n"
 
 #: activities/explore_world_music/ActivityInfo.qml:44
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Images from http://commons.wikimedia.org/wiki, http://archive.org"
 msgctxt "ActivityInfo|"
-msgid "Images from http://commons.wikimedia.org/wiki, http://archive.org"
+msgid "Images from https://commons.wikimedia.org/wiki, https://archive.org"
 msgstr "圖片來源：http://commons.wikimedia.org/wiki, http://archive.org"
 
 #: activities/explore_world_music/resource/board/board1.qml:31
@@ -8577,6 +8590,17 @@ msgstr ""
 "模一樣的塔。"
 
 #: activities/hanoi_real/ActivityInfo.qml:40
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "The puzzle was invented by the French mathematician Edouard Lucas in "
+#| "1883. There is a legend about a Hindu temple whose priests were "
+#| "constantly engaged in moving a set of 64 discs according to the rules of "
+#| "the Tower of Hanoi puzzle. According to the legend, the world would end "
+#| "when the priests finished their work. The puzzle is therefore also known "
+#| "as the Tower of Brahma puzzle. It is not clear whether Lucas invented "
+#| "this legend or was inspired by it. (source Wikipedia: http://en.wikipedia."
+#| "org/wiki/Tower_of_hanoi)"
 msgctxt "ActivityInfo|"
 msgid ""
 "The puzzle was invented by the French mathematician Edouard Lucas in 1883. "
@@ -8585,7 +8609,7 @@ msgid ""
 "puzzle. According to the legend, the world would end when the priests "
 "finished their work. The puzzle is therefore also known as the Tower of "
 "Brahma puzzle. It is not clear whether Lucas invented this legend or was "
-"inspired by it. (source Wikipedia: http://en.wikipedia.org/wiki/"
+"inspired by it. (source Wikipedia: https://en.wikipedia.org/wiki/"
 "Tower_of_hanoi)"
 msgstr ""
 "這個遊戲是由法國的數學家 Edouard Lucas 於 1883 年發明的。傳說中在 Hindu 寺中"
@@ -9313,9 +9337,14 @@ msgstr ""
 "發音後找到正確的單字。在設定中您可以選擇您要學習的語言。"
 
 #: activities/lang/ActivityInfo.qml:45
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "The images and voices come from the Art4Apps project: http://www.art4apps."
+#| "org/."
 msgctxt "ActivityInfo|"
 msgid ""
-"The images and voices come from the Art4Apps project: http://www.art4apps."
+"The images and voices come from the Art4Apps project: https://www.art4apps."
 "org/."
 msgstr "影像與聲音是從 Art4Apps 專案來的：http://www.art4apps.org/ 。"
 
@@ -9627,10 +9656,15 @@ msgstr ""
 "解決此關卡需要點擊幾次而有所不同。點擊小企鵝的話就會顯示解答。"
 
 #: activities/lightsoff/ActivityInfo.qml:37
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "The solver algorithm is described on Wikipedia. To know more about the "
+#| "Lights Off game: &lt;http://en.wikipedia.org/wiki/Lights_Out_(game)&gt;"
 msgctxt "ActivityInfo|"
 msgid ""
 "The solver algorithm is described on Wikipedia. To know more about the "
-"Lights Off game: &lt;http://en.wikipedia.org/wiki/Lights_Out_(game)&gt;"
+"Lights Off game: &lt;https://en.wikipedia.org/wiki/Lights_Out_(game)&gt;"
 msgstr ""
 "解題的演算法在維基百科上查得到。要更深入瞭解關燈遊戲，您可以參考：&lt;http://"
 "en.wikipedia.org/wiki/Lights_Out_(game)&gt;"
@@ -9659,8 +9693,13 @@ msgstr ""
 "來翻頁。結束後，請依時間前後排序。"
 
 #: activities/louis-braille/ActivityInfo.qml:37
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "Louis Braille Video: &lt;http://www.youtube.com/watch?v=9bdfC2j_4x4&gt;"
 msgctxt "ActivityInfo|"
-msgid "Louis Braille Video: &lt;http://www.youtube.com/watch?v=9bdfC2j_4x4&gt;"
+msgid ""
+"Louis Braille Video: &lt;https://www.youtube.com/watch?v=9bdfC2j_4x4&gt;"
 msgstr "Louis Braille 影片：&lt;http://www.youtube.com/watch?v=9bdfC2j_4x4&gt;"
 
 #: activities/louis-braille/louis_braille_data.js:23
@@ -12153,6 +12192,16 @@ msgstr ""
 
 #. Help goal
 #: activities/piano_composition/ActivityInfo.qml:33
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "Develop an understanding of music composition, and increase interest in "
+#| "making music with a piano keyboard. This activity covers many fundamental "
+#| "aspects of music, but there is much more to explore about music "
+#| "composition. If you enjoy this activity but want a more advanced tool, "
+#| "try downloading Minuet (https://minuet.kde.org/), an open source software "
+#| "for music education or MuseScore (http://musescore.org/en/download), an "
+#| "open source music notation tool."
 msgctxt "ActivityInfo|"
 msgid ""
 "Develop an understanding of music composition, and increase interest in "
@@ -12160,7 +12209,7 @@ msgid ""
 "aspects of music, but there is much more to explore about music composition. "
 "If you enjoy this activity but want a more advanced tool, try downloading "
 "Minuet (https://minuet.kde.org/), an open source software for music "
-"education or MuseScore (http://musescore.org/en/download), an open source "
+"education or MuseScore (https://musescore.org/en/download), an open source "
 "music notation tool."
 msgstr ""
 "了解音樂創作，提升用鋼琴作曲的興趣。 這項活動涵蓋了音樂的許多基本知識，但要學"
@@ -14139,11 +14188,18 @@ msgstr "回答問題，在選項中選出完全正確的答案。"
 
 #. Help goal
 #: activities/solar_system/ActivityInfo.qml:35
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "Learn information about the solar system. If you want to learn more about "
+#| "astronomy, try downloading KStars (https://edu.kde.org/kstars/) or "
+#| "Stellarium (http://stellarium.org/) which are open source astronomy "
+#| "softwares."
 msgctxt "ActivityInfo|"
 msgid ""
 "Learn information about the solar system. If you want to learn more about "
 "astronomy, try downloading KStars (https://edu.kde.org/kstars/) or "
-"Stellarium (http://stellarium.org/) which are open source astronomy "
+"Stellarium (https://stellarium.org/) which are open source astronomy "
 "softwares."
 msgstr ""
 "學習關於太陽系的知識。如果您要更進一步瞭解天文學，請試著下載自由開源的天文軟"
@@ -15470,6 +15526,17 @@ msgstr "符號必須在一列﹑一欄以及每塊區域(如果有定義)中是�
 
 #. Help goal
 #: activities/sudoku/ActivityInfo.qml:32
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "The aim of the puzzle is to enter a symbol or numeral from 1 through 9 in "
+#| "each cell of a grid. In the official Sudoku the grid is 9x9 made up of "
+#| "3x3 subgrids (called 'regions'). In GCompris we start at lower levels "
+#| "with a simpler version using symbols and with no regions. In all cases "
+#| "the grid is presented with various symbols or numerals given in some "
+#| "cells (the 'givens'). Each row, column and region must contain only one "
+#| "instance of each symbol or numeral (Source &lt;http://en.wikipedia.org/"
+#| "wiki/Sudoku&gt;)."
 msgctxt "ActivityInfo|"
 msgid ""
 "The aim of the puzzle is to enter a symbol or numeral from 1 through 9 in "
@@ -15478,7 +15545,7 @@ msgid ""
 "simpler version using symbols and with no regions. In all cases the grid is "
 "presented with various symbols or numerals given in some cells (the "
 "'givens'). Each row, column and region must contain only one instance of "
-"each symbol or numeral (Source &lt;http://en.wikipedia.org/wiki/Sudoku&gt;)."
+"each symbol or numeral (Source &lt;https://en.wikipedia.org/wiki/Sudoku&gt;)."
 msgstr ""
 "謎題的目標是在網格的每個單元中，輸入一個符號或從 1 到 9 的數字，最常見的是由 "
 "3x3 次網格(稱之為「區域」)所組成的 9x9 網格，而在某些格子(「已知」)中已經給定"
