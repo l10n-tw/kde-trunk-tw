@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-12 03:47+0000\n"
+"POT-Creation-Date: 2019-11-16 03:17+0000\n"
 "PO-Revision-Date: 2019-11-15 17:57+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -19,14 +19,20 @@ msgctxt "Name"
 msgid "Verkehrsverbund Berlin-Brandenburg (VBB)"
 msgstr ""
 
+#: src/networks/at_3_vor.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Aachener Verkehrsverbund (AVV)"
+msgctxt "Name"
+msgid "Verkehrsverbund Ostregion (VOR)"
+msgstr "Aachener Verkehrsverbund (AVV)"
+
 #: src/networks/de_nw_vrr.json
 msgctxt "Name"
 msgid "Verkehrsverbund Rhein-Ruhr (VRR)"
 msgstr ""
 
 #: src/networks/de_nw_avv.json
-#| msgctxt "Name"
-#| msgid "Berliner Verkehrsbetriebe (BVG)"
 msgctxt "Name"
 msgid "Aachener Verkehrsverbund (AVV)"
 msgstr "Aachener Verkehrsverbund (AVV)"
@@ -42,8 +48,6 @@ msgid "Rhein-Main-Verkehrsverbund (RMV)"
 msgstr ""
 
 #: src/networks/de_db.json
-#| msgctxt "Name"
-#| msgid "Deutsche Bahn"
 msgctxt "Name"
 msgid "Deutsche Bahn (DB)"
 msgstr "Deutsche Bahn (DB)"
@@ -52,6 +56,14 @@ msgstr "Deutsche Bahn (DB)"
 msgctxt "Name"
 msgid "Großraum-Verkehr Hannover (GVH)"
 msgstr ""
+
+#: src/networks/at_4_ooevv.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Karlsruher Verkehrsverbund (KVV)"
+msgctxt "Name"
+msgid "Oberösterreichischer Verkehrsverbund (OÖVV)"
+msgstr "Karlsruher Verkehrsverbund (KVV)"
 
 #: src/networks/ch_sbb.json
 msgctxt "Name"
@@ -78,10 +90,31 @@ msgctxt "Name"
 msgid "Traveline"
 msgstr ""
 
+#: src/networks/at_4_linz.json
+msgctxt "Name"
+msgid "Linz AG"
+msgstr ""
+
+#: src/networks/at_6_vvst.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Aachener Verkehrsverbund (AVV)"
+msgctxt "Name"
+msgid "Verkehrsverbund Steiermark (VVSt)"
+msgstr "Aachener Verkehrsverbund (AVV)"
+
 #: src/networks/de_be_bvg.json
 msgctxt "Name"
 msgid "Berliner Verkehrsbetriebe (BVG)"
 msgstr "Berliner Verkehrsbetriebe (BVG)"
+
+#: src/networks/at_7_vvt.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Aachener Verkehrsverbund (AVV)"
+msgctxt "Name"
+msgid "Verkehrsverbund Tirol (VVT)"
+msgstr "Aachener Verkehrsverbund (AVV)"
 
 #: src/networks/de_by_bayern.json
 msgctxt "Name"
@@ -133,6 +166,22 @@ msgctxt "Name"
 msgid "Nederlandse Spoorwegen (NS)"
 msgstr ""
 
+#: src/networks/at_8_vvv.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Aachener Verkehrsverbund (AVV)"
+msgctxt "Name"
+msgid "Verkehrsverbund Vorarlberg (VVV)"
+msgstr "Aachener Verkehrsverbund (AVV)"
+
+#: src/networks/at_5_svv.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Karlsruher Verkehrsverbund (KVV)"
+msgctxt "Name"
+msgid "Salzburger Verkehrsverbund (SVV)"
+msgstr "Karlsruher Verkehrsverbund (KVV)"
+
 #: src/networks/au_nsw.json
 msgctxt "Name"
 msgid "Transport for NSW"
@@ -148,14 +197,17 @@ msgctxt "Name"
 msgid "Transport For Ireland"
 msgstr ""
 
+#: src/networks/lu_mobiliteitszentral.json
+msgctxt "Name"
+msgid "Mobilitéitszentral"
+msgstr ""
+
 #: src/networks/de_st_insa.json
 msgctxt "Name"
 msgid "Nahverkehrsservice Sachsen-Anhalt (INSA)"
 msgstr ""
 
 #: src/networks/de_bw_kvv.json
-#| msgctxt "Name"
-#| msgid "Berliner Verkehrsbetriebe (BVG)"
 msgctxt "Name"
 msgid "Karlsruher Verkehrsverbund (KVV)"
 msgstr "Karlsruher Verkehrsverbund (KVV)"
@@ -168,6 +220,11 @@ msgstr ""
 #: src/networks/de_bb_vbb.json
 msgctxt "Description"
 msgid "Local transport in the Berlin and Brandenburg regions of Germany."
+msgstr ""
+
+#: src/networks/at_3_vor.json
+msgctxt "Description"
+msgid "Regional public transport in eastern Austria."
 msgstr ""
 
 #: src/networks/de_nw_vrr.json
@@ -202,6 +259,11 @@ msgctxt "Description"
 msgid "Local transport in and around Hannover, Germany."
 msgstr ""
 
+#: src/networks/at_4_ooevv.json
+msgctxt "Description"
+msgid "Regional public transport in Upper Austria."
+msgstr ""
+
 #: src/networks/ch_sbb.json
 msgctxt "Description"
 msgid "Swiss national railway."
@@ -227,9 +289,24 @@ msgctxt "Description"
 msgid "UK public transport information."
 msgstr ""
 
+#: src/networks/at_4_linz.json
+msgctxt "Description"
+msgid "Local transport in and around Linz, Austria."
+msgstr ""
+
+#: src/networks/at_6_vvst.json
+msgctxt "Description"
+msgid "Regional transport in Styria, Austria."
+msgstr ""
+
 #: src/networks/de_be_bvg.json
 msgctxt "Description"
 msgid "Local transport operator in Berlin, Germany."
+msgstr ""
+
+#: src/networks/at_7_vvt.json
+msgctxt "Description"
+msgid "Regional public transport in Tyrol, Austria."
 msgstr ""
 
 #: src/networks/de_by_bayern.json
@@ -282,6 +359,16 @@ msgctxt "Description"
 msgid "Dutch national railway."
 msgstr ""
 
+#: src/networks/at_8_vvv.json
+msgctxt "Description"
+msgid "Regional public transport in Vorarlberg, Austria."
+msgstr ""
+
+#: src/networks/at_5_svv.json
+msgctxt "Description"
+msgid "Regional public transport in Salzburg, Austria."
+msgstr ""
+
 #: src/networks/au_nsw.json
 msgctxt "Description"
 msgid "Local transport in New South Wales, Australia."
@@ -295,6 +382,11 @@ msgstr ""
 #: src/networks/ie_tfi.json
 msgctxt "Description"
 msgid "Local and national transport in Ireland."
+msgstr ""
+
+#: src/networks/lu_mobiliteitszentral.json
+msgctxt "Description"
+msgid "Public transport in Luxembourg."
 msgstr ""
 
 #: src/networks/de_st_insa.json

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-15 03:17+0100\n"
+"POT-Creation-Date: 2019-11-16 02:57+0100\n"
 "PO-Revision-Date: 2019-03-22 00:34+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -185,7 +185,7 @@ msgstr "Laurent Montel"
 msgid "Webengine Plugins"
 msgstr "Webengine 附加元件"
 
-#: configuration/settings_advanced.cpp:59
+#: configuration/settings_advanced.cpp:58
 #, kde-format
 msgctxt "Mark selected article read after"
 msgid " second"
@@ -946,7 +946,7 @@ msgstr "設定在選擇一篇文章到設定該文章為已讀間要延遲多少
 msgid "Resets the quick filter when changing feeds."
 msgstr "變更 feeds 時重置快速過濾器"
 
-#: kontactplugin/akregator_plugin.cpp:44 src/aboutdata.cpp:35
+#: kontactplugin/akregator_plugin.cpp:43 src/aboutdata.cpp:35
 #: src/akregator_part.cpp:185
 #: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:145
 #: src/trayicon.cpp:48 src/trayicon.cpp:49 src/trayicon.cpp:62
@@ -954,19 +954,19 @@ msgstr "變更 feeds 時重置快速過濾器"
 msgid "Akregator"
 msgstr "Akregator"
 
-#: kontactplugin/akregator_plugin.cpp:48
+#: kontactplugin/akregator_plugin.cpp:47
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Feed..."
 msgstr "新增 Feed..."
 
-#: kontactplugin/akregator_plugin.cpp:51
+#: kontactplugin/akregator_plugin.cpp:50
 #, kde-format
 msgctxt "@info:status"
 msgid "Create a new feed"
 msgstr "建立新的 feed"
 
-#: kontactplugin/akregator_plugin.cpp:54
+#: kontactplugin/akregator_plugin.cpp:53
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "You will be presented with a dialog where you can add a new feed."
@@ -1972,51 +1972,51 @@ msgstr "%1 的內容"
 msgid "(%1, %2)"
 msgstr "（%1，%2）"
 
-#: src/formatter/grantleeviewformatter.cpp:76
-#: src/formatter/grantleeviewformatter.cpp:122
+#: src/formatter/grantleeviewformatter.cpp:75
+#: src/formatter/grantleeviewformatter.cpp:121
 #, kde-format
 msgid " (no unread articles)"
 msgstr " （沒有未讀文章）"
 
-#: src/formatter/grantleeviewformatter.cpp:78
-#: src/formatter/grantleeviewformatter.cpp:124
+#: src/formatter/grantleeviewformatter.cpp:77
+#: src/formatter/grantleeviewformatter.cpp:123
 #, kde-format
 msgid " (1 unread article)"
 msgid_plural " (%1 unread articles)"
 msgstr[0] " （%1 篇未讀文章）"
 
-#: src/formatter/grantleeviewformatter.cpp:94
+#: src/formatter/grantleeviewformatter.cpp:93
 #, kde-format
 msgid "<b>Description:</b> %1<br />"
 msgstr "<b>描述：</b> %1<br />"
 
-#: src/formatter/grantleeviewformatter.cpp:102
+#: src/formatter/grantleeviewformatter.cpp:101
 #, fuzzy, kde-format
 #| msgid "<b>Homepage:</b> <a href=\"%1\">%2</a>"
 msgid "<b>Homepage:</b> <a href=\"%1\">%1</a>"
 msgstr "<b>首頁：</b> <a href=\"%1\">%2</a>"
 
-#: src/formatter/grantleeviewformatter.cpp:154
+#: src/formatter/grantleeviewformatter.cpp:153
 #, kde-format
 msgid "Date"
 msgstr "日期"
 
-#: src/formatter/grantleeviewformatter.cpp:155
+#: src/formatter/grantleeviewformatter.cpp:154
 #, kde-format
 msgid "Comment"
 msgstr "註解"
 
-#: src/formatter/grantleeviewformatter.cpp:156
+#: src/formatter/grantleeviewformatter.cpp:155
 #, kde-format
 msgid "Complete Story"
 msgstr "完整的內容"
 
-#: src/formatter/grantleeviewformatter.cpp:157
+#: src/formatter/grantleeviewformatter.cpp:156
 #, kde-format
 msgid "Author"
 msgstr "作者"
 
-#: src/formatter/grantleeviewformatter.cpp:158
+#: src/formatter/grantleeviewformatter.cpp:157
 #, kde-format
 msgid "Enclosure"
 msgstr "封裝"
