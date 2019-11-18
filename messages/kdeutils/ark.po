@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-27 02:08+0100\n"
+"POT-Creation-Date: 2019-11-18 03:06+0100\n"
 "PO-Revision-Date: 2019-10-26 23:19+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -1932,31 +1932,31 @@ msgctxt "@info"
 msgid "Could not open the archive for writing entries."
 msgstr "無法開啟封存供寫入項目。"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:302
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:300
 #, kde-format
 msgid "The compression type '%1' is not supported by Ark."
 msgstr "Ark 未支援壓縮型態 %1。"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:311
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:367
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:309
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:363
 #, kde-format
 msgctxt "@info"
 msgid "Could not set the compression method."
 msgstr "無法設定壓縮方法。"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:377
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:373
 #, kde-format
 msgctxt "@info"
 msgid "Could not set the compression level."
 msgstr "無法設定壓縮等級。"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:496
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:492
 #, kde-format
 msgctxt "@info"
 msgid "Could not compress entry, operation aborted."
 msgstr "無法壓縮項目，中止操作。"
 
-#: plugins/libarchive/readwritelibarchiveplugin.cpp:537
+#: plugins/libarchive/readwritelibarchiveplugin.cpp:533
 #, kde-format
 msgctxt "@info Error in a message box"
 msgid "Could not compress entry."

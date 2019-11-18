@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:15+0200\n"
+"POT-Creation-Date: 2019-11-18 03:10+0100\n"
 "PO-Revision-Date: 2016-11-14 21:13+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -132,15 +132,20 @@ msgstr "無法重新命名資料夾 %1。"
 
 #: contactsresource.cpp:404
 #, kde-format
+msgid "Unknown folder to delete."
+msgstr ""
+
+#: contactsresource.cpp:408
+#, kde-format
 msgid "Unable to delete folder '%1'."
 msgstr "無法刪除資料夾 %1。"
 
-#: contactsresource.cpp:419
+#: contactsresource.cpp:423
 #, kde-format
 msgid "Unable to move file '%1' to '%2', '%2' already exists."
 msgstr "無法將檔案 %1 移動到 %2，因為 %2 已存在。"
 
-#: contactsresource.cpp:431
+#: contactsresource.cpp:435
 #, kde-format
 msgid "Unable to move directory '%1' to '%2', '%2' already exists."
 msgstr "無法將目錄 %1 移動到 %2，因為 %2 已存在。"

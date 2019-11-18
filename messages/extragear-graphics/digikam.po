@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-17 02:28+0100\n"
+"POT-Creation-Date: 2019-11-18 02:29+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -354,88 +354,88 @@ msgstr "設為標籤縮圖"
 msgid "Assign Tag(s) '%1' to Items"
 msgstr "指定標籤「%1」到項目"
 
-#: core/app/filters/filtersidebarwidget.cpp:144
+#: core/app/filters/filtersidebarwidget.cpp:147
 #, kde-format
 msgid "Text Filter"
 msgstr "文字過濾器"
 
-#: core/app/filters/filtersidebarwidget.cpp:150
+#: core/app/filters/filtersidebarwidget.cpp:153
 #, kde-format
 msgid "MIME Type Filter"
 msgstr "MIME 型態過濾器"
 
-#: core/app/filters/filtersidebarwidget.cpp:156
+#: core/app/filters/filtersidebarwidget.cpp:159
 #, kde-format
 msgid "Geolocation Filter"
 msgstr "地理位置濾鏡"
 
-#: core/app/filters/filtersidebarwidget.cpp:173
+#: core/app/filters/filtersidebarwidget.cpp:176
 #, kde-format
 msgid "Images Without Tags"
 msgstr "影像不含標籤"
 
-#: core/app/filters/filtersidebarwidget.cpp:175
+#: core/app/filters/filtersidebarwidget.cpp:178
 #, kde-format
 msgid "Show images without a tag."
 msgstr "顯示影像不含標籤"
 
-#: core/app/filters/filtersidebarwidget.cpp:178
+#: core/app/filters/filtersidebarwidget.cpp:181
 #, kde-format
 msgid "Tags Matching Condition"
 msgstr "符合條件的標籤"
 
-#: core/app/filters/filtersidebarwidget.cpp:181
-#: core/app/filters/filtersidebarwidget.cpp:227
+#: core/app/filters/filtersidebarwidget.cpp:184
+#: core/app/filters/filtersidebarwidget.cpp:230
 #, kde-format
 msgid ""
 "Defines in which way the selected tags are combined to filter the images. "
 "This also includes the '%1' check box."
 msgstr "定義用哪種方式合併選擇的標籤和過濾的影像。這也包含此「%1」勾選框。"
 
-#: core/app/filters/filtersidebarwidget.cpp:186
-#: core/app/filters/filtersidebarwidget.cpp:232
+#: core/app/filters/filtersidebarwidget.cpp:189
+#: core/app/filters/filtersidebarwidget.cpp:235
 #: core/utilities/searchwindow/searchgroup.cpp:677
 #, kde-format
 msgid "OR"
 msgstr "或"
 
-#: core/app/filters/filtersidebarwidget.cpp:188
-#: core/app/filters/filtersidebarwidget.cpp:234
+#: core/app/filters/filtersidebarwidget.cpp:191
+#: core/app/filters/filtersidebarwidget.cpp:237
 #: core/utilities/searchwindow/searchgroup.cpp:673
 #, kde-format
 msgid "AND"
 msgstr "且"
 
-#: core/app/filters/filtersidebarwidget.cpp:202
+#: core/app/filters/filtersidebarwidget.cpp:205
 #, kde-format
 msgid "Tags Filter"
 msgstr "標籤過濾器"
 
-#: core/app/filters/filtersidebarwidget.cpp:219
+#: core/app/filters/filtersidebarwidget.cpp:222
 #, fuzzy, kde-format
 #| msgid "Images Without Tags"
 msgid "Images Without Face tags"
 msgstr "影像不含標籤"
 
-#: core/app/filters/filtersidebarwidget.cpp:221
+#: core/app/filters/filtersidebarwidget.cpp:224
 #, fuzzy, kde-format
 #| msgid "Show images without a tag."
 msgid "Show images without a face tag."
 msgstr "顯示影像不含標籤"
 
-#: core/app/filters/filtersidebarwidget.cpp:224
+#: core/app/filters/filtersidebarwidget.cpp:227
 #, fuzzy, kde-format
 #| msgid "Tags Matching Condition"
 msgid "Face tags Matching Condition"
 msgstr "符合條件的標籤"
 
-#: core/app/filters/filtersidebarwidget.cpp:248
+#: core/app/filters/filtersidebarwidget.cpp:251
 #, fuzzy, kde-format
 #| msgid "Tags Filter"
 msgid "Face Tags Filter"
 msgstr "標籤過濾器"
 
-#: core/app/filters/filtersidebarwidget.cpp:266
+#: core/app/filters/filtersidebarwidget.cpp:269
 #, kde-format
 msgid "Labels Filter"
 msgstr "標記過濾器"
@@ -774,7 +774,7 @@ msgstr "取消選擇"
 #: core/app/items/utils/contextmenuhelper.cpp:936
 #: core/app/main/digikamapp_setup.cpp:639
 #: core/libs/tags/manager/tagmngrtreeview.cpp:160
-#: core/libs/tags/manager/tagsmanager.cpp:698
+#: core/libs/tags/manager/tagsmanager.cpp:695
 #, kde-format
 msgid "Invert Selection"
 msgstr "反相選擇"
@@ -2696,7 +2696,7 @@ msgid "Albums"
 msgstr "相簿"
 
 #: core/app/views/sidebar/leftsidebarwidgets.cpp:236
-#: core/libs/properties/captions/itemdescedittab.cpp:289
+#: core/libs/properties/captions/itemdescedittab.cpp:287
 #, kde-format
 msgid "Open Tag Manager"
 msgstr "開啟標籤管理員"
@@ -2724,7 +2724,7 @@ msgstr "前往相簿"
 #: core/libs/database/utils/widgets/dbstatdlg.cpp:74
 #: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:42
 #: core/libs/models/albummodel.cpp:89
-#: core/libs/properties/captions/itemdescedittab.cpp:329
+#: core/libs/properties/captions/itemdescedittab.cpp:326
 #: core/libs/tags/widgets/tagfolderview.cpp:104
 #: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:545
 #: core/utilities/searchwindow/searchfields.cpp:131
@@ -2948,7 +2948,7 @@ msgstr "提供的收藏位置無效或者目前無法使用。"
 
 #: core/app/views/stack/itemiconview.cpp:2586
 #: core/libs/dplugins/setup/dpluginconfview.cpp:135
-#: core/libs/widgets/metadata/metadatawidget.cpp:155
+#: core/libs/widgets/metadata/metadatawidget.cpp:158
 #: core/utilities/imageeditor/editor/editortooliface.cpp:104
 #: core/utilities/imageeditor/editor/editortooliface.cpp:220
 #: core/utilities/queuemanager/views/workflowlist.cpp:99
@@ -5289,7 +5289,7 @@ msgstr "270 度"
 
 #: core/dplugins/bqm/transform/rotate/rotate.cpp:97
 #: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:60
-#: core/libs/widgets/metadata/metadatawidget.cpp:142
+#: core/libs/widgets/metadata/metadatawidget.cpp:145
 #: core/utilities/queuemanager/manager/batchtool.cpp:195
 #, kde-format
 msgid "Custom"
@@ -8118,7 +8118,7 @@ msgstr "自動調整"
 #. i18n: ectx: property (title), widget (QGroupBox, settingsGroupBox)
 #: core/dplugins/editor/transform/freerotation/freerotationtool.cpp:222
 #: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:43
-#: core/libs/widgets/metadata/metadatawidget.cpp:146
+#: core/libs/widgets/metadata/metadatawidget.cpp:149
 #: core/utilities/import/main/importui.cpp:273
 #, kde-format
 msgid "Settings"
@@ -16352,14 +16352,14 @@ msgid "Thunderbird"
 msgstr ""
 
 #: core/dplugins/generic/tools/sendbymail/manager/mailsettings.cpp:136
-#: core/libs/dplugins/webservices/wssettings.cpp:132
+#: core/libs/dplugins/webservices/wssettings.cpp:136
 #, kde-format
 msgctxt "Image format: JPEG"
 msgid "Jpeg"
 msgstr ""
 
 #: core/dplugins/generic/tools/sendbymail/manager/mailsettings.cpp:137
-#: core/libs/dplugins/webservices/wssettings.cpp:133
+#: core/libs/dplugins/webservices/wssettings.cpp:137
 #, fuzzy, kde-format
 #| msgid "Posing"
 msgctxt "Image format: PNG"
@@ -17927,7 +17927,7 @@ msgstr ""
 #: core/dplugins/generic/webservices/pinterest/pwindow.cpp:271
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:679
 #: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:276
-#: core/libs/tags/manager/tagsmanager.cpp:858
+#: core/libs/tags/manager/tagsmanager.cpp:855
 #: core/utilities/imageeditor/editor/editorwindow.cpp:1124
 #: core/utilities/import/main/importui.cpp:1989
 #: core/utilities/setup/metadata/advancedmetadatatab.cpp:138
@@ -20026,7 +20026,7 @@ msgid "Logout and change the account used for transfer"
 msgstr ""
 
 #: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:380
-#: core/libs/properties/captions/itemdescedittab.cpp:351
+#: core/libs/properties/captions/itemdescedittab.cpp:348
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:133
 #: core/utilities/advancedrename/common/tooltipdialog.cpp:62
 #: core/utilities/import/main/importui.cpp:1971
@@ -28125,44 +28125,44 @@ msgstr "像素計數"
 msgid "Choose the %1 account to use for exporting images:"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettings.cpp:117
+#: core/libs/dplugins/webservices/wssettings.cpp:121
 #, kde-format
 msgctxt "Web Service: FLICKR"
 msgid "Flickr"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettings.cpp:118
+#: core/libs/dplugins/webservices/wssettings.cpp:122
 #, kde-format
 msgctxt "Web Service: DROPBOX"
 msgid "Dropbox"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettings.cpp:119
+#: core/libs/dplugins/webservices/wssettings.cpp:123
 #, kde-format
 msgctxt "Web Service: IMGUR"
 msgid "Imgur"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettings.cpp:120
+#: core/libs/dplugins/webservices/wssettings.cpp:124
 #, kde-format
 msgctxt "Web Service: FACEBOOK"
 msgid "Facebook"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettings.cpp:121
+#: core/libs/dplugins/webservices/wssettings.cpp:125
 #, kde-format
 msgctxt "Web Service: SMUGMUG"
 msgid "Smugmug"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettings.cpp:122
+#: core/libs/dplugins/webservices/wssettings.cpp:126
 #, fuzzy, kde-format
 #| msgid "Google Maps"
 msgctxt "Web Service: GDRIVE"
 msgid "Google Drive"
 msgstr "Google 地圖"
 
-#: core/libs/dplugins/webservices/wssettings.cpp:123
+#: core/libs/dplugins/webservices/wssettings.cpp:127
 #, fuzzy, kde-format
 #| msgid "Google Maps"
 msgctxt "Web Service: GPHOTO"
@@ -29910,12 +29910,12 @@ msgstr "套用所有變更此影像的所有版本"
 msgid "More"
 msgstr "更多"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:297
+#: core/libs/properties/captions/itemdescedittab.cpp:294
 #, fuzzy, kde-format
 msgid "Enter tag here."
 msgstr "在這裡輸入新的標籤..."
 
-#: core/libs/properties/captions/itemdescedittab.cpp:298
+#: core/libs/properties/captions/itemdescedittab.cpp:295
 #, fuzzy, kde-format
 msgid ""
 "Enter the text used to create tags here. '/' can be used to create a "
@@ -29925,147 +29925,147 @@ msgstr ""
 "在這裡輸入用於建立的新標籤的文字。可用「/」來建立標籤的層級。也可用「,」來同"
 "時建立多個的層級。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:311
+#: core/libs/properties/captions/itemdescedittab.cpp:308
 #, kde-format
 msgid "Tags already assigned"
 msgstr "標籤已指定"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:317
+#: core/libs/properties/captions/itemdescedittab.cpp:314
 #, kde-format
 msgid "Recent Tags"
 msgstr "最近的標籤"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:597
+#: core/libs/properties/captions/itemdescedittab.cpp:594
 #, kde-format
 msgid "You have edited the image caption. "
 msgid_plural "You have edited the captions of %1 images. "
 msgstr[0] "您已經修改了 %1 張影像的標題描述。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:601
+#: core/libs/properties/captions/itemdescedittab.cpp:598
 #, kde-format
 msgid "You have edited the image title. "
 msgid_plural "You have edited the titles of %1 images. "
 msgstr[0] "您已經修改了 %1 張影像的標題。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:605
+#: core/libs/properties/captions/itemdescedittab.cpp:602
 #, kde-format
 msgid "You have edited the date of the image. "
 msgid_plural "You have edited the date of %1 images. "
 msgstr[0] "您已經編輯了 %1 張影像的日期。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:609
+#: core/libs/properties/captions/itemdescedittab.cpp:606
 #, kde-format
 msgid "You have edited the pick label of the image. "
 msgid_plural "You have edited the pick label of %1 images. "
 msgstr[0] "您已經編輯了 %1 張影像的挑選標籤。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:613
+#: core/libs/properties/captions/itemdescedittab.cpp:610
 #, kde-format
 msgid "You have edited the color label of the image. "
 msgid_plural "You have edited the color label of %1 images. "
 msgstr[0] "您已經編輯了 %1 張影像的色彩標籤。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:617
+#: core/libs/properties/captions/itemdescedittab.cpp:614
 #, kde-format
 msgid "You have edited the rating of the image. "
 msgid_plural "You have edited the rating of %1 images. "
 msgstr[0] "您已經編輯了 %1 張影像的評等。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:621
+#: core/libs/properties/captions/itemdescedittab.cpp:618
 #, kde-format
 msgid "You have edited the tags of the image. "
 msgid_plural "You have edited the tags of %1 images. "
 msgstr[0] "您已經編輯了 %1 張影像的標籤。"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:625
+#: core/libs/properties/captions/itemdescedittab.cpp:622
 #, kde-format
 msgid "Do you want to apply your changes?"
 msgstr "您要套用變更嗎？"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:629
+#: core/libs/properties/captions/itemdescedittab.cpp:626
 #, kde-format
 msgid "<p>You have edited the metadata of the image: </p><p><ul>"
 msgid_plural "<p>You have edited the metadata of %1 images: </p><p><ul>"
 msgstr[0] "<p>您已經編輯了 %1 張影像的中繼資料：</p><p><ul>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:635
+#: core/libs/properties/captions/itemdescedittab.cpp:632
 #, kde-format
 msgid "<li>title</li>"
 msgstr "<li>標題</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:640
+#: core/libs/properties/captions/itemdescedittab.cpp:637
 #, kde-format
 msgid "<li>caption</li>"
 msgstr "<li>標題描述</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:645
+#: core/libs/properties/captions/itemdescedittab.cpp:642
 #, kde-format
 msgid "<li>date</li>"
 msgstr "<li>日期</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:650
+#: core/libs/properties/captions/itemdescedittab.cpp:647
 #, kde-format
 msgid "<li>pick label</li>"
 msgstr "<li>挑選標籤</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:655
+#: core/libs/properties/captions/itemdescedittab.cpp:652
 #, kde-format
 msgid "<li>color label</li>"
 msgstr "<li>色彩標籤</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:660
+#: core/libs/properties/captions/itemdescedittab.cpp:657
 #, kde-format
 msgid "<li>rating</li>"
 msgstr "<li>評等</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:665
+#: core/libs/properties/captions/itemdescedittab.cpp:662
 #, kde-format
 msgid "<li>tags</li>"
 msgstr "<li>標籤</li>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:670
+#: core/libs/properties/captions/itemdescedittab.cpp:667
 #, kde-format
 msgid "<p>Do you want to apply your changes?</p>"
 msgstr "<p>您要套用您的變更嗎？</p>"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:673
+#: core/libs/properties/captions/itemdescedittab.cpp:670
 #, kde-format
 msgid "Always apply changes without confirmation"
 msgstr "永遠直接套用變更而不詢問"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:676
-#: core/libs/properties/captions/itemdescedittab.cpp:685
+#: core/libs/properties/captions/itemdescedittab.cpp:673
+#: core/libs/properties/captions/itemdescedittab.cpp:682
 #, kde-format
 msgid "Apply changes?"
 msgstr "套用改變？"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:825
+#: core/libs/properties/captions/itemdescedittab.cpp:822
 #, kde-format
 msgid "Reading metadata from files. Please wait..."
 msgstr "正在從檔案讀取中繼資料。請稍候..."
 
-#: core/libs/properties/captions/itemdescedittab.cpp:856
+#: core/libs/properties/captions/itemdescedittab.cpp:853
 #, kde-format
 msgid "Writing metadata to files. Please wait..."
 msgstr "正在將中繼資料寫入檔案。請稍候..."
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1227
+#: core/libs/properties/captions/itemdescedittab.cpp:1224
 #, kde-format
 msgid "Read metadata from file to database"
 msgstr "從檔案讀取中繼資料到資料庫"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1228
-#: core/libs/properties/captions/itemdescedittab.cpp:1242
+#: core/libs/properties/captions/itemdescedittab.cpp:1225
+#: core/libs/properties/captions/itemdescedittab.cpp:1239
 #, kde-format
 msgid "Write metadata to each file"
 msgstr "將中繼資料寫入到每個檔案"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1241
+#: core/libs/properties/captions/itemdescedittab.cpp:1238
 #, kde-format
 msgid "Read metadata from each file to database"
 msgstr "從每個檔案中讀取中繼資料到資料庫"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1356
+#: core/libs/properties/captions/itemdescedittab.cpp:1353
 #: core/libs/tags/widgets/tagspopupmenu.cpp:526
 #, kde-format
 msgid "No Recently Assigned Tags"
@@ -31482,7 +31482,7 @@ msgstr "待辦"
 msgid "Miscellaneous"
 msgstr "其他"
 
-#: core/libs/tags/engine/taggingactionfactory.cpp:391
+#: core/libs/tags/engine/taggingactionfactory.cpp:388
 #, fuzzy, kde-format
 msgctxt "<tag name> in <tag path>"
 msgid "%1 in %2"
@@ -31490,7 +31490,7 @@ msgstr ""
 "%1\n"
 "  於 %2"
 
-#: core/libs/tags/engine/taggingactionfactory.cpp:399
+#: core/libs/tags/engine/taggingactionfactory.cpp:396
 #, fuzzy, kde-format
 msgctxt "Create New Tag <tag name> in <parent tag path>"
 msgid "Create \"%1\" in %2"
@@ -31498,7 +31498,7 @@ msgstr ""
 "在 %2\n"
 "建立 \"%1\""
 
-#: core/libs/tags/engine/taggingactionfactory.cpp:404
+#: core/libs/tags/engine/taggingactionfactory.cpp:401
 #, kde-format
 msgid "Create \"%1\""
 msgstr "建立 \"%1\""
@@ -31620,33 +31620,33 @@ msgid "Add selected tags to Quick Access List"
 msgstr "將選取的標籤新增到快速存取清單中"
 
 #: core/libs/tags/manager/tagmngrtreeview.cpp:153
-#: core/libs/tags/manager/tagsmanager.cpp:688
+#: core/libs/tags/manager/tagsmanager.cpp:685
 #, fuzzy, kde-format
 msgid "Edit Tag Title"
 msgstr "項目標題"
 
 #: core/libs/tags/manager/tagmngrtreeview.cpp:157
-#: core/libs/tags/manager/tagsmanager.cpp:692
+#: core/libs/tags/manager/tagsmanager.cpp:689
 #: core/libs/tags/widgets/tagfolderview.cpp:79
 #, kde-format
 msgid "Reset Tag Icon"
 msgstr "重設標籤圖示"
 
 #: core/libs/tags/manager/tagmngrtreeview.cpp:163
-#: core/libs/tags/manager/tagsmanager.cpp:701
+#: core/libs/tags/manager/tagsmanager.cpp:698
 #, kde-format
 msgid "Expand Tag Tree"
 msgstr "展開標籤樹狀圖"
 
 #: core/libs/tags/manager/tagmngrtreeview.cpp:166
-#: core/libs/tags/manager/tagsmanager.cpp:704
+#: core/libs/tags/manager/tagsmanager.cpp:701
 #: core/libs/tags/widgets/tagfolderview.cpp:128
 #, kde-format
 msgid "Expand Selected Nodes"
 msgstr "展開選取的節點"
 
 #: core/libs/tags/manager/tagmngrtreeview.cpp:169
-#: core/libs/tags/manager/tagsmanager.cpp:706
+#: core/libs/tags/manager/tagsmanager.cpp:703
 #, kde-format
 msgid "Remove Tag from Images"
 msgstr "從影像移除標籤"
@@ -31701,7 +31701,7 @@ msgstr "先前的標籤已變更。要儲存變更嗎？"
 msgid "Tags Manager"
 msgstr "標籤管理員"
 
-#: core/libs/tags/manager/tagsmanager.cpp:349
+#: core/libs/tags/manager/tagsmanager.cpp:346
 #, fuzzy, kde-format
 msgctxt "%2 is a comma separated list of tags to be deleted."
 msgid ""
@@ -31713,7 +31713,7 @@ msgid_plural ""
 msgstr[0] ""
 "標籤 '%1' 有一個以上的子標籤。刪除這些標籤也會刪除子標籤。是否要繼續？"
 
-#: core/libs/tags/manager/tagsmanager.cpp:372
+#: core/libs/tags/manager/tagsmanager.cpp:369
 #, fuzzy, kde-format
 msgctxt "%2 is a comma separated list of tags to be deleted."
 msgid "Tag %2 is assigned to one or more items. Do you want to delete it?"
@@ -31721,20 +31721,20 @@ msgid_plural ""
 "Tags %2 are assigned to one or more items. Do you want to delete them?"
 msgstr[0] "標籤 '%1' 被指定到一個以上的項目。是否要繼續？"
 
-#: core/libs/tags/manager/tagsmanager.cpp:382
+#: core/libs/tags/manager/tagsmanager.cpp:379
 #, fuzzy, kde-format
 msgctxt "%2 is a comma separated list of tags to be deleted."
 msgid "Delete tag %2?"
 msgid_plural "Delete tags %2?"
 msgstr[0] "刪除標籤"
 
-#: core/libs/tags/manager/tagsmanager.cpp:388
+#: core/libs/tags/manager/tagsmanager.cpp:385
 #, fuzzy, kde-format
 msgid "Delete tag"
 msgid_plural "Delete tags"
 msgstr[0] "刪除標籤"
 
-#: core/libs/tags/manager/tagsmanager.cpp:512
+#: core/libs/tags/manager/tagsmanager.cpp:509
 #, kde-format
 msgid ""
 "<qt>digiKam will clean up tag metadata before setting tags from database.<br/"
@@ -31742,15 +31742,15 @@ msgid ""
 "Tags from Image).<br/> Do you want to continue?</qt>"
 msgstr ""
 
-#: core/libs/tags/manager/tagsmanager.cpp:524
-#: core/libs/tags/manager/tagsmanager.cpp:543
+#: core/libs/tags/manager/tagsmanager.cpp:521
+#: core/libs/tags/manager/tagsmanager.cpp:540
 #, kde-format
 msgid ""
 "This operation can take long time depending on collection size.\n"
 "Do you want to continue?"
 msgstr "這項操作依照收藏的大小，可能會花很長的時間。您要繼續嗎？"
 
-#: core/libs/tags/manager/tagsmanager.cpp:563
+#: core/libs/tags/manager/tagsmanager.cpp:560
 #, fuzzy, kde-format
 msgid ""
 "This operation will wipe all tags from database only.\n"
@@ -31761,34 +31761,34 @@ msgstr ""
 "要套用變更到檔案，您必須稍後選擇將中繼資料寫入檔案。\n"
 "您要繼續嗎？"
 
-#: core/libs/tags/manager/tagsmanager.cpp:623
+#: core/libs/tags/manager/tagsmanager.cpp:620
 #, fuzzy, kde-format
 msgid "Do you really want to remove the selected tag from all images?"
 msgid_plural "Do you really want to remove the selected tags from all images?"
 msgstr[0] "您要從收藏清單中移除此收藏「%1」嗎？"
 
-#: core/libs/tags/manager/tagsmanager.cpp:684
+#: core/libs/tags/manager/tagsmanager.cpp:681
 #, fuzzy, kde-format
 msgctxt "@title:menu"
 msgid "Organize"
 msgstr "組織"
 
-#: core/libs/tags/manager/tagsmanager.cpp:695
+#: core/libs/tags/manager/tagsmanager.cpp:692
 #, kde-format
 msgid "Create Tag from Address Book"
 msgstr "從通訊錄建立標籤"
 
-#: core/libs/tags/manager/tagsmanager.cpp:709
+#: core/libs/tags/manager/tagsmanager.cpp:706
 #, fuzzy, kde-format
 msgid "Delete Unassigned Tags"
 msgstr "最近指定的標籤"
 
-#: core/libs/tags/manager/tagsmanager.cpp:712
+#: core/libs/tags/manager/tagsmanager.cpp:709
 #, kde-format
 msgid "Add new tag to current tag. Current tag is last clicked tag."
 msgstr "將標籤新增到上次點擊的標籤。"
 
-#: core/libs/tags/manager/tagsmanager.cpp:715
+#: core/libs/tags/manager/tagsmanager.cpp:712
 #, fuzzy, kde-format
 #| msgid ""
 #| "Delete selected items. Also work with multiple items, but won't delete "
@@ -31798,81 +31798,81 @@ msgid ""
 "the root tag."
 msgstr "刪除選取的項目。它可以刪除多個項目，但不會刪除根標籤。"
 
-#: core/libs/tags/manager/tagsmanager.cpp:719
+#: core/libs/tags/manager/tagsmanager.cpp:716
 #, fuzzy, kde-format
 #| msgid "Remove selected tag"
 msgid "Edit title from selected tag."
 msgstr "移除選取的標籤"
 
-#: core/libs/tags/manager/tagsmanager.cpp:721
+#: core/libs/tags/manager/tagsmanager.cpp:718
 #, kde-format
 msgid "Reset icon to selected tags. Works with multiple selection."
 msgstr "重置選取的標籤圖示。可以用於多個選取標籤。"
 
-#: core/libs/tags/manager/tagsmanager.cpp:724
+#: core/libs/tags/manager/tagsmanager.cpp:721
 #, kde-format
 msgid "Invert selection. Only visible items will be selected"
 msgstr "轉換選取的項目。只有可見的項目會被選取。"
 
-#: core/libs/tags/manager/tagsmanager.cpp:727
+#: core/libs/tags/manager/tagsmanager.cpp:724
 #, kde-format
 msgid "Expand tag tree by one level"
 msgstr "將標籤樹展開一層"
 
-#: core/libs/tags/manager/tagsmanager.cpp:729
+#: core/libs/tags/manager/tagsmanager.cpp:726
 #, kde-format
 msgid "Selected items will be expanded"
 msgstr "選取的項目會被展開"
 
-#: core/libs/tags/manager/tagsmanager.cpp:731
+#: core/libs/tags/manager/tagsmanager.cpp:728
 #, kde-format
 msgid "Delete selected tag(s) from images. Works with multiple selection."
 msgstr "從影像刪除選取的標籤。可以用於多個選取標籤。"
 
-#: core/libs/tags/manager/tagsmanager.cpp:734
+#: core/libs/tags/manager/tagsmanager.cpp:731
 #, fuzzy, kde-format
 msgid "Delete all tags that are not assigned to images. Use with caution."
 msgstr "只會從資料庫刪除所有的標籤，而不會與檔案同步。請小心使用。"
 
-#: core/libs/tags/manager/tagsmanager.cpp:771
+#: core/libs/tags/manager/tagsmanager.cpp:768
 #, kde-format
 msgid "Sync &Export"
 msgstr "同步匯出(&E)"
 
-#: core/libs/tags/manager/tagsmanager.cpp:775
+#: core/libs/tags/manager/tagsmanager.cpp:772
 #, kde-format
 msgid "Write Tags from Database to Image"
 msgstr "將標籤從資料庫寫入到影像"
 
-#: core/libs/tags/manager/tagsmanager.cpp:778
+#: core/libs/tags/manager/tagsmanager.cpp:775
 #, kde-format
 msgid "Read Tags from Image"
 msgstr "從影像讀取標籤"
 
-#: core/libs/tags/manager/tagsmanager.cpp:781
+#: core/libs/tags/manager/tagsmanager.cpp:778
 #, kde-format
 msgid "Wipe all tags from Database only"
 msgstr "只抹除資料庫中的所有標籤"
 
-#: core/libs/tags/manager/tagsmanager.cpp:783
+#: core/libs/tags/manager/tagsmanager.cpp:780
 #, kde-format
 msgid "Write Tags Metadata to Image."
 msgstr "將標籤中繼資料寫入影像。"
 
-#: core/libs/tags/manager/tagsmanager.cpp:785
+#: core/libs/tags/manager/tagsmanager.cpp:782
 #, fuzzy, kde-format
 #| msgid "Read tags from Images into Database. Existing tags won't be affected"
 msgid "Read tags from Images into Database. Existing tags will not be affected"
 msgstr "從影像讀取標籤再寫入資料庫。現有的標籤不會受到影響"
 
-#: core/libs/tags/manager/tagsmanager.cpp:788
+#: core/libs/tags/manager/tagsmanager.cpp:785
 #, kde-format
 msgid ""
 "Delete all tags from database only. Will not sync with files. Proceed with "
 "caution."
 msgstr "只會從資料庫刪除所有的標籤，而不會與檔案同步。請小心使用。"
 
-#: core/libs/tags/manager/tagsmanager.cpp:859
+#: core/libs/tags/manager/tagsmanager.cpp:856
 #, fuzzy, kde-format
 msgid ""
 "This option will remove all tags which\n"
@@ -31880,7 +31880,7 @@ msgid ""
 " Do you want to continue?"
 msgstr "這項操作依照收藏的大小，可能會花很長的時間。您要繼續嗎？"
 
-#: core/libs/tags/manager/tagsmanager.cpp:974
+#: core/libs/tags/manager/tagsmanager.cpp:971
 #, fuzzy, kde-format
 msgid "%1 unused tag were removed."
 msgid_plural "%1 unused tags were removed."
@@ -31983,12 +31983,12 @@ msgid "Tag Path"
 msgstr "標籤路徑"
 
 #: core/libs/tags/widgets/tagfolderview.cpp:133
-#: core/libs/tags/widgets/tagfolderview.cpp:287
+#: core/libs/tags/widgets/tagfolderview.cpp:297
 #, kde-format
 msgid "Collapse Selected Recursively"
 msgstr "遞迴折疊選取的項目"
 
-#: core/libs/tags/widgets/tagfolderview.cpp:282
+#: core/libs/tags/widgets/tagfolderview.cpp:292
 #, kde-format
 msgid "Expand Selected Recursively"
 msgstr "遞迴展開選取的項目"
@@ -36875,55 +36875,55 @@ msgstr "XMP 檢視器"
 msgid "Default"
 msgstr "預設"
 
-#: core/libs/widgets/metadata/metadatawidget.cpp:128
+#: core/libs/widgets/metadata/metadatawidget.cpp:131
 #, kde-format
 msgid "Tags filter options"
 msgstr "標籤過濾器選項"
 
-#: core/libs/widgets/metadata/metadatawidget.cpp:131
+#: core/libs/widgets/metadata/metadatawidget.cpp:134
 #, kde-format
 msgid "Apply tags filter over metadata."
 msgstr "在中繼資料上套用標籤過濾器。"
 
-#: core/libs/widgets/metadata/metadatawidget.cpp:136
+#: core/libs/widgets/metadata/metadatawidget.cpp:139
 #, kde-format
 msgid "No filter"
 msgstr "沒有過濾器"
 
-#: core/libs/widgets/metadata/metadatawidget.cpp:139
+#: core/libs/widgets/metadata/metadatawidget.cpp:142
 #, kde-format
 msgid "Photograph"
 msgstr "相片"
 
-#: core/libs/widgets/metadata/metadatawidget.cpp:158
+#: core/libs/widgets/metadata/metadatawidget.cpp:161
 #, kde-format
 msgid "Run tool over metadata tags."
 msgstr "在中繼資料標籤上執行工具。"
 
-#: core/libs/widgets/metadata/metadatawidget.cpp:161
+#: core/libs/widgets/metadata/metadatawidget.cpp:164
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Save in file"
 msgstr "儲存於檔案"
 
-#: core/libs/widgets/metadata/metadatawidget.cpp:162
+#: core/libs/widgets/metadata/metadatawidget.cpp:165
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "列印"
 
-#: core/libs/widgets/metadata/metadatawidget.cpp:163
+#: core/libs/widgets/metadata/metadatawidget.cpp:166
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy to Clipboard"
 msgstr "複製至剪貼簿"
 
-#: core/libs/widgets/metadata/metadatawidget.cpp:326
+#: core/libs/widgets/metadata/metadatawidget.cpp:329
 #, kde-format
 msgid "File name: %1 (%2)"
 msgstr "檔名: %1 (%2)"
 
-#: core/libs/widgets/metadata/metadatawidget.cpp:373
+#: core/libs/widgets/metadata/metadatawidget.cpp:376
 #, kde-format
 msgid "<p><big><big><b>File name: %1 (%2)</b></big></big>"
 msgstr "<p><big><big><b>檔案名稱：%1 (%2)</b></big></big>"
@@ -39645,20 +39645,20 @@ msgstr "顯示概要地圖"
 msgid "Projection"
 msgstr "投影"
 
-#: core/utilities/geolocation/geoiface/bookmark/bookmarknode.cpp:167
-#: core/utilities/geolocation/geoiface/bookmark/bookmarknode.cpp:189
+#: core/utilities/geolocation/geoiface/bookmark/bookmarknode.cpp:169
+#: core/utilities/geolocation/geoiface/bookmark/bookmarknode.cpp:191
 #, fuzzy, kde-format
 #| msgid "Bookmark selected"
 msgid "Bookmark folder"
 msgstr "書籤已選擇"
 
-#: core/utilities/geolocation/geoiface/bookmark/bookmarknode.cpp:199
+#: core/utilities/geolocation/geoiface/bookmark/bookmarknode.cpp:201
 #, fuzzy, kde-format
 #| msgid "Database conversion canceled."
 msgid "The file is not an XBEL version 1.0 file."
 msgstr "資料庫轉換已取消。"
 
-#: core/utilities/geolocation/geoiface/bookmark/bookmarknode.cpp:307
+#: core/utilities/geolocation/geoiface/bookmark/bookmarknode.cpp:316
 #, fuzzy, kde-format
 #| msgid "Unknown filter"
 msgid "Unknown title"
