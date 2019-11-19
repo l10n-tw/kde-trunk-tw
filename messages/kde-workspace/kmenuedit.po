@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-29 03:30+0100\n"
+"POT-Creation-Date: 2019-11-19 03:35+0100\n"
 "PO-Revision-Date: 2019-02-27 20:28+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -30,27 +30,27 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ericc@shinewave.com.tw"
 
-#: basictab.cpp:68
+#: basictab.cpp:61
 #, kde-format
 msgid "&Name:"
 msgstr "名稱(&N):"
 
-#: basictab.cpp:77
+#: basictab.cpp:70
 #, kde-format
 msgid "&Description:"
 msgstr "描述(&D):"
 
-#: basictab.cpp:85
+#: basictab.cpp:78
 #, kde-format
 msgid "&Comment:"
 msgstr "註解(&C):"
 
-#: basictab.cpp:93
+#: basictab.cpp:86
 #, kde-format
 msgid "Co&mmand:"
 msgstr "指令(&M):"
 
-#: basictab.cpp:98
+#: basictab.cpp:91
 #, kde-format
 msgid ""
 "Following the command, you can have several place holders which will be "
@@ -77,67 +77,65 @@ msgstr ""
 "%m - 迷你圖示\n"
 "%c - 說明"
 
-#: basictab.cpp:113
+#: basictab.cpp:106
 #, kde-format
 msgid "Enable &launch feedback"
 msgstr "啟用執行回饋(&L)"
 
-#: basictab.cpp:117
+#: basictab.cpp:110
 #, kde-format
 msgid "Only show in KDE"
 msgstr "只在 KDE 顯示"
 
-#: basictab.cpp:121
+#: basictab.cpp:114
 #, kde-format
 msgid "Hidden entry"
 msgstr "隱藏的項目"
 
-#: basictab.cpp:133 preferencesdlg.cpp:75
+#: basictab.cpp:126 preferencesdlg.cpp:75
 #, kde-format
 msgid "General"
 msgstr "一般"
 
-#: basictab.cpp:145
+#: basictab.cpp:138
 #, kde-format
 msgid "&Work path:"
 msgstr "工作路徑(&W):"
 
-#: basictab.cpp:157
+#: basictab.cpp:150
 #, kde-format
 msgid "Run in term&inal"
 msgstr "在終端機視窗執行(&T)"
 
-#: basictab.cpp:162
+#: basictab.cpp:155
 #, kde-format
 msgid "Terminal &options:"
 msgstr "終端機選項(&O):"
 
-#: basictab.cpp:176
+#: basictab.cpp:169
 #, kde-format
 msgid "&Run as a different user"
 msgstr "用不同使用者身分來執行(&R)"
 
-#: basictab.cpp:181
+#: basictab.cpp:174
 #, kde-format
 msgid "&Username:"
 msgstr "使用者名稱(&U):"
 
-#: basictab.cpp:195
+#: basictab.cpp:188
 #, kde-format
 msgid "Current shortcut &key:"
 msgstr "目前的捷徑鍵(&K):"
 
-#: basictab.cpp:206
+#: basictab.cpp:199
 #, kde-format
 msgid "Advanced"
 msgstr "進階"
 
-#: khotkeys.cpp:51
+#: globalaccel.cpp:39
 #, kde-format
-msgid ""
-"Unable to contact khotkeys. Your changes are saved, but they could not be "
-"activated."
-msgstr "無法聯繫 khotkeys。您的變更已儲存，但無法啟動。"
+msgid "Launch %1"
+msgstr ""
 
 #: kmenuedit.cpp:68
 #, kde-format
@@ -241,62 +239,62 @@ msgstr "編輯(&E)"
 msgid "Main Toolbar"
 msgstr "主工具列"
 
-#: main.cpp:34
+#: main.cpp:31
 #, kde-format
 msgid "KDE menu editor"
 msgstr "KDE 選單編輯器"
 
-#: main.cpp:47 main.cpp:70 main.cpp:82
+#: main.cpp:44 main.cpp:59 main.cpp:71
 #, kde-format
 msgid "KDE Menu Editor"
 msgstr "KDE 選單編輯器"
 
-#: main.cpp:72
+#: main.cpp:61
 #, kde-format
 msgid "(C) 2000-2003, Waldo Bastian, Raffaele Sandrini, Matthias Elter"
 msgstr "(C) 2000-2003, Waldo Bastian, Raffaele Sandrini, Matthias Elter"
 
-#: main.cpp:73
+#: main.cpp:62
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: main.cpp:73
+#: main.cpp:62
 #, kde-format
 msgid "Maintainer"
 msgstr "維護者"
 
-#: main.cpp:74
+#: main.cpp:63
 #, kde-format
 msgid "Raffaele Sandrini"
 msgstr "Raffaele Sandrini"
 
-#: main.cpp:74
+#: main.cpp:63
 #, kde-format
 msgid "Previous Maintainer"
 msgstr "之前的維護者"
 
-#: main.cpp:75
+#: main.cpp:64
 #, kde-format
 msgid "Matthias Elter"
 msgstr "Matthias Elter"
 
-#: main.cpp:75
+#: main.cpp:64
 #, kde-format
 msgid "Original Author"
 msgstr "原始作者"
 
-#: main.cpp:76
+#: main.cpp:65
 #, kde-format
 msgid "Montel Laurent"
 msgstr "Montel Laurent"
 
-#: main.cpp:84
+#: main.cpp:73
 #, kde-format
 msgid "Sub menu to pre-select"
 msgstr "預先選擇的子選單"
 
-#: main.cpp:87
+#: main.cpp:76
 #, kde-format
 msgid "Menu entry to pre-select"
 msgstr "預先選擇的選單項目"
@@ -367,3 +365,8 @@ msgid ""
 "Do you want to restore the system menu? Warning: This will remove all custom "
 "menus."
 msgstr "您要回復系統選單嗎？警告：您將會移除所有的自定選單。"
+
+#~ msgid ""
+#~ "Unable to contact khotkeys. Your changes are saved, but they could not be "
+#~ "activated."
+#~ msgstr "無法聯繫 khotkeys。您的變更已儲存，但無法啟動。"

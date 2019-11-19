@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-settings\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-08 02:27+0200\n"
+"POT-Creation-Date: 2019-11-19 02:37+0100\n"
 "PO-Revision-Date: 2019-10-11 18:20+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -55,37 +55,42 @@ msgstr "維護者"
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: src/main.cpp:76
+#: src/main.cpp:77
 #, kde-format
 msgid "List available settings modules"
 msgstr "列出可使用的設定模組"
 
-#: src/main.cpp:78
+#: src/main.cpp:79
 #, kde-format
 msgid "Settings module to open"
 msgstr "要開啟的設定模組"
 
-#: src/main.cpp:78
+#: src/main.cpp:79
 #, kde-format
 msgid "modulename"
 msgstr "modulename"
 
-#: src/main.cpp:80
+#: src/main.cpp:81
+#, kde-format
+msgid "Only show a signle module, requires --module"
+msgstr ""
+
+#: src/main.cpp:83
 #, kde-format
 msgid "Start window fullscreen"
 msgstr "啟動全螢幕視窗"
 
-#: src/main.cpp:82
+#: src/main.cpp:85
 #, kde-format
 msgid "Package to use for the UI (default org.kde.mobile.settings)"
 msgstr "要用於使用者介面的套件 (預設為 org.kde.mobile.settings)"
 
-#: src/main.cpp:82
+#: src/main.cpp:85
 #, kde-format
 msgid "packagename"
 msgstr "packagename"
 
-#: src/main.cpp:84
+#: src/main.cpp:87
 #, kde-format
 msgid ""
 "Limit to modules suitable for <formfactor>, e.g. handset, tablet, "
@@ -95,7 +100,7 @@ msgstr ""
 "mediacenter (媒體中心)、desktop (桌面)、test (測試用)、all (全部) (預設是 "
 "handset)"
 
-#: src/main.cpp:84
+#: src/main.cpp:87
 #, kde-format
 msgid "formfactor"
 msgstr "formfactor"

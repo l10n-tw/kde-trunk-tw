@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-18 02:29+0100\n"
+"POT-Creation-Date: 2019-11-19 02:39+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -2887,20 +2887,20 @@ msgstr "掃描臉孔收藏"
 msgid "People"
 msgstr "人物"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1526
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1527
 #, fuzzy, kde-format
 #| msgid "Face Recognition"
 msgid "Face recognition aborted"
 msgstr "臉孔辨識"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1527
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1528
 #, kde-format
 msgid ""
-"Face recognition is aborted, because there are no tags to recognize (except "
-"Unconfirmed and Unknown). Please add new tags."
+"Face recognition is aborted, because there are no identities to recognize. "
+"Please add new identities."
 msgstr ""
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1542
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1544
 #, kde-format
 msgctxt "Browse images sorted by depicted people"
 msgid "People"
@@ -6609,7 +6609,7 @@ msgid ""
 "can clone only inside the lasso region.</p>"
 msgstr ""
 
-#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:352
+#: core/dplugins/editor/enhance/healingclone/healingclonetool.cpp:353
 #, kde-format
 msgid "healingClone"
 msgstr ""
@@ -6877,13 +6877,13 @@ msgstr "紅眼"
 msgid "<p>This Image Editor tool can reduce red eye effect on image.</p>"
 msgstr ""
 
-#: core/dplugins/editor/enhance/redeye/redeyetoolplugin.cpp:91
+#: core/dplugins/editor/enhance/redeye/redeyetoolplugin.cpp:96
 #, kde-format
 msgctxt "@action"
 msgid "Red Eye..."
 msgstr "紅眼..."
 
-#: core/dplugins/editor/enhance/redeye/redeyetoolplugin.cpp:92
+#: core/dplugins/editor/enhance/redeye/redeyetoolplugin.cpp:97
 #, kde-format
 msgid ""
 "This filter can be used to correct red eyes in a photo. Select a region "
@@ -15801,7 +15801,7 @@ msgstr "相片屬性"
 #. i18n: ectx: property (text), widget (QPushButton, m_doneButton)
 #: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:388
 #: core/dplugins/generic/webservices/google/gswindow.cpp:1054
-#: core/utilities/facemanagement/assignnamewidget_p.cpp:174
+#: core/utilities/facemanagement/widgets/assignnamewidget_p.cpp:174
 #: core/utilities/imageeditor/editor/editortoolsettings.cpp:203
 #: core/utilities/imageeditor/editor/editorwindow.cpp:635
 #: core/utilities/maintenance/facesdetector.cpp:72
@@ -16066,7 +16066,7 @@ msgid "Add again"
 msgstr "加入膠片顆粒"
 
 #: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:478
-#: core/utilities/facemanagement/assignnamewidget_p.cpp:188
+#: core/utilities/facemanagement/widgets/assignnamewidget_p.cpp:188
 #: core/utilities/geolocation/geoiface/bookmark/bookmarksdlg.cpp:364
 #, fuzzy, kde-format
 msgid "Remove"
@@ -23447,6 +23447,7 @@ msgstr ""
 "新的版本。"
 
 #: core/libs/database/tags/facetags.cpp:377
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:368
 #, kde-format
 msgctxt "People on your photos"
 msgid "People"
@@ -38651,34 +38652,34 @@ msgstr "沒有找到通訊錄條目"
 msgid "BalooTags"
 msgstr "標籤"
 
-#: core/utilities/facemanagement/assignnamewidget_p.cpp:178
-#, kde-format
-msgid "Confirm"
-msgstr "確認"
-
-#: core/utilities/facemanagement/assignnamewidget_p.cpp:442
-#, kde-format
-msgid "Who is this?"
-msgstr "這是誰？"
-
-#: core/utilities/facemanagement/facepipeline_p.cpp:235
+#: core/utilities/facemanagement/threads/facepipeline_p.cpp:235
 #, kde-format
 msgid "Applying face changes"
 msgstr "套用臉孔改變"
 
-#: core/utilities/facemanagement/facescandialog.cpp:40
+#: core/utilities/facemanagement/widgets/assignnamewidget_p.cpp:178
+#, kde-format
+msgid "Confirm"
+msgstr "確認"
+
+#: core/utilities/facemanagement/widgets/assignnamewidget_p.cpp:442
+#, kde-format
+msgid "Who is this?"
+msgstr "這是誰？"
+
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:40
 #, kde-format
 msgctxt "@title:window"
 msgid "Scanning faces"
 msgstr "掃描臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:45
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Scan"
 msgstr "掃描"
 
-#: core/utilities/facemanagement/facescandialog.cpp:184
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:184
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
@@ -38689,56 +38690,56 @@ msgstr ""
 "digiKam 可以搜尋您的相片中的臉孔。<nl/> 當您已經在相當數量中的相片標記出您的"
 "朋友後，<nl/> 它可以辨識中您其它相片中的此人。"
 
-#: core/utilities/facemanagement/facescandialog.cpp:193
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:193
 #, kde-format
 msgctxt "@option:radio"
 msgid "Detect faces"
 msgstr "偵測臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:194
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:194
 #, kde-format
 msgctxt "@info"
 msgid "Find all faces in your photos"
 msgstr "找出您的相片中的所有臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:196
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:196
 #, fuzzy, kde-format
 msgctxt "@option:radio"
 msgid "Detect and recognize faces (experimental)"
 msgstr "偵測與辨識臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:197
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:197
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
 "Find all faces in your photos and try to recognize which person is depicted"
 msgstr "找出您的相片中的所有臉孔<nl/>並試著辨識標記出來的是哪個人"
 
-#: core/utilities/facemanagement/facescandialog.cpp:200
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:200
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Skip images already scanned"
 msgstr "跳過已掃描的影像"
 
-#: core/utilities/facemanagement/facescandialog.cpp:201
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:201
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Scan again and merge results"
 msgstr "再次掃描並合併結果"
 
-#: core/utilities/facemanagement/facescandialog.cpp:202
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:202
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Clear unconfirmed results and rescan"
 msgstr "清除未確認的結果並重新掃描"
 
-#: core/utilities/facemanagement/facescandialog.cpp:205
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:205
 #, fuzzy, kde-format
 msgctxt "@option:radio"
 msgid "Recognize faces (experimental)"
 msgstr "辨認臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:206
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:206
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
@@ -38746,32 +38747,32 @@ msgid ""
 "faces."
 msgstr "再試著辨認已標記出來但無法確認的人物臉孔。"
 
-#: core/utilities/facemanagement/facescandialog.cpp:236
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:236
 #: core/utilities/fuzzysearch/findduplicatesview.cpp:138
 #, kde-format
 msgctxt "@label"
 msgid "Search in:"
 msgstr "搜尋於："
 
-#: core/utilities/facemanagement/facescandialog.cpp:237
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:237
 #, kde-format
 msgctxt "@title:tab"
 msgid "Albums"
 msgstr "相簿"
 
-#: core/utilities/facemanagement/facescandialog.cpp:244
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:244
 #, kde-format
 msgctxt "@label"
 msgid "Parameters for face detection and Recognition"
 msgstr "臉孔偵測與辨識的參數"
 
-#: core/utilities/facemanagement/facescandialog.cpp:246
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:246
 #, kde-format
 msgctxt "@label Two extremities of a scale"
 msgid "Sensitivity     -     Specificity"
 msgstr ""
 
-#: core/utilities/facemanagement/facescandialog.cpp:252
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:252
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -38780,13 +38781,13 @@ msgid ""
 "faces that are very similar to pretagged faces are recognized)"
 msgstr ""
 
-#: core/utilities/facemanagement/facescandialog.cpp:262
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:262
 #, kde-format
 msgctxt "@title:tab"
 msgid "Parameters"
 msgstr "參數"
 
-#: core/utilities/facemanagement/facescandialog.cpp:271
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:271
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -38803,7 +38804,7 @@ msgstr ""
 "臉孔偵測是個很花時間的工作。您可以選擇是否要使用您電腦中所有的處理器核心來進"
 "行臉孔偵測，或是只要在單一核心上在背景工作。"
 
-#: core/utilities/facemanagement/facescandialog.cpp:278
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:278
 #, fuzzy, kde-format
 #| msgctxt "@option:check"
 #| msgid "Work on all processor cores"
@@ -38815,19 +38816,19 @@ msgstr "在所有的處理器核心上工作"
 #. i18nc("@label:listbox", "Recognize faces using EigenFaces algorithm"),    RecognitionDatabase::RecognizeAlgorithm::EigenFace);
 #. i18nc("@label:listbox", "Recognize faces using FisherFaces algorithm"),   RecognitionDatabase::RecognizeAlgorithm::FisherFace);
 #.
-#: core/utilities/facemanagement/facescandialog.cpp:290
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:290
 #, fuzzy, kde-format
 msgctxt "@label:listbox"
 msgid "Recognize faces using Deep Learning algorithm"
 msgstr "辨認臉孔"
 
-#: core/utilities/facemanagement/facescandialog.cpp:295
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:295
 #, kde-format
 msgctxt "@option:check"
 msgid "Clear and rebuild all training data"
 msgstr "清除並重建所有訓練資料"
 
-#: core/utilities/facemanagement/facescandialog.cpp:297
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:297
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip"
 #| msgid ""
@@ -38842,20 +38843,20 @@ msgstr ""
 "這會清除所有之前訓練過的資料，並從所有可找到的臉孔重新建立辨識資料。若是有使"
 "用任何其它的應用程式來協助您建立辨識訓練資料，請小心使用。"
 
-#: core/utilities/facemanagement/facescandialog.cpp:307
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:307
 #: core/utilities/setup/metadata/setupmetadata.cpp:545
 #, kde-format
 msgctxt "@title:tab"
 msgid "Advanced"
 msgstr "進階"
 
-#: core/utilities/facemanagement/facescandialog.cpp:391
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:392
 #, fuzzy, kde-format
 msgctxt "@action:button"
 msgid "Options <<"
 msgstr "選項"
 
-#: core/utilities/facemanagement/facescandialog.cpp:392
+#: core/utilities/facemanagement/widgets/facescandialog.cpp:393
 #, fuzzy, kde-format
 msgctxt "@action:button"
 msgid "Options >>"
