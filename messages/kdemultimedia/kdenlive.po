@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-19 03:12+0100\n"
+"POT-Creation-Date: 2019-11-20 03:06+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -558,6 +558,43 @@ msgstr "最大直徑"
 #, kde-format
 msgid "Maximal number of dust"
 msgstr "最大顆粒數"
+
+#: data/effects/dynamic_loudness.xml:3 data/effects/sox_gain.xml:10
+#, fuzzy, kde-format
+msgid "Normalize"
+msgstr "標準化"
+
+#: data/effects/dynamic_loudness.xml:4
+#, kde-format
+msgid "Dynamically correct audio loudness as recommended by EBU R128"
+msgstr ""
+
+#: data/effects/dynamic_loudness.xml:7 data/effects/loudness.xml:7
+#, kde-format
+msgid "Target Program Loudness"
+msgstr ""
+
+#: data/effects/dynamic_loudness.xml:10
+#, fuzzy, kde-format
+#| msgid "Measurement"
+msgid "Measurment Window"
+msgstr "測量"
+
+#: data/effects/dynamic_loudness.xml:13
+#, fuzzy, kde-format
+msgid "Maximum Gain Increase"
+msgstr "最大值"
+
+#: data/effects/dynamic_loudness.xml:16
+#, fuzzy, kde-format
+msgid "Maximum Gain Decrease"
+msgstr "最大值"
+
+#: data/effects/dynamic_loudness.xml:19
+#, fuzzy, kde-format
+#| msgid "Maximum x distance"
+msgid "Maximum Rate Change"
+msgstr "最大 x 距離"
 
 #: data/effects/dynamictext.xml:3
 #, kde-format
@@ -3590,17 +3627,12 @@ msgstr "匯出增益"
 
 #: data/effects/loudness.xml:3
 #, fuzzy, kde-format
-msgid "Loudness"
-msgstr "柔和度"
+msgid "Normalize (2 pass)"
+msgstr "標準化"
 
 #: data/effects/loudness.xml:4
 #, kde-format
 msgid "Correct audio loudness as recommended by EBU R128"
-msgstr ""
-
-#: data/effects/loudness.xml:7
-#, kde-format
-msgid "Target Program Loudness"
 msgstr ""
 
 #: data/effects/mirror.xml:4
@@ -3754,10 +3786,10 @@ msgstr "靜音"
 msgid "Mute clip"
 msgstr "素材靜音"
 
-#: data/effects/normalise.xml:3 data/effects/pan_zoom.xml:13
+#: data/effects/normalise.xml:3
 #, kde-format
-msgid "Normalise"
-msgstr "標準化"
+msgid "Normalise (deprecated)"
+msgstr ""
 
 #: data/effects/normalise.xml:4
 #, fuzzy, kde-format
@@ -3843,6 +3875,11 @@ msgstr "位置和縮放"
 #, kde-format
 msgid "Adjust size and position of clip"
 msgstr "調整素材的大小和位置"
+
+#: data/effects/pan_zoom.xml:13
+#, kde-format
+msgid "Normalise"
+msgstr "標準化"
 
 #: data/effects/qtblend.xml:4 data/effects/qtblend.xml:22
 #: data/transitions/affine.xml:3
@@ -4237,11 +4274,6 @@ msgstr "Sox 增益"
 #, kde-format
 msgid "Sox gain audio effect"
 msgstr "Sox 增益聲訊特效"
-
-#: data/effects/sox_gain.xml:10
-#, fuzzy, kde-format
-msgid "Normalize"
-msgstr "標準化"
 
 #: data/effects/sox_phaser.xml:3
 #, kde-format
@@ -6012,7 +6044,7 @@ msgid "Select a clip to apply an effect"
 msgstr "如果您想使用特效請選取一個素材"
 
 #: src/bin/bin.cpp:2331 src/effects/effectstack/view/effectstackview.cpp:161
-#: src/mainwindow.cpp:2616
+#: src/mainwindow.cpp:2613
 #, fuzzy, kde-format
 #| msgid "Cannot add a video effect to this clip"
 msgid "Cannot add effect to clip"
@@ -6056,7 +6088,7 @@ msgstr "儲存 DVD 項目"
 msgid "Clip is invalid, will be removed from project."
 msgstr "素材 <b>%1</b><br/> 無效，將從項目中移除。"
 
-#: src/bin/bin.cpp:2913 src/jobs/meltjob.cpp:125 src/jobs/meltjob.cpp:158
+#: src/bin/bin.cpp:2913 src/jobs/meltjob.cpp:124 src/jobs/meltjob.cpp:157
 #, kde-format
 msgid "Invalid clip"
 msgstr "無效的素材"
@@ -6394,14 +6426,14 @@ msgstr "字幕 / 標題樣板素材"
 
 #: src/dialogs/clipcreationdialog.cpp:352 src/dvdwizard/dvdwizardvob.cpp:269
 #: src/effects/effectstack/view/collapsibleeffectview.cpp:235
-#: src/mainwindow.cpp:3219
+#: src/mainwindow.cpp:3216
 #, kde-format
 msgid "All Supported Files"
 msgstr "所有支援的檔案"
 
 #: src/dialogs/clipcreationdialog.cpp:352 src/dvdwizard/dvdwizardvob.cpp:270
 #: src/effects/effectstack/view/collapsibleeffectview.cpp:235
-#: src/mainwindow.cpp:3219 src/utils/resourcewidget.cpp:386
+#: src/mainwindow.cpp:3216 src/utils/resourcewidget.cpp:386
 #: src/utils/resourcewidget.cpp:389 src/utils/resourcewidget.cpp:391
 #, kde-format
 msgid "All Files"
@@ -6486,7 +6518,7 @@ msgstr "代理剪輯"
 
 #. i18n: ectx: Menu (timeline)
 #: src/dialogs/kdenlivesettingsdialog.cpp:103 src/kdenliveui.rc:77
-#: src/mainwindow.cpp:3178
+#: src/mainwindow.cpp:3175
 #, kde-format
 msgid "Timeline"
 msgstr "時間軸"
@@ -8231,7 +8263,7 @@ msgstr "移除目前的檔案"
 msgid "Apply Filter on Clip"
 msgstr ""
 
-#: src/jobs/filterclipjob.cpp:63 src/jobs/stabilizejob.cpp:64
+#: src/jobs/filterclipjob.cpp:62 src/jobs/stabilizejob.cpp:64
 #, fuzzy, kde-format
 msgid "Cannot create filter %1"
 msgstr "無法寫入檔案 %1"
@@ -8308,17 +8340,17 @@ msgstr "聲訊軌"
 msgid "Add additional streams for clip"
 msgstr "添加轉場特效到素材"
 
-#: src/jobs/meltjob.cpp:55
+#: src/jobs/meltjob.cpp:54
 #, fuzzy, kde-format
 msgid "No producer for this clip."
 msgstr "為丟失的素材保留空間"
 
-#: src/jobs/meltjob.cpp:173
+#: src/jobs/meltjob.cpp:172
 #, fuzzy, kde-format
 msgid "Cannot create consumer."
 msgstr "無法寫入檔案 %1"
 
-#: src/jobs/meltjob.cpp:228
+#: src/jobs/meltjob.cpp:227
 #, fuzzy, kde-format
 msgid "Cannot create filter."
 msgstr "無法寫入檔案 %1"
@@ -8366,7 +8398,7 @@ msgstr ""
 msgid "Scene %1"
 msgstr "區段終點：%1"
 
-#: src/jobs/speedjob.cpp:56 src/mainwindow.cpp:3118
+#: src/jobs/speedjob.cpp:56 src/mainwindow.cpp:3115
 #: src/timeline2/model/timelinemodel.cpp:3283
 #, fuzzy, kde-format
 #| msgid "Change clip type"
@@ -8461,13 +8493,13 @@ msgid "Markers"
 msgstr "記號"
 
 #. i18n: ectx: Menu (extract_audio)
-#: src/kdenliveui.rc:54 src/mainwindow.cpp:3141
+#: src/kdenliveui.rc:54 src/mainwindow.cpp:3138
 #, kde-format
 msgid "Extract Audio"
 msgstr "提取音訊"
 
 #. i18n: ectx: Menu (clip_actions)
-#: src/kdenliveui.rc:57 src/mainwindow.cpp:3089
+#: src/kdenliveui.rc:57 src/mainwindow.cpp:3086
 #, kde-format
 msgid "Clip Jobs"
 msgstr "剪輯工作"
@@ -9730,7 +9762,7 @@ msgstr "截取畫面"
 msgid "Extract frame to project..."
 msgstr "截取畫面"
 
-#: src/mainwindow.cpp:1653 src/mainwindow.cpp:1663
+#: src/mainwindow.cpp:1650 src/mainwindow.cpp:1660
 #, fuzzy, kde-format
 msgid ""
 "You have changed the proxy parameters. Do you want to recreate all proxy "
@@ -9738,7 +9770,7 @@ msgid ""
 msgstr ""
 "您已經修改了項目的檔案夾。您是否要將緩衝區資料從 %1 複製到新檔案夾 %2？"
 
-#: src/mainwindow.cpp:1709
+#: src/mainwindow.cpp:1706
 #, kde-format
 msgid ""
 "The current project has not been saved. This will first save the project, "
@@ -9746,90 +9778,90 @@ msgid ""
 "file will be reloaded"
 msgstr ""
 
-#: src/mainwindow.cpp:1717
+#: src/mainwindow.cpp:1714
 #, kde-format
 msgid ""
 "This will move all temporary files from <b>%1</b> to <b>%2</b>, the project "
 "file will then be reloaded"
 msgstr ""
 
-#: src/mainwindow.cpp:1726
+#: src/mainwindow.cpp:1723
 #, fuzzy, kde-format
 msgid "Cannot perform operation, invalid document id: %1"
 msgstr "無法在已鎖定的軌道中使用調整工具"
 
-#: src/mainwindow.cpp:1731
+#: src/mainwindow.cpp:1728
 #, fuzzy, kde-format
 msgid "Cannot perform operation, target directory already exists: %1"
 msgstr "無法在已鎖定的軌道中使用調整工具"
 
-#: src/mainwindow.cpp:1795 src/mainwindow.cpp:3700 src/mainwindow.cpp:3715
+#: src/mainwindow.cpp:1792 src/mainwindow.cpp:3697 src/mainwindow.cpp:3712
 #, kde-format
 msgid "Rendering using low quality track compositing"
 msgstr ""
 
-#: src/mainwindow.cpp:1869
+#: src/mainwindow.cpp:1866
 #, kde-format
 msgid "This will remove all unused clips from your project."
 msgstr "這會從您的項目中移除所有沒用到的素材。"
 
-#: src/mainwindow.cpp:1869
+#: src/mainwindow.cpp:1866
 #, kde-format
 msgid "Clean up project"
 msgstr "清理本項目"
 
-#: src/mainwindow.cpp:2076
+#: src/mainwindow.cpp:2073
 #, fuzzy, kde-format
 #| msgid "Current clip"
 msgid "Current scheme:"
 msgstr "當前剪輯"
 
-#: src/mainwindow.cpp:2086
+#: src/mainwindow.cpp:2083
 #, fuzzy, kde-format
 #| msgid "More options"
 msgid "More Actions"
 msgstr "更多選項"
 
-#: src/mainwindow.cpp:2088
+#: src/mainwindow.cpp:2085
 #, fuzzy, kde-format
 #| msgid "Download New Title Templates..."
 msgid "Download New Keyboard Schemes..."
 msgstr "下載新字幕/標題樣板..."
 
-#: src/mainwindow.cpp:2095
+#: src/mainwindow.cpp:2092
 #, kde-format
 msgctxt "general keyboard shortcuts"
 msgid "General"
 msgstr "常規"
 
-#: src/mainwindow.cpp:2155
+#: src/mainwindow.cpp:2152
 #, kde-format
 msgid ""
 "This will delete Kdenlive's configuration file and restart the application. "
 "Do you want to proceed?"
 msgstr ""
 
-#: src/mainwindow.cpp:2255 src/mainwindow.cpp:2359
+#: src/mainwindow.cpp:2252 src/mainwindow.cpp:2356
 #, kde-format
 msgid "Cannot find clip to add marker"
 msgstr "無法找到要添加記號的素材"
 
-#: src/mainwindow.cpp:2277 src/mainwindow.cpp:2308
+#: src/mainwindow.cpp:2274 src/mainwindow.cpp:2305
 #, kde-format
 msgid "Cannot find clip to remove marker"
 msgstr "無法找到要移除記號的素材"
 
-#: src/mainwindow.cpp:2288 src/mainwindow.cpp:2341
+#: src/mainwindow.cpp:2285 src/mainwindow.cpp:2338
 #, kde-format
 msgid "No marker found at cursor time"
 msgstr "遊標時間上找不到記號"
 
-#: src/mainwindow.cpp:2313
+#: src/mainwindow.cpp:2310
 #, kde-format
 msgid "An error occurred while deleting markers"
 msgstr ""
 
-#: src/mainwindow.cpp:2333 src/timeline2/view/timelinecontroller.cpp:766
+#: src/mainwindow.cpp:2330 src/timeline2/view/timelinecontroller.cpp:766
 #: src/timeline2/view/timelinecontroller.cpp:774
 #: src/timeline2/view/timelinecontroller.cpp:788
 #: src/timeline2/view/timelinecontroller.cpp:806
@@ -9839,142 +9871,142 @@ msgstr ""
 msgid "Cannot find clip to edit marker"
 msgstr "無法找到要添加記號的素材"
 
-#: src/mainwindow.cpp:2466
+#: src/mainwindow.cpp:2463
 #, fuzzy, kde-format
 msgid "No clip selected in project bin"
 msgstr "沒有複製任何素材"
 
-#: src/mainwindow.cpp:2619
+#: src/mainwindow.cpp:2616
 #, fuzzy, kde-format
 #| msgid "Cannot find clip to add effect"
 msgid "Select an item to add effect"
 msgstr "無法找到要添加特效的素材"
 
-#: src/mainwindow.cpp:2675
+#: src/mainwindow.cpp:2672
 #, fuzzy, kde-format
 #| msgid "Zoom Level: %1/13"
 msgid "Zoom Level: %1/%2"
 msgstr "縮放等級: %1/13"
 
-#: src/mainwindow.cpp:2755
+#: src/mainwindow.cpp:2752
 #, kde-format
 msgid "Ctrl + click to use spacer on current track only"
 msgstr "Ctrl + 點擊 可以只在目前的軌道上使用調整工具"
 
-#: src/mainwindow.cpp:2758
+#: src/mainwindow.cpp:2755
 #, kde-format
 msgid "Click on a clip to cut it, Shift + move to preview cut frame"
 msgstr ""
 
-#: src/mainwindow.cpp:2761
+#: src/mainwindow.cpp:2758
 #, kde-format
 msgid ""
 "Shift + click to create a selection rectangle, Ctrl + click to add an item "
 "to selection"
 msgstr "Shift + 點擊可建立一個選取框，Ctrl + 點擊可添加一個項目到選取範圍"
 
-#: src/mainwindow.cpp:3096
+#: src/mainwindow.cpp:3093
 #, fuzzy, kde-format
 msgid "Stabilize (%1)"
 msgstr "關閉素材"
 
-#: src/mainwindow.cpp:3100 src/project/clipstabilize.cpp:131
+#: src/mainwindow.cpp:3097 src/project/clipstabilize.cpp:131
 #, fuzzy, kde-format
 msgid "Stabilize clip"
 msgid_plural "Stabilize clips"
 msgstr[0] "字幕 / 標題素材"
 
-#: src/mainwindow.cpp:3108
+#: src/mainwindow.cpp:3105
 #, kde-format
 msgid "Automatic scene split"
 msgstr "自動場景分割"
 
-#: src/mainwindow.cpp:3111
+#: src/mainwindow.cpp:3108
 #, fuzzy, kde-format
 msgid "Scene detection"
 msgstr "邊緣檢測"
 
-#: src/mainwindow.cpp:3115
+#: src/mainwindow.cpp:3112
 #, fuzzy, kde-format
 msgid "Duplicate clip with speed change"
 msgstr "無法找到要修改速度的素材"
 
-#: src/mainwindow.cpp:3140
+#: src/mainwindow.cpp:3137
 #, fuzzy, kde-format
 #| msgid "Transcode"
 msgid "Transcoders"
 msgstr "轉換編碼"
 
-#: src/mainwindow.cpp:3177
+#: src/mainwindow.cpp:3174
 #, fuzzy, kde-format
 msgid "Interface"
 msgstr "交錯式"
 
-#: src/mainwindow.cpp:3221
+#: src/mainwindow.cpp:3218
 #, fuzzy, kde-format
 #| msgid "Close after transcode"
 msgid "Files to transcode"
 msgstr "轉換編碼後結束 Kdenlive"
 
-#: src/mainwindow.cpp:3357
+#: src/mainwindow.cpp:3354
 #, kde-format
 msgid "Project file could not be saved for archiving."
 msgstr ""
 
-#: src/mainwindow.cpp:3362
+#: src/mainwindow.cpp:3359
 #, fuzzy, kde-format
 msgid "Archiving project"
 msgstr "專案封存"
 
-#: src/mainwindow.cpp:3582
+#: src/mainwindow.cpp:3579
 #, fuzzy, kde-format
 msgid "Icon Size"
 msgstr "預覽視窗尺寸"
 
-#: src/mainwindow.cpp:3586
+#: src/mainwindow.cpp:3583
 #, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr "預設"
 
-#: src/mainwindow.cpp:3607 src/mainwindow.cpp:3635
+#: src/mainwindow.cpp:3604 src/mainwindow.cpp:3632
 #, kde-format
 msgid "Small (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3609 src/mainwindow.cpp:3637
+#: src/mainwindow.cpp:3606 src/mainwindow.cpp:3634
 #, kde-format
 msgid "Medium (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3611 src/mainwindow.cpp:3639
+#: src/mainwindow.cpp:3608 src/mainwindow.cpp:3636
 #, kde-format
 msgid "Large (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3613 src/mainwindow.cpp:3641
+#: src/mainwindow.cpp:3610 src/mainwindow.cpp:3638
 #, kde-format
 msgid "Huge (%1x%2)"
 msgstr ""
 
-#: src/mainwindow.cpp:3679
+#: src/mainwindow.cpp:3676
 #, kde-format
 msgid "Manage Cache Data"
 msgstr "管理緩存數據"
 
-#: src/mainwindow.cpp:3722
+#: src/mainwindow.cpp:3719
 #, kde-format
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing Ctrl"
 "+M."
 msgstr ""
 
-#: src/mainwindow.cpp:3722
+#: src/mainwindow.cpp:3719
 #, fuzzy, kde-format
 msgid "Hide menu bar"
 msgstr "隱藏幀"
 
-#: src/mainwindow.cpp:3737
+#: src/mainwindow.cpp:3734
 #, fuzzy, kde-format
 #| msgid ""
 #| "Kdenlive needs to be restarted to apply icon theme change. Restart now ?"
@@ -16211,6 +16243,10 @@ msgstr ""
 msgctxt "h as hours"
 msgid "%1h"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Loudness"
+#~ msgstr "柔和度"
 
 #, fuzzy
 #~ msgid "Analyse clip"

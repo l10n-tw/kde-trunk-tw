@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-19 02:38+0100\n"
+"POT-Creation-Date: 2019-11-20 02:34+0100\n"
 "PO-Revision-Date: 2019-01-03 18:34+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -6730,7 +6730,7 @@ msgstr "測量高度角誤差"
 msgid "Correct Alt Error"
 msgstr "修正高度角誤差"
 
-#: ekos/align/alignview.cpp:151 fitsviewer/fitsview.cpp:1081
+#: ekos/align/alignview.cpp:151 fitsviewer/fitsview.cpp:1010
 #, fuzzy, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "NGC"
@@ -6738,7 +6738,7 @@ msgctxt "North Celestial Pole"
 msgid "NCP"
 msgstr "NGC"
 
-#: ekos/align/alignview.cpp:153 fitsviewer/fitsview.cpp:1098
+#: ekos/align/alignview.cpp:153 fitsviewer/fitsview.cpp:1027
 #, fuzzy, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "NGC"
@@ -9350,7 +9350,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, focusGroup)
 #. i18n: ectx: property (text), widget (QCheckBox, focusStepCheck)
 #: ekos/auxiliary/opslogs.ui:166 ekos/manager.cpp:2132 ekos/manager.ui:1189
-#: ekos/scheduler/scheduler.ui:278 fitsviewer/fitsviewer.cpp:365
+#: ekos/scheduler/scheduler.ui:278 fitsviewer/fitsviewer.cpp:366
 #, kde-format
 msgid "Focus"
 msgstr "焦點"
@@ -9390,7 +9390,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, guideStepCheck)
 #: ekos/auxiliary/opslogs.ui:202 ekos/guide/guide.cpp:121
 #: ekos/guide/guide.ui:205 ekos/manager.cpp:2269 ekos/manager.ui:1386
-#: ekos/scheduler/scheduler.ui:253 fitsviewer/fitsviewer.cpp:369
+#: ekos/scheduler/scheduler.ui:253 fitsviewer/fitsviewer.cpp:370
 #, kde-format
 msgid "Guide"
 msgstr "導引"
@@ -13226,28 +13226,28 @@ msgstr ""
 msgid "PHD2 Error: %1"
 msgstr "方位角誤差："
 
-#: ekos/guide/externalguide/phd2.cpp:891 ekos/guide/externalguide/phd2.cpp:908
-#: ekos/guide/externalguide/phd2.cpp:1052
-#: ekos/guide/externalguide/phd2.cpp:1164
-#: ekos/guide/externalguide/phd2.cpp:1192
-#: ekos/guide/externalguide/phd2.cpp:1220
+#: ekos/guide/externalguide/phd2.cpp:883 ekos/guide/externalguide/phd2.cpp:900
+#: ekos/guide/externalguide/phd2.cpp:1044
+#: ekos/guide/externalguide/phd2.cpp:1156
+#: ekos/guide/externalguide/phd2.cpp:1184
+#: ekos/guide/externalguide/phd2.cpp:1212
 #, kde-format
 msgid "PHD2 Error: Equipment not connected."
 msgstr ""
 
-#: ekos/guide/externalguide/phd2.cpp:1045
+#: ekos/guide/externalguide/phd2.cpp:1037
 #, fuzzy, kde-format
 #| msgid "Autoguiding started."
 msgid "PHD2: Guiding is already running."
 msgstr "自動引導已啟動。"
 
-#: ekos/guide/externalguide/phd2.cpp:1109
+#: ekos/guide/externalguide/phd2.cpp:1101
 #, fuzzy, kde-format
 #| msgid "Configure Equipment"
 msgid "PHD2: Connecting Equipment. . ."
 msgstr "設定設備"
 
-#: ekos/guide/externalguide/phd2.cpp:1111
+#: ekos/guide/externalguide/phd2.cpp:1103
 #, fuzzy, kde-format
 #| msgid "Disconnecting INDI devices..."
 msgid "PHD2: Disconnecting Equipment. . ."
@@ -15248,7 +15248,7 @@ msgstr "CCD"
 
 #. i18n: ectx: property (text), widget (QCheckBox, alignStepCheck)
 #: ekos/manager.cpp:2096 ekos/scheduler/scheduler.ui:231
-#: fitsviewer/fitsviewer.cpp:373
+#: fitsviewer/fitsviewer.cpp:374
 #, kde-format
 msgid "Align"
 msgstr "對齊"
@@ -15280,7 +15280,7 @@ msgstr ""
 msgid "Failed to update site location to %1. City not found."
 msgstr ""
 
-#: ekos/manager.cpp:2795 fitsviewer/fitsviewer.cpp:520 indi/indiccd.cpp:1714
+#: ekos/manager.cpp:2795 fitsviewer/fitsviewer.cpp:523 indi/indiccd.cpp:1714
 #, kde-format
 msgid "Preview"
 msgstr "預覽"
@@ -20471,8 +20471,8 @@ msgid "Y Offset:"
 msgstr "Y 位移："
 
 #. i18n: ectx: property (text), widget (QLineEdit, statusEdit)
-#: fitsviewer/fitsdebayer.ui:130 fitsviewer/fitsviewer.cpp:396
-#: fitsviewer/fitsviewer.cpp:991
+#: fitsviewer/fitsdebayer.ui:130 fitsviewer/fitsviewer.cpp:397
+#: fitsviewer/fitsviewer.cpp:992 fitsviewer/fitsviewer.cpp:1009
 #, kde-format
 msgid "Ready."
 msgstr "就緒。"
@@ -20651,7 +20651,7 @@ msgid ""
 msgstr "目前的 FITS 檔中有未儲存的變更。您要在關閉前先儲存嗎？"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, statForm)
-#: fitsviewer/fitstab.cpp:127 fitsviewer/fitsviewer.cpp:184
+#: fitsviewer/fitstab.cpp:127 fitsviewer/fitsviewer.cpp:185
 #: fitsviewer/statform.ui:14
 #, kde-format
 msgid "Statistics"
@@ -20691,94 +20691,94 @@ msgstr "FITS 儲存"
 msgid "File saved to %1"
 msgstr "檔案已儲存到 %1"
 
-#: fitsviewer/fitsview.cpp:242 fitsviewer/fitsview.cpp:252
+#: fitsviewer/fitsview.cpp:263 fitsviewer/fitsview.cpp:273
 #, fuzzy, kde-format
 #| msgid "Saving of the image %1 failed."
 msgid "Rescaling image failed."
 msgstr "儲存影像 %1 失敗。"
 
-#: fitsviewer/fitsview.cpp:417
-#, fuzzy, kde-format
-#| msgid "Image is saturated!"
-msgid "Image is saturated."
-msgstr "影像已飽和！"
-
-#: fitsviewer/fitsview.cpp:559
+#: fitsviewer/fitsview.cpp:485
 #, kde-format
 msgid "Cannot zoom in further due to active limited resources mode."
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:1413
+#: fitsviewer/fitsview.cpp:1354
 #, kde-format
 msgid "Finding stars..."
 msgstr "搜尋星體中..."
 
-#: fitsviewer/fitsview.cpp:1418
+#: fitsviewer/fitsview.cpp:1359
 #, kde-format
 msgid "1 star detected."
 msgid_plural "%1 stars detected."
 msgstr[0] "偵測到 %1 個星體。"
 
-#: fitsviewer/fitsview.cpp:1627
+#: fitsviewer/fitsview.cpp:1568
 #, kde-format
 msgid "Zoom In"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:1630
+#: fitsviewer/fitsview.cpp:1571
 #, kde-format
 msgid "Zoom Out"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:1633
+#: fitsviewer/fitsview.cpp:1574
 #, fuzzy, kde-format
 #| msgid "&Default Zoom"
 msgid "Default Zoom"
 msgstr "預設縮放(&D)"
 
-#: fitsviewer/fitsview.cpp:1636
+#: fitsviewer/fitsview.cpp:1577
 #, kde-format
 msgid "Zoom to Fit"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:1641 fitsviewer/fitsviewer.cpp:189
+#: fitsviewer/fitsview.cpp:1580
+#, fuzzy, kde-format
+#| msgid "Auto Stretch"
+msgid "Toggle Stretch"
+msgstr "自動延伸"
+
+#: fitsviewer/fitsview.cpp:1588 fitsviewer/fitsviewer.cpp:190
 #, fuzzy, kde-format
 #| msgid "Crosshairs"
 msgid "Show Cross Hairs"
 msgstr "十字型"
 
-#: fitsviewer/fitsview.cpp:1645 fitsviewer/fitsviewer.cpp:195
+#: fitsviewer/fitsview.cpp:1592 fitsviewer/fitsviewer.cpp:196
 #, fuzzy, kde-format
 #| msgid "Show satellites"
 msgid "Show Pixel Gridlines"
 msgstr "顯示衛星"
 
-#: fitsviewer/fitsview.cpp:1650 fitsviewer/fitsview.cpp:1759
+#: fitsviewer/fitsview.cpp:1597 fitsviewer/fitsview.cpp:1706
 #, fuzzy, kde-format
 #| msgid "Open FITS Image"
 msgid "Detect Stars in Image"
 msgstr "開啟 FITS 影像"
 
-#: fitsviewer/fitsview.cpp:1656 fitsviewer/starprofileviewer.cpp:63
+#: fitsviewer/fitsview.cpp:1603 fitsviewer/starprofileviewer.cpp:63
 #, fuzzy, kde-format
 #| msgid "Arc file"
 msgid "View Star Profile"
 msgstr "Arc 檔"
 
-#: fitsviewer/fitsview.cpp:1666 fitsviewer/fitsviewer.cpp:201
-#: fitsviewer/fitsviewer.cpp:862
+#: fitsviewer/fitsview.cpp:1613 fitsviewer/fitsviewer.cpp:202
+#: fitsviewer/fitsviewer.cpp:863
 #, fuzzy, kde-format
 #| msgid "Equatorial Coordinates"
 msgid "Show Equatorial Gridlines"
 msgstr "赤道座標"
 
-#: fitsviewer/fitsview.cpp:1672 fitsviewer/fitsviewer.cpp:208
-#: fitsviewer/fitsviewer.cpp:864
+#: fitsviewer/fitsview.cpp:1619 fitsviewer/fitsviewer.cpp:209
+#: fitsviewer/fitsviewer.cpp:865
 #, fuzzy, kde-format
 #| msgid "Show Objects"
 msgid "Show Objects in Image"
 msgstr "顯示物件"
 
-#: fitsviewer/fitsview.cpp:1678
+#: fitsviewer/fitsview.cpp:1625
 #, fuzzy, kde-format
 #| msgid "Center in Telescope"
 msgid "Center Telescope"
@@ -20838,91 +20838,93 @@ msgstr "垂直翻轉"
 msgid "Debayer..."
 msgstr "Debayer..."
 
-#: fitsviewer/fitsviewer.cpp:153
-#, kde-format
-msgid "Auto stretch"
+#: fitsviewer/fitsviewer.cpp:153 fitsviewer/fitsviewer.cpp:401
+#: fitsviewer/fitsviewer.cpp:600 fitsviewer/fitsviewer.cpp:1005
+#, fuzzy, kde-format
+#| msgid "Auto stretch"
+msgid "Toggle Auto stretch"
 msgstr "自動延伸"
 
-#: fitsviewer/fitsviewer.cpp:215 fitsviewer/fitsviewer.cpp:874
+#: fitsviewer/fitsviewer.cpp:216 fitsviewer/fitsviewer.cpp:875
 #, kde-format
 msgid ""
 "Center Telescope\n"
 "*No Telescopes Detected*"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:222
+#: fitsviewer/fitsviewer.cpp:223
 #, kde-format
 msgid "Zoom To Fit"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:228 fitsviewer/fitsviewer.cpp:590
-#: fitsviewer/fitsviewer.cpp:601 fitsviewer/fitsviewer.cpp:956
+#: fitsviewer/fitsviewer.cpp:229 fitsviewer/fitsviewer.cpp:593
+#: fitsviewer/fitsviewer.cpp:607 fitsviewer/fitsviewer.cpp:957
 #, kde-format
 msgid "View 3D Graph"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:234 fitsviewer/fitsviewer.cpp:964
+#: fitsviewer/fitsviewer.cpp:235 fitsviewer/fitsviewer.cpp:965
 #, kde-format
 msgid "Mark Stars"
 msgstr "標記星體"
 
-#: fitsviewer/fitsviewer.cpp:250
+#: fitsviewer/fitsviewer.cpp:251
 #, kde-format
 msgid "KStars FITS Viewer"
 msgstr "KStars FITS 檢視器"
 
-#: fitsviewer/fitsviewer.cpp:361
+#: fitsviewer/fitsviewer.cpp:362
 #, kde-format
 msgid "Calibrate"
 msgstr "校正"
 
-#: fitsviewer/fitsviewer.cpp:569
+#: fitsviewer/fitsviewer.cpp:572
 #, kde-format
 msgid "%1 star detected."
 msgid_plural "%1 stars detected."
 msgstr[0] "偵測到 %1 個星體。"
 
-#: fitsviewer/fitsviewer.cpp:591 fitsviewer/fitsviewer.cpp:925
+#: fitsviewer/fitsviewer.cpp:594 fitsviewer/fitsviewer.cpp:926
 #, fuzzy, kde-format
 #| msgid "Crosshairs"
 msgid "Cross Hairs"
 msgstr "十字型"
 
-#: fitsviewer/fitsviewer.cpp:592
+#: fitsviewer/fitsviewer.cpp:595
 #, fuzzy, kde-format
 #| msgid "Equatorial Coordinates"
 msgid "Equatorial Gridines"
 msgstr "赤道座標"
 
-#: fitsviewer/fitsviewer.cpp:593 fitsviewer/fitsviewer.cpp:940
+#: fitsviewer/fitsviewer.cpp:596 fitsviewer/fitsviewer.cpp:941
 #, fuzzy, kde-format
 #| msgid "Show Objects"
 msgid "Objects in Image"
 msgstr "顯示物件"
 
-#: fitsviewer/fitsviewer.cpp:594 fitsviewer/fitsviewer.cpp:948
+#: fitsviewer/fitsviewer.cpp:597 fitsviewer/fitsviewer.cpp:949
 #, fuzzy, kde-format
 #| msgid "Show satellites"
 msgid "Pixel Gridlines"
 msgstr "顯示衛星"
 
-#: fitsviewer/fitsviewer.cpp:607
+#: fitsviewer/fitsviewer.cpp:613
 #, kde-format
 msgid "Open FITS Image"
 msgstr "開啟 FITS 影像"
 
-#: fitsviewer/fitsviewer.cpp:840
+#: fitsviewer/fitsviewer.cpp:841
 #, kde-format
 msgid "Hide %1"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:845
+#: fitsviewer/fitsviewer.cpp:846
 #, fuzzy, kde-format
 #| msgid "Show"
 msgid "Show %1"
 msgstr "顯示"
 
-#: fitsviewer/fitsviewer.cpp:869
+#: fitsviewer/fitsviewer.cpp:870
 #, fuzzy, kde-format
 #| msgid "Center in Telescope"
 msgid ""
@@ -20930,14 +20932,14 @@ msgid ""
 "*Ready*"
 msgstr "置於望遠鏡中央"
 
-#: fitsviewer/fitsviewer.cpp:880
+#: fitsviewer/fitsviewer.cpp:881
 #, kde-format
 msgid ""
 "Show Equatorial Gridlines\n"
 "*No WCS Info*"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:882
+#: fitsviewer/fitsviewer.cpp:883
 #, fuzzy, kde-format
 #| msgid "Center in Telescope"
 msgid ""
@@ -20945,28 +20947,33 @@ msgid ""
 "*No WCS Info*"
 msgstr "置於望遠鏡中央"
 
-#: fitsviewer/fitsviewer.cpp:884
+#: fitsviewer/fitsviewer.cpp:885
 #, kde-format
 msgid ""
 "Show Objects in Image\n"
 "*No WCS Info*"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:932
+#: fitsviewer/fitsviewer.cpp:933
 #, fuzzy, kde-format
 #| msgid "Equatorial Coordinates"
 msgid "Equatorial Gridlines"
 msgstr "赤道座標"
 
-#: fitsviewer/fitsviewer.cpp:969
+#: fitsviewer/fitsviewer.cpp:970
 #, kde-format
 msgid "Unmark Stars"
 msgstr "未標記星體"
 
-#: fitsviewer/fitsviewer.cpp:985
+#: fitsviewer/fitsviewer.cpp:986
 #, kde-format
 msgid "Processing %1..."
 msgstr "%1 處理中..."
+
+#: fitsviewer/fitsviewer.cpp:1001
+#, kde-format
+msgid "Processing toggle stretch"
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, FITSViewerGroup)
 #: fitsviewer/opsfits.ui:37
@@ -104869,6 +104876,11 @@ msgstr "背景顏色："
 #, kde-format
 msgid "Set the color for the background."
 msgstr "設定背景顏色。"
+
+#, fuzzy
+#~| msgid "Image is saturated!"
+#~ msgid "Image is saturated."
+#~ msgstr "影像已飽和！"
 
 #, fuzzy
 #~| msgid ""

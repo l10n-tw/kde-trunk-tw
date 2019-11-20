@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kup\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-18 03:14+0100\n"
+"POT-Creation-Date: 2019-11-20 03:23+0100\n"
 "PO-Revision-Date: 2018-12-31 13:19+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/kup/kup/language/"
@@ -20,8 +20,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: daemon/bupjob.cpp:47 daemon/buprepairjob.cpp:38
-#: daemon/bupverificationjob.cpp:37
+#: daemon/bupjob.cpp:48 daemon/buprepairjob.cpp:40
+#: daemon/bupverificationjob.cpp:39
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
@@ -31,7 +31,7 @@ msgstr ""
 "必須的 <application>bup</application> 程式是必須的但找不到，也許它尚未被安"
 "裝？"
 
-#: daemon/bupjob.cpp:52 daemon/buprepairjob.cpp:43
+#: daemon/bupjob.cpp:53 daemon/buprepairjob.cpp:45
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
@@ -41,19 +41,19 @@ msgstr ""
 "必須的 <application>par2</application> 程式是必須的但找不到，也許它尚未被安"
 "裝？"
 
-#: daemon/bupjob.cpp:71
+#: daemon/bupjob.cpp:72
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
 "Backup destination could not be initialised. See log file for more details."
 msgstr "備份目的地無法被初始化。參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/bupjob.cpp:93
+#: daemon/bupjob.cpp:95
 #, kde-format
 msgid "Checking backup integrity"
 msgstr "正在校驗備份完整性"
 
-#: daemon/bupjob.cpp:105 daemon/bupverificationjob.cpp:68
+#: daemon/bupjob.cpp:107 daemon/bupverificationjob.cpp:71
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
@@ -63,7 +63,7 @@ msgstr ""
 "備份完整性校驗失敗。您的備份可能已損毀！參見記錄檔以取得更多詳細資訊。您想要"
 "嘗試修復備份檔案嗎？"
 
-#: daemon/bupjob.cpp:109
+#: daemon/bupjob.cpp:111
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
@@ -71,34 +71,34 @@ msgid ""
 "for more details."
 msgstr "備份完整性校驗失敗。您的備份可能已損毀！參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/bupjob.cpp:132 daemon/rsyncjob.cpp:57
+#: daemon/bupjob.cpp:134 daemon/rsyncjob.cpp:57
 #, kde-format
 msgid "Checking what to copy"
 msgstr "勾選哪些要複製"
 
-#: daemon/bupjob.cpp:140
+#: daemon/bupjob.cpp:142
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid "Failed to analyze files. See log file for more details."
 msgstr "分析檔案失敗。參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/bupjob.cpp:161 daemon/bupjob.cpp:257 daemon/rsyncjob.cpp:166
+#: daemon/bupjob.cpp:163 daemon/bupjob.cpp:260 daemon/rsyncjob.cpp:166
 #, kde-format
 msgid "Saving backup"
 msgstr "正在儲存備份"
 
-#: daemon/bupjob.cpp:170 daemon/rsyncjob.cpp:110
+#: daemon/bupjob.cpp:172 daemon/rsyncjob.cpp:110
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid "Failed to save backup. See log file for more details."
 msgstr "儲存備份失敗。參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/bupjob.cpp:192
+#: daemon/bupjob.cpp:195
 #, kde-format
 msgid "Generating recovery information"
 msgstr "正在生成復原資訊"
 
-#: daemon/bupjob.cpp:201
+#: daemon/bupjob.cpp:204
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
@@ -106,13 +106,13 @@ msgid ""
 "details."
 msgstr "產生備份的復原資訊失敗。參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/bupjob.cpp:258 daemon/rsyncjob.cpp:167
+#: daemon/bupjob.cpp:261 daemon/rsyncjob.cpp:167
 #, kde-format
 msgctxt "Label for file currently being copied"
 msgid "File"
 msgstr "檔案"
 
-#: daemon/buprepairjob.cpp:72
+#: daemon/buprepairjob.cpp:75
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
@@ -120,13 +120,13 @@ msgid ""
 "details."
 msgstr "備份修復失敗。您的備份可能已損毀！參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/buprepairjob.cpp:76
+#: daemon/buprepairjob.cpp:79
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid "Success! Backup repair worked. See log file for more details."
 msgstr "成功！備份修復完成。參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/buprepairjob.cpp:80
+#: daemon/buprepairjob.cpp:83
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
@@ -134,7 +134,7 @@ msgid ""
 "file for more details."
 msgstr "不需要修復備份。您的備份並無損毀。參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/buprepairjob.cpp:85
+#: daemon/buprepairjob.cpp:88
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
@@ -143,7 +143,7 @@ msgid ""
 msgstr ""
 "備份修復失敗。您的備份可能仍處於損毀狀態！參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/bupverificationjob.cpp:71 daemon/bupverificationjob.cpp:88
+#: daemon/bupverificationjob.cpp:74 daemon/bupverificationjob.cpp:91
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
@@ -151,7 +151,7 @@ msgid ""
 "more details."
 msgstr "備份完整性校驗失敗。您的備份已損毀！參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/bupverificationjob.cpp:77
+#: daemon/bupverificationjob.cpp:80
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info notification"
 #| msgid "Backup integrity test was successful, Your backups are fine."
@@ -159,7 +159,7 @@ msgctxt "@info notification"
 msgid "Backup integrity test was successful. Your backups are fine."
 msgstr "備份完整性測試成功。您的備份狀態良好。"
 
-#: daemon/bupverificationjob.cpp:84
+#: daemon/bupverificationjob.cpp:87
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
