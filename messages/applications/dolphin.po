@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-11-18 02:24+0100\n"
-"PO-Revision-Date: 2019-11-03 14:02+0800\n"
+"PO-Revision-Date: 2019-11-22 01:45+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.08.2\n"
+"X-Generator: Lokalize 19.11.80\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -180,19 +180,19 @@ msgid ""
 msgstr "程式「%1」仍然在「終端機」面板執行。確定退出？"
 
 #: dolphinmainwindow.cpp:1000
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Open Path"
 msgctxt "@action:inmenu Tools"
 msgid "Open %1"
-msgstr "開啟路徑"
+msgstr "開啟 %1"
 
 #: dolphinmainwindow.cpp:1005 dolphinmainwindow.cpp:1539
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "More Search Tools"
 msgctxt "@action:inmenu Tools"
 msgid "Open Preferred Search Tool"
-msgstr "更多搜尋工具"
+msgstr "開啟偏好的搜尋工具"
 
 #: dolphinmainwindow.cpp:1301
 #, kde-format
@@ -2122,8 +2122,7 @@ msgid ""
 msgid_plural ""
 "One or more files on this device are opened in following applications: "
 "<application>%2</application>."
-msgstr[0] ""
-"裝置上的一或多個檔案會在下述應用程式內開啟：<application>%2</application>。"
+msgstr[0] "裝置上的一或多個檔案會在下述應用程式內開啟：<application>%2</application>。"
 
 #: panels/places/placesitemmodel.cpp:481
 #, kde-format
@@ -2226,8 +2225,7 @@ msgstr "隱藏「%1」部份"
 msgid ""
 "Terminal cannot be shown because Konsole is not installed. Please install it "
 "and then reopen the panel."
-msgstr ""
-"因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
+msgstr "因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
 
 #: panels/terminal/terminalpanel.cpp:163
 #, kde-format

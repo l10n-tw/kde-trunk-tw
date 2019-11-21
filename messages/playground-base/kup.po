@@ -1,24 +1,24 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Jeff Huang <s8321414@gmail.com>, 2014-2018
-# Simon Persson <simon.persson@mykolab.com>, 2014-2015,2018
+# Jeff Huang <s8321414@gmail.com>, 2014-2018.
+# Simon Persson <simon.persson@mykolab.com>, 2014-2015,2018.
+# pan93412 <pan93412@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: kup\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-11-20 03:23+0100\n"
-"PO-Revision-Date: 2018-12-31 13:19+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/kup/kup/language/"
-"zh_TW/)\n"
+"PO-Revision-Date: 2019-11-22 01:49+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 19.11.80\n"
 
 #: daemon/bupjob.cpp:48 daemon/buprepairjob.cpp:40
 #: daemon/bupverificationjob.cpp:39
@@ -140,8 +140,7 @@ msgctxt "@info notification"
 msgid ""
 "Backup repair failed. Your backups could still be corrupted! See log file "
 "for more details."
-msgstr ""
-"備份修復失敗。您的備份可能仍處於損毀狀態！參見記錄檔以取得更多詳細資訊。"
+msgstr "備份修復失敗。您的備份可能仍處於損毀狀態！參見記錄檔以取得更多詳細資訊。"
 
 #: daemon/bupverificationjob.cpp:74 daemon/bupverificationjob.cpp:91
 #, kde-kuit-format
@@ -152,7 +151,7 @@ msgid ""
 msgstr "備份完整性校驗失敗。您的備份已損毀！參見記錄檔以取得更多詳細資訊。"
 
 #: daemon/bupverificationjob.cpp:80
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info notification"
 #| msgid "Backup integrity test was successful, Your backups are fine."
 msgctxt "@info notification"
@@ -339,6 +338,8 @@ msgid ""
 "You have been active for %1 since last backup was saved.\n"
 "Save a new backup now?"
 msgstr ""
+"自上次儲存備份後，你又對 %1 做了事情。\n"
+"是否儲存新備份？"
 
 #: daemon/planexecutor.cpp:159 daemon/planexecutor.cpp:189
 #: daemon/planexecutor.cpp:267
@@ -407,7 +408,7 @@ msgstr ""
 "裝？"
 
 #: filedigger/filedigger.cpp:103
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info messagebox, %1 is a folder path"
 #| msgid ""
 #| "The backup archive <filename>%1</filename> could not be opened.Check if "
@@ -416,8 +417,7 @@ msgctxt "@info messagebox, %1 is a folder path"
 msgid ""
 "The backup archive <filename>%1</filename> could not be opened. Check if the "
 "backups really are located there."
-msgstr ""
-"備份壓縮檔 <filename>%1</filename> 無法開啟。請檢查備份是否真的位於那裡。"
+msgstr "備份壓縮檔 <filename>%1</filename> 無法開啟。請檢查備份是否真的位於那裡。"
 
 #: filedigger/filedigger.cpp:111
 #, kde-kuit-format
@@ -642,7 +642,7 @@ msgstr "確認"
 
 #. i18n: ectx: property (text), widget (QLabel, mErrorLabel)
 #: filedigger/restoredialog.ui:341
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@label above the detailed error message"
 #| msgid "An error occured while restoring:"
 msgctxt "@label above the detailed error message"
@@ -878,7 +878,7 @@ msgid "External Storage"
 msgstr "外部儲存空間"
 
 #: kcm/backupplanwidget.cpp:611
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
 #| "You can use this option for backing up to a secondary internal harddrive, "
@@ -975,8 +975,7 @@ msgctxt "@info"
 msgid ""
 "New backup will be triggered when backup destination becomes available and "
 "more than the configured interval has passed since the last backup was taken."
-msgstr ""
-"現在備份將會在自最後一次備份後超過設定間隔，且備份目的地可用時自動啟動。"
+msgstr "現在備份將會在自最後一次備份後超過設定間隔，且備份目的地可用時自動啟動。"
 
 #: kcm/backupplanwidget.cpp:740
 #, kde-kuit-format
@@ -1208,8 +1207,7 @@ msgctxt "@info:tooltip %1 is the path of the folder in a listview"
 msgid ""
 "<filename>%1</filename><nl/> will <emphasis>not</emphasis> be included in "
 "the backup"
-msgstr ""
-"<filename>%1</filename><nl/>將 <emphasis>不會</emphasis> 被包括在備份中"
+msgstr "<filename>%1</filename><nl/>將 <emphasis>不會</emphasis> 被包括在備份中"
 
 #: kcm/kupkcm.cpp:49
 #, kde-format
