@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-20 02:34+0100\n"
+"POT-Creation-Date: 2019-11-21 02:34+0100\n"
 "PO-Revision-Date: 2019-01-03 18:34+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -5298,20 +5298,20 @@ msgid ""
 "ASTAP executable in options."
 msgstr ""
 
-#: ekos/align/align.cpp:1887
+#: ekos/align/align.cpp:1892
 #, kde-format
 msgid ""
 "Cannot set solver to remote. The Ekos equipment profile must include the "
 "astrometry Auxiliary driver."
 msgstr ""
 
-#: ekos/align/align.cpp:2106
+#: ekos/align/align.cpp:2111
 #, fuzzy, kde-format
 #| msgid "Telescope does not support syncing."
 msgid "Mount does not support syncing."
 msgstr "望遠鏡不支援同步。"
 
-#: ekos/align/align.cpp:2153 ekos/align/align.cpp:2160 ekos/guide/guide.cpp:919
+#: ekos/align/align.cpp:2158 ekos/align/align.cpp:2165 ekos/guide/guide.cpp:919
 #: ekos/guide/guide.cpp:926 ekos/profileeditor.cpp:128
 #: ekos/profileeditor.cpp:135
 #, kde-format
@@ -5321,7 +5321,7 @@ msgid ""
 "sup></nobr>"
 msgstr ""
 
-#: ekos/align/align.cpp:2347
+#: ekos/align/align.cpp:2352
 #, kde-format
 msgid ""
 "<p>Effective field of view size in arcminutes.</p><p>Please capture and "
@@ -5329,13 +5329,13 @@ msgid ""
 "p><p>Calculated FOV: %1</p>"
 msgstr ""
 
-#: ekos/align/align.cpp:2355
+#: ekos/align/align.cpp:2360
 #, fuzzy, kde-format
 #| msgid "Desired field-of-view size, in arcminutes"
 msgid "<p>Effective field of view size in arcminutes.</p>"
 msgstr "想要的視場大小，以弧分為單位"
 
-#: ekos/align/align.cpp:2382
+#: ekos/align/align.cpp:2387
 #, kde-format
 msgid ""
 "<p>Polar Alignment Helper tool requires the following:</p><p>1. German "
@@ -5343,7 +5343,7 @@ msgid ""
 "Legacy Polar Alignment Tool.</p>"
 msgstr ""
 
-#: ekos/align/align.cpp:2655 ekos/align/align.cpp:4511
+#: ekos/align/align.cpp:2660 ekos/align/align.cpp:4516
 #, kde-format
 msgid ""
 "Astrometry.net uses python3 and the astropy package for plate solving images "
@@ -5353,187 +5353,187 @@ msgid ""
 "install astropy."
 msgstr ""
 
-#: ekos/align/align.cpp:2667 ekos/guide/guide.cpp:1039
+#: ekos/align/align.cpp:2672 ekos/guide/guide.cpp:1039
 #, fuzzy, kde-format
 #| msgid "Error: Lost connection to CCD."
 msgid "Error: lost connection to CCD."
 msgstr "錯誤：失去與 CCD 的連線。"
 
-#: ekos/align/align.cpp:2668
+#: ekos/align/align.cpp:2673
 #, fuzzy, kde-format
 #| msgid "Alignment timed out."
 msgid "Astrometry alignment failed"
 msgstr "校準逾時。"
 
-#: ekos/align/align.cpp:2690
+#: ekos/align/align.cpp:2695
 #, kde-format
 msgid ""
 "Telescope aperture and focal length are missing. Please check your driver "
 "settings and try again."
 msgstr "望遠鏡的光圈與焦距遺失。請檢查您的驅動程式設定然後再試一次。"
 
-#: ekos/align/align.cpp:2696
+#: ekos/align/align.cpp:2701
 #, kde-format
 msgid ""
 "CCD pixel size is missing. Please check your driver settings and try again."
 msgstr "CCD 像素大小遺失。請檢查您的驅動程式設定然後再試一次。"
 
-#: ekos/align/align.cpp:2704
+#: ekos/align/align.cpp:2709
 #, fuzzy, kde-format
 #| msgid "Error: Lost connection to filter wheel."
 msgid "Error: lost connection to filter wheel."
 msgstr "錯誤：失去與過濾輪的連線。"
 
-#: ekos/align/align.cpp:2722 ekos/capture/capture.cpp:2916
+#: ekos/align/align.cpp:2727 ekos/capture/capture.cpp:2916
 #: ekos/capture/capture.cpp:6007 ekos/focus/focus.cpp:3011
 #, kde-format
 msgid ""
 "Image transfer is disabled for this camera. Would you like to enable it?"
 msgstr ""
 
-#: ekos/align/align.cpp:2740
+#: ekos/align/align.cpp:2745
 #, fuzzy, kde-format
 #| msgid "Autofocus in progress..."
 msgid "Cannot capture while focus module is busy. Retrying in 10 seconds..."
 msgstr "自動對焦處理中..."
 
-#: ekos/align/align.cpp:2747
+#: ekos/align/align.cpp:2752
 #, fuzzy, kde-format
 #| msgid "Autofocus in progress..."
 msgid ""
 "Cannot capture while CCD exposure is in progress. Retrying in 10 seconds..."
 msgstr "自動對焦處理中..."
 
-#: ekos/align/align.cpp:2845 ekos/focus/focus.cpp:865
+#: ekos/align/align.cpp:2850 ekos/focus/focus.cpp:865
 #: ekos/guide/internalguide/rcalibration.cpp:893
 #, kde-format
 msgid "Capturing image..."
 msgstr "抓取影像中..."
 
-#: ekos/align/align.cpp:2925 ekos/focus/focus.cpp:1019
+#: ekos/align/align.cpp:2930 ekos/focus/focus.cpp:1019
 #, kde-format
 msgid "Image received."
 msgstr "影像已接收。"
 
-#: ekos/align/align.cpp:3036
+#: ekos/align/align.cpp:3041
 #, kde-format
 msgid "Using solver options: %1"
 msgstr ""
 
-#: ekos/align/align.cpp:3040
+#: ekos/align/align.cpp:3045
 #, fuzzy, kde-format
 #| msgctxt "City in Ontario Canada"
 #| msgid "Blind River"
 msgid "Blind solver"
 msgstr "Blind River"
 
-#: ekos/align/align.cpp:3041
+#: ekos/align/align.cpp:3046
 #, kde-format
 msgid ""
 "Blind solver takes a very long time to solve but can reliably solve any "
 "image any where in the sky given enough time."
 msgstr ""
 
-#: ekos/align/align.cpp:3043
+#: ekos/align/align.cpp:3048
 #, kde-format
 msgid "Use existing settings"
 msgstr ""
 
-#: ekos/align/align.cpp:3044
+#: ekos/align/align.cpp:3049
 #, kde-format
 msgid ""
 "Mount must be pointing close to the target location and current field of "
 "view must match the image's field of view."
 msgstr ""
 
-#: ekos/align/align.cpp:3048
+#: ekos/align/align.cpp:3053
 #, kde-format
 msgid ""
 "No metadata is available in this image. Do you want to use the blind solver "
 "or the existing solver settings?"
 msgstr ""
 
-#: ekos/align/align.cpp:3050
+#: ekos/align/align.cpp:3055
 #, kde-format
 msgid "Astrometry solver"
 msgstr "Astrometry solver"
 
-#: ekos/align/align.cpp:3102
+#: ekos/align/align.cpp:3107
 #, kde-format
 msgid "Solver iteration #%1"
 msgstr ""
 
-#: ekos/align/align.cpp:3142
+#: ekos/align/align.cpp:3147
 #, kde-format
 msgid "Solver RA (%1) DEC (%2) Orientation (%3) Pixel Scale (%4)"
 msgstr "識別器赤經 (%1) 赤緯 (%2)  方向  (%3) 像素縮放 (%4)"
 
-#: ekos/align/align.cpp:3275
+#: ekos/align/align.cpp:3280
 #, kde-format
 msgid ""
 "WCS information updated. Images captured from this point forward shall have "
 "valid WCS."
 msgstr "WCS 資訊已更新。從這個點之前的影像應該有正確的 WCS。"
 
-#: ekos/align/align.cpp:3293
+#: ekos/align/align.cpp:3298
 #, kde-format
 msgid ""
 "Solution coordinates: RA (%1) DEC (%2) Telescope Coordinates: RA (%3) DEC "
 "(%4)"
 msgstr ""
 
-#: ekos/align/align.cpp:3299
+#: ekos/align/align.cpp:3304
 #, fuzzy, kde-format
 #| msgid "Synchronize the telescope to the solution coordinates"
 msgid "Target is within %1 degrees of solution coordinates."
 msgstr "將望遠鏡與識別座標同步"
 
-#: ekos/align/align.cpp:3352
+#: ekos/align/align.cpp:3357
 #, fuzzy, kde-format
 #| msgid "Setting temperature to %1 C..."
 msgid "Setting position angle to %1 degrees E of N..."
 msgstr "設定溫度為 %1 度 C..."
 
-#: ekos/align/align.cpp:3389
+#: ekos/align/align.cpp:3394
 #, kde-format
 msgid "Maximum number of iterations reached. Solver failed."
 msgstr ""
 
-#: ekos/align/align.cpp:3421
+#: ekos/align/align.cpp:3426
 #, kde-format
 msgid "Target is within acceptable range. Astrometric solver is successful."
 msgstr ""
 
-#: ekos/align/align.cpp:3446 ekos/align/align.cpp:3701
-#: ekos/align/align.cpp:3737
+#: ekos/align/align.cpp:3451 ekos/align/align.cpp:3706
+#: ekos/align/align.cpp:3742
 #, fuzzy, kde-format
 #| msgid "Post flip re-alignment completed successfully."
 msgid "Astrometry alignment completed successfully"
 msgstr "後翻轉重新調校已成功完成。"
 
-#: ekos/align/align.cpp:3464
+#: ekos/align/align.cpp:3469
 #, kde-format
 msgid "Astrometry alignment failed with errors"
 msgstr ""
 
-#: ekos/align/align.cpp:3534
+#: ekos/align/align.cpp:3539
 #, fuzzy, kde-format
 #| msgid "%1 filter is online."
 msgid "Refresh is complete."
 msgstr "%1  過濾器已上線。"
 
-#: ekos/align/align.cpp:3541 ekos/focus/focus.cpp:679
+#: ekos/align/align.cpp:3546 ekos/focus/focus.cpp:679
 #, kde-format
 msgid "Capture aborted."
 msgstr "抓取已中止。"
 
-#: ekos/align/align.cpp:3546
+#: ekos/align/align.cpp:3551
 #, kde-format
 msgid "Solver aborted after %1 second."
 msgid_plural "Solver aborted after %1 seconds"
 msgstr[0] "識別器在 %1 秒後中止"
 
-#: ekos/align/align.cpp:3573 ekos/capture/capture.cpp:2200
+#: ekos/align/align.cpp:3578 ekos/capture/capture.cpp:2200
 #: ekos/focus/focus.cpp:2252 ekos/guide/guide.cpp:1310 ekos/manager.cpp:1977
 #: ekos/mount/mount.cpp:756 ekos/observatory/observatory.cpp:891
 #: ekos/scheduler/scheduler.cpp:386
@@ -5542,120 +5542,120 @@ msgctxt "log entry; %1 is the date, %2 is the text"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: ekos/align/align.cpp:3676
+#: ekos/align/align.cpp:3681
 #, kde-format
 msgid "Mount completed slewing near celestial pole. Capture again to verify."
 msgstr ""
 
-#: ekos/align/align.cpp:3699
+#: ekos/align/align.cpp:3704
 #, kde-format
 msgid ""
 "Mount is synced to solution coordinates. Astrometric solver is successful."
 msgstr ""
 
-#: ekos/align/align.cpp:3730 ekos/align/align.cpp:3758
-#: ekos/align/align.cpp:3832 ekos/align/align.cpp:3865
-#: ekos/align/align.cpp:4203 ekos/align/align.cpp:4241
-#: ekos/align/align.cpp:5324 ekos/focus/focus.cpp:2604
+#: ekos/align/align.cpp:3735 ekos/align/align.cpp:3763
+#: ekos/align/align.cpp:3837 ekos/align/align.cpp:3870
+#: ekos/align/align.cpp:4208 ekos/align/align.cpp:4246
+#: ekos/align/align.cpp:5329 ekos/focus/focus.cpp:2604
 #, fuzzy, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Settings"
 msgid "Settling..."
 msgstr "設定"
 
-#: ekos/align/align.cpp:3736
+#: ekos/align/align.cpp:3741
 #, kde-format
 msgid "Differential slewing complete. Astrometric solver is successful."
 msgstr ""
 
-#: ekos/align/align.cpp:3748
+#: ekos/align/align.cpp:3753
 #, kde-format
 msgid "Slew complete. Target accuracy is not met, running solver again..."
 msgstr ""
 
-#: ekos/align/align.cpp:3750
+#: ekos/align/align.cpp:3755
 #, kde-format
 msgid "Slew complete. Solving Alignment Point. . ."
 msgstr ""
 
-#: ekos/align/align.cpp:3791 ekos/align/align.cpp:3983
+#: ekos/align/align.cpp:3796 ekos/align/align.cpp:3988
 #, kde-format
 msgid "Syncing failed."
 msgstr "同步失敗。"
 
-#: ekos/align/align.cpp:3793
+#: ekos/align/align.cpp:3798
 #, fuzzy, kde-format
 #| msgid "Dithering..."
 msgid "Slewing failed."
 msgstr "移動中..."
 
-#: ekos/align/align.cpp:3823
+#: ekos/align/align.cpp:3828
 #, fuzzy, kde-format
 #| msgid "Calibration completed."
 msgid "Mount first rotation is complete."
 msgstr "靈敏度校正完成。"
 
-#: ekos/align/align.cpp:3839 ekos/align/align.cpp:3872
+#: ekos/align/align.cpp:3844 ekos/align/align.cpp:3877
 #, kde-format
 msgid "Mount aborted. Please restart the process and reduce the speed."
 msgstr ""
 
-#: ekos/align/align.cpp:3855
+#: ekos/align/align.cpp:3860
 #, fuzzy, kde-format
 #| msgid "Calibration completed."
 msgid "Mount second rotation is complete."
 msgstr "靈敏度校正完成。"
 
-#: ekos/align/align.cpp:3898
+#: ekos/align/align.cpp:3903
 #, kde-format
 msgid ""
 "Slew complete. Please adjust azimuth knob until the target is in the center "
 "of the view."
 msgstr "旋轉完成。請調整方位角直到目標在視野的正中央。"
 
-#: ekos/align/align.cpp:3926
+#: ekos/align/align.cpp:3931
 #, kde-format
 msgid ""
 "Slew complete. Please adjust altitude knob until the target is in the center "
 "of the view."
 msgstr "旋轉完成。請調高高度直到目標在視野的正中央。"
 
-#: ekos/align/align.cpp:3944
+#: ekos/align/align.cpp:3949
 #, fuzzy, kde-format
 #| msgid "Position Angle"
 msgid "Rotator reached target position angle."
 msgstr "位置角度"
 
-#: ekos/align/align.cpp:3977
+#: ekos/align/align.cpp:3982
 #, fuzzy, kde-format
 #| msgid "Syncing successful."
 msgid "Syncing to RA (%1) DEC (%2)"
 msgstr "同步成功。"
 
-#: ekos/align/align.cpp:4000
+#: ekos/align/align.cpp:4005
 #, fuzzy, kde-format
 #| msgid "Slew to the flag coordinates"
 msgid "Slewing to target coordinates: RA (%1) DEC (%2)."
 msgstr "旋轉到旗標座標"
 
-#: ekos/align/align.cpp:4013
+#: ekos/align/align.cpp:4018
 #, kde-format
 msgid "Ekos job (%1) - Telescope synced"
 msgstr ""
 
-#: ekos/align/align.cpp:4043
+#: ekos/align/align.cpp:4048
 #, kde-format
 msgid "Processing solution for polar alignment..."
 msgstr "極地校準處理中..."
 
-#: ekos/align/align.cpp:4074 ekos/align/align.cpp:4176
+#: ekos/align/align.cpp:4079 ekos/align/align.cpp:4181
 #, kde-format
 msgid ""
 "Polar Alignment Helper is still active. Do you want to continue using legacy "
 "polar alignment tool?"
 msgstr ""
 
-#: ekos/align/align.cpp:4093
+#: ekos/align/align.cpp:4098
 #, fuzzy, kde-format
 #| msgid ""
 #| "Point the telescope at the southern meridian. Press continue when ready."
@@ -5663,7 +5663,7 @@ msgid ""
 "Point the telescope at the southern meridian. Press Continue when ready."
 msgstr "將望遠鏡指向南方子午線。請繼續直到就緒。"
 
-#: ekos/align/align.cpp:4094
+#: ekos/align/align.cpp:4099
 #, fuzzy, kde-format
 #| msgid ""
 #| "Point the telescope at the northern meridian. Press continue when ready."
@@ -5671,93 +5671,93 @@ msgid ""
 "Point the telescope at the northern meridian. Press Continue when ready."
 msgstr "將望遠鏡指向北方子午線。請繼續直到就緒。"
 
-#: ekos/align/align.cpp:4095 ekos/align/align.cpp:4195
+#: ekos/align/align.cpp:4100 ekos/align/align.cpp:4200
 #, kde-format
 msgid "Polar Alignment Measurement"
 msgstr "極地校準測量"
 
-#: ekos/align/align.cpp:4099
+#: ekos/align/align.cpp:4104
 #, kde-format
 msgid "Solving first frame near the meridian."
 msgstr "識別靠近子午線的第一訊框中。"
 
-#: ekos/align/align.cpp:4128 ekos/align/align.cpp:4231
+#: ekos/align/align.cpp:4133 ekos/align/align.cpp:4236
 #, kde-format
 msgid "Slewing 30 arcminutes in RA..."
 msgstr "在赤經旋轉 30 弧分"
 
-#: ekos/align/align.cpp:4134
+#: ekos/align/align.cpp:4139
 #, kde-format
 msgid "Solving second frame near the meridian."
 msgstr "識別靠近子午線的第二訊框中。"
 
-#: ekos/align/align.cpp:4143
+#: ekos/align/align.cpp:4148
 #, kde-format
 msgid "Calculating azimuth alignment error..."
 msgstr "計算方位校準誤差中..."
 
-#: ekos/align/align.cpp:4159 ekos/align/align.cpp:4265
+#: ekos/align/align.cpp:4164 ekos/align/align.cpp:4270
 #, kde-format
 msgid "Slewing back to original position..."
 msgstr "旋轉回原來位置中..."
 
-#: ekos/align/align.cpp:4193
+#: ekos/align/align.cpp:4198
 #, kde-format
 msgid ""
 "Point the telescope to the eastern or western horizon with a minimum "
 "altitude of 20 degrees. Press continue when ready."
 msgstr "將望遠鏡指向東或西水平線，最小高度 20 度。完成後按下「繼續」。"
 
-#: ekos/align/align.cpp:4200
+#: ekos/align/align.cpp:4205
 #, kde-format
 msgid "Solving first frame."
 msgstr "識別第一訊框中。"
 
-#: ekos/align/align.cpp:4237
+#: ekos/align/align.cpp:4242
 #, kde-format
 msgid "Solving second frame."
 msgstr "識別第二訊框中。"
 
-#: ekos/align/align.cpp:4248
+#: ekos/align/align.cpp:4253
 #, kde-format
 msgid "Calculating altitude alignment error..."
 msgstr "計算高度校準誤差中..."
 
-#: ekos/align/align.cpp:4306 ekos/align/align.cpp:4344
+#: ekos/align/align.cpp:4311 ekos/align/align.cpp:4349
 #, kde-format
 msgid "%1 too far east"
 msgstr "東方超過 %1° "
 
-#: ekos/align/align.cpp:4308 ekos/align/align.cpp:4342
+#: ekos/align/align.cpp:4313 ekos/align/align.cpp:4347
 #, kde-format
 msgid "%1 too far west"
 msgstr "西方超過 %1° "
 
-#: ekos/align/align.cpp:4317 ekos/align/align.cpp:4328
-#: ekos/align/align.cpp:4355 ekos/align/align.cpp:4361
+#: ekos/align/align.cpp:4322 ekos/align/align.cpp:4333
+#: ekos/align/align.cpp:4360 ekos/align/align.cpp:4366
 #, kde-format
 msgid "%1 too far high"
 msgstr "偏高 %1°"
 
-#: ekos/align/align.cpp:4319 ekos/align/align.cpp:4326
-#: ekos/align/align.cpp:4353 ekos/align/align.cpp:4363
+#: ekos/align/align.cpp:4324 ekos/align/align.cpp:4331
+#: ekos/align/align.cpp:4358 ekos/align/align.cpp:4368
 #, kde-format
 msgid "%1 too far low"
 msgstr "偏低 %1° "
 
-#: ekos/align/align.cpp:4436 ekos/align/align.cpp:4477
+#: ekos/align/align.cpp:4441 ekos/align/align.cpp:4482
 #, kde-format
 msgid ""
 "Slewing to calibration position, please wait until telescope completes "
 "slewing."
 msgstr "旋轉到校準位置，請稍後等待旋轉完成。"
 
-#: ekos/align/align.cpp:4519
+#: ekos/align/align.cpp:4524
 #, kde-format
 msgid "Load Image"
 msgstr "載入圖片"
 
-#: ekos/align/align.cpp:4711
+#: ekos/align/align.cpp:4716
 #, kde-format
 msgid ""
 "World Coordinate System (WCS) is enabled. CCD rotation must be set either "
@@ -5767,165 +5767,165 @@ msgstr ""
 "世界座標系統 (WCS) 已開啟。CCD 旋轉必須在 CCD 驅動程式中設定成手動，或是在繼"
 "續抓影像前先識別一張影像，不然 WCS 資訊可能不正確。"
 
-#: ekos/align/align.cpp:4720
+#: ekos/align/align.cpp:4725
 #, kde-format
 msgid "World Coordinate System (WCS) is disabled."
 msgstr "世界座標系統(WCS) 已關閉。"
 
-#: ekos/align/align.cpp:4737
+#: ekos/align/align.cpp:4742
 #, fuzzy, kde-format
 #| msgid "Capture aborted."
 msgid "Capture error. Aborting..."
 msgstr "抓取已中止。"
 
-#: ekos/align/align.cpp:4743 ekos/capture/capture.cpp:2256
+#: ekos/align/align.cpp:4748 ekos/capture/capture.cpp:2256
 #, kde-format
 msgid "Restarting capture attempt #%1"
 msgstr ""
 
-#: ekos/align/align.cpp:4835
+#: ekos/align/align.cpp:4840
 #, kde-format
 msgid "FITS header: cannot find NAXIS1."
 msgstr ""
 
-#: ekos/align/align.cpp:4844
+#: ekos/align/align.cpp:4849
 #, kde-format
 msgid "FITS header: cannot find NAXIS2."
 msgstr ""
 
-#: ekos/align/align.cpp:4866 ekos/scheduler/scheduler.cpp:500
+#: ekos/align/align.cpp:4871 ekos/scheduler/scheduler.cpp:500
 #, kde-format
 msgid "FITS header: cannot find OBJCTRA (%1)."
 msgstr ""
 
-#: ekos/align/align.cpp:4887 ekos/scheduler/scheduler.cpp:519
+#: ekos/align/align.cpp:4892 ekos/scheduler/scheduler.cpp:519
 #, kde-format
 msgid "FITS header: cannot find OBJCTDEC (%1)."
 msgstr ""
 
-#: ekos/align/align.cpp:4922
+#: ekos/align/align.cpp:4927
 #, kde-format
 msgid "FITS header: cannot find FOCALLEN (%1)."
 msgstr ""
 
-#: ekos/align/align.cpp:4934
+#: ekos/align/align.cpp:4939
 #, kde-format
 msgid "FITS header: cannot find PIXSIZE1 (%1)."
 msgstr ""
 
-#: ekos/align/align.cpp:4943
+#: ekos/align/align.cpp:4948
 #, kde-format
 msgid "FITS header: cannot find PIXSIZE2 (%1)."
 msgstr ""
 
-#: ekos/align/align.cpp:5059
+#: ekos/align/align.cpp:5064
 #, fuzzy, kde-format
 #| msgid "Alignment"
 msgid "Align Frame"
 msgstr "校準"
 
-#: ekos/align/align.cpp:5084
+#: ekos/align/align.cpp:5089
 #, kde-format
 msgid ""
 "Warning: Equatorial Grid Lines will not be drawn due to limited resources "
 "mode."
 msgstr ""
 
-#: ekos/align/align.cpp:5088
+#: ekos/align/align.cpp:5093
 #, fuzzy, kde-format
 #| msgid "Calculating azimuth alignment error..."
 msgid "Clearing mount Alignment Model..."
 msgstr "計算方位校準誤差中..."
 
-#: ekos/align/align.cpp:5118
+#: ekos/align/align.cpp:5123
 #, fuzzy, kde-format
 #| msgid "Are you sure you want to remove the %1 client?"
 msgid "Are you sure you want to stop the polar alignment process?"
 msgstr "您確定要移除客戶端 %1 嗎？"
 
 #. i18n: ectx: property (title), widget (QGroupBox, polarAlignmentHelperGroup)
-#: ekos/align/align.cpp:5119 ekos/align/align.ui:1020
+#: ekos/align/align.cpp:5124 ekos/align/align.ui:1020
 #, fuzzy, kde-format
 #| msgid "Polar Alignment Measurement"
 msgid "Polar Alignment Assistant"
 msgstr "極地校準測量"
 
-#: ekos/align/align.cpp:5154
+#: ekos/align/align.cpp:5159
 #, fuzzy, kde-format
 #| msgid "Parking telescope..."
 msgid "Parking the mount..."
 msgstr "定位望遠鏡中..."
 
-#: ekos/align/align.cpp:5178
+#: ekos/align/align.cpp:5183
 #, kde-format
 msgid "Please rotate your mount about %1deg in RA"
 msgstr ""
 
-#: ekos/align/align.cpp:5196
+#: ekos/align/align.cpp:5201
 #, kde-format
 msgid "Please wait until mount completes rotating to RA (%1) DE (%2)"
 msgstr ""
 
-#: ekos/align/align.cpp:5208
+#: ekos/align/align.cpp:5213
 #, kde-format
 msgid "Failed to find a solution. Try again."
 msgstr ""
 
-#: ekos/align/align.cpp:5225
+#: ekos/align/align.cpp:5230
 #, fuzzy, kde-format
 #| msgid "Failed to set binning."
 msgid "Failed to find RA Axis center: %1."
 msgstr "設定 binning 失敗"
 
-#: ekos/align/align.cpp:5250
+#: ekos/align/align.cpp:5255
 #, kde-format
 msgid "Mount axis is to the %1 %2 of the celestial pole"
 msgstr ""
 
-#: ekos/align/align.cpp:5312
+#: ekos/align/align.cpp:5317
 #, fuzzy, kde-format
 #| msgid "First position"
 msgid "First manual rotation done."
 msgstr "第一位置"
 
-#: ekos/align/align.cpp:5318
+#: ekos/align/align.cpp:5323
 #, fuzzy, kde-format
 #| msgid "Second position"
 msgid "Second manual rotation done."
 msgstr "第二位置"
 
-#: ekos/align/align.cpp:5370
+#: ekos/align/align.cpp:5375
 #, kde-format
 msgid ""
 "Mount is synced to celestial pole. You can now continue Polar Alignment "
 "Assistant procedure."
 msgstr ""
 
-#: ekos/align/align.cpp:5390 ekos/align/align.cpp:5418
-#: ekos/align/align.cpp:5443
+#: ekos/align/align.cpp:5395 ekos/align/align.cpp:5423
+#: ekos/align/align.cpp:5448
 #, fuzzy, kde-format
 #| msgid "Please wait while loading faint stars ..."
 msgid "Please wait while WCS data is processed..."
 msgstr "請稍候，正在載入昏暗星體..."
 
-#: ekos/align/align.cpp:5452
+#: ekos/align/align.cpp:5457
 #, fuzzy, kde-format
 #| msgid "%1 focuser is online."
 msgid "WCS data processing is complete."
 msgstr "%1 對焦器已上線。"
 
-#: ekos/align/align.cpp:5462
+#: ekos/align/align.cpp:5467
 #, kde-format
 msgid "WCS info is now valid. Capturing next frame..."
 msgstr ""
 
-#: ekos/align/align.cpp:5482 ekos/align/align.cpp:5548
+#: ekos/align/align.cpp:5487 ekos/align/align.cpp:5553
 #, fuzzy, kde-format
 #| msgid "Date, time and location: "
 msgid "Failed to process World Coordinate System: %1. Try again."
 msgstr "日期，時間與位置："
 
-#: ekos/align/align.cpp:5494
+#: ekos/align/align.cpp:5499
 #, kde-format
 msgid ""
 "Celestial pole is located outside of the field of view. Would you like to "
@@ -5934,54 +5934,54 @@ msgid ""
 "caution."
 msgstr ""
 
-#: ekos/align/align.cpp:5512
+#: ekos/align/align.cpp:5517
 #, kde-format
 msgid ""
 "Warning: Celestial pole is located outside the field of view. Move the mount "
 "closer to the celestial pole."
 msgstr ""
 
-#: ekos/align/align.cpp:5627 ekos/align/align.cpp:5652
+#: ekos/align/align.cpp:5632 ekos/align/align.cpp:5657
 #, fuzzy, kde-format
 #| msgid "Select what action to take once a solution is found."
 msgid "Only one solution is found."
 msgstr "選擇識別完成後的動作。"
 
-#: ekos/align/align.cpp:5633
+#: ekos/align/align.cpp:5638
 #, kde-format
 msgid "Infinite number of solutions found."
 msgstr ""
 
-#: ekos/align/align.cpp:5645
+#: ekos/align/align.cpp:5650
 #, kde-format
 msgid "No solution is found. Points are too far away"
 msgstr ""
 
-#: ekos/align/align.cpp:5847 ekos/capture/capture.cpp:6187
+#: ekos/align/align.cpp:5852 ekos/capture/capture.cpp:6187
 #: ekos/focus/focus.cpp:2947
 #, fuzzy, kde-format
 #| msgid "Auto calibration failed."
 msgid "Filter operation failed."
 msgstr "自動校正失敗。"
 
-#: ekos/align/align.cpp:5859 ekos/capture/capture.cpp:6201
+#: ekos/align/align.cpp:5864 ekos/capture/capture.cpp:6201
 #, fuzzy, kde-format
 #| msgid "Changing filter to %1..."
 msgid "Changing focus offset by %1 steps..."
 msgstr "變更過濾器為 %1..."
 
-#: ekos/align/align.cpp:5863 ekos/capture/capture.cpp:6205
+#: ekos/align/align.cpp:5868 ekos/capture/capture.cpp:6205
 #, kde-format
 msgid "Changing filter to %1..."
 msgstr "變更過濾器為 %1..."
 
-#: ekos/align/align.cpp:5867 ekos/capture/capture.cpp:6209
+#: ekos/align/align.cpp:5872 ekos/capture/capture.cpp:6209
 #, fuzzy, kde-format
 #| msgid "Autofocus complete."
 msgid "Auto focus on filter change..."
 msgstr "自動對焦已完成。"
 
-#: ekos/align/align.cpp:6091
+#: ekos/align/align.cpp:6096
 #, fuzzy, kde-format
 #| msgid "Invalid URL"
 msgid "Invalid FOV."

@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: umbrello\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-20 03:12+0100\n"
+"POT-Creation-Date: 2019-11-21 03:09+0100\n"
 "PO-Revision-Date: 2019-08-12 18:54+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -105,7 +105,7 @@ msgstr "聚合"
 msgid "Dependency"
 msgstr "相依性"
 
-#: basictypes.cpp:349 umlwidgets/widgetbase.cpp:1165 worktoolbar.cpp:336
+#: basictypes.cpp:349 umlwidgets/widgetbase.cpp:1214 worktoolbar.cpp:336
 #, kde-format
 msgid "Association"
 msgstr "關聯"
@@ -171,7 +171,7 @@ msgid "State Transition"
 msgstr "狀態轉移"
 
 #: basictypes.cpp:375 dialogs/activitydialog.cpp:136
-#: umlwidgets/widgetbase.cpp:1156 worktoolbar.cpp:381
+#: umlwidgets/widgetbase.cpp:1205 worktoolbar.cpp:381
 #, kde-format
 msgid "Activity"
 msgstr "活動"
@@ -1308,7 +1308,7 @@ msgstr "狀態"
 #. i18n: ectx: property (text), widget (QRadioButton, ui_categoryClass)
 #. i18n: ectx: property (text), widget (QTableWidget, ui_tableWidgetStatus)
 #: codegenwizard/codegenstatuspage.ui:40 codeimpwizard/codeimpstatuspage.ui:54
-#: dialogs/finddialog.ui:89 umllistview.cpp:1446 umlwidgets/widgetbase.cpp:1180
+#: dialogs/finddialog.ui:89 umllistview.cpp:1446 umlwidgets/widgetbase.cpp:1229
 #, kde-format
 msgid "Class"
 msgstr "類別"
@@ -2091,7 +2091,7 @@ msgstr "全部圖表(&A)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: dialogs/finddialog.ui:74 menus/listpopupmenu.cpp:157
-#: umlwidgets/widgetbase.cpp:1171 worktoolbar.cpp:393
+#: umlwidgets/widgetbase.cpp:1220 worktoolbar.cpp:393
 #, kde-format
 msgid "Category"
 msgstr "類別"
@@ -2104,14 +2104,14 @@ msgstr "全部"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_categoryPackage)
 #: dialogs/finddialog.ui:96 menus/widgetbasepopupmenu.cpp:104
-#: umlwidgets/widgetbase.cpp:1216 worktoolbar.cpp:359
+#: umlwidgets/widgetbase.cpp:1265 worktoolbar.cpp:359
 #, kde-format
 msgid "Package"
 msgstr "套件"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_categoryInterface)
 #: dialogs/finddialog.ui:103 menus/listpopupmenu.cpp:205
-#: menus/listpopupmenu.cpp:206 umlwidgets/widgetbase.cpp:1198
+#: menus/listpopupmenu.cpp:206 umlwidgets/widgetbase.cpp:1247
 #: worktoolbar.cpp:363
 #, kde-format
 msgid "Interface"
@@ -4339,14 +4339,14 @@ msgstr "活動..."
 msgid "Activity Transition"
 msgstr "活動轉移"
 
-#: menus/listpopupmenu.cpp:150 umlwidgets/widgetbase.cpp:1159
+#: menus/listpopupmenu.cpp:150 umlwidgets/widgetbase.cpp:1208
 #: worktoolbar.cpp:342
 #, kde-format
 msgid "Actor"
 msgstr "主角"
 
 #. i18n("Actor...")); break;
-#: menus/listpopupmenu.cpp:152 umlwidgets/widgetbase.cpp:1162
+#: menus/listpopupmenu.cpp:152 umlwidgets/widgetbase.cpp:1211
 #: worktoolbar.cpp:362
 #, kde-format
 msgid "Artifact"
@@ -4387,7 +4387,7 @@ msgctxt "add new combined state"
 msgid "Combined state..."
 msgstr "已組合片段"
 
-#: menus/listpopupmenu.cpp:166 umlwidgets/widgetbase.cpp:1177
+#: menus/listpopupmenu.cpp:166 umlwidgets/widgetbase.cpp:1226
 #: worktoolbar.cpp:360
 #, kde-format
 msgid "Component"
@@ -4427,7 +4427,7 @@ msgstr "終止活動"
 msgid "End State"
 msgstr "終止狀態"
 
-#: menus/listpopupmenu.cpp:180 umlwidgets/widgetbase.cpp:1186
+#: menus/listpopupmenu.cpp:180 umlwidgets/widgetbase.cpp:1235
 #: worktoolbar.cpp:368
 #, kde-format
 msgid "Entity"
@@ -4591,7 +4591,7 @@ msgstr "新增常數..."
 msgid "New Parameter..."
 msgstr "新增參數..."
 
-#: menus/listpopupmenu.cpp:225 umlwidgets/widgetbase.cpp:1204
+#: menus/listpopupmenu.cpp:225 umlwidgets/widgetbase.cpp:1253
 #: worktoolbar.cpp:361
 #, kde-format
 msgid "Node"
@@ -4626,13 +4626,13 @@ msgstr "開啟檔案"
 msgid "Package..."
 msgstr "套件..."
 
-#: menus/listpopupmenu.cpp:236 umlwidgets/widgetbase.cpp:1219
+#: menus/listpopupmenu.cpp:236 umlwidgets/widgetbase.cpp:1268
 #: worktoolbar.cpp:385
 #, kde-format
 msgid "Pin"
 msgstr "Pin"
 
-#: menus/listpopupmenu.cpp:237 umlwidgets/widgetbase.cpp:1222
+#: menus/listpopupmenu.cpp:237 umlwidgets/widgetbase.cpp:1271
 #: worktoolbar.cpp:386
 #, kde-format
 msgid "Port"
@@ -4649,7 +4649,7 @@ msgstr "先決後續條件"
 msgid "Redo"
 msgstr "重做"
 
-#: menus/listpopupmenu.cpp:243 umlwidgets/widgetbase.cpp:1228
+#: menus/listpopupmenu.cpp:243 umlwidgets/widgetbase.cpp:1277
 #: worktoolbar.cpp:352
 #, kde-format
 msgid "Region"
@@ -8268,37 +8268,37 @@ msgstr "無法儲存一個空的圖表"
 msgid "A problem occurred while saving diagram in %1"
 msgstr "在 %1 中儲存圖表時發生了錯誤"
 
-#: umlwidgets/associationwidget.cpp:2982
+#: umlwidgets/associationwidget.cpp:2984
 #, kde-format
 msgid "Multiplicity"
 msgstr "多重性"
 
-#: umlwidgets/associationwidget.cpp:2983 umlwidgets/floatingtextwidget.cpp:359
+#: umlwidgets/associationwidget.cpp:2985 umlwidgets/floatingtextwidget.cpp:359
 #, kde-format
 msgid "Enter multiplicity:"
 msgstr "輸入多重性："
 
-#: umlwidgets/associationwidget.cpp:3001
+#: umlwidgets/associationwidget.cpp:3003
 #, kde-format
 msgid "Association Name"
 msgstr "關聯名稱"
 
-#: umlwidgets/associationwidget.cpp:3002 umlwidgets/floatingtextwidget.cpp:366
+#: umlwidgets/associationwidget.cpp:3004 umlwidgets/floatingtextwidget.cpp:366
 #, kde-format
 msgid "Enter association name:"
 msgstr "輸入關聯名稱："
 
-#: umlwidgets/associationwidget.cpp:3022
+#: umlwidgets/associationwidget.cpp:3024
 #, kde-format
 msgid "Role Name"
 msgstr "角色名稱"
 
-#: umlwidgets/associationwidget.cpp:3023 umlwidgets/floatingtextwidget.cpp:357
+#: umlwidgets/associationwidget.cpp:3025 umlwidgets/floatingtextwidget.cpp:357
 #, kde-format
 msgid "Enter role name:"
 msgstr "輸入角色名稱："
 
-#: umlwidgets/associationwidget.cpp:3712
+#: umlwidgets/associationwidget.cpp:3714
 #, kde-format
 msgid "Press Ctrl with left mouse click to delete a point"
 msgstr "按下 Ctrl 並點擊滑鼠左鍵可以刪除點"
@@ -8392,7 +8392,7 @@ msgstr "名稱"
 msgid "Enter operation name:"
 msgstr "輸入操作名稱："
 
-#: umlwidgets/notewidget.cpp:221 umlwidgets/widgetbase.cpp:1225
+#: umlwidgets/notewidget.cpp:221 umlwidgets/widgetbase.cpp:1274
 #: worktoolbar.cpp:335
 #, kde-format
 msgid "Precondition"
@@ -8504,7 +8504,7 @@ msgctxt "@info:tooltip of custom toolbar button"
 msgid "%1"
 msgstr "%1"
 
-#: umlwidgets/umlwidget.cpp:461
+#: umlwidgets/umlwidget.cpp:457
 #, kde-format
 msgid ""
 "Hold shift or ctrl to move in X axis. Hold shift and control to move in Y "
@@ -8513,27 +8513,27 @@ msgstr ""
 "按住 shift 或 ctrl 來移動 X 軸。按住 shift 與 control 來移動 Y 軸。點選右鍵取"
 "消移動。"
 
-#: umlwidgets/umlwidget.cpp:546
+#: umlwidgets/umlwidget.cpp:542
 #, kde-format
 msgid "Move widgets"
 msgstr "移動元件"
 
-#: umlwidgets/umlwidget.cpp:787
+#: umlwidgets/umlwidget.cpp:782
 #, kde-format
 msgid "Rename Object"
 msgstr "重新命名物件"
 
-#: umlwidgets/umlwidget.cpp:788
+#: umlwidgets/umlwidget.cpp:783
 #, kde-format
 msgid "Enter object name:"
 msgstr "輸入物件名稱："
 
-#: umlwidgets/umlwidget.cpp:1489
+#: umlwidgets/umlwidget.cpp:1480
 #, fuzzy, kde-format
 msgid "Hold shift or control to move in X axis."
 msgstr "長按 Shift 或 Control 以在 X 軸移動。"
 
-#: umlwidgets/umlwidget.cpp:1490
+#: umlwidgets/umlwidget.cpp:1481
 #, fuzzy, kde-format
 msgid "Hold shift and control to move in Y axis."
 msgstr "長按 Shift 及 Control 以在 Y 軸移動。"
@@ -9108,77 +9108,77 @@ msgstr "輸入模型的新名稱："
 msgid "Enter the new name of the widget:"
 msgstr "輸入模型的新名稱："
 
-#: umlwidgets/widgetbase.cpp:1168 worktoolbar.cpp:341
+#: umlwidgets/widgetbase.cpp:1217 worktoolbar.cpp:341
 #, kde-format
 msgid "Box"
 msgstr "方框"
 
-#: umlwidgets/widgetbase.cpp:1174
+#: umlwidgets/widgetbase.cpp:1223
 #, kde-format
 msgid "CombinedFragment"
 msgstr "已組合片段"
 
-#: umlwidgets/widgetbase.cpp:1183 worktoolbar.cpp:366
+#: umlwidgets/widgetbase.cpp:1232 worktoolbar.cpp:366
 #, kde-format
 msgid "Datatype"
 msgstr "資料型態"
 
-#: umlwidgets/widgetbase.cpp:1189 worktoolbar.cpp:367
+#: umlwidgets/widgetbase.cpp:1238 worktoolbar.cpp:367
 #, kde-format
 msgid "Enum"
 msgstr "Enum"
 
-#: umlwidgets/widgetbase.cpp:1192
+#: umlwidgets/widgetbase.cpp:1241
 #, kde-format
 msgid "FloatingDashLine"
 msgstr "浮動虛線"
 
-#: umlwidgets/widgetbase.cpp:1195
+#: umlwidgets/widgetbase.cpp:1244
 #, kde-format
 msgid "ForkJoin"
 msgstr "分叉/連接"
 
-#: umlwidgets/widgetbase.cpp:1201
+#: umlwidgets/widgetbase.cpp:1250
 #, kde-format
 msgid "Message"
 msgstr "訊息"
 
-#: umlwidgets/widgetbase.cpp:1207 worktoolbar.cpp:340
+#: umlwidgets/widgetbase.cpp:1256 worktoolbar.cpp:340
 #, kde-format
 msgid "Note"
 msgstr "註釋"
 
-#: umlwidgets/widgetbase.cpp:1210 worktoolbar.cpp:329
+#: umlwidgets/widgetbase.cpp:1259 worktoolbar.cpp:329
 #, kde-format
 msgid "Object"
 msgstr "物件"
 
-#: umlwidgets/widgetbase.cpp:1213
+#: umlwidgets/widgetbase.cpp:1262
 #, kde-format
 msgid "ObjectNode"
 msgstr "物件節點"
 
-#: umlwidgets/widgetbase.cpp:1231
+#: umlwidgets/widgetbase.cpp:1280
 #, kde-format
 msgid "Signal"
 msgstr "信號"
 
-#: umlwidgets/widgetbase.cpp:1234
+#: umlwidgets/widgetbase.cpp:1283
 #, kde-format
 msgid "State"
 msgstr "狀態"
 
-#: umlwidgets/widgetbase.cpp:1237
+#: umlwidgets/widgetbase.cpp:1286
 #, kde-format
 msgid "Text"
 msgstr "文字"
 
-#: umlwidgets/widgetbase.cpp:1240
+#: umlwidgets/widgetbase.cpp:1289
 #, kde-format
 msgid "UseCase"
 msgstr "用例"
 
-#: umlwidgets/widgetbase.cpp:1243 worktoolbar.cpp:396
+#: umlwidgets/widgetbase.cpp:1292 worktoolbar.cpp:396
 #, kde-format
 msgid "Instance"
 msgstr "實體"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-19 03:16+0100\n"
+"POT-Creation-Date: 2019-11-21 03:08+0100\n"
 "PO-Revision-Date: 2019-09-28 03:06+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -496,15 +496,17 @@ msgstr ""
 msgid "Mentions"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:118 apps/qml/ShowPinnedMessagesDialog.qml:29
+#: apps/qml/MainComponent.qml:118
+#: ruqolacore/model/listmessagesmodelfilterproxymodel.cpp:71
 msgid "Pinned Messages"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:126 apps/qml/ShowStarredMessagesDialog.qml:29
+#: apps/qml/MainComponent.qml:126
+#: ruqolacore/model/listmessagesmodelfilterproxymodel.cpp:67
 msgid "Starred Messages"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:134 apps/qml/ShowSnippetedMessagesDialog.qml:29
+#: apps/qml/MainComponent.qml:134
 msgid "Snippeted Messages"
 msgstr ""
 
@@ -1522,6 +1524,10 @@ msgstr ""
 #: ruqolacore/messages/reaction.cpp:48
 #: ruqolacore/receivetypingnotificationmanager.cpp:82
 msgid "%1 and %2"
+msgstr ""
+
+#: ruqolacore/model/listmessagesmodelfilterproxymodel.cpp:69
+msgid "Snippered Messages"
 msgstr ""
 
 #: ruqolacore/model/mentionsmodel.cpp:73 ruqolacore/model/messagemodel.cpp:237
