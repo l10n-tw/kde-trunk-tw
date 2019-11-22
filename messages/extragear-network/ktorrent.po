@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-13 02:46+0100\n"
+"POT-Creation-Date: 2019-11-22 02:42+0100\n"
 "PO-Revision-Date: 2019-03-19 19:36+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -5718,17 +5718,28 @@ msgstr "下載已用時間"
 msgid "Next Update"
 msgstr "下次更新"
 
-#: plugins/infowidget/trackerview.cpp:117
+#: plugins/infowidget/trackerview.cpp:76
+#, fuzzy, kde-format
+#| msgid "Copy Torrent URL"
+msgid "Copy Tracker URL"
+msgstr "複製 torrent 網址"
+
+#: plugins/infowidget/trackerview.cpp:83
+#, kde-format
+msgid "Copy Tracker status"
+msgstr ""
+
+#: plugins/infowidget/trackerview.cpp:139
 #, kde-format
 msgid "Several URL's could not be added because they are malformed:"
 msgstr "有些網址不正確，因此無法加入："
 
-#: plugins/infowidget/trackerview.cpp:132
+#: plugins/infowidget/trackerview.cpp:154
 #, kde-format
 msgid "There already is a tracker named <b>%1</b>."
 msgstr "已經有名為 <b>%1</b> 的追蹤器了。"
 
-#: plugins/infowidget/trackerview.cpp:134
+#: plugins/infowidget/trackerview.cpp:156
 #, kde-format
 msgid "The following duplicate trackers were not added:"
 msgstr "以下的重複追蹤器未被新增："

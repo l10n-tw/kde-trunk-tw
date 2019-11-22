@@ -140,7 +140,8 @@ msgctxt "@info notification"
 msgid ""
 "Backup repair failed. Your backups could still be corrupted! See log file "
 "for more details."
-msgstr "備份修復失敗。您的備份可能仍處於損毀狀態！參見記錄檔以取得更多詳細資訊。"
+msgstr ""
+"備份修復失敗。您的備份可能仍處於損毀狀態！參見記錄檔以取得更多詳細資訊。"
 
 #: daemon/bupverificationjob.cpp:74 daemon/bupverificationjob.cpp:91
 #, kde-kuit-format
@@ -152,8 +153,6 @@ msgstr "備份完整性校驗失敗。您的備份已損毀！參見記錄檔以
 
 #: daemon/bupverificationjob.cpp:80
 #, kde-kuit-format
-#| msgctxt "@info notification"
-#| msgid "Backup integrity test was successful, Your backups are fine."
 msgctxt "@info notification"
 msgid "Backup integrity test was successful. Your backups are fine."
 msgstr "備份完整性測試成功。您的備份狀態良好。"
@@ -409,15 +408,12 @@ msgstr ""
 
 #: filedigger/filedigger.cpp:103
 #, kde-kuit-format
-#| msgctxt "@info messagebox, %1 is a folder path"
-#| msgid ""
-#| "The backup archive <filename>%1</filename> could not be opened.Check if "
-#| "the backups really are located there."
 msgctxt "@info messagebox, %1 is a folder path"
 msgid ""
 "The backup archive <filename>%1</filename> could not be opened. Check if the "
 "backups really are located there."
-msgstr "備份壓縮檔 <filename>%1</filename> 無法開啟。請檢查備份是否真的位於那裡。"
+msgstr ""
+"備份壓縮檔 <filename>%1</filename> 無法開啟。請檢查備份是否真的位於那裡。"
 
 #: filedigger/filedigger.cpp:111
 #, kde-kuit-format
@@ -643,8 +639,6 @@ msgstr "確認"
 #. i18n: ectx: property (text), widget (QLabel, mErrorLabel)
 #: filedigger/restoredialog.ui:341
 #, kde-format
-#| msgctxt "@label above the detailed error message"
-#| msgid "An error occured while restoring:"
 msgctxt "@label above the detailed error message"
 msgid "An error occurred while restoring:"
 msgstr "還原時遇到錯誤："
@@ -879,13 +873,6 @@ msgstr "外部儲存空間"
 
 #: kcm/backupplanwidget.cpp:611
 #, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "You can use this option for backing up to a secondary internal harddrive, "
-#| "an external eSATA drive or networked storage. The requirement is just "
-#| "that you always mount it at the same path in the filesystem. The path "
-#| "specified here does not need to exist at all times, its existance will be "
-#| "monitored."
 msgctxt "@info"
 msgid ""
 "You can use this option for backing up to a secondary internal harddrive, an "
@@ -975,7 +962,8 @@ msgctxt "@info"
 msgid ""
 "New backup will be triggered when backup destination becomes available and "
 "more than the configured interval has passed since the last backup was taken."
-msgstr "現在備份將會在自最後一次備份後超過設定間隔，且備份目的地可用時自動啟動。"
+msgstr ""
+"現在備份將會在自最後一次備份後超過設定間隔，且備份目的地可用時自動啟動。"
 
 #: kcm/backupplanwidget.cpp:740
 #, kde-kuit-format
@@ -1207,7 +1195,8 @@ msgctxt "@info:tooltip %1 is the path of the folder in a listview"
 msgid ""
 "<filename>%1</filename><nl/> will <emphasis>not</emphasis> be included in "
 "the backup"
-msgstr "<filename>%1</filename><nl/>將 <emphasis>不會</emphasis> 被包括在備份中"
+msgstr ""
+"<filename>%1</filename><nl/>將 <emphasis>不會</emphasis> 被包括在備份中"
 
 #: kcm/kupkcm.cpp:49
 #, kde-format

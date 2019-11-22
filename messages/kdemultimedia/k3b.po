@@ -1958,7 +1958,8 @@ msgstr "加到專案(&A)"
 msgid ""
 "K3b uses vcdxrip from the vcdimager package to rip Video CDs. Please make "
 "sure it is installed."
-msgstr "K3b 使用 vcdimager 軟體包內的 vcdxrip 來擷取影像 CD。請確認它是否已安裝。"
+msgstr ""
+"K3b 使用 vcdimager 軟體包內的 vcdxrip 來擷取影像 CD。請確認它是否已安裝。"
 
 #: k3bdirview.cpp:235
 #, kde-format
@@ -2437,7 +2438,8 @@ msgstr "儲存目前的設定以便之後可以再使用"
 msgid ""
 "<p>Load a set of settings either from the default K3b settings, settings "
 "saved before, or the last used ones."
-msgstr "<p>從預設 K3b 設定值、之前儲存的設定值，或是上次使用的設定值中載入其中一套。"
+msgstr ""
+"<p>從預設 K3b 設定值、之前儲存的設定值，或是上次使用的設定值中載入其中一套。"
 
 #: k3binteractiondialog.cpp:206
 #, kde-format
@@ -2913,7 +2915,8 @@ msgstr "K3b 使用 dvd+rw-format 來格式化 DVD-RWs 和 DVD+RWs。"
 msgid ""
 "K3b needs at least mkisofs version 1.14. Older versions may introduce "
 "problems when creating data projects."
-msgstr "K3b 需要 mkisofs 1.14 以上的版本。較舊的版本在建立資料專案時可能會產生問題。"
+msgstr ""
+"K3b 需要 mkisofs 1.14 以上的版本。較舊的版本在建立資料專案時可能會產生問題。"
 
 #: k3bsystemproblemdialog.cpp:403
 #, kde-format
@@ -3304,7 +3307,8 @@ msgstr "實際燒錄媒體的外部應用程式"
 msgid ""
 "<p>Select the medium that you want to use for burning.<p>In most cases there "
 "will only be one medium available which does not leave much choice."
-msgstr "<p>選擇您想要用的燒錄媒體。<p>大多數情況下只會有一種媒體，不會有太多的選擇。"
+msgstr ""
+"<p>選擇您想要用的燒錄媒體。<p>大多數情況下只會有一種媒體，不會有太多的選擇。"
 
 #: k3bwriterselectionwidget.cpp:176
 #, kde-format
@@ -4611,7 +4615,8 @@ msgstr "允許燒錄超過標準的媒體容量"
 msgid ""
 "Show advanced GUI elements like allowing to choose between cdrecord and "
 "cdrdao"
-msgstr "顯示進階圖形使用者介面 (GUI) 元件，例：允許在 cdrecord 與 cdrdao 之間作選擇。"
+msgstr ""
+"顯示進階圖形使用者介面 (GUI) 元件，例：允許在 cdrecord 與 cdrdao 之間作選擇。"
 
 #: option/k3badvancedoptiontab.cpp:102
 #, kde-format
@@ -4667,7 +4672,8 @@ msgstr ""
 msgid ""
 "<p>If this option is checked K3b will automatically erase CD-RWs and format "
 "DVD-RWs if one is found instead of an empty media before writing."
-msgstr "<p>如果這個選項被勾選的話，在燒錄前K3b將會自動清除 CD-RWs 和格式化 DVD-RWs。"
+msgstr ""
+"<p>如果這個選項被勾選的話，在燒錄前K3b將會自動清除 CD-RWs 和格式化 DVD-RWs。"
 
 #: option/k3badvancedoptiontab.cpp:129
 #, kde-format
@@ -4799,7 +4805,8 @@ msgstr "無"
 msgid ""
 "In order to give K3b full access to the writer device the current user needs "
 "be added to a group <em>%1</em>."
-msgstr "為了給 K3b 完整存取寫入裝置的權限，目前的使用者必須先加入 <em>%1</em> 群組。"
+msgstr ""
+"為了給 K3b 完整存取寫入裝置的權限，目前的使用者必須先加入 <em>%1</em> 群組。"
 
 #: option/k3bdevicewidget.cpp:249 projects/k3bdataurladdingdialog.cpp:771
 #: projects/k3bdataurladdingdialog.cpp:787
@@ -4976,7 +4983,8 @@ msgstr ""
 msgid ""
 "One of these sets is loaded once an action dialog is opened. This setting "
 "defines which set it will be."
-msgstr "每當動作對話窗開啟時，會載入三套設定值的其中一套。此設定將定義要使用哪一套。"
+msgstr ""
+"每當動作對話窗開啟時，會載入三套設定值的其中一套。此設定將定義要使用哪一套。"
 
 #: option/k3bmiscoptiontab.cpp:112
 #, kde-format
@@ -5004,7 +5012,8 @@ msgstr "無法建立資料夾 %1"
 msgid ""
 "You specified a file for the temporary folder. K3b will use its base path as "
 "the temporary folder."
-msgstr "您已為這個暫時資料夾指定了一個檔案。K3b 會使用其基礎路徑作為暫時資料夾。"
+msgstr ""
+"您已為這個暫時資料夾指定了一個檔案。K3b 會使用其基礎路徑作為暫時資料夾。"
 
 #: option/k3bmiscoptiontab.cpp:137
 #, kde-format
@@ -6152,7 +6161,8 @@ msgstr "以隨機順序播放檔案"
 msgid ""
 "<p>If this option is checked the order in which the files are played is "
 "determined randomly every time it is played."
-msgstr "<p>如果選取了此選項，每當檔案被播放時，被播放的檔案其次序將會被隨機決定。"
+msgstr ""
+"<p>如果選取了此選項，每當檔案被播放時，被播放的檔案其次序將會被隨機決定。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkRandomPlay)
 #: projects/base_k3bmovixoptionswidget.ui:62
@@ -6372,7 +6382,8 @@ msgstr "選擇鍵盤配置"
 msgid ""
 "<p>The keyboard layout selected here will be used for eMovix commands such "
 "as controlling the media player."
-msgstr "<p>這裡選擇的鍵盤配置會被用來當作 eMovix 指令來源，例如拿來控制媒體播放器。"
+msgstr ""
+"<p>這裡選擇的鍵盤配置會被用來當作 eMovix 指令來源，例如拿來控制媒體播放器。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: projects/base_k3bmovixoptionswidget.ui:248
@@ -6835,16 +6846,6 @@ msgstr "請選擇一個開機映像檔"
 
 #: projects/k3bbootimagedialog.cpp:109
 #, kde-format
-#| msgid ""
-#| "<p>The file you selected is not a floppy image (floppy images are of size "
-#| "1200 KB, 1440 KB, or 2880 KB). You may still use boot images of other "
-#| "sizes by emulating a harddisk or disabling emulation completely. <p>If "
-#| "you are not familiar with terms like 'harddisk emulation' you most likely "
-#| "want to use a floppy image here. Floppy images can be created by directly "
-#| "extracting them from a real floppy disk:<pre>dd if=/dev/floppy of=/tmp/"
-#| "floppy.img</pre>or by using one of the many boot floppy generators that "
-#| "can be found on <a href=\"http://www.google.com/search?q=linux+boot"
-#| "+floppy&ie=UTF-8&oe=UTF-8\">the Internet</a>."
 msgid ""
 "<p>The file you selected is not a floppy image (floppy images are of size "
 "1200 KB, 1440 KB, or 2880 KB). You may still use boot images of other sizes "
@@ -8398,19 +8399,6 @@ msgstr ""
 
 #: projects/k3bvcdburndialog.cpp:214
 #, kde-format
-#| msgid ""
-#| "<p>An Access Point Sector, APS, is an MPEG video sector on the VCD/SVCD "
-#| "which is suitable to be jumped to directly.<p>APS are required for entry "
-#| "points and scantables. APS have to fulfil the requirement to precede "
-#| "every I-frame by a GOP header which shall be preceded by a sequence "
-#| "header in its turn.<p>The start codes of these 3 items are required to be "
-#| "contained all in the same MPEG pack/sector, thus forming a so-called "
-#| "access point sector.<p>This requirement can be relaxed by enabling the "
-#| "relaxed aps option, i.e. every sector containing an I-frame will be "
-#| "regarded as an APS.<p><b>Warning:</b> The sequence header is needed for a "
-#| "playing device to figure out display parameters, such as display "
-#| "resolution and frame rate, relaxing the aps requirement may lead to non-"
-#| "working entry points."
 msgid ""
 "<p>An Access Point Sector, APS, is an MPEG video sector on the VCD/SVCD "
 "which is suitable to be jumped to directly.<p>APS are required for entry "
@@ -8449,12 +8437,6 @@ msgstr ""
 
 #: projects/k3bvcdburndialog.cpp:224
 #, kde-format
-#| msgid ""
-#| "<p>Viewing Restriction may be interpreted by the playing device.<p>The "
-#| "allowed range goes from 0 to 3.<ul><li>0 = unrestricted, free to view for "
-#| "all</li><li>3 = restricted, content not suitable for ages under 18</li></"
-#| "ul><p>Actually, the exact meaning is not defined and is player dependant."
-#| "<p><b>Most players ignore that value.<b>"
 msgid ""
 "<p>Viewing Restriction may be interpreted by the playing device.<p>The "
 "allowed range goes from 0 to 3.<ul><li>0 = unrestricted, free to view for "
@@ -9021,18 +9003,14 @@ msgstr "序列-%1 - %2"
 
 #: projects/k3bvcdview.cpp:99
 #, kde-format
-#| msgid ""
-#| "Could not find VcdImager executable. To create Video CDs you have to "
-#| "install VcdImager >= 0.7.12. You can find this on your distribution’s "
-#| "software repository or download it from http://www.vcdimager.org"
 msgid ""
 "Could not find VcdImager executable. To create Video CDs you have to install "
 "VcdImager >= 0.7.12. You can find this on your distribution’s software "
 "repository or download it from https://www.gnu.org/software/vcdimager/"
 msgstr ""
 "找不到 VcdImager 可執行檔。要建立影像 CD，您必須安裝版本 >= 0.7.12 的 "
-"VcdImager。您可以在您的散布版光碟上找到，"
-"或是從 https://www.gnu.org/software/vcdimager/ 下載"
+"VcdImager。您可以在您的散布版光碟上找到，或是從 https://www.gnu.org/software/"
+"vcdimager/ 下載"
 
 #: projects/k3bvideodvdburndialog.cpp:47
 #, kde-format
@@ -9890,15 +9868,12 @@ msgstr "您必須安裝 VcdImager 版本 %1 以擷取影像光碟的內容。"
 
 #: rip/k3bvideocdrip.cpp:100
 #, kde-format
-#| msgid ""
-#| "You can find this on your distribution’s software repository or download "
-#| "it from http://www.vcdimager.org"
 msgid ""
 "You can find this on your distribution’s software repository or download it "
 "from https://www.gnu.org/software/vcdimager/"
 msgstr ""
-"您可以從您的散布版軟體庫找到或者從 "
-"https://www.gnu.org/software/vcdimager/ 下載"
+"您可以從您的散布版軟體庫找到或者從 https://www.gnu.org/software/vcdimager/ 下"
+"載"
 
 #: rip/k3bvideocdrip.cpp:108
 #, kde-format

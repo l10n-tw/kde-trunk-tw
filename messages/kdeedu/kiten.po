@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kiten\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-13 03:03+0100\n"
+"POT-Creation-Date: 2019-11-22 02:58+0100\n"
 "PO-Revision-Date: 2011-12-10 19:27+0800\n"
 "Last-Translator: Franklin <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
@@ -240,65 +240,65 @@ msgstr ""
 "更新失敗：\n"
 "%1"
 
-#: app/kiten.cpp:187
+#: app/kiten.cpp:186
 #, kde-format
 msgid "Radical Selector"
 msgstr "字根選擇器"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, KanjiBrowserView)
-#: app/kiten.cpp:193 kanjibrowser/kanjibrowserview.ui:26
+#: app/kiten.cpp:192 kanjibrowser/kanjibrowserview.ui:26
 #, kde-format
 msgid "Kanji Browser"
 msgstr "漢字瀏覽器"
 
 #. i18n: ectx: Menu (search)
-#: app/kiten.cpp:201 app/kitenui.rc:15
+#: app/kiten.cpp:200 app/kitenui.rc:15
 #, kde-format
 msgid "S&earch"
 msgstr "搜尋(&E)"
 
-#: app/kiten.cpp:219
+#: app/kiten.cpp:218
 #, kde-format
 msgid "&Automatically Search Clipboard Selections"
 msgstr "自動搜尋剪貼板的選擇(&A)"
 
-#: app/kiten.cpp:222
+#: app/kiten.cpp:221
 #, kde-format
 msgid "Search &in Results"
 msgstr "在結果裡搜尋(&I)"
 
-#: app/kiten.cpp:231
+#: app/kiten.cpp:230
 #, kde-format
 msgid "Focus result view"
 msgstr "焦點結果檢視"
 
-#: app/kiten.cpp:261
+#: app/kiten.cpp:260
 #, kde-format
 msgid "Export List"
 msgstr "匯出清單"
 
-#: app/kiten.cpp:292
+#: app/kiten.cpp:291
 #, kde-format
 msgid "Initializing Dictionaries"
 msgstr "正在初始化字典"
 
-#: app/kiten.cpp:307
+#: app/kiten.cpp:306
 #, kde-format
 msgid "Welcome to Kiten"
 msgstr "歡迎來到 Kiten"
 
-#: app/kiten.cpp:409 app/kiten.cpp:473
+#: app/kiten.cpp:408 app/kiten.cpp:472
 #, kde-format
 msgid "Searching..."
 msgstr "搜尋中..."
 
-#: app/kiten.cpp:494
+#: app/kiten.cpp:493
 #, kde-format
 msgid "Found 1 result"
 msgid_plural "Found %1 results"
 msgstr[0] "找到 %1 個結果"
 
-#: app/kiten.cpp:498
+#: app/kiten.cpp:497
 #, kde-format
 msgid "No results found"
 msgstr "找不到任何資料"

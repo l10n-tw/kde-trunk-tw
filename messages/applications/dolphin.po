@@ -181,15 +181,12 @@ msgstr "程式「%1」仍然在「終端機」面板執行。確定退出？"
 
 #: dolphinmainwindow.cpp:1000
 #, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Open Path"
 msgctxt "@action:inmenu Tools"
 msgid "Open %1"
 msgstr "開啟 %1"
 
 #: dolphinmainwindow.cpp:1005 dolphinmainwindow.cpp:1539
 #, kde-format
-#| msgid "More Search Tools"
 msgctxt "@action:inmenu Tools"
 msgid "Open Preferred Search Tool"
 msgstr "開啟偏好的搜尋工具"
@@ -2122,7 +2119,8 @@ msgid ""
 msgid_plural ""
 "One or more files on this device are opened in following applications: "
 "<application>%2</application>."
-msgstr[0] "裝置上的一或多個檔案會在下述應用程式內開啟：<application>%2</application>。"
+msgstr[0] ""
+"裝置上的一或多個檔案會在下述應用程式內開啟：<application>%2</application>。"
 
 #: panels/places/placesitemmodel.cpp:481
 #, kde-format
@@ -2225,7 +2223,8 @@ msgstr "隱藏「%1」部份"
 msgid ""
 "Terminal cannot be shown because Konsole is not installed. Please install it "
 "and then reopen the panel."
-msgstr "因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
+msgstr ""
+"因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
 
 #: panels/terminal/terminalpanel.cpp:163
 #, kde-format
