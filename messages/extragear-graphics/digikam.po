@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-22 02:35+0100\n"
+"POT-Creation-Date: 2019-11-23 02:34+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -9201,7 +9201,7 @@ msgstr "儲存變更中 - %p% "
 #: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:952
 #: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:166
 #: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:332
-#: core/dplugins/generic/webservices/box/boxtalker.cpp:383
+#: core/dplugins/generic/webservices/box/boxtalker.cpp:397
 #: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:382
 #: core/dplugins/generic/webservices/facebook/fbtalker.cpp:586
 #: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:783
@@ -9212,7 +9212,7 @@ msgstr "儲存變更中 - %p% "
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:644
 #: core/dplugins/generic/webservices/mediawiki/mediawikitalker.cpp:186
 #: core/dplugins/generic/webservices/onedrive/odtalker.cpp:422
-#: core/dplugins/generic/webservices/pinterest/ptalker.cpp:453
+#: core/dplugins/generic/webservices/pinterest/ptalker.cpp:475
 #: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:379
 #: core/dplugins/generic/webservices/smugmug/smugtalker.cpp:730
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:470
@@ -17446,7 +17446,7 @@ msgid "Image #%1"
 msgstr "在 %1 的影像"
 
 #: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:400
-#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:628
+#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:654
 #, kde-format
 msgid "Ken Burns"
 msgstr "肯伯恩斯"
@@ -17654,14 +17654,14 @@ msgid "Slideshow Completed"
 msgstr "投影片放映"
 
 #: core/dplugins/generic/view/presentation/opengl/presentationgl.cpp:796
-#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:581
+#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:607
 #: core/dplugins/generic/view/presentation/widgets/presentationwidget.cpp:774
 #, fuzzy, kde-format
 #| msgid "Click To Exit..."
 msgid "Click to Exit..."
 msgstr "點擊滑鼠離開..."
 
-#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:580
+#: core/dplugins/generic/view/presentation/opengl/presentationkb.cpp:606
 #, fuzzy, kde-format
 #| msgid "Slide Show"
 msgid "SlideShow Completed"
@@ -17826,7 +17826,7 @@ msgctxt "@action"
 msgid "Export to &Box..."
 msgstr "匯出工具"
 
-#: core/dplugins/generic/webservices/box/boxtalker.cpp:429
+#: core/dplugins/generic/webservices/box/boxtalker.cpp:443
 #: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:425
 #: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1142
 #: core/dplugins/generic/webservices/google/gdrive/gdtalker.cpp:476
@@ -17843,7 +17843,7 @@ msgstr "匯出工具"
 msgid "Failed to upload photo"
 msgstr "載入影像失敗"
 
-#: core/dplugins/generic/webservices/box/boxtalker.cpp:453
+#: core/dplugins/generic/webservices/box/boxtalker.cpp:467
 #: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:452
 #: core/dplugins/generic/webservices/google/gdrive/gdtalker.cpp:379
 #: core/dplugins/generic/webservices/onedrive/odtalker.cpp:489
@@ -18011,7 +18011,7 @@ msgid ""
 "Do you want to continue?"
 msgstr "上傳檔案 <filename>%1</filename> 失敗。您要繼續嗎？"
 
-#: core/dplugins/generic/webservices/box/boxwindow.cpp:402
+#: core/dplugins/generic/webservices/box/boxwindow.cpp:403
 #: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:269
 #: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:393
 #: core/dplugins/generic/webservices/onedrive/odwindow.cpp:401
@@ -18022,7 +18022,7 @@ msgstr "上傳檔案 <filename>%1</filename> 失敗。您要繼續嗎？"
 msgid "Login Failed"
 msgstr "儲存於檔案"
 
-#: core/dplugins/generic/webservices/box/boxwindow.cpp:403
+#: core/dplugins/generic/webservices/box/boxwindow.cpp:404
 #: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:270
 #: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:394
 #: core/dplugins/generic/webservices/onedrive/odwindow.cpp:402
@@ -18032,8 +18032,8 @@ msgstr "儲存於檔案"
 msgid "Authentication failed. Do you want to try again?"
 msgstr ""
 
-#: core/dplugins/generic/webservices/box/boxwindow.cpp:418
-#: core/dplugins/generic/webservices/box/boxwindow.cpp:423
+#: core/dplugins/generic/webservices/box/boxwindow.cpp:419
+#: core/dplugins/generic/webservices/box/boxwindow.cpp:424
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your search failed:\n"
@@ -20336,13 +20336,13 @@ msgctxt "@action"
 msgid "Export to &Pinterest..."
 msgstr "匯出工具"
 
-#: core/dplugins/generic/webservices/pinterest/ptalker.cpp:521
+#: core/dplugins/generic/webservices/pinterest/ptalker.cpp:545
 #, fuzzy, kde-format
 #| msgid "Failed to load image"
 msgid "Failed to upload Pin"
 msgstr "載入影像失敗"
 
-#: core/dplugins/generic/webservices/pinterest/ptalker.cpp:547
+#: core/dplugins/generic/webservices/pinterest/ptalker.cpp:571
 #, fuzzy, kde-format
 msgid "Failed to list boards"
 msgstr "刪除檔案 <filename>%1</filename> 失敗。"
@@ -21787,7 +21787,7 @@ msgid ""
 "Do you want to continue?"
 msgstr "上傳檔案 <filename>%1</filename> 失敗。您要繼續嗎？"
 
-#: core/dplugins/rawimport/darktable/rawimportdarktableplugin.cpp:254
+#: core/dplugins/rawimport/darktable/rawimportdarktableplugin.cpp:251
 #, kde-format
 msgid ""
 "Error to import RAW image with DarkTable\n"
@@ -21960,7 +21960,7 @@ msgstr "使用預設"
 msgid "Use general Raw decoding settings to load this image in editor."
 msgstr "在編輯器中使用一般 Raw 解碼設定值來載入這張影像。"
 
-#: core/dplugins/rawimport/rawtherapee/rawimportrawtherapeeplugin.cpp:201
+#: core/dplugins/rawimport/rawtherapee/rawimportrawtherapeeplugin.cpp:199
 #, kde-format
 msgid ""
 "Error to import RAW image with RawTherapee\n"
@@ -24081,7 +24081,7 @@ msgstr ""
 "%1</b></p>"
 
 #: core/libs/database/utils/widgets/dbstatdlg.cpp:54
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:295
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:292
 #, kde-format
 msgid "Database Statistics"
 msgstr "資料庫統計"
@@ -34392,74 +34392,74 @@ msgstr "Ralf Holzer"
 msgid "Developer (2004)"
 msgstr "開發者 (2004)"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:263
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:260
 #, kde-format
 msgid "Components Information"
 msgstr "組成元件資訊"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:269
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:266
 #, kde-format
 msgid "Supported RAW Cameras"
 msgstr "支援的 RAW 照相機"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:273
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:270
 #, kde-format
 msgid "Donate..."
 msgstr "贊助..."
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:277
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:274
 #, kde-format
 msgid "Recipes Book..."
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:281
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:278
 #, kde-format
 msgid "Contribute..."
 msgstr "捐助..."
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:285
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:282
 #, fuzzy, kde-format
 #| msgid "Kipi Plugins Handbook"
 msgid "Online Handbook..."
 msgstr "Kipi 外掛程式手冊"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:321
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:318
 #, kde-format
 msgid "Toggle Left Side-bar"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:326
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:323
 #, kde-format
 msgid "Toggle Right Side-bar"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:331
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:328
 #, kde-format
 msgid "Previous Left Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:336
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:333
 #, kde-format
 msgid "Next Left Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:341
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:338
 #, kde-format
 msgid "Previous Right Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:346
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:343
 #, kde-format
 msgid "Next Right Side-bar Tab"
 msgstr ""
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:366
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:363
 #, fuzzy, kde-format
 #| msgid "Show Thumbbar"
 msgid "Show Statusbar"
 msgstr "顯示縮圖列"
 
-#: core/libs/widgets/mainview/dxmlguiwindow.cpp:413
+#: core/libs/widgets/mainview/dxmlguiwindow.cpp:410
 #, kde-format
 msgctxt "general keyboard shortcuts"
 msgid "General"

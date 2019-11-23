@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-14 02:59+0200\n"
+"POT-Creation-Date: 2019-11-23 03:03+0100\n"
 "PO-Revision-Date: 2017-03-12 20:41+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -182,52 +182,52 @@ msgstr "旋轉"
 msgid "Skew"
 msgstr "扭曲"
 
-#: commands/kpCommandHistoryBase.cpp:448
+#: commands/kpCommandHistoryBase.cpp:447
 #, kde-format
 msgid "&Undo: %1"
 msgstr "復原(&U)：%1"
 
-#: commands/kpCommandHistoryBase.cpp:448
+#: commands/kpCommandHistoryBase.cpp:447
 #, kde-format
 msgid "&Undo"
 msgstr "復原(&U)"
 
-#: commands/kpCommandHistoryBase.cpp:456
+#: commands/kpCommandHistoryBase.cpp:455
 #, kde-format
 msgid "&Redo: %1"
 msgstr "重做(&R)：%1"
 
-#: commands/kpCommandHistoryBase.cpp:456
+#: commands/kpCommandHistoryBase.cpp:455
 #, kde-format
 msgid "&Redo"
 msgstr "重做(&R)"
 
-#: commands/kpCommandHistoryBase.cpp:465
+#: commands/kpCommandHistoryBase.cpp:464
 #, kde-format
 msgid "Undo: %1"
 msgstr "復原：%1"
 
-#: commands/kpCommandHistoryBase.cpp:465 commands/kpCommandHistoryBase.cpp:651
+#: commands/kpCommandHistoryBase.cpp:464 commands/kpCommandHistoryBase.cpp:650
 #, kde-format
 msgid "Undo"
 msgstr "復原"
 
-#: commands/kpCommandHistoryBase.cpp:473
+#: commands/kpCommandHistoryBase.cpp:472
 #, kde-format
 msgid "Redo: %1"
 msgstr "重做：%1"
 
-#: commands/kpCommandHistoryBase.cpp:473 commands/kpCommandHistoryBase.cpp:672
+#: commands/kpCommandHistoryBase.cpp:472 commands/kpCommandHistoryBase.cpp:671
 #, kde-format
 msgid "Redo"
 msgstr "重做"
 
-#: commands/kpCommandHistoryBase.cpp:613
+#: commands/kpCommandHistoryBase.cpp:612
 #, kde-format
 msgid "%1: %2"
 msgstr "%1：%2"
 
-#: commands/kpCommandHistoryBase.cpp:624
+#: commands/kpCommandHistoryBase.cpp:623
 #, kde-format
 msgid "%1 more item"
 msgid_plural "%1 more items"
@@ -409,13 +409,13 @@ msgid "Invalid Text Fields"
 msgstr "不合法的文字欄位"
 
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:140
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:280
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:284
 #, kde-format
 msgid "Dimensions"
 msgstr "尺寸"
 
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:142
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:287
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:291
 #, kde-format
 msgid "Original:"
 msgstr "原始："
@@ -440,39 +440,39 @@ msgstr "預覽"
 msgid "&Update"
 msgstr "更新(&U)"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:94
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:93
 #, kde-format
 msgctxt "@title:window"
 msgid "Resize / Scale"
 msgstr "改變/調整大小"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:163
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:162
 #, kde-format
 msgid "Ac&t on:"
 msgstr "作用於(&T)："
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:169
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:168
 #, kde-format
 msgid "Entire Image"
 msgstr "整個影像"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:172
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:171
 #: layers/selections/image/kpAbstractImageSelection.cpp:204
 #, kde-format
 msgid "Selection"
 msgstr "選擇"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:175
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:174
 #, kde-format
 msgid "Text Box"
 msgstr "文字盒"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:219
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:223
 #, kde-format
 msgid "Operation"
 msgstr "運作"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:221
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:225
 #, kde-format
 msgid ""
 "<qt><ul><li><b>Resize</b>: The size of the picture will be increased by "
@@ -489,61 +489,61 @@ msgstr ""
 "整大小</b>：跟「調整大小」一樣，不過會將鄰近的像素混合，以產生較順眼的圖片。"
 "</li> </ul> </qt>"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:242
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:246
 #, kde-format
 msgid "&Resize"
 msgstr "改變大小(&R)"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:247
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:251
 #, kde-format
 msgid "&Scale"
 msgstr "調整大小(&S)"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:252
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:256
 #, kde-format
 msgid "S&mooth Scale"
 msgstr "平滑調整大小(&M)"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:282
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:286
 #, kde-format
 msgid "Width:"
 msgstr "寬度："
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:284
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:288
 #, kde-format
 msgid "Height:"
 msgstr "高度："
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:291
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:299
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:311
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:295
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:303
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:315
 #, kde-format
 msgid "x"
 msgstr "x"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:296
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:300
 #, kde-format
 msgid "&New:"
 msgstr "新增(&N)："
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:303
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:307
 #, kde-format
 msgid "&Percent:"
 msgstr "百分比(&P)："
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:309
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:318
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:313
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:322
 #: dialogs/kpColorSimilarityDialog.cpp:82
 #, kde-format
 msgid "%"
 msgstr "%"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:320
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:324
 #, kde-format
 msgid "Keep &aspect ratio"
 msgstr "保持長寬比例(&A)"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:723
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:727
 #, kde-format
 msgid ""
 "<qt><p>Resizing the text box to %1x%2 may take a substantial amount of "
@@ -555,18 +555,18 @@ msgstr ""
 "降低，並造成其他應用程式資源的問題。</p> <p>您確定要調整文字盒大小嗎？</p></"
 "qt>"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:731
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:735
 #, kde-format
 msgctxt "@title:window"
 msgid "Resize Text Box?"
 msgstr "改變文字盒大小？"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:732
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:736
 #, kde-format
 msgid "R&esize Text Box"
 msgstr "改變文字盒大小(&E)"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:737
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:741
 #: mainWindow/kpMainWindow_Tools.cpp:664
 #, kde-format
 msgid ""
@@ -577,20 +577,20 @@ msgstr ""
 "<qt><p>改變影像大小到 %1 x %2 會用到相當可觀的記憶體。這可能會造成系統效能降"
 "低，並造成其他應用程式資源的問題。</p> <p>您確定要改變影像大小嗎？</p></qt>"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:745
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:749
 #: mainWindow/kpMainWindow_Tools.cpp:674
 #, kde-format
 msgctxt "@title:window"
 msgid "Resize Image?"
 msgstr "改變影像大小？"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:746
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:750
 #: mainWindow/kpMainWindow_Tools.cpp:675
 #, kde-format
 msgid "R&esize Image"
 msgstr "改變影像大小(&E)"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:755
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:759
 #, kde-format
 msgid ""
 "<qt><p>Scaling the image to %1x%2 may take a substantial amount of memory. "
@@ -600,18 +600,18 @@ msgstr ""
 "<qt><p>調整影像大小到 %1 x %2 會用到相當可觀的記憶體。這可能會造成系統效能降"
 "低，並造成其他應用程式資源的問題。</p> <p>您確定要調整影像大小嗎？</p></qt>"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:763
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:767
 #, kde-format
 msgctxt "@title:window"
 msgid "Scale Image?"
 msgstr "調整影像大小？"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:764
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:768
 #, kde-format
 msgid "Scal&e Image"
 msgstr "調整影像大小(&E)"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:769
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:773
 #, kde-format
 msgid ""
 "<qt><p>Scaling the selection to %1x%2 may take a substantial amount of "
@@ -623,18 +623,18 @@ msgstr ""
 "效能降低，並造成其他應用程式資源的問題。</p> <p>您確定要調整選擇區域的大小"
 "嗎？</p></qt>"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:777
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:781
 #, kde-format
 msgctxt "@title:window"
 msgid "Scale Selection?"
 msgstr "調整選擇區域的大小？"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:778
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:782
 #, kde-format
 msgid "Scal&e Selection"
 msgstr "調整選擇區域的大小(&E)"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:787
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:791
 #, kde-format
 msgid ""
 "<qt><p>Smooth Scaling the image to %1x%2 may take a substantial amount of "
@@ -646,18 +646,18 @@ msgstr ""
 "能降低，並造成其他應用程式資源的問題。</p> <p>您確定要平滑調整影像大小嗎？</"
 "p></qt>"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:795
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:799
 #, kde-format
 msgctxt "@title:window"
 msgid "Smooth Scale Image?"
 msgstr "平滑調整影像大小？"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:796
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:800
 #, kde-format
 msgid "Smooth Scal&e Image"
 msgstr "平滑調整影像大小(&E)"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:801
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:805
 #, kde-format
 msgid ""
 "<qt><p>Smooth Scaling the selection to %1x%2 may take a substantial amount "
@@ -669,83 +669,83 @@ msgstr ""
 "系統效能降低，並造成其他應用程式資源的問題。</p> <p>您確定要平滑調整選擇區域"
 "的大小嗎？</p></qt>"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:809
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:813
 #, kde-format
 msgctxt "@title:window"
 msgid "Smooth Scale Selection?"
 msgstr "平滑調整選擇區域大小？"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:810
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:814
 #, kde-format
 msgid "Smooth Scal&e Selection"
 msgstr "平滑調整選擇區域大小(&E)"
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:68
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:67
 #, kde-format
 msgctxt "@title:window"
 msgid "Rotate Selection"
 msgstr "旋轉選擇的區域"
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:68
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:67
 #, kde-format
 msgctxt "@title:window"
 msgid "Rotate Image"
 msgstr "旋轉影像"
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:69
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:68
 #, kde-format
 msgid "After rotate:"
 msgstr "旋轉後："
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:99
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:98
 #, kde-format
 msgid "Direction"
 msgstr "方向"
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:110
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:109
 #, kde-format
 msgid "Cou&nterclockwise"
 msgstr "逆時針(&N)"
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:111
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:110
 #, kde-format
 msgid "C&lockwise"
 msgstr "順時針(&L)"
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:135
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:101
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:134
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:100
 #, kde-format
 msgid "Angle"
 msgstr "角度"
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:139
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:138
 #, kde-format
 msgid "90 &degrees"
 msgstr "90 度(&D)"
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:140
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:139
 #, kde-format
 msgid "180 d&egrees"
 msgstr "180 度(&E)"
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:141
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:140
 #, kde-format
 msgid "270 de&grees"
 msgstr "270 度(&G)"
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:143
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:142
 #, kde-format
 msgid "C&ustom:"
 msgstr "自訂(&U)："
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:148
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:114
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:126
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:147
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:113
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:125
 #, kde-format
 msgid "degrees"
 msgstr " 度"
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:279
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:278
 #, kde-format
 msgid ""
 "<qt><p>Rotating the selection to %1x%2 may take a substantial amount of "
@@ -757,18 +757,18 @@ msgstr ""
 "降低，並造成其他應用程式資源的問題。</p> <p>您確定要旋轉選擇的區域嗎？</p></"
 "qt>"
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:287
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:286
 #, kde-format
 msgctxt "@title:window"
 msgid "Rotate Selection?"
 msgstr "旋轉選擇的區域？"
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:288
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:287
 #, kde-format
 msgid "Rotat&e Selection"
 msgstr "旋轉選擇的區域(&E)"
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:294
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:293
 #, kde-format
 msgid ""
 "<qt><p>Rotating the image to %1x%2 may take a substantial amount of memory. "
@@ -778,45 +778,45 @@ msgstr ""
 "<qt><p>旋轉影像到 %1 x %2 會用到相當可觀的記憶體。這可能會造成系統效能降低，"
 "並造成其他應用程式資源的問題。</p> <p>您確定要旋轉影像嗎？</p></qt>"
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:302
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:301
 #, kde-format
 msgctxt "@title:window"
 msgid "Rotate Image?"
 msgstr "旋轉影像？"
 
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:303
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:302
 #, kde-format
 msgid "Rotat&e Image"
 msgstr "旋轉影像(&E)"
 
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:68
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:67
 #, kde-format
 msgctxt "@title:window"
 msgid "Skew Selection"
 msgstr "扭曲選擇的區域"
 
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:68
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:67
 #, kde-format
 msgctxt "@title:window"
 msgid "Skew Image"
 msgstr "扭曲影像"
 
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:69
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:68
 #, kde-format
 msgid "After skew:"
 msgstr "扭曲後："
 
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:108
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:107
 #, kde-format
 msgid "&Horizontal:"
 msgstr "水平(&H)："
 
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:120
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:119
 #, kde-format
 msgid "&Vertical:"
 msgstr "垂直(&V)："
 
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:255
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:254
 #, kde-format
 msgid ""
 "<qt><p>Skewing the selection to %1x%2 may take a substantial amount of "
@@ -828,18 +828,18 @@ msgstr ""
 "降低，並造成其他應用程式資源的問題。</p> <p>您確定要扭曲選擇的區域嗎？</p></"
 "qt>"
 
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:263
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:262
 #, kde-format
 msgctxt "@title:window"
 msgid "Skew Selection?"
 msgstr "扭曲選擇的區域？"
 
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:264
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:263
 #, kde-format
 msgid "Sk&ew Selection"
 msgstr "扭曲選擇的區域(&E)"
 
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:270
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:269
 #, kde-format
 msgid ""
 "<qt><p>Skewing the image to %1x%2 may take a substantial amount of memory. "
@@ -849,13 +849,13 @@ msgstr ""
 "<qt><p>扭曲影像到 %1 x %2 會用到相當可觀的記憶體。這可能會造成系統效能降低，"
 "並造成其他應用程式資源的問題。</p> <p>您確定要扭曲影像嗎？</p></qt>"
 
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:278
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:277
 #, kde-format
 msgctxt "@title:window"
 msgid "Skew Image?"
 msgstr "扭曲影像？"
 
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:279
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:278
 #, kde-format
 msgid "Sk&ew Image"
 msgstr "扭曲影像(&E)"
@@ -1233,12 +1233,12 @@ msgstr "改變影像大小：點右鍵以取消。"
 msgid "Text"
 msgstr "文字"
 
-#: lgpl/generic/kpColorCollection.cpp:117
+#: lgpl/generic/kpColorCollection.cpp:119
 #, kde-format
 msgid "Could not open color palette \"%1\"."
 msgstr "無法開啟調色盤 %1。"
 
-#: lgpl/generic/kpColorCollection.cpp:156
+#: lgpl/generic/kpColorCollection.cpp:158
 #, kde-format
 msgid ""
 "Could not open color palette \"%1\" - unsupported format.\n"
@@ -1247,17 +1247,17 @@ msgstr ""
 "無法開啟調色盤 %1 - 不支援的格式。\n"
 "此檔案可能已損毀。"
 
-#: lgpl/generic/kpColorCollection.cpp:207
+#: lgpl/generic/kpColorCollection.cpp:209
 #, kde-format
 msgid "Could not open KDE color palette \"%1\"."
 msgstr "無法開啟 KDE 調色盤 %1。"
 
-#: lgpl/generic/kpColorCollection.cpp:257
+#: lgpl/generic/kpColorCollection.cpp:259
 #, kde-format
 msgid "Could not save color palette as \"%1\"."
 msgstr "無法儲存調色盤為 %1。"
 
-#: lgpl/generic/kpColorCollection.cpp:294
+#: lgpl/generic/kpColorCollection.cpp:296
 #, kde-format
 msgid ""
 "A color palette called \"%1\" already exists.\n"
@@ -1368,8 +1368,8 @@ msgstr ""
 
 #: mainWindow/kpMainWindow_Colors.cpp:374
 #: mainWindow/kpMainWindow_Colors.cpp:387
-#: mainWindow/kpMainWindow_Colors.cpp:396 mainWindow/kpMainWindow_File.cpp:1093
-#: mainWindow/kpMainWindow_File.cpp:1103
+#: mainWindow/kpMainWindow_Colors.cpp:396 mainWindow/kpMainWindow_File.cpp:1092
+#: mainWindow/kpMainWindow_File.cpp:1102
 #, kde-format
 msgid "&Reload"
 msgstr "重新載入(&R)"
@@ -1477,92 +1477,92 @@ msgctxt "@title:window"
 msgid "Paste From File"
 msgstr "由檔案貼上"
 
-#: mainWindow/kpMainWindow_File.cpp:108
+#: mainWindow/kpMainWindow_File.cpp:107
 #, kde-format
 msgid "E&xport..."
 msgstr "匯出(&X)..."
 
-#: mainWindow/kpMainWindow_File.cpp:113
+#: mainWindow/kpMainWindow_File.cpp:112
 #, kde-format
 msgid "Scan..."
 msgstr "掃描..."
 
-#: mainWindow/kpMainWindow_File.cpp:122
+#: mainWindow/kpMainWindow_File.cpp:121
 #, kde-format
 msgid "Acquire Screenshot"
 msgstr "取得螢幕快照"
 
-#: mainWindow/kpMainWindow_File.cpp:126
+#: mainWindow/kpMainWindow_File.cpp:125
 #, kde-format
 msgid "Properties"
 msgstr "屬性"
 
-#: mainWindow/kpMainWindow_File.cpp:132
+#: mainWindow/kpMainWindow_File.cpp:131
 #, kde-format
 msgid "Reloa&d"
 msgstr "重新載入(&D)"
 
-#: mainWindow/kpMainWindow_File.cpp:462
+#: mainWindow/kpMainWindow_File.cpp:461
 #, kde-format
 msgid "All Supported Files (%1)"
 msgstr "所有支援的檔案（%1）"
 
-#: mainWindow/kpMainWindow_File.cpp:487
+#: mainWindow/kpMainWindow_File.cpp:486
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "開啟影像"
 
-#: mainWindow/kpMainWindow_File.cpp:550
+#: mainWindow/kpMainWindow_File.cpp:549
 #, kde-format
 msgid "Failed to open scanning dialog."
 msgstr "開啟掃描對話框失敗。"
 
-#: mainWindow/kpMainWindow_File.cpp:551
+#: mainWindow/kpMainWindow_File.cpp:550
 #, kde-format
 msgctxt "@title:window"
 msgid "Scanning Failed"
 msgstr "掃描失敗"
 
-#: mainWindow/kpMainWindow_File.cpp:668
+#: mainWindow/kpMainWindow_File.cpp:667
 #, kde-format
 msgid "Snapshot Delay"
 msgstr "抓圖延遲"
 
-#: mainWindow/kpMainWindow_File.cpp:671
+#: mainWindow/kpMainWindow_File.cpp:670
 #, kde-format
 msgid " second"
 msgid_plural " seconds"
 msgstr[0] " 秒"
 
-#: mainWindow/kpMainWindow_File.cpp:672
+#: mainWindow/kpMainWindow_File.cpp:671
 #, kde-format
 msgid "No delay"
 msgstr "不延遲"
 
-#: mainWindow/kpMainWindow_File.cpp:674
+#: mainWindow/kpMainWindow_File.cpp:673
 #, kde-format
 msgid "Hide Main Window"
 msgstr "隱藏主視窗"
 
-#: mainWindow/kpMainWindow_File.cpp:728
+#: mainWindow/kpMainWindow_File.cpp:727
 #, kde-format
 msgid "Document Properties"
 msgstr "文件屬性"
 
-#: mainWindow/kpMainWindow_File.cpp:972
+#: mainWindow/kpMainWindow_File.cpp:971
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Image As"
 msgstr "另存影像為"
 
-#: mainWindow/kpMainWindow_File.cpp:1022
+#: mainWindow/kpMainWindow_File.cpp:1021
 #, kde-format
 msgctxt "@title:window"
 msgid "Export"
 msgstr "匯出"
 
-#: mainWindow/kpMainWindow_File.cpp:1088
+#: mainWindow/kpMainWindow_File.cpp:1087
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -1573,7 +1573,7 @@ msgstr ""
 "重新載入會遺失所有尚未儲存的變更。\n"
 "您確定要重新載入嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1098
+#: mainWindow/kpMainWindow_File.cpp:1097
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -1584,13 +1584,13 @@ msgstr ""
 "重新載入會遺失所有變更。\n"
 "您確定要重新載入嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1341
+#: mainWindow/kpMainWindow_File.cpp:1340
 #, kde-format
 msgctxt "@title:window"
 msgid "Print Image"
 msgstr "列印影像"
 
-#: mainWindow/kpMainWindow_File.cpp:1420
+#: mainWindow/kpMainWindow_File.cpp:1419
 #, kde-format
 msgid ""
 "You must save this image before sending it.\n"
@@ -1599,7 +1599,7 @@ msgstr ""
 "您在送出此影像前必須先儲存。\n"
 "您要儲存嗎？"
 
-#: mainWindow/kpMainWindow_File.cpp:1462
+#: mainWindow/kpMainWindow_File.cpp:1461
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -1714,7 +1714,7 @@ msgstr "%1，%2 - %3，%4"
 
 #: mainWindow/kpMainWindow_StatusBar.cpp:205
 #: widgets/toolbars/options/kpToolWidgetEraserSize.cpp:114
-#: widgets/toolbars/options/kpToolWidgetSpraycanSize.cpp:93
+#: widgets/toolbars/options/kpToolWidgetSpraycanSize.cpp:92
 #, kde-format
 msgid "%1x%2"
 msgstr "%1 x %2"
@@ -1730,32 +1730,32 @@ msgstr "%1 bpp"
 msgid "%1%"
 msgstr "%1%"
 
-#: mainWindow/kpMainWindow_Text.cpp:57
+#: mainWindow/kpMainWindow_Text.cpp:56
 #, kde-format
 msgid "Font Family"
 msgstr "字型家族"
 
-#: mainWindow/kpMainWindow_Text.cpp:63
+#: mainWindow/kpMainWindow_Text.cpp:62
 #, kde-format
 msgid "Font Size"
 msgstr "字型大小"
 
-#: mainWindow/kpMainWindow_Text.cpp:70
+#: mainWindow/kpMainWindow_Text.cpp:69
 #, kde-format
 msgid "Bold"
 msgstr "粗體"
 
-#: mainWindow/kpMainWindow_Text.cpp:76
+#: mainWindow/kpMainWindow_Text.cpp:75
 #, kde-format
 msgid "Italic"
 msgstr "斜體"
 
-#: mainWindow/kpMainWindow_Text.cpp:82
+#: mainWindow/kpMainWindow_Text.cpp:81
 #, kde-format
 msgid "Underline"
 msgstr "底線"
 
-#: mainWindow/kpMainWindow_Text.cpp:88
+#: mainWindow/kpMainWindow_Text.cpp:87
 #, kde-format
 msgid "Strike Through"
 msgstr "刪除線"
@@ -1877,7 +1877,7 @@ msgid "Click or drag to erase."
 msgstr "點選或拖曳來清除。"
 
 #: tools/flow/kpToolFlowBase.cpp:305 tools/kpToolColorPicker.cpp:108
-#: tools/kpToolFloodFill.cpp:144 tools/kpToolZoom.cpp:208
+#: tools/kpToolFloodFill.cpp:144 tools/kpToolZoom.cpp:207
 #: tools/polygonal/kpToolPolygonalBase.cpp:438
 #: tools/rectangular/kpToolRectangularBase.cpp:351
 #: tools/selection/kpAbstractSelectionTool.cpp:261
@@ -1952,17 +1952,17 @@ msgstr "將影像中的區域填滿顏色"
 msgid "Click to fill a region."
 msgstr "點選以填滿區域。"
 
-#: tools/kpToolZoom.cpp:75
+#: tools/kpToolZoom.cpp:74
 #, kde-format
 msgid "Zoom"
 msgstr "縮放"
 
-#: tools/kpToolZoom.cpp:75
+#: tools/kpToolZoom.cpp:74
 #, kde-format
 msgid "Zooms in and out of the image"
 msgstr "縮放此影像"
 
-#: tools/kpToolZoom.cpp:119
+#: tools/kpToolZoom.cpp:118
 #, kde-format
 msgid "Click to zoom in/out or left drag to zoom into a specific area."
 msgstr "點選縮放，或按下滑鼠左鍵拖曳可以縮放特定區域。"
@@ -2585,7 +2585,7 @@ msgid "Top-&left of the page"
 msgstr "頁面的左上角(&L)"
 
 #: widgets/kpTransparentColorCell.cpp:54
-#: widgets/toolbars/options/kpToolWidgetOpaqueOrTransparent.cpp:45
+#: widgets/toolbars/options/kpToolWidgetOpaqueOrTransparent.cpp:44
 #, kde-format
 msgid "Transparent"
 msgstr "透明"
@@ -2652,7 +2652,7 @@ msgstr "填滿背景顏色"
 msgid "Fill with Foreground Color"
 msgstr "填滿前景顏色"
 
-#: widgets/toolbars/options/kpToolWidgetOpaqueOrTransparent.cpp:43
+#: widgets/toolbars/options/kpToolWidgetOpaqueOrTransparent.cpp:42
 #, kde-format
 msgid "Opaque"
 msgstr "不透明"
