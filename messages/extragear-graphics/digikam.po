@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-23 02:34+0100\n"
+"POT-Creation-Date: 2019-11-24 02:34+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -3411,7 +3411,7 @@ msgstr "路徑"
 
 #: core/app/views/tableview/tableview_column_file.cpp:64
 #: core/app/views/tableview/tableview_column_file.cpp:88
-#: core/dplugins/editor/enhance/hotpixels/blackframelistview.cpp:54
+#: core/dplugins/editor/enhance/hotpixels/blackframelistview.cpp:148
 #: core/libs/widgets/fonts/dfontproperties.cpp:326
 #, kde-format
 msgid "Size"
@@ -6647,13 +6647,13 @@ msgid ""
 msgstr "此濾鏡可用於消除相片中的紅眼。請選擇包含紅眼的區域以使用此選項。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, previewGroupBox)
-#: core/dplugins/editor/enhance/hotpixels/blackframelistview.cpp:53
+#: core/dplugins/editor/enhance/hotpixels/blackframelistview.cpp:147
 #: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:26
 #, kde-format
 msgid "Preview"
 msgstr "預覽"
 
-#: core/dplugins/editor/enhance/hotpixels/blackframelistview.cpp:56
+#: core/dplugins/editor/enhance/hotpixels/blackframelistview.cpp:150
 #, kde-format
 msgctxt ""
 "This is a column which will contain the amount of HotPixels found in the "
@@ -6718,7 +6718,7 @@ msgstr "載入："
 msgid "Select Black Frame Image"
 msgstr "選擇曝光對照圖影像"
 
-#: core/dplugins/editor/enhance/hotpixels/hotpixelstool.cpp:277
+#: core/dplugins/editor/enhance/hotpixels/hotpixelstool.cpp:278
 #, kde-format
 msgid "Hot Pixels Correction"
 msgstr "修正熱燥點"
@@ -12939,13 +12939,13 @@ msgctxt "@info:tooltip"
 msgid "Write the corrected date and time for each image"
 msgstr "將中繼資料寫入到每個檔案"
 
-#: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:433
+#: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:430
 #, fuzzy, kde-format
 #| msgid "Adjustment:"
 msgid "Adjust Time and Date"
 msgstr "調整："
 
-#: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:464
+#: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:461
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:654
 #: core/dplugins/generic/webservices/box/boxwindow.cpp:276
 #: core/dplugins/generic/webservices/flickr/flickrwindow.cpp:849
@@ -12967,7 +12967,7 @@ msgstr "調整："
 msgid "Cancel"
 msgstr "取消"
 
-#: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:466
+#: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:463
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:656
 #: core/libs/dplugins/webservices/wstooldialog.cpp:119
 #, fuzzy, kde-format
@@ -12975,7 +12975,7 @@ msgstr "取消"
 msgid "Cancel current operation"
 msgstr "取消這個動作。"
 
-#: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:470
+#: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:467
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:647
 #: core/libs/dplugins/webservices/wstooldialog.cpp:110
 #, fuzzy, kde-format
@@ -12983,7 +12983,7 @@ msgstr "取消這個動作。"
 msgid "Close"
 msgstr "關閉(&C)"
 
-#: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:472
+#: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:469
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:649
 #: core/libs/dplugins/webservices/wstooldialog.cpp:112
 #, fuzzy, kde-format
@@ -32573,7 +32573,7 @@ msgid "DigiKam"
 msgstr "digiKam"
 
 #: core/libs/timeadjust/timeadjustsettings.cpp:170
-#: core/showfoto/main/main.cpp:97
+#: core/showfoto/main/main.cpp:101
 #, kde-format
 msgid "Showfoto"
 msgstr ""
@@ -36988,7 +36988,7 @@ msgstr "要儲存的 XMP 檔案"
 msgid "XMP text Files (*.xmp)"
 msgstr "XMP 純文字檔 (*.xmp)"
 
-#: core/showfoto/main/main.cpp:114
+#: core/showfoto/main/main.cpp:118
 #, kde-format
 msgid "File(s) or folder(s) to open"
 msgstr "要開啟的檔案或資料夾"
