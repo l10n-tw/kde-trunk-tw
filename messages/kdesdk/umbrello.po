@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: umbrello\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-21 03:09+0100\n"
+"POT-Creation-Date: 2019-11-25 03:12+0100\n"
 "PO-Revision-Date: 2019-08-12 18:54+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -1561,8 +1561,8 @@ msgstr "類別名稱"
 #: dialogs/activitydialog.cpp:42 dialogs/activitydialog.cpp:146
 #: dialogs/classpropertiesdialog.cpp:124 dialogs/objectnodedialog.cpp:43
 #: dialogs/pages/associationgeneralpage.cpp:80
-#: dialogs/parameterpropertiesdialog.cpp:66 dialogs/statedialog.cpp:48
-#: dialogs/statedialog.cpp:133 dialogs/umlviewdialog.cpp:41
+#: dialogs/parameterpropertiesdialog.cpp:66 dialogs/statedialog.cpp:49
+#: dialogs/statedialog.cpp:128 dialogs/umlviewdialog.cpp:41
 #: menus/listpopupmenu.cpp:241 refactoring/refactoringassistant.cpp:462
 #, kde-format
 msgid "Properties"
@@ -1602,7 +1602,7 @@ msgstr "參數活動"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dialogs/activitydialog.cpp:143 dialogs/objectnodedialog.cpp:135
-#: dialogs/statedialog.cpp:130 dialogs/umlattributedialog.cpp:68
+#: dialogs/statedialog.cpp:125 dialogs/umlattributedialog.cpp:68
 #: dialogs/umlentityattributedialog.cpp:67 dialogs/umlenumliteraldialog.cpp:54
 #: dialogs/umlinstanceattributedialog.ui:17 dialogs/umloperationdialog.cpp:88
 #: dialogs/umltemplatedialog.cpp:61
@@ -2288,7 +2288,7 @@ msgstr ""
 msgid "&Apply to all remaining files"
 msgstr "套用到所有剩餘的檔案(&A)"
 
-#: dialogs/pages/activitypage.cpp:63 dialogs/statedialog.cpp:227
+#: dialogs/pages/activitypage.cpp:63 dialogs/statedialog.cpp:205
 #, kde-format
 msgid "Activities"
 msgstr "活動"
@@ -3309,84 +3309,84 @@ msgstr "自動佈局設定"
 msgid "Search"
 msgstr "搜尋"
 
-#: dialogs/statedialog.cpp:130
+#: dialogs/statedialog.cpp:125
 #, kde-format
 msgctxt "general page"
 msgid "General"
 msgstr "一般"
 
-#: dialogs/statedialog.cpp:143
+#: dialogs/statedialog.cpp:138
 #, kde-format
 msgctxt "initial state in statechart"
 msgid "Initial state"
 msgstr "初始狀態"
 
-#: dialogs/statedialog.cpp:146
+#: dialogs/statedialog.cpp:141
 #, kde-format
 msgctxt "state in statechart"
 msgid "State"
 msgstr "狀態"
 
-#: dialogs/statedialog.cpp:149
+#: dialogs/statedialog.cpp:144
 #, kde-format
 msgctxt "end state in statechart"
 msgid "End state"
 msgstr "終止狀態"
 
-#: dialogs/statedialog.cpp:152
+#: dialogs/statedialog.cpp:147
 #, kde-format
 msgctxt "fork state in statechart"
 msgid "Fork"
 msgstr "分叉"
 
-#: dialogs/statedialog.cpp:155
+#: dialogs/statedialog.cpp:150
 #, kde-format
 msgctxt "join state in statechart"
 msgid "Join"
 msgstr "連接"
 
-#: dialogs/statedialog.cpp:158
+#: dialogs/statedialog.cpp:153
 #, kde-format
 msgctxt "junction state in statechart"
 msgid "Junction"
 msgstr "接合"
 
-#: dialogs/statedialog.cpp:161
+#: dialogs/statedialog.cpp:156
 #, kde-format
 msgctxt "deep history state in statechart"
 msgid "DeepHistory"
 msgstr "深歷史"
 
-#: dialogs/statedialog.cpp:164
+#: dialogs/statedialog.cpp:159
 #, kde-format
 msgctxt "shallow history state in statechart"
 msgid "ShallowHistory"
 msgstr "淺歷史"
 
-#: dialogs/statedialog.cpp:167
+#: dialogs/statedialog.cpp:162
 #, kde-format
 msgctxt "choice state in statechart"
 msgid "Choice"
 msgstr "選擇"
 
-#: dialogs/statedialog.cpp:170
+#: dialogs/statedialog.cpp:165
 #, fuzzy, kde-format
 #| msgid "CombinedFragment"
 msgctxt "combined state in statechart"
 msgid "Combined"
 msgstr "已組合片段"
 
-#: dialogs/statedialog.cpp:178
+#: dialogs/statedialog.cpp:173
 #, kde-format
 msgid "State type:"
 msgstr "狀態類型："
 
-#: dialogs/statedialog.cpp:183
+#: dialogs/statedialog.cpp:178
 #, kde-format
 msgid "State name:"
 msgstr "狀態名稱："
 
-#: dialogs/statedialog.cpp:193
+#: dialogs/statedialog.cpp:188
 #, fuzzy, kde-format
 #| msgid "Loading diagrams..."
 msgid "Linked diagram:"
@@ -3874,6 +3874,13 @@ msgstr "解析度(&R)："
 #, kde-format
 msgid "DPI"
 msgstr "DPI"
+
+#: dialogs/widgets/selectdiagramwidget.cpp:65
+#, fuzzy, kde-format
+#| msgctxt "new container menu"
+#| msgid "New"
+msgid "New"
+msgstr "新增"
 
 #. i18n: ectx: Menu (file)
 #: dialogs/widgets/umlartifacttypewidget.cpp:29 umbrelloui.rc.cmake:4
@@ -6041,13 +6048,13 @@ msgstr "關聯錯誤"
 msgid "Enter Activity Name"
 msgstr "輸入活動名稱"
 
-#: toolbarstateother.cpp:286 umlwidgets/statewidget.cpp:592
+#: toolbarstateother.cpp:286 umlwidgets/statewidget.cpp:588
 #: umlwidgets/widget_utils.cpp:930
 #, kde-format
 msgid "Enter the name of the new activity:"
 msgstr "輸入新活動的名稱："
 
-#: toolbarstateother.cpp:286 umlwidgets/statewidget.cpp:590
+#: toolbarstateother.cpp:286 umlwidgets/statewidget.cpp:586
 #: umlwidgets/widget_utils.cpp:837
 #, kde-format
 msgid "new activity"
@@ -8493,7 +8500,7 @@ msgstr "輸入信號名稱"
 msgid "Enter the signal name :"
 msgstr "請輸入信號名稱："
 
-#: umlwidgets/statewidget.cpp:591
+#: umlwidgets/statewidget.cpp:587
 #, kde-format
 msgid "Enter Activity"
 msgstr "輸入活動"

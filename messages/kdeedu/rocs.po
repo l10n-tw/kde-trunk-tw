@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rocs\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-17 02:51+0100\n"
+"POT-Creation-Date: 2019-11-25 02:59+0100\n"
 "PO-Revision-Date: 2019-08-31 19:18+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -186,12 +186,6 @@ msgstr "方法"
 msgid "Rocs Scripting API"
 msgstr "Rocs 文稿 API"
 
-#. i18n: ectx: property (url), widget (QWebView, docDetails)
-#: plugins/scriptapi/scriptapiwidget.ui:38
-#, kde-format
-msgid "about:blank"
-msgstr "about:blank"
-
 #: project/project.cpp:192
 #, kde-format
 msgctxt "@info"
@@ -283,7 +277,7 @@ msgctxt "@title"
 msgid "Edge Types"
 msgstr "邊緣型態"
 
-#: ui/documenttypeswidget.cpp:117 ui/documenttypeswidget.cpp:138
+#: ui/documenttypeswidget.cpp:112 ui/documenttypeswidget.cpp:133
 #, kde-format
 msgid "unnamed"
 msgstr "未命名"
@@ -602,3 +596,6 @@ msgstr "側工具列"
 #, kde-format
 msgid "Toggle '%1' view."
 msgstr "切換 '%1' 檢視。"
+
+#~ msgid "about:blank"
+#~ msgstr "about:blank"

@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-03 02:50+0100\n"
+"POT-Creation-Date: 2019-11-25 02:54+0100\n"
 "PO-Revision-Date: 2019-08-06 22:36+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -28,27 +28,18 @@ msgstr ""
 "X-Generator: Lokalize 19.07.90\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: kaboutapplicationdialog.cpp:81 khelpmenu.cpp:280
+#: kaboutapplicationdialog.cpp:70 kaboutplugindialog.cpp:75 khelpmenu.cpp:280
 #, kde-format
 msgid "About %1"
 msgstr "關於 %1"
 
-#: kaboutapplicationdialog.cpp:98
-#, kde-format
-msgid "<html><font size=\"5\">%1</font><br />Version %2</html>"
-msgstr "<html><font size=\"5\">%1</font><br />版本 %2</html>"
-
-#: kaboutapplicationdialog.cpp:136
-#, kde-format
-msgid "License: %1"
-msgstr "授權：%1"
-
-#: kaboutapplicationdialog.cpp:148
-#, kde-format
-msgid "&About"
+#: kaboutapplicationdialog.cpp:102 kaboutplugindialog.cpp:92
+#, fuzzy, kde-format
+#| msgid "&About"
+msgid "About"
 msgstr "關於(&A)"
 
-#: kaboutapplicationdialog.cpp:155
+#: kaboutapplicationdialog.cpp:109
 #, kde-format
 msgid ""
 "<ul><li>KDE Frameworks %1</li><li>Qt %2 (built against %3)</li><li>The <em>"
@@ -57,48 +48,30 @@ msgstr ""
 "<ul><li>KDE Frameworks %1</li><li>Qt %2 (建立於 %3)</li><li><em>%4</em>視窗系"
 "統</li></ul>"
 
-#: kaboutapplicationdialog.cpp:165
-#, kde-format
-msgid "&Libraries"
+#: kaboutapplicationdialog.cpp:119
+#, fuzzy, kde-format
+#| msgid "&Libraries"
+msgid "Libraries"
 msgstr "函式庫(&L)"
 
-#: kaboutapplicationdialog.cpp:186
-#, kde-format
-msgid ""
-"Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
-"report bugs.\n"
-msgstr ""
-"請使用 <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> 報告問題。\n"
+#: kaboutapplicationdialog.cpp:129 kaboutplugindialog.cpp:103
+#, fuzzy, kde-format
+#| msgid "A&uthor"
+msgid "Author"
+msgid_plural "Authors"
+msgstr[0] "作者(&U)"
 
-#: kaboutapplicationdialog.cpp:192
-#, kde-format
-msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
-msgstr "請報告問題到<a href=\"%1\">%2</a>。\n"
-
-#: kaboutapplicationdialog.cpp:218
-#, kde-format
-msgid "A&uthor"
-msgstr "作者(&U)"
-
-#: kaboutapplicationdialog.cpp:218
-#, kde-format
-msgid "A&uthors"
-msgstr "作者(&U)"
-
-#: kaboutapplicationdialog.cpp:245
-#, kde-format
-msgid "&Thanks To"
+#: kaboutapplicationdialog.cpp:136 kaboutplugindialog.cpp:110
+#, fuzzy, kde-format
+#| msgid "&Thanks To"
+msgid "Thanks To"
 msgstr "感謝(&T)"
 
-#: kaboutapplicationdialog.cpp:284
+#: kaboutapplicationdialog.cpp:143 kaboutplugindialog.cpp:116
+#: kbugreport.cpp:251
 #, kde-format
-msgid "T&ranslation"
-msgstr "翻譯(&R)"
-
-#: kaboutapplicationdialog.cpp:316
-#, kde-format
-msgid "License Agreement"
-msgstr "授權宣告"
+msgid "Translation"
+msgstr "翻譯"
 
 #: kaboutapplicationpersonlistdelegate_p.cpp:62
 #, kde-format
@@ -300,6 +273,29 @@ msgstr "加入 KDE(&J)"
 msgid "&Support KDE"
 msgstr "支援 KDE(&S)"
 
+#: kabstractaboutdialog_p.cpp:47
+#, kde-format
+msgid "<html><font size=\"5\">%1</font><br />Version %2</html>"
+msgstr "<html><font size=\"5\">%1</font><br />版本 %2</html>"
+
+#: kabstractaboutdialog_p.cpp:92
+#, kde-format
+msgid "License: %1"
+msgstr "授權：%1"
+
+#: kabstractaboutdialog_p.cpp:124
+#, kde-format
+msgid ""
+"Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
+"report bugs.\n"
+msgstr ""
+"請使用 <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> 報告問題。\n"
+
+#: kabstractaboutdialog_p.cpp:130
+#, kde-format
+msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
+msgstr "請報告問題到<a href=\"%1\">%2</a>。\n"
+
 #: kactionconflictdetector.cpp:50
 #, kde-format
 msgid ""
@@ -429,11 +425,6 @@ msgstr "普通的"
 #, kde-format
 msgid "Wishlist"
 msgstr "希望清單"
-
-#: kbugreport.cpp:251
-#, kde-format
-msgid "Translation"
-msgstr "翻譯"
 
 #: kbugreport.cpp:269
 #, kde-format
@@ -893,6 +884,11 @@ msgstr "您剛才按的鍵並未被 Qt 所支援。"
 #, kde-format
 msgid "Unsupported Key"
 msgstr "不支援的按鍵。"
+
+#: klicensedialog_p.cpp:44
+#, kde-format
+msgid "License Agreement"
+msgstr "授權宣告"
 
 #: kmainwindow.cpp:249
 #, kde-format
@@ -1468,3 +1464,9 @@ msgstr "設定(&S)"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "主工具列"
+
+#~ msgid "A&uthors"
+#~ msgstr "作者(&U)"
+
+#~ msgid "T&ranslation"
+#~ msgstr "翻譯(&R)"
