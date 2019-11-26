@@ -7,19 +7,20 @@
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2008, 2010.
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011.
+# pan93412 <pan93412@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: kiten\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-11-22 02:58+0100\n"
-"PO-Revision-Date: 2011-12-10 19:27+0800\n"
-"Last-Translator: Franklin <franklin@goodhorse.idv.tw>\n"
-"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"PO-Revision-Date: 2019-11-26 21:21+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 19.11.80\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -96,7 +97,7 @@ msgstr "學習"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: app/configlearn.ui:19
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Learn mode is disabled in this version of kiten. There are several "
 #| "excellent open source flashcard programs available, such as Parley in kde-"
@@ -108,8 +109,9 @@ msgid ""
 "probably in your distro's repositories), and the anki project (https://apps."
 "ankiweb.net/)"
 msgstr ""
-"此版本的 kiten 關閉了學習模式。有一些很好的閃卡程式可以用，如 Parley 與 "
-"anki（http://www.ichi2.net/anki）等。"
+"此版本的 kiten 關閉了學習模式。有一些很好的閃卡程式可以用，"
+"如 kde-edu（且可能在您的發行版軟體庫中）的 Parley 與 "
+"anki (https://apps.ankiweb.net/) 等。"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ConfigSearching)
 #: app/configsearching.ui:13 app/configuredialog.cpp:61
@@ -386,8 +388,7 @@ msgstr ""
 msgid ""
 "The user's last type of search, 0=Exact, 1=Match Start, 2=Match End, 3=Match "
 "Anywhere"
-msgstr ""
-"上次使用者輸入的搜尋。0 為完全符合，1 為符合開端，2 為符合結尾，3為符合任一處"
+msgstr "上次使用者輸入的搜尋。0 為完全符合，1 為符合開端，2 為符合結尾，3為符合任一處"
 
 #. i18n: ectx: label, entry, group (app)
 #: app/kiten.kcfg:99

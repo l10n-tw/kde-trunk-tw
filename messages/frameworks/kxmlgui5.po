@@ -18,14 +18,14 @@ msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-11-25 02:54+0100\n"
-"PO-Revision-Date: 2019-08-06 22:36+0800\n"
+"PO-Revision-Date: 2019-11-26 21:18+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.07.90\n"
+"X-Generator: Lokalize 19.11.80\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: kaboutapplicationdialog.cpp:70 kaboutplugindialog.cpp:75 khelpmenu.cpp:280
@@ -34,10 +34,10 @@ msgid "About %1"
 msgstr "關於 %1"
 
 #: kaboutapplicationdialog.cpp:102 kaboutplugindialog.cpp:92
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&About"
 msgid "About"
-msgstr "關於(&A)"
+msgstr "關於"
 
 #: kaboutapplicationdialog.cpp:109
 #, kde-format
@@ -49,23 +49,23 @@ msgstr ""
 "統</li></ul>"
 
 #: kaboutapplicationdialog.cpp:119
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Libraries"
 msgid "Libraries"
-msgstr "函式庫(&L)"
+msgstr "函式庫"
 
 #: kaboutapplicationdialog.cpp:129 kaboutplugindialog.cpp:103
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "A&uthor"
 msgid "Author"
 msgid_plural "Authors"
-msgstr[0] "作者(&U)"
+msgstr[0] "作者"
 
 #: kaboutapplicationdialog.cpp:136 kaboutplugindialog.cpp:110
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Thanks To"
 msgid "Thanks To"
-msgstr "感謝(&T)"
+msgstr "感謝"
 
 #: kaboutapplicationdialog.cpp:143 kaboutplugindialog.cpp:116
 #: kbugreport.cpp:251
@@ -288,8 +288,7 @@ msgstr "授權：%1"
 msgid ""
 "Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
 "report bugs.\n"
-msgstr ""
-"請使用 <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> 報告問題。\n"
+msgstr "請使用 <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> 報告問題。\n"
 
 #: kabstractaboutdialog_p.cpp:130
 #, kde-format
@@ -1079,8 +1078,7 @@ msgstr "設定快捷鍵"
 msgid ""
 "Search interactively for shortcut names (e.g. Copy) or combination of keys "
 "(e.g. Ctrl+C) by typing them here."
-msgstr ""
-"輸入組合鍵(例如 Ctrl-C)或動作名稱(例如複製)來搜尋對應的動作/組合鍵是什麼。"
+msgstr "輸入組合鍵(例如 Ctrl-C)或動作名稱(例如複製)來搜尋對應的動作/組合鍵是什麼。"
 
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, list)
 #: kshortcutsdialog.ui:23

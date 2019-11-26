@@ -14,14 +14,14 @@ msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-11-25 02:32+0100\n"
-"PO-Revision-Date: 2019-11-03 13:57+0800\n"
+"PO-Revision-Date: 2019-11-26 21:17+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.08.2\n"
+"X-Generator: Lokalize 19.11.80\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -3391,89 +3391,89 @@ msgid "Confirm Paste"
 msgstr "確認貼上"
 
 #: TerminalDisplay.cpp:3193
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "^C Interrupt: May abort the current process"
 msgid "End Of Text/Interrupt: may exit the current process"
-msgstr "^C 終止：可能會中止目前的程序"
+msgstr "文字結尾/中止：可能會退出目前程序"
 
 #: TerminalDisplay.cpp:3194
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "^D End of transmission: May exit the current process"
 msgid "End Of Transmission: may exit the current process"
-msgstr "^D 傳輸結尾：可能會從目前程序中退出"
+msgstr "傳輸結尾：可能會退出目前程序"
 
 #: TerminalDisplay.cpp:3195
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "^G Bell: Will try to emit an audible warning"
 msgid "Bell: will try to emit an audible warning"
-msgstr "^G Bell：將嘗試發出聲音警告"
+msgstr "鈴響 (Bell)：將嘗試發出聲音警告"
 
 #: TerminalDisplay.cpp:3196
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "^H Backspace"
 msgid "Backspace"
-msgstr "^H Backspace 鍵"
+msgstr "Backspace 鍵"
 
 #: TerminalDisplay.cpp:3197
 #, kde-format
 msgid "Device Control Three/XOFF: suspends output"
-msgstr ""
+msgstr "裝置控制 3 / XOFF: 暫停輸出"
 
 #: TerminalDisplay.cpp:3198
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "^Z Suspend: Stops current process"
 msgid "Substitute/Suspend: may suspend current process"
-msgstr "^Z 暫停：停止目前程序"
+msgstr "替代字元/暫停：可能會暫停目前程序"
 
 #: TerminalDisplay.cpp:3199
 #, kde-format
 msgid "Escape: used for manipulating terminal state"
-msgstr ""
+msgstr "Esc 鍵：用來控制終端機狀態"
 
 #: TerminalDisplay.cpp:3200
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "^C Interrupt: May abort the current process"
 msgid "File Separator/Quit: may abort the current process"
-msgstr "^C 終止：可能會中止目前的程序"
+msgstr "檔案分隔符/退出：可能會中止目前程序"
 
 #: TerminalDisplay.cpp:3222
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "The text you're trying to paste contains hidden unprintable characters, "
 #| "do you want to filter them out?"
 msgid ""
 "The text you're trying to paste contains hidden control characters, do you "
 "want to filter them out?"
-msgstr "您嘗試貼上的文字包含著隱藏的不會顯示字元，是否要過濾出這些字元？"
+msgstr "您嘗試貼上的文字有隱藏控制字元。是否過濾出這些字元？"
 
 #: TerminalDisplay.cpp:3225
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Confirm Paste"
 msgctxt "@title"
 msgid "Confirm Paste"
 msgstr "確認貼上"
 
 #: TerminalDisplay.cpp:3227
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Match current character"
 msgctxt "@action:button"
 msgid "Paste &without control characters"
-msgstr "符合目前字元"
+msgstr "去除控制字元後貼上(&W)"
 
 #: TerminalDisplay.cpp:3230
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Paste Selection"
 msgctxt "@action:button"
 msgid "&Paste everything"
-msgstr "貼上選擇區"
+msgstr "全部貼上(&P)"
 
 #: TerminalDisplay.cpp:3233
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:button"
 #| msgid "&Cancel paste"
 msgctxt "@action:button"
 msgid "&Cancel"
-msgstr "取消貼上程序(&C)"
+msgstr "取消(&C)"
 
 #: TerminalDisplay.cpp:3480
 #, kde-format

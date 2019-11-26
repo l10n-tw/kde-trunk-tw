@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: rocs\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-11-26 03:02+0100\n"
-"PO-Revision-Date: 2019-08-31 19:19+0800\n"
+"PO-Revision-Date: 2019-11-26 21:23+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.08.0\n"
+"X-Generator: Lokalize 19.11.80\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -387,7 +387,7 @@ msgstr "%1 (代碼 %2)"
 #: editorplugins/generategraph/generategraphwidget.cpp:584
 #, kde-format
 msgid "Incorrect Edge Direction"
-msgstr ""
+msgstr "錯誤邊緣方向"
 
 #: editorplugins/generategraph/generategraphwidget.cpp:584
 #, kde-format
@@ -451,10 +451,10 @@ msgstr "隨機圖形"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboGraphGenerator)
 #: editorplugins/generategraph/generategraphwidget.ui:61
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Mesh Graph"
 msgid "Path Graph"
-msgstr "網狀圖形"
+msgstr "路徑圖形"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboGraphGenerator)
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonMakeComplete)
@@ -750,12 +750,12 @@ msgstr "無法開啟檔案 %1 以寫入文件。錯誤：%2"
 #: fileformats/fileformatmanager.cpp:131
 #, kde-format
 msgid "Plugin Error"
-msgstr ""
+msgstr "外掛程式錯誤"
 
 #: fileformats/fileformatmanager.cpp:133
 #, kde-format
 msgid "Plugins could not be found in specified directories:<br>"
-msgstr ""
+msgstr "無法在指定目錄找到外掛程式：<br>"
 
 #: fileformats/fileformatmanager.cpp:135
 #, kde-format
@@ -763,6 +763,8 @@ msgid ""
 "<br><br> Check <a href='https://doc.qt.io/qt-5/deployment-plugins.html'>this "
 "link</a> for further information."
 msgstr ""
+"<br><br> 參閱<a href='https://doc.qt.io/qt-5/deployment-plugins.html'>"
+"這個連結</a>以取得更多資訊。"
 
 #: fileformats/gml/gmlfileformat.cpp:56
 #, kde-format
@@ -817,13 +819,13 @@ msgid "TikZ (PGF) Format (%1)"
 msgstr "TikZ (PGF) 格式 (%1)"
 
 #: graphdocument.cpp:132
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Bidirectional"
 msgid "bidirectional"
 msgstr "雙向"
 
 #: graphdocument.cpp:137
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Unidirectional"
 msgid "unidirectional"
 msgstr "單向"
