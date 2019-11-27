@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: umbrello\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-25 03:12+0100\n"
+"POT-Creation-Date: 2019-11-27 03:23+0100\n"
 "PO-Revision-Date: 2019-08-12 18:54+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -2876,68 +2876,58 @@ msgstr "Y"
 msgid "Autoincrement Sequence "
 msgstr "自動遞增序列"
 
-#: dialogs/pages/generaloptionpage.cpp:55
+#: dialogs/pages/generaloptionpage.cpp:56
 #, kde-format
 msgctxt "miscellaneous group box"
 msgid "Miscellaneous"
 msgstr "雜項"
 
-#: dialogs/pages/generaloptionpage.cpp:62
+#: dialogs/pages/generaloptionpage.cpp:63
 #, kde-format
 msgid "Enable undo"
 msgstr "開啟復原功能"
 
-#: dialogs/pages/generaloptionpage.cpp:66
+#: dialogs/pages/generaloptionpage.cpp:67
 #, kde-format
 msgid "Use tabbed diagrams"
 msgstr "使用標籤式圖表"
 
-#: dialogs/pages/generaloptionpage.cpp:70
+#: dialogs/pages/generaloptionpage.cpp:71
 #, kde-format
 msgid "Use new C++/Java/Ruby generators"
 msgstr "使用新的 C++/Java/Ruby 產生器"
 
-#: dialogs/pages/generaloptionpage.cpp:74
-#, kde-format
-msgid "Use angular association lines"
-msgstr "使用角度關聯線條"
-
-#: dialogs/pages/generaloptionpage.cpp:78
+#: dialogs/pages/generaloptionpage.cpp:75
 #, kde-format
 msgid "Turn on footer and page numbers when printing"
 msgstr "列印時開啟註腳與頁面編號"
 
-#: dialogs/pages/generaloptionpage.cpp:82
+#: dialogs/pages/generaloptionpage.cpp:79
 #, kde-format
 msgid "Enable UML2 support"
 msgstr "啟用 UML2 支援"
 
-#: dialogs/pages/generaloptionpage.cpp:86
-#, kde-format
-msgid "Create new association lines as:"
-msgstr "將新關聯線段建立成："
-
-#: dialogs/pages/generaloptionpage.cpp:102
+#: dialogs/pages/generaloptionpage.cpp:84
 #, kde-format
 msgid "Autosave"
 msgstr "自動儲存"
 
-#: dialogs/pages/generaloptionpage.cpp:109
+#: dialogs/pages/generaloptionpage.cpp:91
 #, kde-format
 msgid "E&nable autosave"
 msgstr "開啟自動儲存(&N)"
 
-#: dialogs/pages/generaloptionpage.cpp:113
+#: dialogs/pages/generaloptionpage.cpp:95
 #, kde-format
 msgid "Select auto-save time interval (mins):"
 msgstr "選擇自動儲存的時間間隔（分）："
 
-#: dialogs/pages/generaloptionpage.cpp:129
+#: dialogs/pages/generaloptionpage.cpp:111
 #, kde-format
 msgid "Set autosave suffix:"
 msgstr "設定自動儲存後置字串："
 
-#: dialogs/pages/generaloptionpage.cpp:131
+#: dialogs/pages/generaloptionpage.cpp:113
 #, kde-format
 msgid ""
 "<qt><p>The autosave file will be saved to ~/autosave.xmi if the autosaving "
@@ -2952,22 +2942,22 @@ msgstr ""
 "上指定的後置字串。</p> <p>如果指定的後置字串跟您儲存的檔案的後置字串一樣，則"
 "自動儲存會自動覆寫您的檔案。</p></qt>"
 
-#: dialogs/pages/generaloptionpage.cpp:142
+#: dialogs/pages/generaloptionpage.cpp:124
 #, kde-format
 msgid "Startup"
 msgstr "啟動"
 
-#: dialogs/pages/generaloptionpage.cpp:149
+#: dialogs/pages/generaloptionpage.cpp:131
 #, kde-format
 msgid "&Load last project"
 msgstr "載入上次的專案(&L)"
 
-#: dialogs/pages/generaloptionpage.cpp:153
+#: dialogs/pages/generaloptionpage.cpp:135
 #, kde-format
 msgid "Start new project with:"
 msgstr "開啟新專案，使用："
 
-#: dialogs/pages/generaloptionpage.cpp:173
+#: dialogs/pages/generaloptionpage.cpp:155
 #, kde-format
 msgid "Default Language :"
 msgstr "預設語言："
@@ -3014,57 +3004,74 @@ msgstr "新增操作..."
 msgid "Custom operation:"
 msgstr "自訂操作："
 
-#: dialogs/pages/uioptionspage.cpp:62
+#: dialogs/pages/uioptionspage.cpp:64
 #, kde-format
 msgctxt "General options"
 msgid "General"
 msgstr "一般"
 
 #. i18n: ectx: label, entry (rightToLeftUI), group (UI Options)
-#: dialogs/pages/uioptionspage.cpp:68 umbrello.kcfg:192
+#: dialogs/pages/uioptionspage.cpp:70 umbrello.kcfg:192
 #, kde-format
 msgid "Right to left user interface"
 msgstr "右至左使用者介面"
 
-#: dialogs/pages/uioptionspage.cpp:72
+#: dialogs/pages/uioptionspage.cpp:74
+#, fuzzy, kde-format
+#| msgid "Associations"
+msgctxt "Association options"
+msgid "Associations"
+msgstr "關聯"
+
+#: dialogs/pages/uioptionspage.cpp:79
+#, kde-format
+msgid "Use angular association lines"
+msgstr "使用角度關聯線條"
+
+#: dialogs/pages/uioptionspage.cpp:83
+#, kde-format
+msgid "Create new association lines as:"
+msgstr "將新關聯線段建立成："
+
+#: dialogs/pages/uioptionspage.cpp:86
 #, kde-format
 msgctxt "color group box"
 msgid "Color"
 msgstr "顏色"
 
-#: dialogs/pages/uioptionspage.cpp:80
+#: dialogs/pages/uioptionspage.cpp:94
 #, kde-format
 msgid "Custom text color"
 msgstr "自訂文字顏色"
 
-#: dialogs/pages/uioptionspage.cpp:87
+#: dialogs/pages/uioptionspage.cpp:101
 #, kde-format
 msgid "Custom line color"
 msgstr "自訂線條顏色"
 
 #. i18n("D&efault Color"), m_colorGB);
 #. colorLayout->addWidget(m_lineDefaultB, 0, 2);
-#: dialogs/pages/uioptionspage.cpp:97
+#: dialogs/pages/uioptionspage.cpp:111
 #, kde-format
 msgid "Custom fill color"
 msgstr "自訂填充顏色"
 
-#: dialogs/pages/uioptionspage.cpp:103
+#: dialogs/pages/uioptionspage.cpp:117
 #, kde-format
 msgid "Custom grid color"
 msgstr "自訂格線顏色"
 
-#: dialogs/pages/uioptionspage.cpp:109
+#: dialogs/pages/uioptionspage.cpp:123
 #, kde-format
 msgid "Custom background color"
 msgstr "自訂背景顏色"
 
-#: dialogs/pages/uioptionspage.cpp:115
+#: dialogs/pages/uioptionspage.cpp:129
 #, kde-format
 msgid "Custom line width"
 msgstr "自訂線條寬度"
 
-#: dialogs/pages/uioptionspage.cpp:129
+#: dialogs/pages/uioptionspage.cpp:143
 #, kde-format
 msgid "&Use fill color"
 msgstr "使用填充顏色(&U)"
@@ -3865,17 +3872,17 @@ msgstr "預設值 (&D)："
 msgid "&Image type:"
 msgstr "影像型態(&I)："
 
-#: dialogs/widgets/resolutionwidget.cpp:42
+#: dialogs/widgets/resolutionwidget.cpp:38
 #, kde-format
 msgid "&Resolution:"
 msgstr "解析度(&R)："
 
-#: dialogs/widgets/resolutionwidget.cpp:48
+#: dialogs/widgets/resolutionwidget.cpp:38
 #, kde-format
 msgid "DPI"
 msgstr "DPI"
 
-#: dialogs/widgets/selectdiagramwidget.cpp:65
+#: dialogs/widgets/selectdiagramwidget.cpp:66
 #, fuzzy, kde-format
 #| msgctxt "new container menu"
 #| msgid "New"
@@ -6048,13 +6055,13 @@ msgstr "關聯錯誤"
 msgid "Enter Activity Name"
 msgstr "輸入活動名稱"
 
-#: toolbarstateother.cpp:286 umlwidgets/statewidget.cpp:588
+#: toolbarstateother.cpp:286 umlwidgets/statewidget.cpp:590
 #: umlwidgets/widget_utils.cpp:930
 #, kde-format
 msgid "Enter the name of the new activity:"
 msgstr "輸入新活動的名稱："
 
-#: toolbarstateother.cpp:286 umlwidgets/statewidget.cpp:586
+#: toolbarstateother.cpp:286 umlwidgets/statewidget.cpp:588
 #: umlwidgets/widget_utils.cpp:837
 #, kde-format
 msgid "new activity"
@@ -8171,62 +8178,62 @@ msgstr "名稱無效"
 msgid "Diagram: %2 Page %1"
 msgstr "圖表：%2  頁：%1"
 
-#: umlscene.cpp:1455
+#: umlscene.cpp:1460
 #, kde-format
 msgid "Use fill color"
 msgstr "使用填充顏色"
 
-#: umlscene.cpp:1457
+#: umlscene.cpp:1462
 #, kde-format
 msgid "No fill color"
 msgstr "不填充顏色"
 
-#: umlscene.cpp:1472
+#: umlscene.cpp:1477
 #, kde-format
 msgid "Change font"
 msgstr "變更字型"
 
-#: umlscene.cpp:1486
+#: umlscene.cpp:1491
 #, kde-format
 msgid "Change line color"
 msgstr "改變線顏色"
 
-#: umlscene.cpp:1504
+#: umlscene.cpp:1509
 #, kde-format
 msgid "Change line width"
 msgstr "改變線寬度"
 
-#: umlscene.cpp:1524
+#: umlscene.cpp:1529
 #, kde-format
 msgid "Change fill color"
 msgstr "更改填充顏色"
 
-#: umlscene.cpp:1539
+#: umlscene.cpp:1544
 #, kde-format
 msgid "Change visual property"
 msgstr "改變可見屬性"
 
-#: umlscene.cpp:1590
+#: umlscene.cpp:1595
 #, kde-format
 msgid "Delete widgets"
 msgstr "刪除元件"
 
-#: umlscene.cpp:1636
+#: umlscene.cpp:1641
 #, kde-format
 msgid "Resize widgets"
 msgstr "改變元件大小"
 
-#: umlscene.cpp:3279
+#: umlscene.cpp:3284
 #, kde-format
 msgid "Enter Diagram Name"
 msgstr "輸入圖表名稱"
 
-#: umlscene.cpp:3280
+#: umlscene.cpp:3285
 #, kde-format
 msgid "Enter the new name of the diagram:"
 msgstr "輸入圖表的新名稱："
 
-#: umlscene.cpp:3296
+#: umlscene.cpp:3301
 #, kde-format
 msgid "Failed to import from file."
 msgstr "匯入堆疊追蹤失敗。"
@@ -8328,7 +8335,7 @@ msgstr "輸入迴圈護衛"
 
 #: umlwidgets/combinedfragmentwidget.cpp:314
 #: umlwidgets/combinedfragmentwidget.cpp:316
-#: umlwidgets/objectnodewidget.cpp:343
+#: umlwidgets/objectnodewidget.cpp:345
 #, kde-format
 msgid "-"
 msgstr "-"
@@ -8399,108 +8406,108 @@ msgstr "名稱"
 msgid "Enter operation name:"
 msgstr "輸入操作名稱："
 
-#: umlwidgets/notewidget.cpp:221 umlwidgets/widgetbase.cpp:1274
+#: umlwidgets/notewidget.cpp:223 umlwidgets/widgetbase.cpp:1274
 #: worktoolbar.cpp:335
 #, kde-format
 msgid "Precondition"
 msgstr "先決條件"
 
-#: umlwidgets/notewidget.cpp:222
+#: umlwidgets/notewidget.cpp:224
 #, kde-format
 msgid "Postcondition"
 msgstr "後續條件"
 
-#: umlwidgets/notewidget.cpp:223
+#: umlwidgets/notewidget.cpp:225
 #, kde-format
 msgid "Transformation"
 msgstr "轉換"
 
-#: umlwidgets/notewidget.cpp:228 umlwidgets/notewidget.cpp:231
+#: umlwidgets/notewidget.cpp:230 umlwidgets/notewidget.cpp:233
 #, kde-format
 msgid "Note Type"
 msgstr "通知型態"
 
-#: umlwidgets/notewidget.cpp:228 umlwidgets/notewidget.cpp:231
+#: umlwidgets/notewidget.cpp:230 umlwidgets/notewidget.cpp:233
 #, kde-format
 msgid "Select the Note Type"
 msgstr "選擇通知型態"
 
-#: umlwidgets/objectnodewidget.cpp:234
+#: umlwidgets/objectnodewidget.cpp:236
 #, kde-format
 msgid "Enter Object Node Name"
 msgstr "輸入物件節點名稱"
 
-#: umlwidgets/objectnodewidget.cpp:235
+#: umlwidgets/objectnodewidget.cpp:237
 #, kde-format
 msgid "Enter the name of the object node :"
 msgstr "請輸入物件節點的名稱："
 
-#: umlwidgets/objectnodewidget.cpp:313 umlwidgets/objectnodewidget.cpp:317
+#: umlwidgets/objectnodewidget.cpp:315 umlwidgets/objectnodewidget.cpp:319
 #, kde-format
 msgid "Select Object node type"
 msgstr "選擇物件節點型態"
 
-#: umlwidgets/objectnodewidget.cpp:313 umlwidgets/objectnodewidget.cpp:317
+#: umlwidgets/objectnodewidget.cpp:315 umlwidgets/objectnodewidget.cpp:319
 #, kde-format
 msgid "Select the object node type"
 msgstr "選擇物件節點型態"
 
-#: umlwidgets/objectnodewidget.cpp:323
+#: umlwidgets/objectnodewidget.cpp:325
 #, kde-format
 msgid "Enter the name of the data store node"
 msgstr "輸入資料儲存節點名稱"
 
-#: umlwidgets/objectnodewidget.cpp:323
+#: umlwidgets/objectnodewidget.cpp:325
 #, kde-format
 msgid "data store name"
 msgstr "資料儲存節點名稱"
 
-#: umlwidgets/objectnodewidget.cpp:325
+#: umlwidgets/objectnodewidget.cpp:327
 #, kde-format
 msgid "Enter the name of the buffer node"
 msgstr "輸入緩衝區節點名稱"
 
-#: umlwidgets/objectnodewidget.cpp:325
+#: umlwidgets/objectnodewidget.cpp:327
 #, kde-format
 msgid "Enter the name of the buffer"
 msgstr "輸入緩衝區名稱"
 
-#: umlwidgets/objectnodewidget.cpp:325
+#: umlwidgets/objectnodewidget.cpp:327
 #, kde-format
 msgid "centralBuffer"
 msgstr "中央緩衝區"
 
-#: umlwidgets/objectnodewidget.cpp:327
+#: umlwidgets/objectnodewidget.cpp:329
 #, kde-format
 msgid "Enter the name of the object flow"
 msgstr "輸入物件流名稱"
 
-#: umlwidgets/objectnodewidget.cpp:327
+#: umlwidgets/objectnodewidget.cpp:329
 #, kde-format
 msgid "object flow"
 msgstr "物件流"
 
-#: umlwidgets/objectnodewidget.cpp:344
+#: umlwidgets/objectnodewidget.cpp:346
 #, kde-format
 msgid "Enter Object Flow State"
 msgstr "輸入物件流狀態"
 
-#: umlwidgets/objectnodewidget.cpp:345
+#: umlwidgets/objectnodewidget.cpp:347
 #, kde-format
 msgid "Enter State (keep '-' if there is no state for the object) "
 msgstr "輸入狀態（如果沒有狀態則保持為 '-'）"
 
-#: umlwidgets/signalwidget.cpp:328
+#: umlwidgets/signalwidget.cpp:330
 #, kde-format
 msgid "Enter signal name"
 msgstr "輸入信號名稱"
 
-#: umlwidgets/signalwidget.cpp:329
+#: umlwidgets/signalwidget.cpp:331
 #, kde-format
 msgid "Enter the signal name :"
 msgstr "請輸入信號名稱："
 
-#: umlwidgets/statewidget.cpp:587
+#: umlwidgets/statewidget.cpp:589
 #, kde-format
 msgid "Enter Activity"
 msgstr "輸入活動"

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-23 02:30+0100\n"
+"POT-Creation-Date: 2019-11-27 02:38+0100\n"
 "PO-Revision-Date: 2015-09-21 15:03+0800\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -121,7 +121,7 @@ msgctxt "(qtundo-format)"
 msgid "Convert to Path"
 msgstr "轉換為路徑"
 
-#: flake/commands/KoPathBreakAtPointCommand.cpp:40
+#: flake/commands/KoPathBreakAtPointCommand.cpp:42
 msgctxt "(qtundo-format)"
 msgid "Break subpath at points"
 msgstr "中斷子路徑"
@@ -229,12 +229,12 @@ msgctxt "(qtundo-format)"
 msgid "Distribute shapes"
 msgstr "分布物件"
 
-#: flake/commands/KoShapeGroupCommand.cpp:93
+#: flake/commands/KoShapeGroupCommand.cpp:95
 msgctxt "(qtundo-format)"
 msgid "Group shapes"
 msgstr "群組"
 
-#: flake/commands/KoShapeGroupCommand.cpp:95
+#: flake/commands/KoShapeGroupCommand.cpp:97
 msgctxt "(qtundo-format)"
 msgid "Add shapes to group"
 msgstr "將物件加入到群組"
@@ -260,7 +260,7 @@ msgctxt "(qtundo-format)"
 msgid "Rename Shape"
 msgstr "重新命名物件"
 
-#: flake/commands/KoShapeReorderCommand.cpp:52
+#: flake/commands/KoShapeReorderCommand.cpp:53
 msgctxt "(qtundo-format)"
 msgid "Reorder shapes"
 msgstr "重新排序物件"
@@ -313,7 +313,7 @@ msgctxt "(qtundo-format)"
 msgid "Unclip Shapes"
 msgstr "取消修剪物件"
 
-#: flake/commands/KoShapeUngroupCommand.cpp:57
+#: flake/commands/KoShapeUngroupCommand.cpp:59
 msgctxt "(qtundo-format)"
 msgid "Ungroup shapes"
 msgstr "解散群組"
@@ -382,7 +382,7 @@ msgstr "簡單的路徑物件"
 msgid "A simple path shape"
 msgstr "一簡單的路徑物件"
 
-#: flake/KoShapeController.cpp:71 rdf/InsertSemanticObjectCreateAction.cpp:59
+#: flake/KoShapeController.cpp:73 rdf/InsertSemanticObjectCreateAction.cpp:59
 #: rdf/InsertSemanticObjectReferenceAction.cpp:64
 #: text/InsertTextReferenceAction.cpp:63 text/InsertVariableAction.cpp:58
 #, kde-format
@@ -1606,7 +1606,7 @@ msgstr "匯出為 PDF 檔..."
 msgid "Cannot export to the specified file"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1714 pageapp/KoPADocumentStructureDocker.cpp:91
+#: main/KoMainWindow.cpp:1714 pageapp/KoPADocumentStructureDocker.cpp:93
 #, kde-format
 msgid "Document"
 msgstr "文件"
@@ -2243,7 +2243,7 @@ msgid "Page  %1"
 msgstr "第 %1 頁"
 
 #: pageapp/KoPADocumentModel.cpp:189
-#: pageapp/KoPADocumentStructureDocker.cpp:113
+#: pageapp/KoPADocumentStructureDocker.cpp:115
 #, kde-format
 msgid "Layer"
 msgstr "層次"
@@ -2277,7 +2277,7 @@ msgid "Rename Layer"
 msgstr "重新命名層次"
 
 #: pageapp/KoPADocumentModel.cpp:326
-#: pageapp/KoPADocumentStructureDocker.cpp:111
+#: pageapp/KoPADocumentStructureDocker.cpp:113
 #, kde-format
 msgid "Slide"
 msgstr "投影片"
@@ -2315,109 +2315,109 @@ msgstr "複製到這裡(&C)"
 msgid "C&ancel"
 msgstr "取消(&A)"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:100
+#: pageapp/KoPADocumentStructureDocker.cpp:102
 #, kde-format
 msgid "Add a new slide or layer"
 msgstr "新增投影片或層次"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:103
+#: pageapp/KoPADocumentStructureDocker.cpp:105
 #, kde-format
 msgid "Add a new page or layer"
 msgstr "新增頁面或層次"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:111
+#: pageapp/KoPADocumentStructureDocker.cpp:113
 #: widgets/KoPageLayoutDialog.cpp:50
 #, kde-format
 msgid "Page"
 msgstr "頁面"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:120
-#: pageapp/KoPADocumentStructureDocker.cpp:627
+#: pageapp/KoPADocumentStructureDocker.cpp:122
+#: pageapp/KoPADocumentStructureDocker.cpp:629
 #, kde-format
 msgid "Delete selected objects"
 msgstr "刪除選取的物件"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:126
+#: pageapp/KoPADocumentStructureDocker.cpp:128
 #, kde-format
 msgid "Raise selected objects"
 msgstr "提升選取的物件"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:132
+#: pageapp/KoPADocumentStructureDocker.cpp:134
 #, kde-format
 msgid "Lower selected objects"
 msgstr "降低選取的物件"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:141
+#: pageapp/KoPADocumentStructureDocker.cpp:143
 #, kde-format
 msgid "Minimal View"
 msgstr "最小檢視"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:143
+#: pageapp/KoPADocumentStructureDocker.cpp:145
 #, kde-format
 msgid "Detailed View"
 msgstr "詳細檢視"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:145
+#: pageapp/KoPADocumentStructureDocker.cpp:147
 #, kde-format
 msgid "Thumbnail View"
 msgstr "縮圖檢視"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:155
+#: pageapp/KoPADocumentStructureDocker.cpp:157
 #, kde-format
 msgid "View mode"
 msgstr "檢視模式"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:312
+#: pageapp/KoPADocumentStructureDocker.cpp:314
 #, kde-format
 msgid "Enter the name of the new layer:"
 msgstr "輸入新層次的名稱："
 
-#: pageapp/KoPADocumentStructureDocker.cpp:312
+#: pageapp/KoPADocumentStructureDocker.cpp:314
 #, kde-format
 msgid "New Layer"
 msgstr "新階層"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:313
+#: pageapp/KoPADocumentStructureDocker.cpp:315
 #, kde-format
 msgid "New layer"
 msgstr "新層次"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:326
+#: pageapp/KoPADocumentStructureDocker.cpp:328
 msgctxt "(qtundo-format)"
 msgid "Create Layer"
 msgstr "建立層次"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:352
+#: pageapp/KoPADocumentStructureDocker.cpp:354
 msgctxt "(qtundo-format)"
 msgid "Delete Layer"
 msgstr "刪除層次"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:355
+#: pageapp/KoPADocumentStructureDocker.cpp:357
 #, kde-format
 msgid "Could not delete all layers. At least one layer is required."
 msgstr "無法刪除所有的層次，至少要留一個。"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:355
+#: pageapp/KoPADocumentStructureDocker.cpp:357
 #, kde-format
 msgid "Error deleting layers"
 msgstr "刪除層次發生錯誤"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:622
+#: pageapp/KoPADocumentStructureDocker.cpp:624
 #, kde-format
 msgid "Add a new slide"
 msgstr "新增投影片"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:625
+#: pageapp/KoPADocumentStructureDocker.cpp:627
 #, kde-format
 msgid "Add a new page"
 msgstr "新增頁面"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:629
+#: pageapp/KoPADocumentStructureDocker.cpp:631
 #, kde-format
 msgid "Cut"
 msgstr "剪下"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:630
+#: pageapp/KoPADocumentStructureDocker.cpp:632
 #: pigment/compositeops/KoCompositeOpCopy.h:37
 #: pigment/compositeops/KoCompositeOpCopy2.h:45
 #: pigment/KoCompositeOpRegistry.cpp:98
@@ -2425,7 +2425,7 @@ msgstr "剪下"
 msgid "Copy"
 msgstr "複製"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:631
+#: pageapp/KoPADocumentStructureDocker.cpp:633
 #, kde-format
 msgid "Paste"
 msgstr "貼上"
@@ -3666,57 +3666,57 @@ msgstr "描述"
 msgid "Stylesheet Name"
 msgstr "樣式表名稱"
 
-#: rdf/KoSopranoTableModel.cpp:82
+#: rdf/KoSopranoTableModel.cpp:84
 #, kde-format
 msgid "Empty"
 msgstr "空白"
 
-#: rdf/KoSopranoTableModel.cpp:84 rdf/KoSopranoTableModelDelegate.cpp:43
+#: rdf/KoSopranoTableModel.cpp:86 rdf/KoSopranoTableModelDelegate.cpp:43
 #, kde-format
 msgid "URI"
 msgstr "URI"
 
-#: rdf/KoSopranoTableModel.cpp:86 rdf/KoSopranoTableModelDelegate.cpp:44
+#: rdf/KoSopranoTableModel.cpp:88 rdf/KoSopranoTableModelDelegate.cpp:44
 #, kde-format
 msgid "Literal"
 msgstr "常數"
 
-#: rdf/KoSopranoTableModel.cpp:88 rdf/KoSopranoTableModelDelegate.cpp:45
+#: rdf/KoSopranoTableModel.cpp:90 rdf/KoSopranoTableModelDelegate.cpp:45
 #, kde-format
 msgid "Blank"
 msgstr "空白"
 
-#: rdf/KoSopranoTableModel.cpp:130
+#: rdf/KoSopranoTableModel.cpp:132
 #, kde-format
 msgid "Valid"
 msgstr "合法"
 
-#: rdf/KoSopranoTableModel.cpp:132
+#: rdf/KoSopranoTableModel.cpp:134
 #, kde-format
 msgid "Subject"
 msgstr "主題"
 
-#: rdf/KoSopranoTableModel.cpp:134
+#: rdf/KoSopranoTableModel.cpp:136
 #, kde-format
 msgid "Predicate"
 msgstr "預測"
 
-#: rdf/KoSopranoTableModel.cpp:136
+#: rdf/KoSopranoTableModel.cpp:138
 #, kde-format
 msgid "Object"
 msgstr "物件"
 
-#: rdf/KoSopranoTableModel.cpp:138
+#: rdf/KoSopranoTableModel.cpp:140
 #, kde-format
 msgid "Obj Type"
 msgstr "物件型態"
 
-#: rdf/KoSopranoTableModel.cpp:140
+#: rdf/KoSopranoTableModel.cpp:142
 #, kde-format
 msgid "DataType"
 msgstr "資料型態"
 
-#: rdf/KoSopranoTableModel.cpp:142
+#: rdf/KoSopranoTableModel.cpp:144
 #, kde-format
 msgid "Stored In"
 msgstr "儲存於"
@@ -3817,7 +3817,7 @@ msgid "Change Styles"
 msgstr "改變檔案類型"
 
 #: text/commands/ChangeTrackedDeleteCommand.cpp:76
-#: text/commands/DeleteCommand.cpp:68
+#: text/commands/DeleteCommand.cpp:70
 msgctxt "(qtundo-format)"
 msgid "Delete"
 msgstr "刪除"
@@ -3833,7 +3833,7 @@ msgid "Delete"
 msgstr "刪除"
 
 #: text/commands/ChangeTrackedDeleteCommand.cpp:331
-#: text/commands/DeleteCommand.cpp:517 text/KoTextEditor_undo.cpp:87
+#: text/commands/DeleteCommand.cpp:519 text/KoTextEditor_undo.cpp:87
 #: text/KoTextEditor_undo.cpp:166 text/KoTextEditor_undo.cpp:201
 #: text/KoTextEditor_undo.cpp:218 text/KoTextEditor_undo.cpp:260
 msgctxt "(qtundo-format)"
@@ -5218,17 +5218,17 @@ msgstr ""
 msgid "Tag was not undeleted."
 msgstr "表格沒有定義欄位。"
 
-#: widgets/KoRuler.cpp:1277
+#: widgets/KoRuler.cpp:1279
 #, kde-format
 msgid "First line indent"
 msgstr "首行縮排"
 
-#: widgets/KoRuler.cpp:1278
+#: widgets/KoRuler.cpp:1280
 #, kde-format
 msgid "Left indent"
 msgstr "往左縮排"
 
-#: widgets/KoRuler.cpp:1279
+#: widgets/KoRuler.cpp:1281
 #, kde-format
 msgid "Right indent"
 msgstr "往右縮排"
@@ -5427,7 +5427,7 @@ msgstr "取相選擇項目"
 msgid "select item"
 msgstr "選擇項目..."
 
-#: widgets/KoZoomAction.cpp:207 widgets/KoZoomAction.cpp:220
+#: widgets/KoZoomAction.cpp:208 widgets/KoZoomAction.cpp:221
 #: widgets/KoZoomMode.cpp:26
 #, kde-format
 msgid "%1%"

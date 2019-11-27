@@ -35,7 +35,6 @@ msgstr "關於 %1"
 
 #: kaboutapplicationdialog.cpp:102 kaboutplugindialog.cpp:92
 #, kde-format
-#| msgid "&About"
 msgid "About"
 msgstr "關於"
 
@@ -50,20 +49,17 @@ msgstr ""
 
 #: kaboutapplicationdialog.cpp:119
 #, kde-format
-#| msgid "&Libraries"
 msgid "Libraries"
 msgstr "函式庫"
 
 #: kaboutapplicationdialog.cpp:129 kaboutplugindialog.cpp:103
 #, kde-format
-#| msgid "A&uthor"
 msgid "Author"
 msgid_plural "Authors"
 msgstr[0] "作者"
 
 #: kaboutapplicationdialog.cpp:136 kaboutplugindialog.cpp:110
 #, kde-format
-#| msgid "&Thanks To"
 msgid "Thanks To"
 msgstr "感謝"
 
@@ -288,7 +284,8 @@ msgstr "授權：%1"
 msgid ""
 "Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
 "report bugs.\n"
-msgstr "請使用 <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> 報告問題。\n"
+msgstr ""
+"請使用 <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> 報告問題。\n"
 
 #: kabstractaboutdialog_p.cpp:130
 #, kde-format
@@ -1078,7 +1075,8 @@ msgstr "設定快捷鍵"
 msgid ""
 "Search interactively for shortcut names (e.g. Copy) or combination of keys "
 "(e.g. Ctrl+C) by typing them here."
-msgstr "輸入組合鍵(例如 Ctrl-C)或動作名稱(例如複製)來搜尋對應的動作/組合鍵是什麼。"
+msgstr ""
+"輸入組合鍵(例如 Ctrl-C)或動作名稱(例如複製)來搜尋對應的動作/組合鍵是什麼。"
 
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, list)
 #: kshortcutsdialog.ui:23

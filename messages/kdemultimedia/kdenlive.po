@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-23 03:05+0100\n"
+"POT-Creation-Date: 2019-11-27 03:17+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -4260,7 +4260,7 @@ msgstr "速度"
 msgid "Phase"
 msgstr "相位"
 
-#: data/effects/sox_flanger.xml:28 src/monitor/monitormanager.cpp:434
+#: data/effects/sox_flanger.xml:28 src/monitor/monitormanager.cpp:447
 #, kde-format
 msgid "Interpolation"
 msgstr "插值"
@@ -5739,6 +5739,7 @@ msgstr ""
 
 #: src/audiomixer/mixermanager.cpp:166
 #: src/audiospectrum/audiographspectrum.cpp:105
+#: src/timeline2/view/qml/timeline.qml:751
 #, kde-format
 msgid "Master"
 msgstr ""
@@ -7953,7 +7954,7 @@ msgid "File %1 is not a Kdenlive project file."
 msgstr "檔案 %1 不是 Kdenlive 項目檔案。"
 
 #: src/dvdwizard/dvdwizardmenu.cpp:167 src/monitor/monitor.cpp:236
-#: src/monitor/monitormanager.cpp:351
+#: src/monitor/monitormanager.cpp:364
 #, kde-format
 msgid "Play"
 msgstr "播放"
@@ -10366,12 +10367,12 @@ msgstr ""
 msgid "Insert Zone to Project Bin"
 msgstr "插入區段到專案素材庫"
 
-#: src/monitor/monitor.cpp:218 src/monitor/monitormanager.cpp:465
+#: src/monitor/monitor.cpp:218 src/monitor/monitormanager.cpp:478
 #, kde-format
 msgid "Set Zone In"
 msgstr "設定區段起點"
 
-#: src/monitor/monitor.cpp:219 src/monitor/monitormanager.cpp:469
+#: src/monitor/monitor.cpp:219 src/monitor/monitormanager.cpp:482
 #, kde-format
 msgid "Set Zone Out"
 msgstr "設定區段終點"
@@ -10381,8 +10382,8 @@ msgstr "設定區段終點"
 msgid "Play..."
 msgstr "播放..."
 
-#: src/monitor/monitor.cpp:236 src/monitor/monitormanager.cpp:351
-#: src/monitor/monitormanager.cpp:357
+#: src/monitor/monitor.cpp:236 src/monitor/monitormanager.cpp:364
+#: src/monitor/monitormanager.cpp:370
 #, kde-format
 msgid "Pause"
 msgstr "暫停"
@@ -10473,164 +10474,164 @@ msgstr "儲存 DVD 項目"
 msgid "Export image using source resolution"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1728
+#: src/monitor/monitor.cpp:1734
 #, kde-format
 msgid "Cannot initialize Movit's GLSL manager, please disable Movit"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1770 src/monitor/monitor.cpp:1822
+#: src/monitor/monitor.cpp:1776 src/monitor/monitor.cpp:1828
 #, kde-format
 msgid ""
 "The alphagrad filter is required for that feature, please install frei0r and "
 "restart Kdenlive"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1790
+#: src/monitor/monitor.cpp:1796
 #, fuzzy, kde-format
 #| msgid "Clip has no markers"
 msgid "Clip has no effects"
 msgstr "素材沒有記號"
 
-#: src/monitor/monitor.cpp:1792
+#: src/monitor/monitor.cpp:1798
 #, fuzzy, kde-format
 #| msgid "Select a clip if you want to apply an effect"
 msgid "Select a clip in project bin to compare effect"
 msgstr "如果您想使用特效請選取一個素材"
 
-#: src/monitor/monitor.cpp:1829
+#: src/monitor/monitor.cpp:1835
 #, kde-format
 msgid ""
 "The cairoblend transition is required for that feature, please install "
 "frei0r and restart Kdenlive"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1875
+#: src/monitor/monitor.cpp:1881
 #, kde-format
 msgid "Enable edit mode in monitor to edit effect"
 msgstr ""
 
-#: src/monitor/monitormanager.cpp:361
+#: src/monitor/monitormanager.cpp:374
 #, kde-format
 msgid "Switch monitor fullscreen"
 msgstr "預覽視窗全螢幕"
 
-#: src/monitor/monitormanager.cpp:366
+#: src/monitor/monitormanager.cpp:379
 #, fuzzy, kde-format
 #| msgid "Zoom in"
 msgid "Zoom in monitor"
 msgstr "放大"
 
-#: src/monitor/monitormanager.cpp:371
+#: src/monitor/monitormanager.cpp:384
 #, fuzzy, kde-format
 msgid "Zoom out monitor"
 msgstr "靜音預覽"
 
-#: src/monitor/monitormanager.cpp:376
+#: src/monitor/monitormanager.cpp:389
 #, kde-format
 msgid "Rewind"
 msgstr "快退"
 
-#: src/monitor/monitormanager.cpp:380
+#: src/monitor/monitormanager.cpp:393
 #, kde-format
 msgid "Rewind 1 Frame"
 msgstr "後退 1 幀"
 
-#: src/monitor/monitormanager.cpp:384
+#: src/monitor/monitormanager.cpp:397
 #, kde-format
 msgid "Rewind 1 Second"
 msgstr "後退 1 秒"
 
-#: src/monitor/monitormanager.cpp:388
+#: src/monitor/monitormanager.cpp:401
 #, kde-format
 msgid "Forward"
 msgstr "快進"
 
-#: src/monitor/monitormanager.cpp:392
+#: src/monitor/monitormanager.cpp:405
 #, kde-format
 msgid "Go to Project Start"
 msgstr "跳轉到項目起點"
 
-#: src/monitor/monitormanager.cpp:396
+#: src/monitor/monitormanager.cpp:409
 #, kde-format
 msgid "Multitrack view"
 msgstr "多軌視圖"
 
-#: src/monitor/monitormanager.cpp:405
+#: src/monitor/monitormanager.cpp:418
 #, kde-format
 msgid "Go to Project End"
 msgstr "跳轉到項目末尾"
 
-#: src/monitor/monitormanager.cpp:409
+#: src/monitor/monitormanager.cpp:422
 #, kde-format
 msgid "Forward 1 Frame"
 msgstr "前進 1 幀"
 
-#: src/monitor/monitormanager.cpp:413
+#: src/monitor/monitormanager.cpp:426
 #, kde-format
 msgid "Forward 1 Second"
 msgstr "前進 1 秒"
 
-#: src/monitor/monitormanager.cpp:417
+#: src/monitor/monitormanager.cpp:430
 #, kde-format
 msgid "Deinterlacer"
 msgstr "去交錯"
 
-#: src/monitor/monitormanager.cpp:418
+#: src/monitor/monitormanager.cpp:431
 #, kde-format
 msgid "One Field (fast)"
 msgstr "一個區段(快速)"
 
-#: src/monitor/monitormanager.cpp:419
+#: src/monitor/monitormanager.cpp:432
 #, kde-format
 msgid "Linear Blend (fast)"
 msgstr "線性混合(快速)"
 
-#: src/monitor/monitormanager.cpp:420
+#: src/monitor/monitormanager.cpp:433
 #, kde-format
 msgid "YADIF - temporal only (good)"
 msgstr "YADIF-只有時間(不錯)"
 
-#: src/monitor/monitormanager.cpp:421
+#: src/monitor/monitormanager.cpp:434
 #, kde-format
 msgid "YADIF - temporal + spacial (best)"
 msgstr "YADIF-時間+空間(最好)"
 
-#: src/monitor/monitormanager.cpp:435
+#: src/monitor/monitormanager.cpp:448
 #, kde-format
 msgid "Nearest Neighbor (fast)"
 msgstr "最近鄰(快)"
 
-#: src/monitor/monitormanager.cpp:436
+#: src/monitor/monitormanager.cpp:449
 #, kde-format
 msgid "Bilinear (good)"
 msgstr "雙線性(不錯)"
 
-#: src/monitor/monitormanager.cpp:437
+#: src/monitor/monitormanager.cpp:450
 #, kde-format
 msgid "Bicubic (better)"
 msgstr "兩次立方(較好)"
 
-#: src/monitor/monitormanager.cpp:438
+#: src/monitor/monitormanager.cpp:451
 #, kde-format
 msgid "Hyper/Lanczos (best)"
 msgstr "Hyper/Lanczos演算(最好)"
 
-#: src/monitor/monitormanager.cpp:451
+#: src/monitor/monitormanager.cpp:464
 #, kde-format
 msgid "Go to Zone Start"
 msgstr "跳轉到區段起點"
 
-#: src/monitor/monitormanager.cpp:455
+#: src/monitor/monitormanager.cpp:468
 #, kde-format
 msgid "Mute monitor"
 msgstr "靜音預覽"
 
-#: src/monitor/monitormanager.cpp:455
+#: src/monitor/monitormanager.cpp:468
 #, fuzzy, kde-format
 msgid "Unmute monitor"
 msgstr "靜音預覽"
 
-#: src/monitor/monitormanager.cpp:461
+#: src/monitor/monitormanager.cpp:474
 #, kde-format
 msgid "Go to Zone End"
 msgstr "跳轉到區段尾端"
@@ -10702,14 +10703,14 @@ msgstr "刪除關鍵影格"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonZoomIn)
 #: src/monitor/view/EffectToolBar.qml:70 src/monitor/view/SceneToolBar.qml:63
-#: src/ui/bezierspline_ui.ui:186
+#: src/ui/bezierspline_ui.ui:179
 #, kde-format
 msgid "Zoom in"
 msgstr "放大"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonZoomOut)
 #: src/monitor/view/EffectToolBar.qml:75 src/monitor/view/SceneToolBar.qml:71
-#: src/ui/bezierspline_ui.ui:199
+#: src/ui/bezierspline_ui.ui:192
 #, kde-format
 msgid "Zoom out"
 msgstr "縮小"
@@ -12523,13 +12524,13 @@ msgstr "影格"
 msgid "No thumbnails"
 msgstr "察看縮略圖"
 
-#: src/timeline2/view/qml/timeline.qml:742
+#: src/timeline2/view/qml/timeline.qml:748
 #, fuzzy, kde-format
 #| msgid "Sox band audio effect"
 msgid "Show master effects"
 msgstr "Sox 頻段聲訊特效"
 
-#: src/timeline2/view/qml/timeline.qml:1230
+#: src/timeline2/view/qml/timeline.qml:1236
 #, fuzzy, kde-format
 #| msgid "Position"
 msgid ""
@@ -13451,7 +13452,7 @@ msgid "True FFT size: "
 msgstr "畫面大小："
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonDeletePoint)
-#: src/ui/bezierspline_ui.ui:65
+#: src/ui/bezierspline_ui.ui:88
 #, fuzzy, kde-format
 #| msgid "Delete current button"
 msgid "Delete current point"
@@ -13549,10 +13550,10 @@ msgstr "移除目前的按鈕"
 #. i18n: ectx: property (text), widget (QToolButton, button_download)
 #. i18n: ectx: property (text), widget (QToolButton, add_metadata)
 #. i18n: ectx: property (text), widget (QToolButton, delete_metadata)
-#: src/ui/bezierspline_ui.ui:68 src/ui/bezierspline_ui.ui:97
-#: src/ui/bezierspline_ui.ui:144 src/ui/bezierspline_ui.ui:157
-#: src/ui/bezierspline_ui.ui:176 src/ui/bezierspline_ui.ui:189
-#: src/ui/bezierspline_ui.ui:202 src/ui/bezierspline_ui.ui:215
+#: src/ui/bezierspline_ui.ui:91 src/ui/bezierspline_ui.ui:114
+#: src/ui/bezierspline_ui.ui:137 src/ui/bezierspline_ui.ui:150
+#: src/ui/bezierspline_ui.ui:169 src/ui/bezierspline_ui.ui:182
+#: src/ui/bezierspline_ui.ui:195 src/ui/bezierspline_ui.ui:208
 #: src/ui/clipproperties_ui.ui:490 src/ui/clipproperties_ui.ui:500
 #: src/ui/clipproperties_ui.ui:587 src/ui/clipproperties_ui.ui:597
 #: src/ui/clipproperties_ui.ui:607 src/ui/clipspeed_ui.ui:101
@@ -13603,7 +13604,7 @@ msgid "..."
 msgstr "..."
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonLinkHandles)
-#: src/ui/bezierspline_ui.ui:94
+#: src/ui/bezierspline_ui.ui:111
 #, fuzzy, kde-format
 msgid ""
 "Link the handles' position for current point.<br />Results in a natural "
@@ -13611,19 +13612,19 @@ msgid ""
 msgstr "連接把手位置"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonResetSpline)
-#: src/ui/bezierspline_ui.ui:141
+#: src/ui/bezierspline_ui.ui:134
 #, kde-format
 msgid "Reset the selected spline"
 msgstr "重置曲線"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonShowPixmap)
-#: src/ui/bezierspline_ui.ui:154
+#: src/ui/bezierspline_ui.ui:147
 #, kde-format
 msgid "Show background indicating changes caused by modifying the curve."
 msgstr "顯示漸層背景"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonGridChange)
-#: src/ui/bezierspline_ui.ui:173
+#: src/ui/bezierspline_ui.ui:166
 #, fuzzy, kde-format
 msgid ""
 "Increases the number of lines in the grid.<br />After 8 lines it will begin "
@@ -13631,7 +13632,7 @@ msgid ""
 msgstr "增加網格線(最多8條)"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonShowAllHandles)
-#: src/ui/bezierspline_ui.ui:212
+#: src/ui/bezierspline_ui.ui:205
 #, kde-format
 msgid "Show handles for all points or only for the selected one"
 msgstr "顯示曲線把手"

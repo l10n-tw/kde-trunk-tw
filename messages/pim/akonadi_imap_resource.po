@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadi_imap_resource\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-11 03:24+0100\n"
+"POT-Creation-Date: 2019-11-27 03:29+0100\n"
 "PO-Revision-Date: 2018-07-10 14:33+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -499,7 +499,7 @@ msgstr "伺服器資訊"
 msgid "Resource not synchronized yet."
 msgstr "資源尚未同步。"
 
-#: sessionpool.cpp:259 sessionpool.cpp:409
+#: sessionpool.cpp:264 sessionpool.cpp:414
 #, kde-format
 msgid ""
 "Could not connect to the IMAP-server %1.\n"
@@ -508,7 +508,7 @@ msgstr ""
 "無法連線到 IMAP 伺服器 %1。\n"
 "%2"
 
-#: sessionpool.cpp:263
+#: sessionpool.cpp:268
 #, kde-format
 msgid ""
 "Could not connect to the IMAP server.\n"
@@ -517,35 +517,35 @@ msgstr ""
 "無法連線到 IMAP 伺服器。\n"
 "%1"
 
-#: sessionpool.cpp:303
+#: sessionpool.cpp:308
 #, kde-format
 msgid "Could not create another extra connection to the IMAP-server %1."
 msgstr "無法建立額外的連線到 IMAP 伺服器 %1。"
 
-#: sessionpool.cpp:321 sessionpool.cpp:391 sessionpool.cpp:432
-#: sessionpool.cpp:501
+#: sessionpool.cpp:326 sessionpool.cpp:396 sessionpool.cpp:437
+#: sessionpool.cpp:506
 #, kde-format
 msgid "Disconnected from server during login."
 msgstr "在登入時從伺服器斷線。"
 
-#: sessionpool.cpp:334
+#: sessionpool.cpp:339
 #, kde-format
 msgid "Could not read the password: user rejected wallet access"
 msgstr "無法讀取密碼：使用者拒絕錢包存取"
 
-#: sessionpool.cpp:342
+#: sessionpool.cpp:347
 #, kde-format
 msgid "Empty password"
 msgstr "空白的密碼"
 
-#: sessionpool.cpp:354
+#: sessionpool.cpp:359
 #, kde-format
 msgid ""
 "You requested TLS/SSL to connect to %1, but your system does not seem to be "
 "set up for that."
 msgstr "您要求使用 TLS/SSL 連線到 %1，但是您的系統並未設定好。"
 
-#: sessionpool.cpp:415
+#: sessionpool.cpp:420
 #, kde-format
 msgid ""
 "Could not connect to the IMAP-server.\n"
@@ -554,7 +554,7 @@ msgstr ""
 "無法連線到 IMAP 伺服器。\n"
 "%1"
 
-#: sessionpool.cpp:440
+#: sessionpool.cpp:445
 #, kde-format
 msgid ""
 "Could not test the capabilities supported by the IMAP server %1.\n"
@@ -563,7 +563,7 @@ msgstr ""
 "無法測試 IMAP 伺服器 %1 支援的功能。\n"
 "%2"
 
-#: sessionpool.cpp:447
+#: sessionpool.cpp:452
 #, kde-format
 msgid ""
 "Could not test the capabilities supported by the IMAP server.\n"
@@ -572,7 +572,7 @@ msgstr ""
 "無法測試 IMAP 伺服器支援的功能。\n"
 "%1"
 
-#: sessionpool.cpp:466
+#: sessionpool.cpp:471
 #, kde-format
 msgid ""
 "Cannot use the IMAP server %1, some mandatory capabilities are missing: %2. "
@@ -581,7 +581,7 @@ msgstr ""
 "無法使用 IMAP 伺服器 %1，因為一些主要的功能遺失：%2。請要求您的系統管理員更新"
 "伺服器。"
 
-#: sessionpool.cpp:540
+#: sessionpool.cpp:545
 #, kde-format
 msgid "Disconnected during login."
 msgstr "在登入時斷線。"

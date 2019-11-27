@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-09 02:48+0100\n"
+"POT-Creation-Date: 2019-11-27 03:01+0100\n"
 "PO-Revision-Date: 2019-11-09 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -692,11 +692,15 @@ msgid "Comments and Reviews:"
 msgstr "留言及評論："
 
 #: qtquick/qml/EntryDetails.qml:178
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "A link which, when clicked, opens a new sub page with reviews (comments) "
+#| "for this entry"
+#| msgid "%1 Reviews"
 msgctxt ""
-"A link which, when clicked, opens a new sub page with reviews (comments) for "
-"this entry"
-msgid "%1 Reviews"
+"A link which, when clicked, opens a new sub page with comments (comments "
+"with or without ratings) for this entry"
+msgid "%1 Reviews and Comments"
 msgstr "%1 個評論"
 
 #: qtquick/qml/EntryDetails.qml:183
@@ -827,6 +831,31 @@ msgstr "%1<i>（作者）</i>"
 msgctxt "Title for the page containing a view of the comments for the entry"
 msgid "Comments and Reviews for %1"
 msgstr "%1 的留言及評論"
+
+#: qtquick/qml/private/EntryCommentsPage.qml:45
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "The first entry in the category selection list (also the default value)"
+#| msgid "Show All Categories"
+msgctxt "Title for the item which is checked when all comments should be shown"
+msgid "Show All Comments"
+msgstr "顯示所有分類"
+
+#: qtquick/qml/private/EntryCommentsPage.qml:51
+#, kde-format
+msgctxt ""
+"Title for the item which is checked when only comments which are reviews "
+"should be shown"
+msgid "Show Reviews Only"
+msgstr ""
+
+#: qtquick/qml/private/EntryCommentsPage.qml:57
+#, kde-format
+msgctxt ""
+"Title for the item which is checked when comments which are reviews, and "
+"their children should be shown"
+msgid "Show Reviews and Replies"
+msgstr ""
 
 #: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:180
 #: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:198

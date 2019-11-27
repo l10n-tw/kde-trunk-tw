@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konversation\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-31 02:41+0100\n"
+"POT-Creation-Date: 2019-11-27 02:49+0100\n"
 "PO-Revision-Date: 2019-11-03 14:10+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -1548,18 +1548,6 @@ msgstr "在暱稱旁顯示真實姓名(&S)"
 #, kde-format
 msgid "Open Watched Nicks tab at application startup"
 msgstr "在程式啟動時自動開啟被監視的暱稱清單"
-
-#. i18n: ectx: label, entry, group (Themes)
-#: src/config/konversation.kcfg:849
-#, kde-format
-msgid "Enable emoticons"
-msgstr "啟用表情"
-
-#. i18n: ectx: label, entry, group (Themes)
-#: src/config/konversation.kcfg:853
-#, kde-format
-msgid "Emoticons theme"
-msgstr "表情主題"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_Log)
 #: src/config/log_config.ui:24
@@ -4295,7 +4283,7 @@ msgstr "您現在的名稱是 %1。"
 msgid "%1 is now known as %2."
 msgstr "%1 現在的名稱是 %2。"
 
-#: src/irc/channel.cpp:1104 src/irc/channel.cpp:1132 src/viewer/ircview.cpp:829
+#: src/irc/channel.cpp:1104 src/irc/channel.cpp:1132 src/viewer/ircview.cpp:828
 #, kde-format
 msgctxt "Message type"
 msgid "Join"
@@ -4315,7 +4303,7 @@ msgstr "%1 (%2) 已加入此頻道。"
 
 #: src/irc/channel.cpp:1159 src/irc/channel.cpp:1161 src/irc/channel.cpp:1183
 #: src/irc/channel.cpp:1186 src/irc/query.cpp:464 src/irc/query.cpp:472
-#: src/viewer/ircview.cpp:834
+#: src/viewer/ircview.cpp:833
 #, kde-format
 msgctxt "Message type"
 msgid "Quit"
@@ -4333,7 +4321,7 @@ msgid "You (%1) have left this server (%2)."
 msgstr "您 (%1) 已經離開此伺服器（%2）。"
 
 #: src/irc/channel.cpp:1167 src/irc/channel.cpp:1169 src/irc/channel.cpp:1192
-#: src/irc/channel.cpp:1195 src/viewer/ircview.cpp:834
+#: src/irc/channel.cpp:1195 src/viewer/ircview.cpp:833
 #, kde-format
 msgctxt "Message type"
 msgid "Part"
@@ -5524,7 +5512,7 @@ msgid "You are not on %1."
 msgstr "您不在 %1 上。"
 
 #: src/irc/inputfilter.cpp:1633 src/irc/inputfilter.cpp:1642
-#: src/irc/inputfilter.cpp:1651 src/viewer/ircview.cpp:799
+#: src/irc/inputfilter.cpp:1651 src/viewer/ircview.cpp:798
 #, kde-format
 msgid "MOTD"
 msgstr "MOTD"
@@ -9537,12 +9525,12 @@ msgstr "大量貼上警告"
 msgid "Paste"
 msgstr "貼上"
 
-#: src/viewer/ircview.cpp:2206
+#: src/viewer/ircview.cpp:2203
 #, kde-format
 msgid "Open a query with %1"
 msgstr "開啟一個和 %1 的對話"
 
-#: src/viewer/ircview.cpp:2215 src/viewer/topiclabel.cpp:302
+#: src/viewer/ircview.cpp:2212 src/viewer/topiclabel.cpp:302
 #, kde-format
 msgid "Join the channel %1"
 msgstr "加入頻道 %1"
@@ -9870,3 +9858,9 @@ msgstr "頻道清單警告"
 #, kde-format
 msgid "Watched Nicks"
 msgstr "被監視的暱稱"
+
+#~ msgid "Enable emoticons"
+#~ msgstr "啟用表情"
+
+#~ msgid "Emoticons theme"
+#~ msgstr "表情主題"
