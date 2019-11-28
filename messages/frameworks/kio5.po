@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-23 02:50+0100\n"
+"POT-Creation-Date: 2019-11-28 02:52+0100\n"
 "PO-Revision-Date: 2019-11-26 21:18+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -1906,7 +1906,7 @@ msgstr ""
 msgid "The server was too busy responding to other requests to respond."
 msgstr "伺服器太忙碌回應其他請求，所以暫時未能回應您的請求。"
 
-#: core/job_error.cpp:957 core/slavebase.cpp:1521
+#: core/job_error.cpp:957 core/slavebase.cpp:1518
 #, kde-format
 msgid "Unknown Error"
 msgstr "不明的錯誤"
@@ -2261,137 +2261,137 @@ msgstr "不明的錯誤"
 msgid "Operation not supported"
 msgstr "動作不被支援"
 
-#: core/slave.cpp:477
+#: core/slave.cpp:485
 #, kde-format
 msgid "Can not create socket for launching io-slave for protocol '%1'."
 msgstr "無法建立 socket 給「%1」協定來開啟 io-slave 程式。"
 
-#: core/slave.cpp:486
+#: core/slave.cpp:494
 #, kde-format
 msgid "Unknown protocol '%1'."
 msgstr "不明的協定「%1」。"
 
-#: core/slave.cpp:496
+#: core/slave.cpp:504
 #, kde-format
 msgid "Can not find io-slave for protocol '%1'."
 msgstr "找不到「%1」協定的 io-slave 程式。"
 
-#: core/slave.cpp:524
+#: core/slave.cpp:532
 #, kde-format
 msgid "Can not find 'kioslave5' executable at '%1'"
 msgstr "在 %1 找不到 kioslave5 執行檔"
 
-#: core/slave.cpp:540
+#: core/slave.cpp:548
 #, kde-format
 msgid "Cannot talk to klauncher: %1"
 msgstr "無法與 klauncher 交談：%1"
 
-#: core/slave.cpp:547
+#: core/slave.cpp:555
 #, kde-format
 msgid "klauncher said: %1"
 msgstr "klauncher 說：%1"
 
-#: core/slavebase.cpp:864
+#: core/slavebase.cpp:861
 #, kde-format
 msgid "Opening connections is not supported with the protocol %1."
 msgstr "%1 通訊協定不支援開啟連線。"
 
-#: core/slavebase.cpp:866
+#: core/slavebase.cpp:863
 #, kde-format
 msgid "Closing connections is not supported with the protocol %1."
 msgstr "%1 通訊協定不支援關閉連線。"
 
-#: core/slavebase.cpp:868
+#: core/slavebase.cpp:865
 #, kde-format
 msgid "Accessing files is not supported with the protocol %1."
 msgstr "%1 通訊協定不支援存取檔案。"
 
-#: core/slavebase.cpp:870
+#: core/slavebase.cpp:867
 #, kde-format
 msgid "Writing to %1 is not supported."
 msgstr "不支援寫入 %1。"
 
-#: core/slavebase.cpp:872
+#: core/slavebase.cpp:869
 #, kde-format
 msgid "There are no special actions available for protocol %1."
 msgstr "%1 通訊協定沒有可用的特殊的動作。"
 
-#: core/slavebase.cpp:874
+#: core/slavebase.cpp:871
 #, kde-format
 msgid "Listing folders is not supported for protocol %1."
 msgstr "%1 通訊協定不支援列出資料夾內容。"
 
-#: core/slavebase.cpp:876
+#: core/slavebase.cpp:873
 #, kde-format
 msgid "Retrieving data from %1 is not supported."
 msgstr "不支援從 %1 取回資料。"
 
-#: core/slavebase.cpp:878
+#: core/slavebase.cpp:875
 #, kde-format
 msgid "Retrieving mime type information from %1 is not supported."
 msgstr "不支援從 %1 取回 mime 類型資訊。"
 
-#: core/slavebase.cpp:880
+#: core/slavebase.cpp:877
 #, kde-format
 msgid "Renaming or moving files within %1 is not supported."
 msgstr "不支援在 %1 裡重新命名或移動檔案。"
 
-#: core/slavebase.cpp:882
+#: core/slavebase.cpp:879
 #, kde-format
 msgid "Creating symlinks is not supported with protocol %1."
 msgstr "%1 通訊協定不支援建立符號連結。"
 
-#: core/slavebase.cpp:884
+#: core/slavebase.cpp:881
 #, kde-format
 msgid "Copying files within %1 is not supported."
 msgstr "不支援在 %1 裡複製檔案。"
 
-#: core/slavebase.cpp:886
+#: core/slavebase.cpp:883
 #, kde-format
 msgid "Deleting files from %1 is not supported."
 msgstr "不支援由 %1 刪除檔案。"
 
-#: core/slavebase.cpp:888
+#: core/slavebase.cpp:885
 #, kde-format
 msgid "Creating folders is not supported with protocol %1."
 msgstr "%1 通訊協定不支援建立資料夾。"
 
-#: core/slavebase.cpp:890
+#: core/slavebase.cpp:887
 #, kde-format
 msgid "Changing the attributes of files is not supported with protocol %1."
 msgstr "%1 通訊協定不支援變更檔案屬性。"
 
-#: core/slavebase.cpp:892
+#: core/slavebase.cpp:889
 #, kde-format
 msgid "Changing the ownership of files is not supported with protocol %1."
 msgstr "%1 通訊協定不支援變更檔案屬性。"
 
-#: core/slavebase.cpp:894
+#: core/slavebase.cpp:891
 #, kde-format
 msgid "Using sub-URLs with %1 is not supported."
 msgstr "%1 通訊協定不支援子 URL 的使用。"
 
-#: core/slavebase.cpp:896
+#: core/slavebase.cpp:893
 #, kde-format
 msgid "Multiple get is not supported with protocol %1."
 msgstr "%1 通訊協定不支援多重擷取。"
 
-#: core/slavebase.cpp:898
+#: core/slavebase.cpp:895
 #, kde-format
 msgid "Opening files is not supported with protocol %1."
 msgstr "%1 通訊協定不支援開啟檔案。"
 
-#: core/slavebase.cpp:900
+#: core/slavebase.cpp:897
 #, kde-format
 msgid "Protocol %1 does not support action %2."
 msgstr "通訊協定 %1 不支援動作 %2。"
 
-#: core/slavebase.cpp:1053
+#: core/slavebase.cpp:1050
 #, kde-format
 msgid "&Yes"
 msgstr "是(&Y)"
 
-#: core/slavebase.cpp:1054
+#: core/slavebase.cpp:1051
 #, kde-format
 msgid "&No"
 msgstr "否(&N)"
@@ -2759,21 +2759,21 @@ msgctxt "Sort ascending"
 msgid "Smallest First"
 msgstr "由小至大"
 
-#: filewidgets/kencodingfiledialog.cpp:87
+#: filewidgets/kencodingfiledialog.cpp:84
 #, kde-format
 msgid "Encoding:"
 msgstr "編碼："
 
-#: filewidgets/kencodingfiledialog.cpp:143
-#: filewidgets/kencodingfiledialog.cpp:162
-#: filewidgets/kencodingfiledialog.cpp:180
-#: filewidgets/kencodingfiledialog.cpp:199 widgets/kurlrequesterdialog.cpp:118
+#: filewidgets/kencodingfiledialog.cpp:141
+#: filewidgets/kencodingfiledialog.cpp:160
+#: filewidgets/kencodingfiledialog.cpp:178
+#: filewidgets/kencodingfiledialog.cpp:197 widgets/kurlrequesterdialog.cpp:118
 #, kde-format
 msgid "Open"
 msgstr "開啟"
 
-#: filewidgets/kencodingfiledialog.cpp:218
-#: filewidgets/kencodingfiledialog.cpp:241
+#: filewidgets/kencodingfiledialog.cpp:216
+#: filewidgets/kencodingfiledialog.cpp:239
 #, kde-format
 msgid "Save As"
 msgstr "另存新檔"
@@ -2955,120 +2955,120 @@ msgctxt "@item"
 msgid "Tags"
 msgstr "標籤"
 
-#: filewidgets/kfileplacesmodel.cpp:187
+#: filewidgets/kfileplacesmodel.cpp:185
 #, kde-format
 msgid "All tags"
 msgstr "所有標籤"
 
-#: filewidgets/kfileplacesmodel.cpp:284
+#: filewidgets/kfileplacesmodel.cpp:282
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr "家目錄"
 
-#: filewidgets/kfileplacesmodel.cpp:292
+#: filewidgets/kfileplacesmodel.cpp:290
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Desktop"
 msgstr "桌面"
 
-#: filewidgets/kfileplacesmodel.cpp:298 filewidgets/kfileplacesmodel.cpp:366
+#: filewidgets/kfileplacesmodel.cpp:296 filewidgets/kfileplacesmodel.cpp:364
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "文件"
 
-#: filewidgets/kfileplacesmodel.cpp:304
+#: filewidgets/kfileplacesmodel.cpp:302
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Downloads"
 msgstr "下載"
 
-#: filewidgets/kfileplacesmodel.cpp:309
+#: filewidgets/kfileplacesmodel.cpp:307
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "網路"
 
-#: filewidgets/kfileplacesmodel.cpp:313
+#: filewidgets/kfileplacesmodel.cpp:311
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "垃圾桶"
 
-#: filewidgets/kfileplacesmodel.cpp:335
+#: filewidgets/kfileplacesmodel.cpp:333
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Recent Files"
 msgstr "最近檔案"
 
-#: filewidgets/kfileplacesmodel.cpp:339
+#: filewidgets/kfileplacesmodel.cpp:337
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Recent Locations"
 msgstr "最近位置"
 
-#: filewidgets/kfileplacesmodel.cpp:360
+#: filewidgets/kfileplacesmodel.cpp:358
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Modified Today"
 msgstr "今天修改"
 
-#: filewidgets/kfileplacesmodel.cpp:363
+#: filewidgets/kfileplacesmodel.cpp:361
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Modified Yesterday"
 msgstr "昨天修改"
 
-#: filewidgets/kfileplacesmodel.cpp:369
+#: filewidgets/kfileplacesmodel.cpp:367
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr "影像"
 
-#: filewidgets/kfileplacesmodel.cpp:372
+#: filewidgets/kfileplacesmodel.cpp:370
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr "音訊"
 
-#: filewidgets/kfileplacesmodel.cpp:375
+#: filewidgets/kfileplacesmodel.cpp:373
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr "影片"
 
-#: filewidgets/kfileplacesmodel.cpp:1258
+#: filewidgets/kfileplacesmodel.cpp:1256
 #, kde-format
 msgid "&Release '%1'"
 msgstr "釋出 %1(&R)"
 
-#: filewidgets/kfileplacesmodel.cpp:1260
+#: filewidgets/kfileplacesmodel.cpp:1258
 #, kde-format
 msgid "&Safely Remove '%1'"
 msgstr "安全地移除 %1(&S)"
 
-#: filewidgets/kfileplacesmodel.cpp:1263
+#: filewidgets/kfileplacesmodel.cpp:1261
 #, kde-format
 msgid "&Unmount '%1'"
 msgstr "卸載 %1(&U)"
 
-#: filewidgets/kfileplacesmodel.cpp:1284
+#: filewidgets/kfileplacesmodel.cpp:1282
 #, kde-format
 msgid "&Eject '%1'"
 msgstr "跳出 %1(&E)"
 
-#: filewidgets/kfileplacesmodel.cpp:1318
+#: filewidgets/kfileplacesmodel.cpp:1316
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "裝置 %1 不是光碟機，無法跳出。"
 
-#: filewidgets/kfileplacesmodel.cpp:1354
+#: filewidgets/kfileplacesmodel.cpp:1352
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "存取 %1 時發生錯誤，系統訊息：%2"
 
-#: filewidgets/kfileplacesmodel.cpp:1358
+#: filewidgets/kfileplacesmodel.cpp:1356
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "存取 %1 時發生錯誤"
@@ -4783,19 +4783,19 @@ msgstr "重新讀取列表(&R)"
 msgid "Secure:"
 msgstr "安全性:"
 
-#: kcms/kio/kcookiespolicies.cpp:179
+#: kcms/kio/kcookiespolicies.cpp:176
 #, kde-format
 msgctxt "@title:window"
 msgid "Change Cookie Policy"
 msgstr "變更 Cookie 政策"
 
-#: kcms/kio/kcookiespolicies.cpp:198
+#: kcms/kio/kcookiespolicies.cpp:195
 #, kde-format
 msgctxt "@title:window"
 msgid "New Cookie Policy"
 msgstr "新增 Cookie 政策"
 
-#: kcms/kio/kcookiespolicies.cpp:230
+#: kcms/kio/kcookiespolicies.cpp:227
 #, kde-format
 msgid ""
 "<qt>A policy already exists for<center><b>%1</b></center>Do you want to "
@@ -4803,18 +4803,18 @@ msgid ""
 msgstr ""
 "<qt>關於<center><b>%1</b></center>的政策已經存在，您確定要覆蓋它嗎？</qt>"
 
-#: kcms/kio/kcookiespolicies.cpp:233
+#: kcms/kio/kcookiespolicies.cpp:230
 #, kde-format
 msgctxt "@title:window"
 msgid "Duplicate Policy"
 msgstr "重複的政策"
 
-#: kcms/kio/kcookiespolicies.cpp:234 kcms/kio/useragentdlg.cpp:201
+#: kcms/kio/kcookiespolicies.cpp:231 kcms/kio/useragentdlg.cpp:201
 #, kde-format
 msgid "Replace"
 msgstr "取代"
 
-#: kcms/kio/kcookiespolicies.cpp:399
+#: kcms/kio/kcookiespolicies.cpp:397
 #, kde-format
 msgid ""
 "Unable to communicate with the cookie handler service.\n"
@@ -4823,7 +4823,7 @@ msgstr ""
 "無法和 cookie handler 服務溝通。\n"
 "這個服務重新啟動，你所做的變更才能被執行。"
 
-#: kcms/kio/kcookiespolicies.cpp:441
+#: kcms/kio/kcookiespolicies.cpp:439
 #, kde-format
 msgid ""
 "<h1>Cookies</h1><p>Cookies contain information that KDE application using "
@@ -5750,22 +5750,22 @@ msgstr ""
 "<h1>網路設定</h1>您可以在這裡設定KDE程式使用網際網路及區域網路的行為。若您有"
 "逾時問題或使用數據機，您或許會想調整這些設定。"
 
-#: kcms/kio/smbrodlg.cpp:47
+#: kcms/kio/smbrodlg.cpp:44
 #, kde-format
 msgid "These settings apply to network browsing only."
 msgstr "這些設定只會套用到網路瀏覽。"
 
-#: kcms/kio/smbrodlg.cpp:51
+#: kcms/kio/smbrodlg.cpp:48
 #, kde-format
 msgid "Default user name:"
 msgstr "預設使用者名稱:"
 
-#: kcms/kio/smbrodlg.cpp:59
+#: kcms/kio/smbrodlg.cpp:56
 #, kde-format
 msgid "Default password:"
 msgstr "預設密碼:"
 
-#: kcms/kio/smbrodlg.cpp:176
+#: kcms/kio/smbrodlg.cpp:173
 #, kde-format
 msgid ""
 "<h1>Windows Shares</h1><p>Applications using the SMB kioslave (like "
@@ -6111,37 +6111,37 @@ msgstr ""
 "檔案 %1\n"
 "已經被變更。您是否要上傳改變？"
 
-#: kioexec/kioexecd.cpp:100 kioexec/main.cpp:241 kioexec/main.cpp:246
+#: kioexec/kioexecd.cpp:100 kioexec/main.cpp:238 kioexec/main.cpp:243
 #, kde-format
 msgid "File Changed"
 msgstr "檔案已變更"
 
-#: kioexec/kioexecd.cpp:100 kioexec/main.cpp:246
+#: kioexec/kioexecd.cpp:100 kioexec/main.cpp:243
 #, kde-format
 msgid "Upload"
 msgstr "上傳"
 
-#: kioexec/kioexecd.cpp:100 kioexec/main.cpp:246
+#: kioexec/kioexecd.cpp:100 kioexec/main.cpp:243
 #, kde-format
 msgid "Do Not Upload"
 msgstr "不要上傳"
 
-#: kioexec/main.cpp:56
+#: kioexec/main.cpp:53
 #, kde-format
 msgid "KIO Exec - Opens remote files, watches modifications, asks for upload"
 msgstr "KIO Exec - 開啟遠端檔案, 檢查變更, 並提示上傳。"
 
-#: kioexec/main.cpp:73
+#: kioexec/main.cpp:70
 #, kde-format
 msgid "Invalid URL: %1"
 msgstr "不正確的 URL：%1"
 
-#: kioexec/main.cpp:79
+#: kioexec/main.cpp:76
 #, kde-format
 msgid "File not found: %1"
 msgstr "找不到檔案：%1"
 
-#: kioexec/main.cpp:96
+#: kioexec/main.cpp:93
 #, kde-format
 msgid ""
 "The URL %1\n"
@@ -6150,7 +6150,7 @@ msgstr ""
 "URL %1\n"
 "是錯誤的"
 
-#: kioexec/main.cpp:98
+#: kioexec/main.cpp:95
 #, kde-format
 msgid ""
 "Remote URL %1\n"
@@ -6159,7 +6159,7 @@ msgstr ""
 "遠端 URL %1\n"
 "不能使用 --tempfiles 參數"
 
-#: kioexec/main.cpp:240
+#: kioexec/main.cpp:237
 #, kde-format
 msgid ""
 "The supposedly temporary file\n"
@@ -6172,12 +6172,12 @@ msgstr ""
 "已經被變更.\n"
 "您是否還是要刪除?"
 
-#: kioexec/main.cpp:241
+#: kioexec/main.cpp:238
 #, kde-format
 msgid "Do Not Delete"
 msgstr "不要刪除"
 
-#: kioexec/main.cpp:245
+#: kioexec/main.cpp:242
 #, kde-format
 msgid ""
 "The file\n"
@@ -6190,57 +6190,57 @@ msgstr ""
 "已經被變更.\n"
 "您是否要上傳改變?"
 
-#: kioexec/main.cpp:280
+#: kioexec/main.cpp:277
 #, kde-format
 msgid "KIOExec"
 msgstr "KIOExec"
 
-#: kioexec/main.cpp:282
+#: kioexec/main.cpp:279
 #, kde-format
 msgid "(c) 1998-2000,2003 The KFM/Konqueror Developers"
 msgstr "(c) 1998-2000,2003 KFM/Konqueror 開發團隊"
 
-#: kioexec/main.cpp:283
+#: kioexec/main.cpp:280
 #, kde-format
 msgid "David Faure"
 msgstr "David Faure"
 
-#: kioexec/main.cpp:284
+#: kioexec/main.cpp:281
 #, kde-format
 msgid "Stephan Kulow"
 msgstr "Stephan Kulow"
 
-#: kioexec/main.cpp:285
+#: kioexec/main.cpp:282
 #, kde-format
 msgid "Bernhard Rosenkraenzer"
 msgstr "Bernhard Rosenkraenzer"
 
-#: kioexec/main.cpp:286
+#: kioexec/main.cpp:283
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: kioexec/main.cpp:287
+#: kioexec/main.cpp:284
 #, kde-format
 msgid "Oswald Buddenhagen"
 msgstr "Oswald Buddenhagen"
 
-#: kioexec/main.cpp:292
+#: kioexec/main.cpp:289
 #, kde-format
 msgid "Treat URLs as local files and delete them afterwards"
 msgstr "將 URL 視為本地端檔案，並稍後刪除它們"
 
-#: kioexec/main.cpp:293
+#: kioexec/main.cpp:290
 #, kde-format
 msgid "Suggested file name for the downloaded file"
 msgstr "下載檔案的建議檔名"
 
-#: kioexec/main.cpp:294
+#: kioexec/main.cpp:291
 #, kde-format
 msgid "Command to execute"
 msgstr "要執行的指令."
 
-#: kioexec/main.cpp:295
+#: kioexec/main.cpp:292
 #, kde-format
 msgid "URL(s) or local file(s) used for 'command'"
 msgstr "給 '命令' 用的 URL 或本地端檔案."
