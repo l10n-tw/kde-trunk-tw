@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-28 03:09+0100\n"
+"POT-Creation-Date: 2019-11-29 03:13+0100\n"
 "PO-Revision-Date: 2017-03-12 20:41+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -907,12 +907,12 @@ msgstr ""
 "無法開啟 %1 - 不支援的影像格式。\n"
 "此檔案可能已損毀。"
 
-#: document/kpDocument_Save.cpp:84
+#: document/kpDocument_Save.cpp:83
 #, kde-format
 msgid "Could not save image - insufficient information."
 msgstr "無法儲存影像 - 資訊不足。"
 
-#: document/kpDocument_Save.cpp:85
+#: document/kpDocument_Save.cpp:84
 #, kde-format
 msgid ""
 "URL: %1\n"
@@ -921,18 +921,18 @@ msgstr ""
 "網址：%1\n"
 "MIME 型態：%2"
 
-#: document/kpDocument_Save.cpp:89
+#: document/kpDocument_Save.cpp:88
 #, kde-format
 msgid "<empty>"
 msgstr "<空>"
 
-#: document/kpDocument_Save.cpp:91
+#: document/kpDocument_Save.cpp:90
 #, kde-format
 msgctxt "@title:window"
 msgid "Internal Error"
 msgstr "內部錯誤"
 
-#: document/kpDocument_Save.cpp:127
+#: document/kpDocument_Save.cpp:126
 #, kde-format
 msgid ""
 "<qt><p>The <b>%1</b> format may not be able to preserve all of the image's "
@@ -942,13 +942,13 @@ msgstr ""
 "<qt><p>格式 <b>%1</b> 可能無法保留影像中所有的顏色資訊。</p> <p>您確定要用這"
 "個格式儲存嗎？</p></qt>"
 
-#: document/kpDocument_Save.cpp:134
+#: document/kpDocument_Save.cpp:133
 #, kde-format
 msgctxt "@title:window"
 msgid "Lossy File Format"
 msgstr "檔案格式會造成資料流失"
 
-#: document/kpDocument_Save.cpp:143
+#: document/kpDocument_Save.cpp:142
 #, kde-format
 msgid ""
 "<qt><p>Saving the image at the low color depth of %1-bit may result in the "
@@ -958,23 +958,23 @@ msgstr ""
 "<qt><p>將影像儲存在較低位元深度（%1 位元）會導至顏色資訊流失。透明度資料也會"
 "被移除。</p> <p>您確定要以此位元深度儲存嗎？</p></qt>"
 
-#: document/kpDocument_Save.cpp:153
+#: document/kpDocument_Save.cpp:152
 #, kde-format
 msgctxt "@title:window"
 msgid "Low Color Depth"
 msgstr "位元深度過低"
 
-#: document/kpDocument_Save.cpp:294
+#: document/kpDocument_Save.cpp:286
 #, kde-format
 msgid "Could not save image - unable to create temporary file."
 msgstr "無法儲存影像 - 無法建立暫存檔。"
 
-#: document/kpDocument_Save.cpp:303
+#: document/kpDocument_Save.cpp:295
 #, kde-format
 msgid "Could not save as \"%1\"."
 msgstr "無法儲存為 %1。"
 
-#: document/kpDocument_Save.cpp:339
+#: document/kpDocument_Save.cpp:331
 #, kde-format
 msgid ""
 "A document called \"%1\" already exists.\n"
@@ -983,7 +983,7 @@ msgstr ""
 "文件 %1 已存在。\n"
 "您要覆寫它嗎？"
 
-#: document/kpDocument_Save.cpp:480
+#: document/kpDocument_Save.cpp:472
 #, kde-format
 msgid "Could not save image - failed to upload."
 msgstr "無法儲存影像 - 上傳失敗。"

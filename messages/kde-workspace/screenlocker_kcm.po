@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-14 03:33+0100\n"
+"POT-Creation-Date: 2019-11-29 03:36+0100\n"
 "PO-Revision-Date: 2019-10-11 19:06+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -33,16 +33,6 @@ msgctxt "Spinbox suffix"
 msgid " second"
 msgid_plural " seconds"
 msgstr[0] " 秒"
-
-#: kcm.cpp:132
-#, kde-format
-msgid "Error"
-msgstr "錯誤"
-
-#: kcm.cpp:132
-#, kde-format
-msgid "Failed to successfully test the screen locker."
-msgstr "測試螢幕鎖定程式失敗。"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_1)
 #: kcm.ui:19
@@ -109,6 +99,12 @@ msgstr "個人化"
 #, kde-format
 msgid "Wallpaper &type:"
 msgstr "桌布類型(&T)："
+
+#~ msgid "Error"
+#~ msgstr "錯誤"
+
+#~ msgid "Failed to successfully test the screen locker."
+#~ msgstr "測試螢幕鎖定程式失敗。"
 
 #~ msgid "Lock Session"
 #~ msgstr "鎖定工作階段"

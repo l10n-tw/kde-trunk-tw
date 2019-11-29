@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kup\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-20 03:23+0100\n"
+"POT-Creation-Date: 2019-11-29 03:28+0100\n"
 "PO-Revision-Date: 2019-11-22 01:49+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -53,7 +53,7 @@ msgstr "備份目的地無法被初始化。參見記錄檔以取得更多詳細
 msgid "Checking backup integrity"
 msgstr "正在校驗備份完整性"
 
-#: daemon/bupjob.cpp:107 daemon/bupverificationjob.cpp:71
+#: daemon/bupjob.cpp:110 daemon/bupverificationjob.cpp:74
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
@@ -63,7 +63,7 @@ msgstr ""
 "備份完整性校驗失敗。您的備份可能已損毀！參見記錄檔以取得更多詳細資訊。您想要"
 "嘗試修復備份檔案嗎？"
 
-#: daemon/bupjob.cpp:111
+#: daemon/bupjob.cpp:114
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
@@ -71,34 +71,34 @@ msgid ""
 "for more details."
 msgstr "備份完整性校驗失敗。您的備份可能已損毀！參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/bupjob.cpp:134 daemon/rsyncjob.cpp:57
+#: daemon/bupjob.cpp:137 daemon/rsyncjob.cpp:65
 #, kde-format
 msgid "Checking what to copy"
 msgstr "勾選哪些要複製"
 
-#: daemon/bupjob.cpp:142
+#: daemon/bupjob.cpp:148
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid "Failed to analyze files. See log file for more details."
 msgstr "分析檔案失敗。參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/bupjob.cpp:163 daemon/bupjob.cpp:260 daemon/rsyncjob.cpp:166
+#: daemon/bupjob.cpp:169 daemon/bupjob.cpp:272 daemon/rsyncjob.cpp:181
 #, kde-format
 msgid "Saving backup"
 msgstr "正在儲存備份"
 
-#: daemon/bupjob.cpp:172 daemon/rsyncjob.cpp:110
+#: daemon/bupjob.cpp:181 daemon/rsyncjob.cpp:121
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid "Failed to save backup. See log file for more details."
 msgstr "儲存備份失敗。參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/bupjob.cpp:195
+#: daemon/bupjob.cpp:204
 #, kde-format
 msgid "Generating recovery information"
 msgstr "正在生成復原資訊"
 
-#: daemon/bupjob.cpp:204
+#: daemon/bupjob.cpp:216
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
@@ -106,13 +106,13 @@ msgid ""
 "details."
 msgstr "產生備份的復原資訊失敗。參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/bupjob.cpp:261 daemon/rsyncjob.cpp:167
+#: daemon/bupjob.cpp:273 daemon/rsyncjob.cpp:182
 #, kde-format
 msgctxt "Label for file currently being copied"
 msgid "File"
 msgstr "檔案"
 
-#: daemon/buprepairjob.cpp:75
+#: daemon/buprepairjob.cpp:78
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
@@ -120,13 +120,13 @@ msgid ""
 "details."
 msgstr "備份修復失敗。您的備份可能已損毀！參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/buprepairjob.cpp:79
+#: daemon/buprepairjob.cpp:82
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid "Success! Backup repair worked. See log file for more details."
 msgstr "成功！備份修復完成。參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/buprepairjob.cpp:83
+#: daemon/buprepairjob.cpp:86
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
@@ -134,7 +134,7 @@ msgid ""
 "file for more details."
 msgstr "不需要修復備份。您的備份並無損毀。參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/buprepairjob.cpp:88
+#: daemon/buprepairjob.cpp:91
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
@@ -143,7 +143,7 @@ msgid ""
 msgstr ""
 "備份修復失敗。您的備份可能仍處於損毀狀態！參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/bupverificationjob.cpp:74 daemon/bupverificationjob.cpp:91
+#: daemon/bupverificationjob.cpp:77 daemon/bupverificationjob.cpp:94
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
@@ -151,13 +151,13 @@ msgid ""
 "more details."
 msgstr "備份完整性校驗失敗。您的備份已損毀！參見記錄檔以取得更多詳細資訊。"
 
-#: daemon/bupverificationjob.cpp:80
+#: daemon/bupverificationjob.cpp:83
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid "Backup integrity test was successful. Your backups are fine."
 msgstr "備份完整性測試成功。您的備份狀態良好。"
 
-#: daemon/bupverificationjob.cpp:87
+#: daemon/bupverificationjob.cpp:90
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid ""
@@ -1305,36 +1305,36 @@ msgctxt ""
 msgid "Backup plan %1"
 msgstr "備份計畫 %1"
 
-#: settings/backupplan.cpp:70
+#: settings/backupplan.cpp:71
 #, kde-format
 msgid "Backups"
 msgstr "備份"
 
-#: settings/backupplan.cpp:102
+#: settings/backupplan.cpp:103
 #, kde-format
 msgctxt "default description of newly duplicated backup plan"
 msgid "%1 (copy)"
 msgstr "%1 (副本)"
 
-#: settings/backupplan.cpp:213
+#: settings/backupplan.cpp:214
 #, kde-format
 msgctxt "%1 is fancy formatted date"
 msgid "Last saved: %1"
 msgstr "最後儲存：%1"
 
-#: settings/backupplan.cpp:218
+#: settings/backupplan.cpp:219
 #, kde-format
 msgctxt "%1 is storage size of archive"
 msgid "Size: %1"
 msgstr "大小：%1"
 
-#: settings/backupplan.cpp:223
+#: settings/backupplan.cpp:224
 #, kde-format
 msgctxt "%1 is free storage space"
 msgid "Free space: %1"
 msgstr "剩餘空間：%1"
 
-#: settings/backupplan.cpp:227
+#: settings/backupplan.cpp:228
 #, kde-kuit-format
 msgctxt "@label"
 msgid "This backup plan has never been run."
