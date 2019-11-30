@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kipiplugins\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-05-20 03:07+0200\n"
-"PO-Revision-Date: 2019-07-14 16:17+0800\n"
+"PO-Revision-Date: 2019-11-30 18:05+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.04.3\n"
+"X-Generator: Lokalize 19.11.80\n"
 
 #: libkipiplugins/dialogs/kpbatchprogressdialog.cpp:113
 #, kde-format
@@ -37,7 +37,7 @@ msgstr "複製到剪貼簿"
 #: libkipiplugins/dialogs/kptooldialog.cpp:210
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "關閉"
 
 #: libkipiplugins/dialogs/kpimagedialog.cpp:149
 #, kde-format
@@ -106,105 +106,105 @@ msgstr "選擇多張影像"
 #: libkipiplugins/dialogs/kplogindialog.cpp:76
 #, kde-format
 msgid "Login:"
-msgstr ""
+msgstr "帳戶："
 
 #: libkipiplugins/dialogs/kplogindialog.cpp:79
 #, kde-format
 msgid "Password:"
-msgstr ""
+msgstr "密碼："
 
 #: libkipiplugins/dialogs/kplogindialog.cpp:90
 #, kde-format
 msgid "&Login"
-msgstr ""
+msgstr "登入(&L)"
 
 #: libkipiplugins/dialogs/kplogindialog.cpp:93
 #, kde-format
 msgid "&Skip"
-msgstr ""
+msgstr "跳過(&S)"
 
 #: libkipiplugins/dialogs/kplogindialog.cpp:153
 #, kde-format
 msgctxt "@title:window"
 msgid "Error"
-msgstr ""
+msgstr "錯誤"
 
 #: libkipiplugins/dialogs/kplogindialog.cpp:154
 #, kde-format
 msgid "Password cannot be empty."
-msgstr ""
+msgstr "密碼不得空白。"
 
 #: libkipiplugins/dialogs/kpnewalbumdialog.cpp:57
 #: libkipiplugins/widgets/kpsettingswidget.cpp:72
 #, kde-format
 msgid "Album"
-msgstr ""
+msgstr "相簿"
 
 #: libkipiplugins/dialogs/kpnewalbumdialog.cpp:60
 #, kde-format
 msgid "Title: "
-msgstr ""
+msgstr "標題："
 
 #: libkipiplugins/dialogs/kpnewalbumdialog.cpp:61
 #, kde-format
 msgid "Time Stamp: "
-msgstr ""
+msgstr "時間戳："
 
 #: libkipiplugins/dialogs/kpnewalbumdialog.cpp:62
 #, kde-format
 msgid "Description: "
-msgstr ""
+msgstr "描述："
 
 #: libkipiplugins/dialogs/kpnewalbumdialog.cpp:63
 #, kde-format
 msgid "Location: "
-msgstr ""
+msgstr "位置："
 
 #: libkipiplugins/dialogs/kpnewalbumdialog.cpp:116
 #, kde-format
 msgid "These are basic settings for the new %1 album."
-msgstr ""
+msgstr "此為新 %1 相簿的基本設定。"
 
 #: libkipiplugins/dialogs/kpnewalbumdialog.cpp:118
 #, kde-format
 msgid "Title of the album that will be created (required)."
-msgstr ""
+msgstr "將會建立的相簿標題（必填）。"
 
 #: libkipiplugins/dialogs/kpnewalbumdialog.cpp:121
 #, kde-format
 msgid "Date and Time of the album that will be created (optional)."
-msgstr ""
+msgstr "將會建立的相簿日期及時間（選填）。"
 
 #: libkipiplugins/dialogs/kpnewalbumdialog.cpp:123
 #, kde-format
 msgid "Description of the album that will be created (optional)."
-msgstr ""
+msgstr "將會建立的相簿描述（選填）。"
 
 #: libkipiplugins/dialogs/kpnewalbumdialog.cpp:125
 #, kde-format
 msgid "Location of the album that will be created (optional)."
-msgstr ""
+msgstr "將會建立的相簿位置（選填）。"
 
 #: libkipiplugins/dialogs/kptooldialog.cpp:167
 #, kde-format
 msgctxt "@action:button"
 msgid "&Start"
-msgstr ""
+msgstr "開始(&S)"
 
 #: libkipiplugins/dialogs/kptooldialog.cpp:212
 #, kde-format
 msgid "Close window"
-msgstr ""
+msgstr "關閉視窗"
 
 #: libkipiplugins/dialogs/kptooldialog.cpp:217
 #, kde-format
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: libkipiplugins/dialogs/kptooldialog.cpp:219
 #, kde-format
 msgid "Cancel current operation"
-msgstr ""
+msgstr "取消目前動作"
 
 #: libkipiplugins/tools/kpaboutdata.cpp:79
 #, kde-format
@@ -214,7 +214,7 @@ msgstr "手冊"
 #: libkipiplugins/tools/kpaboutdata.cpp:84
 #, kde-format
 msgid "About..."
-msgstr ""
+msgstr "關於…"
 
 #: libkipiplugins/tools/kpaboutdata.cpp:120
 #, kde-format
@@ -224,7 +224,7 @@ msgstr "版本：%1"
 #: libkipiplugins/tools/kpaboutdata.cpp:133
 #, kde-format
 msgid "About %1"
-msgstr ""
+msgstr "關於 %1"
 
 #: libkipiplugins/tools/kpaboutdata.h:54
 #, kde-format
@@ -234,7 +234,7 @@ msgstr "版權所有 2003-2016, KDE 開發者團隊"
 #: libkipiplugins/tools/kputil.cpp:298
 #, kde-format
 msgid "Browse..."
-msgstr ""
+msgstr "瀏覽…"
 
 #: libkipiplugins/widgets/kpimageslist.cpp:292
 #, kde-format
@@ -320,7 +320,7 @@ msgstr "選擇要載入的影像檔清單"
 #: libkipiplugins/widgets/kpimageslist.cpp:1041
 #, kde-format
 msgid "All Files (*)"
-msgstr ""
+msgstr "所有檔案 (*)"
 
 #: libkipiplugins/widgets/kpimageslist.cpp:1039
 #, kde-format
@@ -370,43 +370,43 @@ msgstr "開啟重新命名對話框"
 #: libkipiplugins/widgets/kpsettingswidget.cpp:68
 #, kde-format
 msgid "Account"
-msgstr ""
+msgstr "帳戶"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:77
 #, kde-format
 msgid "Max Dimension"
-msgstr ""
+msgstr "最大尺寸"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:80
 #, kde-format
 msgid "Destination"
-msgstr ""
+msgstr "目的地"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:83
 #, kde-format
 msgid "Options"
-msgstr ""
+msgstr "選項"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:148
 #, kde-format
 msgid "This is the list of images to upload to your %1 account."
-msgstr ""
+msgstr "這是要上傳至您 %1 帳戶的圖片清單。"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:156
 #, kde-format
 msgid "This is a clickable link to open %1 in a browser."
-msgstr ""
+msgstr "這是個點一下能在瀏覽器開啟 %1 的連結。"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:162
 #, kde-format
 msgid "This is the %1 account that is currently logged in."
-msgstr ""
+msgstr "這是目前登入的 %1 帳戶。"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:164
 #, kde-format
 msgctxt "account settings"
 msgid "Name:"
-msgstr ""
+msgstr "名稱："
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:165
 #, kde-format
@@ -416,7 +416,7 @@ msgstr "變更帳號"
 #: libkipiplugins/widgets/kpsettingswidget.cpp:167
 #, kde-format
 msgid "Change %1 account for transfer"
-msgstr ""
+msgstr "變更要傳輸的 %1 帳戶"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:177
 #, kde-format
@@ -428,92 +428,92 @@ msgstr ""
 #: libkipiplugins/widgets/kpsettingswidget.cpp:179
 #, kde-format
 msgid "Album:"
-msgstr ""
+msgstr "相簿："
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:183
 #, kde-format
 msgid "New Album"
-msgstr ""
+msgstr "新相簿"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:185
 #, kde-format
 msgid "Create new %1 folder"
-msgstr ""
+msgstr "建立新 %1 資料夾"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:187
 #, kde-format
 msgctxt "album list"
 msgid "Reload"
-msgstr ""
+msgstr "重新載入"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:189
 #, kde-format
 msgid "Reload album list"
-msgstr ""
+msgstr "重新載入相簿清單"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:198
 #, kde-format
 msgid ""
 "This is the maximum dimension of the images. Images larger than this will be "
 "scaled down."
-msgstr ""
+msgstr "這是圖片的最大尺寸。會縮小比指定尺寸更大的圖片。"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:199
 #, kde-format
 msgid "Original Size"
-msgstr ""
+msgstr "原始大小"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:200
 #, kde-format
 msgid "1600 px"
-msgstr ""
+msgstr "1600 px"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:201
 #, kde-format
 msgid "1440 px"
-msgstr ""
+msgstr "1440 px"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:202
 #, kde-format
 msgid "1280 px"
-msgstr ""
+msgstr "1280 px"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:203
 #, kde-format
 msgid "1152 px"
-msgstr ""
+msgstr "1152 px"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:204
 #, kde-format
 msgid "1024 px"
-msgstr ""
+msgstr "1024 px"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:210
 #, kde-format
 msgid "This is the location where %1 images will be downloaded."
-msgstr ""
+msgstr "這是要下載 %1 張圖片的位置。"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:215
 #, kde-format
 msgid "These are the options that would be applied to photos before upload."
-msgstr ""
+msgstr "這是會在上傳前套用到圖片的選項。"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:217
 #, kde-format
 msgid "Upload original image file"
-msgstr ""
+msgstr "上傳原始圖片檔"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:221
 #, kde-format
 msgid "Resize photos before uploading"
-msgstr ""
+msgstr "上傳前縮放圖片"
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:231
 #, kde-format
 msgid "Maximum Dimension:"
-msgstr ""
+msgstr "最大尺寸："
 
 #: libkipiplugins/widgets/kpsettingswidget.cpp:239
 #, kde-format
 msgid "JPEG Quality:"
-msgstr ""
+msgstr "JPEG 品質："

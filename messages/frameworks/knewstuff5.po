@@ -18,14 +18,14 @@ msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-11-30 03:00+0100\n"
-"PO-Revision-Date: 2019-11-09 19:46+0800\n"
+"PO-Revision-Date: 2019-11-30 17:48+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.08.2\n"
+"X-Generator: Lokalize 19.11.80\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: attica/atticaprovider.cpp:169
@@ -692,7 +692,7 @@ msgid "Comments and Reviews:"
 msgstr "留言及評論："
 
 #: qtquick/qml/EntryDetails.qml:178
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt ""
 #| "A link which, when clicked, opens a new sub page with reviews (comments) "
 #| "for this entry"
@@ -701,7 +701,7 @@ msgctxt ""
 "A link which, when clicked, opens a new sub page with comments (comments "
 "with or without ratings) for this entry"
 msgid "%1 Reviews and Comments"
-msgstr "%1 個評論"
+msgstr "%1 則評論及留言"
 
 #: qtquick/qml/EntryDetails.qml:183
 #, kde-format
@@ -714,7 +714,7 @@ msgid "Homepage:"
 msgstr "首頁："
 
 #: qtquick/qml/EntryDetails.qml:188
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt ""
 #| "A link which, when clicked, opens the website associated with the entry "
 #| "(this could be either one specific to the project, the author's homepage, "
@@ -725,7 +725,7 @@ msgctxt ""
 "(this could be either one specific to the project, the author's homepage, or "
 "any other website they have chosen for the purpose)"
 msgid "Open the homepage for %1"
-msgstr "開啟 %2 首頁"
+msgstr "開啟 %1 首頁"
 
 #: qtquick/qml/EntryDetails.qml:192
 #, kde-format
@@ -838,13 +838,13 @@ msgid "Comments and Reviews for %1"
 msgstr "%1 的留言及評論"
 
 #: qtquick/qml/private/EntryCommentsPage.qml:45
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt ""
 #| "The first entry in the category selection list (also the default value)"
 #| msgid "Show All Categories"
 msgctxt "Title for the item which is checked when all comments should be shown"
 msgid "Show All Comments"
-msgstr "顯示所有分類"
+msgstr "顯示所有評論"
 
 #: qtquick/qml/private/EntryCommentsPage.qml:51
 #, kde-format
@@ -852,7 +852,7 @@ msgctxt ""
 "Title for the item which is checked when only comments which are reviews "
 "should be shown"
 msgid "Show Reviews Only"
-msgstr ""
+msgstr "只顯示評論"
 
 #: qtquick/qml/private/EntryCommentsPage.qml:57
 #, kde-format
@@ -860,7 +860,7 @@ msgctxt ""
 "Title for the item which is checked when comments which are reviews, and "
 "their children should be shown"
 msgid "Show Reviews and Replies"
-msgstr ""
+msgstr "顯示評論及回覆"
 
 #: qtquick/qml/private/entrygriddelegates/BigPreviewDelegate.qml:180
 #: qtquick/qml/private/entrygriddelegates/TileDelegate.qml:198
@@ -927,8 +927,7 @@ msgctxt ""
 msgid ""
 "You are not authorized to Get Hot New Stuff. If you think this is in error, "
 "please contact the person in charge of your permissions."
-msgstr ""
-"您未授權使用「取得新熱門項目」。如果你認為這是錯誤，請聯絡負責您權限的人。"
+msgstr "您未授權使用「取得新熱門項目」。如果你認為這是錯誤，請聯絡負責您權限的人。"
 
 #: qtquick/quickitemsmodel.cpp:428
 #, kde-format

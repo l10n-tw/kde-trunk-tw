@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-11-27 03:43+0100\n"
-"PO-Revision-Date: 2019-10-11 19:04+0800\n"
+"PO-Revision-Date: 2019-11-30 17:50+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.08.2\n"
+"X-Generator: Lokalize 19.11.80\n"
 
 #: declarative/networkstatus.cpp:120
 #, kde-format
@@ -457,7 +457,7 @@ msgid "Alternative Subject Matches"
 msgstr "替代主題比對"
 
 #: editor/settings/security802-1x.cpp:528
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<qt>This entry must be one of:<ul><li>DNS: &lt;name or ip address&gt;</"
 #| "li><li>EMAIL: &lt;email&gt;</li><li>URI: &lt;uri, e.g. http://www.kde."
@@ -468,7 +468,7 @@ msgid ""
 "org&gt;</li></ul></qt>"
 msgstr ""
 "<qt>此項目必須為以下選項之一： <ul><li>DNS：&lt;名稱或 IP 位址&gt;</li> "
-"<li>EMAIL：&lt;電子郵件地址&gt;</li> <li>URI：&lt;網址，如 http://www.kde."
+"<li>EMAIL：&lt;電子郵件地址&gt;</li> <li>URI：&lt;網址，如 https://www.kde."
 "org&gt;</li></ul></qt>"
 
 #: editor/settings/security802-1x.cpp:550
@@ -949,8 +949,7 @@ msgstr "編輯此連線的進階存取權限"
 msgid ""
 "Fine-grained permissions editor for this connection. It lets you choose "
 "which users can activate/modify/delete this connection."
-msgstr ""
-"此連線的權限微調編輯器。它可以讓您選擇可以啟用/變更/刪除此連線的使用者。"
+msgstr "此連線的權限微調編輯器。它可以讓您選擇可以啟用/變更/刪除此連線的使用者。"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonPermissions)
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
@@ -1119,8 +1118,7 @@ msgstr "名稱伺服器："
 msgid ""
 "Use this field to specify the IP address(es) of one or more DNS servers. Use "
 "',' to separate entries."
-msgstr ""
-"使用此欄位指定一個以上的 DNS 伺服器的 IP 位址。用逗號 ',' 分隔多個位址。"
+msgstr "使用此欄位指定一個以上的 DNS 伺服器的 IP 位址。用逗號 ',' 分隔多個位址。"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, dnsMorePushButton)
 #: editor/settings/ui/ipv4.ui:125
@@ -1188,8 +1186,7 @@ msgid ""
 "IP addresses identify your computer on the network. Click the \"Add\" button "
 "to add\n"
 "an IP address"
-msgstr ""
-"IP 位址是讓您的電腦可以在網路上被識別。點擊「新增」按鍵來新增 IP 位址。"
+msgstr "IP 位址是讓您的電腦可以在網路上被識別。點擊「新增」按鍵來新增 IP 位址。"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ipv4RequiredCB)
 #: editor/settings/ui/ipv4.ui:282
@@ -1587,20 +1584,20 @@ msgstr "動態 WEP（802.1x）"
 #: editor/settings/ui/wifisecurity.ui:53
 #, kde-format
 msgid "WPA/WPA2 Personal"
-msgstr "WPA/WPA2 個人"
+msgstr "WPA/WPA2 Personal"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
 #: editor/settings/ui/wifisecurity.ui:58
 #, kde-format
 msgid "WPA/WPA2 Enterprise"
-msgstr "WPA/WPA2 企業"
+msgstr "WPA/WPA2 Enterprise"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
 #: editor/settings/ui/wifisecurity.ui:63
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "WPA/WPA2 Personal"
 msgid "WPA3 Personal"
-msgstr "WPA/WPA2 個人"
+msgstr "WPA3 Personal"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: editor/settings/ui/wifisecurity.ui:71
