@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-29 03:25+0100\n"
+"POT-Creation-Date: 2019-11-30 03:27+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -6198,7 +6198,7 @@ msgctxt ""
 msgid "When &trying to find unread messages:"
 msgstr "尋找未讀信件時(&W)："
 
-#. i18n: ectx: property (whatsThis), widget (KComboBox, mLoopOnGotoUnread)
+#. i18n: ectx: property (whatsThis), widget (QComboBox, mLoopOnGotoUnread)
 #: ui/miscpagemaintab.ui:60
 #, fuzzy, kde-format
 #| msgctxt "what's this help"
@@ -6305,25 +6305,25 @@ msgstr ""
 "weight:600;\">循環檢查所有標記的資料夾：</span>類似「循環檢查所有的資料夾」，"
 "但是只限於標記要檢查新信件與未讀信件的資料夾。</p></body></html>"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, mLoopOnGotoUnread)
+#. i18n: ectx: property (text), item, widget (QComboBox, mLoopOnGotoUnread)
 #: ui/miscpagemaintab.ui:64
 #, kde-format
 msgid "Do not Loop"
 msgstr "不做循環檢查"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, mLoopOnGotoUnread)
+#. i18n: ectx: property (text), item, widget (QComboBox, mLoopOnGotoUnread)
 #: ui/miscpagemaintab.ui:69
 #, kde-format
 msgid "Loop in Current Folder"
 msgstr "循環檢查目前的資料夾"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, mLoopOnGotoUnread)
+#. i18n: ectx: property (text), item, widget (QComboBox, mLoopOnGotoUnread)
 #: ui/miscpagemaintab.ui:74
 #, kde-format
 msgid "Loop in All Folders"
 msgstr "循環檢查所有的資料夾"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, mLoopOnGotoUnread)
+#. i18n: ectx: property (text), item, widget (QComboBox, mLoopOnGotoUnread)
 #: ui/miscpagemaintab.ui:79
 #, kde-format
 msgid "Loop in All Marked Folders"
@@ -6338,25 +6338,25 @@ msgctxt ""
 msgid "When ente&ring a folder:"
 msgstr "進入資料夾時(&R)："
 
-#. i18n: ectx: property (text), item, widget (KComboBox, mActionEnterFolder)
+#. i18n: ectx: property (text), item, widget (QComboBox, mActionEnterFolder)
 #: ui/miscpagemaintab.ui:104
 #, kde-format
 msgid "Jump to First Unread Message"
 msgstr "跳到第一封未讀信件"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, mActionEnterFolder)
+#. i18n: ectx: property (text), item, widget (QComboBox, mActionEnterFolder)
 #: ui/miscpagemaintab.ui:109
 #, kde-format
 msgid "Jump to Last Selected Message"
 msgstr "跳到最後一封已讀信件"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, mActionEnterFolder)
+#. i18n: ectx: property (text), item, widget (QComboBox, mActionEnterFolder)
 #: ui/miscpagemaintab.ui:114
 #, kde-format
 msgid "Jump to Newest Message"
 msgstr "跳到最新的信件"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, mActionEnterFolder)
+#. i18n: ectx: property (text), item, widget (QComboBox, mActionEnterFolder)
 #: ui/miscpagemaintab.ui:119
 #, kde-format
 msgid "Jump to Oldest Message"

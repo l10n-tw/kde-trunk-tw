@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rsibreak\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-22 02:48+0200\n"
+"POT-Creation-Date: 2019-11-30 02:56+0100\n"
 "PO-Revision-Date: 2019-04-05 14:22+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -19,17 +19,17 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.03.80\n"
 
-#: src/breakcontrol.cpp:46 src/rsirelaxpopup.cpp:60
+#: src/breakcontrol.cpp:47 src/rsirelaxpopup.cpp:62
 #, kde-format
 msgid "Skip Break"
 msgstr "跳過休息"
 
-#: src/breakcontrol.cpp:53 src/rsirelaxpopup.cpp:65
+#: src/breakcontrol.cpp:54 src/rsirelaxpopup.cpp:67
 #, kde-format
 msgid "Postpone Break"
 msgstr "延後休息"
 
-#: src/breakcontrol.cpp:60 src/rsirelaxpopup.cpp:70
+#: src/breakcontrol.cpp:61 src/rsirelaxpopup.cpp:72
 #, kde-format
 msgid "Lock Screen"
 msgstr "鎖定螢幕"
@@ -127,112 +127,112 @@ msgctxt "%1 is a time string like '2 minutes 42 seconds'"
 msgid "Take a break for %1"
 msgstr "休息 %1 吧"
 
-#: src/rsidock.cpp:76
+#: src/rsidock.cpp:78
 #, kde-format
 msgid "About &KDE"
 msgstr "關於 KDE(&K)"
 
-#: src/rsidock.cpp:77
+#: src/rsidock.cpp:79
 #, kde-format
 msgid "&About RSIBreak"
 msgstr "關於 RSIBreak(&A)"
 
-#: src/rsidock.cpp:78
+#: src/rsidock.cpp:80
 #, kde-format
 msgid "RSIBreak &Handbook"
 msgstr "RSIBreak 手冊(&H)"
 
-#: src/rsidock.cpp:81
+#: src/rsidock.cpp:83
 #, kde-format
 msgid "&Report Bug..."
 msgstr "報告問題(&R)..."
 
-#: src/rsidock.cpp:82
+#: src/rsidock.cpp:84
 #, kde-format
 msgid "Switch application &language..."
 msgstr "切換應用程式語言(&L)..."
 
-#: src/rsidock.cpp:85 src/rsidock.cpp:139
+#: src/rsidock.cpp:87 src/rsidock.cpp:142
 #, kde-format
 msgid "&Suspend RSIBreak"
 msgstr "暫停 RSIBreak(&S)"
 
-#: src/rsidock.cpp:86
+#: src/rsidock.cpp:89
 #, kde-format
 msgid "&Usage Statistics"
 msgstr "用量統計(&U)"
 
-#: src/rsidock.cpp:87
+#: src/rsidock.cpp:90
 #, kde-format
 msgid "Configure &Notifications..."
 msgstr "設定通知(&N)..."
 
-#: src/rsidock.cpp:88
+#: src/rsidock.cpp:91
 #, kde-format
 msgid "&Configure RSIBreak..."
 msgstr "設定 RSIBreak(&C)..."
 
-#: src/rsidock.cpp:145
+#: src/rsidock.cpp:148
 #, kde-format
 msgid "&Resume RSIBreak"
 msgstr "回復 RSIBreak(&R)"
 
-#: src/rsidock.cpp:155
+#: src/rsidock.cpp:158
 #, kde-format
 msgid "Usage Statistics"
 msgstr "用量統計"
 
-#: src/rsidock.cpp:164 src/rsidock.cpp:191
+#: src/rsidock.cpp:167 src/rsidock.cpp:194
 #, kde-format
 msgid "Reset"
 msgstr "重置"
 
-#: src/rsidock.cpp:188
+#: src/rsidock.cpp:191
 #, kde-format
 msgid "This will reset all statistics to zero. Is that what you want?"
 msgstr "這會將所有統計重置回 0。您確定要這樣做嗎？"
 
-#: src/rsidock.cpp:190
+#: src/rsidock.cpp:193
 #, kde-format
 msgid "Reset the statistics"
 msgstr "重置統計"
 
-#: src/rsidock.cpp:208 src/rsiwidget.cpp:127
+#: src/rsidock.cpp:211 src/rsiwidget.cpp:127
 #, kde-format
 msgid "Suspended"
 msgstr "已暫停"
 
-#: src/rsidock.cpp:224
+#: src/rsidock.cpp:227
 #, kde-format
 msgid "%1 remaining until next short break"
 msgstr "到下一次短時間休息還有 %1"
 
-#: src/rsidock.cpp:233
+#: src/rsidock.cpp:236
 #, kde-format
 msgid "%1 remaining until next long break"
 msgstr "到下一次長時間休息還有 %1"
 
-#: src/rsirelaxpopup.cpp:62
+#: src/rsirelaxpopup.cpp:64
 #, kde-format
 msgid "Skip this break"
 msgstr "跳過此次休息"
 
-#: src/rsirelaxpopup.cpp:67
+#: src/rsirelaxpopup.cpp:69
 #, kde-format
 msgid "Postpone this break"
 msgstr "延後此次休息"
 
-#: src/rsirelaxpopup.cpp:72
+#: src/rsirelaxpopup.cpp:74
 #, kde-format
 msgid "Lock the session"
 msgstr "鎖定工作階段"
 
-#: src/rsirelaxpopup.cpp:104
+#: src/rsirelaxpopup.cpp:106
 #, kde-format
 msgid "Please relax for %1"
 msgstr "請休息 %1 "
 
-#: src/rsirelaxpopup.cpp:108
+#: src/rsirelaxpopup.cpp:110
 #, kde-format
 msgid "Note: next break is a big break"
 msgstr "注意：下次休息時間較長"

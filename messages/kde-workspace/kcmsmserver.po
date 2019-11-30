@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-14 03:21+0200\n"
+"POT-Creation-Date: 2019-11-30 03:38+0100\n"
 "PO-Revision-Date: 2019-03-14 20:39+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 18.12.3\n"
 
-#: kcmsmserver.cpp:62
+#: kcmsmserver.cpp:67
 #, kde-format
 msgid ""
 "<h1>Session Manager</h1> You can configure the session manager here. This "
@@ -33,34 +33,34 @@ msgstr ""
 "<h1>工作階段管理員</h1>您可以在這邊組態工作階段管理員。 這包含了登出時是否要"
 "經過確認、是否要在登出時儲存工作階段，以及是否要在工作階段結束後自動關機。"
 
-#: kcmsmserver.cpp:82
+#: kcmsmserver.cpp:87
 #, kde-format
 msgid "Restart Now"
 msgstr "立即重新啟動"
 
-#: kcmsmserver.cpp:123
+#: kcmsmserver.cpp:128
 #, kde-format
 msgid "Failed to request restart to firmware setup: %1"
 msgstr "無法請求重開機到韌體設定介面：%1"
 
-#: kcmsmserver.cpp:135
+#: kcmsmserver.cpp:140
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the UEFI setup screen."
 msgstr "下次電腦重開機將進入 UEFI 設定畫面。"
 
-#: kcmsmserver.cpp:137
+#: kcmsmserver.cpp:142
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the firmware setup screen."
 msgstr "下次電腦重開機將進入韌體設定畫面。"
 
-#: kcmsmserver.cpp:149
+#: kcmsmserver.cpp:154
 #, kde-format
 msgid "UEFI Setup"
 msgstr "UEFI 設定"
 
-#: kcmsmserver.cpp:150
+#: kcmsmserver.cpp:155
 #, kde-format
 msgid "Enter UEFI setup on next restart"
 msgstr "下次重開機進入 UEFI 設定介面"
@@ -71,7 +71,7 @@ msgstr "下次重開機進入 UEFI 設定介面"
 msgid "General"
 msgstr "一般"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, confirmLogoutCheck)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_confirmLogout)
 #: smserverconfigdlg.ui:23
 #, kde-format
 msgid ""
@@ -79,20 +79,20 @@ msgid ""
 "confirmation dialog box."
 msgstr "選取這個選項如果您希望工作階段管理員顯示燈出確認對話窗."
 
-#. i18n: ectx: property (text), widget (QCheckBox, confirmLogoutCheck)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_confirmLogout)
 #: smserverconfigdlg.ui:26
 #, kde-format
 msgid "Conf&irm logout"
 msgstr "確認登出 (&i)"
 
-#. i18n: ectx: property (text), widget (QCheckBox, offerShutdownCheck)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_offerShutdown)
 #: smserverconfigdlg.ui:33
 #, kde-format
 msgid "O&ffer shutdown options"
 msgstr "提供關機選項(&F)"
 
-#. i18n: ectx: property (whatsThis), widget (QGroupBox, sdGroup)
-#: smserverconfigdlg.ui:43
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, kcfg_shutdownType)
+#: smserverconfigdlg.ui:46
 #, kde-format
 msgid ""
 "Here you can choose what should happen by default when you log out. This "
@@ -101,32 +101,32 @@ msgstr ""
 "在這裡您可以選擇在您登出時所要執行的動作。不過這只有在您使用 KDM 來登入系統時"
 "才會生效。"
 
-#. i18n: ectx: property (title), widget (QGroupBox, sdGroup)
-#: smserverconfigdlg.ui:46
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_shutdownType)
+#: smserverconfigdlg.ui:49
 #, kde-format
 msgid "Default Leave Option"
 msgstr "預設離開選項"
 
 #. i18n: ectx: property (text), widget (QRadioButton, logoutRadio)
-#: smserverconfigdlg.ui:52
+#: smserverconfigdlg.ui:55
 #, kde-format
 msgid "&End current session"
 msgstr "結束目前的工作階段(&E)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, haltRadio)
-#: smserverconfigdlg.ui:59
+#: smserverconfigdlg.ui:62
 #, kde-format
 msgid "&Turn off computer"
 msgstr "關閉電腦 (&T)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rebootRadio)
-#: smserverconfigdlg.ui:66
+#: smserverconfigdlg.ui:69
 #, kde-format
 msgid "&Restart computer"
 msgstr "重新啟動電腦 (&R)"
 
-#. i18n: ectx: property (whatsThis), widget (QGroupBox, loginGroup)
-#: smserverconfigdlg.ui:80
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, kcfg_loginMode)
+#: smserverconfigdlg.ui:83
 #, kde-format
 msgid ""
 "<ul>\n"
@@ -148,38 +148,38 @@ msgstr ""
 "的桌面。</li>\n"
 "</ul>"
 
-#. i18n: ectx: property (title), widget (QGroupBox, loginGroup)
-#: smserverconfigdlg.ui:83
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_loginMode)
+#: smserverconfigdlg.ui:86
 #, kde-format
 msgid "On Login"
 msgstr "正在登入"
 
 #. i18n: ectx: property (text), widget (QRadioButton, previousSessionRadio)
-#: smserverconfigdlg.ui:89
+#: smserverconfigdlg.ui:92
 #, kde-format
 msgid "Restore &previous session"
 msgstr "回復先前的工作階段 (&P)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, savedSessionRadio)
-#: smserverconfigdlg.ui:96
+#: smserverconfigdlg.ui:99
 #, kde-format
 msgid "Restore &manually saved session"
 msgstr "回復手動存入的工作階段 (&M)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, emptySessionRadio)
-#: smserverconfigdlg.ui:103
+#: smserverconfigdlg.ui:106
 #, kde-format
 msgid "Start with an empty &session"
 msgstr "使用空白的工作階段來啟動(&S)"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: smserverconfigdlg.ui:110
+#: smserverconfigdlg.ui:113
 #, kde-format
 msgid "Applications to be e&xcluded from sessions:"
 msgstr "要自工作階段排除的應用程式(&X):"
 
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, excludeLineedit)
-#: smserverconfigdlg.ui:123
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_excludeApps)
+#: smserverconfigdlg.ui:126
 #, kde-format
 msgid ""
 "Here you can enter a colon or comma separated list of applications that "
@@ -190,13 +190,13 @@ msgstr ""
 "次恢復工作階段時它們就不會被啟動。例如「xterm,konsole」或「xterm:konsole」。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, firmwareSetupBox)
-#: smserverconfigdlg.ui:133
+#: smserverconfigdlg.ui:136
 #, kde-format
 msgid "Firmware Setup"
 msgstr "韌體設定"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, firmwareSetupCheck)
-#: smserverconfigdlg.ui:146
+#: smserverconfigdlg.ui:149
 #, kde-format
 msgid ""
 "When the computer is restarted the next time, enter firmware setup screen (e."
@@ -204,7 +204,7 @@ msgid ""
 msgstr "電腦下次重開機時進入韌體設定畫面（例如：UEFI 或 BIOS 設定）"
 
 #. i18n: ectx: property (text), widget (QCheckBox, firmwareSetupCheck)
-#: smserverconfigdlg.ui:149
+#: smserverconfigdlg.ui:152
 #, kde-format
 msgid "Enter firmware setup on next restart"
 msgstr "下次重開機進入韌體設定介面"
