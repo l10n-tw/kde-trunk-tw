@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: umbrello\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-28 03:16+0100\n"
+"POT-Creation-Date: 2019-12-01 03:19+0100\n"
 "PO-Revision-Date: 2019-08-12 18:54+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -2179,9 +2179,10 @@ msgid "Style"
 msgstr "樣式"
 
 #: dialogs/multipagedialogbase.cpp:497
-#, kde-format
-msgid "Role Style"
-msgstr "角色樣式"
+#, fuzzy, kde-format
+#| msgid "Widget Style"
+msgid "Line Style"
+msgstr "元件樣式："
 
 #: dialogs/multipagedialogbase.cpp:517
 #, kde-format
@@ -2877,6 +2878,7 @@ msgid "Autoincrement Sequence "
 msgstr "自動遞增序列"
 
 #: dialogs/pages/generaloptionpage.cpp:56
+#: dialogs/pages/umlwidgetstylepage.cpp:212
 #, kde-format
 msgctxt "miscellaneous group box"
 msgid "Miscellaneous"
@@ -3118,93 +3120,99 @@ msgstr "凍結"
 msgid "Add only"
 msgstr "只新增"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:109
+#: dialogs/pages/umlwidgetstylepage.cpp:114
 #, kde-format
 msgctxt "title of color group"
 msgid "Color"
 msgstr "顏色"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:114
+#: dialogs/pages/umlwidgetstylepage.cpp:119
 #, kde-format
 msgctxt "text color"
 msgid "&Text:"
 msgstr "文字(&T)："
 
-#: dialogs/pages/umlwidgetstylepage.cpp:121
+#: dialogs/pages/umlwidgetstylepage.cpp:126
 #, kde-format
 msgctxt "default text color button"
 msgid "Defaul&t"
 msgstr "預設(&T)"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:124
+#: dialogs/pages/umlwidgetstylepage.cpp:129
 #, kde-format
 msgctxt "line color"
 msgid "&Line:"
 msgstr "線條(&L)："
 
-#: dialogs/pages/umlwidgetstylepage.cpp:131
+#: dialogs/pages/umlwidgetstylepage.cpp:136
 #, kde-format
 msgctxt "default line color button"
 msgid "&Default"
 msgstr "預設(&D)"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:134
+#: dialogs/pages/umlwidgetstylepage.cpp:139
 #, kde-format
 msgid "&Fill:"
 msgstr "填充(&F)："
 
-#: dialogs/pages/umlwidgetstylepage.cpp:141
+#: dialogs/pages/umlwidgetstylepage.cpp:146
 #, kde-format
 msgctxt "default fill color button"
 msgid "D&efault"
 msgstr "預設(&E)"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:144
+#: dialogs/pages/umlwidgetstylepage.cpp:149
 #, kde-format
 msgid "&Use fill"
 msgstr "使用填充(&U)"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:154
+#: dialogs/pages/umlwidgetstylepage.cpp:159
 #, kde-format
 msgctxt "background color"
 msgid "&Background:"
 msgstr "背景(&B)："
 
-#: dialogs/pages/umlwidgetstylepage.cpp:161
+#: dialogs/pages/umlwidgetstylepage.cpp:166
 #, kde-format
 msgctxt "default background color button"
 msgid "De&fault"
 msgstr "預設(&F)"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:164
+#: dialogs/pages/umlwidgetstylepage.cpp:169
 #, kde-format
 msgctxt "grid dot color"
 msgid "&Grid dot:"
 msgstr "格點(&G)："
 
-#: dialogs/pages/umlwidgetstylepage.cpp:171
+#: dialogs/pages/umlwidgetstylepage.cpp:176
 #, kde-format
 msgctxt "default grid dot color button"
 msgid "Def&ault"
 msgstr "預設(&A)"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:179
+#: dialogs/pages/umlwidgetstylepage.cpp:184
 #, kde-format
 msgctxt "title of width group"
 msgid "Width"
 msgstr "寬度"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:184
+#: dialogs/pages/umlwidgetstylepage.cpp:189
 #, kde-format
 msgctxt "line width"
 msgid "Line &width:"
 msgstr "線寬(&W)："
 
-#: dialogs/pages/umlwidgetstylepage.cpp:198
+#: dialogs/pages/umlwidgetstylepage.cpp:203
 #, kde-format
 msgctxt "default line width button"
 msgid "Defa&ult"
 msgstr "預設(&U)"
+
+#: dialogs/pages/umlwidgetstylepage.cpp:217
+#, fuzzy, kde-format
+#| msgid "The Width of the Line"
+msgid "Layout of the line:"
+msgstr "線條寬度"
 
 #: dialogs/parameterpropertiesdialog.cpp:54
 #, kde-format
@@ -4144,7 +4152,7 @@ msgstr "文件型態"
 msgid "Activate documentation edit after focus change."
 msgstr "焦點變動後啟用文件編輯。"
 
-#: layoutgenerator.cpp:260
+#: layoutgenerator.cpp:261
 #, kde-format
 msgid "Apply layout"
 msgstr "套用佈局"
@@ -9324,6 +9332,9 @@ msgstr "狀態"
 #, kde-format
 msgid "Pre/Post condition"
 msgstr "先決/後續條件"
+
+#~ msgid "Role Style"
+#~ msgstr "角色樣式"
 
 #~ msgid "New Activity"
 #~ msgstr "新活動"

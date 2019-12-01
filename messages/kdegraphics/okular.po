@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okular\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-30 03:17+0100\n"
+"POT-Creation-Date: 2019-12-01 03:14+0100\n"
 "PO-Revision-Date: 2019-11-30 17:50+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -501,14 +501,15 @@ msgstr "符合頁面"
 msgid "Auto Fit"
 msgstr "自動調適"
 
-#: conf/dlgperformance.cpp:55
+#: conf/dlgperformance.cpp:54
 #, kde-format
 msgid ""
 "Keeps used memory as low as possible. Do not reuse anything. (For systems "
 "with low memory.)"
-msgstr "盡量減少記憶體使用量。不要重複使用任何東西。（給記憶體較少的系統用的。）"
+msgstr ""
+"盡量減少記憶體使用量。不要重複使用任何東西。（給記憶體較少的系統用的。）"
 
-#: conf/dlgperformance.cpp:58
+#: conf/dlgperformance.cpp:57
 #, kde-format
 msgid ""
 "A good compromise between memory usage and speed gain. Preload next page and "
@@ -517,7 +518,7 @@ msgstr ""
 "這是記憶體使用量與速度增益的折衷方案。預先載入下一頁並加速搜尋。（給 2 GB 左"
 "右記憶體的系統用的。）"
 
-#: conf/dlgperformance.cpp:61
+#: conf/dlgperformance.cpp:60
 #, kde-format
 msgid ""
 "Keeps everything in memory. Preload next pages. Boost searches. (For systems "
@@ -526,7 +527,7 @@ msgstr ""
 "盡量在記憶體中保留每個東西。預先載入下一頁並加速搜尋。（給超過 4 GB 記憶體的"
 "系統用的。）"
 
-#: conf/dlgperformance.cpp:65
+#: conf/dlgperformance.cpp:64
 #, no-c-format, kde-format
 msgid ""
 "Loads and keeps everything in memory. Preload all pages. (Will use at "
@@ -1083,12 +1084,12 @@ msgstr "執行 %1..."
 msgid "First Page"
 msgstr "第一頁"
 
-#: core/action.cpp:281 ui/presentationwidget.cpp:177
+#: core/action.cpp:281 ui/presentationwidget.cpp:176
 #, kde-format
 msgid "Previous Page"
 msgstr "前一頁"
 
-#: core/action.cpp:283 ui/presentationwidget.cpp:193
+#: core/action.cpp:283 ui/presentationwidget.cpp:192
 #, kde-format
 msgid "Next Page"
 msgstr "下一頁"
@@ -1881,7 +1882,8 @@ msgstr "此文件有表單。點擊按鈕可以查看，或是到「檢視」─
 msgid ""
 "All editing and interactive features for this document are disabled. Please "
 "save a copy and reopen to edit this document."
-msgstr "已在此文件停用所有編輯與互動功能。請儲存副本並重新開啟檔案即可編輯此文件。"
+msgstr ""
+"已在此文件停用所有編輯與互動功能。請儲存副本並重新開啟檔案即可編輯此文件。"
 
 #: part.cpp:1621
 #, kde-format
@@ -2272,7 +2274,8 @@ msgstr ""
 msgid ""
 "<qt>This error typically occurs if the file is corrupt. If you want to be "
 "sure, try to decompress the file manually using command-line tools.</qt>"
-msgstr "<qt>這個錯誤通常是因為檔案已損毀。您可以試著在命令列直接解壓此檔看看。</qt>"
+msgstr ""
+"<qt>這個錯誤通常是因為檔案已損毀。您可以試著在命令列直接解壓此檔看看。</qt>"
 
 #: part.cpp:3615
 #, kde-format
@@ -2607,7 +2610,8 @@ msgstr "選取自訂印花標記"
 #, kde-format
 msgid ""
 "*.ico *.png *.xpm *.svg *.svgz | Icon Files (*.ico *.png *.xpm *.svg *.svgz)"
-msgstr "*.ico *.png *.xpm *.svg *.svgz | 圖示檔 (*.ico *.png *.xpm *.svg *.svgz)"
+msgstr ""
+"*.ico *.png *.xpm *.svg *.svgz | 圖示檔 (*.ico *.png *.xpm *.svg *.svgz)"
 
 #: ui/annotationwidgets.cpp:168
 #, kde-kuit-format
@@ -3510,7 +3514,7 @@ msgctxt "Unknown author"
 msgid "Unknown"
 msgstr "未知"
 
-#: ui/guiutils.cpp:163 ui/presentationwidget.cpp:384
+#: ui/guiutils.cpp:163 ui/presentationwidget.cpp:383
 #, kde-format
 msgid "Author: %1"
 msgstr "作者：%1"
@@ -3525,24 +3529,24 @@ msgstr "您要將 %1 儲存在哪裡？"
 msgid "Could not open \"%1\" for writing. File was not saved."
 msgstr "無法開啟 %1 以寫入。檔案未儲存。"
 
-#: ui/ktreeviewsearchline.cpp:285
+#: ui/ktreeviewsearchline.cpp:284
 #, kde-format
 msgid "Search Options"
 msgstr "搜尋選項"
 
-#: ui/ktreeviewsearchline.cpp:286
+#: ui/ktreeviewsearchline.cpp:285
 #, kde-format
 msgctxt "Enable case sensitive search in the side navigation panels"
 msgid "Case Sensitive"
 msgstr "區分大小寫"
 
-#: ui/ktreeviewsearchline.cpp:289
+#: ui/ktreeviewsearchline.cpp:288
 #, kde-format
 msgctxt "Enable regular expression search in the side navigation panels"
 msgid "Regular Expression"
 msgstr "正則表達式"
 
-#: ui/ktreeviewsearchline.cpp:376
+#: ui/ktreeviewsearchline.cpp:375
 #, kde-format
 msgid "S&earch:"
 msgstr "搜尋(&E)："
@@ -4002,56 +4006,56 @@ msgstr "突顯"
 msgid "Find Next"
 msgstr "尋找下一個"
 
-#: ui/presentationwidget.cpp:166
+#: ui/presentationwidget.cpp:165
 #, kde-format
 msgctxt "[document title/filename] – Presentation"
 msgid "%1 – Presentation"
 msgstr "%1 - 展示"
 
-#: ui/presentationwidget.cpp:222
+#: ui/presentationwidget.cpp:221
 #, kde-format
 msgid "Switch Screen"
 msgstr "切換螢幕"
 
-#: ui/presentationwidget.cpp:229
+#: ui/presentationwidget.cpp:228
 #, kde-format
 msgctxt "%1 is the screen number (0, 1, ...)"
 msgid "Screen %1"
 msgstr "螢幕 %1"
 
-#: ui/presentationwidget.cpp:236
+#: ui/presentationwidget.cpp:235
 #, kde-format
 msgid "Exit Presentation Mode"
 msgstr "離開展示模式"
 
-#: ui/presentationwidget.cpp:382
+#: ui/presentationwidget.cpp:381
 #, kde-format
 msgid "Title: %1"
 msgstr "標題：%1"
 
-#: ui/presentationwidget.cpp:385
+#: ui/presentationwidget.cpp:384
 #, kde-format
 msgid "Pages: %1"
 msgstr "頁面：%1"
 
-#: ui/presentationwidget.cpp:386
+#: ui/presentationwidget.cpp:385
 #, kde-format
 msgid "Click to begin"
 msgstr "點選以開始"
 
-#: ui/presentationwidget.cpp:530
+#: ui/presentationwidget.cpp:529
 #, kde-format
 msgctxt "For Presentation"
 msgid "Pause"
 msgstr "暫停"
 
-#: ui/presentationwidget.cpp:535
+#: ui/presentationwidget.cpp:534
 #, kde-format
 msgctxt "For Presentation"
 msgid "Play"
 msgstr "播放"
 
-#: ui/presentationwidget.cpp:1661
+#: ui/presentationwidget.cpp:1660
 #, kde-format
 msgid ""
 "There are two ways of exiting presentation mode, you can press either ESC "
@@ -4061,7 +4065,7 @@ msgstr ""
 "有兩個方法離開展示模式。您可以按下 ESC 鍵，或是將滑鼠移到右下角然後點選「離"
 "開」。當然您也可以用 ALT+TAB 切換視窗。"
 
-#: ui/presentationwidget.cpp:1785
+#: ui/presentationwidget.cpp:1784
 #, kde-format
 msgctxt ""
 "Reason for inhibiting the screensaver activation, when the presentation mode "
@@ -4650,7 +4654,7 @@ msgstr "檢視簽名過版本…"
 msgid "View Certificate..."
 msgstr "檢視憑證…"
 
-#: ui/thumbnaillist.cpp:999
+#: ui/thumbnaillist.cpp:998
 #, kde-format
 msgid "Show bookmarked pages only"
 msgstr "只顯示書籤頁"

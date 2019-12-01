@@ -157,13 +157,11 @@ msgstr ""
 
 #: gptalker.cpp:691 gptalker.cpp:758
 #, kde-format
-#| msgid "Failed to upload photo"
 msgid "Failed to fetch photo-set list"
 msgstr "無法取得圖片收藏清單"
 
 #: gptalker.cpp:894 gptalker.cpp:927
 #, kde-format
-#| msgid "Failed to create folder"
 msgid "Failed to create album"
 msgstr "無法建立相簿"
 
@@ -209,13 +207,11 @@ msgstr "Google 雲端硬碟匯出"
 
 #: gswindow.cpp:117
 #, kde-format
-#| msgid "A Kipi-plugin to export images to Google Drive"
 msgid "A tool to export images to Google Drive"
 msgstr "匯出相片至 Google 雲端硬碟的工具"
 
 #: gswindow.cpp:119
 #, kde-format
-#| msgid "(c) 2013, Saurabh Patel"
 msgid ""
 "(c) 2013, Saurabh Patel\n"
 "(c) 2015, Shourya Singh Gupta"
@@ -261,13 +257,11 @@ msgstr "開始上傳到 Google 雲端硬碟"
 
 #: gswindow.cpp:186
 #, kde-format
-#| msgid "Google Drive Export"
 msgid "Google Photos/PicasaWeb Export"
 msgstr "Google Photos/PicasaWeb 匯出"
 
 #: gswindow.cpp:187
 #, kde-format
-#| msgid "A Kipi-plugin to export images to Google Drive"
 msgid "A tool to export image collections to Google Photos/Picasa web service."
 msgstr "匯出相片收藏到 Google Photos/Picasa 網路服務的工具。"
 
@@ -308,39 +302,31 @@ msgstr "Jens Mueller"
 
 #: gswindow.cpp:217
 #, kde-format
-#| msgid "Export to Google Drive"
 msgid "Export to Google Photos/PicasaWeb Service"
 msgstr "匯出至 Google Photos/PicasaWeb 服務"
 
 #: gswindow.cpp:220
 #, kde-format
-#| msgid "Start upload to Google Drive"
 msgid "Start upload to Google Photos/PicasaWeb Service"
 msgstr "開始上傳至 Google Photos/PicasaWeb 服務"
 
 #: gswindow.cpp:226
 #, kde-format
-#| msgid "Export to Google Drive"
 msgid "Import from Google Photos/PicasaWeb Service"
 msgstr "從 Google Photos/PicasaWeb 匯入"
 
 #: gswindow.cpp:228
 #, kde-format
-#| msgid "Start Upload"
 msgid "Start Download"
 msgstr "開始下載"
 
 #: gswindow.cpp:229
 #, kde-format
-#| msgid "Start upload to Google Drive"
 msgid "Start download from Google Photos/PicasaWeb service"
 msgstr "開始從 Google Photos/PicasaWeb 服務下載"
 
 #: gswindow.cpp:428 gswindow.cpp:467 gswindow.cpp:577
 #, kde-format
-#| msgid ""
-#| "Google Drive call failed:\n"
-#| "%1"
 msgid "Google Photos/PicasaWeb Call Failed: %1\n"
 msgstr "Google Photos/PicasaWeb 呼叫失敗：%1\n"
 
@@ -351,15 +337,11 @@ msgstr "%v / %m"
 
 #: gswindow.cpp:531
 #, kde-format
-#| msgid "Google Drive Export"
 msgid "Google Photo Export"
 msgstr "Google Photo 匯出"
 
 #: gswindow.cpp:549
 #, kde-format
-#| msgid ""
-#| "Google Drive call failed:\n"
-#| "%1"
 msgid "Google Drive Call Failed: %1\n"
 msgstr "Google 雲端硬碟呼叫失敗：%1\n"
 
@@ -408,10 +390,6 @@ msgstr "Google 雲端硬碟匯出"
 
 #: gswindow.cpp:1015
 #, kde-format
-#| msgid ""
-#| "Failed to upload photo to Google Drive.\n"
-#| "%1\n"
-#| "Do you want to continue?"
 msgid ""
 "Failed to save photo: %1\n"
 "Do you want to continue?"
@@ -421,10 +399,6 @@ msgstr ""
 
 #: gswindow.cpp:1033
 #, kde-format
-#| msgid ""
-#| "Failed to upload photo to Google Drive.\n"
-#| "%1\n"
-#| "Do you want to continue?"
 msgid ""
 "Failed to download photo: %1\n"
 "Do you want to continue?"
@@ -434,16 +408,11 @@ msgstr ""
 
 #: gswindow.cpp:1079
 #, kde-format
-#| msgid "Failed to create folder"
 msgid "Failed to save image to %1"
 msgstr "無法儲存圖片至 %1"
 
 #: gswindow.cpp:1106
 #, kde-format
-#| msgid ""
-#| "Failed to upload photo to Google Drive.\n"
-#| "%1\n"
-#| "Do you want to continue?"
 msgid ""
 "Failed to upload photo to %1.\n"
 "%2\n"
@@ -470,9 +439,6 @@ msgstr ""
 
 #: gswindow.cpp:1250
 #, kde-format
-#| msgid ""
-#| "Google Drive call failed:\n"
-#| "%1"
 msgid ""
 "Google Photos/PicasaWeb call failed:\n"
 "%1"
@@ -502,7 +468,6 @@ msgstr "匯出(&E)"
 #. i18n: ectx: Menu (Import)
 #: kipiplugin_googleservicesui.rc:11
 #, kde-format
-#| msgid "&Export"
 msgid "&Import"
 msgstr "匯出(&I)"
 
@@ -569,19 +534,16 @@ msgstr "匯出到 Google 雲端硬碟(&G)..."
 
 #: plugin_googleservices.cpp:110
 #, kde-format
-#| msgid "Export to &Google Drive..."
 msgid "Export to &Google Photos/PicasaWeb..."
 msgstr "匯出到 &Google Photos/PicasaWeb…"
 
 #: plugin_googleservices.cpp:120
 #, kde-format
-#| msgid "Export to &Google Drive..."
 msgid "Import from &Google Photos/PicasaWeb..."
 msgstr "從 &Google Photos/PicasaWeb 匯入…"
 
 #: replacedialog.cpp:112
 #, kde-format
-#| msgid "&Add As New"
 msgid "Add As New"
 msgstr "新增項目"
 
@@ -592,7 +554,6 @@ msgstr "項目將會與連結的版本同時加入。"
 
 #: replacedialog.cpp:119
 #, kde-format
-#| msgid "&Add All"
 msgid "Add All"
 msgstr "全部加入"
 
@@ -605,7 +566,6 @@ msgstr "項目將會與連結的版本同時加入。將不會再次提醒您。
 
 #: replacedialog.cpp:126
 #, kde-format
-#| msgid "&Replace"
 msgid "Replace"
 msgstr "取代"
 
@@ -616,7 +576,6 @@ msgstr "項目將會取代此連結的版本。"
 
 #: replacedialog.cpp:133
 #, kde-format
-#| msgid "&Replace All"
 msgid "Replace All"
 msgstr "全部取代"
 
