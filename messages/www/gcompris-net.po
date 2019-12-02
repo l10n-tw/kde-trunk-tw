@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-08-16 03:23+0200\n"
+"POT-Creation-Date: 2019-12-02 03:29+0100\n"
 "PO-Revision-Date: 2018-12-05 19:23+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -20,148 +20,253 @@ msgstr ""
 "Generated-By: Babel 0.9.6\n"
 "X-Generator: Lokalize 2.0\n"
 
-# news title
 #. news title
-msgctxt "20190303.html"
-msgid "Release GCompris 0.96"
+msgctxt "20191201.html"
+msgid "Release GCompris 0.97"
 msgstr ""
 
-# paragraph
 #. paragraph
-msgctxt "20190303.html"
+msgctxt "20191201.html"
 msgid ""
-"Hi,<br />\\nWe are pleased to announce the release of GCompris version 0.96."
+"Hi,<br />\\nWe are pleased to announce the release of GCompris version 0.97."
 msgstr ""
 
-# paragraph
 #. paragraph
-msgctxt "20190303.html"
-msgid ""
-"This new version includes updated translation for several languages, and a "
-"few bug fixes."
+msgctxt "20191201.html"
+msgid "This new version contains 2 new activities:"
 msgstr ""
 
-# paragraph
-#. paragraph
-msgctxt "20190303.html"
-msgid "Translations that received a big update:"
-msgstr ""
-
-# list item
 #. list item
-msgctxt "20190303.html"
-msgid "Brazilian Portuguese (100%)"
+msgctxt "20191201.html"
+msgid ""
+"A programming maze: to learn the basics of programming with a few "
+"instructions"
 msgstr ""
 
-# list item
 #. list item
-msgctxt "20190303.html"
-msgid "Breton (100%)"
+msgctxt "20191201.html"
+msgid ""
+"Baby tangram: to learn the basics of tangram (this activity corresponds to "
+"the lowest levels of previous tangram activity)"
 msgstr ""
 
-# list item
+#. paragraph
+msgctxt "20191201.html"
+msgid "And a lot of new features:"
+msgstr ""
+
 #. list item
-msgctxt "20190303.html"
-msgid "Finnish (90%)"
+msgctxt "20191201.html"
+msgid "new sub-categories to organize activities"
 msgstr ""
 
-# list item
 #. list item
-msgctxt "20190303.html"
-msgid "Indonesian (100%)"
+msgctxt "20191201.html"
+msgid "new background music feature and audio tracks"
 msgstr ""
 
-# list item
 #. list item
-msgctxt "20190303.html"
-msgid "Norwegian Nynorsk (97%)"
+msgctxt "20191201.html"
+msgid "new volume settings for audio effects"
 msgstr ""
 
-# list item
 #. list item
-msgctxt "20190303.html"
-msgid "Polish (100%)"
-msgstr ""
-
-# paragraph
-#. paragraph
-msgctxt "20190303.html"
+msgctxt "20191201.html"
 msgid ""
-"This means we have now 19 languages fully supported: British English, "
-"Brazilian Portuguese, Breton, Catalan, Catalan (Valencian), Chinese "
-"Traditional, Dutch, French, Galician, Greek, Hungarian, Indonesian, Italian, "
-"Malayalam, Polish, Portuguese, Romanian, Swedish, Ukrainian."
+"new speed setting in several activities (gletters, algebra, readingh, "
+"note_names)"
 msgstr ""
 
-# paragraph
-#. paragraph
-msgctxt "20190303.html"
-msgid ""
-"We still have 15 partially supported languages: Basque (78%), Belarusian "
-"(68%), Chinese Simplified (69%), Estonian (62%), Finnish (90%), German "
-"(84%), Hindi (76%), Irish Gaelic (82%), Norwegian Nynorsk (97%), Russian "
-"(77%), Scottish Gaelic (70%), Slovak (62%), Slovenian (56%), Spanish (93%), "
-"Turkish (73%)."
-msgstr ""
-
-# paragraph
-#. paragraph
-msgctxt "20190303.html"
-msgid ""
-"We decided again for this release to keep the translations that dropped "
-"below 80%. It would be sad to have to disable 10 languages from the "
-"application, but if no one updates the following translations, they will be "
-"disabled in next release: Basque, Belarusian, Chinese Simplified, Estonian, "
-"Hindi, Russian, Scottish Gaelic, Slovak, Slovenian and Turkish."
-msgstr ""
-
-# paragraph
-#. paragraph
-msgctxt "20190303.html"
-msgid ""
-"For the windows version, we added a new entry in the start menu called "
-"GCompris (Safe Mode) to launch it with software rendering mode. This was "
-"needed as the auto-detection of OpenGL support was not reliable. Now, users "
-"can easily choose between OpenGL and software rendering without changing the "
-"configuration file."
-msgstr ""
-
-# paragraph
-#. paragraph
-msgctxt "20190303.html"
-msgid "Known issues:"
-msgstr ""
-
-# list item
 #. list item
-msgctxt "20190303.html"
-msgid ""
-"The progress bar for downloads doesn't work anymore. This is a side effect "
-"from our switch to https for hosting the files. We are looking to improve "
-"this for next release.\\n"
+msgctxt "20191201.html"
+msgid "new feature in chess activities to display captured pieces"
 msgstr ""
 
-# paragraph
-#. paragraph
-msgctxt "20190303.html"
-msgid ""
-"As a side note dedicated to GNU/Linux distribution packagers, this new "
-"version now requires OpenSSL to be able to download voices and additional "
-"images."
+#. list item
+msgctxt "20191201.html"
+msgid "new option to go to next level manually in drawletters and drawnumbers"
 msgstr ""
 
-# paragraph
-#. paragraph
-msgctxt "20190303.html"
-msgid ""
-"As usual you can download this new version from our <a href=\\\"https://"
-"gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. It will also "
-"be available soon on the Android and Windows store."
+#. list item
+msgctxt "20191201.html"
+msgid "new voices for en_US"
 msgstr ""
 
-# paragraph
+#. list item
+msgctxt "20191201.html"
+msgid "new images for colors activity"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid "new images for advanced_colors activity"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid "new images for target activity"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid "improve settings layout"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid "improve share activity layout"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid "improve categorisation activity layout"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid "resource files are now stored in KDE server (https://cdn.kde.org/)"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid "add a tutorial to even/odd numbers"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid "add intro to piano_composition"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid "add malayalam dataset to gletters"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid "add breton dataset to wordsgame"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid "fix voices not playing in geography"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid "fix sounds not playing in mining"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid "fix portrait mode in binary_bulb"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid "fix high cpu load in menu"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid "fix hint image size in photo_hunter"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid "fix layout in color_mix"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid "and lots of other small fixes..."
+msgstr ""
+
 #. paragraph
-msgctxt "20190303.html"
+msgctxt "20191201.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows and MacOS "
+"on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+"\">download page</a>. This update will also be available soon in the Android "
+"Play store and the Windows store. For Raspberry Pi, we'll provide an "
+"installer soon. The updated version for iOS is still not available. Note "
+"that the MacOS package is not yet notarized, we will look at doing this "
+"during next year."
+msgstr ""
+
+#. paragraph
+msgctxt "20191201.html"
+msgid ""
+"On the voices side, we added a new voice \\\"try again\\\" which is used in "
+"several activities instead of \\\"check answer\\\". You can check on this "
+"page if this voice is available in your language: <a href=\\\"https://"
+"gcompris.net/voicestats/\\\">https://gcompris.net/voicestats/</a> (in the \\"
+"\"Misc\\\" section). You can help us by providing a nice recording of your "
+"voice for all the missing entries in your native language."
+msgstr ""
+
+#. paragraph
+msgctxt "20191201.html"
+msgid ""
+"On the translation side, we have 20 languages fully supported: Basque, "
+"Brazilian Portuguese, Breton, British English, Catalan, Chinese Traditional, "
+"Dutch, French, Galician, Greek, Italian, Macedonian, Malayalam, Polish, "
+"Portuguese, Romanian, Slovak, Spanish, Swedish, Ukrainian."
+msgstr ""
+
+#. paragraph
+msgctxt "20191201.html"
+msgid ""
+"We also have 15 languages partially supported: Belarusian (65%), Catalan "
+"(Valencian 95%), Chinese Simplified (66%), Estonian (93%), Finnish (86%), "
+"German (96%),  Hindi (73%), Hungarian (95%), Indonesian (95%), Irish Gaelic "
+"(78%), Norwegian Nynorsk (93%), Russian (76%), Scottish Gaelic (67%), "
+"Slovenian (54%), Turkish (95%)."
+msgstr ""
+
+#. paragraph
+msgctxt "20191201.html"
+msgid ""
+"Usually we only ship translations that are at least 80% complete. However "
+"several translations dropped way below 80% (especially Slovenian, Belarusian "
+"and Scottish Gaelic ; but also Hindi, Russian and Irish Gaelic). We decided "
+"to keep those exceptionally for this release, and hope to see former or new "
+"translators complete those translations. If we get updates or new "
+"translations, we will make a release update."
+msgstr ""
+
+#. paragraph
+msgctxt "20191201.html"
+msgid ""
+"So if your language is in the partially supported list, or is not yet "
+"supported at all, and you want to help, please contact us and we will give "
+"you instructions to get started translating."
+msgstr ""
+
+#. paragraph
+msgctxt "20191201.html"
+msgid ""
+"Another way to help is to write some posts in your community about GCompris, "
+"and don't hesitate to give us feedbacks."
+msgstr ""
+
+#. paragraph
+msgctxt "20191201.html"
+msgid "Notes:"
+msgstr ""
+
+#. list item
+msgctxt "20191201.html"
+msgid ""
+"For the Malayalam language, we noticed some issues with the default font \\"
+"\"Andika-R\\\". We recommend Malayalam users to select the font Noto-Sans-"
+"Malayalam or RaghuMalaylamSans from the application menu (if it is not "
+"available in the list you need to install this font on your system to be "
+"able to select it).\\n"
+msgstr ""
+
+#. paragraph
+msgctxt "20191201.html"
 msgid "Thank you all, <br/>\\nTimothée & Johnny"
 msgstr ""
 

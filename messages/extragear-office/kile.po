@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kile\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-23 02:40+0100\n"
+"POT-Creation-Date: 2019-12-02 02:48+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -1634,19 +1634,19 @@ msgstr "圖示："
 msgid "Select..."
 msgstr "選擇..."
 
-#: dialogs/managetemplatesdialog.cpp:110 dialogs/managetemplatesdialog.cpp:167
+#: dialogs/managetemplatesdialog.cpp:110 dialogs/managetemplatesdialog.cpp:166
 #, kde-format
 msgctxt "marked"
 msgid "M"
 msgstr "M"
 
-#: dialogs/managetemplatesdialog.cpp:111 dialogs/managetemplatesdialog.cpp:168
+#: dialogs/managetemplatesdialog.cpp:111 dialogs/managetemplatesdialog.cpp:167
 #, kde-format
 msgid "Existing Templates"
 msgstr "現有的樣本"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: dialogs/managetemplatesdialog.cpp:112 dialogs/managetemplatesdialog.cpp:169
+#: dialogs/managetemplatesdialog.cpp:112 dialogs/managetemplatesdialog.cpp:168
 #: widgets/newdocumentwidget.ui:32
 #, kde-format
 msgid "Document Type"
@@ -1676,7 +1676,7 @@ msgstr ""
 "如果您選擇的樣本是標記星號的樣本，則會在您有寫入權限的位置裡建立一個同名的新"
 "樣本。"
 
-#: dialogs/managetemplatesdialog.cpp:176
+#: dialogs/managetemplatesdialog.cpp:175
 #, kde-format
 msgid ""
 "Please select the template that you want to remove.\n"
@@ -1686,19 +1686,19 @@ msgstr ""
 "請選擇您要移除的樣本。\n"
 "注意您不能刪除標記星號的樣本（那表示您沒有刪除的權限）。"
 
-#: dialogs/managetemplatesdialog.cpp:251
+#: dialogs/managetemplatesdialog.cpp:250
 #, kde-format
 msgid ""
 "The template name that you have entered is invalid.\n"
 "Please enter a new name."
 msgstr "您輸入的樣本名稱不合法。請再輸入一個。"
 
-#: dialogs/managetemplatesdialog.cpp:259
+#: dialogs/managetemplatesdialog.cpp:258
 #, kde-format
 msgid "Please choose an icon first."
 msgstr "請先選擇一個圖示。"
 
-#: dialogs/managetemplatesdialog.cpp:267
+#: dialogs/managetemplatesdialog.cpp:266
 #, kde-format
 msgid ""
 "The icon file: %1\n"
@@ -1707,7 +1707,7 @@ msgstr ""
 "圖示檔：%1\n"
 "似乎不存在。請選擇新的圖示。"
 
-#: dialogs/managetemplatesdialog.cpp:275
+#: dialogs/managetemplatesdialog.cpp:274
 #, kde-format
 msgid ""
 "The file: %1\n"
@@ -1716,7 +1716,7 @@ msgstr ""
 "檔案：%1\n"
 "似乎不存在。也許您忘了儲存檔案？"
 
-#: dialogs/managetemplatesdialog.cpp:282
+#: dialogs/managetemplatesdialog.cpp:281
 #, kde-format
 msgid ""
 "A template named \"%1\" already exists.\n"
@@ -1725,34 +1725,27 @@ msgstr ""
 "樣本 \"%1\" 已存在。\n"
 "請先將它移除。"
 
-#: dialogs/managetemplatesdialog.cpp:291
+#: dialogs/managetemplatesdialog.cpp:290
 #, kde-format
 msgid "You are about to replace the template \"%1\"; are you sure?"
 msgstr "您正準備取代樣本 \"%1\"；您確定嗎？"
 
-#: dialogs/managetemplatesdialog.cpp:301
+#: dialogs/managetemplatesdialog.cpp:299
 #, kde-format
 msgid "Failed to create the template."
 msgstr "建立樣本失敗。"
 
-#: dialogs/managetemplatesdialog.cpp:311
+#: dialogs/managetemplatesdialog.cpp:309
 #, kde-format
 msgid "Please select a template that should be removed."
 msgstr "請選擇要移除的樣本。"
 
-#: dialogs/managetemplatesdialog.cpp:327
-#, kde-format
-msgid ""
-"Sorry, but you do not have the necessary permissions to remove the selected "
-"template."
-msgstr "抱歉，您沒有需要的權限來移除選取的樣本。"
-
-#: dialogs/managetemplatesdialog.cpp:331
+#: dialogs/managetemplatesdialog.cpp:318
 #, kde-format
 msgid "You are about to remove the template \"%1\"; are you sure?"
 msgstr "您正準備移除樣本 \"%1\"；您確定嗎？"
 
-#: dialogs/managetemplatesdialog.cpp:336
+#: dialogs/managetemplatesdialog.cpp:323
 #, kde-format
 msgid "The template could not be removed."
 msgstr "樣本無法移除。"
@@ -11019,25 +11012,25 @@ msgstr "文稿"
 msgid "Execution of %1"
 msgstr "%1 的執行"
 
-#: templates.cpp:90
+#: templates.cpp:93
 #, kde-format
 msgid ""
 "Could not find a folder to save %1 to.\n"
-"Check whether you have a .kde folder with write permissions in your home "
-"folder."
+"Check whether you have a folder named \".kde\" with write permissions in "
+"your home folder."
 msgstr ""
 
-#: templates.cpp:233
+#: templates.cpp:165
 #, kde-format
 msgid "Empty File"
 msgstr "空白檔案"
 
-#: templates.cpp:238
+#: templates.cpp:170
 #, kde-format
 msgid "Empty LaTeX File"
 msgstr "空白 LaTeX 檔"
 
-#: templates.cpp:243
+#: templates.cpp:175
 #, kde-format
 msgid "Empty BibTeX File"
 msgstr "空白 BibTex 檔"
@@ -12763,3 +12756,8 @@ msgstr ""
 #, kde-format
 msgid "Show the &user menu in the menu bar"
 msgstr ""
+
+#~ msgid ""
+#~ "Sorry, but you do not have the necessary permissions to remove the "
+#~ "selected template."
+#~ msgstr "抱歉，您沒有需要的權限來移除選取的樣本。"

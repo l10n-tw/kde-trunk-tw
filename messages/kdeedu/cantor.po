@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mathematik\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-28 02:59+0100\n"
+"POT-Creation-Date: 2019-12-02 03:00+0100\n"
 "PO-Revision-Date: 2019-09-22 19:06+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -1905,7 +1905,7 @@ msgstr ""
 #: backends/sage/sagesession.cpp:240 backends/sage/sagesession.cpp:273
 #: backends/sage/sagesession.cpp:352 backends/sage/sagesession.cpp:363
 #: cantor.cpp:203 cantor.cpp:205 cantor.cpp:328 cantor.cpp:335 main.cpp:77
-#: main.cpp:143 markdownentry.cpp:705 textentry.cpp:572 worksheet.cpp:1055
+#: main.cpp:143 markdownentry.cpp:722 textentry.cpp:572 worksheet.cpp:1055
 #, kde-format
 msgid "Cantor"
 msgstr "Cantor"
@@ -2948,32 +2948,32 @@ msgstr "要開啟的文件。"
 msgid "Couldn't open the file %1"
 msgstr "無法開啟檔案 %1"
 
-#: markdownentry.cpp:61
+#: markdownentry.cpp:62
 #, kde-format
 msgid "Insert Image Attachment"
 msgstr "插入影像附件"
 
-#: markdownentry.cpp:63
+#: markdownentry.cpp:64
 #, kde-format
 msgid "Clear Attachments"
 msgstr "清除附件"
 
-#: markdownentry.cpp:506
+#: markdownentry.cpp:523
 #, kde-format
 msgid "Cantor Math Error"
 msgstr "Cantor 數學錯誤"
 
-#: markdownentry.cpp:682
+#: markdownentry.cpp:699
 #, kde-format
 msgid "Choose Image"
 msgstr "選擇影像"
 
-#: markdownentry.cpp:682
+#: markdownentry.cpp:699
 #, kde-format
 msgid "Images (*.png *.bmp *.jpg *.svg)"
 msgstr "影像 (*.png *.bmp *.jpg *.svg)"
 
-#: markdownentry.cpp:705
+#: markdownentry.cpp:722
 #, kde-format
 msgid "Cantor failed to read image with error \"%1\""
 msgstr "Cantor 無法讀取影像，錯誤為「%1」"
