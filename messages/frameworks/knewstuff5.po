@@ -18,14 +18,14 @@ msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-04 02:45+0100\n"
-"PO-Revision-Date: 2019-11-30 17:48+0800\n"
+"PO-Revision-Date: 2019-12-04 23:12+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.11.80\n"
+"X-Generator: Lokalize 19.11.90\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: attica/atticaprovider.cpp:169
@@ -632,7 +632,7 @@ msgid "Currently updating the item %1 by %2. Please wait..."
 msgstr "正在使用 %2 更新 %1 項目。請稍候..."
 
 #: qtquick/qml/EntryDetails.qml:82
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt ""
 #| "Status message which should only be shown when the entry has been given "
 #| "some unknown or invalid status."
@@ -646,7 +646,10 @@ msgid ""
 "This item is currently in an invalid or unknown state. <a href=\"https://"
 "bugs.kde.org/enter_bug.cgi?product=frameworks-knewstuff\">Please report this "
 "to the KDE Community in a bug report</a>."
-msgstr "這個項目目前無效或處於不明狀態。請在漏洞回報中回報此問題至 KDE 社群。"
+msgstr ""
+"這個項目目前無效或處於不明狀態。<a href=\"https://"
+"bugs.kde.org/enter_bug.cgi?product=frameworks-knewstuff\">"
+"請在漏洞回報中回報此問題至 KDE 社群</a>。"
 
 #: qtquick/qml/EntryDetails.qml:93
 #, kde-format
@@ -888,7 +891,7 @@ msgid "Updating..."
 msgstr "更新中..."
 
 #: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:63
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt ""
 #| "Label for the busy indicator which should only be shown when the entry "
 #| "has been given some unknown or invalid status."
@@ -902,7 +905,9 @@ msgid ""
 "Invalid or unknown state. <a href=\"https://bugs.kde.org/enter_bug.cgi?"
 "product=frameworks-knewstuff\">Please report this to the KDE Community in a "
 "bug report</a>."
-msgstr "處於無效或未知狀態。請在臭蟲報告中回報此問題至 KDE 社群。"
+msgstr ""
+"處於無效或未知狀態。<a href=\"https://bugs.kde.org/enter_bug.cgi?"
+"product=frameworks-knewstuff\">請在臭蟲報告中回報此問題至 KDE 社群</a>。"
 
 #: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:76
 #, kde-format
@@ -929,8 +934,7 @@ msgctxt ""
 msgid ""
 "You are not authorized to Get Hot New Stuff. If you think this is in error, "
 "please contact the person in charge of your permissions."
-msgstr ""
-"您未授權使用「取得新熱門項目」。如果你認為這是錯誤，請聯絡負責您權限的人。"
+msgstr "您未授權使用「取得新熱門項目」。如果你認為這是錯誤，請聯絡負責您權限的人。"
 
 #: qtquick/quickitemsmodel.cpp:428
 #, kde-format

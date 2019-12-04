@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-04 02:52+0100\n"
-"PO-Revision-Date: 2019-11-03 14:14+0800\n"
+"PO-Revision-Date: 2019-12-04 23:15+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.08.2\n"
+"X-Generator: Lokalize 19.11.90\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -1551,15 +1551,15 @@ msgstr "此影像已被修改。重新載入影像的話會將所做的修改全
 #: importer/dialogpage.cpp:55
 #, kde-format
 msgid "Show failed files..."
-msgstr ""
+msgstr "顯示失敗檔案…"
 
 #: importer/dialogpage.cpp:61
 #, kde-format
 msgid "Show failed subfolders..."
-msgstr ""
+msgstr "顯示失敗子資料夾…"
 
 #: importer/dialogpage.cpp:76
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Failed to delete the document:\n"
 #| "%2"
@@ -1568,19 +1568,17 @@ msgstr ""
 #| "%2"
 msgid "Failed to import %1 document."
 msgid_plural "Failed to import %1 documents."
-msgstr[0] ""
-"刪除文件失敗：\n"
-"%2"
+msgstr[0] "無法匯入 %1 份文件。"
 
 #: importer/dialogpage.cpp:84
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Could not create destination folder."
 msgid "Failed to create %1 destination subfolder."
 msgid_plural "Failed to create %1 destination subfolders."
-msgstr[0] "無法建立目標資料夾。"
+msgstr[0] "無法建立 %1 個目標子資料夾。"
 
 #: importer/dialogpage.cpp:96
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Failed to delete the document:\n"
 #| "%2"
@@ -1588,14 +1586,12 @@ msgstr[0] "無法建立目標資料夾。"
 #| "Failed to delete documents:\n"
 #| "%2"
 msgid "Failed to import documents:"
-msgstr ""
-"刪除文件失敗：\n"
-"%2"
+msgstr "無法匯入文件："
 
 #: importer/dialogpage.cpp:105
 #, kde-format
 msgid "Failed to create subfolders:"
-msgstr ""
+msgstr "無法建立子資料夾："
 
 #: importer/filenameformater.cpp:104
 #, kde-format
@@ -1981,8 +1977,7 @@ msgctxt "@info"
 msgid ""
 "Could not open file for writing, check that you have the necessary rights in "
 "<filename>%1</filename>."
-msgstr ""
-"無法開啟檔案寫入。請檢查您是否有足夠的權限寫入 <filename>%1</filename>。"
+msgstr "無法開啟檔案寫入。請檢查您是否有足夠的權限寫入 <filename>%1</filename>。"
 
 #: lib/document/savejob.cpp:134
 #, kde-kuit-format

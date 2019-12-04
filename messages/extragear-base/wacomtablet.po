@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-05-20 02:42+0200\n"
-"PO-Revision-Date: 2019-11-03 14:05+0800\n"
+"PO-Revision-Date: 2019-12-04 23:02+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.08.2\n"
+"X-Generator: Lokalize 19.11.90\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -435,7 +435,7 @@ msgstr "手動註冊繪圖板"
 msgid ""
 "This will open another window, prompting you to describe your tablet device. "
 "After you're done, please restart your desktop session."
-msgstr ""
+msgstr "這會開啟另一個視窗，會提示描述您的繪圖板裝置。完成後請重新啟動桌面階段。"
 
 #: src/kcmodule/generalpagewidget.cpp:57
 #, kde-format
@@ -784,7 +784,7 @@ msgstr "尖端感覺"
 #: src/kcmodule/styluspagewidget.ui:412 src/kcmodule/styluspagewidget.ui:421
 #, kde-format
 msgid "Number of raw data used to filter the points (default is 4)"
-msgstr ""
+msgstr "用來過濾指標的原始資料數 (預設為 4)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBoxRawSample)
 #: src/kcmodule/styluspagewidget.ui:415
@@ -815,7 +815,7 @@ msgstr ""
 #: src/kcmodule/styluspagewidget.ui:492
 #, kde-format
 msgid "Suppress Rate"
-msgstr ""
+msgstr "抑制速率"
 
 #. i18n: ectx: property (text), widget (QLabel, labelMinSuppress)
 #: src/kcmodule/styluspagewidget.ui:525
@@ -1362,10 +1362,10 @@ msgstr "觸控感應器"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioNormalTablet)
 #: src/tabletfinder/dialog.ui:227
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Wacom Tablet Settings"
 msgid "&Normal tablet"
-msgstr "Wacom 繪圖板設定"
+msgstr "一般繪圖板(&N)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioParentTablet)
 #: src/tabletfinder/dialog.ui:239

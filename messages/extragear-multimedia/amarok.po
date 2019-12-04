@@ -12,14 +12,14 @@ msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-10-05 02:35+0200\n"
-"PO-Revision-Date: 2019-05-14 22:35+0800\n"
+"PO-Revision-Date: 2019-12-04 23:11+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
-"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.04.1\n"
+"X-Generator: Lokalize 19.11.90\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -112,8 +112,7 @@ msgstr "從 openDesktop.org 取得資料以瞭解更多有關於此團隊的資�
 msgid ""
 "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to report "
 "bugs.\n"
-msgstr ""
-"請用 <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> 來回報問題。\n"
+msgstr "請用 <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> 來回報問題。\n"
 
 #: aboutdialog/ExtendedAboutDialog.cpp:237
 #: aboutdialog/ExtendedAboutDialog.cpp:243
@@ -771,13 +770,13 @@ msgstr ""
 #: amarokconfig.kcfg:184
 #, kde-format
 msgid "Format Presets"
-msgstr "格式預設定"
+msgstr "格式預設"
 
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
 #: amarokconfig.kcfg:185
 #, kde-format
 msgid "A list of preset formats (token schemas)."
-msgstr "格式預設定清單。"
+msgstr "格式預設清單。"
 
 #. i18n: ectx: label, entry, group (Playback)
 #: amarokconfig.kcfg:192
@@ -837,7 +836,7 @@ msgstr "淡出時間，單位是毫秒。"
 #: amarokconfig.kcfg:220
 #, kde-format
 msgid "Equalizer mode - 0 = off, 1 to n = preset no"
-msgstr "等化器模式 - 0 為關閉，1 到 n 為預設定編號"
+msgstr "等化器模式 - 0 為關閉，1 到 n 為預設編號"
 
 #. i18n: ectx: whatsthis, entry, group (Playback)
 #: amarokconfig.kcfg:221
@@ -855,13 +854,13 @@ msgstr "11 等化器的前置放大值，範圍是 -100...100，0 則為正常�
 #: amarokconfig.kcfg:229
 #, kde-format
 msgid "List with user equalizer preset names"
-msgstr "列出使用者等化器預設定名稱"
+msgstr "列出使用者等化器預設名稱"
 
 #. i18n: ectx: label, entry, group (Playback)
 #: amarokconfig.kcfg:232
 #, kde-format
 msgid "List with user presets values"
-msgstr "列出使用者預設定值"
+msgstr "列出使用者預設值"
 
 #. i18n: ectx: label, entry, group (Playback)
 #: amarokconfig.kcfg:236
@@ -2222,37 +2221,37 @@ msgstr "依指定的規則建立播放清單"
 #: browsers/playlistbrowser/APGCategory.cpp:63
 #, kde-format
 msgid "Add new preset"
-msgstr "新增預設定"
+msgstr "新增預設"
 
 #: browsers/playlistbrowser/APGCategory.cpp:66
 #, kde-format
 msgid "Edit selected preset"
-msgstr "編輯選取的預設定"
+msgstr "編輯選取的預設"
 
 #: browsers/playlistbrowser/APGCategory.cpp:71
 #, kde-format
 msgid "Delete selected preset"
-msgstr "刪除選取的預設定"
+msgstr "刪除選取的預設"
 
 #: browsers/playlistbrowser/APGCategory.cpp:76
 #, kde-format
 msgid "Import a new preset"
-msgstr "匯入新的預設定"
+msgstr "匯入新的預設"
 
 #: browsers/playlistbrowser/APGCategory.cpp:80
 #, kde-format
 msgid "Export the selected preset"
-msgstr "匯出選取的預設定"
+msgstr "匯出選取的預設"
 
 #: browsers/playlistbrowser/APGCategory.cpp:87
 #, kde-format
 msgid "Run APG with selected preset"
-msgstr "以選取的預設定執行播放清單產生器"
+msgstr "以選取的預設執行播放清單產生器"
 
 #: browsers/playlistbrowser/APGCategory.cpp:93
 #, kde-format
 msgid "APG Presets"
-msgstr "播放清單產生器預設定"
+msgstr "播放清單產生器預設"
 
 #: browsers/playlistbrowser/APGCategory.cpp:107
 #, kde-format
@@ -2916,6 +2915,8 @@ msgid ""
 "Changes to database settings only take\n"
 "effect after Amarok is restarted."
 msgstr ""
+"資料庫設定變更只會在\n"
+"Amarok 重新啟動後才會生效。"
 
 #: configdialog/dialogs/DatabaseConfig.cpp:137
 #, kde-format
@@ -3245,25 +3246,25 @@ msgid "Synchronize Ratings"
 msgstr "同步評等"
 
 #: configdialog/dialogs/MetadataConfig.cpp:106
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Synchronize Statistics"
 msgctxt "Statistics sync checkbox label"
 msgid "Synchronize First Played Times"
 msgstr "同步第一次播放次數"
 
 #: configdialog/dialogs/MetadataConfig.cpp:108
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Synchronize Labels"
 msgctxt "Statistics sync checkbox label"
 msgid "Synchronize Last Played Times"
 msgstr "同步最後一次播放次數"
 
 #: configdialog/dialogs/MetadataConfig.cpp:110
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Synchronize Labels"
 msgctxt "Statistics sync checkbox label"
 msgid "Synchronize Playcounts"
-msgstr "同步標籤"
+msgstr "同步播放次數"
 
 #: configdialog/dialogs/MetadataConfig.cpp:112
 #, kde-format
@@ -3446,8 +3447,7 @@ msgstr "持續時間(&D)："
 msgid ""
 "The time in milliseconds for which to show the OSD. The value must be "
 "between 500 ms and 10000 ms."
-msgstr ""
-"顯示 OSD 的時間 (單位為毫秒)。這個數值必須介於 500 ms 與 10000 ms 之間。"
+msgstr "顯示 OSD 的時間 (單位為毫秒)。這個數值必須介於 500 ms 與 10000 ms 之間。"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_OsdDuration)
 #: configdialog/dialogs/NotificationsConfig.ui:71
@@ -3713,7 +3713,7 @@ msgid "Invalid Script File"
 msgstr "不合法的文稿檔"
 
 #: configdialog/dialogs/ScriptsConfig.cpp:184
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Another script with the name %1 already exists\n"
 #| "Existing Script's Version: %1\n"
@@ -3724,8 +3724,8 @@ msgid ""
 "Selected Script's Version: %3"
 msgstr ""
 "另外已經有一個名為 %1 的文稿存在。\n"
-"現有文稿的版本：%1\n"
-"選取文稿的版本：%2"
+"現有文稿的版本：%2\n"
+"選取文稿的版本：%3"
 
 #: configdialog/dialogs/ScriptsConfig.cpp:195
 #, kde-format
@@ -3821,22 +3821,22 @@ msgid "Search Scripts"
 msgstr "搜尋文稿"
 
 #: context/AmarokContextPackageStructure.cpp:26
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Invalid Script File"
 msgid "Main Script File"
-msgstr "不合法的文稿檔"
+msgstr "主要文稿檔"
 
 #: context/AmarokContextPackageStructure.cpp:27
 #: context/AmarokContextPackageStructure.cpp:28
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Apple Lossless"
 msgid "Applet Icon File"
-msgstr "Apple 不失真格式"
+msgstr "小程式圖示檔案"
 
 #: context/AmarokContextPackageStructure.cpp:30
 #, kde-format
 msgid "Images"
-msgstr ""
+msgstr "影像"
 
 #: context/applets/albums/plugin/AlbumItem.cpp:109
 #: statsyncing/ui/MatchedTracksPage.cpp:378
@@ -4855,10 +4855,10 @@ msgid "Upgrade the applet at <path>"
 msgstr "從 <path> 升級小程式"
 
 #: context/tools/amarokpkg.cpp:114
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "List installed applets"
 msgid "Most installed applets"
-msgstr "列出已安裝的小程式"
+msgstr "安裝最多次的小程式"
 
 #: context/tools/amarokpkg.cpp:116
 #, kde-format
@@ -4942,7 +4942,7 @@ msgid "Audio CD"
 msgstr "音效 CD"
 
 #: core-impl/collections/audiocd/FormatSelectionDialog.cpp:63
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Ogg Vorbis is a fully free and unencumbered compressed audio format that "
 #| "is perfect for storing your compressed music on your computer. The sound "
@@ -4955,11 +4955,11 @@ msgid ""
 "mobile players support the Ogg Vorbis format."
 msgstr ""
 "Ogg Vorbis 是種完全自由且不受妨礙的音效壓縮格式，非常適合用來在您的電腦上儲存"
-"您壓縮的音樂。它的音效品質比同樣位元率下的 Mp3 還要好一些。請注意不是所有的攜"
+"您壓縮的音樂。它的音效品質比同樣位元率下的 MP3 還要好一些。請注意不是所有的攜"
 "帶型播放器都能支援 Ogg Vorbis 格式"
 
 #: core-impl/collections/audiocd/FormatSelectionDialog.cpp:69
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Flac is a lossless compressed audio format free of any patents or license "
 #| "fees. It maintains perfect CD audio quality while reducing file size by "
@@ -4971,13 +4971,13 @@ msgid ""
 "about 50%. Because the filesize is much larger than Ogg Vorbis or MP3 it is "
 "not recommended if you want to transfer your music to a mobile player."
 msgstr ""
-"Flac 是種無損壓縮音效格式，不需要繳納任何專利或是授權費用。它可以在把檔案大小"
+"FLAC 是種無損壓縮音效格式，不需要繳納任何專利或是授權費用。它可以在把檔案大小"
 "減少到 50% 左右的同時，還保有完美的 CD 音效品質。由於它的檔案大小比 Ogg "
-"Vorbis 或是 Mp3 來說都大了很多，如果您想要將您的音樂傳輸到可攜式播放器的話，"
+"Vorbis 或是 MP3 來說都大了很多，如果您想要將您的音樂傳輸到可攜式播放器的話，"
 "不建議您使用這個格式。"
 
 #: core-impl/collections/audiocd/FormatSelectionDialog.cpp:75
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Wav is a basic, uncompressed audio file format. It takes up a lot of "
 #| "space but maintains perfect quality. It is generally not recommended "
@@ -4988,11 +4988,11 @@ msgid ""
 "but maintains perfect quality. It is generally not recommended unless you "
 "know what you are doing. If you want perfect quality, use FLAC instead."
 msgstr ""
-"Wav 是一個基本未壓縮的聲音格式。它佔用較多空間不過保有完美的品質。通常不建議"
-"使用它，除非您知道您在做什麼。如果您想要保有完美品質，請改用 Flac。"
+"WAV 是一個基本未壓縮的聲音格式。它佔用較多空間不過保有完美的品質。通常不建議"
+"使用它，除非您知道您在做什麼。如果您想要保有完美品質，請改用 FLAC。"
 
 #: core-impl/collections/audiocd/FormatSelectionDialog.cpp:81
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Mp3 is the de facto standard in compressed audio compatible with almost "
 #| "all mobile players. It is however non free and generally not recommended."
@@ -5000,7 +5000,7 @@ msgid ""
 "MP3 is the de facto standard in compressed audio compatible with almost all "
 "mobile players. It is however non free and generally not recommended."
 msgstr ""
-"Mp3 是種相容於大多數可攜式播放器的壓縮音效的實際標準。然而它不是自由的，一般"
+"MP3 是種相容於大多數可攜式播放器的壓縮音效的實際標準。然而它不是自由的，一般"
 "來說不大建議使用。"
 
 #: core-impl/collections/audiocd/FormatSelectionDialog.cpp:114
@@ -6015,7 +6015,7 @@ msgstr "串流 (%1)"
 #: core-impl/meta/timecode/TimecodeMeta.cpp:83
 #, kde-format
 msgid "Url is not a local file"
-msgstr ""
+msgstr "Url 非本機檔案"
 
 #: core-impl/playlists/types/file/PlaylistFileLoaderJob.cpp:58
 #, kde-format
@@ -6426,10 +6426,10 @@ msgstr ""
 "您也可以針對每個頻道做變更。"
 
 #: core-impl/storage/StorageManager.cpp:162
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "The playlist file \"%1\" could not be loaded."
 msgid "The configured database plugin could not be loaded."
-msgstr "無法載入播放清單檔案 \"%1\"。"
+msgstr "無法載入設定過的資料庫外掛程式。"
 
 #: core/collections/CollectionLocation.cpp:381
 #, kde-format
@@ -6911,7 +6911,7 @@ msgid "modified"
 msgstr "已變更"
 
 #: core/meta/support/MetaConstants.cpp:257
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Lyrics"
 msgctxt "One word translation used in the collection filter"
 msgid "lyrics"
@@ -7065,11 +7065,11 @@ msgid "Unknown"
 msgstr "未知"
 
 #: core/support/Amarok.cpp:58
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1%"
 msgctxt "monthname year"
 msgid "%1"
-msgstr "%1%"
+msgstr "%1"
 
 #: core/support/Amarok.cpp:64
 #, kde-format
@@ -7253,10 +7253,10 @@ msgstr "較好的聲音品質"
 #: core/transcoding/formats/TranscodingAacFormat.cpp:56
 #, kde-format
 msgid "AAC"
-msgstr ""
+msgstr "AAC"
 
 #: core/transcoding/formats/TranscodingAacFormat.cpp:64
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt ""
 #| "Feel free to redirect the english Wikipedia link to a local version, if "
 #| "it exists."
@@ -7278,7 +7278,7 @@ msgstr ""
 "<a href=http://en.wikipedia.org/wiki/Advanced_Audio_Coding>進階音效編碼 "
 "(Advanced Audio Coding，AAC)</a> 是一種專利的數位音效編解碼器。<br/>AAC 一般"
 "而言雖然會失真，但聲音品質比同樣位元率的 MP3 好。它也是 iPod 與一些其他的可攜"
-"式音樂播放器一個合理的選擇。不過此實作有專利。"
+"式音樂播放器一個合理的選擇。"
 
 #: core/transcoding/formats/TranscodingAlacFormat.cpp:33
 #, kde-format
@@ -7721,10 +7721,10 @@ msgid "Download Progress"
 msgstr "下載進度"
 
 #: covermanager/CoverFoundDialog.cpp:541
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Cancel"
 msgid "Cancel"
-msgstr "取消(&C)"
+msgstr "取消"
 
 #: covermanager/CoverFoundDialog.cpp:702
 #, kde-format
@@ -7949,18 +7949,18 @@ msgid ", "
 msgstr ", "
 
 #: covermanager/CoverManager.cpp:701
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "%1 is track url, %2 artist name"
 #| msgid "%1 (by %2)"
 msgid "%1 by %2"
-msgstr "%1 (由 %2)"
+msgstr "%2 - %1"
 
 #: covermanager/CoverManager.cpp:706
-#, fuzzy, kde-format
+#, kde-format
 #| msgid " - ( <b>%1</b> without cover )"
 msgid "%2 - ( <b>1</b> without cover )"
 msgid_plural "%2 - ( <b>%1</b> without cover )"
-msgstr[0] " - ( <b>%1</b> 張無封面 )"
+msgstr[0] "%2 - ( <b>%1</b> 張無封面 )"
 
 #: covermanager/CoverManager.cpp:765
 #, kde-format
@@ -8136,8 +8136,7 @@ msgctxt ""
 msgid ""
 "Imported <b><font color='green'>%1 - %2 (%3)</font></b><br/>&nbsp;&nbsp;from "
 "%4<br/>&nbsp;&nbsp;to %5"
-msgstr ""
-"已從 %4 匯入 <b><font color='green'>%1 - %2 (%3) </font></b><br/> 到 %5"
+msgstr "已從 %4 匯入 <b><font color='green'>%1 - %2 (%3) </font></b><br/> 到 %5"
 
 #: dialogs/DatabaseImporterDialog.cpp:195
 #, kde-format
@@ -8145,8 +8144,7 @@ msgctxt "Track has been matched ambiguously, format: Url"
 msgid ""
 "Multiple ambiguous matches found for <b><font color='red'>%1</font></b>, has "
 "been discarded."
-msgstr ""
-"所找到的多筆不明確符合 <b><font color='red'>%1</font></b> 的資料已被丟棄。"
+msgstr "所找到的多筆不明確符合 <b><font color='red'>%1</font></b> 的資料已被丟棄。"
 
 #: dialogs/deletedialog.cpp:63
 #, kde-format
@@ -8347,7 +8345,7 @@ msgid "No"
 msgstr "否"
 
 #: dialogs/DiagnosticDialog.cpp:114
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "%1 Diagnostics\n"
 #| "\n"
@@ -8375,7 +8373,7 @@ msgstr ""
 "\n"
 "一般資訊：\n"
 "  %1 版本：%2\n"
-"  KDE 版本：%3\n"
+"  KDE Frameworks 版本：%3\n"
 "  Qt 版本：%4\n"
 "  Phonon 版本：%5\n"
 "  Phonon 後端介面：%6 (%7)\n"
@@ -8473,19 +8471,19 @@ msgstr "啟動"
 #: dialogs/EqualizerDialog.ui:29
 #, kde-format
 msgid "Presets"
-msgstr "預設定"
+msgstr "預設"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, eqPresets)
 #: dialogs/EqualizerDialog.ui:41
 #, kde-format
 msgid "List of available equalizer presets."
-msgstr "可用的等化器預設定。"
+msgstr "可用的等化器預設。"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, eqPresetSaveBtn)
 #: dialogs/EqualizerDialog.ui:57
 #, kde-format
 msgid "Save changes of currently selected preset"
-msgstr "將變更儲存到目前選取的預設定"
+msgstr "將變更儲存到目前選取的預設"
 
 #. i18n: ectx: property (text), widget (QPushButton, eqPresetSaveBtn)
 #: dialogs/EqualizerDialog.ui:60
@@ -8497,13 +8495,13 @@ msgstr "存檔"
 #: dialogs/EqualizerDialog.ui:73
 #, kde-format
 msgid "Delete currently selected preset. Not available for built-in presets."
-msgstr "刪除目前選取的預設定。不能刪除內建的預設定。"
+msgstr "刪除目前選取的預設。不能刪除內建的預設。"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, eqPresetResetBtn)
 #: dialogs/EqualizerDialog.ui:89
 #, kde-format
 msgid "Reset selected preset setting to default or to the last saved change."
-msgstr "將選取的預設定重置為預設值或是最後儲存的變更。"
+msgstr "將選取的預設重置為預設值或是最後儲存的變更。"
 
 #. i18n: ectx: property (text), widget (QPushButton, eqPresetResetBtn)
 #: dialogs/EqualizerDialog.ui:92
@@ -8646,13 +8644,13 @@ msgid "%1 or %2"
 msgstr "%1 或 %2"
 
 #: dialogs/OrganizeCollectionDialog.cpp:113
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Album Artist"
 msgid "The Album Artist"
-msgstr "專輯的演出者"
+msgstr "專輯演出者"
 
 #: dialogs/OrganizeCollectionDialog.cpp:114
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Artist"
 msgid "The Artist"
 msgstr "演出者"
@@ -9546,7 +9544,7 @@ msgid "Convert spaces to underscores"
 msgstr "把空格以底線替換"
 
 #: dynamic/Bias.cpp:141 dynamic/biases/SearchQueryBias.cpp:115
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Random Tracks"
 msgctxt "Random bias representation"
 msgid "Random tracks"
@@ -10218,10 +10216,10 @@ msgid "No information available for this track"
 msgstr "這首曲目沒有可用的資訊。"
 
 #: main.cpp:99
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "The audio player for KDE"
 msgid "The audio player by KDE"
-msgstr "KDE 的音樂播放程式"
+msgstr "來自 KDE 的音樂播放程式"
 
 #: main.cpp:101
 #, kde-format
@@ -11220,16 +11218,16 @@ msgid "Edit Details of Currently Selected Track"
 msgstr "編輯目前選取的曲目詳情"
 
 #: MainWindow.cpp:813 MainWindow.cpp:819 MainWindow.cpp:826
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Seek Forward by %1"
 msgid "Seek Forward by %1 seconds"
-msgstr "往前搜尋 %1"
+msgstr "往前搜尋 %1 秒"
 
 #: MainWindow.cpp:833 MainWindow.cpp:839 MainWindow.cpp:846
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Seek Backward by %1"
 msgid "Seek Backward by %1 seconds"
-msgstr "往後搜尋 %1"
+msgstr "往後搜尋 %1 秒"
 
 #: MainWindow.cpp:852
 #, kde-format
@@ -11793,8 +11791,7 @@ msgstr "無法重新命名此配置，因為已有相同名稱的配置。"
 msgid ""
 "The layout '%1' you modified is one of the default layouts and cannot be "
 "overwritten. Saved as new layout '%2'"
-msgstr ""
-"您修改的 '%1' 配置是預設配置之一，無法被覆寫。已用 '%2' 的名稱儲存一個複本。"
+msgstr "您修改的 '%1' 配置是預設配置之一，無法被覆寫。已用 '%2' 的名稱儲存一個複本。"
 
 #: playlist/layouts/PlaylistLayoutEditDialog.cpp:408
 #, kde-format
@@ -12704,7 +12701,7 @@ msgstr "播放清單的檔案總大小：未知"
 #. i18n: ectx: property (whatsThis), widget (QWidget, PlaylistFileSizeEditWidget)
 #: playlistgenerator/constraints/PlaylistFileSizeEditWidget.ui:15
 #: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:15
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "An editor for a Playlist Length constraint.  The user can the target "
 #| "number of tracks and whether the playlist contain fewer than, equal to, "
@@ -12815,7 +12812,7 @@ msgid "Sets the preferred number of tracks in the playlist"
 msgstr "設定播放清單中想要的曲目數量"
 
 #: playlistgenerator/constraints/PlaylistLength.cpp:118
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "%1 is a number"
 #| msgid "Playlist length: %1 tracks"
 msgctxt "%1 is a number"
@@ -12824,7 +12821,7 @@ msgid_plural "Playlist length: %1 tracks"
 msgstr[0] "播放清單長度：%1 個曲目"
 
 #: playlistgenerator/constraints/PlaylistLength.cpp:120
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "%1 is a number"
 #| msgid "Playlist length: more than %1 tracks"
 msgctxt "%1 is a number"
@@ -12833,7 +12830,7 @@ msgid_plural "Playlist length: more than %1 tracks"
 msgstr[0] "播放清單長度：大於 %1 個曲目"
 
 #: playlistgenerator/constraints/PlaylistLength.cpp:123
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "%1 is a number"
 #| msgid "Playlist length: less than %1 tracks"
 msgctxt "%1 is a number"
@@ -13448,12 +13445,12 @@ msgstr ""
 #: playlistgenerator/Preset.cpp:45 playlistgenerator/Preset.cpp:58
 #, kde-format
 msgid "New playlist preset"
-msgstr "新的播放清單預設定"
+msgstr "新的播放清單預設"
 
 #: playlistgenerator/Preset.cpp:48 playlistgenerator/Preset.cpp:70
 #, kde-format
 msgid "Unnamed playlist preset"
-msgstr "未命名播放清單預設定"
+msgstr "未命名播放清單預設"
 
 #: playlistgenerator/Preset.cpp:132
 #, kde-format
@@ -13486,7 +13483,7 @@ msgstr "條件群組"
 #: playlistgenerator/PresetEditDialog.ui:15
 #, kde-format
 msgid "APG Preset Editor"
-msgstr "播放清單產生器預設定編輯器"
+msgstr "播放清單產生器預設編輯器"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_Tree)
 #: playlistgenerator/PresetEditDialog.ui:23
@@ -13498,38 +13495,38 @@ msgstr "條件樹"
 #: playlistgenerator/PresetEditDialog.ui:41
 #, kde-format
 msgid "APG Preset Name"
-msgstr "播放清單產生器預設定名稱"
+msgstr "播放清單產生器預設名稱"
 
 #: playlistgenerator/PresetModel.cpp:154
 #, kde-format
 msgid "Import preset"
-msgstr "匯入預設定"
+msgstr "匯入預設"
 
 #: playlistgenerator/PresetModel.cpp:156
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Preset files (*.xml)"
 msgid "Preset files"
-msgstr "預設定檔(*.xml)"
+msgstr "預設檔"
 
 #: playlistgenerator/PresetModel.cpp:216
 #, kde-format
 msgid "Preset exported to %1"
-msgstr "預設定匯出到 %1"
+msgstr "預設匯出到 %1"
 
 #: playlistgenerator/PresetModel.cpp:223
 #, kde-format
 msgid "Preset could not be exported to %1"
-msgstr "無法將預設定匯出到 %1"
+msgstr "無法將預設匯出到 %1"
 
 #: playlistgenerator/PresetModel.cpp:241
 #, kde-format
 msgid "Presets could not be imported from %1"
-msgstr "無法從 %1 匯入預設定"
+msgstr "無法從 %1 匯入預設"
 
 #: playlistgenerator/PresetModel.cpp:248
 #, kde-format
 msgid "%1 could not be opened for preset import"
-msgstr "%1 無法開啟做預設定匯入"
+msgstr "%1 無法開啟做預設匯入"
 
 #: playlistgenerator/PresetModel.cpp:253
 #, kde-format
@@ -13559,12 +13556,12 @@ msgstr "範例 5：80 分鐘的搖滾樂、重金屬與工業之聲音樂光碟"
 #: playlistgenerator/PresetModel.cpp:297
 #, kde-format
 msgid "Export \"%1\" preset"
-msgstr "匯出 \"%1\" 預設定"
+msgstr "匯出 \"%1\" 預設"
 
 #: playlistgenerator/PresetModel.cpp:299
 #, kde-format
 msgid "Preset files (*.xml)"
-msgstr "預設定檔(*.xml)"
+msgstr "預設檔(*.xml)"
 
 #: playlistmanager/file/PlaylistFileProvider.cpp:98
 #, kde-format
@@ -13876,10 +13873,10 @@ msgid "Ampache Server %1"
 msgstr "Ampache 伺服器 %1"
 
 #: services/ampache/LastfmInfoParser.cpp:66
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Update"
 msgid "Updated: %1"
-msgstr "更新"
+msgstr "已更新：%1"
 
 #: services/ampache/LastfmInfoParser.cpp:68
 #, kde-format
@@ -13998,8 +13995,7 @@ msgstr "gpodder.net 憑證"
 msgid ""
 "No running KWallet found. Would you like Amarok to save your gpodder.net "
 "credentials in plaintext?"
-msgstr ""
-"沒有找到執行中的 KWallet。您要讓 Amarok 用純文字儲存您的 gpodder.net 密碼嗎？"
+msgstr "沒有找到執行中的 KWallet。您要讓 Amarok 用純文字儲存您的 gpodder.net 密碼嗎？"
 
 #: services/gpodder/GpodderServiceSettings.cpp:95
 #: services/lastfm/LastFmServiceSettings.cpp:109
@@ -14069,7 +14065,7 @@ msgid "A site where artists can freely share their music"
 msgstr "一個讓演出者可以自由分享他們的音樂的站台"
 
 #: services/jamendo/JamendoService.cpp:76
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "A archive of free, Creative Commons licensed music"
 msgid "An archive of free, Creative Commons licensed music"
 msgstr "創用 CC 授權的自由音樂集"
@@ -14453,16 +14449,15 @@ msgstr "開啟 KDE 錢包以讀取 Last.fm 的憑證資料時失敗"
 #: services/lastfm/LastFmServiceConfig.cpp:271
 #, kde-format
 msgid "No running KWallet found."
-msgstr ""
+msgstr "未找到執行中 KWallet。"
 
 #: services/lastfm/LastFmServiceConfig.cpp:272
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "No running KWallet found. Would you like Amarok to save your Last.fm "
 #| "credentials in plaintext?"
 msgid "Would you like Amarok to save your Last.fm credentials in plaintext?"
-msgstr ""
-"沒有找到執行中的 KWallet。您要讓 Amarok 用純文字儲存您的 Last.fm 密碼嗎？"
+msgstr "是否要讓 Amarok 用純文字儲存您的 Last.fm 密碼？"
 
 #: services/lastfm/LastFmServiceSettings.cpp:147
 #, kde-format
@@ -15584,8 +15579,7 @@ msgstr "一大份 podcast 清單"
 msgid ""
 "A comprehensive list of searchable podcasts that you can subscribe to "
 "directly from within Amarok."
-msgstr ""
-"一個可以搜尋到的無所不包的 podcast 清單，您可以直接使用 Amarok 進行訂閱。"
+msgstr "一個可以搜尋到的無所不包的 podcast 清單，您可以直接使用 Amarok 進行訂閱。"
 
 #: services/opmldirectory/OpmlDirectoryService.cpp:160
 #, kde-format
@@ -16270,40 +16264,40 @@ msgstr "預先設定："
 #: widgets/FilenameLayoutWidget.cpp:88
 #, kde-format
 msgid "A list of selectable filename scheme/format presets."
-msgstr "可選取的檔名機制/格式預設定清單。"
+msgstr "可選取的檔名機制/格式預設清單。"
 
 #: widgets/FilenameLayoutWidget.cpp:92
 #, kde-format
 msgid "Add preset"
-msgstr "新增預設定"
+msgstr "新增預設"
 
 #: widgets/FilenameLayoutWidget.cpp:93
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Saves the current scheme/format above as a preset."
 msgid "Saves the current scheme/format as new preset."
-msgstr "將目前上方的機制/格式儲存為預設定。"
+msgstr "將目前機制／格式存成新預設。"
 
 #: widgets/FilenameLayoutWidget.cpp:96
 #, kde-format
 msgid "Update preset"
-msgstr "更新預設定"
+msgstr "更新預設"
 
 #: widgets/FilenameLayoutWidget.cpp:97
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Saves the current scheme/format above as a preset."
 msgid "Updates the preset with the current scheme/format."
-msgstr "將目前上方的機制/格式儲存為預設定。"
+msgstr "依目前機制／格式更新預設。"
 
 #: widgets/FilenameLayoutWidget.cpp:100
 #, kde-format
 msgid "Remove preset"
-msgstr "移除預設定"
+msgstr "移除預設"
 
 #: widgets/FilenameLayoutWidget.cpp:101
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Removes the currently selected format preset"
 msgid "Removes the currently selected preset."
-msgstr "移除目前選取的格式預設定"
+msgstr "移除目前選取的預設。"
 
 #: widgets/FilenameLayoutWidget.cpp:198
 #, kde-format
@@ -16339,12 +16333,12 @@ msgstr "進階(&A)..."
 #: widgets/FilenameLayoutWidget.cpp:434
 #, kde-format
 msgid "New Preset"
-msgstr "新增預設定"
+msgstr "新增預設"
 
 #: widgets/FilenameLayoutWidget.cpp:434
 #, kde-format
 msgid "Preset Name"
-msgstr "預設定名稱"
+msgstr "預設名稱"
 
 #: widgets/MetaQueryWidget.cpp:132
 #, kde-format
@@ -16406,11 +16400,11 @@ msgid "MiB"
 msgstr "MiB"
 
 #: widgets/MetaQueryWidget.cpp:843
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "h:mm:ss"
 msgctxt "time format for specifying track length - hours, minutes, seconds"
 msgid "h:m:ss"
-msgstr "h:mm:ss"
+msgstr "h:m:ss"
 
 #: widgets/MetaQueryWidget.cpp:997
 #, kde-format
