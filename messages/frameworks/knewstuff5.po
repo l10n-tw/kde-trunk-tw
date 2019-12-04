@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-30 03:00+0100\n"
+"POT-Creation-Date: 2019-12-04 02:45+0100\n"
 "PO-Revision-Date: 2019-11-30 17:48+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -632,13 +632,20 @@ msgid "Currently updating the item %1 by %2. Please wait..."
 msgstr "正在使用 %2 更新 %1 項目。請稍候..."
 
 #: qtquick/qml/EntryDetails.qml:82
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Status message which should only be shown when the entry has been given "
+#| "some unknown or invalid status."
+#| msgid ""
+#| "This item is currently in an invalid or unknown state. Please report this "
+#| "to the KDE Community in a bug report."
 msgctxt ""
 "Status message which should only be shown when the entry has been given some "
 "unknown or invalid status."
 msgid ""
-"This item is currently in an invalid or unknown state. Please report this to "
-"the KDE Community in a bug report."
+"This item is currently in an invalid or unknown state. <a href=\"https://"
+"bugs.kde.org/enter_bug.cgi?product=frameworks-knewstuff\">Please report this "
+"to the KDE Community in a bug report</a>."
 msgstr "這個項目目前無效或處於不明狀態。請在漏洞回報中回報此問題至 KDE 社群。"
 
 #: qtquick/qml/EntryDetails.qml:93
@@ -686,12 +693,12 @@ msgctxt "Request uninstallation of this item"
 msgid "Uninstall"
 msgstr "解除安裝"
 
-#: qtquick/qml/EntryDetails.qml:176
+#: qtquick/qml/EntryDetails.qml:175
 #, kde-format
 msgid "Comments and Reviews:"
 msgstr "留言及評論："
 
-#: qtquick/qml/EntryDetails.qml:178
+#: qtquick/qml/EntryDetails.qml:177
 #, kde-format
 msgctxt ""
 "A link which, when clicked, opens a new sub page with comments (comments "
@@ -699,17 +706,17 @@ msgctxt ""
 msgid "%1 Reviews and Comments"
 msgstr "%1 則評論及留言"
 
-#: qtquick/qml/EntryDetails.qml:183
+#: qtquick/qml/EntryDetails.qml:182
 #, kde-format
 msgid "Rating:"
 msgstr "評價："
 
-#: qtquick/qml/EntryDetails.qml:187
+#: qtquick/qml/EntryDetails.qml:186
 #, kde-format
 msgid "Homepage:"
 msgstr "首頁："
 
-#: qtquick/qml/EntryDetails.qml:188
+#: qtquick/qml/EntryDetails.qml:187
 #, kde-format
 msgctxt ""
 "A link which, when clicked, opens the website associated with the entry "
@@ -718,12 +725,12 @@ msgctxt ""
 msgid "Open the homepage for %1"
 msgstr "開啟 %1 首頁"
 
-#: qtquick/qml/EntryDetails.qml:192
+#: qtquick/qml/EntryDetails.qml:191
 #, kde-format
 msgid "How To Donate:"
 msgstr "捐助方法："
 
-#: qtquick/qml/EntryDetails.qml:193
+#: qtquick/qml/EntryDetails.qml:192
 #, kde-format
 msgctxt ""
 "A link which, when clicked, opens a website with information on donation in "
@@ -881,16 +888,23 @@ msgid "Updating..."
 msgstr "更新中..."
 
 #: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:63
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Label for the busy indicator which should only be shown when the entry "
+#| "has been given some unknown or invalid status."
+#| msgid ""
+#| "Invalid or unknown state. Please report this to the KDE Community in a "
+#| "bug report."
 msgctxt ""
 "Label for the busy indicator which should only be shown when the entry has "
 "been given some unknown or invalid status."
 msgid ""
-"Invalid or unknown state. Please report this to the KDE Community in a bug "
-"report."
+"Invalid or unknown state. <a href=\"https://bugs.kde.org/enter_bug.cgi?"
+"product=frameworks-knewstuff\">Please report this to the KDE Community in a "
+"bug report</a>."
 msgstr "處於無效或未知狀態。請在臭蟲報告中回報此問題至 KDE 社群。"
 
-#: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:75
+#: qtquick/qml/private/entrygriddelegates/FeedbackOverlay.qml:76
 #, kde-format
 msgctxt "Label for the busy indicator showing an item is installing"
 msgid "Installing..."

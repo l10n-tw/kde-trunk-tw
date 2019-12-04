@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kphotoalbum\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-13 02:40+0100\n"
+"POT-Creation-Date: 2019-12-04 02:36+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -833,7 +833,7 @@ msgstr ""
 "色</b>：工作佇列已被暫停</li><li><b>閃爍黃色</b>：工作佇列中的背景工作已暫"
 "停，前景工作執行中（例如正在縮圖檢視器中展開影片檔縮圖）</li></ul></p>"
 
-#: Browser/AbstractCategoryModel.cpp:50 Exif/SearchDialog.cpp:400
+#: Browser/AbstractCategoryModel.cpp:50 Exif/SearchDialog.cpp:398
 #: Exif/SearchInfo.cpp:194
 #, kde-format
 msgctxt "As in No persons, no locations etc."
@@ -1442,110 +1442,106 @@ msgid "Settings"
 msgstr "設定"
 
 #: Exif/SearchDialog.cpp:67
-#, kde-format
-msgid "Aperture Value"
+#, fuzzy, kde-format
+#| msgid "Aperture Value"
+msgid "Aperture (F Number)"
 msgstr "光圈值"
 
-#: Exif/SearchDialog.cpp:68
-#, kde-format
-msgid "F Number"
-msgstr "焦距比數"
-
-#: Exif/SearchDialog.cpp:78
+#: Exif/SearchDialog.cpp:77
 #, kde-format
 msgid "Focal Length"
 msgstr "焦距："
 
-#: Exif/SearchDialog.cpp:86
+#: Exif/SearchDialog.cpp:85
 #, kde-format
 msgctxt "As in 'A range from x to y'"
 msgid "to"
 msgstr "到"
 
-#: Exif/SearchDialog.cpp:95
+#: Exif/SearchDialog.cpp:94
 #, kde-format
 msgctxt "This is millimeter for focal length, like 35mm"
 msgid "mm"
 msgstr "mm"
 
-#: Exif/SearchDialog.cpp:111
+#: Exif/SearchDialog.cpp:110
 #, kde-format
 msgid "Camera"
 msgstr "相機"
 
-#: Exif/SearchDialog.cpp:115
+#: Exif/SearchDialog.cpp:114
 #, kde-format
 msgid "Lens"
 msgstr ""
 
-#: Exif/SearchDialog.cpp:120 Settings/GeneralPage.cpp:129
+#: Exif/SearchDialog.cpp:119 Settings/GeneralPage.cpp:129
 #, kde-format
 msgid "Miscellaneous"
 msgstr "雜項"
 
-#: Exif/SearchDialog.cpp:146
+#: Exif/SearchDialog.cpp:145
 #, kde-format
 msgid "Iso setting"
 msgstr "ISO 設定"
 
-#: Exif/SearchDialog.cpp:151
+#: Exif/SearchDialog.cpp:150
 #, kde-format
 msgctxt "Example 1.6 secs (as in seconds)"
 msgid "secs."
 msgstr "秒。"
 
-#: Exif/SearchDialog.cpp:190
+#: Exif/SearchDialog.cpp:189
 #, kde-format
 msgid "1 second"
 msgstr "1 秒"
 
-#: Exif/SearchDialog.cpp:207
+#: Exif/SearchDialog.cpp:206
 #, kde-format
 msgid "Exposure time"
 msgstr "曝光時間"
 
-#: Exif/SearchDialog.cpp:257
+#: Exif/SearchDialog.cpp:256
 #, kde-format
 msgid "Exposure Program"
 msgstr "曝光程式"
 
-#: Exif/SearchDialog.cpp:274 ImportExport/MD5CheckPage.cpp:79
+#: Exif/SearchDialog.cpp:273 ImportExport/MD5CheckPage.cpp:79
 #, kde-format
 msgid "Orientation"
 msgstr "方向"
 
-#: Exif/SearchDialog.cpp:286
+#: Exif/SearchDialog.cpp:285
 #, kde-format
 msgid "Metering Mode"
 msgstr "量尺模式"
 
-#: Exif/SearchDialog.cpp:302
+#: Exif/SearchDialog.cpp:301
 #, kde-format
 msgid "Contrast"
 msgstr "對比"
 
-#: Exif/SearchDialog.cpp:313
+#: Exif/SearchDialog.cpp:312
 #, kde-format
 msgid "Sharpness"
 msgstr "尖銳"
 
-#: Exif/SearchDialog.cpp:324
+#: Exif/SearchDialog.cpp:323
 #, kde-format
 msgid "Saturation"
 msgstr "飽和度"
 
-#: Exif/SearchDialog.cpp:376
+#: Exif/SearchDialog.cpp:374
 #, kde-format
 msgid "No cameras found in the database"
 msgstr "資料庫中找不到相機"
 
-#: Exif/SearchDialog.cpp:396
+#: Exif/SearchDialog.cpp:394
 #, fuzzy, kde-format
 #| msgid "No cameras found in the database"
 msgid "No lenses found in the database"
 msgstr "資料庫中找不到相機"
 
-#: Exif/SearchDialog.cpp:411
+#: Exif/SearchDialog.cpp:409
 #, kde-format
 msgid ""
 "Not all images in the database have lens information. <note>Recreate the "
@@ -6839,6 +6835,9 @@ msgstr ""
 #| msgid "Converting database"
 msgid "Error while reading database file"
 msgstr "轉換資料庫"
+
+#~ msgid "F Number"
+#~ msgstr "焦距比數"
 
 #, fuzzy
 #~| msgid "Toggle fullscreen preview"

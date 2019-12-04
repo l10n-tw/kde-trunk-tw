@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalzium\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-02 03:00+0100\n"
+"POT-Creation-Date: 2019-12-04 02:48+0100\n"
 "PO-Revision-Date: 2019-09-22 19:06+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -30,22 +30,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
 
-#: compoundviewer/iowrapper.cpp:35
+#: compoundviewer/iowrapper.cpp:38
 #, kde-format
 msgid "Problem while opening the file"
 msgstr "開啟檔案時發生問題"
 
-#: compoundviewer/iowrapper.cpp:36
+#: compoundviewer/iowrapper.cpp:39
 #, kde-format
 msgid "Cannot open the specified file."
 msgstr "無法開啟指定的檔案"
 
-#: compoundviewer/iowrapper.cpp:53
+#: compoundviewer/iowrapper.cpp:64
 #, kde-format
 msgid "Sorry"
 msgstr "抱歉"
 
-#: compoundviewer/iowrapper.cpp:53
+#: compoundviewer/iowrapper.cpp:64
 #, kde-format
 msgid "Cannot save to the specified file."
 msgstr "無法儲存指定的檔案。"
@@ -9340,12 +9340,12 @@ msgstr ""
 "沒有載入工具─似乎無法找到 Avogadro 外掛程式。除非能解決此問題，否則無法檢視分"
 "子。"
 
-#: src/tools/moleculeview.cpp:153 src/tools/moleculeview.cpp:213
+#: src/tools/moleculeview.cpp:153 src/tools/moleculeview.cpp:220
 #, kde-format
 msgid "Common molecule formats"
 msgstr "常用的分子格式"
 
-#: src/tools/moleculeview.cpp:154 src/tools/moleculeview.cpp:214
+#: src/tools/moleculeview.cpp:154 src/tools/moleculeview.cpp:221
 #, kde-format
 msgid "All files"
 msgstr "所有檔案"
@@ -9355,12 +9355,24 @@ msgstr "所有檔案"
 msgid "Choose a file to open"
 msgstr "選擇要開啟的檔案"
 
-#: src/tools/moleculeview.cpp:215
+#: src/tools/moleculeview.cpp:193
+#, fuzzy, kde-format
+#| msgid "Download New Molecules"
+msgid "Could not load molecule"
+msgstr "下載新分子"
+
+#: src/tools/moleculeview.cpp:193
+#, fuzzy, kde-format
+#| msgid "Open the given molecule file"
+msgid "Loading the molecule failed."
+msgstr "開啟指定的分子檔"
+
+#: src/tools/moleculeview.cpp:222
 #, kde-format
 msgid "Choose a file to save to"
 msgstr "選擇要儲存的檔案"
 
-#: src/tools/moleculeview.cpp:253
+#: src/tools/moleculeview.cpp:260
 #, kde-format
 msgctxt ""
 "This 'u' stands for the chemical unit (u for 'units'). Most likely this does "
@@ -9368,17 +9380,17 @@ msgctxt ""
 msgid "%1 u"
 msgstr "%1 u"
 
-#: src/tools/moleculeview.cpp:290
+#: src/tools/moleculeview.cpp:297
 #, kde-format
 msgid "Failed to download molecule %1 to %2."
 msgstr "下載分子 %1 到 %2 失敗。"
 
-#: src/tools/moleculeview.cpp:298
+#: src/tools/moleculeview.cpp:305
 #, kde-format
 msgid "The molecules that could be downloaded have been saved to %1."
 msgstr "可以下載的分子檔已經儲存到 %1。"
 
-#: src/tools/moleculeview.cpp:300
+#: src/tools/moleculeview.cpp:307
 #, kde-format
 msgid "The molecules have been saved to %1."
 msgstr "分子檔已經儲存到 %1。"
