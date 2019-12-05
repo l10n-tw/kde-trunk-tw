@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-04 02:37+0100\n"
+"POT-Creation-Date: 2019-12-05 02:33+0100\n"
 "PO-Revision-Date: 2019-12-04 23:04+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -7393,7 +7393,8 @@ msgstr ""
 msgid ""
 "Cannot load WinTab driver. If you have a drawing tablet, please make sure "
 "the tablet driver is properly installed."
-msgstr "無法載入 WinTab 驅動。如果你的數位板已連結，請確保其驅動程式已正確安裝。"
+msgstr ""
+"無法載入 WinTab 驅動。如果你的數位板已連結，請確保其驅動程式已正確安裝。"
 
 #: libs/basicflakes/tools/KoCreatePathTool.cpp:548
 #, kde-format
@@ -8227,30 +8228,6 @@ msgstr "無法在 「%2」 中找到 XML 標籤 「%1」"
 msgid "Error: incorrect type (%2) for value %1. Expected %3"
 msgstr "錯誤：數值 %1 的類型(%2)不正確。應該為 %3"
 
-#: libs/global/KisUsageLogger.cpp:107
-#, kde-format
-msgid ""
-"WARNING: This file contains information about your system and the\n"
-"images you have been working with.\n"
-"\n"
-"If you have problems with Krita, the Krita developers might ask\n"
-"you to share this file with them. The information in this file is\n"
-"not shared automatically with the Krita developers in any way. You\n"
-"can disable logging to this file in Krita's Configure Krita Dialog.\n"
-"\n"
-"Please review the contents of this file before sharing this file with\n"
-"anyone.\n"
-"\n"
-msgstr ""
-"警告：本檔案包含你的系統訊息和你正在處理的影像。\n"
-"\n"
-"如果你在使用 Krita 時遇到了問題，Krita 的開發人員可能會請你向他們分享本檔案。"
-"本檔案所含訊息不會以任何方式自動分享給 Krita 的開發人員。你可以在 Krita 的"
-"「設定 Krita」對話框中禁止將訊息記錄到本檔案。\n"
-"\n"
-"請在與其他人分享本檔案之前複查其中的內容。\n"
-"\n"
-
 #: libs/image/brushengine/kis_paintop_factory.cpp:50
 #, kde-format
 msgctxt "Category of brush engines"
@@ -8713,7 +8690,8 @@ msgstr "Lanczos3 演算法"
 msgid ""
 "Offers similar results than Bicubic, but maybe a little bit sharper. Can "
 "produce light and dark halos along strong edges."
-msgstr "與雙立方演算法效果類似，但或許銳度稍好。可能會在高反差邊緣處產生明暗光暈。"
+msgstr ""
+"與雙立方演算法效果類似，但或許銳度稍好。可能會在高反差邊緣處產生明暗光暈。"
 
 #: libs/image/kis_filter_strategy.h:174
 #, kde-format
@@ -9310,7 +9288,8 @@ msgctxt "image conversion warning"
 msgid ""
 "The image is not tagged as <b>non-linear gamma sRGB</b>. The image will be "
 "converted to sRGB."
-msgstr "影像未被標記為<b>非線性 gamma sRGB 色彩空間</b>。它將被轉成 sRGB 色彩空間。"
+msgstr ""
+"影像未被標記為<b>非線性 gamma sRGB 色彩空間</b>。它將被轉成 sRGB 色彩空間。"
 
 #: libs/koplugin/KisMimeDatabase.cpp:161
 #, kde-format
@@ -11367,7 +11346,8 @@ msgstr "<html><head/><body><h1 align=\"center\">眾籌支援者</h1><p>"
 #: libs/ui/dialogs/kis_about_application.cpp:111
 #, kde-format
 msgid ".</p><p><i>Thanks! You were all <b>awesome</b>!</i></p></body></html>"
-msgstr "</p><p>感謝上述諸位的支援，你們簡直就是<b>小天使</b>！</p></body></html>"
+msgstr ""
+"</p><p>感謝上述諸位的支援，你們簡直就是<b>小天使</b>！</p></body></html>"
 
 #: libs/ui/dialogs/kis_about_application.cpp:113
 #, kde-format
@@ -14726,7 +14706,8 @@ msgstr "作為柵格圖層(&R)"
 msgid ""
 "Use background color and opacity as the base canvas color. This can be "
 "reconfigured in `Image > Properties.`"
-msgstr "使用背景顏色和不透明度作為基底畫布顏色。此屬性可在「影像 > 屬性」中重新設定。"
+msgstr ""
+"使用背景顏色和不透明度作為基底畫布顏色。此屬性可在「影像 > 屬性」中重新設定。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioBackgroundAsProjection)
 #: libs/ui/forms/wdgnewimage.ui:553
@@ -15231,7 +15212,8 @@ msgstr ""
 msgid ""
 "<html><head/><body><p>When the image is too big, render only currently "
 "visible part of it</p></body></html>"
-msgstr "<html><head/><body><p>當影像太大時, 僅繪製目前可見的部分</p></body></html>"
+msgstr ""
+"<html><head/><body><p>當影像太大時, 僅繪製目前可見的部分</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseRegionOfInterest)
 #: libs/ui/forms/wdgperformancesettings.ui:480
@@ -15258,7 +15240,8 @@ msgstr ""
 msgid ""
 "<html><head/><body><p>Automatically prerender animation cache in background "
 "when the user is idle</p></body></html>"
-msgstr "<html><head/><body><p>使用者空閒時在後台自動預繪製動畫快取</p></body></html>"
+msgstr ""
+"<html><head/><body><p>使用者空閒時在後台自動預繪製動畫快取</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBackgroundCacheGeneration)
 #: libs/ui/forms/wdgperformancesettings.ui:503
@@ -16682,7 +16665,8 @@ msgstr "平整影像"
 msgid ""
 "The image contains hidden layers that will be lost. Do you want to flatten "
 "the image?"
-msgstr "此影像包含已隱藏的圖層，這些圖層將不會在平整後被保留，確定要平整影像嗎？"
+msgstr ""
+"此影像包含已隱藏的圖層，這些圖層將不會在平整後被保留，確定要平整影像嗎？"
 
 #: libs/ui/kis_layer_manager.cc:815
 #, kde-format
@@ -17819,7 +17803,8 @@ msgstr "%1 不可寫入"
 msgid ""
 "%1 is smaller than 10 bytes, it must be corrupt. Try saving again under a "
 "different name, in another location."
-msgstr "%1 小於 10 位元組，可能是損壞的。試試看在其他位置使用不同名稱重新儲存。"
+msgstr ""
+"%1 小於 10 位元組，可能是損壞的。試試看在其他位置使用不同名稱重新儲存。"
 
 #: libs/ui/KisImportExportFilter.cpp:182
 #, kde-format
@@ -18325,7 +18310,8 @@ msgstr "儲存調色板失敗"
 msgid ""
 "Failed to save global palette file. Please set it to non-global, or you will "
 "lose the file when you close Krita"
-msgstr "無法儲存為全域調色板檔案。請將其設為非全域，否則在關閉 Krita 是將遺失該檔案"
+msgstr ""
+"無法儲存為全域調色板檔案。請將其設為非全域，否則在關閉 Krita 是將遺失該檔案"
 
 #: libs/ui/KisPaletteEditor.cpp:665 libs/ui/KisPaletteEditor.cpp:668
 #, kde-format
@@ -19602,7 +19588,8 @@ msgstr "已停用 OpenColorIO：不支援影像色彩空間"
 msgid ""
 "Shape selection does not fully support wraparound mode. Please use pixel "
 "selection instead"
-msgstr "形狀選取區域工具在影像環繞模式下不能完全正常作業，請改用像素選取區域工具"
+msgstr ""
+"形狀選取區域工具在影像環繞模式下不能完全正常作業，請改用像素選取區域工具"
 
 #: libs/ui/tool/kis_selection_tool_helper.cpp:314
 #, kde-format
@@ -20052,13 +20039,6 @@ msgstr "可以使用下列色彩轉換意圖："
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:483
 #, kde-format
-#| msgctxt "These are Elle Stone's notes on her profiles that we ship."
-#| msgid ""
-#| "<p><b>Extra notes on profiles by Elle Stone:</b></p><p><i>Krita comes "
-#| "with a number of high quality profiles created by <a href=\"http://"
-#| "ninedegreesbelow.com\">Elle Stone</a>. This is a summary. Please check <a "
-#| "href=\"http://ninedegreesbelow.com/photography/lcms-make-icc-profiles.html"
-#| "\">the full documentation</a> as well.</i></p>"
 msgctxt "These are Elle Stone's notes on her profiles that we ship."
 msgid ""
 "<p><b>Extra notes on profiles by Elle Stone:</b></p><p><i>Krita comes with a "
@@ -20126,20 +20106,6 @@ msgstr ""
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:520
 #, kde-format
-#| msgctxt "From Elle's notes."
-#| msgid ""
-#| "<p>This profile's color gamut is roughly the same size and shape as the "
-#| "ACES color space gamut, and like the ACES color space, AllColorsRGB holds "
-#| "all possible real colors. But AllColorsRGB actually has a slightly larger "
-#| "color gamut (to capture some fringe colors that barely qualify as real "
-#| "when viewed by the standard observer) and uses the D50 white point.</"
-#| "p><p>Just like the ACES color space, AllColorsRGB holds a high percentage "
-#| "of imaginary colors. See the Completely <a href=\"http://ninedegreesbelow."
-#| "com/photography/xyz-rgb.html\">Painless Programmer's Guide to XYZ, RGB, "
-#| "ICC, xyY, and TRCs</a> for more information about imaginary colors.</"
-#| "p><p>There is no particular reason why anyone would want to use this "
-#| "profile for editing, unless one needs to make sure your color space "
-#| "really does hold all possible real colors.</p>"
 msgctxt "From Elle's notes."
 msgid ""
 "<p>This profile's color gamut is roughly the same size and shape as the ACES "
@@ -20160,9 +20126,9 @@ msgstr ""
 "且具備稍寬的色域來容納那些在色域邊緣上被普通人認作非真實的色彩。</p><p>和 "
 "ACES 色域一樣， AllColorsRGB 包含有大量概念色 (imaginary colors) 。如需了解概"
 "念色，可閱讀<a href=\"https://ninedegreesbelow.com/photography/xyz-rgb.html"
-"\">《Painless Programmer's Guide to XYZ, RGB, ICC, xyY, and TRCs》</a>。</p><p>"
-"除非必須確保色彩空間包含一切真實顏色，否則不應使用此特性檔案來進行影像編輯。"
-"</p>"
+"\">《Painless Programmer's Guide to XYZ, RGB, ICC, xyY, and TRCs》</a>。</"
+"p><p>除非必須確保色彩空間包含一切真實顏色，否則不應使用此特性檔案來進行影像編"
+"輯。</p>"
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:535
 #, kde-format
@@ -21194,7 +21160,7 @@ msgstr "終點記號"
 msgid "Thickness:"
 msgstr "粗細："
 
-#: libs/widgets/kis_color_button.cpp:352
+#: libs/widgets/kis_color_button.cpp:350
 #, kde-format
 msgid "Choose a color"
 msgstr "選擇顏色"
@@ -22825,13 +22791,6 @@ msgstr "編譯器："
 
 #: libs/widgetutils/xmlgui/kbugreport.cpp:175
 #, kde-format
-#| msgid ""
-#| "<qt><p>Please read <b><a href=\"https://docs.krita.org/en/"
-#| "untranslatable_pages/reporting_bugs.html\">this guide</a></b> for "
-#| "reporting bugs first!</p><p>To submit a bug report, click on the button "
-#| "below. This will open a web browser window on <a href=\"http://bugs.kde."
-#| "org\">http://bugs.kde.org</a> where you will find a form to fill in. The "
-#| "information displayed above will be transferred to that server.</p></qt>"
 msgid ""
 "<qt><p>Please read <b><a href=\"https://docs.krita.org/en/"
 "untranslatable_pages/reporting_bugs.html\">this guide</a></b> for reporting "
@@ -22842,9 +22801,9 @@ msgid ""
 msgstr ""
 "<qt><p>如需報告問題，請先閱讀<b><a href=\"https://docs.krita.org/en/"
 "untranslatable_pages/reporting_bugs.html\">這篇文章</a></b>。</p><p>要報告問"
-"題，請點擊下方的按鈕，這會開啟一個網頁瀏覽器並造訪如下網址：<a href=\"https://"
-"bugs.kde.org\">https://bugs.kde.org</a>，在該網頁你可以填寫一個報告問題的表"
-"格，顯示在此頁上方的訊息也將被發送到該伺服器上。</p></qt>"
+"題，請點擊下方的按鈕，這會開啟一個網頁瀏覽器並造訪如下網址：<a href="
+"\"https://bugs.kde.org\">https://bugs.kde.org</a>，在該網頁你可以填寫一個報告"
+"問題的表格，顯示在此頁上方的訊息也將被發送到該伺服器上。</p></qt>"
 
 #: libs/widgetutils/xmlgui/kbugreport.cpp:192
 #, kde-format
@@ -27988,7 +27947,8 @@ msgstr ""
 msgid ""
 "The shortcut to fire this action, such as 'Ctrl+1', or a QKeySequence "
 "instance, or None."
-msgstr "指定給此操作的快捷鍵，如「Ctrl+1」，或者是一組 QKeySequence 實例，可以為空。"
+msgstr ""
+"指定給此操作的快捷鍵，如「Ctrl+1」，或者是一組 QKeySequence 實例，可以為空。"
 
 #. i18n: ectx: property (text), widget (QLabel, labelText)
 #: plugins/extensions/pykrita/plugin/info.ui:64
@@ -28048,7 +28008,8 @@ msgstr "設定頁面"
 msgid ""
 "The shortcut to fire this action such as 'Ctrl+1', or a QKeySequence "
 "instance, or None."
-msgstr "指定給此操作的快捷鍵，如「Ctrl+1」，或者是一組 QKeySequence 實例，可以為空。"
+msgstr ""
+"指定給此操作的快捷鍵，如「Ctrl+1」，或者是一組 QKeySequence 實例，可以為空。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/extensions/pykrita/plugin/info.ui:236
@@ -28322,12 +28283,6 @@ msgstr "Gmic 濾鏡"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/extensions/qmic/WdgQMicSettings.ui:17
 #, kde-format
-#| msgid ""
-#| "<html><head/><body><p>Select the location of the G'Mic-Qt plugin. You can "
-#| "download the plugin from the <a href=\"http://gmic.eu/\"><span style=\" "
-#| "text-decoration: underline; color:#2980b9;\">G'Mic website</span></a>. "
-#| "Make sure you download the special version for Krita, not the standalone "
-#| "or the GIMP version.</p></body></html>"
 msgid ""
 "<html><head/><body><p>Select the location of the G'Mic-Qt plugin. You can "
 "download the plugin from the <a href=\"https://gmic.eu/\"><span style=\" "
@@ -28336,9 +28291,9 @@ msgid ""
 "GIMP version.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>選擇 G'Mic-Qt 外掛程式的位置。你可以從 <a href="
-"\"https://gmic.eu/\"><span style=\" text-decoration: underline; color:#2980b9;"
-"\">G'Mic 網站</span></a> 下載該外掛程式。請確保下載的是為 Krita 提供的特製版"
-"本，而不是獨立版本或 GIMP 版本。</p></body></html>"
+"\"https://gmic.eu/\"><span style=\" text-decoration: underline; color:"
+"#2980b9;\">G'Mic 網站</span></a> 下載該外掛程式。請確保下載的是為 Krita 提供"
+"的特製版本，而不是獨立版本或 GIMP 版本。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/extensions/qmic/WdgQMicSettings.ui:38
@@ -29265,7 +29220,8 @@ msgstr "HSV/HSL 調整"
 msgid ""
 "The current configuration was created for a different colorspace and cannot "
 "be used. All curves will be reset."
-msgstr "目前的設定檔當初是為不同色彩空間建立的，而目前不能使用。將會重設所有曲線。"
+msgstr ""
+"目前的設定檔當初是為不同色彩空間建立的，而目前不能使用。將會重設所有曲線。"
 
 #: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:147
 #, kde-format
@@ -32813,7 +32769,8 @@ msgstr ""
 msgid ""
 "This option will merge all layers. It is advisable to check this option, "
 "otherwise other applications might not be able to read your file correctly."
-msgstr "此選項將合併全部圖層。建議勾選此選項，否則其他應用程式可能無法正確讀取檔案。"
+msgstr ""
+"此選項將合併全部圖層。建議勾選此選項，否則其他應用程式可能無法正確讀取檔案。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkFlatten)
 #. i18n: ectx: property (text), widget (QCheckBox, flatten)
@@ -32967,7 +32924,8 @@ msgstr "大端序(&B)"
 msgid ""
 "Guess width and height based on file size and bits per pixel. Only values "
 "set to 0 will be updated."
-msgstr "按照檔案體積和每像素位深估算影像的寬度和高度，只有被設為 0 的數值才會更新。"
+msgstr ""
+"按照檔案體積和每像素位深估算影像的寬度和高度，只有被設為 0 的數值才會更新。"
 
 #. i18n: ectx: property (text), widget (QPushButton, guessButton)
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:101
@@ -34287,7 +34245,8 @@ msgctxt "@info:whatsthis"
 msgid ""
 "<title>Shift</title><p>Linear Shift of exposure correction before "
 "interpolation in E.V</p>"
-msgstr "<title>偏移</title><p>進行插值處理前的曝光偏移校正量，單位為曝光值 (E.V)</p>"
+msgstr ""
+"<title>偏移</title><p>進行插值處理前的曝光偏移校正量，單位為曝光值 (E.V)</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:493
 #, kde-format
@@ -34335,7 +34294,8 @@ msgctxt "@info:whatsthis"
 msgid ""
 "<p>If disable, use a fixed white level and ignore the image histogram to "
 "adjust brightness.</p>"
-msgstr "<p>禁用此選項，程式將使用固定白色級別並在調整亮度時忽略影像的直方圖資料。</p>"
+msgstr ""
+"<p>禁用此選項，程式將使用固定白色級別並在調整亮度時忽略影像的直方圖資料。</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:511
 #, kde-format
@@ -35129,7 +35089,8 @@ msgctxt "@info:tooltip"
 msgid ""
 "This brush has transparent pixels in its center. \"Dulling\" mode may give "
 "unstable results. Consider using \"Smearing\" mode instead."
-msgstr "此筆刷在其中心有透明像素。 鈍化模式的結果會不穩定。可考慮換用塗抹模式。"
+msgstr ""
+"此筆刷在其中心有透明像素。 鈍化模式的結果會不穩定。可考慮換用塗抹模式。"
 
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:74
 #, kde-format
@@ -37397,7 +37358,8 @@ msgstr "傾斜選項"
 msgid ""
 "<html><head/><body><p>Use the tilt of the tablet to determine the normals.</"
 "p></body></html>"
-msgstr "<html><head/><body><p>使用數位板的壓感筆傾斜度決定法線。</p></body></html>"
+msgstr ""
+"<html><head/><body><p>使用數位板的壓感筆傾斜度決定法線。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, optionTilt)
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:226
@@ -39977,7 +39939,8 @@ msgstr "顯示引導線"
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
 "+Drag will force you to draw straight lines"
-msgstr "Alt + 拖曳可移動目前顯示線條的基點，Shift + 拖曳將強制在特殊角度上繪製直線"
+msgstr ""
+"Alt + 拖曳可移動目前顯示線條的基點，Shift + 拖曳將強制在特殊角度上繪製直線"
 
 #: plugins/tools/basictools/kis_tool_line.h:116
 #, kde-format
@@ -40112,7 +40075,8 @@ msgstr ""
 msgid ""
 "<nobr>Determines whether the color picker will sample</nobr> colors from all "
 "visible layers or only the currently selected layer."
-msgstr "<nobr>控制拾色器將</nobr>拾取全部可見圖層的顏色還是只拾取目前選取圖層的顏色。"
+msgstr ""
+"<nobr>控制拾色器將</nobr>拾取全部可見圖層的顏色還是只拾取目前選取圖層的顏色。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSources)
 #: plugins/tools/basictools/wdgcolorpicker.ui:78
@@ -40167,7 +40131,8 @@ msgstr ""
 msgid ""
 "<nobr>Checking this box will add a new color swatch</nobr> to a palette each "
 "time you pick a color."
-msgstr "<nobr>勾選後，每次拾取顏色時將其作為一個新的色塊</nobr> 新增到調色板中。"
+msgstr ""
+"<nobr>勾選後，每次拾取顏色時將其作為一個新的色塊</nobr> 新增到調色板中。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbPalette)
 #: plugins/tools/basictools/wdgcolorpicker.ui:217
@@ -42207,7 +42172,8 @@ msgctxt "@info:tooltip"
 msgid ""
 "The mask will try to remove parts of the key strokes that are placed outside "
 "the closed contours. 0% - no effect, 100% - max effect"
-msgstr "遮罩將嘗試移除位於閉合輪廓外側部分的關鍵筆畫。0% - 無效果，100% - 最大效果"
+msgstr ""
+"遮罩將嘗試移除位於閉合輪廓外側部分的關鍵筆畫。0% - 無效果，100% - 最大效果"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAutoUpdates)
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:19
@@ -42781,6 +42747,28 @@ msgstr "堆疊"
 #, kde-format
 msgid "Work Recursively"
 msgstr "以遞迴方式作業"
+
+#~ msgid ""
+#~ "WARNING: This file contains information about your system and the\n"
+#~ "images you have been working with.\n"
+#~ "\n"
+#~ "If you have problems with Krita, the Krita developers might ask\n"
+#~ "you to share this file with them. The information in this file is\n"
+#~ "not shared automatically with the Krita developers in any way. You\n"
+#~ "can disable logging to this file in Krita's Configure Krita Dialog.\n"
+#~ "\n"
+#~ "Please review the contents of this file before sharing this file with\n"
+#~ "anyone.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "警告：本檔案包含你的系統訊息和你正在處理的影像。\n"
+#~ "\n"
+#~ "如果你在使用 Krita 時遇到了問題，Krita 的開發人員可能會請你向他們分享本檔"
+#~ "案。本檔案所含訊息不會以任何方式自動分享給 Krita 的開發人員。你可以在 "
+#~ "Krita 的「設定 Krita」對話框中禁止將訊息記錄到本檔案。\n"
+#~ "\n"
+#~ "請在與其他人分享本檔案之前複查其中的內容。\n"
+#~ "\n"
 
 #~ msgid "Show Decorations"
 #~ msgstr "顯示原始輪廓"

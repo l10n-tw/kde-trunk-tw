@@ -1560,31 +1560,18 @@ msgstr "顯示失敗子資料夾…"
 
 #: importer/dialogpage.cpp:76
 #, kde-format
-#| msgid ""
-#| "Failed to delete the document:\n"
-#| "%2"
-#| msgid_plural ""
-#| "Failed to delete documents:\n"
-#| "%2"
 msgid "Failed to import %1 document."
 msgid_plural "Failed to import %1 documents."
 msgstr[0] "無法匯入 %1 份文件。"
 
 #: importer/dialogpage.cpp:84
 #, kde-format
-#| msgid "Could not create destination folder."
 msgid "Failed to create %1 destination subfolder."
 msgid_plural "Failed to create %1 destination subfolders."
 msgstr[0] "無法建立 %1 個目標子資料夾。"
 
 #: importer/dialogpage.cpp:96
 #, kde-format
-#| msgid ""
-#| "Failed to delete the document:\n"
-#| "%2"
-#| msgid_plural ""
-#| "Failed to delete documents:\n"
-#| "%2"
 msgid "Failed to import documents:"
 msgstr "無法匯入文件："
 
@@ -1977,7 +1964,8 @@ msgctxt "@info"
 msgid ""
 "Could not open file for writing, check that you have the necessary rights in "
 "<filename>%1</filename>."
-msgstr "無法開啟檔案寫入。請檢查您是否有足夠的權限寫入 <filename>%1</filename>。"
+msgstr ""
+"無法開啟檔案寫入。請檢查您是否有足夠的權限寫入 <filename>%1</filename>。"
 
 #: lib/document/savejob.cpp:134
 #, kde-kuit-format
