@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-04 02:35+0100\n"
+"POT-Creation-Date: 2019-12-06 02:38+0100\n"
 "PO-Revision-Date: 2014-03-25 11:30+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -123,7 +123,7 @@ msgid "Rename"
 msgstr "重新命名"
 
 #: src/backend/core/AbstractAspect.cpp:332
-#: src/commonfrontend/worksheet/WorksheetView.cpp:139
+#: src/commonfrontend/worksheet/WorksheetView.cpp:140
 #: src/kdefrontend/widgets/FITSHeaderEditWidget.cpp:286
 #, kde-format
 msgid "Delete"
@@ -234,7 +234,7 @@ msgstr ""
 #: src/kdefrontend/spreadsheet/ExportSpreadsheetDialog.cpp:280
 #: src/kdefrontend/ui/spreadsheet/exportspreadsheetwidget.ui:23
 #: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:17
-#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:173
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:188
 #, kde-format
 msgid "Export"
 msgstr "匯出"
@@ -900,6 +900,8 @@ msgstr ""
 
 #: src/backend/datasources/filters/AbstractFileFilter.cpp:160
 #: src/commonfrontend/matrix/MatrixView.cpp:156
+#: src/commonfrontend/worksheet/WorksheetView.cpp:210
+#: src/commonfrontend/worksheet/WorksheetView.cpp:1301
 #: src/kdefrontend/datasources/ImportFileWidget.cpp:101
 #: src/kdefrontend/dockwidgets/CartesianPlotDock.cpp:428
 #: src/kdefrontend/dockwidgets/CartesianPlotLegendDock.cpp:239
@@ -4886,8 +4888,8 @@ msgstr "方向"
 #. i18n: ectx: property (text), widget (QLabel, lInterpolation)
 #: src/backend/nsl/nsl_geom_linesim.c:36
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:415
-#: src/commonfrontend/worksheet/WorksheetView.cpp:326
-#: src/commonfrontend/worksheet/WorksheetView.cpp:352
+#: src/commonfrontend/worksheet/WorksheetView.cpp:328
+#: src/commonfrontend/worksheet/WorksheetView.cpp:354
 #: src/kdefrontend/ui/dockwidgets/xyinterpolationcurvedockgeneraltab.ui:139
 #, fuzzy, kde-format
 #| msgid "Orientation"
@@ -5824,20 +5826,20 @@ msgid "Title"
 msgstr "標題"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:408
-#: src/commonfrontend/worksheet/WorksheetView.cpp:310
+#: src/commonfrontend/worksheet/WorksheetView.cpp:312
 #, kde-format
 msgid "xy-curve"
 msgstr ""
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:409
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:299
-#: src/commonfrontend/worksheet/WorksheetView.cpp:311
+#: src/commonfrontend/worksheet/WorksheetView.cpp:313
 #, kde-format
 msgid "Histogram"
 msgstr ""
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:410
-#: src/commonfrontend/worksheet/WorksheetView.cpp:312
+#: src/commonfrontend/worksheet/WorksheetView.cpp:314
 #, fuzzy, kde-format
 msgid "xy-curve from a mathematical Equation"
 msgstr "專案屬性"
@@ -5846,8 +5848,8 @@ msgstr "專案屬性"
 #. i18n("Data Operation"), this);
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:412
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:454
-#: src/commonfrontend/worksheet/WorksheetView.cpp:316
-#: src/commonfrontend/worksheet/WorksheetView.cpp:341
+#: src/commonfrontend/worksheet/WorksheetView.cpp:318
+#: src/commonfrontend/worksheet/WorksheetView.cpp:343
 #, fuzzy, kde-format
 #| msgid "Direction"
 msgid "Data Reduction"
@@ -5857,8 +5859,8 @@ msgstr "方向"
 #. i18n: ectx: property (text), widget (QLabel, lDifferentiation)
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:413
 #: src/commonfrontend/cantorWorksheet/CantorWorksheetView.cpp:149
-#: src/commonfrontend/worksheet/WorksheetView.cpp:318
-#: src/commonfrontend/worksheet/WorksheetView.cpp:343
+#: src/commonfrontend/worksheet/WorksheetView.cpp:320
+#: src/commonfrontend/worksheet/WorksheetView.cpp:345
 #: src/kdefrontend/ui/dockwidgets/xydifferentiationcurvedockgeneraltab.ui:139
 #, fuzzy, kde-format
 #| msgid "Orientation"
@@ -5869,8 +5871,8 @@ msgstr "方向"
 #. i18n: ectx: property (text), widget (QLabel, lIntegration)
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:414
 #: src/commonfrontend/cantorWorksheet/CantorWorksheetView.cpp:154
-#: src/commonfrontend/worksheet/WorksheetView.cpp:320
-#: src/commonfrontend/worksheet/WorksheetView.cpp:345
+#: src/commonfrontend/worksheet/WorksheetView.cpp:322
+#: src/commonfrontend/worksheet/WorksheetView.cpp:347
 #: src/kdefrontend/ui/dockwidgets/xyintegrationcurvedockgeneraltab.ui:23
 #, fuzzy, kde-format
 #| msgid "Orientation"
@@ -5881,8 +5883,8 @@ msgstr "方向"
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:416
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:458
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:314
-#: src/commonfrontend/worksheet/WorksheetView.cpp:327
-#: src/commonfrontend/worksheet/WorksheetView.cpp:353
+#: src/commonfrontend/worksheet/WorksheetView.cpp:329
+#: src/commonfrontend/worksheet/WorksheetView.cpp:355
 #: src/kdefrontend/ui/dockwidgets/xysmoothcurvedockgeneraltab.ui:215
 #, kde-format
 msgid "Smooth"
@@ -5897,8 +5899,8 @@ msgstr ""
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:417
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:622
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:408
-#: src/commonfrontend/worksheet/WorksheetView.cpp:328
-#: src/commonfrontend/worksheet/WorksheetView.cpp:354
+#: src/commonfrontend/worksheet/WorksheetView.cpp:330
+#: src/commonfrontend/worksheet/WorksheetView.cpp:356
 #: src/kdefrontend/ui/dockwidgets/xyfitcurvedockgeneraltab.ui:921
 #, fuzzy, kde-format
 #| msgid "int"
@@ -5908,16 +5910,16 @@ msgstr "整數"
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:418
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:506
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:361
-#: src/commonfrontend/worksheet/WorksheetView.cpp:329
-#: src/commonfrontend/worksheet/WorksheetView.cpp:355
+#: src/commonfrontend/worksheet/WorksheetView.cpp:331
+#: src/commonfrontend/worksheet/WorksheetView.cpp:357
 #, fuzzy, kde-format
 msgid "Fourier Filter"
 msgstr "新增過濾器"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:419
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:507
-#: src/commonfrontend/worksheet/WorksheetView.cpp:330
-#: src/commonfrontend/worksheet/WorksheetView.cpp:356
+#: src/commonfrontend/worksheet/WorksheetView.cpp:332
+#: src/commonfrontend/worksheet/WorksheetView.cpp:358
 #, fuzzy, kde-format
 msgid "Fourier Transform"
 msgstr "新增過濾器"
@@ -5925,7 +5927,7 @@ msgstr "新增過濾器"
 #. i18n("Integration"), cartesianPlotAddNewActionGroup);
 #. i18n: ectx: property (text), widget (QLabel, lConvolution)
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:420
-#: src/commonfrontend/worksheet/WorksheetView.cpp:322
+#: src/commonfrontend/worksheet/WorksheetView.cpp:324
 #: src/kdefrontend/ui/dockwidgets/xyconvolutioncurvedockgeneraltab.ui:93
 #, fuzzy, kde-format
 msgid "(De-)Convolution"
@@ -5935,41 +5937,41 @@ msgstr "連線"
 #. i18n("Convolution/Deconvolution"), cartesianPlotAddNewActionGroup);
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:421
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:460
-#: src/commonfrontend/worksheet/WorksheetView.cpp:324
-#: src/commonfrontend/worksheet/WorksheetView.cpp:349
+#: src/commonfrontend/worksheet/WorksheetView.cpp:326
+#: src/commonfrontend/worksheet/WorksheetView.cpp:351
 #, fuzzy, kde-format
 msgid "Auto-/Cross-Correlation"
 msgstr "連線"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:423
-#: src/commonfrontend/worksheet/WorksheetView.cpp:331
+#: src/commonfrontend/worksheet/WorksheetView.cpp:333
 #, fuzzy, kde-format
 msgid "Legend"
 msgstr "圖例"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:427
-#: src/commonfrontend/worksheet/WorksheetView.cpp:332
+#: src/commonfrontend/worksheet/WorksheetView.cpp:334
 #, fuzzy, kde-format
 msgid "Horizontal Axis"
 msgstr "水平軸："
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:428
-#: src/commonfrontend/worksheet/WorksheetView.cpp:333
+#: src/commonfrontend/worksheet/WorksheetView.cpp:335
 #, fuzzy, kde-format
 msgid "Vertical Axis"
 msgstr "垂直軸："
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:429
-#: src/commonfrontend/worksheet/WorksheetView.cpp:208
-#: src/commonfrontend/worksheet/WorksheetView.cpp:334
-#: src/commonfrontend/worksheet/WorksheetView.cpp:1293
-#: src/commonfrontend/worksheet/WorksheetView.cpp:1294
+#: src/commonfrontend/worksheet/WorksheetView.cpp:209
+#: src/commonfrontend/worksheet/WorksheetView.cpp:336
+#: src/commonfrontend/worksheet/WorksheetView.cpp:1297
+#: src/commonfrontend/worksheet/WorksheetView.cpp:1298
 #, fuzzy, kde-format
 msgid "Text Label"
 msgstr "文字標籤"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:430
-#: src/commonfrontend/worksheet/WorksheetView.cpp:335
+#: src/commonfrontend/worksheet/WorksheetView.cpp:337
 #, fuzzy, kde-format
 msgid "Custom Point"
 msgstr "自訂"
@@ -6044,19 +6046,19 @@ msgid "Error Function"
 msgstr "函式"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:522
-#: src/commonfrontend/worksheet/WorksheetView.cpp:361
+#: src/commonfrontend/worksheet/WorksheetView.cpp:363
 #, fuzzy, kde-format
 msgid "Auto Scale"
 msgstr "自動比例"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:523
-#: src/commonfrontend/worksheet/WorksheetView.cpp:363
+#: src/commonfrontend/worksheet/WorksheetView.cpp:365
 #, fuzzy, kde-format
 msgid "Auto Scale X"
 msgstr "自動比例"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:524
-#: src/commonfrontend/worksheet/WorksheetView.cpp:365
+#: src/commonfrontend/worksheet/WorksheetView.cpp:367
 #, fuzzy, kde-format
 msgid "Auto Scale Y"
 msgstr "自動比例"
@@ -6064,8 +6066,8 @@ msgstr "自動比例"
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:525
 #: src/commonfrontend/cantorWorksheet/CantorWorksheetView.cpp:95
 #: src/commonfrontend/datapicker/DatapickerImageView.cpp:133
-#: src/commonfrontend/worksheet/WorksheetView.cpp:148
-#: src/commonfrontend/worksheet/WorksheetView.cpp:367
+#: src/commonfrontend/worksheet/WorksheetView.cpp:149
+#: src/commonfrontend/worksheet/WorksheetView.cpp:369
 #, fuzzy, kde-format
 #| msgid "Zoom in"
 msgid "Zoom In"
@@ -6074,68 +6076,68 @@ msgstr "放大"
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:526
 #: src/commonfrontend/cantorWorksheet/CantorWorksheetView.cpp:99
 #: src/commonfrontend/datapicker/DatapickerImageView.cpp:136
-#: src/commonfrontend/worksheet/WorksheetView.cpp:150
-#: src/commonfrontend/worksheet/WorksheetView.cpp:369
+#: src/commonfrontend/worksheet/WorksheetView.cpp:151
+#: src/commonfrontend/worksheet/WorksheetView.cpp:371
 #, fuzzy, kde-format
 #| msgid "Zoom out"
 msgid "Zoom Out"
 msgstr "縮小"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:527
-#: src/commonfrontend/worksheet/WorksheetView.cpp:371
+#: src/commonfrontend/worksheet/WorksheetView.cpp:373
 #, fuzzy, kde-format
 #| msgid "Zoom in"
 msgid "Zoom In X"
 msgstr "放大"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:528
-#: src/commonfrontend/worksheet/WorksheetView.cpp:373
+#: src/commonfrontend/worksheet/WorksheetView.cpp:375
 #, fuzzy, kde-format
 #| msgid "Zoom out"
 msgid "Zoom Out X"
 msgstr "縮小"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:529
-#: src/commonfrontend/worksheet/WorksheetView.cpp:375
+#: src/commonfrontend/worksheet/WorksheetView.cpp:377
 #, fuzzy, kde-format
 #| msgid "Zoom in"
 msgid "Zoom In Y"
 msgstr "放大"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:530
-#: src/commonfrontend/worksheet/WorksheetView.cpp:377
+#: src/commonfrontend/worksheet/WorksheetView.cpp:379
 #, fuzzy, kde-format
 #| msgid "Zoom out"
 msgid "Zoom Out Y"
 msgstr "縮小"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:531
-#: src/commonfrontend/worksheet/WorksheetView.cpp:379
+#: src/commonfrontend/worksheet/WorksheetView.cpp:381
 #, fuzzy, kde-format
 msgid "Shift Left X"
 msgstr "右"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:532
-#: src/commonfrontend/worksheet/WorksheetView.cpp:381
+#: src/commonfrontend/worksheet/WorksheetView.cpp:383
 #, fuzzy, kde-format
 msgid "Shift Right X"
 msgstr "右"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:533
-#: src/commonfrontend/worksheet/WorksheetView.cpp:383
+#: src/commonfrontend/worksheet/WorksheetView.cpp:385
 #, kde-format
 msgid "Shift Up Y"
 msgstr ""
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:534
-#: src/commonfrontend/worksheet/WorksheetView.cpp:385
+#: src/commonfrontend/worksheet/WorksheetView.cpp:387
 #, kde-format
 msgid "Shift Down Y"
 msgstr ""
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:559
-#: src/commonfrontend/worksheet/WorksheetView.cpp:409
-#: src/commonfrontend/worksheet/WorksheetView.cpp:474
+#: src/commonfrontend/worksheet/WorksheetView.cpp:411
+#: src/commonfrontend/worksheet/WorksheetView.cpp:477
 #: src/kdefrontend/MainWin.cpp:517
 #, fuzzy, kde-format
 #| msgid "Add new"
@@ -6143,13 +6145,13 @@ msgid "Add New"
 msgstr "新增"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:566
-#: src/commonfrontend/worksheet/WorksheetView.cpp:481
+#: src/commonfrontend/worksheet/WorksheetView.cpp:484
 #, fuzzy, kde-format
 msgid "Analysis Curve"
 msgstr "分析"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:594
-#: src/commonfrontend/worksheet/WorksheetView.cpp:510
+#: src/commonfrontend/worksheet/WorksheetView.cpp:513
 #, fuzzy, kde-format
 msgid "Zoom/Navigate"
 msgstr "導覽"
@@ -6160,7 +6162,7 @@ msgid "Analysis"
 msgstr "分析"
 
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:659
-#: src/commonfrontend/worksheet/WorksheetView.cpp:557
+#: src/commonfrontend/worksheet/WorksheetView.cpp:560
 #: src/kdefrontend/ThemeHandler.cpp:67 src/kdefrontend/ThemeHandler.cpp:159
 #, kde-format
 msgid "Apply Theme"
@@ -7394,34 +7396,34 @@ msgid "Ready"
 msgstr ""
 
 #: src/commonfrontend/datapicker/DatapickerImageView.cpp:139
-#: src/commonfrontend/worksheet/WorksheetView.cpp:152
+#: src/commonfrontend/worksheet/WorksheetView.cpp:153
 #, fuzzy, kde-format
 #| msgid "Original size"
 msgid "Original Size"
 msgstr "初始大小"
 
 #: src/commonfrontend/datapicker/DatapickerImageView.cpp:142
-#: src/commonfrontend/worksheet/WorksheetView.cpp:168
+#: src/commonfrontend/worksheet/WorksheetView.cpp:169
 #, fuzzy, kde-format
 #| msgid "Fit to height"
 msgid "Fit to Height"
 msgstr "適合高度"
 
 #: src/commonfrontend/datapicker/DatapickerImageView.cpp:143
-#: src/commonfrontend/worksheet/WorksheetView.cpp:169
+#: src/commonfrontend/worksheet/WorksheetView.cpp:170
 #, fuzzy, kde-format
 #| msgid "Fit to width"
 msgid "Fit to Width"
 msgstr "適合寬度"
 
 #: src/commonfrontend/datapicker/DatapickerImageView.cpp:146
-#: src/commonfrontend/worksheet/WorksheetView.cpp:176
+#: src/commonfrontend/worksheet/WorksheetView.cpp:177
 #, fuzzy, kde-format
 msgid "Navigate"
 msgstr "導覽"
 
 #: src/commonfrontend/datapicker/DatapickerImageView.cpp:150
-#: src/commonfrontend/worksheet/WorksheetView.cpp:179
+#: src/commonfrontend/worksheet/WorksheetView.cpp:180
 #, fuzzy, kde-format
 msgid "Select and Zoom"
 msgstr "全部選取"
@@ -7468,38 +7470,38 @@ msgid "Shift Down"
 msgstr ""
 
 #: src/commonfrontend/datapicker/DatapickerImageView.cpp:180
-#: src/commonfrontend/worksheet/WorksheetView.cpp:183
+#: src/commonfrontend/worksheet/WorksheetView.cpp:184
 #, kde-format
 msgid "No Magnification"
 msgstr ""
 
 #: src/commonfrontend/datapicker/DatapickerImageView.cpp:184
-#: src/commonfrontend/worksheet/WorksheetView.cpp:187
+#: src/commonfrontend/worksheet/WorksheetView.cpp:188
 #, kde-format
 msgid "2x Magnification"
 msgstr ""
 
 #: src/commonfrontend/datapicker/DatapickerImageView.cpp:187
-#: src/commonfrontend/worksheet/WorksheetView.cpp:190
+#: src/commonfrontend/worksheet/WorksheetView.cpp:191
 #, kde-format
 msgid "3x Magnification"
 msgstr ""
 
 #: src/commonfrontend/datapicker/DatapickerImageView.cpp:190
-#: src/commonfrontend/worksheet/WorksheetView.cpp:193
+#: src/commonfrontend/worksheet/WorksheetView.cpp:194
 #, kde-format
 msgid "4x Magnification"
 msgstr ""
 
 #: src/commonfrontend/datapicker/DatapickerImageView.cpp:193
-#: src/commonfrontend/worksheet/WorksheetView.cpp:196
+#: src/commonfrontend/worksheet/WorksheetView.cpp:197
 #, kde-format
 msgid "5x Magnification"
 msgstr ""
 
 #: src/commonfrontend/datapicker/DatapickerImageView.cpp:226
-#: src/commonfrontend/worksheet/WorksheetView.cpp:415
-#: src/commonfrontend/worksheet/WorksheetView.cpp:464
+#: src/commonfrontend/worksheet/WorksheetView.cpp:418
+#: src/commonfrontend/worksheet/WorksheetView.cpp:467
 #, kde-format
 msgid "Mouse Mode"
 msgstr ""
@@ -7516,7 +7518,7 @@ msgid "Move Last Point"
 msgstr ""
 
 #: src/commonfrontend/datapicker/DatapickerImageView.cpp:249
-#: src/commonfrontend/worksheet/WorksheetView.cpp:430
+#: src/commonfrontend/worksheet/WorksheetView.cpp:433
 #, kde-format
 msgid "Magnification"
 msgstr ""
@@ -7580,7 +7582,7 @@ msgstr "清除選擇"
 
 #: src/commonfrontend/matrix/MatrixView.cpp:148
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:207
-#: src/commonfrontend/worksheet/WorksheetView.cpp:135
+#: src/commonfrontend/worksheet/WorksheetView.cpp:136
 #, fuzzy, kde-format
 msgid "Select All"
 msgstr "全部選擇"
@@ -7884,14 +7886,14 @@ msgid "Show Search/Filter Options"
 msgstr "搜尋過濾器"
 
 #: src/commonfrontend/ProjectExplorer.cpp:670
-#: src/commonfrontend/worksheet/WorksheetView.cpp:1350
+#: src/commonfrontend/worksheet/WorksheetView.cpp:1357
 #, kde-format
 msgid "Do you really want to delete the selected object?"
 msgid_plural "Do you really want to delete the selected %1 objects?"
 msgstr[0] ""
 
 #: src/commonfrontend/ProjectExplorer.cpp:671
-#: src/commonfrontend/worksheet/WorksheetView.cpp:1351
+#: src/commonfrontend/worksheet/WorksheetView.cpp:1358
 #, fuzzy, kde-format
 #| msgid "Delete selected objects"
 msgid "Delete selected object"
@@ -8154,7 +8156,7 @@ msgid "Plot Data"
 msgstr "繪製區域"
 
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:403
-#: src/commonfrontend/worksheet/WorksheetView.cpp:551
+#: src/commonfrontend/worksheet/WorksheetView.cpp:554
 #, fuzzy, kde-format
 msgid "Data Manipulation"
 msgstr "資料格式"
@@ -8381,13 +8383,13 @@ msgstr "矩陣"
 msgid "Spreadsheet"
 msgstr "工作表"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:170
+#: src/commonfrontend/worksheet/WorksheetView.cpp:171
 #, fuzzy, kde-format
 msgid "Fit to Selection"
 msgstr "符合選擇區域"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:173
-#: src/commonfrontend/worksheet/WorksheetView.cpp:290
+#: src/commonfrontend/worksheet/WorksheetView.cpp:174
+#: src/commonfrontend/worksheet/WorksheetView.cpp:292
 #, fuzzy, kde-format
 msgid "Select and Edit"
 msgstr "全部選取"
@@ -8395,174 +8397,168 @@ msgstr "全部選取"
 #. i18n("Selection"), mouseModeActionGroup);
 #. selectionModeAction->setCheckable(true);
 #. "Add new" related actions
-#: src/commonfrontend/worksheet/WorksheetView.cpp:204
+#: src/commonfrontend/worksheet/WorksheetView.cpp:205
 #, kde-format
 msgid "Box Plot, Four Axes"
 msgstr ""
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:205
+#: src/commonfrontend/worksheet/WorksheetView.cpp:206
 #, kde-format
 msgid "Box Plot, Two Axes"
 msgstr ""
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:206
+#: src/commonfrontend/worksheet/WorksheetView.cpp:207
 #, kde-format
 msgid "Two Axes, Centered"
 msgstr ""
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:207
+#: src/commonfrontend/worksheet/WorksheetView.cpp:208
 #, kde-format
 msgid "Two Axes, Crossing at Origin"
 msgstr ""
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:209
-#, fuzzy, kde-format
-#| msgid "char"
-msgid "Bar Chart"
-msgstr "字元"
-
-#: src/commonfrontend/worksheet/WorksheetView.cpp:211
+#: src/commonfrontend/worksheet/WorksheetView.cpp:213
 #: src/kdefrontend/dockwidgets/WorksheetDock.cpp:68
 #, fuzzy, kde-format
 msgid "Vertical Layout"
 msgstr "垂直佈局"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:214
+#: src/commonfrontend/worksheet/WorksheetView.cpp:216
 #: src/kdefrontend/dockwidgets/WorksheetDock.cpp:69
 #, fuzzy, kde-format
 msgid "Horizontal Layout"
 msgstr "水平佈局"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:217
+#: src/commonfrontend/worksheet/WorksheetView.cpp:219
 #: src/kdefrontend/dockwidgets/WorksheetDock.cpp:70
 #, fuzzy, kde-format
 msgid "Grid Layout"
 msgstr "佈局"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:220
+#: src/commonfrontend/worksheet/WorksheetView.cpp:222
 #, fuzzy, kde-format
 msgid "Break Layout"
 msgstr "取消佈局：%1"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:224
+#: src/commonfrontend/worksheet/WorksheetView.cpp:226
 #, fuzzy, kde-format
 msgid "No Grid"
 msgstr "格線"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:229
+#: src/commonfrontend/worksheet/WorksheetView.cpp:231
 #, kde-format
 msgid "Dense Line Grid"
 msgstr ""
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:232
+#: src/commonfrontend/worksheet/WorksheetView.cpp:234
 #, kde-format
 msgid "Sparse Line Grid"
 msgstr ""
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:235
+#: src/commonfrontend/worksheet/WorksheetView.cpp:237
 #, kde-format
 msgid "Dense Dot Grid"
 msgstr ""
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:238
+#: src/commonfrontend/worksheet/WorksheetView.cpp:240
 #, kde-format
 msgid "Sparse Dot Grid"
 msgstr ""
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:241
+#: src/commonfrontend/worksheet/WorksheetView.cpp:243
 #, fuzzy, kde-format
 #| msgid "Custom"
 msgid "Custom Grid"
 msgstr "自訂"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:244
+#: src/commonfrontend/worksheet/WorksheetView.cpp:246
 #, fuzzy, kde-format
 msgid "Snap to Grid"
 msgstr "貼齊格線"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:247
+#: src/commonfrontend/worksheet/WorksheetView.cpp:249
 #, kde-format
 msgid "Show in Presenter Mode"
 msgstr ""
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:262
+#: src/commonfrontend/worksheet/WorksheetView.cpp:264
 #, fuzzy, kde-format
 msgid "Non-interactive Plots"
 msgstr "介面"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:263
+#: src/commonfrontend/worksheet/WorksheetView.cpp:265
 #, kde-format
 msgid ""
 "If activated, plots on the worksheet don't react on drag and mouse wheel "
 "events."
 msgstr ""
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:271
-#: src/commonfrontend/worksheet/WorksheetView.cpp:281
+#: src/commonfrontend/worksheet/WorksheetView.cpp:273
+#: src/commonfrontend/worksheet/WorksheetView.cpp:283
 #, fuzzy, kde-format
 #| msgid "Delete selected objects"
 msgid "Selected Plots"
 msgstr "刪除選取的物件"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:273
-#: src/commonfrontend/worksheet/WorksheetView.cpp:283
+#: src/commonfrontend/worksheet/WorksheetView.cpp:275
+#: src/commonfrontend/worksheet/WorksheetView.cpp:285
 #, fuzzy, kde-format
 #| msgid "LabPlot2"
 msgid "All Plots"
 msgstr "LabPlot2"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:294
+#: src/commonfrontend/worksheet/WorksheetView.cpp:296
 #, fuzzy, kde-format
 msgid "Select Region and Zoom In"
 msgstr "全部選取"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:297
+#: src/commonfrontend/worksheet/WorksheetView.cpp:299
 #, fuzzy, kde-format
 msgid "Select x-region and Zoom In"
 msgstr "全部選取"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:300
+#: src/commonfrontend/worksheet/WorksheetView.cpp:302
 #, fuzzy, kde-format
 msgid "Select y-region and Zoom In"
 msgstr "全部選取"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabCursor)
-#: src/commonfrontend/worksheet/WorksheetView.cpp:304
+#: src/commonfrontend/worksheet/WorksheetView.cpp:306
 #: src/kdefrontend/MainWin.cpp:1768
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:1295
 #, kde-format
 msgid "Cursor"
 msgstr ""
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:314
-#: src/commonfrontend/worksheet/WorksheetView.cpp:339
+#: src/commonfrontend/worksheet/WorksheetView.cpp:316
+#: src/commonfrontend/worksheet/WorksheetView.cpp:341
 #, fuzzy, kde-format
 msgid "Data Operation"
 msgstr "資料格式"
 
 #. i18n("Integration"), cartesianPlotAddNewActionGroup);
-#: src/commonfrontend/worksheet/WorksheetView.cpp:347
+#: src/commonfrontend/worksheet/WorksheetView.cpp:349
 #, fuzzy, kde-format
 msgid "Convolution/Deconvolution"
 msgstr "連線"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:403
-#: src/commonfrontend/worksheet/WorksheetView.cpp:1265
-#: src/commonfrontend/worksheet/WorksheetView.cpp:1272
-#: src/commonfrontend/worksheet/WorksheetView.cpp:1279
-#: src/commonfrontend/worksheet/WorksheetView.cpp:1286
+#: src/commonfrontend/worksheet/WorksheetView.cpp:405
+#: src/commonfrontend/worksheet/WorksheetView.cpp:1269
+#: src/commonfrontend/worksheet/WorksheetView.cpp:1276
+#: src/commonfrontend/worksheet/WorksheetView.cpp:1283
+#: src/commonfrontend/worksheet/WorksheetView.cpp:1290
 #, kde-format
 msgid "xy-plot"
 msgstr ""
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:421
+#: src/commonfrontend/worksheet/WorksheetView.cpp:424
 #, fuzzy, kde-format
 msgid "Zoom"
 msgstr "縮放"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #. i18n: ectx: attribute (title), widget (QWidget, tab3)
-#: src/commonfrontend/worksheet/WorksheetView.cpp:438
+#: src/commonfrontend/worksheet/WorksheetView.cpp:441
 #: src/kdefrontend/ui/dockwidgets/cartesianplotlegenddock.ui:643
 #: src/kdefrontend/ui/dockwidgets/worksheetdock.ui:370
 #, fuzzy, kde-format
@@ -8571,38 +8567,38 @@ msgstr "佈局"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabGrid)
 #. i18n: ectx: property (text), widget (QLabel, lGrid)
-#: src/commonfrontend/worksheet/WorksheetView.cpp:446
+#: src/commonfrontend/worksheet/WorksheetView.cpp:449
 #: src/kdefrontend/ui/dockwidgets/axisdock.ui:1269
 #: src/kdefrontend/ui/dockwidgets/worksheetdock.ui:389
 #, fuzzy, kde-format
 msgid "Grid"
 msgstr "格線"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:461
+#: src/commonfrontend/worksheet/WorksheetView.cpp:464
 #, fuzzy, kde-format
 #| msgid "cartesian"
 msgid "Cartesian Plot"
 msgstr "直角座標"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:531
+#: src/commonfrontend/worksheet/WorksheetView.cpp:534
 #, kde-format
 msgid "Apply Actions to"
 msgstr ""
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:536
+#: src/commonfrontend/worksheet/WorksheetView.cpp:539
 #, fuzzy, kde-format
 #| msgid "%1: add %2 rows"
 #| msgid_plural "%1: add %2 rows"
 msgid "Apply Cursor to"
 msgstr "%1：新增 %2 列"
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:1357
+#: src/commonfrontend/worksheet/WorksheetView.cpp:1364
 #, kde-format
 msgid "%1: Remove selected worksheet elements."
 msgstr ""
 
-#: src/commonfrontend/worksheet/WorksheetView.cpp:1871
-#: src/commonfrontend/worksheet/WorksheetView.cpp:1883
+#: src/commonfrontend/worksheet/WorksheetView.cpp:1876
+#: src/commonfrontend/worksheet/WorksheetView.cpp:1888
 #, fuzzy, kde-format
 #| msgid "%1: add %2 rows"
 #| msgid_plural "%1: add %2 rows"
@@ -9024,8 +9020,8 @@ msgstr "新增"
 #: src/kdefrontend/datasources/ImportFileDialog.cpp:336
 #: src/kdefrontend/spreadsheet/ExportSpreadsheetDialog.cpp:127
 #: src/kdefrontend/spreadsheet/ExportSpreadsheetDialog.cpp:310
-#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:101
-#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:204
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:111
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:215
 #, fuzzy, kde-format
 msgid "Hide Options"
 msgstr "隱藏選項 <<"
@@ -9034,8 +9030,8 @@ msgstr "隱藏選項 <<"
 #: src/kdefrontend/datasources/ImportFileDialog.cpp:336
 #: src/kdefrontend/spreadsheet/ExportSpreadsheetDialog.cpp:128
 #: src/kdefrontend/spreadsheet/ExportSpreadsheetDialog.cpp:311
-#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:102
-#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:205
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:112
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:216
 #, fuzzy, kde-format
 msgid "Show Options"
 msgstr "顯示選項(&H)"
@@ -12831,7 +12827,7 @@ msgid "Export matrix"
 msgstr "匯出"
 
 #: src/kdefrontend/spreadsheet/ExportSpreadsheetDialog.cpp:280
-#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:173
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:188
 #, fuzzy, kde-format
 msgid "The file already exists. Do you really want to overwrite it?"
 msgstr "檔案 <b>%1</b> 已存在。您確定要覆寫它嗎？"
@@ -12865,7 +12861,7 @@ msgid ""
 msgstr ""
 
 #: src/kdefrontend/spreadsheet/ExportSpreadsheetDialog.cpp:344
-#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:227
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:238
 #, kde-format
 msgid "Export to file"
 msgstr "匯出到檔案"
@@ -14375,7 +14371,7 @@ msgstr ""
 #: src/kdefrontend/ui/dockwidgets/xycurvedock.ui:1042
 #: src/kdefrontend/ui/fitsheadereditwidget.ui:53
 #: src/kdefrontend/ui/spreadsheet/exportspreadsheetwidget.ui:59
-#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:56
+#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:29
 #, kde-format
 msgid " Select the file to import"
 msgstr ""
@@ -14656,7 +14652,7 @@ msgstr ""
 #: src/kdefrontend/ui/dockwidgets/worksheetdock.ui:238
 #: src/kdefrontend/ui/dockwidgets/xycurvedock.ui:1019
 #: src/kdefrontend/ui/spreadsheet/exportspreadsheetwidget.ui:36
-#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:33
+#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:49
 #, fuzzy, kde-format
 msgid "File name:"
 msgstr "檔案名稱"
@@ -14664,7 +14660,7 @@ msgstr "檔案名稱"
 #. i18n: ectx: property (toolTip), widget (QLineEdit, leFileName)
 #: src/kdefrontend/ui/datasources/importprojectwidget.ui:46
 #: src/kdefrontend/ui/spreadsheet/exportspreadsheetwidget.ui:43
-#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:40
+#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:63
 #, kde-format
 msgid "Specify the name of the file to import."
 msgstr ""
@@ -15017,7 +15013,7 @@ msgstr "格式"
 #: src/kdefrontend/ui/dockwidgets/histogramdock.ui:873
 #: src/kdefrontend/ui/dockwidgets/xycurvedock.ui:955
 #: src/kdefrontend/ui/spreadsheet/exportspreadsheetwidget.ui:29
-#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:23
+#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:56
 #, fuzzy, kde-format
 msgid "Format:"
 msgstr "格式："
@@ -15465,12 +15461,14 @@ msgstr ""
 msgid "From:"
 msgstr "從"
 
+#. i18n: ectx: property (text), widget (QLabel, lExportTo)
 #. i18n: ectx: property (text), widget (QLabel, lXBreakEnd)
 #. i18n: ectx: property (text), widget (QLabel, lYBreakEnd)
 #. i18n: ectx: property (text), widget (QLabel, lTo)
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:630
 #: src/kdefrontend/ui/dockwidgets/cartesianplotdock.ui:780
 #: src/kdefrontend/ui/spreadsheet/equidistantvalueswidget.ui:57
+#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:73
 #, fuzzy, kde-format
 msgid "To:"
 msgstr "到"
@@ -16563,7 +16561,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lOptions)
 #: src/kdefrontend/ui/dockwidgets/xyfouriertransformcurvedockgeneraltab.ui:149
 #: src/kdefrontend/ui/spreadsheet/exportspreadsheetwidget.ui:75
-#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:69
+#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:93
 #, kde-format
 msgid "Options"
 msgstr "選項"
@@ -17319,7 +17317,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lExportArea)
 #: src/kdefrontend/ui/spreadsheet/exportspreadsheetwidget.ui:227
-#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:75
+#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:99
 #, fuzzy, kde-format
 msgid "Area to export:"
 msgstr "要匯出的區域："
@@ -17492,21 +17490,21 @@ msgstr "結束欄："
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lExportBackground)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkExportBackground)
-#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:92
-#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:102
+#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:116
+#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:126
 #, kde-format
 msgid "Check this option if the worksheet background should be exported."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lExportBackground)
-#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:95
+#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:119
 #, fuzzy, kde-format
 #| msgid "Export background"
 msgid "Export background:"
 msgstr "匯出背景"
 
 #. i18n: ectx: property (text), widget (QLabel, lResolution)
-#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:115
+#: src/kdefrontend/ui/worksheet/exportworksheetwidget.ui:139
 #, fuzzy, kde-format
 #| msgid "Rotation"
 msgid "Resolution:"
@@ -17961,46 +17959,71 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:73
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:65
+#, kde-format
+msgid "Close this dialog without exporting."
+msgstr ""
+
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:76
+#, fuzzy, kde-format
+msgid "File"
+msgstr "檔案(&F)"
+
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:77
+#, kde-format
+msgid "Clipboard"
+msgstr ""
+
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:79
 #, kde-format
 msgid "Object's bounding box"
 msgstr ""
 
-#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:74
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:80
 #, fuzzy, kde-format
 msgid "Current selection"
 msgstr "符合選擇區域"
 
-#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:75
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:81
 #, kde-format
 msgid "Complete worksheet"
 msgstr ""
 
-#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:77
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:83
 #, kde-format
 msgctxt "%1 is the value of DPI of the current screen"
 msgid "%1 (desktop)"
 msgstr ""
 
-#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:91
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:100
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Export Worksheet"
 msgstr "工作表(&W)"
 
-#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:221
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:232
 #, kde-format
 msgid "Portable Data Format (PDF) (*.pdf *.PDF)"
 msgstr ""
 
-#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:223
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:234
 #, kde-format
 msgid "Scalable Vector Graphics (SVG) (*.svg *.SVG)"
 msgstr ""
 
-#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:225
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:236
 #, kde-format
 msgid "Portable Network Graphics (PNG) (*.png *.PNG)"
+msgstr ""
+
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:285
+#, kde-format
+msgid "Export to file and close the dialog."
+msgstr ""
+
+#: src/kdefrontend/worksheet/ExportWorksheetDialog.cpp:287
+#, kde-format
+msgid "Export to clipboard and close the dialog."
 msgstr ""
 
 #: src/kdefrontend/worksheet/GridDialog.cpp:50
@@ -18035,6 +18058,11 @@ msgstr "垂直間隔："
 #| msgid "Orientation"
 msgid "Quit Presentation"
 msgstr "方向"
+
+#, fuzzy
+#~| msgid "char"
+#~ msgid "Bar Chart"
+#~ msgstr "字元"
 
 #, fuzzy
 #~| msgid "Close Project"

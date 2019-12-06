@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkldap\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-30 03:26+0100\n"
+"POT-Creation-Date: 2019-12-06 03:26+0100\n"
 "PO-Revision-Date: 2019-03-22 00:44+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -19,16 +19,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 18.12.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#: ldapattributeproxymodel.cpp:67 ldapmodel.cpp:146
-#, kde-format
-msgid "Attribute"
-msgstr "屬性"
-
-#: ldapattributeproxymodel.cpp:69 ldapmodel.cpp:148
-#, kde-format
-msgid "Value"
-msgstr "值"
 
 #: ldapconfigwidget.cpp:112
 #, kde-format
@@ -260,7 +250,11 @@ msgstr ""
 msgid "Cannot access to server. Please reconfigure it."
 msgstr "無法存取伺服器。請重新設定。"
 
-#: ldapstructureproxymodel.cpp:67
-#, kde-format
-msgid "Distinguished Name"
-msgstr "辨別名稱（DN）"
+#~ msgid "Attribute"
+#~ msgstr "屬性"
+
+#~ msgid "Value"
+#~ msgstr "值"
+
+#~ msgid "Distinguished Name"
+#~ msgstr "辨別名稱（DN）"
