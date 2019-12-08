@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-07 03:04+0100\n"
+"POT-Creation-Date: 2019-12-08 03:06+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -5467,7 +5467,7 @@ msgstr "重置游標之後的關鍵影格"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/assets/view/widgets/animationwidget.cpp:201
 #: src/assets/view/widgets/keyframewidget.cpp:155 src/bin/bin.cpp:783
-#: src/monitor/monitor.cpp:337 src/ui/clipstabilize_ui.ui:20
+#: src/monitor/monitor.cpp:338 src/ui/clipstabilize_ui.ui:20
 #, kde-format
 msgid "Options"
 msgstr "選項"
@@ -5743,7 +5743,7 @@ msgstr ""
 msgid "Master"
 msgstr ""
 
-#: src/audiomixer/mixerwidget.cpp:152 src/monitor/monitor.cpp:292
+#: src/audiomixer/mixerwidget.cpp:152 src/monitor/monitor.cpp:293
 #, kde-format
 msgid "Volume"
 msgstr "音量"
@@ -7047,7 +7047,7 @@ msgid ""
 "you are doing you will probably have to change it to 'mlt_profile'."
 msgstr ""
 
-#: src/dialogs/renderwidget.cpp:1906 src/monitor/monitor.cpp:1004
+#: src/dialogs/renderwidget.cpp:1906 src/monitor/monitor.cpp:1005
 #, kde-format
 msgid "untitled"
 msgstr "無字幕 / 標題"
@@ -7942,7 +7942,7 @@ msgstr ""
 msgid "File %1 is not a Kdenlive project file."
 msgstr "檔案 %1 不是 Kdenlive 項目檔案。"
 
-#: src/dvdwizard/dvdwizardmenu.cpp:167 src/monitor/monitor.cpp:241
+#: src/dvdwizard/dvdwizardmenu.cpp:167 src/monitor/monitor.cpp:242
 #: src/monitor/monitormanager.cpp:364
 #, kde-format
 msgid "Play"
@@ -10339,13 +10339,13 @@ msgstr ""
 msgid "Open Analysis Data"
 msgstr "開啟分析數據"
 
-#: src/monitor/glwidget.cpp:1627 src/monitor/glwidget.cpp:1648
+#: src/monitor/glwidget.cpp:1625 src/monitor/glwidget.cpp:1646
 #, fuzzy, kde-format
 #| msgid "Selection tool"
 msgid "Select a zone to play"
 msgstr "選取工具"
 
-#: src/monitor/glwidget.cpp:1704
+#: src/monitor/glwidget.cpp:1702
 #, kde-format
 msgid ""
 "Could not create the video preview window.\n"
@@ -10355,151 +10355,151 @@ msgstr ""
 "無法建立此影片的預覽。\n"
 "您的 Kdenlive 裝載或硬體驅動設定值不正確，請修復這些問題。"
 
-#: src/monitor/monitor.cpp:216
+#: src/monitor/monitor.cpp:217
 #, fuzzy, kde-format
 #| msgid "Insert Zone in Project Bin"
 msgid "Insert Zone to Project Bin"
 msgstr "插入區段到專案素材庫"
 
-#: src/monitor/monitor.cpp:223 src/monitor/monitormanager.cpp:478
+#: src/monitor/monitor.cpp:224 src/monitor/monitormanager.cpp:478
 #, kde-format
 msgid "Set Zone In"
 msgstr "設定區段起點"
 
-#: src/monitor/monitor.cpp:224 src/monitor/monitormanager.cpp:482
+#: src/monitor/monitor.cpp:225 src/monitor/monitormanager.cpp:482
 #, kde-format
 msgid "Set Zone Out"
 msgstr "設定區段終點"
 
-#: src/monitor/monitor.cpp:239
+#: src/monitor/monitor.cpp:240
 #, kde-format
 msgid "Play..."
 msgstr "播放..."
 
-#: src/monitor/monitor.cpp:241 src/monitor/monitormanager.cpp:364
+#: src/monitor/monitor.cpp:242 src/monitor/monitormanager.cpp:364
 #: src/monitor/monitormanager.cpp:370
 #, kde-format
 msgid "Pause"
 msgstr "暫停"
 
-#: src/monitor/monitor.cpp:261
+#: src/monitor/monitor.cpp:262
 #, kde-format
 msgid "Misc..."
 msgstr "基本..."
 
-#: src/monitor/monitor.cpp:265
+#: src/monitor/monitor.cpp:266
 #, kde-format
 msgid "Go to marker..."
 msgstr "跳轉到記號..."
 
-#: src/monitor/monitor.cpp:267 src/timeline2/view/qml/timeline.qml:553
+#: src/monitor/monitor.cpp:268 src/timeline2/view/qml/timeline.qml:553
 #: src/timeline2/view/qml/timeline.qml:608
 #, kde-format
 msgid "Go to guide..."
 msgstr "去引導"
 
-#: src/monitor/monitor.cpp:272
+#: src/monitor/monitor.cpp:273
 #, kde-format
 msgid "Force Monitor Size"
 msgstr "預覽視窗尺寸"
 
-#: src/monitor/monitor.cpp:273
+#: src/monitor/monitor.cpp:274
 #, kde-format
 msgid "Force 100%"
 msgstr "100%"
 
-#: src/monitor/monitor.cpp:275
+#: src/monitor/monitor.cpp:276
 #, kde-format
 msgid "Force 50%"
 msgstr "50%"
 
-#: src/monitor/monitor.cpp:277
+#: src/monitor/monitor.cpp:278
 #, kde-format
 msgid "Free Resize"
 msgstr "自動調整大小"
 
-#: src/monitor/monitor.cpp:290
+#: src/monitor/monitor.cpp:291
 #, fuzzy, kde-format
 msgid "Audio volume"
 msgstr "只有音訊"
 
-#: src/monitor/monitor.cpp:325
+#: src/monitor/monitor.cpp:326
 #, kde-format
 msgid "Show/Hide edit mode"
 msgstr "顯示/隱藏 編輯模式"
 
-#: src/monitor/monitor.cpp:488
+#: src/monitor/monitor.cpp:489
 #, fuzzy, kde-format
 msgid "Save zone"
 msgstr "儲存區段"
 
-#: src/monitor/monitor.cpp:490
+#: src/monitor/monitor.cpp:491
 #, fuzzy, kde-format
 msgid "Extract Zone"
 msgstr "切除選取區段後前移"
 
-#: src/monitor/monitor.cpp:500
+#: src/monitor/monitor.cpp:501
 #, kde-format
 msgid "Set current image as thumbnail"
 msgstr "將目前圖片設定為縮略圖"
 
-#: src/monitor/monitor.cpp:508
+#: src/monitor/monitor.cpp:509
 #, kde-format
 msgid "Show Audio Levels"
 msgstr "顯示音量等級"
 
-#: src/monitor/monitor.cpp:542
+#: src/monitor/monitor.cpp:543
 #, kde-format
 msgid "Your screen resolution is not sufficient for this action"
 msgstr "螢幕解析度不夠執行此操作"
 
-#: src/monitor/monitor.cpp:1016
+#: src/monitor/monitor.cpp:1017
 #, fuzzy, kde-format
 msgid "Save Image"
 msgstr "載入圖片"
 
-#: src/monitor/monitor.cpp:1016
+#: src/monitor/monitor.cpp:1017
 #, fuzzy, kde-format
 msgid "Save Image to Project"
 msgstr "儲存 DVD 項目"
 
-#: src/monitor/monitor.cpp:1021
+#: src/monitor/monitor.cpp:1022
 #, kde-format
 msgid "Export image using source resolution"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1737
+#: src/monitor/monitor.cpp:1742
 #, kde-format
 msgid "Cannot initialize Movit's GLSL manager, please disable Movit"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1779 src/monitor/monitor.cpp:1831
+#: src/monitor/monitor.cpp:1784 src/monitor/monitor.cpp:1836
 #, kde-format
 msgid ""
 "The alphagrad filter is required for that feature, please install frei0r and "
 "restart Kdenlive"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1799
+#: src/monitor/monitor.cpp:1804
 #, fuzzy, kde-format
 #| msgid "Clip has no markers"
 msgid "Clip has no effects"
 msgstr "素材沒有記號"
 
-#: src/monitor/monitor.cpp:1801
+#: src/monitor/monitor.cpp:1806
 #, fuzzy, kde-format
 #| msgid "Select a clip if you want to apply an effect"
 msgid "Select a clip in project bin to compare effect"
 msgstr "如果您想使用特效請選取一個素材"
 
-#: src/monitor/monitor.cpp:1838
+#: src/monitor/monitor.cpp:1843
 #, kde-format
 msgid ""
 "The cairoblend transition is required for that feature, please install "
 "frei0r and restart Kdenlive"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1884
+#: src/monitor/monitor.cpp:1889
 #, kde-format
 msgid "Enable edit mode in monitor to edit effect"
 msgstr ""

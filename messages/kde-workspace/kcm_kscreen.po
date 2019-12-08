@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-20 03:32+0100\n"
+"POT-Creation-Date: 2019-12-08 03:29+0100\n"
 "PO-Revision-Date: 2019-10-26 23:18+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -131,7 +131,7 @@ msgstr "解析度："
 msgid "Scale:"
 msgstr "比例："
 
-#: package/contents/ui/OutputPanel.qml:86 package/contents/ui/Panel.qml:124
+#: package/contents/ui/OutputPanel.qml:86 package/contents/ui/Panel.qml:117
 #, kde-format
 msgctxt "Global scale factor expressed in percentage form"
 msgid "%1%"
@@ -152,18 +152,17 @@ msgstr "刷新頻率："
 msgid "Replica of:"
 msgstr "複本來源："
 
-#. i18n change text in master
-#: package/contents/ui/Panel.qml:34
+#: package/contents/ui/Panel.qml:30
 #, kde-format
-msgid "Settings for %1"
-msgstr "%1 的設定"
+msgid "Device:"
+msgstr ""
 
-#: package/contents/ui/Panel.qml:88
+#: package/contents/ui/Panel.qml:81
 #, kde-format
 msgid "Global scale:"
 msgstr "全域縮放比例："
 
-#: package/contents/ui/Panel.qml:145
+#: package/contents/ui/Panel.qml:138
 #, kde-format
 msgid ""
 "The global scale factor is limited to multiples of 6.25% to minimize visual "
@@ -172,17 +171,17 @@ msgstr ""
 "全域縮放比例已限制成 6.25% 的倍數，以最小化使用 X11 視窗系統之應用程式中的畫"
 "面故障 (glitch) 問題。"
 
-#: package/contents/ui/Panel.qml:157
+#: package/contents/ui/Panel.qml:150
 #, kde-format
 msgid "Save displays' properties:"
 msgstr "儲存顯示器的屬性："
 
-#: package/contents/ui/Panel.qml:163
+#: package/contents/ui/Panel.qml:156
 #, kde-format
 msgid "For any display arrangement"
 msgstr "用於任意顯示器排序"
 
-#: package/contents/ui/Panel.qml:170
+#: package/contents/ui/Panel.qml:163
 #, kde-format
 msgid "For only this specific display arrangement"
 msgstr "僅用於此指定顯示器排序"
@@ -216,6 +215,9 @@ msgstr "拖曳螢幕以重新排列"
 #, kde-format
 msgid "Identify"
 msgstr "識別"
+
+#~ msgid "Settings for %1"
+#~ msgstr "%1 的設定"
 
 #~ msgid "Center View"
 #~ msgstr "中央檢視"

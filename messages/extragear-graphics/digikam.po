@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-07 02:31+0100\n"
+"POT-Creation-Date: 2019-12-08 02:33+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -1318,7 +1318,7 @@ msgstr "載入中..."
 msgid "Checking ICC repository..."
 msgstr "正在檢查 ICC 儲存庫..."
 
-#: core/app/main/digikamapp.cpp:299
+#: core/app/main/digikamapp.cpp:296
 #, kde-format
 msgid ""
 "<p>The ICC profiles folder seems to be invalid.</p><p>If you want to try "
@@ -1328,13 +1328,13 @@ msgstr ""
 "<p>此 ICC 描述檔資料夾似乎無效。</p><p>如果您想要再設定一次，在這裡點選"
 "「是」，反之請選「否」，而「色彩管理」功能會停用，直到您解決這個問題。</p>"
 
-#: core/app/main/digikamapp.cpp:560 core/app/views/stack/trashview.cpp:444
+#: core/app/main/digikamapp.cpp:557 core/app/views/stack/trashview.cpp:444
 #, kde-format
 msgid "No item selected (%1 item)"
 msgid_plural "No item selected (%1 items)"
 msgstr[0] "沒有選擇任何項目（共 %1 個項目）"
 
-#: core/app/main/digikamapp.cpp:566
+#: core/app/main/digikamapp.cpp:563
 #, fuzzy, kde-format
 #| msgid "No item selected (%1 item)"
 #| msgid_plural "No item selected (%1 items)"
@@ -1342,7 +1342,7 @@ msgid "No item selected (%1 [%2] item)"
 msgid_plural "No item selected (%1 [%2] items)"
 msgstr[0] "沒有選擇任何項目（共 %1 個項目）"
 
-#: core/app/main/digikamapp.cpp:570
+#: core/app/main/digikamapp.cpp:567
 #, fuzzy, kde-format
 #| msgid "No item selected (%1 item)"
 #| msgid_plural "No item selected (%1 items)"
@@ -1350,54 +1350,54 @@ msgid "No item selected (%1 item. With grouped items: %2)"
 msgid_plural "No item selected (%1 items. With grouped items: %2)"
 msgstr[0] "沒有選擇任何項目（共 %1 個項目）"
 
-#: core/app/main/digikamapp.cpp:579 core/app/views/stack/trashview.cpp:451
+#: core/app/main/digikamapp.cpp:576 core/app/views/stack/trashview.cpp:451
 #, fuzzy, kde-format
 #| msgid "%2/%1 item selected"
 #| msgid_plural "%2/%1 items selected"
 msgid "%1/%2 items selected"
 msgstr "%2/%1 個項目已選擇"
 
-#: core/app/main/digikamapp.cpp:589
+#: core/app/main/digikamapp.cpp:586
 #, fuzzy, kde-format
 #| msgid "%2/%1 item selected"
 #| msgid_plural "%2/%1 items selected"
 msgid "%1/%2 [%3] items selected"
 msgstr "%2/%1 個項目已選擇"
 
-#: core/app/main/digikamapp.cpp:592
+#: core/app/main/digikamapp.cpp:589
 #, kde-format
 msgid "%1/%2 items selected. Total with grouped items: %3"
 msgstr ""
 
-#: core/app/main/digikamapp.cpp:599
+#: core/app/main/digikamapp.cpp:596
 #, fuzzy, kde-format
 #| msgid "%2/%1 item selected"
 #| msgid_plural "%2/%1 items selected"
 msgid "%1/%2 [%3/%4] items selected"
 msgstr "%2/%1 個項目已選擇"
 
-#: core/app/main/digikamapp.cpp:603
+#: core/app/main/digikamapp.cpp:600
 #, kde-format
 msgid "%1/%2 items selected. With grouped items: %3/%4"
 msgstr ""
 
-#: core/app/main/digikamapp.cpp:625
+#: core/app/main/digikamapp.cpp:622
 #, kde-format
 msgid " (%1 of %2)"
 msgstr "(第 %1 張，共 %2 張)"
 
-#: core/app/main/digikamapp.cpp:634
+#: core/app/main/digikamapp.cpp:631
 #, fuzzy, kde-format
 #| msgid " (%1 of %2)"
 msgid " (%1 of %2 [%3])"
 msgstr "(第 %1 張，共 %2 張)"
 
-#: core/app/main/digikamapp.cpp:638
+#: core/app/main/digikamapp.cpp:635
 #, kde-format
 msgid " (%1 of %2. Total with grouped items: %3)"
 msgstr ""
 
-#: core/app/main/digikamapp.cpp:649
+#: core/app/main/digikamapp.cpp:646
 #, fuzzy, kde-format
 #| msgid "1 item"
 #| msgid_plural "%1 items"
@@ -1405,7 +1405,7 @@ msgid "%1 item hidden"
 msgid_plural "%1 items hidden"
 msgstr[0] "%1 個項目"
 
-#: core/app/main/digikamapp.cpp:698
+#: core/app/main/digikamapp.cpp:695
 #, fuzzy, kde-format
 #| msgid "Write Metadata to Image"
 #| msgid_plural "Write Metadata to Selected Images"
@@ -1413,7 +1413,7 @@ msgid "Write Metadata to File"
 msgid_plural "Write Metadata to Selected Files"
 msgstr[0] "將中繼資料寫入選擇的影像"
 
-#: core/app/main/digikamapp.cpp:700
+#: core/app/main/digikamapp.cpp:697
 #, fuzzy, kde-format
 #| msgid "Reread Metadata From Image"
 #| msgid_plural "Reread Metadata From Selected Images"
@@ -2502,7 +2502,7 @@ msgstr ""
 msgid "Main Toolbar"
 msgstr "主工具列"
 
-#: core/app/main/main.cpp:118 core/app/views/stack/welcomepageview.cpp:217
+#: core/app/main/main.cpp:119 core/app/views/stack/welcomepageview.cpp:217
 #: core/libs/album/manager/albummanager_album.cpp:135
 #: core/libs/album/manager/albummanager_dalbum.cpp:103
 #: core/libs/album/manager/albummanager_falbum.cpp:74
@@ -2511,35 +2511,35 @@ msgstr "主工具列"
 msgid "digiKam"
 msgstr "digiKam"
 
-#: core/app/main/main.cpp:135
+#: core/app/main/main.cpp:136
 #, kde-format
 msgid "Open camera dialog at <path>"
 msgstr "開啟相機對話框於 <path>"
 
-#: core/app/main/main.cpp:138
+#: core/app/main/main.cpp:139
 #, kde-format
 msgid "Open camera dialog for the device with Solid UDI <udi>"
 msgstr "用 Solid UDI 開啟裝置的相機對話框 <udi>"
 
-#: core/app/main/main.cpp:141
+#: core/app/main/main.cpp:142
 #, kde-format
 msgid "Automatically detect and open a connected gphoto2 camera"
 msgstr "自動偵測並開啟已連線的 gphoto2 相機"
 
-#: core/app/main/main.cpp:143
+#: core/app/main/main.cpp:144
 #, kde-format
 msgid ""
 "Start digikam with the SQLite database file found in the directory <dir>"
 msgstr "用在目錄 <dir> 中找到的 SQLite 資料庫檔案啟動 digikam"
 
-#: core/app/main/main.cpp:146
+#: core/app/main/main.cpp:147
 #, fuzzy, kde-format
 #| msgid ""
 #| "Start digikam with the SQLite database file found in the directory <dir>"
 msgid "Start digikam with the configuration file <config>"
 msgstr "用在目錄 <dir> 中找到的 SQLite 資料庫檔案啟動 digikam"
 
-#: core/app/main/main.cpp:166
+#: core/app/main/main.cpp:167
 #, fuzzy, kde-format
 msgid ""
 "Run-time Qt SQLite or MySQL database plugin is not available. please install "
@@ -2549,7 +2549,7 @@ msgstr ""
 "無法使用 Run-time Qt4 SQLite 或 MySQL 資料庫外掛程式 - 請安裝此外掛程式。\n"
 "您的電腦上沒有安裝資料庫外掛程式。"
 
-#: core/app/main/main.cpp:175
+#: core/app/main/main.cpp:176
 #, fuzzy, kde-format
 msgid ""
 "Run-time Qt SQLite or MySQL database plugin are not available. Please "
@@ -2559,7 +2559,7 @@ msgstr ""
 "無法使用 Run-time Qt4 SQLite 或 MySQL 資料庫外掛程式 - 請安裝此外掛程式。\n"
 "下面列出您的電腦上已安裝的資料庫外掛程式："
 
-#: core/app/main/main.cpp:212
+#: core/app/main/main.cpp:213
 #, kde-format
 msgid ""
 "<p>The given path for the config file is not valid. Either its parent "
@@ -22089,16 +22089,20 @@ msgstr ""
 "新啟動 digiKam 前修正您的語系設定值。"
 
 #: core/libs/album/manager/albummanager_database.cpp:279
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>The collection </p><p><b>%1</b><br/>(%2)</p><p> is currently not found "
+#| "on your system.<br/> Please choose the most appropriate option to handle "
+#| "this situation:</p>"
 msgid ""
 "<p>The collection </p><p><b>%1</b><br/>(%2)</p><p> is currently not found on "
-"your system.<br/> Please choose the most appropriate option to handle this "
+"your system.<br/> Please choose the most appropriate  option to handle this "
 "situation:</p>"
 msgstr ""
 "<p>目前在您的系統上無法找到此收藏 </p><p><b>%1</b><br/>(%2)</p><p>。<br/> 請"
 "選擇最合適的選項來處理這個狀況：</p>"
 
-#: core/libs/album/manager/albummanager_database.cpp:297
+#: core/libs/album/manager/albummanager_database.cpp:298
 #, kde-format
 msgid ""
 "<p>The collection is still available, but the identifier changed.<br/>This "
@@ -22108,31 +22112,31 @@ msgstr ""
 "<p>此收藏仍無法使用，但識別碼已改變。<br/>這可能是還原備份所造成，請改變分割"
 "區規劃或檔案系統設定值。<br/>此收藏現在被放在這個地方：</p>"
 
-#: core/libs/album/manager/albummanager_database.cpp:316
+#: core/libs/album/manager/albummanager_database.cpp:317
 #, kde-format
 msgid ""
 "The collection is located on a storage device which is not always attached. "
 "Mark the collection as a removable collection."
 msgstr "此收藏放置的儲存裝置不是固定式的。請將此收藏標記為抽取式收藏。"
 
-#: core/libs/album/manager/albummanager_database.cpp:323
+#: core/libs/album/manager/albummanager_database.cpp:324
 #, kde-format
 msgid ""
 "Take no action now. I would like to solve the problem later using the setup "
 "dialog"
 msgstr "現在不採取行動。我想之後再用設定對話框解決這個問題"
 
-#: core/libs/album/manager/albummanager_database.cpp:337
+#: core/libs/album/manager/albummanager_database.cpp:338
 #, kde-format
 msgid "Collection not found"
 msgstr "沒有找到任何收藏"
 
-#: core/libs/album/manager/albummanager_database.cpp:433
+#: core/libs/album/manager/albummanager_database.cpp:434
 #, kde-format
 msgid "Database Folder"
 msgstr "資料庫資料夾"
 
-#: core/libs/album/manager/albummanager_database.cpp:434
+#: core/libs/album/manager/albummanager_database.cpp:435
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the place to store the database. A "
@@ -22145,30 +22149,30 @@ msgstr ""
 "digiKam 的資料庫檔案。</p> <p>您想要升級此舊資料庫檔案 - 確認這個資料庫檔案實"
 "際被建立放置在資料夾「%2」的圖片 - 或者忽略此舊檔並用新的資料庫啟動？</p> "
 
-#: core/libs/album/manager/albummanager_database.cpp:444
-#: core/libs/album/manager/albummanager_database.cpp:506
-#: core/libs/album/manager/albummanager_database.cpp:528
+#: core/libs/album/manager/albummanager_database.cpp:445
+#: core/libs/album/manager/albummanager_database.cpp:507
+#: core/libs/album/manager/albummanager_database.cpp:529
 #, kde-format
 msgid "Upgrade Database"
 msgstr "升級資料庫"
 
-#: core/libs/album/manager/albummanager_database.cpp:446
-#: core/libs/album/manager/albummanager_database.cpp:508
-#: core/libs/album/manager/albummanager_database.cpp:530
-#: core/libs/album/manager/albummanager_database.cpp:577
+#: core/libs/album/manager/albummanager_database.cpp:447
+#: core/libs/album/manager/albummanager_database.cpp:509
+#: core/libs/album/manager/albummanager_database.cpp:531
+#: core/libs/album/manager/albummanager_database.cpp:578
 #, kde-format
 msgid "Create New Database"
 msgstr "建立新資料庫"
 
-#: core/libs/album/manager/albummanager_database.cpp:497
-#: core/libs/album/manager/albummanager_database.cpp:520
-#: core/libs/album/manager/albummanager_database.cpp:569
-#: core/libs/album/manager/albummanager_database.cpp:601
+#: core/libs/album/manager/albummanager_database.cpp:498
+#: core/libs/album/manager/albummanager_database.cpp:521
+#: core/libs/album/manager/albummanager_database.cpp:570
+#: core/libs/album/manager/albummanager_database.cpp:602
 #, kde-format
 msgid "New database folder"
 msgstr "新增資料庫資料夾"
 
-#: core/libs/album/manager/albummanager_database.cpp:498
+#: core/libs/album/manager/albummanager_database.cpp:499
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the new place to store the database. "
@@ -22181,14 +22185,14 @@ msgstr ""
 "digiKam 的資料庫檔案。</p> <p>您想要升級此舊資料庫檔案、用新的資料庫啟動或複"
 "製目前的資料庫到這個位置並繼續使用？</p> "
 
-#: core/libs/album/manager/albummanager_database.cpp:510
-#: core/libs/album/manager/albummanager_database.cpp:579
-#: core/libs/album/manager/albummanager_database.cpp:610
+#: core/libs/album/manager/albummanager_database.cpp:511
+#: core/libs/album/manager/albummanager_database.cpp:580
+#: core/libs/album/manager/albummanager_database.cpp:611
 #, kde-format
 msgid "Copy Current Database"
 msgstr "複製目前資料庫"
 
-#: core/libs/album/manager/albummanager_database.cpp:521
+#: core/libs/album/manager/albummanager_database.cpp:522
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the new place to store the database. "
@@ -22200,7 +22204,7 @@ msgstr ""
 "digiKam 的資料庫檔案。</p> <p>您是否要升級此舊資料庫檔案或用新的資料庫開始？"
 "</p> "
 
-#: core/libs/album/manager/albummanager_database.cpp:555
+#: core/libs/album/manager/albummanager_database.cpp:556
 #, kde-format
 msgid ""
 "Failed to copy the old database file (\"%1\") to its new location (\"%2\"). "
@@ -22209,7 +22213,7 @@ msgstr ""
 "將舊的資料庫檔案 (\"%1\") 複製到新的位置 (\"%2\") 失敗。請試著將舊的資料庫升"
 "級。"
 
-#: core/libs/album/manager/albummanager_database.cpp:570
+#: core/libs/album/manager/albummanager_database.cpp:571
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the new place to store the database."
@@ -22219,7 +22223,7 @@ msgstr ""
 "<p>您已經選擇資料夾「%1」作為儲存資料庫的新地方。</p><p>您想要複製目前的資料"
 "庫到這個位置並繼續使用，或者用新的資料庫啟動？</p> "
 
-#: core/libs/album/manager/albummanager_database.cpp:602
+#: core/libs/album/manager/albummanager_database.cpp:603
 #, kde-format
 msgid ""
 "<p>You have chosen the folder \"%1\" as the new place to store the database. "
@@ -22231,12 +22235,12 @@ msgstr ""
 "置。</p> <p>您想要使用這個現有檔案作為新的資料庫，或者移除此檔案並複製目前的"
 "資料庫到這個地方？</p> "
 
-#: core/libs/album/manager/albummanager_database.cpp:612
+#: core/libs/album/manager/albummanager_database.cpp:613
 #, kde-format
 msgid "Use Existing File"
 msgstr "使用現有檔案"
 
-#: core/libs/album/manager/albummanager_database.cpp:679
+#: core/libs/album/manager/albummanager_database.cpp:683
 #, kde-format
 msgid ""
 "Failed to backup the existing database file (\"%1\"). Refusing to replace "
@@ -22245,7 +22249,7 @@ msgstr ""
 "備份現有的資料庫檔案 (\"%1\") 失敗。若沒有備份會拒絕取代檔案，而使用現有的檔"
 "案。"
 
-#: core/libs/album/manager/albummanager_database.cpp:697
+#: core/libs/album/manager/albummanager_database.cpp:701
 #, kde-format
 msgid ""
 "Failed to copy the old database file (\"%1\") to its new location (\"%2\"). "
@@ -23327,32 +23331,32 @@ msgstr "沒有選擇影像"
 msgid "This is the original image"
 msgstr "這是原始影像"
 
-#: core/libs/database/server/databaseserver.cpp:157
+#: core/libs/database/server/databaseserver.cpp:154
 #, fuzzy, kde-format
 #| msgid "Filter identifier or version is not supported"
 msgid "Database type is not supported."
 msgstr "濾鏡的識別子或版號不被支援"
 
-#: core/libs/database/server/databaseserver.cpp:265
+#: core/libs/database/server/databaseserver.cpp:262
 #, fuzzy, kde-format
 #| msgid "No path to mysqld set in server configuration."
 msgid "No path to mysql server command set in configuration file!"
 msgstr "在伺服器組態設定裡沒有 mysqld 設定的路徑。"
 
-#: core/libs/database/server/databaseserver.cpp:274
+#: core/libs/database/server/databaseserver.cpp:271
 #, fuzzy, kde-format
 #| msgid "No path to mysqld set in server configuration."
 msgid "No path to mysql initialization command set in configuration file!."
 msgstr "在伺服器組態設定裡沒有 mysqld 設定的路徑。"
 
-#: core/libs/database/server/databaseserver.cpp:284
-#: core/libs/database/server/databaseserver.cpp:294
-#: core/libs/database/server/databaseserver.cpp:304
+#: core/libs/database/server/databaseserver.cpp:281
+#: core/libs/database/server/databaseserver.cpp:291
+#: core/libs/database/server/databaseserver.cpp:301
 #, fuzzy, kde-format
 msgid "Cannot create directory %1"
 msgstr "建立目錄失敗。"
 
-#: core/libs/database/server/databaseserver.cpp:385
+#: core/libs/database/server/databaseserver.cpp:382
 #, fuzzy, kde-format
 #| msgid ""
 #| "Unable to create MySQL server configuration file.\n"
@@ -23368,29 +23372,29 @@ msgstr ""
 "這表示無法讀取預設的組態設定檔 (mysql-global.conf) 或者目標檔案 (mysql.conf) "
 "無法寫入。"
 
-#: core/libs/database/server/databaseserver.cpp:406
+#: core/libs/database/server/databaseserver.cpp:403
 #, fuzzy, kde-format
 #| msgid "Did not find MySQL server default configuration (mysql-global.conf)."
 msgid "Cannot find MySQL server default configuration (mysql-global.conf)."
 msgstr "找不到 MySQL 伺服器預設的組態設定 (mysql-global.conf)。"
 
-#: core/libs/database/server/databaseserver.cpp:473
+#: core/libs/database/server/databaseserver.cpp:470
 #, fuzzy, kde-format
 #| msgid "Could not start database server."
 msgid "Could not start database initializer."
 msgstr "無法啟動資料庫伺服器。"
 
-#: core/libs/database/server/databaseserver.cpp:510
+#: core/libs/database/server/databaseserver.cpp:507
 #, kde-format
 msgid "Could not start database server."
 msgstr "無法啟動資料庫伺服器。"
 
-#: core/libs/database/server/databaseserver.cpp:547
+#: core/libs/database/server/databaseserver.cpp:544
 #, kde-format
 msgid "Invalid database object during database server startup"
 msgstr ""
 
-#: core/libs/database/server/databaseserver.cpp:578
+#: core/libs/database/server/databaseserver.cpp:575
 #, fuzzy, kde-format
 #| msgid ""
 #| "Database process exited unexpectedly during initial connection."
@@ -23399,18 +23403,18 @@ msgid "Database process exited unexpectedly during initial connection."
 msgstr ""
 "資料庫處理在初始化校正期間意外地停止。<p>可執行檔：%1</p>”<p>處理錯誤：%2</p>"
 
-#: core/libs/database/server/databaseserver.cpp:584
+#: core/libs/database/server/databaseserver.cpp:581
 #, kde-format
 msgid "Could not connect to Database after trying for 60 seconds."
 msgstr ""
 
-#: core/libs/database/server/databaseserver.cpp:615
+#: core/libs/database/server/databaseserver.cpp:612
 #, kde-format
 msgid ""
 "Failed to create database<p>Query error: %1</p><p>Database error: %2</p>"
 msgstr "建立資料庫失敗<p>查詢錯誤：%1</p><p>資料庫錯誤：%2</p>"
 
-#: core/libs/database/server/databaseserver.cpp:663
+#: core/libs/database/server/databaseserver.cpp:660
 #, fuzzy, kde-format
 #| msgid ""
 #| "Database process exited unexpectedly during initial connection."

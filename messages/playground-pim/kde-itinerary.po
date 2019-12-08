@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-06 03:32+0100\n"
+"POT-Creation-Date: 2019-12-08 03:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: app/AboutPage.qml:26 app/main.qml:82
+#: app/AboutPage.qml:26 app/main.qml:87
 #, kde-format
 msgid "About"
 msgstr ""
@@ -681,12 +681,12 @@ msgstr ""
 msgid "Itinerary change"
 msgstr ""
 
-#: app/main.cpp:113 app/main.qml:27 app/main.qml:42
+#: app/main.cpp:115 app/main.qml:27 app/main.qml:42
 #, kde-format
 msgid "KDE Itinerary"
 msgstr ""
 
-#: app/main.cpp:126
+#: app/main.cpp:128
 #, kde-format
 msgid "PkPass or JSON-LD file to import."
 msgstr ""
@@ -726,12 +726,17 @@ msgstr ""
 msgid "Check for Updates"
 msgstr ""
 
-#: app/main.qml:71
+#: app/main.qml:70 app/StatisticsPage.qml:27
+#, kde-format
+msgid "Statistics"
+msgstr ""
+
+#: app/main.qml:76
 #, kde-format
 msgid "Settings..."
 msgstr ""
 
-#: app/main.qml:76
+#: app/main.qml:81
 #, kde-format
 msgid "Export..."
 msgstr ""
@@ -878,6 +883,70 @@ msgstr ""
 #: app/solidlockbackend.cpp:40
 #, kde-format
 msgid "In barcode scanning mode"
+msgstr ""
+
+#: app/statisticsmodel.cpp:80 app/statisticsmodel.cpp:115
+#: app/statisticsmodel.cpp:130 app/statisticsmodel.cpp:145
+#, kde-format
+msgid "Trips"
+msgstr ""
+
+#: app/statisticsmodel.cpp:85 app/statisticsmodel.cpp:105
+#: app/statisticsmodel.cpp:120 app/statisticsmodel.cpp:135
+#: app/statisticsmodel.cpp:150
+#, kde-format
+msgid "Distance"
+msgstr ""
+
+#: app/statisticsmodel.cpp:85 app/statisticsmodel.cpp:105
+#: app/statisticsmodel.cpp:120 app/statisticsmodel.cpp:135
+#: app/statisticsmodel.cpp:150
+#, kde-format
+msgid "%1 km"
+msgstr ""
+
+#: app/statisticsmodel.cpp:90
+#, kde-format
+msgid "Hotel nights"
+msgstr ""
+
+#: app/statisticsmodel.cpp:95 app/statisticsmodel.cpp:110
+#: app/statisticsmodel.cpp:125 app/statisticsmodel.cpp:140
+#: app/statisticsmodel.cpp:155
+#, kde-format
+msgid "CO₂"
+msgstr ""
+
+#: app/statisticsmodel.cpp:95 app/statisticsmodel.cpp:110
+#: app/statisticsmodel.cpp:125 app/statisticsmodel.cpp:140
+#: app/statisticsmodel.cpp:155
+#, kde-format
+msgid "%1 kg"
+msgstr ""
+
+#: app/statisticsmodel.cpp:100 app/StatisticsPage.qml:62
+#, kde-format
+msgid "Flights"
+msgstr ""
+
+#: app/StatisticsPage.qml:53 app/statisticstimerangemodel.cpp:80
+#, kde-format
+msgid "Total"
+msgstr ""
+
+#: app/StatisticsPage.qml:70
+#, kde-format
+msgid "Trains"
+msgstr ""
+
+#: app/StatisticsPage.qml:78
+#, kde-format
+msgid "Bus"
+msgstr ""
+
+#: app/StatisticsPage.qml:86
+#, kde-format
+msgid "Car"
 msgstr ""
 
 #: app/tickettokenmodel.cpp:109
