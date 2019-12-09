@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-08 03:06+0100\n"
+"POT-Creation-Date: 2019-12-09 03:00+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -6149,7 +6149,7 @@ msgstr "幻燈片放映素材"
 msgid "Create title template"
 msgstr "建立新的編碼方案"
 
-#: src/bin/clipcreator.cpp:207 src/project/projectmanager.cpp:537
+#: src/bin/clipcreator.cpp:207 src/project/projectmanager.cpp:531
 #, kde-format
 msgid "Loading clips"
 msgstr "正在載入素材"
@@ -6253,7 +6253,7 @@ msgid "Delete all markers"
 msgstr "移除所有記號"
 
 #: src/bin/projectclip.cpp:145 src/doc/kdenlivedoc.cpp:797
-#: src/project/dialogs/archivewidget.cpp:200 src/project/projectmanager.cpp:929
+#: src/project/dialogs/archivewidget.cpp:200 src/project/projectmanager.cpp:923
 #, kde-format
 msgid "Untitled"
 msgstr "無標題"
@@ -6314,29 +6314,29 @@ msgstr "說明"
 msgid "Unknown"
 msgstr "未知的素材"
 
-#: src/bin/projectitemmodel.cpp:494
+#: src/bin/projectitemmodel.cpp:497
 #, fuzzy, kde-format
 msgid "Zone"
 msgstr "區段終點：%1"
 
-#: src/bin/projectitemmodel.cpp:668
+#: src/bin/projectitemmodel.cpp:671
 #, fuzzy, kde-format
 #| msgid "Add clip"
 #| msgid_plural "Add clips"
 msgid "Add bin clip"
 msgstr "添加素材"
 
-#: src/bin/projectitemmodel.cpp:737
+#: src/bin/projectitemmodel.cpp:740
 #, fuzzy, kde-format
 msgid "Add a sub clip"
 msgstr "添加素材"
 
-#: src/bin/projectitemmodel.cpp:778
+#: src/bin/projectitemmodel.cpp:781
 #, fuzzy, kde-format
 msgid "Rename Folder"
 msgstr "重命名檔案夾"
 
-#: src/bin/projectitemmodel.cpp:807 src/mainwindow.cpp:1197
+#: src/bin/projectitemmodel.cpp:810 src/mainwindow.cpp:1197
 #, kde-format
 msgid "Clean Project"
 msgstr "清理無使用的素材"
@@ -6919,7 +6919,7 @@ msgstr "這個編碼方案名稱已經存在。如果您不想覆寫它，請使
 #: src/profiles/profilerepository.cpp:200
 #: src/project/dialogs/archivewidget.cpp:863
 #: src/project/dialogs/archivewidget.cpp:869
-#: src/project/projectmanager.cpp:1028 src/titler/titlewidget.cpp:2012
+#: src/project/projectmanager.cpp:1022 src/titler/titlewidget.cpp:2012
 #, kde-format
 msgid "Cannot write to file %1"
 msgstr "無法寫入檔案 %1"
@@ -7609,7 +7609,7 @@ msgid ""
 "Do you want to open a backup file?"
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:166 src/project/projectmanager.cpp:441
+#: src/doc/kdenlivedoc.cpp:166 src/project/projectmanager.cpp:436
 #, kde-format
 msgid "Recover"
 msgstr "回復"
@@ -11467,7 +11467,7 @@ msgstr "開啟備份檔"
 msgid "Save changes to document?"
 msgstr "是否儲存對檔案的修改?"
 
-#: src/project/projectmanager.cpp:227 src/project/projectmanager.cpp:928
+#: src/project/projectmanager.cpp:227 src/project/projectmanager.cpp:922
 #, kde-format
 msgid ""
 "The project <b>\"%1\"</b> has been changed.\n"
@@ -11476,76 +11476,76 @@ msgstr ""
 "此項目 <b>\"%1\"</b> 已經修改。\n"
 "您要保修這些修改嗎？"
 
-#: src/project/projectmanager.cpp:440
+#: src/project/projectmanager.cpp:435
 #, kde-format
 msgid "Auto-saved files exist. Do you want to recover them now?"
 msgstr "自動儲存的檔案已經存在，您是否要回復它?"
 
-#: src/project/projectmanager.cpp:440
+#: src/project/projectmanager.cpp:435
 #, kde-format
 msgid "File Recovery"
 msgstr "檔案回復"
 
-#: src/project/projectmanager.cpp:441
+#: src/project/projectmanager.cpp:436
 #, fuzzy, kde-format
 #| msgid "Don't recover"
 msgid "Do not recover"
 msgstr "不進行回復"
 
-#: src/project/projectmanager.cpp:495
+#: src/project/projectmanager.cpp:489
 #, kde-format
 msgid "Opening file %1"
 msgstr "正在開啟檔案 %1"
 
-#: src/project/projectmanager.cpp:509 src/project/projectmanager.cpp:511
+#: src/project/projectmanager.cpp:503 src/project/projectmanager.cpp:505
 #, fuzzy, kde-format
 msgid "Loading project"
 msgstr "清理本項目"
 
-#: src/project/projectmanager.cpp:576
+#: src/project/projectmanager.cpp:570
 #, kde-format
 msgid ""
 "This will delete all changes made since you last saved your project. Are you "
 "sure you want to continue?"
 msgstr "這會移除從您最後一次儲存項目以來的所有修改，您確定要繼續嗎？"
 
-#: src/project/projectmanager.cpp:577
+#: src/project/projectmanager.cpp:571
 #, kde-format
 msgid "Revert to last saved version"
 msgstr "回復到最後儲存的版本"
 
-#: src/project/projectmanager.cpp:588
+#: src/project/projectmanager.cpp:582
 #, kde-format
 msgid "Kdenlive project (*.kdenlive)"
 msgstr ""
 
-#: src/project/projectmanager.cpp:590
+#: src/project/projectmanager.cpp:584
 #, fuzzy, kde-format
 msgid "Archived project (*.tar.gz)"
 msgstr "專案封存"
 
-#: src/project/projectmanager.cpp:810
+#: src/project/projectmanager.cpp:804
 #, fuzzy, kde-format
 msgid "Moving project folder"
 msgstr "項目檔案夾"
 
-#: src/project/projectmanager.cpp:832
+#: src/project/projectmanager.cpp:826
 #, fuzzy, kde-format
 msgid "Error moving project folder: %1"
 msgstr "項目檔案夾"
 
-#: src/project/projectmanager.cpp:853
+#: src/project/projectmanager.cpp:847
 #, kde-format
 msgid "Project file is corrupted (no tracks). Try to find a backup file?"
 msgstr ""
 
-#: src/project/projectmanager.cpp:933 src/project/projectmanager.cpp:938
-#: src/project/projectmanager.cpp:948 src/project/projectmanager.cpp:963
+#: src/project/projectmanager.cpp:927 src/project/projectmanager.cpp:932
+#: src/project/projectmanager.cpp:942 src/project/projectmanager.cpp:957
 #, fuzzy, kde-format
 msgid "Project profile change aborted"
 msgstr "項目檔案"
 
-#: src/project/projectmanager.cpp:1034
+#: src/project/projectmanager.cpp:1028
 #, fuzzy, kde-format
 msgid "Project profile changed"
 msgstr "項目檔案"
@@ -12374,23 +12374,23 @@ msgstr ""
 msgid "Preview rendering failed, check your parameters. %1Show details...%2"
 msgstr ""
 
-#: src/timeline2/view/qml/Clip.qml:365
+#: src/timeline2/view/qml/Clip.qml:370
 #, fuzzy, kde-format
 msgid "Offset: -%1"
 msgstr "偏移"
 
-#: src/timeline2/view/qml/Clip.qml:365
+#: src/timeline2/view/qml/Clip.qml:370
 #, fuzzy, kde-format
 msgid "Offset: %1"
 msgstr "偏移"
 
-#: src/timeline2/view/qml/Clip.qml:543 src/timeline2/view/qml/Clip.qml:593
+#: src/timeline2/view/qml/Clip.qml:548 src/timeline2/view/qml/Clip.qml:598
 #, fuzzy, kde-format
 #| msgid "More options"
 msgid "Click to add composition"
 msgstr "更多選項"
 
-#: src/timeline2/view/qml/Clip.qml:816
+#: src/timeline2/view/qml/Clip.qml:821
 #, fuzzy, kde-format
 #| msgid "Position"
 msgid ""
@@ -12398,7 +12398,7 @@ msgid ""
 "Position:%2"
 msgstr "使用濾鏡的區段"
 
-#: src/timeline2/view/qml/Clip.qml:898
+#: src/timeline2/view/qml/Clip.qml:903
 #, kde-format
 msgid "Out: "
 msgstr ""

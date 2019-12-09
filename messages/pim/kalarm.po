@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-07 03:13+0100\n"
+"POT-Creation-Date: 2019-12-09 03:09+0100\n"
 "PO-Revision-Date: 2018-05-19 11:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -39,7 +39,7 @@ msgctxt "@info"
 msgid "Failed to create new calendar resource"
 msgstr "建立行事曆資源失敗。"
 
-#: akonadiresourcecreator.cpp:113 calendarmigrator.cpp:487
+#: akonadiresourcecreator.cpp:113
 #, kde-kuit-format
 msgctxt "@info"
 msgid "%1<nl/>(%2)"
@@ -226,7 +226,7 @@ msgctxt "@option:radio"
 msgid "Defer for time interval:"
 msgstr "延遲的時間間隔："
 
-#: alarmtimewidget.cpp:150 editdlg.cpp:369
+#: alarmtimewidget.cpp:150 editdlg.cpp:370
 #, kde-format
 msgctxt "@option:radio"
 msgid "Time from now:"
@@ -244,7 +244,7 @@ msgctxt "@info:whatsthis"
 msgid "Schedule the alarm after the specified time interval from now."
 msgstr "安排鬧鐘於多久以後響鈴。"
 
-#: alarmtimewidget.cpp:161 editdlg.cpp:382
+#: alarmtimewidget.cpp:161 editdlg.cpp:383
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<para>%1</para><para>%2</para>"
@@ -271,7 +271,7 @@ msgid ""
 msgstr ""
 "若是此鬧鐘使用的時區與設定對話框中的預設時區不同，可以在這裡選取使用的時區。"
 
-#: alarmtimewidget.cpp:209 prefdlg.cpp:615
+#: alarmtimewidget.cpp:209 prefdlg.cpp:617
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Time zone:"
@@ -360,7 +360,7 @@ msgctxt "@title:group"
 msgid "Alarm Text"
 msgstr "鬧鐘文字"
 
-#: birthdaydlg.cpp:82 prefdlg.cpp:1730
+#: birthdaydlg.cpp:82 prefdlg.cpp:1732
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Prefix:"
@@ -449,31 +449,31 @@ msgctxt "@info:whatsthis"
 msgid "Set up an additional alarm repetition"
 msgstr "設定額外的鬧鐘重覆間隔"
 
-#: calendarmigrator.cpp:297 resources/resourcedatamodelbase.cpp:80
+#: calendarmigrator.cpp:300 resources/resourcedatamodelbase.cpp:80
 #, kde-format
 msgctxt "@info"
 msgid "Active Alarms"
 msgstr "作用中的鬧鐘"
 
-#: calendarmigrator.cpp:305 resources/resourcedatamodelbase.cpp:82
+#: calendarmigrator.cpp:308 resources/resourcedatamodelbase.cpp:82
 #, kde-format
 msgctxt "@info"
 msgid "Archived Alarms"
 msgstr "已歸檔的鬧鐘"
 
-#: calendarmigrator.cpp:313 resources/resourcedatamodelbase.cpp:84
+#: calendarmigrator.cpp:316 resources/resourcedatamodelbase.cpp:84
 #, kde-format
 msgctxt "@info"
 msgid "Alarm Templates"
 msgstr "鬧鐘樣本"
 
-#: calendarmigrator.cpp:351
+#: calendarmigrator.cpp:354
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Failed to create default calendar <resource>%1</resource>"
 msgstr "無法更新預設行事曆 <resource>%1</resource>。"
 
-#: calendarmigrator.cpp:353
+#: calendarmigrator.cpp:356
 #, kde-kuit-format
 msgctxt "@info/plain 'Import Alarms' is the name of a menu option"
 msgid ""
@@ -483,23 +483,17 @@ msgstr ""
 "轉換行事曆 <resource>%1</resource> 的舊設定失敗。請使用「匯入鬧鐘」將它的鬧鐘"
 "載入新的或現有的行事曆中。"
 
-#: calendarmigrator.cpp:355
+#: calendarmigrator.cpp:358
 #, kde-format
 msgctxt "@info File path or URL"
 msgid "Location: %1"
 msgstr "位置：%1"
 
-#: calendarmigrator.cpp:357
+#: calendarmigrator.cpp:359
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>%1</para><para>%2</para>"
 msgstr "<para>%1</para> <para>%2</para>"
-
-#: calendarmigrator.cpp:359
-#, kde-kuit-format
-msgctxt "@info"
-msgid "<para>%1</para><para>%2<nl/>(%3)</para>"
-msgstr "<para>%1</para><para>%2<nl/>(%3)</para>"
 
 #: calendarmigrator.cpp:474
 #, kde-format
@@ -507,23 +501,69 @@ msgctxt "@info"
 msgid "Invalid collection"
 msgstr "不合法的收藏"
 
-#: calendarmigrator.cpp:488
-#, kde-kuit-format
-msgctxt "@info/plain"
+#: calendarmigrator.cpp:487
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info/plain"
+#| msgid "Failed to update format of calendar <resource>%1</resource>"
+msgctxt "@info"
 msgid "Failed to update format of calendar <resource>%1</resource>"
 msgstr "無法更新行事曆 <resource>%1</resource> 的格式。"
 
-#: calendarmigrator.cpp:768
+#: calendarmigrator.cpp:767
 #, kde-format
 msgctxt "@info"
 msgid "New configuration timed out"
 msgstr "新設定已逾時"
 
-#: calendarmigrator.cpp:781
+#: calendarmigrator.cpp:780
 #, kde-format
 msgctxt "@info"
 msgid "New configuration was corrupt"
 msgstr "新設定已損毀"
+
+#: calendarmigrator.cpp:884
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Calendar <resource>%1</resource> is in an old format "
+#| "(<application>KAlarm</application> version %2), and will be read-only "
+#| "unless you choose to update it to the current format."
+msgid ""
+"Calendar <resource>%1</resource> is in an old format (<application>KAlarm</"
+"application> version %2), and will be read-only unless you choose to update "
+"it to the current format."
+msgstr ""
+"行事曆 <resource>%1</resource> 是舊的格式（<application>KAlarm</application> "
+"版本 %2），除非您選擇將它更新為目前的格式，否則將會設為唯讀。"
+
+#: calendarmigrator.cpp:887
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Some or all of the alarms in calendar <resource>%1</resource> are in an "
+#| "old <application>KAlarm</application> format, and will be read-only "
+#| "unless you choose to update them to the current format."
+msgid ""
+"Some or all of the alarms in calendar <resource>%1</resource> are in an old "
+"<application>KAlarm</application> format, and will be read-only unless you "
+"choose to update them to the current format."
+msgstr ""
+"行事曆 <resource>%1</resource> 中部份或所有的鬧鐘使用舊的 "
+"<application>KAlarm</application> 格式。除非您選擇將它們更新為目前的格式，否"
+"則將會設為唯讀。"
+
+#: calendarmigrator.cpp:890
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>%1</para><para><warning>Do not update the calendar if it is also used "
+"with an older version of <application>KAlarm</application> (e.g. on another "
+"computer). If you do so, the calendar may become unusable there.</warning></"
+"para><para>Do you wish to update the calendar?</para>"
+msgstr ""
+"<para>%1</para><para><warning>如果此行事曆正與其它使用舊版 "
+"<application>KAlarm</application> 使用者共享，不要更新此資源，這樣可能會變成"
+"無法使用。</warning></para><para>您要更新此行事曆嗎？</para>"
 
 #: commandoptions.cpp:64
 #, kde-format
@@ -854,115 +894,115 @@ msgctxt "@info"
 msgid "Cannot defer reminder past the main alarm time (%1)"
 msgstr "您不能將鬧鐘延遲設定到超過下一次主要鬧鐘時間（%1）"
 
-#: editdlg.cpp:89
+#: editdlg.cpp:90
 #, kde-format
 msgctxt "@title:tab"
 msgid "Recurrence - [%1]"
 msgstr "循環─【%1】"
 
-#: editdlg.cpp:96
+#: editdlg.cpp:97
 #, kde-format
 msgctxt "@option:check"
 msgid "Show in KOrganizer"
 msgstr "在 KOrganizer 中顯示"
 
-#: editdlg.cpp:192
+#: editdlg.cpp:193
 #, kde-format
 msgctxt "@title:window"
 msgid "Alarm Template [read-only]"
 msgstr "鬧鐘樣本【唯讀】"
 
-#: editdlg.cpp:193
+#: editdlg.cpp:194
 #, kde-format
 msgctxt "@title:window"
 msgid "Archived Alarm [read-only]"
 msgstr "已歸檔的鬧鐘【唯讀】"
 
-#: editdlg.cpp:194
+#: editdlg.cpp:195
 #, kde-format
 msgctxt "@title:window"
 msgid "Alarm [read-only]"
 msgstr "鬧鐘【唯讀】"
 
-#: editdlg.cpp:205 editdlg.cpp:212 editdlg.cpp:219
+#: editdlg.cpp:206 editdlg.cpp:213 editdlg.cpp:220
 #, kde-format
 msgctxt "@action:button"
 msgid "Try"
 msgstr "嘗試"
 
-#: editdlg.cpp:220
+#: editdlg.cpp:221
 #, kde-format
 msgctxt "@action:button"
 msgid "Load Template..."
 msgstr "載入樣本..."
 
-#: editdlg.cpp:228
+#: editdlg.cpp:229
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Schedule the alarm at the specified time."
 msgstr "在指定的時間安排鬧鐘響鈴。"
 
-#: editdlg.cpp:238
+#: editdlg.cpp:239
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Template name:"
 msgstr "樣本名稱："
 
-#: editdlg.cpp:246
+#: editdlg.cpp:247
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Enter the name of the alarm template"
 msgstr "請輸入鬧鐘樣本的名稱。"
 
-#: editdlg.cpp:255
+#: editdlg.cpp:256
 #, kde-format
 msgctxt "@title:tab"
 msgid "Alarm"
 msgstr "鬧鐘"
 
-#: editdlg.cpp:283
+#: editdlg.cpp:284
 #, kde-format
 msgctxt "@title:group"
 msgid "Action"
 msgstr "動作"
 
-#: editdlg.cpp:294
+#: editdlg.cpp:295
 #, kde-format
 msgctxt "@title:group"
 msgid "Deferred Alarm"
 msgstr "延遲鬧鐘"
 
-#: editdlg.cpp:299
+#: editdlg.cpp:300
 #, kde-format
 msgctxt "@label"
 msgid "Deferred to:"
 msgstr "延遲到："
 
-#: editdlg.cpp:305
+#: editdlg.cpp:306
 #, kde-format
 msgctxt "@action:button"
 msgid "Change..."
 msgstr "改變..."
 
-#: editdlg.cpp:308
+#: editdlg.cpp:309
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Change the alarm's deferred time, or cancel the deferral"
 msgstr "改變鬧鐘延遲時間，或取消延遲"
 
-#: editdlg.cpp:320 editdlg.cpp:392
+#: editdlg.cpp:321 editdlg.cpp:393
 #, kde-format
 msgctxt "@title:group"
 msgid "Time"
 msgstr "時間"
 
-#: editdlg.cpp:329
+#: editdlg.cpp:330
 #, kde-format
 msgctxt "@option:radio"
 msgid "Default time"
 msgstr "延遲時間"
 
-#: editdlg.cpp:332
+#: editdlg.cpp:333
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -970,19 +1010,19 @@ msgid ""
 "default start time will be used."
 msgstr "不要依據此樣本來指定鬧鐘的啟始時間。將使用正常預設啟始時間。"
 
-#: editdlg.cpp:341
+#: editdlg.cpp:342
 #, kde-format
 msgctxt "@option:radio"
 msgid "Time:"
 msgstr "時間："
 
-#: editdlg.cpp:344
+#: editdlg.cpp:345
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Specify a start time for alarms based on this template."
 msgstr "依據此樣本指定鬧鐘的啟始時間。"
 
-#: editdlg.cpp:351
+#: editdlg.cpp:352
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -990,13 +1030,13 @@ msgid ""
 "%1</para>"
 msgstr "<para>依據此樣本輸入鬧鐘的啟始時間。</para> <para>%1</para>"
 
-#: editdlg.cpp:358
+#: editdlg.cpp:359
 #, kde-format
 msgctxt "@option:radio"
 msgid "Date only"
 msgstr "只有日期"
 
-#: editdlg.cpp:361
+#: editdlg.cpp:362
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1004,7 +1044,7 @@ msgid ""
 "template."
 msgstr "依據此樣本設定鬧鐘的<interface>任何時間</interface>選項。"
 
-#: editdlg.cpp:373
+#: editdlg.cpp:374
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1012,25 +1052,25 @@ msgid ""
 "from when the alarm is created."
 msgstr "依據此樣本設定鬧鐘啟始時間為自產生鬧鐘時間算起特定時間之後。"
 
-#: editdlg.cpp:441
+#: editdlg.cpp:442
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Check to copy the alarm into KOrganizer's calendar"
 msgstr "開啟此選項以便檢查 KOrganizer 行事曆中的鬧鐘"
 
-#: editdlg.cpp:1005
+#: editdlg.cpp:1006
 #, kde-format
 msgctxt "@info"
 msgid "You must enter a name for the alarm template"
 msgstr "您必須輸入鬧鐘樣本的名稱。"
 
-#: editdlg.cpp:1009
+#: editdlg.cpp:1010
 #, kde-format
 msgctxt "@info"
 msgid "Template name is already in use"
 msgstr "樣本名稱已存在。"
 
-#: editdlg.cpp:1055
+#: editdlg.cpp:1056
 #, kde-format
 msgctxt "@info The parameter is a date value"
 msgid ""
@@ -1038,7 +1078,7 @@ msgid ""
 "adjusted to the date of the next recurrence (%1)."
 msgstr "開始日期與鬧鐘的循環樣式不符，因此會被調整到下一次循環的日期（%1）。"
 
-#: editdlg.cpp:1059
+#: editdlg.cpp:1060
 #, kde-format
 msgctxt "@info The parameter is a date/time value"
 msgid ""
@@ -1048,19 +1088,19 @@ msgstr ""
 "開始日期時間與鬧鐘的循環樣式不符，因此會被調整到下一次循環的日期與時間"
 "（%1）。"
 
-#: editdlg.cpp:1081
+#: editdlg.cpp:1082
 #, kde-format
 msgctxt "@info"
 msgid "Recurrence has already expired"
 msgstr "循環時間已過。"
 
-#: editdlg.cpp:1086
+#: editdlg.cpp:1087
 #, kde-format
 msgctxt "@info"
 msgid "The alarm will never occur during working hours"
 msgstr "此鬧鐘將不會在工作時間內響鈴"
 
-#: editdlg.cpp:1115
+#: editdlg.cpp:1116
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1070,7 +1110,7 @@ msgstr ""
 "設定提醒的時間必須少於所設定的循環時間，除非選取 <interface>%1</interface> 選"
 "項。"
 
-#: editdlg.cpp:1130
+#: editdlg.cpp:1131
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1078,7 +1118,7 @@ msgid ""
 "recurrence interval minus any reminder period"
 msgstr "在循環內重覆的間隔必須比循環間隔減去提醒時間間隔還要小。"
 
-#: editdlg.cpp:1137
+#: editdlg.cpp:1138
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1086,13 +1126,13 @@ msgid ""
 "or weeks for a date-only alarm"
 msgstr "只設定日期的鬧鐘，其循環內的重覆時間必須以天或周為單位。"
 
-#: editdlg.cpp:1168
+#: editdlg.cpp:1169
 #, kde-format
 msgctxt "@info"
 msgid "You must select a calendar to save the alarm in"
 msgstr "選擇行事曆以儲存鬧鐘。"
 
-#: editdlg.cpp:1249
+#: editdlg.cpp:1250
 #, fuzzy, kde-format
 #| msgctxt "@action:Button"
 #| msgid "Less Options <<"
@@ -1100,7 +1140,7 @@ msgctxt "@action:Button"
 msgid "Fewer Options <<"
 msgstr "較少的選項<<"
 
-#: editdlg.cpp:1254
+#: editdlg.cpp:1255
 #, kde-format
 msgctxt "@action:button"
 msgid "More Options >>"
@@ -1193,7 +1233,7 @@ msgctxt "@info:whatsthis"
 msgid "Enter the name or URL of a text or image file to display."
 msgstr "輸入要顯示的文字或圖片的檔名或網址。"
 
-#: editdlgtypes.cpp:204 editdlgtypes.cpp:806 sounddlg.cpp:194
+#: editdlgtypes.cpp:204 editdlgtypes.cpp:806 sounddlg.cpp:196
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Choose a file"
@@ -1802,97 +1842,97 @@ msgctxt "@title:window"
 msgid "Choose Alarm Font & Color"
 msgstr "選擇鬧鐘字型與顏色"
 
-#: functions.cpp:176
+#: functions.cpp:169
 #, kde-format
 msgctxt "@action"
 msgid "Enable &Alarms"
 msgstr "開啟鬧鐘(&A)"
 
-#: functions.cpp:189
+#: functions.cpp:182
 #, kde-format
 msgctxt "@action"
 msgid "Stop Play"
 msgstr "停止播放"
 
-#: functions.cpp:202
+#: functions.cpp:195
 #, kde-format
 msgctxt "@action"
 msgid "Spread Windows"
 msgstr "散布視窗"
 
-#: functions.cpp:780
+#: functions.cpp:773
 #, kde-format
 msgctxt "@info"
 msgid "Unable to show alarms in KOrganizer"
 msgstr "無法顯示 KOrganizer 中的鬧鐘"
 
-#: functions.cpp:781
+#: functions.cpp:774
 #, kde-format
 msgctxt "@info"
 msgid "Unable to show alarm in KOrganizer"
 msgstr "無法顯示 KOrganizer 中的鬧鐘"
 
-#: functions.cpp:784
+#: functions.cpp:777
 #, kde-format
 msgctxt "@info"
 msgid "Unable to update alarm in KOrganizer"
 msgstr "無法更新 KOrganizer 中的鬧鐘"
 
-#: functions.cpp:787
+#: functions.cpp:780
 #, kde-format
 msgctxt "@info"
 msgid "Unable to delete alarms from KOrganizer"
 msgstr "無法刪除 KOrganizer 中的鬧鐘"
 
-#: functions.cpp:788
+#: functions.cpp:781
 #, kde-format
 msgctxt "@info"
 msgid "Unable to delete alarm from KOrganizer"
 msgstr "無法刪除 KOrganizer 中的鬧鐘"
 
-#: functions.cpp:798
+#: functions.cpp:791
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>%1</para><para>(Could not start KOrganizer)</para>"
 msgstr "<para>%1</para> <para>（無法啟動 KOrganizer）</para>"
 
-#: functions.cpp:801
+#: functions.cpp:794
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>%1</para><para>(KOrganizer not fully started)</para>"
 msgstr "<para>%1</para> <para>（KOrganizer 未完整啟動）</para>"
 
-#: functions.cpp:804
+#: functions.cpp:797
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>%1</para><para>(Error communicating with KOrganizer)</para>"
 msgstr "<para>%1</para> <para>（與 KOrganizer 通訊時發生錯誤）</para>"
 
-#: functions.cpp:1050
+#: functions.cpp:1024
 #, kde-format
 msgctxt "info"
 msgid "The scheduled Wake from Suspend has been cancelled."
 msgstr "已排程的「從休眠中喚醒」已被取消。"
 
-#: functions.cpp:1083
+#: functions.cpp:1057
 #, kde-format
 msgctxt "@info"
 msgid "Error obtaining authorization (%1)"
 msgstr "取得授權時發生錯誤（%1）"
 
-#: functions.cpp:1104
+#: functions.cpp:1078
 #, kde-format
 msgctxt "@info"
 msgid "You must enable a template calendar to save the template in"
 msgstr "您必須開啟樣本行事曆才能儲存樣本"
 
-#: functions.cpp:1325
+#: functions.cpp:1299
 #, kde-kuit-format
 msgctxt "@info Please set the 'From' email address..."
 msgid "<para>%1</para><para>Please set it in the Configuration dialog.</para>"
 msgstr "<para>%1</para> <para>請在設定對話框中設定。</para>"
 
-#: functions.cpp:1329
+#: functions.cpp:1303
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1900,19 +1940,19 @@ msgid ""
 "alarms now?</para>"
 msgstr "<para>鬧鐘目前關閉中。</para><para>您要打開它嗎？</para>"
 
-#: functions.cpp:1330
+#: functions.cpp:1304
 #, kde-format
 msgctxt "@action:button"
 msgid "Enable"
 msgstr "開啟鬧鐘"
 
-#: functions.cpp:1330
+#: functions.cpp:1304
 #, kde-format
 msgctxt "@action:button"
 msgid "Keep Disabled"
 msgstr "保持關閉"
 
-#: functions.cpp:1395
+#: functions.cpp:1369
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1921,160 +1961,80 @@ msgstr ""
 "無法啟動 <application>KMail</application><nl/>（訊息為 <message>%1</"
 "message>）"
 
-#: functions.cpp:1590
-#, kde-format
-msgctxt "@info"
-msgid "Please select a file to display"
-msgstr "請選擇要顯示的檔案。"
-
-#: functions.cpp:1592
-#, kde-format
-msgctxt "@info"
-msgid "Please select a file to play"
-msgstr "請選擇要播放的檔案。"
-
-#: functions.cpp:1598
-#, kde-kuit-format
-msgctxt "@info"
-msgid "<filename>%1</filename> is a folder"
-msgstr "<filename>%1</filename> 是個資料夾"
-
-#: functions.cpp:1600
-#, kde-kuit-format
-msgctxt "@info"
-msgid "<filename>%1</filename> not found"
-msgstr "找不到 <filename>%1</filename>"
-
-#: functions.cpp:1601
-#, kde-kuit-format
-msgctxt "@info"
-msgid "<filename>%1</filename> is not readable"
-msgstr "<filename>%1</filename> 無法讀取"
-
-#: functions.cpp:1602
-#, kde-kuit-format
-msgctxt "@info"
-msgid "<filename>%1</filename> appears not to be a text or image file"
-msgstr "<filename>%1</filename> 似乎不是個文字或圖片檔"
-
-#: functions.cpp:1675
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "Calendar <resource>%1</resource> is in an old format "
-#| "(<application>KAlarm</application> version %2), and will be read-only "
-#| "unless you choose to update it to the current format."
-msgid ""
-"Calendar <resource>%1</resource> is in an old format (<application>KAlarm</"
-"application> version %2), and will be read-only unless you choose to update "
-"it to the current format."
-msgstr ""
-"行事曆 <resource>%1</resource> 是舊的格式（<application>KAlarm</application> "
-"版本 %2），除非您選擇將它更新為目前的格式，否則將會設為唯讀。"
-
-#: functions.cpp:1678
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "Some or all of the alarms in calendar <resource>%1</resource> are in an "
-#| "old <application>KAlarm</application> format, and will be read-only "
-#| "unless you choose to update them to the current format."
-msgid ""
-"Some or all of the alarms in calendar <resource>%1</resource> are in an old "
-"<application>KAlarm</application> format, and will be read-only unless you "
-"choose to update them to the current format."
-msgstr ""
-"行事曆 <resource>%1</resource> 中部份或所有的鬧鐘使用舊的 "
-"<application>KAlarm</application> 格式。除非您選擇將它們更新為目前的格式，否"
-"則將會設為唯讀。"
-
-#: functions.cpp:1681
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para>%1</para><para><warning>Do not update the calendar if it is also used "
-"with an older version of <application>KAlarm</application> (e.g. on another "
-"computer). If you do so, the calendar may become unusable there.</warning></"
-"para><para>Do you wish to update the calendar?</para>"
-msgstr ""
-"<para>%1</para><para><warning>如果此行事曆正與其它使用舊版 "
-"<application>KAlarm</application> 使用者共享，不要更新此資源，這樣可能會變成"
-"無法使用。</warning></para><para>您要更新此行事曆嗎？</para>"
-
-#: functions.cpp:1729
+#: functions.cpp:1487
 #, kde-format
 msgctxt "@info"
 msgid "Error saving alarms"
 msgstr "儲存鬧鐘時發生錯誤"
 
-#: functions.cpp:1730
+#: functions.cpp:1488
 #, kde-format
 msgctxt "@info"
 msgid "Error saving alarm"
 msgstr "儲存鬧鐘時發生錯誤"
 
-#: functions.cpp:1733
+#: functions.cpp:1491
 #, kde-format
 msgctxt "@info"
 msgid "Error deleting alarms"
 msgstr "刪除鬧鐘時發生錯誤"
 
-#: functions.cpp:1734
+#: functions.cpp:1492
 #, kde-format
 msgctxt "@info"
 msgid "Error deleting alarm"
 msgstr "刪除鬧鐘時發生錯誤"
 
-#: functions.cpp:1737
+#: functions.cpp:1495
 #, kde-format
 msgctxt "@info"
 msgid "Error saving reactivated alarms"
 msgstr "儲存重新啟動的鬧鐘時發生錯誤"
 
-#: functions.cpp:1738
+#: functions.cpp:1496
 #, kde-format
 msgctxt "@info"
 msgid "Error saving reactivated alarm"
 msgstr "儲存重新啟動的鬧鐘時發生錯誤"
 
-#: functions.cpp:1741
+#: functions.cpp:1499
 #, kde-format
 msgctxt "@info"
 msgid "Error saving alarm templates"
 msgstr "儲存鬧鐘樣本時發生錯誤"
 
-#: functions.cpp:1742
+#: functions.cpp:1500
 #, kde-format
 msgctxt "@info"
 msgid "Error saving alarm template"
 msgstr "儲存鬧鐘樣本時發生錯誤"
 
-#: kalarmapp.cpp:420
+#: kalarmapp.cpp:421
 #, kde-kuit-format
 msgctxt "@info:shell"
 msgid "%1: Event <resource>%2</resource> not found, or not unique"
 msgstr "%1：找不到事件 <resource>%2</resource>，或者事件非唯一"
 
-#: kalarmapp.cpp:449
+#: kalarmapp.cpp:450
 #, kde-kuit-format
 msgctxt "@info:shell"
 msgid "%1: Event <resource>%2</resource> not found, or not editable"
 msgstr "%1：找不到事件 <resource>%2</resource>，或者無法編輯"
 
-#: kalarmapp.cpp:707
+#: kalarmapp.cpp:708
 #, kde-format
 msgctxt "@info"
 msgid ""
 "Quitting will disable alarms (once any alarm message windows are closed)."
 msgstr "離開會將所有的鬧鐘關閉。"
 
-#: kalarmapp.cpp:716
+#: kalarmapp.cpp:717
 #, kde-format
 msgctxt "@info"
 msgid "Quitting will cancel the scheduled Wake from Suspend."
 msgstr "離開的話會取消從休眠中喚醒型鬧鐘"
 
-#: kalarmapp.cpp:728
+#: kalarmapp.cpp:729
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2083,7 +2043,7 @@ msgid ""
 msgstr ""
 "您要在登入時啟動 KAlarm 嗎？<nl/>（注意，若 KAlarm 未啟動，鬧鐘都將被關閉）"
 
-#: kalarmapp.cpp:1166
+#: kalarmapp.cpp:1167
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2094,7 +2054,7 @@ msgstr ""
 "無法建立或更新鬧鐘，因為沒有開啟任何可寫入的鬧鐘行事曆。<nl/><nl/>要修正這個"
 "問題，請用<interface>檢視 | 顯示行事曆</interface>來檢查或變更行事曆狀態。"
 
-#: kalarmapp.cpp:2059
+#: kalarmapp.cpp:2060
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -2104,19 +2064,19 @@ msgstr ""
 "執行指令失敗\n"
 "（指令鬧鐘尚未指定終端）"
 
-#: kalarmapp.cpp:2207
+#: kalarmapp.cpp:2208
 #, kde-format
 msgctxt "@info"
 msgid "Error creating temporary script file"
 msgstr "產生暫時文稿檔案時發生錯誤"
 
-#: kalarmapp.cpp:2296
+#: kalarmapp.cpp:2297
 #, kde-format
 msgctxt "@info"
 msgid "Pre-alarm action:"
 msgstr "鬧鐘響鈴前動作："
 
-#: kalarmapp.cpp:2302
+#: kalarmapp.cpp:2303
 #, kde-format
 msgctxt "@info"
 msgid "Post-alarm action:"
@@ -2433,7 +2393,7 @@ msgid "Show alarm times in system tray tooltip"
 msgstr "在系統匣工具提示中顯示鬧鐘時間"
 
 #. i18n: ectx: whatsthis, entry (ShowTooltipAlarmTime), group (General)
-#: kalarmconfig.kcfg:158 prefdlg.cpp:1717
+#: kalarmconfig.kcfg:158 prefdlg.cpp:1719
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -2449,7 +2409,7 @@ msgid "Show time to alarms in system tray tooltip"
 msgstr "在系統匣工具提示中顯示還要多久響鈴"
 
 #. i18n: ectx: whatsthis, entry (ShowTooltipTimeToAlarm), group (General)
-#: kalarmconfig.kcfg:164 prefdlg.cpp:1723
+#: kalarmconfig.kcfg:164 prefdlg.cpp:1725
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -2465,7 +2425,7 @@ msgid "Time-to-alarm prefix in system tray tooltip"
 msgstr "在系統匣工具提示中顯示還要多久響鈴的前置字串"
 
 #. i18n: ectx: whatsthis, entry (TooltipTimeToPrefix), group (General)
-#: kalarmconfig.kcfg:170 prefdlg.cpp:1735
+#: kalarmconfig.kcfg:170 prefdlg.cpp:1737
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -2656,7 +2616,7 @@ msgid "Disabled alarm color"
 msgstr "已關閉的鬧鐘顏色"
 
 #. i18n: ectx: whatsthis, entry (DisabledColour), group (General)
-#: kalarmconfig.kcfg:228 prefdlg.cpp:1758
+#: kalarmconfig.kcfg:228 prefdlg.cpp:1760
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Choose the text color in the alarm list for disabled alarms."
@@ -2670,7 +2630,7 @@ msgid "Archived alarm color"
 msgstr "已歸檔的鬧鐘顏色"
 
 #. i18n: ectx: whatsthis, entry (ArchivedColour), group (General)
-#: kalarmconfig.kcfg:234 prefdlg.cpp:1771
+#: kalarmconfig.kcfg:234 prefdlg.cpp:1773
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Choose the text color in the alarm list for archived alarms."
@@ -2950,7 +2910,7 @@ msgid "Recurrence period"
 msgstr "循環區間"
 
 #. i18n: ectx: whatsthis, entry (DefaultRecurPeriod), group (Defaults)
-#: kalarmconfig.kcfg:335 prefdlg.cpp:1246
+#: kalarmconfig.kcfg:335 prefdlg.cpp:1248
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The default setting for the recurrence rule in the alarm edit dialog."
@@ -2978,7 +2938,7 @@ msgid "Hourly/minutely"
 msgstr "小時/分鐘"
 
 #. i18n: ectx: label, entry (DefaultFeb29Type), group (Defaults)
-#: kalarmconfig.kcfg:348 prefdlg.cpp:1254
+#: kalarmconfig.kcfg:348 prefdlg.cpp:1256
 #, kde-format
 msgctxt "@label"
 msgid "In non-leap years, repeat yearly February 29th alarms on:"
@@ -3137,7 +3097,7 @@ msgid "Confirm alarm deletions"
 msgstr "確認鬧鐘刪除"
 
 #. i18n: ectx: whatsthis, entry (Base_ConfirmAlarmDeletion), group (Notification Messages)
-#: kalarmconfig.kcfg:400 prefdlg.cpp:430
+#: kalarmconfig.kcfg:400 prefdlg.cpp:432
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Check to be prompted for confirmation each time you delete an alarm."
@@ -3151,7 +3111,7 @@ msgid "Notify when remote emails are queued"
 msgstr "發送到遠端的電子郵件被佇列住的話則發出通知"
 
 #. i18n: ectx: whatsthis, entry (Base_EmailQueuedNotify), group (Notification Messages)
-#: kalarmconfig.kcfg:405 prefdlg.cpp:1000
+#: kalarmconfig.kcfg:405 prefdlg.cpp:1002
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -3423,6 +3383,42 @@ msgid ""
 "cancellation period"
 msgstr "在過了延遲取消時間後，自動將鬧鐘的視窗關閉。"
 
+#: lib/file.cpp:123
+#, kde-format
+msgctxt "@info"
+msgid "Please select a file to display"
+msgstr "請選擇要顯示的檔案。"
+
+#: lib/file.cpp:125
+#, kde-format
+msgctxt "@info"
+msgid "Please select a file to play"
+msgstr "請選擇要播放的檔案。"
+
+#: lib/file.cpp:131
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<filename>%1</filename> is a folder"
+msgstr "<filename>%1</filename> 是個資料夾"
+
+#: lib/file.cpp:133
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<filename>%1</filename> not found"
+msgstr "找不到 <filename>%1</filename>"
+
+#: lib/file.cpp:134
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<filename>%1</filename> is not readable"
+msgstr "<filename>%1</filename> 無法讀取"
+
+#: lib/file.cpp:135
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<filename>%1</filename> appears not to be a text or image file"
+msgstr "<filename>%1</filename> 似乎不是個文字或圖片檔"
+
 #: lib/filedialog.cpp:67
 #, kde-format
 msgctxt "@option:check"
@@ -3636,7 +3632,7 @@ msgid "Delete Alarm"
 msgid_plural "Delete Alarms"
 msgstr[0] "刪除鬧鐘"
 
-#: mainwindow.cpp:729 templatedlg.cpp:190
+#: mainwindow.cpp:729 templatedlg.cpp:191
 #, kde-format
 msgctxt "@action:button"
 msgid "&Delete"
@@ -3714,19 +3710,19 @@ msgctxt "@action"
 msgid "Disa&ble"
 msgstr "關閉(&B)"
 
-#: messagewin.cpp:339
+#: messagewin.cpp:341
 #, kde-format
 msgctxt "@title:window"
 msgid "Reminder"
 msgstr "提醒"
 
-#: messagewin.cpp:339 messagewin.cpp:783
+#: messagewin.cpp:341 messagewin.cpp:785
 #, kde-format
 msgctxt "@title:window"
 msgid "Message"
 msgstr "訊息"
 
-#: messagewin.cpp:358
+#: messagewin.cpp:360
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -3734,109 +3730,109 @@ msgid ""
 "display)."
 msgstr "此訊息原先所排定顯示之日期與時間（而非實際顯示之時間）"
 
-#: messagewin.cpp:368
+#: messagewin.cpp:370
 #, kde-format
 msgctxt "@info"
 msgid "Reminder"
 msgstr "提醒"
 
-#: messagewin.cpp:392
+#: messagewin.cpp:394
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The file whose contents are displayed below"
 msgstr "顯示內容之檔案"
 
-#: messagewin.cpp:463
+#: messagewin.cpp:465
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The contents of the file to be displayed"
 msgstr "顯示檔案之內容"
 
-#: messagewin.cpp:469
+#: messagewin.cpp:471
 #, kde-format
 msgctxt "@info"
 msgid "File is a folder"
 msgstr "檔案是個目錄"
 
-#: messagewin.cpp:469
+#: messagewin.cpp:471
 #, kde-format
 msgctxt "@info"
 msgid "Failed to open file"
 msgstr "開啟檔案失敗"
 
-#: messagewin.cpp:469
+#: messagewin.cpp:471
 #, kde-format
 msgctxt "@info"
 msgid "File not found"
 msgstr "找不到檔案"
 
-#: messagewin.cpp:489
+#: messagewin.cpp:491
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The alarm message"
 msgstr "鬧鐘訊息"
 
-#: messagewin.cpp:516
+#: messagewin.cpp:518
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The output of the alarm's command"
 msgstr "鬧鐘指令的輸出"
 
-#: messagewin.cpp:558
+#: messagewin.cpp:560
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The email to send"
 msgstr "要寄的信件"
 
-#: messagewin.cpp:564
+#: messagewin.cpp:566
 #, kde-format
 msgctxt "@info Email addressee"
 msgid "To:"
 msgstr "收件人："
 
-#: messagewin.cpp:571
+#: messagewin.cpp:573
 #, kde-format
 msgctxt "@info Email subject"
 msgid "Subject:"
 msgstr "主旨："
 
-#: messagewin.cpp:597
+#: messagewin.cpp:599
 #, kde-format
 msgctxt "@title:window"
 msgid "Error"
 msgstr "錯誤"
 
-#: messagewin.cpp:618
+#: messagewin.cpp:620
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not display this error message again for this alarm"
 msgstr "對此鬧鐘不要再顯示此錯誤訊息"
 
-#: messagewin.cpp:637
+#: messagewin.cpp:639
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Acknowledge the alarm"
 msgstr "確認鬧鐘"
 
-#: messagewin.cpp:642
+#: messagewin.cpp:644
 #, kde-format
 msgctxt "@action:button"
 msgid "&Edit..."
 msgstr "編輯(&E)..."
 
-#: messagewin.cpp:647
+#: messagewin.cpp:649
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Edit the alarm."
 msgstr "編輯鬧鐘"
 
-#: messagewin.cpp:651
+#: messagewin.cpp:653
 #, kde-format
 msgctxt "@action:button"
 msgid "&Defer..."
 msgstr "延期(&D)..."
 
-#: messagewin.cpp:656
+#: messagewin.cpp:658
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -3846,109 +3842,109 @@ msgstr ""
 "<para>延遲鬧鐘響鈴時間（賴床功能）。</para><para>您會被要求指定鬧鐘何時要重新"
 "響鈴。</para>"
 
-#: messagewin.cpp:672 sounddlg.cpp:460
+#: messagewin.cpp:674 sounddlg.cpp:462
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Stop sound"
 msgstr "停止聲音"
 
-#: messagewin.cpp:673 sounddlg.cpp:461
+#: messagewin.cpp:675 sounddlg.cpp:463
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Stop playing the sound"
 msgstr "停止播放聲音"
 
-#: messagewin.cpp:686
+#: messagewin.cpp:688
 #, kde-kuit-format
 msgctxt "@info:tooltip Locate this email in KMail"
 msgid "Locate in <application>KMail</application>"
 msgstr "無法在 <application>KMail</application> 中找到這信件"
 
-#: messagewin.cpp:687
+#: messagewin.cpp:689
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "Locate and highlight this email in <application>KMail</application>"
 msgstr "在 KMail 中尋找並選擇這封電子郵件"
 
-#: messagewin.cpp:696
+#: messagewin.cpp:698
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Activate <application>KAlarm</application>"
 msgstr "啟動 <application>KAlarm</application>"
 
-#: messagewin.cpp:697
+#: messagewin.cpp:699
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "Activate <application>KAlarm</application>"
 msgstr "啟動 <application>KAlarm</application>"
 
-#: messagewin.cpp:863
+#: messagewin.cpp:865
 #, kde-format
 msgctxt "@info"
 msgid "Today"
 msgstr "今天"
 
-#: messagewin.cpp:865
+#: messagewin.cpp:867
 #, kde-format
 msgctxt "@info"
 msgid "Tomorrow"
 msgid_plural "in %1 days' time"
 msgstr[0] "%1 天內"
 
-#: messagewin.cpp:867
+#: messagewin.cpp:869
 #, kde-format
 msgctxt "@info"
 msgid "in 1 week's time"
 msgid_plural "in %1 weeks' time"
 msgstr[0] "%1 週內"
 
-#: messagewin.cpp:881
+#: messagewin.cpp:883
 #, kde-format
 msgctxt "@info"
 msgid "in 1 minute's time"
 msgid_plural "in %1 minutes' time"
 msgstr[0] "%1 分鐘內"
 
-#: messagewin.cpp:883
+#: messagewin.cpp:885
 #, kde-format
 msgctxt "@info"
 msgid "in 1 hour's time"
 msgid_plural "in %1 hours' time"
 msgstr[0] "%1 小時內"
 
-#: messagewin.cpp:886
+#: messagewin.cpp:888
 #, kde-format
 msgctxt "@item:intext inserted into 'in ... %1 minute's time' below"
 msgid "1 hour"
 msgid_plural "%1 hours"
 msgstr[0] "%1 小時"
 
-#: messagewin.cpp:887
+#: messagewin.cpp:889
 #, kde-format
 msgctxt "@info '%2' is the previous message '1 hour'/'%1 hours'"
 msgid "in %2 1 minute's time"
 msgid_plural "in %2 %1 minutes' time"
 msgstr[0] "於 %2 %1 分鐘內"
 
-#: messagewin.cpp:1339
+#: messagewin.cpp:1341
 #, kde-format
 msgctxt "@info"
 msgid "Unable to speak message"
 msgstr "無法用語音說出訊息"
 
-#: messagewin.cpp:1339
+#: messagewin.cpp:1341
 #, kde-format
 msgctxt "@info"
 msgid "Text-to-speech subsystem is not available"
 msgstr "文字轉語音子系統不支援"
 
-#: messagewin.cpp:1502
+#: messagewin.cpp:1504
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot open audio file: <filename>%1</filename>"
 msgstr "無法開啟音效檔：<filename>%1</filename>"
 
-#: messagewin.cpp:1600
+#: messagewin.cpp:1602
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3956,31 +3952,31 @@ msgid ""
 msgstr ""
 "<para>播放音效檔：<filename>%1</filename> 時發生錯誤</para> <para>%2</para>"
 
-#: messagewin.cpp:1932
+#: messagewin.cpp:1934
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to acknowledge this alarm?"
 msgstr "你真的要確認該鬧鐘嗎？"
 
-#: messagewin.cpp:1933
+#: messagewin.cpp:1935
 #, kde-format
 msgctxt "@action:button"
 msgid "Acknowledge Alarm"
 msgstr "鬧鐘確認"
 
-#: messagewin.cpp:1933
+#: messagewin.cpp:1935
 #, kde-format
 msgctxt "@action:button"
 msgid "Acknowledge"
 msgstr "確認"
 
-#: messagewin.cpp:2004
+#: messagewin.cpp:2006
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Unable to locate this email in <application>KMail</application>"
 msgstr "無法在 <application>KMail</application> 中找到這信件"
 
-#: messagewin.cpp:2162
+#: messagewin.cpp:2164
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>Cannot defer alarm:</para><para>Alarm not found.</para>"
@@ -4040,115 +4036,115 @@ msgctxt "@action"
 msgid "New Alarm From &Template"
 msgstr "從樣本產生新的鬧鐘(&T)"
 
-#: prefdlg.cpp:145
+#: prefdlg.cpp:147
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "設定"
 
-#: prefdlg.cpp:152
+#: prefdlg.cpp:154
 #, kde-format
 msgctxt "@title:tab General preferences"
 msgid "General"
 msgstr "一般"
 
-#: prefdlg.cpp:153
+#: prefdlg.cpp:155
 #, kde-format
 msgctxt "@title General preferences"
 msgid "General"
 msgstr "一般"
 
-#: prefdlg.cpp:158
+#: prefdlg.cpp:160
 #, kde-format
 msgctxt "@title:tab"
 msgid "Time & Date"
 msgstr "時間與日期"
 
-#: prefdlg.cpp:159
+#: prefdlg.cpp:161
 #, kde-format
 msgctxt "@title"
 msgid "Time and Date"
 msgstr "時間與日期"
 
-#: prefdlg.cpp:164
+#: prefdlg.cpp:166
 #, kde-format
 msgctxt "@title:tab"
 msgid "Storage"
 msgstr "儲存"
 
-#: prefdlg.cpp:165
+#: prefdlg.cpp:167
 #, kde-format
 msgctxt "@title"
 msgid "Alarm Storage"
 msgstr "鬧鐘儲存"
 
-#: prefdlg.cpp:170
+#: prefdlg.cpp:172
 #, kde-format
 msgctxt "@title:tab Email preferences"
 msgid "Email"
 msgstr "電子郵件"
 
-#: prefdlg.cpp:171
+#: prefdlg.cpp:173
 #, kde-format
 msgctxt "@title"
 msgid "Email Alarm Settings"
 msgstr "電子郵件鬧鐘設定"
 
-#: prefdlg.cpp:176
+#: prefdlg.cpp:178
 #, kde-format
 msgctxt "@title:tab"
 msgid "View"
 msgstr "檢視"
 
-#: prefdlg.cpp:177
+#: prefdlg.cpp:179
 #, kde-format
 msgctxt "@title"
 msgid "View Settings"
 msgstr "顯示設定"
 
-#: prefdlg.cpp:182
+#: prefdlg.cpp:184
 #, kde-format
 msgctxt "@title:tab"
 msgid "Edit"
 msgstr "編輯"
 
-#: prefdlg.cpp:183
+#: prefdlg.cpp:185
 #, kde-format
 msgctxt "@title"
 msgid "Default Alarm Edit Settings"
 msgstr "預設鬧鐘編輯設定"
 
-#: prefdlg.cpp:259
+#: prefdlg.cpp:261
 #, kde-format
 msgctxt "@info"
 msgid "Reset all tabs to their default values, or only reset the current tab?"
 msgstr "要把所有分頁重設為預設值，還是只要重設目前的分頁？"
 
-#: prefdlg.cpp:261
+#: prefdlg.cpp:263
 #, kde-format
 msgctxt "@action:button Reset ALL tabs"
 msgid "&All"
 msgstr "全部(&A)"
 
-#: prefdlg.cpp:262
+#: prefdlg.cpp:264
 #, kde-format
 msgctxt "@action:button Reset the CURRENT tab"
 msgid "C&urrent"
 msgstr "目前的(&U)"
 
-#: prefdlg.cpp:404
+#: prefdlg.cpp:406
 #, kde-format
 msgctxt "@title:group"
 msgid "Run Mode"
 msgstr "執行模式"
 
-#: prefdlg.cpp:412
+#: prefdlg.cpp:414
 #, kde-format
 msgctxt "@option:check"
 msgid "Start at login"
 msgstr "在登入時啟動"
 
-#: prefdlg.cpp:415
+#: prefdlg.cpp:417
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4159,13 +4155,13 @@ msgstr ""
 "<p>當您啟動 KDE 時自動開始 KAlarm。</p> <p>這個選項應該被勾選，除非您不打算繼"
 "續使用 KAlarm。</p>"
 
-#: prefdlg.cpp:419
+#: prefdlg.cpp:421
 #, kde-format
 msgctxt "@option:check"
 msgid "Warn before quitting"
 msgstr "離開前先警告"
 
-#: prefdlg.cpp:420
+#: prefdlg.cpp:422
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4173,19 +4169,19 @@ msgid ""
 "application>."
 msgstr "勾選此選項，在離開 <application>KAlarm</application> 前會出示警告。"
 
-#: prefdlg.cpp:428
+#: prefdlg.cpp:430
 #, kde-format
 msgctxt "@option:check"
 msgid "Confirm alarm deletions"
 msgstr "確認鬧鐘刪除"
 
-#: prefdlg.cpp:439
+#: prefdlg.cpp:441
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Default defer time interval:"
 msgstr "預設延遲的時間間隔："
 
-#: prefdlg.cpp:445
+#: prefdlg.cpp:447
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4193,13 +4189,13 @@ msgid ""
 "the Defer Alarm dialog."
 msgstr "輸入預設的延遲鬧鐘時間間隔（小時與分），會用於延遲鬧鐘對話框。"
 
-#: prefdlg.cpp:450
+#: prefdlg.cpp:452
 #, kde-format
 msgctxt "@title:group"
 msgid "Terminal for Command Alarms"
 msgstr "指令型鬧鐘使用的終端機程式"
 
-#: prefdlg.cpp:451
+#: prefdlg.cpp:453
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4207,20 +4203,20 @@ msgid ""
 "terminal window"
 msgstr "選擇指令型鬧鐘要執行在哪一個終端機視窗中"
 
-#: prefdlg.cpp:478
+#: prefdlg.cpp:480
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
 "Check to execute command alarms in a terminal window by <icode>%1</icode>"
 msgstr "勾選此選項指定終端機視窗的命令列 <icode>%1</icode>。"
 
-#: prefdlg.cpp:487
+#: prefdlg.cpp:489
 #, kde-format
 msgctxt "@option:radio Other terminal window command"
 msgid "Other:"
 msgstr "其他："
 
-#: prefdlg.cpp:497
+#: prefdlg.cpp:499
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4232,13 +4228,13 @@ msgstr ""
 "輸入要執行的終端機程式完整命令列。預設鬧鐘的命令字串會附加在您輸入的命令列之"
 "後。關於詳情請參考 <application>KAlarm</application> 手冊。"
 
-#: prefdlg.cpp:543
+#: prefdlg.cpp:545
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Command to invoke terminal window not found: <command>%1</command>"
 msgstr "找不到啟動終端機視窗的指令：<command>%1</command>"
 
-#: prefdlg.cpp:586
+#: prefdlg.cpp:588
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -4248,7 +4244,7 @@ msgstr ""
 "除非您不打算繼續使用 <application>KAlarm</application>，否則不建議取消此選"
 "項。"
 
-#: prefdlg.cpp:622
+#: prefdlg.cpp:624
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4256,37 +4252,37 @@ msgid ""
 "its default for displaying and entering dates and times."
 msgstr "選擇 KAlarm 預設顯示與輸入時間用的時區。"
 
-#: prefdlg.cpp:637
+#: prefdlg.cpp:639
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Holiday region:"
 msgstr "假日區域："
 
-#: prefdlg.cpp:646
+#: prefdlg.cpp:648
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Select which holiday region to use"
 msgstr "選擇要使用哪個區域的假日設定"
 
-#: prefdlg.cpp:654
+#: prefdlg.cpp:656
 #, kde-format
 msgctxt "Holiday region, region language"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: prefdlg.cpp:658
+#: prefdlg.cpp:660
 #, kde-format
 msgctxt "No holiday region"
 msgid "None"
 msgstr "無"
 
-#: prefdlg.cpp:675
+#: prefdlg.cpp:677
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Start of day for date-only alarms:"
 msgstr "一天的開始："
 
-#: prefdlg.cpp:682
+#: prefdlg.cpp:684
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4296,55 +4292,55 @@ msgstr ""
 "<para>一天最早的時間。對只設定日期的鬧鐘（也就是勾選「任何時間」鬧鐘）而言，"
 "將會在這個時間被觸發。</para> <para>%1</para>"
 
-#: prefdlg.cpp:687
+#: prefdlg.cpp:689
 #, kde-format
 msgctxt "@title:group"
 msgid "Working Hours"
 msgstr "工作時間"
 
-#: prefdlg.cpp:705
+#: prefdlg.cpp:707
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Check the days in the week which are work days"
 msgstr "選擇在一週之中哪幾天視為工作日"
 
-#: prefdlg.cpp:716
+#: prefdlg.cpp:718
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Daily start time:"
 msgstr "一日開始時間："
 
-#: prefdlg.cpp:723
+#: prefdlg.cpp:725
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<para>Enter the start time of the working day.</para><para>%1</para>"
 msgstr "<para>輸入工作日的開始時間</para> <para>%1</para>"
 
-#: prefdlg.cpp:736
+#: prefdlg.cpp:738
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Daily end time:"
 msgstr "一日結束時間："
 
-#: prefdlg.cpp:743
+#: prefdlg.cpp:745
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<para>Enter the end time of the working day.</para><para>%1</para>"
 msgstr "<para>輸入工作日的結束時間</para> <para>%1</para>"
 
-#: prefdlg.cpp:748
+#: prefdlg.cpp:750
 #, kde-format
 msgctxt "@title:group"
 msgid "KOrganizer"
 msgstr "KOrganizer"
 
-#: prefdlg.cpp:759
+#: prefdlg.cpp:761
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "KOrganizer event duration:"
 msgstr "KOrganizer 事件期間："
 
-#: prefdlg.cpp:766
+#: prefdlg.cpp:768
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4354,19 +4350,19 @@ msgstr ""
 "<para>輸入要複製到 KOrganizer 的鬧鐘的事件期間，單位為小時與分鐘。</para> "
 "<para>%1</para>"
 
-#: prefdlg.cpp:827
+#: prefdlg.cpp:829
 #, kde-format
 msgctxt "@title:group"
 msgid "New Alarms && Templates"
 msgstr "新增鬧鐘與樣本"
 
-#: prefdlg.cpp:835
+#: prefdlg.cpp:837
 #, kde-format
 msgctxt "@option:radio"
 msgid "Store in default calendar"
 msgstr "儲存於預設行事曆"
 
-#: prefdlg.cpp:837
+#: prefdlg.cpp:839
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4374,13 +4370,13 @@ msgid ""
 "prompting."
 msgstr "新增所有新的鬧鐘與樣本到預設行事曆中，不需詢問"
 
-#: prefdlg.cpp:839
+#: prefdlg.cpp:841
 #, kde-format
 msgctxt "@option:radio"
 msgid "Prompt for which calendar to store in"
 msgstr "提示要儲存於哪個行事曆"
 
-#: prefdlg.cpp:842
+#: prefdlg.cpp:844
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4392,19 +4388,19 @@ msgstr ""
 "<p>儲存新的鬧鐘或鬧鐘樣本時，若是有一個以上可使用的行事曆，則詢問使用者要儲存"
 "到哪個行事曆中。</p><p>注意歸檔的鬧鐘會儲存在預設的歸檔鬧鐘行事曆內。</p>"
 
-#: prefdlg.cpp:847
+#: prefdlg.cpp:849
 #, kde-format
 msgctxt "@title:group"
 msgid "Archived Alarms"
 msgstr "已歸檔的鬧鐘"
 
-#: prefdlg.cpp:854
+#: prefdlg.cpp:856
 #, kde-format
 msgctxt "@option:check"
 msgid "Keep alarms after expiry"
 msgstr "鬧鐘逾時後仍不刪除"
 
-#: prefdlg.cpp:857
+#: prefdlg.cpp:859
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4414,19 +4410,19 @@ msgstr ""
 "勾選此選項的話，鬧鐘在逾時或刪除後仍實際保留著，除非刪除的鬧鐘已確定不會再響"
 "鈴。"
 
-#: prefdlg.cpp:864
+#: prefdlg.cpp:866
 #, kde-format
 msgctxt "@option:check"
 msgid "Discard archived alarms after:"
 msgstr "鬧鐘歸檔多久後丟棄："
 
-#: prefdlg.cpp:873
+#: prefdlg.cpp:875
 #, kde-format
 msgctxt "@label Time unit for user-entered number"
 msgid "days"
 msgstr "天"
 
-#: prefdlg.cpp:877
+#: prefdlg.cpp:879
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4436,19 +4432,19 @@ msgstr ""
 "如果不勾選此選項，則歸檔的鬧鐘將被永久保存。勾選此選項的話則可以選擇要保留多"
 "久。"
 
-#: prefdlg.cpp:880
+#: prefdlg.cpp:882
 #, kde-format
 msgctxt "@action:button"
 msgid "Clear Archived Alarms"
 msgstr "清除已歸檔的鬧鐘"
 
-#: prefdlg.cpp:883
+#: prefdlg.cpp:885
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Delete all existing archived alarms."
 msgstr "刪除所有存在的已歸檔的鬧鐘。"
 
-#: prefdlg.cpp:884
+#: prefdlg.cpp:886
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4456,7 +4452,7 @@ msgid ""
 "calendar only)."
 msgstr "刪除所有存在的已歸檔的鬧鐘（只從預設的歸檔鬧鐘行事曆中）。"
 
-#: prefdlg.cpp:930
+#: prefdlg.cpp:932
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -4469,13 +4465,13 @@ msgstr ""
 "para> <para>如果您希望保留逾時的鬧鐘，請先使用行事曆檢視來選擇一個預設的歸檔"
 "鬧鐘行事曆。</para>"
 
-#: prefdlg.cpp:947
+#: prefdlg.cpp:949
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to delete all archived alarms?"
 msgstr "您真的要刪除所有已歸檔的鬧鐘嗎？"
 
-#: prefdlg.cpp:948
+#: prefdlg.cpp:950
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -4483,25 +4479,25 @@ msgid ""
 "calendar?"
 msgstr "您真的要刪除在預設歸檔鬧鐘行事曆中，所有已歸檔的鬧鐘嗎？"
 
-#: prefdlg.cpp:966
+#: prefdlg.cpp:968
 #, kde-format
 msgctxt "@label"
 msgid "Email client:"
 msgstr "信件客戶端："
 
-#: prefdlg.cpp:969
+#: prefdlg.cpp:971
 #, kde-format
 msgctxt "@option:radio"
 msgid "KMail"
 msgstr "KMail"
 
-#: prefdlg.cpp:970
+#: prefdlg.cpp:972
 #, kde-format
 msgctxt "@option:radio"
 msgid "Sendmail"
 msgstr "Sendmail"
 
-#: prefdlg.cpp:981
+#: prefdlg.cpp:983
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4520,7 +4516,7 @@ msgstr ""
 "您的系統是設定使用 <application>sendmail</application> 或相容的郵件傳遞程式時"
 "才有作用。</item></list></para>"
 
-#: prefdlg.cpp:990
+#: prefdlg.cpp:992
 #, kde-kuit-format
 msgctxt "@option:check"
 msgid ""
@@ -4530,7 +4526,7 @@ msgstr ""
 "將發送之信件複製到 <application>KMail</application> 的 <resource>%1</"
 "resource> 資料夾內"
 
-#: prefdlg.cpp:991
+#: prefdlg.cpp:993
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4540,25 +4536,25 @@ msgstr ""
 "發送信件之後，在 <application>Kmail</application> 的 <resource>%1</resource> "
 "資料夾中保留備份。"
 
-#: prefdlg.cpp:998
+#: prefdlg.cpp:1000
 #, kde-format
 msgctxt "@option:check"
 msgid "Notify when remote emails are queued"
 msgstr "發送到遠端的電子郵件被佇列住的話則發出通知"
 
-#: prefdlg.cpp:1006
+#: prefdlg.cpp:1008
 #, kde-format
 msgctxt "@title:group"
 msgid "Your Email Address"
 msgstr "您的電子郵件地址"
 
-#: prefdlg.cpp:1015
+#: prefdlg.cpp:1017
 #, kde-format
 msgctxt "@label 'From' email address"
 msgid "From:"
 msgstr "寄件者："
 
-#: prefdlg.cpp:1027
+#: prefdlg.cpp:1029
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4566,14 +4562,14 @@ msgid ""
 "alarms."
 msgstr "您的電子郵件地址，用於填在寄件者欄位中。"
 
-#: prefdlg.cpp:1034 prefdlg.cpp:1070
+#: prefdlg.cpp:1036 prefdlg.cpp:1072
 #, kde-kuit-format
 msgctxt "@option:radio"
 msgid ""
 "Use default address from <application>KMail</application> or System Settings"
 msgstr "使用 <application>KMail</application> 或系統設定的預設位址"
 
-#: prefdlg.cpp:1037
+#: prefdlg.cpp:1039
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4584,13 +4580,13 @@ msgstr ""
 "勾選此選項的話，寄件者欄位將使用 <application>KMail</application> 或 KDE 系統"
 "設定裡設定的預設電子郵件地址。"
 
-#: prefdlg.cpp:1041
+#: prefdlg.cpp:1043
 #, kde-kuit-format
 msgctxt "@option:radio"
 msgid "Use <application>KMail</application> identities"
 msgstr "使用 <application>Kmail</application> 的寄件者身份"
 
-#: prefdlg.cpp:1044
+#: prefdlg.cpp:1046
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4604,13 +4600,13 @@ msgstr ""
 "者身份。若為已存在的電子郵件，則會先使用 <application>Kmail</application> 預"
 "設的身份。對後來新發出的電子郵件，會讓您選擇要使用哪一個寄件身份。"
 
-#: prefdlg.cpp:1051
+#: prefdlg.cpp:1053
 #, kde-format
 msgctxt "@label 'Bcc' email address"
 msgid "Bcc:"
 msgstr "密件複本："
 
-#: prefdlg.cpp:1062
+#: prefdlg.cpp:1064
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4622,7 +4618,7 @@ msgstr ""
 "您的電子郵件地址，用於接收密件副本。如果您要發送到本機上的帳號，只要填入帳號"
 "名稱即可。"
 
-#: prefdlg.cpp:1073
+#: prefdlg.cpp:1075
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4633,19 +4629,19 @@ msgstr ""
 "將密件副本發送到 <application>KMail</application> 或 KDE 系統設定所設定的預設"
 "電子郵件地址。"
 
-#: prefdlg.cpp:1155
+#: prefdlg.cpp:1157
 #, kde-format
 msgctxt "@info"
 msgid "No valid 'Bcc' email address is specified."
 msgstr "沒有指定合法的密件副本位址。"
 
-#: prefdlg.cpp:1162
+#: prefdlg.cpp:1164
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>%1</para><para>Are you sure you want to save your changes?</para>"
 msgstr "<para>%1</para> <para>您確定您要儲存變更嗎？</para>"
 
-#: prefdlg.cpp:1168
+#: prefdlg.cpp:1170
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -4655,62 +4651,62 @@ msgstr ""
 "<application>KMail</application> 或 KDE 系統設定裡沒有設定預設電子郵件地"
 "址。%1"
 
-#: prefdlg.cpp:1173
+#: prefdlg.cpp:1175
 #, kde-kuit-format
 msgctxt "@info"
 msgid "No <application>KMail</application> identities currently exist. %1"
 msgstr "<application>Kmail</application> 中沒有設定任何寄件身份。%1"
 
-#: prefdlg.cpp:1191
+#: prefdlg.cpp:1193
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
 "The default setting for <interface>%1</interface> in the alarm edit dialog."
 msgstr "鬧鐘編輯視窗中 <interface>%1</interface> 的預設設定。"
 
-#: prefdlg.cpp:1199 prefdlg.cpp:1606
+#: prefdlg.cpp:1201 prefdlg.cpp:1608
 #, kde-format
 msgctxt "@title:tab"
 msgid "General"
 msgstr "一般"
 
-#: prefdlg.cpp:1203
+#: prefdlg.cpp:1205
 #, kde-format
 msgctxt "@title:tab"
 msgid "Alarm Types"
 msgstr "鬧鐘型態"
 
-#: prefdlg.cpp:1207
+#: prefdlg.cpp:1209
 #, kde-format
 msgctxt "@title:tab"
 msgid "Font && Color"
 msgstr "字型與顏色"
 
-#: prefdlg.cpp:1233
+#: prefdlg.cpp:1235
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Recurrence:"
 msgstr "循環："
 
-#: prefdlg.cpp:1266
+#: prefdlg.cpp:1268
 #, kde-format
 msgctxt "@option:radio"
 msgid "February 2&8th"
 msgstr "二月廿八日(&8)"
 
-#: prefdlg.cpp:1270
+#: prefdlg.cpp:1272
 #, kde-format
 msgctxt "@option:radio"
 msgid "March &1st"
 msgstr "三月一日(&1)"
 
-#: prefdlg.cpp:1274
+#: prefdlg.cpp:1276
 #, kde-format
 msgctxt "@option:radio"
 msgid "Do not repeat"
 msgstr "不重覆"
 
-#: prefdlg.cpp:1279
+#: prefdlg.cpp:1281
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4721,31 +4717,31 @@ msgstr ""
 "對年度循環的鬧鐘，如果日期落在二月廿九日，但是當年度非閏年時，選擇要改在哪一"
 "天響鈴。<note>這不會改變此鬧鐘的排程設定。</note>"
 
-#: prefdlg.cpp:1285
+#: prefdlg.cpp:1287
 #, kde-format
 msgctxt "@title:group"
 msgid "Display Alarms"
 msgstr "顯示鬧鐘"
 
-#: prefdlg.cpp:1307
+#: prefdlg.cpp:1309
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Reminder units:"
 msgstr "提醒單位："
 
-#: prefdlg.cpp:1310
+#: prefdlg.cpp:1312
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Minutes"
 msgstr "分鐘"
 
-#: prefdlg.cpp:1311
+#: prefdlg.cpp:1313
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Hours/Minutes"
 msgstr "小時/分鐘"
 
-#: prefdlg.cpp:1314
+#: prefdlg.cpp:1316
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4753,19 +4749,19 @@ msgid ""
 "soon."
 msgstr "鬧鐘編輯視窗中，提醒的預設時間單位。"
 
-#: prefdlg.cpp:1320
+#: prefdlg.cpp:1322
 #, kde-format
 msgctxt "@title:group Audio options group"
 msgid "Sound"
 msgstr "音效"
 
-#: prefdlg.cpp:1339
+#: prefdlg.cpp:1341
 #, kde-format
 msgctxt "@option:check"
 msgid "Repeat sound file"
 msgstr "重覆音效檔案"
 
-#: prefdlg.cpp:1342
+#: prefdlg.cpp:1344
 #, kde-kuit-format
 msgctxt "@info:whatsthis sound file 'Repeat' checkbox"
 msgid ""
@@ -4773,43 +4769,43 @@ msgid ""
 "edit dialog."
 msgstr "鬧鐘編輯視窗中，音效檔 <interface>%1</interface> 的預設設定。"
 
-#: prefdlg.cpp:1349
+#: prefdlg.cpp:1351
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Sound file:"
 msgstr "音效檔案："
 
-#: prefdlg.cpp:1357
+#: prefdlg.cpp:1359
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Choose a sound file"
 msgstr "選擇一個音效檔。"
 
-#: prefdlg.cpp:1359
+#: prefdlg.cpp:1361
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Enter the default sound file to use in the alarm edit dialog."
 msgstr "輸入鬧鐘編輯視窗中預設的音效檔。"
 
-#: prefdlg.cpp:1363
+#: prefdlg.cpp:1365
 #, kde-format
 msgctxt "@title:group"
 msgid "Command Alarms"
 msgstr "指令型鬧鐘"
 
-#: prefdlg.cpp:1384
+#: prefdlg.cpp:1386
 #, kde-format
 msgctxt "@title:group"
 msgid "Email Alarms"
 msgstr "電子郵件型鬧鐘"
 
-#: prefdlg.cpp:1399
+#: prefdlg.cpp:1401
 #, kde-format
 msgctxt "@title:group"
 msgid "Message Font && Color"
 msgstr "訊息字型與顏色"
 
-#: prefdlg.cpp:1584
+#: prefdlg.cpp:1586
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -4818,19 +4814,19 @@ msgid ""
 msgstr ""
 "當選擇 <interface>%1</interface> 為預設音效型態時，您應該輸入一個音效檔案。"
 
-#: prefdlg.cpp:1612
+#: prefdlg.cpp:1614
 #, kde-format
 msgctxt "@title:tab"
 msgid "Alarm Windows"
 msgstr "鬧鐘視窗"
 
-#: prefdlg.cpp:1615
+#: prefdlg.cpp:1617
 #, kde-format
 msgctxt "@option:check"
 msgid "Show in system tray"
 msgstr "在系統匣內顯示"
 
-#: prefdlg.cpp:1617
+#: prefdlg.cpp:1619
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4841,13 +4837,13 @@ msgstr ""
 "<p>勾選此選項，可以在系統匣內顯示 KAlarm 的圖示，讓您可以輕鬆存取並知道目前的"
 "狀態。</p>"
 
-#: prefdlg.cpp:1648
+#: prefdlg.cpp:1650
 #, kde-format
 msgctxt "@option:radio Always show KAlarm icon"
 msgid "Always show"
 msgstr "總是顯示"
 
-#: prefdlg.cpp:1652
+#: prefdlg.cpp:1654
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4857,13 +4853,13 @@ msgstr ""
 "勾選此選項，不管鬧鐘是否在特定時間內響鈴，都會在系統匣內顯示 "
 "<application>KAlarm</application> 的圖示"
 
-#: prefdlg.cpp:1656
+#: prefdlg.cpp:1658
 #, kde-format
 msgctxt "@option:radio"
 msgid "Automatically hide if no active alarms"
 msgstr "如果沒有作用中的鬧鐘則自動隱藏"
 
-#: prefdlg.cpp:1660
+#: prefdlg.cpp:1662
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4875,7 +4871,7 @@ msgstr ""
 "<application>KAlarm</application> 的圖示。隱藏的時候，您還是可以透過系統匣的"
 "選項來將隱藏的圖示顯示出來。"
 
-#: prefdlg.cpp:1666
+#: prefdlg.cpp:1668
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4888,25 +4884,25 @@ msgstr ""
 "<application>KAlarm</application> 的圖示。隱藏的時候，您還是可以透過系統匣的"
 "選項來將隱藏的圖示顯示出來。"
 
-#: prefdlg.cpp:1669
+#: prefdlg.cpp:1671
 #, kde-format
 msgctxt "@option:radio"
 msgid "Automatically hide if no alarm due within time period:"
 msgstr "如果沒有在特定時間內會響鈴的鬧鐘則自動隱藏："
 
-#: prefdlg.cpp:1681
+#: prefdlg.cpp:1683
 #, kde-format
 msgctxt "@title:group"
 msgid "System Tray Tooltip"
 msgstr "系統匣工具提示"
 
-#: prefdlg.cpp:1690
+#: prefdlg.cpp:1692
 #, kde-format
 msgctxt "@option:check"
 msgid "Show next &24 hours' alarms"
 msgstr "顯示未來廿四小時內響鈴的鬧鐘(&2)"
 
-#: prefdlg.cpp:1694
+#: prefdlg.cpp:1696
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4914,13 +4910,13 @@ msgid ""
 "due in the next 24 hours."
 msgstr "決定是否要在系統匣的工具提示中顯示在未來廿四小時會響鈴的鬧鐘。"
 
-#: prefdlg.cpp:1701
+#: prefdlg.cpp:1703
 #, kde-format
 msgctxt "@option:check"
 msgid "Maximum number of alarms to show:"
 msgstr "最多顯示幾個鬧鐘："
 
-#: prefdlg.cpp:1710
+#: prefdlg.cpp:1712
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4930,43 +4926,43 @@ msgstr ""
 "取消此選項就會在系統匣工具列中顯示所有在廿四小時內會響鈴的鬧鐘。勾選此選項可"
 "以選擇最多要顯示幾個。"
 
-#: prefdlg.cpp:1714
+#: prefdlg.cpp:1716
 #, kde-format
 msgctxt "@option:check"
 msgid "Show alarm time"
 msgstr "顯示鬧鐘響鈴時間"
 
-#: prefdlg.cpp:1720
+#: prefdlg.cpp:1722
 #, kde-format
 msgctxt "@option:check"
 msgid "Show time until alarm"
 msgstr "顯示到響鈴剩餘時間(&N)"
 
-#: prefdlg.cpp:1739
+#: prefdlg.cpp:1741
 #, kde-format
 msgctxt "@title:group"
 msgid "Alarm List"
 msgstr "鬧鐘清單"
 
-#: prefdlg.cpp:1752
+#: prefdlg.cpp:1754
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Disabled alarm color:"
 msgstr "已關閉的鬧鐘顏色："
 
-#: prefdlg.cpp:1765
+#: prefdlg.cpp:1767
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Archived alarm color:"
 msgstr "已歸檔的鬧鐘顏色："
 
-#: prefdlg.cpp:1778
+#: prefdlg.cpp:1780
 #, kde-format
 msgctxt "@title:group"
 msgid "Alarm Message Windows"
 msgstr "鬧鐘訊息視窗"
 
-#: prefdlg.cpp:1789
+#: prefdlg.cpp:1791
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4980,25 +4976,25 @@ msgstr ""
 "置盡量遠離目前滑鼠的位置。</item> <item>將鬧鐘訊息視窗的位置擺在中央，但是要"
 "過一段短時間才能按下按鍵。</item> </list></para>"
 
-#: prefdlg.cpp:1792
+#: prefdlg.cpp:1794
 #, kde-format
 msgctxt "@option:radio"
 msgid "Position windows far from mouse cursor"
 msgstr "將鬧鐘訊息視窗的位置盡量遠離目前滑鼠的位置"
 
-#: prefdlg.cpp:1796
+#: prefdlg.cpp:1798
 #, kde-format
 msgctxt "@option:radio"
 msgid "Center windows, delay activating window buttons"
 msgstr "將鬧鐘訊息視窗的位置擺在中央，但不能馬上按下按鍵"
 
-#: prefdlg.cpp:1805
+#: prefdlg.cpp:1807
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Button activation delay (seconds):"
 msgstr "過多久才能按按鍵（秒）："
 
-#: prefdlg.cpp:1812
+#: prefdlg.cpp:1814
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5006,13 +5002,13 @@ msgid ""
 "window is shown."
 msgstr "顯示鬧鐘訊息後，要過多久才能按下按鍵。"
 
-#: prefdlg.cpp:1818
+#: prefdlg.cpp:1820
 #, kde-format
 msgctxt "@option:check"
 msgid "Message windows have a title bar and take keyboard focus"
 msgstr "訊息視窗有標題列並且會取得鍵盤的焦點"
 
-#: prefdlg.cpp:1821
+#: prefdlg.cpp:1823
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5262,7 +5258,7 @@ msgid ""
 "entered above"
 msgstr "將例外清單中所選取的日期改換成所輸入的日期"
 
-#: recurrenceedit.cpp:351 templatedlg.cpp:103
+#: recurrenceedit.cpp:351 templatedlg.cpp:104
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete"
@@ -5677,25 +5673,25 @@ msgctxt "@info:whatsthis"
 msgid "Enter the length of time to repeat the alarm"
 msgstr "輸入要重覆響鈴的時間"
 
-#: resources/akonadiresource.cpp:832
+#: resources/akonadiresource.cpp:833
 #, kde-format
 msgctxt "@info"
 msgid "Failed to create alarm."
 msgstr "建立鬧鐘失敗。"
 
-#: resources/akonadiresource.cpp:834
+#: resources/akonadiresource.cpp:835
 #, kde-format
 msgctxt "@info"
 msgid "Failed to update alarm."
 msgstr "更新鬧鐘失敗。"
 
-#: resources/akonadiresource.cpp:836
+#: resources/akonadiresource.cpp:837
 #, kde-format
 msgctxt "@info"
 msgid "Failed to delete alarm."
 msgstr "刪除鬧鐘失敗。"
 
-#: resources/akonadiresource.cpp:964
+#: resources/akonadiresource.cpp:965
 #, kde-format
 msgctxt "@info"
 msgid "Failed to update calendar \"%1\"."
@@ -5936,7 +5932,7 @@ msgctxt "@info"
 msgid "<para>%1</para><para>Please select a new default calendar.</para>"
 msgstr "<para>%1</para> <para>請選擇新的預設行事曆。</para>"
 
-#: resources/resourceselectdialog.cpp:47
+#: resources/resourceselectdialog.cpp:48
 #, kde-format
 msgctxt "@info A prompt for user to enter what to search for"
 msgid "Search"
@@ -6016,7 +6012,7 @@ msgstr ""
 "這是所選取的型態可用的行事曆。有勾選的表示該行事曆開啟，反之則表示已關閉。預"
 "設的行事曆則以粗體顯示。"
 
-#: resourceselector.cpp:89 templatedlg.cpp:93
+#: resourceselector.cpp:89 templatedlg.cpp:94
 #, kde-format
 msgctxt "@action:button"
 msgid "Edit..."
@@ -6254,43 +6250,43 @@ msgstr ""
 "設定從休眠中喚醒功能時發生錯誤。<nl/>指令為：<command>%1 %2</command><nl/>錯"
 "誤代碼：%3。"
 
-#: sounddlg.cpp:53
+#: sounddlg.cpp:55
 #, kde-format
 msgctxt "@option:check"
 msgid "Repeat"
 msgstr "重覆"
 
-#: sounddlg.cpp:157
+#: sounddlg.cpp:159
 #, kde-format
 msgctxt "@label"
 msgid "Sound file:"
 msgstr "音效檔案："
 
-#: sounddlg.cpp:174 sounddlg.cpp:473
+#: sounddlg.cpp:176 sounddlg.cpp:475
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Test the sound"
 msgstr "測試音效"
 
-#: sounddlg.cpp:175 sounddlg.cpp:474
+#: sounddlg.cpp:177 sounddlg.cpp:476
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Play the selected sound file."
 msgstr "播放所選取的音效檔。"
 
-#: sounddlg.cpp:182
+#: sounddlg.cpp:184
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Enter the name or URL of a sound file to play."
 msgstr "輸入要播放的音效檔的檔名或網址。"
 
-#: sounddlg.cpp:195
+#: sounddlg.cpp:197
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Select a sound file to play."
 msgstr "選擇要播放的音效檔。"
 
-#: sounddlg.cpp:209
+#: sounddlg.cpp:211
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6298,140 +6294,140 @@ msgid ""
 "message is displayed."
 msgstr "勾選此選項的話，只要訊息顯示著，音效檔就會一直被重覆播放。"
 
-#: sounddlg.cpp:219
+#: sounddlg.cpp:221
 #, kde-format
 msgctxt "@label:spinbox Length of time to pause between repetitions"
 msgid "Pause between repetitions:"
 msgstr "重覆的間隔："
 
-#: sounddlg.cpp:228 sounddlg.cpp:288
+#: sounddlg.cpp:230 sounddlg.cpp:290
 #, kde-format
 msgctxt "@label"
 msgid "seconds"
 msgstr "秒"
 
-#: sounddlg.cpp:231
+#: sounddlg.cpp:233
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Enter how many seconds to pause between repetitions."
 msgstr "輸入重覆的間隔有多少秒。"
 
-#: sounddlg.cpp:235
+#: sounddlg.cpp:237
 #, kde-format
 msgctxt "@title:group Sound volume"
 msgid "Volume"
 msgstr "音量"
 
-#: sounddlg.cpp:251
+#: sounddlg.cpp:253
 #, kde-format
 msgctxt "@option:check"
 msgid "Set volume"
 msgstr "設定音量"
 
-#: sounddlg.cpp:255
+#: sounddlg.cpp:257
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Select to choose the volume for playing the sound file."
 msgstr "選取此項以選擇要播放音效檔的音量。"
 
-#: sounddlg.cpp:263
+#: sounddlg.cpp:265
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Choose the volume for playing the sound file."
 msgstr "選擇要播放音效檔的音量。"
 
-#: sounddlg.cpp:268
+#: sounddlg.cpp:270
 #, kde-format
 msgctxt "@option:check"
 msgid "Fade"
 msgstr "音量漸強"
 
-#: sounddlg.cpp:271
+#: sounddlg.cpp:273
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Select to fade the volume when the sound file first starts to play."
 msgstr "選取此項讓音效檔播出的音量漸漸變強。"
 
-#: sounddlg.cpp:279
+#: sounddlg.cpp:281
 #, kde-format
 msgctxt "@label:spinbox Time period over which to fade the sound"
 msgid "Fade time:"
 msgstr "音量調整時間："
 
-#: sounddlg.cpp:291
+#: sounddlg.cpp:293
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "Enter how many seconds to fade the sound before reaching the set volume."
 msgstr "輸入在多少秒內讓音量達到所設定的值。"
 
-#: sounddlg.cpp:298
+#: sounddlg.cpp:300
 #, kde-format
 msgctxt "@label:slider"
 msgid "Initial volume:"
 msgstr "啟始音量："
 
-#: sounddlg.cpp:308
+#: sounddlg.cpp:310
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Choose the initial volume for playing the sound file."
 msgstr "選擇播放音效檔案的啟始音量。"
 
-#: soundpicker.cpp:48
+#: soundpicker.cpp:49
 #, kde-format
 msgctxt "@label:listbox Listbox providing audio options"
 msgid "Sound:"
 msgstr "音效："
 
-#: soundpicker.cpp:49
+#: soundpicker.cpp:50
 #, kde-format
 msgctxt "@item:inlistbox No sound"
 msgid "None"
 msgstr "無"
 
-#: soundpicker.cpp:50
+#: soundpicker.cpp:51
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Beep"
 msgstr "嗶聲"
 
-#: soundpicker.cpp:51
+#: soundpicker.cpp:52
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Speak"
 msgstr "語音"
 
-#: soundpicker.cpp:52
+#: soundpicker.cpp:53
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sound file"
 msgstr "音效檔案"
 
-#: soundpicker.cpp:97
+#: soundpicker.cpp:98
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Configure sound file"
 msgstr "設定音效檔"
 
-#: soundpicker.cpp:98
+#: soundpicker.cpp:99
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Configure a sound file to play when the alarm is displayed."
 msgstr "設定鬧鐘響鈴時要播放的音效檔。"
 
-#: soundpicker.cpp:131
+#: soundpicker.cpp:132
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<interface>%1</interface>: the message is displayed silently."
 msgstr "<interface>%1</interface>：訊息顯示時將不會播放任何音效。"
 
-#: soundpicker.cpp:132
+#: soundpicker.cpp:133
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<interface>%1</interface>: a simple beep is sounded."
 msgstr "<interface>%1</interface>：選擇播放簡單的嗶聲。"
 
-#: soundpicker.cpp:133
+#: soundpicker.cpp:134
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6441,13 +6437,13 @@ msgstr ""
 "<interface>%1</interface>：選擇播放音效檔。您會被要求選擇音效檔以及設定播放選"
 "項。"
 
-#: soundpicker.cpp:137
+#: soundpicker.cpp:138
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<interface>%1</interface>: the message text is spoken."
 msgstr "<interface>%1</interface>：選擇訊息顯示時順便用語音唸出"
 
-#: soundpicker.cpp:139
+#: soundpicker.cpp:140
 #, kde-kuit-format
 msgctxt "@info:whatsthis Combination of multiple whatsthis items"
 msgid ""
@@ -6457,7 +6453,7 @@ msgstr ""
 "<para>選擇此訊息顯示時要播放的音效： <list><item>%1</item> <item>%2</item> "
 "<item>%3</item> <item>%4</item> </list></para>"
 
-#: soundpicker.cpp:147
+#: soundpicker.cpp:148
 #, kde-kuit-format
 msgctxt "@info:whatsthis Combination of multiple whatsthis items"
 msgid ""
@@ -6467,49 +6463,49 @@ msgstr ""
 "<para>選擇此訊息顯示時要播放的音效： <list><item>%1</item> <item>%2</item> "
 "<item>%3</item> </list></para>"
 
-#: soundpicker.cpp:267
+#: soundpicker.cpp:268
 #, kde-format
 msgctxt "@title:window"
 msgid "Sound File"
 msgstr "音效檔"
 
-#: soundpicker.cpp:334
+#: soundpicker.cpp:335
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose Sound File"
 msgstr "選擇音效檔"
 
-#: specialactions.cpp:47
+#: specialactions.cpp:48
 #, kde-format
 msgctxt "@action:button"
 msgid "Special Actions..."
 msgstr "特殊動作..."
 
-#: specialactions.cpp:54
+#: specialactions.cpp:55
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Specify actions to execute before and after the alarm is displayed."
 msgstr "指定在鬧鐘響鈴之前與之後要執行的動作。"
 
-#: specialactions.cpp:105
+#: specialactions.cpp:106
 #, kde-format
 msgctxt "@title:window"
 msgid "Special Alarm Actions"
 msgstr "特殊鬧鐘動作"
 
-#: specialactions.cpp:166
+#: specialactions.cpp:167
 #, kde-format
 msgctxt "@title:group"
 msgid "Pre-Alarm Action"
 msgstr "鬧鐘響鈴前動作"
 
-#: specialactions.cpp:174 specialactions.cpp:209
+#: specialactions.cpp:175 specialactions.cpp:210
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Command:"
 msgstr "指令："
 
-#: specialactions.cpp:181
+#: specialactions.cpp:182
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6523,13 +6519,13 @@ msgstr ""
 "行，而不是在提醒或延後時執行。</para> <para><note>KAlarm 會檔到指令執行完畢時"
 "才響鈴。</note></para>"
 
-#: specialactions.cpp:187
+#: specialactions.cpp:188
 #, kde-format
 msgctxt "@option:check"
 msgid "Execute for deferred alarms"
 msgstr "執行延遲的鬧鐘"
 
-#: specialactions.cpp:188
+#: specialactions.cpp:189
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6540,13 +6536,13 @@ msgstr ""
 "<para>若未勾選，則只有在目前顯示鬧鐘響鈴前會執行動作。</para> <para>若勾選此"
 "選項，則即使是延遲的鬧鐘，也會在響鈴前執行動作。</para>"
 
-#: specialactions.cpp:192
+#: specialactions.cpp:193
 #, kde-format
 msgctxt "@option:check"
 msgid "Cancel alarm on error"
 msgstr "發生錯誤時取消鬧鐘"
 
-#: specialactions.cpp:193
+#: specialactions.cpp:194
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6556,26 +6552,26 @@ msgstr ""
 "如果鬧鐘響鈴前的指令發生錯誤則取消此鬧鐘，也就是不要顯示鬧鐘訊息，或是執行任"
 "何鬧鐘指定的動作。"
 
-#: specialactions.cpp:196
+#: specialactions.cpp:197
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not notify errors"
 msgstr "不要通知錯誤"
 
-#: specialactions.cpp:197
+#: specialactions.cpp:198
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "Do not show error status or error message if the pre-alarm command fails."
 msgstr "若是鬧鐘響鈴前的指令發生錯誤，不要顯示錯誤狀態或錯誤訊息。"
 
-#: specialactions.cpp:201
+#: specialactions.cpp:202
 #, kde-format
 msgctxt "@title:group"
 msgid "Post-Alarm Action"
 msgstr "鬧鐘響鈴後動作"
 
-#: specialactions.cpp:215
+#: specialactions.cpp:216
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6588,49 +6584,49 @@ msgstr ""
 "後執行，而不是在提醒視窗關閉後執行。如果您將鬧鐘延遲，則會在最終確認鬧鐘或關"
 "閉時執行。</para>"
 
-#: templatedlg.cpp:61
+#: templatedlg.cpp:62
 #, kde-format
 msgctxt "@title:window"
 msgid "Alarm Templates"
 msgstr "鬧鐘樣本"
 
-#: templatedlg.cpp:78 templatelistview.cpp:36
+#: templatedlg.cpp:79 templatelistview.cpp:36
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The list of alarm templates"
 msgstr "鬧鐘樣本列表"
 
-#: templatedlg.cpp:86
+#: templatedlg.cpp:87
 #, kde-format
 msgctxt "@action:button"
 msgid "New"
 msgstr "新增"
 
-#: templatedlg.cpp:87
+#: templatedlg.cpp:88
 #, kde-format
 msgctxt "@action"
 msgid "New"
 msgstr "新增"
 
-#: templatedlg.cpp:90
+#: templatedlg.cpp:91
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Create a new alarm template"
 msgstr "產生新的鬧鐘樣本"
 
-#: templatedlg.cpp:95
+#: templatedlg.cpp:96
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Edit the currently highlighted alarm template"
 msgstr "編輯所選取的鬧鐘樣本"
 
-#: templatedlg.cpp:98
+#: templatedlg.cpp:99
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy"
 msgstr "複製"
 
-#: templatedlg.cpp:100
+#: templatedlg.cpp:101
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6638,33 +6634,33 @@ msgid ""
 "template"
 msgstr "從目前所選取的樣本複製一份成新的樣本。"
 
-#: templatedlg.cpp:105
+#: templatedlg.cpp:106
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Delete the currently highlighted alarm template"
 msgstr "刪除所選取的鬧鐘樣本"
 
-#: templatedlg.cpp:187
+#: templatedlg.cpp:188
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to delete the selected alarm template?"
 msgid_plural "Do you really want to delete the %1 selected alarm templates?"
 msgstr[0] "您真的要刪除這 %1 個鬧鐘樣本嗎？"
 
-#: templatedlg.cpp:189
+#: templatedlg.cpp:190
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Alarm Template"
 msgid_plural "Delete Alarm Templates"
 msgstr[0] "刪除鬧鐘樣本"
 
-#: templatepickdlg.cpp:47
+#: templatepickdlg.cpp:48
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose Alarm Template"
 msgstr "選擇鬧鐘樣本"
 
-#: templatepickdlg.cpp:73
+#: templatepickdlg.cpp:74
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Select a template to base the new alarm on."
@@ -6930,6 +6926,10 @@ msgstr ""
 #, kde-format
 msgid "Number of minutes before alarm to wake from suspend"
 msgstr "在鬧鐘響多少分鐘以前從休眠中喚醒"
+
+#~ msgctxt "@info"
+#~ msgid "<para>%1</para><para>%2<nl/>(%3)</para>"
+#~ msgstr "<para>%1</para><para>%2<nl/>(%3)</para>"
 
 #~ msgctxt "@info"
 #~ msgid ""
