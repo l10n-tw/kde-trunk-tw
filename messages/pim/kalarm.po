@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-09 03:09+0100\n"
+"POT-Creation-Date: 2019-12-10 03:26+0100\n"
 "PO-Revision-Date: 2018-05-19 11:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -448,122 +448,6 @@ msgstr "子重覆"
 msgctxt "@info:whatsthis"
 msgid "Set up an additional alarm repetition"
 msgstr "設定額外的鬧鐘重覆間隔"
-
-#: calendarmigrator.cpp:300 resources/resourcedatamodelbase.cpp:80
-#, kde-format
-msgctxt "@info"
-msgid "Active Alarms"
-msgstr "作用中的鬧鐘"
-
-#: calendarmigrator.cpp:308 resources/resourcedatamodelbase.cpp:82
-#, kde-format
-msgctxt "@info"
-msgid "Archived Alarms"
-msgstr "已歸檔的鬧鐘"
-
-#: calendarmigrator.cpp:316 resources/resourcedatamodelbase.cpp:84
-#, kde-format
-msgctxt "@info"
-msgid "Alarm Templates"
-msgstr "鬧鐘樣本"
-
-#: calendarmigrator.cpp:354
-#, kde-kuit-format
-msgctxt "@info/plain"
-msgid "Failed to create default calendar <resource>%1</resource>"
-msgstr "無法更新預設行事曆 <resource>%1</resource>。"
-
-#: calendarmigrator.cpp:356
-#, kde-kuit-format
-msgctxt "@info/plain 'Import Alarms' is the name of a menu option"
-msgid ""
-"Failed to convert old configuration for calendar <resource>%1</resource>. "
-"Please use Import Alarms to load its alarms into a new or existing calendar."
-msgstr ""
-"轉換行事曆 <resource>%1</resource> 的舊設定失敗。請使用「匯入鬧鐘」將它的鬧鐘"
-"載入新的或現有的行事曆中。"
-
-#: calendarmigrator.cpp:358
-#, kde-format
-msgctxt "@info File path or URL"
-msgid "Location: %1"
-msgstr "位置：%1"
-
-#: calendarmigrator.cpp:359
-#, kde-kuit-format
-msgctxt "@info"
-msgid "<para>%1</para><para>%2</para>"
-msgstr "<para>%1</para> <para>%2</para>"
-
-#: calendarmigrator.cpp:474
-#, kde-format
-msgctxt "@info"
-msgid "Invalid collection"
-msgstr "不合法的收藏"
-
-#: calendarmigrator.cpp:487
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Failed to update format of calendar <resource>%1</resource>"
-msgctxt "@info"
-msgid "Failed to update format of calendar <resource>%1</resource>"
-msgstr "無法更新行事曆 <resource>%1</resource> 的格式。"
-
-#: calendarmigrator.cpp:767
-#, kde-format
-msgctxt "@info"
-msgid "New configuration timed out"
-msgstr "新設定已逾時"
-
-#: calendarmigrator.cpp:780
-#, kde-format
-msgctxt "@info"
-msgid "New configuration was corrupt"
-msgstr "新設定已損毀"
-
-#: calendarmigrator.cpp:884
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "Calendar <resource>%1</resource> is in an old format "
-#| "(<application>KAlarm</application> version %2), and will be read-only "
-#| "unless you choose to update it to the current format."
-msgid ""
-"Calendar <resource>%1</resource> is in an old format (<application>KAlarm</"
-"application> version %2), and will be read-only unless you choose to update "
-"it to the current format."
-msgstr ""
-"行事曆 <resource>%1</resource> 是舊的格式（<application>KAlarm</application> "
-"版本 %2），除非您選擇將它更新為目前的格式，否則將會設為唯讀。"
-
-#: calendarmigrator.cpp:887
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "Some or all of the alarms in calendar <resource>%1</resource> are in an "
-#| "old <application>KAlarm</application> format, and will be read-only "
-#| "unless you choose to update them to the current format."
-msgid ""
-"Some or all of the alarms in calendar <resource>%1</resource> are in an old "
-"<application>KAlarm</application> format, and will be read-only unless you "
-"choose to update them to the current format."
-msgstr ""
-"行事曆 <resource>%1</resource> 中部份或所有的鬧鐘使用舊的 "
-"<application>KAlarm</application> 格式。除非您選擇將它們更新為目前的格式，否"
-"則將會設為唯讀。"
-
-#: calendarmigrator.cpp:890
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para>%1</para><para><warning>Do not update the calendar if it is also used "
-"with an older version of <application>KAlarm</application> (e.g. on another "
-"computer). If you do so, the calendar may become unusable there.</warning></"
-"para><para>Do you wish to update the calendar?</para>"
-msgstr ""
-"<para>%1</para><para><warning>如果此行事曆正與其它使用舊版 "
-"<application>KAlarm</application> 使用者共享，不要更新此資源，這樣可能會變成"
-"無法使用。</warning></para><para>您要更新此行事曆嗎？</para>"
 
 #: commandoptions.cpp:64
 #, kde-format
@@ -5696,6 +5580,125 @@ msgstr "刪除鬧鐘失敗。"
 msgctxt "@info"
 msgid "Failed to update calendar \"%1\"."
 msgstr "更新行事曆「%1」失敗。"
+
+#: resources/akonadiresourcemigrator.cpp:300
+#: resources/resourcedatamodelbase.cpp:80
+#, kde-format
+msgctxt "@info"
+msgid "Active Alarms"
+msgstr "作用中的鬧鐘"
+
+#: resources/akonadiresourcemigrator.cpp:308
+#: resources/resourcedatamodelbase.cpp:82
+#, kde-format
+msgctxt "@info"
+msgid "Archived Alarms"
+msgstr "已歸檔的鬧鐘"
+
+#: resources/akonadiresourcemigrator.cpp:316
+#: resources/resourcedatamodelbase.cpp:84
+#, kde-format
+msgctxt "@info"
+msgid "Alarm Templates"
+msgstr "鬧鐘樣本"
+
+#: resources/akonadiresourcemigrator.cpp:354
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Failed to create default calendar <resource>%1</resource>"
+msgstr "無法更新預設行事曆 <resource>%1</resource>。"
+
+#: resources/akonadiresourcemigrator.cpp:356
+#, kde-kuit-format
+msgctxt "@info/plain 'Import Alarms' is the name of a menu option"
+msgid ""
+"Failed to convert old configuration for calendar <resource>%1</resource>. "
+"Please use Import Alarms to load its alarms into a new or existing calendar."
+msgstr ""
+"轉換行事曆 <resource>%1</resource> 的舊設定失敗。請使用「匯入鬧鐘」將它的鬧鐘"
+"載入新的或現有的行事曆中。"
+
+#: resources/akonadiresourcemigrator.cpp:358
+#, kde-format
+msgctxt "@info File path or URL"
+msgid "Location: %1"
+msgstr "位置：%1"
+
+#: resources/akonadiresourcemigrator.cpp:359
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>%1</para><para>%2</para>"
+msgstr "<para>%1</para> <para>%2</para>"
+
+#: resources/akonadiresourcemigrator.cpp:474
+#, kde-format
+msgctxt "@info"
+msgid "Invalid collection"
+msgstr "不合法的收藏"
+
+#: resources/akonadiresourcemigrator.cpp:487
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info/plain"
+#| msgid "Failed to update format of calendar <resource>%1</resource>"
+msgctxt "@info"
+msgid "Failed to update format of calendar <resource>%1</resource>"
+msgstr "無法更新行事曆 <resource>%1</resource> 的格式。"
+
+#: resources/akonadiresourcemigrator.cpp:767
+#, kde-format
+msgctxt "@info"
+msgid "New configuration timed out"
+msgstr "新設定已逾時"
+
+#: resources/akonadiresourcemigrator.cpp:780
+#, kde-format
+msgctxt "@info"
+msgid "New configuration was corrupt"
+msgstr "新設定已損毀"
+
+#: resources/akonadiresourcemigrator.cpp:884
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Calendar <resource>%1</resource> is in an old format "
+#| "(<application>KAlarm</application> version %2), and will be read-only "
+#| "unless you choose to update it to the current format."
+msgid ""
+"Calendar <resource>%1</resource> is in an old format (<application>KAlarm</"
+"application> version %2), and will be read-only unless you choose to update "
+"it to the current format."
+msgstr ""
+"行事曆 <resource>%1</resource> 是舊的格式（<application>KAlarm</application> "
+"版本 %2），除非您選擇將它更新為目前的格式，否則將會設為唯讀。"
+
+#: resources/akonadiresourcemigrator.cpp:887
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Some or all of the alarms in calendar <resource>%1</resource> are in an "
+#| "old <application>KAlarm</application> format, and will be read-only "
+#| "unless you choose to update them to the current format."
+msgid ""
+"Some or all of the alarms in calendar <resource>%1</resource> are in an old "
+"<application>KAlarm</application> format, and will be read-only unless you "
+"choose to update them to the current format."
+msgstr ""
+"行事曆 <resource>%1</resource> 中部份或所有的鬧鐘使用舊的 "
+"<application>KAlarm</application> 格式。除非您選擇將它們更新為目前的格式，否"
+"則將會設為唯讀。"
+
+#: resources/akonadiresourcemigrator.cpp:890
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>%1</para><para><warning>Do not update the calendar if it is also used "
+"with an older version of <application>KAlarm</application> (e.g. on another "
+"computer). If you do so, the calendar may become unusable there.</warning></"
+"para><para>Do you wish to update the calendar?</para>"
+msgstr ""
+"<para>%1</para><para><warning>如果此行事曆正與其它使用舊版 "
+"<application>KAlarm</application> 使用者共享，不要更新此資源，這樣可能會變成"
+"無法使用。</warning></para><para>您要更新此行事曆嗎？</para>"
 
 #: resources/resourcedatamodelbase.cpp:100
 #, kde-format

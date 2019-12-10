@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_extragear-network_kdeconnect-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-01 02:43+0000\n"
+"POT-Creation-Date: 2019-12-10 02:49+0000\n"
 "PO-Revision-Date: 2019-09-29 21:03+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: app/org.kde.kdeconnect.app.desktop:2
 #: daemon/org.kde.kdeconnect.daemon.desktop.cmake:12
 #: kcm/kcm_kdeconnect.desktop:13 plasmoid/package/metadata.desktop:2
-#: plugins/kdeconnect.notifyrc:3 sfos/kdeconnect-sfos.desktop:6
+#: plugins/kdeconnect.notifyrc:3
 msgctxt "Name"
 msgid "KDE Connect"
 msgstr "KDE 連線"
@@ -223,11 +223,6 @@ msgctxt "Comment"
 msgid "Run commands on connected devices"
 msgstr "在連結的裝置上執行指令"
 
-#: sfos/kdeconnectd.desktop.cmake:10
-msgctxt "Name"
-msgid "KDEConnect daemon"
-msgstr "KDE 連線守護程式"
-
 #: smsapp/org.kde.kdeconnect.sms.desktop:2
 msgctxt "Name"
 msgid "KDE Connect SMS"
@@ -252,6 +247,10 @@ msgstr "KDE 連線簡訊網址處理器"
 msgctxt "Name"
 msgid "KDE Connect Phone URL Handler"
 msgstr "KDE 連線手機網址處理器"
+
+#~ msgctxt "Name"
+#~ msgid "KDEConnect daemon"
+#~ msgstr "KDE 連線守護程式"
 
 #~ msgctxt "Name"
 #~ msgid "Send file via KDE Connect service"

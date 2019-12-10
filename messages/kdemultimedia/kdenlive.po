@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-09 03:00+0100\n"
+"POT-Creation-Date: 2019-12-10 03:15+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -8386,7 +8386,7 @@ msgid "Scene %1"
 msgstr "區段終點：%1"
 
 #: src/jobs/speedjob.cpp:56 src/mainwindow.cpp:3120
-#: src/timeline2/model/timelinemodel.cpp:3336
+#: src/timeline2/model/timelinemodel.cpp:3377
 #, fuzzy, kde-format
 #| msgid "Change clip type"
 msgid "Change clip speed"
@@ -9653,7 +9653,7 @@ msgstr "移除空白空間"
 msgid "Remove Space In All Tracks"
 msgstr "移除空白空間"
 
-#: src/mainwindow.cpp:1429 src/timeline2/model/timelinemodel.cpp:2162
+#: src/mainwindow.cpp:1429 src/timeline2/model/timelinemodel.cpp:2203
 #, kde-format
 msgid "Insert Track"
 msgstr "添加軌道"
@@ -9664,7 +9664,7 @@ msgstr "添加軌道"
 msgid "Master effects"
 msgstr "黏貼特效"
 
-#: src/mainwindow.cpp:1440 src/timeline2/model/timelinemodel.cpp:2231
+#: src/mainwindow.cpp:1440 src/timeline2/model/timelinemodel.cpp:2272
 #: src/timeline2/view/dialogs/trackdialog.cpp:31
 #: src/timeline2/view/dialogs/trackdialog.cpp:66
 #: src/timeline2/view/dialogs/tracksconfigdialog.cpp:89
@@ -12208,105 +12208,105 @@ msgstr "混合方式"
 msgid "Move group"
 msgstr "移動組合"
 
-#: src/timeline2/model/timelinemodel.cpp:1746
+#: src/timeline2/model/timelinemodel.cpp:1787
 #, fuzzy, kde-format
 #| msgid "Move group"
 msgid "Resize group"
 msgstr "移動組合"
 
-#: src/timeline2/model/timelinemodel.cpp:1841
+#: src/timeline2/model/timelinemodel.cpp:1882
 #, fuzzy, kde-format
 #| msgid "Resize clip"
 msgid "Resize clip speed"
 msgstr "調整素材大小"
 
-#: src/timeline2/model/timelinemodel.cpp:1990
+#: src/timeline2/model/timelinemodel.cpp:2031
 #, kde-format
 msgid "Resize clip"
 msgstr "調整素材大小"
 
-#: src/timeline2/model/timelinemodel.cpp:1992
+#: src/timeline2/model/timelinemodel.cpp:2033
 #, fuzzy, kde-format
 msgid "Resize composition"
 msgstr "逆向執行轉場特效"
 
-#: src/timeline2/model/timelinemodel.cpp:2031
+#: src/timeline2/model/timelinemodel.cpp:2072
 #, kde-format
 msgid "Group clips"
 msgstr "組合素材"
 
-#: src/timeline2/model/timelinemodel.cpp:2115
-#: src/timeline2/model/timelinemodel.cpp:2131
+#: src/timeline2/model/timelinemodel.cpp:2156
+#: src/timeline2/model/timelinemodel.cpp:2172
 #, kde-format
 msgid "Ungroup clips"
 msgstr "取消組合"
 
-#: src/timeline2/model/timelinemodel.cpp:2241
+#: src/timeline2/model/timelinemodel.cpp:2282
 #, fuzzy, kde-format
 #| msgid "Cannot remove space in a locked track"
 msgid "Cannot delete last track in timeline"
 msgstr "無法在已經鎖定的軌道中移除空白空間"
 
-#: src/timeline2/model/timelinemodel.cpp:2394
+#: src/timeline2/model/timelinemodel.cpp:2435
 #, fuzzy, kde-format
 msgid "Cannot add effect %1 to selected track"
 msgstr "無法添加視訊濾鏡​​到這個素材"
 
-#: src/timeline2/model/timelinemodel.cpp:2409
+#: src/timeline2/model/timelinemodel.cpp:2450
 #, fuzzy, kde-format
 #| msgid "Cannot paste clip to selected place"
 msgid "Cannot paste effect to selected track"
 msgstr "無法將素材貼到所選位置"
 
-#: src/timeline2/model/timelinemodel.cpp:2427
+#: src/timeline2/model/timelinemodel.cpp:2468
 #: src/timeline2/view/timelinecontroller.cpp:887
 #, fuzzy, kde-format
 #| msgid "Cannot add a video effect to this clip"
 msgid "Cannot add effect %1 to selected clip"
 msgstr "無法添加視訊濾鏡​​到這個素材"
 
-#: src/timeline2/model/timelinemodel.cpp:2462
+#: src/timeline2/model/timelinemodel.cpp:2503
 #, fuzzy, kde-format
 #| msgid "Adjust levels"
 msgid "Adjust Fade"
 msgstr "調整色階"
 
-#: src/timeline2/model/timelinemodel.cpp:2624
+#: src/timeline2/model/timelinemodel.cpp:2665
 #, fuzzy, kde-format
 #| msgid "Compositing"
 msgid "Insert Composition"
 msgstr "混合方式"
 
-#: src/timeline2/model/timelinemodel.cpp:2744
+#: src/timeline2/model/timelinemodel.cpp:2785
 #, fuzzy, kde-format
 #| msgid "More options"
 msgid "Move composition"
 msgstr "更多選項"
 
-#: src/timeline2/model/timelinemodel.cpp:3326
+#: src/timeline2/model/timelinemodel.cpp:3367
 #, fuzzy, kde-format
 #| msgid "Captured files"
 msgid "Change speed failed"
 msgstr "擷取的檔案"
 
-#: src/timeline2/model/timelinemodel.cpp:3616
+#: src/timeline2/model/timelinemodel.cpp:3657
 #: src/timeline2/view/qml/TrackHead.qml:342
 #, fuzzy, kde-format
 msgid "Lock track"
 msgstr "軌道"
 
-#: src/timeline2/model/timelinemodel.cpp:3621
+#: src/timeline2/model/timelinemodel.cpp:3662
 #: src/timeline2/view/qml/TrackHead.qml:342
 #, fuzzy, kde-format
 msgid "Unlock track"
 msgstr "軌道"
 
-#: src/timeline2/model/timelinemodel.cpp:3648
+#: src/timeline2/model/timelinemodel.cpp:3689
 #, kde-format
 msgid "Cannot operate on grouped composition, please ungroup"
 msgstr ""
 
-#: src/timeline2/model/timelinemodel.cpp:3670
+#: src/timeline2/model/timelinemodel.cpp:3711
 #, fuzzy, kde-format
 #| msgid "Center position (X)"
 msgid "Change composition"
