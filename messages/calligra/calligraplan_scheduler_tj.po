@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-12 02:34+0200\n"
+"POT-Creation-Date: 2019-12-11 02:35+0100\n"
 "PO-Revision-Date: 2018-03-24 19:24+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -34,139 +34,139 @@ msgstr ""
 "就排多晚來模擬的。</para> <para><note>Plan 無法使用它全部的功能。</note></"
 "para>"
 
-#: PlanTJScheduler.cpp:142
+#: PlanTJScheduler.cpp:144
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Init"
 msgstr "初始化"
 
-#: PlanTJScheduler.cpp:148
+#: PlanTJScheduler.cpp:150
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Re-calculate project from start time: %1"
 msgstr "從起始時間重新排程專案：%1"
 
-#: PlanTJScheduler.cpp:150
+#: PlanTJScheduler.cpp:152
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Schedule project from start time: %1"
 msgstr "排程專案起始時間：%1"
 
-#: PlanTJScheduler.cpp:152
+#: PlanTJScheduler.cpp:154
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Project target finish time: %1"
 msgstr "專案目標完成時間：%1"
 
-#: PlanTJScheduler.cpp:155
+#: PlanTJScheduler.cpp:157
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Schedule project from end time: %1"
 msgstr "從結束時間重新排程專案：%1"
 
-#: PlanTJScheduler.cpp:170
+#: PlanTJScheduler.cpp:172
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Schedule"
 msgstr "排程"
 
-#: PlanTJScheduler.cpp:176
+#: PlanTJScheduler.cpp:178
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Failed to schedule project"
 msgstr "排程專案時失敗"
 
-#: PlanTJScheduler.cpp:186
+#: PlanTJScheduler.cpp:188
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Update"
 msgstr "更新"
 
-#: PlanTJScheduler.cpp:192
+#: PlanTJScheduler.cpp:194
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Finish"
 msgstr "完成"
 
-#: PlanTJScheduler.cpp:207
+#: PlanTJScheduler.cpp:209
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Failed to find scenario to schedule"
 msgstr "找不到排程的方式"
 
-#: PlanTJScheduler.cpp:397
+#: PlanTJScheduler.cpp:399
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Project scheduled to start at %1 and finish at %2"
 msgstr "專案排程於 %1 開始 %2 結束"
 
-#: PlanTJScheduler.cpp:437
+#: PlanTJScheduler.cpp:439
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Invalid start time"
 msgstr "不合法的啟始時間"
 
-#: PlanTJScheduler.cpp:441
+#: PlanTJScheduler.cpp:443
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Invalid end time"
 msgstr "不合法的結束時間"
 
-#: PlanTJScheduler.cpp:464
+#: PlanTJScheduler.cpp:466
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Scheduled milestone: %1"
 msgstr "排程里程碑：%1"
 
-#: PlanTJScheduler.cpp:466
+#: PlanTJScheduler.cpp:468
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Scheduled task: %1 - %2"
 msgstr "排程工作：%1 - %2"
 
-#: PlanTJScheduler.cpp:549
+#: PlanTJScheduler.cpp:551
 #, kde-format
 msgctxt "1=type of constraint"
 msgid "%1: Failed to meet constraint. Negative float=%2"
 msgstr "%1：無法符合限制。負浮動=%2"
 
-#: PlanTJScheduler.cpp:564
+#: PlanTJScheduler.cpp:566
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Failed to meet dependency. Negative float=%1"
 msgstr "無法符合相依性。負浮動=%1"
 
-#: PlanTJScheduler.cpp:721
+#: PlanTJScheduler.cpp:723
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Dependency type '%1' not handled. Using FinishStart."
 msgstr "相依型態 %1 未處理。改用 FinishStart。"
 
-#: PlanTJScheduler.cpp:782
+#: PlanTJScheduler.cpp:784
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "%1: Invalid start constraint"
 msgstr "%1：不合法的啟始限制"
 
-#: PlanTJScheduler.cpp:795
+#: PlanTJScheduler.cpp:797
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "%1: Invalid end constraint"
 msgstr "%1：不合法的結束限制"
 
-#: PlanTJScheduler.cpp:818
+#: PlanTJScheduler.cpp:820
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Unhandled time constraint type"
 msgstr "無法處理的時間限制型態"
 
-#: PlanTJScheduler.cpp:829 PlanTJScheduler.cpp:847
+#: PlanTJScheduler.cpp:831 PlanTJScheduler.cpp:849
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Could not use the correct calendar for calculation of task duration"
 msgstr "無法使用正確的行事曆來計算工作持續天數"
 
-#: PlanTJScheduler.cpp:900
+#: PlanTJScheduler.cpp:902
 #, kde-format
 msgid "No working hours defined for resource: %1"
 msgstr "沒有為資源定義工作時間：%1"

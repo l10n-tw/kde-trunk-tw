@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-21 03:10+0200\n"
+"POT-Creation-Date: 2019-12-11 03:19+0100\n"
 "PO-Revision-Date: 2015-06-14 13:37+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -2021,7 +2021,7 @@ msgstr "婉拒"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_2)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mSummaryEdit)
-#: ui/dialogdesktop.ui:150 ui/dialogdesktop.ui:181
+#: ui/dialogdesktop.ui:150 ui/dialogdesktop.ui:178
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Set the title"
@@ -2029,7 +2029,7 @@ msgstr "設定標題"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, mSummaryEdit)
-#: ui/dialogdesktop.ui:153 ui/dialogdesktop.ui:184
+#: ui/dialogdesktop.ui:153 ui/dialogdesktop.ui:181
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Sets the Title of this event or to-do."
@@ -2052,14 +2052,14 @@ msgid "&Location:"
 msgstr "位置(&L)："
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mLocationEdit)
-#: ui/dialogdesktop.ui:222
+#: ui/dialogdesktop.ui:219
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Set the location"
 msgstr "設定位置"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, mLocationEdit)
-#: ui/dialogdesktop.ui:225
+#: ui/dialogdesktop.ui:222
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Sets where the event or to-do will take place."
@@ -2307,15 +2307,22 @@ msgctxt "@title:tab attendees of this event or to-do"
 msgid "Attendees"
 msgstr "參加者"
 
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/dialogdesktop.ui:748
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Meeting organizer:"
+msgstr "會議發起者："
+
 #. i18n: ectx: property (toolTip), widget (QComboBox, mOrganizerCombo)
-#: ui/dialogdesktop.ui:779
+#: ui/dialogdesktop.ui:789
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Set the organizer identity"
 msgstr "設定發起者身份"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, mOrganizerCombo)
-#: ui/dialogdesktop.ui:782
+#: ui/dialogdesktop.ui:792
 #, fuzzy, kde-format
 #| msgctxt "@info:whatsthis"
 #| msgid ""
@@ -2341,21 +2348,21 @@ msgstr ""
 "電子郵件設定」。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: ui/dialogdesktop.ui:814
+#: ui/dialogdesktop.ui:824
 #, kde-format
 msgctxt "@label participants of this event or to-do"
 msgid "Participants:"
 msgstr "參加者："
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, mSolveButton)
-#: ui/dialogdesktop.ui:833
+#: ui/dialogdesktop.ui:843
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Schedule the meeting with your attendees."
 msgstr "與您的參加者協調會議時間。"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, mSolveButton)
-#: ui/dialogdesktop.ui:836
+#: ui/dialogdesktop.ui:846
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -2364,45 +2371,38 @@ msgid ""
 msgstr "開啟排程對話框，協助您挑選一個所有參加者都能接受的時間。"
 
 #. i18n: ectx: property (text), widget (QPushButton, mSolveButton)
-#: ui/dialogdesktop.ui:839
+#: ui/dialogdesktop.ui:849
 #, kde-format
 msgctxt "@action:button"
 msgid "Schedule..."
 msgstr "排程..."
 
 #. i18n: ectx: property (text), widget (QPushButton, mGroupSubstitution)
-#: ui/dialogdesktop.ui:862
+#: ui/dialogdesktop.ui:872
 #, kde-format
 msgid "Substitute with group members"
 msgstr "替換群組成員"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, mSelectButton)
-#: ui/dialogdesktop.ui:869
+#: ui/dialogdesktop.ui:879
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select attendees from your address book."
 msgstr "從您的通訊錄中選擇參加者。"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, mSelectButton)
-#: ui/dialogdesktop.ui:872
+#: ui/dialogdesktop.ui:882
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Opens your address book, allowing you to select new attendees from it."
 msgstr "開啟您的通訊錄，讓您從中選取參加者。"
 
 #. i18n: ectx: property (text), widget (QPushButton, mSelectButton)
-#: ui/dialogdesktop.ui:875
+#: ui/dialogdesktop.ui:885
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Attendees..."
 msgstr "選擇參加者..."
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: ui/dialogdesktop.ui:898
-#, kde-format
-msgctxt "@label:listbox"
-msgid "Meeting organizer:"
-msgstr "會議發起者："
 
 #. i18n: ectx: attribute (title), widget (QWidget, mResourceTab)
 #: ui/dialogdesktop.ui:909
@@ -2598,35 +2598,35 @@ msgid "Add"
 msgstr "新增"
 
 #. i18n: ectx: property (text), widget (QLabel, mOnLabel)
-#: ui/dialogdesktop.ui:1611
+#: ui/dialogdesktop.ui:1612
 #, kde-format
 msgctxt "@label The event ends on [different options]"
 msgid "on:"
 msgstr "於："
 
 #. i18n: ectx: property (text), widget (QPushButton, mExceptionRemoveButton)
-#: ui/dialogdesktop.ui:1626
+#: ui/dialogdesktop.ui:1627
 #, kde-format
 msgctxt "@action:button removes an exception"
 msgid "Remove"
 msgstr "移除"
 
 #. i18n: ectx: attribute (title), widget (QWidget, mAttachmentsTab)
-#: ui/dialogdesktop.ui:1653
+#: ui/dialogdesktop.ui:1654
 #, kde-format
 msgctxt "@title:tab configure attachments of an event or todo"
 msgid "Attachments"
 msgstr "附加檔"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, mAddButton)
-#: ui/dialogdesktop.ui:1675
+#: ui/dialogdesktop.ui:1676
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Add an attachment"
 msgstr "新增附件"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, mAddButton)
-#: ui/dialogdesktop.ui:1678
+#: ui/dialogdesktop.ui:1679
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -2635,21 +2635,21 @@ msgid ""
 msgstr "顯示對話框以選擇加入到此事件或待辦事項的附件或內含資料。"
 
 #. i18n: ectx: property (text), widget (QPushButton, mAddButton)
-#: ui/dialogdesktop.ui:1681
+#: ui/dialogdesktop.ui:1682
 #, kde-format
 msgctxt "@action:button adds an attachment"
 msgid "Add"
 msgstr "新增"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, mRemoveButton)
-#: ui/dialogdesktop.ui:1700
+#: ui/dialogdesktop.ui:1702
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove the selected attachment"
 msgstr "移除選取的附加檔"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, mRemoveButton)
-#: ui/dialogdesktop.ui:1703
+#: ui/dialogdesktop.ui:1705
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -2657,7 +2657,7 @@ msgid ""
 msgstr "從此事件或待辦事項移除上方清單所選取的附件。"
 
 #. i18n: ectx: property (text), widget (QPushButton, mRemoveButton)
-#: ui/dialogdesktop.ui:1706
+#: ui/dialogdesktop.ui:1708
 #, kde-format
 msgctxt "@action:button remove an attachment"
 msgid "Remove"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-07 03:17+0100\n"
+"POT-Creation-Date: 2019-12-11 03:25+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -2613,88 +2613,97 @@ msgstr ""
 "如果開啟此選項，則輸入的會儲存為預設值。稍後使用同一個變數時，預設使用此值，"
 "即使是在不同的片段中。"
 
+#: snippets/snippetwidget.cpp:67
+#, kde-format
+msgid ""
+"Enter a keyword here to enable fast insertion of this snippet while writing "
+"an email. For instance if you choose \"greeting\" as the keyword, you can "
+"then type \\greeting in your email and then press the tab key, and it will "
+"be replaced with the contents of this snippet."
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
 #: snippets/ui/snippetwidget.ui:31
 #, kde-format
 msgid "&Name:"
 msgstr "名稱(&N)："
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: snippets/ui/snippetwidget.ui:65
+#. i18n: ectx: property (text), widget (QLabel, textLabelGroup)
+#: snippets/ui/snippetwidget.ui:52
 #, kde-format
-msgid "Keyword:"
+msgctxt "Group to which the snippet belongs."
+msgid "Group:"
+msgstr "群組："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: snippets/ui/snippetwidget.ui:65
+#, fuzzy, kde-format
+#| msgctxt "message status"
+#| msgid "Has Attachment"
+msgid "Attachments:"
+msgstr "含附件"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel)
+#: snippets/ui/snippetwidget.ui:82
+#, kde-format
+msgid "&Snippet:"
+msgstr "片段(&S)："
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, cc)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, bcc)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, to)
+#: snippets/ui/snippetwidget.ui:98 snippets/ui/snippetwidget.ui:115
+#: snippets/ui/snippetwidget.ui:152
+#, kde-format
+msgid "Separate email with a comma"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: snippets/ui/snippetwidget.ui:85
+#: snippets/ui/snippetwidget.ui:108
 #, fuzzy, kde-format
 #| msgctxt "Email recipient"
 #| msgid "To"
 msgid "To:"
 msgstr "收件者"
 
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: snippets/ui/snippetwidget.ui:125
+#, kde-format
+msgid "Cc:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: snippets/ui/snippetwidget.ui:132
+#, kde-format
+msgid "Keyword:"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, keyWidgetLabel)
-#: snippets/ui/snippetwidget.ui:92
+#: snippets/ui/snippetwidget.ui:139
 #, fuzzy, kde-format
 #| msgid "Shortcut:"
 msgid "Sho&rtcut:"
 msgstr "捷徑："
 
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, cc)
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, to)
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, bcc)
-#: snippets/ui/snippetwidget.ui:125 snippets/ui/snippetwidget.ui:158
-#: snippets/ui/snippetwidget.ui:195
-#, kde-format
-msgid "Separate email with a comma"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: snippets/ui/snippetwidget.ui:135
+#: snippets/ui/snippetwidget.ui:185
 #, kde-format
 msgid "Bcc:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel)
-#: snippets/ui/snippetwidget.ui:142
-#, kde-format
-msgid "&Snippet:"
-msgstr "片段(&S)："
-
-#. i18n: ectx: property (text), widget (QPushButton, pushButtonVariables)
-#: snippets/ui/snippetwidget.ui:181
-#, kde-format
-msgid "Variables"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: snippets/ui/snippetwidget.ui:188
+#: snippets/ui/snippetwidget.ui:208
 #, fuzzy, kde-format
 #| msgctxt "Subject of an email."
 #| msgid "Subject"
 msgid "Subject:"
 msgstr "主題"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabelGroup)
-#: snippets/ui/snippetwidget.ui:205
-#, kde-format
-msgctxt "Group to which the snippet belongs."
-msgid "Group:"
-msgstr "群組："
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QPushButton, pushButtonVariables)
 #: snippets/ui/snippetwidget.ui:215
 #, kde-format
-msgid "Cc:"
+msgid "Variables"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: snippets/ui/snippetwidget.ui:225
-#, fuzzy, kde-format
-#| msgctxt "message status"
-#| msgid "Has Attachment"
-msgid "Attachment:"
-msgstr "含附件"
 
 #: tag/addtagdialog.cpp:95
 #, kde-format

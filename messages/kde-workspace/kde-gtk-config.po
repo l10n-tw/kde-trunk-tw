@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-03 03:41+0100\n"
+"POT-Creation-Date: 2019-12-11 03:35+0100\n"
 "PO-Revision-Date: 2019-03-18 19:39+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -134,27 +134,27 @@ msgstr "Adrián Chaves Fernández (Gallaecio)"
 msgid "Internationalization"
 msgstr "國際化"
 
-#: src/gtkconfigkcmodule.cpp:102
+#: src/gtkconfigkcmodule.cpp:101
 #, kde-format
 msgid "Download GTK2 themes..."
 msgstr "下載 GTK2 主題..."
 
-#: src/gtkconfigkcmodule.cpp:103
+#: src/gtkconfigkcmodule.cpp:102
 #, kde-format
 msgid "Download GTK3 themes..."
 msgstr "下載 GTK3 主題..."
 
-#: src/gtkconfigkcmodule.cpp:104
+#: src/gtkconfigkcmodule.cpp:103
 #, kde-format
 msgid "Install a local theme..."
 msgstr "安裝本地端主題..."
 
-#: src/gtkconfigkcmodule.cpp:105
+#: src/gtkconfigkcmodule.cpp:104
 #, kde-format
 msgid "Uninstall a local theme..."
 msgstr "解除安裝本地端主題..."
 
-#: src/gtkconfigkcmodule.cpp:236
+#: src/gtkconfigkcmodule.cpp:229
 #, kde-format
 msgid "Failed to save configuration."
 msgstr "無法儲存設定檔。"
@@ -250,26 +250,8 @@ msgstr "GTK3 主題："
 msgid "Prefer dark theme"
 msgstr "偏好暗色主題"
 
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: src/ui/gui.ui:103
-#, kde-format
-msgid "On scrollbar left-click:"
-msgstr "對滾動列按下左鍵時顯示："
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton_dont_warp)
-#: src/ui/gui.ui:110
-#, kde-format
-msgid "Scro&ll one page up/down"
-msgstr "向上／下捲動一頁(&L)"
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioButton_warp)
-#: src/ui/gui.ui:123
-#, kde-format
-msgid "&Jump to mouse cursor position"
-msgstr "跳至滑鼠游標位置(&J)"
-
 #. i18n: ectx: property (toolTip), widget (QPushButton, newThemes)
-#: src/ui/gui.ui:178
+#: src/ui/gui.ui:148
 #, kde-format
 msgid ""
 "<html><head/><body><p>Here you can install new GTK themes. Even more are "
@@ -281,10 +263,19 @@ msgstr ""
 "look.org</span></a> 取得。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, newThemes)
-#: src/ui/gui.ui:181
+#: src/ui/gui.ui:151
 #, kde-format
 msgid "Get New GNOME/GTK Application Styles..."
 msgstr "取得新的 GNOME / GTK 應用程式樣式…"
+
+#~ msgid "On scrollbar left-click:"
+#~ msgstr "對滾動列按下左鍵時顯示："
+
+#~ msgid "Scro&ll one page up/down"
+#~ msgstr "向上／下捲動一頁(&L)"
+
+#~ msgid "&Jump to mouse cursor position"
+#~ msgstr "跳至滑鼠游標位置(&J)"
 
 #~ msgid "This icons theme can be installed"
 #~ msgstr "此圖示主題可以安裝"
