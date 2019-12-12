@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: smb4k 0.7.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-27 02:49+0100\n"
+"POT-Creation-Date: 2019-12-12 02:41+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -357,7 +357,7 @@ msgstr ""
 #. i18n: ectx: label, entry (ForceSMB1Protocol), group (Network)
 #: smb4k.kcfg:155
 #, kde-format
-msgid "Force SMB1 protocol for workgroup and domain lookups"
+msgid "Force SMB protocol version 1.0 for workgroup and domain lookups"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ForceSMB1Protocol), group (Network)
@@ -366,7 +366,8 @@ msgstr ""
 msgid ""
 "If you have trouble discovering the workgroups and domains in your network "
 "neighborhood, you should consider to switch this setting on. Smb4K will then "
-"force the use of the SMB1 protocol for searching for workgroups and domains."
+"force the use of the SMB 1.0 protocol for searching for workgroups and "
+"domains."
 msgstr ""
 
 #. i18n: ectx: label, entry (PreviewHiddenItems), group (Network)
