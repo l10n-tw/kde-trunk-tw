@@ -1,220 +1,220 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the audex package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# pan93412 <pan93412@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: audex\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-05-20 03:20+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2019-12-12 19:16+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 19.11.90\n"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_overwriteExistingFiles)
 #. i18n: ectx: label, entry (overwriteExistingFiles), group (general)
 #: audex.kcfg:14 widgets/generalsettingswidgetUI.ui:23
 #, kde-format
 msgid "Overwrite existing files"
-msgstr ""
+msgstr "覆寫現存檔案"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_deletePartialFiles)
 #. i18n: ectx: label, entry (deletePartialFiles), group (general)
 #: audex.kcfg:18 widgets/generalsettingswidgetUI.ui:30
 #, kde-format
 msgid "Delete partial files after cancel"
-msgstr ""
+msgstr "取消後刪除片段檔案"
 
 #. i18n: ectx: label, entry (ejectCDTray), group (general)
 #: audex.kcfg:22
 #, kde-format
 msgid "Eject CD tray after extraction finished"
-msgstr ""
+msgstr "擷取完成後退出 CD 匣"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_cddbLookupAuto)
 #. i18n: ectx: label, entry (cddbLookupAuto), group (general)
 #: audex.kcfg:26 widgets/generalsettingswidgetUI.ui:44
 #, kde-format
 msgid "Perform CDDB lookup automatically"
-msgstr ""
+msgstr "自動執行 CDDB 查詢"
 
 #. i18n: ectx: label, entry (coverLookupAuto), group (general)
 #: audex.kcfg:30
 #, kde-format
 msgid "Perform cover lookup (amazon) automatically"
-msgstr ""
+msgstr "自動執行專輯封面查詢 (Amazon)"
 
 #. i18n: ectx: label, entry (wikipediaLocale), group (general)
 #: audex.kcfg:34
 #, kde-format
 msgid "Wikipedia localization"
-msgstr ""
+msgstr "維基百科本地化"
 
 #. i18n: ectx: label, entry (fetchCount), group (general)
 #: audex.kcfg:38
 #, kde-format
 msgid "Number of covers to fetch"
-msgstr ""
+msgstr "要取得的專輯封面數"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_paranoiaMode)
 #. i18n: ectx: label, entry (paranoiaMode), group (general)
 #: audex.kcfg:44 widgets/devicewidgetUI.ui:23
 #, kde-format
 msgid "Full paranoia mode (best quality)"
-msgstr ""
+msgstr "完整強迫症模式 (品質最佳)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_neverSkip)
 #. i18n: ectx: label, entry (neverSkip), group (general)
 #: audex.kcfg:48 widgets/devicewidgetUI.ui:30
 #, kde-format
 msgid "Never skip on read error"
-msgstr ""
+msgstr "永不在讀取錯誤時跳過"
 
 #. i18n: ectx: label, entry (sampleOffset), group (general)
 #: audex.kcfg:52
 #, kde-format
 msgid "Sample offset"
-msgstr ""
+msgstr "範例偏移"
 
 #. i18n: ectx: label, entry (basePath), group (general)
 #: audex.kcfg:58
 #, kde-format
 msgid "Base path to store music files"
-msgstr ""
+msgstr "儲存音樂檔案的基礎路徑"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_upload)
 #. i18n: ectx: label, entry (upload), group (general)
 #: audex.kcfg:62 widgets/remoteserversettingswidgetUI.ui:23
 #, kde-format
 msgid "Upload files to server"
-msgstr ""
+msgstr "上傳檔案至伺服器"
 
 #. i18n: ectx: label, entry (url), group (general)
 #: audex.kcfg:66
 #, kde-format
 msgid "URL of server"
-msgstr ""
+msgstr "伺服器網址"
 
 #. i18n: ectx: Menu (file)
 #: audexui.rc:6
 #, kde-format
 msgid "&Audex"
-msgstr ""
+msgstr "&Audex"
 
 #. i18n: ectx: Menu (cddb)
 #: audexui.rc:13
 #, kde-format
 msgid "&CDDB"
-msgstr ""
+msgstr "&CDDB"
 
 #. i18n: ectx: Menu (titlecorrectiontools)
 #: audexui.rc:18
 #, kde-format
 msgctxt "@title:menu"
 msgid "Title Correction Tools"
-msgstr ""
+msgstr "標題修正工具"
 
 #. i18n: ectx: Menu (settings)
 #: audexui.rc:25
 #, kde-format
 msgid "&Settings"
-msgstr ""
+msgstr "設定(&S)"
 
 #: core/audex.cpp:112
 #, kde-format
 msgid "No profile selected. Operation abort."
-msgstr ""
+msgstr "未選取設定檔。取消動作。"
 
 #: core/audex.cpp:129
 #, kde-format
 msgid "Start ripping and encoding with profile \"%1\"..."
-msgstr ""
+msgstr "開始擷取並依「%1」設定檔編碼…"
 
 #: core/audex.cpp:533 core/audex.cpp:580
 #, kde-format
 msgid "Can't find path \"%1\"."
-msgstr ""
+msgstr "找不到「%1」路徑。"
 
 #: core/audex.cpp:533 core/audex.cpp:580 core/audex.cpp:589 core/audex.cpp:984
 #, kde-format
 msgid "Please check your path (write access?)"
-msgstr ""
+msgstr "請檢查路徑（寫入權限？）"
 
 #: core/audex.cpp:545
 #, kde-format
 msgid "Free space on \"%1\" is less than 200 MiB."
-msgstr ""
+msgstr "「%1」的剩餘空間少於 200 MiB。"
 
 #: core/audex.cpp:551 core/audex.cpp:608
 #, kde-format
 msgid "Warning! File \"%1\" already exists. Overwriting."
-msgstr ""
+msgstr "警告！「%1」檔案已經存在。覆寫。"
 
 #: core/audex.cpp:553 core/audex.cpp:610 core/audex.cpp:963
 #, kde-format
 msgid "Warning! File \"%1\" already exists. Skipping."
-msgstr ""
+msgstr "警告！「%1」檔案已經存在。略過。"
 
 #: core/audex.cpp:589 core/audex.cpp:984
 #, kde-format
 msgid "Unable to create folder \"%1\"."
-msgstr ""
+msgstr "無法建立「%1」資料夾。"
 
 #: core/audex.cpp:592 core/audex.cpp:987
 #, kde-format
 msgid "Folder \"%1\" successfully created."
-msgstr ""
+msgstr "成功建立「%1」資料夾。"
 
 #: core/audex.cpp:595
 #, kde-format
 msgid "Folder \"%1\" already exists."
-msgstr ""
+msgstr "「%1」資料夾已經存在。"
 
 #: core/audex.cpp:602
 #, kde-format
 msgid "Free space on \"%1\" is less than 800 MiB."
-msgstr ""
+msgstr "「%1」的剩餘空間少於 800 MiB。"
 
 #: core/audex.cpp:626
 #, kde-format
 msgid "Temporary folder \"%1\" error."
-msgstr ""
+msgstr "「%1」暫存資料夾錯誤。"
 
 #: core/audex.cpp:626
 #, kde-format
 msgid "Please check."
-msgstr ""
+msgstr "請檢查。"
 
 #: core/audex.cpp:632
 #, kde-format
 msgid "Free space on temporary folder \"%1\" is less than 800 MiB."
-msgstr ""
+msgstr "「%1」暫存資料夾的剩餘空間少於 800 MiB。"
 
 #: core/audex.cpp:634
 #, kde-format
 msgid "Temporary folder \"%1\" needs at least 200 MiB of free space."
-msgstr ""
+msgstr "「%1」暫存資料夾至少需要剩餘 200 MiB 空間。"
 
 #: core/audex.cpp:634
 #, kde-format
 msgid "Please free space or set another path."
-msgstr ""
+msgstr "請釋放空間或設定其他路徑。"
 
 #: core/audex.cpp:668
 #, kde-format
 msgid "Eject CD tray"
-msgstr ""
+msgstr "退出 CD 匣"
 
 #: core/audex.cpp:710
 #, kde-format
 msgid "Cover \"%1\" successfully saved."
-msgstr ""
+msgstr "成功儲存「%1」專輯封面。"
 
 #: core/audex.cpp:713
 #, kde-format
@@ -514,7 +514,6 @@ msgstr ""
 msgid "Found 1 Cover"
 msgid_plural "Found %1 Covers"
 msgstr[0] ""
-msgstr[1] ""
 
 #: dialogs/coverbrowserdialog.cpp:83
 #, kde-format
@@ -2445,7 +2444,6 @@ msgstr ""
 msgid "1 new profile added"
 msgid_plural "%1 new profiles added"
 msgstr[0] ""
-msgstr[1] ""
 
 #. i18n: ectx: property (text), widget (QPushButton, kpushbutton_add)
 #: widgets/profilewidgetUI.ui:21

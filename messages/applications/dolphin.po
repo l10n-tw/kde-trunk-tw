@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-10 02:33+0100\n"
-"PO-Revision-Date: 2019-11-30 17:46+0800\n"
+"PO-Revision-Date: 2019-12-12 18:57+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.11.80\n"
+"X-Generator: Lokalize 19.11.90\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -154,7 +154,7 @@ msgstr "關閉 %1(&Q)"
 #: dolphinmainwindow.cpp:493
 #, kde-format
 msgid "C&lose Current Tab"
-msgstr "關閉目前的分頁(&L)"
+msgstr "關閉目前分頁(&L)"
 
 #: dolphinmainwindow.cpp:502
 #, kde-format
@@ -499,11 +499,11 @@ msgid ""
 msgstr ""
 
 #: dolphinmainwindow.cpp:1559 dolphinmainwindow.cpp:2319
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show &Terminal Panel"
 msgctxt "@action:inmenu Tools"
 msgid "Focus Terminal Panel"
-msgstr "顯示終端機面板(&T)"
+msgstr "焦點移至終端機面板"
 
 #: dolphinmainwindow.cpp:1567
 #, kde-format
@@ -1009,11 +1009,11 @@ msgid ""
 msgstr ""
 
 #: dolphinmainwindow.cpp:2322 dolphinmainwindow.cpp:2326
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show &Terminal Panel"
 msgctxt "@action:inmenu Tools"
 msgid "Defocus Terminal Panel"
-msgstr "顯示終端機面板(&T)"
+msgstr "焦點移離終端機面板"
 
 #: dolphinpart.cpp:172
 #, kde-format
@@ -2139,8 +2139,7 @@ msgid ""
 msgid_plural ""
 "One or more files on this device are opened in following applications: "
 "<application>%2</application>."
-msgstr[0] ""
-"裝置上的一或多個檔案會在下述應用程式內開啟：<application>%2</application>。"
+msgstr[0] "裝置上的一或多個檔案會在下述應用程式內開啟：<application>%2</application>。"
 
 #: panels/places/placesitemmodel.cpp:481
 #, kde-format
@@ -2243,8 +2242,7 @@ msgstr "隱藏「%1」部份"
 msgid ""
 "Terminal cannot be shown because Konsole is not installed. Please install it "
 "and then reopen the panel."
-msgstr ""
-"因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
+msgstr "因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
 
 #: panels/terminal/terminalpanel.cpp:164
 #, kde-format

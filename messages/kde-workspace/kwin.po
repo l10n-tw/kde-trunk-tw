@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-12 03:32+0100\n"
-"PO-Revision-Date: 2019-12-04 23:14+0800\n"
+"PO-Revision-Date: 2019-12-12 19:05+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -568,42 +568,42 @@ msgid "State"
 msgstr "狀態"
 
 #: debug_console.cpp:493
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Name of a hardware switch"
 #| msgid "Tablet mode"
 msgid "Tablet Tool"
-msgstr "平板模式"
+msgstr "平板工具"
 
 #: debug_console.cpp:494
 #, kde-format
 msgid "EventType"
-msgstr ""
+msgstr "EventType (事件類型)"
 
 #: debug_console.cpp:495 debug_console.cpp:542 debug_console.cpp:554
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "The global mouse pointer position"
 #| msgid "Global Position"
 msgid "Position"
-msgstr "全域位置"
+msgstr "位置"
 
 #: debug_console.cpp:497
 #, kde-format
 msgid "Tilt"
-msgstr ""
+msgstr "Tilt (傾斜)"
 
 #: debug_console.cpp:499
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Allow Rotation"
 msgid "Rotation"
-msgstr "允許旋轉"
+msgstr "旋轉"
 
 #: debug_console.cpp:500
 #, kde-format
 msgid "Pressure"
-msgstr ""
+msgstr "Pressure (壓力)"
 
 #: debug_console.cpp:501
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "A button in a mouse press/release event"
 #| msgid "Button"
 msgid "Buttons"
@@ -618,41 +618,41 @@ msgstr "修飾元"
 #: debug_console.cpp:515
 #, kde-format
 msgid "Tablet Tool Button"
-msgstr ""
+msgstr "平板工具按鈕"
 
 #: debug_console.cpp:516 debug_console.cpp:531
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "All currently pressed buttons in a mouse press/release event"
 #| msgid "Pressed Buttons"
 msgid "Pressed Buttons"
-msgstr "按下的按鈕"
+msgstr "按下按鈕"
 
 #: debug_console.cpp:530
 #, kde-format
 msgid "Tablet Pad Button"
-msgstr ""
+msgstr "平板按鈕"
 
 #: debug_console.cpp:540
-#, kde-format
+#, fuzzy, kde-format
 msgid "Tablet Pad Strip"
-msgstr ""
+msgstr "平板條"
 
 #: debug_console.cpp:541 debug_console.cpp:553
 #, kde-format
 msgid "Number"
-msgstr ""
+msgstr "Number (數字)"
 
 #: debug_console.cpp:543 debug_console.cpp:555
 #, kde-format
 msgid "isFinger"
-msgstr ""
+msgstr "isFinger"
 
 #: debug_console.cpp:552
 #, fuzzy, kde-format
 #| msgctxt "Name of a hardware switch"
 #| msgid "Tablet mode"
 msgid "Tablet Pad Ring"
-msgstr "平板模式"
+msgstr "平板鈴"
 
 #: debug_console.cpp:740
 #, kde-format
@@ -1623,8 +1623,7 @@ msgstr ""
 msgid ""
 "kwin: unable to claim manager selection, another wm running? (try using --"
 "replace)\n"
-msgstr ""
-"kwin：無法宣告管理程式選擇區，是否有其他 wm 在執行？(嘗試使用 --replace)\n"
+msgstr "kwin：無法宣告管理程式選擇區，是否有其他 wm 在執行？(嘗試使用 --replace)\n"
 
 #: main_x11.cpp:243
 #, kde-format
