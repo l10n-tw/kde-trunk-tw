@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pan 93412\n"
-"POT-Creation-Date: 2019-12-12 03:28+0100\n"
+"POT-Creation-Date: 2019-12-13 03:35+0100\n"
 "PO-Revision-Date: 2019-12-05 00:40+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -19,84 +19,84 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.11.90\n"
 
-msgid "Code of Conduct"
-msgstr ""
-
-msgid "News &amp; Press"
-msgstr ""
-
-msgid "Return to kde.org"
-msgstr ""
-
-msgid "Destinations"
-msgstr ""
-
-msgid "Resources"
-msgstr ""
-
-msgid "Visit the KDE MetaStore"
-msgstr ""
-
-msgid "Download KDE Software"
-msgstr ""
-
-msgid "Donate via PayPal"
-msgstr ""
-
-msgid "Why Donate?"
-msgstr ""
-
-msgid "API Documentation"
-msgstr ""
-
-msgid "Announcements"
-msgstr "公告"
-
-msgid "International Websites"
-msgstr ""
-
-msgid "KDE applications"
-msgstr ""
-
-msgid "KDE Timeline"
-msgstr ""
-
-msgid "Donate to KDE"
-msgstr ""
-
-msgid "Development and communication of KDE software"
-msgstr ""
-
-msgid "Screenshots"
-msgstr ""
-
 msgid ""
 "Show your love for KDE! Purchase books, mugs, apparel, and more to support "
 "KDE."
 msgstr ""
 
-msgid "Click here to browse"
+msgid "Why Donate?"
 msgstr ""
-
-msgid "RSS Feed"
-msgstr ""
-
-msgid "Learn More"
-msgstr "了解更多"
 
 msgid "KDE Patrons"
 msgstr ""
 
-msgid "Other ways to donate"
+msgid "Return to kde.org"
 msgstr ""
 
 msgid "Press Contact"
+msgstr ""
+
+msgid "RSS Feed"
 msgstr ""
 
 #, fuzzy
 #| msgid "Release"
 msgid "Releases"
 msgstr "發行版本"
+
+msgid "News &amp; Press"
+msgstr ""
+
+msgid "International Websites"
+msgstr ""
+
+msgid "API Documentation"
+msgstr ""
+
+msgid "Other ways to donate"
+msgstr ""
+
+msgid "Click here to browse"
+msgstr ""
+
+msgid "Learn More"
+msgstr "了解更多"
+
+msgid "Donate via PayPal"
+msgstr ""
+
+msgid "KDE applications"
+msgstr ""
+
+msgid "Development and communication of KDE software"
+msgstr ""
+
+msgid "Resources"
+msgstr ""
+
+msgid "Donate to KDE"
+msgstr ""
+
+msgid "Screenshots"
+msgstr ""
+
+msgid "Announcements"
+msgstr "公告"
+
+msgid "Download KDE Software"
+msgstr ""
+
+msgid "KDE Timeline"
+msgstr ""
+
+msgid "Visit the KDE MetaStore"
+msgstr ""
+
+msgid "Code of Conduct"
+msgstr ""
+
+msgid "Destinations"
+msgstr ""
 
 msgid "Products"
 msgstr ""
@@ -114,25 +114,38 @@ msgid "KDE Announcement | Release Service"
 msgstr ""
 
 #. type: Plain text
-#: content/19.12-rc/_index.md:1 content/2019-12-apps-update/_index.md:1
-#, no-wrap
-msgid "---\n"
+#: content/19.12-rc/_index.md:3
+msgid "title: 19.12 RC Releases"
+msgstr ""
+
+#. type: Plain text
+#: content/19.12-rc/_index.md:5
+msgid ""
+"summary: \"Over 120 individual programs plus dozens of programmer libraries "
+"and feature plugins are released simultaneously as part of KDE's release "
+"service.\""
 msgstr ""
 
 #. type: Plain text
 #: content/19.12-rc/_index.md:7
+msgid "publishDate: 2019-11-29 00:01:00 # don't translate"
+msgstr ""
+
+#. type: Plain text
+#: content/19.12-rc/_index.md:9 content/2019-12-apps-update/_index.md:9
+msgid "layout: page # don't translate"
+msgstr ""
+
+#. type: Plain text
+#: content/19.12-rc/_index.md:11 content/2019-12-apps-update/_index.md:11
 #, no-wrap
 msgid ""
-"title: 19.12 RC Releases\n"
-"publishDate: 2019-11-29 00:01:00\n"
-"layout: page # don't translate\n"
-"summary: \"Over 120 individual programs plus dozens of programmer libraries and feature plugins are released simultaneously as part of KDE's release service.\"\n"
 "type: announcement # don't translate\n"
 "---\n"
 msgstr ""
 
 #. type: Plain text
-#: content/19.12-rc/_index.md:10
+#: content/19.12-rc/_index.md:14
 msgid ""
 "November 29, 2019. Over 120 individual programs plus dozens of programmer "
 "libraries and feature plugins are released simultaneously as part of KDE's "
@@ -140,73 +153,64 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/19.12-rc/_index.md:12
+#: content/19.12-rc/_index.md:16
 msgid ""
 "Today they all get release candidate sources meaning they are feature "
 "complete but need testing for final bugfixes."
 msgstr ""
 
 #. type: Plain text
-#: content/19.12-rc/_index.md:14
+#: content/19.12-rc/_index.md:18
 msgid ""
 "Distro and app store packagers should update their pre-release channels to "
 "check for issues."
 msgstr ""
 
 #. type: Plain text
-#: content/19.12-rc/_index.md:16
+#: content/19.12-rc/_index.md:22
 msgid ""
-"[19.12 release notes](https://community.kde.org/"
-"Releases/19.12_Release_Notes) for information on tarballs and known issues."
+"+ [19.12 release notes](https://community.kde.org/"
+"Releases/19.12_Release_Notes) for information on tarballs and known issues.  "
+"+ [Package download wiki page](https://community.kde.org/"
+"Get_KDE_Software_on_Your_Linux_Distro)  + [19.12 RC source info page]"
+"(https://kde.org/info/applications-19.11.90)"
+msgstr ""
+
+#. type: Title ##
+#: content/19.12-rc/_index.md:23
+#, no-wrap
+msgid "Press Contacts"
 msgstr ""
 
 #. type: Plain text
-#: content/19.12-rc/_index.md:17
-msgid ""
-"[Package download wiki page](https://community.kde.org/"
-"Get_KDE_Software_on_Your_Linux_Distro)"
-msgstr ""
-
-#. type: Plain text
-#: content/19.12-rc/_index.md:18
-msgid "[19.12 RC source info page](https://kde.org/info/applications-19.11.90)"
-msgstr ""
-
-#. type: Plain text
-#: content/19.12-rc/_index.md:20
-msgid "## Press Contacts"
-msgstr ""
-
-#. type: Plain text
-#: content/19.12-rc/_index.md:21
+#: content/19.12-rc/_index.md:25
 msgid ""
 "For more information send us an email: [press@kde.org](mailto:press@kde.org)."
 msgstr ""
 
 #. type: Plain text
+#: content/2019-12-apps-update/_index.md:3
+msgid "title: KDE's December 2019 Apps Update"
+msgstr ""
+
+#. type: Plain text
+#: content/2019-12-apps-update/_index.md:5
+msgid "summary: \"What Happened in KDE's Applications This Month\""
+msgstr ""
+
+#. type: Plain text
 #: content/2019-12-apps-update/_index.md:7
+msgid "publishDate: 2019-12-12 13:01:00 # don't translate"
+msgstr ""
+
+#. type: Title #
+#: content/2019-12-apps-update/_index.md:13
 #, no-wrap
-msgid ""
-"title: KDE's December 2019 Apps Update\n"
-"publishDate: 2019-12-12 00:01:00\n"
-"layout: page # don't translate\n"
-"summary: \"What Happened in KDE's Applications This Month\"\n"
-"type: announcement # don't translate\n"
-"---\n"
+msgid "New versions of KDE applications landing in December"
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:10
-msgid "NOT PUBLISHED YET"
-msgstr ""
-
-#. type: Plain text
-#: content/2019-12-apps-update/_index.md:12
-msgid "# New versions of KDE applications landing in December"
-msgstr ""
-
-#. type: Plain text
-#: content/2019-12-apps-update/_index.md:14
+#: content/2019-12-apps-update/_index.md:16
 msgid ""
 "The release of new versions for KDE applications is part of KDE's continued "
 "effort to bring you a complete and up-to-date catalog of fully-featured, "
@@ -214,7 +218,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:16
+#: content/2019-12-apps-update/_index.md:18
 msgid ""
 "Available now are new versions of KDE's file browser Dolphin; Kdenlive, one "
 "of the most complete open source video editors; the document viewer Okular; "
@@ -226,21 +230,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:18
+#: content/2019-12-apps-update/_index.md:20
 msgid ""
 "We hope you enjoy all the novel features and improvements worked into all of "
 "KDE's apps!"
 msgstr ""
 
-#. type: Plain text
-#: content/2019-12-apps-update/_index.md:20
-msgid ""
-"## [Calligra Plan](https://kde.org/applications/office/org.kde.calligraplan) "
-"Reloaded"
+#. type: Title ##
+#: content/2019-12-apps-update/_index.md:21
+#, no-wrap
+msgid "[Calligra Plan](https://kde.org/applications/office/org.kde.calligraplan) Reloaded"
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:22
+#: content/2019-12-apps-update/_index.md:24
 msgid ""
 "[Calligra Plan](https://kde.org/applications/office/org.kde.calligraplan) is "
 "getting a big release in December. KDE's project planning and management "
@@ -249,14 +252,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:24
-msgid ""
-"{{< img class=\"text-center\" src=\"kplan.png\" link=\"https://dot.kde.org/"
-"sites/dot.kde.org/files/kplan.png\" caption=\"Calligra Plan\" >}}"
+#: content/2019-12-apps-update/_index.md:26
+#, no-wrap
+msgid "{{< img class=\"text-center\" src=\"kplan.png\" link=\"https://dot.kde.org/sites/dot.kde.org/files/kplan.png\" caption=\"Calligra Plan\" >}}\n"
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:26
+#: content/2019-12-apps-update/_index.md:28
 msgid ""
 "Plan helps you manage small and large projects with multiple resources. In "
 "order for you to model your project, Plan offers different types of task "
@@ -266,7 +268,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:28
+#: content/2019-12-apps-update/_index.md:30
 msgid ""
 "One of Plan's strengths is its excellent support for Gantt charts. Gantt "
 "charts are charts made up of horizontal bars that provide a graphical "
@@ -275,13 +277,14 @@ msgid ""
 "your project's workflow."
 msgstr ""
 
-#. type: Plain text
-#: content/2019-12-apps-update/_index.md:30
-msgid "## Pump up the Volume on [Kdenlive](https://kdenlive.org)"
+#. type: Title ##
+#: content/2019-12-apps-update/_index.md:31
+#, no-wrap
+msgid "Pump up the Volume on [Kdenlive](https://kdenlive.org)"
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:32
+#: content/2019-12-apps-update/_index.md:34
 msgid ""
 "Developers of [Kdenlive](https://kdenlive.org) have been adding new features "
 "and squashing bugs at breakneck speed. This version alone comes with more "
@@ -289,7 +292,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:34
+#: content/2019-12-apps-update/_index.md:36
 msgid ""
 "A lot of work has gone into improving support for audio. In the \"bug solved"
 "\" department they have gotten rid of a huge memory consumption issue, "
@@ -297,7 +300,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:36
+#: content/2019-12-apps-update/_index.md:38
 msgid ""
 "But even more exciting is that Kdenlive now comes with a spectacular new "
 "sound mixer (see image). Developers have also added a new audio clip display "
@@ -306,29 +309,27 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:38
-msgid ""
-"{{< img class=\"text-center\" src=\"Kdenlive1912BETA.png\" link=\"https://"
-"kdenlive.org/wp-content/uploads/2019/11/Kdenlive1912BETA.png\" caption="
-"\"Kdenlive's audio mixer\" >}}"
+#: content/2019-12-apps-update/_index.md:40
+#, no-wrap
+msgid "{{< img class=\"text-center\" src=\"Kdenlive1912BETA.png\" link=\"https://kdenlive.org/wp-content/uploads/2019/11/Kdenlive1912BETA.png\" caption=\"Kdenlive's audio mixer\" >}}\n"
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:40
+#: content/2019-12-apps-update/_index.md:42
 msgid ""
 "In the \"resolving paper-cuts\" department, Kdenlive has acquired many "
 "performance and usability improvements, and developers have fixed many bugs "
 "in the Windows version of the video editor."
 msgstr ""
 
-#. type: Plain text
-#: content/2019-12-apps-update/_index.md:42
-msgid ""
-"## [Dolphin](https://userbase.kde.org/Dolphin)'s Previews and Navigation"
+#. type: Title ##
+#: content/2019-12-apps-update/_index.md:43
+#, no-wrap
+msgid "[Dolphin](https://userbase.kde.org/Dolphin)'s Previews and Navigation"
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:44
+#: content/2019-12-apps-update/_index.md:46
 msgid ""
 "KDE's powerful file browser [Dolphin](https://userbase.kde.org/Dolphin) adds "
 "new features to help you find and reach what you are looking for in your "
@@ -340,7 +341,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:46
+#: content/2019-12-apps-update/_index.md:48
 msgid ""
 "One of the main concerns of Dolphin's developers is to allow users to "
 "preview the contents of files before they open them. For example, in the new "
@@ -350,38 +351,32 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:48
-msgid ""
-"If you are a fan of graphic novels, Dolphin can now display thumbnails for ."
-"cb7 comic books (check out the support for this comic book format also in "
-"Okular -- see below). And, talking about thumbnails, zooming in on "
-"thumbnails has been a thing in Dolphin for a long time now: hold down "
-"<kbd>Ctrl</kbd>, spin the wheel and the thumbnail will grow or shrink. A new "
-"functionality is that now you can reset the zoom to the default level by "
-"hitting <kbd>Ctrl</kbd> + <kbd>0</kbd>."
+#: content/2019-12-apps-update/_index.md:50
+#, no-wrap
+msgid "If you are a fan of graphic novels, Dolphin can now display thumbnails for .cb7 comic books (check out the support for this comic book format also in Okular -- see below). And, talking about thumbnails, zooming in on thumbnails has been a thing in Dolphin for a long time now: hold down <kbd>Ctrl</kbd>, spin the wheel and the thumbnail will grow or shrink. A new functionality is that now you can reset the zoom to the default level by hitting <kbd>Ctrl</kbd> + <kbd>0</kbd>.\n"
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:50
+#: content/2019-12-apps-update/_index.md:52
 msgid ""
 "Another useful feature is that Dolphin shows you which programs are "
 "preventing a device from being unmounted."
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:52
-msgid "{{<img src=\"dolphin.png\" style=\"max-width: 500px\" >}}"
-msgstr ""
-
-#. type: Plain text
 #: content/2019-12-apps-update/_index.md:54
-msgid ""
-"## [KDE Connect](https://community.kde.org/KDEConnect): Let your Phone "
-"Control your Desktop"
+#, no-wrap
+msgid "{{<img src=\"dolphin.png\" style=\"max-width: 500px\" >}}\n"
+msgstr ""
+
+#. type: Title ##
+#: content/2019-12-apps-update/_index.md:55
+#, no-wrap
+msgid "[KDE Connect](https://community.kde.org/KDEConnect): Let your Phone Control your Desktop"
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:56
+#: content/2019-12-apps-update/_index.md:58
 msgid ""
 "The latest version of [KDE Connect](https://community.kde.org/KDEConnect) "
 "comes stuffed with new features. One of the most noticeable is that there is "
@@ -390,7 +385,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:58
+#: content/2019-12-apps-update/_index.md:60
 msgid ""
 "A new [Kirigami](https://kde.org/products/kirigami/)-based user interface "
 "means you can run KDE Connect not only on Android, but also on all those "
@@ -401,14 +396,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:60
-msgid ""
-"{{<img src=\"kdeconnect2.png\" style=\"max-width: 600px\" caption=\"The new "
-"interface on desktop\" >}}"
+#: content/2019-12-apps-update/_index.md:62
+#, no-wrap
+msgid "{{<img src=\"kdeconnect2.png\" style=\"max-width: 600px\" caption=\"The new interface on desktop\" >}}\n"
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:62
+#: content/2019-12-apps-update/_index.md:64
 msgid ""
 "You could already use KDE Connect to control the volume of media playing on "
 "your desktop, but now you can use it to also control your system's global "
@@ -418,12 +412,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:64
-msgid "{{<img src=\"kdeconnect1.png\" style=\"max-width: 400px\" >}}"
+#: content/2019-12-apps-update/_index.md:66
+#, no-wrap
+msgid "{{<img src=\"kdeconnect1.png\" style=\"max-width: 400px\" >}}\n"
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:66
+#: content/2019-12-apps-update/_index.md:68
 msgid ""
 "Another feature that has been around for while is how you can use KDE "
 "Connect to send a file to your phone, but what's new in this version is that "
@@ -433,7 +428,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:68
+#: content/2019-12-apps-update/_index.md:70
 msgid ""
 "In a related note, you can now also send files from Thunar (Xfce's file "
 "manager) and Elementary applications such as Pantheon Files. Displaying "
@@ -442,7 +437,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:70
+#: content/2019-12-apps-update/_index.md:72
 msgid ""
 "When it comes to notifications, you can now trigger actions from Android "
 "notifications from the desktop and KDE Connect uses advanced features from "
@@ -451,19 +446,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:72
+#: content/2019-12-apps-update/_index.md:74
 msgid ""
 "Finally, if you are using KDE Connect from the command line, *kdeconnect-"
 "cli* now features improved *zsh* autocompletion."
 msgstr ""
 
-#. type: Plain text
-#: content/2019-12-apps-update/_index.md:74
-msgid "## Remote Images [Gwenview](https://userbase.kde.org/Gwenview)"
+#. type: Title ##
+#: content/2019-12-apps-update/_index.md:75
+#, no-wrap
+msgid "Remote Images [Gwenview](https://userbase.kde.org/Gwenview)"
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:76
+#: content/2019-12-apps-update/_index.md:78
 msgid ""
 "[Gwenview](https://userbase.kde.org/Gwenview) now lets you adjust the JPEG "
 "compression level when you save images you have edited. Developers have also "
@@ -471,14 +467,14 @@ msgid ""
 "photos both to or from remote locations."
 msgstr ""
 
-#. type: Plain text
-#: content/2019-12-apps-update/_index.md:78
-msgid ""
-"## [Okular](https://kde.org/applications/office/org.kde.okular) Gets Touchy"
+#. type: Title ##
+#: content/2019-12-apps-update/_index.md:79
+#, no-wrap
+msgid "[Okular](https://kde.org/applications/office/org.kde.okular) support .cb7 support"
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:80
+#: content/2019-12-apps-update/_index.md:82
 msgid ""
 "[Okular](https://kde.org/applications/office/org.kde.okular), the document "
 "viewer that lets you read, annotate and verify all sorts of documents, "
@@ -486,29 +482,14 @@ msgid ""
 "comic book format."
 msgstr ""
 
-#. type: Plain text
-#: content/2019-12-apps-update/_index.md:82
-msgid ""
-"In other news, Okular gets a boost for touchscreens, as the new inertial "
-"scrolling massively improves the tactile experience. With regard to "
-"annotations, the times at which you make them are now correctly changed to "
-"the local time zone instead of always being in GMT."
-msgstr ""
-
-#. type: Plain text
-#: content/2019-12-apps-update/_index.md:84
-msgid "{{<video src=\"okular.webm\" style=\"max-width: 600px\" >}}"
+#. type: Title ##
+#: content/2019-12-apps-update/_index.md:83
+#, no-wrap
+msgid "[Elisa](https://kde.org/applications/multimedia/org.kde.elisa): Simple but Complete Music Player"
 msgstr ""
 
 #. type: Plain text
 #: content/2019-12-apps-update/_index.md:86
-msgid ""
-"## [Elisa](https://kde.org/applications/multimedia/org.kde.elisa): Simple "
-"but Complete Music Player"
-msgstr ""
-
-#. type: Plain text
-#: content/2019-12-apps-update/_index.md:88
 msgid ""
 "[Elisa](https://kde.org/applications/multimedia/org.kde.elisa) is a KDE "
 "music player that combines simplicity with an elegant and modern interface. "
@@ -518,26 +499,26 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:90
+#: content/2019-12-apps-update/_index.md:88
 msgid ""
 "Indexing music files has also improved and Elisa now supports web radios and "
 "ships with a few examples for you to try."
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:92
-msgid "{{< img src=\"elisa.png\" caption=\"Elisa updated interface\" >}}"
+#: content/2019-12-apps-update/_index.md:90
+#, no-wrap
+msgid "{{< img src=\"elisa.png\" caption=\"Elisa updated interface\" >}}\n"
+msgstr ""
+
+#. type: Title ##
+#: content/2019-12-apps-update/_index.md:91
+#, no-wrap
+msgid "[Spectacle](https://kde.org/applications/utilities/org.kde.spectacle) is Touchscreen-Ready"
 msgstr ""
 
 #. type: Plain text
 #: content/2019-12-apps-update/_index.md:94
-msgid ""
-"## [Spectacle](https://kde.org/applications/utilities/org.kde.spectacle) is "
-"Touchscreen-Ready"
-msgstr ""
-
-#. type: Plain text
-#: content/2019-12-apps-update/_index.md:96
 msgid ""
 "[Spectacle](https://kde.org/applications/utilities/org.kde.spectacle), KDE's "
 "default screen-grabbing program, is another KDE application that has evolved "
@@ -547,7 +528,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:98
+#: content/2019-12-apps-update/_index.md:96
 msgid ""
 "Other improvements are the new autosave function, which comes in handy for "
 "rapidly taking multiple screenshots, and the animated progress bars, which "
@@ -555,21 +536,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:100
-msgid ""
-"{{<img style=\"max-width:500px\" src=\"spectacle.png\" caption=\"Spectacle "
-"new drag handler\" >}}"
+#: content/2019-12-apps-update/_index.md:98
+#, no-wrap
+msgid "{{<img style=\"max-width:500px\" src=\"spectacle.png\" caption=\"Spectacle new drag handler\" >}}\n"
+msgstr ""
+
+#. type: Title ##
+#: content/2019-12-apps-update/_index.md:99
+#, no-wrap
+msgid "[Plasma Browser Integration](https://community.kde.org/Plasma/Browser_Integration) Improvements"
 msgstr ""
 
 #. type: Plain text
 #: content/2019-12-apps-update/_index.md:102
-msgid ""
-"## [Plasma Browser Integration](https://community.kde.org/Plasma/"
-"Browser_Integration) Improvements"
-msgstr ""
-
-#. type: Plain text
-#: content/2019-12-apps-update/_index.md:104
 msgid ""
 "The new release of [Plasma Browser Integration](https://community.kde.org/"
 "Plasma/Browser_Integration) now features a blacklist for the media controls "
@@ -580,7 +559,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:106
+#: content/2019-12-apps-update/_index.md:104
 msgid ""
 "The new version also lets you keep the origin URL in file metadata and adds "
 "support for the Web Share API. The Web Share API lets browsers share links, "
@@ -590,19 +569,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:108
-msgid ""
-"{{<learn-more href=\"https://blog.broulik.de/2019/11/plasma-browser-"
-"integration-1-7/\" >}}"
+#: content/2019-12-apps-update/_index.md:106
+#, no-wrap
+msgid "{{<learn-more href=\"https://blog.broulik.de/2019/11/plasma-browser-integration-1-7/\" >}}\n"
+msgstr ""
+
+#. type: Title ##
+#: content/2019-12-apps-update/_index.md:107
+#, no-wrap
+msgid "Microsoft Store"
 msgstr ""
 
 #. type: Plain text
 #: content/2019-12-apps-update/_index.md:110
-msgid "## Microsoft Store"
-msgstr ""
-
-#. type: Plain text
-#: content/2019-12-apps-update/_index.md:112
 msgid ""
 "Quite a few of KDE applications can be downloaded from the Microsoft Store. "
 "Krita and Okular have been there for a while, and they are joined now by "
@@ -611,19 +590,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:114
-msgid ""
-"{{<microsoft-store href=\"https://www.microsoft.com/store/"
-"apps/9pmbng78pfk3\" >}}"
+#: content/2019-12-apps-update/_index.md:112
+#, no-wrap
+msgid "{{<microsoft-store href=\"https://www.microsoft.com/store/apps/9pmbng78pfk3\" >}}\n"
+msgstr ""
+
+#. type: Title ##
+#: content/2019-12-apps-update/_index.md:113
+#, no-wrap
+msgid "New"
 msgstr ""
 
 #. type: Plain text
 #: content/2019-12-apps-update/_index.md:116
-msgid "## New"
-msgstr ""
-
-#. type: Plain text
-#: content/2019-12-apps-update/_index.md:118
 msgid ""
 "Which brings us to new arrivals: [SubtitleComposer](https://invent.kde.org/"
 "kde/subtitlecomposer), an application that lets you easily create subtitles "
@@ -632,22 +611,22 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:120
+#: content/2019-12-apps-update/_index.md:118
 msgid ""
 "Meanwhile, [plasma-nano](https://invent.kde.org/kde/plasma-nano), a minimal "
 "version of Plasma designed for embedded devices was moved into the Plasma "
 "repos ready for release with 5.18."
 msgstr ""
 
-#. type: Plain text
-#: content/2019-12-apps-update/_index.md:122
-#, fuzzy
+#. type: Title ##
+#: content/2019-12-apps-update/_index.md:119
+#, fuzzy, no-wrap
 #| msgid "Release"
-msgid "## Release 19.12"
+msgid "Release 19.12"
 msgstr "發行版本"
 
 #. type: Plain text
-#: content/2019-12-apps-update/_index.md:123
+#: content/2019-12-apps-update/_index.md:121
 msgid ""
 "Some of our projects release on their own timescale and some get released en-"
 "masse. The 19.12 bundle of projects was released today and should be "

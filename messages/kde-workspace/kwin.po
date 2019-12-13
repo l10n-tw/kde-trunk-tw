@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-12 03:32+0100\n"
+"POT-Creation-Date: 2019-12-13 03:38+0100\n"
 "PO-Revision-Date: 2019-12-12 19:05+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -569,8 +569,6 @@ msgstr "狀態"
 
 #: debug_console.cpp:493
 #, kde-format
-#| msgctxt "Name of a hardware switch"
-#| msgid "Tablet mode"
 msgid "Tablet Tool"
 msgstr "平板工具"
 
@@ -581,8 +579,6 @@ msgstr "EventType (事件類型)"
 
 #: debug_console.cpp:495 debug_console.cpp:542 debug_console.cpp:554
 #, kde-format
-#| msgctxt "The global mouse pointer position"
-#| msgid "Global Position"
 msgid "Position"
 msgstr "位置"
 
@@ -593,7 +589,6 @@ msgstr "Tilt (傾斜)"
 
 #: debug_console.cpp:499
 #, kde-format
-#| msgid "Allow Rotation"
 msgid "Rotation"
 msgstr "旋轉"
 
@@ -604,8 +599,6 @@ msgstr "Pressure (壓力)"
 
 #: debug_console.cpp:501
 #, kde-format
-#| msgctxt "A button in a mouse press/release event"
-#| msgid "Button"
 msgid "Buttons"
 msgstr "按鈕"
 
@@ -622,8 +615,6 @@ msgstr "平板工具按鈕"
 
 #: debug_console.cpp:516 debug_console.cpp:531
 #, kde-format
-#| msgctxt "All currently pressed buttons in a mouse press/release event"
-#| msgid "Pressed Buttons"
 msgid "Pressed Buttons"
 msgstr "按下按鈕"
 
@@ -1433,67 +1424,67 @@ msgstr "暫停混合"
 msgid "Invert Screen Colors"
 msgstr "反轉螢幕顏色"
 
-#: main.cpp:187 main.cpp:217
+#: main.cpp:194 main.cpp:224
 #, kde-format
 msgid "KDE window manager"
 msgstr "KDE 視窗管理程式"
 
-#: main.cpp:192
+#: main.cpp:199
 #, kde-format
 msgid "KWin"
 msgstr "KWin"
 
-#: main.cpp:196
+#: main.cpp:203
 #, kde-format
 msgid "(c) 1999-2019, The KDE Developers"
 msgstr "(c) 1999-2019, KDE 開發團隊"
 
-#: main.cpp:198
+#: main.cpp:205
 #, kde-format
 msgid "Matthias Ettrich"
 msgstr "Matthias Ettrich"
 
-#: main.cpp:199
+#: main.cpp:206
 #, kde-format
 msgid "Cristian Tibirna"
 msgstr "Cristian Tibirna"
 
-#: main.cpp:200
+#: main.cpp:207
 #, kde-format
 msgid "Daniel M. Duley"
 msgstr "Daniel M. Duley"
 
-#: main.cpp:201
+#: main.cpp:208
 #, kde-format
 msgid "Luboš Luňák"
 msgstr "Luboš Luňák"
 
-#: main.cpp:202
+#: main.cpp:209
 #, kde-format
 msgid "Martin Flöser"
 msgstr "Martin Flöser"
 
-#: main.cpp:203
+#: main.cpp:210
 #, kde-format
 msgid "David Edmundson"
 msgstr "David Edmundson"
 
-#: main.cpp:204
+#: main.cpp:211
 #, kde-format
 msgid "Roman Gilg"
 msgstr "Roman Gilg"
 
-#: main.cpp:205
+#: main.cpp:212
 #, kde-format
 msgid "Vlad Zahorodnii"
 msgstr "Vlad Zahorodnii"
 
-#: main.cpp:214
+#: main.cpp:221
 #, kde-format
 msgid "Disable configuration options"
 msgstr "取消設定選項"
 
-#: main.cpp:215
+#: main.cpp:222
 #, kde-format
 msgid "Indicate that KWin has recently crashed n times"
 msgstr "指出 KWin 最近已經連續當掉數次"
@@ -1623,7 +1614,8 @@ msgstr ""
 msgid ""
 "kwin: unable to claim manager selection, another wm running? (try using --"
 "replace)\n"
-msgstr "kwin：無法宣告管理程式選擇區，是否有其他 wm 在執行？(嘗試使用 --replace)\n"
+msgstr ""
+"kwin：無法宣告管理程式選擇區，是否有其他 wm 在執行？(嘗試使用 --replace)\n"
 
 #: main_x11.cpp:243
 #, kde-format

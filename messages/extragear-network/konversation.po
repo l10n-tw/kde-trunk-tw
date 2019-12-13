@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konversation\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-29 02:47+0100\n"
+"POT-Creation-Date: 2019-12-13 02:50+0100\n"
 "PO-Revision-Date: 2019-11-03 14:10+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -8067,9 +8067,10 @@ msgid "Reset the current font size to settings values"
 msgstr "重置目前的字型大小為設定的值"
 
 #: src/mainwindow.cpp:427
-#, kde-format
-msgid "Decrease Font Size"
-msgstr "減小字型大小"
+#, fuzzy, kde-format
+#| msgid "Enlarge Font Size"
+msgid "Shrink Font Size"
+msgstr "增大字型大小"
 
 #: src/mainwindow.cpp:431
 #, kde-format
@@ -9858,6 +9859,9 @@ msgstr "頻道清單警告"
 #, kde-format
 msgid "Watched Nicks"
 msgstr "被監視的暱稱"
+
+#~ msgid "Decrease Font Size"
+#~ msgstr "減小字型大小"
 
 #~ msgid "Enable emoticons"
 #~ msgstr "啟用表情"

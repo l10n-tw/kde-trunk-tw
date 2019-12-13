@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-30 03:24+0100\n"
+"POT-Creation-Date: 2019-12-13 03:24+0100\n"
 "PO-Revision-Date: 2019-03-22 00:34+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -1477,22 +1477,22 @@ msgid "Open Link in External &Browser"
 msgstr "在外部瀏覽器中開啟連結(&B)"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::AddFeedWidgetBase)
-#: src/addfeeddialog.cpp:69 src/ui/addfeedwidgetbase.ui:14
+#: src/addfeeddialog.cpp:68 src/ui/addfeedwidgetbase.ui:14
 #, kde-format
 msgid "Add Feed"
 msgstr "新增 feed"
 
-#: src/addfeeddialog.cpp:121
+#: src/addfeeddialog.cpp:120
 #, kde-format
 msgid "Downloading %1"
 msgstr "下載 %1 中"
 
-#: src/addfeeddialog.cpp:137
+#: src/addfeeddialog.cpp:136
 #, kde-format
 msgid "Feed not found from %1."
 msgstr "從 %1 找不到 feed。"
 
-#: src/addfeeddialog.cpp:143
+#: src/addfeeddialog.cpp:142
 #, kde-format
 msgid "Feed found, downloading..."
 msgstr "找到 feed。下載中..."
@@ -2198,88 +2198,88 @@ msgstr "找不到節點或目標資料夾"
 msgid "Cannot move folder %1 to its own subfolder %2"
 msgstr "無法移動資料夾 %1 到它自己的子資料夾 %2"
 
-#: src/subscription/subscriptionlistmodel.cpp:60
+#: src/subscription/subscriptionlistmodel.cpp:61
 #, kde-format
 msgid "Timeout on remote server"
 msgstr "遠端伺服器逾時"
 
-#: src/subscription/subscriptionlistmodel.cpp:62
+#: src/subscription/subscriptionlistmodel.cpp:63
 #, kde-format
 msgid "Unknown host"
 msgstr "未知的主機"
 
-#: src/subscription/subscriptionlistmodel.cpp:64
+#: src/subscription/subscriptionlistmodel.cpp:65
 #, kde-format
 msgid "Feed file not found on remote server"
 msgstr "遠端伺服器找不到 Feed 檔"
 
-#: src/subscription/subscriptionlistmodel.cpp:66
+#: src/subscription/subscriptionlistmodel.cpp:67
 #, kde-format
 msgid "Could not read feed (invalid XML)"
 msgstr "無法讀取 feed（不合法的 XML）"
 
-#: src/subscription/subscriptionlistmodel.cpp:68
+#: src/subscription/subscriptionlistmodel.cpp:69
 #, kde-format
 msgid "Could not read feed (unknown format)"
 msgstr "無法讀取 feed（未知的格式）"
 
-#: src/subscription/subscriptionlistmodel.cpp:70
+#: src/subscription/subscriptionlistmodel.cpp:71
 #, kde-format
 msgid "Could not read feed (invalid feed)"
 msgstr "無法讀取 feed（不合法的 feed）"
 
-#: src/subscription/subscriptionlistmodel.cpp:243
+#: src/subscription/subscriptionlistmodel.cpp:244
 #, kde-format
 msgid "Could not fetch feed: %1"
 msgstr "無法抓取 feed：%1"
 
-#: src/subscription/subscriptionlistmodel.cpp:292
+#: src/subscription/subscriptionlistmodel.cpp:294
 #, kde-format
 msgctxt "Feedlist's column header"
 msgid "Feeds"
 msgstr "Feeds"
 
-#: src/subscription/subscriptionlistmodel.cpp:294
+#: src/subscription/subscriptionlistmodel.cpp:296
 #, kde-format
 msgctxt "Feedlist's column header"
 msgid "Unread"
 msgstr "未讀"
 
-#: src/subscription/subscriptionlistmodel.cpp:296
+#: src/subscription/subscriptionlistmodel.cpp:298
 #, kde-format
 msgctxt "Feedlist's column header"
 msgid "Total"
 msgstr "總計"
 
-#: src/tabwidget.cpp:117
+#: src/tabwidget.cpp:116
 #, kde-format
 msgid "Close the current tab"
 msgstr "關閉目前的分頁"
 
-#: src/tabwidget.cpp:120
+#: src/tabwidget.cpp:119
 #, kde-format
 msgid "Close tab"
 msgstr "關閉分頁"
 
-#: src/tabwidget.cpp:146
+#: src/tabwidget.cpp:145
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Detach Tab"
 msgstr "分離分頁"
 
-#: src/tabwidget.cpp:151
+#: src/tabwidget.cpp:150
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "關閉分頁"
 
-#: src/tabwidget.cpp:155
+#: src/tabwidget.cpp:154
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close All Other Tabs"
 msgstr "關閉其他的分頁"
 
-#: src/tabwidget.cpp:159
+#: src/tabwidget.cpp:158
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close All Tabs"

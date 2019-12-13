@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktimetracker\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-08 02:41+0100\n"
+"POT-Creation-Date: 2019-12-13 02:52+0100\n"
 "PO-Revision-Date: 2019-06-25 16:18+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -620,14 +620,14 @@ msgctxt "@title:column"
 msgid "Percent Complete"
 msgstr "完成百分比"
 
-#: model/tasksmodel.cpp:189 model/tasksmodel.cpp:266
+#: model/tasksmodel.cpp:189 model/tasksmodel.cpp:278
 #, fuzzy, kde-format
 #| msgid "The task name is what you call the task, it can be chosen freely."
 msgctxt "@info:whatsthis"
 msgid "The task name is what you call the task, it can be chosen freely."
 msgstr "工作名稱就是您給這工作取的名字。它可以自由輸入。"
 
-#: model/tasksmodel.cpp:191 model/tasksmodel.cpp:268
+#: model/tasksmodel.cpp:191 model/tasksmodel.cpp:280
 #, fuzzy, kde-format
 #| msgid ""
 #| "The session time is the time since you last chose \"start new session.\""
@@ -636,7 +636,7 @@ msgid ""
 "The session time is the time since you last chose \"Start New Session\"."
 msgstr "工作階段時間就是您上次選擇「開始新工作階段」到現在的時間。"
 
-#: model/tasksmodel.cpp:270
+#: model/tasksmodel.cpp:282
 #, fuzzy, kde-format
 #| msgid ""
 #| "The total session time is the session time of this task and all its "
@@ -646,7 +646,7 @@ msgid ""
 "The total session time is the session time of this task and all its subtasks."
 msgstr "工作階段時間總計就是此工作與它所有子工作的工作階段時間。"
 
-#: model/tasksmodel.cpp:272
+#: model/tasksmodel.cpp:284
 #, fuzzy, kde-format
 #| msgid "The total time is the time of this task and all its subtasks."
 msgctxt "@info:whatsthis"
@@ -785,7 +785,7 @@ msgstr "完成百分比"
 msgid "Save tasks every:"
 msgstr "儲存工作間隔："
 
-#: taskview.cpp:118
+#: taskview.cpp:119
 #, kde-format
 msgid ""
 "Error storing new task. Your changes were not saved. Make sure you can edit "
@@ -796,7 +796,7 @@ msgstr ""
 "也請將所有使用這個檔案的應用程式關閉，並從 ~/.kde/share/apps/kabc/lock 目錄中"
 "將跟這個名字有關的鎖定檔移除。"
 
-#: taskview.cpp:210
+#: taskview.cpp:213
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your virtual desktop number is too high, desktop tracking will not work"
@@ -804,24 +804,24 @@ msgid ""
 "Your virtual desktop number is too high, desktop tracking will not work."
 msgstr "您的虛擬桌面編號太大，桌面追蹤將無法運作。"
 
-#: taskview.cpp:356
+#: taskview.cpp:289
 #, fuzzy, kde-format
 #| msgid "Stopping timers..."
 msgctxt "@info:progress"
 msgid "Stopping timers..."
 msgstr "停止計時器…"
 
-#: taskview.cpp:356
+#: taskview.cpp:289
 #, kde-format
 msgid "Cancel"
 msgstr "取消"
 
-#: taskview.cpp:432 taskview.cpp:511
+#: taskview.cpp:357 taskview.cpp:436
 #, kde-format
 msgid "Unnamed Task"
 msgstr "未命名工作"
 
-#: taskview.cpp:451
+#: taskview.cpp:376
 #, kde-format
 msgid ""
 "Error storing new task. Your changes were not saved. Make sure you can edit "
@@ -832,26 +832,26 @@ msgstr ""
 "也請將所有使用這個檔案的應用程式關閉，並從 ~/.kde/share/apps/kabc/lock 目錄中"
 "將跟這個名字有關的鎖定檔移除。"
 
-#: taskview.cpp:490
+#: taskview.cpp:415
 #, fuzzy, kde-format
 #| msgid "New Sub Task"
 msgctxt "@title:window"
 msgid "New Sub Task"
 msgstr "新增子工作"
 
-#: taskview.cpp:508
+#: taskview.cpp:433
 #, fuzzy, kde-format
 #| msgid "Edit Task"
 msgctxt "@title:window"
 msgid "Edit Task"
 msgstr "編輯工作"
 
-#: taskview.cpp:546 taskview.cpp:586 taskview.cpp:605
+#: taskview.cpp:465 taskview.cpp:506 taskview.cpp:525
 #, kde-format
 msgid "No task selected."
 msgstr "沒有選擇工作。"
 
-#: taskview.cpp:591
+#: taskview.cpp:511
 #, fuzzy, kde-format
 #| msgid ""
 #| "Are you sure you want to delete the selected task and its entire "
@@ -864,25 +864,25 @@ msgstr ""
 "您確定要刪除選取的工作及它所有的歷史紀錄嗎？\n"
 "注意：所有相關子工作及歷史紀錄都會被刪除。"
 
-#: taskview.cpp:593
+#: taskview.cpp:513
 #, fuzzy, kde-format
 #| msgid "Deleting Task"
 msgctxt "@title:window"
 msgid "Deleting Task"
 msgstr "刪除工作中"
 
-#: timetrackerstorage.cpp:146
+#: timetrackerstorage.cpp:145
 #, kde-format
 msgid "Error loading \"%1\": could not find parent (uid=%2)"
 msgstr "載入 %1 時發生錯誤：無法找到 parent uid=%2"
 
-#: timetrackerstorage.cpp:232
+#: timetrackerstorage.cpp:230
 #, kde-format
 msgctxt "%1=lock file path"
 msgid "Could not write lock file \"%1\". Disk full?"
 msgstr "無法寫入「%1」鎖定檔。磁碟滿了嗎？"
 
-#: timetrackerstorage.cpp:239
+#: timetrackerstorage.cpp:237
 #, kde-format
 msgctxt "%1=destination file path/URL"
 msgid "Failed to save iCalendar file as \"%1\"."
@@ -1338,7 +1338,7 @@ msgstr "不正確的工作期間─應該大於零。"
 msgid "Invalid error number: %1"
 msgstr "不合法的錯誤編號：%1"
 
-#: timetrackerwidget.cpp:981
+#: timetrackerwidget.cpp:979
 #, fuzzy, kde-format
 #| msgid ""
 #| "This is ktimetracker, KDE's program to help you track your time. Best, "
@@ -1353,7 +1353,7 @@ msgstr ""
 "這是 ktimetracker，一個協助您追蹤您的時間的 KDE 程式。您可以在「搜尋或新增工"
 "作」處開始建立您的第一個工作。"
 
-#: timetrackerwidget.cpp:987
+#: timetrackerwidget.cpp:985
 #, fuzzy, kde-format
 #| msgid "You have already created a task. You can now start and stop timing"
 msgctxt "@info:whatsthis"

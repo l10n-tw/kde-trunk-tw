@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-03 03:10+0100\n"
+"POT-Creation-Date: 2019-12-13 03:26+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -162,7 +162,7 @@ msgctxt "@title:window"
 msgid "Add User-ID Succeeded"
 msgstr "新增使用者代碼成功"
 
-#: src/commands/certifycertificatecommand.cpp:208
+#: src/commands/certifycertificatecommand.cpp:216
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -177,15 +177,43 @@ msgstr ""
 "要確認其他憑證，您必須先建立一個自己的 OpenPGP 憑證。選擇 <interface>「檔案」"
 "─「新增憑證...」</interface>可以建立憑證。"
 
-#: src/commands/certifycertificatecommand.cpp:210
+#: src/commands/certifycertificatecommand.cpp:218
 #, kde-format
 msgid "Do you wish to create one now?"
 msgstr ""
 
-#: src/commands/certifycertificatecommand.cpp:211
+#: src/commands/certifycertificatecommand.cpp:219
 #, kde-format
 msgid "Certification Not Possible"
 msgstr "無法確認憑證"
+
+#: src/commands/certifycertificatecommand.cpp:284
+#, fuzzy, kde-format
+#| msgid "Certification successful."
+msgid "Certification successfully."
+msgstr "憑證已成功確認。"
+
+#: src/commands/certifycertificatecommand.cpp:285
+#, fuzzy, kde-format
+#| msgid "Certification canceled."
+msgid "Certification Succeeded"
+msgstr "確認已取消。"
+
+#: src/commands/certifycertificatecommand.cpp:287
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>An error occurred while trying to change the expiry date for <b>%1</b>:"
+#| "</p><p>%2</p>"
+msgid ""
+"<p>An error occurred while trying to certify<br/><br/><b>%1</b>:</p><p>\t%2</"
+"p>"
+msgstr "<p>試著改變 <b>%1</b> 的到期日時發生錯誤：</p> <p>%2</p>"
+
+#: src/commands/certifycertificatecommand.cpp:291
+#, fuzzy, kde-format
+#| msgid "Certification"
+msgid "Certification Error"
+msgstr "憑證"
 
 #: src/commands/changeexpirycommand.cpp:249
 #, kde-format
@@ -1325,7 +1353,7 @@ msgstr "簽名檔"
 
 #. i18n: ectx: property (text), widget (QCheckBox, encryptionCB)
 #: src/commands/keytocardcommand.cpp:106
-#: src/dialogs/certificatedetailswidget.cpp:388
+#: src/dialogs/certificatedetailswidget.cpp:412
 #: src/newcertificatewizard/advancedsettingsdialog.ui:216
 #, kde-format
 msgid "Encryption"
@@ -2415,7 +2443,7 @@ msgstr ""
 "不能混著給。"
 
 #: src/crypto/createchecksumscontroller.cpp:349
-#: src/dialogs/updatenotification.cpp:94 src/mainwindow.cpp:646
+#: src/dialogs/updatenotification.cpp:94 src/mainwindow.cpp:660
 #, kde-format
 msgid "Cancel"
 msgstr "取消"
@@ -3355,7 +3383,7 @@ msgid ""
 msgstr "請檢查每個寄件者是否都已選擇了正確的憑證："
 
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:302
-#: src/crypto/gui/signencryptfileswizard.cpp:310 src/view/padwidget.cpp:497
+#: src/crypto/gui/signencryptfileswizard.cpp:313 src/view/padwidget.cpp:497
 #, kde-format
 msgctxt ""
 "VS-NfD-conforming is a German standard for restricted documents for which "
@@ -3366,7 +3394,7 @@ msgid "VS-NfD-compliant communication possible."
 msgstr ""
 
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:304
-#: src/crypto/gui/signencryptfileswizard.cpp:312 src/view/padwidget.cpp:499
+#: src/crypto/gui/signencryptfileswizard.cpp:315 src/view/padwidget.cpp:499
 #, kde-format
 msgctxt ""
 "VS-NfD-conforming is a German standard for restricted documents for which "
@@ -3451,7 +3479,7 @@ msgctxt "@info"
 msgid "Keep each file separate instead of creating an archive for all."
 msgstr ""
 
-#: src/crypto/gui/signencryptfileswizard.cpp:173
+#: src/crypto/gui/signencryptfileswizard.cpp:176
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3468,13 +3496,13 @@ msgstr ""
 "Kleopatra 簽署。</para><para>Kleopatra 將來的版本希望能在這種狀況下支援分離式"
 "簽章。</para>"
 
-#: src/crypto/gui/signencryptfileswizard.cpp:178
+#: src/crypto/gui/signencryptfileswizard.cpp:181
 #, kde-format
 msgctxt "@title:window"
 msgid "Unusual Signature Warning"
 msgstr "警告：不正常的簽章"
 
-#: src/crypto/gui/signencryptfileswizard.cpp:199
+#: src/crypto/gui/signencryptfileswizard.cpp:202
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3486,104 +3514,104 @@ msgstr ""
 "<para>您加密的接收人沒有一個是您自己。</para> <para>這表示加密之後，您自己將"
 "無法解密。</para> <para>您要繼續，還是取消以變更收件人？</para>"
 
-#: src/crypto/gui/signencryptfileswizard.cpp:202
+#: src/crypto/gui/signencryptfileswizard.cpp:205
 #, kde-format
 msgctxt "@title:window"
 msgid "Encrypt-To-Self Warning"
 msgstr "加密警告"
 
-#: src/crypto/gui/signencryptfileswizard.cpp:241
+#: src/crypto/gui/signencryptfileswizard.cpp:244
 #, fuzzy, kde-format
 #| msgid "The signature is bad."
 msgid "The S/MIME signature."
 msgstr "此簽章不正確。"
 
-#: src/crypto/gui/signencryptfileswizard.cpp:242
+#: src/crypto/gui/signencryptfileswizard.cpp:245
 #, fuzzy, kde-format
 #| msgid "The signature is bad."
 msgid "The signature."
 msgstr "此簽章不正確。"
 
-#: src/crypto/gui/signencryptfileswizard.cpp:243
+#: src/crypto/gui/signencryptfileswizard.cpp:246
 #, fuzzy, kde-format
 #| msgid "Sign and/or encrypt file(s)"
 msgid "The signed and encrypted file."
 msgstr "簽署/加密檔案"
 
-#: src/crypto/gui/signencryptfileswizard.cpp:244
+#: src/crypto/gui/signencryptfileswizard.cpp:247
 #, fuzzy, kde-format
 #| msgid "Selected file:"
 #| msgid_plural "Selected files:"
 msgid "The encrypted file."
 msgstr "已選取檔案："
 
-#: src/crypto/gui/signencryptfileswizard.cpp:245
+#: src/crypto/gui/signencryptfileswizard.cpp:248
 #, fuzzy, kde-format
 #| msgid "S/MIME export file:"
 msgid "The S/MIME encrypted file."
 msgstr "S/MIME 匯出檔："
 
-#: src/crypto/gui/signencryptfileswizard.cpp:246
+#: src/crypto/gui/signencryptfileswizard.cpp:249
 #, fuzzy, kde-format
 #| msgid "&Output folder:"
 msgid "Output directory."
 msgstr "輸出資料夾(&O)："
 
-#: src/crypto/gui/signencryptfileswizard.cpp:315
+#: src/crypto/gui/signencryptfileswizard.cpp:318
 #, fuzzy, kde-format
 #| msgid "&Next"
 msgid "Next"
 msgstr "下一個(&N)"
 
-#: src/crypto/gui/signencryptfileswizard.cpp:374
+#: src/crypto/gui/signencryptfileswizard.cpp:377
 #, kde-format
 msgctxt "@title"
 msgid "Results"
 msgstr "結果"
 
-#: src/crypto/gui/signencryptfileswizard.cpp:376
+#: src/crypto/gui/signencryptfileswizard.cpp:379
 #, kde-format
 msgctxt "@title"
 msgid "Status and progress of the crypto operations is shown here."
 msgstr "加密的狀態與進度顯示在這裡。"
 
-#: src/crypto/gui/signencryptwidget.cpp:123
+#: src/crypto/gui/signencryptwidget.cpp:124
 #, kde-format
 msgid "Prove authenticity (sign)"
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:124
+#: src/crypto/gui/signencryptwidget.cpp:125
 #, fuzzy, kde-format
 #| msgid "Sign Files"
 msgid "Sign as:"
 msgstr "簽署檔案"
 
-#: src/crypto/gui/signencryptwidget.cpp:143
-#: src/crypto/gui/signencryptwidget.cpp:404
+#: src/crypto/gui/signencryptwidget.cpp:144
+#: src/crypto/gui/signencryptwidget.cpp:405
 #, kde-format
 msgctxt "@action"
 msgid "Encrypt"
 msgstr "加密"
 
-#: src/crypto/gui/signencryptwidget.cpp:149
+#: src/crypto/gui/signencryptwidget.cpp:150
 #, fuzzy, kde-format
 #| msgid "Encrypt file(s)"
 msgid "Encrypt for me:"
 msgstr "加密檔案"
 
-#: src/crypto/gui/signencryptwidget.cpp:155
+#: src/crypto/gui/signencryptwidget.cpp:156
 #, fuzzy, kde-format
 #| msgid "Encrypt file(s)"
 msgid "Encrypt for others:"
 msgstr "加密檔案"
 
-#: src/crypto/gui/signencryptwidget.cpp:184
+#: src/crypto/gui/signencryptwidget.cpp:185
 #, kde-format
 msgid ""
 "Encrypt with password. Anyone you share the password with can read the data."
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:186
+#: src/crypto/gui/signencryptwidget.cpp:187
 #, kde-format
 msgctxt "Tooltip information for symetric encryption"
 msgid ""
@@ -3593,7 +3621,7 @@ msgid ""
 "Even if you pick a very strong password."
 msgstr ""
 
-#: src/crypto/gui/signencryptwidget.cpp:402
+#: src/crypto/gui/signencryptwidget.cpp:403
 #, fuzzy, kde-format
 #| msgctxt "@action"
 #| msgid "Sign && Encrypt"
@@ -3601,11 +3629,24 @@ msgctxt "@action"
 msgid "Sign / Encrypt"
 msgstr "簽署與加密"
 
-#: src/crypto/gui/signencryptwidget.cpp:406
+#: src/crypto/gui/signencryptwidget.cpp:407
 #, kde-format
 msgctxt "@action"
 msgid "Sign"
 msgstr "簽署"
+
+#: src/crypto/gui/signencryptwidget.cpp:538
+#, fuzzy, kde-format
+#| msgid "Could not bind to socket: %1"
+msgctxt "%1 is user input that could not be found"
+msgid "Could not find a key for '%1'"
+msgstr "無法結合 socket：%1"
+
+#: src/crypto/gui/signencryptwidget.cpp:539
+#, fuzzy, kde-format
+#| msgid "Failed to execute %1: %2"
+msgid "Failed to find recipient"
+msgstr "執行 %1 時失敗：%2"
 
 #: src/crypto/gui/signerresolvepage.cpp:85
 #, kde-format
@@ -3905,7 +3946,7 @@ msgstr "找不到檔案 %1 的檢查碼檔"
 msgid "Verifying checksums (%2) in %1"
 msgstr "確認 %1 中的 %2 的檢查碼"
 
-#: src/dialogs/addemaildialog.cpp:69
+#: src/dialogs/addemaildialog.cpp:69 src/dialogs/certifywidget.cpp:269
 #, fuzzy, kde-format
 #| msgid "Advanced Settings"
 msgid "Advanced"
@@ -3924,7 +3965,7 @@ msgid "Add New EMail"
 msgstr ""
 
 #: src/dialogs/adduseriddialog.cpp:70
-#: src/dialogs/certificatedetailswidget.cpp:135
+#: src/dialogs/certificatedetailswidget.cpp:141
 #: src/newcertificatewizard/newcertificatewizard.cpp:1273
 #, kde-format
 msgid "Name"
@@ -4028,114 +4069,120 @@ msgstr "新的使用者代碼"
 msgid "This is how the new User-ID will be stored in the certificate:"
 msgstr "以下是如何在憑證中儲存新的使用者代碼："
 
-#: src/dialogs/certificatedetailswidget.cpp:123
+#: src/dialogs/certificatedetailswidget.cpp:129
 #, fuzzy, kde-format
 #| msgid "Never"
 msgctxt "Expires"
 msgid "never"
 msgstr "永久有效"
 
-#: src/dialogs/certificatedetailswidget.cpp:135
+#: src/dialogs/certificatedetailswidget.cpp:141
+#: src/dialogs/certifywidget.cpp:281
+#, kde-format
+msgid "Tags"
+msgstr ""
+
+#: src/dialogs/certificatedetailswidget.cpp:141
 #, kde-format
 msgid "Email"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:135
+#: src/dialogs/certificatedetailswidget.cpp:141
 #, fuzzy, kde-format
 #| msgctxt "@title"
 #| msgid "Change Trust Level of %1"
 msgid "Trust Level"
 msgstr "變更 %1 的信任等級"
 
-#: src/dialogs/certificatedetailswidget.cpp:183
+#: src/dialogs/certificatedetailswidget.cpp:189
 #, fuzzy, kde-format
 #| msgid "Export"
 msgid "Updating..."
 msgstr "匯出"
 
-#: src/dialogs/certificatedetailswidget.cpp:211
+#: src/dialogs/certificatedetailswidget.cpp:228
 #, kde-format
 msgid "Revoke this User ID"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:329
+#: src/dialogs/certificatedetailswidget.cpp:349
 #, fuzzy, kde-format
 #| msgid "Certify..."
 msgid "Certify ..."
 msgstr "保證..."
 
-#: src/dialogs/certificatedetailswidget.cpp:382
+#: src/dialogs/certificatedetailswidget.cpp:406
 #, fuzzy, kde-format
 #| msgid "Never"
 msgid "never"
 msgstr "永久有效"
 
 #. i18n: ectx: property (text), widget (QCheckBox, signingCB)
-#: src/dialogs/certificatedetailswidget.cpp:384
+#: src/dialogs/certificatedetailswidget.cpp:408
 #: src/newcertificatewizard/advancedsettingsdialog.ui:206
 #, kde-format
 msgid "Signing"
 msgstr "簽署"
 
-#: src/dialogs/certificatedetailswidget.cpp:385
-#: src/dialogs/certificatedetailswidget.cpp:389
+#: src/dialogs/certificatedetailswidget.cpp:409
+#: src/dialogs/certificatedetailswidget.cpp:413
 #, kde-format
 msgid "First message"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:386
-#: src/dialogs/certificatedetailswidget.cpp:390
+#: src/dialogs/certificatedetailswidget.cpp:410
+#: src/dialogs/certificatedetailswidget.cpp:414
 #, kde-format
 msgid "Last message"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:387
-#: src/dialogs/certificatedetailswidget.cpp:391
+#: src/dialogs/certificatedetailswidget.cpp:411
+#: src/dialogs/certificatedetailswidget.cpp:415
 #, fuzzy, kde-format
 #| msgid "Message #%1"
 msgid "Message count"
 msgstr "訊息 #%1"
 
-#: src/dialogs/certificatedetailswidget.cpp:427
+#: src/dialogs/certificatedetailswidget.cpp:451
 #, kde-format
 msgid "Common Name"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:428
+#: src/dialogs/certificatedetailswidget.cpp:452
 #, fuzzy, kde-format
 #| msgid "Animations"
 msgid "Organization"
 msgstr "動畫"
 
-#: src/dialogs/certificatedetailswidget.cpp:429
+#: src/dialogs/certificatedetailswidget.cpp:453
 #, fuzzy, kde-format
 #| msgid "Strength"
 msgid "Street"
 msgstr "強度"
 
-#: src/dialogs/certificatedetailswidget.cpp:430
+#: src/dialogs/certificatedetailswidget.cpp:454
 #, kde-format
 msgid "City"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:431
+#: src/dialogs/certificatedetailswidget.cpp:455
 #, fuzzy, kde-format
 #| msgid "Status"
 msgid "State"
 msgstr "狀態"
 
-#: src/dialogs/certificatedetailswidget.cpp:432
+#: src/dialogs/certificatedetailswidget.cpp:456
 #, kde-format
 msgid "Country"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:455
+#: src/dialogs/certificatedetailswidget.cpp:479
 #, kde-format
 msgctxt "<name> of <company>"
 msgid "%1 of %2"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:583
+#: src/dialogs/certificatedetailswidget.cpp:609
 #, fuzzy, kde-format
 #| msgid "Certificate Details"
 msgctxt "@title:window"
@@ -4190,7 +4237,7 @@ msgstr "建立新的憑證"
 
 #. i18n: ectx: property (text), widget (QPushButton, certifyBtn)
 #: src/dialogs/certificatedetailswidget.ui:67
-#: src/dialogs/certifycertificatedialog.cpp:194
+#: src/dialogs/certifycertificatedialog.cpp:77
 #: src/newcertificatewizard/newcertificatewizard.cpp:1646
 #, kde-format
 msgid "Certify"
@@ -4389,134 +4436,65 @@ msgctxt "@title:window"
 msgid "Certificate Selection"
 msgstr "憑證選擇"
 
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: src/dialogs/certificationoptionswidget.ui:16
+#: src/dialogs/certifycertificatedialog.cpp:86
 #, kde-format
-msgid "<b>Step 2:</b> Choose how to certify."
-msgstr "<b>步驟 2：</b>請選取如何認證。"
-
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: src/dialogs/certificationoptionswidget.ui:30
-#, kde-format
-msgid "Choose which of your certificates to sign with:"
-msgstr "選擇要以哪個憑證簽署"
-
-#. i18n: ectx: property (text), widget (QRadioButton, localSignatureRB)
-#: src/dialogs/certificationoptionswidget.ui:57
-#, kde-format
-msgid "Certify only for myself"
-msgstr "只確認自己"
-
-#. i18n: ectx: property (text), widget (QRadioButton, exportableSignatureRB)
-#: src/dialogs/certificationoptionswidget.ui:67
-#, kde-format
-msgid "Certify for everyone to see"
-msgstr "確認讓所有人可以看"
-
-#. i18n: ectx: property (text), widget (QCheckBox, sendToServerCB)
-#: src/dialogs/certificationoptionswidget.ui:95
-#, kde-format
-msgid "Send certified certificate to server afterwards"
-msgstr "稍候將確認過的憑證傳送到伺服器"
-
-#: src/dialogs/certifycertificatedialog.cpp:134
-#, fuzzy, kde-format
-#| msgid "<b>Step 1:</b> Please select the user IDs you wish to certify."
-msgid ""
-"<b>Step 1:</b> Please select the names and email addresses you wish to "
-"certify."
-msgstr "<b>步驟 1：</b>請選取您要保證的使用者代碼。"
-
-#: src/dialogs/certifycertificatedialog.cpp:161
-#, fuzzy, kde-format
-#| msgid "Fingerprint"
-msgid "Fingerprint: <b>%1</b>"
-msgstr "指印（Fingerprint）"
-
-#: src/dialogs/certifycertificatedialog.cpp:163
-#, kde-format
-msgid "<i>Only the fingerprint clearly identifies the key and its owner.</i>"
+msgid "You cannot certify using the same key."
 msgstr ""
 
-#: src/dialogs/certifycertificatedialog.cpp:208
-#, kde-format
-msgid "Certification will be performed using certificate %1."
-msgstr "將會使用憑證 %1 來執行。"
+#: src/dialogs/certifycertificatedialog.cpp:87
+#, fuzzy, kde-format
+#| msgid "Selection"
+msgid "Invalid Selection"
+msgstr "選取"
 
-#: src/dialogs/certifycertificatedialog.cpp:244
-#, kde-format
-msgid "Signed user IDs:"
-msgstr "簽署的使用者代碼："
-
-#: src/dialogs/certifycertificatedialog.cpp:247
-#, kde-format
-msgid "<b>Summary:</b>"
-msgstr "<b>摘要：</b>"
-
-#: src/dialogs/certifycertificatedialog.cpp:251
-#, kde-format
-msgid "Check level:"
-msgstr "檢查等級："
-
-#: src/dialogs/certifycertificatedialog.cpp:256
-#, kde-format
-msgid "Selected secret key:"
-msgstr "選取秘密金鑰："
-
-#: src/dialogs/certifycertificatedialog.cpp:278
-#, kde-format
-msgid "Default certificate"
-msgstr "預設憑證"
-
-#: src/dialogs/certifycertificatedialog.cpp:282
-#, kde-format
-msgid "No statement made"
-msgstr "沒有產生敘述"
-
-#: src/dialogs/certifycertificatedialog.cpp:285
-#, kde-format
-msgid "Not checked"
-msgstr "未檢查"
-
-#: src/dialogs/certifycertificatedialog.cpp:288
-#, kde-format
-msgid "Casually checked"
-msgstr "已隨便檢查"
-
-#: src/dialogs/certifycertificatedialog.cpp:291
-#, kde-format
-msgid "Thoroughly checked"
-msgstr "已徹底檢查"
-
-#: src/dialogs/certifycertificatedialog.cpp:309
-#, kde-format
-msgid ""
-"The certificate was not certified because it was already certified by the "
-"same certificate."
-msgstr "此憑證已經被確認過了。"
-
-#: src/dialogs/certifycertificatedialog.cpp:311
-#, kde-format
-msgid "The certificate could not be certified. <b>Error</b>: %1"
-msgstr "此憑證無法被確認。<b>錯誤：</b>%1"
-
-#: src/dialogs/certifycertificatedialog.cpp:314
-#, kde-format
-msgid "Certification canceled."
-msgstr "確認已取消。"
-
-#: src/dialogs/certifycertificatedialog.cpp:316
-#, kde-format
-msgid "Certification successful."
-msgstr "憑證已成功確認。"
-
-#: src/dialogs/certifycertificatedialog.cpp:395
+#: src/dialogs/certifycertificatedialog.cpp:122
 #, fuzzy, kde-format
 #| msgctxt "arg is name, email of certificate holder"
 #| msgid "Certify Certificate: %1"
 msgctxt "@title:window arg is name, email of certificate holder"
 msgid "Certify Certificate: %1"
 msgstr "確認憑證：%1"
+
+#: src/dialogs/certifywidget.cpp:249
+#, fuzzy, kde-format
+#| msgid "Certify"
+msgid "Certify with:"
+msgstr "保證"
+
+#: src/dialogs/certifywidget.cpp:274
+#, fuzzy, kde-format
+#| msgid "Certify for everyone to see"
+msgid "Certify for everyone to see. (exportable)"
+msgstr "確認讓所有人可以看"
+
+#: src/dialogs/certifywidget.cpp:275
+#, fuzzy, kde-format
+#| msgid "Lookup Certificates on Server..."
+msgid "Publish on keyserver afterwards."
+msgstr "在伺服器上搜尋憑證..."
+
+#: src/dialogs/certifywidget.cpp:288
+#, kde-format
+msgid "You can use this to add additional info to a certification."
+msgstr ""
+
+#: src/dialogs/certifywidget.cpp:290
+#, kde-format
+msgid ""
+"Tags created by anyone with full certification trust are shown in the "
+"keylist and can be searched."
+msgstr ""
+
+#: src/dialogs/certifywidget.cpp:374
+#, fuzzy, kde-format
+#| msgid "Fingerprint"
+msgid "Fingerprint: <b>%1</b>"
+msgstr "指印（Fingerprint）"
+
+#: src/dialogs/certifywidget.cpp:376
+#, kde-format
+msgid "<i>Only the fingerprint clearly identifies the key and its owner.</i>"
+msgstr ""
 
 #: src/dialogs/deletecertificatesdialog.cpp:111
 #, kde-format
@@ -5303,7 +5281,7 @@ msgctxt "@title:window"
 msgid "Certifications"
 msgstr "憑證"
 
-#: src/dialogs/weboftrustwidget.cpp:154
+#: src/dialogs/weboftrustwidget.cpp:161
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -5311,7 +5289,7 @@ msgid ""
 "message></para>"
 msgstr "<para>試著載入憑證時發生錯誤：<message>%1</message></para>"
 
-#: src/dialogs/weboftrustwidget.cpp:157
+#: src/dialogs/weboftrustwidget.cpp:164
 #, kde-format
 msgctxt "@title"
 msgid "Certifications Loading Failed"
@@ -5821,69 +5799,69 @@ msgctxt ""
 msgid "gpg4win-compendium-en.pdf"
 msgstr ""
 
-#: src/mainwindow.cpp:412
+#: src/mainwindow.cpp:426
 #, kde-format
 msgid "GnuPG Log Viewer"
 msgstr "GnuPG 紀錄檢視器"
 
-#: src/mainwindow.cpp:418
+#: src/mainwindow.cpp:432
 #, kde-format
 msgid "Check for updates"
 msgstr ""
 
-#: src/mainwindow.cpp:422
+#: src/mainwindow.cpp:436
 #, kde-format
 msgid "Gpg4win Compendium"
 msgstr ""
 
-#: src/mainwindow.cpp:427
+#: src/mainwindow.cpp:441
 #, kde-format
 msgctxt "Title for a generic data input / output area supporting text actions."
 msgid "Notepad"
 msgstr ""
 
-#: src/mainwindow.cpp:428
+#: src/mainwindow.cpp:442
 #, kde-format
 msgid "Switch to Pad view."
 msgstr ""
 
-#: src/mainwindow.cpp:433
+#: src/mainwindow.cpp:447
 #, kde-format
 msgid "Configure GnuPG Backend..."
 msgstr "設定 GnuPG 後端介面..."
 
-#: src/mainwindow.cpp:439
+#: src/mainwindow.cpp:453
 #, kde-format
 msgid "Perform Self-Test"
 msgstr "執行自我測試"
 
-#: src/mainwindow.cpp:443
+#: src/mainwindow.cpp:457
 #, fuzzy, kde-format
 #| msgid "SmartCard"
 msgid "Manage Smartcards"
 msgstr "智慧卡"
 
-#: src/mainwindow.cpp:444
+#: src/mainwindow.cpp:458
 #, kde-format
 msgid "Edit or initialize a crypto hardware token."
 msgstr ""
 
-#: src/mainwindow.cpp:462
+#: src/mainwindow.cpp:476
 #, kde-format
 msgid "Set Focus to Quick Search"
 msgstr "設定焦點到快速搜尋"
 
-#: src/mainwindow.cpp:483
+#: src/mainwindow.cpp:497
 #, kde-format
 msgid "Could not configure the cryptography backend (gpgconf tool not found)"
 msgstr "無法設定加密後端介面（找不到 gpgconf）"
 
-#: src/mainwindow.cpp:483
+#: src/mainwindow.cpp:497
 #, kde-format
 msgid "Configuration Error"
 msgstr "設定錯誤"
 
-#: src/mainwindow.cpp:518
+#: src/mainwindow.cpp:532
 #, kde-format
 msgid ""
 "There are still some background operations ongoing. These will be terminated "
@@ -5892,28 +5870,28 @@ msgstr ""
 "還有一些背景的操作正在進行中。若是關閉此視窗，這些操作都會被中止。確定要繼續"
 "嗎？"
 
-#: src/mainwindow.cpp:521
+#: src/mainwindow.cpp:535
 #, kde-format
 msgid "Ongoing Background Tasks"
 msgstr "還有背景工作"
 
-#: src/mainwindow.cpp:630 src/view/keylistcontroller.cpp:405
+#: src/mainwindow.cpp:644 src/view/keylistcontroller.cpp:405
 #, kde-format
 msgid "Sign/Encrypt..."
 msgstr "簽署/加密..."
 
-#: src/mainwindow.cpp:631 src/utils/clipboardmenu.cpp:49
+#: src/mainwindow.cpp:645 src/utils/clipboardmenu.cpp:49
 #: src/view/keylistcontroller.cpp:401
 #, kde-format
 msgid "Decrypt/Verify..."
 msgstr "解密/檢查..."
 
-#: src/mainwindow.cpp:636
+#: src/mainwindow.cpp:650
 #, kde-format
 msgid "Import Certificates"
 msgstr "匯入憑證"
 
-#: src/mainwindow.cpp:637
+#: src/mainwindow.cpp:651
 #, kde-format
 msgid "Import CRLs"
 msgstr "匯入廢棄憑證清單"
@@ -7850,7 +7828,7 @@ msgstr "印出廢棄憑證清單快取內容"
 msgid "Import CRL From File..."
 msgstr "從檔案匯入廢棄憑證清單..."
 
-#: src/view/keytreeview.cpp:98
+#: src/view/keytreeview.cpp:106
 #, kde-format
 msgid "View Columns"
 msgstr ""
@@ -8473,3 +8451,60 @@ msgstr "從 %1 匯入憑證"
 #, kde-format
 msgid "To import from a public keyserver use \"Lookup on Server\" instead."
 msgstr ""
+
+#~ msgid "<b>Step 2:</b> Choose how to certify."
+#~ msgstr "<b>步驟 2：</b>請選取如何認證。"
+
+#~ msgid "Choose which of your certificates to sign with:"
+#~ msgstr "選擇要以哪個憑證簽署"
+
+#~ msgid "Certify only for myself"
+#~ msgstr "只確認自己"
+
+#~ msgid "Send certified certificate to server afterwards"
+#~ msgstr "稍候將確認過的憑證傳送到伺服器"
+
+#, fuzzy
+#~| msgid "<b>Step 1:</b> Please select the user IDs you wish to certify."
+#~ msgid ""
+#~ "<b>Step 1:</b> Please select the names and email addresses you wish to "
+#~ "certify."
+#~ msgstr "<b>步驟 1：</b>請選取您要保證的使用者代碼。"
+
+#~ msgid "Certification will be performed using certificate %1."
+#~ msgstr "將會使用憑證 %1 來執行。"
+
+#~ msgid "Signed user IDs:"
+#~ msgstr "簽署的使用者代碼："
+
+#~ msgid "<b>Summary:</b>"
+#~ msgstr "<b>摘要：</b>"
+
+#~ msgid "Check level:"
+#~ msgstr "檢查等級："
+
+#~ msgid "Selected secret key:"
+#~ msgstr "選取秘密金鑰："
+
+#~ msgid "Default certificate"
+#~ msgstr "預設憑證"
+
+#~ msgid "No statement made"
+#~ msgstr "沒有產生敘述"
+
+#~ msgid "Not checked"
+#~ msgstr "未檢查"
+
+#~ msgid "Casually checked"
+#~ msgstr "已隨便檢查"
+
+#~ msgid "Thoroughly checked"
+#~ msgstr "已徹底檢查"
+
+#~ msgid ""
+#~ "The certificate was not certified because it was already certified by the "
+#~ "same certificate."
+#~ msgstr "此憑證已經被確認過了。"
+
+#~ msgid "The certificate could not be certified. <b>Error</b>: %1"
+#~ msgstr "此憑證無法被確認。<b>錯誤：</b>%1"
