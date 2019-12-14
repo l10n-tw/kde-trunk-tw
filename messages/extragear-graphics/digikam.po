@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-13 02:41+0100\n"
+"POT-Creation-Date: 2019-12-14 02:32+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -2928,7 +2928,7 @@ msgid "Last Search"
 msgstr "上次搜尋"
 
 #: core/app/views/stack/itemiconview.cpp:397
-#: core/utilities/queuemanager/manager/batchtool.cpp:204
+#: core/utilities/queuemanager/manager/batchtool.cpp:206
 #: core/utilities/queuemanager/views/toolslistview.cpp:83
 #, kde-format
 msgid "Filters"
@@ -5290,7 +5290,7 @@ msgstr "270 度"
 #: core/dplugins/bqm/transform/rotate/rotate.cpp:97
 #: core/dplugins/generic/tools/printcreator/wizard/advprintphotopage.cpp:60
 #: core/libs/widgets/metadata/metadatawidget.cpp:145
-#: core/utilities/queuemanager/manager/batchtool.cpp:194
+#: core/utilities/queuemanager/manager/batchtool.cpp:196
 #, kde-format
 msgid "Custom"
 msgstr "自訂"
@@ -17414,7 +17414,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: core/dplugins/generic/view/presentation/dialogs/presentation_captionpage.ui:73
 #: core/libs/properties/itempropertiessidebar.cpp:88
-#: core/utilities/queuemanager/manager/batchtool.cpp:196
+#: core/utilities/queuemanager/manager/batchtool.cpp:198
 #, kde-format
 msgid "Colors"
 msgstr "顏色"
@@ -21807,7 +21807,7 @@ msgstr "後製"
 
 #: core/dplugins/rawimport/native/rawimport.cpp:180
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:317
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:251
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:258
 #, kde-format
 msgid "Raw Decoding"
 msgstr "Raw 解碼"
@@ -27867,7 +27867,7 @@ msgstr "工具"
 #: core/libs/properties/itempropertiessidebar.cpp:87
 #: core/libs/settings/applicationsettings_miscs.cpp:397
 #: core/showfoto/setup/showfotosetup.cpp:122
-#: core/utilities/queuemanager/manager/batchtool.cpp:208
+#: core/utilities/queuemanager/manager/batchtool.cpp:210
 #: core/utilities/queuemanager/views/toolslistview.cpp:93
 #: core/utilities/setup/setup.cpp:174
 #, kde-format
@@ -27887,21 +27887,21 @@ msgid "File"
 msgstr "檔案"
 
 #: core/libs/dplugins/core/dpluginaction.cpp:112
-#: core/utilities/queuemanager/manager/batchtool.cpp:198
+#: core/utilities/queuemanager/manager/batchtool.cpp:200
 #: core/utilities/queuemanager/views/toolslistview.cpp:68
 #, kde-format
 msgid "Enhance"
 msgstr "增強"
 
 #: core/libs/dplugins/core/dpluginaction.cpp:114
-#: core/utilities/queuemanager/manager/batchtool.cpp:200
+#: core/utilities/queuemanager/manager/batchtool.cpp:202
 #: core/utilities/queuemanager/views/toolslistview.cpp:73
 #, kde-format
 msgid "Transform"
 msgstr "變形"
 
 #: core/libs/dplugins/core/dpluginaction.cpp:116
-#: core/utilities/queuemanager/manager/batchtool.cpp:202
+#: core/utilities/queuemanager/manager/batchtool.cpp:204
 #: core/utilities/queuemanager/views/toolslistview.cpp:78
 #, kde-format
 msgid "Decorate"
@@ -27913,7 +27913,7 @@ msgid "Effects"
 msgstr "效果"
 
 #: core/libs/dplugins/core/dpluginaction.cpp:124
-#: core/utilities/queuemanager/manager/batchtool.cpp:214
+#: core/utilities/queuemanager/manager/batchtool.cpp:216
 #, kde-format
 msgid "Invalid"
 msgstr ""
@@ -37322,7 +37322,7 @@ msgstr ""
 "a> - 一種用於數位相片的新式標準，目的是取代 IPTC。</p>"
 
 #: core/showfoto/setup/showfotosetupmetadata.cpp:157
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:242
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:249
 #: core/utilities/setup/camera/setupcamera.cpp:396
 #: core/utilities/setup/setupicc.cpp:505
 #, kde-format
@@ -43674,44 +43674,44 @@ msgstr "批次佇列已完成"
 msgid "&Queues"
 msgstr "佇列"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:192
+#: core/utilities/queuemanager/manager/batchtool.cpp:194
 #, kde-format
 msgid "Base"
 msgstr ""
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:206
+#: core/utilities/queuemanager/manager/batchtool.cpp:208
 #: core/utilities/queuemanager/views/toolslistview.cpp:88
 #, kde-format
 msgid "Convert"
 msgstr "轉換"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:612
+#: core/utilities/queuemanager/manager/batchtool.cpp:619
 #, kde-format
 msgid "No setting available"
 msgstr "無可用的設定值"
 
-#: core/utilities/queuemanager/manager/task.cpp:229
+#: core/utilities/queuemanager/manager/task.cpp:230
 #, kde-format
 msgid "(renamed to %1)"
 msgstr "(已重新命名為 %1)"
 
-#: core/utilities/queuemanager/manager/task.cpp:233
+#: core/utilities/queuemanager/manager/task.cpp:234
 #, kde-format
 msgid "(overwritten)"
 msgstr "(已覆寫)"
 
-#: core/utilities/queuemanager/manager/task.cpp:252
+#: core/utilities/queuemanager/manager/task.cpp:253
 #, kde-format
 msgid "Failed to create sidecar file..."
 msgstr "建立邊車檔失敗..."
 
-#: core/utilities/queuemanager/manager/task.cpp:261
+#: core/utilities/queuemanager/manager/task.cpp:262
 #, kde-format
 msgid "Item processed successfully %1"
 msgstr "處理項目成功 %1"
 
-#: core/utilities/queuemanager/manager/task.cpp:265
-#: core/utilities/queuemanager/manager/task.cpp:270
+#: core/utilities/queuemanager/manager/task.cpp:266
+#: core/utilities/queuemanager/manager/task.cpp:271
 #, kde-format
 msgid "Failed to create file..."
 msgstr "建立檔案失敗..."
@@ -43727,7 +43727,7 @@ msgid "This is the list of images to batch process."
 msgstr "這是要批次處理的影像清單。"
 
 #: core/utilities/queuemanager/views/queuelist.cpp:315
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:167
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:169
 #, kde-format
 msgid "Target"
 msgstr "目標"
@@ -43755,53 +43755,70 @@ msgid ""
 "tools."
 msgstr "下面列出的佇列所指定的批次工具清單是空的。請指定工具。"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:165
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:167
 #, kde-format
 msgid "Use original Album"
 msgstr "使用原始專輯"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:177
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:179
 #, kde-format
 msgid "Use original filenames"
 msgstr "使用原始檔名"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:178
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:180
 #, kde-format
 msgid "Turn on this option to use original filenames without modifications."
 msgstr "啟用這個選項會不修改使用原始檔名。"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:181
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:183
 #, kde-format
 msgid "Customize filenames:"
 msgstr "自訂檔名："
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:197
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:199
 #, kde-format
 msgid "File Renaming"
 msgstr "檔案重新命名"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:209
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:211
 #, kde-format
 msgid "Raw Files Loading:"
 msgstr "Raw 檔案載入："
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:213
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:215
 #, kde-format
 msgid "Perform RAW demosaicing"
 msgstr "執行 RAW 的去馬賽克"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:214
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:216
 #, kde-format
 msgid "Extract embedded preview (faster)"
 msgstr "展開內嵌的預覽 (較快)"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:229
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:231
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Save Changes as a New Version"
+msgctxt "@option:check"
+msgid "Save image as a newly created branch"
+msgstr "將變更存成新版本"
+
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:232
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip"
+#| msgid "Save the current modifications to a new version of the file"
+msgid ""
+"Turn on this option to save the current modifications to a new version of "
+"the file"
+msgstr "將目前的變更存成此檔案的新版本"
+
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:235
 #, kde-format
 msgctxt "@option:check"
 msgid "Work on all processor cores"
 msgstr "在所有的處理器核心上工作"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:230
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:236
 #, kde-format
 msgid ""
 "Turn on this option to use all CPU core from your computer to process more "
@@ -43810,7 +43827,7 @@ msgstr ""
 "開啟此選項的話，在您的佇列中有一個以上的項目時，會使用您電腦所有的 CPU 核心來"
 "處理。"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:311
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:318
 #, kde-format
 msgid "Saving Images"
 msgstr "儲存影像"
@@ -46278,7 +46295,7 @@ msgid "Keep a snapshot of an edited image"
 msgstr "保留編輯的影像的一份快照"
 
 #: core/utilities/setup/editor/setupversioning.cpp:276
-#: core/utilities/setup/editor/setupversioning.cpp:320
+#: core/utilities/setup/editor/setupversioning.cpp:322
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Get an explanation for these options"
@@ -46303,32 +46320,41 @@ msgid "After each step that is not completely reproducible"
 msgstr "在每個無法完整重現的步驟之後"
 
 #: core/utilities/setup/editor/setupversioning.cpp:307
-#, kde-kuit-format
+#, fuzzy
+#| msgctxt "@info:whatsthis"
+#| msgid ""
+#| "<para>If an image has been edited, only the <interface>current versions</"
+#| "interface> will be shown in the main thumbnail view. From the "
+#| "<interface>right sidebar</interface>, you always have access to all "
+#| "hidden files.</para> <para>With the options here, you can choose to show "
+#| "certain files permanently.</para>"
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>If an image has been edited, only the <interface>current versions</"
 "interface> will be shown in the main thumbnail view. From the "
 "<interface>right sidebar</interface>, you always have access to all hidden "
 "files.</para> <para>With the options here, you can choose to show certain "
-"files permanently.</para>"
+"files permanently.</para> If you activate non-destructive editing and image "
+"versioning for the first time, it will only be work for newly saved images.</"
+"para>"
 msgstr ""
 "<para>若是影像已被編輯，則只有<interface>目前的版本</interface>會在主縮圖檢視"
 "中顯示。在<interface>右側邊列</interface>中，您可以存取所有已被隱藏的檔案。</"
 "para> <para>這裡的選項可以讓您選擇是否要永久顯示某些檔案。</para>"
 
-#: core/utilities/setup/editor/setupversioning.cpp:313
+#: core/utilities/setup/editor/setupversioning.cpp:315
 #, kde-format
 msgctxt "@label"
 msgid "In main view"
 msgstr "在主檢視"
 
-#: core/utilities/setup/editor/setupversioning.cpp:322
+#: core/utilities/setup/editor/setupversioning.cpp:324
 #, kde-format
 msgctxt "@option:check"
 msgid "Always show original images"
 msgstr "總是顯示原始影像"
 
-#: core/utilities/setup/editor/setupversioning.cpp:323
+#: core/utilities/setup/editor/setupversioning.cpp:325
 #, kde-format
 msgctxt "@option:check"
 msgid "Always show intermediate snapshots"
@@ -47034,7 +47060,7 @@ msgstr "指定 XMP 邊車檔寫入的確切模式"
 #: core/utilities/setup/metadata/setupmetadata.cpp:579
 #, kde-format
 msgctxt "@option:check"
-msgid "Use a compatible file name for writing to sidecar files"
+msgid "Sidecar file names are compatible with commercial programs"
 msgstr ""
 
 #: core/utilities/setup/metadata/setupmetadata.cpp:581

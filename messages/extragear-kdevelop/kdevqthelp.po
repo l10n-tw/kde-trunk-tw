@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevqthelp\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-09 02:37+0100\n"
+"POT-Creation-Date: 2019-12-14 02:35+0100\n"
 "PO-Revision-Date: 2018-12-08 11:42+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -128,51 +128,45 @@ msgstr "路徑"
 msgid "Add"
 msgstr "新增"
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, QtHelpConfigEditDialog)
-#: qthelpconfigeditdialog.ui:14
-#, kde-format
-msgid "Dialog"
-msgstr "對話框"
-
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: qthelpconfigeditdialog.ui:20
+#: qthelpconfigeditdialog.ui:17
 #, kde-format
 msgid "Icon:"
 msgstr "圖示："
 
 #. i18n: ectx: property (toolTip), widget (KIconButton, qchIcon)
-#: qthelpconfigeditdialog.ui:27
+#: qthelpconfigeditdialog.ui:24
 #, kde-format
 msgid "Select an icon"
 msgstr "選擇圖示"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: qthelpconfigeditdialog.ui:40
+#: qthelpconfigeditdialog.ui:37
 #, kde-format
 msgid "Name:"
 msgstr "名稱："
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, qchName)
-#: qthelpconfigeditdialog.ui:47
+#: qthelpconfigeditdialog.ui:44
 #, kde-format
 msgid "Enter a name"
 msgstr "輸入名稱"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, qchName)
-#: qthelpconfigeditdialog.ui:50
+#: qthelpconfigeditdialog.ui:47
 #, kde-format
 msgid "Select a name"
 msgstr "選擇名稱"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: qthelpconfigeditdialog.ui:57
+#: qthelpconfigeditdialog.ui:54
 #, kde-format
 msgid "Path:"
 msgstr "路徑："
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, qchRequester)
 #. i18n: ectx: property (placeholderText), widget (KUrlRequester, qchRequester)
-#: qthelpconfigeditdialog.ui:70 qthelpconfigeditdialog.ui:76
+#: qthelpconfigeditdialog.ui:67 qthelpconfigeditdialog.ui:73
 #, kde-format
 msgid "Select a QtHelp file..."
 msgstr "選擇 QtHelp 檔..."
@@ -191,3 +185,6 @@ msgstr "QtHelp 首頁"
 #, kde-format
 msgid "QtHelp"
 msgstr "QtHelp"
+
+#~ msgid "Dialog"
+#~ msgstr "對話框"
