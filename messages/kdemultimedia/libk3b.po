@@ -10,15 +10,15 @@ msgstr ""
 "Project-Id-Version: libk3b\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-04 02:53+0100\n"
-"PO-Revision-Date: 2019-02-17 19:40+0800\n"
+"PO-Revision-Date: 2019-12-15 22:05+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
-"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.12.0\n"
 
 #: core/k3bcore.cpp:251
 #, kde-format
@@ -1658,8 +1658,7 @@ msgstr "當解碼音軌 %1 時發生錯誤。"
 msgid ""
 "The following files could not be found. Do you want to remove them from the "
 "project and continue without adding them to the image?"
-msgstr ""
-"找不到下列檔案。您想要從專案中移除它們並且繼續，而不要將它們加入映像檔中嗎？"
+msgstr "找不到下列檔案。您想要從專案中移除它們並且繼續，而不要將它們加入映像檔中嗎？"
 
 #: projects/audiocd/k3baudiojob.cpp:177
 #: projects/datacd/k3bdatapreparationjob.cpp:147
@@ -3306,14 +3305,16 @@ msgid "To create Video CDs you have to install VcdImager version %1."
 msgstr "要建立視訊 CD，您必須安裝版本 %1 的 VcdImager。"
 
 #: projects/videocd/k3bvcdjob.cpp:203 projects/videocd/k3bvcdjob.cpp:212
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "You can find this on your distribution disks or download it from http://"
 #| "www.vcdimager.org"
 msgid ""
 "You can find this on your distribution disks or download it from https://www."
 "gnu.org/software/vcdimager"
-msgstr "您可以從您的散布版光碟找到或者從 http://www.vcdimager.org 下載"
+msgstr ""
+"您可以從您的散布版光碟找到或者從 https://www."
+"gnu.org/software/vcdimager 下載"
 
 #: projects/videocd/k3bvcdjob.cpp:211
 #, kde-format
