@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-01 03:24+0100\n"
+"POT-Creation-Date: 2019-12-15 03:21+0100\n"
 "PO-Revision-Date: 2019-01-19 19:51+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -107,12 +107,12 @@ msgstr "開啟文字檔"
 msgid "Note from file '%1'"
 msgstr "從檔案 \"%1\" 建立便條"
 
-#: apps/knotesapp.cpp:529
+#: apps/knotesapp.cpp:528
 #, kde-format
 msgid "No Notes"
 msgstr "沒有便條紙"
 
-#: apps/knotesapp.cpp:582 kontactplugin/knotes_part.cpp:637
+#: apps/knotesapp.cpp:581 kontactplugin/knotes_part.cpp:637
 #, kde-format
 msgid "Settings"
 msgstr "設定(&S)"
@@ -316,22 +316,22 @@ msgstr "重新命名時發生錯誤：%1"
 msgid "Rename note"
 msgstr "重新命名便條"
 
-#: configdialog/knoteconfigdialog.cpp:192
+#: configdialog/knoteconfigdialog.cpp:183
 #, kde-format
 msgid "Show number of notes in tray icon"
 msgstr "在系統匣中顯示便條數量"
 
-#: configdialog/knoteconfigdialog.cpp:199
+#: configdialog/knoteconfigdialog.cpp:190
 #, kde-format
 msgid "Default Title:"
 msgstr "預設標題："
 
-#: configdialog/knoteconfigdialog.cpp:206
+#: configdialog/knoteconfigdialog.cpp:197
 #, kde-format
 msgid "<a href=\"whatsthis\">How does this work?</a>"
 msgstr "<a href=\"whatsthis\">這是怎麼運作的？</a>"
 
-#: configdialog/knoteconfigdialog.cpp:240
+#: configdialog/knoteconfigdialog.cpp:231
 #, kde-format
 msgid ""
 "<qt><p>You can customize title note. You can use:</p><ul><li>%d current date "
@@ -341,12 +341,12 @@ msgstr ""
 "<qt><p>您可以自訂便條標題。您可以使用：</p><ul><li>%d 目前的日期（短格式）</"
 "li><li>%l 目前的日期（長格式）</li><li>%t 目前的時間</li></ul></qt>"
 
-#: configdialog/knoteconfigdialog.cpp:262
+#: configdialog/knoteconfigdialog.cpp:253
 #, kde-format
 msgid "Theme:"
 msgstr "主題："
 
-#: configdialog/knoteconfigdialog.cpp:272
+#: configdialog/knoteconfigdialog.cpp:263
 #, kde-format
 msgid "Download new printing themes"
 msgstr "下載新的列印主題"
@@ -406,12 +406,12 @@ msgstr "內文字體"
 msgid "Title font:"
 msgstr "標題字體"
 
-#: configdialog/knotesimpleconfigdialog.cpp:64
+#: configdialog/knotesimpleconfigdialog.cpp:54
 #, kde-format
 msgid "Editor Settings"
 msgstr "編輯器設定"
 
-#: configdialog/knotesimpleconfigdialog.cpp:67
+#: configdialog/knotesimpleconfigdialog.cpp:57
 #, kde-format
 msgid "Display Settings"
 msgstr "顯示設定"
@@ -660,32 +660,32 @@ msgstr "便條設定..."
 msgid "Preferences KNotes..."
 msgstr "KNotes 喜好設定..."
 
-#: kontactplugin/knotes_part.cpp:172 notes/knote.cpp:715
+#: kontactplugin/knotes_part.cpp:172 notes/knote.cpp:714
 #, kde-format
 msgid "Mail..."
 msgstr "寄送..."
 
-#: kontactplugin/knotes_part.cpp:177 notes/knote.cpp:711
+#: kontactplugin/knotes_part.cpp:177 notes/knote.cpp:710
 #, kde-format
 msgid "Send..."
 msgstr "傳送..."
 
-#: kontactplugin/knotes_part.cpp:182 notes/knote.cpp:706
+#: kontactplugin/knotes_part.cpp:182 notes/knote.cpp:705
 #, kde-format
 msgid "Set Alarm..."
 msgstr "設定鬧鈴..."
 
-#: kontactplugin/knotes_part.cpp:197 notes/knote.cpp:719
+#: kontactplugin/knotes_part.cpp:197 notes/knote.cpp:718
 #, kde-format
 msgid "Save As..."
 msgstr "另存為..."
 
-#: kontactplugin/knotes_part.cpp:202 notes/knote.cpp:692
+#: kontactplugin/knotes_part.cpp:202 notes/knote.cpp:691
 #, kde-format
 msgid "Lock"
 msgstr "鎖定"
 
-#: kontactplugin/knotes_part.cpp:205 notes/knote.cpp:695
+#: kontactplugin/knotes_part.cpp:205 notes/knote.cpp:694
 #, kde-format
 msgid "Unlock"
 msgstr "解除鎖定"
@@ -759,12 +759,12 @@ msgstr "豐富文字樣式 (*.html)"
 msgid "Plain text (*.txt)"
 msgstr "純文字 (*.txt)"
 
-#: kontactplugin/knotes_part.cpp:747 notes/knote.cpp:518
+#: kontactplugin/knotes_part.cpp:747 notes/knote.cpp:517
 #, kde-format
 msgid "Save As"
 msgstr "另存新檔"
 
-#: kontactplugin/knotes_part.cpp:758 notes/knote.cpp:535
+#: kontactplugin/knotes_part.cpp:758 notes/knote.cpp:534
 #, kde-format
 msgid ""
 "<qt>A file named <b>%1</b> already exists.<br />Are you sure you want to "
@@ -939,77 +939,77 @@ msgstr "刪除備忘..."
 msgid "Read Popup Note: \"%1\""
 msgstr "讀取便條：%1"
 
-#: notes/knote.cpp:149
+#: notes/knote.cpp:148
 #, kde-format
 msgid "<qt>Do you really want to delete note <b>%1</b>?</qt>"
 msgstr "<qt>您確定要刪除標題為<b>%1</b>的便條紙?</qt>"
 
-#: notes/knote.cpp:150
+#: notes/knote.cpp:149
 #, kde-format
 msgid "Confirm Delete"
 msgstr "刪除確認"
 
-#: notes/knote.cpp:151
+#: notes/knote.cpp:150
 #, kde-format
 msgid "&Delete"
 msgstr "刪除(&D)"
 
-#: notes/knote.cpp:277
+#: notes/knote.cpp:276
 #, kde-format
 msgid "Please enter the new name:"
 msgstr "請輸入新標題:"
 
-#: notes/knote.cpp:511
+#: notes/knote.cpp:510
 #, kde-format
 msgid "Save note as plain text"
 msgstr "存成純文字檔"
 
-#: notes/knote.cpp:641
+#: notes/knote.cpp:640
 #, kde-format
 msgid "&All Desktops"
 msgstr "所有桌面(&A)"
 
-#: notes/knote.cpp:683
+#: notes/knote.cpp:682
 #, kde-format
 msgid "New"
 msgstr "新增"
 
-#: notes/knote.cpp:687
+#: notes/knote.cpp:686
 #, kde-format
 msgid "Rename..."
 msgstr "重新命名..."
 
-#: notes/knote.cpp:697
+#: notes/knote.cpp:696
 #, kde-format
 msgid "Hide"
 msgstr "隱藏"
 
-#: notes/knote.cpp:702
+#: notes/knote.cpp:701
 #, kde-format
 msgid "Delete"
 msgstr "刪除"
 
-#: notes/knote.cpp:729
+#: notes/knote.cpp:728
 #, kde-format
 msgid "Preferences..."
 msgstr "設定偏好..."
 
-#: notes/knote.cpp:734
+#: notes/knote.cpp:733
 #, kde-format
 msgid "Keep Above Others"
 msgstr "顯示在最上層"
 
-#: notes/knote.cpp:739
+#: notes/knote.cpp:738
 #, kde-format
 msgid "Keep Below Others"
 msgstr "顯示在最下層"
 
-#: notes/knote.cpp:744
+#: notes/knote.cpp:743
 #, kde-format
 msgid "To Desktop"
 msgstr "移至桌面"
 
-#: notes/knote.cpp:754
+#: notes/knote.cpp:753
 #, kde-format
 msgid "Walk Through Notes"
 msgstr "瀏覽所有便條紙"

@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-11 02:53+0100\n"
+"POT-Creation-Date: 2019-12-15 02:57+0100\n"
 "PO-Revision-Date: 2019-12-04 23:12+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -583,10 +583,26 @@ msgctxt ""
 msgid "Stuff"
 msgstr "項目"
 
-#: qtquick/qml/Button.qml:59 qtquick/qml/Dialog.qml:55
+#: qtquick/qml/Button.qml:59
 #, kde-format
 msgid "Download New %1"
 msgstr "下載新%1"
+
+#: qtquick/qml/Dialog.qml:55
+#, fuzzy, kde-format
+#| msgid "Download New %1"
+msgctxt "The dialog title when we know which type of stuff is being requested"
+msgid "Download New %1"
+msgstr "下載新%1"
+
+#: qtquick/qml/Dialog.qml:55
+#, fuzzy, kde-format
+#| msgid "Download New Stuff..."
+msgctxt ""
+"A placeholder title used in the dialog when there is no better title "
+"available"
+msgid "Download New Stuff"
+msgstr "下載熱門禮物..."
 
 #: qtquick/qml/Dialog.qml:100
 #, kde-format
