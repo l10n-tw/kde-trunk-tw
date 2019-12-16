@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-10 02:33+0100\n"
+"POT-Creation-Date: 2019-12-16 02:30+0100\n"
 "PO-Revision-Date: 2019-12-12 18:57+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -2261,113 +2261,138 @@ msgstr "位置"
 msgid "What"
 msgstr "什麼"
 
-#: search/dolphinfacetswidget.cpp:38
+#: search/dolphinfacetswidget.cpp:41
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Any Type"
 msgstr "任何類型"
 
-#: search/dolphinfacetswidget.cpp:39
+#: search/dolphinfacetswidget.cpp:42
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Folders"
 msgstr "資料夾"
 
-#: search/dolphinfacetswidget.cpp:40
+#: search/dolphinfacetswidget.cpp:43
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Documents"
 msgstr "文件"
 
-#: search/dolphinfacetswidget.cpp:41
+#: search/dolphinfacetswidget.cpp:44
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Images"
 msgstr "影像"
 
-#: search/dolphinfacetswidget.cpp:42
+#: search/dolphinfacetswidget.cpp:45
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Audio Files"
 msgstr "音訊檔案"
 
-#: search/dolphinfacetswidget.cpp:43
+#: search/dolphinfacetswidget.cpp:46
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Videos"
 msgstr "影片"
 
-#: search/dolphinfacetswidget.cpp:49
+#: search/dolphinfacetswidget.cpp:52
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Any Date"
 msgstr "任何日期"
 
-#: search/dolphinfacetswidget.cpp:50
+#: search/dolphinfacetswidget.cpp:53
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Today"
 msgstr "今天"
 
-#: search/dolphinfacetswidget.cpp:51
+#: search/dolphinfacetswidget.cpp:54
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Yesterday"
 msgstr "昨天"
 
-#: search/dolphinfacetswidget.cpp:52
+#: search/dolphinfacetswidget.cpp:55
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "This Week"
 msgstr "本週"
 
-#: search/dolphinfacetswidget.cpp:53
+#: search/dolphinfacetswidget.cpp:56
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "This Month"
 msgstr "本月"
 
-#: search/dolphinfacetswidget.cpp:54
+#: search/dolphinfacetswidget.cpp:57
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "This Year"
 msgstr "今年"
 
-#: search/dolphinfacetswidget.cpp:58
+#: search/dolphinfacetswidget.cpp:61
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Any Rating"
 msgstr "任何評分"
 
-#: search/dolphinfacetswidget.cpp:59
+#: search/dolphinfacetswidget.cpp:62
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "1 or more"
 msgstr "一星以上"
 
-#: search/dolphinfacetswidget.cpp:60
+#: search/dolphinfacetswidget.cpp:63
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "2 or more"
 msgstr "兩星以上"
 
-#: search/dolphinfacetswidget.cpp:61
+#: search/dolphinfacetswidget.cpp:64
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "3 or more"
 msgstr "三星以上"
 
-#: search/dolphinfacetswidget.cpp:62
+#: search/dolphinfacetswidget.cpp:65
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "4 or more"
 msgstr "四星以上"
 
-#: search/dolphinfacetswidget.cpp:63
+#: search/dolphinfacetswidget.cpp:66
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Highest Rating"
 msgstr "最高分"
+
+#: search/dolphinfacetswidget.cpp:258
+#, fuzzy, kde-format
+#| msgctxt "separator in list of apps blocking device unmount"
+#| msgid ", "
+msgctxt "String list separator"
+msgid ", "
+msgstr "、"
+
+#: search/dolphinfacetswidget.cpp:260
+#, fuzzy, kde-format
+#| msgctxt "@item:inmenu"
+#| msgid "%1: %2"
+msgctxt "@action:button %2 is a list of tags"
+msgid "Tag: %2"
+msgid_plural "Tags: %2"
+msgstr[0] "%1: %2"
+
+#: search/dolphinfacetswidget.cpp:262
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Tags"
+msgctxt "@action:button"
+msgid "Add Tags"
+msgstr "標籤"
 
 #: search/dolphinsearchbox.cpp:114
 #, kde-format
@@ -2911,15 +2936,19 @@ msgid "Warning"
 msgstr "警告"
 
 #: settings/general/behaviorsettingspage.cpp:51
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@option:radio"
+#| msgid "Use common properties for all folders"
 msgctxt "@option:radio"
-msgid "Use common properties for all folders"
+msgid "Use common display style for all folders"
 msgstr "對每個資料夾都使用共用的屬性"
 
 #: settings/general/behaviorsettingspage.cpp:52
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@option:radio"
+#| msgid "Remember properties for each folder"
 msgctxt "@option:radio"
-msgid "Remember properties for each folder"
+msgid "Remember display style for each folder"
 msgstr "記住每個資料夾的屬性"
 
 #: settings/general/behaviorsettingspage.cpp:53
@@ -3428,8 +3457,8 @@ msgstr[0] "大小：%1 像素"
 #: settings/viewpropertiesdialog.cpp:71
 #, kde-format
 msgctxt "@title:window"
-msgid "View Properties"
-msgstr "檢視屬性"
+msgid "View Display Style"
+msgstr ""
 
 #: settings/viewpropertiesdialog.cpp:84
 #, kde-format
@@ -3978,9 +4007,11 @@ msgid ""
 msgstr ""
 
 #: views/dolphinviewactionhandler.cpp:283
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu View"
+#| msgid "Adjust View Properties..."
 msgctxt "@action:inmenu View"
-msgid "Adjust View Properties..."
+msgid "Adjust View Display Style..."
 msgstr "調整檢視屬性..."
 
 #: views/dolphinviewactionhandler.cpp:285
@@ -4134,6 +4165,10 @@ msgstr "# 會取代為遞增的數字，由此數字開始："
 msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "更新版本資訊中..."
+
+#~ msgctxt "@title:window"
+#~ msgid "View Properties"
+#~ msgstr "檢視屬性"
 
 #~ msgid "Show facets widget"
 #~ msgstr "顯示多面體元件"

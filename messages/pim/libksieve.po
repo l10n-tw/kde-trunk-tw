@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libksieve\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-16 03:00+0100\n"
+"POT-Creation-Date: 2019-12-16 03:18+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -118,8 +118,10 @@ msgstr ""
 "文稿可能內含錯誤。"
 
 #: ksieveui/autocreatescripts/autocreatescriptdialog.cpp:39
-#, kde-format
-msgid "Create sieve filter"
+#, fuzzy, kde-format
+#| msgid "Create sieve filter"
+msgctxt "@title:window"
+msgid "Create Sieve Filter"
 msgstr "建立 Sieve 過濾器"
 
 #: ksieveui/autocreatescripts/autocreatescriptutil.cpp:190
@@ -226,10 +228,12 @@ msgid "An unknown tag value \"%1\" was found during parsing action \"%2\"."
 msgstr "在剖析 \"%2\" 時找到未知的標籤值 \"%1\"。"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveaction.cpp:139
-#: ksieveui/autocreatescripts/sieveconditions/sievecondition.cpp:113
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Too many argument found for \"%1\", max value is %2, number of value "
+#| "found %3 for %4"
 msgid ""
-"Too many argument found for \"%1\", max value is %2, number of value found "
+"Too many arguments found for \"%1\", max value is %2, number of value found "
 "%3 for %4"
 msgstr "\"%1\" 找到太多參數，最大值應為 %2，%4 的值找到 %3 個"
 
@@ -884,6 +888,13 @@ msgstr "剖析條件 \"%2\" 時看到未知的標籤 \"%1\""
 #, kde-format
 msgid "An unknown tag value \"%1\" was found during parsing condition \"%2\"."
 msgstr "在剖析條件 \"%2\" 時找到未知的標籤值 \"%1\"。"
+
+#: ksieveui/autocreatescripts/sieveconditions/sievecondition.cpp:113
+#, kde-format
+msgid ""
+"Too many argument found for \"%1\", max value is %2, number of value found "
+"%3 for %4"
+msgstr "\"%1\" 找到太多參數，最大值應為 %2，%4 的值找到 %3 個"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionaddress.cpp:36
 #, kde-format
@@ -1682,7 +1693,6 @@ msgid "Bottom"
 msgstr "底端"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:146
-#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:236
 #: ksieveui/widgets/managesievewidget.cpp:244
 #: ksieveui/widgets/managesievewidget.cpp:250
 #: ksieveui/widgets/managesievewidget.cpp:265
@@ -1711,32 +1721,49 @@ msgid "Edit Script Description"
 msgstr "編輯描述..."
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:236
-#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:262
-#, kde-format
-msgid "Add new name:"
-msgstr "新增名稱："
+#, fuzzy, kde-format
+#| msgid "New Script"
+msgctxt "@title:window"
+msgid "New Script"
+msgstr "新增文稿"
+
+#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:236
+#, fuzzy, kde-format
+#| msgid "Script name:"
+msgid "New script name:"
+msgstr "文稿名稱："
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:247
 #, kde-format
 msgid "Do you want to delete \"%1\" script?"
 msgstr "您要刪除 \"%1\" 文稿嗎？"
 
-#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:247
-#, kde-format
-msgid "Delete script"
+#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:248
+#, fuzzy, kde-format
+#| msgid "Delete Script"
+msgctxt "@title:window"
+msgid "Delete Script"
 msgstr "刪除文稿"
 
-#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:262
-#, kde-format
-msgid "Rename"
-msgstr "重新命名"
+#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:263
+#, fuzzy, kde-format
+#| msgid "Save Script"
+msgctxt "@title:window"
+msgid "Rename Script"
+msgstr "儲存文稿"
 
-#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:449
+#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:263
+#, fuzzy, kde-format
+#| msgid "Please enter a name for the new Sieve script:"
+msgid "New name for the script:"
+msgstr "請輸入新過濾文稿名稱"
+
+#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:450
 #, kde-format
 msgid "forEveryPart is not supported by your server"
 msgstr "您的伺服器並未支援 forEveryPart"
 
-#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:547
+#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:548
 #, kde-format
 msgid "Script part %1"
 msgstr "文稿部件 %1"
@@ -1778,7 +1805,9 @@ msgid "Block \"Else\""
 msgstr "區塊 \"Else\""
 
 #: ksieveui/autocreatescripts/sievescriptparsingerrordialog.cpp:36
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Sieve Parsing Error"
+msgctxt "@title:window"
 msgid "Sieve Parsing Error"
 msgstr "Sieve 剖析錯誤"
 
@@ -1984,7 +2013,9 @@ msgid "*.siv;;sieve files (*.siv);;all files (*)"
 msgstr "*.siv;;sieve 檔 (*.siv);;所有檔案 (*)"
 
 #: ksieveui/editor/sieveeditorabstractwidget.cpp:75
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Import Script Sieve"
+msgctxt "@title:window"
 msgid "Import Script Sieve"
 msgstr "匯入文稿過濾器"
 
@@ -2163,24 +2194,28 @@ msgid ""
 msgstr "剖析時發現一些錯誤。<a href=\"sieveerrordetails\">（詳情...）</a>"
 
 #: ksieveui/editor/warningwidget/sieveeditorparsingmissingfeaturewarning.cpp:41
-#, kde-format
-msgid "Switch in graphical mode"
+#, fuzzy, kde-format
+#| msgid "Switch in graphical mode"
+msgid "Switch to Graphical Mode"
 msgstr "在圖形模式裡切換"
 
 #: ksieveui/editor/warningwidget/sieveeditorparsingmissingfeaturewarning.cpp:45
-#, kde-format
-msgid "Keep in text mode"
-msgstr "保持在文字模式"
+#, fuzzy, kde-format
+#| msgid "Switch in text mode"
+msgid "Stay in Text Mode"
+msgstr "在文字模式裡切換"
 
 #: ksieveui/editor/warningwidget/sieveeditorparsingmissingfeaturewarning.cpp:52
-#, kde-format
-msgid "Switch in text mode"
+#, fuzzy, kde-format
+#| msgid "Switch in text mode"
+msgid "Switch to Text Mode"
 msgstr "在文字模式裡切換"
 
 #: ksieveui/editor/warningwidget/sieveeditorparsingmissingfeaturewarning.cpp:56
-#, kde-format
-msgid "Keep in Graphical mode"
-msgstr "保持在圖形模式"
+#, fuzzy, kde-format
+#| msgid "Switch in graphical mode"
+msgid "Stay in Graphical Mode"
+msgstr "在圖形模式裡切換"
 
 #: ksieveui/editor/warningwidget/sieveeditorwarning.cpp:30
 #, kde-format
@@ -2292,8 +2327,9 @@ msgid "Script is empty. (%1)"
 msgstr "文稿是空的。"
 
 #: ksieveui/managescriptsjob/parseuserscriptjob.cpp:87
-#, kde-format
-msgid "Script parsing error"
+#, fuzzy, kde-format
+#| msgid "Script parsing error"
+msgid "Script parsing error."
 msgstr "文稿剖析錯誤"
 
 #: ksieveui/managescriptsjob/renamescriptjob.cpp:75
@@ -2380,7 +2416,9 @@ msgstr ""
 "%1"
 
 #: ksieveui/scriptsparsing/parsingresultdialog.cpp:41
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Sieve Parsing"
+msgctxt "@title:window"
 msgid "Sieve Parsing"
 msgstr "Sieve 剖析"
 
@@ -2477,7 +2515,7 @@ msgstr ""
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerfrontendwidget.cpp:159
 #, kde-format
-msgid "Impossible to open temporary file."
+msgid "Failed to open temporary file."
 msgstr ""
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerfrontendwidget.cpp:229
@@ -3095,3 +3133,18 @@ msgstr "違反站台限制政策：請求太多動作（最多 %1 個）"
 #, kde-format
 msgid "Unknown error"
 msgstr "未知的錯誤"
+
+#~ msgid "Add new name:"
+#~ msgstr "新增名稱："
+
+#~ msgid "Delete script"
+#~ msgstr "刪除文稿"
+
+#~ msgid "Rename"
+#~ msgstr "重新命名"
+
+#~ msgid "Keep in text mode"
+#~ msgstr "保持在文字模式"
+
+#~ msgid "Keep in Graphical mode"
+#~ msgstr "保持在圖形模式"
