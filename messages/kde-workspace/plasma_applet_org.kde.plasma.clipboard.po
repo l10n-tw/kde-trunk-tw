@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:26+0200\n"
+"POT-Creation-Date: 2019-12-17 03:36+0100\n"
 "PO-Revision-Date: 2019-01-04 23:25+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -65,7 +65,7 @@ msgstr "建立條碼失敗"
 msgid "Clipboard Contents"
 msgstr "剪貼簿內容"
 
-#: contents/ui/clipboard.qml:34
+#: contents/ui/clipboard.qml:34 contents/ui/ClipboardPage.qml:85
 #, kde-format
 msgid "Clipboard is empty"
 msgstr "剪貼簿是空的"
@@ -74,11 +74,6 @@ msgstr "剪貼簿是空的"
 #, kde-format
 msgid "Configure Clipboard..."
 msgstr "設定剪貼簿..."
-
-#: contents/ui/ClipboardPage.qml:85
-#, kde-format
-msgid "Clipboard history is empty."
-msgstr "剪貼簿歷史紀錄是空的"
 
 #: contents/ui/ClipboardPage.qml:94
 #, kde-format
@@ -116,3 +111,6 @@ msgctxt ""
 "Indicator that there are more urls in the clipboard than previews shown"
 msgid "+%1"
 msgstr "+%1"
+
+#~ msgid "Clipboard history is empty."
+#~ msgstr "剪貼簿歷史紀錄是空的"

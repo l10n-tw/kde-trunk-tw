@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-19 03:21+0200\n"
+"POT-Creation-Date: 2019-12-17 03:20+0100\n"
 "PO-Revision-Date: 2019-01-19 19:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -18,8 +18,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 18.12.1\n"
 
-#: notesagentalarmdialog.cpp:51 notesagentalarmdialog.cpp:220
-#, kde-format
+#: notesagentalarmdialog.cpp:51
+#, fuzzy, kde-format
+#| msgid "Alarm"
+msgctxt "@title:window"
 msgid "Alarm"
 msgstr "鬧鐘"
 
@@ -59,8 +61,15 @@ msgstr "移除鬧鐘"
 msgid "Error during fetch alarm info."
 msgstr "抓取鬧鐘資訊時發生錯誤。"
 
-#: notesagentsettingsdialog.cpp:42
+#: notesagentalarmdialog.cpp:220
 #, kde-format
+msgid "Alarm"
+msgstr "鬧鐘"
+
+#: notesagentsettingsdialog.cpp:42
+#, fuzzy, kde-format
+#| msgid "Configure Notes Agent"
+msgctxt "@title:window"
 msgid "Configure Notes Agent"
 msgstr "設定便條代理程式"
 

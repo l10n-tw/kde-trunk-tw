@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadi_imap_resource\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-06 03:25+0100\n"
+"POT-Creation-Date: 2019-12-17 03:19+0100\n"
 "PO-Revision-Date: 2018-07-10 14:33+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -88,7 +88,9 @@ msgid "IMAP Account"
 msgstr "IMAP 帳號"
 
 #: imapresource.cpp:77
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "IMAP Account Settings"
+msgctxt "@title:window"
 msgid "IMAP Account Settings"
 msgstr "IMAP 帳號設定"
 
@@ -274,7 +276,7 @@ msgstr "定義自訂的 sieve 伺服器使用的認證型態"
 msgid "No server configured yet."
 msgstr "還沒設定伺服器。"
 
-#: imapresourcebase.cpp:270
+#: imapresourcebase.cpp:270 setupserver.cpp:663
 #, kde-format
 msgctxt "@title:window"
 msgid "Serverside Subscription"
@@ -607,7 +609,9 @@ msgstr ""
 "%1"
 
 #: settingspasswordrequester.cpp:73
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Could Not Authenticate"
+msgctxt "@title:window"
 msgid "Could Not Authenticate"
 msgstr "無法認證"
 
@@ -733,11 +737,6 @@ msgstr "<qt><b>未支援任何安全性。不建議連線到此伺服器。</b><
 #, kde-format
 msgid "<qt><b>It is not possible to use this server.</b></qt>"
 msgstr "<qt><b>無法使用此伺服器。</b></qt>"
-
-#: setupserver.cpp:663
-#, kde-format
-msgid "Serverside Subscription"
-msgstr "伺服器端訂閱"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: setupserverview_desktop.ui:33
@@ -1140,3 +1139,6 @@ msgstr "搜尋："
 msgctxt "@option:check"
 msgid "Subscribed only"
 msgstr "只有訂閱的群組"
+
+#~ msgid "Serverside Subscription"
+#~ msgstr "伺服器端訂閱"

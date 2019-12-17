@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-06 03:40+0100\n"
+"POT-Creation-Date: 2019-12-17 03:36+0100\n"
 "PO-Revision-Date: 2019-11-30 17:49+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -314,58 +314,63 @@ msgstr "動作彈跳選單的逾時時間："
 msgid "Clipboard history size:"
 msgstr "剪貼簿歷史紀錄大小："
 
-#: klipper.cpp:127
+#: historyimageitem.cpp:50
+#, kde-format
+msgid "%1x%2 %3bpp"
+msgstr ""
+
+#: klipper.cpp:128
 #, kde-format
 msgid "Enable Clipboard Actions"
 msgstr "開啟剪貼簿動作"
 
-#: klipper.cpp:153
+#: klipper.cpp:154
 #, kde-format
 msgid "C&lear Clipboard History"
 msgstr "清除剪貼簿歷史紀錄(&L)"
 
-#: klipper.cpp:160
+#: klipper.cpp:161
 #, kde-format
 msgid "&Configure Klipper..."
 msgstr "剪貼簿組態設定(&C)"
 
-#: klipper.cpp:165
+#: klipper.cpp:166
 #, kde-format
 msgctxt "@item:inmenu Quit Klipper"
 msgid "&Quit"
 msgstr "離開(&Q)"
 
-#: klipper.cpp:169
+#: klipper.cpp:170
 #, kde-format
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr "手動啟動在現在剪貼簿裡的行為"
 
-#: klipper.cpp:176
+#: klipper.cpp:177
 #, kde-format
 msgid "&Edit Contents..."
 msgstr "編輯內容 (&E) ..."
 
-#: klipper.cpp:187
+#: klipper.cpp:188
 #, kde-format
 msgid "&Show Barcode..."
 msgstr "顯示條碼(&S)..."
 
-#: klipper.cpp:198
+#: klipper.cpp:199
 #, kde-format
 msgid "Next History Item"
 msgstr "下一個歷史紀錄項目"
 
-#: klipper.cpp:202
+#: klipper.cpp:203
 #, kde-format
 msgid "Previous History Item"
 msgstr "前一個歷史紀錄項目"
 
-#: klipper.cpp:208
+#: klipper.cpp:209
 #, kde-format
 msgid "Open Klipper at Mouse Position"
 msgstr "在滑鼠游標位置開啟 Klipper"
 
-#: klipper.cpp:501
+#: klipper.cpp:503
 #, kde-format
 msgid ""
 "You can enable URL actions later by left-clicking on the Klipper icon and "
@@ -373,62 +378,62 @@ msgid ""
 msgstr ""
 "您之後可以自行啟動 URL 動作。點擊 Klipper 圖示，然後選擇「開啟剪貼簿動作」"
 
-#: klipper.cpp:532
+#: klipper.cpp:534
 #, kde-format
 msgid "Should Klipper start automatically when you login?"
 msgstr "當您登入系統時 Klipper 要自動啟動嗎？"
 
-#: klipper.cpp:533
+#: klipper.cpp:535
 #, kde-format
 msgid "Automatically Start Klipper?"
 msgstr "要自動啟動 Klipper 嗎 ?"
 
-#: klipper.cpp:533
+#: klipper.cpp:535
 #, kde-format
 msgid "Start"
 msgstr "開始"
 
-#: klipper.cpp:534
+#: klipper.cpp:536
 #, kde-format
 msgid "Do Not Start"
 msgstr "不要開始"
 
-#: klipper.cpp:872
+#: klipper.cpp:882
 #, kde-format
 msgid "Edit Contents"
 msgstr "編輯內容"
 
-#: klipper.cpp:939
+#: klipper.cpp:949
 #, kde-format
 msgid "Mobile Barcode"
 msgstr "行動條碼"
 
-#: klipper.cpp:987
+#: klipper.cpp:997
 #, kde-format
 msgid "Really delete entire clipboard history?"
 msgstr "確定要刪除整個剪貼簿的歷史紀錄嗎？"
 
-#: klipper.cpp:988
+#: klipper.cpp:998
 #, kde-format
 msgid "Delete clipboard history?"
 msgstr "確定要刪除剪貼簿歷史紀錄？"
 
-#: klipper.cpp:1006 klipper.cpp:1015
+#: klipper.cpp:1015 klipper.cpp:1024
 #, kde-format
 msgid "Clipboard history"
 msgstr "剪貼簿歷史紀錄"
 
-#: klipper.cpp:1032
+#: klipper.cpp:1041
 #, kde-format
 msgid "up"
 msgstr "上"
 
-#: klipper.cpp:1039
+#: klipper.cpp:1048
 #, kde-format
 msgid "current"
 msgstr "目前"
 
-#: klipper.cpp:1046
+#: klipper.cpp:1055
 #, kde-format
 msgid "down"
 msgstr "下"

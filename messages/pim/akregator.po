@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-13 03:24+0100\n"
+"POT-Creation-Date: 2019-12-17 03:16+0100\n"
 "PO-Revision-Date: 2019-03-22 00:34+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -1476,9 +1476,10 @@ msgstr "在新分頁中開啟連結(&T)"
 msgid "Open Link in External &Browser"
 msgstr "在外部瀏覽器中開啟連結(&B)"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::AddFeedWidgetBase)
-#: src/addfeeddialog.cpp:68 src/ui/addfeedwidgetbase.ui:14
-#, kde-format
+#: src/addfeeddialog.cpp:68
+#, fuzzy, kde-format
+#| msgid "Add Feed"
+msgctxt "@title:window"
 msgid "Add Feed"
 msgstr "新增 feed"
 
@@ -1723,7 +1724,9 @@ msgid "The url %1 is not valid."
 msgstr "網址 %1 無效。"
 
 #: src/articleviewer-ng/webengine/articleviewerwebenginewidgetng.cpp:143
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Print Document"
+msgctxt "@title:window"
 msgid "Print Document"
 msgstr "列印文件"
 
@@ -1937,10 +1940,10 @@ msgid "Day"
 msgid_plural "Days"
 msgstr[0] "天"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::FeedPropertiesWidgetBase)
-#: src/feed/feedpropertiesdialog.cpp:78 src/feed/feedpropertiesdialog.cpp:133
-#: src/ui/feedpropertieswidgetbase.ui:20
-#, kde-format
+#: src/feed/feedpropertiesdialog.cpp:78
+#, fuzzy, kde-format
+#| msgid "Feed Properties"
+msgctxt "@title:window"
 msgid "Feed Properties"
 msgstr "feed 內容"
 
@@ -1961,6 +1964,12 @@ msgstr[0] " 天"
 msgid " article"
 msgid_plural " articles"
 msgstr[0] " 篇文章"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::FeedPropertiesWidgetBase)
+#: src/feed/feedpropertiesdialog.cpp:133 src/ui/feedpropertieswidgetbase.ui:20
+#, kde-format
+msgid "Feed Properties"
+msgstr "feed 內容"
 
 #: src/feed/feedpropertiesdialog.cpp:134
 #, kde-format
@@ -2295,6 +2304,12 @@ msgstr "沒有未讀文章"
 msgid "1 unread article"
 msgid_plural "%1 unread articles"
 msgstr[0] "%1 篇未讀文章"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::AddFeedWidgetBase)
+#: src/ui/addfeedwidgetbase.ui:14
+#, kde-format
+msgid "Add Feed"
+msgstr "新增 feed"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: src/ui/addfeedwidgetbase.ui:122

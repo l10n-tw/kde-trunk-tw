@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-01 03:13+0200\n"
+"POT-Creation-Date: 2019-12-17 03:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -19,6 +19,7 @@ msgstr ""
 
 #: markdown/markdownlib/markdownconfiguredialog.cpp:29
 #, kde-format
+msgctxt "@title:window"
 msgid "Configure Markdown Plugin"
 msgstr ""
 
@@ -38,8 +39,8 @@ msgid "Failed to compile the Markdown document."
 msgstr ""
 
 #: markdown/markdownlib/markdowncreateimagedialog.cpp:32
-#: markdown/plugin/markdowninterface.cpp:97
 #, kde-format
+msgctxt "@title:window"
 msgid "Add Image"
 msgstr ""
 
@@ -81,8 +82,8 @@ msgid "Height:"
 msgstr ""
 
 #: markdown/markdownlib/markdowncreatelinkdialog.cpp:32
-#: markdown/plugin/markdowninterface.cpp:96
 #, kde-format
+msgctxt "@title:window"
 msgid "Add Link"
 msgstr ""
 
@@ -93,6 +94,7 @@ msgstr ""
 
 #: markdown/markdownlib/markdownpreviewdialog.cpp:31
 #, kde-format
+msgctxt "@title:window"
 msgid "Markdown Rendering Preview"
 msgstr ""
 
@@ -150,4 +152,14 @@ msgstr ""
 #: markdown/plugin/markdowninterface.cpp:93
 #, kde-format
 msgid "Change Selected Text as Block Quote"
+msgstr ""
+
+#: markdown/plugin/markdowninterface.cpp:96
+#, kde-format
+msgid "Add Link"
+msgstr ""
+
+#: markdown/plugin/markdowninterface.cpp:97
+#, kde-format
+msgid "Add Image"
 msgstr ""

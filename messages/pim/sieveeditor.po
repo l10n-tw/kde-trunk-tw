@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-19 03:22+0200\n"
+"POT-Creation-Date: 2019-12-17 03:23+0100\n"
 "PO-Revision-Date: 2019-01-19 19:51+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -69,7 +69,9 @@ msgid "Please select the program from which you like to import IMAP settings:"
 msgstr "請選擇您要匯入 IMAP 設定的程式："
 
 #: importwizard/importimapsettingwizard.cpp:39
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Import IMAP Settings"
+msgctxt "@title:window"
 msgid "Import IMAP Settings"
 msgstr "匯入 IMAP 設定"
 
@@ -114,7 +116,9 @@ msgid "Maintainer"
 msgstr "維護者"
 
 #: serversievelistwidget.cpp:73
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Modify Settings"
+msgctxt "@title:window"
 msgid "Modify Settings"
 msgstr "變更設定"
 
@@ -182,7 +186,9 @@ msgid "Add Sieve Server"
 msgstr "新增過濾伺服器"
 
 #: sieveeditorconfiguredialog.cpp:38
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure"
+msgctxt "@title:window"
 msgid "Configure"
 msgstr "設定"
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-11 03:24+0100\n"
+"POT-Creation-Date: 2019-12-17 03:18+0100\n"
 "PO-Revision-Date: 2018-09-16 22:19+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -109,7 +109,7 @@ msgid "Add"
 msgstr "新增"
 
 #. i18n: ectx: property (text), widget (QPushButton, searchButton)
-#: configdialog.ui:196 searchdialog.cpp:39 searchdialog.ui:151
+#: configdialog.ui:196 searchdialog.ui:151
 #, kde-format
 msgid "Search"
 msgstr "搜尋"
@@ -439,6 +439,13 @@ msgstr "WebAccouts 框架的帳號。"
 msgid "Account enabled services"
 msgstr "帳號開通服務"
 
+#: searchdialog.cpp:39
+#, fuzzy, kde-format
+#| msgid "Search"
+msgctxt "@title:window"
+msgid "Search"
+msgstr "搜尋"
+
 #: searchdialog.cpp:54
 #, kde-format
 msgid "Add Selected Items"
@@ -518,7 +525,9 @@ msgid "Password: "
 msgstr "密碼："
 
 #: setupwizard.cpp:151
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "DAV groupware configuration wizard"
+msgctxt "@title:window"
 msgid "DAV groupware configuration wizard"
 msgstr "DAV 群組設定精靈"
 
@@ -702,17 +711,17 @@ msgstr "發現的收藏"
 msgid "Fetch"
 msgstr "抓取"
 
-#: utils.cpp:59 utils.cpp:76
+#: utils.cpp:60 utils.cpp:77
 #, kde-format
 msgid "CalDav"
 msgstr "CalDav"
 
-#: utils.cpp:62 utils.cpp:78
+#: utils.cpp:63 utils.cpp:79
 #, kde-format
 msgid "CardDav"
 msgstr "CardDav"
 
-#: utils.cpp:65 utils.cpp:80
+#: utils.cpp:66 utils.cpp:81
 #, kde-format
 msgid "GroupDav"
 msgstr "GroupDav"

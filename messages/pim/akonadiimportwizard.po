@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:14+0200\n"
+"POT-Creation-Date: 2019-12-17 03:15+0100\n"
 "PO-Revision-Date: 2018-03-25 17:54+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -33,8 +33,10 @@ msgstr "franklin@goodhorse.idv.tw"
 msgid "No program found."
 msgstr "找不到程式。"
 
-#: importwizard.cpp:54 main.cpp:48 main.cpp:50
-#, kde-format
+#: importwizard.cpp:54
+#, fuzzy, kde-format
+#| msgid "PIM Import Tool"
+msgctxt "@title:window"
 msgid "PIM Import Tool"
 msgstr "個人資訊管理匯入工具"
 
@@ -174,7 +176,9 @@ msgid "Creating new contact..."
 msgstr "建立新聯絡人..."
 
 #: libimportwizard/abstractaddressbook.cpp:49
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Select Address Book"
+msgctxt "@title:window"
 msgid "Select Address Book"
 msgstr "選擇通訊錄"
 
@@ -238,6 +242,11 @@ msgstr "設定郵件傳遞帳號中..."
 #, kde-format
 msgid "Transport set up."
 msgstr "郵件傳遞帳號已設定。"
+
+#: main.cpp:48 main.cpp:50
+#, kde-format
+msgid "PIM Import Tool"
+msgstr "個人資訊管理匯入工具"
 
 #: main.cpp:52
 #, kde-format

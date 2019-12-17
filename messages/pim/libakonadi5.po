@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libakonadi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-10 03:23+0100\n"
+"POT-Creation-Date: 2019-12-17 03:14+0100\n"
 "PO-Revision-Date: 2018-03-29 13:00+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -954,7 +954,9 @@ msgid "Open collection dialog"
 msgstr "開啟收藏對話框"
 
 #: widgets/collectionrequester.cpp:149
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Select a collection"
+msgctxt "@title:window"
 msgid "Select a collection"
 msgstr "選擇一個收藏"
 
@@ -1190,7 +1192,9 @@ msgid "Default Name"
 msgstr "預設名稱"
 
 #: widgets/selftestdialog.cpp:74
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Akonadi Server Self-Test"
+msgctxt "@title:window"
 msgid "Akonadi Server Self-Test"
 msgstr "Akonadi 伺服器自我測試"
 
@@ -2274,7 +2278,9 @@ msgid "Copy to This Folder"
 msgstr "複製到此資料夾"
 
 #: widgets/subscriptiondialog.cpp:161
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Local Subscriptions"
+msgctxt "@title:window"
 msgid "Local Subscriptions"
 msgstr "本地端的訂閱"
 

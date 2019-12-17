@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcontactmanager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-10 02:58+0200\n"
+"POT-Creation-Date: 2019-12-17 03:17+0100\n"
 "PO-Revision-Date: 2018-12-21 19:36+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -520,7 +520,9 @@ msgid "LDif Files (*.ldif)"
 msgstr "LDif 檔案 (*.ldif)"
 
 #: shared/importexportengine.cpp:71
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Select Address Book"
+msgctxt "@title:window"
 msgid "Select Address Book"
 msgstr "選擇通訊錄"
 
@@ -530,7 +532,9 @@ msgid "Select the address book the imported contact(s) shall be saved in:"
 msgstr "選擇匯入的聯絡人要儲存到哪個通訊錄："
 
 #: shared/importexportengine.cpp:88
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Import Contacts"
+msgctxt "@title:window"
 msgid "Import Contacts"
 msgstr "匯入聯絡人"
 

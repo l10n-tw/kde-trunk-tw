@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkpimtextedit\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-02 03:22+0100\n"
+"POT-Creation-Date: 2019-12-17 03:21+0100\n"
 "PO-Revision-Date: 2013-05-20 17:22+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -20,6 +20,7 @@ msgstr ""
 
 #: composer-ng/klinkdialog.cpp:38
 #, kde-format
+msgctxt "@title:window"
 msgid "Manage Link"
 msgstr ""
 
@@ -279,7 +280,7 @@ msgstr "選擇特殊字元"
 msgid "Paste Without Formatting"
 msgstr ""
 
-#: composer-ng/richtextcomposeractions.cpp:405 insertimagewidget.cpp:65
+#: composer-ng/richtextcomposeractions.cpp:405
 #, kde-format
 msgid "Add Image"
 msgstr "新增影像"
@@ -582,7 +583,9 @@ msgid "Insert"
 msgstr "插入"
 
 #: insertimagedialog.cpp:39
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Insert Image"
+msgctxt "@title:window"
 msgid "Insert Image"
 msgstr "插入影像"
 
@@ -596,6 +599,13 @@ msgstr "插入"
 #, kde-format
 msgid "Image Location:"
 msgstr "影像位置："
+
+#: insertimagewidget.cpp:65
+#, fuzzy, kde-format
+#| msgid "Add Image"
+msgctxt "@title:window"
+msgid "Add Image"
+msgstr "新增影像"
 
 #: insertimagewidget.cpp:77
 #, kde-format
@@ -628,7 +638,9 @@ msgid "Image Preview:"
 msgstr "影像預覽："
 
 #: inserttabledialog.cpp:39
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Insert Table"
+msgctxt "@title:window"
 msgid "Insert Table"
 msgstr "插入表格"
 
@@ -658,7 +670,9 @@ msgid "pixels"
 msgstr "像素"
 
 #: selectspecialchardialog.cpp:36
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Select Special Characters"
+msgctxt "@title:window"
 msgid "Select Special Characters"
 msgstr "選擇特殊字元"
 
@@ -728,7 +742,9 @@ msgid "Table Cell Format..."
 msgstr "表格儲存格格式..."
 
 #: tablecellformatdialog.cpp:41
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Cell Format"
+msgctxt "@title:window"
 msgid "Cell Format"
 msgstr "儲存格格式"
 
@@ -758,7 +774,9 @@ msgid "Background Color:"
 msgstr "背景顏色："
 
 #: tableformatdialog.cpp:44
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Table Format"
+msgctxt "@title:window"
 msgid "Table Format"
 msgstr "表格格式"
 
@@ -984,6 +1002,7 @@ msgstr ""
 
 #: texttospeech/texttospeechconfigdialog.cpp:35
 #, kde-format
+msgctxt "@title:window"
 msgid "Configure Text-To-Speech"
 msgstr ""
 

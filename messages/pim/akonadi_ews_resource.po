@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-runtime\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-01 03:23+0100\n"
+"POT-Creation-Date: 2019-12-17 03:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -53,6 +53,7 @@ msgstr ""
 
 #: ewsconfigdialog.cpp:86
 #, kde-format
+msgctxt "@title:window"
 msgid "Microsoft Exchange Configuration"
 msgstr ""
 
@@ -131,7 +132,7 @@ msgid ""
 "still want to save your settings?"
 msgstr ""
 
-#: ewsconfigdialog.cpp:348 ewsprogressdialog.cpp:61
+#: ewsconfigdialog.cpp:348
 #, kde-format
 msgid "Exchange server autodiscovery"
 msgstr ""
@@ -580,6 +581,7 @@ msgstr ""
 
 #: ewsmtaconfigdialog.cpp:58
 #, kde-format
+msgctxt "@title:window"
 msgid "Microsoft Exchange Mail Transport Configuration"
 msgstr ""
 
@@ -618,6 +620,12 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
+#: ewsprogressdialog.cpp:61
+#, kde-format
+msgctxt "@title:window"
+msgid "Exchange server autodiscovery"
+msgstr ""
+
 #: ewsprogressdialog.cpp:62
 #, kde-format
 msgid "Performing Microsoft Exchange server autodiscovery..."
@@ -625,6 +633,7 @@ msgstr ""
 
 #: ewsprogressdialog.cpp:65
 #, kde-format
+msgctxt "@title:window"
 msgid "Connecting to Exchange"
 msgstr ""
 

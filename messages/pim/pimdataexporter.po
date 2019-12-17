@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-05 03:24+0100\n"
+"POT-Creation-Date: 2019-12-17 03:23+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -637,7 +637,9 @@ msgid "Data"
 msgstr "資料"
 
 #: gui/dialog/backupfilestructureinfodialog.cpp:41
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Archive File Structure"
+msgctxt "@title:window"
 msgid "Archive File Structure"
 msgstr "封存檔案結構"
 
@@ -654,11 +656,14 @@ msgstr "找不到 backup-structure.txt 檔。"
 #: gui/dialog/pimdataexporterconfiguredialog.cpp:30
 #, fuzzy, kde-format
 #| msgid "PIM Setting Exporter"
+msgctxt "@title:window"
 msgid "Configure PimDataExporter"
 msgstr "PIM 設定匯出器"
 
 #: gui/dialog/selectiontypedialog.cpp:35
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Select Type"
+msgctxt "@title:window"
 msgid "Select Type"
 msgstr "選擇型態"
 
@@ -690,7 +695,9 @@ msgid "Load Template..."
 msgstr "載入樣本..."
 
 #: gui/dialog/showarchivestructuredialog.cpp:46
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show Archive Content on file \"%1\""
+msgctxt "@title:window"
 msgid "Show Archive Content on file \"%1\""
 msgstr "顯示檔案 \"%1\" 的封存內容"
 
@@ -773,6 +780,7 @@ msgstr "顯示資訊"
 #: gui/dialog/synchronizeresourcedialog.cpp:35
 #, fuzzy, kde-format
 #| msgid "Resources"
+msgctxt "@title:window"
 msgid "Synchronize Resources"
 msgstr "資源"
 
@@ -819,6 +827,7 @@ msgstr "目錄 \"%1\" 已存在。您要覆寫它嗎？"
 #: gui/job/fullsynchronizeresourcesjob.cpp:56
 #, fuzzy, kde-format
 #| msgid "Resources"
+msgctxt "@title:window"
 msgid "Synchronize resources"
 msgstr "資源"
 

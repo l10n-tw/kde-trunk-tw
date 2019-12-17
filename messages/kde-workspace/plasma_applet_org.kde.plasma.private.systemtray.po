@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-03 03:44+0100\n"
+"POT-Creation-Date: 2019-12-17 03:36+0100\n"
 "PO-Revision-Date: 2018-12-15 14:07+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -29,38 +29,38 @@ msgstr "一般"
 msgid "Entries"
 msgstr "項目"
 
-#: package/contents/ui/ConfigEntries.qml:69
+#: package/contents/ui/ConfigEntries.qml:48
 #, kde-format
 msgid "Always show all entries"
 msgstr "總是顯示所有項目"
 
-#: package/contents/ui/ConfigEntries.qml:144
+#: package/contents/ui/ConfigEntries.qml:113
 #, kde-format
 msgctxt "Name of the system tray entry"
 msgid "Entry"
 msgstr "項目"
 
-#: package/contents/ui/ConfigEntries.qml:171
+#: package/contents/ui/ConfigEntries.qml:140
 #, kde-format
 msgid "Visibility"
 msgstr "可見度"
 
-#: package/contents/ui/ConfigEntries.qml:225
+#: package/contents/ui/ConfigEntries.qml:194
 #, kde-format
 msgid "Auto"
 msgstr "自動"
 
-#: package/contents/ui/ConfigEntries.qml:225
+#: package/contents/ui/ConfigEntries.qml:194
 #, kde-format
 msgid "Shown"
 msgstr "已顯示"
 
-#: package/contents/ui/ConfigEntries.qml:225
+#: package/contents/ui/ConfigEntries.qml:194
 #, kde-format
 msgid "Hidden"
 msgstr "已隱藏"
 
-#: package/contents/ui/ConfigEntries.qml:231
+#: package/contents/ui/ConfigEntries.qml:200
 #, kde-format
 msgid "Keyboard Shortcut"
 msgstr "鍵盤捷徑"
@@ -120,7 +120,7 @@ msgstr "關閉彈出式視窗"
 msgid "Show hidden icons"
 msgstr "顯示隱藏圖示"
 
-#: systemtray.cpp:455
+#: systemtraymodel.cpp:44
 #, kde-format
 msgid " (Automatic load)"
 msgstr "（自動載入）"

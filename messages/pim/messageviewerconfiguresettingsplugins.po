@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-13 03:26+0100\n"
+"POT-Creation-Date: 2019-12-17 03:18+0100\n"
 "PO-Revision-Date: 2019-03-22 00:33+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -60,6 +60,7 @@ msgstr ""
 
 #: dkim-verify/dkimauthenticationverifiedserverdialog.cpp:36
 #, kde-format
+msgctxt "@title:window"
 msgid "Configure Authentication Verified Server"
 msgstr ""
 
@@ -71,6 +72,7 @@ msgstr ""
 #: dkim-verify/dkimconfiguredialog.cpp:36
 #, fuzzy, kde-format
 #| msgid "Configure Gravatar"
+msgctxt "@title:window"
 msgid "Configure DKIM"
 msgstr "設定大頭貼"
 
@@ -143,6 +145,7 @@ msgstr ""
 #: dkim-verify/dkimmanagerulesdialog.cpp:36
 #, fuzzy, kde-format
 #| msgid "Configure Gravatar"
+msgctxt "@title:window"
 msgid "Configure Rule"
 msgstr "設定大頭貼"
 
@@ -248,6 +251,7 @@ msgstr ""
 
 #: dkim-verify/dkimruledialog.cpp:39
 #, kde-format
+msgctxt "@title:window"
 msgid "Add Rule"
 msgstr ""
 
@@ -273,6 +277,7 @@ msgstr ""
 
 #: dkim-verify/dkimruledialog.cpp:108
 #, kde-format
+msgctxt "@title:window"
 msgid "Modify Rule"
 msgstr ""
 
@@ -312,7 +317,9 @@ msgid "Rule:"
 msgstr ""
 
 #: gravatar/gravatarconfiguresettingsplugindialog.cpp:27
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure Gravatar"
+msgctxt "@title:window"
 msgid "Configure Gravatar"
 msgstr "設定大頭貼"
 

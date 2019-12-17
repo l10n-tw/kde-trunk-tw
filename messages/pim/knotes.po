@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-15 03:21+0100\n"
+"POT-Creation-Date: 2019-12-17 03:20+0100\n"
 "PO-Revision-Date: 2019-01-19 19:51+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -429,18 +429,24 @@ msgid "Notes"
 msgstr "便條紙"
 
 #: dialog/knotedeleteselectednotesdialog.cpp:32
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Select notes to delete"
+msgctxt "@title:window"
 msgid "Select notes to delete"
 msgstr "選擇要刪除的便條"
 
 #: dialog/knoteselectednotesdialog.cpp:34
 #: print/knoteprintselectednotesdialog.cpp:41
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Select notes"
+msgctxt "@title:window"
 msgid "Select notes"
 msgstr "選擇便條"
 
 #: dialog/knoteskeydialog.cpp:33
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure Shortcuts"
+msgctxt "@title:window"
 msgid "Configure Shortcuts"
 msgstr "設定快速鍵"
 
@@ -759,7 +765,7 @@ msgstr "豐富文字樣式 (*.html)"
 msgid "Plain text (*.txt)"
 msgstr "純文字 (*.txt)"
 
-#: kontactplugin/knotes_part.cpp:747 notes/knote.cpp:517
+#: kontactplugin/knotes_part.cpp:747
 #, kde-format
 msgid "Save As"
 msgstr "另存新檔"
@@ -964,6 +970,13 @@ msgstr "請輸入新標題:"
 msgid "Save note as plain text"
 msgstr "存成純文字檔"
 
+#: notes/knote.cpp:517
+#, fuzzy, kde-format
+#| msgid "Save As"
+msgctxt "@title:window"
+msgid "Save As"
+msgstr "另存新檔"
+
 #: notes/knote.cpp:640
 #, kde-format
 msgid "&All Desktops"
@@ -1056,7 +1069,9 @@ msgid "Print"
 msgstr "列印"
 
 #: print/knoteprintselectthemedialog.cpp:34
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Select theme"
+msgctxt "@title:window"
 msgid "Select theme"
 msgstr "選擇主題"
 

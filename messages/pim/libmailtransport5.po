@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmailtransport\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-19 03:20+0200\n"
+"POT-Creation-Date: 2019-12-17 03:20+0100\n"
 "PO-Revision-Date: 2019-03-22 00:54+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -265,7 +265,9 @@ msgid "An SMTP server on the Internet"
 msgstr "網際網路上的 SMTP 伺服器"
 
 #: kmailtransport/plugins/smtp/smtpmailtransportplugin.cpp:53
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure account"
+msgctxt "@title:window"
 msgid "Configure account"
 msgstr "設定帳號"
 
@@ -618,7 +620,9 @@ msgid "&Modify..."
 msgstr "變更(&M)..."
 
 #: kmailtransport/widgets/addtransportdialogng.cpp:107
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Create Outgoing Account"
+msgctxt "@title:window"
 msgid "Create Outgoing Account"
 msgstr "建立外送帳號"
 

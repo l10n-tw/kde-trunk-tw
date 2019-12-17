@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail_text_calendar_plugin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-22 03:03+0200\n"
+"POT-Creation-Date: 2019-12-17 03:18+0100\n"
 "PO-Revision-Date: 2019-03-22 00:38+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -20,7 +20,9 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: attendeeselector.cpp:35
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Select Attendees"
+msgctxt "@title:window"
 msgid "Select Attendees"
 msgstr "選擇參加者"
 
@@ -42,7 +44,9 @@ msgid "Remove"
 msgstr "移除"
 
 #: delegateselector.cpp:36
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Select delegate"
+msgctxt "@title:window"
 msgid "Select delegate"
 msgstr "選擇委託"
 
@@ -307,7 +311,9 @@ msgstr ""
 "%2"
 
 #: text_calendar.cpp:886
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Reaction to Invitation"
+msgctxt "@title:window"
 msgid "Reaction to Invitation"
 msgstr "邀請的反應"
 
@@ -327,7 +333,9 @@ msgid "Save Invitation Attachment"
 msgstr "儲存邀請附加檔"
 
 #: text_calendar.cpp:1137
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Decline Counter Proposal"
+msgctxt "@title:window"
 msgid "Decline Counter Proposal"
 msgstr "拒絕反提案"
 

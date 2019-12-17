@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontact\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-26 03:23+0100\n"
+"POT-Creation-Date: 2019-12-17 03:20+0100\n"
 "PO-Revision-Date: 2019-03-22 00:34+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -50,7 +50,9 @@ msgid "Loading Kontact ..."
 msgstr "載入 Kontact 中..."
 
 #: src/aboutdialog.cpp:48
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "About Kontact"
+msgctxt "@title:window"
 msgid "About Kontact"
 msgstr "關於 Kontact"
 

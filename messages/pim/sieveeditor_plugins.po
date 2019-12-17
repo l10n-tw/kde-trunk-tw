@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-22 02:58+0200\n"
+"POT-Creation-Date: 2019-12-17 03:18+0100\n"
 "PO-Revision-Date: 2019-01-19 19:39+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -29,8 +29,15 @@ msgstr "點擊按鈕以選取聯絡人…"
 msgid "..."
 msgstr "…"
 
-#: emaillineedit/emaillineedit.cpp:53 emaillineedit/emaillineedit.cpp:101
+#: emaillineedit/emaillineedit.cpp:53
 #, kde-format
+msgid "Select Emails"
+msgstr "選擇 Email"
+
+#: emaillineedit/emaillineedit.cpp:101
+#, fuzzy, kde-format
+#| msgid "Select Emails"
+msgctxt "@title:window"
 msgid "Select Emails"
 msgstr "選擇 Email"
 
@@ -48,8 +55,9 @@ msgid "Create Folder"
 msgstr "建立資料夾"
 
 #: imapfoldercompletion/selectimapfolderdialog.cpp:34
-#: imapfoldercompletion/selectimapwidget.cpp:45
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Select IMAP folder"
+msgctxt "@title:window"
 msgid "Select IMAP folder"
 msgstr "選擇 IMAP 資料夾"
 
@@ -102,6 +110,11 @@ msgstr "載入資料夾時發生錯誤：%1"
 #, kde-format
 msgid "Load Folders"
 msgstr "載入資料夾"
+
+#: imapfoldercompletion/selectimapwidget.cpp:45
+#, kde-format
+msgid "Select IMAP folder"
+msgstr "選擇 IMAP 資料夾"
 
 #: imapfoldercompletion/selectimapwidget.cpp:72
 #, kde-format

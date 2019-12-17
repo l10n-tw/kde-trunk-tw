@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-01 03:25+0100\n"
+"POT-Creation-Date: 2019-12-17 03:21+0100\n"
 "PO-Revision-Date: 2015-06-14 13:34+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -888,7 +888,9 @@ msgid "Serverside Subscription..."
 msgstr ""
 
 #: akonadicollectionview.cpp:752
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Calendar"
+msgctxt "@title:window"
 msgid "Add Calendar"
 msgstr "新增行事曆"
 
@@ -1529,7 +1531,9 @@ msgid "Delete Filter?"
 msgstr "要刪除過濾器嗎？"
 
 #: dialog/koeventviewerdialog.cpp:48
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Event Viewer"
+msgctxt "@title:window"
 msgid "Event Viewer"
 msgstr "事件檢視器"
 
@@ -1577,7 +1581,9 @@ msgid "Text:"
 msgstr "文字："
 
 #: dialog/searchdialog.cpp:54
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Search Calendar"
+msgctxt "@title:window"
 msgid "Search Calendar"
 msgstr "搜尋行事曆"
 
@@ -5284,7 +5290,9 @@ msgid "Agenda %1"
 msgstr "行程 %1"
 
 #: views/multiagendaview/multiagendaview.cpp:325
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure Side-By-Side View"
+msgctxt "@title:window"
 msgid "Configure Side-By-Side View"
 msgstr "設定並排檢視"
 

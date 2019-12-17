@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-12 03:18+0100\n"
+"POT-Creation-Date: 2019-12-17 03:22+0100\n"
 "PO-Revision-Date: 2015-02-16 23:21+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -409,7 +409,9 @@ msgid "class %1"
 msgstr ""
 
 #: ui/auditlogviewer.cpp:49
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "View GnuPG Audit Log"
+msgctxt "@title:window"
 msgid "View GnuPG Audit Log"
 msgstr "檢視 GnuPG 稽核紀錄"
 
@@ -439,7 +441,9 @@ msgid "File Save Error"
 msgstr "檔案儲存錯誤"
 
 #: ui/cryptoconfigdialog.cpp:45
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure GnuPG Backend"
+msgctxt "@title:window"
 msgid "Configure GnuPG Backend"
 msgstr "設定 GnuPG 後端介面"
 
@@ -524,7 +528,9 @@ msgid "Edit..."
 msgstr "編輯..."
 
 #: ui/cryptoconfigmodule.cpp:834
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure LDAP Servers"
+msgctxt "@title:window"
 msgid "Configure LDAP Servers"
 msgstr "設定 LDAP 伺服器"
 
@@ -546,7 +552,9 @@ msgid "Use keyserver at"
 msgstr "使用金鑰伺服器："
 
 #: ui/cryptoconfigmodule.cpp:961
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure Keyservers"
+msgctxt "@title:window"
 msgid "Configure Keyservers"
 msgstr "設定金鑰伺服器"
 
@@ -836,7 +844,9 @@ msgid "Ask Whenever Encryption is Possible"
 msgstr "當可加密時先詢問"
 
 #: ui/keyapprovaldialog.cpp:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Encryption Key Approval"
+msgctxt "@title:window"
 msgid "Encryption Key Approval"
 msgstr "加密金鑰確認"
 
@@ -1263,6 +1273,7 @@ msgstr ""
 #: ui/newkeyapprovaldialog.cpp:267
 #, fuzzy, kde-format
 #| msgid "Encryption Key Approval"
+msgctxt "@title:window"
 msgid "Security approval"
 msgstr "加密金鑰確認"
 
@@ -1280,6 +1291,7 @@ msgstr ""
 #: ui/newkeyapprovaldialog.cpp:329
 #, fuzzy, kde-format
 #| msgid "Key Selection"
+msgctxt "@title:window"
 msgid "Key generation"
 msgstr "選擇金鑰"
 

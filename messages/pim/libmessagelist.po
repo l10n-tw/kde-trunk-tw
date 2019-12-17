@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-13 03:29+0100\n"
+"POT-Creation-Date: 2019-12-17 03:23+0100\n"
 "PO-Revision-Date: 2015-06-14 13:27+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -1354,7 +1354,9 @@ msgid "Fill view strategy:"
 msgstr "填入檢視策略："
 
 #: utils/configureaggregationsdialog.cpp:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Customize Message Aggregation Modes"
+msgctxt "@title:window"
 msgid "Customize Message Aggregation Modes"
 msgstr "自訂信件集合模式"
 
@@ -1407,7 +1409,9 @@ msgid "Export Aggregation"
 msgstr "匯出集合模式"
 
 #: utils/configurethemesdialog.cpp:106
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Customize Themes"
+msgctxt "@title:window"
 msgid "Customize Themes"
 msgstr "自訂主題"
 

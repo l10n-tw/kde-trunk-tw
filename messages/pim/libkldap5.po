@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkldap\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-06 03:26+0100\n"
+"POT-Creation-Date: 2019-12-17 03:19+0100\n"
 "PO-Revision-Date: 2019-03-22 00:44+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -165,7 +165,9 @@ msgid "Check server"
 msgstr "檢查伺服器"
 
 #: ldapconfigwidget.cpp:383
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "LDAP Query"
+msgctxt "@title:window"
 msgid "LDAP Query"
 msgstr "LDAP 查詢"
 
