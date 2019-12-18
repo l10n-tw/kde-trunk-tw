@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-10 03:19+0100\n"
+"POT-Creation-Date: 2019-12-18 03:19+0100\n"
 "PO-Revision-Date: 2019-08-09 03:23+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,6 +17,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: qml/BackendPage.qml:26 qml/main.qml:56
+#, kde-format
+msgid "Providers"
+msgstr ""
+
+#: qml/BackendPage.qml:29
+#, kde-format
+msgid "Select the providers relevant for your area"
+msgstr ""
+
+#: qml/BackendPage.qml:34
+#, kde-format
+msgid "Save"
+msgstr ""
 
 #: qml/ConnectionDetailsPage.qml:30
 #, kde-format
@@ -83,13 +98,13 @@ msgctxt "@action:button"
 msgid "Later"
 msgstr ""
 
-#: qml/DatePickerButton.qml:57 qml/TimePickerButton.qml:55
+#: qml/DatePickerButton.qml:55 qml/TimePickerButton.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
 msgstr ""
 
-#: qml/DatePickerButton.qml:62 qml/TimePickerButton.qml:60
+#: qml/DatePickerButton.qml:60 qml/TimePickerButton.qml:59
 #, kde-format
 msgctxt "@action:button"
 msgid "Accept"
@@ -168,12 +183,12 @@ msgctxt "@title"
 msgid "Search for Destination Location"
 msgstr ""
 
-#: qml/main.qml:36
+#: qml/main.qml:45
 #, kde-format
 msgid "Journey"
 msgstr ""
 
-#: qml/main.qml:40
+#: qml/main.qml:49
 #, kde-format
 msgid "Departures"
 msgstr ""

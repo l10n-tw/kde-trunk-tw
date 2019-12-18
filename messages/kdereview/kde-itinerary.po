@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-17 03:11+0100\n"
+"POT-Creation-Date: 2019-12-18 03:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: app/AboutPage.qml:26 app/main.qml:87
+#: app/AboutPage.qml:26 app/main.qml:88
 #, kde-format
 msgid "About"
 msgstr ""
@@ -707,37 +707,37 @@ msgstr ""
 msgid "PDF files (*.pdf)"
 msgstr ""
 
-#: app/main.qml:46
+#: app/main.qml:47
 #, kde-format
 msgid "Import..."
 msgstr ""
 
-#: app/main.qml:51
+#: app/main.qml:52
 #, kde-format
 msgid "Paste"
 msgstr ""
 
-#: app/main.qml:57
+#: app/main.qml:58
 #, kde-format
 msgid "Check Calendar"
 msgstr ""
 
-#: app/main.qml:63
+#: app/main.qml:64
 #, kde-format
 msgid "Check for Updates"
 msgstr ""
 
-#: app/main.qml:70 app/StatisticsPage.qml:27
+#: app/main.qml:71 app/StatisticsPage.qml:27
 #, kde-format
 msgid "Statistics"
 msgstr ""
 
-#: app/main.qml:76
+#: app/main.qml:77
 #, kde-format
 msgid "Settings..."
 msgstr ""
 
-#: app/main.qml:81
+#: app/main.qml:82
 #, kde-format
 msgid "Export..."
 msgstr ""
@@ -813,44 +813,49 @@ msgstr ""
 msgid "Party size:"
 msgstr ""
 
-#: app/SettingsPage.qml:27
+#: app/SettingsPage.qml:28
 #, kde-format
 msgid "Settings"
 msgstr ""
 
-#: app/SettingsPage.qml:45
+#: app/SettingsPage.qml:40 app/SettingsPage.qml:71
+#, kde-format
+msgid "Pick Home Location"
+msgstr ""
+
+#: app/SettingsPage.qml:58 app/transfermanager.cpp:149
 #, kde-format
 msgid "Home"
 msgstr ""
 
-#: app/SettingsPage.qml:49
+#: app/SettingsPage.qml:62
 #, kde-format
 msgid "Home Country"
 msgstr ""
 
-#: app/SettingsPage.qml:58
+#: app/SettingsPage.qml:78
 #, kde-format
 msgid "Online Services"
 msgstr ""
 
-#: app/SettingsPage.qml:62
+#: app/SettingsPage.qml:82
 #, kde-format
 msgid "Query Traffic Data"
 msgstr ""
 
-#: app/SettingsPage.qml:70
+#: app/SettingsPage.qml:90
 #, kde-format
 msgid ""
 "When enabled, this will query transport provider online services for changes "
 "such as delays or gate and platform changes."
 msgstr ""
 
-#: app/SettingsPage.qml:73
+#: app/SettingsPage.qml:93
 #, kde-format
 msgid "Use insecure services"
 msgstr ""
 
-#: app/SettingsPage.qml:81
+#: app/SettingsPage.qml:101
 #, kde-format
 msgid ""
 "Enabling this will also use online services that do not offer transport "
@@ -858,22 +863,22 @@ msgid ""
 "on live data from certain providers."
 msgstr ""
 
-#: app/SettingsPage.qml:86
+#: app/SettingsPage.qml:106
 #, kde-format
 msgid "Public Transport Information Sources..."
 msgstr ""
 
-#: app/SettingsPage.qml:93 app/WeatherForecastPage.qml:29
+#: app/SettingsPage.qml:113 app/WeatherForecastPage.qml:29
 #, kde-format
 msgid "Weather Forecast"
 msgstr ""
 
-#: app/SettingsPage.qml:101
+#: app/SettingsPage.qml:121
 #, kde-format
 msgid "Showing weather forecasts will query online services."
 msgstr ""
 
-#: app/SettingsPage.qml:108
+#: app/SettingsPage.qml:128
 #, kde-format
 msgid ""
 "Using data from <a href=\"https://www.met.no/\">The Norwegian Meteorological "
@@ -1045,7 +1050,7 @@ msgstr ""
 msgid "Arrival time:"
 msgstr ""
 
-#: app/TransferDelegate.qml:64
+#: app/TransferDelegate.qml:64 app/TransferDelegate.qml:71
 #, kde-format
 msgid "Select..."
 msgstr ""
@@ -1109,7 +1114,7 @@ msgstr ""
 
 #: app/tripgroupmanager.cpp:584
 #, kde-format
-msgid "%1 (%3/%4)"
+msgid "%1 (%2/%3)"
 msgstr ""
 
 #: app/WeatherForecastDelegate.qml:56
