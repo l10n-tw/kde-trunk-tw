@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-21 03:30+0100\n"
+"POT-Creation-Date: 2019-12-19 03:33+0100\n"
 "PO-Revision-Date: 2019-01-12 20:48+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -44,6 +44,38 @@ msgstr "儲存變更"
 msgid "Import VPN Connection"
 msgstr "匯入 VPN 連線"
 
+#: qml/AddConnectionDialog.qml:31
+msgctxt "@title:window"
+msgid "Choose a Connection Type"
+msgstr "選擇連線型態"
+
+#: qml/AddConnectionDialog.qml:174
+msgid "Create"
+msgstr "建立"
+
+#: qml/AddConnectionDialog.qml:184 qml/ConfigurationDialog.qml:88
+msgid "Cancel"
+msgstr "取消"
+
+#: qml/ConfigurationDialog.qml:30
+msgctxt "@title:window"
+msgid "Configuration"
+msgstr ""
+
+#: qml/ConfigurationDialog.qml:54
+msgid "Ask for PIN on modem detection"
+msgstr ""
+
+#: qml/ConfigurationDialog.qml:61
+#, fuzzy
+#| msgid "Export selected connection"
+msgid "Show virtual connections"
+msgstr "匯入選取的連線"
+
+#: qml/ConfigurationDialog.qml:79
+msgid "Ok"
+msgstr ""
+
 #: qml/ConnectionItem.qml:113
 msgid "Connect"
 msgstr "連線"
@@ -68,40 +100,31 @@ msgstr "已連線"
 msgid "Connecting"
 msgstr "連線中"
 
-#: qml/Dialog.qml:31
-msgctxt "@title:window"
-msgid "Choose a Connection Type"
-msgstr "選擇連線型態"
-
-#: qml/Dialog.qml:174
-msgid "Create"
-msgstr "建立"
-
-#: qml/Dialog.qml:184
-msgid "Cancel"
-msgstr "取消"
-
 #: qml/main.qml:68
 msgid "Search..."
 msgstr "搜尋…"
 
-#: qml/main.qml:149
+#: qml/main.qml:148
 msgid "Add new connection"
 msgstr "新增連線"
 
-#: qml/main.qml:164
+#: qml/main.qml:162
 msgid "Remove selected connection"
 msgstr "移除選取的連線"
 
-#: qml/main.qml:181
+#: qml/main.qml:178
 msgid "Export selected connection"
 msgstr "匯入選取的連線"
 
-#: qml/main.qml:198
+#: qml/main.qml:202
+msgid "Configuration"
+msgstr ""
+
+#: qml/main.qml:219
 msgctxt "@title:window"
 msgid "Remove Connection"
 msgstr "移除連線"
 
-#: qml/main.qml:199
+#: qml/main.qml:220
 msgid "Do you want to remove the connection '%1'?"
 msgstr "您確定要移除連線「%1」嗎？"

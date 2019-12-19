@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-18 03:31+0100\n"
+"POT-Creation-Date: 2019-12-19 03:23+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -2481,7 +2481,7 @@ msgid "Click on button for selecting attachment file"
 msgstr ""
 
 #: snippets/snippetattachmentwidget.cpp:46
-#: snippets/snippetselectattachmentwidget.cpp:68
+#: snippets/snippetselectattachmentwidget.cpp:70
 #, fuzzy, kde-format
 #| msgid "Select Account"
 msgid "Select Attachments"
@@ -2493,6 +2493,13 @@ msgstr "選擇帳號"
 msgid "..."
 msgstr "儲存..."
 
+#. i18n: ectx: property (text), widget (QPushButton, pushButtonVariables)
+#: snippets/snippetcustomfileattachmentnamewidget.cpp:43
+#: snippets/ui/snippetwidget.ui:215
+#, kde-format
+msgid "Variables"
+msgstr ""
+
 #: snippets/snippetselectattachmentdialog.cpp:36
 #, fuzzy, kde-format
 #| msgid "Select Account"
@@ -2500,7 +2507,7 @@ msgctxt "@title:window"
 msgid "Select Attachments"
 msgstr "選擇帳號"
 
-#: snippets/snippetselectattachmentwidget.cpp:59
+#: snippets/snippetselectattachmentwidget.cpp:61
 #, fuzzy, kde-format
 #| msgid "Do you want to remove selected filters?"
 msgid "Do you want to delete selected attachment?"
@@ -2739,12 +2746,6 @@ msgstr ""
 #| msgid "Subject"
 msgid "Subject:"
 msgstr "主題"
-
-#. i18n: ectx: property (text), widget (QPushButton, pushButtonVariables)
-#: snippets/ui/snippetwidget.ui:215
-#, kde-format
-msgid "Variables"
-msgstr ""
 
 #: tag/addtagdialog.cpp:55
 #, fuzzy, kde-format

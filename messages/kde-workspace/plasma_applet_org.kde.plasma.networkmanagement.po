@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: networkmanagement_openvpnui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-23 03:16+0200\n"
+"POT-Creation-Date: 2019-12-19 03:33+0100\n"
 "PO-Revision-Date: 2019-07-31 16:58+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -20,21 +20,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 19.07.80\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#: contents/config/config.qml:29
-#, kde-format
-msgid "General"
-msgstr "一般"
-
-#: contents/ui/configGeneral.qml:39
-#, kde-format
-msgid "Ask for PIN on modem detection"
-msgstr "在數據機偵測時詢問 PIN"
-
-#: contents/ui/configGeneral.qml:47
-#, kde-format
-msgid "Show virtual connections"
-msgstr "顯示虛擬連線"
 
 #: contents/ui/ConnectionItem.qml:116
 #, kde-format
@@ -93,7 +78,7 @@ msgstr "可用的連線"
 msgid "Networks"
 msgstr "網路"
 
-#: contents/ui/main.qml:59
+#: contents/ui/main.qml:58
 #, kde-format
 msgid "&Configure Network Connections..."
 msgstr "設定網路連線...(&C)"
@@ -154,3 +139,12 @@ msgstr "下載"
 #, kde-format
 msgid "Upload"
 msgstr "上傳"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "Ask for PIN on modem detection"
+#~ msgstr "在數據機偵測時詢問 PIN"
+
+#~ msgid "Show virtual connections"
+#~ msgstr "顯示虛擬連線"

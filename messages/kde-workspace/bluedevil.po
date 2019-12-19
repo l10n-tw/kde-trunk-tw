@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-08 03:27+0100\n"
+"POT-Creation-Date: 2019-12-19 03:29+0100\n"
 "PO-Revision-Date: 2019-09-28 15:25+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -126,7 +126,7 @@ msgid "No Bluetooth adapters have been found."
 msgstr "找不到藍牙轉接器"
 
 #: kcmodule/common/systemcheck.cpp:76 sendfile/discoverwidget.cpp:149
-#: wizard/pages/discover.cpp:266
+#: wizard/pages/discover.cpp:273
 #, kde-format
 msgid "Bluetooth is disabled."
 msgstr "藍牙裝置已關閉。"
@@ -149,7 +149,7 @@ msgid "Turn On"
 msgstr "開啟"
 
 #: kcmodule/common/systemcheck.cpp:99 kcmodule/common/systemcheck.cpp:110
-#: kcmodule/common/systemcheck.cpp:121 wizard/pages/discover.cpp:271
+#: kcmodule/common/systemcheck.cpp:121 wizard/pages/discover.cpp:278
 #, kde-format
 msgctxt "Action to fix a problem"
 msgid "Fix it"
@@ -814,7 +814,7 @@ msgstr "藍牙裝置精靈"
 msgid "Select a device"
 msgstr "選擇裝置"
 
-#: wizard/pages/discover.cpp:268
+#: wizard/pages/discover.cpp:275
 #, kde-format
 msgid "Your Bluetooth adapter is not pairable."
 msgstr "您的藍牙轉接器無法配對。"

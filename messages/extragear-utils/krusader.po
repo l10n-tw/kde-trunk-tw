@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krusader\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-21 02:45+0200\n"
+"POT-Creation-Date: 2019-12-19 02:43+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -38,7 +38,7 @@ msgstr ""
 
 #: krArc/krarc.cpp:237
 #, kde-format
-msgid "Creating directories is not supported with %1 archives"
+msgid "Creating folders is not supported with %1 archives"
 msgstr ""
 
 #: krArc/krarc.cpp:272
@@ -83,7 +83,7 @@ msgstr ""
 
 #: krArc/krarc.cpp:842
 #, kde-format
-msgid "Listing directories is not supported for %1 archives"
+msgid "Listing folders is not supported for %1 archives"
 msgstr ""
 
 #: krArc/krarc.cpp:1708
@@ -1080,7 +1080,7 @@ msgstr "新增"
 
 #: krusader/Dialogs/checksumdlg.cpp:269
 #, kde-format
-msgid "About to calculate checksum for the following files or directories:"
+msgid "About to calculate checksum for the following files or folders:"
 msgstr ""
 
 #: krusader/Dialogs/checksumdlg.cpp:282
@@ -1495,9 +1495,10 @@ msgid "Files:"
 msgstr "檔案："
 
 #: krusader/DiskUsage/diskusage.cpp:118
-#, kde-format
-msgid "Directories:"
-msgstr "目錄："
+#, fuzzy, kde-format
+#| msgid "Folders"
+msgid "Folders:"
+msgstr "資料夾"
 
 #: krusader/DiskUsage/diskusage.cpp:123
 #, kde-format
@@ -2394,7 +2395,7 @@ msgstr "編輯檔案(&F)"
 
 #: krusader/Filter/generalfilter.cpp:480
 #, kde-format
-msgid "Filters out specified directory names from the results."
+msgid "Filters out specified folder names from the results."
 msgstr ""
 
 #: krusader/Filter/generalfilter.cpp:495
@@ -3814,14 +3815,14 @@ msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:165
 #, kde-format
-msgid "Directory navigation with Right Arrow"
+msgid "Folder navigation with Right Arrow"
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:165
 #, kde-format
 msgid ""
-"Pressing the Right button enters directory if no search text editing "
-"intention is captured."
+"Pressing the Right button enters folder if no search text editing intention "
+"is captured."
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:174
@@ -6952,7 +6953,7 @@ msgstr ""
 
 #: krusader/Panel/listpanel.cpp:242
 #, kde-format
-msgid "Cancel directory space calculation"
+msgid "Cancel folder space calculation"
 msgstr ""
 
 #: krusader/Panel/listpanel.cpp:262
@@ -9579,3 +9580,6 @@ msgid ""
 "Backs current file up in current folder and asks the user for a new "
 "filename. By default \".old\" is appended to the original filename."
 msgstr ""
+
+#~ msgid "Directories:"
+#~ msgstr "目錄："
