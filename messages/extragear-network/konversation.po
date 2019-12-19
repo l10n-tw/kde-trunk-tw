@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: konversation\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-13 02:50+0100\n"
-"PO-Revision-Date: 2019-11-03 14:10+0800\n"
+"PO-Revision-Date: 2019-12-20 02:10+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.08.2\n"
+"X-Generator: Lokalize 19.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -135,8 +135,7 @@ msgstr "\"/media\" - 回報找到的第一個播放器正在播放什麼。"
 msgid ""
 "\"/media [ 'audio' | 'video' ]\" - report what is playing in a known audio "
 "or video player."
-msgstr ""
-"\"/media [ 'audio' | 'video' ]\" - 回報已知的音效或影像播放器正在播放什麼。"
+msgstr "\"/media [ 'audio' | 'video' ]\" - 回報已知的音效或影像播放器正在播放什麼。"
 
 #: data/scripts/media:319
 msgid ""
@@ -4180,8 +4179,7 @@ msgstr "踢出原因(&K)："
 msgid ""
 "Whenever you are kicked from a channel (usually by an IRC operator), this "
 "message is sent to the channel."
-msgstr ""
-"當您從一個被頻道踢出時(一般是 IRC 管理員的行為)，此訊息會被傳送到頻道內。"
+msgstr "當您從一個被頻道踢出時(一般是 IRC 管理員的行為)，此訊息會被傳送到頻道內。"
 
 #. i18n: ectx: property (text), widget (KLineEdit, m_kickEdit)
 #: src/identitydialog.ui:639
@@ -6359,8 +6357,7 @@ msgstr "%1KICKBAN 而不帶頻道名稱，只能用在頻道內。"
 msgid ""
 "Usage: %1BAN [-HOST | -DOMAIN | -USERHOST | -USERDOMAIN] [channel] <nickname "
 "| mask>"
-msgstr ""
-"用法：%1BAN [-HOST | -DOMAIN | -USERHOST | -USERDOMAIN] [頻道] <暱稱|遮罩>"
+msgstr "用法：%1BAN [-HOST | -DOMAIN | -USERHOST | -USERDOMAIN] [頻道] <暱稱|遮罩>"
 
 #: src/irc/outputfilter.cpp:1439
 #, kde-format
@@ -7426,8 +7423,7 @@ msgstr "İsmail Dönmez"
 #: src/main.cpp:65
 #, kde-format
 msgid "Blowfish, SSL support, KNetwork port, Colored nicks, Nicklist themes"
-msgstr ""
-"Blowfish 支援、SSL 支援、移植到 KNetwork、彩色暱稱、暱稱清單圖示主題支援"
+msgstr "Blowfish 支援、SSL 支援、移植到 KNetwork、彩色暱稱、暱稱清單圖示主題支援"
 
 #: src/main.cpp:66
 #, kde-format
@@ -8049,7 +8045,7 @@ msgstr "清除目前分頁裏的標記線"
 #: src/mainwindow.cpp:409
 #, kde-format
 msgid "Enlarge Font Size"
-msgstr "增大字型大小"
+msgstr "放大字型"
 
 #: src/mainwindow.cpp:413
 #, kde-format
@@ -8067,10 +8063,10 @@ msgid "Reset the current font size to settings values"
 msgstr "重置目前的字型大小為設定的值"
 
 #: src/mainwindow.cpp:427
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Enlarge Font Size"
 msgid "Shrink Font Size"
-msgstr "增大字型大小"
+msgstr "縮小字型"
 
 #: src/mainwindow.cpp:431
 #, kde-format
@@ -8177,8 +8173,7 @@ msgstr "書籤"
 msgid ""
 "<qt>You have active DCC file transfers. Are you sure you want to quit "
 "<b>Konversation</b>?</qt>"
-msgstr ""
-"<qt>您已啟動 DCC 檔案傳輸。您確定您要離開 <b>Konversation</b> 嗎？</qt>"
+msgstr "<qt>您已啟動 DCC 檔案傳輸。您確定您要離開 <b>Konversation</b> 嗎？</qt>"
 
 #: src/mainwindow.cpp:591 src/mainwindow.cpp:601
 #, kde-format

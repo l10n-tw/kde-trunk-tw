@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-16 02:30+0100\n"
-"PO-Revision-Date: 2019-12-12 18:57+0800\n"
+"PO-Revision-Date: 2019-12-20 02:09+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.11.90\n"
+"X-Generator: Lokalize 19.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -2137,8 +2137,7 @@ msgid ""
 msgid_plural ""
 "One or more files on this device are opened in following applications: "
 "<application>%2</application>."
-msgstr[0] ""
-"裝置上的一或多個檔案會在下述應用程式內開啟：<application>%2</application>。"
+msgstr[0] "裝置上的一或多個檔案會在下述應用程式內開啟：<application>%2</application>。"
 
 #: panels/places/placesitemmodel.cpp:481
 #, kde-format
@@ -2241,8 +2240,7 @@ msgstr "隱藏「%1」部份"
 msgid ""
 "Terminal cannot be shown because Konsole is not installed. Please install it "
 "and then reopen the panel."
-msgstr ""
-"因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
+msgstr "因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
 
 #: panels/terminal/terminalpanel.cpp:164
 #, kde-format
@@ -2370,7 +2368,7 @@ msgid "Highest Rating"
 msgstr "最高分"
 
 #: search/dolphinfacetswidget.cpp:258
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "separator in list of apps blocking device unmount"
 #| msgid ", "
 msgctxt "String list separator"
@@ -2378,21 +2376,21 @@ msgid ", "
 msgstr "、"
 
 #: search/dolphinfacetswidget.cpp:260
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@item:inmenu"
 #| msgid "%1: %2"
 msgctxt "@action:button %2 is a list of tags"
 msgid "Tag: %2"
 msgid_plural "Tags: %2"
-msgstr[0] "%1: %2"
+msgstr[0] "標籤：%2"
 
 #: search/dolphinfacetswidget.cpp:262
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@label"
 #| msgid "Tags"
 msgctxt "@action:button"
 msgid "Add Tags"
-msgstr "標籤"
+msgstr "新增標籤"
 
 #: search/dolphinsearchbox.cpp:114
 #, kde-format
@@ -2936,20 +2934,20 @@ msgid "Warning"
 msgstr "警告"
 
 #: settings/general/behaviorsettingspage.cpp:51
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@option:radio"
 #| msgid "Use common properties for all folders"
 msgctxt "@option:radio"
 msgid "Use common display style for all folders"
-msgstr "對每個資料夾都使用共用的屬性"
+msgstr "對所有資料夾使用共同的顯示樣式"
 
 #: settings/general/behaviorsettingspage.cpp:52
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@option:radio"
 #| msgid "Remember properties for each folder"
 msgctxt "@option:radio"
 msgid "Remember display style for each folder"
-msgstr "記住每個資料夾的屬性"
+msgstr "記住每個資料夾的顯示樣式"
 
 #: settings/general/behaviorsettingspage.cpp:53
 #, kde-format
@@ -3458,7 +3456,7 @@ msgstr[0] "大小：%1 像素"
 #, kde-format
 msgctxt "@title:window"
 msgid "View Display Style"
-msgstr ""
+msgstr "檢視顯示樣式"
 
 #: settings/viewpropertiesdialog.cpp:84
 #, kde-format
@@ -4007,12 +4005,12 @@ msgid ""
 msgstr ""
 
 #: views/dolphinviewactionhandler.cpp:283
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Adjust View Properties..."
 msgctxt "@action:inmenu View"
 msgid "Adjust View Display Style..."
-msgstr "調整檢視屬性..."
+msgstr "調整檢視顯示樣式…"
 
 #: views/dolphinviewactionhandler.cpp:285
 #, kde-format

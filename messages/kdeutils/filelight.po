@@ -4,21 +4,21 @@
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009.
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2010, 2013, 2015.
 # Jeff Huang <s8321414@gmail.com>, 2017.
-# pan93412 <pan93412@gmail.com>, 2018.
+# pan93412 <pan93412@gmail.com>, 2018, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: filelight\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-09-29 03:06+0200\n"
-"PO-Revision-Date: 2018-10-31 01:27+0800\n"
+"PO-Revision-Date: 2019-12-20 02:15+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -70,7 +70,7 @@ msgstr "設定 - Filelight"
 #: src/dialog.ui:33
 #, kde-format
 msgid "Scannin&g"
-msgstr "掃瞄中(&G)..."
+msgstr "掃瞄中(&G)"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: src/dialog.ui:45
@@ -395,7 +395,7 @@ msgstr "取消掃描中..."
 #: src/mainWindow.cpp:468
 #, kde-format
 msgid "Scanning: %1"
-msgstr "掃瞄中： %1"
+msgstr "正在掃瞄：%1"
 
 #: src/mainWindow.cpp:502
 #, kde-format
@@ -436,7 +436,7 @@ msgctxt "We messed up, the user needs to initiate a rescan."
 msgid ""
 "Internal representation is invalid,\n"
 "please rescan."
-msgstr "內部展示不合法。請重新掃描。"
+msgstr "內部表示無效。請重新掃描。"
 
 #: src/radialMap/widgetEvents.cpp:179
 #, kde-format
@@ -446,7 +446,7 @@ msgid ""
 "Used: %2"
 msgstr ""
 "%1\n"
-"已使用：%2"
+"已用：%2"
 
 #: src/radialMap/widgetEvents.cpp:184
 #, kde-format
@@ -489,7 +489,7 @@ msgid ""
 "Click to go up to parent directory"
 msgstr ""
 "\n"
-"點擊以回到上層目錄"
+"按一下回到上層目錄"
 
 #: src/radialMap/widgetEvents.cpp:314
 #, kde-format
@@ -573,10 +573,10 @@ msgstr "已忽略的資料夾"
 #, kde-format
 msgctxt "Percent used disk space on the partition"
 msgid "<b>%1</b><br/>%2% Used"
-msgstr "<b>%1</b><br/>已使用 %2%"
+msgstr "<b>%1</b><br/>已用 %2%"
 
 #: src/summaryWidget.cpp:127
 #, kde-format
 msgctxt "Percent used disk space on the partition"
 msgid "<b>%1: %2</b><br/>%3% Used"
-msgstr "<b>%1：%2</b><br/>已使用 %3%"
+msgstr "<b>%1：%2</b><br/>已用 %3%"
