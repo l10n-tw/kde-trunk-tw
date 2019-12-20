@@ -2137,7 +2137,8 @@ msgid ""
 msgid_plural ""
 "One or more files on this device are opened in following applications: "
 "<application>%2</application>."
-msgstr[0] "裝置上的一或多個檔案會在下述應用程式內開啟：<application>%2</application>。"
+msgstr[0] ""
+"裝置上的一或多個檔案會在下述應用程式內開啟：<application>%2</application>。"
 
 #: panels/places/placesitemmodel.cpp:481
 #, kde-format
@@ -2240,7 +2241,8 @@ msgstr "隱藏「%1」部份"
 msgid ""
 "Terminal cannot be shown because Konsole is not installed. Please install it "
 "and then reopen the panel."
-msgstr "因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
+msgstr ""
+"因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
 
 #: panels/terminal/terminalpanel.cpp:164
 #, kde-format
@@ -2369,16 +2371,12 @@ msgstr "最高分"
 
 #: search/dolphinfacetswidget.cpp:258
 #, kde-format
-#| msgctxt "separator in list of apps blocking device unmount"
-#| msgid ", "
 msgctxt "String list separator"
 msgid ", "
 msgstr "、"
 
 #: search/dolphinfacetswidget.cpp:260
 #, kde-format
-#| msgctxt "@item:inmenu"
-#| msgid "%1: %2"
 msgctxt "@action:button %2 is a list of tags"
 msgid "Tag: %2"
 msgid_plural "Tags: %2"
@@ -2386,8 +2384,6 @@ msgstr[0] "標籤：%2"
 
 #: search/dolphinfacetswidget.cpp:262
 #, kde-format
-#| msgctxt "@label"
-#| msgid "Tags"
 msgctxt "@action:button"
 msgid "Add Tags"
 msgstr "新增標籤"
@@ -2935,16 +2931,12 @@ msgstr "警告"
 
 #: settings/general/behaviorsettingspage.cpp:51
 #, kde-format
-#| msgctxt "@option:radio"
-#| msgid "Use common properties for all folders"
 msgctxt "@option:radio"
 msgid "Use common display style for all folders"
 msgstr "對所有資料夾使用共同的顯示樣式"
 
 #: settings/general/behaviorsettingspage.cpp:52
 #, kde-format
-#| msgctxt "@option:radio"
-#| msgid "Remember properties for each folder"
 msgctxt "@option:radio"
 msgid "Remember display style for each folder"
 msgstr "記住每個資料夾的顯示樣式"
@@ -4006,8 +3998,6 @@ msgstr ""
 
 #: views/dolphinviewactionhandler.cpp:283
 #, kde-format
-#| msgctxt "@action:inmenu View"
-#| msgid "Adjust View Properties..."
 msgctxt "@action:inmenu View"
 msgid "Adjust View Display Style..."
 msgstr "調整檢視顯示樣式…"

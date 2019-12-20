@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-19 03:12+0100\n"
+"POT-Creation-Date: 2019-12-20 03:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -79,22 +79,22 @@ msgstr ""
 msgid "Extractor capabilities:"
 msgstr ""
 
-#: app/applicationcontroller.cpp:324
+#: app/applicationcontroller.cpp:325
 #, kde-format
 msgid "Export Itinerary Data"
 msgstr ""
 
-#: app/applicationcontroller.cpp:326 app/main.qml:37
+#: app/applicationcontroller.cpp:327 app/main.qml:37
 #, kde-format
 msgid "KDE Itinerary files (*.itinerary)"
 msgstr ""
 
-#: app/applicationcontroller.cpp:423
+#: app/applicationcontroller.cpp:424
 #, kde-format
 msgid "Add Document"
 msgstr ""
 
-#: app/applicationcontroller.cpp:425 app/main.qml:37
+#: app/applicationcontroller.cpp:426 app/main.qml:37
 #, kde-format
 msgid "All Files (*.*)"
 msgstr ""
@@ -362,7 +362,7 @@ msgid "To:"
 msgstr ""
 
 #: app/DepartureQueryPage.qml:156 app/JourneyQueryPage.qml:132
-#: app/TransferPage.qml:135
+#: app/TransferPage.qml:132
 #, kde-format
 msgid "Data providers: %1"
 msgstr ""
@@ -372,7 +372,7 @@ msgstr ""
 msgid "Do you really want to delete this event?"
 msgstr ""
 
-#: app/DetailsPage.qml:58 app/DetailsPage.qml:127 app/DocumentsPage.qml:81
+#: app/DetailsPage.qml:58 app/DetailsPage.qml:139 app/DocumentsPage.qml:81
 #, kde-format
 msgid "Delete"
 msgstr ""
@@ -413,6 +413,16 @@ msgid "Documents (%1)"
 msgstr ""
 
 #: app/DetailsPage.qml:121
+#, kde-format
+msgid "Add transfer before"
+msgstr ""
+
+#: app/DetailsPage.qml:127
+#, kde-format
+msgid "Add transfer after"
+msgstr ""
+
+#: app/DetailsPage.qml:133
 #, kde-format
 msgid "Edit"
 msgstr ""
@@ -655,7 +665,7 @@ msgstr ""
 msgid "Wait (%1)"
 msgstr ""
 
-#: app/JourneySummaryDelegate.qml:50
+#: app/JourneySummaryDelegate.qml:55
 #, kde-format
 msgid "One change"
 msgid_plural "%1 changes"
@@ -838,7 +848,7 @@ msgstr ""
 msgid "Pick Home Location"
 msgstr ""
 
-#: app/SettingsPage.qml:58 app/transfermanager.cpp:149
+#: app/SettingsPage.qml:58 app/transfermanager.cpp:177
 #, kde-format
 msgid "Home"
 msgstr ""
@@ -1080,7 +1090,7 @@ msgstr ""
 msgid "Discard"
 msgstr ""
 
-#: app/TransferPage.qml:97
+#: app/TransferPage.qml:90
 #, kde-format
 msgid "Select"
 msgstr ""
