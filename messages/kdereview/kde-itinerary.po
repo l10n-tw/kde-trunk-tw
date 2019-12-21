@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-20 03:14+0100\n"
+"POT-Creation-Date: 2019-12-21 03:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -362,7 +362,7 @@ msgid "To:"
 msgstr ""
 
 #: app/DepartureQueryPage.qml:156 app/JourneyQueryPage.qml:132
-#: app/TransferPage.qml:132
+#: app/TransferPage.qml:146
 #, kde-format
 msgid "Data providers: %1"
 msgstr ""
@@ -372,57 +372,57 @@ msgstr ""
 msgid "Do you really want to delete this event?"
 msgstr ""
 
-#: app/DetailsPage.qml:58 app/DetailsPage.qml:139 app/DocumentsPage.qml:81
+#: app/DetailsPage.qml:58 app/DetailsPage.qml:150 app/DocumentsPage.qml:81
 #, kde-format
 msgid "Delete"
 msgstr ""
 
-#: app/DetailsPage.qml:87
+#: app/DetailsPage.qml:92
 #, kde-format
 msgid "Cancel Reservation"
 msgstr ""
 
-#: app/DetailsPage.qml:88
+#: app/DetailsPage.qml:93
 #, kde-format
 msgid "Check-in"
 msgstr ""
 
-#: app/DetailsPage.qml:89
+#: app/DetailsPage.qml:94
 #, kde-format
 msgid "Download"
 msgstr ""
 
-#: app/DetailsPage.qml:90
+#: app/DetailsPage.qml:95
 #, kde-format
 msgid "Change Reservation"
 msgstr ""
 
-#: app/DetailsPage.qml:91
+#: app/DetailsPage.qml:96
 #, kde-format
 msgid "View Reservation"
 msgstr ""
 
-#: app/DetailsPage.qml:110
+#: app/DetailsPage.qml:115
 #, kde-format
 msgid "Show Boarding Pass"
 msgstr ""
 
-#: app/DetailsPage.qml:116
+#: app/DetailsPage.qml:121
 #, kde-format
 msgid "Documents (%1)"
 msgstr ""
 
-#: app/DetailsPage.qml:121
+#: app/DetailsPage.qml:126
 #, kde-format
 msgid "Add transfer before"
 msgstr ""
 
-#: app/DetailsPage.qml:127
+#: app/DetailsPage.qml:135
 #, kde-format
 msgid "Add transfer after"
 msgstr ""
 
-#: app/DetailsPage.qml:133
+#: app/DetailsPage.qml:144
 #, kde-format
 msgid "Edit"
 msgstr ""
@@ -650,22 +650,27 @@ msgstr ""
 msgid "Replace"
 msgstr ""
 
-#: app/JourneySectionDelegate.qml:99
+#: app/JourneySectionDelegate.qml:100
 #, kde-format
 msgid "Walk (%1)"
 msgstr ""
 
 #: app/JourneySectionDelegate.qml:101
 #, kde-format
-msgid "Transfer (%1)"
+msgid "Walk %1 (%2)"
 msgstr ""
 
 #: app/JourneySectionDelegate.qml:103
 #, kde-format
+msgid "Transfer (%1)"
+msgstr ""
+
+#: app/JourneySectionDelegate.qml:105
+#, kde-format
 msgid "Wait (%1)"
 msgstr ""
 
-#: app/JourneySummaryDelegate.qml:55
+#: app/JourneySummaryDelegate.qml:51
 #, kde-format
 msgid "One change"
 msgid_plural "%1 changes"
@@ -705,6 +710,16 @@ msgstr ""
 #: app/livedatamanager.cpp:612
 #, kde-format
 msgid "Itinerary change"
+msgstr ""
+
+#: app/localizer.cpp:132
+#, kde-format
+msgid "%1m"
+msgstr ""
+
+#: app/localizer.cpp:135 app/localizer.cpp:137
+#, kde-format
+msgid "%1km"
 msgstr ""
 
 #: app/main.cpp:116 app/main.qml:27 app/main.qml:42
@@ -848,7 +863,7 @@ msgstr ""
 msgid "Pick Home Location"
 msgstr ""
 
-#: app/SettingsPage.qml:58 app/transfermanager.cpp:177
+#: app/SettingsPage.qml:58 app/transfermanager.cpp:187
 #, kde-format
 msgid "Home"
 msgstr ""
@@ -1093,6 +1108,16 @@ msgstr ""
 #: app/TransferPage.qml:90
 #, kde-format
 msgid "Select"
+msgstr ""
+
+#: app/TransferPage.qml:117
+#, kde-format
+msgid "Preceeding arrival %1 at %2"
+msgstr ""
+
+#: app/TransferPage.qml:141
+#, kde-format
+msgid "Following departure %1 from %2"
 msgstr ""
 
 #: app/TripGroupDelegate.qml:64

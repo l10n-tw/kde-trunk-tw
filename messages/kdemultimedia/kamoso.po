@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-08 03:07+0200\n"
+"POT-Creation-Date: 2019-12-21 03:22+0100\n"
 "PO-Revision-Date: 2019-04-09 23:14+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -48,7 +48,7 @@ msgstr "垂直鏡像相機檢視畫面。"
 msgid "Points to the last used webcam."
 msgstr "指向上次使用的攝影機。"
 
-#: src/main.cpp:34 src/qml/Main.qml:14
+#: src/main.cpp:34 src/qml/Main.qml:32
 #, kde-format
 msgid "Kamoso"
 msgstr "Kamoso"
@@ -95,132 +95,132 @@ msgid ""
 "sounds/445482/"
 msgstr "上傳了快門音效：https://freesound.org/people/caseymoura/sounds/445482/"
 
-#: src/qml/ImagesView.qml:37
+#: src/qml/ImagesView.qml:55
 #, kde-format
 msgid "Share"
 msgstr "分享"
 
-#: src/qml/ImagesView.qml:104 src/qml/ImagesView.qml:149
-#: src/qml/ImagesView.qml:303
+#: src/qml/ImagesView.qml:122 src/qml/ImagesView.qml:167
+#: src/qml/ImagesView.qml:321
 #, kde-format
 msgid "Back"
 msgstr "返回"
 
-#: src/qml/ImagesView.qml:143
+#: src/qml/ImagesView.qml:161
 #, kde-format
 msgid "Media now exported"
 msgstr "媒體現在已經匯出"
 
-#: src/qml/ImagesView.qml:170
+#: src/qml/ImagesView.qml:188
 #, kde-format
 msgid "Configure Kamoso"
 msgstr "設定 Kamoso"
 
-#: src/qml/ImagesView.qml:178
+#: src/qml/ImagesView.qml:196
 #, kde-format
 msgid "Save Locations"
 msgstr "儲存位置"
 
-#: src/qml/ImagesView.qml:185
+#: src/qml/ImagesView.qml:203
 #, kde-format
 msgid "Pictures:"
 msgstr "照片："
 
-#: src/qml/ImagesView.qml:200 src/qml/ImagesView.qml:213
+#: src/qml/ImagesView.qml:218 src/qml/ImagesView.qml:231
 #, kde-format
 msgid "Choose the folder where Kamoso will save pictures"
 msgstr "選擇 Kamoso 儲存圖片的資料夾"
 
-#: src/qml/ImagesView.qml:231
+#: src/qml/ImagesView.qml:249
 #, kde-format
 msgid "Videos:"
 msgstr "影片："
 
-#: src/qml/ImagesView.qml:246 src/qml/ImagesView.qml:260
+#: src/qml/ImagesView.qml:264 src/qml/ImagesView.qml:278
 #, kde-format
 msgid "Choose the folder where Kamoso will save videos"
 msgstr "選擇 Kamoso 儲存影片的資料夾"
 
-#: src/qml/ImagesView.qml:275
+#: src/qml/ImagesView.qml:293
 #, kde-format
 msgid "Cameras"
 msgstr "相機"
 
-#: src/qml/ImagesView.qml:291
+#: src/qml/ImagesView.qml:309
 #, kde-format
 msgid "Mirror camera"
 msgstr "鏡像相機"
 
-#: src/qml/ImagesView.qml:334
+#: src/qml/ImagesView.qml:352
 #, kde-kuit-format
 msgctxt "@info"
 msgid "There are no images in <filename>%1</filename>"
 msgstr "<filename>%1</filename> 中未找到圖片"
 
-#: src/qml/ImagesView.qml:347
+#: src/qml/ImagesView.qml:365
 #, kde-format
 msgid "Share %1 Item..."
 msgid_plural "Share %1 Items..."
 msgstr[0] "分享 %1 個項目…"
 
-#: src/qml/ImagesView.qml:347
+#: src/qml/ImagesView.qml:365
 #, kde-format
 msgid "Share Item..."
 msgstr "分享項目..."
 
-#: src/qml/ImagesView.qml:358
+#: src/qml/ImagesView.qml:376
 #, kde-format
 msgid "Move %1 Item to Trash"
 msgid_plural "Move %1 Items to Trash"
 msgstr[0] "將 %1 個項目移到垃圾桶"
 
-#: src/qml/ImagesView.qml:358
+#: src/qml/ImagesView.qml:376
 #, kde-format
 msgid "Move Item to Trash"
 msgstr "將項目移到垃圾桶"
 
-#: src/qml/ImagesView.qml:367
+#: src/qml/ImagesView.qml:385
 #, kde-format
 msgid "Open Pictures Folder"
 msgstr "開啟圖片資料夾"
 
-#: src/qml/ImagesView.qml:374
+#: src/qml/ImagesView.qml:392
 #, kde-format
 msgid "Configure Kamoso..."
 msgstr "設定 Kamoso…"
 
-#: src/qml/Main.qml:70
+#: src/qml/Main.qml:88
 #, kde-format
 msgid "Take a Picture"
 msgstr "拍張照"
 
-#: src/qml/Main.qml:95
+#: src/qml/Main.qml:113
 #, kde-format
 msgid "End Burst"
 msgstr "停止連拍"
 
-#: src/qml/Main.qml:95
+#: src/qml/Main.qml:113
 #, kde-format
 msgid "Capture a Burst"
 msgstr "擷取一個 Burst"
 
-#: src/qml/Main.qml:97
+#: src/qml/Main.qml:115
 #, kde-format
 msgid "1 photo taken"
 msgid_plural "%1 photos taken"
 msgstr[0] "已拍 %1 張照"
 
-#: src/qml/Main.qml:120
+#: src/qml/Main.qml:138
 #, kde-format
 msgid "Stop Recording"
 msgstr "停止錄影"
 
-#: src/qml/Main.qml:120
+#: src/qml/Main.qml:138
 #, kde-format
 msgid "Record a Video"
 msgstr "錄製影片"
 
-#: src/qml/Main.qml:176
+#: src/qml/Main.qml:194
 #, kde-format
 msgid "Effects Gallery"
 msgstr "特效庫"
