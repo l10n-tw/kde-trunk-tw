@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-cli\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-14 02:41+0200\n"
+"POT-Creation-Date: 2019-12-22 03:10+0100\n"
 "PO-Revision-Date: 2019-09-22 13:14+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -228,8 +228,12 @@ msgstr "（未配對）"
 
 #: kdeconnect-cli.cpp:185
 #, kde-format
-msgid "No device specified"
-msgstr "未指定裝置"
+msgid ""
+"No device specified: Use -d <Device ID> or -n <Device Name> to specify a "
+"device. \n"
+"Device ID's and names may be found using \"kdeconnect-cli -l\" \n"
+"View complete help with --help option"
+msgstr ""
 
 #: kdeconnect-cli.cpp:214
 #, kde-format
@@ -287,3 +291,6 @@ msgstr "請指定圖片的檔名"
 #, kde-format
 msgid "Nothing to be done"
 msgstr "沒有什麼可以做"
+
+#~ msgid "No device specified"
+#~ msgstr "未指定裝置"

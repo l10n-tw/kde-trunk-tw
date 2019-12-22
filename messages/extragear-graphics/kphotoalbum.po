@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kphotoalbum\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-04 02:36+0100\n"
+"POT-Creation-Date: 2019-12-22 02:40+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -2194,20 +2194,20 @@ msgstr ""
 #. doubled "Folder" category.
 #: ImportExport/ImportDialog.cpp:267 Settings/CategoryPage.cpp:263
 #: ThumbnailView/CellGeometry.cpp:79 ThumbnailView/ThumbnailModel.cpp:359
-#: XMLDB/FileReader.cpp:84
+#: XMLDB/FileReader.cpp:86
 #, kde-format
 msgid "Folder"
 msgstr "資料夾"
 
 #: ImportExport/ImportDialog.cpp:267 Settings/CategoryPage.cpp:265
 #: ThumbnailView/CellGeometry.cpp:79 ThumbnailView/ThumbnailModel.cpp:359
-#: XMLDB/Database.cpp:283 XMLDB/Database.cpp:634 XMLDB/FileReader.cpp:132
+#: XMLDB/Database.cpp:283 XMLDB/Database.cpp:634 XMLDB/FileReader.cpp:134
 #, kde-format
 msgid "Media Type"
 msgstr "媒體型態"
 
-#: ImportExport/ImportDialog.cpp:267 XMLDB/FileReader.cpp:106
-#: XMLDB/FileReader.cpp:118
+#: ImportExport/ImportDialog.cpp:267 XMLDB/FileReader.cpp:108
+#: XMLDB/FileReader.cpp:120
 #, kde-format
 msgid "Tokens"
 msgstr "標記"
@@ -4101,7 +4101,7 @@ msgctxt "'Name' of the image directory"
 msgid "Image/Video root directory"
 msgstr "影像/影片根目錄："
 
-#: Plugins/Interface.cpp:106 XMLDB/FileReader.cpp:458
+#: Plugins/Interface.cpp:106 XMLDB/FileReader.cpp:482
 #, kde-format
 msgid "Places"
 msgstr "地方"
@@ -4181,7 +4181,7 @@ msgid ""
 "when viewing the images."
 msgstr ""
 
-#: Settings/BirthdayPage.cpp:146 XMLDB/FileReader.cpp:457
+#: Settings/BirthdayPage.cpp:146 XMLDB/FileReader.cpp:481
 #, kde-format
 msgid "People"
 msgstr "人物"
@@ -4876,12 +4876,12 @@ msgstr ""
 msgid "Trust Time Stamps?"
 msgstr "信任時間戳記嗎？"
 
-#: Settings/SettingsData.cpp:367 XMLDB/FileReader.cpp:459
+#: Settings/SettingsData.cpp:367 XMLDB/FileReader.cpp:483
 #, kde-format
 msgid "Events"
 msgstr "事件"
 
-#: Settings/SettingsData.cpp:368 XMLDB/FileReader.cpp:460
+#: Settings/SettingsData.cpp:368 XMLDB/FileReader.cpp:484
 #, fuzzy, kde-format
 #| msgid "Untagged Images"
 msgid "untagged"
@@ -5912,7 +5912,7 @@ msgid "Unable to copy '%1' to '%2'."
 msgstr "無法將 %1 複製到 %2。"
 
 #: Utilities/DemoUtil.cpp:47 Utilities/DemoUtil.cpp:64
-#: Utilities/DemoUtil.cpp:98 XMLDB/FileReader.cpp:470
+#: Utilities/DemoUtil.cpp:98 XMLDB/FileReader.cpp:494
 #, kde-format
 msgid "Error Running Demo"
 msgstr "執行範例時發生錯誤"
@@ -6571,15 +6571,26 @@ msgstr ""
 msgid "Found Autosave File"
 msgstr "找到自動備份檔"
 
-#: XMLDB/Database.cpp:284 XMLDB/Database.cpp:635 XMLDB/FileReader.cpp:134
+#: XMLDB/Database.cpp:284 XMLDB/Database.cpp:635 XMLDB/FileReader.cpp:136
 #, kde-format
 msgid "Image"
 msgstr "影像"
 
-#: XMLDB/Database.cpp:284 XMLDB/Database.cpp:636 XMLDB/FileReader.cpp:135
+#: XMLDB/Database.cpp:284 XMLDB/Database.cpp:636 XMLDB/FileReader.cpp:137
 #, kde-format
 msgid "Video"
 msgstr "影片"
+
+#: XMLDB/Database.cpp:780
+#, kde-format
+msgid "KPhotoAlbum - manual repair needed (%1)"
+msgstr ""
+
+#: XMLDB/Database.cpp:781
+#, kde-format
+msgctxt "Separator in a list of tags"
+msgid ", "
+msgstr ""
 
 #: XMLDB/FileReader.cpp:57
 #, kde-format
@@ -6594,7 +6605,7 @@ msgstr ""
 msgid "index.xml version mismatch"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:184
+#: XMLDB/FileReader.cpp:186
 #, kde-format
 msgid ""
 "<p>Line %1, column %2: duplicate category '%3'</p><p>Choose continue to "
@@ -6602,13 +6613,13 @@ msgid ""
 "to quit.</p>"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:190 XMLDB/FileReader.cpp:280
+#: XMLDB/FileReader.cpp:192 XMLDB/FileReader.cpp:288
 #, fuzzy, kde-format
 #| msgid "Converting database"
 msgid "Error in database file"
 msgstr "轉換資料庫"
 
-#: XMLDB/FileReader.cpp:234
+#: XMLDB/FileReader.cpp:242
 #, kde-format
 msgctxt ""
 "Leave \"Folder\" and \"Media Type\" untranslated below, those will show up "
@@ -6622,20 +6633,20 @@ msgid ""
 "and \"Media Type\". You can delete those.</p>"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:242
+#: XMLDB/FileReader.cpp:250
 #, fuzzy, kde-format
 #| msgid "Invalid driver."
 msgid "Changed standard category names"
 msgstr "不合法的驅動程式："
 
-#: XMLDB/FileReader.cpp:275
+#: XMLDB/FileReader.cpp:283
 #, kde-format
 msgid ""
 "<p>Line %1, column %2: duplicate entry for file '%3' with different MD5 sum."
 "</p><p>Manual repair required!</p>"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:394
+#: XMLDB/FileReader.cpp:402
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>Your images/videos are not sorted, which means that navigating using "
@@ -6665,12 +6676,12 @@ msgstr ""
 "設定好日期，您就可以執行<b>「維護」─「全部依日期與時間排序」</b>來重新排序。"
 "</p>"
 
-#: XMLDB/FileReader.cpp:403
+#: XMLDB/FileReader.cpp:411
 #, kde-format
 msgid "Images/Videos Are Not Sorted"
 msgstr "圖片或影像未排序"
 
-#: XMLDB/FileReader.cpp:416
+#: XMLDB/FileReader.cpp:424
 #, kde-format
 msgid ""
 "<p>Not all the images in the database have information about image sizes; "
@@ -6685,12 +6696,12 @@ msgstr ""
 "然後再選擇「建立縮圖」。</p> <p>不這樣做的話，縮圖周圍可能會有空白。不過其實"
 "也就這樣而已，所以不這樣做也無所謂啦。</p>"
 
-#: XMLDB/FileReader.cpp:421
+#: XMLDB/FileReader.cpp:429
 #, kde-format
 msgid "Not All Images Have Size Information"
 msgstr "不是所有影像都有尺寸大小資訊"
 
-#: XMLDB/FileReader.cpp:442
+#: XMLDB/FileReader.cpp:466
 #, kde-format
 msgid ""
 "<p>KPhotoAlbum was unable to load a default setup, which indicates an "
@@ -6710,32 +6721,32 @@ msgstr ""
 "KDEDIRS=/usr/local/kde</b></p> <p>若您已經有設定 KDEDIRS，則將路徑加到它的後"
 "面即可。</p>"
 
-#: XMLDB/FileReader.cpp:450
+#: XMLDB/FileReader.cpp:474
 #, kde-format
 msgid "No default setup file found"
 msgstr "找不到預設的設定檔"
 
-#: XMLDB/FileReader.cpp:470
+#: XMLDB/FileReader.cpp:494
 #, kde-format
 msgid "Unable to open '%1' for reading"
 msgstr "無法開啟 '%1' 以讀取"
 
-#: XMLDB/FileReader.cpp:483
+#: XMLDB/FileReader.cpp:507
 #, kde-format
 msgid "line %1 column %2 in file %3: %4"
 msgstr "檔案 %3 的第 %1 行第 %2 欄：%4"
 
-#: XMLDB/FileReader.cpp:485
+#: XMLDB/FileReader.cpp:509
 #, kde-format
 msgid "Failed to recover the backup: %1"
 msgstr "無法回復備份：%1"
 
-#: XMLDB/FileReader.cpp:496
+#: XMLDB/FileReader.cpp:520
 #, kde-format
 msgid "Error in file %1: No elements found"
 msgstr "在檔案 %1 內發生錯誤：找不到元素"
 
-#: XMLDB/FileReader.cpp:502
+#: XMLDB/FileReader.cpp:526
 #, kde-format
 msgid "Error in file %1: expected 'KPhotoAlbum' as top element but found '%2'"
 msgstr "在檔案 %1 內發生錯誤：頂端元素應為 KPhotoAlbum 但是看到的是 %2"

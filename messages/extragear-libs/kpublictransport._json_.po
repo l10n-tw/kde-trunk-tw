@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-16 03:17+0000\n"
+"POT-Creation-Date: 2019-12-22 03:38+0000\n"
 "PO-Revision-Date: 2019-11-15 17:57+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
@@ -46,6 +46,14 @@ msgstr ""
 msgctxt "Name"
 msgid "Rhein-Main-Verkehrsverbund (RMV)"
 msgstr ""
+
+#: src/networks/de_dbwagenreihung.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Deutsche Bahn (DB)"
+msgctxt "Name"
+msgid "Deutsche Bahn (DB) train layout API"
+msgstr "Deutsche Bahn (DB)"
 
 #: src/networks/de_db.json
 msgctxt "Name"
@@ -245,6 +253,11 @@ msgstr ""
 #: src/networks/de_he_rmv.json
 msgctxt "Description"
 msgid "Local transport in the Rhein-Main area, Germany."
+msgstr ""
+
+#: src/networks/de_dbwagenreihung.json
+msgctxt "Description"
+msgid "German national railway train layout service."
 msgstr ""
 
 #: src/networks/de_db.json
