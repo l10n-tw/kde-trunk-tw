@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-15 03:11+0100\n"
+"POT-Creation-Date: 2019-12-23 03:08+0100\n"
 "PO-Revision-Date: 2019-10-09 22:27+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -39,7 +39,7 @@ msgctxt "Title of the view of all artists"
 msgid "Artists"
 msgstr "藝人"
 
-#: android/ElisaMainWindow.qml:33 android/ElisaMainWindow.qml:41 main.cpp:120
+#: android/ElisaMainWindow.qml:33 android/ElisaMainWindow.qml:41 main.cpp:122
 #: qml/ElisaMainWindow.qml:41
 #, kde-format
 msgid "Elisa"
@@ -74,42 +74,42 @@ msgstr "多名藝人"
 msgid "Radios"
 msgstr "廣播"
 
-#: main.cpp:122
+#: main.cpp:124
 #, kde-format
 msgid "A Simple Music Player written with KDE Frameworks"
 msgstr "使用 KDE Frameworks 撰寫而成的簡易音樂播放器"
 
-#: main.cpp:124
+#: main.cpp:126
 #, kde-format
 msgid "(c) 2015-2019, Elisa contributors"
 msgstr "(c) 2015-2019, Elisa 貢獻群"
 
-#: main.cpp:126
+#: main.cpp:128
 #, kde-format
 msgid "Creator"
 msgstr "建立者"
 
-#: main.cpp:127
+#: main.cpp:129
 #, kde-format
 msgid "Author"
 msgstr "作者"
 
-#: main.cpp:129
+#: main.cpp:131
 #, kde-format
 msgid "Concept and design work"
 msgstr "概念及設計工作"
 
-#: main.cpp:130
+#: main.cpp:132
 #, kde-format
 msgid "Localization support"
 msgstr "本地化支援"
 
-#: main.cpp:131
+#: main.cpp:133
 #, kde-format
 msgid "Right to left support in interface"
 msgstr "在介面支援右至左文字 (RTL)"
 
-#: main.cpp:132
+#: main.cpp:134
 #, kde-format
 msgid "Various improvements to the interface"
 msgstr "各種介面改良"
@@ -301,19 +301,19 @@ msgctxt "Title of the context view related to the currently playing track"
 msgid "Now Playing"
 msgstr "現正播放"
 
-#: qml/ContextView.qml:150
+#: qml/ContextView.qml:149
 #, kde-format
 msgctxt "display of artist and album in context view"
 msgid "<i>by</i> <b>%1</b> <i>from</i> <b>%2</b>"
 msgstr "<i>作者：</i><b>%1</b>；<i>來自：</i><b>%2</b>"
 
-#: qml/ContextView.qml:152
+#: qml/ContextView.qml:151
 #, kde-format
 msgctxt "display of album in context view"
 msgid "<i>from</i> <b>%1</b>"
 msgstr "<i>來自：</i><b>%1</b>"
 
-#: qml/ContextView.qml:154
+#: qml/ContextView.qml:153
 #, kde-format
 msgctxt "display of artist in context view"
 msgid "<i>by</i> <b>%1</b>"
@@ -324,6 +324,16 @@ msgstr "<i>作者：</i><b>%1</b>"
 msgctxt "Label for a piece of metadata, e.g. 'Album Artist:'"
 msgid "%1:"
 msgstr "%1："
+
+#: qml/ElisaConfigurationDialog.qml:133
+#, kde-format
+msgid "Add new path"
+msgstr ""
+
+#: qml/ElisaConfigurationDialog.qml:142
+#, kde-format
+msgid "Choose a Folder"
+msgstr ""
 
 #: qml/GridBrowserDelegate.qml:158 qml/ListBrowserDelegate.qml:62
 #: qml/PlayListEntry.qml:93
@@ -350,13 +360,13 @@ msgctxt "Open view of the container"
 msgid "Open"
 msgstr "開啟"
 
-#: qml/HeaderBar.qml:326
+#: qml/HeaderBar.qml:325
 #, kde-format
 msgid "1 track remaining"
 msgid_plural "%1 tracks remaining"
 msgstr[0] "剩餘 %1 個音軌"
 
-#: qml/HeaderBar.qml:326
+#: qml/HeaderBar.qml:325
 #, kde-format
 msgid "No remaining tracks"
 msgstr "無剩餘音軌"
@@ -397,7 +407,7 @@ msgctxt "%1: track title"
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: qml/ListBrowserDelegate.qml:207
+#: qml/ListBrowserDelegate.qml:209
 #, kde-format
 msgctxt "%1: track number. %2: track title"
 msgid "%1 - %2"
@@ -611,12 +621,12 @@ msgctxt "Button to navigate to the artist of the album"
 msgid "Display Artist"
 msgstr "顯示藝人"
 
-#: qml/NavigationActionBar.qml:252
+#: qml/NavigationActionBar.qml:249
 #, kde-format
 msgid "Search for album name, artist, etc."
 msgstr "搜尋專輯名稱、藝人等等。"
 
-#: qml/NavigationActionBar.qml:258
+#: qml/NavigationActionBar.qml:255
 #, kde-format
 msgid "Filter by rating: "
 msgstr "依評分過濾："
