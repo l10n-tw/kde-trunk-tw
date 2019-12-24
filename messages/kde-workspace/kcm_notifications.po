@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-21 03:46+0100\n"
+"POT-Creation-Date: 2019-12-24 03:28+0100\n"
 "PO-Revision-Date: 2019-12-20 22:14+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -49,33 +49,33 @@ msgstr "切換請勿打擾"
 msgid "Configure Notifications"
 msgstr "設定通知"
 
-#: package/contents/ui/ApplicationConfiguration.qml:96
+#: package/contents/ui/ApplicationConfiguration.qml:98
 #, kde-format
 msgid "Show popups"
 msgstr "顯示彈出通知"
 
-#: package/contents/ui/ApplicationConfiguration.qml:105
+#: package/contents/ui/ApplicationConfiguration.qml:107
 #, kde-format
 msgid "Show in do not disturb mode"
 msgstr "在「請勿打擾」模式中顯示"
 
-#: package/contents/ui/ApplicationConfiguration.qml:113
+#: package/contents/ui/ApplicationConfiguration.qml:115
 #: package/contents/ui/main.qml:128
 #, kde-format
 msgid "Show in history"
 msgstr "在歷史記錄中顯示"
 
-#: package/contents/ui/ApplicationConfiguration.qml:119
+#: package/contents/ui/ApplicationConfiguration.qml:121
 #, kde-format
 msgid "Show notification badges"
 msgstr "在通知徽章中顯示"
 
-#: package/contents/ui/ApplicationConfiguration.qml:131
+#: package/contents/ui/ApplicationConfiguration.qml:134
 #, kde-format
 msgid "Configure Events..."
 msgstr "設定活動…"
 
-#: package/contents/ui/ApplicationConfiguration.qml:141
+#: package/contents/ui/ApplicationConfiguration.qml:145
 #, kde-format
 msgid ""
 "This application does not support configuring notifications on a per-event "
@@ -242,3 +242,9 @@ msgid ""
 "Select an application from the list to configure its notification settings "
 "and behavior."
 msgstr "從列表選取應用程式，設定其通知設定及行為。"
+
+#: sourcesmodel.cpp:353
+#, fuzzy, kde-format
+#| msgid "Applications"
+msgid "Other Applications"
+msgstr "應用程式"

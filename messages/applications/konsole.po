@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-18 02:37+0100\n"
+"POT-Creation-Date: 2019-12-24 02:30+0100\n"
 "PO-Revision-Date: 2019-11-26 21:17+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -3369,99 +3369,99 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "插入遠端標題格式"
 
-#: TerminalDisplay.cpp:1268 TerminalDisplay.cpp:1269
+#: TerminalDisplay.cpp:1260 TerminalDisplay.cpp:1261
 #, kde-format
 msgid "Size: XXX x XXX"
 msgstr "大小: XXX x XXX"
 
-#: TerminalDisplay.cpp:1280
+#: TerminalDisplay.cpp:1272
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "大小: %1 x %2"
 
-#: TerminalDisplay.cpp:3158
+#: TerminalDisplay.cpp:3150
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] "您確定要貼上這 %1 個字元嗎？"
 
-#: TerminalDisplay.cpp:3161
+#: TerminalDisplay.cpp:3153
 #, kde-format
 msgid "Confirm Paste"
 msgstr "確認貼上"
 
-#: TerminalDisplay.cpp:3193
+#: TerminalDisplay.cpp:3185
 #, kde-format
 msgid "End Of Text/Interrupt: may exit the current process"
 msgstr "文字結尾/中止：可能會退出目前程序"
 
-#: TerminalDisplay.cpp:3194
+#: TerminalDisplay.cpp:3186
 #, kde-format
 msgid "End Of Transmission: may exit the current process"
 msgstr "傳輸結尾：可能會退出目前程序"
 
-#: TerminalDisplay.cpp:3195
+#: TerminalDisplay.cpp:3187
 #, kde-format
 msgid "Bell: will try to emit an audible warning"
 msgstr "鈴響 (Bell)：將嘗試發出聲音警告"
 
-#: TerminalDisplay.cpp:3196
+#: TerminalDisplay.cpp:3188
 #, kde-format
 msgid "Backspace"
 msgstr "Backspace 鍵"
 
-#: TerminalDisplay.cpp:3197
+#: TerminalDisplay.cpp:3189
 #, kde-format
 msgid "Device Control Three/XOFF: suspends output"
 msgstr "裝置控制 3 / XOFF: 暫停輸出"
 
-#: TerminalDisplay.cpp:3198
+#: TerminalDisplay.cpp:3190
 #, kde-format
 msgid "Substitute/Suspend: may suspend current process"
 msgstr "替代字元/暫停：可能會暫停目前程序"
 
-#: TerminalDisplay.cpp:3199
+#: TerminalDisplay.cpp:3191
 #, kde-format
 msgid "Escape: used for manipulating terminal state"
 msgstr "Esc 鍵：用來控制終端機狀態"
 
-#: TerminalDisplay.cpp:3200
+#: TerminalDisplay.cpp:3192
 #, kde-format
 msgid "File Separator/Quit: may abort the current process"
 msgstr "檔案分隔符/退出：可能會中止目前程序"
 
-#: TerminalDisplay.cpp:3222
+#: TerminalDisplay.cpp:3214
 #, kde-format
 msgid ""
 "The text you're trying to paste contains hidden control characters, do you "
 "want to filter them out?"
 msgstr "您嘗試貼上的文字有隱藏控制字元。是否過濾出這些字元？"
 
-#: TerminalDisplay.cpp:3225
+#: TerminalDisplay.cpp:3217
 #, kde-format
 msgctxt "@title"
 msgid "Confirm Paste"
 msgstr "確認貼上"
 
-#: TerminalDisplay.cpp:3227
+#: TerminalDisplay.cpp:3219
 #, kde-format
 msgctxt "@action:button"
 msgid "Paste &without control characters"
 msgstr "去除控制字元後貼上(&W)"
 
-#: TerminalDisplay.cpp:3230
+#: TerminalDisplay.cpp:3222
 #, kde-format
 msgctxt "@action:button"
 msgid "&Paste everything"
 msgstr "全部貼上(&P)"
 
-#: TerminalDisplay.cpp:3233
+#: TerminalDisplay.cpp:3225
 #, kde-format
 msgctxt "@action:button"
 msgid "&Cancel"
 msgstr "取消(&C)"
 
-#: TerminalDisplay.cpp:3480
+#: TerminalDisplay.cpp:3472
 #, kde-format
 msgid ""
 "<qt>Output has been <a href=\"https://en.wikipedia.org/wiki/"
@@ -3471,17 +3471,17 @@ msgstr ""
 "<qt>輸出已經被 Ctrl+S <a href=\"https://en.wikipedia.org/wiki/"
 "Software_flow_control\">暫停</a>。按下 <b>Ctrl+Q</b> 回復。</qt>"
 
-#: TerminalDisplay.cpp:3518
+#: TerminalDisplay.cpp:3510
 #, kde-format
 msgid "This terminal is read-only."
 msgstr "此終端器為唯讀狀態。"
 
-#: TerminalDisplay.cpp:3813
+#: TerminalDisplay.cpp:3805
 #, kde-format
 msgid "Change &Directory To"
 msgstr "變更目錄為(&D)"
 
-#: TerminalDisplay.cpp:3845
+#: TerminalDisplay.cpp:3837
 #, kde-format
 msgid "&Paste Location"
 msgstr "貼上位置(&P)"
