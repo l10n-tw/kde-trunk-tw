@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmymoney2\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-21 02:52+0100\n"
+"POT-Creation-Date: 2019-12-26 02:40+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -5881,12 +5881,12 @@ msgctxt "Select all transactions"
 msgid "Select all"
 msgstr "全部選取"
 
-#: kmymoney/kmymoney.cpp:1506 kmymoney/views/kgloballedgerview_p.h:974
+#: kmymoney/kmymoney.cpp:1506 kmymoney/views/kgloballedgerview_p.h:978
 #, kde-format
 msgid "Go to account"
 msgstr "前往帳戶"
 
-#: kmymoney/kmymoney.cpp:1507 kmymoney/views/kgloballedgerview_p.h:972
+#: kmymoney/kmymoney.cpp:1507 kmymoney/views/kgloballedgerview_p.h:976
 #, kde-format
 msgid "Go to payee"
 msgstr "前往收款人"
@@ -13733,12 +13733,26 @@ msgid "One outstanding payment of"
 msgid_plural "Total of %1 outstanding payments amounting to"
 msgstr[0] "總共 %1 筆未付款，共計 "
 
-#: kmymoney/plugins/reconciliationreport/reconciliationreport.cpp:292
+#: kmymoney/plugins/reconciliationreport/reconciliationreport.cpp:293
+#, fuzzy, kde-format
+#| msgid "Outstanding payments"
+msgid "Outstanding charges"
+msgstr "未付款"
+
+#: kmymoney/plugins/reconciliationreport/reconciliationreport.cpp:293
 #, kde-format
 msgid "Outstanding deposits"
 msgstr "已存未入帳"
 
-#: kmymoney/plugins/reconciliationreport/reconciliationreport.cpp:324
+#: kmymoney/plugins/reconciliationreport/reconciliationreport.cpp:327
+#, fuzzy, kde-format
+#| msgid "One outstanding payment of"
+#| msgid_plural "Total of %1 outstanding payments amounting to"
+msgid "One outstanding charges of"
+msgid_plural "Total of %1 outstanding charges amounting to"
+msgstr[0] "總共 %1 筆未付款，共計 "
+
+#: kmymoney/plugins/reconciliationreport/reconciliationreport.cpp:328
 #, kde-format
 msgid "One outstanding deposit of"
 msgid_plural "Total of %1 outstanding deposits amounting to"
@@ -18400,7 +18414,7 @@ msgid "Unable to accept transaction"
 msgstr "無法新增交易"
 
 #: kmymoney/views/kgloballedgerview.cpp:1673
-#: kmymoney/views/kgloballedgerview_p.h:1391
+#: kmymoney/views/kgloballedgerview_p.h:1395
 #, fuzzy, kde-format
 #| msgid "Unable to add transactions"
 msgid "Unable to modify transaction"
@@ -18469,81 +18483,89 @@ msgid "Statement Payment Details"
 msgstr "報表付款詳情"
 
 #: kmymoney/views/kgloballedgerview_p.h:824
-#: kmymoney/views/kgloballedgerview_p.h:836
+#: kmymoney/views/kgloballedgerview_p.h:840
 #, kde-format
 msgid "%1 deposit (%2)"
 msgid_plural "%1 deposits (%2)"
 msgstr[0] "%1 筆存款（%2）"
 
 #: kmymoney/views/kgloballedgerview_p.h:826
-#: kmymoney/views/kgloballedgerview_p.h:832
+#, fuzzy, kde-format
+#| msgid "%1 payment (%2)"
+#| msgid_plural "%1 payments (%2)"
+msgid "%1 charge (%2)"
+msgid_plural "%1 charges (%2)"
+msgstr[0] "%1 筆付款（%2）"
+
+#: kmymoney/views/kgloballedgerview_p.h:828
+#: kmymoney/views/kgloballedgerview_p.h:836
 #, kde-format
 msgid "%1 payment (%2)"
 msgid_plural "%1 payments (%2)"
 msgstr[0] "%1 筆付款（%2）"
 
-#: kmymoney/views/kgloballedgerview_p.h:829
+#: kmymoney/views/kgloballedgerview_p.h:831
 #, kde-format
 msgctxt "%1 is a string, e.g. 7 deposits; %2 is a string, e.g. 4 payments"
 msgid "%1, %2"
 msgstr "%1, %2"
 
-#: kmymoney/views/kgloballedgerview_p.h:934
-#: kmymoney/views/kgloballedgerview_p.h:954
+#: kmymoney/views/kgloballedgerview_p.h:938
+#: kmymoney/views/kgloballedgerview_p.h:958
 #, kde-format
 msgid "Go to '%1'"
 msgstr "前往 '%1'"
 
-#: kmymoney/views/kgloballedgerview_p.h:1008
+#: kmymoney/views/kgloballedgerview_p.h:1012
 #, kde-format
 msgid "Statement: %1"
 msgstr "報表：%1"
 
-#: kmymoney/views/kgloballedgerview_p.h:1009
-#: kmymoney/views/kgloballedgerview_p.h:1025
+#: kmymoney/views/kgloballedgerview_p.h:1013
+#: kmymoney/views/kgloballedgerview_p.h:1029
 #, kde-format
 msgctxt "Cleared balance"
 msgid "Cleared: %1"
 msgstr "已清除：%1"
 
-#: kmymoney/views/kgloballedgerview_p.h:1017
+#: kmymoney/views/kgloballedgerview_p.h:1021
 #, kde-format
 msgid "Last reconciled: %1"
 msgstr "上次對帳：%1"
 
-#: kmymoney/views/kgloballedgerview_p.h:1019
+#: kmymoney/views/kgloballedgerview_p.h:1023
 #, kde-format
 msgid "Never reconciled"
 msgstr "從未對帳過"
 
-#: kmymoney/views/kgloballedgerview_p.h:1135
+#: kmymoney/views/kgloballedgerview_p.h:1139
 #, fuzzy, kde-format
 #| msgid "Cannot create transactions when no account is selected."
 msgid "Cannot process transactions in account %1, which is closed."
 msgstr "沒有選取帳戶，無法建立交易。"
 
-#: kmymoney/views/kgloballedgerview_p.h:1141
+#: kmymoney/views/kgloballedgerview_p.h:1145
 #, kde-format
 msgid "Cannot process transaction with focus if it is not selected."
 msgstr ""
 
-#: kmymoney/views/kgloballedgerview_p.h:1229
+#: kmymoney/views/kgloballedgerview_p.h:1233
 #, fuzzy, kde-format
 #| msgid "Unable to add transactions"
 msgid "Unable to delete transaction(s)"
 msgstr "無法新增交易"
 
-#: kmymoney/views/kgloballedgerview_p.h:1258
+#: kmymoney/views/kgloballedgerview_p.h:1262
 #, kde-format
 msgid "Unable to unmatch the selected transactions"
 msgstr "無法取消比對選取的交易"
 
-#: kmymoney/views/kgloballedgerview_p.h:1316
+#: kmymoney/views/kgloballedgerview_p.h:1320
 #, kde-format
 msgid "Unable to match the selected transactions"
 msgstr "無法比對選取的交易"
 
-#: kmymoney/views/kgloballedgerview_p.h:1522
+#: kmymoney/views/kgloballedgerview_p.h:1526
 #, kde-format
 msgid "Running automatic reconciliation"
 msgstr "執行自動對帳中"
