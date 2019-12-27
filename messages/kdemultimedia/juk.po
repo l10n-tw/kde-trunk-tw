@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: juk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-21 03:10+0200\n"
+"POT-Creation-Date: 2019-12-27 03:10+0100\n"
 "PO-Revision-Date: 2019-08-06 23:06+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -97,9 +97,10 @@ msgid "Show Playing"
 msgstr "顯示播放"
 
 #: coverdialog.cpp:37
-#, kde-format
-msgid "&lt;All Artists&gt;"
-msgstr "&lt;所有演唱者&gt;"
+#, fuzzy, kde-format
+#| msgid "Artists"
+msgid "<All Artists>"
+msgstr "演唱者"
 
 #: coverdialog.cpp:148
 #, kde-format
@@ -1548,30 +1549,31 @@ msgstr "登入資訊不正確。"
 msgid "Login valid."
 msgstr "登入正確。"
 
-#: searchwidget.cpp:72
+#: searchwidget.cpp:71
 #, kde-format
 msgid "Normal Matching"
 msgstr "一般比對"
 
-#: searchwidget.cpp:73
+#: searchwidget.cpp:72
 #, kde-format
 msgid "Case Sensitive"
 msgstr "區分大小寫"
 
-#: searchwidget.cpp:74
+#: searchwidget.cpp:73
 #, kde-format
 msgid "Pattern Matching"
 msgstr "樣式比對"
 
-#: searchwidget.cpp:173
+#: searchwidget.cpp:172
 #, kde-format
 msgid "All Visible"
 msgstr "所有可見的"
 
-#: searchwidget.cpp:205
-#, kde-format
-msgid "Search:"
-msgstr "搜尋："
+#: searchwidget.cpp:203
+#, fuzzy, kde-format
+#| msgid "Edit Search..."
+msgid "Search..."
+msgstr "編輯搜尋..."
 
 #: slider.cpp:236
 #, kde-format
@@ -2037,3 +2039,9 @@ msgstr "無法下載封面圖片"
 #, kde-format
 msgid "Cover fetched from <a href='https://last.fm/'>last.fm</a>."
 msgstr "封面從 <a href='http://last.fm/'>last.fm</a> 擷取。"
+
+#~ msgid "&lt;All Artists&gt;"
+#~ msgstr "&lt;所有演唱者&gt;"
+
+#~ msgid "Search:"
+#~ msgstr "搜尋："
