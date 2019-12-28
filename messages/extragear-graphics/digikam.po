@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-27 02:36+0100\n"
+"POT-Creation-Date: 2019-12-28 02:31+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -1228,7 +1228,7 @@ msgid "Name:"
 msgstr "名稱："
 
 #: core/app/items/utils/tooltipfiller.cpp:588
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:438
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:439
 #, kde-format
 msgid "Items:"
 msgstr "項目:"
@@ -1653,7 +1653,7 @@ msgid "Thumbnails"
 msgstr "縮圖"
 
 #: core/app/main/digikamapp_setup.cpp:301
-#: core/app/views/stack/itemiconview.cpp:2636
+#: core/app/views/stack/itemiconview.cpp:2654
 #, kde-format
 msgctxt "View the selected image"
 msgid "Preview"
@@ -2502,7 +2502,7 @@ msgstr ""
 msgid "Main Toolbar"
 msgstr "主工具列"
 
-#: core/app/main/main.cpp:119 core/app/views/stack/welcomepageview.cpp:217
+#: core/app/main/main.cpp:119 core/app/views/stack/welcomepageview.cpp:211
 #: core/libs/album/manager/albummanager_album.cpp:135
 #: core/libs/album/manager/albummanager_dalbum.cpp:103
 #: core/libs/album/manager/albummanager_falbum.cpp:74
@@ -2677,7 +2677,7 @@ msgstr "顯示臉孔標籤"
 msgid "Show Fullscreen"
 msgstr ""
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:177
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:178
 #: core/dplugins/generic/tools/htmlgallery/wizard/htmlintropage.cpp:96
 #: core/dplugins/generic/tools/jalbum/wizard/jalbumintropage.cpp:101
 #: core/dplugins/generic/tools/printcreator/wizard/advprintintropage.cpp:98
@@ -2695,28 +2695,28 @@ msgstr ""
 msgid "Albums"
 msgstr "相簿"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:236
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:237
 #: core/libs/properties/captions/itemdescedittab.cpp:287
 #, kde-format
 msgid "Open Tag Manager"
 msgstr "開啟標籤管理員"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:237
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:238
 #, fuzzy, kde-format
 msgid "No Tags"
 msgstr "標籤"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:238
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:239
 #, fuzzy, kde-format
 msgid "Existing Tags"
 msgstr "編輯影像"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:383
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:384
 #, fuzzy, kde-format
 msgid "No Tags Album"
 msgstr "前往相簿"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:398
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:399
 #: core/libs/album/engine/album.cpp:522
 #: core/libs/album/manager/albummanager.cpp:161
 #: core/libs/album/widgets/albumselectors.cpp:138
@@ -2734,45 +2734,45 @@ msgstr "前往相簿"
 msgid "Tags"
 msgstr "標籤"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:520
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:523
 #: core/libs/album/widgets/albumselecttabs.cpp:199
 #: core/utilities/searchwindow/searchfields.cpp:183
 #, kde-format
 msgid "Labels"
 msgstr "標籤"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:609
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:612
 #: core/libs/models/albummodel.cpp:288
 #, fuzzy, kde-format
 msgid "Dates"
 msgstr "日期"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:692
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:695
 #, kde-format
 msgid "Time Unit:"
 msgstr "時間單位："
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:694
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:697
 #, kde-format
 msgid "Day"
 msgstr "日"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:695
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:698
 #, kde-format
 msgid "Week"
 msgstr "週"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:696
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:699
 #, kde-format
 msgid "Month"
 msgstr "月"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:697
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:700
 #, kde-format
 msgid "Year"
 msgstr "年"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:700
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:703
 #, kde-format
 msgid ""
 "<p>Select the histogram time unit.</p><p>You can change the graph decade to "
@@ -2781,7 +2781,7 @@ msgstr ""
 "<p>選擇分佈圖時間單位。</p><p>您可以隨著時間推移改變圖表十年以放大或縮小。</"
 "p>"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:707
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:710
 #, kde-format
 msgid ""
 "<p>Select the histogram scale.</p><p>If the date's maximal counts are small, "
@@ -2793,42 +2793,42 @@ msgstr ""
 "對數比例可用於最大總數較大時；如果使用這種比例，所有的數值 (小和大) 都可在圖"
 "形上看見。</p>"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:714
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:717
 #: core/libs/dimg/filters/greycstoration/greycstorationsettings.cpp:231
 #: core/libs/dimg/filters/lc/localcontrastsettings.cpp:172
 #, kde-format
 msgid "Linear"
 msgstr "線性內插法"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:720
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:723
 #, kde-format
 msgid "Logarithmic"
 msgstr "對數"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:757
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:760
 #, kde-format
 msgid "Clear current selection"
 msgstr "清除目前選擇區域"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:758
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:761
 #, kde-format
 msgid ""
 "If you press this button, the current date selection on the time-line will "
 "be cleared."
 msgstr "如果您按下這個按鈕，會清除時間軸上目前日期的選擇區域。"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:761
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:764
 #, fuzzy, kde-format
 msgid ""
 "Enter the name of the current dates search to save in the \"Searches\" view"
 msgstr "輸入目前日期搜尋的名稱以儲存在「我的搜尋」檢視中"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:767
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:770
 #, kde-format
 msgid "Save current selection to a new virtual Album"
 msgstr "將目前選擇區域儲存到新的虛擬相簿"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:768
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:771
 #, kde-format
 msgid ""
 "If you press this button, the dates selected on the time-line will be saved "
@@ -2837,18 +2837,18 @@ msgstr ""
 "如果您按下這個按鈕，時間軸上選擇的日期會用左側設定的名稱儲存到新的搜尋虛擬相"
 "簿。"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:941
-#: core/app/views/stack/itemiconview.cpp:237
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:945
+#: core/app/views/stack/itemiconview.cpp:240
 #, kde-format
 msgid "Timeline"
 msgstr "時間軸"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:972
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:976
 #, kde-format
 msgid "no item"
 msgstr "沒有項目"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:973
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:977
 #: core/utilities/queuemanager/main/queuemgrwindow.cpp:488
 #: core/utilities/queuemanager/main/queuemgrwindow.cpp:514
 #, kde-format
@@ -2856,33 +2856,33 @@ msgid "1 item"
 msgid_plural "%1 items"
 msgstr[0] "%1 個項目"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1195
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1203
 #, kde-format
 msgctxt "Advanced search images, access stored searches"
 msgid "Search"
 msgstr "搜尋"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1287
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1299
 #, fuzzy, kde-format
 #| msgid "Similarity:"
 msgctxt "Fuzzy Search images, as duplicates, sketch, searches by similarities"
 msgid "Similarity"
 msgstr "相似檔："
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1395
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1407
 #, fuzzy, kde-format
 msgctxt "Search images on a map"
 msgid "Map"
 msgstr "地圖"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1454
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1466
 #, fuzzy, kde-format
 #| msgctxt "Browse images sorted by depicted people"
 #| msgid "People"
 msgid "People"
 msgstr "人物"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1459
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1471
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
@@ -2893,71 +2893,65 @@ msgstr ""
 "digiKam 可以搜尋您的相片中的臉孔。<nl/> 當您已經在相當數量中的相片標記出您的"
 "朋友後，<nl/> 它可以辨識中您其它相片中的此人。"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1466
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1478
 #, kde-format
 msgid "Scan collection for faces"
 msgstr "掃描臉孔收藏"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1549
-#, fuzzy, kde-format
-#| msgid "Face Recognition"
-msgid "Face recognition aborted"
-msgstr "臉孔辨識"
-
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1550
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1561
 #, kde-format
 msgid ""
 "Face recognition is aborted, because there are no identities to recognize. "
 "Please add new identities."
 msgstr ""
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1569
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1581
 #, kde-format
 msgctxt "Browse images sorted by depicted people"
 msgid "People"
 msgstr "人物"
 
-#: core/app/views/stack/itemiconview.cpp:220
+#: core/app/views/stack/itemiconview.cpp:223
 #, kde-format
 msgid "Fuzzy Sketch Search"
 msgstr "模糊速寫搜尋"
 
-#: core/app/views/stack/itemiconview.cpp:224
+#: core/app/views/stack/itemiconview.cpp:227
 #, kde-format
 msgid "Fuzzy Image Search"
 msgstr "影像模糊搜尋"
 
-#: core/app/views/stack/itemiconview.cpp:228
+#: core/app/views/stack/itemiconview.cpp:231
 #, kde-format
 msgid "Map Search"
 msgstr "地圖搜尋"
 
-#: core/app/views/stack/itemiconview.cpp:233
+#: core/app/views/stack/itemiconview.cpp:236
 #: core/libs/database/coredb/coredbschemaupdater.cpp:1037
 #, kde-format
 msgid "Last Search"
 msgstr "上次搜尋"
 
-#: core/app/views/stack/itemiconview.cpp:397
+#: core/app/views/stack/itemiconview.cpp:415
 #: core/utilities/queuemanager/manager/batchtool.cpp:206
 #: core/utilities/queuemanager/views/toolslistview.cpp:83
 #, kde-format
 msgid "Filters"
 msgstr "濾鏡"
 
-#: core/app/views/stack/itemiconview.cpp:1296
+#: core/app/views/stack/itemiconview.cpp:1314
 #, fuzzy, kde-format
 msgid "Cannot open the root album. It is not a physical location."
 msgstr "無法開啟根目錄。它不是一個實體位置。"
 
-#: core/app/views/stack/itemiconview.cpp:1716
+#: core/app/views/stack/itemiconview.cpp:1734
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
 "<i>The storage location of this image<br/>is currently not available</i>"
 msgstr "提供的收藏位置無效或者目前無法使用。"
 
-#: core/app/views/stack/itemiconview.cpp:2586
+#: core/app/views/stack/itemiconview.cpp:2604
 #: core/libs/dplugins/setup/dpluginconfview.cpp:135
 #: core/libs/widgets/metadata/metadatawidget.cpp:158
 #: core/utilities/imageeditor/editor/editortooliface.cpp:104
@@ -3040,93 +3034,66 @@ msgstr "您確定要刪除選擇的工作流「%1」？"
 
 #: core/app/views/stack/welcomepageview.cpp:135
 #, kde-format
-msgid "Image Editor: Add Web services Import and Export tools;"
+msgid ""
+"FaceManagement: New Neural Network engine based on OpenCV Deep Learning "
+"module to detect and recognize faces."
 msgstr ""
 
 #: core/app/views/stack/welcomepageview.cpp:136
 #, kde-format
-msgid "Showfoto: Add Web services Import and Export tools;"
+msgid "SlideShow: Add new shuffle mode."
 msgstr ""
 
 #: core/app/views/stack/welcomepageview.cpp:137
 #, kde-format
-msgid "Light Table: Add Web services Import and Export tools;"
+msgid "HTMLGallery: Add new theme Html5Responsive"
 msgstr ""
 
 #: core/app/views/stack/welcomepageview.cpp:138
 #, kde-format
-msgid "New video metadata parser based on ffmpeg to populate database;"
-msgstr ""
-
-#: core/app/views/stack/welcomepageview.cpp:139
-#, kde-format
 msgid ""
-"Add video support to find files based on properties registered on database."
+"General: Update internal libraw engine to last 0.20.0 release including "
+"Canon CR3 and Sony A7R4 support"
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:140
-#, kde-format
-msgid ""
-"Similarity database has been moved to a dedicated file to not bloat core "
-"database with computed finger-prints. This will speed-up query in core "
-"database in case of Similarity feature is used."
-msgstr ""
-
-#: core/app/views/stack/welcomepageview.cpp:142
-#, kde-format
-msgid "Add possibility to merge tags by drag & drop."
-msgstr ""
-
-#: core/app/views/stack/welcomepageview.cpp:143
-#, kde-format
-msgid ""
-"HTML Gallery: New Vanilla theme to emulate export to HTML from Adobe "
-"LightRoom."
-msgstr ""
-
-#: core/app/views/stack/welcomepageview.cpp:144
-#, kde-format
-msgid "HTML Gallery: New Blue Frame theme."
-msgstr ""
-
-#: core/app/views/stack/welcomepageview.cpp:147
+#: core/app/views/stack/welcomepageview.cpp:141
 #, kde-format
 msgid "...and much more."
 msgstr "...以及更多。"
 
-#: core/app/views/stack/welcomepageview.cpp:153
+#: core/app/views/stack/welcomepageview.cpp:147
 #, kde-format
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: core/app/views/stack/welcomepageview.cpp:156
+#: core/app/views/stack/welcomepageview.cpp:150
 #, fuzzy, kde-format
 msgid "New Features"
 msgstr "專題"
 
-#: core/app/views/stack/welcomepageview.cpp:158
+#: core/app/views/stack/welcomepageview.cpp:152
 #, kde-format
 msgid "<h3>%1</h3><ul>%2</ul>"
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:159
+#: core/app/views/stack/welcomepageview.cpp:153
 #, kde-format
 msgid ""
 "Some of the new features in this release of digiKam include (compared to "
 "digiKam 5.x):"
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:168
+#: core/app/views/stack/welcomepageview.cpp:162
 #, fuzzy, kde-format
 msgid "About"
 msgstr "關於"
 
-#: core/app/views/stack/welcomepageview.cpp:170
+#: core/app/views/stack/welcomepageview.cpp:164
 #, kde-format
 msgid "<h3>%1</h3><h3>%2</h3><ul>%3</ul>"
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:171
+#: core/app/views/stack/welcomepageview.cpp:165
 #, kde-format
 msgid ""
 "digiKam is an open source photo management program designed to import, "
@@ -3134,7 +3101,7 @@ msgid ""
 "computer."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:172
+#: core/app/views/stack/welcomepageview.cpp:166
 #, kde-format
 msgid ""
 "Currently, you are in the Album view mode of digiKam. Albums are the places "
@@ -3142,12 +3109,12 @@ msgid ""
 "disk."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:173
+#: core/app/views/stack/welcomepageview.cpp:167
 #, fuzzy, kde-format
 msgid "<li>%1</li><li>%2</li>"
 msgstr "<li>%1</li>\n"
 
-#: core/app/views/stack/welcomepageview.cpp:174
+#: core/app/views/stack/welcomepageview.cpp:168
 #, kde-format
 msgid ""
 "digiKam has many powerful features which are described in the <a href="
@@ -3155,20 +3122,20 @@ msgid ""
 "\">documentation</a>"
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:175
+#: core/app/views/stack/welcomepageview.cpp:169
 #, kde-format
 msgid ""
 "The <a href=\"https://www.digikam.org\">digiKam homepage</a> provides "
 "information about new versions of digiKam."
 msgstr ""
 
-#: core/app/views/stack/welcomepageview.cpp:224
+#: core/app/views/stack/welcomepageview.cpp:218
 #: core/utilities/firstrun/welcomepage.cpp:43
 #, kde-format
 msgid "Welcome to digiKam %1"
 msgstr "歡迎使用 digiKam %1"
 
-#: core/app/views/stack/welcomepageview.cpp:227
+#: core/app/views/stack/welcomepageview.cpp:221
 #, fuzzy, kde-format
 #| msgid "Background opacity:"
 msgid "Background Image Credits"
@@ -4487,7 +4454,7 @@ msgstr "浮水印型態："
 
 #: core/dplugins/bqm/decorate/watermark/watermark.cpp:203
 #: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:478
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:246
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:247
 #, kde-format
 msgid "Image"
 msgstr "影像"
@@ -39252,7 +39219,7 @@ msgid "Use this button to scan the selected albums for duplicate items."
 msgstr "使用這個按鈕來掃描選擇相簿中的重複項目。"
 
 #: core/utilities/fuzzysearch/findduplicatesview.cpp:157
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:329
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:330
 #, fuzzy, kde-format
 #| msgid "Similarity:"
 msgid "Similarity range:"
@@ -39342,17 +39309,17 @@ msgid ""
 "tab</i> means that only the selected tab is used."
 msgstr ""
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:245
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:246
 #, kde-format
 msgid "Duplicates"
 msgstr "重複檔"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:247
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:248
 #, kde-format
 msgid "Sketch"
 msgstr "速寫"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:303
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:304
 #, kde-format
 msgid ""
 "<p>Drag & drop an image here<br/>to perform similar<br/>items search.</"
@@ -39362,18 +39329,18 @@ msgstr ""
 "<p>拖放一張影像到這裡<br/>以執行相似<br/>項目搜尋。</p><p>當瀏覽您的影像時"
 "<br/> 您也可以使用右鍵功能表。</p>"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:311
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:312
 #, kde-format
 msgid "<b>File</b>:"
 msgstr "<b>檔案</b>:"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:313
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:314
 #, kde-format
 msgid "<b>Folder</b>:"
 msgstr "<b>資料夾</b>："
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:323
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:459
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:324
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:460
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Search in:"
@@ -39381,25 +39348,25 @@ msgctxt "@label"
 msgid "Search in albums:"
 msgstr "搜尋於："
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:345
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:346
 #, fuzzy, kde-format
 #| msgid "Set here the spatial integral step."
 msgid "Select here the approximate similarity interval as a percentage. "
 msgstr "在這裡設定空間積分的階數。"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:356
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:357
 #, fuzzy, kde-format
 msgid ""
 "Enter the name of the current similar image search to save in the "
 "\"Similarity Searches\" view."
 msgstr "輸入目前相似影像搜尋的名稱以儲存在「我的模糊搜尋」檢視中。"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:362
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:363
 #, kde-format
 msgid "Save current similar image search to a new virtual Album"
 msgstr "將目前相似影像搜尋儲存到新的虛擬相簿"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:363
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:364
 #, kde-format
 msgid ""
 "If you press this button, the current similar image search will be saved to "
@@ -39408,69 +39375,69 @@ msgstr ""
 "如果您按下這個按鈕，目前相似影像搜尋會用左側設定的名稱儲存到新的搜尋虛擬相"
 "簿。"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:401
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:402
 #, kde-format
 msgid "Set here the brush color used to draw sketch."
 msgstr "在這裡設定繪製速寫的筆刷顏色。"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:420
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:421
 #, kde-format
 msgid "Undo last draw on sketch"
 msgstr "復原速寫的最後筆劃"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:421
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:422
 #, kde-format
 msgid "Use this button to undo last drawing action on sketch."
 msgstr "使用這個按鈕來復原速寫的最後筆劃動作。"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:427
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:428
 #, kde-format
 msgid "Redo last draw on sketch"
 msgstr "取消復原速寫的最後筆劃"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:428
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:429
 #, kde-format
 msgid "Use this button to redo last drawing action on sketch."
 msgstr "使用這個按鈕來取消復原速寫的最後筆劃動作。"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:431
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:432
 #, kde-format
 msgid "Pen:"
 msgstr "筆："
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:436
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:437
 #, kde-format
 msgid "Set here the brush size in pixels used to draw sketch."
 msgstr "在這裡設定用於繪製速寫的筆刷大小，單位為像素。"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:443
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:444
 #, kde-format
 msgid "Set here the number of items to find using sketch."
 msgstr "在這裡設定用速寫尋找的項目數量。"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:471
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:472
 #, kde-format
 msgid "Clear sketch"
 msgstr "清除速寫"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:472
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:473
 #, kde-format
 msgid "Use this button to clear sketch contents."
 msgstr "使用這個按鈕來清除速寫內容。"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:476
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:477
 #, fuzzy, kde-format
 msgid ""
 "Enter the name of the current sketch search to save in the \"Similarity "
 "Searches\" view."
 msgstr "在這裡輸入要儲存在「我的搜尋」檢視的速寫搜尋之名稱。"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:482
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:483
 #, kde-format
 msgid "Save current sketch search to a new virtual Album"
 msgstr "將目前速寫搜尋儲存到新的虛擬相簿"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:483
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:484
 #, kde-format
 msgid ""
 "If you press this button, the current sketch fuzzy search will be saved to a "
@@ -39479,7 +39446,7 @@ msgstr ""
 "如果您按下這個按鈕，目前速寫模糊搜尋會用左側設定的名稱儲存到新的搜尋虛擬相"
 "簿。"
 
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:696
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:697
 #, fuzzy, kde-format
 #| msgid ""
 #| "Image fingerprints have not yet been generated for your collection. The "
@@ -39498,11 +39465,6 @@ msgstr ""
 "您是否要立刻建立指紋？\n"
 "備註：這個過程可能需要一點時間。您可以稍後隨時使用「工具/重新建立所有指紋」來"
 "執行它."
-
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:700
-#, kde-format
-msgid "No Fingerprints"
-msgstr "沒有指紋"
 
 #: core/utilities/fuzzysearch/sketchwidget.cpp:153
 #, kde-format
@@ -48643,6 +48605,14 @@ msgstr "側邊切換頻率："
 msgctxt "%1 is the screen number (0, 1, ...)"
 msgid "Screen %1"
 msgstr "綠（%）："
+
+#, fuzzy
+#~| msgid "Face Recognition"
+#~ msgid "Face recognition aborted"
+#~ msgstr "臉孔辨識"
+
+#~ msgid "No Fingerprints"
+#~ msgstr "沒有指紋"
 
 #~ msgctxt "@title:window"
 #~ msgid "Scanning faces"

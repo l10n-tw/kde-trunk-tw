@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: latte-dock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 02:41+0200\n"
+"POT-Creation-Date: 2019-12-28 02:30+0100\n"
 "PO-Revision-Date: 2019-02-16 21:04+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -17,51 +17,67 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 18.12.2\n"
 
-#: menu.cpp:70
+#: menu.cpp:74
 #, kde-format
 msgid "&Add Widgets..."
 msgstr "新增元件(&A)…"
 
-#: menu.cpp:71
+#: menu.cpp:75
 #, kde-format
 msgid "Show Plasma Widget Explorer"
 msgstr "顯示 Plasma 元件瀏覽器"
 
-#: menu.cpp:80
+#: menu.cpp:84
 #, kde-format
 msgctxt "view settings window"
 msgid "View &Settings..."
 msgstr "檢視設定(&S)…"
 
-#: menu.cpp:92
+#: menu.cpp:96
 #, kde-format
 msgid "&Layouts"
 msgstr "版面配置(&L)"
 
-#: menu.cpp:94
+#: menu.cpp:98
 #, kde-format
 msgid "Switch to another layout"
 msgstr "切換到其他版面"
 
-#: menu.cpp:141
+#: menu.cpp:103
+#, fuzzy, kde-format
+#| msgid "Configure..."
+msgctxt "global settings window"
+msgid "&Configure Latte..."
+msgstr "設定…"
+
+#: menu.cpp:158
 #, kde-format
 msgctxt "dock settings window"
-msgid "Dock &Settings..."
-msgstr "Dock 設定(&S)…"
+msgid "&Edit Dock..."
+msgstr ""
 
-#: menu.cpp:141
+#: menu.cpp:158
 #, kde-format
 msgctxt "panel settings window"
-msgid "Panel &Settings..."
-msgstr "面板設定(&S)…"
+msgid "&Edit Panel..."
+msgstr ""
 
-#: menu.cpp:175
+#: menu.cpp:192
 #, kde-format
 msgctxt "current layout"
 msgid "(Current)"
 msgstr "（目前）"
 
-#: menu.cpp:201
-#, kde-format
-msgid "Configure..."
-msgstr "設定…"
+#: menu.cpp:218
+#, fuzzy, kde-format
+#| msgid "&Layouts"
+msgid "Manage &Layouts..."
+msgstr "版面配置(&L)"
+
+#~ msgctxt "dock settings window"
+#~ msgid "Dock &Settings..."
+#~ msgstr "Dock 設定(&S)…"
+
+#~ msgctxt "panel settings window"
+#~ msgid "Panel &Settings..."
+#~ msgstr "面板設定(&S)…"
