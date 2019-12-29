@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_playground-mobile_plasma-phone-components\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-05 02:32+0000\n"
+"POT-Creation-Date: 2019-12-29 02:44+0000\n"
 "PO-Revision-Date: 2019-05-20 23:50+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -20,7 +20,7 @@ msgctxt "Name"
 msgid "Phone Activities"
 msgstr "手機活動"
 
-#: applets/activities/metadata.desktop:28
+#: applets/activities/metadata.desktop:34
 msgctxt "Comment"
 msgid "Activity switcher for the phone"
 msgstr "手機的活動切換器"
@@ -30,7 +30,7 @@ msgctxt "Name"
 msgid "Clock"
 msgstr "時鐘"
 
-#: applets/clock/metadata.desktop:31
+#: applets/clock/metadata.desktop:36
 msgctxt "Comment"
 msgid "Time displayed in a digital format"
 msgstr "以數位格式顯示時間"
@@ -40,7 +40,7 @@ msgctxt "Name"
 msgid "Plasma Mobile"
 msgstr "Plasma 行動"
 
-#: bin/plasma-mobile.desktop.cmake:27
+#: bin/plasma-mobile.desktop.cmake:33
 msgctxt "Comment"
 msgid "Plasma Mobile by KDE"
 msgstr "來自 KDE 的 Plasma 行動作業系統"
@@ -65,7 +65,7 @@ msgctxt "Comment"
 msgid "Plasma phone dialer"
 msgstr "Plasma 手機撥號程式"
 
-#: dialer/metadata.desktop:26 shell/metadata.desktop:3
+#: dialer/metadata.desktop:31 shell/metadata.desktop:3
 msgctxt "Name"
 msgid "Phone"
 msgstr "電話"
@@ -75,22 +75,22 @@ msgctxt "Comment"
 msgid "Phone"
 msgstr "電話"
 
-#: dialer/src/plasma_dialer.notifyrc:30
+#: dialer/src/plasma_dialer.notifyrc:35
 msgctxt "Name"
 msgid "Missed Call"
 msgstr "錯過的來電"
 
-#: dialer/src/plasma_dialer.notifyrc:55
+#: dialer/src/plasma_dialer.notifyrc:65
 msgctxt "Comment"
 msgid "A call has been missed"
 msgstr "錯過一次來電"
 
-#: dialer/src/plasma_dialer.notifyrc:81
+#: dialer/src/plasma_dialer.notifyrc:97
 msgctxt "Name"
 msgid "Ringing"
 msgstr "響鈴中"
 
-#: dialer/src/plasma_dialer.notifyrc:106
+#: dialer/src/plasma_dialer.notifyrc:127
 msgctxt "Comment"
 msgid "The phone is ringing"
 msgstr "電話正在響鈴中"
@@ -100,7 +100,7 @@ msgctxt "Name"
 msgid "Phone multitask"
 msgstr "手機多工"
 
-#: kwinmultitasking/metadata.desktop:23
+#: kwinmultitasking/metadata.desktop:28
 msgctxt "Comment"
 msgid "Multitasking user interface for Phone devices"
 msgstr "手機裝置的多工使用者介面"
@@ -110,17 +110,17 @@ msgctxt "Name"
 msgid "Plasma Phone"
 msgstr "Plasma 電話"
 
-#: look-and-feel/metadata.desktop:25
+#: look-and-feel/metadata.desktop:30
 msgctxt "Comment"
 msgid "Plasma workspace for smartphones"
 msgstr "智慧型手機的 Plasma 工作空間"
 
-#: look-and-feel/metadata.desktop:48
+#: look-and-feel/metadata.desktop:58
 msgctxt "Keywords"
 msgid "Phone, Workspace, Look and Feel"
 msgstr "電話、工作空間、外觀與感覺"
 
-#: shell/metadata.desktop:28
+#: shell/metadata.desktop:33
 msgctxt "Comment"
 msgid "Plasma shell for phones"
 msgstr "適用於手機的 Plasma Shell"
@@ -130,7 +130,7 @@ msgctxt "Name"
 msgid "Touch Test"
 msgstr "觸控測試"
 
-#: touchscreentest/org.kde.touchtest.desktop:27
+#: touchscreentest/org.kde.touchtest.desktop:34
 msgctxt "GenericName"
 msgid "Terminal"
 msgstr "終端機"

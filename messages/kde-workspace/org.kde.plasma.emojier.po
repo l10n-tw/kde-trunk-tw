@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-13 03:38+0100\n"
+"POT-Creation-Date: 2019-12-29 03:34+0100\n"
 "PO-Revision-Date: 2019-11-03 14:13+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -20,49 +20,55 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.08.2\n"
 
-#: emojier.cpp:340
+#: emojier.cpp:344
 #, kde-format
 msgid "Emoji Picker"
 msgstr "Emoji 選取工具"
 
-#: emojier.cpp:341
+#: emojier.cpp:345
 #, kde-format
 msgid "(C) 2019 Aleix Pol i Gonzalez"
 msgstr "(C) 2019 Aleix Pol i Gonzalez"
 
-#: emojier.cpp:343
+#: emojier.cpp:347
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "pan93412"
 
-#: emojier.cpp:343
+#: emojier.cpp:347
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "pan93412@gmail.com"
 
-#: emojier.cpp:359
+#: emojier.cpp:363
 #, kde-format
 msgid "Replace an existing instance"
 msgstr "取代現存實體"
 
-#: ui/CategoryPage.qml:37 ui/CategoryPage.qml:55
+#: ui/CategoryPage.qml:47
 #, kde-format
 msgid "Search..."
 msgstr "搜尋…"
 
-#: ui/emojier.qml:55
+#: ui/emojier.qml:56
 #, kde-format
-msgid "Categories"
-msgstr "分類"
+msgid "Recent"
+msgstr "最近使用"
+
+#: ui/emojier.qml:67
+#, fuzzy, kde-format
+#| msgid "Search..."
+msgid "Search"
+msgstr "搜尋…"
 
 #: ui/emojier.qml:78
 #, kde-format
 msgid "All"
 msgstr "全部"
 
-#: ui/emojier.qml:79
+#: ui/emojier.qml:85
 #, kde-format
-msgid "Recent"
-msgstr "最近使用"
+msgid "Categories"
+msgstr "分類"

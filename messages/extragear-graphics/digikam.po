@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-28 02:31+0100\n"
+"POT-Creation-Date: 2019-12-29 02:37+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -2875,14 +2875,7 @@ msgctxt "Search images on a map"
 msgid "Map"
 msgstr "地圖"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1466
-#, fuzzy, kde-format
-#| msgctxt "Browse images sorted by depicted people"
-#| msgid "People"
-msgid "People"
-msgstr "人物"
-
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1471
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1469
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
@@ -2893,19 +2886,19 @@ msgstr ""
 "digiKam 可以搜尋您的相片中的臉孔。<nl/> 當您已經在相當數量中的相片標記出您的"
 "朋友後，<nl/> 它可以辨識中您其它相片中的此人。"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1478
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1476
 #, kde-format
 msgid "Scan collection for faces"
 msgstr "掃描臉孔收藏"
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1561
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1558
 #, kde-format
 msgid ""
 "Face recognition is aborted, because there are no identities to recognize. "
 "Please add new identities."
 msgstr ""
 
-#: core/app/views/sidebar/leftsidebarwidgets.cpp:1581
+#: core/app/views/sidebar/leftsidebarwidgets.cpp:1578
 #, kde-format
 msgctxt "Browse images sorted by depicted people"
 msgid "People"
@@ -23429,7 +23422,7 @@ msgstr ""
 "新的版本。"
 
 #: core/libs/database/tags/facetags.cpp:377
-#: core/utilities/facemanagement/widgets/facescanwidget.cpp:295
+#: core/utilities/facemanagement/widgets/facescanwidget.cpp:303
 #, kde-format
 msgctxt "People on your photos"
 msgid "People"
@@ -29787,12 +29780,12 @@ msgstr ""
 msgid "Comment"
 msgstr "項目註解"
 
-#: core/libs/notificationmanager/dnotificationwidget_p.cpp:97
+#: core/libs/notificationmanager/dnotificationwidget_p.cpp:98
 #, kde-format
 msgid "&Close"
 msgstr "關閉(&C)"
 
-#: core/libs/notificationmanager/dnotificationwidget_p.cpp:98
+#: core/libs/notificationmanager/dnotificationwidget_p.cpp:99
 #, fuzzy, kde-format
 #| msgid "Close view"
 msgid "Close message"
@@ -38734,17 +38727,25 @@ msgstr "相簿"
 #: core/utilities/facemanagement/widgets/facescanwidget.cpp:208
 #, fuzzy, kde-format
 #| msgid "Accuracy"
-msgctxt "@label"
-msgid "Face Accuracy:"
+msgctxt "@groupbox"
+msgid "Face Accuracy"
 msgstr "精準度"
 
-#: core/utilities/facemanagement/widgets/facescanwidget.cpp:210
-#, kde-format
-msgctxt "@label Two extremities of a scale"
-msgid "Sensitivity     -     Specificity"
-msgstr ""
+#: core/utilities/facemanagement/widgets/facescanwidget.cpp:211
+#, fuzzy, kde-format
+#| msgid "Sensitivity"
+msgctxt "@label left extremities of a scale"
+msgid "Sensitivity"
+msgstr "靈敏度"
 
-#: core/utilities/facemanagement/widgets/facescanwidget.cpp:216
+#: core/utilities/facemanagement/widgets/facescanwidget.cpp:214
+#, fuzzy, kde-format
+#| msgid "Location"
+msgctxt "@label right extremities of a scale"
+msgid "Specificity"
+msgstr "地點"
+
+#: core/utilities/facemanagement/widgets/facescanwidget.cpp:221
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -38753,14 +38754,14 @@ msgid ""
 "faces that are very similar to pre-tagged faces are recognized)."
 msgstr ""
 
-#: core/utilities/facemanagement/widgets/facescanwidget.cpp:221
+#: core/utilities/facemanagement/widgets/facescanwidget.cpp:231
 #: core/utilities/queuemanager/views/queuesettingsview.cpp:235
 #, kde-format
 msgctxt "@option:check"
 msgid "Work on all processor cores"
 msgstr "在所有的處理器核心上工作"
 
-#: core/utilities/facemanagement/widgets/facescanwidget.cpp:223
+#: core/utilities/facemanagement/widgets/facescanwidget.cpp:233
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid ""
@@ -38776,13 +38777,13 @@ msgstr ""
 "臉孔偵測是個很花時間的工作。您可以選擇是否要使用您電腦中所有的處理器核心來進"
 "行臉孔偵測，或是只要在單一核心上在背景工作。"
 
-#: core/utilities/facemanagement/widgets/facescanwidget.cpp:228
+#: core/utilities/facemanagement/widgets/facescanwidget.cpp:238
 #, kde-format
 msgctxt "@option:check"
 msgid "Clear and rebuild all training data"
 msgstr "清除並重建所有訓練資料"
 
-#: core/utilities/facemanagement/widgets/facescanwidget.cpp:230
+#: core/utilities/facemanagement/widgets/facescanwidget.cpp:240
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip"
 #| msgid ""
@@ -38797,7 +38798,7 @@ msgstr ""
 "這會清除所有之前訓練過的資料，並從所有可找到的臉孔重新建立辨識資料。若是有使"
 "用任何其它的應用程式來協助您建立辨識訓練資料，請小心使用。"
 
-#: core/utilities/facemanagement/widgets/facescanwidget.cpp:242
+#: core/utilities/facemanagement/widgets/facescanwidget.cpp:248
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgctxt "@title:tab"
@@ -43294,7 +43295,7 @@ msgstr "清除未確認的結果並重新掃描"
 
 #: core/utilities/maintenance/maintenancedlg.cpp:313
 #, fuzzy, kde-format
-msgid "Detect and recognize Faces (experimental)"
+msgid "Detect and recognize Faces"
 msgstr "偵測與辨識臉孔"
 
 #: core/utilities/maintenance/maintenancedlg.cpp:320
@@ -48605,6 +48606,16 @@ msgstr "側邊切換頻率："
 msgctxt "%1 is the screen number (0, 1, ...)"
 msgid "Screen %1"
 msgstr "綠（%）："
+
+#, fuzzy
+#~| msgctxt "Browse images sorted by depicted people"
+#~| msgid "People"
+#~ msgid "People"
+#~ msgstr "人物"
+
+#, fuzzy
+#~ msgid "Detect and recognize Faces (experimental)"
+#~ msgstr "偵測與辨識臉孔"
 
 #, fuzzy
 #~| msgid "Face Recognition"
