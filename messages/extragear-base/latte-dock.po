@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-29 02:34+0100\n"
-"PO-Revision-Date: 2019-10-26 23:03+0800\n"
+"PO-Revision-Date: 2019-12-29 17:12+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.08.2\n"
+"X-Generator: Lokalize 19.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -756,8 +756,7 @@ msgstr ""
 msgid ""
 "There are layouts with the same name, that is not permitted!!! Please update "
 "these names to re-apply the changes..."
-msgstr ""
-"有一些相同名稱的佈局，這是不被允許的！！！請更新它們的名稱以重新套用變更..."
+msgstr "有一些相同名稱的佈局，這是不被允許的！！！請更新它們的名稱以重新套用變更..."
 
 #: app/settings/settingsdialog.cpp:1601
 #, kde-format
@@ -1382,7 +1381,7 @@ msgid "Width"
 msgstr "寬度"
 
 #: shell/package/contents/configuration/pages/AppearanceConfig.qml:618
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "number in pixels, e.g. 12 px."
 #| msgid "%0 px."
 msgctxt "number in pixels, e.g. 85 px."
@@ -1753,21 +1752,21 @@ msgstr "清空區域"
 #: shell/package/contents/configuration/pages/BehaviorConfig.qml:633
 #, kde-format
 msgid "Left Button"
-msgstr ""
+msgstr "左側按鈕"
 
 #: shell/package/contents/configuration/pages/BehaviorConfig.qml:638
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Active Window"
 msgid "Drag Active Window"
-msgstr "作用中的視窗"
+msgstr "拖曳作用中視窗"
 
 #: shell/package/contents/configuration/pages/BehaviorConfig.qml:641
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Drag and maximize/restore active window"
 msgid ""
 "The user can use left mouse button to drag and maximized/restore last active "
 "window"
-msgstr "拖曳與最大化／復原作用中的視窗"
+msgstr "使用者可使用滑鼠左鍵拖曳及最大化／復原上個作用中視窗"
 
 #: shell/package/contents/configuration/pages/BehaviorConfig.qml:657
 #, kde-format
@@ -1833,18 +1832,17 @@ msgid "When the panel is in floating mode, the gap to the screen is also used"
 msgstr ""
 
 #: shell/package/contents/configuration/pages/BehaviorConfig.qml:738
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "🅰 Activate based on position through global shortcuts"
 msgid "➊ Activate based on position through global shortcuts"
-msgstr "🅰 透過全域快捷鍵啟用以位置為基礎"
+msgstr "➊ 透過全域快捷鍵啟用以位置為基礎"
 
 #: shell/package/contents/configuration/pages/BehaviorConfig.qml:740
 #, kde-format
 msgid ""
 "This view is used for based on position global shortcuts. Take note that "
 "only one view can have that option enabled for each layout"
-msgstr ""
-"此檢視用於以位置為基礎的全域快捷鍵。注意僅有一個檢視可以為每個佈局啟用選項"
+msgstr "此檢視用於以位置為基礎的全域快捷鍵。注意僅有一個檢視可以為每個佈局啟用選項"
 
 #: shell/package/contents/configuration/pages/BehaviorConfig.qml:765
 #, kde-format
@@ -2124,10 +2122,10 @@ msgid "Window actions in the context menu"
 msgstr "右鍵選單中的視窗動作"
 
 #: shell/package/contents/configuration/pages/TasksConfig.qml:163
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "🅰 Based on position shortcuts apply only for tasks"
 msgid "➊ Based on position shortcuts apply only for tasks"
-msgstr "🅰 以位置為基礎的快捷鍵僅套用於工作"
+msgstr "➊ 以位置為基礎的快捷鍵僅套用於工作"
 
 #: shell/package/contents/configuration/pages/TasksConfig.qml:165
 #, kde-format
@@ -2411,15 +2409,15 @@ msgid "Windows Go Below"
 msgstr "視窗在下面"
 
 #: shell/package/contents/controls/CustomWindowsModeButton.qml:129
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Windows Go Below"
 msgid "Windows Can Cover"
-msgstr "視窗在下面"
+msgstr "視窗可覆蓋"
 
 #: shell/package/contents/controls/CustomWindowsModeButton.qml:135
 #, kde-format
 msgid "Windows Always Cover"
-msgstr ""
+msgstr "視窗永可覆蓋"
 
 #: shell/package/contents/controls/TypeSelection.qml:67
 #, kde-format
