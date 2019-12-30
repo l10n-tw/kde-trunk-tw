@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-29 02:34+0100\n"
+"POT-Creation-Date: 2019-12-30 02:35+0100\n"
 "PO-Revision-Date: 2019-12-29 17:12+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -756,7 +756,8 @@ msgstr ""
 msgid ""
 "There are layouts with the same name, that is not permitted!!! Please update "
 "these names to re-apply the changes..."
-msgstr "有一些相同名稱的佈局，這是不被允許的！！！請更新它們的名稱以重新套用變更..."
+msgstr ""
+"有一些相同名稱的佈局，這是不被允許的！！！請更新它們的名稱以重新套用變更..."
 
 #: app/settings/settingsdialog.cpp:1601
 #, kde-format
@@ -1382,8 +1383,6 @@ msgstr "寬度"
 
 #: shell/package/contents/configuration/pages/AppearanceConfig.qml:618
 #, kde-format
-#| msgctxt "number in pixels, e.g. 12 px."
-#| msgid "%0 px."
 msgctxt "number in pixels, e.g. 85 px."
 msgid "%0 px."
 msgstr "%0 像素"
@@ -1756,13 +1755,11 @@ msgstr "左側按鈕"
 
 #: shell/package/contents/configuration/pages/BehaviorConfig.qml:638
 #, kde-format
-#| msgid "Active Window"
 msgid "Drag Active Window"
 msgstr "拖曳作用中視窗"
 
 #: shell/package/contents/configuration/pages/BehaviorConfig.qml:641
 #, kde-format
-#| msgid "Drag and maximize/restore active window"
 msgid ""
 "The user can use left mouse button to drag and maximized/restore last active "
 "window"
@@ -1823,38 +1820,54 @@ msgstr "啟用或停用滑鼠滾輪動作"
 
 #: shell/package/contents/configuration/pages/BehaviorConfig.qml:724
 #, kde-format
-msgid "Always use screen gap for floating panel"
-msgstr ""
-
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:726
-#, kde-format
-msgid "When the panel is in floating mode, the gap to the screen is also used"
-msgstr ""
-
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:738
-#, kde-format
-#| msgid "🅰 Activate based on position through global shortcuts"
 msgid "➊ Activate based on position through global shortcuts"
 msgstr "➊ 透過全域快捷鍵啟用以位置為基礎"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:740
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:726
 #, kde-format
 msgid ""
 "This view is used for based on position global shortcuts. Take note that "
 "only one view can have that option enabled for each layout"
-msgstr "此檢視用於以位置為基礎的全域快捷鍵。注意僅有一個檢視可以為每個佈局啟用選項"
+msgstr ""
+"此檢視用於以位置為基礎的全域快捷鍵。注意僅有一個檢視可以為每個佈局啟用選項"
+
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:740
+#, kde-format
+msgid "Floating"
+msgstr ""
+
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:753
+#, kde-format
+msgid "Always use screen gap for user interaction"
+msgstr ""
+
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:755
+#, kde-format
+msgid "Panels in floating mode use the screen gap for user interaction"
+msgstr ""
 
 #: shell/package/contents/configuration/pages/BehaviorConfig.qml:765
+#, fuzzy, kde-format
+#| msgid "Hide background shadow for maximized windows"
+msgid "Hide screen gap for maximized windows"
+msgstr "為最大化視窗隱藏背景陰影"
+
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:767
+#, kde-format
+msgid "Panels in floating mode disable their screen gap for maximized windows"
+msgstr ""
+
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:789
 #, kde-format
 msgid "Environment"
 msgstr "環境"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:774
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:798
 #, kde-format
 msgid "Activate KWin edge after hiding"
 msgstr "在隱藏後啟用 KWin 邊緣"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:776
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:800
 #, kde-format
 msgid ""
 "After the view becomes hidden, KWin is informed to track user feedback. For "
@@ -1864,12 +1877,12 @@ msgstr ""
 "當隱藏該檢視時 KWin 將被告知追蹤使用者的回應動作。例如：當滑鼠游標靠近隱藏的"
 "檢視時顯示邊緣視覺提示。"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:786
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:810
 #, kde-format
 msgid "Can be above fullscreen windows"
 msgstr "可以比全螢幕視窗還上層"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:789
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:813
 #, kde-format
 msgid ""
 "BypassWindowManagerHint flag for the window. The view will be above all "
@@ -1878,12 +1891,12 @@ msgstr ""
 "視窗的 BypassWindowManagerHint 旗標。這個視窗檢視將會在所有視窗之上，就算那些"
 "視窗設定了「永遠於最上層」"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:798
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:822
 #, kde-format
 msgid "Raise on desktop change"
 msgstr "在桌面變更時提升"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:808
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:832
 #, kde-format
 msgid "Raise on activity change"
 msgstr "在活動變更時提升"
@@ -2123,7 +2136,6 @@ msgstr "右鍵選單中的視窗動作"
 
 #: shell/package/contents/configuration/pages/TasksConfig.qml:163
 #, kde-format
-#| msgid "🅰 Based on position shortcuts apply only for tasks"
 msgid "➊ Based on position shortcuts apply only for tasks"
 msgstr "➊ 以位置為基礎的快捷鍵僅套用於工作"
 
@@ -2410,7 +2422,6 @@ msgstr "視窗在下面"
 
 #: shell/package/contents/controls/CustomWindowsModeButton.qml:129
 #, kde-format
-#| msgid "Windows Go Below"
 msgid "Windows Can Cover"
 msgstr "視窗可覆蓋"
 

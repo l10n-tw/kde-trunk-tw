@@ -241,7 +241,6 @@ msgstr "將目前的螢幕擷取複製到剪貼簿。"
 
 #: src/Gui/KSMainWindow.cpp:184
 #, kde-format
-#| msgid "Open Screenshots Folder"
 msgid "Open Default Screenshots Folder"
 msgstr "開啟預設螢幕擷取資料夾"
 
@@ -584,7 +583,6 @@ msgstr "Spectacle 執行時，按下 Print 鍵的行為"
 #. i18n: ectx: label, entry (copyImageToClipboard), group (General)
 #: src/Gui/SettingsDialog/spectacle.kcfg:21
 #, kde-format
-#| msgid "Copy file location to clipboard after saving"
 msgid "Copy screenshot automatically to the clipboard after it is taken"
 msgstr "擷取後自動複製螢幕擷取至剪貼簿"
 
@@ -618,7 +616,6 @@ msgstr "是否在選取好區域，放開滑鼠後擷取螢幕擷取"
 #. i18n: ectx: label, entry (rememberLastRectangularRegion), group (General)
 #: src/Gui/SettingsDialog/spectacle.kcfg:42
 #, kde-format
-#| msgid "Rectangular Region"
 msgid "RemeberlastRectangularRegion"
 msgstr "RemeberlastRectangularRegion"
 
@@ -637,14 +634,12 @@ msgstr "使用者先前選取的區域"
 #. i18n: ectx: label, entry (onClickChecked), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:56
 #, kde-format
-#| msgid "Take screenshot"
 msgid "Take screenshot on click"
 msgstr "按一下擷取螢幕"
 
 #. i18n: ectx: label, entry (includePointer), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:60
 #, kde-format
-#| msgid "Show the mouse cursor in the screenshot image"
 msgid "Whether the mouse cursor is included in the screenshot"
 msgstr "是否將滑鼠游標加入螢幕擷取"
 
@@ -657,21 +652,18 @@ msgstr "是否要將視窗裝飾加入螢幕擷取"
 #. i18n: ectx: label, entry (transientOnly), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:68
 #, kde-format
-#| msgid "Capture the current pop-up only"
 msgid "Only capture the current pop up menu"
 msgstr "只擷取目前的彈出式選單"
 
 #. i18n: ectx: label, entry (quitAfterSaveCopyExport), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:72
 #, kde-format
-#| msgid "Quit Spectacle after manually saving or copying the image"
 msgid "Quit after saving or copying an image"
 msgstr "儲存或複製圖片後離開"
 
 #. i18n: ectx: label, entry (captureDelay), group (GuiConfig)
 #: src/Gui/SettingsDialog/spectacle.kcfg:76
 #, kde-format
-#| msgid "Delay:"
 msgid "Delay"
 msgstr "延遲"
 

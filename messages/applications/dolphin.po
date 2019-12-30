@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-16 02:30+0100\n"
+"POT-Creation-Date: 2019-12-30 02:32+0100\n"
 "PO-Revision-Date: 2019-12-20 02:09+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -2369,20 +2369,20 @@ msgctxt "@item:inlistbox"
 msgid "Highest Rating"
 msgstr "最高分"
 
-#: search/dolphinfacetswidget.cpp:258
+#: search/dolphinfacetswidget.cpp:244
 #, kde-format
 msgctxt "String list separator"
 msgid ", "
 msgstr "、"
 
-#: search/dolphinfacetswidget.cpp:260
+#: search/dolphinfacetswidget.cpp:246
 #, kde-format
 msgctxt "@action:button %2 is a list of tags"
 msgid "Tag: %2"
 msgid_plural "Tags: %2"
 msgstr[0] "標籤：%2"
 
-#: search/dolphinfacetswidget.cpp:262
+#: search/dolphinfacetswidget.cpp:248
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Tags"
@@ -2447,7 +2447,7 @@ msgstr "在家目錄中搜尋"
 msgid "More Search Tools"
 msgstr "更多搜尋工具"
 
-#: search/dolphinsearchbox.cpp:499
+#: search/dolphinsearchbox.cpp:495
 #, kde-format
 msgctxt ""
 "@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
