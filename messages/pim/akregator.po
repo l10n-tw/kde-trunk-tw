@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-17 03:16+0100\n"
+"POT-Creation-Date: 2019-12-31 03:18+0100\n"
 "PO-Revision-Date: 2019-03-22 00:34+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -1558,34 +1558,34 @@ msgstr "無法載入儲存後端外掛 %1。無法收集 feed 的文章。"
 msgid "Plugin error"
 msgstr "外掛錯誤"
 
-#: src/akregator_part.cpp:533
+#: src/akregator_part.cpp:539
 #, kde-format
 msgid ""
 "Access denied: Cannot save feed list to <b>%1</b>. Please check your "
 "permissions."
 msgstr "存取被拒：無法儲存 feed 列表到 <b>%1</b>。請檢查您的權限。"
 
-#: src/akregator_part.cpp:534 src/akregator_part.cpp:583
+#: src/akregator_part.cpp:540 src/akregator_part.cpp:589
 #, kde-format
 msgid "Write Error"
 msgstr "寫入錯誤"
 
-#: src/akregator_part.cpp:570 src/command/loadfeedlistcommand.cpp:85
+#: src/akregator_part.cpp:576 src/command/loadfeedlistcommand.cpp:85
 #, kde-format
 msgid "OPML Parsing Error"
 msgstr "OPML 剖析錯誤"
 
-#: src/akregator_part.cpp:570
+#: src/akregator_part.cpp:576
 #, kde-format
 msgid "Could not import the file %1 (no valid OPML)"
 msgstr "無法匯入檔案 %1（沒有合法的 OPML）"
 
-#: src/akregator_part.cpp:573 src/command/loadfeedlistcommand.cpp:167
+#: src/akregator_part.cpp:579 src/command/loadfeedlistcommand.cpp:167
 #, kde-format
 msgid "Read Error"
 msgstr "讀取錯誤"
 
-#: src/akregator_part.cpp:573
+#: src/akregator_part.cpp:579
 #, kde-format
 msgid ""
 "The file %1 could not be read, check if it exists or if it is readable for "
@@ -1593,17 +1593,17 @@ msgid ""
 msgstr ""
 "無法讀取檔案 %1，請檢查該檔是否存在，或是該檔是否能被現在的使用者讀取。"
 
-#: src/akregator_part.cpp:583
+#: src/akregator_part.cpp:589
 #, kde-format
 msgid "Access denied: cannot write to file %1. Please check your permissions."
 msgstr "存取被拒：無法寫入檔案 %1。請檢查您的權限。"
 
-#: src/akregator_part.cpp:598 src/akregator_part.cpp:607
+#: src/akregator_part.cpp:604 src/akregator_part.cpp:613
 #, kde-format
 msgid "OPML Outlines (*.opml *.xml);;All Files (*)"
 msgstr "OPML 大綱 (*.opml *.xml);; 所有檔案 (*)"
 
-#: src/akregator_part.cpp:738
+#: src/akregator_part.cpp:744
 #, kde-format
 msgid "Imported Folder"
 msgstr "匯入的資料夾"

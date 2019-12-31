@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ikona\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-06 03:27+0100\n"
+"POT-Creation-Date: 2019-12-31 03:13+0100\n"
 "PO-Revision-Date: 2019-10-15 03:17+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,442 +18,58 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: qrc/BreezePalette.qml:32
+#: qrc/qml/ColourPalette.qml:25
 #, kde-format
-msgid "Breeze Colors"
+msgctxt "The window title of the colour palette"
+msgid "Colour Palette"
 msgstr ""
 
-#: qrc/BreezePalette.qml:36
-#, kde-format
-msgid "Neutral Colors"
-msgstr ""
-
-#: qrc/BreezePalette.qml:75
-#, kde-format
-msgid "Warm Colors"
-msgstr ""
-
-#: qrc/BreezePalette.qml:122
-#, kde-format
-msgid "Cool Colors"
-msgstr ""
-
-#: qrc/ColorSwatch.qml:88
-#, kde-format
-msgctxt "This color has just been copied!"
-msgid "Copied!"
-msgstr ""
-
-#: qrc/HIGView.qml:39
-#, kde-format
-msgid "Go Back"
-msgstr ""
-
-#: qrc/HIGView.qml:48
-#, kde-format
-msgid "Go Forward"
-msgstr ""
-
-#: qrc/HIGView.qml:61
-#, kde-format
-msgid "Return to HIG Home"
-msgstr ""
-
-#: qrc/HUD.qml:41
-#, kde-format
-msgctxt "The title name of the HUD window"
-msgid "HUD"
-msgstr ""
-
-#: qrc/main.qml:61
-#, kde-format
-msgctxt ""
-"Top-level menu called Icon, equivalent to File in purpose but for icons"
-msgid "Icon"
-msgstr ""
-
-#: qrc/main.qml:64
-#, kde-format
-msgctxt "Open a dialog that picks an SVG file"
-msgid "Open SVG..."
-msgstr ""
-
-#: qrc/main.qml:72
-#, kde-format
-msgctxt ""
-"Shuffle the order of the example icons displayed around the user's icon"
-msgid "Shuffle Example Icons"
-msgstr ""
-
-#: qrc/main.qml:78
-#, kde-format
-msgctxt "Set Ikona's icon theme, which requires a restart"
-msgid "Set Icon Theme (Requires Restart)"
-msgstr ""
-
-#: qrc/main.qml:85
-#, kde-format
-msgctxt "Create a new icon from Breeze icon templates..."
-msgid "New Icon from Breeze Templates"
-msgstr ""
-
-#: qrc/main.qml:88
-#, kde-format
-msgctxt ""
-"... create a new icon from Breeze icon templates of type 16px Action/Status/"
-"Filetype."
-msgid "16px Action/Status/Filetype"
-msgstr ""
-
-#: qrc/main.qml:96
-#, kde-format
-msgctxt ""
-"... create a new icon from Breeze icon templates of type 22px Action/Status/"
-"Filetype"
-msgid "22px Action/Status/Filetype"
-msgstr ""
-
-#: qrc/main.qml:104
-#, kde-format
-msgctxt ""
-"... create a new icon from Breeze icon templates of type Application/Large "
-"Filetype"
-msgid "Application/Large Filetype"
-msgstr ""
-
-#: qrc/main.qml:113
-#, kde-format
-msgctxt "Top level menu with items related to all things colors"
-msgid "Colors"
-msgstr ""
-
-#: qrc/main.qml:118
-#, kde-format
-msgctxt "Change the color of the light side of the preview"
-msgid "Change Light Color"
-msgstr ""
-
-#: qrc/main.qml:125
-#, kde-format
-msgctxt "Change the color of the dark side of the preview"
-msgid "Change Dark Color"
-msgstr ""
-
-#: qrc/main.qml:131
-#, kde-format
-msgctxt "Change the colors of both sides according to a preset colorscheme"
-msgid "Pick Colors from Theme"
-msgstr ""
-
-#: qrc/main.qml:134
-#, kde-format
-msgctxt "Change the colors of both sides according to Material colours"
-msgid "Material Design"
-msgstr ""
-
-#: qrc/main.qml:142
-#, kde-format
-msgctxt "Change the colors of both sides according to Breeze colors"
-msgid "Breeze"
-msgstr ""
-
-#: qrc/main.qml:150
-#, kde-format
-msgctxt "Change the colors of both sides according to Adwaita colors"
-msgid "Adwaita"
-msgstr ""
-
-#: qrc/main.qml:160
-#, kde-format
-msgctxt "Top level menu with items related to viewing colour palettes"
-msgid "Palettes"
-msgstr ""
-
-#: qrc/main.qml:164
-#, kde-format
-msgctxt "View the Breeze colour palette"
-msgid "View Breeze Colors"
-msgstr ""
-
-#: qrc/main.qml:170
-#, kde-format
-msgctxt "Top level menu with items related to taking screenshots"
-msgid "Screenshot"
-msgstr ""
-
-#: qrc/main.qml:174
-#, kde-format
-msgctxt "Take a screenshot of the default home view"
-msgid "Take Screenshot (Default View)"
-msgstr ""
-
-#: qrc/main.qml:180
-#, kde-format
-msgctxt "Take a screenshot of the small icon view"
-msgid "Take Screenshot (Small View)"
-msgstr ""
-
-#: qrc/main.qml:223
-#, kde-format
-msgctxt "Application name displayed in the titlebar"
-msgid "Ikona Design Companion"
-msgstr ""
-
-#: qrc/main.qml:231
+#: qrc/qml/main.qml:39
 #, kde-format
 msgid "Ikona"
 msgstr ""
 
-#: qrc/main.qml:239
+#: qrc/qml/main.qml:91
 #, kde-format
-msgid "Open SVG..."
+msgctxt "Togglebutton to switch between Breeze Light and Breeze Dark"
+msgid "Use Dark Colours"
 msgstr ""
 
-#: qrc/main.qml:246
+#: qrc/qml/main.qml:102
 #, kde-format
-msgctxt "Actions related to icons"
-msgid "Icons"
+msgid "Open Icon..."
 msgstr ""
 
-#: qrc/main.qml:250
+#: qrc/qml/main.qml:109
 #, kde-format
-msgctxt "Create a new icon template"
-msgid "New Icon from Breeze Templates"
+msgid "Take Montage..."
 msgstr ""
 
-#: qrc/main.qml:253
+#: qrc/qml/MonochromaticScreenshot.qml:191 qrc/qml/Screenshot.qml:95
 #, kde-format
-msgctxt "Create an icon of this type"
-msgid "16px Action/Status/Filetype"
-msgstr ""
-
-#: qrc/main.qml:261
-#, kde-format
-msgctxt "Create an icon of this type"
-msgid "22px Action/Status/Filetype"
-msgstr ""
-
-#: qrc/main.qml:269
-#, kde-format
-msgctxt "Create an icon of this type"
-msgid "48px Application/Large Filetype"
-msgstr ""
-
-#: qrc/main.qml:278
-#, kde-format
-msgid "Change Icon Theme"
-msgstr ""
-
-#: qrc/main.qml:285
-#, kde-format
-msgid "Shuffle Example Icons"
-msgstr ""
-
-#: qrc/main.qml:293
-#, kde-format
-msgid "Set Colors"
-msgstr ""
-
-#: qrc/main.qml:295
-#, kde-format
-msgid "Change Light Color"
-msgstr ""
-
-#: qrc/main.qml:301
-#, kde-format
-msgid "Change Dark Color"
-msgstr ""
-
-#: qrc/main.qml:307
-#, kde-format
-msgid "Set Colors From Theme"
-msgstr ""
-
-#: qrc/main.qml:310
-#, kde-format
-msgctxt "Set colours from this theme"
-msgid "Material Colors"
-msgstr ""
-
-#: qrc/main.qml:318
-#, kde-format
-msgctxt "Set colours from this theme"
-msgid "Breeze Colors"
-msgstr ""
-
-#: qrc/main.qml:326
-#, kde-format
-msgctxt "Set colours from this theme"
-msgid "Adwaita Colors"
-msgstr ""
-
-#: qrc/main.qml:336
-#, kde-format
-msgid "Modify Icon"
-msgstr ""
-
-#: qrc/main.qml:340
-#, kde-format
-msgctxt "Remove excess metadata not related to how the icon looks"
-msgid "Tidy Icon"
-msgstr ""
-
-#: qrc/main.qml:343
-#, kde-format
-msgid "Your icon has been cleaned."
-msgstr ""
-
-#: qrc/main.qml:345
-#, kde-format
-msgid "Something went wrong cleaning your icon."
-msgstr ""
-
-#: qrc/main.qml:352
-#, kde-format
-msgctxt "Change hardcoded colours to CSS classes"
-msgid "Convert Icon Colors to Classes"
-msgstr ""
-
-#: qrc/main.qml:355
-#, kde-format
-msgid ""
-"Your icon has been converted. You should inject stylesheets if they have not "
-"already been injected."
-msgstr ""
-
-#: qrc/main.qml:357 qrc/main.qml:381 qrc/main.qml:393
-#, kde-format
-msgid "Something went wrong converting your icon."
-msgstr ""
-
-#: qrc/main.qml:364
-#, kde-format
-msgctxt "Add CSS stylesheets to an icon"
-msgid "Inject Stylesheets"
-msgstr ""
-
-#: qrc/main.qml:367
-#, kde-format
-msgid "Stylesheets have been added to your icon."
-msgstr ""
-
-#: qrc/main.qml:369
-#, kde-format
-msgid "Something went wrong adding stylesheets to your icon."
-msgstr ""
-
-#: qrc/main.qml:376
-#, kde-format
-msgctxt ""
-"Change an icon's colors from being white to be displayed on dark surfaces to "
-"being black to be displayed on light surfaces"
-msgid "Change Icon to Light Mode"
-msgstr ""
-
-#: qrc/main.qml:379 qrc/main.qml:391
-#, kde-format
-msgid "Your icon has been converted."
-msgstr ""
-
-#: qrc/main.qml:388
-#, kde-format
-msgctxt ""
-"Change an icon's colours from being black to be displayed on light surfaces "
-"to being white to be displayed on dark surfaces"
-msgid "Change Icon to Dark Mode"
-msgstr ""
-
-#: qrc/main.qml:400
-#, kde-format
-msgctxt "Export a montage of icons"
-msgid "Export Montage"
-msgstr ""
-
-#: qrc/main.qml:403
-#, kde-format
-msgctxt "Export a montage of this view"
-msgid "Default View"
-msgstr ""
-
-#: qrc/main.qml:408
-#, kde-format
-msgctxt "Export a montage of this view"
-msgid "Small View"
-msgstr ""
-
-#: qrc/main.qml:414
-#, kde-format
-msgid "View Palettes"
-msgstr ""
-
-#: qrc/main.qml:417
-#, kde-format
-msgctxt "View this colour palette"
-msgid "Breeze Palette"
-msgstr ""
-
-#: qrc/main.qml:429
-#, kde-format
-msgctxt "Switch to this view"
-msgid "Regular View"
-msgstr ""
-
-#: qrc/main.qml:438
-#, kde-format
-msgctxt "Switch to this view"
-msgid "Small View"
-msgstr ""
-
-#: qrc/main.qml:447
-#, kde-format
-msgctxt "Switch to this view"
-msgid "HIG View"
-msgstr ""
-
-#: qrc/main.qml:456
-#, kde-format
-msgctxt "Switch to this view"
-msgid "Large View"
-msgstr ""
-
-#: qrc/main.qml:469
-#, kde-format
-msgctxt ""
-"Expand the rectangles at the top to cover the background behind the icon"
-msgid "Pull Down Drawers"
-msgstr ""
-
-#: qrc/main.qml:477
-#, kde-format
-msgid "Close HUD"
-msgstr ""
-
-#: qrc/main.qml:477
-#, kde-format
-msgid "Open HUD"
-msgstr ""
-
-#: qrc/main.qml:482
-#, kde-format
-msgid "Hide Icon in Tray"
-msgstr ""
-
-#: qrc/main.qml:482
-#, kde-format
-msgid "Show Icon in Tray"
-msgstr ""
-
-#: qrc/main.qml:506
-#, kde-format
-msgid "Enter the name of the icon theme"
-msgstr ""
-
-#: qrc/MonochromaticScreenshot.qml:190 qrc/Screenshot.qml:181
-#, kde-format
+msgctxt "Overlaid on top of an image to indicate that it was made with Ikona"
 msgid "Montage made with Ikona"
 msgstr ""
 
-#: qrc/MonochromeView.qml:193
+#: qrc/qml/Welcome.qml:55
 #, kde-format
-msgid "Enable white effect on icons on dark"
+msgid "Welcome to Ikona"
+msgstr ""
+
+#: qrc/qml/Welcome.qml:62
+#, kde-format
+msgctxt "Open the colour view"
+msgid "Colour Icon View"
+msgstr ""
+
+#: qrc/qml/Welcome.qml:69
+#, kde-format
+msgctxt "Open the monochrome view"
+msgid "Monochrome Icon View"
+msgstr ""
+
+#: qrc/qml/Welcome.qml:81
+#, kde-format
+msgctxt "Open a window titled Colour Palette with a colour palette"
+msgid "Open Colour Palette"
 msgstr ""

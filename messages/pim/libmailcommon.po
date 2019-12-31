@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-20 03:26+0100\n"
+"POT-Creation-Date: 2019-12-31 03:22+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -2493,11 +2493,11 @@ msgstr "選擇帳號"
 msgid "..."
 msgstr "儲存..."
 
-#: snippets/snippetcustomfileattachmentnamedialog.cpp:34
+#: snippets/snippetcustomfileattachmentnamedialog.cpp:38
 #, fuzzy, kde-format
 #| msgid "Select Account"
 msgctxt "@title:window"
-msgid "Customize File Attachment"
+msgid "Customize File Name Attachment"
 msgstr "選擇帳號"
 
 #: snippets/snippetcustomfileattachmentnamewidget.cpp:42
@@ -2506,12 +2506,11 @@ msgstr "選擇帳號"
 msgid "Filename:"
 msgstr "重新命名..."
 
-#. i18n: ectx: property (text), widget (QPushButton, pushButtonVariables)
 #: snippets/snippetcustomfileattachmentnamewidget.cpp:63
-#: snippets/ui/snippetwidget.ui:215
-#, kde-format
-msgid "Variables"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Enter Values for Variables"
+msgid "Insert Variables"
+msgstr "輸入變數值"
 
 #: snippets/snippetselectattachmentdialog.cpp:36
 #, fuzzy, kde-format
@@ -2759,6 +2758,12 @@ msgstr ""
 #| msgid "Subject"
 msgid "Subject:"
 msgstr "主題"
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButtonVariables)
+#: snippets/ui/snippetwidget.ui:215
+#, kde-format
+msgid "Variables"
+msgstr ""
 
 #: tag/addtagdialog.cpp:55
 #, fuzzy, kde-format

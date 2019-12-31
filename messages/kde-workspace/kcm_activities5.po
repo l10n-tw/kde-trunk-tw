@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_activities5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-14 03:31+0100\n"
+"POT-Creation-Date: 2019-12-31 03:33+0100\n"
 "PO-Revision-Date: 2019-08-31 19:05+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.08.0\n"
 
-#: ExtraActivitiesInterface.cpp:46 MainConfigurationWidget.cpp:46
+#: ExtraActivitiesInterface.cpp:45 MainConfigurationWidget.cpp:46
 #, kde-format
 msgid "Activities"
 msgstr "活動"
@@ -96,6 +96,20 @@ msgstr "請勿追蹤此活動的使用量"
 msgid "Shortcut for switching:"
 msgstr "切換快速鍵："
 
+#. i18n: ectx: label, entry (keepHistoryFor), group (Plugin-org.kde.ActivityManager.Resources.Scoring)
+#: kactivitymanagerd_plugins_settings.kcfg:10
+#, fuzzy, kde-format
+#| msgid "Cleared the activity history."
+msgid "How many month keep the activity history"
+msgstr "已清除活動歷史記錄。"
+
+#. i18n: ectx: label, entry (whatToRemember), group (Plugin-org.kde.ActivityManager.Resources.Scoring)
+#: kactivitymanagerd_plugins_settings.kcfg:17
+#, fuzzy, kde-format
+#| msgid "Cleared the activity history."
+msgid "whick data to keep in activity history"
+msgstr "已清除活動歷史記錄。"
+
 #: MainConfigurationWidget.cpp:47
 #, kde-format
 msgid "Switching"
@@ -132,7 +146,7 @@ msgstr "忘記今天的"
 msgid "Forget everything"
 msgstr "全部忘記"
 
-#: PrivacyTab.cpp:223
+#: PrivacyTab.cpp:215
 #, kde-format
 msgctxt "unit of time. months to keep the history"
 msgid " month"
@@ -142,7 +156,7 @@ msgstr[0] "月"
 # msgctxt 是寫 "Keep history for 5 months."，直接翻成 "保留記錄 5 個月" 即可。
 #
 # 因此這邊直接留白即可。
-#: PrivacyTab.cpp:227
+#: PrivacyTab.cpp:219
 #, kde-format
 msgctxt "for in 'keep history for 5 months'"
 msgid "For "
@@ -165,18 +179,18 @@ msgstr "刪除 %1 活動"
 msgid "Create New..."
 msgstr "建立新…"
 
-#: SwitchingTab.cpp:65
+#: SwitchingTab.cpp:64
 #, kde-format
 msgid "Activity switching"
 msgstr "活動切換"
 
-#: SwitchingTab.cpp:69
+#: SwitchingTab.cpp:68
 #, kde-format
 msgctxt "@action"
 msgid "Walk through activities"
 msgstr "瀏覽活動"
 
-#: SwitchingTab.cpp:72
+#: SwitchingTab.cpp:71
 #, kde-format
 msgctxt "@action"
 msgid "Walk through activities (Reverse)"

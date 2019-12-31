@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-29 02:54+0100\n"
+"POT-Creation-Date: 2019-12-31 02:51+0100\n"
 "PO-Revision-Date: 2019-12-29 16:39+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -8658,65 +8658,60 @@ msgctxt "The authority that issued the SSL certificate"
 msgid "Issuer"
 msgstr "配發者"
 
-#: widgets/ksslinfodialog.cpp:84 widgets/ksslinfodialog.cpp:119
+#: widgets/ksslinfodialog.cpp:104
 #, kde-format
 msgid "Current connection is secured with SSL."
 msgstr "目前連線使用 SSL 安全機制。"
 
-#: widgets/ksslinfodialog.cpp:87 widgets/ksslinfodialog.cpp:135
-#, kde-format
-msgid "Current connection is not secured with SSL."
-msgstr "目前連線沒有使用 SSL 安全機制。"
-
-#: widgets/ksslinfodialog.cpp:91
-#, kde-format
-msgid "SSL support is not available in this build of KDE."
-msgstr "SSL 支援在這個版本的 KDE 不可獲得。"
-
-#: widgets/ksslinfodialog.cpp:123
+#: widgets/ksslinfodialog.cpp:108
 #, kde-format
 msgid ""
 "The main part of this document is secured with SSL, but some parts are not."
 msgstr "該文件內的主要部份是使用 SSL 連線，但是有些部份則不是。"
 
-#: widgets/ksslinfodialog.cpp:130
+#: widgets/ksslinfodialog.cpp:115
 #, kde-format
 msgid "Some of this document is secured with SSL, but the main part is not."
 msgstr "該文件內的一部份有是使用 SSL 保護，但是主要部份都不是。"
 
-#: widgets/ksslinfodialog.cpp:199
+#: widgets/ksslinfodialog.cpp:120
+#, kde-format
+msgid "Current connection is not secured with SSL."
+msgstr "目前連線沒有使用 SSL 安全機制。"
+
+#: widgets/ksslinfodialog.cpp:184
 #, kde-format
 msgctxt "%1, using %2 bits of a %3 bit key"
 msgid "%1, %2 %3"
 msgstr "%1，%2 %3"
 
-#: widgets/ksslinfodialog.cpp:201
+#: widgets/ksslinfodialog.cpp:186
 #, kde-format
 msgctxt "Part of: %1, using %2 bits of a %3 bit key"
 msgid "using %1 bit"
 msgid_plural "using %1 bits"
 msgstr[0] "使用 %1 位元，"
 
-#: widgets/ksslinfodialog.cpp:203
+#: widgets/ksslinfodialog.cpp:188
 #, kde-format
 msgctxt "Part of: %1, using %2 bits of a %3 bit key"
 msgid "of a %1 bit key"
 msgid_plural "of a %1 bit key"
 msgstr[0] "於 %1 位元金鑰中"
 
-#: widgets/ksslinfodialog.cpp:220
+#: widgets/ksslinfodialog.cpp:205
 #, kde-format
 msgctxt "The certificate is not trusted"
 msgid "NO, there were errors:"
 msgstr "否，有一些錯誤："
 
-#: widgets/ksslinfodialog.cpp:226
+#: widgets/ksslinfodialog.cpp:211
 #, kde-format
 msgctxt "The certificate is trusted"
 msgid "Yes"
 msgstr "是"
 
-#: widgets/ksslinfodialog.cpp:230
+#: widgets/ksslinfodialog.cpp:215
 #, kde-format
 msgctxt "%1 is the effective date of the certificate, %2 is the expiry date"
 msgid "%1 to %2"
@@ -9060,6 +9055,9 @@ msgid ""
 msgstr ""
 "遠端主機並未送出任何 SSL 憑證。\n"
 "因為無法建立主機身份，因此將中止。"
+
+#~ msgid "SSL support is not available in this build of KDE."
+#~ msgstr "SSL 支援在這個版本的 KDE 不可獲得。"
 
 #~ msgctxt "KFile System Bookmarks"
 #~ msgid "Today"

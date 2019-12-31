@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-24 03:19+0100\n"
+"POT-Creation-Date: 2019-12-31 03:23+0100\n"
 "PO-Revision-Date: 2015-06-17 09:27+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -375,6 +375,17 @@ msgstr ""
 #| msgid "Select All Text"
 msgid "Delete Rules"
 msgstr "選取所有文字"
+
+#: dkim-verify/dkimviewermenu.cpp:45
+#, fuzzy, kde-format
+#| msgid "Keep Signature"
+msgid "Recheck DKIM Signature"
+msgstr "保存簽章"
+
+#: dkim-verify/dkimviewermenu.cpp:48
+#, kde-format
+msgid "Update DKIM key"
+msgstr ""
 
 #: dkim-verify/dkimwidgetinfo.cpp:101
 #, fuzzy, kde-format
