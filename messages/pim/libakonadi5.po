@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libakonadi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-23 03:16+0100\n"
+"POT-Creation-Date: 2020-01-01 03:17+0100\n"
 "PO-Revision-Date: 2018-03-29 13:00+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -314,33 +314,33 @@ msgstr "建立關聯時失敗。"
 msgid "Resource synchronization timed out."
 msgstr "資源同步逾時。"
 
-#: core/jobs/specialcollectionshelperjobs.cpp:161
+#: core/jobs/specialcollectionshelperjobs.cpp:162
 #, kde-format
 msgid "Could not fetch root collection of resource %1."
 msgstr "無法抓取收藏 %1 的根收藏。"
 
-#: core/jobs/specialcollectionshelperjobs.cpp:208
+#: core/jobs/specialcollectionshelperjobs.cpp:209
 #, kde-format
 msgid "No resource ID given."
 msgstr "沒有給定資源代碼。"
 
-#: core/jobs/specialcollectionshelperjobs.cpp:340
+#: core/jobs/specialcollectionshelperjobs.cpp:341
 #, kde-format
 msgid "Invalid resource identifier '%1'"
 msgstr "不合法的資源辨識 %1。"
 
-#: core/jobs/specialcollectionshelperjobs.cpp:357
-#: core/jobs/specialcollectionshelperjobs.cpp:365
+#: core/jobs/specialcollectionshelperjobs.cpp:358
+#: core/jobs/specialcollectionshelperjobs.cpp:366
 #, kde-format
 msgid "Failed to configure default resource via D-Bus."
 msgstr "從 D-Bus 取得設定預設資源失敗。"
 
-#: core/jobs/specialcollectionshelperjobs.cpp:426
+#: core/jobs/specialcollectionshelperjobs.cpp:427
 #, kde-format
 msgid "Failed to fetch the resource collection."
 msgstr "無法抓取此資源收藏。"
 
-#: core/jobs/specialcollectionshelperjobs.cpp:623
+#: core/jobs/specialcollectionshelperjobs.cpp:613
 #, kde-format
 msgid "Timeout trying to get lock."
 msgstr "取得鎖定時發生逾時。"
@@ -535,7 +535,7 @@ msgstr "未命名的外掛程式"
 msgid "No description available"
 msgstr "沒有可用的描述"
 
-#: core/servermanager.cpp:253
+#: core/servermanager.cpp:255
 #, kde-format
 msgid ""
 "The Akonadi server protocol version differs from the protocol version used "
@@ -544,7 +544,7 @@ msgid ""
 "all applications use the correct protocol version."
 msgstr ""
 
-#: core/servermanager.cpp:270
+#: core/servermanager.cpp:272
 #, kde-format
 msgid ""
 "There are no Akonadi Agents available. Please verify your KDE PIM "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-28 02:57+0100\n"
+"POT-Creation-Date: 2020-01-01 03:09+0100\n"
 "PO-Revision-Date: 2019-12-29 17:00+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -575,9 +575,12 @@ msgstr "快捷鍵"
 
 #. i18n: ectx: label, entry (printKeyActionRunning), group (General)
 #: src/Gui/SettingsDialog/spectacle.kcfg:12
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "What should happen if print key is pressed when spectacle is already "
+#| "running"
 msgid ""
-"What should happen if print key is pressed when spectacle is already running"
+"What should happen if print key is pressed when Spectacle is already running"
 msgstr "Spectacle 執行時，按下 Print 鍵的行為"
 
 #. i18n: ectx: label, entry (copyImageToClipboard), group (General)
@@ -594,8 +597,9 @@ msgstr "自動儲存螢幕擷取"
 
 #. i18n: ectx: label, entry (useLightMaskColour), group (General)
 #: src/Gui/SettingsDialog/spectacle.kcfg:29
-#, kde-format
-msgid "Whether to use a light colour mask in the region selection dialog"
+#, fuzzy, kde-format
+#| msgid "Whether to use a light colour mask in the region selection dialog"
+msgid "Whether to use a light color mask in the region selection dialog"
 msgstr "是否在區域選擇對話框使用亮色遮罩"
 
 #. i18n: ectx: label, entry (showMagnifier), group (General)
@@ -605,112 +609,116 @@ msgid "Whether to show a magnifier in the region selection"
 msgstr "是否在區域選取區顯示放大鏡"
 
 #. i18n: ectx: label, entry (useReleaseToCapture), group (General)
-#: src/Gui/SettingsDialog/spectacle.kcfg:38
-#, kde-format
+#: src/Gui/SettingsDialog/spectacle.kcfg:37
+#, fuzzy, kde-format
+#| msgid ""
+#| "Whether the screenshot should be captured after selecting the region and "
+#| "releasing\n"
+#| "            the mouse "
 msgid ""
 "Whether the screenshot should be captured after selecting the region and "
-"releasing\n"
-"            the mouse "
+"releasing the mouse"
 msgstr "是否在選取好區域，放開滑鼠後擷取螢幕擷取"
 
 #. i18n: ectx: label, entry (rememberLastRectangularRegion), group (General)
-#: src/Gui/SettingsDialog/spectacle.kcfg:42
-#, kde-format
-msgid "RemeberlastRectangularRegion"
+#: src/Gui/SettingsDialog/spectacle.kcfg:41
+#, fuzzy, kde-format
+#| msgid "RemeberlastRectangularRegion"
+msgid "Remeber the last rectangular region"
 msgstr "RemeberlastRectangularRegion"
 
 #. i18n: ectx: label, entry (alwaysRememberRegion), group (General)
-#: src/Gui/SettingsDialog/spectacle.kcfg:46
+#: src/Gui/SettingsDialog/spectacle.kcfg:45
 #, kde-format
 msgid "Remember the region across restarts"
 msgstr "重新開啟後仍記得區域"
 
 #. i18n: ectx: label, entry (cropRegion), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:52
+#: src/Gui/SettingsDialog/spectacle.kcfg:51
 #, kde-format
 msgid "The last used region the user selected"
 msgstr "使用者先前選取的區域"
 
 #. i18n: ectx: label, entry (onClickChecked), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:56
+#: src/Gui/SettingsDialog/spectacle.kcfg:55
 #, kde-format
 msgid "Take screenshot on click"
 msgstr "按一下擷取螢幕"
 
 #. i18n: ectx: label, entry (includePointer), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:60
+#: src/Gui/SettingsDialog/spectacle.kcfg:59
 #, kde-format
 msgid "Whether the mouse cursor is included in the screenshot"
 msgstr "是否將滑鼠游標加入螢幕擷取"
 
 #. i18n: ectx: label, entry (includeDecorations), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:64
+#: src/Gui/SettingsDialog/spectacle.kcfg:63
 #, kde-format
 msgid "Whether the window decorations are included in the screenshot"
 msgstr "是否要將視窗裝飾加入螢幕擷取"
 
 #. i18n: ectx: label, entry (transientOnly), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:68
+#: src/Gui/SettingsDialog/spectacle.kcfg:67
 #, kde-format
 msgid "Only capture the current pop up menu"
 msgstr "只擷取目前的彈出式選單"
 
 #. i18n: ectx: label, entry (quitAfterSaveCopyExport), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:72
+#: src/Gui/SettingsDialog/spectacle.kcfg:71
 #, kde-format
 msgid "Quit after saving or copying an image"
 msgstr "儲存或複製圖片後離開"
 
 #. i18n: ectx: label, entry (captureDelay), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:76
+#: src/Gui/SettingsDialog/spectacle.kcfg:75
 #, kde-format
 msgid "Delay"
 msgstr "延遲"
 
 #. i18n: ectx: label, entry (defaultSaveLocation), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:86
+#: src/Gui/SettingsDialog/spectacle.kcfg:85
 #, kde-format
 msgid "Default filename"
 msgstr "預設檔名"
 
 #. i18n: ectx: label, entry (copySaveLocation), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:92
+#: src/Gui/SettingsDialog/spectacle.kcfg:91
 #, kde-format
 msgid "Whether to copy the file path after saving to the clipboard"
 msgstr "是否在儲存至剪貼簿後複製檔案路徑"
 
 #. i18n: ectx: label, entry (compressionQuality), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:96
+#: src/Gui/SettingsDialog/spectacle.kcfg:95
 #, kde-format
 msgid "Compression quality for lossy file formats"
 msgstr "有損檔案格式的壓縮品質"
 
 #. i18n: ectx: label, entry (defaultSaveImageFormat), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:100
+#: src/Gui/SettingsDialog/spectacle.kcfg:99
 #, kde-format
 msgid "Default save image format"
 msgstr "預設儲存圖片格式"
 
 #. i18n: ectx: label, entry (saveFilenameFormat), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:104
+#: src/Gui/SettingsDialog/spectacle.kcfg:103
 #, kde-format
 msgid "The default filename used when saving"
 msgstr "儲存預設檔名"
 
 #. i18n: ectx: label, entry (lastSaveLocation), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:108
+#: src/Gui/SettingsDialog/spectacle.kcfg:107
 #, kde-format
 msgid "The path of the file saved last"
 msgstr "上次儲存的檔案路徑"
 
 #. i18n: ectx: label, entry (lastSaveAsLocation), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:112
+#: src/Gui/SettingsDialog/spectacle.kcfg:111
 #, kde-format
 msgid "Last path used for \"save as\" action"
 msgstr "要為「儲存為」動作使用的上個路徑"
 
 #. i18n: ectx: label, entry (lastUsedSaveMode), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:116
+#: src/Gui/SettingsDialog/spectacle.kcfg:115
 #, kde-format
 msgid "The last used save mode"
 msgstr "上次使用的儲存模式"

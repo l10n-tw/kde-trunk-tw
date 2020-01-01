@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdiff3\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-31 02:47+0100\n"
+"POT-Creation-Date: 2020-01-01 02:46+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -218,7 +218,7 @@ msgid "Delete (if exists)"
 msgstr "刪除（若存在）"
 
 #: directorymergewindow.cpp:430 directorymergewindow.cpp:3030
-#: optiondialog.cpp:920 smalldialogs.cpp:113
+#: smalldialogs.cpp:113
 #, kde-format
 msgid "Merge"
 msgstr "合併"
@@ -2319,6 +2319,13 @@ msgid ""
 "Not recommended for merging because merge might get more complicated.\n"
 "(Default is off.)"
 msgstr ""
+
+#: optiondialog.cpp:920
+#, fuzzy, kde-format
+#| msgid "Merge"
+msgctxt "Settings page"
+msgid "Merge"
+msgstr "合併"
 
 #: optiondialog.cpp:921
 #, kde-format

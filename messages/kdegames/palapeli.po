@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: palapeli\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-17 02:55+0100\n"
+"POT-Creation-Date: 2020-01-01 03:07+0100\n"
 "PO-Revision-Date: 2018-03-24 16:37+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -340,43 +340,43 @@ msgstr "無法建立謎題：因為未知的問題造成切片失敗。"
 msgid "Change size of puzzle table area by dragging its edges"
 msgstr "拖曳它的邊緣以改變遊戲的桌面大小"
 
-#: src/engine/gameplay.cpp:192 src/engine/gameplay.cpp:1138
+#: src/engine/gameplay.cpp:193 src/engine/gameplay.cpp:1140
 #, kde-format
 msgid "You have finished the puzzle. Do you want to restart it now?"
 msgstr "您已完成了這個謎題。您要重新開始嗎？"
 
-#: src/engine/gameplay.cpp:306
+#: src/engine/gameplay.cpp:307
 #, kde-format
 msgid "The following puzzles will be deleted. This action cannot be undone."
 msgstr "以下的謎題將被刪除。此動作無法回復。"
 
-#: src/engine/gameplay.cpp:325 src/engine/gameplay.cpp:351
+#: src/engine/gameplay.cpp:326 src/engine/gameplay.cpp:352
 #, kde-format
 msgctxt "Filter for a file dialog"
 msgid "Palapeli puzzles (*.puzzle)"
 msgstr "Palapeli 謎題 (*.puzzle)"
 
-#: src/engine/gameplay.cpp:327
+#: src/engine/gameplay.cpp:328
 #, kde-format
 msgid "Import Palapeli puzzles"
 msgstr "匯入 Palapeli 謎題"
 
-#: src/engine/gameplay.cpp:353
+#: src/engine/gameplay.cpp:354
 #, kde-format
 msgid "Save Palapeli puzzles"
 msgstr "儲存 Palapeli 謎題"
 
-#: src/engine/gameplay.cpp:368
+#: src/engine/gameplay.cpp:369
 #, kde-format
 msgid "Create a piece holder"
 msgstr "建立拼圖暫存器"
 
-#: src/engine/gameplay.cpp:369
+#: src/engine/gameplay.cpp:370
 #, kde-format
 msgid "Enter a short name (optional):"
 msgstr "輸入短名稱（選擇性）："
 
-#: src/engine/gameplay.cpp:417
+#: src/engine/gameplay.cpp:418
 #, kde-format
 msgid ""
 "You need to click on a piece holder to select it before you can delete it, "
@@ -385,25 +385,25 @@ msgstr ""
 "要刪除拼圖暫存器前，您要先點擊該暫存器。不然您也可以直接按暫存去的「關閉」"
 "鍵。"
 
-#: src/engine/gameplay.cpp:436
+#: src/engine/gameplay.cpp:437
 #, kde-format
 msgid "The selected piece holder must be empty before you can delete it."
 msgstr "選取的拼圖暫存器必須是空的，才能刪除。"
 
-#: src/engine/gameplay.cpp:455
+#: src/engine/gameplay.cpp:456
 #, kde-format
 msgid ""
 "The selected piece holder must contain some pieces for 'Select all' to use."
 msgstr "選取的拼圖暫存器必須有某些拼圖片，才能使用「全部選取」。"
 
-#: src/engine/gameplay.cpp:461
+#: src/engine/gameplay.cpp:462
 #, kde-format
 msgid ""
 "You need to click on a piece holder to select it before you can select all "
 "the pieces in it."
 msgstr "要選取暫存器中所有的拼圖片，您必須先點擊選取該暫存器。"
 
-#: src/engine/gameplay.cpp:481
+#: src/engine/gameplay.cpp:482
 #, kde-format
 msgid ""
 "To rearrange pieces, either the puzzle table must have some selected pieces "
@@ -412,21 +412,21 @@ msgstr ""
 "要重新安排拼圖片，要嘛謎題桌面要有一些選取的拼圖片，不然就必須選取某個裡面含"
 "有拼圖片的暫存器。"
 
-#: src/engine/gameplay.cpp:543
+#: src/engine/gameplay.cpp:544
 #, kde-format
 msgid ""
 "You need to have a piece holder and click it to select it before you can "
 "transfer pieces into or out of it."
 msgstr "您必須選取拼圖暫存器，才能將拼圖片傳送進去或傳送出來。"
 
-#: src/engine/gameplay.cpp:563
+#: src/engine/gameplay.cpp:564
 #, kde-format
 msgid ""
 "You have selected to transfer a large piece containing more than six small "
 "pieces to a holder. Do you really wish to do that?"
 msgstr "您選取了多於六個拼圖片進入暫存器中。您確定要這樣做嗎？"
 
-#: src/engine/gameplay.cpp:585
+#: src/engine/gameplay.cpp:586
 #, kde-format
 msgid ""
 "You need to select one or more pieces to be transferred out of the selected "
@@ -435,14 +435,14 @@ msgstr ""
 "您要選擇在暫存器中的拼圖片，才能將它們拿出選取的暫存器，或是選擇在謎題桌面上"
 "的拼圖片，才能將它們放入選取的暫存器。"
 
-#: src/engine/gameplay.cpp:603
+#: src/engine/gameplay.cpp:604
 #, kde-format
 msgid ""
 "You need to select one or more pieces to be transferred from the previous "
 "holder into the newly selected holder."
 msgstr "您要選擇一個以上的拼圖片才能將它們傳送到新的暫存器中。"
 
-#: src/engine/gameplay.cpp:611
+#: src/engine/gameplay.cpp:612
 #, kde-format
 msgid ""
 "You need to have at least two holders, one of them selected and with "
@@ -451,13 +451,13 @@ msgstr ""
 "您至少要有兩個暫存器，先選好其中一個裡面的拼圖片，才能將它們傳送到第二個暫存"
 "器。"
 
-#: src/engine/gameplay.cpp:1079
+#: src/engine/gameplay.cpp:1081
 #, kde-format
 msgctxt "For holding pieces"
 msgid "Hand"
 msgstr "手"
 
-#: src/engine/gameplay.cpp:1082
+#: src/engine/gameplay.cpp:1084
 #, kde-format
 msgctxt "Hints for solving large puzzles"
 msgid ""
@@ -539,13 +539,13 @@ msgstr ""
 "\n"
 "此外，暫存器其實可以當做一個謎題桌面。"
 
-#: src/engine/gameplay.cpp:1132
+#: src/engine/gameplay.cpp:1134
 #, kde-format
 msgctxt "Caption for hints"
 msgid "Solving Large Puzzles"
 msgstr "大拼圖謎題提示"
 
-#: src/engine/gameplay.cpp:1196
+#: src/engine/gameplay.cpp:1198
 #, kde-format
 msgid "Great! You have finished the puzzle."
 msgstr "太好了！您完成了。"
@@ -777,43 +777,43 @@ msgstr "錯誤：未給定謎題檔。"
 msgid "Importing puzzle \"%1\" into your collection"
 msgstr "匯入謎題 %1 到您的收藏中。"
 
-#: src/main.cpp:38
+#: src/main.cpp:37
 #, kde-format
 msgctxt "The application's name"
 msgid "Palapeli"
 msgstr "Palapeli"
 
-#: src/main.cpp:38
+#: src/main.cpp:37
 #, kde-format
 msgid "KDE Jigsaw Puzzle Game"
 msgstr "KDE 拼圖謎題遊戲"
 
-#: src/main.cpp:38
+#: src/main.cpp:37
 #, kde-format
 msgid "Copyright 2009, 2010, Stefan Majewsky"
 msgstr "Copyright 2009, 2010, Stefan Majewsky"
 
-#: src/main.cpp:39
+#: src/main.cpp:38
 #, kde-format
 msgid "Stefan Majewsky"
 msgstr "Stefan Majewsky"
 
-#: src/main.cpp:40
+#: src/main.cpp:39
 #, kde-format
 msgid "Johannes Loehnert"
 msgstr "Johannes Loehnert"
 
-#: src/main.cpp:41
+#: src/main.cpp:40
 #, kde-format
 msgid "The option to preview the completed puzzle"
 msgstr "預覽完整謎題的選項"
 
-#: src/main.cpp:46
+#: src/main.cpp:45
 #, kde-format
 msgid "Path to puzzle file (will be opened if -i is not given)"
 msgstr "謎題檔的路徑（若未指定 -i 選項，則會被開啟）"
 
-#: src/main.cpp:47
+#: src/main.cpp:46
 #, kde-format
 msgid ""
 "Import the given puzzle file into the local collection (does nothing if no "

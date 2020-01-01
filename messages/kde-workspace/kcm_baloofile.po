@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-12 03:29+0200\n"
+"POT-Creation-Date: 2019-12-30 03:34+0100\n"
 "PO-Revision-Date: 2019-10-19 15:14+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -54,15 +54,40 @@ msgstr "Vishesh Handa"
 msgid "Tomaz Canabrava"
 msgstr "Tomaz Canabrava"
 
-#~ msgid ""
-#~ "File Search helps you quickly locate all your files based on their content"
-#~ msgstr "檔案搜尋能依據檔案內容協助您快速找到您的檔案"
+#: package/contents/ui/main.qml:33
+#, kde-format
+msgid ""
+"This module lets you configure the file indexer and search functionality."
+msgstr ""
 
-#~ msgid "Also index file content"
-#~ msgstr "也索引檔案內容"
+#: package/contents/ui/main.qml:39
+#, fuzzy, kde-format
+#| msgid ""
+#| "File Search helps you quickly locate all your files based on their content"
+msgid ""
+"File Search helps you quickly locate all your files based on their content."
+msgstr "檔案搜尋能依據檔案內容協助您快速找到您的檔案"
 
-#~ msgid "Do not search in these locations:"
-#~ msgstr "排除搜尋位置："
+#: package/contents/ui/main.qml:44
+#, fuzzy, kde-format
+#| msgid "File Search"
+msgid "Enable File Search"
+msgstr "檔案搜尋"
+
+#: package/contents/ui/main.qml:53
+#, kde-format
+msgid "Also index file content"
+msgstr "也索引檔案內容"
+
+#: package/contents/ui/main.qml:62
+#, kde-format
+msgid "Do not search in these locations:"
+msgstr "排除搜尋位置："
+
+#: package/contents/ui/main.qml:106
+#, kde-format
+msgid "Select a folder to filter"
+msgstr ""
 
 #~ msgid "Select the folder which should be excluded"
 #~ msgstr "選擇要排除的資料夾"

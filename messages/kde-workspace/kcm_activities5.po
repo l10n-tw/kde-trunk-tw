@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_activities5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-31 03:33+0100\n"
+"POT-Creation-Date: 2020-01-01 03:40+0100\n"
 "PO-Revision-Date: 2019-08-31 19:05+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -100,14 +100,14 @@ msgstr "切換快速鍵："
 #: kactivitymanagerd_plugins_settings.kcfg:10
 #, fuzzy, kde-format
 #| msgid "Cleared the activity history."
-msgid "How many month keep the activity history"
+msgid "How many months keep the activity history"
 msgstr "已清除活動歷史記錄。"
 
 #. i18n: ectx: label, entry (whatToRemember), group (Plugin-org.kde.ActivityManager.Resources.Scoring)
 #: kactivitymanagerd_plugins_settings.kcfg:17
 #, fuzzy, kde-format
 #| msgid "Cleared the activity history."
-msgid "whick data to keep in activity history"
+msgid "Which data to keep in activity history"
 msgstr "已清除活動歷史記錄。"
 
 #: MainConfigurationWidget.cpp:47
@@ -146,7 +146,7 @@ msgstr "忘記今天的"
 msgid "Forget everything"
 msgstr "全部忘記"
 
-#: PrivacyTab.cpp:215
+#: PrivacyTab.cpp:216
 #, kde-format
 msgctxt "unit of time. months to keep the history"
 msgid " month"
@@ -156,7 +156,7 @@ msgstr[0] "月"
 # msgctxt 是寫 "Keep history for 5 months."，直接翻成 "保留記錄 5 個月" 即可。
 #
 # 因此這邊直接留白即可。
-#: PrivacyTab.cpp:219
+#: PrivacyTab.cpp:220
 #, kde-format
 msgctxt "for in 'keep history for 5 months'"
 msgid "For "
@@ -179,18 +179,18 @@ msgstr "刪除 %1 活動"
 msgid "Create New..."
 msgstr "建立新…"
 
-#: SwitchingTab.cpp:64
+#: SwitchingTab.cpp:65
 #, kde-format
 msgid "Activity switching"
 msgstr "活動切換"
 
-#: SwitchingTab.cpp:68
+#: SwitchingTab.cpp:69
 #, kde-format
 msgctxt "@action"
 msgid "Walk through activities"
 msgstr "瀏覽活動"
 
-#: SwitchingTab.cpp:71
+#: SwitchingTab.cpp:72
 #, kde-format
 msgctxt "@action"
 msgid "Walk through activities (Reverse)"
