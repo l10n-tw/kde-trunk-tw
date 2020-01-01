@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
-# pan93412 <pan93412@gmail.com>, 2018, 2019.
+# pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-01 03:09+0100\n"
-"PO-Revision-Date: 2019-12-29 17:00+0800\n"
+"PO-Revision-Date: 2020-01-01 16:33+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: Traditional Chinese\n"
@@ -575,7 +575,7 @@ msgstr "快捷鍵"
 
 #. i18n: ectx: label, entry (printKeyActionRunning), group (General)
 #: src/Gui/SettingsDialog/spectacle.kcfg:12
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "What should happen if print key is pressed when spectacle is already "
 #| "running"
@@ -597,7 +597,7 @@ msgstr "自動儲存螢幕擷取"
 
 #. i18n: ectx: label, entry (useLightMaskColour), group (General)
 #: src/Gui/SettingsDialog/spectacle.kcfg:29
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Whether to use a light colour mask in the region selection dialog"
 msgid "Whether to use a light color mask in the region selection dialog"
 msgstr "是否在區域選擇對話框使用亮色遮罩"
@@ -610,7 +610,7 @@ msgstr "是否在區域選取區顯示放大鏡"
 
 #. i18n: ectx: label, entry (useReleaseToCapture), group (General)
 #: src/Gui/SettingsDialog/spectacle.kcfg:37
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Whether the screenshot should be captured after selecting the region and "
 #| "releasing\n"
@@ -622,10 +622,10 @@ msgstr "是否在選取好區域，放開滑鼠後擷取螢幕擷取"
 
 #. i18n: ectx: label, entry (rememberLastRectangularRegion), group (General)
 #: src/Gui/SettingsDialog/spectacle.kcfg:41
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "RemeberlastRectangularRegion"
 msgid "Remeber the last rectangular region"
-msgstr "RemeberlastRectangularRegion"
+msgstr "記住上一次的長方形區域"
 
 #. i18n: ectx: label, entry (alwaysRememberRegion), group (General)
 #: src/Gui/SettingsDialog/spectacle.kcfg:45
