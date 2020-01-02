@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tellico\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-29 02:45+0100\n"
+"POT-Creation-Date: 2020-01-02 02:46+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -627,7 +627,8 @@ msgstr "含有衍生數值的欄位必須定義數值樣本。"
 #: src/configdialog.cpp:201 src/fetch/allocinefetcher.cpp:315
 #: src/fetch/allocinefetcher.cpp:321 src/fetch/animenfofetcher.cpp:310
 #: src/fetch/animenfofetcher.cpp:314 src/fetch/bedethequefetcher.cpp:331
-#: src/fetch/bedethequefetcher.cpp:339 src/fetch/discogsfetcher.cpp:248
+#: src/fetch/bedethequefetcher.cpp:339 src/fetch/colnectfetcher.cpp:286
+#: src/fetch/colnectfetcher.cpp:299 src/fetch/discogsfetcher.cpp:248
 #: src/fetch/discogsfetcher.cpp:253 src/fetch/discogsfetcher.cpp:258
 #: src/fetch/discogsfetcher.cpp:265 src/fetch/doubanfetcher.cpp:323
 #: src/fetch/doubanfetcher.cpp:342 src/fetch/doubanfetcher.cpp:361
@@ -786,7 +787,8 @@ msgstr "章節"
 
 #: src/collections/bibtexcollection.cpp:213
 #: src/collections/bookcollection.cpp:143 src/collections/cardcollection.cpp:82
-#: src/collections/comicbookcollection.cpp:70
+#: src/collections/comicbookcollection.cpp:70 src/fetch/colnectfetcher.cpp:285
+#: src/fetch/colnectfetcher.cpp:431
 #, kde-format
 msgid "Series"
 msgstr "級數"
@@ -904,6 +906,7 @@ msgstr ""
 #: src/collections/filecatalog.cpp:57 src/collections/gamecollection.cpp:98
 #: src/collections/stampcollection.cpp:54
 #: src/collections/winecollection.cpp:125 src/entrymatchdialog.cpp:94
+#: src/fetch/colnectfetcher.cpp:292 src/fetch/colnectfetcher.cpp:434
 #: src/fetchdialog.cpp:250
 #, kde-format
 msgid "Description"
@@ -1246,12 +1249,12 @@ msgstr "PCGS,NGC,ANACS,ICG,ASA,PCI"
 msgid "Grading Service"
 msgstr "評比服務"
 
-#: src/collections/coincollection.cpp:136
+#: src/collections/coincollection.cpp:136 src/fetch/colnectfetcher.cpp:429
 #, kde-format
 msgid "Obverse"
 msgstr "正面"
 
-#: src/collections/coincollection.cpp:139
+#: src/collections/coincollection.cpp:139 src/fetch/colnectfetcher.cpp:430
 #, kde-format
 msgid "Reverse"
 msgstr "反面"
@@ -3082,6 +3085,7 @@ msgid "Encode the exported file in the local encoding."
 msgstr "匯出的檔案以使用者的地域設定編碼。"
 
 #: src/fetch/allocinefetcher.cpp:238 src/fetch/amazonfetcher.cpp:804
+#: src/fetch/colnectfetcher.cpp:203 src/fetch/colnectfetcher.cpp:213
 #: src/fetch/discogsfetcher.cpp:192 src/fetch/filmasterfetcher.cpp:142
 #: src/fetch/googlebookfetcher.cpp:196 src/fetch/igdbfetcher.cpp:175
 #: src/fetch/isbndbfetcher.cpp:232 src/fetch/kinofetcher.cpp:334
@@ -3504,6 +3508,17 @@ msgstr ""
 #| msgid "BoardGameGeek"
 msgid "BoardGameGeek Link"
 msgstr "BoardGameGeek"
+
+#: src/fetch/colnectfetcher.cpp:298 src/fetch/colnectfetcher.cpp:433
+#, fuzzy, kde-format
+#| msgid "Vintage"
+msgid "Mintage"
+msgstr "釀造年份"
+
+#: src/fetch/colnectfetcher.cpp:506 src/fetch/themoviedbfetcher.cpp:483
+#, kde-format
+msgid "Language: "
+msgstr "語言："
 
 #: src/fetch/comicvinefetcher.cpp:70
 #, kde-format
@@ -3991,11 +4006,6 @@ msgstr "欄位"
 #, kde-format
 msgid "TMDb Link"
 msgstr "TMDb 連結"
-
-#: src/fetch/themoviedbfetcher.cpp:483
-#, kde-format
-msgid "Language: "
-msgstr "語言："
 
 #: src/fetch/themoviedbfetcher.cpp:486
 #, kde-format

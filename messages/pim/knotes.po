@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-21 03:34+0100\n"
+"POT-Creation-Date: 2020-01-02 03:16+0100\n"
 "PO-Revision-Date: 2019-01-19 19:51+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -131,8 +131,9 @@ msgid "KDE Notes"
 msgstr "KDE便條紙"
 
 #: apps/main.cpp:56
-#, kde-format
-msgid "Copyright © 1997–2019 KNotes authors"
+#, fuzzy, kde-format
+#| msgid "Copyright © 1997–2019 KNotes authors"
+msgid "Copyright © 1997–2020 KNotes authors"
 msgstr "Copyright © 1997–2019 KNotes 作者群"
 
 #: apps/main.cpp:76 kontactplugin/kcmknotessummary.cpp:64
@@ -585,8 +586,9 @@ msgid "Notes Summary Configuration Dialog"
 msgstr "便條摘要設定畫面"
 
 #: kontactplugin/kcmknotessummary.cpp:63
-#, kde-format
-msgid "Copyright © 2013-2019 Laurent Montel <montel@kde.org>"
+#, fuzzy, kde-format
+#| msgid "Copyright © 2013-2019 Laurent Montel <montel@kde.org>"
+msgid "Copyright © 2013-2020 Laurent Montel <montel@kde.org>"
 msgstr "Copyright © 2013-2019 Laurent Montel <montel@kde.org>"
 
 #: kontactplugin/knotes_part.cpp:98
@@ -804,9 +806,11 @@ msgid "Popup Notes"
 msgstr "彈出式便條"
 
 #: kontactplugin/knotes_plugin.cpp:103
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:credit"
+#| msgid "Copyright © 2003–2018 Kontact authors"
 msgctxt "@info:credit"
-msgid "Copyright © 2003–2018 Kontact authors"
+msgid "Copyright © 2003–2020 Kontact authors"
 msgstr "Copyright © 2003–2018 Kontact 作者群"
 
 #: kontactplugin/knotes_plugin.cpp:105
