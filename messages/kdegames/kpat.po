@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-30 03:05+0100\n"
+"POT-Creation-Date: 2020-01-03 03:06+0100\n"
 "PO-Revision-Date: 2018-10-31 01:07+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -78,7 +78,7 @@ msgstr "解答器：這一局輸了。"
 msgid "Solver: Calculating..."
 msgstr "解答器：計算中..."
 
-#: dealer.cpp:1937
+#: dealer.cpp:1944
 #, kde-format
 msgid ""
 "A new game has been requested, but there is already a game in progress.\n"
@@ -89,12 +89,12 @@ msgstr ""
 "\n"
 "若您放棄目前的遊戲，則會被標記為失敗。"
 
-#: dealer.cpp:1939
+#: dealer.cpp:1946
 #, kde-format
 msgid "Abandon Current Game?"
 msgstr "放棄目前這一局嗎？"
 
-#: dealer.cpp:1940
+#: dealer.cpp:1947
 #, kde-format
 msgid "Abandon Current Game"
 msgstr "放棄目前這一局"
@@ -718,13 +718,13 @@ msgstr "Spider (4 種花色)"
 msgid "%1 (%2%)"
 msgstr "%1（%2%）"
 
-#: statisticsdialog.cpp:127
+#: statisticsdialog.cpp:132
 #, kde-format
 msgid "1 loss"
 msgid_plural "%1 losses"
 msgstr[0] "%1 敗"
 
-#: statisticsdialog.cpp:129
+#: statisticsdialog.cpp:134
 #, kde-format
 msgid "1 win"
 msgid_plural "%1 wins"
@@ -759,6 +759,12 @@ msgstr "勝利次數："
 #, kde-format
 msgid "Current streak:"
 msgstr "目前連勝紀錄："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: statisticsdialog.ui:147
+#, kde-format
+msgid "Minimal number of moves:"
+msgstr ""
 
 #: yukon.cpp:132
 #, kde-format

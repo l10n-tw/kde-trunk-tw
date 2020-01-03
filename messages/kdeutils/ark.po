@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-16 03:12+0100\n"
+"POT-Creation-Date: 2020-01-03 03:19+0100\n"
 "PO-Revision-Date: 2019-10-26 23:19+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -677,23 +677,23 @@ msgstr "型態："
 msgid "Extension:"
 msgstr "副檔名:"
 
-#: kerfuffle/extractiondialog.cpp:62
+#: kerfuffle/extractiondialog.cpp:61
 #, kde-format
 msgctxt "@title:window"
 msgid "Extract"
 msgstr "解開"
 
-#: kerfuffle/extractiondialog.cpp:76
+#: kerfuffle/extractiondialog.cpp:75
 #, kde-format
 msgid "Extract"
 msgstr "解開"
 
-#: kerfuffle/extractiondialog.cpp:119
+#: kerfuffle/extractiondialog.cpp:118
 #, kde-format
 msgid "The subfolder name may not contain the character '/'."
 msgstr "子資料夾的名稱不能包含 / 字元。"
 
-#: kerfuffle/extractiondialog.cpp:129
+#: kerfuffle/extractiondialog.cpp:128
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -701,39 +701,39 @@ msgid ""
 "extract here?"
 msgstr "檔案 <filename>%1</filename> 已存在。您要在這裡展開嗎？"
 
-#: kerfuffle/extractiondialog.cpp:130
+#: kerfuffle/extractiondialog.cpp:129
 #, kde-format
 msgid "Folder exists"
 msgstr "資料夾已存在"
 
-#: kerfuffle/extractiondialog.cpp:131
+#: kerfuffle/extractiondialog.cpp:130
 #, kde-format
 msgid "Extract here"
 msgstr "在此解壓縮"
 
-#: kerfuffle/extractiondialog.cpp:132
+#: kerfuffle/extractiondialog.cpp:131
 #, kde-format
 msgid "Retry"
 msgstr "重試"
 
-#: kerfuffle/extractiondialog.cpp:142 kerfuffle/extractiondialog.cpp:148
+#: kerfuffle/extractiondialog.cpp:141 kerfuffle/extractiondialog.cpp:147
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The folder <filename>%1</filename> could not be created."
 msgstr "無法建立資料夾 <filename>%1</filename>。"
 
-#: kerfuffle/extractiondialog.cpp:143
+#: kerfuffle/extractiondialog.cpp:142
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<filename>%1</filename> already exists, but is not a folder."
 msgstr "<filename>%1</filename> 已存在，但不是資料夾。"
 
-#: kerfuffle/extractiondialog.cpp:149
+#: kerfuffle/extractiondialog.cpp:148
 #, kde-format
 msgid "Please check your permissions to create it."
 msgstr "請檢查您是否有建立的權限。"
 
-#: kerfuffle/extractiondialog.cpp:188
+#: kerfuffle/extractiondialog.cpp:187
 #, kde-format
 msgid "Extract multiple archives"
 msgstr "解開多個檔案"
@@ -971,54 +971,54 @@ msgstr "描述"
 msgid "Disable preview for files larger than:"
 msgstr "檔案超過此大小時關閉預覽："
 
-#: kerfuffle/propertiesdialog.cpp:61
+#: kerfuffle/propertiesdialog.cpp:60
 #, kde-format
 msgctxt "@title:window"
 msgid "Properties for %1"
 msgstr "%1 的屬性"
 
 #. i18n: ectx: property (text), widget (KSqueezedTextLabel, m_passwordValueLabel)
-#: kerfuffle/propertiesdialog.cpp:69 kerfuffle/propertiesdialog.cpp:71
+#: kerfuffle/propertiesdialog.cpp:68 kerfuffle/propertiesdialog.cpp:70
 #: part/infopanel.ui:195
 #, kde-format
 msgid "yes"
 msgstr "是"
 
-#: kerfuffle/propertiesdialog.cpp:69 kerfuffle/propertiesdialog.cpp:70
-#: kerfuffle/propertiesdialog.cpp:71 kerfuffle/propertiesdialog.cpp:84
+#: kerfuffle/propertiesdialog.cpp:68 kerfuffle/propertiesdialog.cpp:69
+#: kerfuffle/propertiesdialog.cpp:70 kerfuffle/propertiesdialog.cpp:83
 #, kde-format
 msgid "no"
 msgstr "否"
 
-#: kerfuffle/propertiesdialog.cpp:70
+#: kerfuffle/propertiesdialog.cpp:69
 #, kde-format
 msgid "yes (%1 volumes)"
 msgstr "是（%1 個卷冊）"
 
-#: kerfuffle/propertiesdialog.cpp:72
+#: kerfuffle/propertiesdialog.cpp:71
 #, kde-format
 msgid "%1 file"
 msgid_plural "%1 files"
 msgstr[0] "%1 個檔案"
 
-#: kerfuffle/propertiesdialog.cpp:73
+#: kerfuffle/propertiesdialog.cpp:72
 #, kde-format
 msgid ", %1 folder"
 msgid_plural ", %1 folders"
 msgstr[0] "，%1 個資料夾"
 
-#: kerfuffle/propertiesdialog.cpp:87
+#: kerfuffle/propertiesdialog.cpp:86
 #, kde-format
 msgid "only file contents (%1)"
 msgstr "僅檔案內容 (%1)"
 
-#: kerfuffle/propertiesdialog.cpp:90
+#: kerfuffle/propertiesdialog.cpp:89
 #, kde-format
 msgid "yes (%1)"
 msgstr "是 (%1)"
 
-#: kerfuffle/propertiesdialog.cpp:107 kerfuffle/propertiesdialog.cpp:108
-#: kerfuffle/propertiesdialog.cpp:109
+#: kerfuffle/propertiesdialog.cpp:106 kerfuffle/propertiesdialog.cpp:107
+#: kerfuffle/propertiesdialog.cpp:108
 #, kde-format
 msgid "Calculating..."
 msgstr "計算中..."
@@ -1334,22 +1334,22 @@ msgstr ""
 msgid "The internal viewer cannot preview this file."
 msgstr "內部檢視器無法預覽此檔案。"
 
-#: part/infopanel.cpp:68
+#: part/infopanel.cpp:67
 #, kde-format
 msgid "No archive loaded"
 msgstr "沒有載入壓縮檔"
 
-#: part/infopanel.cpp:119
+#: part/infopanel.cpp:118
 #, kde-format
 msgid "Symbolic Link"
 msgstr "符號連結"
 
-#: part/infopanel.cpp:124
+#: part/infopanel.cpp:123
 #, kde-format
 msgid "Unknown size"
 msgstr "未知的大小"
 
-#: part/infopanel.cpp:145
+#: part/infopanel.cpp:144
 #, kde-format
 msgid "One file selected"
 msgid_plural "%1 files selected"

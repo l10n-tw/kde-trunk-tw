@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rkward\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-02 03:20+0100\n"
+"POT-Creation-Date: 2020-01-03 03:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -2649,19 +2649,19 @@ msgid ""
 "with your installation."
 msgstr ""
 
-#: rkward/rbackend/rkfrontendtransmitter.cpp:140
+#: rkward/rbackend/rkfrontendtransmitter.cpp:139
 #, kde-format
 msgid "The backend executable could not be started. Error message was: %1"
 msgstr ""
 
-#: rkward/rbackend/rkfrontendtransmitter.cpp:178
+#: rkward/rbackend/rkfrontendtransmitter.cpp:177
 #, kde-format
 msgid ""
 "Error during handshake with backend process. Expected token '%1', received "
 "token '%2'"
 msgstr ""
 
-#: rkward/rbackend/rkfrontendtransmitter.cpp:181
+#: rkward/rbackend/rkfrontendtransmitter.cpp:180
 #, kde-format
 msgid ""
 "Version mismatch during handshake with backend process. Frontend is version "
@@ -2669,18 +2669,18 @@ msgid ""
 "Please fix your installation."
 msgstr ""
 
-#: rkward/rbackend/rkfrontendtransmitter.cpp:215
+#: rkward/rbackend/rkfrontendtransmitter.cpp:214
 #, kde-format
 msgid ""
 "The backend process could not be started. Please check your installation."
 msgstr ""
 
-#: rkward/rbackend/rkfrontendtransmitter.cpp:216
+#: rkward/rbackend/rkfrontendtransmitter.cpp:215
 #, kde-format
 msgid "The backend process failed to start with exit code %1."
 msgstr ""
 
-#: rkward/rbackend/rkfrontendtransmitter.cpp:217
+#: rkward/rbackend/rkfrontendtransmitter.cpp:216
 #, kde-format
 msgid "Backend process has exited with code %1."
 msgstr ""
@@ -2734,26 +2734,26 @@ msgstr ""
 msgid "R Startup"
 msgstr ""
 
-#: rkward/rbackend/rkrinterface.cpp:332
+#: rkward/rbackend/rkrinterface.cpp:335
 #, kde-format
 msgid ""
 "<p>\t-An unspecified error occurred that is not yet handled by RKWard. "
 "Likely RKWard will not function properly. Please check your setup.</p>\n"
 msgstr ""
 
-#: rkward/rbackend/rkrinterface.cpp:334
+#: rkward/rbackend/rkrinterface.cpp:337
 #, kde-format
 msgid ""
 "<p>There was a problem starting the R backend. The following error(s) "
 "occurred:</p>\n"
 msgstr ""
 
-#: rkward/rbackend/rkrinterface.cpp:342
+#: rkward/rbackend/rkrinterface.cpp:345
 #, kde-format
 msgid "Error starting R"
 msgstr ""
 
-#: rkward/rbackend/rkrinterface.cpp:561
+#: rkward/rbackend/rkrinterface.cpp:564
 #, kde-format
 msgid ""
 "A command in the R backend is trying to change the character encoding. While "
@@ -2767,12 +2767,12 @@ msgid ""
 "windows, save, and retry."
 msgstr ""
 
-#: rkward/rbackend/rkrinterface.cpp:561
+#: rkward/rbackend/rkrinterface.cpp:564
 #, kde-format
 msgid "Locale change"
 msgstr ""
 
-#: rkward/rbackend/rkrinterface.cpp:720
+#: rkward/rbackend/rkrinterface.cpp:723
 #, kde-format
 msgid ""
 "The R-backend has indicated that in order to carry out the current task it "
@@ -2781,17 +2781,17 @@ msgid ""
 "needed package."
 msgstr ""
 
-#: rkward/rbackend/rkrinterface.cpp:720
+#: rkward/rbackend/rkrinterface.cpp:723
 #, kde-format
 msgid "Require package '%1'"
 msgstr ""
 
-#: rkward/rbackend/rkrinterface.cpp:825
+#: rkward/rbackend/rkrinterface.cpp:828
 #, kde-format
 msgid "R backend requests information"
 msgstr ""
 
-#: rkward/rbackend/rkrinterface.cpp:852
+#: rkward/rbackend/rkrinterface.cpp:855
 #, kde-format
 msgid ""
 "\n"
@@ -2802,7 +2802,7 @@ msgid ""
 "out of open data editors. Quit RKWard after that. Sorry!"
 msgstr ""
 
-#: rkward/rbackend/rkrinterface.cpp:853
+#: rkward/rbackend/rkrinterface.cpp:856
 #, kde-format
 msgid "R engine has died"
 msgstr ""
