@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-30 03:38+0100\n"
+"POT-Creation-Date: 2020-01-04 03:50+0100\n"
 "PO-Revision-Date: 2019-03-14 20:39+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -113,17 +113,17 @@ msgstr "預設離開選項"
 msgid "&End current session"
 msgstr "結束目前的工作階段(&E)"
 
-#. i18n: ectx: property (text), widget (QRadioButton, haltRadio)
-#: smserverconfigdlg.ui:62
-#, kde-format
-msgid "&Turn off computer"
-msgstr "關閉電腦 (&T)"
-
 #. i18n: ectx: property (text), widget (QRadioButton, rebootRadio)
-#: smserverconfigdlg.ui:69
+#: smserverconfigdlg.ui:62
 #, kde-format
 msgid "&Restart computer"
 msgstr "重新啟動電腦 (&R)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, haltRadio)
+#: smserverconfigdlg.ui:69
+#, kde-format
+msgid "&Turn off computer"
+msgstr "關閉電腦 (&T)"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, kcfg_loginMode)
 #: smserverconfigdlg.ui:83

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-03 03:23+0100\n"
+"POT-Creation-Date: 2020-01-04 03:35+0100\n"
 "PO-Revision-Date: 2018-05-19 11:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -5537,6 +5537,20 @@ msgctxt "@info:whatsthis"
 msgid "Enter the length of time to repeat the alarm"
 msgstr "輸入要重覆響鈴的時間"
 
+#: resources/akonadicalendarupdater.cpp:127
+#, kde-format
+msgctxt "@info"
+msgid "Invalid collection"
+msgstr "不合法的收藏"
+
+#: resources/akonadicalendarupdater.cpp:140
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info/plain"
+#| msgid "Failed to update format of calendar <resource>%1</resource>"
+msgctxt "@info"
+msgid "Failed to update format of calendar <resource>%1</resource>"
+msgstr "無法更新行事曆 <resource>%1</resource> 的格式。"
+
 #: resources/akonadiresource.cpp:823
 #, kde-format
 msgctxt "@info"
@@ -5581,34 +5595,34 @@ msgid ""
 "para><para><filename>%1</filename></para>"
 msgstr ""
 
-#: resources/akonadiresourcemigrator.cpp:300
+#: resources/akonadiresourcemigrator.cpp:267
 #: resources/resourcedatamodelbase.cpp:80
 #, kde-format
 msgctxt "@info"
 msgid "Active Alarms"
 msgstr "作用中的鬧鐘"
 
-#: resources/akonadiresourcemigrator.cpp:308
+#: resources/akonadiresourcemigrator.cpp:275
 #: resources/resourcedatamodelbase.cpp:82
 #, kde-format
 msgctxt "@info"
 msgid "Archived Alarms"
 msgstr "已歸檔的鬧鐘"
 
-#: resources/akonadiresourcemigrator.cpp:316
+#: resources/akonadiresourcemigrator.cpp:283
 #: resources/resourcedatamodelbase.cpp:84
 #, kde-format
 msgctxt "@info"
 msgid "Alarm Templates"
 msgstr "鬧鐘樣本"
 
-#: resources/akonadiresourcemigrator.cpp:354
+#: resources/akonadiresourcemigrator.cpp:321
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Failed to create default calendar <resource>%1</resource>"
 msgstr "無法更新預設行事曆 <resource>%1</resource>。"
 
-#: resources/akonadiresourcemigrator.cpp:356
+#: resources/akonadiresourcemigrator.cpp:323
 #, kde-kuit-format
 msgctxt "@info/plain 'Import Alarms' is the name of a menu option"
 msgid ""
@@ -5618,45 +5632,31 @@ msgstr ""
 "轉換行事曆 <resource>%1</resource> 的舊設定失敗。請使用「匯入鬧鐘」將它的鬧鐘"
 "載入新的或現有的行事曆中。"
 
-#: resources/akonadiresourcemigrator.cpp:358
+#: resources/akonadiresourcemigrator.cpp:325
 #, kde-format
 msgctxt "@info File path or URL"
 msgid "Location: %1"
 msgstr "位置：%1"
 
-#: resources/akonadiresourcemigrator.cpp:359
+#: resources/akonadiresourcemigrator.cpp:326
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>%1</para><para>%2</para>"
 msgstr "<para>%1</para> <para>%2</para>"
 
-#: resources/akonadiresourcemigrator.cpp:474
-#, kde-format
-msgctxt "@info"
-msgid "Invalid collection"
-msgstr "不合法的收藏"
-
-#: resources/akonadiresourcemigrator.cpp:487
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Failed to update format of calendar <resource>%1</resource>"
-msgctxt "@info"
-msgid "Failed to update format of calendar <resource>%1</resource>"
-msgstr "無法更新行事曆 <resource>%1</resource> 的格式。"
-
-#: resources/akonadiresourcemigrator.cpp:767
+#: resources/akonadiresourcemigrator.cpp:562
 #, kde-format
 msgctxt "@info"
 msgid "New configuration timed out"
 msgstr "新設定已逾時"
 
-#: resources/akonadiresourcemigrator.cpp:780
+#: resources/akonadiresourcemigrator.cpp:575
 #, kde-format
 msgctxt "@info"
 msgid "New configuration was corrupt"
 msgstr "新設定已損毀"
 
-#: resources/akonadiresourcemigrator.cpp:884
+#: resources/calendarupdater.cpp:68
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -5671,7 +5671,7 @@ msgstr ""
 "行事曆 <resource>%1</resource> 是舊的格式（<application>KAlarm</application> "
 "版本 %2），除非您選擇將它更新為目前的格式，否則將會設為唯讀。"
 
-#: resources/akonadiresourcemigrator.cpp:887
+#: resources/calendarupdater.cpp:71
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -5687,7 +5687,7 @@ msgstr ""
 "<application>KAlarm</application> 格式。除非您選擇將它們更新為目前的格式，否"
 "則將會設為唯讀。"
 
-#: resources/akonadiresourcemigrator.cpp:890
+#: resources/calendarupdater.cpp:74
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
