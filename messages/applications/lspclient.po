@@ -4,13 +4,13 @@
 # This file is distributed under the same license as the kate package.
 #
 # Automatically generated, 2019.
-# pan93412 <pan93412@gmail.com>, 2019.
+# pan93412 <pan93412@gmail.com>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-05 02:38+0100\n"
-"PO-Revision-Date: 2019-12-22 21:03+0800\n"
+"PO-Revision-Date: 2020-01-05 15:43+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -26,27 +26,27 @@ msgstr ""
 #: lspclientpluginview.cpp:1792 ui.rc:6
 #, kde-format
 msgid "LSP Client"
-msgstr "LSP 客戶端"
+msgstr "LSP 用戶端"
 
 #: lspclientconfigpage.cpp:202
 #, kde-format
 msgid "No JSON data to validate."
-msgstr ""
+msgstr "沒有要驗證的 JSON 資料。"
 
 #: lspclientconfigpage.cpp:211
 #, kde-format
 msgid "JSON data is valid."
-msgstr ""
+msgstr "JSON 資料有效。"
 
 #: lspclientconfigpage.cpp:213
 #, kde-format
 msgid "JSON data is invalid: no JSON object"
-msgstr ""
+msgstr "JSON 資料無效：沒有 JSON 物件"
 
 #: lspclientconfigpage.cpp:216
 #, kde-format
 msgid "JSON data is invalid: %1"
-msgstr ""
+msgstr "JSON 資料無效：%1"
 
 #: lspclientpluginview.cpp:308
 #, kde-format
@@ -240,7 +240,7 @@ msgstr "新名稱（警告：不是所有參考都會被取代）"
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<b>LSP Client:</b> %1"
-msgstr "<b>LSP 客戶端：</b>%1"
+msgstr "<b>LSP 用戶端：</b>%1"
 
 #: lspclientservermanager.cpp:483
 #, kde-format
@@ -253,16 +253,16 @@ msgid "Failed to start server: %1"
 msgstr "無法啟動伺服器：%1"
 
 #: lspclientservermanager.cpp:616
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Failed to parse server configuration: %1"
 msgid "Failed to parse server configuration '%1': no JSON object"
-msgstr "無法解析伺服器設定：%1"
+msgstr "無法解析「%1」伺服器設定：沒有 JSON 物件"
 
 #: lspclientservermanager.cpp:619
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Failed to parse server configuration: %1"
 msgid "Failed to parse server configuration '%1': %2"
-msgstr "無法解析伺服器設定：%1"
+msgstr "無法解析「%1」伺服器設定：%2"
 
 #: lspclientservermanager.cpp:623
 #, kde-format
@@ -272,7 +272,7 @@ msgstr "無法讀取伺服器設定：%1"
 #: lspclientsymbolview.cpp:179
 #, kde-format
 msgid "LSP Client Symbol Outline"
-msgstr "LSP 客戶端符號外框"
+msgstr "LSP 用戶端符號外框"
 
 #: lspclientsymbolview.cpp:191
 #, kde-format
@@ -313,7 +313,7 @@ msgstr "此文件沒有 LSP 伺服器。"
 #: lspconfigwidget.ui:33
 #, kde-format
 msgid "Client Settings"
-msgstr ""
+msgstr "用戶端設定"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: lspconfigwidget.ui:41
@@ -373,19 +373,19 @@ msgstr "依字母排序符號"
 #: lspconfigwidget.ui:170
 #, kde-format
 msgid "User Server Settings"
-msgstr ""
+msgstr "使用者伺服器設定"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: lspconfigwidget.ui:178
 #, kde-format
 msgid "Settings File:"
-msgstr ""
+msgstr "設定檔："
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #: lspconfigwidget.ui:212
 #, kde-format
 msgid "Default Server Settings"
-msgstr ""
+msgstr "預設伺服器設定"
 
 #~ msgid "Server Configuration"
 #~ msgstr "伺服器設定"

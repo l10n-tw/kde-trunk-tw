@@ -3,20 +3,20 @@
 #
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2012, 2013, 2014, 2015.
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
-# pan93412 <pan93412@gmail.com>, 2018, 2019.
+# pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-05 03:42+0100\n"
-"PO-Revision-Date: 2019-12-12 19:05+0800\n"
+"PO-Revision-Date: 2020-01-05 15:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.11.90\n"
+"X-Generator: Lokalize 19.12.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: discover/DiscoverObject.cpp:175
@@ -548,30 +548,30 @@ msgstr "來自 %1 的註解"
 #: discover/qml/ReviewDelegate.qml:140
 #, kde-format
 msgid "Votes: %1 out of %2"
-msgstr ""
+msgstr "投票：%1 超過 %2"
 
 #: discover/qml/ReviewDelegate.qml:148
 #, kde-format
 msgid "Useful?"
-msgstr ""
+msgstr "有用嗎？"
 
 #: discover/qml/ReviewDelegate.qml:160
 #, kde-format
 msgctxt "Keep this string as short as humanly possible"
 msgid "Yes"
-msgstr ""
+msgstr "有用"
 
 #: discover/qml/ReviewDelegate.qml:176
 #, kde-format
 msgctxt "Keep this string as short as humanly possible"
 msgid "No"
-msgstr ""
+msgstr "沒用"
 
 #: discover/qml/ReviewDialog.qml:28
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Reviewing '%1'"
 msgid "Reviewing %1"
-msgstr "正在評論「%1」"
+msgstr "正在評論 %1"
 
 #: discover/qml/ReviewDialog.qml:37
 #, kde-format
@@ -579,10 +579,10 @@ msgid "Rating:"
 msgstr "評分："
 
 #: discover/qml/ReviewDialog.qml:41
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Name"
 msgid "Name:"
-msgstr "名稱"
+msgstr "名稱："
 
 #: discover/qml/ReviewDialog.qml:49
 #, kde-format
@@ -595,16 +595,16 @@ msgid "Enter a rating"
 msgstr "輸入一個評論"
 
 #: discover/qml/ReviewDialog.qml:69
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Write a title"
 msgid "Write the title"
-msgstr "撰寫一個標題"
+msgstr "撰寫標題"
 
 #: discover/qml/ReviewDialog.qml:70
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Write a review!"
 msgid "Write the review"
-msgstr "撰寫一個評論！"
+msgstr "撰寫評論"
 
 #: discover/qml/ReviewDialog.qml:71
 #, kde-format
@@ -622,16 +622,16 @@ msgid "Submit review"
 msgstr "提交評論"
 
 #: discover/qml/ReviewsPage.qml:68
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Write a review!"
 msgid "Write a Review..."
-msgstr "撰寫一個評論！"
+msgstr "撰寫評論…"
 
 #: discover/qml/ReviewsPage.qml:74
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Install this app to write a review!"
 msgid "Install this app to write a review"
-msgstr "安裝這個應用程式以撰寫評論吧！"
+msgstr "安裝這個應用程式來撰寫評論"
 
 #: discover/qml/SearchField.qml:41
 #, kde-format

@@ -1,12 +1,12 @@
 # translation of kig.po to Chinese Traditional
 # Copyright (C) 2003, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
 # Justin Fang <justin_fang@msn.com>, 2003.
 # Yonghui Tao <taoyh@msn.com>, 2004.
 # Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2010.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012, 2013, 2014, 2015.
 # Jeff Huang <s8321414@gmail.com>, 2016.
-# pan93412 <pan93412@gmail.com>, 2018.
-#
+# pan93412 <pan93412@gmail.com>, 2018, 2020.
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2008, 2009.
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
 msgid ""
@@ -14,14 +14,14 @@ msgstr ""
 "Project-Id-Version: kig\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-01 03:06+0100\n"
-"PO-Revision-Date: 2018-12-26 18:20+0800\n"
+"PO-Revision-Date: 2020-01-05 15:50+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 18.12.0\n"
+"X-Generator: Lokalize 19.12.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -612,8 +612,7 @@ msgstr "Maurizio Paolini"
 msgid ""
 "Did a lot of important work all around Kig, including, but not limited to "
 "conics, cubics, transformations and property tests support."
-msgstr ""
-"對 Kig 做了很多很重要的貢獻，包括圓錐、三次曲線、轉換、屬性測試等，還有更多。"
+msgstr "對 Kig 做了很多很重要的貢獻，包括圓錐、三次曲線、轉換、屬性測試等，還有更多。"
 
 #: kig/aboutdata.h:49
 #, kde-format
@@ -1292,8 +1291,7 @@ msgstr ""
 msgid ""
 "File to output the created native file to. '-' means output to stdout. "
 "Default is stdout as well."
-msgstr ""
-"要輸出的檔案名稱。\"-\" 表示輸出到標準輸出（stdout）。預設是使用標準輸出。"
+msgstr "要輸出的檔案名稱。\"-\" 表示輸出到標準輸出（stdout）。預設是使用標準輸出。"
 
 #: kig/main.cpp:95
 #, kde-format
@@ -2016,8 +2014,7 @@ msgstr ""
 msgid ""
 "Enter coordinates in the following format: <b>\"x;y\"</b>,<br />where x is "
 "the x coordinate, and y is the y coordinate."
-msgstr ""
-"請用以下格式輸入座標：<b>\"x,y\"</b>，這裡 x 是 x 軸座標，y 是 y 軸座標。"
+msgstr "請用以下格式輸入座標：<b>\"x,y\"</b>，這裡 x 是 x 軸座標，y 是 y 軸座標。"
 
 #: misc/coordinate_system.cpp:398
 #, kde-format
@@ -2482,8 +2479,7 @@ msgstr "一般投影轉換"
 msgid ""
 "The unique projective transformation that maps four points (or a "
 "quadrilateral) onto four other points (or a quadrilateral)"
-msgstr ""
-"利用某四點（或某四邊形）映射到其他四點（或其他四邊形）產生的唯一投影轉換"
+msgstr "利用某四點（或某四邊形）映射到其他四點（或其他四邊形）產生的唯一投影轉換"
 
 #: misc/special_constructors.cc:1624
 #, kde-format
@@ -2859,8 +2855,7 @@ msgid ""
 "Here you can edit the description of the current macro type. This field is "
 "optional, so you can also leave this empty: if you do so, then your macro "
 "type will have no description."
-msgstr ""
-"您可以在此編輯目前巨集型態的描述。這個欄位是選擇性的，表示您可以將它留白。"
+msgstr "您可以在此編輯目前巨集型態的描述。這個欄位是選擇性的，表示您可以將它留白。"
 
 #: modes/edittype.cc:67
 #, kde-format
@@ -6720,8 +6715,7 @@ msgstr "arg%1"
 msgid ""
 "The Python interpreter caught an error during the execution of your script. "
 "Please fix the script and click the Finish button again."
-msgstr ""
-"Python 直譯器在執行您的文稿時發生了錯誤。請修正文稿，再點選「完成」按鈕。"
+msgstr "Python 直譯器在執行您的文稿時發生了錯誤。請修正文稿，再點選「完成」按鈕。"
 
 #: scripting/script_mode.cc:202 scripting/script_mode.cc:344
 #, kde-format
@@ -6893,7 +6887,7 @@ msgstr ""
 
 #. i18n: ectx: @info:tipoftheday
 #: tips:79
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<p>Kig can extends its object set using external macros. You can find "
 #| "some\n"
@@ -6904,8 +6898,8 @@ msgid ""
 "interesting macros on the Kig website:\n"
 "<a href=\"https://edu.kde.org/kig\">https://edu.kde.org/kig</a>.</p>\n"
 msgstr ""
-"<p>Kig 可以使用外部巨集來延伸它的物件集。您可以在 Kig 網站 <a href=\"http://"
-"edu.kde.org/kig\">http://edu.kde.org/kig</a> 中找到一些有趣的巨集。</p>\n"
+"<p>Kig 可以使用外部巨集來延伸它的物件集。您可以在 Kig 網站 <a href=\"https://"
+"edu.kde.org/kig\">https://edu.kde.org/kig</a> 中找到一些有趣的巨集。</p>\n"
 
 #. i18n: ectx: @info:tipoftheday
 #: tips:87

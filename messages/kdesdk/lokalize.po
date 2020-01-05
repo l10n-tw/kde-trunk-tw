@@ -7,7 +7,7 @@
 # Frank Weng (a.k.a. Franklin) <franklin@goodhorse.idv.tw>, 2009.
 # Alisha <alisha.4m@gmail.com>, 2012.
 # Jeff Huang <s8321414@gmail.com>, 2016.
-# pan93412 <pan93412@gmail.com>, 2018, 2019.
+# pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: lokalize\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-02 03:08+0100\n"
-"PO-Revision-Date: 2019-12-29 16:43+0800\n"
+"PO-Revision-Date: 2020-01-05 15:48+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -365,8 +365,7 @@ msgctxt "XLIFF mark type"
 msgid ""
 "abbreviated form: a term resulting from the omission of any part of the full "
 "term while designating the same concept"
-msgstr ""
-"縮寫型（abbreviated form）：將名詞省略，只留下部份字母，但仍指同一個意思"
+msgstr "縮寫型（abbreviated form）：將名詞省略，只留下部份字母，但仍指同一個意思"
 
 #: src/catalog/catalogstring.cpp:135
 #, kde-format
@@ -475,8 +474,7 @@ msgctxt "XLIFF mark type"
 msgid ""
 "international scientific term: a term that is part of an international "
 "scientific nomenclature as adopted by an appropriate scientific body"
-msgstr ""
-"國際科學名詞（international scientific term）：國際科學術語命名表中的名詞"
+msgstr "國際科學名詞（international scientific term）：國際科學術語命名表中的名詞"
 
 #: src/catalog/catalogstring.cpp:147
 #, kde-format
@@ -2168,12 +2166,12 @@ msgid "Open project..."
 msgstr "開啟專案..."
 
 #: src/lokalizemainwindow.cpp:552
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Open project"
 msgctxt "@action:inmenu"
 msgid "Close project"
-msgstr "開啟專案"
+msgstr "關閉專案"
 
 #: src/lokalizemainwindow.cpp:555
 #, kde-format
@@ -2874,8 +2872,7 @@ msgstr "開始編輯時自動設成「已確認」狀態"
 #, kde-format
 msgid ""
 "If set, mouse wheel goes to previous or next unit, otherwise it scrolls text"
-msgstr ""
-"若設定此選項，您可以用滑鼠滾輪來進到上一個或下一個翻譯單位，不然就只捲軸文字"
+msgstr "若設定此選項，您可以用滑鼠滾輪來進到上一個或下一個翻譯單位，不然就只捲軸文字"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_MouseWheelGo)
 #: src/prefs/prefs_editor.ui:55
@@ -4201,8 +4198,7 @@ msgstr "從翻譯記憶體移除此遺失檔案"
 msgid ""
 "<html>Do you really want to remove this missing file:<br/><i>%1</i><br/>from "
 "translation memory %2?</html>"
-msgstr ""
-"<html>您確定要從翻譯記憶體 %2 中移除此遺失檔案：<br/><i>%1</i>嗎？</html>"
+msgstr "<html>您確定要從翻譯記憶體 %2 中移除此遺失檔案：<br/><i>%1</i>嗎？</html>"
 
 #: src/tm/tmview.cpp:625
 #, kde-format
