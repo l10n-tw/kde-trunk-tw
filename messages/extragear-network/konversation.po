@@ -932,7 +932,7 @@ msgid ""
 "able to see what they are saying, but they will not be able to read what you "
 "are saying."
 msgstr ""
-"電子編碼書（Electronic Codebook，ECB）模式已被許多加密客戶端程式，如 FiSH 與 "
+"電子編碼書（Electronic Codebook，ECB）模式已被許多加密用戶端程式，如 FiSH 與 "
 "Mircryption 等支援，但是通常來說它的安全性不是那麼可靠。\n"
 "\n"
 "密文區塊鍊（Cipher Block Chaining，CBC）模式尚未被 FiSH 支援，但是 "
@@ -1069,7 +1069,7 @@ msgstr "自動續傳(&T)"
 #: src/config/dcc_configui.ui:88
 #, kde-format
 msgid "Enable fast DCC send (Might &not work with all clients)"
-msgstr "啟用快速 DCC 傳送(不是所有客戶端都能正常工作)(&N)"
+msgstr "啟用快速 DCC 傳送(不是所有用戶端都能正常工作)(&N)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DccPassiveSend)
 #: src/config/dcc_configui.ui:95
@@ -2736,7 +2736,7 @@ msgstr "Socket 發生錯誤：%1"
 #: src/dcc/chat.cpp:553
 #, kde-format
 msgid "Could not accept the client."
-msgstr "無法接收客戶端。"
+msgstr "無法接收用戶端。"
 
 #: src/dcc/chat.cpp:577
 #, kde-format
@@ -3742,7 +3742,7 @@ msgstr "外部 SASL (Cert)"
 #: src/identitydialog.cpp:95
 #, kde-format
 msgid "SSL Client Certificate"
-msgstr "SSL 客戶端憑證"
+msgstr "SSL 用戶端憑證"
 
 #: src/identitydialog.cpp:101
 #, kde-format
@@ -4963,7 +4963,7 @@ msgstr "只有頻道管理員可以變更話題。%1"
 #: src/irc/channel.cpp:2228
 #, kde-format
 msgid "No messages to channel from clients on the outside.  %1"
-msgstr "不接受外部客戶端到頻道的訊息。%1"
+msgstr "不接受外部用戶端到頻道的訊息。%1"
 
 #: src/irc/channel.cpp:2229
 #, kde-format
@@ -7346,7 +7346,7 @@ msgstr "Konversation"
 #: src/main.cpp:53
 #, kde-format
 msgid "A user-friendly IRC client"
-msgstr "一種使用者介面十分友善 IRC 客戶端程式"
+msgstr "一種使用者介面十分友善 IRC 用戶端程式"
 
 #: src/main.cpp:55
 #, kde-format
@@ -9192,7 +9192,7 @@ msgid ""
 msgstr ""
 "<qt>這裏提供預覽的是當您選擇了這些顏色後，您的訊息的讀者會看到的文字的模樣。"
 "<br/>\n"
-"<b>注意：並非所有客戶端都支援這種功能，而且使用者還可以選擇忽略您的顏色變動。"
+"<b>注意：並非所有用戶端都支援這種功能，而且使用者還可以選擇忽略您的顏色變動。"
 "</b>\n"
 "</qt>"
 
@@ -9260,7 +9260,7 @@ msgstr ""
 "任何在這之後寫入的文字都會帶有相對的顏色，直到您再次變更顏色設定。<br/>\n"
 "選擇預設的「<i>無</i>」不會變更您訊息的背景色，因此讀者看到的您的訊息文字背景"
 "色會是普通的樣式。<br/>\n"
-"<b>注意：並非所有客戶端都支援這種功能，同時也不是所有使用者都會開啟可觀覽彩色"
+"<b>注意：並非所有用戶端都支援這種功能，同時也不是所有使用者都會開啟可觀覽彩色"
 "文字的選項。</b></qt>"
 
 #: src/viewer/irccontextmenus.cpp:154
@@ -9774,7 +9774,7 @@ msgstr ""
 #: src/viewer/trayicon.cpp:24
 #, kde-format
 msgid "Konversation - IRC Client"
-msgstr "Konversation - IRC 客戶端"
+msgstr "Konversation - IRC 用戶端"
 
 #: src/viewer/viewcontainer.cpp:878
 #, kde-format
@@ -9846,7 +9846,7 @@ msgid ""
 "connection is not fast enough, it is possible that your client will be "
 "disconnected by the server."
 msgstr ""
-"使用這項功能可能導致大量的網路流量。如果您的網路連線不夠迅速，您的客戶端連線"
+"使用這項功能可能導致大量的網路流量。如果您的網路連線不夠迅速，您的用戶端連線"
 "有可能被伺服器插斷。"
 
 #: src/viewer/viewcontainer.cpp:2979

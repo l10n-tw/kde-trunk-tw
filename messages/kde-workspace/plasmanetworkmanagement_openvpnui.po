@@ -73,7 +73,7 @@ msgstr "選項裡不合法的參數：%1"
 #: openvpn.cpp:602
 #, kde-format
 msgid "File %1 is not a valid OpenVPN's client configuration file"
-msgstr "檔案 %1 不是合法的 OpenVPN 客戶端設定檔"
+msgstr "檔案 %1 不是合法的 OpenVPN 用戶端設定檔"
 
 #: openvpn.cpp:606
 #, kde-format
@@ -623,7 +623,7 @@ msgstr ""
 "可以讓 OpenVPN 工作階段初始連線到已知位置的點，\n"
 "然而，若從新位置來的封包抵達，並傳遞所有憑證測試，\n"
 "新位置將會控制該工作階段。這在您連線到有動態位置\n"
-"的遠端，如撥號使用者或是 DHCP 客戶端時很有用。\n"
+"的遠端，如撥號使用者或是 DHCP 用戶端時很有用。\n"
 "\n"
 "\n"
 "基本上，--float 告訴 OpenVPN 從任何位置接受已驗證的封包，\n"
@@ -892,7 +892,7 @@ msgstr "伺服器"
 #: openvpnadvanced.ui:781 openvpnadvanced.ui:828
 #, kde-format
 msgid "Client"
-msgstr "客戶端"
+msgstr "用戶端"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkNsCertType)
 #. i18n: ectx: property (toolTip), widget (QLabel, lblNsCertType)
@@ -979,7 +979,7 @@ msgstr "伺服器 (0)"
 #: openvpnadvanced.ui:940
 #, kde-format
 msgid "Client (1)"
-msgstr "客戶端 (1)"
+msgstr "用戶端 (1)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, proxyTab)
 #: openvpnadvanced.ui:965
