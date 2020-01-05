@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-browser-integration\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-04 03:36+0200\n"
+"POT-Creation-Date: 2020-01-05 03:44+0100\n"
 "PO-Revision-Date: 2019-03-31 20:55+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -19,89 +19,89 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.03.80\n"
 
-#: downloadjob.cpp:191
+#: downloadjob.cpp:193
 #, kde-format
 msgid "Access denied."
 msgstr "存取被拒。"
 
-#: downloadjob.cpp:192
+#: downloadjob.cpp:194
 #, kde-format
 msgid "Insufficient free space."
 msgstr "剩餘空間不足。"
 
-#: downloadjob.cpp:193
+#: downloadjob.cpp:195
 #, kde-format
 msgid "The file name you have chosen is too long."
 msgstr "您所取的檔名過長。"
 
-#: downloadjob.cpp:194
+#: downloadjob.cpp:196
 #, kde-format
 msgid "The file is too large to be downloaded."
 msgstr "檔案過大導致無法下載。"
 
-#: downloadjob.cpp:196
+#: downloadjob.cpp:198
 #, kde-format
 msgid "The file possibly contains malicious contents."
 msgstr "檔案可能包含惡意內容。"
 
-#: downloadjob.cpp:197
+#: downloadjob.cpp:199
 #, kde-format
 msgid "A temporary error has occurred. Please try again later."
 msgstr "發生暫時性錯誤。請稍候重試。"
 
-#: downloadjob.cpp:199
+#: downloadjob.cpp:201
 #, kde-format
 msgid "A network error has occurred."
 msgstr "發生網路錯誤。"
 
-#: downloadjob.cpp:200
+#: downloadjob.cpp:202
 #, kde-format
 msgid "The network operation timed out."
 msgstr "網路操作逾時。"
 
-#: downloadjob.cpp:201
+#: downloadjob.cpp:203
 #, kde-format
 msgid "The network connection has been lost."
 msgstr "網路連線中斷。"
 
-#: downloadjob.cpp:202
+#: downloadjob.cpp:204
 #, kde-format
 msgid "The server is no longer reachable."
 msgstr "伺服器無法再被存取。"
 
-#: downloadjob.cpp:204
+#: downloadjob.cpp:206
 #, kde-format
 msgid "A server error has occurred."
 msgstr "發生伺服器錯誤。"
 
-#: downloadjob.cpp:208
+#: downloadjob.cpp:210
 #, kde-format
 msgid "The server does not have the requested data."
 msgstr "伺服器沒有請求的資料。"
 
-#: downloadjob.cpp:210
+#: downloadjob.cpp:212
 #, kde-format
 msgid "The browser application closed unexpectedly."
 msgstr "瀏覽器應用程式意外關閉。"
 
-#: downloadjob.cpp:217
+#: downloadjob.cpp:219
 #, kde-format
 msgid "An unknown error occurred while downloading."
 msgstr "下載時發生未知錯誤。"
 
-#: downloadjob.cpp:251
+#: downloadjob.cpp:256
 #, kde-format
 msgctxt "Job heading, like 'Copying'"
 msgid "Downloading"
 msgstr "下載中"
 
-#: downloadjob.cpp:252
+#: downloadjob.cpp:257
 #, kde-format
 msgctxt "The URL being downloaded"
 msgid "Source"
 msgstr "來源"
 
-#: downloadjob.cpp:253
+#: downloadjob.cpp:258
 #, kde-format
 msgctxt "The location being downloaded to"
 msgid "Destination"

@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-04 02:48+0100\n"
+"POT-Creation-Date: 2020-01-05 02:43+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -3703,7 +3703,7 @@ msgstr "單位"
 #: core/dplugins/generic/webservices/imgur/imgurimageslist.cpp:58
 #: core/dplugins/generic/webservices/ipfs/ipfsimageslist.cpp:53
 #: core/libs/dplugins/widgets/ditemslist.cpp:289
-#: core/libs/dtrash/dtrashitemmodel.cpp:240
+#: core/libs/dtrash/dtrashitemmodel.cpp:253
 #: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:533
 #: core/utilities/queuemanager/views/queuelist.cpp:313
 #, kde-format
@@ -23228,43 +23228,43 @@ msgstr ""
 "<p><b>發生資料庫錯誤。</b></p>詳細資訊：\n"
 " %1"
 
-#: core/libs/database/history/itemhistorygraphmodel.cpp:416
+#: core/libs/database/history/itemhistorygraphmodel.cpp:423
 #, kde-format
 msgctxt "@title"
 msgid "Source Images"
 msgstr "來源影像"
 
-#: core/libs/database/history/itemhistorygraphmodel.cpp:445
+#: core/libs/database/history/itemhistorygraphmodel.cpp:452
 #, kde-format
 msgctxt "@title"
 msgid "Image History"
 msgstr "影像歷史紀錄"
 
-#: core/libs/database/history/itemhistorygraphmodel.cpp:517
+#: core/libs/database/history/itemhistorygraphmodel.cpp:526
 #, kde-format
 msgctxt "@title"
 msgid "Derived Images"
 msgstr "衍生影像"
 
-#: core/libs/database/history/itemhistorygraphmodel.cpp:527
+#: core/libs/database/history/itemhistorygraphmodel.cpp:536
 #, kde-format
 msgctxt "@title"
 msgid "Related Images"
 msgstr "相關影像"
 
-#: core/libs/database/history/itemhistorygraphmodel.cpp:534
+#: core/libs/database/history/itemhistorygraphmodel.cpp:543
 #, kde-format
 msgctxt "@title"
 msgid "Identical Images"
 msgstr "完全相同的影像"
 
-#: core/libs/database/history/itemhistorygraphmodel.cpp:587
+#: core/libs/database/history/itemhistorygraphmodel.cpp:596
 #, kde-format
 msgctxt "@title"
 msgid "Intermediate Steps:"
 msgstr "中介步驟："
 
-#: core/libs/database/history/itemhistorygraphmodel.cpp:790
+#: core/libs/database/history/itemhistorygraphmodel.cpp:805
 #, fuzzy, kde-format
 msgctxt "@item filename"
 msgid ""
@@ -23272,7 +23272,7 @@ msgid ""
 "(Original Image)"
 msgstr "%1<nl/>（原始影像）"
 
-#: core/libs/database/history/itemhistorygraphmodel.cpp:795
+#: core/libs/database/history/itemhistorygraphmodel.cpp:810
 #, fuzzy, kde-format
 #| msgctxt "@title"
 #| msgid "Source Images"
@@ -23293,7 +23293,7 @@ msgstr "RAW 影像檔案 (%1)"
 msgid "No image selected"
 msgstr "沒有選擇影像"
 
-#: core/libs/database/models/itemversionsmodel.cpp:125
+#: core/libs/database/models/itemversionsmodel.cpp:126
 #, kde-format
 msgid "This is the original image"
 msgstr "這是原始影像"
@@ -23323,7 +23323,7 @@ msgstr "在伺服器組態設定裡沒有 mysqld 設定的路徑。"
 msgid "Cannot create directory %1"
 msgstr "建立目錄失敗。"
 
-#: core/libs/database/server/databaseserver.cpp:382
+#: core/libs/database/server/databaseserver.cpp:381
 #, fuzzy, kde-format
 #| msgid ""
 #| "Unable to create MySQL server configuration file.\n"
@@ -23339,29 +23339,29 @@ msgstr ""
 "這表示無法讀取預設的組態設定檔 (mysql-global.conf) 或者目標檔案 (mysql.conf) "
 "無法寫入。"
 
-#: core/libs/database/server/databaseserver.cpp:403
+#: core/libs/database/server/databaseserver.cpp:402
 #, fuzzy, kde-format
 #| msgid "Did not find MySQL server default configuration (mysql-global.conf)."
 msgid "Cannot find MySQL server default configuration (mysql-global.conf)."
 msgstr "找不到 MySQL 伺服器預設的組態設定 (mysql-global.conf)。"
 
-#: core/libs/database/server/databaseserver.cpp:471
+#: core/libs/database/server/databaseserver.cpp:470
 #, fuzzy, kde-format
 #| msgid "Could not start database server."
 msgid "Could not start database initializer."
 msgstr "無法啟動資料庫伺服器。"
 
-#: core/libs/database/server/databaseserver.cpp:508
+#: core/libs/database/server/databaseserver.cpp:507
 #, kde-format
 msgid "Could not start database server."
 msgstr "無法啟動資料庫伺服器。"
 
-#: core/libs/database/server/databaseserver.cpp:545
+#: core/libs/database/server/databaseserver.cpp:544
 #, kde-format
 msgid "Invalid database object during database server startup"
 msgstr ""
 
-#: core/libs/database/server/databaseserver.cpp:576
+#: core/libs/database/server/databaseserver.cpp:575
 #, fuzzy, kde-format
 #| msgid ""
 #| "Database process exited unexpectedly during initial connection."
@@ -23370,18 +23370,18 @@ msgid "Database process exited unexpectedly during initial connection."
 msgstr ""
 "資料庫處理在初始化校正期間意外地停止。<p>可執行檔：%1</p>”<p>處理錯誤：%2</p>"
 
-#: core/libs/database/server/databaseserver.cpp:582
+#: core/libs/database/server/databaseserver.cpp:581
 #, kde-format
 msgid "Could not connect to Database after trying for 60 seconds."
 msgstr ""
 
-#: core/libs/database/server/databaseserver.cpp:613
+#: core/libs/database/server/databaseserver.cpp:612
 #, kde-format
 msgid ""
 "Failed to create database<p>Query error: %1</p><p>Database error: %2</p>"
 msgstr "建立資料庫失敗<p>查詢錯誤：%1</p><p>資料庫錯誤：%2</p>"
 
-#: core/libs/database/server/databaseserver.cpp:661
+#: core/libs/database/server/databaseserver.cpp:660
 #, fuzzy, kde-format
 #| msgid ""
 #| "Database process exited unexpectedly during initial connection."
@@ -23417,20 +23417,20 @@ msgstr ""
 "要。(這表示這個 digiKam 版本太舊，或者資料庫不是最新的格式) 請使用 digikam 較"
 "新的版本。"
 
-#: core/libs/database/tags/facetags.cpp:377
+#: core/libs/database/tags/facetags.cpp:393
 #: core/utilities/facemanagement/widgets/facescanwidget.cpp:285
 #, kde-format
 msgctxt "People on your photos"
 msgid "People"
 msgstr "人物"
 
-#: core/libs/database/tags/facetags.cpp:421
+#: core/libs/database/tags/facetags.cpp:441
 #, kde-format
 msgctxt "The list of detected faces from the collections but not recognized"
 msgid "Unknown"
 msgstr "未知"
 
-#: core/libs/database/tags/facetags.cpp:441
+#: core/libs/database/tags/facetags.cpp:461
 #, fuzzy, kde-format
 #| msgid "Confirm"
 msgctxt "The list of recognized faces from the collections but not confirmed"
@@ -28425,12 +28425,12 @@ msgid ""
 "the largest files, without losing quality. Image is not compressed.</p>"
 msgstr ""
 
-#: core/libs/dtrash/dtrashitemmodel.cpp:242
+#: core/libs/dtrash/dtrashitemmodel.cpp:256
 #, fuzzy, kde-format
 msgid "Relative Path"
 msgstr "裝飾鑲木"
 
-#: core/libs/dtrash/dtrashitemmodel.cpp:244
+#: core/libs/dtrash/dtrashitemmodel.cpp:259
 #, fuzzy, kde-format
 msgid "Deletion Time"
 msgstr "建立時間"

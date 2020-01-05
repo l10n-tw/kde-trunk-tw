@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-04 03:35+0100\n"
+"POT-Creation-Date: 2020-01-05 03:30+0100\n"
 "PO-Revision-Date: 2018-05-19 11:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -5766,85 +5766,85 @@ msgctxt "@title:column"
 msgid "Calendars"
 msgstr "行事曆"
 
-#: resources/resourcedatamodelbase.cpp:446
+#: resources/resourcedatamodelbase.cpp:459
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Command execution failed"
 msgstr "指令執行失敗"
 
-#: resources/resourcedatamodelbase.cpp:448
+#: resources/resourcedatamodelbase.cpp:461
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Pre-alarm action execution failed"
 msgstr "鬧鐘響鈴前動作失敗"
 
-#: resources/resourcedatamodelbase.cpp:450
+#: resources/resourcedatamodelbase.cpp:463
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Post-alarm action execution failed"
 msgstr "鬧鐘響鈴後動作失敗"
 
-#: resources/resourcedatamodelbase.cpp:452
+#: resources/resourcedatamodelbase.cpp:465
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Pre- and post-alarm action execution failed"
 msgstr "鬧鐘響鈴前與響鈴後動作失敗"
 
-#: resources/resourcedatamodelbase.cpp:482 resourceselector.cpp:529
+#: resources/resourcedatamodelbase.cpp:495 resourceselector.cpp:529
 #, kde-format
 msgctxt "@info"
 msgid "Disabled"
 msgstr "已關閉"
 
-#: resources/resourcedatamodelbase.cpp:485
+#: resources/resourcedatamodelbase.cpp:498
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "%1<nl/>%2: <filename>%3</filename><nl/>%4, %5"
 msgstr "%1<nl/>%2：<filename>%3</filename><nl/>%4，%5"
 
-#: resources/resourcedatamodelbase.cpp:491
+#: resources/resourcedatamodelbase.cpp:504
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "%1<nl/>%2: <filename>%3</filename><nl/>%4"
 msgstr "%1<nl/>%2：<filename>%3</filename><nl/>%4"
 
-#: resources/resourcedatamodelbase.cpp:496
+#: resources/resourcedatamodelbase.cpp:509
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "%1<nl/>%2: <filename>%3</filename>"
 msgstr "%1<nl/>%2：<filename>%3</filename>"
 
-#: resources/resourcedatamodelbase.cpp:557
+#: resources/resourcedatamodelbase.cpp:570
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Next scheduled date and time of the alarm"
 msgstr "鬧鐘下一次響鈴日期與時間"
 
-#: resources/resourcedatamodelbase.cpp:559
+#: resources/resourcedatamodelbase.cpp:572
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "How long until the next scheduled trigger of the alarm"
 msgstr "到下一次鬧鐘響鈴有多久"
 
-#: resources/resourcedatamodelbase.cpp:561
+#: resources/resourcedatamodelbase.cpp:574
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "How often the alarm recurs"
 msgstr "鬧鐘多久重覆響一次"
 
-#: resources/resourcedatamodelbase.cpp:563
+#: resources/resourcedatamodelbase.cpp:576
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Background color of alarm message"
 msgstr "鬧鐘訊息的背景顏色"
 
-#: resources/resourcedatamodelbase.cpp:565
+#: resources/resourcedatamodelbase.cpp:578
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Alarm type (message, file, command or email)"
 msgstr "鬧鐘型態（訊息，檔案，命令或電子郵件）"
 
-#: resources/resourcedatamodelbase.cpp:567
+#: resources/resourcedatamodelbase.cpp:580
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5852,19 +5852,19 @@ msgid ""
 "email subject line"
 msgstr "鬧鐘訊息文字，或要顯示的網址，或要執行的指令，或要送出電子郵件的標題。"
 
-#: resources/resourcedatamodelbase.cpp:569
+#: resources/resourcedatamodelbase.cpp:582
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Name of the alarm template"
 msgstr "鬧鐘樣本的名稱"
 
-#: resources/resourcemodel.cpp:345
+#: resources/resourcemodel.cpp:341
 #, kde-format
 msgctxt "@info"
 msgid "You cannot disable your default active alarm calendar."
 msgstr "您無法關閉作用中的預設鬧鐘行事曆。"
 
-#: resources/resourcemodel.cpp:351
+#: resources/resourcemodel.cpp:347
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -5872,7 +5872,7 @@ msgid ""
 "are configured to be kept."
 msgstr "您無法關閉您預設的歸檔鬧鐘行事曆，因為您設定將逾時的鬧鐘保留住。"
 
-#: resources/resourcemodel.cpp:355
+#: resources/resourcemodel.cpp:351
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to disable your default calendar?"
