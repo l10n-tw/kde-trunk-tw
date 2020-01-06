@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-11 02:55+0100\n"
+"POT-Creation-Date: 2020-01-06 03:08+0100\n"
 "PO-Revision-Date: 2019-12-20 02:12+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -28,13 +28,17 @@ msgstr ""
 "X-Generator: Lokalize 19.12.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: kaboutapplicationdialog.cpp:70 kaboutplugindialog.cpp:75 khelpmenu.cpp:280
-#, kde-format
+#: kaboutapplicationdialog.cpp:70 kaboutplugindialog.cpp:75
+#, fuzzy, kde-format
+#| msgid "About %1"
+msgctxt "@title:window"
 msgid "About %1"
 msgstr "關於 %1"
 
 #: kaboutapplicationdialog.cpp:102 kaboutplugindialog.cpp:92
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "About"
+msgctxt "@title:tab"
 msgid "About"
 msgstr "關於"
 
@@ -48,24 +52,32 @@ msgstr ""
 "統</li></ul>"
 
 #: kaboutapplicationdialog.cpp:119
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Libraries"
+msgctxt "@title:tab"
 msgid "Libraries"
 msgstr "函式庫"
 
 #: kaboutapplicationdialog.cpp:129 kaboutplugindialog.cpp:103
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Author"
+#| msgid_plural "Authors"
+msgctxt "@title:tab"
 msgid "Author"
 msgid_plural "Authors"
 msgstr[0] "作者"
 
 #: kaboutapplicationdialog.cpp:136 kaboutplugindialog.cpp:110
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Thanks To"
+msgctxt "@title:tab"
 msgid "Thanks To"
 msgstr "感謝"
 
 #: kaboutapplicationdialog.cpp:143 kaboutplugindialog.cpp:116
-#: kbugreport.cpp:251
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Translation"
+msgctxt "@title:tab"
 msgid "Translation"
 msgstr "翻譯"
 
@@ -81,8 +93,12 @@ msgid "Visit contributor's homepage"
 msgstr "造訪貢獻者的首頁"
 
 #: kaboutapplicationpersonlistdelegate_p.cpp:128
-#, kde-format
-msgctxt "Action to send an email to a contributor"
+#, fuzzy, kde-format
+#| msgctxt "Action to send an email to a contributor"
+#| msgid ""
+#| "Email contributor\n"
+#| "%1"
+msgctxt "@info:tooltip Action to send an email to a contributor"
 msgid ""
 "Email contributor\n"
 "%1"
@@ -92,7 +108,11 @@ msgstr ""
 
 #: kaboutapplicationpersonlistdelegate_p.cpp:134
 #: kaboutapplicationpersonlistdelegate_p.cpp:171
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Visit contributor's homepage\n"
+#| "%1"
+msgctxt "@info:tooltip"
 msgid ""
 "Visit contributor's homepage\n"
 "%1"
@@ -102,7 +122,11 @@ msgstr ""
 
 #: kaboutapplicationpersonlistdelegate_p.cpp:141
 #: kaboutapplicationpersonlistdelegate_p.cpp:174
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Visit contributor's profile on %1\n"
+#| "%2"
+msgctxt "@info:tooltip"
 msgid ""
 "Visit contributor's profile on %1\n"
 "%2"
@@ -111,7 +135,11 @@ msgstr ""
 "%2"
 
 #: kaboutapplicationpersonlistdelegate_p.cpp:165
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Visit contributor's page\n"
+#| "%1"
+msgctxt "@info:tooltip"
 msgid ""
 "Visit contributor's page\n"
 "%1"
@@ -120,7 +148,11 @@ msgstr ""
 "%1"
 
 #: kaboutapplicationpersonlistdelegate_p.cpp:168
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Visit contributor's blog\n"
+#| "%1"
+msgctxt "@info:tooltip"
 msgid ""
 "Visit contributor's blog\n"
 "%1"
@@ -159,7 +191,9 @@ msgid "Homepage"
 msgstr "首頁"
 
 #: kaboutkdedialog_p.cpp:43
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "About KDE"
+msgctxt "@title:window"
 msgid "About KDE"
 msgstr "關於 KDE"
 
@@ -249,23 +283,31 @@ msgstr ""
 "徑來捐獻。<br /><br />我們非常感謝您對 KDE 的支持。</html>"
 
 #: kaboutkdedialog_p.cpp:135
-#, kde-format
-msgctxt "About KDE"
+#, fuzzy, kde-format
+#| msgctxt "About KDE"
+#| msgid "&About"
+msgctxt "@title:tab About KDE"
 msgid "&About"
 msgstr "關於 KDE(&A)"
 
 #: kaboutkdedialog_p.cpp:136
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Report Bugs or Wishes"
+msgctxt "@title:tab"
 msgid "&Report Bugs or Wishes"
 msgstr "報告問題或期望(&R)"
 
 #: kaboutkdedialog_p.cpp:137
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Join KDE"
+msgctxt "@title:tab"
 msgid "&Join KDE"
 msgstr "加入 KDE(&J)"
 
 #: kaboutkdedialog_p.cpp:138
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Support KDE"
+msgctxt "@title:tab"
 msgid "&Support KDE"
 msgstr "支援 KDE(&S)"
 
@@ -303,11 +345,20 @@ msgstr ""
 "將不會觸發任何動作。"
 
 #: kactionconflictdetector.cpp:54
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Ambiguous shortcut detected"
+msgctxt "@title:window"
 msgid "Ambiguous shortcut detected"
 msgstr "偵測到不明的捷徑"
 
-#: kbugreport.cpp:106 kbugreport.cpp:135
+#: kbugreport.cpp:106
+#, fuzzy, kde-format
+#| msgid "Submit Bug Report"
+msgctxt "@title:window"
+msgid "Submit Bug Report"
+msgstr "提交問題報告"
+
+#: kbugreport.cpp:135
 #, kde-format
 msgid "Submit Bug Report"
 msgstr "提交問題報告"
@@ -325,33 +376,41 @@ msgid "From:"
 msgstr "寄件者："
 
 #: kbugreport.cpp:155
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure Email..."
+msgctxt "@action:button"
 msgid "Configure Email..."
 msgstr "設定 Email..."
 
-#: kbugreport.cpp:162
+#: kbugreport.cpp:161
 #, kde-format
 msgid "The email address this bug report is sent to."
 msgstr "本問題回覆是寄往此 email 地址"
 
-#: kbugreport.cpp:163
+#: kbugreport.cpp:162
 #, kde-format
 msgctxt "Email receiver address"
 msgid "To:"
 msgstr "收件者："
 
-#: kbugreport.cpp:172
-#, kde-format
+#: kbugreport.cpp:171
+#, fuzzy, kde-format
+#| msgid "&Send"
+msgctxt "@action:button"
 msgid "&Send"
 msgstr "送出(&S)"
 
 #: kbugreport.cpp:172
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Send bug report."
+msgctxt "@info:tooltip"
 msgid "Send bug report."
 msgstr "送出問題報告。"
 
 #: kbugreport.cpp:173
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Send this bug report to %1."
+msgctxt "@info:whatsthis"
 msgid "Send this bug report to %1."
 msgstr "送出這個問題報告到 %1 問題清單。"
 
@@ -397,30 +456,47 @@ msgid "Compiler:"
 msgstr "編譯器："
 
 #: kbugreport.cpp:243
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Se&verity"
+msgctxt "@title:group"
 msgid "Se&verity"
 msgstr "嚴重程度(&V)"
 
 #: kbugreport.cpp:247
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Critical"
+msgctxt "bug severity"
 msgid "Critical"
 msgstr "危險的"
 
 #: kbugreport.cpp:248
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Grave"
+msgctxt "bug severity"
 msgid "Grave"
 msgstr "嚴重的"
 
 #: kbugreport.cpp:249
-#, kde-format
-msgctxt "normal severity"
+#, fuzzy, kde-format
+#| msgctxt "normal severity"
+#| msgid "Normal"
+msgctxt "bug severity"
 msgid "Normal"
 msgstr "普通的"
 
 #: kbugreport.cpp:250
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Wishlist"
+msgctxt "bug severity"
 msgid "Wishlist"
 msgstr "希望清單"
+
+#: kbugreport.cpp:251
+#, fuzzy, kde-format
+#| msgid "Translation"
+msgctxt "bug severity"
+msgid "Translation"
+msgstr "翻譯"
 
 #: kbugreport.cpp:269
 #, kde-format
@@ -460,12 +536,16 @@ msgstr ""
 "網頁瀏覽器視窗。</qt>"
 
 #: kbugreport.cpp:321
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Launch Bug Report Wizard"
+msgctxt "@action:button"
 msgid "&Launch Bug Report Wizard"
 msgstr "執行錯誤報告精靈(&L)"
 
 #: kbugreport.cpp:323
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Submit Bug Report"
+msgctxt "@action:button"
 msgid "&Submit Bug Report"
 msgstr "提交問題報告(&S)"
 
@@ -542,7 +622,9 @@ msgstr ""
 "已編輯的訊息？"
 
 #: kbugreport.cpp:499
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Close Message"
+msgctxt "@title:window"
 msgid "Close Message"
 msgstr "關閉訊息"
 
@@ -594,7 +676,9 @@ msgid "--- expanding spacer ---"
 msgstr "--- 展開間隔 ---"
 
 #: kedittoolbar.cpp:347
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Change Text"
+msgctxt "@title:window"
 msgid "Change Text"
 msgstr "改變文字"
 
@@ -604,12 +688,16 @@ msgid "Icon te&xt:"
 msgstr "圖示文字(&X):"
 
 #: kedittoolbar.cpp:363
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Hide text when toolbar shows text alongside icons"
+msgctxt "@option:check"
 msgid "&Hide text when toolbar shows text alongside icons"
 msgstr "工具列在圖示旁顯示文字時隱藏文字(&H)"
 
 #: kedittoolbar.cpp:616
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure Toolbars"
+msgctxt "@title:window"
 msgid "Configure Toolbars"
 msgstr "設定工具列"
 
@@ -658,12 +746,16 @@ msgid "Curr&ent actions:"
 msgstr "目前的動作(&E)："
 
 #: kedittoolbar.cpp:1062
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Change &Icon..."
+msgctxt "@action:button"
 msgid "Change &Icon..."
 msgstr "變更圖示(&I)..."
 
 #: kedittoolbar.cpp:1070
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Change Te&xt..."
+msgctxt "@action:button"
 msgid "Change Te&xt..."
 msgstr "改變文字(&X)..."
 
@@ -720,6 +812,11 @@ msgstr "變更圖示"
 msgid "&Help"
 msgstr "說明(&H)"
 
+#: khelpmenu.cpp:280
+#, kde-format
+msgid "About %1"
+msgstr "關於 %1"
+
 #: kkeysequencewidget.cpp:129
 #, kde-format
 msgid "Shortcut '%1' in Application %2 for action %3\n"
@@ -744,7 +841,9 @@ msgstr[0] "與系統的全域快捷鍵定義衝突"
 
 #: kkeysequencewidget.cpp:147 kkeysequencewidget.cpp:235
 #: kkeysequencewidget.cpp:626
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Reassign"
+msgctxt "@action:button"
 msgid "Reassign"
 msgstr "重新指定"
 
@@ -777,7 +876,9 @@ msgstr[0] ""
 " %3"
 
 #: kkeysequencewidget.cpp:244
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Shortcut conflict"
+msgctxt "@title:window"
 msgid "Shortcut conflict"
 msgstr "快捷鍵衝突"
 
@@ -789,7 +890,12 @@ msgid ""
 msgstr "<qt>%1 組合鍵已被 %2 動作所使用。<br/>請選擇其他的鍵。</qt>"
 
 #: kkeysequencewidget.cpp:275
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Click on the button, then enter the shortcut like you would in the "
+#| "program.\n"
+#| "Example for Ctrl+A: hold the Ctrl key and press A."
+msgctxt "@info:tooltip"
 msgid ""
 "Click on the button, then enter the shortcut like you would in the program.\n"
 "Example for Ctrl+A: hold the Ctrl key and press A."
@@ -813,7 +919,9 @@ msgstr ""
 "請另外選一個鍵。"
 
 #: kkeysequencewidget.cpp:620
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Conflict with Standard Application Shortcut"
+msgctxt "@title:window"
 msgid "Conflict with Standard Application Shortcut"
 msgstr "與標準的應用程式快捷鍵定義衝突"
 
@@ -845,12 +953,16 @@ msgid "The key you just pressed is not supported by Qt."
 msgstr "您剛才按的鍵 Qt 不支援。"
 
 #: kkeysequencewidget.cpp:722
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Unsupported Key"
+msgctxt "@title:window"
 msgid "Unsupported Key"
 msgstr "不支援的按鍵。"
 
 #: klicensedialog_p.cpp:44
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "License Agreement"
+msgctxt "@title:window"
 msgid "License Agreement"
 msgstr "授權宣告"
 
@@ -872,7 +984,9 @@ msgid "Add to Toolbar"
 msgstr "新增到工具列"
 
 #: kmenumenuhandler_p.cpp:235
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure Shortcut..."
+msgctxt "@action:inmenu"
 msgid "Configure Shortcut..."
 msgstr "設定快捷鍵..."
 
@@ -917,17 +1031,23 @@ msgid "The email address to send the bug report to."
 msgstr "傳送問題回報到哪個電子郵件地址。"
 
 #: kshortcuteditwidget.cpp:67
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Default:"
+msgctxt "@option:radio"
 msgid "Default:"
 msgstr "預設："
 
 #: kshortcuteditwidget.cpp:74
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Custom:"
+msgctxt "@option:radio"
 msgid "Custom:"
 msgstr "自訂："
 
 #: kshortcutschemeseditor.cpp:44
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Shortcut Schemes"
+msgctxt "@title:group"
 msgid "Shortcut Schemes"
 msgstr "快捷鍵機制"
 
@@ -937,37 +1057,51 @@ msgid "Current scheme:"
 msgstr "目前的機制："
 
 #: kshortcutschemeseditor.cpp:82
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "New..."
+msgctxt "@action:button"
 msgid "New..."
 msgstr "新增..."
 
 #: kshortcutschemeseditor.cpp:85
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Delete"
+msgctxt "@action:button"
 msgid "Delete"
 msgstr "刪除"
 
 #: kshortcutschemeseditor.cpp:88
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "More Actions"
+msgctxt "@action:button"
 msgid "More Actions"
 msgstr "更多動作"
 
 #: kshortcutschemeseditor.cpp:92
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Save shortcuts to scheme"
+msgctxt "@action:inmenu"
 msgid "Save shortcuts to scheme"
 msgstr "儲存快捷鍵到機制中"
 
 #: kshortcutschemeseditor.cpp:94
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Export Scheme..."
+msgctxt "@action:inmenu"
 msgid "Export Scheme..."
 msgstr "匯出機制..."
 
 #: kshortcutschemeseditor.cpp:96
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Import Scheme..."
+msgctxt "@action:inmenu"
 msgid "Import Scheme..."
 msgstr "匯入機制..."
 
 #: kshortcutschemeseditor.cpp:117
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Name for New Scheme"
+msgctxt "@title:window"
 msgid "Name for New Scheme"
 msgstr "新機制名稱"
 
@@ -996,26 +1130,30 @@ msgstr ""
 "注意這並不會刪除任何系統層級的快捷鍵機制。"
 
 #: kshortcutschemeseditor.cpp:185
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Export Shortcuts"
+msgctxt "@title:window"
 msgid "Export Shortcuts"
 msgstr "匯出快捷鍵"
 
-#: kshortcutschemeseditor.cpp:185 kshortcutschemeseditor.cpp:196
+#: kshortcutschemeseditor.cpp:186 kshortcutschemeseditor.cpp:198
 #, kde-format
 msgid "Shortcuts (*.shortcuts)"
 msgstr "快捷鍵 (*.shortcuts)"
 
-#: kshortcutschemeseditor.cpp:196
-#, kde-format
+#: kshortcutschemeseditor.cpp:197
+#, fuzzy, kde-format
+#| msgid "Import Shortcuts"
+msgctxt "@title:window"
 msgid "Import Shortcuts"
 msgstr "匯入快捷鍵"
 
-#: kshortcutschemeseditor.cpp:207
+#: kshortcutschemeseditor.cpp:209
 #, kde-format
 msgid "Shortcut scheme successfully saved."
 msgstr "快捷鍵機制已成功儲存。"
 
-#: kshortcutschemeseditor.cpp:210
+#: kshortcutschemeseditor.cpp:212
 #, kde-format
 msgid "Error saving the shortcut scheme."
 msgstr "儲存快捷鍵機制錯誤。"
@@ -1033,7 +1171,9 @@ msgid "Manage &Schemes"
 msgstr "管理機制(&S)"
 
 #: kshortcutsdialog.cpp:154
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure Keyboard Shortcuts"
+msgctxt "@title:window"
 msgid "Configure Keyboard Shortcuts"
 msgstr "設定鍵盤快速鍵"
 
@@ -1149,7 +1289,9 @@ msgid "%1"
 msgstr "%1"
 
 #: kswitchlanguagedialog_p.cpp:159
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Switch Application Language"
+msgctxt "@title:window"
 msgid "Switch Application Language"
 msgstr "切換應用程式語言"
 
@@ -1159,12 +1301,18 @@ msgid "Please choose the language which should be used for this application:"
 msgstr "請選擇此應用程式要使用的語言："
 
 #: kswitchlanguagedialog_p.cpp:191
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Fallback Language"
+msgctxt "@action:button"
 msgid "Add Fallback Language"
 msgstr "新增預設語言"
 
 #: kswitchlanguagedialog_p.cpp:192
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Adds one more language which will be used if other translations do not "
+#| "contain a proper translation."
+msgctxt "@info:tooltip"
 msgid ""
 "Adds one more language which will be used if other translations do not "
 "contain a proper translation."
@@ -1177,7 +1325,14 @@ msgid ""
 "effect the next time the application is started."
 msgstr "此應用程式的語言已變更。將在下次啟動時生效。"
 
-#: kswitchlanguagedialog_p.cpp:289 kswitchlanguagedialog_p.cpp:311
+#: kswitchlanguagedialog_p.cpp:289
+#, fuzzy, kde-format
+#| msgid "Application Language Changed"
+msgctxt "@title:window"
+msgid "Application Language Changed"
+msgstr "應用程式語言已變更"
+
+#: kswitchlanguagedialog_p.cpp:311
 #, kde-format
 msgid "Application Language Changed"
 msgstr "應用程式語言已變更"
@@ -1193,19 +1348,29 @@ msgid "Fallback language:"
 msgstr "預設語言："
 
 #: kswitchlanguagedialog_p.cpp:414
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "@action:button"
 msgid "Remove"
 msgstr "移除"
 
 #: kswitchlanguagedialog_p.cpp:421
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "This is the main application language which will be used first, before "
+#| "any other languages."
+msgctxt "@info:tooltip"
 msgid ""
 "This is the main application language which will be used first, before any "
 "other languages."
 msgstr "這個是會優先使用的語言。"
 
 #: kswitchlanguagedialog_p.cpp:422
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "This is the language which will be used if any previous languages do not "
+#| "contain a proper translation."
+msgctxt "@info:tooltip"
 msgid ""
 "This is the language which will be used if any previous languages do not "
 "contain a proper translation."
@@ -1259,22 +1424,30 @@ msgid "Text Position"
 msgstr "文字位置"
 
 #: ktoolbar.cpp:331
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Icons Only"
+msgctxt "@item:inmenu"
 msgid "Icons Only"
 msgstr "只用圖示"
 
 #: ktoolbar.cpp:332
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text Only"
+msgctxt "@item:inmenu"
 msgid "Text Only"
 msgstr "只用文字"
 
 #: ktoolbar.cpp:333
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text Alongside Icons"
+msgctxt "@item:inmenu"
 msgid "Text Alongside Icons"
 msgstr "文字在圖示旁"
 
 #: ktoolbar.cpp:334
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text Under Icons"
+msgctxt "@item:inmenu"
 msgid "Text Under Icons"
 msgstr "文字在圖示下"
 

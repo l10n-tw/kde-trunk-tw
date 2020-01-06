@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-24 03:28+0100\n"
+"POT-Creation-Date: 2020-01-06 03:51+0100\n"
 "PO-Revision-Date: 2019-12-25 18:43+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -60,7 +60,7 @@ msgid "Show in do not disturb mode"
 msgstr "在「請勿打擾」模式中顯示"
 
 #: package/contents/ui/ApplicationConfiguration.qml:115
-#: package/contents/ui/main.qml:128
+#: package/contents/ui/main.qml:136
 #, kde-format
 msgid "Show in history"
 msgstr "在歷史記錄中顯示"
@@ -106,14 +106,17 @@ msgid "Notifications are currently not provided by Plasma."
 msgstr "通知目前不由 Plasma 提供。"
 
 #: package/contents/ui/main.qml:84
-#, kde-format
-msgid "Do not disturb:"
+#, fuzzy, kde-format
+#| msgid "Do not disturb:"
+msgid "Do Not Disturb mode:"
 msgstr "請勿打擾："
 
 #: package/contents/ui/main.qml:85
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Do not disturb when screens are mirrored"
+#| msgid "When screens are mirrored"
 msgctxt "Do not disturb when screens are mirrored"
-msgid "When screens are mirrored"
+msgid "Enable when screens are mirrored"
 msgstr "鏡像螢幕時"
 
 #: package/contents/ui/main.qml:92
@@ -127,86 +130,90 @@ msgctxt "Turn do not disturb mode on/off with keyboard shortcut"
 msgid "Toggle with:"
 msgstr "切換方式："
 
-#: package/contents/ui/main.qml:112
+#: package/contents/ui/main.qml:116
 #, kde-format
 msgid "Critical notifications:"
 msgstr "嚴重通知："
 
-#: package/contents/ui/main.qml:113
+#: package/contents/ui/main.qml:117
 #, kde-format
 msgid "Always keep on top"
 msgstr "永遠保持頂端"
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:128
 #, kde-format
 msgid "Low priority notifications:"
 msgstr "低優先級通知："
 
-#: package/contents/ui/main.qml:121
+#: package/contents/ui/main.qml:129
 #, kde-format
 msgid "Show popup"
 msgstr "顯示彈出通知"
 
-#: package/contents/ui/main.qml:141
+#: package/contents/ui/main.qml:153
 #, kde-format
-msgid "Popup position:"
-msgstr "彈出通知位置："
+msgid "Popup:"
+msgstr ""
 
-#: package/contents/ui/main.qml:142
-#, kde-format
+#: package/contents/ui/main.qml:154
+#, fuzzy, kde-format
+#| msgctxt "Popup position near notification plasmoid"
+#| msgid "Near the notification icon"
 msgctxt "Popup position near notification plasmoid"
-msgid "Near the notification icon"
+msgid "Show near notification icon"
 msgstr "靠近通知圖示"
 
-#: package/contents/ui/main.qml:164
+#: package/contents/ui/main.qml:176
 #, kde-format
 msgid "Choose Custom Position..."
 msgstr "選擇自訂位置…"
 
-#: package/contents/ui/main.qml:173 package/contents/ui/main.qml:190
+#: package/contents/ui/main.qml:185 package/contents/ui/main.qml:210
 #, kde-format
 msgid "%1 second"
 msgid_plural "%1 seconds"
 msgstr[0] "%1 秒"
 
-#: package/contents/ui/main.qml:178
-#, kde-format
-msgid "Hide popup after:"
+#: package/contents/ui/main.qml:194
+#, fuzzy, kde-format
+#| msgid "Hide popup after:"
+msgctxt "Part of a sentence like, 'Hide popup after n seconds'"
+msgid "Hide after:"
 msgstr "隱藏彈出通知前間隔："
 
-#: package/contents/ui/main.qml:200
+#: package/contents/ui/main.qml:221
 #, kde-format
 msgid "Application progress:"
 msgstr "應用程式進度："
 
-#: package/contents/ui/main.qml:201 package/contents/ui/main.qml:226
+#: package/contents/ui/main.qml:222 package/contents/ui/main.qml:251
 #, kde-format
 msgid "Show in task manager"
 msgstr "在工作管理員顯示"
 
-#: package/contents/ui/main.qml:208
+#: package/contents/ui/main.qml:229
 #, kde-format
 msgctxt "Show application jobs in notification widget"
 msgid "Show in notifications"
 msgstr "在通知中顯示"
 
-#: package/contents/ui/main.qml:217
+#: package/contents/ui/main.qml:238
 #, kde-format
 msgctxt "Keep application job popup open for entire duration of job"
 msgid "Keep popup open during progress"
 msgstr "進行時保持彈出視窗為開啟狀態"
 
-#: package/contents/ui/main.qml:225
+#: package/contents/ui/main.qml:250
 #, kde-format
 msgid "Notification badges:"
 msgstr "通知徽章："
 
-#: package/contents/ui/main.qml:236
+#: package/contents/ui/main.qml:261
 #, kde-format
 msgid "Applications:"
 msgstr "應用程式："
 
-#: package/contents/ui/main.qml:237
+#: package/contents/ui/main.qml:262
 #, kde-format
 msgid "Configure..."
 msgstr "設定…"
@@ -247,3 +254,6 @@ msgstr "從列表選取應用程式，設定其通知設定及行為。"
 #, kde-format
 msgid "Other Applications"
 msgstr "其他應用程式"
+
+#~ msgid "Popup position:"
+#~ msgstr "彈出通知位置："

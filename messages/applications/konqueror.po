@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-04 02:43+0100\n"
+"POT-Creation-Date: 2020-01-06 02:42+0100\n"
 "PO-Revision-Date: 2019-10-26 22:55+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -43,8 +43,8 @@ msgstr ""
 "liao@msa.hinet.net,b8802046@mail.ntust.edu.tw,franklin@goodhorse.idv.tw, "
 "s8321414@gmail.com"
 
-#: src/konqclosedwindowsmanager.cpp:414 src/konqmainwindow.cpp:4967
-#: src/konqmainwindow.cpp:5021
+#: src/konqclosedwindowsmanager.cpp:414 src/konqmainwindow.cpp:4965
+#: src/konqmainwindow.cpp:5019
 #, kde-format
 msgid "no name"
 msgstr "未命名"
@@ -141,7 +141,7 @@ msgstr "本地端"
 msgid "Miscellaneous"
 msgstr "雜項"
 
-#: src/konqhistoryview.cpp:64 src/konqmainwindow.cpp:4516
+#: src/konqhistoryview.cpp:64 src/konqmainwindow.cpp:4514
 #, kde-format
 msgid "Open in New &Window"
 msgstr "在新視窗開啟(&W)"
@@ -634,19 +634,19 @@ msgstr ""
 "這個頁面包含尚未送出的變更。\n"
 "重新載入此頁面會放棄這些變更。"
 
-#: src/konqmainwindow.cpp:1638 src/konqmainwindow.cpp:2384
-#: src/konqmainwindow.cpp:2477 src/konqmainwindow.cpp:2509
-#: src/konqmainwindow.cpp:2552 src/konqmainwindow.cpp:2574
-#: src/konqmainwindow.cpp:4935
+#: src/konqmainwindow.cpp:1638 src/konqmainwindow.cpp:2382
+#: src/konqmainwindow.cpp:2475 src/konqmainwindow.cpp:2507
+#: src/konqmainwindow.cpp:2550 src/konqmainwindow.cpp:2572
+#: src/konqmainwindow.cpp:4933
 #, kde-format
 msgctxt "@title:window"
 msgid "Discard Changes?"
 msgstr "放棄變更？"
 
-#: src/konqmainwindow.cpp:1638 src/konqmainwindow.cpp:2384
-#: src/konqmainwindow.cpp:2477 src/konqmainwindow.cpp:2509
-#: src/konqmainwindow.cpp:2552 src/konqmainwindow.cpp:2575
-#: src/konqmainwindow.cpp:4935
+#: src/konqmainwindow.cpp:1638 src/konqmainwindow.cpp:2382
+#: src/konqmainwindow.cpp:2475 src/konqmainwindow.cpp:2507
+#: src/konqmainwindow.cpp:2550 src/konqmainwindow.cpp:2573
+#: src/konqmainwindow.cpp:4933
 #, kde-format
 msgid "&Discard Changes"
 msgstr "放棄變更(&D)"
@@ -666,7 +666,7 @@ msgstr "網頁瀏覽"
 msgid "Home Folder"
 msgstr "家目錄"
 
-#: src/konqmainwindow.cpp:2034 src/konqmainwindow.cpp:3517
+#: src/konqmainwindow.cpp:2034 src/konqmainwindow.cpp:3515
 #, kde-format
 msgid "Home"
 msgstr "首頁"
@@ -702,7 +702,7 @@ msgstr ""
 "<html>帶領您到您的首頁<br /><br />您可以從「設定」─「設定 Konqueror」─「一"
 "般」選單中設定此按鈕會帶您去的位置。</html>"
 
-#: src/konqmainwindow.cpp:2383
+#: src/konqmainwindow.cpp:2381
 #, kde-format
 msgid ""
 "This tab contains changes that have not been submitted.\n"
@@ -711,7 +711,7 @@ msgstr ""
 "這個分頁包含尚未送出的變更。\n"
 "退出此分頁會放棄這些變更。"
 
-#: src/konqmainwindow.cpp:2476
+#: src/konqmainwindow.cpp:2474
 #, kde-format
 msgid ""
 "This view contains changes that have not been submitted.\n"
@@ -720,7 +720,7 @@ msgstr ""
 "這個檢視包含尚未送出的變更。\n"
 "關閉此檢視會放棄這些變更。"
 
-#: src/konqmainwindow.cpp:2508
+#: src/konqmainwindow.cpp:2506
 #, kde-format
 msgid ""
 "This tab contains changes that have not been submitted.\n"
@@ -729,23 +729,23 @@ msgstr ""
 "這個分頁包含尚未送出的變更。\n"
 "關閉此分頁會放棄這些變更。"
 
-#: src/konqmainwindow.cpp:2534
+#: src/konqmainwindow.cpp:2532
 #, kde-format
 msgid "Do you really want to close all other tabs?"
 msgstr "您確定要關閉所有其他的分頁？"
 
-#: src/konqmainwindow.cpp:2535 src/konqmainwindow.cpp:3609 src/konqtabs.cpp:349
+#: src/konqmainwindow.cpp:2533 src/konqmainwindow.cpp:3607 src/konqtabs.cpp:349
 #, kde-format
 msgid "Close &Other Tabs"
 msgstr "關閉其他分頁(&O)"
 
-#: src/konqmainwindow.cpp:2535
+#: src/konqmainwindow.cpp:2533
 #, kde-format
 msgctxt "@title:window"
 msgid "Close Other Tabs Confirmation"
 msgstr "關閉其他分頁確認"
 
-#: src/konqmainwindow.cpp:2551
+#: src/konqmainwindow.cpp:2549
 #, kde-format
 msgid ""
 "This tab contains changes that have not been submitted.\n"
@@ -754,7 +754,7 @@ msgstr ""
 "這個分頁包含尚未送出的變更。\n"
 "關閉其他分頁會放棄這些變更。"
 
-#: src/konqmainwindow.cpp:2573
+#: src/konqmainwindow.cpp:2571
 #, kde-format
 msgid ""
 "This tab contains changes that have not been submitted.\n"
@@ -763,273 +763,273 @@ msgstr ""
 "這個分頁包含尚未送出的變更。\n"
 "重新載入所有分頁會放棄這些變更。"
 
-#: src/konqmainwindow.cpp:2615
+#: src/konqmainwindow.cpp:2613
 #, kde-format
 msgctxt "@title:window"
 msgid "Enter Target"
 msgstr "輸入目標"
 
-#: src/konqmainwindow.cpp:2622
+#: src/konqmainwindow.cpp:2620
 #, kde-format
 msgid "<qt><b>%1</b> is not valid</qt>"
 msgstr "<qt><b>%1</b> 是無效的</qt>"
 
-#: src/konqmainwindow.cpp:2632
+#: src/konqmainwindow.cpp:2630
 #, kde-format
 msgid "Copy selected files from %1 to:"
 msgstr "從 %1 複製選擇的檔案至："
 
-#: src/konqmainwindow.cpp:2645
+#: src/konqmainwindow.cpp:2643
 #, kde-format
 msgid "Move selected files from %1 to:"
 msgstr "從 %1 移動選擇的檔案至："
 
-#: src/konqmainwindow.cpp:2819
+#: src/konqmainwindow.cpp:2817
 #, kde-format
 msgctxt "This menu entry empties the closed items history"
 msgid "Empty Closed Items History"
 msgstr "清空關閉分頁的歷史紀錄"
 
-#: src/konqmainwindow.cpp:2842
+#: src/konqmainwindow.cpp:2840
 #, kde-format
 msgid "Save As..."
 msgstr "另存為..."
 
-#: src/konqmainwindow.cpp:2844
+#: src/konqmainwindow.cpp:2842
 #, kde-format
 msgid "Manage..."
 msgstr "管理..."
 
-#: src/konqmainwindow.cpp:3426
+#: src/konqmainwindow.cpp:3424
 #, kde-format
 msgid "New &Window"
 msgstr "新視窗(&W)"
 
-#: src/konqmainwindow.cpp:3431
+#: src/konqmainwindow.cpp:3429
 #, kde-format
 msgid "&Duplicate Window"
 msgstr "重複視窗(&D)"
 
-#: src/konqmainwindow.cpp:3436
+#: src/konqmainwindow.cpp:3434
 #, kde-format
 msgid "Send &Link Address..."
 msgstr "傳送連結位址(&L)..."
 
-#: src/konqmainwindow.cpp:3440
+#: src/konqmainwindow.cpp:3438
 #, kde-format
 msgid "S&end File..."
 msgstr "寄出檔案...(&E)"
 
-#: src/konqmainwindow.cpp:3444
+#: src/konqmainwindow.cpp:3442
 #, kde-format
 msgid "&Open Location"
 msgstr "開啟位置(&O)"
 
-#: src/konqmainwindow.cpp:3450
+#: src/konqmainwindow.cpp:3448
 #, kde-format
 msgid "&Open File..."
 msgstr "開啟檔案(&O)..."
 
-#: src/konqmainwindow.cpp:3455
+#: src/konqmainwindow.cpp:3453
 #, kde-format
 msgid "&Find File..."
 msgstr "尋找檔案(&F)..."
 
-#: src/konqmainwindow.cpp:3464
+#: src/konqmainwindow.cpp:3462
 #, kde-format
 msgid "Lock to Current Location"
 msgstr "鎖定目前位置"
 
-#: src/konqmainwindow.cpp:3467
+#: src/konqmainwindow.cpp:3465
 #, kde-format
 msgctxt "This option links konqueror views"
 msgid "Lin&k View"
 msgstr "連結檢視(&K)"
 
-#: src/konqmainwindow.cpp:3472
+#: src/konqmainwindow.cpp:3470
 #, kde-format
 msgid "&Up"
 msgstr "上移(&U)"
 
-#: src/konqmainwindow.cpp:3482
+#: src/konqmainwindow.cpp:3480
 #, kde-format
 msgid "Closed Items"
 msgstr "已關閉項目"
 
-#: src/konqmainwindow.cpp:3495
+#: src/konqmainwindow.cpp:3493
 #, kde-format
 msgid "Sessions"
 msgstr "工作階段"
 
-#: src/konqmainwindow.cpp:3522
+#: src/konqmainwindow.cpp:3520
 #, kde-format
 msgctxt "@action:inmenu Go"
 msgid "Most Often Visited"
 msgstr "最常去的站台"
 
-#: src/konqmainwindow.cpp:3526
+#: src/konqmainwindow.cpp:3524
 #, kde-format
 msgctxt "@action:inmenu Go"
 msgid "Recently Visited"
 msgstr "最近去的站台"
 
-#: src/konqmainwindow.cpp:3535
+#: src/konqmainwindow.cpp:3533
 #, kde-format
 msgctxt "@action:inmenu Go"
 msgid "Show History"
 msgstr "顯示歷史紀錄"
 
-#: src/konqmainwindow.cpp:3559
+#: src/konqmainwindow.cpp:3557
 #, kde-format
 msgid "Configure Extensions..."
 msgstr "設定延伸功能..."
 
-#: src/konqmainwindow.cpp:3563
+#: src/konqmainwindow.cpp:3561
 #, kde-format
 msgid "Configure Spell Checking..."
 msgstr "設定拼字檢查功能..."
 
-#: src/konqmainwindow.cpp:3569
+#: src/konqmainwindow.cpp:3567
 #, kde-format
 msgid "Split View &Left/Right"
 msgstr "分裂檢視 左/右(&L)"
 
-#: src/konqmainwindow.cpp:3574
+#: src/konqmainwindow.cpp:3572
 #, kde-format
 msgid "Split View &Top/Bottom"
 msgstr "分裂檢視 上/下(&T)"
 
-#: src/konqmainwindow.cpp:3579 src/konqtabs.cpp:459
+#: src/konqmainwindow.cpp:3577 src/konqtabs.cpp:459
 #, kde-format
 msgid "&New Tab"
 msgstr "新增分頁(&N)"
 
-#: src/konqmainwindow.cpp:3588
+#: src/konqmainwindow.cpp:3586
 #, kde-format
 msgid "&Duplicate Current Tab"
 msgstr "複製目前分頁(&D)"
 
-#: src/konqmainwindow.cpp:3593
+#: src/konqmainwindow.cpp:3591
 #, kde-format
 msgid "Detach Current Tab"
 msgstr "分離目前分頁"
 
-#: src/konqmainwindow.cpp:3598
+#: src/konqmainwindow.cpp:3596
 #, kde-format
 msgid "&Close Active View"
 msgstr "關閉作用中檢視(&C)"
 
-#: src/konqmainwindow.cpp:3603
+#: src/konqmainwindow.cpp:3601
 #, kde-format
 msgid "Close Current Tab"
 msgstr "關閉目前分頁"
 
-#: src/konqmainwindow.cpp:3613
+#: src/konqmainwindow.cpp:3611
 #, kde-format
 msgid "Activate Next Tab"
 msgstr "作用下個分頁"
 
-#: src/konqmainwindow.cpp:3617
+#: src/konqmainwindow.cpp:3615
 #, kde-format
 msgid "Activate Previous Tab"
 msgstr "作用上個分頁"
 
-#: src/konqmainwindow.cpp:3624
+#: src/konqmainwindow.cpp:3622
 #, kde-format
 msgid "Activate Tab %1"
 msgstr "作用分頁 %1"
 
-#: src/konqmainwindow.cpp:3629
+#: src/konqmainwindow.cpp:3627
 #, kde-format
 msgid "Move Tab Left"
 msgstr "移動分頁至左邊"
 
-#: src/konqmainwindow.cpp:3634
+#: src/konqmainwindow.cpp:3632
 #, kde-format
 msgid "Move Tab Right"
 msgstr "在右邊顯示分頁"
 
-#: src/konqmainwindow.cpp:3642
+#: src/konqmainwindow.cpp:3640
 #, kde-format
 msgid "Dump Debug Info"
 msgstr "轉儲除錯資訊"
 
-#: src/konqmainwindow.cpp:3660
+#: src/konqmainwindow.cpp:3658
 #, kde-format
 msgid "&Reload"
 msgstr "重新載入(&R)"
 
-#: src/konqmainwindow.cpp:3665 src/konqtabs.cpp:327
+#: src/konqmainwindow.cpp:3663 src/konqtabs.cpp:327
 #, kde-format
 msgid "&Reload All Tabs"
 msgstr "重新載入所有的分頁(&R)"
 
-#: src/konqmainwindow.cpp:3673
+#: src/konqmainwindow.cpp:3671
 #, kde-format
 msgid "&Force Reload"
 msgstr "強制重新載入(&F)"
 
-#: src/konqmainwindow.cpp:3699
+#: src/konqmainwindow.cpp:3697
 #, kde-format
 msgid "&Stop"
 msgstr "停止(&S)"
 
-#: src/konqmainwindow.cpp:3708
+#: src/konqmainwindow.cpp:3706
 #, kde-format
 msgid "Throbber"
 msgstr "動態瀏覽圖示"
 
-#: src/konqmainwindow.cpp:3712 src/konqmainwindow.cpp:3715
+#: src/konqmainwindow.cpp:3710 src/konqmainwindow.cpp:3713
 #, kde-format
 msgid "L&ocation: "
 msgstr "位置(&O)： "
 
-#: src/konqmainwindow.cpp:3722
+#: src/konqmainwindow.cpp:3720
 #, kde-format
 msgid "Location Bar"
 msgstr "位置工具列"
 
-#: src/konqmainwindow.cpp:3728
+#: src/konqmainwindow.cpp:3726
 #, kde-format
 msgid ""
 "<html>Location Bar<br /><br />Enter a web address or search term.</html>"
 msgstr "<html>位址列<br /><br />輸入一個網址或者搜尋的項目</html>"
 
-#: src/konqmainwindow.cpp:3732
+#: src/konqmainwindow.cpp:3730
 #, kde-format
 msgid "Clear Location Bar"
 msgstr "清除位置列"
 
-#: src/konqmainwindow.cpp:3736
+#: src/konqmainwindow.cpp:3734
 #, kde-format
 msgid ""
 "<html>Clear Location bar<br /><br />Clears the contents of the location bar."
 "</html>"
 msgstr "<html>清除位置列<br /><br />清除目前位置列中的內容。</html>"
 
-#: src/konqmainwindow.cpp:3741
+#: src/konqmainwindow.cpp:3739
 #, kde-format
 msgid "&Bookmarks"
 msgstr "書籤(&B)"
 
-#: src/konqmainwindow.cpp:3769
+#: src/konqmainwindow.cpp:3767
 #, kde-format
 msgid "Kon&queror Introduction"
 msgstr "Koqueror 征服家簡介(&Q)"
 
-#: src/konqmainwindow.cpp:3774
+#: src/konqmainwindow.cpp:3772
 #, kde-format
 msgid "Go"
 msgstr "移至"
 
-#: src/konqmainwindow.cpp:3776
+#: src/konqmainwindow.cpp:3774
 #, kde-format
 msgid ""
 "<html>Go<br /><br />Goes to the page that has been entered into the location "
 "bar.</html>"
 msgstr "<html>Go<br /><br />前往位址列已經輸入的位址</html>"
 
-#: src/konqmainwindow.cpp:3782
+#: src/konqmainwindow.cpp:3780
 #, kde-format
 msgid ""
 "<html>Enter the parent folder<br /><br />For instance, if the current "
@@ -1039,27 +1039,27 @@ msgstr ""
 "<html>進入父目錄<br /><br />例如，目前的位置是 file:/home/%1 按下此按鈕會將您"
 "帶到 file:/home。</html>"
 
-#: src/konqmainwindow.cpp:3785
+#: src/konqmainwindow.cpp:3783
 #, kde-format
 msgid "Enter the parent folder"
 msgstr "進入母目錄"
 
-#: src/konqmainwindow.cpp:3787 src/konqmainwindow.cpp:3788
+#: src/konqmainwindow.cpp:3785 src/konqmainwindow.cpp:3786
 #, kde-format
 msgid "Move backwards one step in the browsing history"
 msgstr "向後移至瀏覽紀錄中的上一步"
 
-#: src/konqmainwindow.cpp:3790 src/konqmainwindow.cpp:3791
+#: src/konqmainwindow.cpp:3788 src/konqmainwindow.cpp:3789
 #, kde-format
 msgid "Move forward one step in the browsing history"
 msgstr "向前移至瀏覽紀錄中的下一步"
 
-#: src/konqmainwindow.cpp:3793 src/konqmainwindow.cpp:3794
+#: src/konqmainwindow.cpp:3791 src/konqmainwindow.cpp:3792
 #, kde-format
 msgid "Move backwards one step in the closed tabs history"
 msgstr "向後移至瀏覽已關閉分頁歷史紀錄中的上一步"
 
-#: src/konqmainwindow.cpp:3796
+#: src/konqmainwindow.cpp:3794
 #, kde-format
 msgid ""
 "<html>Reload the currently displayed document<br /><br />This may, for "
@@ -1069,12 +1069,12 @@ msgstr ""
 "<html>重新載入目前顯示的文件<br /><br />這個功能在已載入的網頁有所變更時可用"
 "來更新網頁，如此才能讓變更顯現出來。</html>"
 
-#: src/konqmainwindow.cpp:3799
+#: src/konqmainwindow.cpp:3797
 #, kde-format
 msgid "Reload the currently displayed document"
 msgstr "重新載入目前顯示的文件"
 
-#: src/konqmainwindow.cpp:3801
+#: src/konqmainwindow.cpp:3799
 #, kde-format
 msgid ""
 "<html>Reload all currently displayed documents in tabs<br /><br />This may, "
@@ -1084,12 +1084,12 @@ msgstr ""
 "<html>重新載入目前分頁中顯示的文件<br /><br />這個功能在已載入的網頁有所變更"
 "時需要更新網頁，如此才能讓變更顯現出來。</html>"
 
-#: src/konqmainwindow.cpp:3804
+#: src/konqmainwindow.cpp:3802
 #, kde-format
 msgid "Reload all currently displayed document in tabs"
 msgstr "重新載入目前分頁顯示的文件"
 
-#: src/konqmainwindow.cpp:3806
+#: src/konqmainwindow.cpp:3804
 #, kde-format
 msgid ""
 "<html>Stop loading the document<br /><br />All network transfers will be "
@@ -1099,7 +1099,7 @@ msgstr ""
 "<html>停止載入文件<br /><br />所有網路的傳輸會被停止，而 Konqueror 則會顯示到"
 "此時所接收到的內容。</html>"
 
-#: src/konqmainwindow.cpp:3810
+#: src/konqmainwindow.cpp:3808
 #, kde-format
 msgid ""
 "<html>Reload the currently displayed document<br /><br />This may, for "
@@ -1111,18 +1111,18 @@ msgstr ""
 "來更新網頁，如此才能讓變更顯現出來。所有在網頁中的影像都會重新下載，即使已經"
 "存在於快取中。</html>"
 
-#: src/konqmainwindow.cpp:3814
+#: src/konqmainwindow.cpp:3812
 #, kde-format
 msgid ""
 "Force a reload of the currently displayed document and any contained images"
 msgstr "強制重新載入目前分頁顯示的文件以及影像"
 
-#: src/konqmainwindow.cpp:3816
+#: src/konqmainwindow.cpp:3814
 #, kde-format
 msgid "Stop loading the document"
 msgstr "停止載入文件"
 
-#: src/konqmainwindow.cpp:3818
+#: src/konqmainwindow.cpp:3816
 #, kde-format
 msgid ""
 "<html>Cut the currently selected text or item(s) and move it to the system "
@@ -1132,12 +1132,12 @@ msgstr ""
 "<html>剪下目前選取的文字或項目，並移至系統剪貼簿<br /><br />這樣就可以在 "
 "Konqueror 和其他 KDE 應用程式中使用 <b>貼上</b> 命令。</html>"
 
-#: src/konqmainwindow.cpp:3822
+#: src/konqmainwindow.cpp:3820
 #, kde-format
 msgid "Move the selected text or item(s) to the clipboard"
 msgstr "移動已選取的文字或項目至剪貼簿"
 
-#: src/konqmainwindow.cpp:3824
+#: src/konqmainwindow.cpp:3822
 #, kde-format
 msgid ""
 "<html>Copy the currently selected text or item(s) to the system "
@@ -1147,12 +1147,12 @@ msgstr ""
 "<html>複製目前選取的文字或項目至系統剪貼簿<br /><br />這樣就可以在 Konqueror "
 "和其他 KDE 應用程式中使用 <b>貼上</b> 命令。</html>"
 
-#: src/konqmainwindow.cpp:3828
+#: src/konqmainwindow.cpp:3826
 #, kde-format
 msgid "Copy the selected text or item(s) to the clipboard"
 msgstr "複製已選取的文字或項目至剪貼簿"
 
-#: src/konqmainwindow.cpp:3830
+#: src/konqmainwindow.cpp:3828
 #, kde-format
 msgid ""
 "<html>Paste the previously cut or copied clipboard contents<br /><br />This "
@@ -1161,12 +1161,12 @@ msgstr ""
 "<html>貼上先前已剪下或複製的剪貼簿內容<br /><br />此功能也可用於從其他 KDE 應"
 "用程式複製或剪下的文字。</html>"
 
-#: src/konqmainwindow.cpp:3833
+#: src/konqmainwindow.cpp:3831
 #, kde-format
 msgid "Paste the clipboard contents"
 msgstr "貼上剪貼簿內容"
 
-#: src/konqmainwindow.cpp:3835
+#: src/konqmainwindow.cpp:3833
 #, kde-format
 msgid ""
 "<html>Print the currently displayed document<br /><br />You will be "
@@ -1179,12 +1179,12 @@ msgstr ""
 "如要印列的份數或要使用哪臺印表機。<br /><br />此對話盒也提供對特殊 KDE 列印服"
 "務的存取，像是自目前的文件建立 PDF 檔案。</html>"
 
-#: src/konqmainwindow.cpp:3841
+#: src/konqmainwindow.cpp:3839
 #, kde-format
 msgid "Print the current document"
 msgstr "列印目前文件"
 
-#: src/konqmainwindow.cpp:3843
+#: src/konqmainwindow.cpp:3841
 #, kde-format
 msgid ""
 "A locked view cannot change folders. Use in combination with 'link view' to "
@@ -1192,7 +1192,7 @@ msgid ""
 msgstr ""
 "在鎖定的檢視下不能更改資料夾。請使用「連結檢視」以瀏覽資料夾中的多個檔案"
 
-#: src/konqmainwindow.cpp:3844
+#: src/konqmainwindow.cpp:3842
 #, kde-format
 msgid ""
 "Sets the view as 'linked'. A linked view follows folder changes made in "
@@ -1200,88 +1200,88 @@ msgid ""
 msgstr ""
 "設定此檢視為 \"linked\"。一個連結的檢視將會因目錄其他連結檢視變更而跟著變動。"
 
-#: src/konqmainwindow.cpp:4010
+#: src/konqmainwindow.cpp:4008
 #, kde-format
 msgid "Copy &Files..."
 msgstr "複製檔案(&F)..."
 
-#: src/konqmainwindow.cpp:4014
+#: src/konqmainwindow.cpp:4012
 #, kde-format
 msgid "M&ove Files..."
 msgstr "移動檔案(&O)..."
 
-#: src/konqmainwindow.cpp:4343
+#: src/konqmainwindow.cpp:4341
 #, kde-format
 msgid ""
 "You have requested to open more than 20 bookmarks in tabs. This might take a "
 "while. Continue?"
 msgstr "您要求在分頁中開啟廿個以上的書籤，這可能會花一點時間。要繼續嗎？"
 
-#: src/konqmainwindow.cpp:4345
+#: src/konqmainwindow.cpp:4343
 #, kde-format
 msgctxt "@title:window"
 msgid "Open bookmarks folder in new tabs"
 msgstr "在新分頁中打開書籤資料夾"
 
-#: src/konqmainwindow.cpp:4509
+#: src/konqmainwindow.cpp:4507
 #, kde-format
 msgid "Open in T&his Window"
 msgstr "在這個視窗開啟(&H)"
 
-#: src/konqmainwindow.cpp:4510
+#: src/konqmainwindow.cpp:4508
 #, kde-format
 msgid "Open the document in current window"
 msgstr "在目前的的視窗開啟文件"
 
-#: src/konqmainwindow.cpp:4517
+#: src/konqmainwindow.cpp:4515
 #, kde-format
 msgid "Open the document in a new window"
 msgstr "開啟文件於新的視窗"
 
-#: src/konqmainwindow.cpp:4523
+#: src/konqmainwindow.cpp:4521
 #, kde-format
 msgid "Open in &New Tab"
 msgstr "在新分頁中開啟(&N)"
 
-#: src/konqmainwindow.cpp:4525
+#: src/konqmainwindow.cpp:4523
 #, kde-format
 msgid "Open the document in a new tab"
 msgstr "開啟文件於新的分頁"
 
-#: src/konqmainwindow.cpp:4721
+#: src/konqmainwindow.cpp:4719
 #, kde-format
 msgid "&Open With"
 msgstr "開啟方式(&O)"
 
-#: src/konqmainwindow.cpp:4734
+#: src/konqmainwindow.cpp:4732
 #, kde-format
 msgid "Open with %1"
 msgstr "以 %1 開啟"
 
-#: src/konqmainwindow.cpp:4782
+#: src/konqmainwindow.cpp:4780
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "&View Mode"
 msgstr "檢視模式(&V)"
 
-#: src/konqmainwindow.cpp:4901
+#: src/konqmainwindow.cpp:4899
 #, kde-format
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "您已經在這個視窗中開啟了多個分頁，你確定要關閉嗎？"
 
-#: src/konqmainwindow.cpp:4903
+#: src/konqmainwindow.cpp:4901
 #, kde-format
 msgctxt "@title:window"
 msgid "Confirmation"
 msgstr "確認"
 
-#: src/konqmainwindow.cpp:4905
+#: src/konqmainwindow.cpp:4903
 #, kde-format
 msgid "C&lose Current Tab"
 msgstr "關閉目前的分頁(&L)"
 
-#: src/konqmainwindow.cpp:4931
+#: src/konqmainwindow.cpp:4929
 #, kde-format
 msgid ""
 "This tab contains changes that have not been submitted.\n"
@@ -1290,7 +1290,7 @@ msgstr ""
 "這個分頁包含尚未送出的變更。\n"
 "關閉此視窗會放棄這些變更。"
 
-#: src/konqmainwindow.cpp:4932
+#: src/konqmainwindow.cpp:4930
 #, kde-format
 msgid ""
 "This page contains changes that have not been submitted.\n"
@@ -1299,34 +1299,34 @@ msgstr ""
 "這個分頁包含尚未送出的變更。\n"
 "關閉此視窗會放棄這些變更。"
 
-#: src/konqmainwindow.cpp:5096
+#: src/konqmainwindow.cpp:5094
 #, kde-format
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr "無法增加新的項目。你的 sidebar 沒有這樣的作用。"
 
-#: src/konqmainwindow.cpp:5096 src/konqmainwindow.cpp:5103
+#: src/konqmainwindow.cpp:5094 src/konqmainwindow.cpp:5101
 #, kde-format
 msgctxt "@title:window"
 msgid "Web Sidebar"
 msgstr "Web 邊列工具列"
 
-#: src/konqmainwindow.cpp:5101
+#: src/konqmainwindow.cpp:5099
 #, kde-format
 msgid "Add new web extension \"%1\" to your sidebar?"
 msgstr "增加瀏覽新的部份 \"%1\" 到你的邊列工具列?"
 
-#: src/konqmainwindow.cpp:5103
+#: src/konqmainwindow.cpp:5101
 #, kde-format
 msgid "Add"
 msgstr "新增"
 
-#: src/konqmainwindow.cpp:5103
+#: src/konqmainwindow.cpp:5101
 #, kde-format
 msgid "Do Not Add"
 msgstr "不要加入"
 
-#: src/konqmainwindow.cpp:5451
+#: src/konqmainwindow.cpp:5449
 #, kde-format
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
@@ -1772,7 +1772,7 @@ msgstr "復原：關閉視窗(&O)"
 msgid "Und&o"
 msgstr "復原(&O)"
 
-#: src/konqview.cpp:1236
+#: src/konqview.cpp:1220
 #, kde-format
 msgid ""
 "The page you are trying to view is the result of posted form data. If you "
@@ -1782,13 +1782,13 @@ msgstr ""
 "您嘗試檢視的網頁是送出表單資料的結果。如果您重新送出資料，此 表單所進行的任何"
 "動作（像是搜尋或線上購物）都會重覆一次。"
 
-#: src/konqview.cpp:1238
+#: src/konqview.cpp:1222
 #, kde-format
 msgctxt "@title:window"
 msgid "Warning"
 msgstr "警告"
 
-#: src/konqview.cpp:1238
+#: src/konqview.cpp:1222
 #, kde-format
 msgid "Resend"
 msgstr "重新送出"

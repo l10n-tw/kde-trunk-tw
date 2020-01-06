@@ -86,8 +86,6 @@ msgstr "家目錄"
 
 #: src/about/konq_aboutpage.cpp:84
 #, kde-format
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
 msgid "Your personal files"
 msgstr "您的個人檔案"
 
@@ -138,9 +136,8 @@ msgid ""
 "both local and networked folders while enjoying advanced features such as "
 "the powerful sidebar and file previews."
 msgstr ""
-"Konqueror 讓使用及管理您的檔案變得簡單。您能在享受"
-"進階功能（例如強大的側邊欄及檔案預覽）時，瀏覽本機"
-"及網路資料夾。"
+"Konqueror 讓使用及管理您的檔案變得簡單。您能在享受進階功能（例如強大的側邊欄"
+"及檔案預覽）時，瀏覽本機及網路資料夾。"
 
 #: src/about/konq_aboutpage.cpp:143
 #, kde-format
@@ -150,10 +147,9 @@ msgid ""
 "kde.org\">http://www.kde.org</a>) of a web page you would like to visit in "
 "the location bar and press Enter, or choose an entry from the Bookmarks menu."
 msgstr ""
-"Konqueror 亦是功能完整且易用，能用來瀏覽網際網路的網頁瀏覽器。"
-"輸入您想造訪的網頁位址（例如 <a href=\"http://www.kde.org\">"
-"http://www.kde.org</a>）到位置列後按下 Enter，或從「書籤」"
-"選單中選取書籤項目。"
+"Konqueror 亦是功能完整且易用，能用來瀏覽網際網路的網頁瀏覽器。輸入您想造訪的"
+"網頁位址（例如 <a href=\"http://www.kde.org\">http://www.kde.org</a>）到位置"
+"列後按下 Enter，或從「書籤」選單中選取書籤項目。"
 
 #: src/about/konq_aboutpage.cpp:148
 #, kde-format
@@ -161,8 +157,8 @@ msgid ""
 "To return to the previous location, press the back button <img width='16' "
 "height='16' src=\"%1\"></img> in the toolbar. "
 msgstr ""
-"如要回到先前位置，請按下工具列的 <img width='16' "
-"height='16' src=\"%1\"></img> 返回按鈕。"
+"如要回到先前位置，請按下工具列的 <img width='16' height='16' src=\"%1\"></"
+"img> 返回按鈕。"
 
 #: src/about/konq_aboutpage.cpp:151
 #, kde-format
@@ -170,8 +166,8 @@ msgid ""
 "To quickly go to your Home folder press the home button <img width='16' "
 "height='16' src=\"%1\"></img>."
 msgstr ""
-"若要快速前往家目錄，請按下 <img width='16' "
-"height='16' src=\"%1\"></img> 「首頁」按鈕。"
+"若要快速前往家目錄，請按下 <img width='16' height='16' src=\"%1\"></img> 「首"
+"頁」按鈕。"
 
 #: src/about/konq_aboutpage.cpp:153
 #, kde-format
@@ -194,10 +190,10 @@ msgid ""
 "Along with this support, for such functions as favicons, Web Shortcuts, and "
 "<A HREF=\"%1\">XBEL bookmarks</A>, Konqueror also implements:"
 msgstr ""
-"Konqueror 設計來擁抱及支援網路標準，宗旨是完整實作例如 W3 或 OASIS 這種"
-"獲批准的官方標準，並加入其他常用且出現在網路上的業界標準的實用功能。"
-"除了這些支援，例如 favicon、網路快捷鍵、<a href=\"%1\">XBEL 書籤</a> 之外，"
-"Konqueror 還實作了："
+"Konqueror 設計來擁抱及支援網路標準，宗旨是完整實作例如 W3 或 OASIS 這種獲批准"
+"的官方標準，並加入其他常用且出現在網路上的業界標準的實用功能。除了這些支援，"
+"例如 favicon、網路快捷鍵、<a href=\"%1\">XBEL 書籤</a> 之外，Konqueror 還實作"
+"了："
 
 #: src/about/konq_aboutpage.cpp:199
 #, kde-format
@@ -220,8 +216,8 @@ msgid ""
 "<A HREF=\"%1\">DOM</A> (Level 1, partially Level 2) based <A HREF="
 "\"%2\">HTML 4.01</A>"
 msgstr ""
-"基於 <A HREF=\"%2\">HTML 4.01</A> 的 <A HREF=\"%1\">DOM</A>"
-"（Level 1，部份 Level 2）"
+"基於 <A HREF=\"%2\">HTML 4.01</A> 的 <A HREF=\"%1\">DOM</A>（Level 1，部份 "
+"Level 2）"
 
 #: src/about/konq_aboutpage.cpp:204 src/about/konq_aboutpage.cpp:206
 #: src/about/konq_aboutpage.cpp:218 src/about/konq_aboutpage.cpp:223
@@ -244,14 +240,16 @@ msgstr "<A HREF=\"%1\">ECMA-262</A> 第3版（粗略等同 JavaScript 1.5）"
 #, kde-format
 msgid ""
 "JavaScript disabled (globally). Enable JavaScript <A HREF=\"%1\">here</A>."
-msgstr "JavaScript 已（全域）停用。請在<A HREF=\"%1\">這裡</A>啟用 JavaScript。"
+msgstr ""
+"JavaScript 已（全域）停用。請在<A HREF=\"%1\">這裡</A>啟用 JavaScript。"
 
 #: src/about/konq_aboutpage.cpp:210
 #, kde-format
 msgid ""
 "JavaScript enabled (globally). Configure JavaScript <A HREF=\\\"%1\\\">here</"
 "A>."
-msgstr "JavaScript 已（全域）啟用。請在<A HREF=\\\"%1\\\">這裡</A>設定 JavaScript。"
+msgstr ""
+"JavaScript 已（全域）啟用。請在<A HREF=\\\"%1\\\">這裡</A>設定 JavaScript。"
 
 #: src/about/konq_aboutpage.cpp:211
 #, kde-format
@@ -278,8 +276,8 @@ msgid ""
 "NPAPI <A HREF=\"%2\">plugins</A> (for viewing <A HREF=\"%1\">Flash<SUP>&reg;"
 "</SUP></A>, etc.)"
 msgstr ""
-"NPAPI <A HREF=\"%2\">外掛程式</A>（供檢視 <A HREF=\"%1\">Flash<SUP>&reg;"
-"</SUP></A> 等)"
+"NPAPI <A HREF=\"%2\">外掛程式</A>（供檢視 <A HREF=\"%1\">Flash<SUP>&reg;</"
+"SUP></A> 等)"
 
 #: src/about/konq_aboutpage.cpp:219
 #, kde-format
@@ -395,8 +393,8 @@ msgid ""
 "encyclopedia a breeze. You can even <a href=\"%1\">create your own</a> Web-"
 "Shortcuts."
 msgstr ""
-"使用網路快捷鍵：輸入「gg: KDE」能使用 Google 在網路搜尋「KDE」搜尋片語。"
-"此處有許多預先定義的網路快捷鍵"
+"使用網路快捷鍵：輸入「gg: KDE」能使用 Google 在網路搜尋「KDE」搜尋片語。此處"
+"有許多預先定義的網路快捷鍵"
 
 #: src/about/konq_aboutpage.cpp:297
 #, kde-format
@@ -668,7 +666,8 @@ msgstr "允取存取"
 msgid ""
 "<qt>This untrusted page links to<br/><b>%1</b>.<br/>Do you want to follow "
 "the link?</qt>"
-msgstr "<qt>此不可信賴的網頁連結到<br /><B>%1</B>。<br />你要跟著連結去嗎？</qt>"
+msgstr ""
+"<qt>此不可信賴的網頁連結到<br /><B>%1</B>。<br />你要跟著連結去嗎？</qt>"
 
 #: src/webenginepage.cpp:561
 #, kde-format
@@ -772,7 +771,8 @@ msgstr ""
 msgid ""
 "<qt>This site is requesting to open a popup window to<p>%1</p><br/>Do you "
 "want to allow this?</qt>"
-msgstr "<qt>此網站正試圖開啟一個彈出式視窗到 <p>%1</p><br/>您允許此行為嗎？</qt>"
+msgstr ""
+"<qt>此網站正試圖開啟一個彈出式視窗到 <p>%1</p><br/>您允許此行為嗎？</qt>"
 
 #: src/webenginepage.cpp:804
 #, kde-format

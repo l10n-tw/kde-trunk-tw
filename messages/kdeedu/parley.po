@@ -3279,7 +3279,8 @@ msgstr "離開 Parley 時總是開啟作用中的收藏"
 msgid ""
 "When this option is checked, the last active collection will be loaded "
 "automatically when starting Parley instead of showing the welcome screen."
-msgstr "勾選此選項的話，啟動 Parley 時會自動載入上次的收藏，而不是顯示歡迎畫面。"
+msgstr ""
+"勾選此選項的話，啟動 Parley 時會自動載入上次的收藏，而不是顯示歡迎畫面。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoOpenLast)
 #: src/settings/generaloptionsbase.ui:29
@@ -3756,7 +3757,8 @@ msgstr "根據單元順序將新字彙附加到收藏中。"
 msgid ""
 "The number of entries that are practiced at the same time. If one of these "
 "is answered correctly another entry will be appended."
-msgstr "要同時練習的項目數。如果這些項目中的一個答對了，另一個項目就會被附加上去。"
+msgstr ""
+"要同時練習的項目數。如果這些項目中的一個答對了，另一個項目就會被附加上去。"
 
 #. i18n: ectx: label, entry (SwapDirection), group (PracticeOptions)
 #: src/settings/parley.kcfg:81
@@ -4543,11 +4545,6 @@ msgstr "<p>要快速輸入發音符號？只要雙擊您要的符號，就可以
 #. i18n: ectx: @info:tipoftheday
 #: tips:70
 #, kde-format
-#| msgid ""
-#| "<p>You can use the \"Download New Vocabulary\" dialog or visit the "
-#| "website listing many vocabulary documents:\n"
-#| "<a href=\"http://edu.kde.org/contrib/kvtml2.php\">http://edu.kde.org/"
-#| "contrib/kvtml2.php</a>.</p>\n"
 msgid ""
 "<p>You can use the \"Download New Vocabulary\" dialog or visit the website "
 "listing many vocabulary documents:\n"
@@ -4555,6 +4552,5 @@ msgid ""
 "contrib/kvtml2.php</a>.</p>\n"
 msgstr ""
 "<p>您可以使用「下載新字彙」對話框，或到網站上去看字彙文件：\n"
-"<a href=\"https://edu.kde.org/contrib/kvtml2.php\""
-">https://edu.kde.org/contrib/"
-"kvtml2.php</a>。</p>\n"
+"<a href=\"https://edu.kde.org/contrib/kvtml2.php\">https://edu.kde.org/"
+"contrib/kvtml2.php</a>。</p>\n"
