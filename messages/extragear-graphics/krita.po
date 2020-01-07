@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-04 02:50+0100\n"
+"POT-Creation-Date: 2020-01-07 02:48+0100\n"
 "PO-Revision-Date: 2020-01-01 16:14+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -42342,26 +42342,20 @@ msgstr "套用"
 msgid "Transform Tool Actions"
 msgstr "變形工具動作"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:757
-#, kde-format
-msgctxt "floating message in transformation tool"
-msgid "Layer type cannot use the transform tool"
-msgstr "圖層類型不支援變形工具"
-
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:779
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:780
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Selections are not used when editing transform masks "
 msgstr "編輯變形遮罩時，選取區域不被使用"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:827
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:860
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:828
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:861
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Cannot transform empty layer "
 msgstr "無法對空圖層進行變形操作"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:848
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:849
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid ""
@@ -42755,6 +42749,10 @@ msgstr "堆疊"
 #, kde-format
 msgid "Work Recursively"
 msgstr "以遞迴方式作業"
+
+#~ msgctxt "floating message in transformation tool"
+#~ msgid "Layer type cannot use the transform tool"
+#~ msgstr "圖層類型不支援變形工具"
 
 #~ msgid ""
 #~ "WARNING: This file contains information about your system and the\n"
