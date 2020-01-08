@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kbackup\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-18 03:18+0200\n"
+"POT-Creation-Date: 2020-01-08 03:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -343,7 +343,7 @@ msgid ""
 "on the profile settings."
 msgstr ""
 
-#: main.cxx:152 MainWindow.cxx:208
+#: main.cxx:152 MainWindow.cxx:207
 #, kde-format
 msgid "Could not open profile '%1' for reading: %2"
 msgstr ""
@@ -367,13 +367,13 @@ msgid "unlimited"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, startButton)
-#: MainWidgetBase.ui:41 MainWindow.cxx:114
+#: MainWidgetBase.ui:41 MainWindow.cxx:113
 #, kde-format
 msgid "Start Backup"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
-#: MainWidgetBase.ui:69 MainWindow.cxx:117
+#: MainWidgetBase.ui:69 MainWindow.cxx:116
 #, kde-format
 msgid "Cancel Backup"
 msgstr ""
@@ -482,84 +482,84 @@ msgstr ""
 msgid "Progress:"
 msgstr ""
 
-#: MainWindow.cxx:57
+#: MainWindow.cxx:56
 #, kde-format
 msgid "New Profile"
 msgstr ""
 
-#: MainWindow.cxx:61
+#: MainWindow.cxx:60
 #, kde-format
 msgid "Load Profile..."
 msgstr ""
 
-#: MainWindow.cxx:65
+#: MainWindow.cxx:64
 #, kde-format
 msgid "Save Profile"
 msgstr ""
 
-#: MainWindow.cxx:69
+#: MainWindow.cxx:68
 #, kde-format
 msgid "Save Profile As..."
 msgstr ""
 
-#: MainWindow.cxx:73
+#: MainWindow.cxx:72
 #, kde-format
 msgid "Profile Settings..."
 msgstr ""
 
-#: MainWindow.cxx:76
+#: MainWindow.cxx:75
 #, kde-format
 msgid "Enable All Messages"
 msgstr ""
 
-#: MainWindow.cxx:78
+#: MainWindow.cxx:77
 #, kde-format
 msgid "Dock in System Tray"
 msgstr ""
 
-#: MainWindow.cxx:82
+#: MainWindow.cxx:81
 #, kde-format
 msgid "Show Hidden Files"
 msgstr ""
 
-#: MainWindow.cxx:144
+#: MainWindow.cxx:143
 #, kde-format
 msgid "There is a backup in progress. Do you want to abort it?"
 msgstr ""
 
-#: MainWindow.cxx:186 MainWindow.cxx:232 MainWindow.cxx:249
+#: MainWindow.cxx:185 MainWindow.cxx:231 MainWindow.cxx:248
 #, kde-format
 msgid "Select Profile"
 msgstr ""
 
-#: MainWindow.cxx:187 MainWindow.cxx:233 MainWindow.cxx:250
+#: MainWindow.cxx:186 MainWindow.cxx:232 MainWindow.cxx:249
 #, kde-format
 msgid "KBackup Profile (*.kbp)"
 msgstr ""
 
-#: MainWindow.cxx:211 MainWindow.cxx:279
+#: MainWindow.cxx:210 MainWindow.cxx:278
 #, kde-format
 msgid "Open failed"
 msgstr ""
 
-#: MainWindow.cxx:260
+#: MainWindow.cxx:259
 #, kde-format
 msgid ""
 "The profile '%1' does already exist.\n"
 "Do you want to overwrite it?"
 msgstr ""
 
-#: MainWindow.cxx:263
+#: MainWindow.cxx:262
 #, kde-format
 msgid "Profile exists"
 msgstr ""
 
-#: MainWindow.cxx:276
+#: MainWindow.cxx:275
 #, kde-format
 msgid "Could not open profile '%1' for writing: %2"
 msgstr ""
 
-#: MainWindow.cxx:352
+#: MainWindow.cxx:351
 #, kde-format
 msgid ""
 "Files: %1 Size: %2 MB\n"

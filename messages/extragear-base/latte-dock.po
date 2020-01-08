@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-05 02:41+0100\n"
+"POT-Creation-Date: 2020-01-08 02:38+0100\n"
 "PO-Revision-Date: 2020-01-01 16:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -986,7 +986,7 @@ msgstr "在不同佈局支援無邊框最大化視窗"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: app/settings/settingsdialog.ui:698
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:573
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:575
 #: shell/package/contents/configuration/pages/TasksConfig.qml:416
 #, kde-format
 msgid "Actions"
@@ -1267,7 +1267,7 @@ msgid "Configure..."
 msgstr "設定..."
 
 #: shell/package/contents/configuration/pages/AppearanceConfig.qml:147
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:691
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:693
 #, kde-format
 msgid "Items"
 msgstr "物件"
@@ -1711,72 +1711,72 @@ msgstr "顯示"
 msgid "Hide"
 msgstr "隱藏"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:587
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:589
 #, kde-format
 msgid "Active Window"
 msgstr "作用中的視窗"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:598
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:600
 #, kde-format
 msgid "Track From"
 msgstr "追蹤從"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:604
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:606
 #, kde-format
 msgctxt "track from current screen"
 msgid "Current Screen"
 msgstr "目前的螢幕"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:605
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:607
 #, kde-format
 msgctxt "track from all screens"
 msgid "All Screens"
 msgstr "所有螢幕"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:624
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:626
 #, kde-format
 msgid "Empty Area"
 msgstr "清空區域"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:633
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:635
 #, kde-format
 msgid "Left Button"
 msgstr "左側按鈕"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:638
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:640
 #, kde-format
 msgid "Drag Active Window"
 msgstr "拖曳作用中視窗"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:641
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:643
 #, kde-format
 msgid ""
 "The user can use left mouse button to drag and maximized/restore last active "
 "window"
 msgstr "使用者可使用滑鼠左鍵拖曳及最大化／復原上個作用中視窗"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:657
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:659
 #, kde-format
 msgid "Mouse wheel"
 msgstr "滑鼠滾輪"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:663
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:665
 #, kde-format
 msgctxt "none scroll actions"
 msgid "None Action"
 msgstr "無動作"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:664
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:666
 #, kde-format
 msgid "Cycle Through Desktops"
 msgstr "桌面循環切換"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:665
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:667
 #, kde-format
 msgid "Cycle Through Activities"
 msgstr "活動循環切換"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:666
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:668
 #: shell/package/contents/configuration/pages/TasksConfig.qml:441
 #: shell/package/contents/configuration/pages/TasksConfig.qml:485
 #: shell/package/contents/configuration/pages/TasksConfig.qml:585
@@ -1784,12 +1784,12 @@ msgstr "活動循環切換"
 msgid "Cycle Through Tasks"
 msgstr "工作循環切換"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:698
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:700
 #, kde-format
 msgid "Show title tooltips on hovering"
 msgstr "在滑鼠游標置於其上時顯示標題工具提示"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:699
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:701
 #, kde-format
 msgid ""
 "Show thinner tooltips produced by Latte for items.\n"
@@ -1798,22 +1798,22 @@ msgstr ""
 "顯示由 Latte 為項目生成的較細工具提示。\n"
 "這些工具提示在小工具縮放特效被停用時不會被繪製"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:711
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:713
 #, kde-format
 msgid "Activate through mouse wheel"
 msgstr "透過滑鼠滾輪啟用"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:713
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:715
 #, kde-format
 msgid "Enable/Disable the mouse wheel action"
 msgstr "啟用或停用滑鼠滾輪動作"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:724
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:726
 #, kde-format
 msgid "➊ Activate based on position through global shortcuts"
 msgstr "➊ 透過全域快捷鍵啟用以位置為基礎"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:726
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:728
 #, kde-format
 msgid ""
 "This view is used for based on position global shortcuts. Take note that "
@@ -1821,43 +1821,43 @@ msgid ""
 msgstr ""
 "此檢視用於以位置為基礎的全域快捷鍵。注意僅有一個檢視可以為每個佈局啟用選項"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:740
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:742
 #, kde-format
 msgid "Floating"
 msgstr "浮動"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:753
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:755
 #, kde-format
 msgid "Always use screen gap for user interaction"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:755
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:757
 #, kde-format
 msgid "Panels in floating mode use the screen gap for user interaction"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:765
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:767
 #, fuzzy, kde-format
 #| msgid "Hide background shadow for maximized windows"
 msgid "Hide screen gap for maximized windows"
 msgstr "為最大化視窗隱藏背景陰影"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:767
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:769
 #, kde-format
 msgid "Panels in floating mode disable their screen gap for maximized windows"
 msgstr ""
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:789
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:791
 #, kde-format
 msgid "Environment"
 msgstr "環境"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:798
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:800
 #, kde-format
 msgid "Activate KWin edge after hiding"
 msgstr "在隱藏後啟用 KWin 邊緣"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:800
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:802
 #, kde-format
 msgid ""
 "After the view becomes hidden, KWin is informed to track user feedback. For "
@@ -1867,12 +1867,12 @@ msgstr ""
 "當隱藏該檢視時 KWin 將被告知追蹤使用者的回應動作。例如：當滑鼠游標靠近隱藏的"
 "檢視時顯示邊緣視覺提示。"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:810
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:812
 #, kde-format
 msgid "Can be above fullscreen windows"
 msgstr "可以比全螢幕視窗還上層"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:813
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:815
 #, kde-format
 msgid ""
 "BypassWindowManagerHint flag for the window. The view will be above all "
@@ -1881,12 +1881,12 @@ msgstr ""
 "視窗的 BypassWindowManagerHint 旗標。這個視窗檢視將會在所有視窗之上，就算那些"
 "視窗設定了「永遠於最上層」"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:822
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:824
 #, kde-format
 msgid "Raise on desktop change"
 msgstr "在桌面變更時提升"
 
-#: shell/package/contents/configuration/pages/BehaviorConfig.qml:832
+#: shell/package/contents/configuration/pages/BehaviorConfig.qml:834
 #, kde-format
 msgid "Raise on activity change"
 msgstr "在活動變更時提升"

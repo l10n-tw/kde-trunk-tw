@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevplatform\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-22 02:42+0100\n"
+"POT-Creation-Date: 2020-01-08 02:44+0100\n"
 "PO-Revision-Date: 2014-04-23 15:00+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -1443,24 +1443,24 @@ msgstr "未知"
 msgid "%1 of %2 : %3"
 msgstr "%2 的 %1：%3"
 
-#: language/util/debuglanguageparserhelper.h:196
+#: language/util/debuglanguageparserhelper.h:203
 #, kde-format
 msgid ""
 "files or - to read from STDIN, the latter is the default if nothing is "
 "provided"
 msgstr "檔案，或是用 - 表示從標準輸入讀取。若未提供檔案則預設使用標準輸入"
 
-#: language/util/debuglanguageparserhelper.h:199
+#: language/util/debuglanguageparserhelper.h:206
 #, kde-format
 msgid "print generated AST tree"
 msgstr "印出產生的 AST 樹"
 
-#: language/util/debuglanguageparserhelper.h:200
+#: language/util/debuglanguageparserhelper.h:207
 #, kde-format
 msgid "print generated token stream"
 msgstr "印出產生的 token stream"
 
-#: language/util/debuglanguageparserhelper.h:201
+#: language/util/debuglanguageparserhelper.h:208
 #, kde-format
 msgid "code to parse"
 msgstr "要剖析的代碼"
@@ -3703,7 +3703,7 @@ msgstr "過濾器："
 msgid "Create New Session"
 msgstr "建立新的作業階段"
 
-#: shell/sessionlock.cpp:171
+#: shell/sessionlock.cpp:167
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -3711,7 +3711,7 @@ msgid ""
 "starting a new one"
 msgstr ""
 
-#: shell/sessionlock.cpp:174
+#: shell/sessionlock.cpp:170
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "running %1 instance (PID: %2) is apparently hung"
@@ -3719,13 +3719,13 @@ msgctxt "@info:shell"
 msgid "Running %1 instance (PID: %2) is apparently hung"
 msgstr "執行中的 %1 實體（行程代碼：%2）顯然已卡住"
 
-#: shell/sessionlock.cpp:175
+#: shell/sessionlock.cpp:171
 #, kde-format
 msgctxt "@info:shell"
 msgid "running %1 instance (PID: %2) is apparently hung"
 msgstr "執行中的 %1 實體（行程代碼：%2）顯然已卡住"
 
-#: shell/sessionlock.cpp:181
+#: shell/sessionlock.cpp:177
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -3733,7 +3733,7 @@ msgid ""
 "is hanging."
 msgstr "指定的應用程式未回應 DBUS 呼叫。可能已經崩潰或是卡住。"
 
-#: shell/sessionlock.cpp:186
+#: shell/sessionlock.cpp:182
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -3741,13 +3741,13 @@ msgid ""
 msgstr ""
 "鎖定工作階段 <em>%1</em> 失敗，因為已經由 %2 於 %3 鎖定（行程代碼 %4）。"
 
-#: shell/sessionlock.cpp:190
+#: shell/sessionlock.cpp:186
 #, kde-format
 msgctxt "@info"
 msgid "Failed to lock the session <em>%1</em> (lock-file unavailable)."
 msgstr "鎖定工作階段 <em>%1</em> 失敗（無法取得鎖定檔）。"
 
-#: shell/sessionlock.cpp:194
+#: shell/sessionlock.cpp:190
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -3755,25 +3755,25 @@ msgid ""
 "session to launch.</p>"
 msgstr "<p>請關掉此應用程式實體並選擇啟動另一個工作階段。</p>"
 
-#: shell/sessionlock.cpp:200
+#: shell/sessionlock.cpp:196
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry startup"
 msgstr "重新嘗試啟動"
 
-#: shell/sessionlock.cpp:203
+#: shell/sessionlock.cpp:199
 #, kde-format
 msgctxt "@action:button"
 msgid "Choose another session"
 msgstr "關閉其它工作階段"
 
-#: shell/sessionlock.cpp:206
+#: shell/sessionlock.cpp:202
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to Lock Session %1"
 msgstr "鎖定工作階段 %1 失敗"
 
-#: shell/sessionlock.cpp:213
+#: shell/sessionlock.cpp:209
 #, kde-format
 msgctxt "@info"
 msgid "The session %1 is already active in another running instance."
@@ -4366,7 +4366,7 @@ msgid "Configure Runtimes"
 msgstr "設定工作階段"
 
 #: shell/settings/sourceformattersettings.cpp:83
-#: shell/sourceformattercontroller.cpp:144
+#: shell/sourceformattercontroller.cpp:152
 #, fuzzy, kde-format
 #| msgid "No Source Formatter available"
 msgid "Source Formatter"
@@ -4605,64 +4605,64 @@ msgstr ""
 msgid "Configure User Interface"
 msgstr "使用者介面"
 
-#: shell/sourceformattercontroller.cpp:150
+#: shell/sourceformattercontroller.cpp:158
 #, kde-format
 msgid "&Reformat Source"
 msgstr "重新格式化源碼(&R)"
 
-#: shell/sourceformattercontroller.cpp:151
+#: shell/sourceformattercontroller.cpp:159
 #, kde-format
 msgid "Reformat source using AStyle"
 msgstr "使用 AStyle 重新格式化源碼"
 
-#: shell/sourceformattercontroller.cpp:152
+#: shell/sourceformattercontroller.cpp:160
 #, kde-format
 msgid "Source reformatting functionality using <b>astyle</b> library."
 msgstr "使用 <b>astyle</b> 函式庫來重新編排源碼。"
 
-#: shell/sourceformattercontroller.cpp:157
+#: shell/sourceformattercontroller.cpp:165
 #, kde-format
 msgid "Reformat Line"
 msgstr "重新格式化源碼行"
 
-#: shell/sourceformattercontroller.cpp:158
+#: shell/sourceformattercontroller.cpp:166
 #, kde-format
 msgid "Reformat current line using AStyle"
 msgstr "使用 AStyle 重新格式化源碼行"
 
-#: shell/sourceformattercontroller.cpp:159
+#: shell/sourceformattercontroller.cpp:167
 #, kde-format
 msgid "Source reformatting of line under cursor using <b>astyle</b> library."
 msgstr "使用 <b>astyle</b> 函式庫來重新編排源碼。"
 
-#: shell/sourceformattercontroller.cpp:164
+#: shell/sourceformattercontroller.cpp:172
 #, fuzzy, kde-format
 #| msgid "Reformat Line"
 msgid "Reformat Files..."
 msgstr "重新格式化源碼行"
 
-#: shell/sourceformattercontroller.cpp:165
+#: shell/sourceformattercontroller.cpp:173
 #, kde-format
 msgid "Format file(s) using the current theme"
 msgstr "使用目前的主題來格式化檔案"
 
-#: shell/sourceformattercontroller.cpp:166
+#: shell/sourceformattercontroller.cpp:174
 #, kde-format
 msgid "Formatting functionality using <b>astyle</b> library."
 msgstr "使用 <b>astyle</b> 函式庫來格式化函式。"
 
-#: shell/sourceformattercontroller.cpp:729
+#: shell/sourceformattercontroller.cpp:737
 #, fuzzy, kde-format
 #| msgid "Reformat Line"
 msgid "Reformat files?"
 msgstr "重新格式化源碼行"
 
-#: shell/sourceformattercontroller.cpp:730
+#: shell/sourceformattercontroller.cpp:738
 #, kde-format
 msgid "Reformat all files in the selected folder?"
 msgstr ""
 
-#: shell/sourceformattercontroller.cpp:734
+#: shell/sourceformattercontroller.cpp:742
 #, fuzzy, kde-format
 #| msgid "Reformat Line"
 msgid "Reformat"
@@ -5152,24 +5152,24 @@ msgstr ""
 msgid "Run all tests in %1"
 msgstr "已經於 %1 執行所有測試"
 
-#: util/shellutils.cpp:96
+#: util/shellutils.cpp:106
 #, kde-format
 msgid ""
 "You don't have write permissions for the following files; add write "
 "permissions for owner before saving?"
 msgstr ""
 
-#: util/shellutils.cpp:98
+#: util/shellutils.cpp:108
 #, kde-format
 msgid "Some files are write-protected"
 msgstr ""
 
-#: util/shellutils.cpp:112
+#: util/shellutils.cpp:122
 #, kde-format
 msgid "Failed adding write permissions for some files."
 msgstr ""
 
-#: util/shellutils.cpp:113
+#: util/shellutils.cpp:123
 #, kde-format
 msgid "Failed setting permissions"
 msgstr ""
