@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-08 03:33+0100\n"
+"POT-Creation-Date: 2020-01-09 03:09+0100\n"
 "PO-Revision-Date: 2015-06-17 09:27+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -429,10 +429,17 @@ msgid "Export Rules"
 msgstr ""
 
 #: dkim-verify/dkimmanagerulesdialog.cpp:97
+#: dkim-verify/dkimmanagerulesdialog.cpp:100
 #, fuzzy, kde-format
 #| msgid "&Import"
 msgid "Import Rules"
 msgstr "匯入(&I)"
+
+#: dkim-verify/dkimmanagerulesdialog.cpp:100
+#, fuzzy, kde-format
+#| msgid "No signature found"
+msgid "No rules imported."
+msgstr "找不到簽章"
 
 #: dkim-verify/dkimmanageruleswidget.cpp:75
 #, kde-format
@@ -539,23 +546,23 @@ msgstr ""
 msgid "Rule:"
 msgstr ""
 
-#: dkim-verify/dkimviewermenu.cpp:44
+#: dkim-verify/dkimviewermenu.cpp:49
 #, kde-format
 msgid "DKIM"
 msgstr ""
 
-#: dkim-verify/dkimviewermenu.cpp:45
+#: dkim-verify/dkimviewermenu.cpp:50
 #, fuzzy, kde-format
 #| msgid "Keep Signature"
 msgid "Recheck DKIM Signature"
 msgstr "保存簽章"
 
-#: dkim-verify/dkimviewermenu.cpp:48
+#: dkim-verify/dkimviewermenu.cpp:53
 #, kde-format
 msgid "Update DKIM key"
 msgstr ""
 
-#: dkim-verify/dkimviewermenu.cpp:51
+#: dkim-verify/dkimviewermenu.cpp:56
 #, kde-format
 msgid "Rules..."
 msgstr ""

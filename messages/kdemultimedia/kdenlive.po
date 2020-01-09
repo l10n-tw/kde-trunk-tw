@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-08 03:14+0100\n"
+"POT-Creation-Date: 2020-01-09 02:56+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -3778,7 +3778,7 @@ msgstr "半徑"
 msgid "White Balance (GPU)"
 msgstr "白平衡"
 
-#: data/effects/mute.xml:3 src/timeline2/view/qml/TrackHead.qml:324
+#: data/effects/mute.xml:3 src/timeline2/view/qml/TrackHead.qml:328
 #, kde-format
 msgid "Mute"
 msgstr "靜音"
@@ -8381,19 +8381,19 @@ msgstr "察看聲訊縮略圖"
 msgid "Audio thumbs: cannot open file %1"
 msgstr "無法寫入檔案 %1"
 
-#: src/jobs/audiothumbjob.cpp:147
+#: src/jobs/audiothumbjob.cpp:154
 #, kde-format
 msgid ""
 "Audio thumbs: cannot create temporary file, check disk space and "
 "permissions\n"
 msgstr ""
 
-#: src/jobs/audiothumbjob.cpp:209
+#: src/jobs/audiothumbjob.cpp:216
 #, fuzzy, kde-format
 msgid "Audio thumbs: error reading audio thumbnail created with FFmpeg\n"
 msgstr "在正載入縮略圖"
 
-#: src/jobs/audiothumbjob.cpp:299
+#: src/jobs/audiothumbjob.cpp:311
 #, fuzzy, kde-format
 msgid "Audio thumbs: cannot open project file %1"
 msgstr "無法寫入檔案 %1"
@@ -9132,27 +9132,27 @@ msgid ""
 "<a href=\"https://ffmpeg.org\">FFmpeg</a> libraries"
 msgstr ""
 
-#: src/main.cpp:195
+#: src/main.cpp:193
 #, kde-format
 msgid "Set a custom config file name"
 msgstr ""
 
-#: src/main.cpp:196
+#: src/main.cpp:194
 #, kde-format
 msgid "Set the path for MLT environment"
 msgstr "設定 MLT 環境的路徑"
 
-#: src/main.cpp:197
+#: src/main.cpp:195
 #, kde-format
 msgid "MLT log level"
 msgstr ""
 
-#: src/main.cpp:198
+#: src/main.cpp:196
 #, kde-format
 msgid "Comma separated list of clips to add"
 msgstr ""
 
-#: src/main.cpp:199
+#: src/main.cpp:197
 #, kde-format
 msgid "Document to open"
 msgstr "要開啟的檔案"
@@ -9847,7 +9847,7 @@ msgstr "移除空白空間"
 msgid "Insert Track"
 msgstr "添加軌道"
 
-#: src/mainwindow.cpp:1434 src/timeline2/view/timelinecontroller.cpp:2688
+#: src/mainwindow.cpp:1434 src/timeline2/view/timelinecontroller.cpp:2704
 #, fuzzy, kde-format
 #| msgid "Paste Effects"
 msgid "Master effects"
@@ -10942,7 +10942,7 @@ msgstr ""
 msgid "close"
 msgstr "關閉"
 
-#: src/monitor/view/kdenlivemonitorrotoscene.qml:215
+#: src/monitor/view/kdenlivemonitorrotoscene.qml:221
 #, kde-format
 msgid ""
 "Click to add points,\n"
@@ -12448,13 +12448,13 @@ msgid "Change speed failed"
 msgstr "擷取的檔案"
 
 #: src/timeline2/model/timelinemodel.cpp:3717
-#: src/timeline2/view/qml/TrackHead.qml:334
+#: src/timeline2/view/qml/TrackHead.qml:338
 #, fuzzy, kde-format
 msgid "Lock track"
 msgstr "軌道"
 
 #: src/timeline2/model/timelinemodel.cpp:3722
-#: src/timeline2/view/qml/TrackHead.qml:334
+#: src/timeline2/view/qml/TrackHead.qml:338
 #, fuzzy, kde-format
 msgid "Unlock track"
 msgstr "軌道"
@@ -12532,23 +12532,23 @@ msgstr ""
 msgid "Preview rendering failed, check your parameters. %1Show details...%2"
 msgstr ""
 
-#: src/timeline2/view/qml/Clip.qml:367
+#: src/timeline2/view/qml/Clip.qml:365
 #, fuzzy, kde-format
 msgid "Offset: -%1"
 msgstr "偏移"
 
-#: src/timeline2/view/qml/Clip.qml:367
+#: src/timeline2/view/qml/Clip.qml:365
 #, fuzzy, kde-format
 msgid "Offset: %1"
 msgstr "偏移"
 
-#: src/timeline2/view/qml/Clip.qml:545 src/timeline2/view/qml/Clip.qml:595
+#: src/timeline2/view/qml/Clip.qml:543 src/timeline2/view/qml/Clip.qml:593
 #, fuzzy, kde-format
 #| msgid "More options"
 msgid "Click to add composition"
 msgstr "更多選項"
 
-#: src/timeline2/view/qml/Clip.qml:702
+#: src/timeline2/view/qml/Clip.qml:700
 #, fuzzy, kde-format
 #| msgid "Position"
 msgid ""
@@ -12556,7 +12556,7 @@ msgid ""
 "Position:%2"
 msgstr "使用濾鏡的區段"
 
-#: src/timeline2/view/qml/Clip.qml:772
+#: src/timeline2/view/qml/Clip.qml:770
 #, kde-format
 msgid "Out: "
 msgstr ""
@@ -12721,22 +12721,22 @@ msgid ""
 "operations"
 msgstr ""
 
-#: src/timeline2/view/qml/TrackHead.qml:324
+#: src/timeline2/view/qml/TrackHead.qml:328
 #, fuzzy, kde-format
 msgid "Unmute"
 msgstr "靜音預覽"
 
-#: src/timeline2/view/qml/TrackHead.qml:324
+#: src/timeline2/view/qml/TrackHead.qml:328
 #, fuzzy, kde-format
 msgid "Show"
 msgstr "全部察看"
 
-#: src/timeline2/view/qml/TrackHead.qml:324
+#: src/timeline2/view/qml/TrackHead.qml:328
 #, kde-format
 msgid "Hide"
 msgstr ""
 
-#: src/timeline2/view/qml/TrackHead.qml:417
+#: src/timeline2/view/qml/TrackHead.qml:421
 #, fuzzy, kde-format
 #| msgid "Track name"
 msgid "Edit track name"
@@ -12879,19 +12879,19 @@ msgstr "分離聲訊"
 msgid "Move item"
 msgstr "移動參照線"
 
-#: src/timeline2/view/timelinecontroller.cpp:2590
+#: src/timeline2/view/timelinecontroller.cpp:2606
 #, kde-format
 msgid "Impossible to capture on a locked track"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:2601
+#: src/timeline2/view/timelinecontroller.cpp:2617
 #, kde-format
 msgid ""
 "Impossible to capture here: the capture could override clips. Please remove "
 "clips after the current position or choose a different track"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:2646
+#: src/timeline2/view/timelinecontroller.cpp:2662
 #, fuzzy, kde-format
 #| msgid "Extract Audio"
 msgid "Record audio"

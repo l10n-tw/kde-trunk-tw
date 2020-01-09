@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-14 02:32+0100\n"
+"POT-Creation-Date: 2020-01-09 02:33+0100\n"
 "PO-Revision-Date: 2019-10-11 12:21+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Generator: Lokalize 19.08.1\n"
 
 #: src/filemetadataprovider.cpp:162 src/filemetadataprovider.cpp:168
-#: src/filemetadataprovider.cpp:229 src/filemetadataprovider.cpp:232
+#: src/filemetadataprovider.cpp:232 src/filemetadataprovider.cpp:235
 #, kde-format
 msgctxt "@item:intable"
 msgid "%1 item"
@@ -33,85 +33,91 @@ msgctxt "unknown file size"
 msgid "Unknown"
 msgstr "未知"
 
-#: src/filemetadataprovider.cpp:407 src/filemetadataprovider.cpp:422
+#: src/filemetadataprovider.cpp:410 src/filemetadataprovider.cpp:426
 #, kde-format
 msgctxt "@label"
 msgid "Comment"
 msgstr "註解"
 
-#: src/filemetadataprovider.cpp:408
+#: src/filemetadataprovider.cpp:411
 #, kde-format
 msgctxt "@label"
 msgid "Created"
 msgstr "已建立"
 
-#: src/filemetadataprovider.cpp:409
+#: src/filemetadataprovider.cpp:412
 #, kde-format
 msgctxt "@label"
 msgid "Accessed"
 msgstr "已存取"
 
-#: src/filemetadataprovider.cpp:410
+#: src/filemetadataprovider.cpp:413
 #, kde-format
 msgctxt "@label"
 msgid "Modified"
 msgstr "已變更"
 
-#: src/filemetadataprovider.cpp:411
+#: src/filemetadataprovider.cpp:414
 #, kde-format
 msgctxt "@label"
 msgid "Owner"
 msgstr "擁有者"
 
-#: src/filemetadataprovider.cpp:412
+#: src/filemetadataprovider.cpp:415
 #, kde-format
 msgctxt "@label"
 msgid "Group"
 msgstr "群組"
 
-#: src/filemetadataprovider.cpp:413
+#: src/filemetadataprovider.cpp:416
 #, kde-format
 msgctxt "@label"
 msgid "Permissions"
 msgstr "權限"
 
-#: src/filemetadataprovider.cpp:414 src/filemetadataprovider.cpp:421
+#: src/filemetadataprovider.cpp:417 src/filemetadataprovider.cpp:425
 #, kde-format
 msgctxt "@label"
 msgid "Rating"
 msgstr "評分"
 
-#: src/filemetadataprovider.cpp:415
+#: src/filemetadataprovider.cpp:418
 #, kde-format
 msgctxt "@label"
 msgid "Size"
 msgstr "大小"
 
-#: src/filemetadataprovider.cpp:416 src/filemetadataprovider.cpp:420
+#: src/filemetadataprovider.cpp:419 src/filemetadataprovider.cpp:424
 #, kde-format
 msgctxt "@label"
 msgid "Tags"
 msgstr "標籤"
 
-#: src/filemetadataprovider.cpp:417
+#: src/filemetadataprovider.cpp:420
 #, kde-format
 msgctxt "@label"
 msgid "Total Size"
 msgstr "總共大小"
 
-#: src/filemetadataprovider.cpp:418
+#: src/filemetadataprovider.cpp:421
 #, kde-format
 msgctxt "@label"
 msgid "Hidden items"
 msgstr "隱藏項目"
 
-#: src/filemetadataprovider.cpp:419
+#: src/filemetadataprovider.cpp:422
 #, kde-format
 msgctxt "@label"
 msgid "Type"
 msgstr "類型"
 
 #: src/filemetadataprovider.cpp:423
+#, kde-format
+msgctxt "@label"
+msgid "Link to"
+msgstr ""
+
+#: src/filemetadataprovider.cpp:427
 #, kde-format
 msgctxt "@label"
 msgid "Downloaded From"

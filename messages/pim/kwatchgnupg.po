@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwatchgnupg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-09 03:13+0200\n"
+"POT-Creation-Date: 2020-01-09 03:07+0100\n"
 "PO-Revision-Date: 2009-11-05 17:10+0800\n"
 "Last-Translator: Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv "
 "dot tw>\n"
@@ -152,7 +152,7 @@ msgstr "清除歷史"
 msgid "[%1] Log stopped"
 msgstr "【%1】紀錄停止"
 
-#: kwatchgnupgmainwin.cpp:153
+#: kwatchgnupgmainwin.cpp:154
 #, kde-format
 msgid ""
 "The watchgnupg logging process could not be started.\n"
@@ -163,17 +163,17 @@ msgstr ""
 "請將 watchgnupg 安裝目錄加入您的 $PATH 變數中。\n"
 "此紀錄視窗目前無法顯示任何有用的資運。"
 
-#: kwatchgnupgmainwin.cpp:155
+#: kwatchgnupgmainwin.cpp:156
 #, kde-format
 msgid "[%1] Log started"
 msgstr "【%1】紀錄開始"
 
-#: kwatchgnupgmainwin.cpp:191
+#: kwatchgnupgmainwin.cpp:193
 #, kde-format
 msgid "There are no components available that support logging."
 msgstr "沒有能支援紀錄的元件。"
 
-#: kwatchgnupgmainwin.cpp:197
+#: kwatchgnupgmainwin.cpp:199
 #, kde-format
 msgid ""
 "The watchgnupg logging process died.\n"
@@ -182,22 +182,22 @@ msgstr ""
 "watchgnupg 行程已結束。\n"
 "您要嘗試重新啟動嗎？"
 
-#: kwatchgnupgmainwin.cpp:197
+#: kwatchgnupgmainwin.cpp:199
 #, kde-format
 msgid "Try Restart"
 msgstr "重新啟動"
 
-#: kwatchgnupgmainwin.cpp:197
+#: kwatchgnupgmainwin.cpp:199
 #, kde-format
 msgid "Do Not Try"
 msgstr "不要嘗試"
 
-#: kwatchgnupgmainwin.cpp:198
+#: kwatchgnupgmainwin.cpp:200
 #, kde-format
 msgid "====== Restarting logging process ====="
 msgstr "====== 重新啟動紀錄行程 ======"
 
-#: kwatchgnupgmainwin.cpp:201
+#: kwatchgnupgmainwin.cpp:204
 #, kde-format
 msgid ""
 "The watchgnupg logging process is not running.\n"
@@ -206,12 +206,12 @@ msgstr ""
 "watchgnupg 紀錄行程沒有在執行。\n"
 "此紀錄視窗目前無法顯示任何有用的資運。"
 
-#: kwatchgnupgmainwin.cpp:235
+#: kwatchgnupgmainwin.cpp:239
 #, kde-format
 msgid "Save Log to File"
 msgstr "將紀錄儲存到檔案"
 
-#: kwatchgnupgmainwin.cpp:243
+#: kwatchgnupgmainwin.cpp:247
 #, kde-format
 msgid "Could not save file %1: %2"
 msgstr "無法儲存檔案 %1：%2"

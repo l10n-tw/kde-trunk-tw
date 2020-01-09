@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-07 03:52+0100\n"
+"POT-Creation-Date: 2020-01-09 03:21+0100\n"
 "PO-Revision-Date: 2020-01-05 15:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.12.0\n"
 
-#: plugin/actionlist.cpp:95
+#: plugin/actionlist.cpp:96
 #, kde-format
 msgid "Open with:"
 msgstr "開啟方式："
@@ -29,37 +29,37 @@ msgstr "開啟方式："
 msgid "Properties"
 msgstr "內容"
 
-#: plugin/actionlist.cpp:153
+#: plugin/actionlist.cpp:152
 #, kde-format
 msgid "Add to Desktop"
 msgstr "新增到桌面"
 
-#: plugin/actionlist.cpp:159
+#: plugin/actionlist.cpp:157
 #, kde-format
 msgid "Add to Panel (Widget)"
 msgstr "新增到面板（元件）"
 
-#: plugin/actionlist.cpp:165
+#: plugin/actionlist.cpp:162
 #, kde-format
 msgid "Pin to Task Manager"
 msgstr "釘選到工作管理員"
 
-#: plugin/actionlist.cpp:276 plugin/rootmodel.cpp:411
+#: plugin/actionlist.cpp:271 plugin/rootmodel.cpp:411
 #, kde-format
 msgid "Recent Documents"
 msgstr "最近使用的文件"
 
-#: plugin/actionlist.cpp:286
+#: plugin/actionlist.cpp:280
 #, kde-format
 msgid "Forget Recent Documents"
 msgstr "忘掉最近的文件"
 
-#: plugin/actionlist.cpp:344
+#: plugin/actionlist.cpp:338
 #, kde-format
 msgid "Edit Application..."
 msgstr "編輯應用程式..."
 
-#: plugin/actionlist.cpp:391
+#: plugin/actionlist.cpp:385
 #, kde-format
 msgctxt "@action opens a software center with the application"
 msgid "Uninstall or Manage Add-Ons..."
@@ -70,13 +70,13 @@ msgstr "解除安裝或管理外掛程式..."
 msgid "Hide Application"
 msgstr "隱藏應用程式"
 
-#: plugin/appentry.cpp:244
+#: plugin/appentry.cpp:243
 #, kde-format
 msgctxt "App name (Generic name)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: plugin/appentry.cpp:246
+#: plugin/appentry.cpp:245
 #, kde-format
 msgctxt "Generic name (App name)"
 msgid "%1 (%2)"
@@ -94,7 +94,7 @@ msgstr "應用程式"
 msgid "Unhide Applications in this Submenu"
 msgstr "在此子選單中取消隱藏"
 
-#: plugin/appsmodel.cpp:173
+#: plugin/appsmodel.cpp:172
 #, kde-format
 msgid "Unhide Applications in '%1'"
 msgstr "在 '%1' 中取消隱藏"
