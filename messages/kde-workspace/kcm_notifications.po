@@ -3,13 +3,13 @@
 # Copyright (C) 2019 This file is copyright:
 # This file is distributed under the same license as the plasma-desktop package.
 #
-# pan93412 <pan93412@gmail.com>, 2019.
+# pan93412 <pan93412@gmail.com>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-08 03:50+0100\n"
-"PO-Revision-Date: 2019-12-25 18:43+0800\n"
+"PO-Revision-Date: 2020-01-09 18:09+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -106,18 +106,18 @@ msgid "Notifications are currently not provided by Plasma."
 msgstr "通知目前不由 Plasma 提供。"
 
 #: package/contents/ui/main.qml:84
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Do not disturb:"
 msgid "Do Not Disturb mode:"
-msgstr "請勿打擾："
+msgstr "請勿打擾模式："
 
 #: package/contents/ui/main.qml:85
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Do not disturb when screens are mirrored"
 #| msgid "When screens are mirrored"
 msgctxt "Do not disturb when screens are mirrored"
 msgid "Enable when screens are mirrored"
-msgstr "鏡像螢幕時"
+msgstr "鏡像螢幕時啟用"
 
 #: package/contents/ui/main.qml:92
 #, kde-format
@@ -153,15 +153,15 @@ msgstr "顯示彈出通知"
 #: package/contents/ui/main.qml:153
 #, kde-format
 msgid "Popup:"
-msgstr ""
+msgstr "彈出視窗："
 
 #: package/contents/ui/main.qml:154
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Popup position near notification plasmoid"
 #| msgid "Near the notification icon"
 msgctxt "Popup position near notification plasmoid"
 msgid "Show near notification icon"
-msgstr "靠近通知圖示"
+msgstr "顯示靠近的通知圖示"
 
 #: package/contents/ui/main.qml:176
 #, kde-format
@@ -175,11 +175,11 @@ msgid_plural "%1 seconds"
 msgstr[0] "%1 秒"
 
 #: package/contents/ui/main.qml:194
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Hide popup after:"
 msgctxt "Part of a sentence like, 'Hide popup after n seconds'"
 msgid "Hide after:"
-msgstr "隱藏彈出通知前間隔："
+msgstr "隱藏間隔："
 
 #: package/contents/ui/main.qml:221
 #, kde-format
