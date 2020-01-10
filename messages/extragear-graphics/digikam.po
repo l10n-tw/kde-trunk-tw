@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-09 02:36+0100\n"
+"POT-Creation-Date: 2020-01-10 02:42+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -695,7 +695,7 @@ msgstr "沒有可用的匯出外掛程式"
 #: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:459
 #: core/dplugins/generic/webservices/smugmug/smugnewalbumdlg.cpp:101
 #: core/dplugins/generic/webservices/smugmug/smugwidget.cpp:113
-#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:58
+#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:59
 #: core/libs/dplugins/webservices/wssettingswidget.cpp:151
 #: core/libs/models/abstractalbummodel.cpp:429
 #: core/utilities/searchwindow/searchfields.cpp:87
@@ -3702,7 +3702,7 @@ msgstr "單位"
 #: core/app/views/tableview/tableview_column_thumbnail.cpp:95
 #: core/dplugins/generic/webservices/imgur/imgurimageslist.cpp:58
 #: core/dplugins/generic/webservices/ipfs/ipfsimageslist.cpp:53
-#: core/libs/dplugins/widgets/ditemslist.cpp:289
+#: core/libs/dplugins/widgets/ditemslist.cpp:295
 #: core/libs/dtrash/dtrashitemmodel.cpp:253
 #: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:533
 #: core/utilities/queuemanager/views/queuelist.cpp:313
@@ -12927,7 +12927,7 @@ msgstr "調整："
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:685
 #: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:281
 #: core/libs/database/utils/widgets/dbmigrationdlg.cpp:149
-#: core/libs/dplugins/webservices/wstooldialog.cpp:117
+#: core/libs/dplugins/webservices/wstooldialog.cpp:118
 #: core/utilities/imageeditor/editor/editortoolsettings.cpp:207
 #: core/utilities/imageeditor/editor/editorwindow.cpp:640
 #, kde-format
@@ -12936,7 +12936,7 @@ msgstr "取消"
 
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:477
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:656
-#: core/libs/dplugins/webservices/wstooldialog.cpp:119
+#: core/libs/dplugins/webservices/wstooldialog.cpp:120
 #, fuzzy, kde-format
 #| msgid "Cancel this operation."
 msgid "Cancel current operation"
@@ -12944,7 +12944,7 @@ msgstr "取消這個動作。"
 
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:481
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:647
-#: core/libs/dplugins/webservices/wstooldialog.cpp:110
+#: core/libs/dplugins/webservices/wstooldialog.cpp:111
 #, fuzzy, kde-format
 #| msgid "&Close"
 msgid "Close"
@@ -12952,7 +12952,7 @@ msgstr "關閉(&C)"
 
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:483
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:649
-#: core/libs/dplugins/webservices/wstooldialog.cpp:112
+#: core/libs/dplugins/webservices/wstooldialog.cpp:113
 #, fuzzy, kde-format
 #| msgid "Close view"
 msgid "Close window"
@@ -15771,7 +15771,7 @@ msgstr "相片屬性"
 #: core/utilities/facemanagement/widgets/assignnamewidget_p.cpp:184
 #: core/utilities/imageeditor/editor/editortoolsettings.cpp:203
 #: core/utilities/imageeditor/editor/editorwindow.cpp:635
-#: core/utilities/maintenance/facesdetector.cpp:72
+#: core/utilities/maintenance/facesdetector.cpp:73
 #: core/utilities/searchwindow/searchutilities.cpp:628
 #, kde-format
 msgid "OK"
@@ -16319,14 +16319,14 @@ msgid "Thunderbird"
 msgstr ""
 
 #: core/dplugins/generic/tools/sendbymail/manager/mailsettings.cpp:136
-#: core/libs/dplugins/webservices/wssettings.cpp:136
+#: core/libs/dplugins/webservices/wssettings.cpp:138
 #, kde-format
 msgctxt "Image format: JPEG"
 msgid "Jpeg"
 msgstr ""
 
 #: core/dplugins/generic/tools/sendbymail/manager/mailsettings.cpp:137
-#: core/libs/dplugins/webservices/wssettings.cpp:137
+#: core/libs/dplugins/webservices/wssettings.cpp:139
 #, fuzzy, kde-format
 #| msgid "Posing"
 msgctxt "Image format: PNG"
@@ -18454,8 +18454,8 @@ msgstr "全部不選"
 
 #: core/dplugins/generic/webservices/filetransfer/ftexportwidget.cpp:163
 #: core/dplugins/generic/webservices/filetransfer/ftimportwidget.cpp:104
-#: core/libs/dplugins/widgets/ditemslist.cpp:976
-#: core/libs/dplugins/widgets/ditemslist.cpp:1051
+#: core/libs/dplugins/widgets/ditemslist.cpp:982
+#: core/libs/dplugins/widgets/ditemslist.cpp:1057
 #, fuzzy, kde-format
 #| msgid "All Files"
 msgid "All Files (*)"
@@ -20718,14 +20718,14 @@ msgstr ""
 
 #: core/dplugins/generic/webservices/smugmug/smugnewalbumdlg.cpp:105
 #: core/dplugins/generic/webservices/vkontakte/vknewalbumdlg.cpp:119
-#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:118
+#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:117
 #, kde-format
 msgid "Title of the album that will be created (required)."
 msgstr ""
 
 #: core/dplugins/generic/webservices/smugmug/smugnewalbumdlg.cpp:120
 #: core/dplugins/generic/webservices/vkontakte/vknewalbumdlg.cpp:122
-#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:123
+#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:122
 #, fuzzy, kde-format
 #| msgid "Replace text in a renaming option"
 msgid "Description of the album that will be created (optional)."
@@ -23418,7 +23418,6 @@ msgstr ""
 "新的版本。"
 
 #: core/libs/database/tags/facetags.cpp:393
-#: core/utilities/facemanagement/widgets/facescanwidget.cpp:294
 #, kde-format
 msgctxt "People on your photos"
 msgid "People"
@@ -27987,18 +27986,18 @@ msgstr "全部清除"
 msgid "Clear"
 msgstr "清除"
 
-#: core/libs/dplugins/setup/dpluginsetup.cpp:167
+#: core/libs/dplugins/setup/dpluginsetup.cpp:171
 #, kde-format
 msgid "1 plugin installed"
 msgid_plural "%1 plugins installed"
 msgstr[0] ""
 
-#: core/libs/dplugins/setup/dpluginsetup.cpp:169
+#: core/libs/dplugins/setup/dpluginsetup.cpp:175
 #, kde-format
 msgid "No plugin installed"
 msgstr ""
 
-#: core/libs/dplugins/setup/dpluginsetup.cpp:174
+#: core/libs/dplugins/setup/dpluginsetup.cpp:182
 #, fuzzy, kde-format
 #| msgid "1 active filter"
 #| msgid_plural "%1 active filters"
@@ -28007,13 +28006,13 @@ msgid "(%1 activated)"
 msgid_plural "(%1 activated)"
 msgstr[0] "%1 個作用中的濾鏡"
 
-#: core/libs/dplugins/setup/dpluginsetup.cpp:184
+#: core/libs/dplugins/setup/dpluginsetup.cpp:196
 #, kde-format
 msgid "1 plugin found"
 msgid_plural "%1 plugins found"
 msgstr[0] ""
 
-#: core/libs/dplugins/setup/dpluginsetup.cpp:186
+#: core/libs/dplugins/setup/dpluginsetup.cpp:200
 #, kde-format
 msgid "No plugin found"
 msgstr ""
@@ -28039,43 +28038,43 @@ msgstr ""
 msgid "Password cannot be empty."
 msgstr "人物名稱不可留空"
 
-#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:61
+#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:62
 #, fuzzy, kde-format
 #| msgid "Title:"
 msgid "Title: "
 msgstr "標題："
 
-#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:62
+#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:63
 #, fuzzy, kde-format
 #| msgctxt "@option:check"
 #| msgid "Timestamps"
 msgid "Time Stamp: "
 msgstr "時間"
 
-#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:63
+#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:64
 #, fuzzy, kde-format
 #| msgid "Description:"
 msgid "Description: "
 msgstr "描述："
 
-#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:64
+#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:65
 #, fuzzy, kde-format
 #| msgid "Location:"
 msgid "Location: "
 msgstr "地點："
 
-#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:116
+#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:115
 #, fuzzy, kde-format
 #| msgid "Reset all settings to their default values."
 msgid "These are basic settings for the new %1 album."
 msgstr "重設所有設定值為預設值。"
 
-#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:121
+#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:120
 #, kde-format
 msgid "Date and Time of the album that will be created (optional)."
 msgstr ""
 
-#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:125
+#: core/libs/dplugins/webservices/wsnewalbumdialog.cpp:124
 #, kde-format
 msgid "Location of the album that will be created (optional)."
 msgstr ""
@@ -28097,44 +28096,44 @@ msgstr "像素計數"
 msgid "Choose the %1 account to use for exporting images:"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettings.cpp:121
+#: core/libs/dplugins/webservices/wssettings.cpp:123
 #, kde-format
 msgctxt "Web Service: FLICKR"
 msgid "Flickr"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettings.cpp:122
+#: core/libs/dplugins/webservices/wssettings.cpp:124
 #, kde-format
 msgctxt "Web Service: DROPBOX"
 msgid "Dropbox"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettings.cpp:123
+#: core/libs/dplugins/webservices/wssettings.cpp:125
 #, kde-format
 msgctxt "Web Service: IMGUR"
 msgid "Imgur"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettings.cpp:124
+#: core/libs/dplugins/webservices/wssettings.cpp:126
 #, kde-format
 msgctxt "Web Service: FACEBOOK"
 msgid "Facebook"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettings.cpp:125
+#: core/libs/dplugins/webservices/wssettings.cpp:127
 #, kde-format
 msgctxt "Web Service: SMUGMUG"
 msgid "Smugmug"
 msgstr ""
 
-#: core/libs/dplugins/webservices/wssettings.cpp:126
+#: core/libs/dplugins/webservices/wssettings.cpp:128
 #, fuzzy, kde-format
 #| msgid "Google Maps"
 msgctxt "Web Service: GDRIVE"
 msgid "Google Drive"
 msgstr "Google 地圖"
 
-#: core/libs/dplugins/webservices/wssettings.cpp:127
+#: core/libs/dplugins/webservices/wssettings.cpp:129
 #, fuzzy, kde-format
 #| msgid "Google Maps"
 msgctxt "Web Service: GPHOTO"
@@ -28277,98 +28276,98 @@ msgctxt "@action:button"
 msgid "&Start"
 msgstr "起始值："
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:290
+#: core/libs/dplugins/widgets/ditemslist.cpp:296
 #: core/utilities/import/dialogs/cameramessagebox.cpp:145
 #: core/utilities/searchwindow/searchfields.cpp:157
 #, kde-format
 msgid "File Name"
 msgstr "檔案名稱"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:291
+#: core/libs/dplugins/widgets/ditemslist.cpp:297
 #, fuzzy, kde-format
 #| msgid "User"
 msgid "User1"
 msgstr "使用者"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:292
+#: core/libs/dplugins/widgets/ditemslist.cpp:298
 #, fuzzy, kde-format
 #| msgid "User"
 msgid "User2"
 msgstr "使用者"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:293
+#: core/libs/dplugins/widgets/ditemslist.cpp:299
 #, fuzzy, kde-format
 #| msgid "User"
 msgid "User3"
 msgstr "使用者"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:294
+#: core/libs/dplugins/widgets/ditemslist.cpp:300
 #, fuzzy, kde-format
 #| msgid "User"
 msgid "User4"
 msgstr "使用者"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:295
+#: core/libs/dplugins/widgets/ditemslist.cpp:301
 #, fuzzy, kde-format
 #| msgid "User"
 msgid "User5"
 msgstr "使用者"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:296
+#: core/libs/dplugins/widgets/ditemslist.cpp:302
 #, fuzzy, kde-format
 #| msgid "User"
 msgid "User6"
 msgstr "使用者"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:539
+#: core/libs/dplugins/widgets/ditemslist.cpp:545
 #, fuzzy, kde-format
 #| msgid "Add a new value to the list"
 msgid "Add new images to the list"
 msgstr "加入新數值到清單中"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:540
+#: core/libs/dplugins/widgets/ditemslist.cpp:546
 #, fuzzy, kde-format
 #| msgid "Remove the current selected value from the list"
 msgid "Remove selected images from the list"
 msgstr "從清單中移除目前選擇的數值"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:541
+#: core/libs/dplugins/widgets/ditemslist.cpp:547
 #, fuzzy, kde-format
 #| msgid "Remove the current selected value from the list"
 msgid "Move current selected image up in the list"
 msgstr "從清單中移除目前選擇的數值"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:542
+#: core/libs/dplugins/widgets/ditemslist.cpp:548
 #, fuzzy, kde-format
 #| msgid "Remove the current selected value from the list"
 msgid "Move current selected image down in the list"
 msgstr "從清單中移除目前選擇的數值"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:543
+#: core/libs/dplugins/widgets/ditemslist.cpp:549
 #, fuzzy, kde-format
 #| msgid "Clear List"
 msgid "Clear the list."
 msgstr "清除清單"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:544
+#: core/libs/dplugins/widgets/ditemslist.cpp:550
 #, kde-format
 msgid "Load a saved list."
 msgstr ""
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:545
+#: core/libs/dplugins/widgets/ditemslist.cpp:551
 #, fuzzy, kde-format
 #| msgid "Save theme"
 msgid "Save the list."
 msgstr "儲存佈景主題"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:975
+#: core/libs/dplugins/widgets/ditemslist.cpp:981
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Select Image to Upload"
 msgid "Select the image file list to load"
 msgstr "選擇要更新的影像"
 
-#: core/libs/dplugins/widgets/ditemslist.cpp:1050
+#: core/libs/dplugins/widgets/ditemslist.cpp:1056
 #, kde-format
 msgid "Select the image file list to save"
 msgstr ""
@@ -28379,20 +28378,20 @@ msgstr ""
 msgid "About..."
 msgstr "關於"
 
-#: core/libs/dplugins/widgets/dpreviewimage.cpp:527
-#: core/libs/dplugins/widgets/dpreviewimage.cpp:528
+#: core/libs/dplugins/widgets/dpreviewimage.cpp:535
+#: core/libs/dplugins/widgets/dpreviewimage.cpp:536
 #, kde-format
 msgid "Zoom In"
 msgstr "放大"
 
-#: core/libs/dplugins/widgets/dpreviewimage.cpp:534
-#: core/libs/dplugins/widgets/dpreviewimage.cpp:535
+#: core/libs/dplugins/widgets/dpreviewimage.cpp:542
+#: core/libs/dplugins/widgets/dpreviewimage.cpp:543
 #, kde-format
 msgid "Zoom Out"
 msgstr "縮小"
 
-#: core/libs/dplugins/widgets/dpreviewimage.cpp:541
-#: core/libs/dplugins/widgets/dpreviewimage.cpp:542
+#: core/libs/dplugins/widgets/dpreviewimage.cpp:549
+#: core/libs/dplugins/widgets/dpreviewimage.cpp:550
 #, fuzzy, kde-format
 #| msgid "Zoom out"
 msgid "Zoom to Fit"
@@ -43134,7 +43133,7 @@ msgstr "相似檔："
 msgid "Find duplicates items"
 msgstr "尋找重覆的項目"
 
-#: core/utilities/maintenance/facesdetector.cpp:114
+#: core/utilities/maintenance/facesdetector.cpp:117
 #, kde-format
 msgid "Updating faces database."
 msgstr "正在更新臉孔資料庫"

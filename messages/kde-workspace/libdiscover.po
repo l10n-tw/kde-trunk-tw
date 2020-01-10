@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-01 03:37+0100\n"
+"POT-Creation-Date: 2020-01-10 03:40+0100\n"
 "PO-Revision-Date: 2019-11-03 14:13+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -474,7 +474,7 @@ msgid "Local bundle"
 msgstr "本機 Bundle"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1220
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:488
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:489
 #, kde-format
 msgid "Malformed appstream url '%1'"
 msgstr "不正確的 appstream 網址 '%1'"
@@ -530,8 +530,8 @@ msgid "Adding remote '%1' in %2 from %3"
 msgstr "正在增加來自 %3 的 %2 中「%1」遠端位置"
 
 #: libdiscover/backends/FwupdBackend/FwupdSourcesBackend.cpp:123
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:330
-#: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:274
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:332
+#: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:275
 #, kde-format
 msgid "Accept EULA"
 msgstr "接受 EULA"
@@ -643,7 +643,7 @@ msgctxt "Category"
 msgid "Fonts"
 msgstr "字型"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:174
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:175
 #, kde-format
 msgid "Please make sure that Appstream is properly set up on your system"
 msgstr "請確認 Appstream 已經在您的系統上設定好了"
@@ -1255,13 +1255,13 @@ msgctxt "update state"
 msgid "Testing"
 msgstr "測試中"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:120
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:139
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:121
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:140
 #, kde-format
 msgid "Offline Updates"
 msgstr "離線更新"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:121
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:122
 #, kde-format
 msgid ""
 "Failed to update %1 package\n"
@@ -1273,30 +1273,30 @@ msgstr[0] ""
 "無法更新 %1 個軟體包\n"
 "%2"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:123
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:141
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:124
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:142
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Discover"
 msgstr "開啟《探詢》"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:123
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:124
 #, kde-format
 msgctxt "@action:button"
 msgid "Repair System"
 msgstr "修復系統"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:131
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:132
 #, kde-format
 msgid "Repair Failed"
 msgstr "修復失敗"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:131
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:132
 #, kde-format
 msgid "Please report to your distribution: %1"
 msgstr "請回報到您的發行版：%1"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:140
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:141
 #, kde-format
 msgid "Successfully updated %1 package"
 msgid_plural "Successfully updated %1 packages"
@@ -1350,12 +1350,12 @@ msgstr[0] "%2 （加上 %1 個依賴庫）"
 msgid "Repository URL:"
 msgstr "軟體庫 URL："
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:214
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:216
 #, kde-format
 msgid "Packages to remove"
 msgstr "個軟體包要移除"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:214
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:216
 #, kde-format
 msgid ""
 "The following packages will be removed by the update:\n"
@@ -1368,13 +1368,13 @@ msgstr ""
 "為了安裝：\n"
 "<ul><li>%2</li></ul>"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:230
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:232
 #, kde-format
 msgid "Please restart the computer to finish the update"
 msgstr "重新啟動電腦以完成更新程序"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:317
-#: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:289
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:319
+#: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:290
 #, kde-format
 msgid ""
 "Media Change of type '%1' is requested.\n"
@@ -1383,8 +1383,8 @@ msgstr ""
 "要求變更型態 %1 的媒體：\n"
 "%2"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:330
-#: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:274
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:332
+#: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:275
 #, kde-format
 msgid ""
 "The package %1 and its vendor %2 require that you accept their license:\n"
@@ -1393,14 +1393,14 @@ msgstr ""
 "軟體包 %1 的提供廠商 %2 要求您接受他們的授權條款：\n"
 "%3"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:424
-#: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:301
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:426
+#: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:302
 #, kde-format
 msgid "Missing signature for %1 in %2"
 msgstr "在 %2 中缺少對 %1 的簽名"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:425
-#: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:302
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:427
+#: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:303
 #, kde-format
 msgid ""
 "Do you trust the following key?\n"
@@ -1419,12 +1419,12 @@ msgstr ""
 "指紋： %4\n"
 "時間戳： %4\n"
 
-#: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:191
+#: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:192
 #, kde-format
 msgid "Confirm package removal"
 msgstr "確定移除軟體包"
 
-#: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:191
+#: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:192
 #, kde-format
 msgid ""
 "This action will also remove the following package:\n"

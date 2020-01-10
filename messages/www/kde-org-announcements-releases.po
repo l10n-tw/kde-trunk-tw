@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pan 93412\n"
-"POT-Creation-Date: 2020-01-09 03:16+0100\n"
+"POT-Creation-Date: 2020-01-10 03:39+0100\n"
 "PO-Revision-Date: 2019-12-05 00:40+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -51,11 +51,13 @@ msgstr ""
 
 #. type: Plain text
 #: content/19.12-rc/_index.md:9 content/2019-12-apps-update/_index.md:9
+#: content/2020-01-apps-update/_index.md:7
 msgid "layout: page # don't translate"
 msgstr ""
 
 #. type: Plain text
 #: content/19.12-rc/_index.md:11 content/2019-12-apps-update/_index.md:11
+#: content/2020-01-apps-update/_index.md:11
 #, no-wrap
 msgid ""
 "type: announcement # don't translate\n"
@@ -113,6 +115,7 @@ msgstr ""
 
 #. type: Plain text
 #: content/2019-12-apps-update/_index.md:5
+#: content/2020-01-apps-update/_index.md:9
 msgid "summary: \"What Happened in KDE's Applications This Month\""
 msgstr ""
 
@@ -555,20 +558,340 @@ msgid ""
 "and because it is dozens of different products rather than a single whole."
 msgstr ""
 
-#: i18n/en.yaml:0
-msgid "Download KDE Software"
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:3
+msgid "title: KDE's January 2020 Apps Update"
 msgstr ""
 
-#: i18n/en.yaml:0
-msgid "Products"
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:5
+msgid "publishDate: 2020-01-09 12:00:00"
 msgstr ""
 
-#: i18n/en.yaml:0
-msgid "KDE Patrons"
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:14
+msgid ""
+"The year is 2020, we are living in the future, let's see what KDE apps has "
+"brought us in the last month!"
 msgstr ""
 
-#: i18n/en.yaml:0
-msgid "Screenshots"
+#. type: Title ##
+#: content/2020-01-apps-update/_index.md:15
+#, no-wrap
+msgid "KTimeTracker ported to KDE Frameworks 5"
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:21
+msgid ""
+"The long-awaited modernized version of KTimeTracker is finally released.  "
+"The application is a personal time tracker for busy people which is now "
+"available on Linux, FreeBSD and Windows. Over the course of 2019 it had been "
+"ported to Qt5 and KDE Frameworks after being unmaintained since around 2013."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:23
+#, no-wrap
+msgid "{{< img class=\"text-center\" src=\"ktimetracker.png\" link=\"https://cdn.kde.org/screenshots/ktimetracker/ktimetracker.png\" caption=\"KTimeTracker\" >}}\n"
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:27
+msgid ""
+"The new version is also polished and slightly modernised with the most "
+"noticeable new features being the new Task Time Editing dialog and live "
+"preview in the Export dialog as seen in the picture below."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:29
+#, no-wrap
+msgid "{{< img class=\"text-center\" src=\"ktimetracker-export.png\" link=\"https://cgit.kde.org/ktimetracker.git/plain/doc/export-times-csv.png\" caption=\"Export dialog in KTimeTracker\" >}}\n"
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:32
+msgid ""
+"https://download.kde.org/stable/ktimetracker/5.0.1/src/ It is available "
+"through your Linux distro or as a [Windows installer](https://download.kde."
+"org/stable/ktimetracker/5.0.1/win64/) and there's even [untested MacOS "
+"builds](https://binary-factory.kde.org/job/KTimeTracker_Nightly_macos/) "
+"built nightly."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:34
+msgid ""
+"[The release is announced in the blog of the maintainer Alexander Potashev]"
+"(https://aspotashev.blogspot.com/2019/12/ktimetracker-501-released.html)"
+msgstr ""
+
+#. type: Title ##
+#: content/2020-01-apps-update/_index.md:35
+#, no-wrap
+msgid "KStars 3.3.9"
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:38
+msgid ""
+"Astronomy program [KStars got new features in 3.3.9](http://knro.blogspot."
+"com/2020/01/kstars-v339-is-released.html)."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:40
+msgid ""
+"Images can have fine changes in Shadows, Midtones, and Highlights allowing "
+"the faintest of stars to be seen."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:42
+msgid ""
+"Alternative constellations from the Western Sky Culture which is fascinating "
+"to [read about](https://sternenkarten.com/2019/12/27/kstars-clines/)."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:44
+#, no-wrap
+msgid "{{< img src=\"Screenshot_20200102_162452.jpg\" caption=\"Alternative constellations\" alt=\"Western Sky Culture\" >}}\n"
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:46
+msgid ""
+"[KStars is available for](https://edu.kde.org/kstars/) Android, Windows, "
+"MacOS, Snap store and from your Linux distro."
+msgstr ""
+
+#. type: Title ##
+#: content/2020-01-apps-update/_index.md:47
+#, no-wrap
+msgid "Common Frameworks - KNewStuff"
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:50
+msgid ""
+"Here on the Apps Update we focus on the apps rather than coding libraries.  "
+"But new features in the common libraries will mean new features in all your "
+"apps :)"
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:52
+msgid ""
+"This month saw a redesigned UI for KNewStuff, the framework to download "
+"addons for your applications.  The browse and download dialog was redesigned "
+"and the comments section can now be filtered.  It'll be appearing in all "
+"your apps and settings modules shortly starting with the Global Theme module "
+"in System Settings."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:54
+#, no-wrap
+msgid "{{< img src=\"knewstuff-comments.png\" caption=\"Filters on Comments\" alt=\"Filters on Comments\" style=\"width: 800px\">}}\n"
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:56
+#, no-wrap
+msgid "{{< img src=\"knewstuff.png\" caption=\"Redesigned Browse Dialog\" alt=\"Redesigned Browse Dialog\" style=\"width: 800px\">}}\n"
+msgstr ""
+
+#. type: Title ##
+#: content/2020-01-apps-update/_index.md:57
+#, no-wrap
+msgid "Bugfixes"
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:60
+msgid ""
+"[KDevelop's monthly bugfix update 5.4.6](https://www.kdevelop.org/news/"
+"kdevelop-546-released) fixed a longstanding problem where the GPL and LGPL "
+"headers were mixed up, grab it from your distro or Appimage to make sure "
+"your licencing is correct."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:62
+msgid ""
+"[Latte Dock 0.9.7](https://psifidotos.blogspot.com/2019/12/latte-bug-fix-"
+"release-v097.html) fixed some features with Qt 5.14 and removed some crashes."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:64
+msgid "Dolphin Plugins 19.12.1 fixed a broken SVN Commit dialog."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:66
+msgid ""
+"There was improved file indexing in Elisa.  It also fixed some compilation "
+"issues on Android and without Baloo."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:68
+msgid ""
+"The new release of KPat was declaired to have no [OARS](https://hughsie."
+"github.io/oars/index.html) relevant age restrictions."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:70
+msgid "Okular fixed a crash when closing the print preview dialog."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:72
+msgid ""
+"This month's release of Kdenlive video editor had an impressive number of "
+"fixes best of all was updating the [screenshots](https://kde.org/"
+"applications/multimedia/org.kde.kdenlive) used in the meta info. It also has "
+"dozens of improvements and fixes in timeline and preview handling."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:74
+msgid ""
+"New JavaScript support is now in Kate's [LSP](https://langserver.org/) "
+"client."
+msgstr ""
+
+#. type: Title ##
+#: content/2020-01-apps-update/_index.md:75
+#, no-wrap
+msgid "Enjoy KDE on the Flathub Store"
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:78
+msgid ""
+"KDE is embracing all the app stores.  We can now deliver more and more of "
+"our programs directly to you the user.  One of the leading app stores on "
+"Linux is [Flathub](https://flathub.org/home) which uses the FlatPak format."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:80
+msgid ""
+"You may well already have Flatpak and Flathub configured on your system and "
+"ready to use in Discover or other app installers.  For example KDE neon has "
+"set it up by default on installs for over a year now.  If not it's a quick "
+"[setup process](https://flatpak.org/setup/) for all the major distros."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:82
+msgid ""
+"If you're interested in the techy details you can browse [KDE's Flatpak "
+"packaging repo](https://phabricator.kde.org/source/flatpak-kde-"
+"applications/) and read the [KDE Flatpak guide](https://community.kde.org/"
+"Guidelines_and_HOWTOs/Flatpak)."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:84
+msgid ""
+"But probably what you're interested in is the apps so take a look at what "
+"the [Flathub store has under KDE](https://flathub.org/apps/search/kde)."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:86
+#, no-wrap
+msgid "{{< img src=\"flathub.png\" alt=\"KDE on Flathub\" style=\"width: 800px\" >}}\n"
+msgstr ""
+
+#. type: Title ##
+#: content/2020-01-apps-update/_index.md:87
+#, no-wrap
+msgid "LabPlot now on Chocolatey"
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:90
+msgid ""
+"[Chocolatey](https://chocolatey.org/) is a package manager for Windows.  If "
+"you want full control over what software is installed on your Windows "
+"machine or whole office of machines then Chocolatey gives you easy control "
+"over that just like you are used to on Linux."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:92
+msgid ""
+"[LabPlot](https://chocolatey.org/packages/labplot) is KDE's app for "
+"interactive graphing and analysis of scientific data and it is now available "
+"through Chocolatey.  Give it a try!"
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:94
+msgid ""
+"[LabPlot blog](https://labplot.kde.org/2019/09/17/chocolatey-package-for-"
+"labplot-available/)"
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:96
+#, no-wrap
+msgid "{{< img src=\"labplot.png\" alt=\"LabPlot on Chocolatey\" style=\"width: 800px\" >}}\n"
+msgstr ""
+
+#. type: Title ##
+#: content/2020-01-apps-update/_index.md:97
+#, no-wrap
+msgid "Website Updates"
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:100
+msgid ""
+"The recently revived KDE Web Team has been updating a bunch of our older "
+"themed sites. The newly relaunched [KPhotoAlbum](https://www.kphotoalbum."
+"org/) website is a lovely example, updated and refreshed for our photo "
+"storage and search app."
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:102
+#, no-wrap
+msgid "{{< img src=\"kphotoalbum.png\" alt=\"New KPhotoAlbum website\" >}}\n"
+msgstr ""
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:104
+msgid ""
+"And if you want to show off a simple to use but full featured local music "
+"player but were ashamed by the old looking website, [JuK](https://juk.kde."
+"org/) has just had an updated website too."
+msgstr ""
+
+#. type: Title ##
+#: content/2020-01-apps-update/_index.md:105
+#, fuzzy, no-wrap
+#| msgid "Release"
+msgid "Releases 19.12.1"
+msgstr "發行版本"
+
+#. type: Plain text
+#: content/2020-01-apps-update/_index.md:107
+msgid ""
+"Some of our projects release on their own timescale and some get released en-"
+"masse. The 19.12.1 bundle of projects was released today and should be "
+"available through app stores and distros soon.  See the [19.12.1 releases "
+"page](https://www.kde.org/info/releases-19.12.1.php).  This bundle was "
+"previously called KDE Applications but has been de-branded to become a "
+"release service to avoid confusion with all the other applications by KDE "
+"and because it is dozens of different products rather than a single whole."
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -576,24 +899,34 @@ msgid "Press Contact"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "Return to kde.org"
+msgid "RSS Feed"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "News &amp; Press"
+msgid "Announcements"
+msgstr "公告"
+
+#: i18n/en.yaml:0
+msgid ""
+"Show your love for KDE! Purchase books, mugs, apparel, and more to support "
+"KDE."
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "Why Donate?"
+msgid "Donate via PayPal"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "KDE applications"
+msgid "International Websites"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "Destinations"
+msgid "API Documentation"
 msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Learn More"
+msgstr "了解更多"
 
 #: i18n/en.yaml:0
 #, fuzzy
@@ -606,14 +939,6 @@ msgid "Donate to KDE"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "Donate via PayPal"
-msgstr ""
-
-#: i18n/en.yaml:0
-msgid "Code of Conduct"
-msgstr ""
-
-#: i18n/en.yaml:0
 msgid "Resources"
 msgstr ""
 
@@ -622,7 +947,43 @@ msgid "Development and communication of KDE software"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "Click here to browse"
+msgid "Develop"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Code of Conduct"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Return to kde.org"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Screenshots"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Destinations"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "KDE applications"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "KDE Patrons"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "News &amp; Press"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "KDE Timeline"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Products"
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -630,39 +991,17 @@ msgid "Visit the KDE MetaStore"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "Develop"
-msgstr ""
-
-#: i18n/en.yaml:0
-msgid "RSS Feed"
-msgstr ""
-
-#: i18n/en.yaml:0
-msgid "International Websites"
-msgstr ""
-
-#: i18n/en.yaml:0
 msgid "Other ways to donate"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "API Documentation"
+msgid "Download KDE Software"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "Announcements"
-msgstr "公告"
-
-#: i18n/en.yaml:0
-msgid "Learn More"
-msgstr "了解更多"
-
-#: i18n/en.yaml:0
-msgid "KDE Timeline"
+msgid "Why Donate?"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid ""
-"Show your love for KDE! Purchase books, mugs, apparel, and more to support "
-"KDE."
+msgid "Click here to browse"
 msgstr ""
