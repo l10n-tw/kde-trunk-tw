@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-10 03:30+0100\n"
+"POT-Creation-Date: 2020-01-11 03:27+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -1705,7 +1705,7 @@ msgctxt "Menu item"
 msgid "Encoding"
 msgstr "編碼"
 
-#: editor/kmcomposerwin.cpp:258 kmail_part.cpp:62 kmmainwin.cpp:63
+#: editor/kmcomposerwin.cpp:258 kmail_part.cpp:61 kmmainwin.cpp:63
 #: kmreadermainwin.cpp:445 kontactplugin/kmail/kmail_plugin.cpp:56
 #, kde-format
 msgid "KMail2"
@@ -2048,13 +2048,13 @@ msgstr "<qt>這會完全隱藏選單列。您可以按下 %1 重新顯示選單�
 msgid "Hide menu bar"
 msgstr "隱藏選單列"
 
-#: editor/kmcomposerwin.cpp:1507 editor/kmcomposerwin.cpp:3360
+#: editor/kmcomposerwin.cpp:1507 editor/kmcomposerwin.cpp:3367
 #, kde-format
 msgctxt "Shows the linenumber of the cursor position."
 msgid " Line: %1 "
 msgstr " 行：%1"
 
-#: editor/kmcomposerwin.cpp:1511 editor/kmcomposerwin.cpp:3362
+#: editor/kmcomposerwin.cpp:1511 editor/kmcomposerwin.cpp:3369
 #, kde-format
 msgid " Column: %1 "
 msgstr " 欄位：%1"
@@ -2321,28 +2321,28 @@ msgstr "遺失格式"
 msgid "Add Markup Plain Text"
 msgstr "新增標記純文字"
 
-#: editor/kmcomposerwin.cpp:3693
+#: editor/kmcomposerwin.cpp:3700
 #, kde-format
 msgid ""
 "High security encryption will be used for this recipient (the encryption key "
 "is fully trusted). Click the icon for details."
 msgstr ""
 
-#: editor/kmcomposerwin.cpp:3698
+#: editor/kmcomposerwin.cpp:3705
 #, kde-format
 msgid ""
 "Medium security encryption will be used for this recipient (the encryption "
 "key is marginally trusted). Click the icon for details."
 msgstr ""
 
-#: editor/kmcomposerwin.cpp:3703
+#: editor/kmcomposerwin.cpp:3710
 #, kde-format
 msgid ""
 "Low security encryption will be used for this recipient (the encryption key "
 "is untrusted). Click the icon for details."
 msgstr ""
 
-#: editor/kmcomposerwin.cpp:3709
+#: editor/kmcomposerwin.cpp:3716
 #, kde-format
 msgid ""
 "The email to this recipient will be encrypted, but the security of the "
@@ -2350,7 +2350,7 @@ msgid ""
 "icon for details."
 msgstr ""
 
-#: editor/kmcomposerwin.cpp:3743
+#: editor/kmcomposerwin.cpp:3750
 #, fuzzy, kde-format
 #| msgid "Login Information"
 msgid "Plugin Editor Information"
@@ -3269,22 +3269,22 @@ msgstr "加入通訊錄"
 msgid "Contact created successfully"
 msgstr "聯絡人已成功建立"
 
-#: job/createnewcontactjob.cpp:140 kmreaderwin.cpp:862
+#: job/createnewcontactjob.cpp:140 kmreaderwin.cpp:863
 #, kde-format
 msgid "Contact cannot be stored: %1"
 msgstr "聯絡人無法儲存：%1"
 
-#: job/createnewcontactjob.cpp:140 kmreaderwin.cpp:862
+#: job/createnewcontactjob.cpp:140 kmreaderwin.cpp:863
 #, kde-format
 msgid "Failed to store contact"
 msgstr "儲存聯絡人失敗"
 
-#: job/opencomposerjob.cpp:126
+#: job/opencomposerjob.cpp:127
 #, kde-format
 msgid "Do you want to attach this folder \"%1\"?"
 msgstr "您確定要附加此資料夾 \"%1\" 嗎？"
 
-#: job/opencomposerjob.cpp:126
+#: job/opencomposerjob.cpp:127
 #, kde-format
 msgid "Attach Folder"
 msgstr "附加資料夾"
@@ -3679,66 +3679,66 @@ msgstr "HTML 工具列"
 msgid "Text Direction Toolbar"
 msgstr "文字方向工具列"
 
-#: kmkernel.cpp:747
+#: kmkernel.cpp:741
 #, kde-format
 msgid "KMail is set to be offline; all network jobs are suspended"
 msgstr "KMail 目前設定為離線工作，所有網路相關的工作都將暫停。"
 
-#: kmkernel.cpp:769 kmmainwidget.cpp:2395 kmmainwidget.cpp:2411
+#: kmkernel.cpp:763 kmmainwidget.cpp:2395 kmmainwidget.cpp:2411
 #, fuzzy, kde-format
 #| msgid "Sendmail"
 msgid "Send Email"
 msgstr "Sendmail"
 
-#: kmkernel.cpp:770 kmmainwidget.cpp:2396 kmmainwidget.cpp:2412
+#: kmkernel.cpp:764 kmmainwidget.cpp:2396 kmmainwidget.cpp:2412
 #, fuzzy, kde-format
 #| msgid "About to send email..."
 msgid "Impossible to send email"
 msgstr "即將傳送信件..."
 
-#: kmkernel.cpp:802
+#: kmkernel.cpp:796
 #, kde-format
 msgid "KMail is set to be online; all network jobs resumed"
 msgstr "KMail 目前設定為上線中，所有網路相關的工作都將繼續。"
 
-#: kmkernel.cpp:804
+#: kmkernel.cpp:798
 #, kde-format
 msgid ""
 "KMail is set to be online; all network jobs will resume when a network "
 "connection is detected"
 msgstr "KMail 目前設定為上線中，所有網路相關的工作都將在偵測到網路連線後繼續"
 
-#: kmkernel.cpp:879
+#: kmkernel.cpp:873
 #, kde-format
 msgid "KMail is currently in offline mode. How do you want to proceed?"
 msgstr "KMail 目前在離線模式。您要怎麼處理？"
 
-#: kmkernel.cpp:881
+#: kmkernel.cpp:875
 #, kde-format
 msgid "Online/Offline"
 msgstr "上線／離線"
 
-#: kmkernel.cpp:882 kmmainwidget.cpp:2384
+#: kmkernel.cpp:876 kmmainwidget.cpp:2384
 #, kde-format
 msgid "Work Online"
 msgstr "回到線上"
 
-#: kmkernel.cpp:883 kmmainwidget.cpp:2381
+#: kmkernel.cpp:877 kmmainwidget.cpp:2381
 #, kde-format
 msgid "Work Offline"
 msgstr "離線工作"
 
-#: kmkernel.cpp:908
+#: kmkernel.cpp:902
 #, kde-format
 msgid "Network connection detected, all network jobs resumed"
 msgstr "偵測到網路連線，所有網路工作都將回復"
 
-#: kmkernel.cpp:912
+#: kmkernel.cpp:906
 #, kde-format
 msgid "No network connection detected, all network jobs are suspended"
 msgstr "沒有偵測到網路連線，所有網路工作都將暫停"
 
-#: kmkernel.cpp:1008
+#: kmkernel.cpp:1002
 #, kde-format
 msgid ""
 "Failed to open autosave file at %1.\n"
@@ -3747,36 +3747,36 @@ msgstr ""
 "開啟於 %1 的自動儲存檔失敗。\n"
 "理由：%2"
 
-#: kmkernel.cpp:1010
+#: kmkernel.cpp:1004
 #, kde-format
 msgid "Opening Autosave File Failed"
 msgstr "開啟自動儲存檔失敗"
 
-#: kmkernel.cpp:1527
+#: kmkernel.cpp:1521
 #, kde-format
 msgid "This identity has been changed to use the default transport:"
 msgid_plural ""
 "These %1 identities have been changed to use the default transport:"
 msgstr[0] "以下 %1 個身份已經被設定為使用預設的送信帳號："
 
-#: kmkernel.cpp:1552
+#: kmkernel.cpp:1546
 #, kde-format
 msgid "This identity has been changed to use the modified transport:"
 msgid_plural ""
 "These %1 identities have been changed to use the modified transport:"
 msgstr[0] "以下 %1 個身份使用的送信帳號已被變更："
 
-#: kmkernel.cpp:1567
+#: kmkernel.cpp:1561
 #, kde-format
 msgid "Sending messages"
 msgstr "送出信件中"
 
-#: kmkernel.cpp:1568
+#: kmkernel.cpp:1562
 #, kde-format
 msgid "Initiating sending process..."
 msgstr "正在起始寄件程序..."
 
-#: kmkernel.cpp:1638
+#: kmkernel.cpp:1632
 #, fuzzy, kde-format
 #| msgid "Resource %1 is broken."
 msgid ""
@@ -3784,7 +3784,7 @@ msgid ""
 "%2"
 msgstr "資源 %1 已損毀。"
 
-#: kmkernel.cpp:1809 kmkernel.cpp:1820
+#: kmkernel.cpp:1803 kmkernel.cpp:1814
 #, kde-format
 msgctxt "<source>: <error message>"
 msgid "%1: %2"
@@ -4974,7 +4974,7 @@ msgstr ""
 "<h2 style='margin-top: 0px;'>離線模式</h2><p>此帳號目前在離線模式中。點選<a "
 "href=\"kmail:goResourceOnline\">這裡</a>恢復上線模式。</p>&nbsp;"
 
-#: kmreaderwin.cpp:868
+#: kmreaderwin.cpp:869
 #, kde-format
 msgid "Contact modified successfully"
 msgstr "聯絡人已成功變更"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-29 03:38+0100\n"
+"POT-Creation-Date: 2020-01-11 03:42+0100\n"
 "PO-Revision-Date: 2019-07-31 16:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -133,46 +133,61 @@ msgstr "變更圖片頻率："
 
 #: imagepackage/contents/ui/config.qml:219
 #, kde-format
-msgid "Hours"
-msgstr "小時"
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] ""
 
-#: imagepackage/contents/ui/config.qml:230
-#, kde-format
-msgid "Minutes"
-msgstr "分鐘"
+#: imagepackage/contents/ui/config.qml:234
+#, fuzzy, kde-format
+#| msgid "Minutes"
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "分鐘"
 
-#: imagepackage/contents/ui/config.qml:241
-#, kde-format
-msgid "Seconds"
-msgstr "秒"
+#: imagepackage/contents/ui/config.qml:249
+#, fuzzy, kde-format
+#| msgid "Seconds"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "秒"
 
-#: imagepackage/contents/ui/config.qml:246
+#: imagepackage/contents/ui/config.qml:258
 #, kde-format
 msgid "Folders"
 msgstr "資料夾"
 
-#: imagepackage/contents/ui/config.qml:268
+#: imagepackage/contents/ui/config.qml:280
 #, kde-format
 msgid "Remove Folder"
 msgstr "移除資料夾"
 
-#: imagepackage/contents/ui/config.qml:273
+#: imagepackage/contents/ui/config.qml:285
 #, kde-format
 msgid "Open Folder"
 msgstr "開啟資料夾"
 
-#: imagepackage/contents/ui/config.qml:299
+#: imagepackage/contents/ui/config.qml:330
+#, kde-format
+msgid "There are no wallpaper locations configured"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:344
 #, kde-format
 msgid "Add Folder..."
 msgstr "新增資料夾 ..."
 
-#: imagepackage/contents/ui/config.qml:305
-#: imagepackage/contents/ui/config.qml:389
+#: imagepackage/contents/ui/config.qml:350
+#: imagepackage/contents/ui/config.qml:448
 #, kde-format
 msgid "Get New Wallpapers..."
 msgstr "取得新桌布..."
 
-#: imagepackage/contents/ui/config.qml:384
+#: imagepackage/contents/ui/config.qml:402
+#, kde-format
+msgid "There are no wallpapers in this slideshow"
+msgstr ""
+
+#: imagepackage/contents/ui/config.qml:443
 #, kde-format
 msgid "Add Image..."
 msgstr "新增圖像 ..."
@@ -222,3 +237,6 @@ msgstr "移除桌布"
 #, kde-format
 msgid "%1 by %2"
 msgstr "%1，由：%2"
+
+#~ msgid "Hours"
+#~ msgstr "小時"
