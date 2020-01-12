@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-11 02:37+0100\n"
+"POT-Creation-Date: 2020-01-12 02:41+0100\n"
 "PO-Revision-Date: 2014-03-25 11:30+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: src/backend/cantorWorksheet/CantorWorksheet.cpp:277
 #: src/backend/core/column/Column.cpp:991
-#: src/backend/datapicker/DatapickerCurve.cpp:496
+#: src/backend/datapicker/DatapickerCurve.cpp:497
 #: src/backend/datapicker/DatapickerImage.cpp:525
 #: src/backend/datapicker/DatapickerPoint.cpp:497
 #: src/backend/datasources/filters/AsciiFilter.cpp:1711
@@ -84,7 +84,7 @@ msgstr ""
 #: src/backend/core/AbstractSimpleFilter.cpp:375
 #: src/backend/core/column/Column.cpp:1039 src/backend/core/Folder.cpp:168
 #: src/backend/core/Project.cpp:511
-#: src/backend/datapicker/DatapickerCurve.cpp:598
+#: src/backend/datapicker/DatapickerCurve.cpp:561
 #: src/backend/datapicker/DatapickerImage.cpp:676
 #: src/backend/datapicker/DatapickerPoint.cpp:574
 #: src/backend/datasources/LiveDataSource.cpp:922
@@ -633,7 +633,7 @@ msgstr "欄"
 #. i18n: ectx: property (text), widget (QToolButton, lData)
 #. i18n: ectx: property (text), widget (QLabel, lData)
 #. i18n: ectx: property (title), widget (QGroupBox, gbData)
-#: src/backend/datapicker/DatapickerCurve.cpp:168
+#: src/backend/datapicker/DatapickerCurve.cpp:167
 #: src/commonfrontend/matrix/MatrixView.cpp:153
 #: src/kdefrontend/spreadsheet/PlotDataDialog.cpp:333
 #: src/kdefrontend/spreadsheet/PlotDataDialog.cpp:353
@@ -654,121 +654,121 @@ msgstr "欄"
 msgid "Data"
 msgstr "資料"
 
-#: src/backend/datapicker/DatapickerCurve.cpp:188
+#: src/backend/datapicker/DatapickerCurve.cpp:187
 #, fuzzy, kde-format
 #| msgid "cm"
 msgid "c"
 msgstr "公分"
 
-#: src/backend/datapicker/DatapickerCurve.cpp:205
-#: src/backend/datapicker/DatapickerCurve.cpp:206
+#: src/backend/datapicker/DatapickerCurve.cpp:200
+#: src/backend/datapicker/DatapickerCurve.cpp:201
 #, fuzzy, kde-format
 msgid "%1: set xy-error type"
 msgstr "設定佈局"
 
-#: src/backend/datapicker/DatapickerCurve.cpp:244
+#: src/backend/datapicker/DatapickerCurve.cpp:239
 #, fuzzy, kde-format
 #| msgid "%1: insert 1 column"
 #| msgid_plural "%1: insert %2 columns"
 msgid "%1: set position X column"
 msgstr "%1：插入 %2 欄"
 
-#: src/backend/datapicker/DatapickerCurve.cpp:251
+#: src/backend/datapicker/DatapickerCurve.cpp:246
 #, fuzzy, kde-format
 #| msgid "%1: insert 1 column"
 #| msgid_plural "%1: insert %2 columns"
 msgid "%1: set position Y column"
 msgstr "%1：插入 %2 欄"
 
-#: src/backend/datapicker/DatapickerCurve.cpp:258
+#: src/backend/datapicker/DatapickerCurve.cpp:253
 #, fuzzy, kde-format
 #| msgid "%1: insert 1 column"
 #| msgid_plural "%1: insert %2 columns"
 msgid "%1: set position Z column"
 msgstr "%1：插入 %2 欄"
 
-#: src/backend/datapicker/DatapickerCurve.cpp:265
+#: src/backend/datapicker/DatapickerCurve.cpp:260
 #, fuzzy, kde-format
 #| msgid "%1: insert 1 column"
 #| msgid_plural "%1: insert %2 columns"
 msgid "%1: set +delta_X column"
 msgstr "%1：插入 %2 欄"
 
-#: src/backend/datapicker/DatapickerCurve.cpp:272
+#: src/backend/datapicker/DatapickerCurve.cpp:267
 #, fuzzy, kde-format
 #| msgid "%1: insert 1 column"
 #| msgid_plural "%1: insert %2 columns"
 msgid "%1: set -delta_X column"
 msgstr "%1：插入 %2 欄"
 
-#: src/backend/datapicker/DatapickerCurve.cpp:279
+#: src/backend/datapicker/DatapickerCurve.cpp:274
 #, fuzzy, kde-format
 #| msgid "%1: insert 1 column"
 #| msgid_plural "%1: insert %2 columns"
 msgid "%1: set +delta_Y column"
 msgstr "%1：插入 %2 欄"
 
-#: src/backend/datapicker/DatapickerCurve.cpp:286
+#: src/backend/datapicker/DatapickerCurve.cpp:281
 #, fuzzy, kde-format
 #| msgid "%1: insert 1 column"
 #| msgid_plural "%1: insert %2 columns"
 msgid "%1: set -delta_Y column"
 msgstr "%1：插入 %2 欄"
 
-#: src/backend/datapicker/DatapickerCurve.cpp:293
+#: src/backend/datapicker/DatapickerCurve.cpp:288
 #: src/backend/datapicker/DatapickerImage.cpp:280
 #, fuzzy, kde-format
 msgid "%1: set point's style"
 msgstr "設定佈局"
 
-#: src/backend/datapicker/DatapickerCurve.cpp:300
+#: src/backend/datapicker/DatapickerCurve.cpp:295
 #: src/backend/datapicker/DatapickerImage.cpp:286
 #, fuzzy, kde-format
 #| msgid "%1: set creation time"
 msgid "%1: set point's size"
 msgstr "%1：設定建立時間"
 
-#: src/backend/datapicker/DatapickerCurve.cpp:307
+#: src/backend/datapicker/DatapickerCurve.cpp:302
 #: src/backend/datapicker/DatapickerImage.cpp:292
 #, fuzzy, kde-format
 msgid "%1: rotate point"
 msgstr "設定字型"
 
-#: src/backend/datapicker/DatapickerCurve.cpp:314
+#: src/backend/datapicker/DatapickerCurve.cpp:309
 #: src/backend/datapicker/DatapickerImage.cpp:298
 #, fuzzy, kde-format
 msgid "%1: set point's filling"
 msgstr "設定背景影像..."
 
-#: src/backend/datapicker/DatapickerCurve.cpp:321
+#: src/backend/datapicker/DatapickerCurve.cpp:316
 #: src/backend/datapicker/DatapickerImage.cpp:304
 #, fuzzy, kde-format
 msgid "%1: set outline style"
 msgstr "設定佈局"
 
-#: src/backend/datapicker/DatapickerCurve.cpp:328
+#: src/backend/datapicker/DatapickerCurve.cpp:323
 #: src/backend/datapicker/DatapickerImage.cpp:310
 #, fuzzy, kde-format
 msgid "%1: set point's opacity"
 msgstr "設定不透明度"
 
-#: src/backend/datapicker/DatapickerCurve.cpp:335
+#: src/backend/datapicker/DatapickerCurve.cpp:330
 #, fuzzy, kde-format
 #| msgid "%1: set creation time"
 msgid "%1: set error bar size"
 msgstr "%1：設定建立時間"
 
-#: src/backend/datapicker/DatapickerCurve.cpp:342
+#: src/backend/datapicker/DatapickerCurve.cpp:337
 #, fuzzy, kde-format
 msgid "%1: set error bar filling"
 msgstr "設定背景影像..."
 
-#: src/backend/datapicker/DatapickerCurve.cpp:349
+#: src/backend/datapicker/DatapickerCurve.cpp:344
 #, fuzzy, kde-format
 msgid "%1: set error bar outline style"
 msgstr "設定佈局"
 
-#: src/backend/datapicker/DatapickerCurve.cpp:356
+#: src/backend/datapicker/DatapickerCurve.cpp:351
 #: src/backend/datapicker/DatapickerImage.cpp:316
 #: src/backend/worksheet/Image.cpp:259
 #: src/backend/worksheet/plots/cartesian/Axis.cpp:473
@@ -785,7 +785,7 @@ msgstr "設定佈局"
 msgid "%1: set visible"
 msgstr ""
 
-#: src/backend/datapicker/DatapickerCurve.cpp:356
+#: src/backend/datapicker/DatapickerCurve.cpp:351
 #: src/backend/datapicker/DatapickerImage.cpp:316
 #: src/backend/worksheet/Image.cpp:259
 #: src/backend/worksheet/plots/cartesian/Axis.cpp:473
@@ -7590,30 +7590,30 @@ msgstr ""
 msgid "%1, active curve \"%2\": %3=%4, %5=%6"
 msgstr ""
 
-#: src/commonfrontend/datapicker/DatapickerImageView.cpp:588
+#: src/commonfrontend/datapicker/DatapickerImageView.cpp:586
 #, fuzzy, kde-format
 msgid "Remove existing reference points?"
 msgstr "喜好設定"
 
-#: src/commonfrontend/datapicker/DatapickerImageView.cpp:589
+#: src/commonfrontend/datapicker/DatapickerImageView.cpp:587
 #, kde-format
 msgid ""
 "All available reference points will be removed. Do you want to continue?"
 msgstr ""
 
-#: src/commonfrontend/datapicker/DatapickerImageView.cpp:649
+#: src/commonfrontend/datapicker/DatapickerImageView.cpp:647
 #, kde-format
 msgid "%1: change position of selected DatapickerPoints."
 msgstr ""
 
-#: src/commonfrontend/datapicker/DatapickerImageView.cpp:699
+#: src/commonfrontend/datapicker/DatapickerImageView.cpp:697
 #, fuzzy, kde-format
 #| msgid "%1: add %2 column"
 #| msgid_plural "%1: add %2 columns"
 msgid "%1: add new curve."
 msgstr "%1：新增 %2 欄"
 
-#: src/commonfrontend/datapicker/DatapickerImageView.cpp:700
+#: src/commonfrontend/datapicker/DatapickerImageView.cpp:698
 #, kde-format
 msgid "Curve"
 msgstr ""

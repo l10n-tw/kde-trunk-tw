@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-19 03:30+0100\n"
+"POT-Creation-Date: 2020-01-12 03:40+0100\n"
 "PO-Revision-Date: 2019-03-18 19:39+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -29,201 +29,89 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
 
-#: src/dialog_installer.cpp:85
-#, kde-format
-msgid "Could not install the %1 theme."
-msgstr "無法安裝主題 %1。"
-
-#: src/dialog_installer.cpp:85
-#, kde-format
-msgid "Cannot install theme"
-msgstr "無法安裝主題"
-
-#: src/dialog_installer.cpp:95
-#, kde-format
-msgid "Parsing theme..."
-msgstr "剖析主題中..."
-
-#: src/dialog_installer.cpp:109
-#, kde-format
-msgid "This GTK theme can be installed"
-msgstr "此 GTK 主題可以安裝"
-
-#: src/dialog_installer.cpp:112
-#, kde-format
-msgid "This GTK theme cannot be installed"
-msgstr "此 GTK 主題無法安裝"
-
-#: src/dialog_installer.cpp:125
-#, kde-format
-msgid "Installing GTK theme..."
-msgstr "安裝 GTK 主題中..."
-
-#: src/dialog_installer.cpp:135
-#, kde-format
-msgid "GTK Theme Successfully Installed"
-msgstr "GTK 主題已成功安裝"
-
-#: src/dialog_installer.cpp:138
-#, kde-format
-msgid "The GTK theme cannot be installed"
-msgstr "此 GTK 主題無法安裝"
-
-#: src/dialog_uninstaller.cpp:81
-#, kde-format
-msgid "Uninstalling GTK theme..."
-msgstr "解除安裝 GTK 主題中..."
-
-#: src/dialog_uninstaller.cpp:92
-#, kde-format
-msgid "GTK theme successfully uninstalled."
-msgstr "GTK 主題已成功解除安裝。"
-
-#: src/dialog_uninstaller.cpp:95
-#, kde-format
-msgid "Could not uninstall the GTK theme."
-msgstr "無法解除安裝 GTK 主題 。"
-
-#: src/gtkconfigkcmodule.cpp:55
+#: src/gtkconfigkcmodule.cpp:62
 #, kde-format
 msgid "GTK Application Style"
 msgstr "GTK 應用程式樣式"
 
-#: src/gtkconfigkcmodule.cpp:56
+#: src/gtkconfigkcmodule.cpp:63
 #, kde-format
 msgid "Copyright 2011 José Antonio Sánchez Reynaga"
 msgstr "Copyright 2011 José Antonio Sánchez Reynaga"
 
-#: src/gtkconfigkcmodule.cpp:57
+#: src/gtkconfigkcmodule.cpp:64
 #, kde-format
 msgid "José Antonio Sánchez Reynaga (antonioJASR)"
 msgstr "José Antonio Sánchez Reynaga (antonioJASR)"
 
-#: src/gtkconfigkcmodule.cpp:57
+#: src/gtkconfigkcmodule.cpp:64
 #, kde-format
 msgid "Main Developer"
 msgstr "主要開發者"
 
-#: src/gtkconfigkcmodule.cpp:58
+#: src/gtkconfigkcmodule.cpp:65
 #, kde-format
 msgid "Aleix Pol i Gonzalez"
 msgstr "Aleix Pol i Gonzalez"
 
-#: src/gtkconfigkcmodule.cpp:58
+#: src/gtkconfigkcmodule.cpp:65
 #, kde-format
 msgid "Feature development. Previews, code refactoring."
 msgstr "功能開發。預覽，程式碼重構"
 
-#: src/gtkconfigkcmodule.cpp:59
+#: src/gtkconfigkcmodule.cpp:66
 #, kde-format
 msgid "Manuel Tortosa (manutortosa)"
 msgstr "Manuel Tortosa (manutortosa)"
 
-#: src/gtkconfigkcmodule.cpp:59
+#: src/gtkconfigkcmodule.cpp:66
 #, kde-format
 msgid "Ideas, tester, internationalization"
 msgstr "想法，測試，國際化"
 
-#: src/gtkconfigkcmodule.cpp:60
+#: src/gtkconfigkcmodule.cpp:67
 #, kde-format
 msgid "Adrián Chaves Fernández (Gallaecio)"
 msgstr "Adrián Chaves Fernández (Gallaecio)"
 
-#: src/gtkconfigkcmodule.cpp:60
+#: src/gtkconfigkcmodule.cpp:67
 #, kde-format
 msgid "Internationalization"
 msgstr "國際化"
 
-#: src/gtkconfigkcmodule.cpp:102
-#, kde-format
-msgid "Download GTK2 themes..."
-msgstr "下載 GTK2 主題..."
+#: src/gtkconfigkcmodule.cpp:87
+#, fuzzy, kde-format
+#| msgid "Get New GNOME/GTK Application Styles..."
+msgid "Get New GNOME/GTK2 Application Styles..."
+msgstr "取得新的 GNOME / GTK 應用程式樣式…"
 
-#: src/gtkconfigkcmodule.cpp:103
-#, kde-format
-msgid "Download GTK3 themes..."
-msgstr "下載 GTK3 主題..."
+#: src/gtkconfigkcmodule.cpp:88
+#, fuzzy, kde-format
+#| msgid "Get New GNOME/GTK Application Styles..."
+msgid "Get New GNOME/GTK3 Application Styles..."
+msgstr "取得新的 GNOME / GTK 應用程式樣式…"
 
-#: src/gtkconfigkcmodule.cpp:104
-#, kde-format
-msgid "Install a local theme..."
-msgstr "安裝本地端主題..."
-
-#: src/gtkconfigkcmodule.cpp:105
-#, kde-format
-msgid "Uninstall a local theme..."
-msgstr "解除安裝本地端主題..."
-
-#: src/gtkconfigkcmodule.cpp:227
-#, kde-format
-msgid "Failed to save configuration."
-msgstr "無法儲存設定檔。"
-
-#. i18n: ectx: property (windowTitle), widget (QDialog, dialog_installer)
-#: src/ui/dialog_installer.ui:20
-#, kde-format
-msgid "Installer"
-msgstr "安裝程式"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/ui/dialog_installer.ui:35
-#, kde-format
-msgid "<b>Step 2</b>"
-msgstr "<b>步驟 2</b>"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/ui/dialog_installer.ui:48
-#, kde-format
-msgid "Select the theme file you want to install:"
-msgstr "選擇您要安裝的主題檔："
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/ui/dialog_installer.ui:86
-#, kde-format
-msgid "Click the next button in order to install the theme in your system."
-msgstr "點擊「下一步」開始安裝主題。"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/dialog_installer.ui:99
-#, kde-format
-msgid "<b>Step 1</b>"
-msgstr "<b>步驟 1</b>"
-
-#. i18n: ectx: property (text), widget (QPushButton, but_theme_install)
-#: src/ui/dialog_installer.ui:109
-#, kde-format
-msgid "Install GTK Theme"
-msgstr "安裝 GTK 主題"
-
-#. i18n: ectx: property (filter), widget (KUrlRequester, theme_file)
-#: src/ui/dialog_installer.ui:119
-#, kde-format
-msgid "*.tar.gz *.tar|Compressed file"
-msgstr "*.tar.gz *.tar | 壓縮檔"
-
-#. i18n: ectx: property (windowTitle), widget (QDialog, dialog_uninstaller)
-#: src/ui/dialog_uninstaller.ui:14
-#, kde-format
-msgid "Remove Themes"
-msgstr "移除主題"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/ui/dialog_uninstaller.ui:38
-#, kde-format
-msgid "Select a GTK theme to uninstall"
+#: src/gtkconfigkcmodule.cpp:118
+#, fuzzy, kde-format
+#| msgid "Select a GTK theme to uninstall"
+msgid "Select GTK Theme Archive"
 msgstr "選擇要解除安裝的 GTK 主題"
 
-#. i18n: ectx: property (text), widget (QPushButton, but_uninstall_theme)
-#: src/ui/dialog_uninstaller.ui:55
+#: src/gtkconfigkcmodule.cpp:120
 #, kde-format
-msgid "Uninstall"
-msgstr "解除安裝"
+msgid "GTK Theme Archive (*.tar.xz *.tar.gz *.tar.bz2)"
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: src/ui/dialog_uninstaller.ui:78
+#: src/gtkconfigkcmodule.cpp:134
+#, fuzzy, kde-format
+#| msgid "Install GTK Theme"
+msgid "Invalid GTK Theme archive"
+msgstr "安裝 GTK 主題"
+
+#: src/gtkconfigkcmodule.cpp:134
 #, kde-format
-msgid "Remove GTK Theme"
-msgstr "移除 GTK 主題"
+msgid "%1 is not a valid GTK Theme archive."
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_1)
 #: src/ui/gui.ui:34
@@ -231,21 +119,29 @@ msgstr "移除 GTK 主題"
 msgid "GTK2 theme:"
 msgstr "GTK2 主題："
 
-#. i18n: ectx: property (toolTip), widget (QToolButton, gtk2Preview)
-#. i18n: ectx: property (toolTip), widget (QToolButton, gtk3Preview)
-#: src/ui/gui.ui:53 src/ui/gui.ui:84
-#, kde-format
-msgid "Preview Theme"
+#. i18n: ectx: property (text), widget (QPushButton, gtk2Preview)
+#. i18n: ectx: property (text), widget (QPushButton, gtk3Preview)
+#: src/ui/gui.ui:64 src/ui/gui.ui:110
+#, fuzzy, kde-format
+#| msgid "Preview Theme"
+msgid "Preview..."
 msgstr "預覽主題"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/ui/gui.ui:65
+#: src/ui/gui.ui:80
 #, kde-format
 msgid "GTK3 theme:"
 msgstr "GTK3 主題："
 
+#. i18n: ectx: property (text), widget (QPushButton, installFromFile)
+#: src/ui/gui.ui:171
+#, fuzzy, kde-format
+#| msgid "Install a local theme..."
+msgid "Install from File..."
+msgstr "安裝本地端主題..."
+
 #. i18n: ectx: property (toolTip), widget (QPushButton, newThemes)
-#: src/ui/gui.ui:141
+#: src/ui/gui.ui:182
 #, kde-format
 msgid ""
 "<html><head/><body><p>Here you can install new GTK themes. Even more are "
@@ -257,10 +153,82 @@ msgstr ""
 "look.org</span></a> 取得。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, newThemes)
-#: src/ui/gui.ui:144
+#: src/ui/gui.ui:185
 #, kde-format
 msgid "Get New GNOME/GTK Application Styles..."
 msgstr "取得新的 GNOME / GTK 應用程式樣式…"
+
+#~ msgid "Could not install the %1 theme."
+#~ msgstr "無法安裝主題 %1。"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "無法安裝主題"
+
+#~ msgid "Parsing theme..."
+#~ msgstr "剖析主題中..."
+
+#~ msgid "This GTK theme can be installed"
+#~ msgstr "此 GTK 主題可以安裝"
+
+#~ msgid "This GTK theme cannot be installed"
+#~ msgstr "此 GTK 主題無法安裝"
+
+#~ msgid "Installing GTK theme..."
+#~ msgstr "安裝 GTK 主題中..."
+
+#~ msgid "GTK Theme Successfully Installed"
+#~ msgstr "GTK 主題已成功安裝"
+
+#~ msgid "The GTK theme cannot be installed"
+#~ msgstr "此 GTK 主題無法安裝"
+
+#~ msgid "Uninstalling GTK theme..."
+#~ msgstr "解除安裝 GTK 主題中..."
+
+#~ msgid "GTK theme successfully uninstalled."
+#~ msgstr "GTK 主題已成功解除安裝。"
+
+#~ msgid "Could not uninstall the GTK theme."
+#~ msgstr "無法解除安裝 GTK 主題 。"
+
+#~ msgid "Download GTK2 themes..."
+#~ msgstr "下載 GTK2 主題..."
+
+#~ msgid "Download GTK3 themes..."
+#~ msgstr "下載 GTK3 主題..."
+
+#~ msgid "Uninstall a local theme..."
+#~ msgstr "解除安裝本地端主題..."
+
+#~ msgid "Failed to save configuration."
+#~ msgstr "無法儲存設定檔。"
+
+#~ msgid "Installer"
+#~ msgstr "安裝程式"
+
+#~ msgid "<b>Step 2</b>"
+#~ msgstr "<b>步驟 2</b>"
+
+#~ msgid "Select the theme file you want to install:"
+#~ msgstr "選擇您要安裝的主題檔："
+
+#~ msgid "Click the next button in order to install the theme in your system."
+#~ msgstr "點擊「下一步」開始安裝主題。"
+
+#~ msgid "<b>Step 1</b>"
+#~ msgstr "<b>步驟 1</b>"
+
+#~ msgid "*.tar.gz *.tar|Compressed file"
+#~ msgstr "*.tar.gz *.tar | 壓縮檔"
+
+#~ msgid "Remove Themes"
+#~ msgstr "移除主題"
+
+#~ msgid "Uninstall"
+#~ msgstr "解除安裝"
+
+#~ msgid "Remove GTK Theme"
+#~ msgstr "移除 GTK 主題"
 
 #~ msgid "Prefer dark theme"
 #~ msgstr "偏好暗色主題"
