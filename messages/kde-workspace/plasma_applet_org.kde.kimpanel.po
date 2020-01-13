@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kimpanel\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-02 03:27+0100\n"
+"POT-Creation-Date: 2020-01-13 03:40+0100\n"
 "PO-Revision-Date: 2020-01-05 15:47+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -123,6 +123,12 @@ msgstr "重新載入設定"
 #, kde-format
 msgid "Exit Input Method"
 msgstr "離開輸入法面板"
+
+#: package/contents/ui/main.qml:209
+#, fuzzy, kde-format
+#| msgid "Input method list:"
+msgid "Input Method Panel"
+msgstr "輸入法清單："
 
 #~ msgid "Emoji Picker"
 #~ msgstr "Emoji 選擇工具"

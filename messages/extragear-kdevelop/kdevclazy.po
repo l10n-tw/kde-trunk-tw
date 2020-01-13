@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 02:46+0200\n"
+"POT-Creation-Date: 2020-01-13 02:43+0100\n"
 "PO-Revision-Date: 2019-12-15 22:07+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -16,6 +16,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.12.0\n"
+
+#: analyzer.cpp:44 config/globalconfigpage.cpp:86
+#: config/projectconfigpage.cpp:109
+#, kde-format
+msgid "Clazy"
+msgstr ""
 
 #: checksdb.cpp:42
 #, kde-format
@@ -122,13 +128,6 @@ msgstr ""
 msgid "1 check detected"
 msgid_plural "%1 checks detected"
 msgstr[0] ""
-
-#: config/globalconfigpage.cpp:86 config/projectconfigpage.cpp:135
-#: plugin.cpp:71 plugin.cpp:78 plugin.cpp:81 problemmodel.cpp:60
-#: problemmodel.cpp:75
-#, kde-format
-msgid "Clazy"
-msgstr ""
 
 #: config/globalconfigpage.cpp:91
 #, kde-format
@@ -367,160 +366,86 @@ msgstr ""
 msgid "Extra parameters:"
 msgstr ""
 
-#: job.cpp:56
+#: job.cpp:119
 #, kde-format
 msgid "Clazy Analysis (%1)"
 msgstr ""
 
-#: job.cpp:173
+#: job.cpp:149
 #, kde-format
 msgid "Unknown Level"
 msgstr ""
 
-#: job.cpp:233
+#: job.cpp:215
 #, kde-format
 msgid "Failed to start Clazy analysis process."
 msgstr ""
 
-#: job.cpp:238
+#: job.cpp:220
 #, kde-format
 msgid "Clazy analysis process crashed."
 msgstr ""
 
-#: job.cpp:243
+#: job.cpp:225
 #, kde-format
 msgid "Clazy analysis process timed out."
 msgstr ""
 
-#: job.cpp:247
+#: job.cpp:229
 #, kde-format
 msgid "Write to Clazy analysis process failed."
 msgstr ""
 
-#: job.cpp:251
+#: job.cpp:233
 #, kde-format
 msgid "Read from Clazy analysis process failed."
 msgstr ""
 
-#: job.cpp:261 plugin.cpp:184
+#: job.cpp:243
 #, kde-format
 msgid "Clazy Error"
 msgstr ""
 
-#: jobparameters.cpp:57
+#: jobparameters.cpp:53
 #, kde-format
 msgid ""
 "clazy-standalone path cannot be detected. Set the path manually if Clazy is "
 "already installed."
 msgstr ""
 
-#: jobparameters.cpp:60
+#: jobparameters.cpp:56
 #, kde-format
 msgid "clazy-standalone path is empty."
 msgstr ""
 
-#: jobparameters.cpp:68
+#: jobparameters.cpp:64
 #, kde-format
 msgid "clazy-standalone path '%1' does not exists."
 msgstr ""
 
-#: jobparameters.cpp:73
+#: jobparameters.cpp:69
 #, kde-format
 msgid "clazy-standalone path '%1' is not an executable."
 msgstr ""
 
-#: jobparameters.cpp:82
+#: jobparameters.cpp:78
 #, kde-format
 msgid ""
 "Clazy documentation path cannot be detected. Set the path manually if Clazy "
 "is already installed."
 msgstr ""
 
-#: jobparameters.cpp:85
+#: jobparameters.cpp:81
 #, kde-format
 msgid "Clazy documentation path is empty."
 msgstr ""
 
-#: jobparameters.cpp:93
+#: jobparameters.cpp:89
 #, kde-format
 msgid "Clazy documentation path '%1' does not exists."
 msgstr ""
 
-#: jobparameters.cpp:98
+#: jobparameters.cpp:94
 #, kde-format
 msgid "Clazy documentation path '%1' is not a directory."
-msgstr ""
-
-#: jobparameters.cpp:159
-#, kde-format
-msgid "Compile commands file '%1' does not exist."
-msgstr ""
-
-#: jobparameters.cpp:217
-#, kde-format
-msgid ""
-"Nothing to check: compile commands file '%1' contains no matching items."
-msgstr ""
-
-#: plugin.cpp:67
-#, kde-format
-msgid "Analyze Current File with Clazy"
-msgstr ""
-
-#: plugin.cpp:74
-#, kde-format
-msgid "Analyze Current Project with Clazy"
-msgstr ""
-
-#: plugin.cpp:123
-#, kde-format
-msgctxt "@title:window"
-msgid "Test"
-msgstr ""
-
-#: plugin.cpp:183
-#, kde-format
-msgid ""
-"Unable to start Clazy check for '%1':\n"
-"\n"
-"%2"
-msgstr ""
-
-#: problemmodel.cpp:124
-#, kde-format
-msgid "Analysis completed, no problems detected."
-msgstr ""
-
-#: problemmodel.cpp:147
-#, kde-format
-msgid "Analysis started..."
-msgstr ""
-
-#: problemmodel.cpp:148
-#, kde-format
-msgctxt "@info:tooltip %1 is the path of the file"
-msgid "Re-run last Clazy analysis (%1)"
-msgstr ""
-
-#: problemmodel.cpp:150
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Re-run last Clazy analysis"
-msgstr ""
-
-#: utils.cpp:53
-#, kde-format
-msgid "Unable to open compile commands file '%1' for reading"
-msgstr ""
-
-#: utils.cpp:61
-#, kde-format
-msgid "JSON error during parsing compile commands file '%1': %2"
-msgstr ""
-
-#: utils.cpp:66
-#, kde-format
-msgid ""
-"JSON error during parsing compile commands file '%1': document is not an "
-"array"
 msgstr ""

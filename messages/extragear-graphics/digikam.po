@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-12 02:42+0100\n"
+"POT-Creation-Date: 2020-01-13 02:40+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -1067,7 +1067,7 @@ msgid "Make/Model:"
 msgstr "製造商/型號："
 
 #: core/app/items/utils/tooltipfiller.cpp:174
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:175
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:176
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:149
 #: core/utilities/import/items/importtooltipfiller.cpp:146
 #, kde-format
@@ -4031,7 +4031,7 @@ msgid "Channel:"
 msgstr "色版："
 
 #: core/dplugins/bqm/colors/curvesadjust/curvesadjust.cpp:69
-#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:382
+#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:384
 #, kde-format
 msgid "Luminosity"
 msgstr "明度"
@@ -6041,7 +6041,7 @@ msgid ""
 msgstr "線性原始掃描影像的負片檔需要使用 Gamma 曲線。標準值為 1.8 或 2.2。"
 
 #: core/dplugins/editor/colors/film/filmtool.cpp:671
-#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:376
+#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:378
 #, kde-format
 msgid "Film"
 msgstr "底片"
@@ -10107,7 +10107,7 @@ msgstr "在這裡設定相機拍攝圖片時使用的整體影像增益調整度
 #: core/dplugins/generic/metadata/metadataedit/exif/exifadjust.cpp:118
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:215
 #: core/libs/dimg/filters/bcg/bcgsettings.cpp:93
-#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:357
+#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:358
 #, kde-format
 msgid "Contrast:"
 msgstr "對比："
@@ -21843,7 +21843,7 @@ msgstr "在這裡設定影像的亮度調整。"
 
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:219
 #: core/libs/dimg/filters/bcg/bcgsettings.cpp:97
-#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:363
+#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:364
 #, kde-format
 msgid "Set here the contrast adjustment of the image."
 msgstr "在這裡設定影像的對比調整。"
@@ -21878,7 +21878,7 @@ msgid ""
 msgstr "這項數值 (單位為 E.V) 會被用於執行影像的曝光補償。"
 
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:269
-#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:352
+#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:353
 #, kde-format
 msgid "This is the curve adjustment of the image luminosity"
 msgstr "這是影像明度的曲線調整。"
@@ -25011,37 +25011,37 @@ msgid ""
 msgstr ""
 "<b>帶有綠色調的黑白效果</b>：<p>這種效果也被稱為翠綠化 (Verdante)。</p>"
 
-#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:378
+#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:380
 #, kde-format
 msgid "Lens Filters"
 msgstr "鏡頭濾鏡"
 
-#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:380
+#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:382
 #, kde-format
 msgid "Tone"
 msgstr "色調"
 
-#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:535
+#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:537
 #, kde-format
 msgid "Black & White Settings File to Load"
 msgstr "要載入的黑白設定檔"
 
-#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:553
+#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:555
 #, kde-format
 msgid "\"%1\" is not a Black & White settings text file."
 msgstr "「%1」不是黑白設定值純文字檔。"
 
-#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:598
+#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:600
 #, kde-format
 msgid "Cannot load settings from the Black & White text file."
 msgstr "無法從黑白純文字檔載入設定值。"
 
-#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:606
+#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:608
 #, kde-format
 msgid "Black & White Settings File to Save"
 msgstr "要儲存的黑白設定檔"
 
-#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:644
+#: core/libs/dimg/filters/bw/bwsepiasettings.cpp:647
 #, kde-format
 msgid "Cannot save settings to the Black & White text file."
 msgstr "無法將設定值儲存到黑白純文字檔。"
@@ -25142,27 +25142,27 @@ msgstr ""
 "wiki/Image_noise'>噪度（noise）</a>。</p> <p><u>注意：</u>這種模式下，直方圖"
 "只會顯示亮度值。</p>"
 
-#: core/libs/dimg/filters/bw/mixersettings.cpp:356
+#: core/libs/dimg/filters/bw/mixersettings.cpp:357
 #, kde-format
 msgid "Total: %1 (%)"
 msgstr "總計：%1（%）"
 
-#: core/libs/dimg/filters/bw/mixersettings.cpp:550
+#: core/libs/dimg/filters/bw/mixersettings.cpp:551
 #, kde-format
 msgid "Select Gimp Gains Mixer File to Load"
 msgstr "選擇要載入的 Gimp 增益混合檔"
 
-#: core/libs/dimg/filters/bw/mixersettings.cpp:622
+#: core/libs/dimg/filters/bw/mixersettings.cpp:623
 #, kde-format
 msgid "Cannot load settings from the Gains Mixer text file."
 msgstr "無法從增益混合純文字檔載入設定值。"
 
-#: core/libs/dimg/filters/bw/mixersettings.cpp:632
+#: core/libs/dimg/filters/bw/mixersettings.cpp:633
 #, kde-format
 msgid "Gimp Gains Mixer File to Save"
 msgstr "要儲存的 Gimp 增益混合檔"
 
-#: core/libs/dimg/filters/bw/mixersettings.cpp:703
+#: core/libs/dimg/filters/bw/mixersettings.cpp:704
 #, kde-format
 msgid "Cannot save settings to the Gains Mixer text file."
 msgstr "無法將設定值儲存到增益混合純文字檔。"
@@ -25294,20 +25294,20 @@ msgid "Cannot save to the Gimp curves text file."
 msgstr "無法儲存到此 Gimp 曲線純文字檔。"
 
 #: core/libs/dimg/filters/curves/curveswidget.cpp:192
-#: core/libs/dimg/filters/levels/histogramwidget.cpp:497
+#: core/libs/dimg/filters/levels/histogramwidget.cpp:506
 #: core/libs/widgets/iccprofiles/cietonguewidget.cpp:768
 #, kde-format
 msgid "Loading image..."
 msgstr "正在載入影像..."
 
 #: core/libs/dimg/filters/curves/curveswidget.cpp:197
-#: core/libs/dimg/filters/levels/histogramwidget.cpp:502
+#: core/libs/dimg/filters/levels/histogramwidget.cpp:511
 #, kde-format
 msgid "Histogram calculation..."
 msgstr "分佈圖計算..."
 
 #: core/libs/dimg/filters/curves/curveswidget.cpp:211
-#: core/libs/dimg/filters/levels/histogramwidget.cpp:517
+#: core/libs/dimg/filters/levels/histogramwidget.cpp:528
 #, kde-format
 msgid ""
 "Histogram\n"
@@ -25326,7 +25326,7 @@ msgstr ""
 "x:%1\n"
 "y:%2"
 
-#: core/libs/dimg/filters/decorate/borderfilter.cpp:131
+#: core/libs/dimg/filters/decorate/borderfilter.cpp:132
 #, kde-format
 msgid "Border Tool"
 msgstr "邊框工具"
@@ -25522,8 +25522,9 @@ msgid "Rotate Right"
 msgstr "向右旋轉"
 
 #: core/libs/dimg/filters/dimgbuiltinfilter.cpp:341
-#, kde-format
-msgid "Rotate 180°"
+#, fuzzy, kde-format
+#| msgid "Rotated by 180 Degrees"
+msgid "Rotate 180 degrees"
 msgstr "旋轉 180 度"
 
 #: core/libs/dimg/filters/dimgbuiltinfilter.cpp:344
@@ -25589,7 +25590,7 @@ msgstr "轉換深度"
 msgid "Unknown filter"
 msgstr "未知的濾鏡"
 
-#: core/libs/dimg/filters/film/filmfilter.cpp:363
+#: core/libs/dimg/filters/film/filmfilter.cpp:401
 #, kde-format
 msgid "Color Negative Inverter"
 msgstr "負片轉換器"
@@ -25653,9 +25654,9 @@ msgid ""
 msgstr "這項數值可控制用於霓虹和尋找邊緣效果的重複次數。"
 
 #: core/libs/dimg/filters/fx/colorfxsettings.cpp:199
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:193
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:240
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:287
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:194
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:241
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:288
 #, kde-format
 msgid "Intensity:"
 msgstr "強度："
@@ -25742,27 +25743,27 @@ msgstr "扭曲效果"
 msgid "Emboss Effect"
 msgstr "浮雕效果"
 
-#: core/libs/dimg/filters/fx/filmgrainfilter.cpp:121
+#: core/libs/dimg/filters/fx/filmgrainfilter.cpp:124
 #, kde-format
 msgid "Film Grain Effect"
 msgstr "膠片顆粒效果"
 
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:173
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:174
 #, kde-format
 msgid "Grain Size:"
 msgstr "顆粒大小："
 
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:177
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:178
 #, kde-format
 msgid "Set here the graininess size of film."
 msgstr "在這裡設定底片的顆粒度大小。"
 
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:179
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:180
 #, kde-format
 msgid "Photographic Distribution"
 msgstr "相片分佈"
 
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:180
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:181
 #, kde-format
 msgid ""
 "Set on this option to render grain using a photon statistic distribution. "
@@ -25770,81 +25771,81 @@ msgid ""
 msgstr ""
 "在這個選項上設定演算顆粒使用光子統計分佈。這需要較多的運算且需要一段時間。"
 
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:197
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:198
 #, kde-format
 msgid ""
 "Set here the film ISO-sensitivity to use for simulating the film graininess."
 msgstr "在這裡設定底片 ISO 靈敏度以用來模擬底片的顆粒度。"
 
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:202
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:249
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:296
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:203
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:250
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:297
 #: core/libs/dimg/filters/wb/wbsettings.cpp:255
 #, kde-format
 msgid "Shadows:"
 msgstr "陰影："
 
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:206
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:253
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:300
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:207
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:254
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:301
 #, kde-format
 msgid "Set how much the filter affects highlights."
 msgstr "設定此濾鏡對亮部的影響程度。"
 
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:210
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:257
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:304
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:211
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:258
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:305
 #, kde-format
 msgid "Midtones:"
 msgstr "中間色："
 
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:214
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:261
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:308
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:215
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:262
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:309
 #, kde-format
 msgid "Set how much the filter affects midtones."
 msgstr "設定此濾鏡對中間色的影響程度。"
 
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:218
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:265
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:312
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:219
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:266
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:313
 #, kde-format
 msgid "Highlights:"
 msgstr "亮部："
 
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:222
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:269
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:316
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:223
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:270
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:317
 #, kde-format
 msgid "Set how much the filter affects shadows."
 msgstr "設定此濾鏡對暗部的影響程度。"
 
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:244
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:245
 #, kde-format
 msgid "Set here the film sensitivity to use for simulating the CCD blue noise."
 msgstr "在這裡設定底片靈敏度以用來模擬 CCD 藍色雜訊。"
 
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:291
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:292
 #, kde-format
 msgid "Set here the film sensitivity to use for simulating the CCD red noise."
 msgstr "在這裡設定底片靈敏度以用來模擬 CCD 紅色雜訊。"
 
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:335
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:336
 #, kde-format
 msgid "Common Settings"
 msgstr "共同設定值"
 
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:338
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:339
 #, kde-format
 msgid "Luminance Noise"
 msgstr "明度雜訊"
 
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:341
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:342
 #, kde-format
 msgid "Chrominance Blue Noise"
 msgstr "色度藍雜訊"
 
-#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:344
+#: core/libs/dimg/filters/fx/filmgrainsettings.cpp:345
 #, kde-format
 msgid "Chrominance Red Noise"
 msgstr "色度紅雜訊"
@@ -26093,12 +26094,12 @@ msgstr "轉換成："
 msgid "Select the profile of the color space to convert to."
 msgstr "選擇要轉換成的色彩空間描述檔。"
 
-#: core/libs/dimg/filters/icc/icctransformfilter.cpp:121
+#: core/libs/dimg/filters/icc/icctransformfilter.cpp:122
 #, kde-format
 msgid "Input color profile \"%1\" not available"
 msgstr "沒有可用的輸入色彩設定檔 \"%1\""
 
-#: core/libs/dimg/filters/icc/icctransformfilter.cpp:125
+#: core/libs/dimg/filters/icc/icctransformfilter.cpp:128
 #, kde-format
 msgid "Output color profile \"%1\" not available"
 msgstr "沒有可用的輸出色彩設定檔 \"%1\""
@@ -26425,12 +26426,12 @@ msgstr "無法將設定值儲存到相片局部對比純文字檔。"
 msgid "Anti-Vignetting Tool"
 msgstr "消除暈映工具"
 
-#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:110
+#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:111
 #, kde-format
 msgid "Add vignetting"
 msgstr "加入暈映"
 
-#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:111
+#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:112
 #, kde-format
 msgid ""
 "This option adds vignetting to the image instead of removing it. Use it for "
@@ -26438,44 +26439,44 @@ msgid ""
 msgstr ""
 "此選項可以加入暈映到影像中，而不是將它移除。想要創意效果可使用這一選項。"
 
-#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:120
+#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:121
 #, kde-format
 msgid ""
 "You can see here a thumbnail preview of the anti-vignetting mask applied to "
 "the image."
 msgstr "您可以在這裡看到套用到影像的消除暈映遮罩的縮圖預覽。"
 
-#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:125
+#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:126
 #: core/libs/dimg/filters/sharp/sharpsettings.cpp:196
 #, kde-format
 msgid "Amount:"
 msgstr "數量："
 
-#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:130
+#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:131
 #, kde-format
 msgid ""
 "This value controls the degree of intensity of the filter at its point of "
 "maximum density."
 msgstr "這項數值可控制於最大密度點的濾鏡強度。"
 
-#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:135
+#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:136
 #, kde-format
 msgid "Feather:"
 msgstr "羽化："
 
-#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:140
+#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:141
 #, kde-format
 msgid ""
 "This value is used as the exponent controlling the fall-off in density from "
 "the inner circle of the filter to the outer circle."
 msgstr "這項數值被用作從濾鏡內圈到外圈之密度降低的指數控制。"
 
-#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:146
+#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:147
 #, kde-format
 msgid "Inner Radius:"
 msgstr "內徑："
 
-#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:151
+#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:152
 #, kde-format
 msgid ""
 "This value is the radius of the inner circle of the filter. In the inner "
@@ -26484,12 +26485,12 @@ msgid ""
 msgstr ""
 "這項數值是濾鏡內圈的半徑。在內圈以內的影像會保留。以濾鏡外半徑的倍數表示。"
 
-#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:157
+#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:158
 #, kde-format
 msgid "Outer Radius:"
 msgstr "外徑："
 
-#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:162
+#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:163
 #, kde-format
 msgid ""
 "This value is the radius of the outer circle of the filter. Outside the "
@@ -26499,43 +26500,43 @@ msgstr ""
 "這項數值是濾鏡外圈的半徑。在濾鏡外圈以外的影像會有最大的濾鏡效果。以影像對角"
 "線的倍數表示。"
 
-#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:168
+#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:169
 #, kde-format
 msgid "X offset:"
 msgstr "X 位移："
 
-#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:173
+#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:174
 #, kde-format
 msgid "X offset "
 msgstr "X 位移 "
 
-#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:177
+#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:178
 #, kde-format
 msgid "Y offset:"
 msgstr "Y 位移："
 
-#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:182
+#: core/libs/dimg/filters/lens/antivignettingsettings.cpp:183
 #, kde-format
 msgid "Y offset "
 msgstr "Y 位移"
 
-#: core/libs/dimg/filters/lens/lensdistortionfilter.cpp:80
+#: core/libs/dimg/filters/lens/lensdistortionfilter.cpp:79
 #, kde-format
 msgid "Lens Distortion Tool"
 msgstr "鏡頭變形工具"
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:145
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:146
 #, kde-format
 msgid "Use Metadata"
 msgstr "使用中繼資料"
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:151
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:152
 #, kde-format
 msgctxt "camera make"
 msgid "Make:"
 msgstr "製造商："
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:156
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:157
 #, kde-format
 msgid ""
 "This is the camera maker description string found in image meta-data. This "
@@ -26545,13 +26546,13 @@ msgstr ""
 "這是在影像的中繼資料中找到的，關於相機製造商的描述字串。它可以用於從 Lensfun "
 "資料庫中查詢與尋找相機裝置資訊。"
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:163
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:164
 #, kde-format
 msgctxt "camera model"
 msgid "Model:"
 msgstr "型號："
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:168
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:169
 #, kde-format
 msgid ""
 "This is the camera model description string found in image meta-data. This "
@@ -26561,7 +26562,7 @@ msgstr ""
 "這是在影像的中繼資料中找到的，關於相機型號的描述字串。它可以用於從 Lensfun 資"
 "料庫中查詢與尋找相機裝置資訊。"
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:181
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:182
 #, kde-format
 msgid ""
 "This is the lens description string found in image meta-data. This one is "
@@ -26570,7 +26571,7 @@ msgstr ""
 "這是在影像的中繼資料中找到的，關於鏡頭的描述字串。它可以用於從 Lensfun 資料庫"
 "中查詢與尋找鏡頭的資訊。"
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:190
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:191
 #, kde-format
 msgid ""
 "Set this option to try to guess the right camera/lens settings from the "
@@ -26578,37 +26579,37 @@ msgid ""
 msgstr ""
 "設定這個選項會試著從影像中繼資料 (如 Exif 或 XMP) 猜測正確的相機/鏡頭設定值。"
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:193
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:194
 #, kde-format
 msgid "Focal Length (mm):"
 msgstr "焦距（mm）："
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:194
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:195
 #, kde-format
 msgid "Aperture:"
 msgstr "曝光："
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:195
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:196
 #, kde-format
 msgid "Subject Distance (m):"
 msgstr "拍攝主體距離（m）："
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:402
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:403
 #, kde-format
 msgid "(no metadata available)"
 msgstr "（無可用的中繼資料）"
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:407
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:408
 #, kde-format
 msgid "(no match found)"
 msgstr "（找不到符合的）"
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:412
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:413
 #, kde-format
 msgid "(partial match found)"
 msgstr "（找到部份符合的）"
 
-#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:417
+#: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:418
 #, kde-format
 msgid "(exact match found)"
 msgstr "（找到完全符合的）"
@@ -26618,72 +26619,72 @@ msgstr "（找到完全符合的）"
 msgid "Lens Auto-Correction Tool"
 msgstr "鏡頭自動校正工具"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:351
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:358
 #, kde-format
 msgid "Camera: %1-%2"
 msgstr "相機： %1-%2"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:353
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:360
 #, kde-format
 msgid "Lens: %1"
 msgstr "鏡頭：%1"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:355
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:362
 #, fuzzy, kde-format
 #| msgid "Subject Distance: %1"
 msgid "Subject Distance: <numid>%1</numid>"
 msgstr "拍攝主體距離：%1"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:357
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:364
 #, fuzzy, kde-format
 #| msgid "Aperture: %1"
 msgid "Aperture: <numid>%1</numid>"
 msgstr "光圈：%1"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:359
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:366
 #, fuzzy, kde-format
 #| msgid "Focal Length: %1"
 msgid "Focal Length: <numid>%1</numid>"
 msgstr "焦距： %1"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:361
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:368
 #, fuzzy, kde-format
 #| msgid "Crop Factor: %1"
 msgid "Crop Factor: <numid>%1</numid>"
 msgstr "切割參數：%1"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:363
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:365
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:367
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:369
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:370
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:372
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:374
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:376
 #, kde-format
 msgid "enabled"
 msgstr "已開啟"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:363
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:365
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:367
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:369
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:370
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:372
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:374
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:376
 #, kde-format
 msgid "disabled"
 msgstr "已關閉"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:363
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:370
 #, kde-format
 msgid "CCA Correction: %1"
 msgstr "CCA 修正: %1"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:365
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:372
 #, kde-format
 msgid "VIG Correction: %1"
 msgstr "VIG 修正： %1"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:367
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:374
 #, kde-format
 msgid "DST Correction: %1"
 msgstr "DST 修正：%1"
 
-#: core/libs/dimg/filters/lens/lensfunfilter.cpp:369
+#: core/libs/dimg/filters/lens/lensfunfilter.cpp:376
 #, kde-format
 msgid "GEO Correction: %1"
 msgstr "GEO 修正：%1"
@@ -26793,73 +26794,73 @@ msgstr ""
 "您可以在這裡看到選擇的影像色版的目標預覽影像分佈圖。這在任何設定值改變時都會"
 "重新計算一次。"
 
-#: core/libs/dimg/filters/levels/histogrambox.cpp:269
+#: core/libs/dimg/filters/levels/histogrambox.cpp:270
 #, kde-format
 msgid "<p>Select the histogram channel to display:</p>"
 msgstr "<p>選擇要顯示的分佈圖色版：</p>"
 
-#: core/libs/dimg/filters/levels/histogrambox.cpp:274
+#: core/libs/dimg/filters/levels/histogrambox.cpp:275
 #, kde-format
 msgctxt "The luminosity channel"
 msgid "Luminosity"
 msgstr "明度"
 
-#: core/libs/dimg/filters/levels/histogrambox.cpp:275
+#: core/libs/dimg/filters/levels/histogrambox.cpp:276
 #, kde-format
 msgid "<b>Luminosity</b>: display the image's luminosity values."
 msgstr "<b>明度</b>：顯示影像的明度值。"
 
-#: core/libs/dimg/filters/levels/histogrambox.cpp:277
+#: core/libs/dimg/filters/levels/histogrambox.cpp:278
 #, kde-format
 msgctxt "The red channel"
 msgid "Red"
 msgstr "紅"
 
-#: core/libs/dimg/filters/levels/histogrambox.cpp:278
+#: core/libs/dimg/filters/levels/histogrambox.cpp:279
 #, kde-format
 msgid "<b>Red</b>: display the red image-channel values."
 msgstr "<b>紅</b>：顯示紅色影像色版數值。"
 
-#: core/libs/dimg/filters/levels/histogrambox.cpp:280
+#: core/libs/dimg/filters/levels/histogrambox.cpp:281
 #, kde-format
 msgctxt "The green channel"
 msgid "Green"
 msgstr "綠"
 
-#: core/libs/dimg/filters/levels/histogrambox.cpp:281
+#: core/libs/dimg/filters/levels/histogrambox.cpp:282
 #, kde-format
 msgid "<b>Green</b>: display the green image-channel values."
 msgstr "<b>綠</b>：顯示綠色影像色版數值。"
 
-#: core/libs/dimg/filters/levels/histogrambox.cpp:283
+#: core/libs/dimg/filters/levels/histogrambox.cpp:284
 #, kde-format
 msgctxt "The blue channel"
 msgid "Blue"
 msgstr "藍"
 
-#: core/libs/dimg/filters/levels/histogrambox.cpp:284
+#: core/libs/dimg/filters/levels/histogrambox.cpp:285
 #, kde-format
 msgid "<b>Blue</b>: display the blue image-channel values."
 msgstr "<b>藍</b>：顯示藍色影像色版數值。"
 
-#: core/libs/dimg/filters/levels/histogrambox.cpp:286
+#: core/libs/dimg/filters/levels/histogrambox.cpp:287
 #, kde-format
 msgctxt "The colors channel"
 msgid "Colors"
 msgstr "彩色"
 
-#: core/libs/dimg/filters/levels/histogrambox.cpp:287
+#: core/libs/dimg/filters/levels/histogrambox.cpp:288
 #, kde-format
 msgid "<b>Colors</b>: Display all color channel values at the same time."
 msgstr "<b>彩色</b>：同時顯示所有色版數值。"
 
-#: core/libs/dimg/filters/levels/histogrambox.cpp:289
+#: core/libs/dimg/filters/levels/histogrambox.cpp:290
 #, kde-format
 msgctxt "The alpha channel"
 msgid "Alpha"
 msgstr "Alpha"
 
-#: core/libs/dimg/filters/levels/histogrambox.cpp:290
+#: core/libs/dimg/filters/levels/histogrambox.cpp:291
 #, kde-format
 msgid ""
 "<b>Alpha</b>: display the alpha image-channel values. This channel "
@@ -26869,37 +26870,37 @@ msgstr ""
 "<b>Alpha</b>：顯示 alpha 影像色版數值。這個色版相當於透明值且一些影像格式都支"
 "援，如 PNG 或 TIF。"
 
-#: core/libs/dimg/filters/levels/histogrampainter.cpp:473
+#: core/libs/dimg/filters/levels/histogrampainter.cpp:475
 #, kde-format
 msgid "x:%1"
 msgstr "x:%1"
 
-#: core/libs/dimg/filters/levels/histogramwidget.cpp:573
+#: core/libs/dimg/filters/levels/histogramwidget.cpp:588
 #, kde-format
 msgid "Mean:"
 msgstr "平均值："
 
-#: core/libs/dimg/filters/levels/histogramwidget.cpp:577
+#: core/libs/dimg/filters/levels/histogramwidget.cpp:592
 #, kde-format
 msgid "Pixels:"
 msgstr "像素："
 
-#: core/libs/dimg/filters/levels/histogramwidget.cpp:581
+#: core/libs/dimg/filters/levels/histogramwidget.cpp:596
 #, kde-format
 msgid "Std dev.:"
 msgstr "標準差："
 
-#: core/libs/dimg/filters/levels/histogramwidget.cpp:585
+#: core/libs/dimg/filters/levels/histogramwidget.cpp:600
 #, kde-format
 msgid "Count:"
 msgstr "總數："
 
-#: core/libs/dimg/filters/levels/histogramwidget.cpp:589
+#: core/libs/dimg/filters/levels/histogramwidget.cpp:604
 #, kde-format
 msgid "Median:"
 msgstr "中值："
 
-#: core/libs/dimg/filters/levels/histogramwidget.cpp:593
+#: core/libs/dimg/filters/levels/histogramwidget.cpp:608
 #, kde-format
 msgid "Percent:"
 msgstr "百分比："
@@ -26909,7 +26910,7 @@ msgstr "百分比："
 msgid "Levels Adjust Tool"
 msgstr "色階調整工具"
 
-#: core/libs/dimg/filters/nr/nrfilter.cpp:158
+#: core/libs/dimg/filters/nr/nrfilter.cpp:159
 #, kde-format
 msgid "Noise Reduction Filter"
 msgstr "減少雜訊濾鏡"
@@ -26976,32 +26977,32 @@ msgstr "藍色度"
 msgid "Chrominance Red"
 msgstr "紅色度"
 
-#: core/libs/dimg/filters/nr/nrsettings.cpp:378
+#: core/libs/dimg/filters/nr/nrsettings.cpp:380
 #, kde-format
 msgid "Photograph Noise Reduction Settings File to Load"
 msgstr "要載入的相片雜訊減少設定檔"
 
-#: core/libs/dimg/filters/nr/nrsettings.cpp:396
+#: core/libs/dimg/filters/nr/nrsettings.cpp:398
 #, kde-format
 msgid "\"%1\" is not a Photograph Noise Reduction settings text file."
 msgstr "「%1」不是相片雜訊減少設定值純文字檔。"
 
-#: core/libs/dimg/filters/nr/nrsettings.cpp:416
+#: core/libs/dimg/filters/nr/nrsettings.cpp:418
 #, kde-format
 msgid "Cannot load settings from the Photograph Noise Reduction text file."
 msgstr "無法從相片雜訊減少純文字檔載入設定值。"
 
-#: core/libs/dimg/filters/nr/nrsettings.cpp:424
+#: core/libs/dimg/filters/nr/nrsettings.cpp:426
 #, kde-format
 msgid "Photograph Noise Reduction Settings File to Save"
 msgstr "要儲存的相片雜訊減少設定檔"
 
-#: core/libs/dimg/filters/nr/nrsettings.cpp:449
+#: core/libs/dimg/filters/nr/nrsettings.cpp:451
 #, kde-format
 msgid "Cannot save settings to the Photograph Noise Reduction text file."
 msgstr "無法將設定值儲存到相片雜訊減少純文字檔。"
 
-#: core/libs/dimg/filters/rawprocessingfilter.cpp:79
+#: core/libs/dimg/filters/raw/rawprocessingfilter.cpp:79
 #, kde-format
 msgid "Raw Conversion"
 msgstr "Raw 轉換"
@@ -48627,6 +48628,9 @@ msgstr "側邊切換頻率："
 msgctxt "%1 is the screen number (0, 1, ...)"
 msgid "Screen %1"
 msgstr "綠（%）："
+
+#~ msgid "Rotate 180°"
+#~ msgstr "旋轉 180 度"
 
 #~ msgctxt "@title:tab"
 #~ msgid "Albums"

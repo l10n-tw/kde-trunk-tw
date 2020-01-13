@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-12 02:41+0100\n"
+"POT-Creation-Date: 2020-01-13 02:40+0100\n"
 "PO-Revision-Date: 2019-01-03 18:34+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -6747,7 +6747,7 @@ msgstr "測量高度角誤差"
 msgid "Correct Alt Error"
 msgstr "修正高度角誤差"
 
-#: ekos/align/alignview.cpp:151 fitsviewer/fitsview.cpp:1099
+#: ekos/align/alignview.cpp:151 fitsviewer/fitsview.cpp:1100
 #, fuzzy, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "NGC"
@@ -6755,7 +6755,7 @@ msgctxt "North Celestial Pole"
 msgid "NCP"
 msgstr "NGC"
 
-#: ekos/align/alignview.cpp:153 fitsviewer/fitsview.cpp:1116
+#: ekos/align/alignview.cpp:153 fitsviewer/fitsview.cpp:1117
 #, fuzzy, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "NGC"
@@ -20936,94 +20936,94 @@ msgstr "FITS 儲存"
 msgid "File saved to %1"
 msgstr "檔案已儲存到 %1"
 
-#: fitsviewer/fitsview.cpp:349 fitsviewer/fitsview.cpp:359
+#: fitsviewer/fitsview.cpp:350 fitsviewer/fitsview.cpp:360
 #, fuzzy, kde-format
 #| msgid "Saving of the image %1 failed."
 msgid "Rescaling image failed."
 msgstr "儲存影像 %1 失敗。"
 
-#: fitsviewer/fitsview.cpp:567
+#: fitsviewer/fitsview.cpp:568
 #, kde-format
 msgid "Cannot zoom in further due to active limited resources mode."
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:1447
+#: fitsviewer/fitsview.cpp:1448
 #, kde-format
 msgid "Finding stars..."
 msgstr "搜尋星體中..."
 
-#: fitsviewer/fitsview.cpp:1452
+#: fitsviewer/fitsview.cpp:1453
 #, kde-format
 msgid "1 star detected."
 msgid_plural "%1 stars detected."
 msgstr[0] "偵測到 %1 個星體。"
 
-#: fitsviewer/fitsview.cpp:1670
+#: fitsviewer/fitsview.cpp:1671
 #, kde-format
 msgid "Zoom In"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:1673
+#: fitsviewer/fitsview.cpp:1674
 #, kde-format
 msgid "Zoom Out"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:1676
+#: fitsviewer/fitsview.cpp:1677
 #, fuzzy, kde-format
 #| msgid "&Default Zoom"
 msgid "Default Zoom"
 msgstr "預設縮放(&D)"
 
-#: fitsviewer/fitsview.cpp:1679
+#: fitsviewer/fitsview.cpp:1680
 #, kde-format
 msgid "Zoom to Fit"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:1682
+#: fitsviewer/fitsview.cpp:1683
 #, fuzzy, kde-format
 #| msgid "Auto Stretch"
 msgid "Toggle Stretch"
 msgstr "自動延伸"
 
-#: fitsviewer/fitsview.cpp:1690 fitsviewer/fitsviewer.cpp:183
+#: fitsviewer/fitsview.cpp:1691 fitsviewer/fitsviewer.cpp:183
 #, fuzzy, kde-format
 #| msgid "Crosshairs"
 msgid "Show Cross Hairs"
 msgstr "十字型"
 
-#: fitsviewer/fitsview.cpp:1694 fitsviewer/fitsviewer.cpp:189
+#: fitsviewer/fitsview.cpp:1695 fitsviewer/fitsviewer.cpp:189
 #, fuzzy, kde-format
 #| msgid "Show satellites"
 msgid "Show Pixel Gridlines"
 msgstr "顯示衛星"
 
-#: fitsviewer/fitsview.cpp:1699 fitsviewer/fitsview.cpp:1808
+#: fitsviewer/fitsview.cpp:1700 fitsviewer/fitsview.cpp:1809
 #, fuzzy, kde-format
 #| msgid "Open FITS Image"
 msgid "Detect Stars in Image"
 msgstr "開啟 FITS 影像"
 
-#: fitsviewer/fitsview.cpp:1705 fitsviewer/starprofileviewer.cpp:63
+#: fitsviewer/fitsview.cpp:1706 fitsviewer/starprofileviewer.cpp:63
 #, fuzzy, kde-format
 #| msgid "Arc file"
 msgid "View Star Profile"
 msgstr "Arc 檔"
 
-#: fitsviewer/fitsview.cpp:1715 fitsviewer/fitsviewer.cpp:195
+#: fitsviewer/fitsview.cpp:1716 fitsviewer/fitsviewer.cpp:195
 #: fitsviewer/fitsviewer.cpp:852
 #, fuzzy, kde-format
 #| msgid "Equatorial Coordinates"
 msgid "Show Equatorial Gridlines"
 msgstr "赤道座標"
 
-#: fitsviewer/fitsview.cpp:1721 fitsviewer/fitsviewer.cpp:202
+#: fitsviewer/fitsview.cpp:1722 fitsviewer/fitsviewer.cpp:202
 #: fitsviewer/fitsviewer.cpp:854
 #, fuzzy, kde-format
 #| msgid "Show Objects"
 msgid "Show Objects in Image"
 msgstr "顯示物件"
 
-#: fitsviewer/fitsview.cpp:1727
+#: fitsviewer/fitsview.cpp:1728
 #, fuzzy, kde-format
 #| msgid "Center in Telescope"
 msgid "Center Telescope"
@@ -94808,69 +94808,69 @@ msgstr ""
 msgid "KStars OSX Port."
 msgstr ""
 
-#: main.cpp:155
+#: main.cpp:153
 #, fuzzy, kde-format
 #| msgid "Dump sky image to file"
 msgid "Dump sky image to file."
 msgstr "傾印天空影像到檔案中"
 
-#: main.cpp:156
+#: main.cpp:154
 #, fuzzy, kde-format
 #| msgid "Script to execute"
 msgid "Script to execute."
 msgstr "要執行的文稿"
 
-#: main.cpp:157
+#: main.cpp:155
 #, fuzzy, kde-format
 #| msgid "Width of sky image"
 msgid "Width of sky image."
 msgstr "天空影像的寬度"
 
-#: main.cpp:158
+#: main.cpp:156
 #, fuzzy, kde-format
 #| msgid "Height of sky image"
 msgid "Height of sky image."
 msgstr "天空影像的高度"
 
-#: main.cpp:159
+#: main.cpp:157
 #, fuzzy, kde-format
 #| msgid "Date and time"
 msgid "Date and time."
 msgstr "日期和時間"
 
-#: main.cpp:160
+#: main.cpp:158
 #, fuzzy, kde-format
 #| msgid "Start with clock paused"
 msgid "Start with clock paused."
 msgstr "啟動時暫停時鐘"
 
-#: main.cpp:163
+#: main.cpp:161
 #, kde-format
 msgid "FITS file(s) to open."
 msgstr ""
 
-#: main.cpp:198 printing/foveditordialog.cpp:187
+#: main.cpp:196 printing/foveditordialog.cpp:187
 #, kde-format
 msgid "Could not parse image format of %1; assuming PNG."
 msgstr "無法剖析 %1 的影像格式，假設為 PNG。"
 
-#: main.cpp:249
+#: main.cpp:247
 #, fuzzy, kde-format
 #| msgid "Using CPU date/time instead."
 msgid "Supplied date string is invalid: %1. Using CPU date/time instead."
 msgstr "改使用 CPU 日期/時間。"
 
-#: main.cpp:279
+#: main.cpp:277
 #, kde-format
 msgid "Script executed."
 msgstr "文稿已執行。"
 
-#: main.cpp:283
+#: main.cpp:281
 #, kde-format
 msgid "Could not execute script."
 msgstr "無法執行文稿。"
 
-#: main.cpp:307
+#: main.cpp:305
 #, kde-format
 msgid "Using CPU date/time instead."
 msgstr "改使用 CPU 日期/時間。"

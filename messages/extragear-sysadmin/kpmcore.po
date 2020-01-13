@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: partitionmanager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-19 02:47+0100\n"
+"POT-Creation-Date: 2020-01-13 02:52+0100\n"
 "PO-Revision-Date: 2019-06-19 14:45+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -1436,7 +1436,7 @@ msgctxt "@item"
 msgid "Disk failure is imminent. Backup all data!"
 msgstr "即將發生磁碟錯誤。快快快，快點備份！"
 
-#: fs/btrfs.cpp:139
+#: fs/btrfs.cpp:171
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid ""
@@ -1450,7 +1450,7 @@ msgstr ""
 "調整位於 <filename>%1</filename> 上的 JFS 檔案系統的大小時失敗：無法建立暫存"
 "目錄。"
 
-#: fs/btrfs.cpp:155 fs/btrfs.cpp:175
+#: fs/btrfs.cpp:187 fs/btrfs.cpp:207
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid ""
@@ -1464,7 +1464,7 @@ msgstr ""
 "調整位於 <filename>%1</filename> 上的 XFS 檔案系統的大小時失敗：xfs_growfs 失"
 "敗。"
 
-#: fs/btrfs.cpp:160
+#: fs/btrfs.cpp:192
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid ""
@@ -1477,7 +1477,7 @@ msgid ""
 msgstr ""
 "調整位於 <filename>%1</filename> 上的 JFS 檔案系統的大小時失敗：卸載失敗。"
 
-#: fs/btrfs.cpp:162
+#: fs/btrfs.cpp:194
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid ""
@@ -1491,172 +1491,172 @@ msgstr ""
 "調整位於 <filename>%1</filename> 上的 JFS 檔案系統的大小時失敗：初始化掛載失"
 "敗。"
 
-#: fs/fat12.cpp:140
+#: fs/fat12.cpp:148
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Setting label for partition <filename>%1</filename> to %2"
 msgstr "設定分割區 <filename>%1</filename> 的標籤為 %2"
 
-#: fs/filesystem.cpp:422
+#: fs/filesystem.cpp:444
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unknown"
 msgstr "未知"
 
-#: fs/filesystem.cpp:423
+#: fs/filesystem.cpp:445
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "extended"
 msgstr "延伸"
 
-#: fs/filesystem.cpp:425
+#: fs/filesystem.cpp:447
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext2"
 msgstr "ext2"
 
-#: fs/filesystem.cpp:426
+#: fs/filesystem.cpp:448
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext3"
 msgstr "ext3"
 
-#: fs/filesystem.cpp:427
+#: fs/filesystem.cpp:449
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext4"
 msgstr "ext4"
 
-#: fs/filesystem.cpp:428
+#: fs/filesystem.cpp:450
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linuxswap"
 msgstr "linux 交換分割區"
 
-#: fs/filesystem.cpp:429
+#: fs/filesystem.cpp:451
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat16"
 msgstr "fat16"
 
-#: fs/filesystem.cpp:430
+#: fs/filesystem.cpp:452
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat32"
 msgstr "fat32"
 
-#: fs/filesystem.cpp:431
+#: fs/filesystem.cpp:453
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ntfs"
 msgstr "ntfs"
 
-#: fs/filesystem.cpp:432
+#: fs/filesystem.cpp:454
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser"
 msgstr "reiser"
 
-#: fs/filesystem.cpp:433
+#: fs/filesystem.cpp:455
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser4"
 msgstr "reiser4"
 
-#: fs/filesystem.cpp:434
+#: fs/filesystem.cpp:456
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "xfs"
 msgstr "xfs"
 
-#: fs/filesystem.cpp:435
+#: fs/filesystem.cpp:457
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "jfs"
 msgstr "jfs"
 
-#: fs/filesystem.cpp:436
+#: fs/filesystem.cpp:458
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfs"
 msgstr "hfs"
 
-#: fs/filesystem.cpp:437
+#: fs/filesystem.cpp:459
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfsplus"
 msgstr "hfsplus"
 
-#: fs/filesystem.cpp:438
+#: fs/filesystem.cpp:460
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ufs"
 msgstr "ufs"
 
-#: fs/filesystem.cpp:439
+#: fs/filesystem.cpp:461
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unformatted"
 msgstr "未格式化"
 
-#: fs/filesystem.cpp:440
+#: fs/filesystem.cpp:462
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "btrfs"
 msgstr "btrfs"
 
-#: fs/filesystem.cpp:441
+#: fs/filesystem.cpp:463
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hpfs"
 msgstr "hpfs"
 
-#: fs/filesystem.cpp:442
+#: fs/filesystem.cpp:464
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks"
 msgstr "luks"
 
-#: fs/filesystem.cpp:443
+#: fs/filesystem.cpp:465
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ocfs2"
 msgstr "ocfs2"
 
-#: fs/filesystem.cpp:444
+#: fs/filesystem.cpp:466
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "zfs"
 msgstr "zfs"
 
-#: fs/filesystem.cpp:445
+#: fs/filesystem.cpp:467
 #, fuzzy, kde-kuit-format
 #| msgid "exfat:"
 msgctxt "@item filesystem name"
 msgid "exfat"
 msgstr "exfat:"
 
-#: fs/filesystem.cpp:446
+#: fs/filesystem.cpp:468
 #, fuzzy, kde-kuit-format
 #| msgid "nilfs2:"
 msgctxt "@item filesystem name"
 msgid "nilfs2"
 msgstr "nilfs2:"
 
-#: fs/filesystem.cpp:447
+#: fs/filesystem.cpp:469
 #, fuzzy, kde-kuit-format
 #| msgid "lvm2 pv:"
 msgctxt "@item filesystem name"
 msgid "lvm2 pv"
 msgstr "lvm2 pv:"
 
-#: fs/filesystem.cpp:448
+#: fs/filesystem.cpp:470
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "f2fs"
 msgstr ""
 
-#: fs/filesystem.cpp:449
+#: fs/filesystem.cpp:471
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "ufs"
@@ -1664,13 +1664,13 @@ msgctxt "@item filesystem name"
 msgid "udf"
 msgstr "ufs"
 
-#: fs/filesystem.cpp:450
+#: fs/filesystem.cpp:472
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "iso9660"
 msgstr ""
 
-#: fs/filesystem.cpp:451
+#: fs/filesystem.cpp:473
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "luks"
@@ -1678,7 +1678,7 @@ msgctxt "@item filesystem name"
 msgid "luks2"
 msgstr "luks"
 
-#: fs/filesystem.cpp:452
+#: fs/filesystem.cpp:474
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "fat16"
@@ -1686,37 +1686,37 @@ msgctxt "@item filesystem name"
 msgid "fat12"
 msgstr "fat16"
 
-#: fs/filesystem.cpp:453
+#: fs/filesystem.cpp:475
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linux_raid_member"
 msgstr ""
 
-#: fs/filesystem.cpp:454
+#: fs/filesystem.cpp:476
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "BitLocker"
 msgstr ""
 
-#: fs/filesystem.cpp:455
+#: fs/filesystem.cpp:477
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "apfs"
 msgstr ""
 
-#: fs/filesystem.cpp:456
+#: fs/filesystem.cpp:478
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "minix"
 msgstr ""
 
-#: fs/filesystem.cpp:499 fs/luks.cpp:161
+#: fs/filesystem.cpp:521 fs/luks.cpp:162
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Mount"
 msgstr "掛載"
 
-#: fs/filesystem.cpp:505 fs/luks.cpp:166
+#: fs/filesystem.cpp:527 fs/luks.cpp:167
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unmount"
@@ -1777,24 +1777,24 @@ msgctxt "@title:menu"
 msgid "Deactivate swap"
 msgstr "停止交換分割區"
 
-#: fs/luks.cpp:171
+#: fs/luks.cpp:172
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unlock"
 msgstr ""
 
-#: fs/luks.cpp:176
+#: fs/luks.cpp:177
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Lock"
 msgstr ""
 
-#: fs/luks.cpp:257
+#: fs/luks.cpp:258
 #, kde-format
 msgid "Enter passphrase for %1:"
 msgstr ""
 
-#: fs/luks.cpp:500 fs/luks.cpp:510 fs/luks2.cpp:97 fs/luks2.cpp:114
+#: fs/luks.cpp:501 fs/luks.cpp:511 fs/luks2.cpp:97 fs/luks2.cpp:114
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid "Resizing/moving partition <filename>%1</filename> failed."
@@ -1802,7 +1802,7 @@ msgctxt "@info:progress"
 msgid "Resizing LUKS crypt on partition <filename>%1</filename>."
 msgstr "調整或移動分割區 <filename>%1</filename> 失敗。"
 
-#: fs/luks.cpp:514 fs/luks2.cpp:125
+#: fs/luks.cpp:515 fs/luks2.cpp:125
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid ""
@@ -2010,7 +2010,7 @@ msgid ""
 msgstr ""
 "複製分割區 <filename>%1</filename> 上檔案系統到分割區 <filename>%2</filename>"
 
-#: jobs/createfilesystemjob.cpp:73
+#: jobs/createfilesystemjob.cpp:74
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid "Failed to clobber file system on partition <filename>%1</filename>."
@@ -2020,7 +2020,7 @@ msgid ""
 "filename>."
 msgstr "刪除分割區 <filename>%1</filename> 上的 clobber 檔案系統失敗。"
 
-#: jobs/createfilesystemjob.cpp:75
+#: jobs/createfilesystemjob.cpp:76
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid ""
@@ -2033,7 +2033,7 @@ msgid ""
 msgstr ""
 "無法開啟裝置 <filename>%1</filename> 以建立新分割區 <filename>%2</filename>。"
 
-#: jobs/createfilesystemjob.cpp:77
+#: jobs/createfilesystemjob.cpp:78
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid ""
@@ -2047,7 +2047,7 @@ msgstr ""
 "無法開啟裝置 <filename>%1</filename> 以設定分割區 <filename>%2</filename> 的"
 "旗標。"
 
-#: jobs/createfilesystemjob.cpp:91
+#: jobs/createfilesystemjob.cpp:92
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid ""

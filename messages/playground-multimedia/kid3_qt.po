@@ -69,7 +69,7 @@ msgstr "離開應用程式"
 #, fuzzy
 #| msgid "The current directory has been modified."
 msgctxt "QuitCommand|"
-msgid "The current directory has been modified."
+msgid "The current folder has been modified."
 msgstr "目前目錄已更動."
 
 #: src/app/cli/clicommand.cpp:252
@@ -81,10 +81,11 @@ msgstr "類型 'exit force' 離開."
 
 #: src/app/cli/clicommand.cpp:268
 #, fuzzy
-#| msgid "Create directory"
+#| msgid "%n folders"
+#| msgid_plural "%n folders"
 msgctxt "CdCommand|"
-msgid "Change directory"
-msgstr "建立目錄"
+msgid "Change folder"
+msgstr "%n 個資料夾"
 
 #: src/app/cli/clicommand.cpp:282
 #, fuzzy, qt-format
@@ -97,15 +98,15 @@ msgstr "%1 不存在"
 #, fuzzy
 #| msgid "Select all files in the current directory"
 msgctxt "PwdCommand|"
-msgid "Print the filename of the current working directory"
+msgid "Print the filename of the current folder"
 msgstr "选中当前目录中所有的文件"
 
 #: src/app/cli/clicommand.cpp:318
 #, fuzzy
-#| msgid "Directory list"
+#| msgid "Folder"
 msgctxt "LsCommand|"
-msgid "Directory list"
-msgstr "目錄清單"
+msgid "Folder list"
+msgstr "資料夾"
 
 #: src/app/cli/clicommand.cpp:330
 #, fuzzy
@@ -333,10 +334,10 @@ msgstr "将字符编码"
 
 #: src/app/cli/clicommand.cpp:738
 #, fuzzy
-#| msgid "Rename directory"
+#| msgid "Rename file"
 msgctxt "RenameDirectoryCommand|"
-msgid "Rename directory"
-msgstr "更改目錄名稱"
+msgid "Rename folder"
+msgstr "更改檔案名稱"
 
 #: src/app/cli/clicommand.cpp:830
 #, fuzzy
@@ -590,10 +591,10 @@ msgstr "逾時"
 
 #: src/app/cli/textcliformatter.cpp:301
 #, fuzzy
-#| msgid "Reading Directory"
+#| msgid "Open Containing &Folder"
 msgctxt "TextCliFormatter|"
-msgid "Reading Directory"
-msgstr "正在讀取目錄"
+msgid "Reading Folder"
+msgstr "開啟所在資料夾(&F)"
 
 #: src/app/cli/textcliformatter.cpp:303
 #, fuzzy
@@ -711,7 +712,7 @@ msgstr "開啟檔案"
 #, fuzzy
 #| msgid "Opens a recently used directory"
 msgctxt "KdeMainWindow|"
-msgid "Opens a recently used directory"
+msgid "Opens a recently used folder"
 msgstr "開啟目前所在的目錄"
 
 #: src/app/kde/kdemainwindow.cpp:102
@@ -795,14 +796,14 @@ msgstr "喜好設定對話框"
 #, fuzzy
 #| msgid "O&pen Directory..."
 msgctxt "KdeMainWindow|"
-msgid "O&pen Directory..."
+msgid "O&pen Folder..."
 msgstr "開啟目錄(&P)..."
 
 #: src/app/kde/kdemainwindow.cpp:191
 #, fuzzy
 #| msgid "Opens a directory"
 msgctxt "KdeMainWindow|"
-msgid "Opens a directory"
+msgid "Opens a folder"
 msgstr "開啟目錄"
 
 #: src/app/kde/kdemainwindow.cpp:198
@@ -816,7 +817,7 @@ msgstr "重新載入(&L)"
 #, fuzzy
 #| msgid "Reload directory"
 msgctxt "KdeMainWindow|"
-msgid "Reload directory"
+msgid "Reload folder"
 msgstr "重新載入目錄"
 
 #: src/app/kde/kdemainwindow.cpp:205
@@ -968,17 +969,17 @@ msgstr "将字符编码"
 
 #: src/app/kde/kdemainwindow.cpp:287
 #, fuzzy
-#| msgid "&Rename Directory..."
+#| msgid "Rename File"
 msgctxt "KdeMainWindow|"
-msgid "&Rename Directory..."
-msgstr "更改目錄名稱(&R)..."
+msgid "&Rename Folder..."
+msgstr "更改檔名"
 
 #: src/app/kde/kdemainwindow.cpp:288
 #, fuzzy
-#| msgid "Rename Directory"
+#| msgid "Rename File"
 msgctxt "KdeMainWindow|"
-msgid "Rename Directory"
-msgstr "更改目錄名稱"
+msgid "Rename Folder"
+msgstr "更改檔名"
 
 #: src/app/kde/kdemainwindow.cpp:291
 #, fuzzy
@@ -1082,14 +1083,14 @@ msgstr "自動隱藏標籤"
 #, fuzzy
 #| msgid "Select All in &Directory"
 msgctxt "KdeMainWindow|"
-msgid "Select All in &Directory"
+msgid "Select All in &Folder"
 msgstr "选中当前目录中所有的文件(&D)"
 
 #: src/app/kde/kdemainwindow.cpp:330
 #, fuzzy
 #| msgid "Select all files in the current directory"
 msgctxt "KdeMainWindow|"
-msgid "Select all files in the current directory"
+msgid "Select all files in the current folder"
 msgstr "选中当前目录中所有的文件"
 
 #: src/app/kde/kdemainwindow.cpp:334
@@ -1228,10 +1229,10 @@ msgstr "移至垃圾桶(&M)"
 
 #: src/app/kde/kdemainwindow.cpp:429
 #, fuzzy
-#| msgid "Directory List"
+#| msgid "File List"
 msgctxt "KdeMainWindow|"
-msgid "Directory List"
-msgstr "目錄清單"
+msgid "Folder List"
+msgstr "檔案清單"
 
 #: src/app/kde/kdemainwindow.cpp:598
 #, fuzzy
@@ -1244,7 +1245,7 @@ msgstr "設定 - Kid3"
 #, fuzzy
 #| msgid "directory to open"
 msgctxt "@default|"
-msgid "directory to open"
+msgid "folder to open"
 msgstr "開啟目錄"
 
 #: src/app/kde/mainkde.cpp:135
@@ -1440,7 +1441,7 @@ msgstr "開啟(&O)..."
 #, fuzzy
 #| msgid "Opens a recently used directory"
 msgctxt "Kid3MainWindow|"
-msgid "Opens a recently used directory"
+msgid "Opens a recently used folder"
 msgstr "開啟目前所在的目錄"
 
 #: src/app/qt/kid3mainwindow.cpp:128
@@ -1454,21 +1455,21 @@ msgstr "開啟最近的檔案(&R)"
 #, fuzzy
 #| msgid "Opens a directory"
 msgctxt "Kid3MainWindow|"
-msgid "Opens a directory"
+msgid "Opens a folder"
 msgstr "開啟目錄"
 
 #: src/app/qt/kid3mainwindow.cpp:136
 #, fuzzy
 #| msgid "O&pen Directory..."
 msgctxt "Kid3MainWindow|"
-msgid "O&pen Directory..."
+msgid "O&pen Folder..."
 msgstr "開啟目錄(&P)..."
 
 #: src/app/qt/kid3mainwindow.cpp:147
 #, fuzzy
 #| msgid "Reload directory"
 msgctxt "Kid3MainWindow|"
-msgid "Reload directory"
+msgid "Reload folder"
 msgstr "重新載入目錄"
 
 #: src/app/qt/kid3mainwindow.cpp:148
@@ -1664,14 +1665,14 @@ msgstr "取消選擇(&l)"
 #, fuzzy
 #| msgid "Select all files in the current directory"
 msgctxt "Kid3MainWindow|"
-msgid "Select all files in the current directory"
+msgid "Select all files in the current folder"
 msgstr "选中当前目录中所有的文件"
 
 #: src/app/qt/kid3mainwindow.cpp:348
 #, fuzzy
 #| msgid "Select All in &Directory"
 msgctxt "Kid3MainWindow|"
-msgid "Select All in &Directory"
+msgid "Select All in &Folder"
 msgstr "选中当前目录中所有的文件(&D)"
 
 #: src/app/qt/kid3mainwindow.cpp:356
@@ -1781,17 +1782,17 @@ msgstr "将字符编码(&E)"
 
 #: src/app/qt/kid3mainwindow.cpp:442
 #, fuzzy
-#| msgid "Rename Directory"
+#| msgid "Rename File"
 msgctxt "Kid3MainWindow|"
-msgid "Rename Directory"
-msgstr "更改目錄名稱"
+msgid "Rename Folder"
+msgstr "更改檔名"
 
 #: src/app/qt/kid3mainwindow.cpp:443
 #, fuzzy
-#| msgid "&Rename Directory..."
+#| msgid "Rename File"
 msgctxt "Kid3MainWindow|"
-msgid "&Rename Directory..."
-msgstr "更改目錄名稱(&R)..."
+msgid "&Rename Folder..."
+msgstr "更改檔名"
 
 #: src/app/qt/kid3mainwindow.cpp:451
 #, fuzzy
@@ -2090,10 +2091,10 @@ msgstr "移至垃圾桶(&M)"
 
 #: src/app/qt/kid3mainwindow.cpp:697
 #, fuzzy
-#| msgid "Directory List"
+#| msgid "File List"
 msgctxt "Kid3MainWindow|"
-msgid "Directory List"
-msgstr "目錄清單"
+msgid "Folder List"
+msgstr "檔案清單"
 
 #: src/app/qt/kid3mainwindow.cpp:774
 #, fuzzy
@@ -2485,12 +2486,12 @@ msgctxt "@default|"
 msgid "URLs"
 msgstr "網址"
 
-#: src/core/model/commandformatreplacer.cpp:163 src/core/tags/trackdata.cpp:226
+#: src/core/model/commandformatreplacer.cpp:163
 #, fuzzy
-#| msgid "Directory name"
+#| msgid "Filter name"
 msgctxt "@default|"
-msgid "Directory name"
-msgstr "目錄名稱"
+msgid "Folder name"
+msgstr "檔名"
 
 #: src/core/model/commandformatreplacer.cpp:168
 #, fuzzy
@@ -2503,7 +2504,7 @@ msgstr "瀏覽"
 #, fuzzy
 #| msgid "QML base directory"
 msgctxt "@default|"
-msgid "QML base directory"
+msgid "QML base folder"
 msgstr "QML 底層目錄"
 
 #: src/core/model/commandformatreplacer.cpp:181
@@ -2567,14 +2568,14 @@ msgstr "指令"
 #, fuzzy, qt-format
 #| msgid "Create directory %1 failed\n"
 msgctxt "@default|"
-msgid "Create directory %1 failed\n"
+msgid "Create folder %1 failed\n"
 msgstr "建立 %1 目錄失敗\n"
 
 #: src/core/model/dirrenamer.cpp:279
 #, fuzzy, qt-format
 #| msgid "Create directory %1 failed\n"
 msgctxt "DirRenamer|"
-msgid "Create directory %1 failed\n"
+msgid "Create folder %1 failed\n"
 msgstr "建立 %1 目錄失敗\n"
 
 #: src/core/model/dirrenamer.cpp:286
@@ -2586,10 +2587,10 @@ msgstr "%1 檔已經存在\n"
 
 #: src/core/model/dirrenamer.cpp:288
 #, fuzzy, qt-format
-#| msgid "%1 is not a directory\n"
+#| msgid "%1 is not a file\n"
 msgctxt "@default|"
-msgid "%1 is not a directory\n"
-msgstr "%1 不是目錄\n"
+msgid "%1 is not a folder\n"
+msgstr "%1 不是檔案\n"
 
 #: src/core/model/dirrenamer.cpp:290
 #, fuzzy, qt-format
@@ -2607,10 +2608,10 @@ msgstr "%1 檔已經存在\n"
 
 #: src/core/model/dirrenamer.cpp:315
 #, fuzzy, qt-format
-#| msgid "%1 is not a directory\n"
+#| msgid "%1 is not a file\n"
 msgctxt "DirRenamer|"
-msgid "%1 is not a directory\n"
-msgstr "%1 不是目錄\n"
+msgid "%1 is not a folder\n"
+msgstr "%1 不是檔案\n"
 
 #: src/core/model/dirrenamer.cpp:335 src/core/model/dirrenamer.cpp:383
 #, fuzzy, qt-format
@@ -2651,22 +2652,22 @@ msgstr "%1 不是檔案\n"
 #, fuzzy
 #| msgid "New directory name is too different\n"
 msgctxt "DirRenamer|"
-msgid "New directory name is too different\n"
+msgid "New folder name is too different\n"
 msgstr "新目錄名稱太奇怪\n"
 
 #: src/core/model/dirrenamer.cpp:670
 #, fuzzy
 #| msgid "Create directory"
 msgctxt "@default|"
-msgid "Create directory"
+msgid "Create folder"
 msgstr "建立目錄"
 
 #: src/core/model/dirrenamer.cpp:671
 #, fuzzy
-#| msgid "Rename directory"
+#| msgid "Rename file"
 msgctxt "@default|"
-msgid "Rename directory"
-msgstr "更改目錄名稱"
+msgid "Rename folder"
+msgstr "更改檔案名稱"
 
 #: src/core/model/dirrenamer.cpp:672
 #, fuzzy
@@ -3134,7 +3135,7 @@ msgstr "資料"
 #, fuzzy
 #| msgid "Saving directory..."
 msgctxt "Kid3Application|"
-msgid "Saving directory..."
+msgid "Saving folder..."
 msgstr "儲存目錄..."
 
 #: src/core/model/kid3application.cpp:1119
@@ -4797,6 +4798,13 @@ msgctxt "@default|"
 msgid "Creation date"
 msgstr "建立日期"
 
+#: src/core/tags/trackdata.cpp:226
+#, fuzzy
+#| msgid "Directory name"
+msgctxt "@default|"
+msgid "Directory name"
+msgstr "目錄名稱"
+
 #: src/core/tags/trackdata.cpp:241
 #, fuzzy
 #| msgid "Number of tracks"
@@ -4918,10 +4926,10 @@ msgstr "新增"
 
 #: src/gui/dialogs/batchimportdialog.cpp:477
 #, fuzzy
-#| msgid "Reading Directory"
+#| msgid "Open Containing &Folder"
 msgctxt "BatchImportDialog|"
-msgid "Reading Directory"
-msgstr "正在讀取目錄"
+msgid "Reading Folder"
+msgstr "開啟所在資料夾(&F)"
 
 #: src/gui/dialogs/batchimportdialog.cpp:481
 #, fuzzy
@@ -6057,7 +6065,7 @@ msgstr "到(&D):"
 #, fuzzy
 #| msgid "&Reset counter for each directory"
 msgctxt "NumberTracksDialog|"
-msgid "&Reset counter for each directory"
+msgid "&Reset counter for each folder"
 msgstr "重設每個目錄計數器(&R)"
 
 #: src/gui/dialogs/numbertracksdialog.cpp:89
@@ -6113,7 +6121,7 @@ msgstr "播放清單檔案名稱"
 #, fuzzy
 #| msgid "Same as &directory name"
 msgctxt "PlaylistDialog|"
-msgid "Same as &directory name"
+msgid "Same as &folder name"
 msgstr "與目錄同名(&D)"
 
 #: src/gui/dialogs/playlistdialog.cpp:147
@@ -6148,21 +6156,21 @@ msgstr "建立在(&E)："
 #, fuzzy
 #| msgid "Current directory"
 msgctxt "PlaylistDialog|"
-msgid "Current directory"
+msgid "Current folder"
 msgstr "目前目錄"
 
 #: src/gui/dialogs/playlistdialog.cpp:170
 #, fuzzy
 #| msgid "Every directory"
 msgctxt "PlaylistDialog|"
-msgid "Every directory"
+msgid "Every folder"
 msgstr "每個目錄"
 
 #: src/gui/dialogs/playlistdialog.cpp:171
 #, fuzzy
 #| msgid "Top-level directory"
 msgctxt "PlaylistDialog|"
-msgid "Top-level directory"
+msgid "Top-level folder"
 msgstr "頂層目錄"
 
 #: src/gui/dialogs/playlistdialog.cpp:173
@@ -6292,10 +6300,10 @@ msgstr ""
 
 #: src/gui/dialogs/rendirdialog.cpp:57 src/gui/dialogs/rendirdialog.cpp:95
 #, fuzzy
-#| msgid "Rename Directory"
+#| msgid "Rename File"
 msgctxt "RenDirDialog|"
-msgid "Rename Directory"
-msgstr "更改目錄名稱"
+msgid "Rename Folder"
+msgstr "更改檔名"
 
 #: src/gui/dialogs/rendirdialog.cpp:64
 #, fuzzy
@@ -6320,9 +6328,9 @@ msgstr "儲存設定(&S)"
 
 #: src/gui/dialogs/rendirdialog.cpp:96
 #, fuzzy
-#| msgid "Create Directory"
+#| msgid "Create directory"
 msgctxt "RenDirDialog|"
-msgid "Create Directory"
+msgid "Create Folder"
 msgstr "建立目錄"
 
 #: src/gui/dialogs/rendirdialog.cpp:97
@@ -6369,10 +6377,10 @@ msgstr "至："
 
 #: src/gui/dialogs/rendirdialog.cpp:313
 #, fuzzy
-#| msgid "Directory Name from Tag"
+#| msgid "Filename from Tag"
 msgctxt "RenDirDialog|"
-msgid "Directory Name from Tag"
-msgstr "目錄名稱從標籤"
+msgid "Folder Name from Tag"
+msgstr "檔名從標籤"
 
 #: src/gui/dialogs/serverimportdialog.cpp:60
 #, fuzzy
@@ -6661,7 +6669,7 @@ msgstr "下載"
 #, fuzzy
 #| msgid "Opening directory..."
 msgctxt "BaseMainWindowImpl|"
-msgid "Opening directory..."
+msgid "Opening folder..."
 msgstr "開啟目錄..."
 
 #: src/gui/forms/basemainwindow.cpp:264
@@ -6709,7 +6717,7 @@ msgstr "寫入檔案錯誤。要自動更正資料夾權限嗎？"
 #| "Do you want to save it?"
 msgctxt "BaseMainWindowImpl|"
 msgid ""
-"The current directory has been modified.\n"
+"The current folder has been modified.\n"
 "Do you want to save it?"
 msgstr ""
 "目前目錄已更動\n"
@@ -6812,7 +6820,7 @@ msgctxt "BaseMainWindowImpl|"
 msgid "Error while renaming:\n"
 msgstr "更改檔名發生錯誤:\n"
 
-#: src/gui/forms/basemainwindow.cpp:1057 src/gui/forms/basemainwindow.cpp:1496
+#: src/gui/forms/basemainwindow.cpp:1057
 msgctxt "BaseMainWindowImpl|"
 msgid "Retry after closing directories?"
 msgstr ""
@@ -6866,6 +6874,11 @@ msgctxt "BaseMainWindowImpl|"
 msgid "Rename %1 to %2 failed\n"
 msgstr "%1 更名至 %2 失敗\n"
 
+#: src/gui/forms/basemainwindow.cpp:1496
+msgctxt "BaseMainWindowImpl|"
+msgid "Retry after closing folders?"
+msgstr ""
+
 #: src/gui/forms/basemainwindow.cpp:1514
 #, fuzzy, qt-format
 #| msgid "Do you really want to move these %1 items to the trash?"
@@ -6898,7 +6911,7 @@ msgstr "移至垃圾桶"
 #, fuzzy
 #| msgid "Directory must be empty.\n"
 msgctxt "BaseMainWindowImpl|"
-msgid "Directory must be empty.\n"
+msgid "Folder must be empty.\n"
 msgstr "目錄裡面必須是空的.\n"
 
 #: src/gui/forms/basemainwindow.cpp:1577
@@ -8475,10 +8488,10 @@ msgstr "自動匯入"
 
 #: src/qml/app/BatchImportPage.qml:40
 #, fuzzy
-#| msgid "Reading Directory"
+#| msgid "Open Containing &Folder"
 msgctxt "BatchImportPage|"
-msgid "Reading Directory"
-msgstr "正在讀取目錄"
+msgid "Reading Folder"
+msgstr "開啟所在資料夾(&F)"
 
 #: src/qml/app/BatchImportPage.qml:43
 #, fuzzy
@@ -8771,7 +8784,7 @@ msgstr "警告"
 #| "Do you want to save it?"
 msgctxt "Main|"
 msgid ""
-"The current directory has been modified.\n"
+"The current folder has been modified.\n"
 "Do you want to save it?"
 msgstr ""
 "目前目錄已更動\n"
@@ -8870,10 +8883,10 @@ msgstr "建立播放清單"
 
 #: src/qml/app/MainPage.qml:199
 #, fuzzy
-#| msgid "Rename Directory"
+#| msgid "Rename File"
 msgctxt "MainPage|"
-msgid "Rename Directory"
-msgstr "更改目錄名稱"
+msgid "Rename Folder"
+msgstr "更改檔名"
 
 #: src/qml/app/MainPage.qml:208
 #, fuzzy
@@ -8977,7 +8990,7 @@ msgstr "標籤 1 與 標籤 2"
 #, fuzzy
 #| msgid "Reset counter for each directory"
 msgctxt "NumberTracksDialog|"
-msgid "Reset counter for each directory"
+msgid "Reset counter for each folder"
 msgstr "重設每個目錄計數器"
 
 #: src/qml/app/NumberTracksDialog.qml:92
@@ -8997,10 +9010,10 @@ msgstr "圖片"
 #: src/qml/app/RenameDirectoryPage.qml:37
 #: src/qml/app/RenameDirectoryPage.qml:114
 #, fuzzy
-#| msgid "Rename Directory"
+#| msgid "Rename File"
 msgctxt "RenameDirectoryPage|"
-msgid "Rename Directory"
-msgstr "更改目錄名稱"
+msgid "Rename Folder"
+msgstr "更改檔名"
 
 #: src/qml/app/RenameDirectoryPage.qml:77
 #, fuzzy
@@ -9025,9 +9038,9 @@ msgstr "動作:"
 
 #: src/qml/app/RenameDirectoryPage.qml:114
 #, fuzzy
-#| msgid "Create Directory"
+#| msgid "Create directory"
 msgctxt "RenameDirectoryPage|"
-msgid "Create Directory"
+msgid "Create Folder"
 msgstr "建立目錄"
 
 #: src/qml/app/RenameDirectoryPage.qml:124
@@ -9067,10 +9080,10 @@ msgstr "格式:"
 
 #: src/qml/app/RenameDirectoryPage.qml:152
 #, fuzzy
-#| msgid "Directory Name from Tag"
+#| msgid "Filename from Tag"
 msgctxt "RenameDirectoryPage|"
-msgid "Directory Name from Tag"
-msgstr "目錄名稱從標籤"
+msgid "Folder Name from Tag"
+msgstr "檔名從標籤"
 
 #: src/qml/app/RenameDirectoryPage.qml:185
 #, fuzzy
@@ -9398,6 +9411,138 @@ msgstr "貼上"
 msgctxt "TagCollapsible|"
 msgid "Remove"
 msgstr "移除"
+
+#, fuzzy
+#~| msgid "Create directory"
+#~ msgctxt "CdCommand|"
+#~ msgid "Change directory"
+#~ msgstr "建立目錄"
+
+#, fuzzy
+#~| msgid "Directory list"
+#~ msgctxt "LsCommand|"
+#~ msgid "Directory list"
+#~ msgstr "目錄清單"
+
+#, fuzzy
+#~| msgid "Rename directory"
+#~ msgctxt "RenameDirectoryCommand|"
+#~ msgid "Rename directory"
+#~ msgstr "更改目錄名稱"
+
+#, fuzzy
+#~| msgid "Reading Directory"
+#~ msgctxt "TextCliFormatter|"
+#~ msgid "Reading Directory"
+#~ msgstr "正在讀取目錄"
+
+#, fuzzy
+#~| msgid "&Rename Directory..."
+#~ msgctxt "KdeMainWindow|"
+#~ msgid "&Rename Directory..."
+#~ msgstr "更改目錄名稱(&R)..."
+
+#, fuzzy
+#~| msgid "Rename Directory"
+#~ msgctxt "KdeMainWindow|"
+#~ msgid "Rename Directory"
+#~ msgstr "更改目錄名稱"
+
+#, fuzzy
+#~| msgid "Directory List"
+#~ msgctxt "KdeMainWindow|"
+#~ msgid "Directory List"
+#~ msgstr "目錄清單"
+
+#, fuzzy
+#~| msgid "Rename Directory"
+#~ msgctxt "Kid3MainWindow|"
+#~ msgid "Rename Directory"
+#~ msgstr "更改目錄名稱"
+
+#, fuzzy
+#~| msgid "&Rename Directory..."
+#~ msgctxt "Kid3MainWindow|"
+#~ msgid "&Rename Directory..."
+#~ msgstr "更改目錄名稱(&R)..."
+
+#, fuzzy
+#~| msgid "Directory List"
+#~ msgctxt "Kid3MainWindow|"
+#~ msgid "Directory List"
+#~ msgstr "目錄清單"
+
+#, fuzzy
+#~| msgid "%1 is not a directory\n"
+#~ msgctxt "@default|"
+#~ msgid "%1 is not a directory\n"
+#~ msgstr "%1 不是目錄\n"
+
+#, fuzzy
+#~| msgid "%1 is not a directory\n"
+#~ msgctxt "DirRenamer|"
+#~ msgid "%1 is not a directory\n"
+#~ msgstr "%1 不是目錄\n"
+
+#, fuzzy
+#~| msgid "Rename directory"
+#~ msgctxt "@default|"
+#~ msgid "Rename directory"
+#~ msgstr "更改目錄名稱"
+
+#, fuzzy
+#~| msgid "Reading Directory"
+#~ msgctxt "BatchImportDialog|"
+#~ msgid "Reading Directory"
+#~ msgstr "正在讀取目錄"
+
+#, fuzzy
+#~| msgid "Rename Directory"
+#~ msgctxt "RenDirDialog|"
+#~ msgid "Rename Directory"
+#~ msgstr "更改目錄名稱"
+
+#, fuzzy
+#~| msgid "Create Directory"
+#~ msgctxt "RenDirDialog|"
+#~ msgid "Create Directory"
+#~ msgstr "建立目錄"
+
+#, fuzzy
+#~| msgid "Directory Name from Tag"
+#~ msgctxt "RenDirDialog|"
+#~ msgid "Directory Name from Tag"
+#~ msgstr "目錄名稱從標籤"
+
+#, fuzzy
+#~| msgid "Reading Directory"
+#~ msgctxt "BatchImportPage|"
+#~ msgid "Reading Directory"
+#~ msgstr "正在讀取目錄"
+
+#, fuzzy
+#~| msgid "Rename Directory"
+#~ msgctxt "MainPage|"
+#~ msgid "Rename Directory"
+#~ msgstr "更改目錄名稱"
+
+#, fuzzy
+#~| msgid "Rename Directory"
+#~ msgctxt "RenameDirectoryPage|"
+#~ msgid "Rename Directory"
+#~ msgstr "更改目錄名稱"
+
+#, fuzzy
+#~| msgid "Create Directory"
+#~ msgctxt "RenameDirectoryPage|"
+#~ msgid "Create Directory"
+#~ msgstr "建立目錄"
+
+#, fuzzy
+#~| msgid "Directory Name from Tag"
+#~ msgctxt "RenameDirectoryPage|"
+#~ msgid "Directory Name from Tag"
+#~ msgstr "目錄名稱從標籤"
 
 #~ msgid "Your names"
 #~ msgstr "Chung-Yu Hsu"
