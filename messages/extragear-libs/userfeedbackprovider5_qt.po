@@ -98,152 +98,125 @@ msgid "Basic system information"
 msgstr "基本系統資訊"
 
 #: core/feedbackconfiguicontroller.cpp:140
+#, fuzzy
+#| msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#| msgid "Basic system information"
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
-msgid "Basic usage statistics"
-msgstr "基本使用情況統計"
+msgid "Basic system information and usage statistics"
+msgstr "基本系統資訊"
 
 #: core/feedbackconfiguicontroller.cpp:142
+#, fuzzy
+#| msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#| msgid "Detailed system information"
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
-msgid "Detailed system information"
+msgid "Detailed system information and basic usage statistics"
 msgstr "詳細系統資訊"
 
 #: core/feedbackconfiguicontroller.cpp:144
+#, fuzzy
+#| msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#| msgid "Detailed system information"
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
-msgid "Detailed usage statistics"
-msgstr "詳細使用情況統計"
+msgid "Detailed system information and usage statistics"
+msgstr "詳細系統資訊"
 
 #: core/feedbackconfiguicontroller.cpp:156
+#: core/feedbackconfiguicontroller.cpp:179
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
-msgid ""
-"We make this application for you. You can help us improve it by contributing "
-"information on how you use it. This allows us to make sure we focus on "
-"things that matter to you.\n"
-"Contributing statistics is of course entirely anonymous, will not use any "
-"kind of unique identifier and will not cover any data you process with this "
-"application."
+msgid "Don't share anything"
 msgstr ""
 
-#: core/feedbackconfiguicontroller.cpp:163
+#: core/feedbackconfiguicontroller.cpp:160
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
-"Share basic system information. No unique identification is included, nor "
-"data processed with the application."
+"Share basic system information such as the version of the application and "
+"the operating system"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:164
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share basic system information and basic statistics on how often you use the "
+"application"
 msgstr ""
 
 #: core/feedbackconfiguicontroller.cpp:168
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
-"Share basic system information and basic statistics on how often you use the "
-"application. No unique identification is included, nor data processed with "
-"the application."
+"Share basic statistics on how often you use the application, as well as more "
+"detailed information about your system"
 msgstr ""
 
-#: core/feedbackconfiguicontroller.cpp:173
-msgctxt "KUserFeedback::FeedbackConfigUiController|"
-msgid ""
-"Share basic statistics on how often you use the application, as well as "
-"detailed information about your system. No unique identification is "
-"included, nor data processed with the application."
-msgstr ""
-
-#: core/feedbackconfiguicontroller.cpp:178
+#: core/feedbackconfiguicontroller.cpp:172
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
 "Share detailed system information and statistics on how often individual "
-"features of the application are used. No unique identification is included, "
-"nor data processed with the application."
+"features of the application are used."
 msgstr ""
 
-#: core/feedbackconfiguicontroller.cpp:186
+#: core/feedbackconfiguicontroller.cpp:183
 #, qt-format
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
-"We make %1 for you. You can help us improve it by contributing information "
-"on how you use it. This allows us to make sure we focus on things that "
-"matter to you.\n"
-"Contributing statistics is of course entirely anonymous, will not use any "
-"kind of unique identifier and will not cover any data you process with %1."
+"Share basic system information such as the version of %1 and and the "
+"operating system"
 msgstr ""
 
-#: core/feedbackconfiguicontroller.cpp:193
+#: core/feedbackconfiguicontroller.cpp:187
 #, qt-format
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
-"Share basic system information. No unique identification is included, nor "
-"data processed with %1."
+"Share basic system information and basic statistics on how often you use %1"
 msgstr ""
 
-#: core/feedbackconfiguicontroller.cpp:198
+#: core/feedbackconfiguicontroller.cpp:191
 #, qt-format
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
-"Share basic system information and basic statistics on how often you use %1. "
-"No unique identification is included, nor data processed with %1."
+"Share basic statistics on how often you use %1, as well as more detailed "
+"information about your system"
 msgstr ""
 
-#: core/feedbackconfiguicontroller.cpp:203
-#, qt-format
-msgctxt "KUserFeedback::FeedbackConfigUiController|"
-msgid ""
-"Share basic statistics on how often you use %1, as well as detailed "
-"information about your system. No unique identification is included, nor "
-"data processed with %1."
-msgstr ""
-
-#: core/feedbackconfiguicontroller.cpp:208
+#: core/feedbackconfiguicontroller.cpp:195
 #, qt-format
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
 "Share detailed system information and statistics on how often individual "
-"features of %1 are used. No unique identification is included, nor data "
-"processed with %1."
+"features of %1 are used."
 msgstr ""
 
-#: core/feedbackconfiguicontroller.cpp:262
+#: core/feedbackconfiguicontroller.cpp:248
+#: core/feedbackconfiguicontroller.cpp:263
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Don't participate in usability surveys"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:252
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
-"We make this application for you. In order to ensure it actually does what "
-"you need it to do we would like to ask you about your use cases and your "
-"feedback, in the form of a web survey."
+"Participate in surveys about the application not more than four times a year"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:256
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Participate in surveys about the application whenever one is available (they "
+"can be deferred or skipped)"
 msgstr ""
 
 #: core/feedbackconfiguicontroller.cpp:267
+#, qt-format
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
-msgid ""
-"I will occasionally participate in web surveys about the application, not "
-"more than four times a year though."
+msgid "Participate in surveys about %1 not more than four times a year"
 msgstr ""
 
 #: core/feedbackconfiguicontroller.cpp:271
-msgctxt "KUserFeedback::FeedbackConfigUiController|"
-msgid ""
-"I will participate in web surveys whenever one is available. Surveys can of "
-"course be deferred or skipped."
-msgstr ""
-
-#: core/feedbackconfiguicontroller.cpp:278
 #, qt-format
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
-"We make %1 for you. In order to ensure it actually does what you need it to "
-"do we would like to ask you about your use cases and your feedback, in the "
-"form of a web survey."
-msgstr ""
-
-#: core/feedbackconfiguicontroller.cpp:283
-#, qt-format
-msgctxt "KUserFeedback::FeedbackConfigUiController|"
-msgid ""
-"I will occasionally participate in web surveys about %1, not more than four "
-"times a year though."
-msgstr ""
-
-#: core/feedbackconfiguicontroller.cpp:287
-#, qt-format
-msgctxt "KUserFeedback::FeedbackConfigUiController|"
-msgid ""
-"I will participate in web surveys about %1 whenever one is available. "
-"Surveys can of course be deferred or skipped."
+"Participate in surveys about %1 whenever one is available (they can be "
+"deferred or skipped)"
 msgstr ""
 
 #: core/localeinfosource.cpp:38
@@ -356,27 +329,37 @@ msgctxt "KUserFeedback::FeedbackConfigDialog|"
 msgid "Feedback Settings"
 msgstr "意見反應設定"
 
-#: widgets/feedbackconfigwidget.ui:23
+#: widgets/feedbackconfigwidget.ui:17
+msgctxt "KUserFeedback::FeedbackConfigWidget|"
+msgid ""
+"You can help the development of this software by contributing information on "
+"how you use it, so the developers can focus on things that matter to you. "
+"Contributing this information is optional and entirely anonymous. We never "
+"collect your personal data, files you use, websites you visit, or "
+"information that could identify you."
+msgstr ""
+
+#: widgets/feedbackconfigwidget.ui:33
 msgctxt "KUserFeedback::FeedbackConfigWidget|"
 msgid "Contribute Statistics"
 msgstr "貢獻統計"
 
-#: widgets/feedbackconfigwidget.ui:97
+#: widgets/feedbackconfigwidget.ui:107
 msgctxt "KUserFeedback::FeedbackConfigWidget|"
 msgid "TextLabel"
 msgstr "文字標籤 (TextLabel)"
 
-#: widgets/feedbackconfigwidget.ui:114
+#: widgets/feedbackconfigwidget.ui:124
 msgctxt "KUserFeedback::FeedbackConfigWidget|"
 msgid "Show the raw data that is going to be shared."
 msgstr "顯示要分享的原始資料。"
 
-#: widgets/feedbackconfigwidget.ui:127
+#: widgets/feedbackconfigwidget.ui:137
 msgctxt "KUserFeedback::FeedbackConfigWidget|"
 msgid "<a href=\"auditLog\">View previously submitted data...</a>"
 msgstr "<a href=\"auditLog\">檢視先前提交的資料…</a>"
 
-#: widgets/feedbackconfigwidget.ui:140
+#: widgets/feedbackconfigwidget.ui:150
 msgctxt "KUserFeedback::FeedbackConfigWidget|"
 msgid "Participate in Surveys"
 msgstr ""
@@ -448,6 +431,14 @@ msgstr ""
 msgctxt "KUserFeedback::StyleInfoSource|"
 msgid "Application style"
 msgstr "應用程式樣式"
+
+#~ msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#~ msgid "Basic usage statistics"
+#~ msgstr "基本使用情況統計"
+
+#~ msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#~ msgid "Detailed usage statistics"
+#~ msgstr "詳細使用情況統計"
 
 #~ msgctxt "KUserFeedback::FeedbackConfigUiController|"
 #~ msgid "No telemetry"

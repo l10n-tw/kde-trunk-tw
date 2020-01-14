@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-03 03:16+0100\n"
+"POT-Creation-Date: 2020-01-14 03:19+0100\n"
 "PO-Revision-Date: 2019-09-28 03:06+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -26,7 +26,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: apps/main.cpp:60 apps/qml/Desktop.qml:65
+#: apps/main.cpp:60 apps/qml/Desktop.qml:60
 msgid "Ruqola"
 msgstr ""
 
@@ -114,7 +114,7 @@ msgstr ""
 msgid "About Ruqola"
 msgstr ""
 
-#: apps/qml/AboutDialog.qml:57 apps/qml/Desktop.qml:99
+#: apps/qml/AboutDialog.qml:57 apps/qml/Desktop.qml:94
 msgid "About"
 msgstr ""
 
@@ -171,7 +171,7 @@ msgid "Info about this channel"
 msgstr ""
 
 #: apps/qml/ChannelInfoDialog.qml:77 apps/qml/CreateNewAccountDialog.qml:52
-#: apps/qml/CreateNewChannelDialog.qml:59
+#: apps/qml/CreateNewChannelDialog.qml:60
 msgid "Name:"
 msgstr ""
 
@@ -188,12 +188,12 @@ msgid "Description:"
 msgstr ""
 
 #: apps/qml/ChannelInfoDialog.qml:137 apps/qml/ChannelPasswordDialog.qml:56
-#: apps/qml/CreateNewChannelDialog.qml:119
+#: apps/qml/CreateNewChannelDialog.qml:120
 msgid "Password:"
 msgstr ""
 
 #. i18n context ?
-#: apps/qml/ChannelInfoDialog.qml:144 apps/qml/CreateNewChannelDialog.qml:125
+#: apps/qml/ChannelInfoDialog.qml:144 apps/qml/CreateNewChannelDialog.qml:126
 msgid "Add password"
 msgstr ""
 
@@ -201,15 +201,15 @@ msgstr ""
 msgid "This Room has a password"
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:149 apps/qml/CreateNewChannelDialog.qml:80
+#: apps/qml/ChannelInfoDialog.qml:149 apps/qml/CreateNewChannelDialog.qml:81
 msgid "Read-Only:"
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:156 apps/qml/CreateNewChannelDialog.qml:87
+#: apps/qml/ChannelInfoDialog.qml:156 apps/qml/CreateNewChannelDialog.qml:88
 msgid "Only Authorized people can write."
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:170 apps/qml/CreateNewChannelDialog.qml:96
+#: apps/qml/ChannelInfoDialog.qml:170 apps/qml/CreateNewChannelDialog.qml:97
 msgid "Broadcast:"
 msgstr ""
 
@@ -217,11 +217,11 @@ msgstr ""
 msgid "Archive:"
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:196 apps/qml/CreateNewChannelDialog.qml:103
+#: apps/qml/ChannelInfoDialog.qml:196 apps/qml/CreateNewChannelDialog.qml:104
 msgid "Private:"
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:209 apps/qml/CreateNewChannelDialog.qml:111
+#: apps/qml/ChannelInfoDialog.qml:209 apps/qml/CreateNewChannelDialog.qml:112
 msgid "Encrypted:"
 msgstr ""
 
@@ -289,19 +289,19 @@ msgstr ""
 msgid "Enter Username"
 msgstr ""
 
-#: apps/qml/CreateNewChannelDialog.qml:31
+#: apps/qml/CreateNewChannelDialog.qml:32
 msgid "Create Channel"
 msgstr ""
 
-#: apps/qml/CreateNewChannelDialog.qml:65
+#: apps/qml/CreateNewChannelDialog.qml:66
 msgid "Channel Name"
 msgstr ""
 
-#: apps/qml/CreateNewChannelDialog.qml:69
+#: apps/qml/CreateNewChannelDialog.qml:70
 msgid "Users:"
 msgstr ""
 
-#: apps/qml/CreateNewChannelDialog.qml:76
+#: apps/qml/CreateNewChannelDialog.qml:77
 msgctxt "List of users separated by ','"
 msgid "User separate with ','"
 msgstr ""
@@ -346,27 +346,27 @@ msgstr ""
 msgid "Do you want to delete this room?"
 msgstr ""
 
-#: apps/qml/Desktop.qml:92
+#: apps/qml/Desktop.qml:87
 msgid "Hello, %1"
 msgstr ""
 
-#: apps/qml/Desktop.qml:106
+#: apps/qml/Desktop.qml:101
 msgid "Report a Bug"
 msgstr ""
 
-#: apps/qml/Desktop.qml:113
+#: apps/qml/Desktop.qml:108
 msgid "Configure Account"
 msgstr ""
 
-#: apps/qml/Desktop.qml:121
+#: apps/qml/Desktop.qml:116
 msgid "Handbook"
 msgstr ""
 
-#: apps/qml/Desktop.qml:131
+#: apps/qml/Desktop.qml:126
 msgid "Log out"
 msgstr ""
 
-#: apps/qml/Desktop.qml:149
+#: apps/qml/Desktop.qml:144
 msgid "Quit"
 msgstr ""
 
@@ -547,8 +547,8 @@ msgstr ""
 msgid "Enter message..."
 msgstr ""
 
-#: apps/qml/messages/AttachmentMessageAudio.qml:81
-#: apps/qml/messages/AttachmentMessageVideo.qml:79
+#: apps/qml/messages/AttachmentMessageAudio.qml:80
+#: apps/qml/messages/AttachmentMessageVideo.qml:77
 #: ruqolacore/messages/messageattachment.cpp:152
 msgid "File Uploaded: %1"
 msgstr ""
@@ -566,63 +566,63 @@ msgstr ""
 msgid "Click To Join to Video"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:37
+#: apps/qml/messages/MessageMenu.qml:38
 msgid "Remove as Favorite"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:37
+#: apps/qml/messages/MessageMenu.qml:38
 msgid "Set as Favorite"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:42 apps/qml/UserMenu.qml:46
+#: apps/qml/messages/MessageMenu.qml:43 apps/qml/UserMenu.qml:46
 msgid "Unignore"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:42 apps/qml/UserMenu.qml:46
+#: apps/qml/messages/MessageMenu.qml:43 apps/qml/UserMenu.qml:46
 msgid "Ignore"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:47
+#: apps/qml/messages/MessageMenu.qml:48
 msgid "Unpin Message"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:47
+#: apps/qml/messages/MessageMenu.qml:48
 msgid "Pin Message"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:51
+#: apps/qml/messages/MessageMenu.qml:52
 msgid "Original Message"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:51
+#: apps/qml/messages/MessageMenu.qml:52
 msgid "Translate Message"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:58
+#: apps/qml/messages/MessageMenu.qml:59
 msgid "Start a Discussion"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:70
+#: apps/qml/messages/MessageMenu.qml:71
 msgid "Reply in Thread"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:82
+#: apps/qml/messages/MessageMenu.qml:83
 msgid "Copy"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:94
+#: apps/qml/messages/MessageMenu.qml:95
 msgid "Edit"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:104
+#: apps/qml/messages/MessageMenu.qml:105
 msgid "Reply"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:139
+#: apps/qml/messages/MessageMenu.qml:140
 msgid "Delete"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:149
+#: apps/qml/messages/MessageMenu.qml:150
 msgid "Report Message"
 msgstr ""
 
@@ -838,7 +838,7 @@ msgstr ""
 msgid "Any string found"
 msgstr ""
 
-#: apps/qml/ShowThreadMessagesDialog.qml:36
+#: apps/qml/ShowThreadMessagesDialog.qml:37
 msgid "Thread Messages: %1"
 msgstr ""
 

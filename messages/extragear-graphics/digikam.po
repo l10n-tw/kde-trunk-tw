@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-13 02:40+0100\n"
+"POT-Creation-Date: 2020-01-14 02:39+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -3379,7 +3379,7 @@ msgstr "路徑"
 #: core/app/views/tableview/tableview_column_file.cpp:64
 #: core/app/views/tableview/tableview_column_file.cpp:88
 #: core/dplugins/editor/enhance/hotpixels/blackframelistview.cpp:156
-#: core/libs/widgets/fonts/dfontproperties.cpp:326
+#: core/libs/widgets/fonts/dfontproperties.cpp:332
 #, kde-format
 msgid "Size"
 msgstr "大小"
@@ -5551,7 +5551,7 @@ msgid "Adjust Curve"
 msgstr "調整曲線"
 
 #: core/dplugins/editor/colors/adjustcurves/adjustcurvestoolplugin.cpp:52
-#: core/libs/dimg/filters/curves/curvesfilter.cpp:82
+#: core/libs/dimg/filters/curves/curvesfilter.cpp:83
 #, kde-format
 msgid "Adjust Curves"
 msgstr "調整曲線"
@@ -6189,7 +6189,7 @@ msgid "Here, enter the text you want to insert in your image."
 msgstr "在這裡輸入您想要插入到影像的文字。"
 
 #: core/dplugins/editor/decorate/inserttext/inserttexttool.cpp:160
-#: core/libs/widgets/fonts/dfontproperties.cpp:235
+#: core/libs/widgets/fonts/dfontproperties.cpp:239
 #, kde-format
 msgid "Here you can choose the font to be used."
 msgstr "您可在這裡選擇要使用的字型。"
@@ -6935,7 +6935,7 @@ msgstr "修復..."
 
 #: core/dplugins/editor/enhance/sharpen/sharpentool.cpp:279
 #: core/dplugins/editor/enhance/sharpen/sharpentoolplugin.cpp:52
-#: core/libs/dimg/filters/sharp/sharpenfilter.cpp:101
+#: core/libs/dimg/filters/sharp/sharpenfilter.cpp:100
 #, kde-format
 msgid "Sharpen"
 msgstr "銳利化"
@@ -6946,8 +6946,8 @@ msgid "Unsharp Mask"
 msgstr "遮罩銳利化"
 
 #: core/dplugins/editor/enhance/sharpen/sharpentool.cpp:293
-#: core/libs/dimg/filters/sharp/refocusfilter.cpp:110
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:147
+#: core/libs/dimg/filters/sharp/refocusfilter.cpp:112
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:150
 #, kde-format
 msgid "Refocus"
 msgstr "對焦"
@@ -8911,7 +8911,7 @@ msgid ""
 msgstr "這項數值 (單位為度) 會加到主要垂直角度值以設定精細的調整。"
 
 #: core/dplugins/editor/transform/shear/sheartool.cpp:162
-#: core/libs/dimg/filters/transform/freerotationsettings.cpp:106
+#: core/libs/dimg/filters/transform/freerotationsettings.cpp:107
 #, kde-format
 msgid "Anti-Aliasing"
 msgstr "消除鋸齒"
@@ -10140,7 +10140,7 @@ msgstr "在這裡設定相機拍攝圖片時套用的對比處理方向。"
 #: core/dplugins/generic/metadata/metadataedit/exif/exifadjust.cpp:128
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:228
 #: core/libs/dimg/filters/hsl/hslsettings.cpp:110
-#: core/libs/dimg/filters/wb/wbsettings.cpp:262
+#: core/libs/dimg/filters/wb/wbsettings.cpp:263
 #, kde-format
 msgid "Saturation:"
 msgstr "飽和度："
@@ -10171,7 +10171,7 @@ msgid ""
 msgstr "在這裡設定相機拍攝圖片時套用的飽和度處理方向。"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifadjust.cpp:138
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:167
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:171
 #, kde-format
 msgid "Sharpness:"
 msgstr "銳利度："
@@ -21850,7 +21850,7 @@ msgstr "在這裡設定影像的對比調整。"
 
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:221
 #: core/libs/dimg/filters/bcg/bcgsettings.cpp:99
-#: core/libs/dimg/filters/wb/wbsettings.cpp:269
+#: core/libs/dimg/filters/wb/wbsettings.cpp:270
 #, kde-format
 msgid "Gamma:"
 msgstr "伽瑪："
@@ -25273,40 +25273,40 @@ msgstr "還原所有更動"
 msgid "Reset &All"
 msgstr "重設"
 
-#: core/libs/dimg/filters/curves/curvessettings.cpp:247
+#: core/libs/dimg/filters/curves/curvessettings.cpp:251
 #, kde-format
 msgid "Select Gimp Curves File to Load"
 msgstr "選擇要載入的 Gimp 曲線檔案"
 
-#: core/libs/dimg/filters/curves/curvessettings.cpp:259
+#: core/libs/dimg/filters/curves/curvessettings.cpp:263
 #, kde-format
 msgid "Cannot load from the Gimp curves text file."
 msgstr "無法從此 Gimp 曲線純文字檔載入。"
 
-#: core/libs/dimg/filters/curves/curvessettings.cpp:268
+#: core/libs/dimg/filters/curves/curvessettings.cpp:272
 #, kde-format
 msgid "Gimp Curves File to Save"
 msgstr "要儲存的 Gimp 曲線檔案"
 
-#: core/libs/dimg/filters/curves/curvessettings.cpp:280
+#: core/libs/dimg/filters/curves/curvessettings.cpp:284
 #, kde-format
 msgid "Cannot save to the Gimp curves text file."
 msgstr "無法儲存到此 Gimp 曲線純文字檔。"
 
-#: core/libs/dimg/filters/curves/curveswidget.cpp:192
+#: core/libs/dimg/filters/curves/curveswidget.cpp:202
 #: core/libs/dimg/filters/levels/histogramwidget.cpp:506
 #: core/libs/widgets/iccprofiles/cietonguewidget.cpp:768
 #, kde-format
 msgid "Loading image..."
 msgstr "正在載入影像..."
 
-#: core/libs/dimg/filters/curves/curveswidget.cpp:197
+#: core/libs/dimg/filters/curves/curveswidget.cpp:207
 #: core/libs/dimg/filters/levels/histogramwidget.cpp:511
 #, kde-format
 msgid "Histogram calculation..."
 msgstr "分佈圖計算..."
 
-#: core/libs/dimg/filters/curves/curveswidget.cpp:211
+#: core/libs/dimg/filters/curves/curveswidget.cpp:221
 #: core/libs/dimg/filters/levels/histogramwidget.cpp:528
 #, kde-format
 msgid ""
@@ -25317,7 +25317,7 @@ msgstr ""
 "分佈圖計算\n"
 "失敗。"
 
-#: core/libs/dimg/filters/curves/curveswidget.cpp:305
+#: core/libs/dimg/filters/curves/curveswidget.cpp:315
 #, kde-format
 msgid ""
 "x:%1\n"
@@ -25780,7 +25780,7 @@ msgstr "在這裡設定底片 ISO 靈敏度以用來模擬底片的顆粒度。"
 #: core/libs/dimg/filters/fx/filmgrainsettings.cpp:203
 #: core/libs/dimg/filters/fx/filmgrainsettings.cpp:250
 #: core/libs/dimg/filters/fx/filmgrainsettings.cpp:297
-#: core/libs/dimg/filters/wb/wbsettings.cpp:255
+#: core/libs/dimg/filters/wb/wbsettings.cpp:256
 #, kde-format
 msgid "Shadows:"
 msgstr "陰影："
@@ -26447,7 +26447,7 @@ msgid ""
 msgstr "您可以在這裡看到套用到影像的消除暈映遮罩的縮圖預覽。"
 
 #: core/libs/dimg/filters/lens/antivignettingsettings.cpp:126
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:196
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:200
 #, kde-format
 msgid "Amount:"
 msgstr "數量："
@@ -26950,7 +26950,7 @@ msgstr "剖析影像中的雜訊，自動計算所有的去除雜訊設定。"
 #: core/libs/dimg/filters/nr/nrsettings.cpp:138
 #: core/libs/dimg/filters/nr/nrsettings.cpp:165
 #: core/libs/dimg/filters/nr/nrsettings.cpp:192
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:204
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:208
 #, kde-format
 msgid "Threshold:"
 msgstr "臨界值："
@@ -27026,27 +27026,27 @@ msgstr "等級："
 msgid "Set here the reducing level of red to the average of blue and green."
 msgstr "在這裡設定用於合併紋理和影像的浮雕增益。"
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:142
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:144
 #, kde-format
 msgid "Method:"
 msgstr "方式："
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:144
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:146
 #, kde-format
 msgid "Simple sharp"
 msgstr "簡單銳利化"
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:145
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:147
 #, kde-format
 msgid "Unsharp mask"
 msgstr "遮罩銳利化"
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:150
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:154
 #, kde-format
 msgid "Select the sharpening method to apply to the image."
 msgstr "在這裡選擇套用到影像的銳利化方式。"
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:171
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:175
 #, kde-format
 msgid ""
 "A sharpness of 0 has no effect, 1 and above determine the sharpen matrix "
@@ -27055,50 +27055,50 @@ msgstr ""
 "銳利度為 0 表示沒有效果，1 以上的值會決定銳化矩陣半徑，此半徑會決定影像銳利化"
 "的程度。"
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:188
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:192
 #, kde-format
 msgid "Radius:"
 msgstr "半徑："
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:193
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:197
 #, kde-format
 msgid ""
 "Radius value is the Gaussian blur matrix radius value used to determines how "
 "much to blur the image."
 msgstr "半徑值是高斯模糊矩陣的半徑值用於決定影像的模糊程度。"
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:201
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:205
 #, kde-format
 msgid ""
 "The value of the difference between the original and the blur image that is "
 "added back into the original."
 msgstr "將原始和模糊影像之間的差異值重新加入到原始影像。"
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:209
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:213
 #, kde-format
 msgid ""
 "The threshold, as a fraction of the maximum luminosity value, needed to "
 "apply the difference amount."
 msgstr "此臨界值為最大明度值的分數，需要套用數量差值。"
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:213
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:217
 #, kde-format
 msgid "Suppress color noise."
 msgstr ""
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:215
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:219
 #, kde-format
 msgid ""
 "An option to apply filter on luminosity channel only used to suppress chroma "
 "noise amplification."
 msgstr ""
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:238
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:242
 #, kde-format
 msgid "Circular sharpness:"
 msgstr "環形銳利度："
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:243
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:247
 #, fuzzy, kde-format
 #| msgid ""
 #| "This is the radius of the circular convolution. It is the most important "
@@ -27114,12 +27114,12 @@ msgstr ""
 "這是環形旋積的半徑。此數值是使用這個外掛程式最重要的參數。對大部分的影像來"
 "說，預設值 1.0 應該可以得到不錯的效果。當您的影像很模糊時可選擇較高的數值。"
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:247
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:251
 #, kde-format
 msgid "Correlation:"
 msgstr "關聯性："
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:252
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:256
 #, fuzzy, kde-format
 #| msgid ""
 #| "Increasing the correlation may help to reduce artifacts. The correlation "
@@ -27136,12 +27136,12 @@ msgstr ""
 "為 0.5 和接近 1 的值，例如 0.95 和 0.99。使用高校正值會降低此外掛濾鏡的銳利效"
 "果。"
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:257
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:261
 #, kde-format
 msgid "Noise filter:"
 msgstr "雜訊濾鏡："
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:262
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:266
 #, fuzzy, kde-format
 #| msgid ""
 #| "Increasing the noise filter parameter may help to reduce artifacts. The "
@@ -27160,12 +27160,12 @@ msgstr ""
 "是高於 0.1 並沒有什麼幫助。當雜訊濾鏡數值太低 (如 0.0)，影像的品質會變得非常"
 "糟。比較實用的值是 0.01。使用較高的雜訊濾鏡值會減少此外掛程式的銳利化效果。"
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:268
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:272
 #, kde-format
 msgid "Gaussian sharpness:"
 msgstr "高斯銳利度："
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:273
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:277
 #, kde-format
 msgid ""
 "This is the sharpness for the Gaussian convolution. Use this parameter when "
@@ -27178,12 +27178,12 @@ msgstr ""
 "情況您應該將這項參數設定為 0，因為它會產生令人厭惡的不自然感。當您使用一個非"
 "零數值，您可能也會增加校正值和 (或) 雜訊濾鏡參數。"
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:278
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:282
 #, kde-format
 msgid "Matrix size:"
 msgstr "矩陣大小："
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:282
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:286
 #, kde-format
 msgid ""
 "This parameter determines the size of the transformation matrix. Increasing "
@@ -27193,47 +27193,47 @@ msgstr ""
 "這項參數會決定變換矩陣的大小。增加矩陣寬度可能會得到比較好的效果，尤其是當您"
 "選擇了較大的環形或高斯銳利度值的時候。"
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:502
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:508
 #, kde-format
 msgid "Photograph Refocus Settings File to Load"
 msgstr "要載入的相片對焦設定檔"
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:520
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:526
 #, kde-format
 msgid "\"%1\" is not a Photograph Refocus settings text file."
 msgstr "「%1」不是相片對焦設定值純文字檔。"
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:541
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:547
 #, kde-format
 msgid "Cannot load settings from the Photograph Refocus text file."
 msgstr "無法從相片對焦純文字檔載入設定值。"
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:549
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:555
 #, kde-format
 msgid "Photograph Refocus Settings File to Save"
 msgstr "要儲存的相片設定檔"
 
-#: core/libs/dimg/filters/sharp/sharpsettings.cpp:577
+#: core/libs/dimg/filters/sharp/sharpsettings.cpp:583
 #, kde-format
 msgid "Cannot save settings to the Photograph Refocus text file."
 msgstr "無法將設定值儲存到相片對焦純文字檔。"
 
-#: core/libs/dimg/filters/sharp/unsharpmaskfilter.cpp:83
+#: core/libs/dimg/filters/sharp/unsharpmaskfilter.cpp:80
 #, kde-format
 msgid "Unsharp Mask Tool"
 msgstr "遮罩取消銳利化工具"
 
-#: core/libs/dimg/filters/transform/contentawarefilter.cpp:204
+#: core/libs/dimg/filters/transform/contentawarefilter.cpp:213
 #, kde-format
 msgid "Content-Aware Filter"
 msgstr "內容感知濾鏡"
 
-#: core/libs/dimg/filters/transform/freerotationsettings.cpp:91
+#: core/libs/dimg/filters/transform/freerotationsettings.cpp:92
 #, kde-format
 msgid "Main angle:"
 msgstr "主要角度："
 
-#: core/libs/dimg/filters/transform/freerotationsettings.cpp:95
+#: core/libs/dimg/filters/transform/freerotationsettings.cpp:96
 #, kde-format
 msgid ""
 "An angle in degrees by which to rotate the image. A positive angle rotates "
@@ -27242,19 +27242,19 @@ msgstr ""
 "旋轉影像的角度，單位為度。角度為正值會順時針旋轉影像；角度為負值會逆時針旋轉"
 "角度。"
 
-#: core/libs/dimg/filters/transform/freerotationsettings.cpp:99
+#: core/libs/dimg/filters/transform/freerotationsettings.cpp:100
 #, kde-format
 msgid "Fine angle:"
 msgstr "精細角度："
 
-#: core/libs/dimg/filters/transform/freerotationsettings.cpp:103
+#: core/libs/dimg/filters/transform/freerotationsettings.cpp:104
 #, kde-format
 msgid ""
 "This value in degrees will be added to main angle value to set fine target "
 "angle."
 msgstr "這項數值 ( 單位為度) 會被加到主要角度以設定精細的目標角度。"
 
-#: core/libs/dimg/filters/transform/freerotationsettings.cpp:107
+#: core/libs/dimg/filters/transform/freerotationsettings.cpp:108
 #, kde-format
 msgid ""
 "Enable this option to apply the anti-aliasing filter to the rotated image. "
@@ -27263,28 +27263,28 @@ msgstr ""
 "啟用這個選項以套用消除鋸齒濾鏡到旋轉過的影像。為了使目標影像平滑化會有一點模"
 "糊。"
 
-#: core/libs/dimg/filters/transform/freerotationsettings.cpp:111
+#: core/libs/dimg/filters/transform/freerotationsettings.cpp:112
 #, kde-format
 msgid "Auto-crop:"
 msgstr "自動裁剪："
 
-#: core/libs/dimg/filters/transform/freerotationsettings.cpp:113
+#: core/libs/dimg/filters/transform/freerotationsettings.cpp:114
 #, kde-format
 msgctxt "no autocrop"
 msgid "None"
 msgstr "無"
 
-#: core/libs/dimg/filters/transform/freerotationsettings.cpp:114
+#: core/libs/dimg/filters/transform/freerotationsettings.cpp:115
 #, kde-format
 msgid "Widest Area"
 msgstr "最大面積"
 
-#: core/libs/dimg/filters/transform/freerotationsettings.cpp:115
+#: core/libs/dimg/filters/transform/freerotationsettings.cpp:116
 #, kde-format
 msgid "Largest Area"
 msgstr "最大範圍"
 
-#: core/libs/dimg/filters/transform/freerotationsettings.cpp:117
+#: core/libs/dimg/filters/transform/freerotationsettings.cpp:118
 #, kde-format
 msgid ""
 "Select the method to process image auto-cropping to remove black frames "
@@ -27296,7 +27296,7 @@ msgstr "在這裡選擇要處理影像自動裁剪的方式，以移除旋轉後
 msgid "White Balance Tool"
 msgstr "白平衡工具"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:189
+#: core/libs/dimg/filters/wb/wbsettings.cpp:190
 #, fuzzy, kde-format
 #| msgid ""
 #| "<a href='http://en.wikipedia.org/wiki/Color_temperature'>Color "
@@ -27307,216 +27307,216 @@ msgid ""
 msgstr ""
 "<a href='http://en.wikipedia.org/wiki/Color_temperature'>色溫</a> (K)："
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:193
+#: core/libs/dimg/filters/wb/wbsettings.cpp:194
 #, kde-format
 msgid "Adjustment:"
 msgstr "調整："
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:198
+#: core/libs/dimg/filters/wb/wbsettings.cpp:199
 #, kde-format
 msgid "Set here the white balance color temperature in Kelvin."
 msgstr "在這裡設定白平衡色溫，單位為絕對溫度。"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:200
+#: core/libs/dimg/filters/wb/wbsettings.cpp:201
 #, kde-format
 msgid "Preset:"
 msgstr "預設："
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:202
+#: core/libs/dimg/filters/wb/wbsettings.cpp:203
 #, kde-format
 msgid "Candle"
 msgstr "蠟燭"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:203
+#: core/libs/dimg/filters/wb/wbsettings.cpp:204
 #, kde-format
 msgid "40W Lamp"
 msgstr "40W 照明燈"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:204
+#: core/libs/dimg/filters/wb/wbsettings.cpp:205
 #, kde-format
 msgid "100W Lamp"
 msgstr "100W 照明燈"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:205
+#: core/libs/dimg/filters/wb/wbsettings.cpp:206
 #, kde-format
 msgid "200W Lamp"
 msgstr "200W 照明燈"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:206
+#: core/libs/dimg/filters/wb/wbsettings.cpp:207
 #, kde-format
 msgid "Sunrise"
 msgstr "日出"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:207
+#: core/libs/dimg/filters/wb/wbsettings.cpp:208
 #, kde-format
 msgid "Studio Lamp"
 msgstr "攝影棚燈"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:208
+#: core/libs/dimg/filters/wb/wbsettings.cpp:209
 #, kde-format
 msgid "Moonlight"
 msgstr "月光"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:209
+#: core/libs/dimg/filters/wb/wbsettings.cpp:210
 #, kde-format
 msgid "Neutral"
 msgstr "中性"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:210
+#: core/libs/dimg/filters/wb/wbsettings.cpp:211
 #, kde-format
 msgid "Daylight D50"
 msgstr "晝光 D50"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:211
+#: core/libs/dimg/filters/wb/wbsettings.cpp:212
 #, kde-format
 msgid "Photo Flash"
 msgstr "閃光燈"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:212
+#: core/libs/dimg/filters/wb/wbsettings.cpp:213
 #, kde-format
 msgid "Sun"
 msgstr "陽光"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:213
+#: core/libs/dimg/filters/wb/wbsettings.cpp:214
 #, kde-format
 msgid "Xenon Lamp"
 msgstr "氙燈"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:214
+#: core/libs/dimg/filters/wb/wbsettings.cpp:215
 #, kde-format
 msgid "Daylight D65"
 msgstr "晝光 D65"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:215
+#: core/libs/dimg/filters/wb/wbsettings.cpp:216
 #, kde-format
 msgctxt "no temperature preset"
 msgid "None"
 msgstr "無"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:218
+#: core/libs/dimg/filters/wb/wbsettings.cpp:219
 #, kde-format
 msgid "Select the white balance color temperature preset to use."
 msgstr "選擇要使用的白平衡色溫預設值。"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:219
+#: core/libs/dimg/filters/wb/wbsettings.cpp:220
 #, kde-format
 msgid "candle light"
 msgstr "燭光"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:220
+#: core/libs/dimg/filters/wb/wbsettings.cpp:221
 #, kde-format
 msgid "40 Watt incandescent lamp"
 msgstr "40 瓦白熾燈"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:221
+#: core/libs/dimg/filters/wb/wbsettings.cpp:222
 #, kde-format
 msgid "100 Watt incandescent lamp"
 msgstr "100 瓦白熾燈"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:222
+#: core/libs/dimg/filters/wb/wbsettings.cpp:223
 #, kde-format
 msgid "200 Watt incandescent lamp"
 msgstr "200 瓦白熾燈"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:223
+#: core/libs/dimg/filters/wb/wbsettings.cpp:224
 #, kde-format
 msgid "sunrise or sunset light"
 msgstr "日出或落日餘暉"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:224
+#: core/libs/dimg/filters/wb/wbsettings.cpp:225
 #, kde-format
 msgid "tungsten lamp used in photo studio or light at 1 hour from dusk/dawn"
 msgstr "鎢絲燈被用在攝影棚或黃昏/黎明 1 小時的光線"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:226
+#: core/libs/dimg/filters/wb/wbsettings.cpp:227
 #, kde-format
 msgid "moon light"
 msgstr "月光"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:227
+#: core/libs/dimg/filters/wb/wbsettings.cpp:228
 #, kde-format
 msgid "neutral color temperature"
 msgstr "中性色溫"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:228
+#: core/libs/dimg/filters/wb/wbsettings.cpp:229
 #, kde-format
 msgid "sunny daylight around noon"
 msgstr "中午時分陽光"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:229
+#: core/libs/dimg/filters/wb/wbsettings.cpp:230
 #, kde-format
 msgid "electronic photo flash"
 msgstr "電子閃光燈"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:230
+#: core/libs/dimg/filters/wb/wbsettings.cpp:231
 #, kde-format
 msgid "effective sun temperature"
 msgstr "有效日溫"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:231
+#: core/libs/dimg/filters/wb/wbsettings.cpp:232
 #, kde-format
 msgid "xenon lamp or light arc"
 msgstr "氙燈或弧光燈"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:232
+#: core/libs/dimg/filters/wb/wbsettings.cpp:233
 #, kde-format
 msgid "overcast sky light"
 msgstr "陰天光線"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:233
+#: core/libs/dimg/filters/wb/wbsettings.cpp:234
 #, kde-format
 msgid "no preset value"
 msgstr "無預設值"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:239
+#: core/libs/dimg/filters/wb/wbsettings.cpp:240
 #, kde-format
 msgid "Temperature tone color picker."
 msgstr "溫度色調取色器。"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:240
+#: core/libs/dimg/filters/wb/wbsettings.cpp:241
 #, kde-format
 msgid ""
 "With this button, you can pick the color from the original image used to set "
 "the white color balance temperature and green component."
 msgstr "按這個按鈕，您可以從原始影像中點取用來設定白平衡溫度和綠色元件的顏色。"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:248
+#: core/libs/dimg/filters/wb/wbsettings.cpp:249
 #, kde-format
 msgid "Black point:"
 msgstr "最暗點："
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:252
+#: core/libs/dimg/filters/wb/wbsettings.cpp:253
 #, kde-format
 msgid "Set here the black level value."
 msgstr "在這裡設定黑階值。"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:260
+#: core/libs/dimg/filters/wb/wbsettings.cpp:261
 #, kde-format
 msgid "Set here the shadow noise suppression level."
 msgstr "在這裡設定暗部雜訊的抑制等級。"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:267
+#: core/libs/dimg/filters/wb/wbsettings.cpp:268
 #, kde-format
 msgid "Set here the saturation value."
 msgstr "在這裡設定飽和度值。"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:274
+#: core/libs/dimg/filters/wb/wbsettings.cpp:275
 #, kde-format
 msgid "Set here the gamma correction value."
 msgstr "在這裡設定伽瑪校正值。"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:276
+#: core/libs/dimg/filters/wb/wbsettings.cpp:277
 #, kde-format
 msgid "Green:"
 msgstr "綠："
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:281
+#: core/libs/dimg/filters/wb/wbsettings.cpp:282
 #, kde-format
 msgid ""
 "Set here the green component to control the magenta color cast removal level."
 msgstr "在這裡設定綠色元件以控制洋紅色偏去除等級。"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:288
+#: core/libs/dimg/filters/wb/wbsettings.cpp:289
 #, fuzzy, kde-format
 #| msgid ""
 #| "<a href='http://en.wikipedia.org/wiki/Exposure_value'>Exposure "
@@ -27527,63 +27527,63 @@ msgid ""
 msgstr ""
 "<a href='http://en.wikipedia.org/wiki/Exposure_value'>曝光補償</a> (E.V)："
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:292
+#: core/libs/dimg/filters/wb/wbsettings.cpp:293
 #, kde-format
 msgctxt "main exposure value"
 msgid "Main:"
 msgstr "主要："
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:295
+#: core/libs/dimg/filters/wb/wbsettings.cpp:296
 #, kde-format
 msgid "Auto exposure adjustments"
 msgstr "自動曝光調整"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:296
+#: core/libs/dimg/filters/wb/wbsettings.cpp:297
 #, kde-format
 msgid ""
 "With this button, you can automatically adjust Exposure and Black Point "
 "values."
 msgstr "按這個按鈕，您可以自動調整曝光和最暗點數值。"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:302
+#: core/libs/dimg/filters/wb/wbsettings.cpp:303
 #, kde-format
 msgid "Set here the main exposure compensation value in E.V."
 msgstr "在這裡設定主要曝光補償值，單位為 E.V。"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:304
+#: core/libs/dimg/filters/wb/wbsettings.cpp:305
 #, kde-format
 msgctxt "fine exposure adjustment"
 msgid "Fine:"
 msgstr "精細："
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:309
+#: core/libs/dimg/filters/wb/wbsettings.cpp:310
 #, kde-format
 msgid ""
 "This value in E.V will be added to main exposure compensation value to set "
 "fine exposure adjustment."
 msgstr "這項數值 (單位為 E.V) 會被加到主要曝光補償值以設定精細曝光調整。"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:528
+#: core/libs/dimg/filters/wb/wbsettings.cpp:529
 #, kde-format
 msgid "White Color Balance Settings File to Load"
 msgstr "要載入的白平衡設定檔"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:546
+#: core/libs/dimg/filters/wb/wbsettings.cpp:547
 #, kde-format
 msgid "\"%1\" is not a White Color Balance settings text file."
 msgstr "「%1」不是白平衡設定值純文字檔。"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:567
+#: core/libs/dimg/filters/wb/wbsettings.cpp:568
 #, kde-format
 msgid "Cannot load settings from the White Color Balance text file."
 msgstr "無法從白平衡純文字檔載入設定值。"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:575
+#: core/libs/dimg/filters/wb/wbsettings.cpp:576
 #, kde-format
 msgid "White Color Balance Settings File to Save"
 msgstr "要儲存的白平衡設定檔"
 
-#: core/libs/dimg/filters/wb/wbsettings.cpp:602
+#: core/libs/dimg/filters/wb/wbsettings.cpp:603
 #, kde-format
 msgid "Cannot save settings to the White Color Balance text file."
 msgstr "無法將設定值儲存到白平衡純文字檔。"
@@ -33195,12 +33195,12 @@ msgctxt "@info:tooltip"
 msgid "Reset to default value"
 msgstr "重置為預設值"
 
-#: core/libs/widgets/common/searchtextbar.cpp:290
+#: core/libs/widgets/common/searchtextbar.cpp:295
 #, kde-format
 msgid "Case sensitive"
 msgstr "區分大小寫"
 
-#: core/libs/widgets/files/dbinaryiface.cpp:210
+#: core/libs/widgets/files/dbinaryiface.cpp:214
 #, fuzzy, kde-format
 #| msgid "Rating equal to %1."
 msgid "Navigate to %1"
@@ -33218,28 +33218,28 @@ msgstr "MacBinary II"
 msgid "Version"
 msgstr "版本"
 
-#: core/libs/widgets/files/dbinarysearch.cpp:103
+#: core/libs/widgets/files/dbinarysearch.cpp:108
 #, fuzzy, kde-format
 #| msgid "Collection not found"
 msgid "Binary not found."
 msgstr "沒有找到任何收藏"
 
-#: core/libs/widgets/files/dbinarysearch.cpp:104
+#: core/libs/widgets/files/dbinarysearch.cpp:109
 #, kde-format
 msgid "Minimal version number required for this binary is %1"
 msgstr ""
 
-#: core/libs/widgets/files/dbinarysearch.cpp:106
+#: core/libs/widgets/files/dbinarysearch.cpp:111
 #, kde-format
 msgid "Find"
 msgstr ""
 
-#: core/libs/widgets/files/dbinarysearch.cpp:108
+#: core/libs/widgets/files/dbinarysearch.cpp:113
 #, kde-format
 msgid " or <a href=\"%1\">download</a>"
 msgstr ""
 
-#: core/libs/widgets/files/dbinarysearch.cpp:133
+#: core/libs/widgets/files/dbinarysearch.cpp:142
 #, kde-format
 msgid ""
 "<qt><p><font color=\"red\"><b>Warning:</b> Some necessary binaries have not "
@@ -33248,14 +33248,14 @@ msgid ""
 "download and install them to proceed.</font></p></qt>"
 msgstr ""
 
-#: core/libs/widgets/files/dbinarysearch.cpp:167
+#: core/libs/widgets/files/dbinarysearch.cpp:181
 #, kde-format
 msgid ""
 "A development version has been detect. There is no guarantee on the behavior "
 "of this binary."
 msgstr ""
 
-#: core/libs/widgets/files/dbinarysearch.cpp:173
+#: core/libs/widgets/files/dbinarysearch.cpp:191
 #, fuzzy, kde-format
 #| msgid "Channel:"
 msgid "Change"
@@ -33283,137 +33283,137 @@ msgstr "以不同名稱儲存"
 msgid "Overwrite automatically"
 msgstr "自動覆寫"
 
-#: core/libs/widgets/files/filesaveoptionsbox.cpp:118
+#: core/libs/widgets/files/filesaveoptionsbox.cpp:121
 #, kde-format
 msgid "No options available"
 msgstr "沒有可用的選項"
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:259
+#: core/libs/widgets/fonts/dfontproperties.cpp:265
 #, fuzzy, kde-format
 #| msgid "System Font"
 msgid "Requested Font"
 msgstr "系統字型"
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:279
+#: core/libs/widgets/fonts/dfontproperties.cpp:285
 #, fuzzy, kde-format
 #| msgid "Font:"
 msgid "Font"
 msgstr "字型："
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:285
+#: core/libs/widgets/fonts/dfontproperties.cpp:291
 #, fuzzy, kde-format
 #| msgid "Enable this option to show golden spiral sections."
 msgid "Enable this checkbox to change the font family settings."
 msgstr "啟用這個選項來顯示黃金螺旋區段。"
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:286
+#: core/libs/widgets/fonts/dfontproperties.cpp:292
 #, kde-format
 msgid "Change font family?"
 msgstr ""
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:292
+#: core/libs/widgets/fonts/dfontproperties.cpp:298
 #, kde-format
 msgctxt "@label"
 msgid "Font:"
 msgstr "字型："
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:302
+#: core/libs/widgets/fonts/dfontproperties.cpp:308
 #, fuzzy, kde-format
 #| msgid "Widget style:"
 msgid "Font style"
 msgstr "元件樣式："
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:308
+#: core/libs/widgets/fonts/dfontproperties.cpp:314
 #, fuzzy, kde-format
 #| msgid "Enable this option to show golden sections."
 msgid "Enable this checkbox to change the font style settings."
 msgstr "啟用這個選項來顯示黃金區段。"
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:309
+#: core/libs/widgets/fonts/dfontproperties.cpp:315
 #, fuzzy, kde-format
 #| msgid "Change Case"
 msgid "Change font style?"
 msgstr "改變大小寫"
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:315
+#: core/libs/widgets/fonts/dfontproperties.cpp:321
 #, fuzzy, kde-format
 #| msgid "Widget style:"
 msgid "Font style:"
 msgstr "元件樣式："
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:332
+#: core/libs/widgets/fonts/dfontproperties.cpp:338
 #, fuzzy, kde-format
 #| msgid "Enable this option to show golden spiral sections."
 msgid "Enable this checkbox to change the font size settings."
 msgstr "啟用這個選項來顯示黃金螺旋區段。"
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:333
+#: core/libs/widgets/fonts/dfontproperties.cpp:339
 #, fuzzy, kde-format
 #| msgid "Change Case"
 msgid "Change font size?"
 msgstr "改變大小寫"
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:339
+#: core/libs/widgets/fonts/dfontproperties.cpp:345
 #, kde-format
 msgctxt "@label:listbox Font size"
 msgid "Size:"
 msgstr "大小："
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:354
+#: core/libs/widgets/fonts/dfontproperties.cpp:360
 #, fuzzy, kde-format
 #| msgid "Here you can choose the font to be used."
 msgid "Here you can choose the font family to be used."
 msgstr "您可在這裡選擇要使用的字型。"
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:384
+#: core/libs/widgets/fonts/dfontproperties.cpp:390
 #, fuzzy, kde-format
 #| msgid "Here you can choose the font to be used."
 msgid "Here you can choose the font style to be used."
 msgstr "您可在這裡選擇要使用的字型。"
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:397
-#: core/libs/widgets/fonts/dfontproperties.cpp:725
-#: core/libs/widgets/fonts/dfontproperties.cpp:763
+#: core/libs/widgets/fonts/dfontproperties.cpp:404
+#: core/libs/widgets/fonts/dfontproperties.cpp:736
+#: core/libs/widgets/fonts/dfontproperties.cpp:776
 #, kde-format
 msgid "Normal"
 msgstr "普通"
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:398
-#: core/libs/widgets/fonts/dfontproperties.cpp:769
+#: core/libs/widgets/fonts/dfontproperties.cpp:405
+#: core/libs/widgets/fonts/dfontproperties.cpp:783
 #, fuzzy, kde-format
 #| msgid "Italian"
 msgid "Italic"
 msgstr "義大利語"
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:399
-#: core/libs/widgets/fonts/dfontproperties.cpp:770
+#: core/libs/widgets/fonts/dfontproperties.cpp:406
+#: core/libs/widgets/fonts/dfontproperties.cpp:784
 #, fuzzy, kde-format
 #| msgctxt "unique value for duplicate strings"
 #| msgid "Unique"
 msgid "Oblique"
 msgstr "單一"
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:400
+#: core/libs/widgets/fonts/dfontproperties.cpp:407
 #, kde-format
 msgid "Bold"
 msgstr ""
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:401
+#: core/libs/widgets/fonts/dfontproperties.cpp:408
 #, kde-format
 msgid "Bold Italic"
 msgstr ""
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:420
+#: core/libs/widgets/fonts/dfontproperties.cpp:427
 #, fuzzy, kde-format
 msgid "Relative"
 msgstr "裝飾鑲木"
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:421
+#: core/libs/widgets/fonts/dfontproperties.cpp:428
 #, kde-format
 msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
 msgstr ""
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:422
+#: core/libs/widgets/fonts/dfontproperties.cpp:429
 #, kde-format
 msgid ""
 "Here you can switch between fixed font size and font size to be calculated "
@@ -33421,18 +33421,18 @@ msgid ""
 "paper size)."
 msgstr ""
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:447
+#: core/libs/widgets/fonts/dfontproperties.cpp:454
 #, fuzzy, kde-format
 #| msgid "Here you can choose the font to be used."
 msgid "Here you can choose the font size to be used."
 msgstr "您可在這裡選擇要使用的字型。"
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:485
+#: core/libs/widgets/fonts/dfontproperties.cpp:495
 #, kde-format
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr ""
 
-#: core/libs/widgets/fonts/dfontproperties.cpp:487
+#: core/libs/widgets/fonts/dfontproperties.cpp:497
 #, kde-format
 msgid ""
 "This sample text illustrates the current settings. You may edit it to test "

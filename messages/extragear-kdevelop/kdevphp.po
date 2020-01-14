@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevphp\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-26 02:41+0100\n"
+"POT-Creation-Date: 2020-01-14 02:43+0100\n"
 "PO-Revision-Date: 2018-12-02 23:39+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -155,7 +155,7 @@ msgstr "請確定本地端複本是以多個 HTML 檔案的方式存放。"
 msgid "...loading documentation..."
 msgstr "... 載入文件中 ..."
 
-#: duchain/builders/contextbuilder.cpp:461
+#: duchain/builders/contextbuilder.cpp:465
 #, kde-format
 msgid "Circular inheritance of %1 and %2"
 msgstr "%1 與 %2 發生環狀繼承"
@@ -345,23 +345,23 @@ msgstr "無法從此內文重新宣告保護屬性 %1。"
 msgid "Cannot use positional argument after argument unpacking"
 msgstr ""
 
-#: duchain/builders/declarationbuilder.cpp:1634
+#: duchain/builders/declarationbuilder.cpp:1652
 #, kde-format
 msgid "The use statement with non-compound name '%1' has no effect."
 msgstr "使用非複合（non-compound）名稱 %1 的 use 敘述沒有效果。"
 
-#: duchain/builders/declarationbuilder.cpp:1662
+#: duchain/builders/declarationbuilder.cpp:1679
 #, kde-format
 msgid "Cannot use '%1' as '%2' because the name is already in use."
 msgstr "無法使用 '%1' 做為 '%2' 因為名稱已被使用。"
 
-#: duchain/builders/declarationbuilder.cpp:1688
+#: duchain/builders/declarationbuilder.cpp:1705
 #, fuzzy, kde-format
 #| msgid "Cannot use '%1' as '%2' because the name is already in use."
 msgid "Cannot use %1 as %2 because '%2' is a special class name"
 msgstr "無法使用 '%1' 做為 '%2' 因為名稱已被使用。"
 
-#: duchain/builders/declarationbuilder.cpp:1698
+#: duchain/builders/declarationbuilder.cpp:1715
 #, kde-format
 msgid "The 'yield' expression can only be used inside a function"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-15 03:29+0100\n"
+"POT-Creation-Date: 2020-01-14 03:37+0100\n"
 "PO-Revision-Date: 2018-03-25 12:12+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -98,59 +98,64 @@ msgstr "連線"
 msgid "Connecting"
 msgstr "連線中"
 
-#: package/contents/ui/DeviceItem.qml:410
+#: package/contents/ui/DeviceItem.qml:412
 #, kde-format
 msgid "Audio device"
 msgstr "音效裝置"
 
-#: package/contents/ui/DeviceItem.qml:416
+#: package/contents/ui/DeviceItem.qml:419
 #, kde-format
 msgid "Input device"
 msgstr "輸入裝置"
 
-#: package/contents/ui/DeviceItem.qml:425
+#: package/contents/ui/DeviceItem.qml:426
 #, kde-format
 msgid "File transfer"
 msgstr "檔案傳輸"
 
-#: package/contents/ui/DeviceItem.qml:428
+#: package/contents/ui/DeviceItem.qml:429
 #, kde-format
 msgid "Send file"
 msgstr "傳送檔案"
 
-#: package/contents/ui/DeviceItem.qml:431
+#: package/contents/ui/DeviceItem.qml:432
 #, kde-format
 msgid "Input"
 msgstr "輸入"
 
-#: package/contents/ui/DeviceItem.qml:434
+#: package/contents/ui/DeviceItem.qml:435
 #, kde-format
 msgid "Audio"
 msgstr "音效"
 
-#: package/contents/ui/DeviceItem.qml:437
+#: package/contents/ui/DeviceItem.qml:438
 #, kde-format
 msgid "Network"
 msgstr "網路"
 
-#: package/contents/ui/DeviceItem.qml:441
+#: package/contents/ui/DeviceItem.qml:442
 #, kde-format
 msgid "Other device"
 msgstr "其他裝置"
 
-#: package/contents/ui/DeviceItem.qml:482
+#: package/contents/ui/DeviceItem.qml:449
+#, kde-format
+msgid "%1% Battery"
+msgstr ""
+
+#: package/contents/ui/DeviceItem.qml:490
 #, kde-format
 msgctxt "Notification when the connection failed due to Failed:HostIsDown"
 msgid "The device is unreachable"
 msgstr "連不到此裝置"
 
-#: package/contents/ui/DeviceItem.qml:485
+#: package/contents/ui/DeviceItem.qml:493
 #, kde-format
 msgctxt "Notification when the connection failed due to Failed"
 msgid "Connection to the device failed"
 msgstr "連線到裝置失敗"
 
-#: package/contents/ui/DeviceItem.qml:491
+#: package/contents/ui/DeviceItem.qml:499
 #, kde-format
 msgctxt "Notification when the connection failed due to NotReady"
 msgid "The device is not ready"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmoidviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-14 03:25+0200\n"
+"POT-Creation-Date: 2020-01-14 03:41+0100\n"
 "PO-Revision-Date: 2018-03-25 14:14+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -43,56 +43,56 @@ msgstr "Plasmoidviewer"
 msgid "Run Plasma widgets in their own window"
 msgstr "在它們自己的視窗中執行 Plasma 元件"
 
-#: main.cpp:64
+#: main.cpp:62
 #, kde-format
 msgid "The name of the containment plugin"
 msgstr "容器外掛程式的名稱"
 
-#: main.cpp:66
+#: main.cpp:64
 #, kde-format
 msgid "The name of the applet plugin"
 msgstr "小程式外掛程式的名稱"
 
-#: main.cpp:68
+#: main.cpp:66
 #, kde-format
 msgid ""
 "The formfactor to use (horizontal, vertical, mediacenter, planar or "
 "application)"
 msgstr "使用的參數（水平、垂直、平面、媒體中心或應用程式）"
 
-#: main.cpp:70
+#: main.cpp:68
 #, kde-format
 msgid ""
 "The location constraint to start the Containment with (floating, desktop, "
 "fullscreen, topedge, bottomedge, leftedge, rightedge)"
 msgstr "啟動容器的強制擺放位置（浮動、桌面、全螢幕、頂端、底端、左緣、右緣）"
 
-#: main.cpp:74
+#: main.cpp:72
 #, kde-format
 msgid "Set the x position of the plasmoidviewer on the Plasma desktop"
 msgstr "設定 Plasma 元件檢視器在 Plasma 桌面上的 x 座標"
 
-#: main.cpp:77
+#: main.cpp:75
 #, kde-format
 msgid "Set the y position of the plasmoidviewer on the Plasma desktop"
 msgstr "設定 Plasma 元件檢視器在 Plasma 桌面上的 y 座標"
 
-#: main.cpp:80
+#: main.cpp:78
 #, kde-format
 msgid "Set the window size of the plasmoidview"
 msgstr "設定元件檢視器的視窗大小"
 
-#: main.cpp:83
+#: main.cpp:81
 #, kde-format
 msgid "The size in kB to set the pixmap cache to"
 msgstr "像素圖快取大小（KB）"
 
-#: main.cpp:86
+#: main.cpp:84
 #, kde-format
 msgid "The name of the theme which the shell will use"
 msgstr "shell 要使用的主題名稱"
 
-#: main.cpp:89
+#: main.cpp:87
 #, kde-format
 msgid "Data that should be passed to the applet as 'externalData' event"
 msgstr "需要以 'externalData' 事件被傳遞給小程式的資料"

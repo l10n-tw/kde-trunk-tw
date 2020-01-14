@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kig\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-09 02:50+0100\n"
+"POT-Creation-Date: 2020-01-14 03:03+0100\n"
 "PO-Revision-Date: 2020-01-05 15:50+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -1006,33 +1006,33 @@ msgstr "Kig 不支援儲存為其它檔案格式。您是否想要將其儲存�
 msgid "Save Kig Format"
 msgstr "儲存 Kig 格式"
 
-#: kig/kig_part.cpp:726
+#: kig/kig_part.cpp:744
 #, kde-format
 msgid "Kig Documents (*.kig);;Compressed Kig Documents (*.kigz)"
 msgstr "Kig 文件 (*.kig);;壓縮的 Kig 文件(*.kigz)"
 
-#: kig/kig_part.cpp:739 misc/kigfiledialog.cc:57 modes/typesdialog.cpp:471
+#: kig/kig_part.cpp:757 misc/kigfiledialog.cc:57 modes/typesdialog.cpp:471
 #, kde-format
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 msgstr "檔案 %1 已經存在。您要覆寫它嗎？"
 
-#: kig/kig_part.cpp:740 misc/kigfiledialog.cc:58 modes/typesdialog.cpp:473
+#: kig/kig_part.cpp:758 misc/kigfiledialog.cc:58 modes/typesdialog.cpp:473
 #, kde-format
 msgid "Overwrite File?"
 msgstr "覆寫檔案嗎？"
 
-#: kig/kig_part.cpp:896
+#: kig/kig_part.cpp:914
 #, kde-format
 msgid "Print Geometry"
 msgstr "列印幾何"
 
-#: kig/kig_part.cpp:963
+#: kig/kig_part.cpp:981
 #, kde-format
 msgid "Hide %1 Object"
 msgid_plural "Hide %1 Objects"
 msgstr[0] "隱藏 %1 個物件"
 
-#: kig/kig_part.cpp:982
+#: kig/kig_part.cpp:1000
 #, kde-format
 msgid "Show %1 Object"
 msgid_plural "Show %1 Objects"
