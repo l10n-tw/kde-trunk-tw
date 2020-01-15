@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: latte-dock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 02:41+0200\n"
+"POT-Creation-Date: 2020-01-15 02:38+0100\n"
 "PO-Revision-Date: 2019-07-31 16:47+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -84,28 +84,38 @@ msgstr "將發光加到所有的工作／小型應用程式指示器"
 msgid "Opacity"
 msgstr "不透明"
 
-#: default/package/config/config.qml:186
+#: default/package/config/config.qml:186 default/package/config/config.qml:226
 #, kde-format
 msgctxt "number in percentage, e.g. 85 %"
 msgid "%0 %"
 msgstr "%0 %"
 
-#: default/package/config/config.qml:199
+#: default/package/config/config.qml:194
+#, kde-format
+msgid "Padding"
+msgstr ""
+
+#: default/package/config/config.qml:202
+#, kde-format
+msgid "Length"
+msgstr ""
+
+#: default/package/config/config.qml:241
 #, kde-format
 msgid "Tasks"
 msgstr "任務"
 
-#: default/package/config/config.qml:205
+#: default/package/config/config.qml:247
 #, kde-format
 msgid "Different color for minimized windows"
 msgstr "最小化視窗的顏色不同"
 
-#: default/package/config/config.qml:215
+#: default/package/config/config.qml:257
 #, kde-format
 msgid "Show an extra dot for grouped windows when active"
 msgstr "已分組的視窗作用中時顯示額外的點"
 
-#: default/package/config/config.qml:217
+#: default/package/config/config.qml:259
 #, kde-format
 msgid ""
 "Grouped windows show both a line and a dot when one of them is active and "
@@ -113,12 +123,23 @@ msgid ""
 msgstr ""
 "當已分組的視窗其中之一為作用中時，且啟用線作用中指示器時，同時顯示線與點"
 
-#: default/package/config/config.qml:229
+#: default/package/config/config.qml:271
 #, kde-format
 msgid "Options"
 msgstr "選項"
 
-#: default/package/config/config.qml:234
+#: default/package/config/config.qml:276
+#, fuzzy, kde-format
+#| msgid "Show a dot indicator for active items"
+msgid "Show indicators for applets"
+msgstr "作用中的項目顯示點指示器"
+
+#: default/package/config/config.qml:278
+#, kde-format
+msgid "Indicators are shown for applets"
+msgstr ""
+
+#: default/package/config/config.qml:287
 #, kde-format
 msgid "Reverse indicator style"
 msgstr "反轉指示器樣式"

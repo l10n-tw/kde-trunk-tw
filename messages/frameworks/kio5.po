@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-14 02:57+0100\n"
+"POT-Creation-Date: 2020-01-15 02:57+0100\n"
 "PO-Revision-Date: 2020-01-09 18:08+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -2157,7 +2157,7 @@ msgstr "重新格式化目標硬碟的檔案系統到支援大檔案的檔案系
 msgid "Undocumented Error"
 msgstr "未說明的錯誤"
 
-#: core/kcoredirlister.cpp:396 widgets/krun.cpp:903 widgets/paste.cpp:275
+#: core/kcoredirlister.cpp:396 widgets/krun.cpp:888 widgets/paste.cpp:275
 #: widgets/renamedialog.cpp:458
 #, kde-format
 msgid ""
@@ -8543,24 +8543,24 @@ msgstr "只支援本地檔案系統的執行檔。"
 msgid "Advanced Options for %1"
 msgstr "%1 的進階選項"
 
-#: widgets/krun.cpp:251
+#: widgets/krun.cpp:236
 #, kde-format
 msgctxt "Warning about executing unknown program"
 msgid "Warning"
 msgstr "警告"
 
-#: widgets/krun.cpp:268
+#: widgets/krun.cpp:253
 #, kde-format
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
 msgstr "這會啟動此程式："
 
-#: widgets/krun.cpp:278
+#: widgets/krun.cpp:263
 #, kde-format
 msgid "If you do not trust this program, click Cancel"
 msgstr "若您不信任此程式，請點擊「取消」"
 
-#: widgets/krun.cpp:346
+#: widgets/krun.cpp:331
 #, kde-format
 msgid ""
 "<qt>Unable to enter <b>%1</b>.\n"
@@ -8569,7 +8569,7 @@ msgstr ""
 "<qt>無法進入 <b>%1</b>。\n"
 "您沒有這個位置的存取權限。</qt>"
 
-#: widgets/krun.cpp:377
+#: widgets/krun.cpp:362
 #, kde-format
 msgid ""
 "<qt>Unable to make file <b>%1</b> executable.\n"
@@ -8578,29 +8578,29 @@ msgstr ""
 "<qt>無法使 <b>%1</b> 檔案可被執行。\n"
 "%2。</qt>"
 
-#: widgets/krun.cpp:408
+#: widgets/krun.cpp:393
 #, kde-format
 msgid ""
 "<qt>The file <b>%1</b> is an executable program. For safety it will not be "
 "started.</qt>"
 msgstr "<qt>檔案 <b>%1</b> 是一個可執行的程式。為了安全將不會執行它。</qt>"
 
-#: widgets/krun.cpp:414
+#: widgets/krun.cpp:399
 #, kde-format
 msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
 msgstr "<qt>您沒有執行 <b>%1</b> 的權限。</qt>"
 
-#: widgets/krun.cpp:444
+#: widgets/krun.cpp:429
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
 msgstr "您未獲授權去選取應用程式以開啟此檔案。"
 
-#: widgets/krun.cpp:674
+#: widgets/krun.cpp:659
 #, kde-format
 msgid "You are not authorized to execute this service."
 msgstr "您未獲授權去執行此服務。"
 
-#: widgets/krun.cpp:704
+#: widgets/krun.cpp:689
 #, kde-format
 msgid ""
 "Unable to make the service %1 executable, aborting execution.\n"
@@ -8609,34 +8609,34 @@ msgstr ""
 "無法使 %1 服務可被執行，取消執行。\n"
 "%2。"
 
-#: widgets/krun.cpp:938
+#: widgets/krun.cpp:923
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
 "not exist.</qt>"
 msgstr "<qt>無法執行指定的命令。這個檔案或資料夾 <b>%1</b> 不存在。</qt>"
 
-#: widgets/krun.cpp:992
+#: widgets/krun.cpp:991
 #, kde-format
 msgid "Could not find any application or handler for %1"
 msgstr "找不到任何 %1 的應用程式或操作器"
 
-#: widgets/krun.cpp:1566
+#: widgets/krun.cpp:1565
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr "處理 %1 中的 Exec 欄位時發生錯誤"
 
-#: widgets/krun.cpp:1634
+#: widgets/krun.cpp:1633
 #, kde-format
 msgid "You are not authorized to execute this file."
 msgstr "您未獲授權去執行此檔案。"
 
-#: widgets/krun.cpp:1655
+#: widgets/krun.cpp:1654
 #, kde-format
 msgid "Launching %1"
 msgstr "裝載 %1 中"
 
-#: widgets/krun.cpp:1761
+#: widgets/krun.cpp:1760
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "找不到程式「%1」"

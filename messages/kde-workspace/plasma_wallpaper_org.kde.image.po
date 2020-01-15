@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-11 03:42+0100\n"
+"POT-Creation-Date: 2020-01-15 03:50+0100\n"
 "PO-Revision-Date: 2019-07-31 16:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -21,27 +21,22 @@ msgstr ""
 "X-Generator: Lokalize 19.07.80\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: image.cpp:251
+#: image.cpp:247
 #, kde-format
 msgid "Recommended wallpaper file"
 msgstr "推薦的桌布檔"
 
-#: image.cpp:379
+#: image.cpp:382
 #, kde-format
 msgid "Directory with the wallpaper to show slides from"
 msgstr "桌布輪播之圖片目錄"
 
-#: image.cpp:652
-#, kde-format
-msgid "Download Wallpapers"
-msgstr "下載新桌布"
-
-#: image.cpp:697
+#: image.cpp:682
 #, kde-format
 msgid "Open Image"
 msgstr "開啟影像"
 
-#: image.cpp:699
+#: image.cpp:684
 #, kde-format
 msgid "Image Files"
 msgstr "影像檔"
@@ -177,10 +172,11 @@ msgid "Add Folder..."
 msgstr "新增資料夾 ..."
 
 #: imagepackage/contents/ui/config.qml:350
-#: imagepackage/contents/ui/config.qml:448
-#, kde-format
-msgid "Get New Wallpapers..."
-msgstr "取得新桌布..."
+#: imagepackage/contents/ui/config.qml:449
+#, fuzzy, kde-format
+#| msgid "Remove Wallpaper"
+msgid "Wallpapers"
+msgstr "移除桌布"
 
 #: imagepackage/contents/ui/config.qml:402
 #, kde-format
@@ -237,6 +233,12 @@ msgstr "移除桌布"
 #, kde-format
 msgid "%1 by %2"
 msgstr "%1，由：%2"
+
+#~ msgid "Download Wallpapers"
+#~ msgstr "下載新桌布"
+
+#~ msgid "Get New Wallpapers..."
+#~ msgstr "取得新桌布..."
 
 #~ msgid "Hours"
 #~ msgstr "小時"

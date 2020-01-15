@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-24 03:36+0200\n"
+"POT-Creation-Date: 2020-01-15 03:50+0100\n"
 "PO-Revision-Date: 2019-10-26 23:16+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -40,45 +40,52 @@ msgstr "使用者意見回應"
 msgid "Configure user feedback settings"
 msgstr "設定使用者意見回應"
 
-#: package/contents/ui/main.qml:43
+#: package/contents/ui/main.qml:45
 #, kde-format
 msgid ""
 "User Feedback has been disabled centrally. Please contact your distributor."
 msgstr "《使用者意見回應》已集中停用。請聯絡分發者。"
 
-#: package/contents/ui/main.qml:47 package/contents/ui/main.qml:70
+#: package/contents/ui/main.qml:49 package/contents/ui/main.qml:72
 #, kde-format
 msgid "Plasma:"
 msgstr "Plasma："
 
-#: package/contents/ui/main.qml:51
-#, kde-kuit-format
+#: package/contents/ui/main.qml:53
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info"
+#| msgid ""
+#| "You can help us improve this software by sharing information about how "
+#| "you use it. This allows us to focus on things that matter to you.<nl/><nl/"
+#| ">Contributing usage information is optional and entirely anonymous. It "
+#| "will not associate the data with any kind of unique identifier, and will "
+#| "never track the documents you open, the websites you visit, or any other "
+#| "kind of personal information.<nl/><nl/>You can read more about our policy "
+#| "in the following link:"
 msgctxt "@info"
-msgid "You can read about our policy in the following link:"
-msgstr "你能在下述連結閱讀我們的政策："
+msgid ""
+"You can help KDE improve Plasma by contributing information on how you use "
+"it, so we can focus on things that matter to you.<nl/><nl/>Contributing this "
+"information is optional and entirely anonymous. We never collect your "
+"personal data, files you use, websites you visit, or information that could "
+"identify you.<nl/><nl/>You can read about our policy in the following link:"
+msgstr ""
+"你可以藉由分享使用方式資訊來協助我們改善這個軟體。這會讓我們能聚焦於影響到你"
+"的東西。<nl/><nl/>貢獻使用資訊是可選且完全匿名的，不會使用任何形式的唯一識別"
+"碼來與資料相關連，且永不記錄你開啟的文件、瀏覽的網站及任何形式的個人資訊。"
+"<nl/><nl/>你可以在下述連結閱讀關於隱私權政策的更多資訊："
 
-#: package/contents/ui/main.qml:101
+#: package/contents/ui/main.qml:104
 #, kde-format
 msgid "Plasma"
 msgstr "Plasma"
 
+#~ msgctxt "@info"
+#~ msgid "You can read about our policy in the following link:"
+#~ msgstr "你能在下述連結閱讀我們的政策："
+
 #~ msgid "Allow KDE software to collect anonymous usage information"
 #~ msgstr "允許 KDE 軟體收集匿名使用資訊"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "You can help us improve this software by sharing information about how "
-#~ "you use it. This allows us to focus on things that matter to you.<nl/><nl/"
-#~ ">Contributing usage information is optional and entirely anonymous. It "
-#~ "will not associate the data with any kind of unique identifier, and will "
-#~ "never track the documents you open, the websites you visit, or any other "
-#~ "kind of personal information.<nl/><nl/>You can read more about our policy "
-#~ "in the following link:"
-#~ msgstr ""
-#~ "你可以藉由分享使用方式資訊來協助我們改善這個軟體。這會讓我們能聚焦於影響到"
-#~ "你的東西。<nl/><nl/>貢獻使用資訊是可選且完全匿名的，不會使用任何形式的唯一"
-#~ "識別碼來與資料相關連，且永不記錄你開啟的文件、瀏覽的網站及任何形式的個人資"
-#~ "訊。<nl/><nl/>你可以在下述連結閱讀關於隱私權政策的更多資訊："
 
 #~ msgid "Send basic system information"
 #~ msgstr "傳送基本的系統資訊"
