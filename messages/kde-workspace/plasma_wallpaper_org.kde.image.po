@@ -4,27 +4,27 @@
 # Goodhorse <franklin@goodhorse.idv.tw>, 2008.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2013, 2014, 2015.
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
-# pan93412 <pan93412@gmail.com>, 2018, 2019.
+# pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-15 03:50+0100\n"
-"PO-Revision-Date: 2019-07-31 16:56+0800\n"
+"PO-Revision-Date: 2020-01-16 00:08+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.07.80\n"
+"X-Generator: Lokalize 19.12.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: image.cpp:247
 #, kde-format
 msgid "Recommended wallpaper file"
-msgstr "推薦的桌布檔"
+msgstr "建議桌布檔案"
 
 #: image.cpp:382
 #, kde-format
@@ -130,21 +130,21 @@ msgstr "變更圖片頻率："
 #, kde-format
 msgid "%1 hour"
 msgid_plural "%1 hours"
-msgstr[0] ""
+msgstr[0] "%1小時"
 
 #: imagepackage/contents/ui/config.qml:234
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Minutes"
 msgid "%1 minute"
 msgid_plural "%1 minutes"
-msgstr[0] "分鐘"
+msgstr[0] "%1分"
 
 #: imagepackage/contents/ui/config.qml:249
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Seconds"
 msgid "%1 second"
 msgid_plural "%1 seconds"
-msgstr[0] "秒"
+msgstr[0] "%1秒"
 
 #: imagepackage/contents/ui/config.qml:258
 #, kde-format
@@ -164,7 +164,7 @@ msgstr "開啟資料夾"
 #: imagepackage/contents/ui/config.qml:330
 #, kde-format
 msgid "There are no wallpaper locations configured"
-msgstr ""
+msgstr "尚未設定桌布位置"
 
 #: imagepackage/contents/ui/config.qml:344
 #, kde-format
@@ -173,15 +173,15 @@ msgstr "新增資料夾 ..."
 
 #: imagepackage/contents/ui/config.qml:350
 #: imagepackage/contents/ui/config.qml:449
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Remove Wallpaper"
 msgid "Wallpapers"
-msgstr "移除桌布"
+msgstr "桌布"
 
 #: imagepackage/contents/ui/config.qml:402
 #, kde-format
 msgid "There are no wallpapers in this slideshow"
-msgstr ""
+msgstr "此投影播放中沒有桌布"
 
 #: imagepackage/contents/ui/config.qml:443
 #, kde-format

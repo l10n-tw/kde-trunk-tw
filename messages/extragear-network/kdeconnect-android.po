@@ -5,20 +5,20 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 # liueigi <liueigi@gmail.com>, 2016.
 # Jeff Huang <s8321414@gmail.com>, 2016.
-# pan93412 <pan93412@gmail.com>, 2018, 2019.
+# pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-android\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-15 02:47+0100\n"
-"PO-Revision-Date: 2019-12-22 23:29+0800\n"
+"PO-Revision-Date: 2020-01-16 00:05+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.12.0\n"
+"X-Generator: Lokalize 19.12.1\n"
 "Generated-By: Babel 2.2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -162,7 +162,7 @@ msgstr "確認"
 
 msgctxt "sad_ok"
 msgid "OK :("
-msgstr ""
+msgstr "好吧 :("
 
 msgctxt "cancel"
 msgid "Cancel"
@@ -767,12 +767,11 @@ msgctxt "no_wifi"
 msgid ""
 "You're not connected to a Wi-Fi network, so you may not be able to see any "
 "devices. Click here to enable Wi-Fi."
-msgstr ""
-"您尚未連線至 Wi-Fi 網路，因此您可能無法看到任何裝置。按一下這裡啟用 Wi-Fi。"
+msgstr "您尚未連線至 Wi-Fi 網路，因此您可能無法看到任何裝置。按一下這裡啟用 Wi-Fi。"
 
 msgctxt "on_non_trusted_message"
 msgid "Not on a trusted network: autodiscovery is disabled."
-msgstr ""
+msgstr "不在信任網路：自動探索已停用。"
 
 msgctxt "no_file_browser"
 msgid "There are no file browsers installed."
@@ -802,12 +801,11 @@ msgctxt "findmyphone_description"
 msgid "Rings this device so you can find it"
 msgstr "讓這個裝置發出聲響讓您能找到它"
 
-#, fuzzy
 #| msgctxt "findmyphone_found"
 #| msgid "Found"
 msgctxt "findmyphone_found"
 msgid "Found it"
-msgstr "找到"
+msgstr "找到裝置"
 
 msgctxt "open"
 msgid "Open"
@@ -833,8 +831,7 @@ msgctxt "plugins_need_optional_permission"
 msgid ""
 "Some plugins have features disabled because of lack of permission (tap for "
 "more info):"
-msgstr ""
-"部份的外掛程式因為缺乏權限，而導致功能被停用。（按一下以了解更多資訊）："
+msgstr "部份的外掛程式因為缺乏權限，而導致功能被停用。（按一下以了解更多資訊）："
 
 msgctxt "share_optional_permission_explanation"
 msgid ""
@@ -947,7 +944,7 @@ msgstr "檔案傳輸"
 
 msgctxt "notification_channel_high_priority"
 msgid "High priority"
-msgstr ""
+msgstr "高優先度"
 
 msgctxt "mpris_stop"
 msgid "Stop the current player"
@@ -1085,35 +1082,35 @@ msgstr "指標裝置"
 
 msgctxt "trusted_networks"
 msgid "Trusted networks"
-msgstr ""
+msgstr "信任網路"
 
 msgctxt "trusted_networks_desc"
 msgid "Restrict autodiscovery to known networks"
-msgstr ""
+msgstr "限制只對已知網路自動探索"
 
 #, c-format
 msgctxt "add_trusted_network"
 msgid "Add %1s"
-msgstr ""
+msgstr "加入 %1s"
 
 msgctxt "empty_trusted_networks_list_text"
 msgid "You haven't added any trusted network yet"
-msgstr ""
+msgstr "您尚未加入任何信任網路"
 
 msgctxt "allow_all_networks_text"
 msgid "Allow all"
-msgstr ""
+msgstr "全部允許"
 
 msgctxt "location_permission_needed_title"
 msgid "Permission required"
-msgstr ""
+msgstr "需要權限"
 
 msgctxt "location_permission_needed_desc"
 msgid "Android requires the Location permission to identify your WiFi network"
-msgstr ""
+msgstr "Android 需要「位置」權限才能識別你的 Wi-Fi 網路"
 
 msgctxt "clipboard_android_x_incompat"
 msgid ""
 "Android 10 has removed clipboard access to all apps. This plugin will be "
 "disabled."
-msgstr ""
+msgstr "Android 10 已移除所有應用程式的剪貼簿存取權限。此外掛程式將停用。"

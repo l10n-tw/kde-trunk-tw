@@ -3,13 +3,13 @@
 #
 # Franklin, 2014.
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017.
-# pan93412 <pan93412@gmail.com>, 2018, 2019.
+# pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-12 03:40+0100\n"
-"PO-Revision-Date: 2019-03-18 19:39+0800\n"
+"PO-Revision-Date: 2020-01-16 00:15+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -80,38 +80,38 @@ msgid "Internationalization"
 msgstr "國際化"
 
 #: src/gtkconfigkcmodule.cpp:87
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Get New GNOME/GTK Application Styles..."
 msgid "Get New GNOME/GTK2 Application Styles..."
-msgstr "取得新的 GNOME / GTK 應用程式樣式…"
+msgstr "取得新的 GNOME / GTK2 應用程式樣式…"
 
 #: src/gtkconfigkcmodule.cpp:88
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Get New GNOME/GTK Application Styles..."
 msgid "Get New GNOME/GTK3 Application Styles..."
-msgstr "取得新的 GNOME / GTK 應用程式樣式…"
+msgstr "取得新的 GNOME / GTK3 應用程式樣式…"
 
 #: src/gtkconfigkcmodule.cpp:118
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Select a GTK theme to uninstall"
 msgid "Select GTK Theme Archive"
-msgstr "選擇要解除安裝的 GTK 主題"
+msgstr "選擇 GTK 主題封存檔"
 
 #: src/gtkconfigkcmodule.cpp:120
 #, kde-format
 msgid "GTK Theme Archive (*.tar.xz *.tar.gz *.tar.bz2)"
-msgstr ""
+msgstr "GTK 主題封存檔 (*.tar.xz *.tar.gz *.tar.bz2)"
 
 #: src/gtkconfigkcmodule.cpp:134
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Install GTK Theme"
 msgid "Invalid GTK Theme archive"
-msgstr "安裝 GTK 主題"
+msgstr "GTK 主題封存檔無效"
 
 #: src/gtkconfigkcmodule.cpp:134
 #, kde-format
 msgid "%1 is not a valid GTK Theme archive."
-msgstr ""
+msgstr "%1 不是有效的 GTK 主題封存檔。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_1)
 #: src/ui/gui.ui:34
@@ -122,10 +122,10 @@ msgstr "GTK2 主題："
 #. i18n: ectx: property (text), widget (QPushButton, gtk2Preview)
 #. i18n: ectx: property (text), widget (QPushButton, gtk3Preview)
 #: src/ui/gui.ui:64 src/ui/gui.ui:110
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Preview Theme"
 msgid "Preview..."
-msgstr "預覽主題"
+msgstr "預覽…"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/ui/gui.ui:80
@@ -135,10 +135,10 @@ msgstr "GTK3 主題："
 
 #. i18n: ectx: property (text), widget (QPushButton, installFromFile)
 #: src/ui/gui.ui:171
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Install a local theme..."
 msgid "Install from File..."
-msgstr "安裝本地端主題..."
+msgstr "從檔案安裝…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, newThemes)
 #: src/ui/gui.ui:182
