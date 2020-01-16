@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-15 02:43+0100\n"
-"PO-Revision-Date: 2020-01-16 00:02+0800\n"
+"PO-Revision-Date: 2020-01-16 14:40+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -7403,8 +7403,7 @@ msgstr ""
 msgid ""
 "Cannot load WinTab driver. If you have a drawing tablet, please make sure "
 "the tablet driver is properly installed."
-msgstr ""
-"無法載入 WinTab 驅動。如果你的數位板已連結，請確保其驅動程式已正確安裝。"
+msgstr "無法載入 WinTab 驅動。如果你的數位板已連結，請確保其驅動程式已正確安裝。"
 
 #: libs/basicflakes/tools/KoCreatePathTool.cpp:548
 #, kde-format
@@ -8700,8 +8699,7 @@ msgstr "Lanczos3 演算法"
 msgid ""
 "Offers similar results than Bicubic, but maybe a little bit sharper. Can "
 "produce light and dark halos along strong edges."
-msgstr ""
-"與雙立方演算法效果類似，但或許銳度稍好。可能會在高反差邊緣處產生明暗光暈。"
+msgstr "與雙立方演算法效果類似，但或許銳度稍好。可能會在高反差邊緣處產生明暗光暈。"
 
 #: libs/image/kis_filter_strategy.h:174
 #, kde-format
@@ -9298,8 +9296,7 @@ msgctxt "image conversion warning"
 msgid ""
 "The image is not tagged as <b>non-linear gamma sRGB</b>. The image will be "
 "converted to sRGB."
-msgstr ""
-"影像未被標記為<b>非線性 gamma sRGB 色彩空間</b>。它將被轉成 sRGB 色彩空間。"
+msgstr "影像未被標記為<b>非線性 gamma sRGB 色彩空間</b>。它將被轉成 sRGB 色彩空間。"
 
 #: libs/koplugin/KisMimeDatabase.cpp:161
 #, kde-format
@@ -11356,8 +11353,7 @@ msgstr "<html><head/><body><h1 align=\"center\">眾籌支援者</h1><p>"
 #: libs/ui/dialogs/kis_about_application.cpp:111
 #, kde-format
 msgid ".</p><p><i>Thanks! You were all <b>awesome</b>!</i></p></body></html>"
-msgstr ""
-"</p><p>感謝上述諸位的支援，你們簡直就是<b>小天使</b>！</p></body></html>"
+msgstr "</p><p>感謝上述諸位的支援，你們簡直就是<b>小天使</b>！</p></body></html>"
 
 #: libs/ui/dialogs/kis_about_application.cpp:113
 #, kde-format
@@ -14716,8 +14712,7 @@ msgstr "作為柵格圖層(&R)"
 msgid ""
 "Use background color and opacity as the base canvas color. This can be "
 "reconfigured in `Image > Properties.`"
-msgstr ""
-"使用背景顏色和不透明度作為基底畫布顏色。此屬性可在「影像 > 屬性」中重新設定。"
+msgstr "使用背景顏色和不透明度作為基底畫布顏色。此屬性可在「影像 > 屬性」中重新設定。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioBackgroundAsProjection)
 #: libs/ui/forms/wdgnewimage.ui:553
@@ -15222,8 +15217,7 @@ msgstr ""
 msgid ""
 "<html><head/><body><p>When the image is too big, render only currently "
 "visible part of it</p></body></html>"
-msgstr ""
-"<html><head/><body><p>當影像太大時, 僅繪製目前可見的部分</p></body></html>"
+msgstr "<html><head/><body><p>當影像太大時, 僅繪製目前可見的部分</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseRegionOfInterest)
 #: libs/ui/forms/wdgperformancesettings.ui:480
@@ -15250,8 +15244,7 @@ msgstr ""
 msgid ""
 "<html><head/><body><p>Automatically prerender animation cache in background "
 "when the user is idle</p></body></html>"
-msgstr ""
-"<html><head/><body><p>使用者空閒時在後台自動預繪製動畫快取</p></body></html>"
+msgstr "<html><head/><body><p>使用者空閒時在後台自動預繪製動畫快取</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBackgroundCacheGeneration)
 #: libs/ui/forms/wdgperformancesettings.ui:503
@@ -16675,8 +16668,7 @@ msgstr "平整影像"
 msgid ""
 "The image contains hidden layers that will be lost. Do you want to flatten "
 "the image?"
-msgstr ""
-"此影像包含已隱藏的圖層，這些圖層將不會在平整後被保留，確定要平整影像嗎？"
+msgstr "此影像包含已隱藏的圖層，這些圖層將不會在平整後被保留，確定要平整影像嗎？"
 
 #: libs/ui/kis_layer_manager.cc:808
 #, kde-format
@@ -17813,8 +17805,7 @@ msgstr "%1 不可寫入"
 msgid ""
 "%1 is smaller than 10 bytes, it must be corrupt. Try saving again under a "
 "different name, in another location."
-msgstr ""
-"%1 小於 10 位元組，可能是損壞的。試試看在其他位置使用不同名稱重新儲存。"
+msgstr "%1 小於 10 位元組，可能是損壞的。試試看在其他位置使用不同名稱重新儲存。"
 
 #: libs/ui/KisImportExportFilter.cpp:182
 #, kde-format
@@ -18320,8 +18311,7 @@ msgstr "儲存調色板失敗"
 msgid ""
 "Failed to save global palette file. Please set it to non-global, or you will "
 "lose the file when you close Krita"
-msgstr ""
-"無法儲存為全域調色板檔案。請將其設為非全域，否則在關閉 Krita 是將遺失該檔案"
+msgstr "無法儲存為全域調色板檔案。請將其設為非全域，否則在關閉 Krita 是將遺失該檔案"
 
 #: libs/ui/KisPaletteEditor.cpp:665 libs/ui/KisPaletteEditor.cpp:668
 #, kde-format
@@ -19598,8 +19588,7 @@ msgstr "已停用 OpenColorIO：不支援影像色彩空間"
 msgid ""
 "Shape selection does not fully support wraparound mode. Please use pixel "
 "selection instead"
-msgstr ""
-"形狀選取區域工具在影像環繞模式下不能完全正常作業，請改用像素選取區域工具"
+msgstr "形狀選取區域工具在影像環繞模式下不能完全正常作業，請改用像素選取區域工具"
 
 #: libs/ui/tool/kis_selection_tool_helper.cpp:314
 #, kde-format
@@ -27981,8 +27970,7 @@ msgstr ""
 msgid ""
 "The shortcut to fire this action, such as 'Ctrl+1', or a QKeySequence "
 "instance, or None."
-msgstr ""
-"指定給此操作的快捷鍵，如「Ctrl+1」，或者是一組 QKeySequence 實例，可以為空。"
+msgstr "指定給此操作的快捷鍵，如「Ctrl+1」，或者是一組 QKeySequence 實例，可以為空。"
 
 #. i18n: ectx: property (text), widget (QLabel, labelText)
 #: plugins/extensions/pykrita/plugin/info.ui:64
@@ -28042,8 +28030,7 @@ msgstr "設定頁面"
 msgid ""
 "The shortcut to fire this action such as 'Ctrl+1', or a QKeySequence "
 "instance, or None."
-msgstr ""
-"指定給此操作的快捷鍵，如「Ctrl+1」，或者是一組 QKeySequence 實例，可以為空。"
+msgstr "指定給此操作的快捷鍵，如「Ctrl+1」，或者是一組 QKeySequence 實例，可以為空。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/extensions/pykrita/plugin/info.ui:236
@@ -29254,8 +29241,7 @@ msgstr "HSV/HSL 調整"
 msgid ""
 "The current configuration was created for a different colorspace and cannot "
 "be used. All curves will be reset."
-msgstr ""
-"目前的設定檔當初是為不同色彩空間建立的，而目前不能使用。將會重設所有曲線。"
+msgstr "目前的設定檔當初是為不同色彩空間建立的，而目前不能使用。將會重設所有曲線。"
 
 #: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:147
 #, kde-format
@@ -30494,7 +30480,7 @@ msgstr "變更文字錨點"
 #: plugins/flake/artistictextshape/ChangeTextFontCommand.cpp:33
 msgctxt "(qtundo-format)"
 msgid "Change font"
-msgstr "變更字體"
+msgstr "變更字型"
 
 #: plugins/flake/artistictextshape/ChangeTextOffsetCommand.cpp:31
 msgctxt "(qtundo-format)"
@@ -31134,7 +31120,7 @@ msgstr "顯示變更"
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1168
 #, kde-format
 msgid "Font"
-msgstr "字體"
+msgstr "字型"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/flake/textshape/dialogs/CharacterGeneral.ui:33
@@ -31264,12 +31250,12 @@ msgstr "自動斷字"
 #: plugins/flake/textshape/dialogs/FontDia.cpp:47
 #, kde-format
 msgid "Select Font"
-msgstr "選擇字體"
+msgstr "選擇字型"
 
 #: plugins/flake/textshape/dialogs/FontDia.cpp:82
 msgctxt "(qtundo-format)"
 msgid "Font"
-msgstr "字體"
+msgstr "字型"
 
 #: plugins/flake/textshape/dialogs/InsertCharacter.cpp:29
 #, kde-format
@@ -31575,7 +31561,7 @@ msgstr "行距"
 #: plugins/flake/textshape/dialogs/ParagraphIndentSpacing.ui:180
 #, kde-format
 msgid "Use Font Metrics:"
-msgstr "使用字體度量標準："
+msgstr "使用字型度量標準："
 
 #. i18n: ectx: property (title), widget (QGroupBox)
 #: plugins/flake/textshape/dialogs/ParagraphIndentSpacing.ui:202
@@ -31722,7 +31708,7 @@ msgstr "在章節之後："
 #: plugins/flake/textshape/dialogs/SimpleCharacterWidget.cpp:66
 #, kde-format
 msgid "Change font format"
-msgstr "變更字體格式"
+msgstr "變更字型格式"
 
 #. i18n: ectx: property (toolTip), widget (QWidget, SimpleInsertWidget)
 #: plugins/flake/textshape/dialogs/SimpleInsertWidget.ui:20
@@ -32309,23 +32295,23 @@ msgstr "增大縮排"
 #: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:271
 msgctxt "(qtundo-format)"
 msgid "Decrease font size"
-msgstr "縮小字體"
+msgstr "縮小字型"
 
 #: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:282
 #: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:284
 msgctxt "(qtundo-format)"
 msgid "Increase font size"
-msgstr "增大字體"
+msgstr "增大字型"
 
 #: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:295
 msgctxt "(qtundo-format)"
 msgid "Set Font"
-msgstr "設定字體"
+msgstr "設定字型"
 
 #: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:308
 msgctxt "(qtundo-format)"
 msgid "Set Font Size"
-msgstr "設定字體大小"
+msgstr "設定字型大小"
 
 #: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:321
 msgctxt "(qtundo-format)"
@@ -32509,7 +32495,7 @@ msgstr "文字形狀"
 #: plugins/tools/svgtexttool/kis_font_family_combo_box.cpp:202
 #, kde-format
 msgid "Font Family"
-msgstr "字體系列"
+msgstr "字型系列"
 
 #: plugins/flake/textshape/TextTool.cpp:335
 #, kde-format
@@ -32519,7 +32505,7 @@ msgstr "變數"
 #: plugins/flake/textshape/TextTool.cpp:370
 #, kde-format
 msgid "Font Size"
-msgstr "字體大小"
+msgstr "字型大小"
 
 #: plugins/flake/textshape/TextTool.cpp:540
 #, kde-format
@@ -32803,8 +32789,7 @@ msgstr ""
 msgid ""
 "This option will merge all layers. It is advisable to check this option, "
 "otherwise other applications might not be able to read your file correctly."
-msgstr ""
-"此選項將合併全部圖層。建議勾選此選項，否則其他應用程式可能無法正確讀取檔案。"
+msgstr "此選項將合併全部圖層。建議勾選此選項，否則其他應用程式可能無法正確讀取檔案。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkFlatten)
 #. i18n: ectx: property (text), widget (QCheckBox, flatten)
@@ -32958,8 +32943,7 @@ msgstr "大端序(&B)"
 msgid ""
 "Guess width and height based on file size and bits per pixel. Only values "
 "set to 0 will be updated."
-msgstr ""
-"按照檔案體積和每像素位深估算影像的寬度和高度，只有被設為 0 的數值才會更新。"
+msgstr "按照檔案體積和每像素位深估算影像的寬度和高度，只有被設為 0 的數值才會更新。"
 
 #. i18n: ectx: property (text), widget (QPushButton, guessButton)
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:101
@@ -34287,8 +34271,7 @@ msgctxt "@info:whatsthis"
 msgid ""
 "<title>Shift</title><p>Linear Shift of exposure correction before "
 "interpolation in E.V</p>"
-msgstr ""
-"<title>偏移</title><p>進行插值處理前的曝光偏移校正量，單位為曝光值 (E.V)</p>"
+msgstr "<title>偏移</title><p>進行插值處理前的曝光偏移校正量，單位為曝光值 (E.V)</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:493
 #, kde-format
@@ -34336,8 +34319,7 @@ msgctxt "@info:whatsthis"
 msgid ""
 "<p>If disable, use a fixed white level and ignore the image histogram to "
 "adjust brightness.</p>"
-msgstr ""
-"<p>禁用此選項，程式將使用固定白色級別並在調整亮度時忽略影像的直方圖資料。</p>"
+msgstr "<p>禁用此選項，程式將使用固定白色級別並在調整亮度時忽略影像的直方圖資料。</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:511
 #, kde-format
@@ -35131,8 +35113,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "This brush has transparent pixels in its center. \"Dulling\" mode may give "
 "unstable results. Consider using \"Smearing\" mode instead."
-msgstr ""
-"此筆刷在其中心有透明像素。 鈍化模式的結果會不穩定。可考慮換用塗抹模式。"
+msgstr "此筆刷在其中心有透明像素。 鈍化模式的結果會不穩定。可考慮換用塗抹模式。"
 
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:74
 #, kde-format
@@ -36402,7 +36383,7 @@ msgstr "保留筆刷預設選項"
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:25
 #, kde-format
 msgid "Font:"
-msgstr "字體："
+msgstr "字型："
 
 #. i18n: ectx: property (text), widget (QLabel, lblFont)
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:68
@@ -37400,8 +37381,7 @@ msgstr "傾斜選項"
 msgid ""
 "<html><head/><body><p>Use the tilt of the tablet to determine the normals.</"
 "p></body></html>"
-msgstr ""
-"<html><head/><body><p>使用數位板的壓感筆傾斜度決定法線。</p></body></html>"
+msgstr "<html><head/><body><p>使用數位板的壓感筆傾斜度決定法線。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, optionTilt)
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:226
@@ -37703,7 +37683,7 @@ msgstr "移除作者"
 
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:349
 msgid "Use font"
-msgstr "使用字體"
+msgstr "使用字型"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBoldKeyword)
 #. i18n: ectx: property (text), widget (QCheckBox, chkBoldElement)
@@ -39399,7 +39379,7 @@ msgstr "語法高亮："
 
 #: plugins/python/scripter/ui_scripter/actions/settingsaction/settingsdialog.py:32
 msgid "Fonts:"
-msgstr "字體："
+msgstr "字型："
 
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:28
 msgid "Scope"
@@ -39981,8 +39961,7 @@ msgstr "顯示引導線"
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
 "+Drag will force you to draw straight lines"
-msgstr ""
-"Alt + 拖曳可移動目前顯示線條的基點，Shift + 拖曳將強制在特殊角度上繪製直線"
+msgstr "Alt + 拖曳可移動目前顯示線條的基點，Shift + 拖曳將強制在特殊角度上繪製直線"
 
 #: plugins/tools/basictools/kis_tool_line.h:116
 #, kde-format
@@ -40117,8 +40096,7 @@ msgstr ""
 msgid ""
 "<nobr>Determines whether the color picker will sample</nobr> colors from all "
 "visible layers or only the currently selected layer."
-msgstr ""
-"<nobr>控制拾色器將</nobr>拾取全部可見圖層的顏色還是只拾取目前選取圖層的顏色。"
+msgstr "<nobr>控制拾色器將</nobr>拾取全部可見圖層的顏色還是只拾取目前選取圖層的顏色。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSources)
 #: plugins/tools/basictools/wdgcolorpicker.ui:78
@@ -40173,8 +40151,7 @@ msgstr ""
 msgid ""
 "<nobr>Checking this box will add a new color swatch</nobr> to a palette each "
 "time you pick a color."
-msgstr ""
-"<nobr>勾選後，每次拾取顏色時將其作為一個新的色塊</nobr> 新增到調色板中。"
+msgstr "<nobr>勾選後，每次拾取顏色時將其作為一個新的色塊</nobr> 新增到調色板中。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbPalette)
 #: plugins/tools/basictools/wdgcolorpicker.ui:217
@@ -41529,7 +41506,7 @@ msgstr "相似顏色選取區域工具"
 #: plugins/tools/svgtexttool/kis_font_family_combo_box.cpp:203
 #, kde-format
 msgid "Font Style"
-msgstr "字體樣式"
+msgstr "字型樣式"
 
 #: plugins/tools/svgtexttool/SvgTextChangeCommand.cpp:41
 msgctxt "(qtundo-format)"
@@ -41661,21 +41638,21 @@ msgstr "背景"
 #, kde-format
 msgctxt "action"
 msgid "Font Size"
-msgstr "字體大小"
+msgstr "字型大小"
 
 #. i18n: context: Action (svg_font), Actions (Text Tool), ActionCollection (SVG Tools)
 #: plugins/tools/svgtexttool/SvgTextTool.action:48
 #, kde-format
 msgctxt "action"
 msgid "Change character size, font, boldface, italics etc."
-msgstr "變更字元大小、字體、粗體、斜體等。"
+msgstr "變更字元大小、字型、粗體、斜體等。"
 
 #. i18n: context: Action (svg_font), Actions (Text Tool), ActionCollection (SVG Tools)
 #: plugins/tools/svgtexttool/SvgTextTool.action:53
 #, kde-format
 msgctxt "action"
 msgid "Font..."
-msgstr "字體…"
+msgstr "字型…"
 
 #. i18n: context: Action (svg_insert_special_character), Actions (Text Tool), ActionCollection (SVG Tools)
 #: plugins/tools/svgtexttool/SvgTextTool.action:58
@@ -41722,7 +41699,7 @@ msgstr "居中對齊"
 #, kde-format
 msgctxt "action"
 msgid "Decrease Font Size"
-msgstr "縮小字體"
+msgstr "縮小字型"
 
 #. i18n: context: Action (svg_increase_font_size), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: Action (svg_increase_font_size), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -41733,7 +41710,7 @@ msgstr "縮小字體"
 #, kde-format
 msgctxt "action"
 msgid "Increase Font Size"
-msgstr "增大字體"
+msgstr "增大字型"
 
 #. i18n: context: Action (svg_format_subscript), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: Action (svg_format_subscript), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -41929,7 +41906,7 @@ msgstr "粗細(&W)"
 #: plugins/tools/svgtexttool/svgtexttool.xmlgui:79
 #, kde-format
 msgid "Font Settings"
-msgstr "字體設定"
+msgstr "字型設定"
 
 #: plugins/tools/svgtexttool/SvgTextToolFactory.cpp:32
 #, kde-format
@@ -42018,7 +41995,7 @@ msgstr "編輯器背景顏色："
 #: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:256
 #, kde-format
 msgid "Fonts"
-msgstr "字體"
+msgstr "字型"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:262
@@ -42028,7 +42005,7 @@ msgid ""
 "fonts of? No writing system selected will have all fonts shown.</p></body></"
 "html>"
 msgstr ""
-"<html><head/><body><p>選擇要顯示哪些書寫系統的字體。如未選擇將顯示全部字體。"
+"<html><head/><body><p>選擇要顯示哪些書寫系統的字型。如未選擇將顯示全部字型。"
 "</p></body></html>"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgToolCrop)
@@ -42214,8 +42191,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "The mask will try to remove parts of the key strokes that are placed outside "
 "the closed contours. 0% - no effect, 100% - max effect"
-msgstr ""
-"遮罩將嘗試移除位於閉合輪廓外側部分的關鍵筆畫。0% - 無效果，100% - 最大效果"
+msgstr "遮罩將嘗試移除位於閉合輪廓外側部分的關鍵筆畫。0% - 無效果，100% - 最大效果"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAutoUpdates)
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:19

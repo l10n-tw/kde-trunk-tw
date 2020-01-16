@@ -1,12 +1,12 @@
 #
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012.
-# pan93412 <pan93412@gmail.com>, 2019.
+# pan93412 <pan93412@gmail.com>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: kile\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-31 02:43+0100\n"
-"PO-Revision-Date: 2019-05-14 22:35+0800\n"
+"PO-Revision-Date: 2020-01-16 14:40+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.04.1\n"
+"X-Generator: Lokalize 19.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -137,8 +137,7 @@ msgstr "來源特別切換"
 msgid ""
 "Supported, use the 'Modern' configuration for (La)TeX to auto-enable inverse "
 "and forward search capabilities."
-msgstr ""
-"支援，用「現代」的 (La)TeX 與 PDF(La)TeX 設定來自動開啟往前或往後搜尋功能。"
+msgstr "支援，用「現代」的 (La)TeX 與 PDF(La)TeX 設定來自動開啟往前或往後搜尋功能。"
 
 #: configtester.cpp:528
 #, kde-format
@@ -161,8 +160,7 @@ msgstr "文稿支援"
 msgid ""
 "Supported, use the 'Modern' configuration for PDFLaTeX and XeLaTeX to auto-"
 "enable inverse and forward search capabilities."
-msgstr ""
-"支援，用「現代」的 (La)TeX 與 PDF(La)TeX 設定來自動開啟往前或往後搜尋功能。"
+msgstr "支援，用「現代」的 (La)TeX 與 PDF(La)TeX 設定來自動開啟往前或往後搜尋功能。"
 
 #: configtester.cpp:555
 #, fuzzy, kde-format
@@ -274,8 +272,7 @@ msgstr "選擇目前工具的設定"
 #| "auto-enable inverse and forward search capabilities."
 msgid ""
 "Use the 'modern' configuration for the PDFLaTeX, LuaLaTeX and XeLaTeX tools"
-msgstr ""
-"支援，用「現代」的 (La)TeX 與 PDF(La)TeX 設定來自動開啟往前或往後搜尋功能。"
+msgstr "支援，用「現代」的 (La)TeX 與 PDF(La)TeX 設定來自動開啟往前或往後搜尋功能。"
 
 #: dialogs/configcheckerdialog.cpp:153
 #, kde-format
@@ -2976,8 +2973,7 @@ msgstr "檔名（相對於專案檔）(&N)："
 msgid ""
 "If you want Kile to create a new file and add it to the project, then check "
 "this option and select a template from the list that will appear below."
-msgstr ""
-"若您要建立一個新檔案並加入專案中，請勾選此選項並從下方的清單中選取一個樣本。"
+msgstr "若您要建立一個新檔案並加入專案中，請勾選此選項並從下方的清單中選取一個樣本。"
 
 #: dialogs/projectdialogs.cpp:337
 #, kde-format
@@ -3038,8 +3034,7 @@ msgstr "未指定檔案名稱"
 #| "The project file already exists, please select another name. Delete the "
 #| "existing project file if your intention was to overwrite it."
 msgid "The project file exists already. Please choose another name."
-msgstr ""
-"專案檔案已存在，請選擇其它名稱。若您要用相同名稱，請先將現有的專案檔刪除。"
+msgstr "專案檔案已存在，請選擇其它名稱。若您要用相同名稱，請先將現有的專案檔刪除。"
 
 #: dialogs/projectdialogs.cpp:373 dialogs/projectdialogs.cpp:379
 #, kde-format
@@ -3053,8 +3048,7 @@ msgstr "專案檔案已存在"
 #| "existing project file if your intention was to overwrite it."
 msgid ""
 "The GUI settings file exists already. Please choose another project name."
-msgstr ""
-"專案檔案已存在，請選擇其它名稱。若您要用相同名稱，請先將現有的專案檔刪除。"
+msgstr "專案檔案已存在，請選擇其它名稱。若您要用相同名稱，請先將現有的專案檔刪除。"
 
 #: dialogs/projectdialogs.cpp:394
 #, kde-format
@@ -3479,17 +3473,17 @@ msgstr "不特別處理單行標題"
 #: dialogs/quickdocumentdialog.cpp:703
 #, kde-format
 msgid "Normal great title font sizes"
-msgstr "正常大標題字體大小"
+msgstr "正常大標題字型大小"
 
 #: dialogs/quickdocumentdialog.cpp:704
 #, kde-format
 msgid "Small font sizes for titles"
-msgstr "小的標題字體大小"
+msgstr "小的標題字型大小"
 
 #: dialogs/quickdocumentdialog.cpp:705
 #, kde-format
 msgid "Even smaller font sizes for titles"
-msgstr "更小的標題字體大小"
+msgstr "更小的標題字型大小"
 
 #: dialogs/quickdocumentdialog.cpp:706
 #, kde-format
@@ -3714,32 +3708,32 @@ msgstr "不載入 amsthm 與 amsmath 巨集套件"
 #: dialogs/quickdocumentdialog.cpp:770
 #, kde-format
 msgid "Needed when using the CJK package for Asian fonts"
-msgstr "必要時使用 CJK 套件來排版亞洲字體"
+msgstr "必要時使用 CJK 套件來排版亞洲字型"
 
 #: dialogs/quickdocumentdialog.cpp:771
 #, kde-format
 msgid "Use a sans-serif font during the presentation"
-msgstr "簡報時使用無襯線字體"
+msgstr "簡報時使用無襯線字型"
 
 #: dialogs/quickdocumentdialog.cpp:772
 #, kde-format
 msgid "Use a serif font during the presentation"
-msgstr "簡報時使用襯線字體"
+msgstr "簡報時使用襯線字型"
 
 #: dialogs/quickdocumentdialog.cpp:773
 #, kde-format
 msgid "Override the math font to be a sans-serif font"
-msgstr "覆蓋數學字體為無襯線字體"
+msgstr "覆蓋數學字型為無襯線字型"
 
 #: dialogs/quickdocumentdialog.cpp:774
 #, kde-format
 msgid "Override the math font to be a serif font"
-msgstr "覆蓋數學字體為襯線字體"
+msgstr "覆蓋數學字型為襯線字型"
 
 #: dialogs/quickdocumentdialog.cpp:775
 #, kde-format
 msgid "Deactivate internal font replacements for math text"
-msgstr "停用數學文字的內部字體替換"
+msgstr "停用數學文字的內部字型替換"
 
 #: dialogs/quickdocumentdialog.cpp:776
 #, kde-format
@@ -3894,12 +3888,12 @@ msgstr "PDF 標題區文字"
 #: dialogs/quickdocumentdialog.cpp:1056
 #, kde-format
 msgid "Use Palatino font as roman font (both text and math mode)"
-msgstr "使用 Palatino 字體作為 roman 字體(文字和數學模式)"
+msgstr "使用 Palatino 字型作為 roman 字型(文字和數學模式)"
 
 #: dialogs/quickdocumentdialog.cpp:1057
 #, kde-format
 msgid "Use Times font as roman font (both text and math mode)"
-msgstr "使用 Times 字體作為 roman 字體(文本和數學模式)"
+msgstr "使用 Times 字型作為 roman 字型(文本和數學模式)"
 
 #: dialogs/quickdocumentdialog.cpp:1058
 #, kde-format
@@ -3944,7 +3938,7 @@ msgstr "增加語言指定支援"
 #: dialogs/quickdocumentdialog.cpp:1133
 #, kde-format
 msgid "Use a font encoding scheme"
-msgstr "使用字體編碼機制"
+msgstr "使用字型編碼機制"
 
 #: dialogs/quickdocumentdialog.cpp:1163
 #, kde-format
@@ -4423,8 +4417,7 @@ msgstr "插入圓點"
 msgid ""
 "Input data. Enter text when a cell is selected. When return is pressed, the "
 "adjacent cell will become selected."
-msgstr ""
-"輸入資料。選擇一個儲存格然後輸入文字。按下 Enter 時，會自動選取相鄰的儲存格。"
+msgstr "輸入資料。選擇一個儲存格然後輸入文字。按下 Enter 時，會自動選取相鄰的儲存格。"
 
 #: dialogs/tabular/newtabulardialog.cpp:175
 #, kde-format
@@ -7264,8 +7257,7 @@ msgstr "無法從專案移除檔案"
 msgid ""
 "<p>The project \"%1\" is already open.</p><p>If you wanted to reload the "
 "project, close the project before you re-open it.</p>"
-msgstr ""
-"您試圖開啟的專案已經開啟。如果您要重新載入專案，請先關閉專案然後再開啟。"
+msgstr "您試圖開啟的專案已經開啟。如果您要重新載入專案，請先關閉專案然後再開啟。"
 
 #: kiledocmanager.cpp:1529
 #, kde-format
@@ -7554,8 +7546,7 @@ msgstr "所有檔案"
 msgid ""
 "Could not find the LaTeX documentation at %1; please set the correct path in "
 "Settings->Configure Kile->Help."
-msgstr ""
-"抱歉，在 %1 找不到 teTeX 文件；請在設定->設定 Kile->説明中設定正確的路徑。"
+msgstr "抱歉，在 %1 找不到 teTeX 文件；請在設定->設定 Kile->説明中設定正確的路徑。"
 
 #: kilehelp.cpp:166
 #, kde-format

@@ -8,13 +8,13 @@
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2009, 2010.
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
 # Franklin Weng <franklin@mail.everfocus.com.tw>, 2008, 2013, 2014, 2015.
-# pan93412 <pan93412@gmail.com>, 2018, 2019.
+# pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-07 03:34+0100\n"
-"PO-Revision-Date: 2019-01-19 19:51+0800\n"
+"PO-Revision-Date: 2020-01-16 14:40+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "dot tw>\n"
-"X-Generator: Lokalize 18.12.1\n"
+"X-Generator: Lokalize 19.12.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -400,12 +400,12 @@ msgstr "豐富文字樣式(&R)"
 #: configdialog/knoteeditorconfigwidget.cpp:55
 #, kde-format
 msgid "Text font:"
-msgstr "內文字體"
+msgstr "內文字型"
 
 #: configdialog/knoteeditorconfigwidget.cpp:64
 #, kde-format
 msgid "Title font:"
-msgstr "標題字體"
+msgstr "標題字型"
 
 #: configdialog/knotesimpleconfigdialog.cpp:54
 #, kde-format
@@ -564,7 +564,7 @@ msgstr "文字背景顏色..."
 #: knoteedit.cpp:147
 #, kde-format
 msgid "Text Font"
-msgstr "文字字體"
+msgstr "文字字型"
 
 #: knoteedit.cpp:151
 #, kde-format
@@ -783,8 +783,7 @@ msgstr "另存新檔"
 msgid ""
 "<qt>A file named <b>%1</b> already exists.<br />Are you sure you want to "
 "overwrite it?</qt>"
-msgstr ""
-"<qt>已經有一個叫做<b>%1</b>的檔案。<br />您確定要覆蓋掉這個檔案嗎?</qt>"
+msgstr "<qt>已經有一個叫做<b>%1</b>的檔案。<br />您確定要覆蓋掉這個檔案嗎?</qt>"
 
 #: kontactplugin/knotes_plugin.cpp:62
 #, kde-format
