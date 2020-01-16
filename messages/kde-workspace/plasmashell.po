@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-14 03:42+0100\n"
+"POT-Creation-Date: 2020-01-16 03:43+0100\n"
 "PO-Revision-Date: 2020-01-16 00:11+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -34,61 +34,66 @@ msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
 msgid "Configure Mouse Actions Plugin"
 msgstr "設定滑鼠動作外掛程式"
 
-#: main.cpp:82
+#: main.cpp:85
 #, kde-format
 msgid "Plasma"
 msgstr "Plasma"
 
-#: main.cpp:84
+#: main.cpp:87
 #, kde-format
 msgid "Plasma Shell"
 msgstr "Plasma Shell"
 
-#: main.cpp:101
+#: main.cpp:104
 #, kde-format
 msgid "Enable QML Javascript debugger"
 msgstr "開啟 QML Javascript 除錯器"
 
-#: main.cpp:105
+#: main.cpp:108
 #, kde-format
 msgid "Do not restart plasma-shell automatically after a crash"
 msgstr "崩潰後不要自動啟動 plasma-shell"
 
-#: main.cpp:108
+#: main.cpp:111
 #, kde-format
 msgid "Force loading the given shell plugin"
 msgstr "強制載入指定的 shell 外掛程式"
 
-#: main.cpp:112
+#: main.cpp:115
 #, kde-format
 msgid ""
 "Load plasmashell as a standalone application, needs the shell-plugin option "
 "to be specified"
 msgstr "以獨立的應用程式來載入 plasmashell，需要指定 shell 外掛程式的選項"
 
-#: main.cpp:115
+#: main.cpp:118
 #, kde-format
 msgid "Replace an existing instance"
 msgstr "取代一個存在的事例"
 
-#: main.cpp:118
+#: main.cpp:121
 #, kde-format
 msgid ""
 "Enables test mode and specifies the layout javascript file to set up the "
 "testing environment"
 msgstr "啟用測試模式並指定 Javascript 檔案的佈局以設定測試環境"
 
-#: main.cpp:118
+#: main.cpp:121
 #, kde-format
 msgid "file"
 msgstr "檔案"
 
-#: main.cpp:197
+#: main.cpp:126
+#, kde-format
+msgid "Lists the available options for user feedback"
+msgstr ""
+
+#: main.cpp:216
 #, kde-format
 msgid "Plasma Failed To Start"
 msgstr "Plasma 無法啟動"
 
-#: main.cpp:198
+#: main.cpp:217
 #, kde-format
 msgid ""
 "Plasma is unable to start as it could not correctly use OpenGL 2 or software "
@@ -180,54 +185,52 @@ msgctxt ""
 msgid "On-Screen Keyboard Deactivated"
 msgstr "螢幕上的虛擬鍵盤關閉"
 
-#: shellcorona.cpp:170 shellcorona.cpp:172
+#: shellcorona.cpp:173 shellcorona.cpp:175
 #, kde-format
 msgid "Show Desktop"
 msgstr "顯示桌面"
 
-#: shellcorona.cpp:172
+#: shellcorona.cpp:175
 #, kde-format
 msgid "Hide Desktop"
 msgstr "隱藏桌面"
 
-#: shellcorona.cpp:190
+#: shellcorona.cpp:193
 #, kde-format
 msgid "Activities..."
 msgstr "活動..."
 
-#: shellcorona.cpp:202
+#: shellcorona.cpp:205
 #, kde-format
 msgid "Stop Current Activity"
 msgstr "停止目前的活動"
 
-#: shellcorona.cpp:211
+#: shellcorona.cpp:214
 #, kde-format
-#| msgid "Stop Current Activity"
 msgid "Switch to Previous Activity"
 msgstr "切至上個活動"
 
-#: shellcorona.cpp:220
+#: shellcorona.cpp:223
 #, kde-format
-#| msgid "Stop Current Activity"
 msgid "Switch to Next Activity"
 msgstr "切至下個活動"
 
-#: shellcorona.cpp:236
+#: shellcorona.cpp:239
 #, kde-format
 msgid "Activate Task Manager Entry %1"
 msgstr "啟用工作管理員項目 %1"
 
-#: shellcorona.cpp:1459
+#: shellcorona.cpp:1462
 #, kde-format
 msgid "Unable to load script file: %1"
 msgstr "無法載入文稿檔：%1"
 
-#: shellcorona.cpp:1829 shellcorona.cpp:1835
+#: shellcorona.cpp:1832 shellcorona.cpp:1838
 #, kde-format
 msgid "Add Panel"
 msgstr "新增面板"
 
-#: shellcorona.cpp:1877
+#: shellcorona.cpp:1880
 #, kde-format
 msgid "Empty %1"
 msgstr "空的 %1"

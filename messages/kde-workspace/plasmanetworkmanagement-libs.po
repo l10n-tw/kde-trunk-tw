@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-06 03:39+0100\n"
+"POT-Creation-Date: 2020-01-16 03:42+0100\n"
 "PO-Revision-Date: 2019-12-25 18:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -2403,52 +2403,58 @@ msgctxt "Remove a selected row"
 msgid "R&emove"
 msgstr "移除(&E)"
 
-#: handler.cpp:127
+#: handler.cpp:137
 #, kde-format
 msgid "Missing VPN plugin"
 msgstr "遺失 VPN 外掛程式"
 
-#: handler.cpp:607
+#: handler.cpp:756
 #, kde-format
 msgid "Failed to activate %1"
 msgstr "啟動 %1 失敗"
 
-#: handler.cpp:611
+#: handler.cpp:760
 #, kde-format
 msgid "Failed to add %1"
 msgstr "新增 %1 失敗"
 
-#: handler.cpp:615
+#: handler.cpp:764
 #, kde-format
 msgid "Failed to add connection %1"
 msgstr "新增連線 %1 失敗"
 
-#: handler.cpp:619
+#: handler.cpp:768
 #, kde-format
 msgid "Failed to deactivate %1"
 msgstr "中止 %1 失敗"
 
-#: handler.cpp:623
+#: handler.cpp:772
 #, kde-format
 msgid "Failed to remove %1"
 msgstr "移除 %1 失敗"
 
-#: handler.cpp:627
+#: handler.cpp:776
 #, kde-format
 msgid "Failed to update connection %1"
 msgstr "更新連線 %1 失敗"
 
-#: handler.cpp:653
+#: handler.cpp:787
+#, fuzzy, kde-format
+#| msgid "Failed to activate %1"
+msgid "Failed to create hotspot %1"
+msgstr "啟動 %1 失敗"
+
+#: handler.cpp:806
 #, kde-format
 msgid "Connection %1 has been added"
 msgstr "連線 %1 已被新增"
 
-#: handler.cpp:657
+#: handler.cpp:810
 #, kde-format
 msgid "Connection %1 has been removed"
 msgstr "連線 %1 已被移除"
 
-#: handler.cpp:661
+#: handler.cpp:814
 #, kde-format
 msgid "Connection %1 has been updated"
 msgstr "連線 %1 已被更新"

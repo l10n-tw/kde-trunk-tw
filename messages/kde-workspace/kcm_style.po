@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-20 03:36+0100\n"
+"POT-Creation-Date: 2020-01-16 03:41+0100\n"
 "PO-Revision-Date: 2019-10-19 15:14+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -32,37 +32,52 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "paladin@ms1.hinet.net,kenduest@i18n.linux.org.tw, s8321414@gmail.com"
 
-#: kcmstyle.cpp:89
+#: gtkpage.cpp:86
+#, kde-format
+msgid "Download New GNOME/GTK2 Application Styles"
+msgstr ""
+
+#: gtkpage.cpp:96
+#, kde-format
+msgid "Download New GNOME/GTK3 Application Styles"
+msgstr ""
+
+#: gtkpage.cpp:118
+#, kde-format
+msgid "%1 is not a valid GTK Theme archive."
+msgstr ""
+
+#: kcmstyle.cpp:92
 #, kde-format
 msgid "Application Style"
 msgstr "應用程式樣式"
 
-#: kcmstyle.cpp:91
+#: kcmstyle.cpp:94
 #, kde-format
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin, (c) 2019 Kai Uwe Broulik"
 msgstr "(c) 2002 Karol Szwed, Daniel Molkentin, (c) 2019 Kai Uwe Broulik"
 
-#: kcmstyle.cpp:93
+#: kcmstyle.cpp:96
 #, kde-format
 msgid "Karol Szwed"
 msgstr "Karol Szwed"
 
-#: kcmstyle.cpp:94
+#: kcmstyle.cpp:97
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: kcmstyle.cpp:95
+#: kcmstyle.cpp:98
 #, kde-format
 msgid "Kai Uwe Broulik"
 msgstr "Kai Uwe Broulik"
 
-#: kcmstyle.cpp:172 kcmstyle.cpp:179
+#: kcmstyle.cpp:181 kcmstyle.cpp:188
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "載入此風格的組態對話盒時發生錯誤。"
 
-#: kcmstyle.cpp:255
+#: kcmstyle.cpp:283
 #, kde-format
 msgid "Failed to apply selected style '%1'."
 msgstr "無法套用選取的「%1」樣式。"
@@ -112,6 +127,60 @@ msgstr "在圖示下顯示"
 msgid "Secondary toolbar label:"
 msgstr "第二工具列標籤："
 
+#: package/contents/ui/GtkStylePage.qml:31
+#, fuzzy, kde-format
+#| msgid "Application Style"
+msgid "GNOME/GTK Application Style"
+msgstr "應用程式樣式"
+
+#: package/contents/ui/GtkStylePage.qml:57
+#, kde-format
+msgid "GTK2 theme:"
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:89
+#: package/contents/ui/GtkStylePage.qml:128
+#, fuzzy, kde-format
+#| msgid "Preview"
+msgid "Preview..."
+msgstr "預視"
+
+#: package/contents/ui/GtkStylePage.qml:96
+#, kde-format
+msgid "GTK3 theme:"
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:148
+#, kde-format
+msgid "Install from File..."
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:154
+#, fuzzy, kde-format
+#| msgid "Application Style"
+msgid "Get New GNOME/GTK Application Styles..."
+msgstr "應用程式樣式"
+
+#: package/contents/ui/GtkStylePage.qml:162
+#, kde-format
+msgid "Get New GNOME/GTK2 Application Styles..."
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:170
+#, kde-format
+msgid "Get New GNOME/GTK3 Application Styles..."
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:185
+#, kde-format
+msgid "Select GTK Theme Archive"
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:187
+#, kde-format
+msgid "GTK Theme Archive (*.tar.xz *.tar.gz *.tar.bz2)"
+msgstr ""
+
 #: package/contents/ui/main.qml:31
 #, kde-format
 msgid ""
@@ -119,15 +188,21 @@ msgid ""
 "interface elements."
 msgstr "此模組讓您能修改應用程式中使用者介面元件的視覺外觀。"
 
-#: package/contents/ui/main.qml:103
+#: package/contents/ui/main.qml:107
 #, kde-format
 msgid "Configure Style..."
 msgstr "設定樣式…"
 
-#: package/contents/ui/main.qml:119
+#: package/contents/ui/main.qml:124
 #, kde-format
 msgid "Configure Icons and Toolbars"
 msgstr "設定圖示及工具列"
+
+#: package/contents/ui/main.qml:137
+#, fuzzy, kde-format
+#| msgid "Configure Style..."
+msgid "Configure GNOME/GTK Application Style..."
+msgstr "設定樣式…"
 
 #: styleconfdialog.cpp:33
 #, kde-format
@@ -170,9 +245,6 @@ msgstr "選項按鈕"
 #, kde-format
 msgid "Tab 2"
 msgstr "分頁 2"
-
-#~ msgid "Preview"
-#~ msgstr "預視"
 
 #~ msgid "Unable to Load Dialog"
 #~ msgstr "無法載入對話盒"

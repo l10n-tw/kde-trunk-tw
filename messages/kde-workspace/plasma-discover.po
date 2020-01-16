@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-14 03:38+0100\n"
+"POT-Creation-Date: 2020-01-16 03:38+0100\n"
 "PO-Revision-Date: 2020-01-05 15:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -86,54 +86,60 @@ msgstr "列出所有可用的後端介面。"
 msgid "Search string."
 msgstr "搜尋字串。"
 
-#: discover/main.cpp:56
+#: discover/main.cpp:55
+#, fuzzy, kde-format
+#| msgid "We are looking for your feedback!"
+msgid "Lists the available options for user feedback"
+msgstr "我們正在等待你的回應！"
+
+#: discover/main.cpp:57
 #, kde-format
 msgid "Supports appstream: url scheme"
 msgstr "支援 appstream：網址機制"
 
-#: discover/main.cpp:100 discover/qml/DiscoverWindow.qml:57
+#: discover/main.cpp:101 discover/qml/DiscoverWindow.qml:58
 #, kde-format
 msgid "Discover"
 msgstr "探詢"
 
-#: discover/main.cpp:100
+#: discover/main.cpp:101
 #, kde-format
 msgid "An application explorer"
 msgstr "應用程式探詢器"
 
-#: discover/main.cpp:101
+#: discover/main.cpp:102
 #, kde-format
 msgid "© 2010-2019 Plasma Development Team"
 msgstr "© 2010-2019 Plasma 開發團隊"
 
-#: discover/main.cpp:102
+#: discover/main.cpp:103
 #, kde-format
 msgid "Aleix Pol Gonzalez"
 msgstr "Aleix Pol Gonzalez"
 
-#: discover/main.cpp:103
+#: discover/main.cpp:104
 #, kde-format
 msgid "Jonathan Thomas"
 msgstr "Jonathan Thomas"
 
-#: discover/main.cpp:108
+#: discover/main.cpp:109
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "pan93412"
 
-#: discover/main.cpp:109
+#: discover/main.cpp:110
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "pan93412@gmail.com"
 
-#: discover/main.cpp:121
+#: discover/main.cpp:122
 #, kde-format
 msgid "Available backends:\n"
 msgstr "可用的後端介面：\n"
 
-#: discover/main.cpp:157
+#: discover/main.cpp:158
 #, kde-format
 msgid "Available modes:\n"
 msgstr "可用的模式：\n"
@@ -168,7 +174,7 @@ msgstr "增加一個新的 %1 軟體庫"
 msgid "Add"
 msgstr "新增"
 
-#: discover/qml/AddSourceDialog.qml:86 discover/qml/DiscoverWindow.qml:243
+#: discover/qml/AddSourceDialog.qml:86 discover/qml/DiscoverWindow.qml:244
 #: discover/qml/InstallApplicationButton.qml:33
 #: discover/qml/SourcesPage.qml:137 discover/qml/UpdatesPage.qml:104
 #, kde-format
@@ -361,73 +367,73 @@ msgstr "回到「特色應用程式」頁面"
 msgid "Running as <em>root</em> is discouraged and unnecessary."
 msgstr "以 <em>root</em> 身份執行是不被鼓勵且不需要的。"
 
-#: discover/qml/DiscoverWindow.qml:66
+#: discover/qml/DiscoverWindow.qml:67
 #, kde-format
 msgid "Search"
 msgstr "搜尋"
 
-#: discover/qml/DiscoverWindow.qml:74 discover/qml/InstalledPage.qml:16
+#: discover/qml/DiscoverWindow.qml:75 discover/qml/InstalledPage.qml:16
 #, kde-format
 msgid "Installed"
 msgstr "已安裝"
 
-#: discover/qml/DiscoverWindow.qml:81
+#: discover/qml/DiscoverWindow.qml:82
 #, kde-format
 msgid "Fetching Updates..."
 msgstr "抓取更新中…"
 
-#: discover/qml/DiscoverWindow.qml:81
+#: discover/qml/DiscoverWindow.qml:82
 #, kde-format
 msgid "Up to Date"
 msgstr "更新至最新"
 
-#: discover/qml/DiscoverWindow.qml:81
+#: discover/qml/DiscoverWindow.qml:82
 #, kde-format
 msgctxt "Update section name"
 msgid "Update (%1)"
 msgstr "更新 (%1)"
 
-#: discover/qml/DiscoverWindow.qml:88
+#: discover/qml/DiscoverWindow.qml:89
 #, kde-format
 msgid "About"
 msgstr "關於"
 
-#: discover/qml/DiscoverWindow.qml:95 discover/qml/SourcesPage.qml:12
+#: discover/qml/DiscoverWindow.qml:96 discover/qml/SourcesPage.qml:12
 #, kde-format
 msgid "Settings"
 msgstr "設定"
 
-#: discover/qml/DiscoverWindow.qml:135
+#: discover/qml/DiscoverWindow.qml:136
 #, kde-format
 msgid "Sorry..."
 msgstr "抱歉 ..."
 
-#: discover/qml/DiscoverWindow.qml:138
+#: discover/qml/DiscoverWindow.qml:139
 #, kde-format
 msgid "Could not close Discover, there are tasks that need to be done."
 msgstr "無法關閉 Discover，仍有需要完成的作業。"
 
-#: discover/qml/DiscoverWindow.qml:138
+#: discover/qml/DiscoverWindow.qml:139
 #, kde-format
 msgid "Quit Anyway"
 msgstr "仍然關閉"
 
-#: discover/qml/DiscoverWindow.qml:140
+#: discover/qml/DiscoverWindow.qml:141
 #, kde-format
 msgid "Unable to find resource: %1"
 msgstr "找不到資源：%1"
 
-#: discover/qml/DiscoverWindow.qml:225
+#: discover/qml/DiscoverWindow.qml:226
 #, kde-format
 msgid "Show all"
 msgstr "全部顯示"
 
-#: discover/qml/DiscoverWindow.qml:225
+#: discover/qml/DiscoverWindow.qml:226
 #, kde-format
 msgid "Hide"
 msgstr "隱藏"
 
-#: discover/qml/DiscoverWindow.qml:231 discover/qml/SourcesPage.qml:127
+#: discover/qml/DiscoverWindow.qml:232 discover/qml/SourcesPage.qml:127
 #, kde-format
 msgid "Proceed"
 msgstr "繼續"

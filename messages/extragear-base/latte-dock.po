@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-15 02:38+0100\n"
+"POT-Creation-Date: 2020-01-16 02:37+0100\n"
 "PO-Revision-Date: 2020-01-15 23:53+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -243,73 +243,73 @@ msgstr "正在切換到佈局 <b>%0</b> ..."
 msgid "Activating layout: <b>%0</b> ..."
 msgstr "正在啟用佈局：<b>%0</b> ..."
 
-#: app/main.cpp:101
+#: app/main.cpp:99
 #, kde-format
 msgctxt "command line"
 msgid "Replace the current Latte instance."
 msgstr "取代目前的 Latte 實體。"
 
-#: app/main.cpp:102
+#: app/main.cpp:100
 #, kde-format
 msgctxt "command line"
 msgid "Show the debugging messages on stdout."
 msgstr "在 stdout 顯示除錯資訊。"
 
-#: app/main.cpp:103
+#: app/main.cpp:101
 #, kde-format
 msgctxt "command line"
 msgid "Clear qml cache. It can be useful after system upgrades."
 msgstr "清除 qml 快取。它在系統升級後可能非常有用。"
 
-#: app/main.cpp:104
+#: app/main.cpp:102
 #, kde-format
 msgctxt "command line"
 msgid "Import and load default layout on startup."
 msgstr "在啟動時匯入並載入預設佈局。"
 
-#: app/main.cpp:105
+#: app/main.cpp:103
 #, kde-format
 msgctxt "command line"
 msgid "Print available layouts"
 msgstr "印出可用的佈局"
 
-#: app/main.cpp:106
+#: app/main.cpp:104
 #, kde-format
 msgctxt "command line"
 msgid "Load specific layout on startup."
 msgstr "在啟動時載入特定佈局。"
 
-#: app/main.cpp:106
+#: app/main.cpp:104
 #, kde-format
 msgctxt "command line: load"
 msgid "layout_name"
 msgstr "佈局名稱(&N)"
 
-#: app/main.cpp:107
+#: app/main.cpp:105
 #, kde-format
 msgctxt "command line"
 msgid "Import and load a layout."
 msgstr "匯入並載入佈局。"
 
-#: app/main.cpp:107 app/main.cpp:108
+#: app/main.cpp:105 app/main.cpp:106
 #, kde-format
 msgctxt "command line: import"
 msgid "file_name"
 msgstr "檔案名稱"
 
-#: app/main.cpp:108
+#: app/main.cpp:106
 #, kde-format
 msgctxt "command line"
 msgid "Import full configuration."
 msgstr "匯入完整設定。"
 
-#: app/main.cpp:109
+#: app/main.cpp:107
 #, kde-format
 msgctxt "command line"
 msgid "Single layout memory mode. Only one layout is active at any case."
 msgstr "單一佈局記憶模式。無論如何都僅有一種佈局在作用中。"
 
-#: app/main.cpp:110
+#: app/main.cpp:108
 #, kde-format
 msgctxt "command line"
 msgid ""
@@ -317,38 +317,38 @@ msgid ""
 "based on Activities running."
 msgstr "多重佈局記憶模式。基於執行的活動可以同時有多種佈局作用中。"
 
-#: app/main.cpp:157
+#: app/main.cpp:155
 #, kde-format
 msgid "Available layouts that can be used to start Latte:"
 msgstr "可用於啟動 Latte 的佈局："
 
-#: app/main.cpp:163
+#: app/main.cpp:161
 #, kde-format
 msgid "There are no available layouts, during startup Default will be used."
 msgstr "沒有可用的佈局，啟動時將會使用預設值。"
 
-#: app/main.cpp:181
+#: app/main.cpp:179
 #, kde-format
 msgctxt "layout missing"
 msgid "This layout doesn't exist in the system."
 msgstr "此佈局在系統中不存在。"
 
-#: app/main.cpp:207
+#: app/main.cpp:205
 #, kde-format
 msgid "An instance is already running!, use --replace to restart Latte"
 msgstr "已有執行中的實體！使用 --replace 重新啟動 Latte"
 
-#: app/main.cpp:227
+#: app/main.cpp:225
 #, kde-format
 msgid "The configuration cannot be imported"
 msgstr "設定無法匯入"
 
-#: app/main.cpp:238
+#: app/main.cpp:236
 #, kde-format
 msgid "The layout cannot be imported"
 msgstr "無法匯入佈局"
 
-#: app/main.cpp:293
+#: app/main.cpp:291
 #, kde-format
 msgid ""
 "Latte is a dock based on plasma frameworks that provides an elegant and "
@@ -746,7 +746,8 @@ msgstr ""
 msgid ""
 "There are layouts with the same name, that is not permitted!!! Please update "
 "these names to re-apply the changes..."
-msgstr "有一些相同名稱的佈局，這是不被允許的！！！請更新它們的名稱以重新套用變更..."
+msgstr ""
+"有一些相同名稱的佈局，這是不被允許的！！！請更新它們的名稱以重新套用變更..."
 
 #: app/settings/settingsdialog.cpp:1602
 #, kde-format
@@ -1813,7 +1814,8 @@ msgstr "➊ 透過全域快捷鍵啟用以位置為基礎"
 msgid ""
 "This view is used for based on position global shortcuts. Take note that "
 "only one view can have that option enabled for each layout"
-msgstr "此檢視用於以位置為基礎的全域快捷鍵。注意僅有一個檢視可以為每個佈局啟用選項"
+msgstr ""
+"此檢視用於以位置為基礎的全域快捷鍵。注意僅有一個檢視可以為每個佈局啟用選項"
 
 #: shell/package/contents/configuration/pages/BehaviorConfig.qml:742
 #, kde-format

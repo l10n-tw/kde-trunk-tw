@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplatoui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-09 02:34+0100\n"
+"POT-Creation-Date: 2020-01-16 02:36+0100\n"
 "PO-Revision-Date: 2011-12-26 08:35+0800\n"
 "Last-Translator: Franklin Weng <franklin@mail.everfocus.com.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@lists.linux.org.tw>\n"
@@ -33,7 +33,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "資源名稱"
 
-#: kernel/KPlatoXmlLoaderBase.cpp:1083 kernel/kptdocuments.cpp:291
+#: kernel/KPlatoXmlLoaderBase.cpp:1067 kernel/kptdocuments.cpp:291
 #, kde-format
 msgid "Document loaded, URL=%1"
 msgstr "文件已載入，網址：%1"
@@ -222,13 +222,13 @@ msgid "Scheduling error"
 msgstr "排程錯誤"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, risk)
-#: kernel/kptnode.cpp:154 kernel/kptnode.cpp:1658 kernel/kpttask.cpp:3827
+#: kernel/kptnode.cpp:154 kernel/kptnode.cpp:1658 kernel/kpttask.cpp:3801
 #: models/kptcalendarmodel.cpp:429 models/kptcalendarmodel.cpp:449
 #: models/kptnodeitemmodel.cpp:417 models/kptnodeitemmodel.cpp:433
 #: models/kptnodeitemmodel.cpp:443 models/kptnodeitemmodel.cpp:656
 #: models/kptnodeitemmodel.cpp:673 models/kptnodeitemmodel.cpp:691
 #: models/kptnodeitemmodel.cpp:709 models/kptnodeitemmodel.cpp:744
-#: models/kptnodeitemmodel.cpp:761 models/kptresourceallocationmodel.cpp:849
+#: models/kptnodeitemmodel.cpp:761 models/kptresourceallocationmodel.cpp:527
 #: models/kptschedulemodel.cpp:618 models/kpttreecombobox.cpp:123
 #: models/ResourceModel.cpp:200 models/ResourceModel.cpp:232
 #: models/ResourceModel.cpp:353 models/ResourceModel.cpp:357
@@ -527,7 +527,7 @@ msgstr "將工作往後安排"
 msgid "Finished scheduling backward: %1 ms"
 msgstr "延遲完成已計算：%1"
 
-#: kernel/kptproject.cpp:3137
+#: kernel/kptproject.cpp:3119
 #, kde-format
 msgid "Plan"
 msgstr "計畫"
@@ -550,12 +550,12 @@ msgstr "完成-完成"
 msgid "Start-Start"
 msgstr "開始-開始"
 
-#: kernel/kptresourcerequest.cpp:1209
+#: kernel/kptresourcerequest.cpp:857
 #, kde-format
 msgid "Could not match effort. Want: %1 got: %2"
 msgstr "無法符合負擔。需要：%1，取得：%2"
 
-#: kernel/kptresourcerequest.cpp:1212
+#: kernel/kptresourcerequest.cpp:860
 #, kde-format
 msgid "Resource %1 available from %2 to %3"
 msgstr "資源 %1 在 %2 到 %3 間可取得"
@@ -595,144 +595,144 @@ msgstr "已設基線"
 msgid "Scheduling"
 msgstr "排程"
 
-#: kernel/kpttask.cpp:1158
+#: kernel/kpttask.cpp:1132
 #, kde-format
 msgid "Calculate early finish "
 msgstr "計算提早完成"
 
-#: kernel/kpttask.cpp:1196 kernel/kpttask.cpp:1214 kernel/kpttask.cpp:1231
-#: kernel/kpttask.cpp:1254 kernel/kpttask.cpp:1280 kernel/kpttask.cpp:1287
-#: kernel/kpttask.cpp:1297 kernel/kpttask.cpp:1466 kernel/kpttask.cpp:1489
-#: kernel/kpttask.cpp:1504 kernel/kpttask.cpp:1527 kernel/kpttask.cpp:1536
-#: kernel/kpttask.cpp:1545 kernel/kpttask.cpp:1553
+#: kernel/kpttask.cpp:1170 kernel/kpttask.cpp:1188 kernel/kpttask.cpp:1205
+#: kernel/kpttask.cpp:1228 kernel/kpttask.cpp:1254 kernel/kpttask.cpp:1261
+#: kernel/kpttask.cpp:1271 kernel/kpttask.cpp:1440 kernel/kpttask.cpp:1463
+#: kernel/kpttask.cpp:1478 kernel/kpttask.cpp:1501 kernel/kpttask.cpp:1510
+#: kernel/kpttask.cpp:1519 kernel/kpttask.cpp:1527
 #, kde-format
 msgctxt "1=type of constraint"
 msgid "%1: Failed to meet constraint"
 msgstr "%1：無法符合限制"
 
-#: kernel/kpttask.cpp:1325 kernel/kpttask.cpp:1574 kernel/kpttask.cpp:1982
-#: kernel/kpttask.cpp:2344
+#: kernel/kpttask.cpp:1299 kernel/kpttask.cpp:1548 kernel/kpttask.cpp:1956
+#: kernel/kpttask.cpp:2318
 #, kde-format
 msgid "Resource %1 booked from %2 to %3"
 msgstr "資源 %1 從 %2 到 %3 被預約"
 
-#: kernel/kpttask.cpp:1331
+#: kernel/kpttask.cpp:1305
 #, kde-format
 msgid "Early finish calculated: %1"
 msgstr "提早完成已計算：%1"
 
-#: kernel/kpttask.cpp:1428
+#: kernel/kpttask.cpp:1402
 #, kde-format
 msgid "Calculate late start"
 msgstr "計算延遲開始"
 
-#: kernel/kpttask.cpp:1580
+#: kernel/kpttask.cpp:1554
 #, kde-format
 msgid "Late start calculated: %1"
 msgstr "延遲開始已計算：%1"
 
-#: kernel/kpttask.cpp:1674
+#: kernel/kpttask.cpp:1648
 #, fuzzy, kde-format
 #| msgid "Schedule project forward from: %1"
 msgid "Start schedule forward: %1 "
 msgstr "行程專案往前自：%1"
 
-#: kernel/kpttask.cpp:1676
+#: kernel/kpttask.cpp:1650
 #, kde-format
 msgid "Schedule from start %1"
 msgstr "排程起始：%1"
 
-#: kernel/kpttask.cpp:1712 kernel/kpttask.cpp:1990 kernel/kpttask.cpp:2352
+#: kernel/kpttask.cpp:1686 kernel/kpttask.cpp:1964 kernel/kpttask.cpp:2326
 #, kde-format
 msgid "Scheduled: %1 to %2"
 msgstr "已排程：%1 到 %2"
 
-#: kernel/kpttask.cpp:1744
+#: kernel/kpttask.cpp:1718
 #, kde-format
 msgid "%1: Scheduling failed using late finish, trying early finish instead."
 msgstr "%1：排程延遲完成失敗。請試著改用提早完成。"
 
-#: kernel/kpttask.cpp:1779 kernel/kpttask.cpp:1803 kernel/kpttask.cpp:1829
-#: kernel/kpttask.cpp:1853 kernel/kpttask.cpp:1871 kernel/kpttask.cpp:1930
-#: kernel/kpttask.cpp:1947 kernel/kpttask.cpp:1959 kernel/kpttask.cpp:2165
-#: kernel/kpttask.cpp:2184 kernel/kpttask.cpp:2206 kernel/kpttask.cpp:2222
-#: kernel/kpttask.cpp:2241 kernel/kpttask.cpp:2293 kernel/kpttask.cpp:2306
-#: kernel/kpttask.cpp:2323
+#: kernel/kpttask.cpp:1753 kernel/kpttask.cpp:1777 kernel/kpttask.cpp:1803
+#: kernel/kpttask.cpp:1827 kernel/kpttask.cpp:1845 kernel/kpttask.cpp:1904
+#: kernel/kpttask.cpp:1921 kernel/kpttask.cpp:1933 kernel/kpttask.cpp:2139
+#: kernel/kpttask.cpp:2158 kernel/kpttask.cpp:2180 kernel/kpttask.cpp:2196
+#: kernel/kpttask.cpp:2215 kernel/kpttask.cpp:2267 kernel/kpttask.cpp:2280
+#: kernel/kpttask.cpp:2297
 #, kde-format
 msgctxt "1=type of constraint"
 msgid "%1: Failed to meet constraint. Negative float=%2"
 msgstr "%1：無法符合限制。負浮動=%2"
 
-#: kernel/kpttask.cpp:1891 kernel/kpttask.cpp:2259
+#: kernel/kpttask.cpp:1865 kernel/kpttask.cpp:2233
 #, kde-format
 msgid "Effort not met. Estimate: %1, planned: %2"
 msgstr "未達到負擔。估計：%1，計劃：%2"
 
-#: kernel/kpttask.cpp:1979 kernel/kpttask.cpp:2341
+#: kernel/kpttask.cpp:1953 kernel/kpttask.cpp:2315
 #, kde-format
 msgid "Failed to schedule within project target time"
 msgstr "無法排程於專案目標時間。"
 
-#: kernel/kpttask.cpp:1985 kernel/kpttask.cpp:2347
+#: kernel/kpttask.cpp:1959 kernel/kpttask.cpp:2321
 #, kde-format
 msgid "Starting earlier than early start"
 msgstr "開始時間比預計的提早開始還早"
 
-#: kernel/kpttask.cpp:1988 kernel/kpttask.cpp:2350
+#: kernel/kpttask.cpp:1962 kernel/kpttask.cpp:2324
 #, kde-format
 msgid "Finishing later than late finish"
 msgstr "完成時間比預計的延遲完成還晚"
 
-#: kernel/kpttask.cpp:1994
+#: kernel/kpttask.cpp:1968
 #, fuzzy, kde-format
 #| msgid "Late finish calculated: %1"
 msgid "Finished schedule forward: %1 ms"
 msgstr "延遲完成已計算：%1"
 
-#: kernel/kpttask.cpp:2084
+#: kernel/kpttask.cpp:2058
 #, kde-format
 msgid "Schedule from end time: %1"
 msgstr "自結束時間排程：%1"
 
-#: kernel/kpttask.cpp:2108
+#: kernel/kpttask.cpp:2082
 #, kde-format
 msgctxt "1=type of constraint"
 msgid "%1: Failed to schedule within late finish."
 msgstr "%1：無法排程延遲完成。"
 
-#: kernel/kpttask.cpp:2114
+#: kernel/kpttask.cpp:2088
 #, kde-format
 msgctxt "1=type of constraint"
 msgid "%1: Failed to schedule within successors start time"
 msgstr "%1：無法排程於起始時間之後"
 
-#: kernel/kpttask.cpp:2141 kernel/kpttask.cpp:2267
+#: kernel/kpttask.cpp:2115 kernel/kpttask.cpp:2241
 #, kde-format
 msgctxt "1=type of constraint"
 msgid "%1: Failed to schedule after early start."
 msgstr "%1：無法排程於提早開始之後。"
 
-#: kernel/kpttask.cpp:2419
+#: kernel/kpttask.cpp:2393
 #, kde-format
 msgid "No resource has been allocated"
 msgstr "尚未配置任何資源"
 
-#: kernel/kpttask.cpp:2580
+#: kernel/kpttask.cpp:2554
 #, kde-format
 msgid "Could not match work duration. Want: %1 got: %2"
 msgstr "無法符合工作期間。需要：%1，取得：%2"
 
-#: kernel/kpttask.cpp:3830
+#: kernel/kpttask.cpp:3804
 #, kde-format
 msgid "Send"
 msgstr "送出"
 
-#: kernel/kpttask.cpp:3833
+#: kernel/kpttask.cpp:3807
 #, kde-format
 msgid "Receive"
 msgstr "接收"
 
-#: kernel/kpttask.cpp:3836
+#: kernel/kpttask.cpp:3810
 #, fuzzy, kde-format
 #| msgid "Project end"
 msgid "Rejected"
@@ -809,15 +809,13 @@ msgid "Resource %1 not available in interval: %2 to %3"
 msgstr "資源 %1 在間隔：%2 到 %3 內無法取得"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, type)
-#: kernel/ResourceGroup.cpp:137 ui/kptresourceassignmentview.cpp:81
-#: ui/resourcedialogbase.ui:175
+#: kernel/ResourceGroup.cpp:134 ui/resourcedialogbase.ui:175
 #, kde-format
 msgid "Work"
 msgstr "工作"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, type)
-#: kernel/ResourceGroup.cpp:138 ui/kptresourceassignmentview.cpp:85
-#: ui/resourcedialogbase.ui:180
+#: kernel/ResourceGroup.cpp:135 ui/resourcedialogbase.ui:180
 #, kde-format
 msgid "Material"
 msgstr "材料"
@@ -1566,48 +1564,93 @@ msgctxt "@title:column"
 msgid "Allocation"
 msgstr "配置"
 
-#: models/AllocatedResourceItemModel.cpp:171
-#: models/kptresourceallocationmodel.cpp:163
-#: models/kptresourceallocationmodel.cpp:221
-#: models/kptresourceallocationmodel.cpp:691
+#: models/AllocatedResourceItemModel.cpp:170
+#: models/kptresourceallocationmodel.cpp:120
+#: models/kptresourceallocationmodel.cpp:153
+#: models/kptresourceallocationmodel.cpp:465
 #, no-c-format, kde-format
 msgctxt "<value>%"
 msgid "%1%"
 msgstr "%1%"
 
-#: models/AllocatedResourceItemModel.cpp:175
-#: models/kptresourceallocationmodel.cpp:170
-#: models/kptresourceallocationmodel.cpp:697
+#: models/AllocatedResourceItemModel.cpp:174
+#: models/kptresourceallocationmodel.cpp:127
+#: models/kptresourceallocationmodel.cpp:471
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Not allocated"
 msgstr "未配置"
 
-#: models/AllocatedResourceItemModel.cpp:177
-#: models/kptresourceallocationmodel.cpp:699
-#, kde-kuit-format
-msgctxt "@info:tooltip"
-msgid "%1 allocated out of %2 available"
-msgstr "已配置 %1 個，有 %2 個可用"
+#: models/GroupAllocationItemModel.cpp:144
+#, kde-format
+msgid "There is %1 resource available in this group"
+msgid_plural "There are %1 resources available in this group"
+msgstr[0] "在此群組中有 %1 個資源可用"
 
-#: models/AllocatedResourceItemModel.cpp:197
-#: models/kptresourceallocationmodel.cpp:737
+#: models/GroupAllocationItemModel.cpp:184 models/kptaccountsmodel.cpp:125
+#: models/kptaccountsmodel.cpp:1067 models/kptdocumentmodel.cpp:200
+#: models/kptresourceallocationmodel.cpp:220
+#: models/kptresourceappointmentsmodel.cpp:741
+#: models/kptresourceappointmentsmodel.cpp:756
+#: models/kptresourceappointmentsmodel.cpp:1245 models/kptschedulemodel.cpp:990
+#: models/kptschedulemodel.cpp:1313
+#: models/reportgenerator/ReportGeneratorOdt.cpp:191
+#: models/ResourceGroupModel.cpp:206 models/ResourceModel.cpp:410
+#: ui/projectview/ProjectView.cpp:53
+#: ui/reportsgenerator/ReportsGeneratorView.cpp:225
+#, kde-format
+msgid "Name"
+msgstr "名稱"
+
+#: models/GroupAllocationItemModel.cpp:185 models/kptdocumentmodel.cpp:201
+#: models/kptrelationmodel.cpp:138 models/kptresourceallocationmodel.cpp:221
+#: models/kptresourceappointmentsmodel.cpp:1246
+#: models/ResourceGroupModel.cpp:208 models/ResourceModel.cpp:412
+#, kde-format
+msgid "Type"
+msgstr "類型"
+
+#: models/GroupAllocationItemModel.cpp:186
+#: models/kptresourceallocationmodel.cpp:222
+#, kde-format
+msgid "Allocation"
+msgstr "配置"
+
+#: models/GroupAllocationItemModel.cpp:187
+#: models/kptresourceallocationmodel.cpp:223
+#, kde-kuit-format
+msgctxt "@title:column"
+msgid "Available"
+msgstr "可用"
+
+#: models/GroupAllocationItemModel.cpp:199
+#: models/kptresourceallocationmodel.cpp:236
+#, kde-format
+msgid "Resource allocation"
+msgstr "資源配置"
+
+#: models/GroupAllocationItemModel.cpp:200
+#: models/kptresourceallocationmodel.cpp:237
+#, kde-kuit-format
+msgctxt "@info:tootip"
+msgid "Available resources or resource units"
+msgstr "可用的資源或資源單位"
+
+#: models/GroupAllocationItemModel.cpp:475
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "%1 resource requested for dynamic allocation"
 msgid_plural "%1 resources requested for dynamic allocation"
 msgstr[0] ""
 
-#: models/AllocatedResourceItemModel.cpp:201
-#: models/kptresourceallocationmodel.cpp:741
+#: models/GroupAllocationItemModel.cpp:479
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "%1 resource allocated"
 msgid_plural "%1 resources allocated"
 msgstr[0] "%1 個資源已配置"
 
-#: models/AllocatedResourceItemModel.cpp:205
-#: models/kptresourceallocationmodel.cpp:745
+#: models/GroupAllocationItemModel.cpp:483
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:tooltip"
 #| msgid "%1: %2<nl/>%3: %4"
@@ -1615,8 +1658,7 @@ msgctxt "@info:tooltip"
 msgid "%1<nl/>%2"
 msgstr "%1: %2<nl/>%3: %4"
 
-#: models/AllocatedResourceItemModel.cpp:209
-#: models/kptresourceallocationmodel.cpp:749
+#: models/GroupAllocationItemModel.cpp:487
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1625,6 +1667,19 @@ msgid ""
 "the time of scheduling.</para> These dynamically allocated resources will be "
 "in addition to any resource you have allocated specifically."
 msgstr ""
+
+#: models/GroupAllocationItemModel.cpp:526
+#, kde-format
+msgctxt "1: free resources, 2: number of resources"
+msgid "%1 of %2"
+msgstr "%1 / %2"
+
+#: models/GroupAllocationItemModel.cpp:529
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "There is %1 resource available in this group"
+msgid_plural "There are %1 resources available in this group"
+msgstr[0] "在此群組中有 %1 個資源可用"
 
 #: models/kcalendar/kdatepicker.cpp:201
 #, kde-format
@@ -1676,21 +1731,6 @@ msgstr "選取目前的日期"
 msgctxt "1=account name"
 msgid "%1 (Default account)"
 msgstr "%1（預設帳號）"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, m_resList)
-#: models/kptaccountsmodel.cpp:125 models/kptaccountsmodel.cpp:1067
-#: models/kptdocumentmodel.cpp:200 models/kptresourceallocationmodel.cpp:331
-#: models/kptresourceappointmentsmodel.cpp:741
-#: models/kptresourceappointmentsmodel.cpp:756
-#: models/kptresourceappointmentsmodel.cpp:1245 models/kptschedulemodel.cpp:990
-#: models/kptschedulemodel.cpp:1313
-#: models/reportgenerator/ReportGeneratorOdt.cpp:191
-#: models/ResourceGroupModel.cpp:206 models/ResourceModel.cpp:410
-#: ui/kptresourceassignmentview.ui:21 ui/projectview/ProjectView.cpp:53
-#: ui/reportsgenerator/ReportsGeneratorView.cpp:225
-#, kde-format
-msgid "Name"
-msgstr "名稱"
 
 #. i18n: ectx: attribute (title), widget (QWidget, ui_description)
 #: models/kptaccountsmodel.cpp:126 models/kptaccountsmodel.cpp:1068
@@ -1838,7 +1878,7 @@ msgid "Modify calendar holiday region"
 msgstr "變更行事曆日期"
 
 #: models/kptcalendarmodel.cpp:542 models/kptnodeitemmodel.cpp:2290
-#: models/kptnodeitemmodel.cpp:5244
+#: models/kptnodeitemmodel.cpp:5145
 #, kde-kuit-format
 msgctxt "@title:column"
 msgid "Name"
@@ -2690,16 +2730,6 @@ msgstr "移除文件"
 msgid "Url"
 msgstr "網址"
 
-#. i18n: ectx: property (text), widget (QTreeWidget, m_resList)
-#: models/kptdocumentmodel.cpp:201 models/kptrelationmodel.cpp:138
-#: models/kptresourceallocationmodel.cpp:332
-#: models/kptresourceappointmentsmodel.cpp:1246
-#: models/ResourceGroupModel.cpp:208 models/ResourceModel.cpp:412
-#: ui/kptresourceassignmentview.ui:26
-#, kde-format
-msgid "Type"
-msgstr "類型"
-
 #: models/kptdocumentmodel.cpp:202
 #, kde-format
 msgid "Send As"
@@ -3162,8 +3192,7 @@ msgstr "提早完成"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. i18n: ectx: property (text), widget (QCheckBox, finished)
 #: models/kptnodeitemmodel.cpp:1346 models/kpttaskstatusmodel.cpp:61
-#: ui/kptmilestoneprogresspanelbase.ui:23 ui/kptresourceassignmentview.cpp:256
-#: ui/kptresourceassignmentview.cpp:334 ui/kptworkpackagemergepanel.ui:156
+#: ui/kptmilestoneprogresspanelbase.ui:23 ui/kptworkpackagemergepanel.ui:156
 #, kde-format
 msgid "Finished"
 msgstr "已完成"
@@ -3192,8 +3221,7 @@ msgid "Started early"
 msgstr "提早開始"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: models/kptnodeitemmodel.cpp:1364 ui/kptresourceassignmentview.cpp:255
-#: ui/kptresourceassignmentview.cpp:333 ui/kptworkpackagemergepanel.ui:133
+#: models/kptnodeitemmodel.cpp:1364 ui/kptworkpackagemergepanel.ui:133
 #, kde-format
 msgid "Started"
 msgstr "已開始"
@@ -3985,47 +4013,39 @@ msgctxt "(qtundo-format)"
 msgid "Modify actual finish time"
 msgstr "變更實際完成時間"
 
-#: models/kptnodeitemmodel.cpp:3565 models/kptnodeitemmodel.cpp:3573
-#: models/kptnodeitemmodel.cpp:3613 models/kptnodeitemmodel.cpp:3616
-#: models/kptnodeitemmodel.cpp:3633 models/kptnodeitemmodel.cpp:3636
-#: ui/reports/reportdata.cpp:482
-#, kde-format
-msgid "Resources"
-msgstr "資源"
-
-#: models/kptnodeitemmodel.cpp:3668
+#: models/kptnodeitemmodel.cpp:3600
 #, fuzzy
 #| msgid "Resource allocation"
 msgctxt "(qtundo-format)"
 msgid "Add resource allocation"
 msgstr "資源配置"
 
-#: models/kptnodeitemmodel.cpp:3670
+#: models/kptnodeitemmodel.cpp:3602
 #, fuzzy
 #| msgid "Resource allocation"
 msgctxt "(qtundo-format)"
 msgid "Removed resource allocation"
 msgstr "資源配置"
 
-#: models/kptnodeitemmodel.cpp:3693 models/kpttaskstatusmodel.cpp:402
+#: models/kptnodeitemmodel.cpp:3625 models/kpttaskstatusmodel.cpp:402
 #, no-c-format
 msgctxt "(qtundo-format)"
 msgid "Modify completion"
 msgstr "變更完成度"
 
-#: models/kptnodeitemmodel.cpp:3722 models/kpttaskstatusmodel.cpp:431
+#: models/kptnodeitemmodel.cpp:3654 models/kpttaskstatusmodel.cpp:431
 msgctxt "(qtundo-format)"
 msgid "Set finished"
 msgstr "設為已完成"
 
-#: models/kptnodeitemmodel.cpp:4091
+#: models/kptnodeitemmodel.cpp:4023
 #, fuzzy
 #| msgid "Per task"
 msgctxt "(qtundo-format)"
 msgid "Insert tasks"
 msgstr "每個工作"
 
-#: models/kptnodeitemmodel.cpp:4116
+#: models/kptnodeitemmodel.cpp:4048
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:tooltip"
 #| msgid "Task notes"
@@ -4033,37 +4053,37 @@ msgctxt "@title:window"
 msgid "Task Module Parameters"
 msgstr "工作備忘"
 
-#: models/kptnodeitemmodel.cpp:4122
+#: models/kptnodeitemmodel.cpp:4054
 #, fuzzy
 #| msgid "Per task"
 msgctxt "(qtundo-format)"
 msgid "Insert task module"
 msgstr "每個工作"
 
-#: models/kptnodeitemmodel.cpp:4180
+#: models/kptnodeitemmodel.cpp:4112
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Insert %1"
 msgstr ""
 
-#: models/kptnodeitemmodel.cpp:4187 ui/kptrequestresourcespanel.cpp:66
-#: ui/kptrequestresourcespanel.cpp:136 ui/ResourceAllocationView.cpp:159
+#: models/kptnodeitemmodel.cpp:4119 ui/kptrequestresourcespanel.cpp:71
+#: ui/ResourceAllocationView.cpp:152
 msgctxt "(qtundo-format)"
 msgid "Modify resource allocations"
 msgstr "變更資源配置"
 
-#: models/kptnodeitemmodel.cpp:4260 models/kptnodeitemmodel.cpp:5056
+#: models/kptnodeitemmodel.cpp:4175 models/kptnodeitemmodel.cpp:4957
 msgctxt "(qtundo-format)"
 msgid "Move tasks"
 msgstr "移動工作"
 
-#: models/kptnodeitemmodel.cpp:4328 ui/kpttaskdialog.cpp:178
+#: models/kptnodeitemmodel.cpp:4243 ui/kpttaskdialog.cpp:178
 #: ui/kpttaskdialog.cpp:215
 msgctxt "(qtundo-format)"
 msgid "Add task"
 msgstr "新增工作"
 
-#: models/kptnodeitemmodel.cpp:4357 ui/kpttaskdialog.cpp:213
+#: models/kptnodeitemmodel.cpp:4258 ui/kpttaskdialog.cpp:213
 msgctxt "(qtundo-format)"
 msgid "Add sub-task"
 msgstr "新增子工作"
@@ -4111,18 +4131,18 @@ msgctxt "(qtundo-format)"
 msgid "Modify relation time lag"
 msgstr "變更關係時間延遲"
 
-#: models/kptresourceallocationmodel.cpp:173
+#: models/kptresourceallocationmodel.cpp:130
 #, no-c-format, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Allocated units: %1%"
 msgstr "已配置單位：%1%"
 
-#: models/kptresourceallocationmodel.cpp:226
+#: models/kptresourceallocationmodel.cpp:158
 #, no-c-format, kde-format
 msgid "Maximum units available: %1%"
 msgstr "可用的最大單位：%1%"
 
-#: models/kptresourceallocationmodel.cpp:255
+#: models/kptresourceallocationmodel.cpp:187
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4134,48 +4154,20 @@ msgid ""
 "para>"
 msgstr ""
 
-#: models/kptresourceallocationmodel.cpp:272
-#, kde-format
-msgid "There is %1 resource available in this group"
-msgid_plural "There are %1 resources available in this group"
-msgstr[0] "在此群組中有 %1 個資源可用"
-
-#: models/kptresourceallocationmodel.cpp:333
-#, kde-format
-msgid "Allocation"
-msgstr "配置"
-
-#: models/kptresourceallocationmodel.cpp:334
-#, kde-kuit-format
-msgctxt "@title:column"
-msgid "Available"
-msgstr "可用"
-
-#: models/kptresourceallocationmodel.cpp:335
+#: models/kptresourceallocationmodel.cpp:224
 #, kde-kuit-format
 msgctxt "@title:column"
 msgid "Required Resources"
 msgstr "需要的資源"
 
-#: models/kptresourceallocationmodel.cpp:347
-#, kde-format
-msgid "Resource allocation"
-msgstr "資源配置"
-
-#: models/kptresourceallocationmodel.cpp:348
-#, kde-kuit-format
-msgctxt "@info:tootip"
-msgid "Available resources or resource units"
-msgstr "可用的資源或資源單位"
-
-#: models/kptresourceallocationmodel.cpp:349
+#: models/kptresourceallocationmodel.cpp:238
 #, fuzzy, kde-kuit-format
 #| msgid "Required resources:"
 msgctxt "@info:tootip"
 msgid "Required material resources"
 msgstr "需要的資源："
 
-#: models/kptresourceallocationmodel.cpp:355
+#: models/kptresourceallocationmodel.cpp:244
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4186,20 +4178,13 @@ msgid ""
 "resource must be part of a group of type Material.</para>"
 msgstr ""
 
-#: models/kptresourceallocationmodel.cpp:821
-#, kde-format
-msgctxt "1: free resources, 2: number of resources"
-msgid "%1 of %2"
-msgstr "%1 / %2"
-
-#: models/kptresourceallocationmodel.cpp:824
+#: models/kptresourceallocationmodel.cpp:473
 #, kde-kuit-format
 msgctxt "@info:tooltip"
-msgid "There is %1 resource available in this group"
-msgid_plural "There are %1 resources available in this group"
-msgstr[0] "在此群組中有 %1 個資源可用"
+msgid "%1 allocated out of %2 available"
+msgstr "已配置 %1 個，有 %2 個可用"
 
-#: models/kptresourceallocationmodel.cpp:858
+#: models/kptresourceallocationmodel.cpp:536
 #, fuzzy, kde-kuit-format
 #| msgctxt "(qtundo-format)"
 #| msgid "Modify resource available from"
@@ -4207,19 +4192,19 @@ msgctxt "@info:tooltip"
 msgid "No material resources available"
 msgstr "變更資源可用開始時間"
 
-#: models/kptresourceallocationmodel.cpp:866
+#: models/kptresourceallocationmodel.cpp:544
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "No required resources"
 msgstr "沒有需要的資源"
 
-#: models/kptresourceallocationmodel.cpp:869
+#: models/kptresourceallocationmodel.cpp:547
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Material resources cannot have required resources"
 msgstr "重要資源不能有必須資源"
 
-#: models/kptresourceallocationmodel.cpp:871
+#: models/kptresourceallocationmodel.cpp:549
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Team resources cannot have required resources"
@@ -4627,8 +4612,7 @@ msgstr "階段"
 msgid "Severity"
 msgstr "嚴重度"
 
-#: models/kpttaskstatusmodel.cpp:53 ui/kptresourceassignmentview.cpp:254
-#: ui/kptresourceassignmentview.cpp:332
+#: models/kpttaskstatusmodel.cpp:53
 #, kde-format
 msgid "Not Started"
 msgstr "未開始"
@@ -5387,6 +5371,14 @@ msgstr ""
 #, kde-format
 msgid "Calligra Storage"
 msgstr ""
+
+#: ui/GroupAllocationPanel.cpp:66 ui/GroupAllocationPanel.cpp:95
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Modify resource allocations"
+msgctxt "(qtundo-format)"
+msgid "Modify resourcegroup allocation"
+msgstr "變更資源配置"
 
 #: ui/kptaccountseditor.cpp:60 ui/kptaccountsviewconfigdialog.cpp:45
 #: ui/kptdependencyeditor.cpp:1970
@@ -6687,9 +6679,7 @@ msgid "Remove task dependency"
 msgstr "移除工作相依性"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, taskList)
-#. i18n: ectx: property (text), widget (QTreeWidget, m_taskList)
-#: ui/kptperteditor.ui:20 ui/kptresourceassignmentview.ui:33
-#: ui/reports/reportdata.cpp:383
+#: ui/kptperteditor.ui:20 ui/reports/reportdata.cpp:383
 #, kde-format
 msgid "Tasks"
 msgstr "工作"
@@ -6838,22 +6828,6 @@ msgid ""
 "resource - task assignments.</para><para>This view supports configuration "
 "and printing using the context menu.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
-
-#: ui/kptresourceassignmentview.cpp:242
-#, kde-format
-msgid "No task attributed"
-msgstr "沒有工作屬性"
-
-#: ui/kptresourceassignmentview.cpp:321
-#, kde-format
-msgid "No resource attributed"
-msgstr "沒有資源屬性"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, m_taskList)
-#: ui/kptresourceassignmentview.ui:38
-#, kde-format
-msgid "Advance"
-msgstr "進階"
 
 #: ui/kptresourcedialog.cpp:66
 #, kde-kuit-format
@@ -7569,7 +7543,7 @@ msgctxt "(qtundo-format)"
 msgid "Modify Task Progress"
 msgstr "變更工作進度"
 
-#: ui/kpttaskprogresspanel.cpp:110
+#: ui/kpttaskprogresspanel.cpp:108
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:tooltip"
 #| msgid "Shows if the task is finished"
@@ -7577,24 +7551,24 @@ msgctxt "@info:tooltip"
 msgid "Select the tasks finish time"
 msgstr "顯示是否此工作已完成"
 
-#: ui/kpttaskprogresspanel.cpp:111
+#: ui/kpttaskprogresspanel.cpp:109
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Finish the task at the selected time"
 msgstr ""
 
-#: ui/kpttaskprogresspanel.cpp:126
+#: ui/kpttaskprogresspanel.cpp:124
 msgctxt "(qtundo-format)"
 msgid "Modify task completion"
 msgstr "變更工作完成度"
 
-#: ui/kpttaskprogresspanel.cpp:414 ui/kpttaskprogresspanel.cpp:429
+#: ui/kpttaskprogresspanel.cpp:412 ui/kpttaskprogresspanel.cpp:427
 #, kde-format
 msgctxt "Week number (year)"
 msgid "Week %1 (%2)"
 msgstr "第 %1 週（%2）"
 
-#: ui/kpttaskprogresspanel.cpp:420 ui/kpttaskprogresspanel.cpp:427
+#: ui/kpttaskprogresspanel.cpp:418 ui/kpttaskprogresspanel.cpp:425
 #, kde-format
 msgctxt "Week number"
 msgid "Week %1"
@@ -8385,6 +8359,11 @@ msgstr "相依型態"
 #, kde-format
 msgid "Task status"
 msgstr "工作狀態"
+
+#: ui/reports/reportdata.cpp:482
+#, kde-format
+msgid "Resources"
+msgstr "資源"
 
 #: ui/reports/reportdata.cpp:533
 #, kde-format
@@ -9732,6 +9711,15 @@ msgstr "發布（Distribution）"
 #, kde-format
 msgid "All supported formats"
 msgstr ""
+
+#~ msgid "No task attributed"
+#~ msgstr "沒有工作屬性"
+
+#~ msgid "No resource attributed"
+#~ msgstr "沒有資源屬性"
+
+#~ msgid "Advance"
+#~ msgstr "進階"
 
 #, fuzzy
 #~| msgid "Show Project"

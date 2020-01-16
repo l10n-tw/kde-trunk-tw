@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-10 02:53+0000\n"
+"POT-Creation-Date: 2020-01-16 02:52+0000\n"
 "PO-Revision-Date: 2019-10-26 23:10+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -135,6 +135,14 @@ msgstr "已不再連線到網路"
 msgctxt "Name"
 msgid "Captive portal detected"
 msgstr "偵測到強制入口"
+
+#: kded/networkmanagement.notifyrc:843
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Failed to activate connection"
+msgctxt "Name"
+msgid "Failed to create hotspot"
+msgstr "啟動連線失敗"
 
 #: libs/editor/plasma-networkmanagement-vpnuiplugin.desktop:4
 msgctxt "Name"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-01 03:28+0100\n"
+"POT-Creation-Date: 2020-01-16 03:41+0100\n"
 "PO-Revision-Date: 2019-05-11 14:53+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -28,22 +28,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "franklin@goodhorse.idv.tw"
 
-#: kcm.cpp:49
+#: kcm.cpp:47
 #, kde-format
 msgid "Splash Screen"
 msgstr "啟動畫面"
 
-#: kcm.cpp:51
+#: kcm.cpp:49
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: kcm.cpp:121
+#: kcm.cpp:115
 #, kde-format
 msgid "None"
 msgstr "無"
 
-#: kcm.cpp:123
+#: kcm.cpp:117
 #, kde-format
 msgid "No splash screen will be shown"
 msgstr "將不會顯示任何的啟動畫面"
@@ -64,6 +64,10 @@ msgid "Preview Splash Screen"
 msgstr "預覽啟動畫面"
 
 #: package/contents/ui/main.qml:85
-#, kde-format
-msgid "&Get New Splash Screens..."
-msgstr "取得新啟動畫面(&G)..."
+#, fuzzy, kde-format
+#| msgid "Splash Screen"
+msgid "Splash Screens"
+msgstr "啟動畫面"
+
+#~ msgid "&Get New Splash Screens..."
+#~ msgstr "取得新啟動畫面(&G)..."

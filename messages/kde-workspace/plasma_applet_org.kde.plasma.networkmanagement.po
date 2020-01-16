@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: networkmanagement_openvpnui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-19 03:33+0100\n"
+"POT-Creation-Date: 2020-01-16 03:42+0100\n"
 "PO-Revision-Date: 2019-07-31 16:58+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -93,33 +93,48 @@ msgstr "開啟網路登入頁面…"
 msgid "Password..."
 msgstr "密碼..."
 
-#: contents/ui/Toolbar.qml:71
+#: contents/ui/Toolbar.qml:76
 #, kde-format
 msgid "Enable wireless"
 msgstr "啟用無線網路"
 
-#: contents/ui/Toolbar.qml:85
+#: contents/ui/Toolbar.qml:90
 #, kde-format
 msgid "Enable mobile network"
 msgstr "啟用行動網路"
 
-#: contents/ui/Toolbar.qml:101
+#: contents/ui/Toolbar.qml:106
 #, kde-format
 msgid "Enable airplane mode"
 msgstr "啟用飛航模式"
 
-#: contents/ui/Toolbar.qml:130
+#: contents/ui/Toolbar.qml:142
+#, kde-format
+msgid "Hotspot"
+msgstr ""
+
+#: contents/ui/Toolbar.qml:163 contents/ui/Toolbar.qml:174
+#, kde-format
+msgid "Disable Hotspot"
+msgstr ""
+
+#: contents/ui/Toolbar.qml:168 contents/ui/Toolbar.qml:174
+#, kde-format
+msgid "Create Hotspot"
+msgstr ""
+
+#: contents/ui/Toolbar.qml:188
 #, kde-format
 msgctxt "button tooltip"
 msgid "Search the connections"
 msgstr "搜尋連線"
 
-#: contents/ui/Toolbar.qml:137
+#: contents/ui/Toolbar.qml:202
 #, kde-format
 msgid "Configure network connections..."
 msgstr "設定網路連線..."
 
-#: contents/ui/Toolbar.qml:158
+#: contents/ui/Toolbar.qml:223
 #, kde-format
 msgctxt "text field placeholder text"
 msgid "Search..."

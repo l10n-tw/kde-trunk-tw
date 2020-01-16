@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-08 03:47+0100\n"
+"POT-Creation-Date: 2020-01-16 03:40+0100\n"
 "PO-Revision-Date: 2019-12-12 19:06+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -29,42 +29,42 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
 
-#: kcm.cpp:58
+#: kcm.cpp:59
 #, kde-format
 msgid "Display Configuration"
 msgstr "顯示設定"
 
-#: kcm.cpp:60
+#: kcm.cpp:61
 #, kde-format
 msgid "Manage and configure monitors and displays"
 msgstr "管理及設定顯示器"
 
-#: kcm.cpp:62
+#: kcm.cpp:63
 #, kde-format
 msgid "Copyright © 2019 Roman Gilg"
 msgstr "版權所有 © 2019 Roman Gilg"
 
-#: kcm.cpp:63
+#: kcm.cpp:64
 #, kde-format
 msgid "Roman Gilg"
 msgstr "Roman Gilg"
 
-#: kcm.cpp:64
+#: kcm.cpp:65
 #, kde-format
 msgid "Maintainer"
 msgstr "維護者"
 
-#: output_model.cpp:79
+#: output_model.cpp:85
 #, kde-format
 msgid "%1 Hz"
 msgstr "%1 Hz"
 
-#: output_model.cpp:506
+#: output_model.cpp:553
 #, kde-format
 msgid "None"
 msgstr "無"
 
-#: output_model.cpp:513
+#: output_model.cpp:560
 #, kde-format
 msgid "Replicated by other output"
 msgstr "已被其他輸出複製"
@@ -106,10 +106,25 @@ msgstr "已新增輸出。設定已重新載入。"
 msgid "An output has been removed. Settings have been reloaded."
 msgstr "已移除輸出。設定已重新載入。"
 
-#: package/contents/ui/Orientation.qml:24
+#: package/contents/ui/Orientation.qml:23
 #, kde-format
 msgid "Orientation:"
 msgstr "方向："
+
+#: package/contents/ui/Orientation.qml:37
+#, kde-format
+msgid "Automatic"
+msgstr ""
+
+#: package/contents/ui/Orientation.qml:46
+#, kde-format
+msgid "Only when in tablet mode."
+msgstr ""
+
+#: package/contents/ui/Orientation.qml:55
+#, kde-format
+msgid "Manual"
+msgstr ""
 
 #: package/contents/ui/Output.qml:149
 #, kde-format
