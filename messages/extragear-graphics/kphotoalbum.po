@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kphotoalbum\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-10 02:43+0100\n"
+"POT-Creation-Date: 2020-01-17 02:43+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -271,13 +271,13 @@ msgstr "儲存目前的視窗設定"
 msgid "Reset layout"
 msgstr "重置佈局"
 
-#: AnnotationDialog/Dialog.cpp:873 AnnotationDialog/Dialog.cpp:1260
+#: AnnotationDialog/Dialog.cpp:873 AnnotationDialog/Dialog.cpp:1268
 #: AnnotationDialog/ListSelect.cpp:100
 #, kde-format
 msgid "Sort Alphabetically (Tree)"
 msgstr "依字母排序（樹狀）"
 
-#: AnnotationDialog/Dialog.cpp:877 AnnotationDialog/Dialog.cpp:1264
+#: AnnotationDialog/Dialog.cpp:877 AnnotationDialog/Dialog.cpp:1272
 #: AnnotationDialog/ListSelect.cpp:106
 #, kde-format
 msgid "Sort Alphabetically (Flat)"
@@ -334,7 +334,7 @@ msgid ""
 "recent changes for each affected file?</p>"
 msgstr "<p>有些註記做了變更。您要取消所有最近對被影響檔案的變更嗎？</p>"
 
-#: AnnotationDialog/Dialog.cpp:1132
+#: AnnotationDialog/Dialog.cpp:1140
 #, kde-format
 msgid ""
 "<p>You have just opened the advanced search dialog; to get the most out of "
@@ -350,7 +350,7 @@ msgstr ""
 "\"help:/kphotoalbum/chp-typeingIn.html\">輸入</a>」取得此用法更多的資訊與提"
 "示。</p>"
 
-#: AnnotationDialog/Dialog.cpp:1140
+#: AnnotationDialog/Dialog.cpp:1148
 #, kde-format
 msgid ""
 "<p>You have just opened one of the most important windows in KPhotoAlbum; it "
@@ -362,58 +362,58 @@ msgstr ""
 "功能。</p> <p>強烈建議您花五分鐘時間閱讀一下「<a href=\"help:/kphotoalbum/"
 "chp-typingIn.html\">關於此對話框</a>」的文件說明。</p>"
 
-#: AnnotationDialog/Dialog.cpp:1267
+#: AnnotationDialog/Dialog.cpp:1275
 #, kde-format
 msgid "Sort Most Recently Used"
 msgstr "排序最常使用的"
 
-#: AnnotationDialog/Dialog.cpp:1270
+#: AnnotationDialog/Dialog.cpp:1278
 #, kde-format
 msgid "Toggle Sorting"
 msgstr "切換排序"
 
-#: AnnotationDialog/Dialog.cpp:1275
+#: AnnotationDialog/Dialog.cpp:1283
 #, kde-format
 msgid "Toggle Showing Selected Items Only"
 msgstr "只切換顯示選取的項目"
 
-#: AnnotationDialog/Dialog.cpp:1279
+#: AnnotationDialog/Dialog.cpp:1287
 #, kde-format
 msgid "Annotate Next"
 msgstr "註記下一個"
 
-#: AnnotationDialog/Dialog.cpp:1283
+#: AnnotationDialog/Dialog.cpp:1291
 #, kde-format
 msgid "Annotate Previous"
 msgstr "註記前一個"
 
-#: AnnotationDialog/Dialog.cpp:1287
+#: AnnotationDialog/Dialog.cpp:1295
 #, kde-format
 msgid "OK dialog"
 msgstr "確定對話框"
 
-#: AnnotationDialog/Dialog.cpp:1291 AnnotationDialog/ListSelect.cpp:345
+#: AnnotationDialog/Dialog.cpp:1299 AnnotationDialog/ListSelect.cpp:345
 #: Settings/CategoryPage.cpp:83
 #, kde-format
 msgid "Delete"
 msgstr "刪除"
 
-#: AnnotationDialog/Dialog.cpp:1295
+#: AnnotationDialog/Dialog.cpp:1303
 #, kde-format
 msgid "Copy tags from previous image"
 msgstr "從前一張影像複製標籤"
 
-#: AnnotationDialog/Dialog.cpp:1299 MainWindow/Window.cpp:808
+#: AnnotationDialog/Dialog.cpp:1307 MainWindow/Window.cpp:808
 #, kde-format
 msgid "Rotate counterclockwise"
 msgstr "逆時針方向旋轉"
 
-#: AnnotationDialog/Dialog.cpp:1302 MainWindow/Window.cpp:812
+#: AnnotationDialog/Dialog.cpp:1310 MainWindow/Window.cpp:812
 #, kde-format
 msgid "Rotate clockwise"
 msgstr "順時針方向旋轉"
 
-#: AnnotationDialog/Dialog.cpp:1305
+#: AnnotationDialog/Dialog.cpp:1313
 #, kde-format
 msgid "Toggle fullscreen preview"
 msgstr "切換全螢幕預覽"
@@ -2193,15 +2193,15 @@ msgstr ""
 #. i18n("Folder")), and then start KPA with the C locale, which would produce a
 #. doubled "Folder" category.
 #: ImportExport/ImportDialog.cpp:267 Settings/CategoryPage.cpp:263
-#: ThumbnailView/CellGeometry.cpp:79 ThumbnailView/ThumbnailModel.cpp:359
+#: ThumbnailView/CellGeometry.cpp:75 ThumbnailView/ThumbnailModel.cpp:359
 #: XMLDB/FileReader.cpp:86
 #, kde-format
 msgid "Folder"
 msgstr "資料夾"
 
 #: ImportExport/ImportDialog.cpp:267 Settings/CategoryPage.cpp:265
-#: ThumbnailView/CellGeometry.cpp:79 ThumbnailView/ThumbnailModel.cpp:359
-#: XMLDB/Database.cpp:283 XMLDB/Database.cpp:634 XMLDB/FileReader.cpp:134
+#: ThumbnailView/ThumbnailModel.cpp:359 XMLDB/Database.cpp:283
+#: XMLDB/Database.cpp:634 XMLDB/FileReader.cpp:134
 #, kde-format
 msgid "Media Type"
 msgstr "媒體型態"

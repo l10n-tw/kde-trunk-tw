@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-09 03:07+0100\n"
+"POT-Creation-Date: 2020-01-17 03:36+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -2826,9 +2826,9 @@ msgid ""
 msgstr "此憑證已經被確認過了。"
 
 #: src/crypto/decryptverifytask.cpp:547 src/crypto/decryptverifytask.cpp:569
-#: src/crypto/signencrypttask.cpp:245 src/crypto/signencrypttask.cpp:262
-#: src/crypto/signencrypttask.cpp:579 src/crypto/signencrypttask.cpp:607
-#: src/crypto/signencrypttask.cpp:635
+#: src/crypto/signencrypttask.cpp:242 src/crypto/signencrypttask.cpp:259
+#: src/crypto/signencrypttask.cpp:576 src/crypto/signencrypttask.cpp:604
+#: src/crypto/signencrypttask.cpp:632
 #, kde-format
 msgid "Input error: %1"
 msgstr "輸入錯誤：%1"
@@ -3017,7 +3017,7 @@ msgstr "對 EncryptEMailController::protocolAsString() 的呼叫不明確。"
 msgid "User cancel"
 msgstr "使用者取消"
 
-#: src/crypto/encryptemailtask.cpp:82 src/crypto/signencrypttask.cpp:198
+#: src/crypto/encryptemailtask.cpp:82 src/crypto/signencrypttask.cpp:195
 #, kde-format
 msgid "Encryption canceled."
 msgstr "加密已取消。"
@@ -3027,7 +3027,7 @@ msgstr "加密已取消。"
 msgid "Encryption failed: %1"
 msgstr "加密失敗：%1"
 
-#: src/crypto/encryptemailtask.cpp:89 src/crypto/signencrypttask.cpp:205
+#: src/crypto/encryptemailtask.cpp:89 src/crypto/signencrypttask.cpp:202
 #, kde-format
 msgid "Encryption succeeded."
 msgstr "加密成功。"
@@ -3810,7 +3810,7 @@ msgctxt "@title:window"
 msgid "Error"
 msgstr "錯誤"
 
-#: src/crypto/signemailtask.cpp:86 src/crypto/signencrypttask.cpp:181
+#: src/crypto/signemailtask.cpp:86 src/crypto/signencrypttask.cpp:178
 #, kde-format
 msgid "Signing canceled."
 msgstr "簽署已取消。"
@@ -3820,7 +3820,7 @@ msgstr "簽署已取消。"
 msgid "Signing failed: %1"
 msgstr "簽署失敗：%1"
 
-#: src/crypto/signemailtask.cpp:93 src/crypto/signencrypttask.cpp:187
+#: src/crypto/signemailtask.cpp:93 src/crypto/signencrypttask.cpp:184
 #, kde-format
 msgid "Signing succeeded."
 msgstr "簽署成功。"
@@ -3879,48 +3879,48 @@ msgstr ""
 "遇到未知的例外狀況，發生於 SignEncryptFilesController::Private::"
 "slotWizardOperationPrepared"
 
-#: src/crypto/signencrypttask.cpp:185
+#: src/crypto/signencrypttask.cpp:182
 #, kde-format
 msgid "Signing failed."
 msgstr "簽署失敗。"
 
-#: src/crypto/signencrypttask.cpp:202
+#: src/crypto/signencrypttask.cpp:199
 #, kde-format
 msgid "Encryption failed."
 msgstr "加密失敗。"
 
-#: src/crypto/signencrypttask.cpp:230
+#: src/crypto/signencrypttask.cpp:227
 #, kde-format
 msgid "Signing and encryption succeeded."
 msgstr "簽署與加密成功"
 
-#: src/crypto/signencrypttask.cpp:247 src/crypto/signencrypttask.cpp:264
+#: src/crypto/signencrypttask.cpp:244 src/crypto/signencrypttask.cpp:261
 #, kde-format
 msgid "Output error: %1"
 msgstr "輸出錯誤：%1"
 
-#: src/crypto/signencrypttask.cpp:271
+#: src/crypto/signencrypttask.cpp:268
 #, kde-format
 msgid " Encryption succeeded."
 msgstr "加密成功。"
 
-#: src/crypto/signencrypttask.cpp:283
+#: src/crypto/signencrypttask.cpp:280
 #, kde-format
 msgid "%1: <b>Sign/encrypt canceled.</b>"
 msgstr "%1：<b>簽署/加密已取消。</b>"
 
-#: src/crypto/signencrypttask.cpp:283
+#: src/crypto/signencrypttask.cpp:280
 #, kde-format
 msgid " %1: Sign/encrypt failed."
 msgstr "%1：簽署/加密失敗。"
 
-#: src/crypto/signencrypttask.cpp:285
+#: src/crypto/signencrypttask.cpp:282
 #, kde-format
 msgctxt "label: result. Example: foo -> foo.gpg: Encryption failed."
 msgid "%1: <b>%2</b>"
 msgstr "%1：<b>%2</b>"
 
-#: src/crypto/signencrypttask.cpp:457
+#: src/crypto/signencrypttask.cpp:454
 #, kde-format
 msgid "Cannot determine protocol for task"
 msgstr "無法決定此工作使用的協定"

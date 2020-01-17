@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-15 02:43+0100\n"
+"POT-Creation-Date: 2020-01-17 02:44+0100\n"
 "PO-Revision-Date: 2020-01-16 14:40+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -7403,7 +7403,8 @@ msgstr ""
 msgid ""
 "Cannot load WinTab driver. If you have a drawing tablet, please make sure "
 "the tablet driver is properly installed."
-msgstr "無法載入 WinTab 驅動。如果你的數位板已連結，請確保其驅動程式已正確安裝。"
+msgstr ""
+"無法載入 WinTab 驅動。如果你的數位板已連結，請確保其驅動程式已正確安裝。"
 
 #: libs/basicflakes/tools/KoCreatePathTool.cpp:548
 #, kde-format
@@ -8324,7 +8325,7 @@ msgstr "大小"
 #: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:190
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:47
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:55
-#: plugins/filters/blur/wdgblur.ui:42 plugins/filters/blur/wdgblur.ui:81
+#: plugins/filters/blur/wdgblur.ui:42 plugins/filters/blur/wdgblur.ui:84
 #: plugins/paintops/curvebrush/kis_curve_line_option.cpp:33
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:79
 #: plugins/paintops/deform/kis_brush_size_option.cpp:50
@@ -8699,7 +8700,8 @@ msgstr "Lanczos3 演算法"
 msgid ""
 "Offers similar results than Bicubic, but maybe a little bit sharper. Can "
 "produce light and dark halos along strong edges."
-msgstr "與雙立方演算法效果類似，但或許銳度稍好。可能會在高反差邊緣處產生明暗光暈。"
+msgstr ""
+"與雙立方演算法效果類似，但或許銳度稍好。可能會在高反差邊緣處產生明暗光暈。"
 
 #: libs/image/kis_filter_strategy.h:174
 #, kde-format
@@ -9296,7 +9298,8 @@ msgctxt "image conversion warning"
 msgid ""
 "The image is not tagged as <b>non-linear gamma sRGB</b>. The image will be "
 "converted to sRGB."
-msgstr "影像未被標記為<b>非線性 gamma sRGB 色彩空間</b>。它將被轉成 sRGB 色彩空間。"
+msgstr ""
+"影像未被標記為<b>非線性 gamma sRGB 色彩空間</b>。它將被轉成 sRGB 色彩空間。"
 
 #: libs/koplugin/KisMimeDatabase.cpp:161
 #, kde-format
@@ -11353,7 +11356,8 @@ msgstr "<html><head/><body><h1 align=\"center\">眾籌支援者</h1><p>"
 #: libs/ui/dialogs/kis_about_application.cpp:111
 #, kde-format
 msgid ".</p><p><i>Thanks! You were all <b>awesome</b>!</i></p></body></html>"
-msgstr "</p><p>感謝上述諸位的支援，你們簡直就是<b>小天使</b>！</p></body></html>"
+msgstr ""
+"</p><p>感謝上述諸位的支援，你們簡直就是<b>小天使</b>！</p></body></html>"
 
 #: libs/ui/dialogs/kis_about_application.cpp:113
 #, kde-format
@@ -11856,8 +11860,8 @@ msgstr "選擇背景影像"
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:853
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:856
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:300
-#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:141
-#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:190
+#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:142
+#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:192
 #: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:429
 #: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:433
 #: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:439
@@ -14712,7 +14716,8 @@ msgstr "作為柵格圖層(&R)"
 msgid ""
 "Use background color and opacity as the base canvas color. This can be "
 "reconfigured in `Image > Properties.`"
-msgstr "使用背景顏色和不透明度作為基底畫布顏色。此屬性可在「影像 > 屬性」中重新設定。"
+msgstr ""
+"使用背景顏色和不透明度作為基底畫布顏色。此屬性可在「影像 > 屬性」中重新設定。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioBackgroundAsProjection)
 #: libs/ui/forms/wdgnewimage.ui:553
@@ -15217,7 +15222,8 @@ msgstr ""
 msgid ""
 "<html><head/><body><p>When the image is too big, render only currently "
 "visible part of it</p></body></html>"
-msgstr "<html><head/><body><p>當影像太大時, 僅繪製目前可見的部分</p></body></html>"
+msgstr ""
+"<html><head/><body><p>當影像太大時, 僅繪製目前可見的部分</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseRegionOfInterest)
 #: libs/ui/forms/wdgperformancesettings.ui:480
@@ -15244,7 +15250,8 @@ msgstr ""
 msgid ""
 "<html><head/><body><p>Automatically prerender animation cache in background "
 "when the user is idle</p></body></html>"
-msgstr "<html><head/><body><p>使用者空閒時在後台自動預繪製動畫快取</p></body></html>"
+msgstr ""
+"<html><head/><body><p>使用者空閒時在後台自動預繪製動畫快取</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBackgroundCacheGeneration)
 #: libs/ui/forms/wdgperformancesettings.ui:503
@@ -16668,7 +16675,8 @@ msgstr "平整影像"
 msgid ""
 "The image contains hidden layers that will be lost. Do you want to flatten "
 "the image?"
-msgstr "此影像包含已隱藏的圖層，這些圖層將不會在平整後被保留，確定要平整影像嗎？"
+msgstr ""
+"此影像包含已隱藏的圖層，這些圖層將不會在平整後被保留，確定要平整影像嗎？"
 
 #: libs/ui/kis_layer_manager.cc:808
 #, kde-format
@@ -17338,7 +17346,7 @@ msgid "Mimetype not found, try using the -mimetype option"
 msgstr "無法找到 MIME 類型，請嘗試使用 -mimetype 選項"
 
 #: libs/ui/KisApplication.cpp:590
-#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:202
+#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:204
 #, kde-format
 msgid "Failed to render animation frames!"
 msgstr "動畫影格繪製失敗！"
@@ -17805,7 +17813,8 @@ msgstr "%1 不可寫入"
 msgid ""
 "%1 is smaller than 10 bytes, it must be corrupt. Try saving again under a "
 "different name, in another location."
-msgstr "%1 小於 10 位元組，可能是損壞的。試試看在其他位置使用不同名稱重新儲存。"
+msgstr ""
+"%1 小於 10 位元組，可能是損壞的。試試看在其他位置使用不同名稱重新儲存。"
 
 #: libs/ui/KisImportExportFilter.cpp:182
 #, kde-format
@@ -18311,7 +18320,8 @@ msgstr "儲存調色板失敗"
 msgid ""
 "Failed to save global palette file. Please set it to non-global, or you will "
 "lose the file when you close Krita"
-msgstr "無法儲存為全域調色板檔案。請將其設為非全域，否則在關閉 Krita 是將遺失該檔案"
+msgstr ""
+"無法儲存為全域調色板檔案。請將其設為非全域，否則在關閉 Krita 是將遺失該檔案"
 
 #: libs/ui/KisPaletteEditor.cpp:665 libs/ui/KisPaletteEditor.cpp:668
 #, kde-format
@@ -19588,7 +19598,8 @@ msgstr "已停用 OpenColorIO：不支援影像色彩空間"
 msgid ""
 "Shape selection does not fully support wraparound mode. Please use pixel "
 "selection instead"
-msgstr "形狀選取區域工具在影像環繞模式下不能完全正常作業，請改用像素選取區域工具"
+msgstr ""
+"形狀選取區域工具在影像環繞模式下不能完全正常作業，請改用像素選取區域工具"
 
 #: libs/ui/tool/kis_selection_tool_helper.cpp:314
 #, kde-format
@@ -25150,7 +25161,7 @@ msgstr "確定要刪除遮罩<b>「%1」</b>嗎？"
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
 #. i18n: ectx: property (text), item, widget (KComboBox, cbShape)
 #: plugins/dockers/griddocker/grid_config_widget.cpp:60
-#: plugins/filters/blur/wdgblur.ui:159
+#: plugins/filters/blur/wdgblur.ui:165
 #: plugins/flake/pathshapes/rectangle/RectangleShapeFactory.cpp:37
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:42
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:237
@@ -25875,15 +25886,15 @@ msgstr "觸控面板"
 msgid "Render Animation"
 msgstr "繪製動畫"
 
-#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:140
+#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:141
 #, kde-format
 msgid ""
 "%1 requires width and height to be even numbers.  Please resize or crop the "
 "image before exporting."
 msgstr "%1 要求寬度和高度數值為偶數。在匯出之前請裁切或調整該影像的大小。"
 
-#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:141
-#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:190
+#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:142
+#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:192
 #, kde-format
 msgid ""
 "Could not render animation:\n"
@@ -27970,7 +27981,8 @@ msgstr ""
 msgid ""
 "The shortcut to fire this action, such as 'Ctrl+1', or a QKeySequence "
 "instance, or None."
-msgstr "指定給此操作的快捷鍵，如「Ctrl+1」，或者是一組 QKeySequence 實例，可以為空。"
+msgstr ""
+"指定給此操作的快捷鍵，如「Ctrl+1」，或者是一組 QKeySequence 實例，可以為空。"
 
 #. i18n: ectx: property (text), widget (QLabel, labelText)
 #: plugins/extensions/pykrita/plugin/info.ui:64
@@ -28030,7 +28042,8 @@ msgstr "設定頁面"
 msgid ""
 "The shortcut to fire this action such as 'Ctrl+1', or a QKeySequence "
 "instance, or None."
-msgstr "指定給此操作的快捷鍵，如「Ctrl+1」，或者是一組 QKeySequence 實例，可以為空。"
+msgstr ""
+"指定給此操作的快捷鍵，如「Ctrl+1」，或者是一組 QKeySequence 實例，可以為空。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/extensions/pykrita/plugin/info.ui:236
@@ -28808,7 +28821,7 @@ msgstr "切變角度 X："
 #: plugins/extensions/shearimage/wdg_shearimage.ui:59
 #: plugins/filters/blur/wdg_lens_blur.ui:115
 #: plugins/filters/blur/wdg_motion_blur.ui:99
-#: plugins/filters/blur/wdgblur.ui:130
+#: plugins/filters/blur/wdgblur.ui:136
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:500
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:541
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:683
@@ -28955,7 +28968,7 @@ msgstr "動態模糊"
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/filters/blur/wdg_gaussian_blur.ui:68
-#: plugins/filters/blur/wdgblur.ui:68
+#: plugins/filters/blur/wdgblur.ui:71
 #: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:51
 #: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:49
 #, kde-format
@@ -28985,7 +28998,7 @@ msgstr "光圈結構"
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
-#: plugins/filters/blur/wdg_lens_blur.ui:29 plugins/filters/blur/wdgblur.ui:140
+#: plugins/filters/blur/wdg_lens_blur.ui:29 plugins/filters/blur/wdgblur.ui:146
 #: plugins/filters/wavefilter/wdgwaveoptions.ui:72
 #: plugins/filters/wavefilter/wdgwaveoptions.ui:255
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:29
@@ -29069,7 +29082,7 @@ msgstr "旋轉："
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
 #: plugins/filters/blur/wdg_motion_blur.ui:83
-#: plugins/filters/blur/wdgblur.ui:117
+#: plugins/filters/blur/wdgblur.ui:123
 #: plugins/filters/halftone/wdg_halftone_filter.ui:73
 #: plugins/paintops/hatching/wdghatchingoptions.ui:49
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:161
@@ -29091,14 +29104,14 @@ msgid "Length:"
 msgstr "長度："
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: plugins/filters/blur/wdgblur.ui:91
+#: plugins/filters/blur/wdgblur.ui:97
 #, kde-format
 msgid "Strength:"
 msgstr "效果強度："
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxShape)
 #. i18n: ectx: property (text), item, widget (KComboBox, cbShape)
-#: plugins/filters/blur/wdgblur.ui:154
+#: plugins/filters/blur/wdgblur.ui:160
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:92
 #, kde-format
 msgid "Circle"
@@ -29241,7 +29254,8 @@ msgstr "HSV/HSL 調整"
 msgid ""
 "The current configuration was created for a different colorspace and cannot "
 "be used. All curves will be reset."
-msgstr "目前的設定檔當初是為不同色彩空間建立的，而目前不能使用。將會重設所有曲線。"
+msgstr ""
+"目前的設定檔當初是為不同色彩空間建立的，而目前不能使用。將會重設所有曲線。"
 
 #: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:147
 #, kde-format
@@ -32789,7 +32803,8 @@ msgstr ""
 msgid ""
 "This option will merge all layers. It is advisable to check this option, "
 "otherwise other applications might not be able to read your file correctly."
-msgstr "此選項將合併全部圖層。建議勾選此選項，否則其他應用程式可能無法正確讀取檔案。"
+msgstr ""
+"此選項將合併全部圖層。建議勾選此選項，否則其他應用程式可能無法正確讀取檔案。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkFlatten)
 #. i18n: ectx: property (text), widget (QCheckBox, flatten)
@@ -32943,7 +32958,8 @@ msgstr "大端序(&B)"
 msgid ""
 "Guess width and height based on file size and bits per pixel. Only values "
 "set to 0 will be updated."
-msgstr "按照檔案體積和每像素位深估算影像的寬度和高度，只有被設為 0 的數值才會更新。"
+msgstr ""
+"按照檔案體積和每像素位深估算影像的寬度和高度，只有被設為 0 的數值才會更新。"
 
 #. i18n: ectx: property (text), widget (QPushButton, guessButton)
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:101
@@ -34271,7 +34287,8 @@ msgctxt "@info:whatsthis"
 msgid ""
 "<title>Shift</title><p>Linear Shift of exposure correction before "
 "interpolation in E.V</p>"
-msgstr "<title>偏移</title><p>進行插值處理前的曝光偏移校正量，單位為曝光值 (E.V)</p>"
+msgstr ""
+"<title>偏移</title><p>進行插值處理前的曝光偏移校正量，單位為曝光值 (E.V)</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:493
 #, kde-format
@@ -34319,7 +34336,8 @@ msgctxt "@info:whatsthis"
 msgid ""
 "<p>If disable, use a fixed white level and ignore the image histogram to "
 "adjust brightness.</p>"
-msgstr "<p>禁用此選項，程式將使用固定白色級別並在調整亮度時忽略影像的直方圖資料。</p>"
+msgstr ""
+"<p>禁用此選項，程式將使用固定白色級別並在調整亮度時忽略影像的直方圖資料。</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:511
 #, kde-format
@@ -35113,7 +35131,8 @@ msgctxt "@info:tooltip"
 msgid ""
 "This brush has transparent pixels in its center. \"Dulling\" mode may give "
 "unstable results. Consider using \"Smearing\" mode instead."
-msgstr "此筆刷在其中心有透明像素。 鈍化模式的結果會不穩定。可考慮換用塗抹模式。"
+msgstr ""
+"此筆刷在其中心有透明像素。 鈍化模式的結果會不穩定。可考慮換用塗抹模式。"
 
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:74
 #, kde-format
@@ -37381,7 +37400,8 @@ msgstr "傾斜選項"
 msgid ""
 "<html><head/><body><p>Use the tilt of the tablet to determine the normals.</"
 "p></body></html>"
-msgstr "<html><head/><body><p>使用數位板的壓感筆傾斜度決定法線。</p></body></html>"
+msgstr ""
+"<html><head/><body><p>使用數位板的壓感筆傾斜度決定法線。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, optionTilt)
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:226
@@ -39146,6 +39166,22 @@ msgstr "建立指令稿"
 msgid "Last Documents Docker"
 msgstr "最近檔案"
 
+#: plugins/python/mixer_slider_docker/mixer_slider_docker.py:52
+#, fuzzy
+#| msgid "Tablet settings"
+msgid "Change settings"
+msgstr "數位板設定"
+
+#: plugins/python/mixer_slider_docker/mixer_slider_docker.py:69
+msgid "Mixer Slider Docker"
+msgstr ""
+
+#: plugins/python/mixer_slider_docker/ui_mixer_slider_docker.py:47
+#, fuzzy
+#| msgid "Number of lines it covers:"
+msgid "Number of slider lines: "
+msgstr "行數："
+
 #: plugins/python/palette_docker/palette_docker.py:49
 msgid "Python Palette Docker"
 msgstr "Python 調色板工具面板"
@@ -39961,7 +39997,8 @@ msgstr "顯示引導線"
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
 "+Drag will force you to draw straight lines"
-msgstr "Alt + 拖曳可移動目前顯示線條的基點，Shift + 拖曳將強制在特殊角度上繪製直線"
+msgstr ""
+"Alt + 拖曳可移動目前顯示線條的基點，Shift + 拖曳將強制在特殊角度上繪製直線"
 
 #: plugins/tools/basictools/kis_tool_line.h:116
 #, kde-format
@@ -40096,7 +40133,8 @@ msgstr ""
 msgid ""
 "<nobr>Determines whether the color picker will sample</nobr> colors from all "
 "visible layers or only the currently selected layer."
-msgstr "<nobr>控制拾色器將</nobr>拾取全部可見圖層的顏色還是只拾取目前選取圖層的顏色。"
+msgstr ""
+"<nobr>控制拾色器將</nobr>拾取全部可見圖層的顏色還是只拾取目前選取圖層的顏色。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSources)
 #: plugins/tools/basictools/wdgcolorpicker.ui:78
@@ -40151,7 +40189,8 @@ msgstr ""
 msgid ""
 "<nobr>Checking this box will add a new color swatch</nobr> to a palette each "
 "time you pick a color."
-msgstr "<nobr>勾選後，每次拾取顏色時將其作為一個新的色塊</nobr> 新增到調色板中。"
+msgstr ""
+"<nobr>勾選後，每次拾取顏色時將其作為一個新的色塊</nobr> 新增到調色板中。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbPalette)
 #: plugins/tools/basictools/wdgcolorpicker.ui:217
@@ -42191,7 +42230,8 @@ msgctxt "@info:tooltip"
 msgid ""
 "The mask will try to remove parts of the key strokes that are placed outside "
 "the closed contours. 0% - no effect, 100% - max effect"
-msgstr "遮罩將嘗試移除位於閉合輪廓外側部分的關鍵筆畫。0% - 無效果，100% - 最大效果"
+msgstr ""
+"遮罩將嘗試移除位於閉合輪廓外側部分的關鍵筆畫。0% - 無效果，100% - 最大效果"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAutoUpdates)
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:19

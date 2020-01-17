@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-16 02:39+0100\n"
+"POT-Creation-Date: 2020-01-17 02:42+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -39581,20 +39581,20 @@ msgstr "顯示概要地圖"
 msgid "Projection"
 msgstr "投影"
 
-#: core/utilities/geolocation/geoiface/bookmark/bookmarknode.cpp:168
-#: core/utilities/geolocation/geoiface/bookmark/bookmarknode.cpp:190
+#: core/utilities/geolocation/geoiface/bookmark/bookmarknode.cpp:169
+#: core/utilities/geolocation/geoiface/bookmark/bookmarknode.cpp:191
 #, fuzzy, kde-format
 #| msgid "Bookmark selected"
 msgid "Bookmark folder"
 msgstr "書籤已選擇"
 
-#: core/utilities/geolocation/geoiface/bookmark/bookmarknode.cpp:200
+#: core/utilities/geolocation/geoiface/bookmark/bookmarknode.cpp:201
 #, fuzzy, kde-format
 #| msgid "Database conversion canceled."
 msgid "The file is not an XBEL version 1.0 file."
 msgstr "資料庫轉換已取消。"
 
-#: core/utilities/geolocation/geoiface/bookmark/bookmarknode.cpp:315
+#: core/utilities/geolocation/geoiface/bookmark/bookmarknode.cpp:316
 #, fuzzy, kde-format
 #| msgid "Unknown filter"
 msgid "Unknown title"
@@ -41677,7 +41677,7 @@ msgstr "切換檔案 <filename>%1</filename> 的鎖定失敗。"
 msgid "Failed to toggle lock file <b>%1</b>. Do you want to continue?"
 msgstr "切換檔案 <filename>%1</filename> 的鎖定失敗。您要繼續嗎？"
 
-#: core/utilities/import/backend/gpcamera.cpp:1391
+#: core/utilities/import/backend/gpcamera.cpp:1517
 #, kde-format
 msgctxt "@info List of device properties"
 msgid ""
@@ -41687,7 +41687,7 @@ msgstr ""
 "標題：<b>%1</b><br/>型號：<b>%2</b><br/>連接埠：<b>%3</b><br/>路徑：<b>%4</"
 "b><br/><br/>"
 
-#: core/utilities/import/backend/gpcamera.cpp:1401
+#: core/utilities/import/backend/gpcamera.cpp:1527
 #, kde-format
 msgctxt "@info List of supported device operations"
 msgid ""
@@ -41698,39 +41698,39 @@ msgstr ""
 "縮圖：<b>%1</b><br/>擷取影像：<b>%2</b><br/>刪除項目：<b>%3</b><br/>上傳項"
 "目：<b>%4</b><br/>建立目錄：<b>%5</b><br/>刪除目錄：<b>%6</b><br/><br/>"
 
-#: core/utilities/import/backend/gpcamera.cpp:1407
-#: core/utilities/import/backend/gpcamera.cpp:1408
-#: core/utilities/import/backend/gpcamera.cpp:1409
-#: core/utilities/import/backend/gpcamera.cpp:1410
-#: core/utilities/import/backend/gpcamera.cpp:1411
-#: core/utilities/import/backend/gpcamera.cpp:1412
-#: core/utilities/import/backend/umscamera.cpp:601
-#: core/utilities/import/backend/umscamera.cpp:602
-#: core/utilities/import/backend/umscamera.cpp:603
-#: core/utilities/import/backend/umscamera.cpp:604
-#: core/utilities/import/backend/umscamera.cpp:605
-#: core/utilities/import/backend/umscamera.cpp:606
+#: core/utilities/import/backend/gpcamera.cpp:1533
+#: core/utilities/import/backend/gpcamera.cpp:1534
+#: core/utilities/import/backend/gpcamera.cpp:1535
+#: core/utilities/import/backend/gpcamera.cpp:1536
+#: core/utilities/import/backend/gpcamera.cpp:1537
+#: core/utilities/import/backend/gpcamera.cpp:1538
+#: core/utilities/import/backend/umscamera.cpp:624
+#: core/utilities/import/backend/umscamera.cpp:625
+#: core/utilities/import/backend/umscamera.cpp:626
+#: core/utilities/import/backend/umscamera.cpp:627
+#: core/utilities/import/backend/umscamera.cpp:628
+#: core/utilities/import/backend/umscamera.cpp:629
 #, kde-format
 msgid "yes"
 msgstr "是"
 
-#: core/utilities/import/backend/gpcamera.cpp:1407
-#: core/utilities/import/backend/gpcamera.cpp:1408
-#: core/utilities/import/backend/gpcamera.cpp:1409
-#: core/utilities/import/backend/gpcamera.cpp:1410
-#: core/utilities/import/backend/gpcamera.cpp:1411
-#: core/utilities/import/backend/gpcamera.cpp:1412
-#: core/utilities/import/backend/umscamera.cpp:601
-#: core/utilities/import/backend/umscamera.cpp:602
-#: core/utilities/import/backend/umscamera.cpp:603
-#: core/utilities/import/backend/umscamera.cpp:604
-#: core/utilities/import/backend/umscamera.cpp:605
-#: core/utilities/import/backend/umscamera.cpp:606
+#: core/utilities/import/backend/gpcamera.cpp:1533
+#: core/utilities/import/backend/gpcamera.cpp:1534
+#: core/utilities/import/backend/gpcamera.cpp:1535
+#: core/utilities/import/backend/gpcamera.cpp:1536
+#: core/utilities/import/backend/gpcamera.cpp:1537
+#: core/utilities/import/backend/gpcamera.cpp:1538
+#: core/utilities/import/backend/umscamera.cpp:624
+#: core/utilities/import/backend/umscamera.cpp:625
+#: core/utilities/import/backend/umscamera.cpp:626
+#: core/utilities/import/backend/umscamera.cpp:627
+#: core/utilities/import/backend/umscamera.cpp:628
+#: core/utilities/import/backend/umscamera.cpp:629
 #, kde-format
 msgid "no"
 msgstr "否"
 
-#: core/utilities/import/backend/umscamera.cpp:577
+#: core/utilities/import/backend/umscamera.cpp:599
 #, kde-format
 msgid ""
 "<b>Mounted Camera</b> driver for USB/IEEE1394 mass storage cameras and Flash "
@@ -41738,7 +41738,7 @@ msgid ""
 msgstr ""
 "USB/IEEE1394 儲存裝置相機和快閃磁碟讀卡機的<b>相機掛載</b>驅動。<br/><br/>"
 
-#: core/utilities/import/backend/umscamera.cpp:583
+#: core/utilities/import/backend/umscamera.cpp:606
 #, kde-format
 msgctxt "@info List of device properties"
 msgid ""
@@ -41748,7 +41748,7 @@ msgstr ""
 "標題：<b>%1</b><br/>型號：<b>%2</b><br/>連接埠：<b>%3</b><br/>路徑：<b>%4</"
 "b><br/>UUID: <b>%5</b><br/><br/>"
 
-#: core/utilities/import/backend/umscamera.cpp:595
+#: core/utilities/import/backend/umscamera.cpp:618
 #, kde-format
 msgctxt "@info List of supported device operations"
 msgid ""
@@ -41759,7 +41759,7 @@ msgstr ""
 "縮圖：<b>%1</b><br/>擷取影像：<b>%2</b><br/>刪除項目：<b>%3</b><br/>上傳項"
 "目：<b>%4</b><br/>建立目錄：<b>%5</b><br/>刪除目錄：<b>%6</b><br/><br/>"
 
-#: core/utilities/import/backend/umscamera.cpp:612
+#: core/utilities/import/backend/umscamera.cpp:635
 #, kde-format
 msgid ""
 "For more information about the <b>Mounted Camera</b> driver, please read the "
@@ -41768,7 +41768,7 @@ msgstr ""
 "請閱讀 digiKam 使用手冊中的<b>支援的數位靜態相機</b>部份來取得更多<b>相機掛載"
 "</b>驅動的相關資訊。"
 
-#: core/utilities/import/backend/umscamera.cpp:620
+#: core/utilities/import/backend/umscamera.cpp:643
 #, fuzzy, kde-format
 #| msgid ""
 #| "The <b>Mounted Camera</b> driver is a simple interface to a camera disk "
@@ -43642,28 +43642,28 @@ msgstr "轉換"
 msgid "No setting available"
 msgstr "無可用的設定值"
 
-#: core/utilities/queuemanager/manager/task.cpp:230
+#: core/utilities/queuemanager/manager/task.cpp:235
 #, kde-format
 msgid "(renamed to %1)"
 msgstr "(已重新命名為 %1)"
 
-#: core/utilities/queuemanager/manager/task.cpp:234
+#: core/utilities/queuemanager/manager/task.cpp:239
 #, kde-format
 msgid "(overwritten)"
 msgstr "(已覆寫)"
 
-#: core/utilities/queuemanager/manager/task.cpp:253
+#: core/utilities/queuemanager/manager/task.cpp:258
 #, kde-format
 msgid "Failed to create sidecar file..."
 msgstr "建立邊車檔失敗..."
 
-#: core/utilities/queuemanager/manager/task.cpp:262
+#: core/utilities/queuemanager/manager/task.cpp:267
 #, kde-format
 msgid "Item processed successfully %1"
 msgstr "處理項目成功 %1"
 
-#: core/utilities/queuemanager/manager/task.cpp:266
 #: core/utilities/queuemanager/manager/task.cpp:271
+#: core/utilities/queuemanager/manager/task.cpp:276
 #, kde-format
 msgid "Failed to create file..."
 msgstr "建立檔案失敗..."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-16 03:17+0100\n"
+"POT-Creation-Date: 2020-01-17 03:25+0100\n"
 "PO-Revision-Date: 2019-09-28 03:06+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -26,916 +26,1211 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: apps/main.cpp:60 apps/qml/Desktop.qml:60
+#: apps/qml/main.cpp:60 apps/qml/qml/Desktop.qml:60 apps/widget/main.cpp:57
 msgid "Ruqola"
 msgstr ""
 
-#: apps/main.cpp:62
+#: apps/qml/main.cpp:62 apps/widget/main.cpp:59
 msgid "Rocket Chat Client"
 msgstr ""
 
-#: apps/main.cpp:64
+#: apps/qml/main.cpp:64 apps/widget/main.cpp:61
 msgid "Copyright © 2017-2020 Ruqola authors"
 msgstr ""
 
-#: apps/main.cpp:66
+#: apps/qml/main.cpp:66 apps/widget/main.cpp:63
 msgid "Laurent Montel"
 msgstr ""
 
-#: apps/main.cpp:66
+#: apps/qml/main.cpp:66 apps/widget/main.cpp:63
 msgid "Maintainer"
 msgstr ""
 
-#: apps/main.cpp:67
+#: apps/qml/main.cpp:67 apps/widget/main.cpp:64
 msgid "Riccardo Iaconelli"
 msgstr ""
 
-#: apps/main.cpp:67
+#: apps/qml/main.cpp:67 apps/widget/main.cpp:64
 msgid "Original author"
 msgstr ""
 
-#: apps/main.cpp:68
+#: apps/qml/main.cpp:68 apps/widget/main.cpp:65
 msgid "Vasudha Mathur"
 msgstr ""
 
-#: apps/main.cpp:68
+#: apps/qml/main.cpp:68 apps/widget/main.cpp:65
 msgid "Former core developer"
 msgstr ""
 
-#: apps/main.cpp:72
+#: apps/qml/main.cpp:72 apps/widget/main.cpp:69
 msgid "David Faure"
 msgstr ""
 
-#: apps/main.cpp:72 apps/main.cpp:76
+#: apps/qml/main.cpp:72 apps/qml/main.cpp:76 apps/widget/main.cpp:69
+#: apps/widget/main.cpp:73
 msgid "Bug fixing"
 msgstr ""
 
-#: apps/main.cpp:73
+#: apps/qml/main.cpp:73 apps/widget/main.cpp:70
 msgid "Paul Lemire"
 msgstr ""
 
-#: apps/main.cpp:73
+#: apps/qml/main.cpp:73 apps/widget/main.cpp:70
 msgid "Help for debugging QML"
 msgstr ""
 
-#: apps/main.cpp:74
+#: apps/qml/main.cpp:74 apps/widget/main.cpp:71
 msgid "Veluri Mithun"
 msgstr ""
 
-#: apps/main.cpp:74
+#: apps/qml/main.cpp:74 apps/widget/main.cpp:71
 msgid "Autotest improvement and created some tests apps"
 msgstr ""
 
-#: apps/main.cpp:75
+#: apps/qml/main.cpp:75 apps/widget/main.cpp:72
 msgid "Franck Arrecot"
 msgstr ""
 
-#: apps/main.cpp:75
+#: apps/qml/main.cpp:75 apps/widget/main.cpp:72
 msgid "Fix some QML bugs"
 msgstr ""
 
-#: apps/main.cpp:76
+#: apps/qml/main.cpp:76 apps/widget/main.cpp:73
 msgid "Volker Krause"
 msgstr ""
 
-#: apps/main.cpp:81
+#: apps/qml/main.cpp:81 apps/widget/main.cpp:78
 msgid "Return lists of accounts"
 msgstr ""
 
-#: apps/main.cpp:82
+#: apps/qml/main.cpp:82 apps/widget/main.cpp:79
 msgid "Start with specific account"
 msgstr ""
 
-#: apps/main.cpp:91
+#: apps/qml/main.cpp:91 apps/widget/main.cpp:88
 msgid "The following accounts are available:"
 msgstr ""
 
-#: apps/qml/AboutDialog.qml:31
+#: apps/qml/qml/AboutDialog.qml:31
 msgid "About Ruqola"
 msgstr ""
 
-#: apps/qml/AboutDialog.qml:57 apps/qml/Desktop.qml:94
+#: apps/qml/qml/AboutDialog.qml:57 apps/qml/qml/Desktop.qml:94
 msgid "About"
 msgstr ""
 
-#: apps/qml/AboutDialog.qml:60
+#: apps/qml/qml/AboutDialog.qml:60
 msgid "Libraries"
 msgstr ""
 
-#: apps/qml/AboutDialog.qml:63
+#: apps/qml/qml/AboutDialog.qml:63
 msgid "Author"
 msgstr ""
 
-#: apps/qml/AboutDialog.qml:66
+#: apps/qml/qml/AboutDialog.qml:66
 msgid "Thanks To"
 msgstr ""
 
-#: apps/qml/AboutDialog.qml:70
+#: apps/qml/qml/AboutDialog.qml:70
 msgid "Translation"
 msgstr ""
 
-#: apps/qml/AddUserDialog.qml:40
+#: apps/qml/qml/AddUserDialog.qml:40
 msgid "Add Users"
 msgstr ""
 
-#: apps/qml/AddUserDialog.qml:61
+#: apps/qml/qml/AddUserDialog.qml:61
 msgid "Search User..."
 msgstr ""
 
-#: apps/qml/ArchiveRoomDialog.qml:30
+#: apps/qml/qml/ArchiveRoomDialog.qml:30
 msgid "Archive Room"
 msgstr ""
 
-#: apps/qml/ArchiveRoomDialog.qml:42
+#: apps/qml/qml/ArchiveRoomDialog.qml:42
 msgid "Do you want to archive this room?"
 msgstr ""
 
-#: apps/qml/ArchiveRoomDialog.qml:42
+#: apps/qml/qml/ArchiveRoomDialog.qml:42
 msgid "Do you want to unarchive this room?"
 msgstr ""
 
-#: apps/qml/AutoTranslateConfigDialog.qml:30 apps/qml/MainComponent.qml:94
+#: apps/qml/qml/AutoTranslateConfigDialog.qml:30
+#: apps/qml/qml/MainComponent.qml:94
 msgid "Auto-Translate"
 msgstr ""
 
-#: apps/qml/AutoTranslateConfigDialog.qml:46
+#: apps/qml/qml/AutoTranslateConfigDialog.qml:46
 msgid "Automatic Translation:"
 msgstr ""
 
-#: apps/qml/AutoTranslateConfigDialog.qml:57
+#: apps/qml/qml/AutoTranslateConfigDialog.qml:57
 msgid "Language:"
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:32
+#: apps/qml/qml/ChannelInfoDialog.qml:32
 msgid "Info about this channel"
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:77 apps/qml/CreateNewAccountDialog.qml:52
-#: apps/qml/CreateNewChannelDialog.qml:60
+#: apps/qml/qml/ChannelInfoDialog.qml:77
+#: apps/qml/qml/CreateNewAccountDialog.qml:52
+#: apps/qml/qml/CreateNewChannelDialog.qml:60
 msgid "Name:"
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:96
+#: apps/qml/qml/ChannelInfoDialog.qml:96
 msgid "Comment:"
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:109
+#: apps/qml/qml/ChannelInfoDialog.qml:109
 msgid "Announcement:"
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:122
+#: apps/qml/qml/ChannelInfoDialog.qml:122
 msgid "Description:"
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:137 apps/qml/ChannelPasswordDialog.qml:56
-#: apps/qml/CreateNewChannelDialog.qml:120
+#: apps/qml/qml/ChannelInfoDialog.qml:137
+#: apps/qml/qml/ChannelPasswordDialog.qml:56
+#: apps/qml/qml/CreateNewChannelDialog.qml:120
 msgid "Password:"
 msgstr ""
 
 #. i18n context ?
-#: apps/qml/ChannelInfoDialog.qml:144 apps/qml/CreateNewChannelDialog.qml:126
+#: apps/qml/qml/ChannelInfoDialog.qml:144
+#: apps/qml/qml/CreateNewChannelDialog.qml:126
 msgid "Add password"
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:144
+#: apps/qml/qml/ChannelInfoDialog.qml:144
 msgid "This Room has a password"
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:149 apps/qml/CreateNewChannelDialog.qml:81
+#: apps/qml/qml/ChannelInfoDialog.qml:149
+#: apps/qml/qml/CreateNewChannelDialog.qml:81
 msgid "Read-Only:"
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:156 apps/qml/CreateNewChannelDialog.qml:88
+#: apps/qml/qml/ChannelInfoDialog.qml:156
+#: apps/qml/qml/CreateNewChannelDialog.qml:88
 msgid "Only Authorized people can write."
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:170 apps/qml/CreateNewChannelDialog.qml:97
+#: apps/qml/qml/ChannelInfoDialog.qml:170
+#: apps/qml/qml/CreateNewChannelDialog.qml:97
 msgid "Broadcast:"
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:183
+#: apps/qml/qml/ChannelInfoDialog.qml:183
 msgid "Archive:"
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:196 apps/qml/CreateNewChannelDialog.qml:104
+#: apps/qml/qml/ChannelInfoDialog.qml:196
+#: apps/qml/qml/CreateNewChannelDialog.qml:104
 msgid "Private:"
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:209 apps/qml/CreateNewChannelDialog.qml:112
+#: apps/qml/qml/ChannelInfoDialog.qml:209
+#: apps/qml/qml/CreateNewChannelDialog.qml:112
 msgid "Encrypted:"
 msgstr ""
 
-#: apps/qml/ChannelInfoDialog.qml:221
+#: apps/qml/qml/ChannelInfoDialog.qml:221
 msgid "Delete Room:"
 msgstr ""
 
-#: apps/qml/ChannelPasswordDialog.qml:30
+#: apps/qml/qml/ChannelPasswordDialog.qml:30
 msgid "Channel Password"
 msgstr ""
 
-#: apps/qml/ChannelPasswordDialog.qml:52
+#: apps/qml/qml/ChannelPasswordDialog.qml:52
 msgid "Channel '%1' needs a password"
 msgstr ""
 
-#: apps/qml/ConfigureServerList.qml:94
+#: apps/qml/qml/ConfigureServerList.qml:94
 msgid "Add Account"
 msgstr ""
 
-#: apps/qml/ConfigureServerList.qml:104
+#: apps/qml/qml/ConfigureServerList.qml:104
 msgid "Close"
 msgstr ""
 
-#: apps/qml/CreateDiscussionDialog.qml:29
+#: apps/qml/qml/CreateDiscussionDialog.qml:29
 msgid "Create Discussion"
 msgstr ""
 
-#: apps/qml/CreateDiscussionDialog.qml:52
+#: apps/qml/qml/CreateDiscussionDialog.qml:52
 msgid "Create"
 msgstr ""
 
-#: apps/qml/CreateDiscussionDialog.qml:59
+#: apps/qml/qml/CreateDiscussionDialog.qml:59
 msgid "Parent Channel or Group:"
 msgstr ""
 
-#: apps/qml/CreateDiscussionDialog.qml:70
+#: apps/qml/qml/CreateDiscussionDialog.qml:70
 msgid "Discussion Name:"
 msgstr ""
 
-#: apps/qml/CreateDiscussionDialog.qml:90
+#: apps/qml/qml/CreateDiscussionDialog.qml:90
 msgid "Your answer:"
 msgstr ""
 
-#: apps/qml/CreateNewAccountDialog.qml:31
+#: apps/qml/qml/CreateNewAccountDialog.qml:31
 msgid "Create Account"
 msgstr ""
 
-#: apps/qml/CreateNewAccountDialog.qml:58 apps/qml/Login.qml:74
+#: apps/qml/qml/CreateNewAccountDialog.qml:58 apps/qml/qml/Login.qml:74
 msgid "Account Name"
 msgstr ""
 
-#: apps/qml/CreateNewAccountDialog.qml:61
+#: apps/qml/qml/CreateNewAccountDialog.qml:61
 msgid "Server Url:"
 msgstr ""
 
-#: apps/qml/CreateNewAccountDialog.qml:67
+#: apps/qml/qml/CreateNewAccountDialog.qml:67
 msgid "Server Url"
 msgstr ""
 
-#: apps/qml/CreateNewAccountDialog.qml:73
+#: apps/qml/qml/CreateNewAccountDialog.qml:73
 msgid "Enter your Username:"
 msgstr ""
 
-#: apps/qml/CreateNewAccountDialog.qml:81 apps/qml/Login.qml:147
+#: apps/qml/qml/CreateNewAccountDialog.qml:81 apps/qml/qml/Login.qml:147
 msgid "Enter Username"
 msgstr ""
 
-#: apps/qml/CreateNewChannelDialog.qml:32
+#: apps/qml/qml/CreateNewChannelDialog.qml:32
 msgid "Create Channel"
 msgstr ""
 
-#: apps/qml/CreateNewChannelDialog.qml:66
+#: apps/qml/qml/CreateNewChannelDialog.qml:66
 msgid "Channel Name"
 msgstr ""
 
-#: apps/qml/CreateNewChannelDialog.qml:70
+#: apps/qml/qml/CreateNewChannelDialog.qml:70
 msgid "Users:"
 msgstr ""
 
-#: apps/qml/CreateNewChannelDialog.qml:77
+#: apps/qml/qml/CreateNewChannelDialog.qml:77
 msgctxt "List of users separated by ','"
 msgid "User separate with ','"
 msgstr ""
 
-#: apps/qml/CustomUserStatusDialog.qml:30
+#: apps/qml/qml/CustomUserStatusDialog.qml:30
 msgid "Custom User Status"
 msgstr ""
 
-#: apps/qml/CustomUserStatusDialog.qml:44
+#: apps/qml/qml/CustomUserStatusDialog.qml:44
 msgid "Status Text:"
 msgstr ""
 
-#: apps/qml/DeleteAccountDialog.qml:30
+#: apps/qml/qml/DeleteAccountDialog.qml:30
 msgid "Delete Account"
 msgstr ""
 
-#: apps/qml/DeleteAccountDialog.qml:43
+#: apps/qml/qml/DeleteAccountDialog.qml:43
 msgid "Do you want to delete '%1' account?"
 msgstr ""
 
-#: apps/qml/DeleteFileAttachmentDialog.qml:31
+#: apps/qml/qml/DeleteFileAttachmentDialog.qml:31
 msgid "Delete Attachment"
 msgstr ""
 
-#: apps/qml/DeleteFileAttachmentDialog.qml:45
+#: apps/qml/qml/DeleteFileAttachmentDialog.qml:45
 msgid "Do you want to delete this attachment?"
 msgstr ""
 
-#: apps/qml/DeleteMessageDialog.qml:31
+#: apps/qml/qml/DeleteMessageDialog.qml:31
 msgid "Delete Message"
 msgstr ""
 
-#: apps/qml/DeleteMessageDialog.qml:45
+#: apps/qml/qml/DeleteMessageDialog.qml:45
 msgid "Do you want to delete this message?"
 msgstr ""
 
-#: apps/qml/DeleteRoomDialog.qml:30
+#: apps/qml/qml/DeleteRoomDialog.qml:30
 msgid "Delete Room"
 msgstr ""
 
-#: apps/qml/DeleteRoomDialog.qml:44
+#: apps/qml/qml/DeleteRoomDialog.qml:44
 msgid "Do you want to delete this room?"
 msgstr ""
 
-#: apps/qml/Desktop.qml:87
+#: apps/qml/qml/Desktop.qml:87
 msgid "Hello, %1"
 msgstr ""
 
-#: apps/qml/Desktop.qml:101
+#: apps/qml/qml/Desktop.qml:101
 msgid "Report a Bug"
 msgstr ""
 
-#: apps/qml/Desktop.qml:108
+#: apps/qml/qml/Desktop.qml:108
 msgid "Configure Account"
 msgstr ""
 
-#: apps/qml/Desktop.qml:116
+#: apps/qml/qml/Desktop.qml:116
 msgid "Handbook"
 msgstr ""
 
-#: apps/qml/Desktop.qml:126
+#: apps/qml/qml/Desktop.qml:126
 msgid "Log out"
 msgstr ""
 
-#: apps/qml/Desktop.qml:144
+#: apps/qml/qml/Desktop.qml:144
 msgid "Quit"
 msgstr ""
 
-#: apps/qml/DiscussionMessage.qml:57 apps/qml/messages/DiscussionLabel.qml:35
+#: apps/qml/qml/DiscussionMessage.qml:57
+#: apps/qml/qml/messages/DiscussionLabel.qml:35
 msgid "1 message"
 msgid_plural "%1 messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: apps/qml/DiscussionMessage.qml:74
+#: apps/qml/qml/DiscussionMessage.qml:74
 msgid "Open Discussion"
 msgstr ""
 
-#: apps/qml/DisplayImageDialog.qml:28
+#: apps/qml/qml/DisplayImageDialog.qml:28
 msgid "Image"
 msgstr ""
 
-#: apps/qml/DownloadFileDialog.qml:26 apps/qml/UploadFileDialog.qml:96
+#: apps/qml/qml/DownloadFileDialog.qml:26 apps/qml/qml/UploadFileDialog.qml:96
 msgid "Please choose a file"
 msgstr ""
 
-#: apps/qml/EncryptedConversationDialog.qml:30
+#: apps/qml/qml/EncryptedConversationDialog.qml:30
 msgid "Encrypted Conversation"
 msgstr ""
 
-#: apps/qml/EncryptedConversationDialog.qml:42
+#: apps/qml/qml/EncryptedConversationDialog.qml:42
 msgid "Do you want to accept encrypted conversation?"
 msgstr ""
 
-#: apps/qml/JobErrorMessageDialog.qml:28
+#: apps/qml/qml/JobErrorMessageDialog.qml:28
 msgid "Error"
 msgstr ""
 
-#: apps/qml/LeaveChannelDialog.qml:29
+#: apps/qml/qml/LeaveChannelDialog.qml:29
 msgid "Leave Channel"
 msgstr ""
 
-#: apps/qml/LeaveChannelDialog.qml:44
+#: apps/qml/qml/LeaveChannelDialog.qml:44
 msgid "Do you want to leave this channel?"
 msgstr ""
 
-#: apps/qml/LicenseDialog.qml:31
+#: apps/qml/qml/LicenseDialog.qml:31
 msgid "License"
 msgstr ""
 
-#: apps/qml/ListMessagesDialogBase.qml:58
+#: apps/qml/qml/ListMessagesDialogBase.qml:58
 msgid "Search Messages..."
 msgstr ""
 
-#: apps/qml/ListMessagesDialogBase.qml:68
+#: apps/qml/qml/ListMessagesDialogBase.qml:68
 msgid "No Messages found"
 msgstr ""
 
-#: apps/qml/ListMessagesDialogBase.qml:68
+#: apps/qml/qml/ListMessagesDialogBase.qml:68
 msgid "%1 Message in room (Total: %2)"
 msgid_plural "%1 Messages in room (Total: %2)"
 msgstr[0] ""
 
-#: apps/qml/Login.qml:57
+#: apps/qml/qml/Login.qml:57
 msgid "Ruqola Log in"
 msgstr ""
 
-#: apps/qml/Login.qml:84
+#: apps/qml/qml/Login.qml:84
 msgid "Enter Account Name"
 msgstr ""
 
-#: apps/qml/Login.qml:89
+#: apps/qml/qml/Login.qml:89
 msgid "Rocket Chat Server"
 msgstr ""
 
-#: apps/qml/Login.qml:97
+#: apps/qml/qml/Login.qml:97
 msgid "Enter address of the server"
 msgstr ""
 
-#: apps/qml/Login.qml:104
+#: apps/qml/qml/Login.qml:104
 msgid "Authentication Method"
 msgstr ""
 
-#: apps/qml/Login.qml:140
+#: apps/qml/qml/Login.qml:140
 msgid "Enter your username"
 msgstr ""
 
-#: apps/qml/Login.qml:154
+#: apps/qml/qml/Login.qml:154
 msgid "Enter your password"
 msgstr ""
 
-#: apps/qml/Login.qml:172
+#: apps/qml/qml/Login.qml:172
 msgid ""
 "You have enabled second factor authentication. Please enter the generated "
 "code or a backup code."
 msgstr ""
 
-#: apps/qml/Login.qml:181
+#: apps/qml/qml/Login.qml:181
 msgid "Two-factor authentication code or backup code"
 msgstr ""
 
-#: apps/qml/Login.qml:200
+#: apps/qml/qml/Login.qml:200
 msgid "Log in"
 msgstr ""
 
-#: apps/qml/Login.qml:213
+#: apps/qml/qml/Login.qml:213
 msgid "Login Failed"
 msgstr ""
 
-#: apps/qml/Login.qml:221
+#: apps/qml/qml/Login.qml:221
 msgid "Installation Problem found. No plugins found here."
 msgstr ""
 
-#: apps/qml/MainComponent.qml:48
+#: apps/qml/qml/MainComponent.qml:48
 msgid "Configure Notification"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:57
+#: apps/qml/qml/MainComponent.qml:57
 msgid "List of Users"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:63
+#: apps/qml/qml/MainComponent.qml:63
 msgid "Search Messages"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:72 apps/qml/MainComponent.qml:73
+#: apps/qml/qml/MainComponent.qml:72 apps/qml/qml/MainComponent.qml:73
 msgid "Channel Info"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:101 apps/qml/ShowMentionsInRoomDialog.qml:30
-#: ruqolacore/model/notificationpreferencemodel.cpp:81
+#: apps/qml/qml/MainComponent.qml:101
+#: apps/qml/qml/ShowMentionsInRoomDialog.qml:30
+#: core/model/notificationpreferencemodel.cpp:81
 msgid "Mentions"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:109
-#: ruqolacore/model/listmessagesmodelfilterproxymodel.cpp:71
+#: apps/qml/qml/MainComponent.qml:109
+#: core/model/listmessagesmodelfilterproxymodel.cpp:71
 msgid "Pinned Messages"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:117
-#: ruqolacore/model/listmessagesmodelfilterproxymodel.cpp:67
+#: apps/qml/qml/MainComponent.qml:117
+#: core/model/listmessagesmodelfilterproxymodel.cpp:67
 msgid "Starred Messages"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:125
+#: apps/qml/qml/MainComponent.qml:125
 msgid "Snippeted Messages"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:133 apps/qml/ShowDiscussionsInRoomDialog.qml:29
-#: ruqolacore/model/roommodel.cpp:493
+#: apps/qml/qml/MainComponent.qml:133
+#: apps/qml/qml/ShowDiscussionsInRoomDialog.qml:29 core/model/roommodel.cpp:493
 msgid "Discussions"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:141 apps/qml/ShowThreadsInRoomDialog.qml:31
+#: apps/qml/qml/MainComponent.qml:141
+#: apps/qml/qml/ShowThreadsInRoomDialog.qml:31
 msgid "Threads"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:151
+#: apps/qml/qml/MainComponent.qml:151
 msgid "Video Chat"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:157
+#: apps/qml/qml/MainComponent.qml:157
 msgid "Add User In Room"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:168
+#: apps/qml/qml/MainComponent.qml:168
 msgid "Take a Video Message"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:175
+#: apps/qml/qml/MainComponent.qml:175
 msgid "Load Recent History"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:182
+#: apps/qml/qml/MainComponent.qml:182
 msgid "Show Files Attachment In Room"
 msgstr ""
 
-#: apps/qml/MainComponent.qml:232
+#: apps/qml/qml/MainComponent.qml:232
 msgid "Auto-Translate Activated"
 msgstr ""
 
-#: apps/qml/MessageLine.qml:66
+#: apps/qml/qml/MessageLine.qml:66
 msgid "Enter message..."
 msgstr ""
 
-#: apps/qml/messages/AttachmentMessageAudio.qml:80
-#: apps/qml/messages/AttachmentMessageVideo.qml:77
-#: ruqolacore/messages/messageattachment.cpp:152
+#: apps/qml/qml/messages/AttachmentMessageAudio.qml:80
+#: apps/qml/qml/messages/AttachmentMessageVideo.qml:77
+#: core/messages/messageattachment.cpp:152
 msgid "File Uploaded: %1"
 msgstr ""
 
-#: apps/qml/messages/AttachmentMessageImage.qml:68
-#: apps/qml/messages/UserMessage.qml:83
+#: apps/qml/qml/messages/AttachmentMessageImage.qml:68
+#: apps/qml/qml/messages/UserMessage.qml:83
 msgid "(edited by %1)"
 msgstr ""
 
-#: apps/qml/messages/DiscussionLabel.qml:35
+#: apps/qml/qml/messages/DiscussionLabel.qml:35
 msgid "Any message yet"
 msgstr ""
 
-#: apps/qml/messages/JitsiVideoMessage.qml:71
+#: apps/qml/qml/messages/JitsiVideoMessage.qml:71
 msgid "Click To Join to Video"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:38
+#: apps/qml/qml/messages/MessageMenu.qml:38
 msgid "Remove as Favorite"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:38
+#: apps/qml/qml/messages/MessageMenu.qml:38
 msgid "Set as Favorite"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:43 apps/qml/UserMenu.qml:46
+#: apps/qml/qml/messages/MessageMenu.qml:43 apps/qml/qml/UserMenu.qml:46
 msgid "Unignore"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:43 apps/qml/UserMenu.qml:46
+#: apps/qml/qml/messages/MessageMenu.qml:43 apps/qml/qml/UserMenu.qml:46
 msgid "Ignore"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:48
+#: apps/qml/qml/messages/MessageMenu.qml:48
 msgid "Unpin Message"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:48
+#: apps/qml/qml/messages/MessageMenu.qml:48
 msgid "Pin Message"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:52
+#: apps/qml/qml/messages/MessageMenu.qml:52
 msgid "Original Message"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:52
+#: apps/qml/qml/messages/MessageMenu.qml:52
 msgid "Translate Message"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:59
+#: apps/qml/qml/messages/MessageMenu.qml:59
 msgid "Start a Discussion"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:71
+#: apps/qml/qml/messages/MessageMenu.qml:71
 msgid "Reply in Thread"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:83
+#: apps/qml/qml/messages/MessageMenu.qml:83
 msgid "Copy"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:95
+#: apps/qml/qml/messages/MessageMenu.qml:95
 msgid "Edit"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:105
+#: apps/qml/qml/messages/MessageMenu.qml:105
 msgid "Reply"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:140
+#: apps/qml/qml/messages/MessageMenu.qml:140
 msgid "Delete"
 msgstr ""
 
-#: apps/qml/messages/MessageMenu.qml:150
+#: apps/qml/qml/messages/MessageMenu.qml:150
 msgid "Report Message"
 msgstr ""
 
-#: apps/qml/messages/RepeaterReactions.qml:80
+#: apps/qml/qml/messages/RepeaterReactions.qml:80
 msgid "(By %1 persons)"
 msgstr ""
 
-#: apps/qml/messages/ThreadLabel.qml:36
-#: apps/qml/ShowThreadsInRoomDialog.qml:113
+#: apps/qml/qml/messages/ThreadLabel.qml:36
+#: apps/qml/qml/ShowThreadsInRoomDialog.qml:113
 msgid "1 reply"
 msgid_plural "%1 replies"
 msgstr[0] ""
 msgstr[1] ""
 
-#: apps/qml/NotificationOptionsDialog.qml:30
+#: apps/qml/qml/NotificationOptionsDialog.qml:30
 msgid "Notifications"
 msgstr ""
 
-#: apps/qml/NotificationOptionsDialog.qml:61
+#: apps/qml/qml/NotificationOptionsDialog.qml:61
 msgid "Disable Notifications:"
 msgstr ""
 
-#: apps/qml/NotificationOptionsDialog.qml:74
+#: apps/qml/qml/NotificationOptionsDialog.qml:74
 msgid "Hide Unread Room Status:"
 msgstr ""
 
-#: apps/qml/NotificationOptionsDialog.qml:86
+#: apps/qml/qml/NotificationOptionsDialog.qml:86
 msgid "Mute Groups Mention:"
 msgstr ""
 
-#: apps/qml/NotificationOptionsDialog.qml:100
+#: apps/qml/qml/NotificationOptionsDialog.qml:100
 msgid "Desktop"
 msgstr ""
 
-#: apps/qml/NotificationOptionsDialog.qml:105
-#: apps/qml/NotificationOptionsDialog.qml:159
-#: apps/qml/NotificationOptionsDialog.qml:179
+#: apps/qml/qml/NotificationOptionsDialog.qml:105
+#: apps/qml/qml/NotificationOptionsDialog.qml:159
+#: apps/qml/qml/NotificationOptionsDialog.qml:179
 msgid "Alert:"
 msgstr ""
 
-#: apps/qml/NotificationOptionsDialog.qml:116
+#: apps/qml/qml/NotificationOptionsDialog.qml:116
 msgid "Audio:"
 msgstr ""
 
-#: apps/qml/NotificationOptionsDialog.qml:127
+#: apps/qml/qml/NotificationOptionsDialog.qml:127
 msgid "Sound:"
 msgstr ""
 
-#: apps/qml/NotificationOptionsDialog.qml:138
+#: apps/qml/qml/NotificationOptionsDialog.qml:138
 msgid "Duration:"
 msgstr ""
 
-#: apps/qml/NotificationOptionsDialog.qml:153
+#: apps/qml/qml/NotificationOptionsDialog.qml:153
 msgid "Mobile"
 msgstr ""
 
-#: apps/qml/NotificationOptionsDialog.qml:174
+#: apps/qml/qml/NotificationOptionsDialog.qml:174
 msgid "Email"
 msgstr ""
 
-#: apps/qml/OpenChannelDialog.qml:43
+#: apps/qml/qml/OpenChannelDialog.qml:43
 msgid "Do you want to open this channel: \"%1\"?"
 msgstr ""
 
-#: apps/qml/OpenDirectChannelDialog.qml:41
+#: apps/qml/qml/OpenDirectChannelDialog.qml:41
 msgid "Open Conversation with \"%1\"?"
 msgstr ""
 
-#: apps/qml/PasswordLineEdit.qml:33
+#: apps/qml/qml/PasswordLineEdit.qml:33
 msgid "Enter Password..."
 msgstr ""
 
-#: apps/qml/PrivateChannelInfoDialog.qml:34
+#: apps/qml/qml/PrivateChannelInfoDialog.qml:34
 msgid "Info About this user"
 msgstr ""
 
-#: apps/qml/PrivateChannelInfoDialog.qml:59
+#: apps/qml/qml/PrivateChannelInfoDialog.qml:59
 msgid "Unblock user"
 msgstr ""
 
-#: apps/qml/PrivateChannelInfoDialog.qml:59
+#: apps/qml/qml/PrivateChannelInfoDialog.qml:59
 msgid "Block user"
 msgstr ""
 
-#: apps/qml/ReportMessageDialog.qml:50
+#: apps/qml/qml/ReportMessageDialog.qml:50
 msgid "Message:"
 msgstr ""
 
-#: apps/qml/ReportMessageDialog.qml:56
+#: apps/qml/qml/ReportMessageDialog.qml:56
 msgid "Why you signal this message?"
 msgstr ""
 
-#: apps/qml/RoomDelegate.qml:73
+#: apps/qml/qml/RoomDelegate.qml:73
 msgid "(%1)"
 msgstr ""
 
-#: apps/qml/RoomsComponent.qml:36 ruqolacore/model/roommodel.cpp:491
-#: ruqolacore/model/roommodel.cpp:496
+#: apps/qml/qml/RoomsComponent.qml:36 core/model/roommodel.cpp:491
+#: core/model/roommodel.cpp:496
 msgid "Rooms"
 msgstr ""
 
-#: apps/qml/RoomsComponent.qml:43
+#: apps/qml/qml/RoomsComponent.qml:43
 msgid "Open room"
 msgstr ""
 
-#: apps/qml/RoomsComponent.qml:50
+#: apps/qml/qml/RoomsComponent.qml:50
 msgid "Unread on Top"
 msgstr ""
 
-#: apps/qml/RoomsComponent.qml:59
+#: apps/qml/qml/RoomsComponent.qml:59
 msgid "Show Close Icons"
 msgstr ""
 
-#: apps/qml/RoomsComponent.qml:66
+#: apps/qml/qml/RoomsComponent.qml:66
 msgid "Create New Channel"
 msgstr ""
 
-#: apps/qml/RoomsComponent.qml:75 apps/qml/ServerInfoDialog.qml:30
+#: apps/qml/qml/RoomsComponent.qml:75 apps/qml/qml/ServerInfoDialog.qml:30
 msgid "Server Info"
 msgstr ""
 
-#: apps/qml/RoomsComponent.qml:88
+#: apps/qml/qml/RoomsComponent.qml:88
 msgid "Search Room..."
 msgstr ""
 
-#: apps/qml/RoomsComponent.qml:143
+#: apps/qml/qml/RoomsComponent.qml:143
 msgid "Status:"
 msgstr ""
 
-#: apps/qml/SearchChannelDialog.qml:37
+#: apps/qml/qml/SearchChannelDialog.qml:37
 msgid "Search Channel"
 msgstr ""
 
-#: apps/qml/SearchChannelDialog.qml:56
+#: apps/qml/qml/SearchChannelDialog.qml:56
 msgid "Search Channel..."
 msgstr ""
 
-#: apps/qml/SearchChannelDialog.qml:63
+#: apps/qml/qml/SearchChannelDialog.qml:63
 msgid "No Channel found"
 msgstr ""
 
-#: apps/qml/SearchLabel.qml:42
+#: apps/qml/qml/SearchLabel.qml:42
 msgid "(Click here for Loading more...)"
 msgstr ""
 
-#: apps/qml/ServerInfoDialog.qml:41
+#: apps/qml/qml/ServerInfoDialog.qml:41
 msgid "Account name: %1"
 msgstr ""
 
-#: apps/qml/ServerInfoDialog.qml:46
+#: apps/qml/qml/ServerInfoDialog.qml:46
 msgid "User name: %1"
 msgstr ""
 
-#: apps/qml/ServerInfoDialog.qml:51
+#: apps/qml/qml/ServerInfoDialog.qml:51
 msgid "Server version: %1"
 msgstr ""
 
-#: apps/qml/ShowDiscussionsInRoomDialog.qml:54
+#: apps/qml/qml/ShowDiscussionsInRoomDialog.qml:54
 msgid "Search Discussions..."
 msgstr ""
 
-#: apps/qml/ShowDiscussionsInRoomDialog.qml:64
+#: apps/qml/qml/ShowDiscussionsInRoomDialog.qml:64
 msgid "No Discussion found"
 msgstr ""
 
-#: apps/qml/ShowDiscussionsInRoomDialog.qml:64
+#: apps/qml/qml/ShowDiscussionsInRoomDialog.qml:64
 msgid "%1 discussion in room (Total: %2)"
 msgid_plural "%1 discussions in room (Total: %2)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: apps/qml/ShowFilesInRoomDialog.qml:33
+#: apps/qml/qml/ShowFilesInRoomDialog.qml:33
 msgid "Attachments"
 msgstr ""
 
-#: apps/qml/ShowFilesInRoomDialog.qml:58
+#: apps/qml/qml/ShowFilesInRoomDialog.qml:58
 msgid "Search File..."
 msgstr ""
 
-#: apps/qml/ShowFilesInRoomDialog.qml:68
+#: apps/qml/qml/ShowFilesInRoomDialog.qml:68
 msgid "No Attachment found"
 msgstr ""
 
-#: apps/qml/ShowFilesInRoomDialog.qml:68
+#: apps/qml/qml/ShowFilesInRoomDialog.qml:68
 msgid "%1 attachment in room (Total: %2)"
 msgid_plural "%1 attachments in room (Total: %2)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: apps/qml/ShowMentionsInRoomDialog.qml:55
+#: apps/qml/qml/ShowMentionsInRoomDialog.qml:55
 msgid "Search Mentions..."
 msgstr ""
 
-#: apps/qml/ShowMentionsInRoomDialog.qml:65
+#: apps/qml/qml/ShowMentionsInRoomDialog.qml:65
 msgid "No Mention found"
 msgstr ""
 
-#: apps/qml/ShowMentionsInRoomDialog.qml:65
+#: apps/qml/qml/ShowMentionsInRoomDialog.qml:65
 msgid "%1 mention in room (Total: %2)"
 msgid_plural "%1 mentions in room (Total: %2)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: apps/qml/ShowSearchMessageDialog.qml:33
+#: apps/qml/qml/ShowSearchMessageDialog.qml:33
 msgid "Search Message"
 msgstr ""
 
-#: apps/qml/ShowSearchMessageDialog.qml:59
+#: apps/qml/qml/ShowSearchMessageDialog.qml:59
 msgid "Search Word... (You can use regular expression as /^text$/i)"
 msgstr ""
 
-#: apps/qml/ShowSearchMessageDialog.qml:68
+#: apps/qml/qml/ShowSearchMessageDialog.qml:68
 msgid "Any string found"
 msgstr ""
 
-#: apps/qml/ShowThreadMessagesDialog.qml:37
+#: apps/qml/qml/ShowThreadMessagesDialog.qml:37
 msgid "Thread Messages: %1"
 msgstr ""
 
-#: apps/qml/ShowThreadsInRoomDialog.qml:56
+#: apps/qml/qml/ShowThreadsInRoomDialog.qml:56
 msgid "Search Threads..."
 msgstr ""
 
-#: apps/qml/ShowThreadsInRoomDialog.qml:66
+#: apps/qml/qml/ShowThreadsInRoomDialog.qml:66
 msgid "No Thread found"
 msgstr ""
 
-#: apps/qml/ShowThreadsInRoomDialog.qml:66
+#: apps/qml/qml/ShowThreadsInRoomDialog.qml:66
 msgid "%1 thread in room (Total: %2)"
 msgid_plural "%1 threads in room (Total: %2)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: apps/qml/ShowThreadsInRoomDialog.qml:130
+#: apps/qml/qml/ShowThreadsInRoomDialog.qml:130
 msgid "Open Thread"
 msgstr ""
 
-#: apps/qml/TakeVideoMessageDialog.qml:58
+#: apps/qml/qml/TakeVideoMessageDialog.qml:58
 msgid "There is no camera available."
 msgstr ""
 
-#: apps/qml/TakeVideoMessageDialog.qml:65
+#: apps/qml/qml/TakeVideoMessageDialog.qml:65
 msgid ""
 "Your camera is busy.\n"
 "Try to close other applications using the camera."
 msgstr ""
 
-#: apps/qml/TakeVideoMessageDialog.qml:77
+#: apps/qml/qml/TakeVideoMessageDialog.qml:77
 msgid "Video"
 msgstr ""
 
-#: apps/qml/UploadFileDialog.qml:31
+#: apps/qml/qml/UploadFileDialog.qml:31
 msgid "Upload File"
 msgstr ""
 
-#: apps/qml/UploadFileDialog.qml:61
+#: apps/qml/qml/UploadFileDialog.qml:61
 msgid "Description"
 msgstr ""
 
-#: apps/qml/UploadFileDialog.qml:68
+#: apps/qml/qml/UploadFileDialog.qml:68
 msgid "Message"
 msgstr ""
 
-#: apps/qml/UploadFileDialog.qml:76
+#: apps/qml/qml/UploadFileDialog.qml:76
 msgid "Select File..."
 msgstr ""
 
-#: apps/qml/UserInfoDialog.qml:30
+#: apps/qml/qml/UserInfoDialog.qml:30
 msgid "User Info"
 msgstr ""
 
-#: apps/qml/UserInput.qml:57
+#: apps/qml/qml/UserInput.qml:57
 msgid "Attach Files"
 msgstr ""
 
-#: apps/qml/UserInput.qml:108
+#: apps/qml/qml/UserInput.qml:108
 msgid "Insert Emoji"
 msgstr ""
 
-#: apps/qml/UserInput.qml:130
+#: apps/qml/qml/UserInput.qml:130
 msgid "Send Message"
 msgstr ""
 
-#: apps/qml/UserMenu.qml:50
+#: apps/qml/qml/UserMenu.qml:50
 msgid "Remove as Owner"
 msgstr ""
 
-#: apps/qml/UserMenu.qml:50
+#: apps/qml/qml/UserMenu.qml:50
 msgid "Add as Owner"
 msgstr ""
 
-#: apps/qml/UserMenu.qml:55
+#: apps/qml/qml/UserMenu.qml:55
 msgid "Remove as Leader"
 msgstr ""
 
-#: apps/qml/UserMenu.qml:55
+#: apps/qml/qml/UserMenu.qml:55
 msgid "Add as Leader"
 msgstr ""
 
-#: apps/qml/UserMenu.qml:60
+#: apps/qml/qml/UserMenu.qml:60
 msgid "Remove as Moderator"
 msgstr ""
 
-#: apps/qml/UserMenu.qml:60
+#: apps/qml/qml/UserMenu.qml:60
 msgid "Add as Moderator"
 msgstr ""
 
-#: apps/qml/UserMenu.qml:68
+#: apps/qml/qml/UserMenu.qml:68
 msgid "Conversation"
 msgstr ""
 
-#: apps/qml/UserMenu.qml:119
+#: apps/qml/qml/UserMenu.qml:119
 msgid "Remove from Room"
+msgstr ""
+
+#: core/aboutdata/qmlaboutdata.cpp:55
+msgid "Version %1"
+msgstr ""
+
+#: core/aboutdata/qmlaboutdata.cpp:79
+msgid "KDE has a bug tracking system. Visit <a href=\"%1\">%1</a>"
+msgstr ""
+
+#: core/aboutdata/qmlaboutdata.cpp:102
+msgid "License: %1"
+msgstr ""
+
+#: core/aboutdata/qmlaboutdata.cpp:109
+msgid ""
+"<ul><li>KDE Frameworks %1</li><li>Qt %2 (built against %3)</li><li>The <em>"
+"%4</em> windowing system</li></ul>"
+msgstr ""
+
+#: core/aboutdata/qmlaboutdata.cpp:122
+msgid ""
+"Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
+"report bugs.\n"
+msgstr ""
+
+#: core/aboutdata/qmlaboutdata.cpp:128
+msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
+msgstr ""
+
+#: core/discussion.cpp:88
+msgid "(Last Message: %1)"
+msgstr ""
+
+#: core/messages/message.cpp:428
+msgid "%1 has joined the channel"
+msgstr ""
+
+#: core/messages/message.cpp:430
+msgid "%1 has left the channel"
+msgstr ""
+
+#: core/messages/message.cpp:433
+msgid "Topic was cleared by: %1"
+msgstr ""
+
+#: core/messages/message.cpp:435
+msgid "%2 changed topic to: <i>%1</i>"
+msgstr ""
+
+#: core/messages/message.cpp:438
+msgid "%2 added %1 to the conversation"
+msgstr ""
+
+#: core/messages/message.cpp:440
+msgid "%2 changed room name to <a href=\"ruqola:/room/%1\">#%1</a>"
+msgstr ""
+
+#: core/messages/message.cpp:442
+msgid "%2 removed user %1"
+msgstr ""
+
+#: core/messages/message.cpp:445
+msgid "Description was cleared by %1"
+msgstr ""
+
+#: core/messages/message.cpp:447
+msgid "%2 changed room description to %1"
+msgstr ""
+
+#: core/messages/message.cpp:451
+msgid "Announcement was cleared by %1"
+msgstr ""
+
+#: core/messages/message.cpp:453
+msgid "%2 changed room announcement to %1"
+msgstr ""
+
+#: core/messages/message.cpp:456
+msgid "%2 changed room privacy to %1"
+msgstr ""
+
+#: core/messages/message.cpp:458
+msgid "Click to join to video"
+msgstr ""
+
+#: core/messages/message.cpp:461
+msgid "Message Deleted"
+msgstr ""
+
+#: core/messages/message.cpp:463
+msgid "Message Pinned"
+msgstr ""
+
+#: core/messages/message.cpp:465
+msgid "Encrypted Message"
+msgstr ""
+
+#: core/messages/message.cpp:468
+msgid "%1 was unmuted"
+msgstr ""
+
+#: core/messages/message.cpp:471
+msgid "%1 was muted"
+msgstr ""
+
+#: core/messages/message.cpp:473
+msgid "Role '%3' was added to %1 by %2"
+msgstr ""
+
+#: core/messages/message.cpp:475
+msgid "Role '%3' was removed to %1 by %2"
+msgstr ""
+
+#: core/messages/message.cpp:478
+msgid "Encrypted message: %1"
+msgstr ""
+
+#: core/messages/message.cpp:480
+msgid "Discussion created about \"%1\""
+msgstr ""
+
+#: core/messages/message.cpp:482
+msgid "%1 has joined the conversation"
+msgstr ""
+
+#: core/messages/message.cpp:484
+msgid "This room has been archived by %1"
+msgstr ""
+
+#: core/messages/message.cpp:486
+msgid "This room has been unarchived by %1"
+msgstr ""
+
+#: core/messages/message.cpp:489 core/messages/message.cpp:496
+msgid "Unknown action!"
+msgstr ""
+
+#: core/messages/message.cpp:493
+msgid "Welcome %1!"
+msgstr ""
+
+#: core/messages/messageattachment.cpp:130
+msgid "File Uploaded:"
+msgstr ""
+
+#: core/messages/reaction.cpp:38 core/messages/reaction.cpp:51
+msgid "%1 had reacted with %2"
+msgstr ""
+
+#: core/messages/reaction.cpp:46 core/receivetypingnotificationmanager.cpp:80
+msgid "%1, %2"
+msgstr ""
+
+#: core/messages/reaction.cpp:48 core/receivetypingnotificationmanager.cpp:82
+msgid "%1 and %2"
+msgstr ""
+
+#: core/model/listmessagesmodelfilterproxymodel.cpp:69
+msgid "Snippered Messages"
+msgstr ""
+
+#: core/model/mentionsmodel.cpp:73 core/model/messagemodel.cpp:237
+#: core/model/searchmessagemodel.cpp:60
+msgid "Ignored Message"
+msgstr ""
+
+#: core/model/notificationdesktopdurationpreferencemodel.cpp:71
+#: core/model/notificationdesktopsoundpreferencemodel.cpp:71
+#: core/model/notificationpreferencemodel.cpp:69
+msgid "Default"
+msgstr ""
+
+#: core/model/notificationdesktopdurationpreferencemodel.cpp:77
+msgid "1 second"
+msgid_plural "%1 seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/model/notificationdesktopsoundpreferencemodel.cpp:77
+#: core/model/notificationpreferencemodel.cpp:87
+msgid "Nothing"
+msgstr ""
+
+#: core/model/notificationdesktopsoundpreferencemodel.cpp:83
+msgid "Beep"
+msgstr ""
+
+#: core/model/notificationdesktopsoundpreferencemodel.cpp:89
+msgid "Chelle"
+msgstr ""
+
+#: core/model/notificationdesktopsoundpreferencemodel.cpp:95
+msgid "Ding"
+msgstr ""
+
+#: core/model/notificationdesktopsoundpreferencemodel.cpp:101
+msgid "Droplet"
+msgstr ""
+
+#: core/model/notificationdesktopsoundpreferencemodel.cpp:107
+msgid "Highbell"
+msgstr ""
+
+#: core/model/notificationdesktopsoundpreferencemodel.cpp:113
+msgid "Seasons"
+msgstr ""
+
+#: core/model/notificationpreferencemodel.cpp:75
+msgid "All Messages"
+msgstr ""
+
+#: core/model/roommodel.cpp:473
+msgid "Favorites"
+msgstr ""
+
+#: core/model/roommodel.cpp:479 core/model/roommodel.cpp:484
+msgid "Unread Rooms"
+msgstr ""
+
+#: core/model/roommodel.cpp:481
+msgid "Unread Discussions"
+msgstr ""
+
+#: core/model/roommodel.cpp:486
+msgid "Unread Private Messages"
+msgstr ""
+
+#: core/model/roommodel.cpp:498
+msgid "Private Messages"
+msgstr ""
+
+#: core/model/statusmodel.cpp:73
+msgid "Online"
+msgstr ""
+
+#: core/model/statusmodel.cpp:80
+msgid "Busy"
+msgstr ""
+
+#: core/model/statusmodel.cpp:87
+msgid "Away"
+msgstr ""
+
+#: core/model/statusmodel.cpp:94
+msgid "Offline"
+msgstr ""
+
+#: core/notification.cpp:92
+msgid "Has %1 Unread Message"
+msgstr ""
+
+#: core/receivetypingnotificationmanager.cpp:72
+msgid "%1 is typing..."
+msgstr ""
+
+#: core/receivetypingnotificationmanager.cpp:85
+msgid "%1 are typing..."
+msgstr ""
+
+#: core/room.cpp:811
+msgid "Owner"
+msgstr ""
+
+#: core/room.cpp:814
+msgid "Leader"
+msgstr ""
+
+#: core/room.cpp:817
+msgid "Moderator"
+msgstr ""
+
+#: core/room.cpp:1110
+msgid "Channel is read only."
+msgstr ""
+
+#: core/room.cpp:1113
+msgid "You have blocked this channel."
+msgstr ""
+
+#: core/room.cpp:1116
+msgid "Channel was blocked."
 msgstr ""
 
 #: plugins/authentication/google/googlepluginauthentication.cpp:50
@@ -1366,288 +1661,4 @@ msgstr ""
 
 #: rocketchatrestapi-qt5/users/getavatarjob.cpp:123
 msgid "Get Avatar"
-msgstr ""
-
-#: ruqolacore/aboutdata/qmlaboutdata.cpp:55
-msgid "Version %1"
-msgstr ""
-
-#: ruqolacore/aboutdata/qmlaboutdata.cpp:79
-msgid "KDE has a bug tracking system. Visit <a href=\"%1\">%1</a>"
-msgstr ""
-
-#: ruqolacore/aboutdata/qmlaboutdata.cpp:102
-msgid "License: %1"
-msgstr ""
-
-#: ruqolacore/aboutdata/qmlaboutdata.cpp:109
-msgid ""
-"<ul><li>KDE Frameworks %1</li><li>Qt %2 (built against %3)</li><li>The <em>"
-"%4</em> windowing system</li></ul>"
-msgstr ""
-
-#: ruqolacore/aboutdata/qmlaboutdata.cpp:122
-msgid ""
-"Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
-"report bugs.\n"
-msgstr ""
-
-#: ruqolacore/aboutdata/qmlaboutdata.cpp:128
-msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
-msgstr ""
-
-#: ruqolacore/discussion.cpp:88
-msgid "(Last Message: %1)"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:428
-msgid "%1 has joined the channel"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:430
-msgid "%1 has left the channel"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:433
-msgid "Topic was cleared by: %1"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:435
-msgid "%2 changed topic to: <i>%1</i>"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:438
-msgid "%2 added %1 to the conversation"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:440
-msgid "%2 changed room name to <a href=\"ruqola:/room/%1\">#%1</a>"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:442
-msgid "%2 removed user %1"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:445
-msgid "Description was cleared by %1"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:447
-msgid "%2 changed room description to %1"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:451
-msgid "Announcement was cleared by %1"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:453
-msgid "%2 changed room announcement to %1"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:456
-msgid "%2 changed room privacy to %1"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:458
-msgid "Click to join to video"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:461
-msgid "Message Deleted"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:463
-msgid "Message Pinned"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:465
-msgid "Encrypted Message"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:468
-msgid "%1 was unmuted"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:471
-msgid "%1 was muted"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:473
-msgid "Role '%3' was added to %1 by %2"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:475
-msgid "Role '%3' was removed to %1 by %2"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:478
-msgid "Encrypted message: %1"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:480
-msgid "Discussion created about \"%1\""
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:482
-msgid "%1 has joined the conversation"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:484
-msgid "This room has been archived by %1"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:486
-msgid "This room has been unarchived by %1"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:489 ruqolacore/messages/message.cpp:496
-msgid "Unknown action!"
-msgstr ""
-
-#: ruqolacore/messages/message.cpp:493
-msgid "Welcome %1!"
-msgstr ""
-
-#: ruqolacore/messages/messageattachment.cpp:130
-msgid "File Uploaded:"
-msgstr ""
-
-#: ruqolacore/messages/reaction.cpp:38 ruqolacore/messages/reaction.cpp:51
-msgid "%1 had reacted with %2"
-msgstr ""
-
-#: ruqolacore/messages/reaction.cpp:46
-#: ruqolacore/receivetypingnotificationmanager.cpp:80
-msgid "%1, %2"
-msgstr ""
-
-#: ruqolacore/messages/reaction.cpp:48
-#: ruqolacore/receivetypingnotificationmanager.cpp:82
-msgid "%1 and %2"
-msgstr ""
-
-#: ruqolacore/model/listmessagesmodelfilterproxymodel.cpp:69
-msgid "Snippered Messages"
-msgstr ""
-
-#: ruqolacore/model/mentionsmodel.cpp:73 ruqolacore/model/messagemodel.cpp:237
-#: ruqolacore/model/searchmessagemodel.cpp:60
-msgid "Ignored Message"
-msgstr ""
-
-#: ruqolacore/model/notificationdesktopdurationpreferencemodel.cpp:71
-#: ruqolacore/model/notificationdesktopsoundpreferencemodel.cpp:71
-#: ruqolacore/model/notificationpreferencemodel.cpp:69
-msgid "Default"
-msgstr ""
-
-#: ruqolacore/model/notificationdesktopdurationpreferencemodel.cpp:77
-msgid "1 second"
-msgid_plural "%1 seconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ruqolacore/model/notificationdesktopsoundpreferencemodel.cpp:77
-#: ruqolacore/model/notificationpreferencemodel.cpp:87
-msgid "Nothing"
-msgstr ""
-
-#: ruqolacore/model/notificationdesktopsoundpreferencemodel.cpp:83
-msgid "Beep"
-msgstr ""
-
-#: ruqolacore/model/notificationdesktopsoundpreferencemodel.cpp:89
-msgid "Chelle"
-msgstr ""
-
-#: ruqolacore/model/notificationdesktopsoundpreferencemodel.cpp:95
-msgid "Ding"
-msgstr ""
-
-#: ruqolacore/model/notificationdesktopsoundpreferencemodel.cpp:101
-msgid "Droplet"
-msgstr ""
-
-#: ruqolacore/model/notificationdesktopsoundpreferencemodel.cpp:107
-msgid "Highbell"
-msgstr ""
-
-#: ruqolacore/model/notificationdesktopsoundpreferencemodel.cpp:113
-msgid "Seasons"
-msgstr ""
-
-#: ruqolacore/model/notificationpreferencemodel.cpp:75
-msgid "All Messages"
-msgstr ""
-
-#: ruqolacore/model/roommodel.cpp:473
-msgid "Favorites"
-msgstr ""
-
-#: ruqolacore/model/roommodel.cpp:479 ruqolacore/model/roommodel.cpp:484
-msgid "Unread Rooms"
-msgstr ""
-
-#: ruqolacore/model/roommodel.cpp:481
-msgid "Unread Discussions"
-msgstr ""
-
-#: ruqolacore/model/roommodel.cpp:486
-msgid "Unread Private Messages"
-msgstr ""
-
-#: ruqolacore/model/roommodel.cpp:498
-msgid "Private Messages"
-msgstr ""
-
-#: ruqolacore/model/statusmodel.cpp:73
-msgid "Online"
-msgstr ""
-
-#: ruqolacore/model/statusmodel.cpp:80
-msgid "Busy"
-msgstr ""
-
-#: ruqolacore/model/statusmodel.cpp:87
-msgid "Away"
-msgstr ""
-
-#: ruqolacore/model/statusmodel.cpp:94
-msgid "Offline"
-msgstr ""
-
-#: ruqolacore/notification.cpp:92
-msgid "Has %1 Unread Message"
-msgstr ""
-
-#: ruqolacore/receivetypingnotificationmanager.cpp:72
-msgid "%1 is typing..."
-msgstr ""
-
-#: ruqolacore/receivetypingnotificationmanager.cpp:85
-msgid "%1 are typing..."
-msgstr ""
-
-#: ruqolacore/room.cpp:811
-msgid "Owner"
-msgstr ""
-
-#: ruqolacore/room.cpp:814
-msgid "Leader"
-msgstr ""
-
-#: ruqolacore/room.cpp:817
-msgid "Moderator"
-msgstr ""
-
-#: ruqolacore/room.cpp:1110
-msgid "Channel is read only."
-msgstr ""
-
-#: ruqolacore/room.cpp:1113
-msgid "You have blocked this channel."
-msgstr ""
-
-#: ruqolacore/room.cpp:1116
-msgid "Channel was blocked."
 msgstr ""

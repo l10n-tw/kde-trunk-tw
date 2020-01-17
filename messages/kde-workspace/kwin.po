@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-16 03:40+0100\n"
+"POT-Creation-Date: 2020-01-17 03:57+0100\n"
 "PO-Revision-Date: 2020-01-16 14:36+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -35,10 +35,10 @@ msgstr "Kenduest Lee,Tsung-Chien Ho, Jeff Huang, Yi-Jyun Pan"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
-"kenduest@i18n.linux.org.tw,iitze@hotmail.com, s8321414@gmail.com,"
-" pan93412@gmail.com"
+"kenduest@i18n.linux.org.tw,iitze@hotmail.com, s8321414@gmail.com, "
+"pan93412@gmail.com"
 
-#: abstract_client.cpp:1951
+#: abstract_client.cpp:2541
 #, kde-format
 msgctxt "Application is not responding, appended to window title"
 msgid "(Not Responding)"
@@ -66,7 +66,7 @@ msgstr "夜色模式開啟"
 msgid "Toggle Night Color"
 msgstr "切換夜色模式"
 
-#: composite.cpp:865
+#: composite.cpp:930
 #, kde-format
 msgid ""
 "Desktop effects have been suspended by another application.<br/>You can "
@@ -1639,7 +1639,8 @@ msgstr ""
 msgid ""
 "kwin: unable to claim manager selection, another wm running? (try using --"
 "replace)\n"
-msgstr "kwin：無法宣告管理程式選擇區，是否有其他 wm 在執行？(嘗試使用 --replace)\n"
+msgstr ""
+"kwin：無法宣告管理程式選擇區，是否有其他 wm 在執行？(嘗試使用 --replace)\n"
 
 #: main_x11.cpp:243
 #, kde-format
@@ -1688,7 +1689,7 @@ msgstr "水平"
 msgid "Automatic screen rotation is disabled"
 msgstr "自動螢幕旋轉已經停用"
 
-#: plugins/scenes/opengl/scene_opengl.cpp:540
+#: plugins/scenes/opengl/scene_opengl.cpp:545
 #, kde-format
 msgid "Desktop effects were restarted due to a graphics reset"
 msgstr "桌面效果會重新啟動，因為圖形已重置"
