@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevcppdebugger\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-28 02:35+0200\n"
+"POT-Creation-Date: 2020-01-18 02:44+0100\n"
 "PO-Revision-Date: 2019-09-30 18:42+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -89,7 +89,7 @@ msgstr "開啟追蹤"
 msgid "Custom format string"
 msgstr "自訂格式字串"
 
-#: debugsession.cpp:181
+#: debugsession.cpp:182
 #, kde-format
 msgid ""
 "No environment profile specified, looks like a broken configuration, please "
@@ -103,20 +103,10 @@ msgstr ""
 msgid "<b>You need gdb 7.0.0 or higher.</b><br />You are using: %1"
 msgstr "<b>您需要 gdb 7.0.0 版以上。</b><br />您目前的版本是：%1"
 
-#: debugsession.cpp:295
-#, kde-format
-msgid "gdb error"
-msgstr "gdb 錯誤"
-
 #: debugsession.cpp:305
 #, kde-format
 msgid "<b>Could not start debugger:</b><br />"
 msgstr "<b>無法啟動除錯器：</b><br />"
-
-#: debugsession.cpp:307 debugsession.cpp:323
-#, kde-format
-msgid "Startup error"
-msgstr "啟動錯誤"
 
 #: debugsession.cpp:319
 #, kde-format
@@ -125,15 +115,10 @@ msgid ""
 "<p><tt>%1"
 msgstr "<b>無法載入核心檔案</b><p>除錯器回報了以下錯誤：<p><tt>%1"
 
-#: gdb.cpp:80
+#: gdb.cpp:81
 #, kde-format
 msgid "Could not locate the debugging shell '%1'."
 msgstr "無法找到除錯 shell %1。"
-
-#: gdb.cpp:81
-#, kde-format
-msgid "Debugging Shell Not Found"
-msgstr "找不到除錯 Shell"
 
 #: gdbconfigpage.cpp:108
 #, kde-format
@@ -539,3 +524,12 @@ msgstr "新增記憶體檢視器"
 msgctxt "@info:tooltip"
 msgid "Open a new memory viewer."
 msgstr "開啟新的記憶體檢視器。"
+
+#~ msgid "gdb error"
+#~ msgstr "gdb 錯誤"
+
+#~ msgid "Startup error"
+#~ msgstr "啟動錯誤"
+
+#~ msgid "Debugging Shell Not Found"
+#~ msgstr "找不到除錯 Shell"

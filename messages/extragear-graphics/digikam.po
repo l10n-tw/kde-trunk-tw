@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-17 02:42+0100\n"
+"POT-Creation-Date: 2020-01-18 02:41+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -507,7 +507,7 @@ msgstr ""
 
 #: core/app/items/overlays/itemcoordinatesoverlay.cpp:102
 #: core/showfoto/thumbbar/showfotocoordinatesoverlay.cpp:103
-#: core/utilities/import/items/importoverlays.cpp:104
+#: core/utilities/import/items/importoverlays.cpp:106
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "This item has geolocation information."
@@ -521,7 +521,7 @@ msgstr ""
 
 #: core/app/items/overlays/itemrotationoverlay.cpp:68
 #: core/app/views/preview/itempreviewview.cpp:162
-#: core/utilities/import/items/importoverlays.cpp:436
+#: core/utilities/import/items/importoverlays.cpp:444
 #: core/utilities/import/views/importpreviewview.cpp:195
 #, kde-format
 msgctxt "@info:tooltip"
@@ -530,7 +530,7 @@ msgstr "向左旋轉"
 
 #: core/app/items/overlays/itemrotationoverlay.cpp:72
 #: core/app/views/preview/itempreviewview.cpp:163
-#: core/utilities/import/items/importoverlays.cpp:440
+#: core/utilities/import/items/importoverlays.cpp:448
 #: core/utilities/import/views/importpreviewview.cpp:196
 #, kde-format
 msgctxt "@info:tooltip"
@@ -726,7 +726,7 @@ msgstr "前往"
 #: core/app/main/digikamapp_setup.cpp:364
 #: core/libs/settings/applicationsettings_miscs.cpp:401
 #: core/utilities/queuemanager/main/queuemgrwindow.cpp:113
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:247
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:249
 #: core/utilities/queuemanager/views/workflowlist.cpp:123
 #, kde-format
 msgid "Batch Queue Manager"
@@ -874,9 +874,9 @@ msgstr[0] "將 %1 個檔案移至垃圾桶"
 #: core/app/items/utils/itemcategorydrawer.cpp:262
 #: core/app/items/utils/itemcategorydrawer.cpp:344
 #: core/app/items/utils/itemcategorydrawer.cpp:361
-#: core/utilities/import/items/importcategorydrawer.cpp:195
-#: core/utilities/import/items/importcategorydrawer.cpp:216
-#: core/utilities/import/items/importcategorydrawer.cpp:225
+#: core/utilities/import/items/importcategorydrawer.cpp:205
+#: core/utilities/import/items/importcategorydrawer.cpp:226
+#: core/utilities/import/items/importcategorydrawer.cpp:235
 #, kde-format
 msgid "1 Item"
 msgid_plural "%1 Items"
@@ -991,7 +991,7 @@ msgstr "大小："
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:86
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:197
 #: core/utilities/import/items/importtooltipfiller.cpp:84
-#: core/utilities/import/items/importtooltipfiller.cpp:179
+#: core/utilities/import/items/importtooltipfiller.cpp:180
 #, kde-format
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
@@ -1054,14 +1054,14 @@ msgstr "外觀比例："
 #: core/libs/properties/import/importitempropertiestab.cpp:304
 #: core/libs/properties/itempropertiestab.cpp:311
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:128
-#: core/utilities/import/items/importtooltipfiller.cpp:125
+#: core/utilities/import/items/importtooltipfiller.cpp:126
 #, kde-format
 msgid "Photograph Properties"
 msgstr "相片屬性"
 
 #: core/app/items/utils/tooltipfiller.cpp:168
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:143
-#: core/utilities/import/items/importtooltipfiller.cpp:140
+#: core/utilities/import/items/importtooltipfiller.cpp:141
 #, kde-format
 msgid "Make/Model:"
 msgstr "製造商/型號："
@@ -1069,7 +1069,7 @@ msgstr "製造商/型號："
 #: core/app/items/utils/tooltipfiller.cpp:174
 #: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:176
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:149
-#: core/utilities/import/items/importtooltipfiller.cpp:146
+#: core/utilities/import/items/importtooltipfiller.cpp:147
 #, kde-format
 msgctxt "camera lens"
 msgid "Lens:"
@@ -1085,7 +1085,7 @@ msgstr "建立時間："
 
 #: core/app/items/utils/tooltipfiller.cpp:236
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:205
-#: core/utilities/import/items/importtooltipfiller.cpp:187
+#: core/utilities/import/items/importtooltipfiller.cpp:188
 #, kde-format
 msgid "Aperture/Focal:"
 msgstr "光圈/焦距："
@@ -1097,7 +1097,7 @@ msgstr "光圈/焦距："
 #: core/libs/properties/itempropertiessidebar.cpp:319
 #: core/libs/properties/itempropertiessidebardb.cpp:595
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:211
-#: core/utilities/import/items/importtooltipfiller.cpp:193
+#: core/utilities/import/items/importtooltipfiller.cpp:194
 #: core/utilities/slideshow/slideproperties.cpp:212
 #, kde-format
 msgid "%1 ISO"
@@ -1105,7 +1105,7 @@ msgstr "%1 ISO"
 
 #: core/app/items/utils/tooltipfiller.cpp:249
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:218
-#: core/utilities/import/items/importtooltipfiller.cpp:200
+#: core/utilities/import/items/importtooltipfiller.cpp:201
 #, kde-format
 msgid "Exposure/Sensitivity:"
 msgstr "曝光/靈敏度："
@@ -1118,7 +1118,7 @@ msgstr "模式/程式："
 
 #: core/app/items/utils/tooltipfiller.cpp:289
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:258
-#: core/utilities/import/items/importtooltipfiller.cpp:213
+#: core/utilities/import/items/importtooltipfiller.cpp:214
 #, kde-format
 msgctxt "camera flash settings"
 msgid "Flash:"
@@ -1126,7 +1126,7 @@ msgstr "閃光："
 
 #: core/app/items/utils/tooltipfiller.cpp:301
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:270
-#: core/utilities/import/items/importtooltipfiller.cpp:225
+#: core/utilities/import/items/importtooltipfiller.cpp:226
 #, kde-format
 msgid "White Balance:"
 msgstr "白平衡："
@@ -2887,8 +2887,8 @@ msgid "no item"
 msgstr "沒有項目"
 
 #: core/app/views/sidebar/timelinesidebarwidget.cpp:429
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:487
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:513
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:495
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:521
 #, kde-format
 msgid "1 item"
 msgid_plural "%1 items"
@@ -3705,7 +3705,7 @@ msgstr "單位"
 #: core/libs/dplugins/widgets/ditemslist.cpp:295
 #: core/libs/dtrash/dtrashitemmodel.cpp:253
 #: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:533
-#: core/utilities/queuemanager/views/queuelist.cpp:313
+#: core/utilities/queuemanager/views/queuelist.cpp:317
 #, kde-format
 msgid "Thumbnail"
 msgstr "縮圖"
@@ -14666,7 +14666,7 @@ msgstr[0] "%1 個項目"
 #: core/dplugins/generic/tools/mediaserver/dmediaserverdlg.cpp:269
 #: core/dplugins/generic/view/presentation/audio/presentationaudiowidget.ui:36
 #: core/dplugins/generic/view/presentation/widgets/presentationctrlwidget.ui:39
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:341
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:343
 #, kde-format
 msgid "Stop"
 msgstr "停止"
@@ -21774,7 +21774,7 @@ msgstr "後製"
 
 #: core/dplugins/rawimport/native/rawimport.cpp:180
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:317
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:258
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:272
 #, kde-format
 msgid "Raw Decoding"
 msgstr "Raw 解碼"
@@ -24148,7 +24148,7 @@ msgid ""
 msgstr ""
 
 #: core/libs/dialogs/deletedialog.cpp:182
-#: core/utilities/import/dialogs/cameramessagebox.cpp:145
+#: core/utilities/import/dialogs/cameramessagebox.cpp:147
 #, kde-format
 msgid "Thumb"
 msgstr "縮圖"
@@ -25689,7 +25689,7 @@ msgid "Instant"
 msgstr ""
 
 #: core/libs/dimg/filters/fx/colorfxsettings.cpp:399
-#: core/utilities/queuemanager/views/queuelist.cpp:314
+#: core/utilities/queuemanager/views/queuelist.cpp:318
 #, fuzzy, kde-format
 #| msgid "Origin"
 msgid "Original"
@@ -28278,7 +28278,7 @@ msgid "&Start"
 msgstr "起始值："
 
 #: core/libs/dplugins/widgets/ditemslist.cpp:296
-#: core/utilities/import/dialogs/cameramessagebox.cpp:145
+#: core/utilities/import/dialogs/cameramessagebox.cpp:147
 #: core/utilities/searchwindow/searchfields.cpp:157
 #, kde-format
 msgid "File Name"
@@ -37295,7 +37295,7 @@ msgstr ""
 "a> - 一種用於數位相片的新式標準，目的是取代 IPTC。</p>"
 
 #: core/showfoto/setup/showfotosetupmetadata.cpp:157
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:249
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:263
 #: core/utilities/setup/camera/setupcamera.cpp:396
 #: core/utilities/setup/setupicc.cpp:505
 #, kde-format
@@ -37750,7 +37750,7 @@ msgid "&Abort"
 msgstr "放棄(&A)"
 
 #: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:95
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:938
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:958
 #, kde-format
 msgid "Processing..."
 msgstr "正在處理..."
@@ -38767,7 +38767,7 @@ msgid ""
 msgstr ""
 
 #: core/utilities/facemanagement/widgets/facescanwidget.cpp:240
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:235
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:249
 #, kde-format
 msgctxt "@option:check"
 msgid "Work on all processor cores"
@@ -41830,30 +41830,30 @@ msgctxt "@action:button"
 msgid "Capture"
 msgstr "擷取"
 
-#: core/utilities/import/items/importcategorydrawer.cpp:211
+#: core/utilities/import/items/importcategorydrawer.cpp:221
 #, kde-format
 msgid "Unknown Format"
 msgstr "未知格式"
 
-#: core/utilities/import/items/importoverlays.cpp:173
+#: core/utilities/import/items/importoverlays.cpp:177
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "This item is locked."
 msgstr "此項目已鎖定。"
 
-#: core/utilities/import/items/importoverlays.cpp:242
+#: core/utilities/import/items/importoverlays.cpp:248
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "This item has an unknown download status"
 msgstr "此項目的下載狀態為新增"
 
-#: core/utilities/import/items/importoverlays.cpp:248
+#: core/utilities/import/items/importoverlays.cpp:254
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "This item has never been downloaded"
 msgstr "此項目的下載狀態為已下載"
 
-#: core/utilities/import/items/importoverlays.cpp:254
+#: core/utilities/import/items/importoverlays.cpp:260
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "This item has already been downloaded"
@@ -43405,148 +43405,148 @@ msgstr "尋找新項目"
 msgid "Thumbs"
 msgstr "縮圖"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:178
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:180
 #, kde-format
 msgid "Queues"
 msgstr "佇列"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:187
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:189
 #, kde-format
 msgid "Queue Settings"
 msgstr "佇列設定值"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:196
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:198
 #, kde-format
 msgid "Control Panel"
 msgstr "控制面板"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:205
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:207
 #, kde-format
 msgid "Assigned Tools"
 msgstr "指定的工具"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:214
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:216
 #, kde-format
 msgid "Tool Settings"
 msgstr "工具設定值"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:328
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:330
 #, kde-format
 msgid "Run"
 msgstr "執行"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:335
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:337
 #, kde-format
 msgid "Run all"
 msgstr ""
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:347
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:349
 #, kde-format
 msgid "New Queue"
 msgstr "新增佇列"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:351
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:353
 #, kde-format
 msgid "Remove Queue"
 msgstr "移除佇列"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:356
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:359
 #, kde-format
 msgid "Save Workflow"
 msgstr "儲存工作流"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:360
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:363
 #, kde-format
 msgid "Remove items"
 msgstr "移除項目"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:366
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:369
 #, kde-format
 msgid "Remove processed items"
 msgstr "移除已處理的項目"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:371
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:374
 #, kde-format
 msgid "Clear Queue"
 msgstr "清除佇列"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:382
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:385
 #, kde-format
 msgid "Move up"
 msgstr "上移"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:386
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:389
 #, kde-format
 msgid "Move down"
 msgstr "下移"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:390
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:393
 #, kde-format
 msgid "Remove tool"
 msgstr "移除工具"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:394
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:397
 #, kde-format
 msgid "Clear List"
 msgstr "清除清單"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:478
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:486
 #, kde-format
 msgid "Current Queue: "
 msgstr "目前佇列："
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:483
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:509
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:491
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:517
 #, kde-format
 msgid "No items"
 msgstr "沒有任何項目"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:496
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:522
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:504
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:530
 #, kde-format
 msgid "No tasks"
 msgstr "沒有任務"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:500
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:526
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:508
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:534
 #, kde-format
 msgid "1 task"
 msgid_plural "%1 tasks"
 msgstr[0] "%1 項任務"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:504
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:512
 #, fuzzy, kde-format
 msgid "Total: "
 msgstr "總計：%1（%）"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:534
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:542
 #, kde-format
 msgctxt "batch queue manager is ready to use"
 msgid "Ready"
 msgstr "就緒"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:567
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:575
 #, kde-format
 msgid "Processing under progress"
 msgstr "處理進行中"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:568
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:576
 #, kde-format
 msgid "Batch Queue Manager is running. Do you want to cancel current job?"
 msgstr "批次佇列管理員正執行中。您要取消目前的工作嗎？"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:667
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:676
 #, fuzzy, kde-format
 msgid "There is no queue to be run."
 msgstr "在佇列中沒有要處理的項目。"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:671
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:680
 #, fuzzy, kde-format
 #| msgid "There are no items to process in the queues."
 msgid "There is no item to process in the current queue (%1)."
 msgstr "在佇列中沒有要處理的項目。"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:677
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:686
 #, fuzzy, kde-format
 #| msgid ""
 #| "Custom renaming rules are invalid for Queues listed below. Please fix "
@@ -43554,7 +43554,7 @@ msgstr "在佇列中沒有要處理的項目。"
 msgid "Custom renaming rule is invalid for current queue (%1). Please fix it."
 msgstr "列在下面的佇列的自訂重新命名規則無效。請修正它們。"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:682
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:691
 #, fuzzy, kde-format
 #| msgid ""
 #| "Assigned batch tools list is empty for Queues listed below. Please assign "
@@ -43564,18 +43564,18 @@ msgid ""
 "tools."
 msgstr "下面列出的佇列所指定的批次工具清單是空的。請指定工具。"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:712
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:723
 #, kde-format
 msgid "There are no items to process in the queues."
 msgstr "在佇列中沒有要處理的項目。"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:874
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:884
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:894
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:904
 #, kde-format
 msgid "Processed items album settings"
 msgstr "已處理項目的相簿設定值"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:875
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:895
 #, kde-format
 msgid ""
 "Album to host processed items from queue \"%1\" is not set. Please select "
@@ -43584,7 +43584,7 @@ msgstr ""
 "尚未設定用來存放佇列「%1」中處理項目的相簿。請從佇列設定值面板中選擇一本相"
 "簿。"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:885
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:905
 #, kde-format
 msgid ""
 "Album to host processed items from queue \"%1\" is not available or not "
@@ -43593,27 +43593,27 @@ msgstr ""
 "用來存放佇列「%1」中處理項目的相簿無法使用或不能寫入。請從佇列設定值面板中設"
 "定其他相簿。"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:960
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:982
 #, kde-format
 msgid "Failed to process item..."
 msgstr "處理項目失敗..."
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:972
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:995
 #, kde-format
 msgid "Process Cancelled..."
 msgstr "已取消處理..."
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:991
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:1015
 #, kde-format
 msgid "Item \"%1\" from queue \"%2\": %3"
 msgstr "佇列 \"%2\" 的項目 \"%1\"：%3"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:1019
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:1044
 #, kde-format
 msgid "Batch queue finished"
 msgstr "批次佇列已完成"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:1023
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:1048
 #, fuzzy, kde-format
 #| msgid "Batch queue finished"
 msgid "All batch queues finished"
@@ -43673,18 +43673,18 @@ msgstr "建立檔案失敗..."
 msgid "This is the list of batch tools assigned."
 msgstr "這是被指定的批次工具清單。"
 
-#: core/utilities/queuemanager/views/queuelist.cpp:296
+#: core/utilities/queuemanager/views/queuelist.cpp:300
 #, kde-format
 msgid "This is the list of images to batch process."
 msgstr "這是要批次處理的影像清單。"
 
-#: core/utilities/queuemanager/views/queuelist.cpp:315
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:169
+#: core/utilities/queuemanager/views/queuelist.cpp:319
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:183
 #, kde-format
 msgid "Target"
 msgstr "目標"
 
-#: core/utilities/queuemanager/views/queuepool.cpp:412
+#: core/utilities/queuemanager/views/queuepool.cpp:432
 #, fuzzy, kde-format
 msgid ""
 "There is still 1 unprocessed item in \"%2\".\n"
@@ -43694,60 +43694,60 @@ msgid_plural ""
 "Do you want to close this queue?"
 msgstr[0] "在「%2」中還有 %1 個未處理的項目。您確定要關閉這個佇列嗎？"
 
-#: core/utilities/queuemanager/views/queuepool.cpp:477
+#: core/utilities/queuemanager/views/queuepool.cpp:498
 #, kde-format
 msgid ""
 "Custom renaming rules are invalid for Queues listed below. Please fix them."
 msgstr "列在下面的佇列的自訂重新命名規則無效。請修正它們。"
 
-#: core/utilities/queuemanager/views/queuepool.cpp:508
+#: core/utilities/queuemanager/views/queuepool.cpp:529
 #, kde-format
 msgid ""
 "Assigned batch tools list is empty for Queues listed below. Please assign "
 "tools."
 msgstr "下面列出的佇列所指定的批次工具清單是空的。請指定工具。"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:167
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:181
 #, kde-format
 msgid "Use original Album"
 msgstr "使用原始專輯"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:179
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:193
 #, kde-format
 msgid "Use original filenames"
 msgstr "使用原始檔名"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:180
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:194
 #, kde-format
 msgid "Turn on this option to use original filenames without modifications."
 msgstr "啟用這個選項會不修改使用原始檔名。"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:183
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:197
 #, kde-format
 msgid "Customize filenames:"
 msgstr "自訂檔名："
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:199
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:213
 #, kde-format
 msgid "File Renaming"
 msgstr "檔案重新命名"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:211
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:225
 #, kde-format
 msgid "Raw Files Loading:"
 msgstr "Raw 檔案載入："
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:215
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:229
 #, kde-format
 msgid "Perform RAW demosaicing"
 msgstr "執行 RAW 的去馬賽克"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:216
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:230
 #, kde-format
 msgid "Extract embedded preview (faster)"
 msgstr "展開內嵌的預覽 (較快)"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:231
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:245
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Save Changes as a New Version"
@@ -43755,7 +43755,7 @@ msgctxt "@option:check"
 msgid "Save image as a newly created branch"
 msgstr "將變更存成新版本"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:232
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:246
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip"
 #| msgid "Save the current modifications to a new version of the file"
@@ -43764,7 +43764,7 @@ msgid ""
 "the file"
 msgstr "將目前的變更存成此檔案的新版本"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:236
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:250
 #, kde-format
 msgid ""
 "Turn on this option to use all CPU core from your computer to process more "
@@ -43773,7 +43773,7 @@ msgstr ""
 "開啟此選項的話，在您的佇列中有一個以上的項目時，會使用您電腦所有的 CPU 核心來"
 "處理。"
 
-#: core/utilities/queuemanager/views/queuesettingsview.cpp:318
+#: core/utilities/queuemanager/views/queuesettingsview.cpp:336
 #, kde-format
 msgid "Saving Images"
 msgstr "儲存影像"
@@ -43788,7 +43788,7 @@ msgstr "將目前工具的設定值重設為預設值。"
 msgid "Custom Tools"
 msgstr "自訂工具"
 
-#: core/utilities/queuemanager/views/toolslistview.cpp:380
+#: core/utilities/queuemanager/views/toolslistview.cpp:383
 #, kde-format
 msgid "Assign tools"
 msgstr "指定工具"
@@ -43824,7 +43824,7 @@ msgid "History"
 msgstr "歷史"
 
 #: core/utilities/queuemanager/views/workflowdlg.cpp:77
-#: core/utilities/queuemanager/views/workflowlist.cpp:250
+#: core/utilities/queuemanager/views/workflowlist.cpp:253
 #, kde-format
 msgid "Edit Workflow"
 msgstr "編輯工作流"
@@ -43852,22 +43852,22 @@ msgid ""
 "version of a tool."
 msgstr "有些工作流無法從您的設定檔載入，因為工具版本不相容。"
 
-#: core/utilities/queuemanager/views/workflowlist.cpp:249
+#: core/utilities/queuemanager/views/workflowlist.cpp:252
 #, kde-format
 msgid "Assign Workflow to current queue"
 msgstr "指定工作流到目前佇列"
 
-#: core/utilities/queuemanager/views/workflowlist.cpp:251
+#: core/utilities/queuemanager/views/workflowlist.cpp:254
 #, kde-format
 msgid "Delete Workflow"
 msgstr "刪除工作流"
 
-#: core/utilities/queuemanager/views/workflowlist.cpp:297
+#: core/utilities/queuemanager/views/workflowlist.cpp:300
 #, kde-format
 msgid "Delete Workflow?"
 msgstr "要刪除工作流嗎？"
 
-#: core/utilities/queuemanager/views/workflowlist.cpp:298
+#: core/utilities/queuemanager/views/workflowlist.cpp:301
 #, kde-format
 msgid "Are you sure you want to delete the selected workflow \"%1\"?"
 msgstr "您確定要刪除選擇的工作流「%1」？"

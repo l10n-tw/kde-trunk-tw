@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konversation\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-11 02:43+0100\n"
+"POT-Creation-Date: 2020-01-18 02:48+0100\n"
 "PO-Revision-Date: 2019-12-20 02:10+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -3374,27 +3374,27 @@ msgid ""
 "Could not send DCC RECV resume request to the partner via the IRC server."
 msgstr "無法透過 IRC 伺服器傳送 DCC RECV 回復要求給同伴。"
 
-#: src/dcc/transferrecv.cpp:644
+#: src/dcc/transferrecv.cpp:643
 #, kde-format
 msgid "Unexpected response from remote host"
 msgstr "不可預料的遠端主機應答"
 
-#: src/dcc/transferrecv.cpp:704 src/dcc/transfersend.cpp:461
+#: src/dcc/transferrecv.cpp:703 src/dcc/transfersend.cpp:461
 #, kde-format
 msgid "Could not accept the connection (socket error)."
 msgstr "無法接收連線（Socket 錯誤）。"
 
-#: src/dcc/transferrecv.cpp:795
+#: src/dcc/transferrecv.cpp:794
 #, kde-format
 msgid "Transfer error"
 msgstr "傳輸錯誤"
 
-#: src/dcc/transferrecv.cpp:811
+#: src/dcc/transferrecv.cpp:810
 #, kde-format
 msgid "KIO error: %1"
 msgstr "KIO 發生錯誤：%1"
 
-#: src/dcc/transferrecv.cpp:832 src/dcc/transfersend.cpp:598
+#: src/dcc/transferrecv.cpp:831 src/dcc/transfersend.cpp:598
 #, kde-format
 msgid "Timed out"
 msgstr "逾時"

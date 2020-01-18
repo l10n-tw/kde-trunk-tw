@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevprojectmanagerview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-28 02:42+0200\n"
+"POT-Creation-Date: 2020-01-18 02:44+0100\n"
 "PO-Revision-Date: 2014-04-23 15:01+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -168,106 +168,106 @@ msgstr "專案概觀"
 msgid "Build Items:"
 msgstr "編譯項目："
 
-#: projectmanagerviewplugin.cpp:153
+#: projectmanagerviewplugin.cpp:154
 #, kde-format
 msgid "Build all Projects"
 msgstr "編譯所有的專案"
 
-#: projectmanagerviewplugin.cpp:158
+#: projectmanagerviewplugin.cpp:159
 #, kde-format
 msgid "Build Selection"
 msgstr "編譯選取的項目"
 
-#: projectmanagerviewplugin.cpp:159
+#: projectmanagerviewplugin.cpp:160
 #, kde-format
 msgid "Build"
 msgstr "編譯"
 
-#: projectmanagerviewplugin.cpp:165
+#: projectmanagerviewplugin.cpp:166
 #, kde-format
 msgid "Install Selection"
 msgstr "安裝選取的項目"
 
-#: projectmanagerviewplugin.cpp:166
+#: projectmanagerviewplugin.cpp:167
 #, kde-format
 msgid "Install"
 msgstr "安裝"
 
-#: projectmanagerviewplugin.cpp:172
+#: projectmanagerviewplugin.cpp:173
 #, kde-format
 msgid "Clean Selection"
 msgstr "清除選取的項目"
 
-#: projectmanagerviewplugin.cpp:173
+#: projectmanagerviewplugin.cpp:174
 #, kde-format
 msgid "Clean"
 msgstr "清除"
 
-#: projectmanagerviewplugin.cpp:178
+#: projectmanagerviewplugin.cpp:179
 #, kde-format
 msgid "Configure Selection"
 msgstr "設定選取的項目"
 
-#: projectmanagerviewplugin.cpp:180
+#: projectmanagerviewplugin.cpp:181
 #, kde-format
 msgid "Configure"
 msgstr "設定"
 
-#: projectmanagerviewplugin.cpp:185
+#: projectmanagerviewplugin.cpp:186
 #, kde-format
 msgid "Prune Selection"
 msgstr "移除選取的項目"
 
-#: projectmanagerviewplugin.cpp:186
+#: projectmanagerviewplugin.cpp:187
 #, kde-format
 msgid "Prune"
 msgstr "移除"
 
-#: projectmanagerviewplugin.cpp:197
+#: projectmanagerviewplugin.cpp:198
 #, kde-format
 msgid "Projects"
 msgstr "專案"
 
-#: projectmanagerviewplugin.cpp:288
+#: projectmanagerviewplugin.cpp:289
 #, fuzzy, kde-format
 #| msgid "Create File"
 msgid "Create &File..."
 msgstr "建立檔案"
 
-#: projectmanagerviewplugin.cpp:294
+#: projectmanagerviewplugin.cpp:295
 #, fuzzy, kde-format
 #| msgid "Create Folder"
 msgid "Create F&older..."
 msgstr "建立資料夾"
 
-#: projectmanagerviewplugin.cpp:301
+#: projectmanagerviewplugin.cpp:302
 #, fuzzy, kde-format
 #| msgid "Build"
 msgctxt "@action"
 msgid "&Build"
 msgstr "編譯"
 
-#: projectmanagerviewplugin.cpp:305
+#: projectmanagerviewplugin.cpp:306
 #, fuzzy, kde-format
 #| msgid "Install"
 msgctxt "@action"
 msgid "&Install"
 msgstr "安裝"
 
-#: projectmanagerviewplugin.cpp:309
+#: projectmanagerviewplugin.cpp:310
 #, fuzzy, kde-format
 #| msgid "Clean"
 msgctxt "@action"
 msgid "&Clean"
 msgstr "清除"
 
-#: projectmanagerviewplugin.cpp:313
+#: projectmanagerviewplugin.cpp:314
 #, fuzzy, kde-format
 #| msgid "Add to Build Set"
 msgid "&Add to Build Set"
 msgstr "新增到編譯集"
 
-#: projectmanagerviewplugin.cpp:320
+#: projectmanagerviewplugin.cpp:321
 #, fuzzy, kde-format
 #| msgid "Close Project"
 #| msgid_plural "Close Projects"
@@ -275,83 +275,83 @@ msgid "C&lose Project"
 msgid_plural "Close Projects"
 msgstr[0] "關閉專案"
 
-#: projectmanagerviewplugin.cpp:326
+#: projectmanagerviewplugin.cpp:327
 #, fuzzy, kde-format
 #| msgid "Reload"
 msgid "&Reload"
 msgstr "重新載入"
 
-#: projectmanagerviewplugin.cpp:357
+#: projectmanagerviewplugin.cpp:358
 #, fuzzy, kde-format
 #| msgid "Remove"
 msgid "Remo&ve"
 msgstr "移除"
 
-#: projectmanagerviewplugin.cpp:361
+#: projectmanagerviewplugin.cpp:362
 #, fuzzy, kde-format
 #| msgid "Rename..."
 msgid "Re&name..."
 msgstr "重新命名..."
 
-#: projectmanagerviewplugin.cpp:367
+#: projectmanagerviewplugin.cpp:368
 #, fuzzy, kde-format
 #| msgid "Remove From Target"
 msgid "Remove From &Target"
 msgstr "從目標移除"
 
-#: projectmanagerviewplugin.cpp:554
+#: projectmanagerviewplugin.cpp:555
 #, kde-format
 msgid "Create Folder in %1"
 msgstr "在 %1 建立資料夾"
 
-#: projectmanagerviewplugin.cpp:554
+#: projectmanagerviewplugin.cpp:555
 #, fuzzy, kde-format
 #| msgid "Folder Name"
 msgid "Folder name:"
 msgstr "資料夾名稱"
 
-#: projectmanagerviewplugin.cpp:605
+#: projectmanagerviewplugin.cpp:606
 #, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "您真的要刪除這 %1 個項目嗎？"
 
-#: projectmanagerviewplugin.cpp:608
+#: projectmanagerviewplugin.cpp:609
 #, kde-format
 msgid "Delete Files"
 msgstr "刪除檔案"
 
-#: projectmanagerviewplugin.cpp:661
+#: projectmanagerviewplugin.cpp:662
 #, kde-format
 msgid "Rename..."
 msgstr "重新命名..."
 
-#: projectmanagerviewplugin.cpp:662
+#: projectmanagerviewplugin.cpp:663
 #, kde-format
 msgid "New name for '%1':"
 msgstr "%1 的新名稱："
 
-#: projectmanagerviewplugin.cpp:673
+#: projectmanagerviewplugin.cpp:675
 #, kde-format
 msgid "There is already a file named '%1'"
 msgstr "已經有名為 %1 的檔案了"
 
-#: projectmanagerviewplugin.cpp:676
+#: projectmanagerviewplugin.cpp:678
 #, kde-format
 msgid "Could not rename '%1'"
 msgstr "無法重新命名 %1。"
 
-#: projectmanagerviewplugin.cpp:679
+#: projectmanagerviewplugin.cpp:681
 #, kde-format
 msgid "'%1' is not a valid file name"
 msgstr "%1 不是合法的檔名"
 
-#: projectmanagerviewplugin.cpp:689
+#: projectmanagerviewplugin.cpp:695
 #, kde-format
 msgid "Create File in %1"
 msgstr "在 %1 建立檔案"
 
-#: projectmanagerviewplugin.cpp:689
+#: projectmanagerviewplugin.cpp:695
 #, kde-format
 msgid "File name:"
 msgstr "檔案名稱："

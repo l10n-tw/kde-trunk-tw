@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplatoui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-17 02:39+0100\n"
+"POT-Creation-Date: 2020-01-18 02:37+0100\n"
 "PO-Revision-Date: 2011-12-26 08:35+0800\n"
 "Last-Translator: Franklin Weng <franklin@mail.everfocus.com.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@lists.linux.org.tw>\n"
@@ -550,12 +550,12 @@ msgstr "完成-完成"
 msgid "Start-Start"
 msgstr "開始-開始"
 
-#: kernel/kptresourcerequest.cpp:858
+#: kernel/kptresourcerequest.cpp:865
 #, kde-format
 msgid "Could not match effort. Want: %1 got: %2"
 msgstr "無法符合負擔。需要：%1，取得：%2"
 
-#: kernel/kptresourcerequest.cpp:861
+#: kernel/kptresourcerequest.cpp:868
 #, kde-format
 msgid "Resource %1 available from %2 to %3"
 msgstr "資源 %1 在 %2 到 %3 間可取得"
@@ -1558,13 +1558,13 @@ msgstr ""
 msgid "Default Author Profile"
 msgstr ""
 
-#: models/AllocatedResourceItemModel.cpp:153 models/kptnodeitemmodel.cpp:2293
+#: models/AllocatedResourceItemModel.cpp:148 models/kptnodeitemmodel.cpp:2293
 #, kde-kuit-format
 msgctxt "@title:column"
 msgid "Allocation"
 msgstr "配置"
 
-#: models/AllocatedResourceItemModel.cpp:170
+#: models/AllocatedResourceItemModel.cpp:165
 #: models/kptresourceallocationmodel.cpp:123
 #: models/kptresourceallocationmodel.cpp:156
 #: models/kptresourceallocationmodel.cpp:511
@@ -1573,7 +1573,7 @@ msgctxt "<value>%"
 msgid "%1%"
 msgstr "%1%"
 
-#: models/AllocatedResourceItemModel.cpp:174
+#: models/AllocatedResourceItemModel.cpp:169
 #: models/kptresourceallocationmodel.cpp:130
 #: models/kptresourceallocationmodel.cpp:517
 #, kde-kuit-format
@@ -4821,21 +4821,21 @@ msgctxt "(qtundo-format)"
 msgid "Modify resourcegroup type"
 msgstr "變更資源群組型態"
 
-#: models/ResourceGroupItemModel.cpp:572 models/ResourceItemModel.cpp:784
+#: models/ResourceGroupItemModel.cpp:572 models/ResourceItemModel.cpp:802
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Add resource from address book"
 msgid_plural "Add %1 resources from address book"
 msgstr[0] "從通訊錄新增 %1 個資源"
 
-#: models/ResourceGroupItemModel.cpp:633 models/ResourceItemModel.cpp:846
+#: models/ResourceGroupItemModel.cpp:633 models/ResourceItemModel.cpp:864
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Move resource"
 msgid_plural "Move %1 resources"
 msgstr[0] "移動 %1 個資源"
 
-#: models/ResourceGroupItemModel.cpp:652 models/ResourceItemModel.cpp:865
+#: models/ResourceGroupItemModel.cpp:652 models/ResourceItemModel.cpp:883
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Copy resource"
@@ -4847,7 +4847,7 @@ msgctxt "(qtundo-format)"
 msgid "Add resource group"
 msgstr "新增資源群組"
 
-#: models/ResourceGroupItemModel.cpp:763 models/ResourceItemModel.cpp:968
+#: models/ResourceGroupItemModel.cpp:763 models/ResourceItemModel.cpp:981
 msgctxt "(qtundo-format)"
 msgid "Add resource"
 msgstr "新增資源"
@@ -4903,12 +4903,12 @@ msgstr ""
 msgid "TODO"
 msgstr ""
 
-#: models/ResourceItemModel.cpp:355
+#: models/ResourceItemModel.cpp:370
 msgctxt "(qtundo-format)"
 msgid "Modify resource name"
 msgstr "變更資源名稱"
 
-#: models/ResourceItemModel.cpp:358
+#: models/ResourceItemModel.cpp:373
 #, fuzzy
 #| msgctxt "(qtundo-format)"
 #| msgid "Modify resource allocations"
@@ -4916,52 +4916,52 @@ msgctxt "(qtundo-format)"
 msgid "Modify resource auto allocate"
 msgstr "變更資源配置"
 
-#: models/ResourceItemModel.cpp:378
+#: models/ResourceItemModel.cpp:393
 msgctxt "(qtundo-format)"
 msgid "Modify resource type"
 msgstr "變更資源型態"
 
-#: models/ResourceItemModel.cpp:392
+#: models/ResourceItemModel.cpp:407
 msgctxt "(qtundo-format)"
 msgid "Modify resource initials"
 msgstr "變更資源縮寫"
 
-#: models/ResourceItemModel.cpp:405
+#: models/ResourceItemModel.cpp:420
 msgctxt "(qtundo-format)"
 msgid "Modify resource email"
 msgstr "變更資源電子郵件信箱"
 
-#: models/ResourceItemModel.cpp:426
+#: models/ResourceItemModel.cpp:441
 msgctxt "(qtundo-format)"
 msgid "Modify resource calendar"
 msgstr "變更資源行事曆"
 
-#: models/ResourceItemModel.cpp:441
+#: models/ResourceItemModel.cpp:456
 msgctxt "(qtundo-format)"
 msgid "Modify resource available units"
 msgstr "變更資源可用單位"
 
-#: models/ResourceItemModel.cpp:454
+#: models/ResourceItemModel.cpp:469
 msgctxt "(qtundo-format)"
 msgid "Modify resource available from"
 msgstr "變更資源可用開始時間"
 
-#: models/ResourceItemModel.cpp:467
+#: models/ResourceItemModel.cpp:482
 msgctxt "(qtundo-format)"
 msgid "Modify resource available until"
 msgstr "變更資源可用結束時間"
 
-#: models/ResourceItemModel.cpp:480
+#: models/ResourceItemModel.cpp:495
 msgctxt "(qtundo-format)"
 msgid "Modify resource normal rate"
 msgstr "變更資源正常比率"
 
-#: models/ResourceItemModel.cpp:493
+#: models/ResourceItemModel.cpp:508
 msgctxt "(qtundo-format)"
 msgid "Modify resource overtime rate"
 msgstr "變更資源超時比率"
 
-#: models/ResourceItemModel.cpp:515
+#: models/ResourceItemModel.cpp:530
 msgctxt "(qtundo-format)"
 msgid "Modify resource account"
 msgstr "變更資源帳號"
@@ -5647,7 +5647,7 @@ msgstr "新增子行事曆"
 
 #: ui/kptcalendareditor.cpp:656 ui/kptdependencyeditor.cpp:2357
 #: ui/kptresourceeditor.cpp:304 ui/kptscheduleeditor.cpp:318
-#: ui/kpttaskeditor.cpp:895 ui/ResourceGroupEditor.cpp:299
+#: ui/kpttaskeditor.cpp:896 ui/ResourceGroupEditor.cpp:299
 #, kde-kuit-format
 msgctxt "@action"
 msgid "Delete"
@@ -5725,8 +5725,8 @@ msgid ""
 "printing using the context menu.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2328 ui/kpttaskeditor.cpp:866
-#: ui/kpttaskeditor.cpp:870
+#: ui/kptdependencyeditor.cpp:2328 ui/kpttaskeditor.cpp:867
+#: ui/kpttaskeditor.cpp:871
 #, kde-format
 msgid "Add Task"
 msgstr "新增工作"
@@ -5741,8 +5741,8 @@ msgstr "新增工作..."
 msgid "Add Milestone..."
 msgstr "新增里程碑..."
 
-#: ui/kptdependencyeditor.cpp:2343 ui/kpttaskeditor.cpp:881
-#: ui/kpttaskeditor.cpp:885
+#: ui/kptdependencyeditor.cpp:2343 ui/kpttaskeditor.cpp:882
+#: ui/kpttaskeditor.cpp:886
 #, kde-format
 msgid "Add Sub-Task"
 msgstr "新增子工作"
@@ -5757,7 +5757,7 @@ msgstr "新增子工作..."
 msgid "Add Sub-Milestone..."
 msgstr "新增子里程碑..."
 
-#: ui/kptdependencyeditor.cpp:2362 ui/kpttaskeditor.cpp:900
+#: ui/kptdependencyeditor.cpp:2362 ui/kpttaskeditor.cpp:901
 #, fuzzy, kde-kuit-format
 #| msgid "Open"
 msgctxt "@action"
@@ -5771,7 +5771,7 @@ msgid "Task Documents"
 msgstr "文件(&D)"
 
 #: ui/kptdocumentseditor.cpp:219 ui/kptscheduleeditor.cpp:658
-#: ui/kpttaskeditor.cpp:673
+#: ui/kpttaskeditor.cpp:674
 #, kde-format
 msgid "Edit..."
 msgstr "編輯..."
@@ -6185,7 +6185,7 @@ msgid ""
 "><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptganttview.cpp:991 ui/kpttaskeditor.cpp:922 ui/kpttaskeditor.cpp:1446
+#: ui/kptganttview.cpp:991 ui/kpttaskeditor.cpp:923 ui/kpttaskeditor.cpp:1447
 #, kde-format
 msgid "Show Project"
 msgstr "顯示專案"
@@ -7273,7 +7273,7 @@ msgid ""
 "responsible column"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:491
+#: ui/kpttaskeditor.cpp:492
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:tooltip"
 #| msgid "Task notes"
@@ -7281,7 +7281,7 @@ msgctxt "@title"
 msgid "Task Modules"
 msgstr "工作備忘"
 
-#: ui/kpttaskeditor.cpp:492
+#: ui/kpttaskeditor.cpp:493
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -7289,7 +7289,7 @@ msgid ""
 "the project"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:517
+#: ui/kpttaskeditor.cpp:518
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -7300,37 +7300,37 @@ msgid ""
 "para><para><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:875
+#: ui/kpttaskeditor.cpp:876
 #, kde-format
 msgid "Add Milestone"
 msgstr "新增里程碑"
 
-#: ui/kpttaskeditor.cpp:890
+#: ui/kpttaskeditor.cpp:891
 #, kde-format
 msgid "Add Sub-Milestone"
 msgstr "新增子里程碑"
 
-#: ui/kpttaskeditor.cpp:905
+#: ui/kpttaskeditor.cpp:906
 #, kde-format
 msgid "Indent Task"
 msgstr "縮排工作"
 
-#: ui/kpttaskeditor.cpp:909
+#: ui/kpttaskeditor.cpp:910
 #, kde-format
 msgid "Unindent Task"
 msgstr "取消縮排工作"
 
-#: ui/kpttaskeditor.cpp:913
+#: ui/kpttaskeditor.cpp:914
 #, kde-format
 msgid "Move Up"
 msgstr "上移"
 
-#: ui/kpttaskeditor.cpp:917
+#: ui/kpttaskeditor.cpp:918
 #, kde-format
 msgid "Move Down"
 msgstr "下移"
 
-#: ui/kpttaskeditor.cpp:1105
+#: ui/kpttaskeditor.cpp:1106
 #, fuzzy, kde-format
 #| msgid "Indent Task"
 msgctxt "(qtundo-format)"
@@ -7338,7 +7338,7 @@ msgid "Indent task"
 msgid_plural "Indent %1 tasks"
 msgstr[0] "縮排工作"
 
-#: ui/kpttaskeditor.cpp:1124
+#: ui/kpttaskeditor.cpp:1125
 #, fuzzy, kde-format
 #| msgid "Unindent Task"
 msgctxt "(qtundo-format)"
@@ -7346,7 +7346,7 @@ msgid "Unindent task"
 msgid_plural "Unindent %1 tasks"
 msgstr[0] "取消縮排工作"
 
-#: ui/kpttaskeditor.cpp:1278
+#: ui/kpttaskeditor.cpp:1279
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -7357,19 +7357,19 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, ui_publish)
-#: ui/kpttaskeditor.cpp:1769 ui/kptworkpackagesendpanel.ui:45
+#: ui/kpttaskeditor.cpp:1770 ui/kptworkpackagesendpanel.ui:45
 #, kde-format
 msgid "Publish..."
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:1773
+#: ui/kpttaskeditor.cpp:1774
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Send Work Packages"
 msgid "Work Packages..."
 msgstr "傳送工作套件"
 
-#: ui/kpttaskeditor.cpp:1791
+#: ui/kpttaskeditor.cpp:1792
 msgctxt "(qtundo-format)"
 msgid "Log Send Workpackage"
 msgstr "傳送紀錄套件"

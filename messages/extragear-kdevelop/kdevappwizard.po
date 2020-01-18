@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevappwizard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 02:46+0200\n"
+"POT-Creation-Date: 2020-01-18 02:44+0100\n"
 "PO-Revision-Date: 2018-12-02 21:08+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -36,17 +36,17 @@ msgctxt "Page for version control options"
 msgid "Version Control"
 msgstr "版本控制"
 
-#: appwizardplugin.cpp:72
+#: appwizardplugin.cpp:73
 #, kde-format
 msgid "New From Template..."
 msgstr "由樣本建立(&T)..."
 
-#: appwizardplugin.cpp:74
+#: appwizardplugin.cpp:75
 #, kde-format
 msgid "Generate a new project from a template"
 msgstr "從樣本產生新的專案"
 
-#: appwizardplugin.cpp:75
+#: appwizardplugin.cpp:76
 #, kde-format
 msgid ""
 "This starts KDevelop's application wizard. It helps you to generate a "
@@ -55,62 +55,58 @@ msgstr ""
 "啟動 KDevelop 的應用程式精靈。它能幫助您從許多樣本建立您的應用程式的基本框"
 "架。"
 
-#: appwizardplugin.cpp:108
-#, kde-format
-msgid "Could not create project from template\n"
+#: appwizardplugin.cpp:109
+#, fuzzy, kde-format
+#| msgid "Could not create project from template\n"
+msgid "Could not create project from template."
 msgstr "無法從樣本建立新專案\n"
 
-#: appwizardplugin.cpp:108
-#, kde-format
-msgid "Failed to create project"
-msgstr "無法建立新專案"
-
-#: appwizardplugin.cpp:134
+#: appwizardplugin.cpp:137
 #, kde-format
 msgid "Please see the Version Control tool view."
 msgstr "請看版本控制工具檢視。"
 
-#: appwizardplugin.cpp:136
+#: appwizardplugin.cpp:139
 #, kde-format
 msgid "Version Control System Error"
 msgstr "版本控制系統發生錯誤"
 
-#: appwizardplugin.cpp:152
+#: appwizardplugin.cpp:155
 #, kde-format
 msgid "Could not initialize DVCS repository"
 msgstr "無法初始化 DVCS 主目錄"
 
-#: appwizardplugin.cpp:160
+#: appwizardplugin.cpp:163
 #, kde-format
 msgid "Could not add files to the DVCS repository"
 msgstr "無法新增檔案到 DVCS 主目錄"
 
-#: appwizardplugin.cpp:167
+#: appwizardplugin.cpp:170
 #, kde-format
 msgid "Could not import project into %1."
 msgstr "無法匯入專案到 %1。"
 
-#: appwizardplugin.cpp:184
+#: appwizardplugin.cpp:187
 #, kde-format
 msgid "Could not import project"
 msgstr "無法匯入專案"
 
-#: appwizardplugin.cpp:192
+#: appwizardplugin.cpp:195
 #, kde-format
 msgid "Could not checkout imported project"
 msgstr "無法取出已匯入的專案"
 
-#: appwizardplugin.cpp:317
+#: appwizardplugin.cpp:320
 #, kde-format
 msgid "Could not create new project"
 msgstr "無法建立新專案"
 
-#: appwizardplugin.cpp:452
+#: appwizardplugin.cpp:455
 #, kde-format
 msgid "The file %1 cannot be created."
 msgstr "檔案 %1 無法被建立。"
 
-#: appwizardplugin.cpp:553
+#: appwizardplugin.cpp:556
 #, kde-format
 msgid "Project Templates"
 msgstr "專案樣本"
@@ -201,3 +197,6 @@ msgstr "無"
 #, kde-format
 msgid "Version control system:"
 msgstr "版本控制系統："
+
+#~ msgid "Failed to create project"
+#~ msgstr "無法建立新專案"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevlldb\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-28 02:42+0200\n"
+"POT-Creation-Date: 2020-01-18 02:44+0100\n"
 "PO-Revision-Date: 2016-09-22 20:30+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -34,7 +34,7 @@ msgstr ""
 msgid "LLDB Console"
 msgstr ""
 
-#: debugsession.cpp:149
+#: debugsession.cpp:151
 #, kde-format
 msgid "Attempting to execute user command on unsupported LLDB version"
 msgstr ""
@@ -44,17 +44,12 @@ msgstr ""
 msgid "<b>Could not start debugger:</b><br />"
 msgstr ""
 
-#: debugsession.cpp:351 debugsession.cpp:362 debugsession.cpp:378
-#, kde-format
-msgid "Startup error"
-msgstr ""
-
 #: debugsession.cpp:360
 #, kde-format
 msgid "<b>Error connecting to remote target:</b><br />"
 msgstr ""
 
-#: debugsession.cpp:374
+#: debugsession.cpp:373
 #, kde-format
 msgid ""
 "<b>Failed to load core file</b><p>Debugger reported the following error:"
@@ -75,15 +70,10 @@ msgstr ""
 msgid "LLDB Version Unsupported"
 msgstr ""
 
-#: debugsession.cpp:458
+#: debugsession.cpp:456
 #, kde-format
 msgid ""
 "<b>You need lldb-mi from LLDB 3.8.1 or higher.</b><br />You are using: %1"
-msgstr ""
-
-#: debugsession.cpp:460
-#, kde-format
-msgid "LLDB Error"
 msgstr ""
 
 #. i18n: ectx: ToolBar (debugToolBar)
