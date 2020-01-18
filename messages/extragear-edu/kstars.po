@@ -283,7 +283,7 @@ msgid ""
 "Local color scheme file could not be opened.\n"
 "Scheme cannot be recorded."
 msgstr ""
-"無法開啟本地端的顏色機制檔。\n"
+"無法開啟本地端的配色檔。\n"
 "將無法紀錄機制。"
 
 #: auxiliary/colorscheme.cpp:299
@@ -292,7 +292,7 @@ msgid ""
 "Local color scheme index file could not be opened.\n"
 "Scheme cannot be recorded."
 msgstr ""
-"無法開啟本地端的顏色機制索引檔。\n"
+"無法開啟本地端的配色索引檔。\n"
 "將無法紀錄機制。"
 
 #: auxiliary/filedownloader.cpp:98
@@ -21663,7 +21663,7 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid "The name of the color scheme"
 msgid "Changes the color scheme"
-msgstr "顏色機制名稱："
+msgstr "配色名稱："
 
 #: fitsviewer/starprofileviewer.cpp:507 fitsviewer/starprofileviewer.cpp:707
 #, fuzzy, kde-format
@@ -25582,7 +25582,7 @@ msgstr ""
 #: kstars.kcfg:896 kstars.kcfg:897
 #, kde-format
 msgid "The name of the color scheme"
-msgstr "顏色機制名稱："
+msgstr "配色名稱："
 
 #. i18n: ectx: label, entry (StarColorMode), group (Colors)
 #: kstars.kcfg:901
@@ -88972,18 +88972,18 @@ msgid ""
 "uses a white background. Would you like to temporarily switch to the Star "
 "Chart color scheme for printing?"
 msgstr ""
-"使用「星體圖表」顏色機制的話，背景為白色，可以節省印表機墨水。您要暫時切換過"
+"使用「星體圖表」配色的話，背景為白色，可以節省印表機墨水。您要暫時切換過"
 "去嗎？"
 
 #: kstarsactions.cpp:1344
 #, kde-format
 msgid "Switch to Star Chart Colors?"
-msgstr "切換到星體圖表顏色機制？"
+msgstr "切換到星體圖表配色？"
 
 #: kstarsactions.cpp:1344
 #, kde-format
 msgid "Switch Color Scheme"
-msgstr "切換顏色機制"
+msgstr "切換配色"
 
 #: kstarsactions.cpp:1345
 #, kde-format
@@ -89406,7 +89406,7 @@ msgstr "顯示赤經/赤緯欄位"
 #: kstarsinit.cpp:329
 #, kde-format
 msgid "C&olor Schemes"
-msgstr "顏色機制(&O)"
+msgstr "配色(&O)"
 
 #: kstarsinit.cpp:330
 #, kde-format
@@ -90646,7 +90646,7 @@ msgstr "投影系統：%1"
 #, fuzzy, kde-kuit-format
 #| msgid "C&olor Schemes"
 msgid "Color Schemes"
-msgstr "顏色機制(&O)"
+msgstr "配色(&O)"
 
 #: kstarslite/qml/main.qml:439
 #, fuzzy, kde-kuit-format
@@ -96033,19 +96033,19 @@ msgstr "實際顏色"
 #: options/opscolors.cpp:220
 #, kde-format
 msgid "New Color Scheme"
-msgstr "新增顏色機制"
+msgstr "新增配色"
 
 #: options/opscolors.cpp:220
 #, kde-format
 msgid "Enter a name for the new color scheme:"
-msgstr "請輸入新的顏色機制名稱："
+msgstr "請輸入新的配色名稱："
 
 #: options/opscolors.cpp:264
 #, kde-format
 msgid ""
 "Local color scheme index file could not be opened.\n"
 "Scheme cannot be removed."
-msgstr "無法開啟本地端的顏色機制索引檔。機制無法被移除。"
+msgstr "無法開啟本地端的配色索引檔。機制無法被移除。"
 
 #: options/opscolors.cpp:298
 #, kde-format
@@ -96167,13 +96167,13 @@ msgstr ""
 #: options/opscolors.ui:186
 #, kde-format
 msgid "Preset Color Schemes"
-msgstr "預先設定顏色機制"
+msgstr "預先設定配色"
 
 #. i18n: ectx: property (toolTip), widget (QListWidget, PresetBox)
 #: options/opscolors.ui:192
 #, kde-format
 msgid "List of preset color schemes"
-msgstr "預先設定顏色機制清單"
+msgstr "預先設定配色清單"
 
 #. i18n: ectx: property (whatsThis), widget (QListWidget, PresetBox)
 #: options/opscolors.ui:195
@@ -96181,13 +96181,13 @@ msgstr "預先設定顏色機制清單"
 msgid ""
 "List of all known color schemes.  Several are provided by default, and you "
 "may also define your own."
-msgstr "列出所有的顏色機制。有一些是預設提供的，您也可以定義您自己的。"
+msgstr "列出所有的配色。有一些是預設提供的，您也可以定義您自己的。"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, AddPreset)
 #: options/opscolors.ui:211
 #, kde-format
 msgid "Create a new preset color scheme using current settings"
-msgstr "用目前的設定建立新的顏色機制"
+msgstr "用目前的設定建立新的配色"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, AddPreset)
 #: options/opscolors.ui:214
@@ -96198,7 +96198,7 @@ msgid ""
 "list of presets, and will also be available in the \"Settings\" menu of the "
 "main window."
 msgstr ""
-"改變了一些顏色後，您可以用此按鍵來將目前的顏色儲存為新的顏色機制。儲存後您可"
+"改變了一些顏色後，您可以用此按鍵來將目前的顏色儲存為新的配色。儲存後您可"
 "以在此清單中看到，或是在「設定」選單中也可以看到。"
 
 #. i18n: ectx: property (text), widget (QPushButton, AddPreset)
@@ -96212,7 +96212,7 @@ msgstr "儲存文稿為..."
 #: options/opscolors.ui:224
 #, kde-format
 msgid "Remove a preset color scheme"
-msgstr "移除顏色機制"
+msgstr "移除配色"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, RemovePreset)
 #: options/opscolors.ui:227
@@ -96220,7 +96220,7 @@ msgstr "移除顏色機制"
 msgid ""
 "Press this button to remove the highlighted color scheme.  This will only "
 "work on your custom color schemes."
-msgstr "按此鍵以移除所選取的顏色機制。這只能用於您自己定義的顏色機制。"
+msgstr "按此鍵以移除所選取的配色。這只能用於您自己定義的配色。"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: options/opscolors.ui:239
@@ -97392,14 +97392,14 @@ msgid ""
 "<p>Set basic field of view capture settings: color scheme, legend and FOV "
 "image shape, then click <b>Next</b> to proceed.</p>"
 msgstr ""
-"<p>請先設定抓取視場基本設定：顏色機制，圖例與視場影像形狀，然後點擊「下一"
+"<p>請先設定抓取視場基本設定：配色，圖例與視場影像形狀，然後點擊「下一"
 "步」。</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, switchColorsBox)
 #: printing/pwizfovconfig.ui:126
 #, kde-format
 msgid "Use \"Sky Chart\" color scheme"
-msgstr "使用星體圖表顏色機制"
+msgstr "使用星體圖表配色"
 
 #. i18n: ectx: property (text), widget (QCheckBox, overrideShapeBox)
 #: printing/pwizfovconfig.ui:136
@@ -99104,7 +99104,7 @@ msgid ""
 "\t\t</p>\n"
 "\t\n"
 msgstr ""
-"\t\t <p>您可以用「設定」＞「顏色機制」來切換使用預設或自訂的顏色機制。</p>\n"
+"\t\t <p>您可以用「設定」＞「配色」來切換使用預設或自訂的配色。</p>\n"
 "\t\n"
 
 #. i18n: ectx: @info:tipoftheday
@@ -99135,7 +99135,7 @@ msgid ""
 "\t\t</p>\n"
 "\t\n"
 msgstr ""
-"\t\t <p>您可以定義自己的顏色機制。用設定視窗中的「顏色」來調整顏色，然後按下"
+"\t\t <p>您可以定義自己的配色。用設定視窗中的「顏色」來調整顏色，然後按下"
 "「儲存目前的顏色」鍵即可。</p>\n"
 "\t\n"
 
@@ -99900,7 +99900,7 @@ msgstr "顯示列印對話框"
 #: tools/argprintimage.ui:29
 #, kde-format
 msgid "Use star chart colors"
-msgstr "使用星體圖表顏色機制"
+msgstr "使用星體圖表配色"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: tools/argsetcolor.ui:30
@@ -102909,7 +102909,7 @@ msgstr "設定名稱為 %1 的顏色值為 %2"
 #: tools/scriptbuilder.cpp:236
 #, kde-format
 msgid "Load the color scheme specified by name."
-msgstr "載入指定名稱的色彩機制。"
+msgstr "載入指定名稱的配色。"
 
 #: tools/scriptbuilder.cpp:239
 #, kde-format
@@ -102924,7 +102924,7 @@ msgid ""
 "printing."
 msgstr ""
 "將天體影像列印到印表機或檔案。如果 %1 為真，則會顯示列印對話框。如果 %2 為"
-"真，則列印時會使用星體圖表顏色機制。"
+"真，則列印時會使用星體圖表配色。"
 
 #: tools/scriptbuilder.cpp:247
 #, kde-format

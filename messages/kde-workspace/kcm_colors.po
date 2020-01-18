@@ -55,12 +55,12 @@ msgstr "無法建立暫存檔。"
 #: colors.cpp:189
 #, kde-format
 msgid "Unable to download the color scheme: %1"
-msgstr "無法下載顏色機制：%1"
+msgstr "無法下載配色：%1"
 
 #: colors.cpp:207
 #, kde-format
 msgid "This file is not a color scheme file."
-msgstr "此檔案不是顏色機制檔。"
+msgstr "此檔案不是配色檔。"
 
 #: colors.cpp:227
 #, kde-format
@@ -70,12 +70,12 @@ msgstr "'color-scheme' 資料夾建立失敗。"
 #: colors.cpp:234
 #, kde-format
 msgid "Failed to copy color scheme into 'color-scheme' data folder."
-msgstr "複製顏色機制到 'color-scheme' 資料夾失敗。"
+msgstr "複製配色到 'color-scheme' 資料夾失敗。"
 
 #: colors.cpp:251
 #, kde-format
 msgid "Color scheme installed successfully."
-msgstr "顏色機制順利安裝成功。"
+msgstr "配色順利安裝成功。"
 
 #: editor/kcolorschemeeditor.cpp:35
 #, kde-format
@@ -85,7 +85,7 @@ msgstr "KColorSchemeEditor"
 #: editor/kcolorschemeeditor.cpp:37
 #, kde-format
 msgid "Utility to edit and create color schemes"
-msgstr "編輯並建立顏色機制的工具"
+msgstr "編輯並建立配色的工具"
 
 #: editor/kcolorschemeeditor.cpp:40
 #, kde-format
@@ -632,7 +632,7 @@ msgstr "關閉"
 #: editor/scmeditordialog.cpp:103
 #, kde-format
 msgid "This colour scheme was not saved. Continue?"
-msgstr "這個顏色機制尚未儲存。要繼續？"
+msgstr "這個配色尚未儲存。要繼續？"
 
 #: editor/scmeditordialog.cpp:104
 #, kde-format
@@ -652,12 +652,12 @@ msgstr "未儲存的變更"
 #: editor/scmeditordialog.cpp:157 editor/scmeditordialog.cpp:185
 #, kde-format
 msgid "Save Color Scheme"
-msgstr "儲存顏色機制"
+msgstr "儲存配色"
 
 #: editor/scmeditordialog.cpp:158
 #, kde-format
 msgid "&Enter a name for the color scheme:"
-msgstr "輸入此顏色機制的名稱(&E)："
+msgstr "輸入此配色的名稱(&E)："
 
 #: editor/scmeditordialog.cpp:184
 #, kde-format
@@ -665,7 +665,7 @@ msgid ""
 "A color scheme with that name already exists.\n"
 "Do you want to overwrite it?"
 msgstr ""
-"已有顏色機制使用此名稱。\n"
+"已有配色使用此名稱。\n"
 "您要覆寫它嗎？"
 
 #: editor/scmeditordialog.cpp:224
@@ -1118,13 +1118,13 @@ msgstr "焦點"
 #: package/contents/ui/main.qml:33
 #, kde-format
 msgid "This module lets you choose the color scheme."
-msgstr "此模組讓您能選擇顏色機制。"
+msgstr "此模組讓您能選擇配色。"
 
 #: package/contents/ui/main.qml:84
 #, kde-format
 msgid ""
 "The color scheme '%1' is not installed. Selecting the default theme instead."
-msgstr "未安裝顏色機制「%1」。改選擇預設主題。"
+msgstr "未安裝配色「%1」。改選擇預設主題。"
 
 #: package/contents/ui/main.qml:96
 #, kde-format
@@ -1139,12 +1139,12 @@ msgstr "所有機制"
 #: package/contents/ui/main.qml:135
 #, kde-format
 msgid "Light Schemes"
-msgstr "亮色顏色機制"
+msgstr "亮色配色"
 
 #: package/contents/ui/main.qml:136
 #, kde-format
 msgid "Dark Schemes"
-msgstr "暗色顏色機制"
+msgstr "暗色配色"
 
 #: package/contents/ui/main.qml:202
 #, kde-format
@@ -1191,17 +1191,17 @@ msgstr "停用文字"
 #: package/contents/ui/main.qml:290
 #, kde-format
 msgid "Edit Color Scheme..."
-msgstr "編輯顏色機制…"
+msgstr "編輯配色…"
 
 #: package/contents/ui/main.qml:296
 #, kde-format
 msgid "Remove Color Scheme"
-msgstr "移除顏色機制"
+msgstr "移除配色"
 
 #: package/contents/ui/main.qml:303
 #, kde-format
 msgid "Restore Color Scheme"
-msgstr "復原顏色機制"
+msgstr "復原配色"
 
 #: package/contents/ui/main.qml:346
 #, kde-format
@@ -1211,20 +1211,20 @@ msgstr "從檔案安裝…"
 #: package/contents/ui/main.qml:353
 #, kde-format
 msgid "Color Schemes"
-msgstr "顏色機制"
+msgstr "配色"
 
 #: package/contents/ui/main.qml:365
 #, kde-format
 msgid "Open Color Scheme"
-msgstr "開啟顏色機制"
+msgstr "開啟配色"
 
 #: package/contents/ui/main.qml:367
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
-msgstr "顏色機制檔案 (*.colors)"
+msgstr "配色檔案 (*.colors)"
 
 #~ msgid "Download New Color Schemes"
-#~ msgstr "下載新的顏色機制"
+#~ msgstr "下載新的配色"
 
 #~ msgid "Get New Color Schemes..."
 #~ msgstr "取得新的顏色方案…"

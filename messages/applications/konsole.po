@@ -397,7 +397,7 @@ msgstr "顏色 8（暗淡）"
 #, kde-format
 msgctxt "@item"
 msgid "Un-named Color Scheme"
-msgstr "未命名顏色機制"
+msgstr "未命名配色"
 
 #: ColorSchemeEditor.cpp:122
 #, kde-format
@@ -447,13 +447,13 @@ msgstr "支援的影像"
 #, kde-format
 msgctxt "@title:window"
 msgid "New Color Scheme"
-msgstr "新增顏色機制"
+msgstr "新增配色"
 
 #: ColorSchemeEditor.cpp:274
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Color Scheme"
-msgstr "編輯顏色機制"
+msgstr "編輯配色"
 
 #: ColorSchemeEditor.cpp:310
 #, kde-format
@@ -489,7 +489,7 @@ msgid ""
 "settings.\n"
 "To see any effect, set colors with saturation value greater than 0."
 msgstr ""
-"預設前景及背景顏色的色調及飽和度值預設是隨機調整的。部份色彩機制可能會使用不"
+"預設前景及背景顏色的色調及飽和度值預設是隨機調整的。部份配色可能會使用不"
 "同的隨機調整設定。\n"
 "若要檢視效果，請設定飽和度值大於 0 的顏色。"
 
@@ -667,13 +667,13 @@ msgstr "預設字元編碼："
 #: EditProfileAppearancePage.ui:33
 #, kde-format
 msgid "Color scheme && font"
-msgstr "顏色機制與字型"
+msgstr "配色與字型"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, newColorSchemeButton)
 #: EditProfileAppearancePage.ui:66
 #, kde-format
 msgid "Create a new color scheme based upon the selected scheme"
-msgstr "依據所選取的機制來建立新的顏色機制"
+msgstr "依據所選取的機制來建立新的配色"
 
 #. i18n: ectx: property (text), widget (QPushButton, newColorSchemeButton)
 #: EditProfileAppearancePage.ui:69
@@ -686,7 +686,7 @@ msgstr "新增..."
 #: EditProfileAppearancePage.ui:76
 #, kde-format
 msgid "Edit the selected color scheme"
-msgstr "編輯所選取的顏色機制"
+msgstr "編輯所選取的配色"
 
 #. i18n: ectx: property (text), widget (QPushButton, editKeyBindingsButton)
 #. i18n: ectx: property (text), widget (QPushButton, environmentEditButton)
@@ -701,7 +701,7 @@ msgstr "編輯..."
 #: EditProfileAppearancePage.ui:86
 #, kde-format
 msgid "Delete the selected color scheme"
-msgstr "刪除所選取的顏色機制"
+msgstr "刪除所選取的配色"
 
 #. i18n: ectx: property (text), widget (QPushButton, removeKeyBindingsButton)
 #. i18n: ectx: property (text), widget (QPushButton, removeEntryButton)
@@ -1066,7 +1066,7 @@ msgstr "框架 <resource>%1</resource> 無法載入。"
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
-msgstr "此顏色機制中含有透明背景，您的桌面似乎不支援。"
+msgstr "此配色中含有透明背景，您的桌面似乎不支援。"
 
 #: EditProfileDialog.cpp:1342
 #, kde-format
