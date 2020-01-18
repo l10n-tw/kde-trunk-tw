@@ -7,43 +7,44 @@
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007.
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2015.
 # Jeff Huang <s8321414@gmail.com>, 2017.
+# pan93412 <pan93412@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkded\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-17 03:58+0100\n"
-"PO-Revision-Date: 2017-03-27 09:15+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2020-01-18 19:20+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "dot tw>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Yuan-Chen Cheng, Jeff Huang"
+msgstr "Yuan-Chen Cheng, Jeff Huang, pan93412"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "ycheng@slat.org, s8321414@gmail.com"
+msgstr "ycheng@slat.org, s8321414@gmail.com, pan93412@gmail.com"
 
 #: kcmkded.cpp:67
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Startup Services"
 msgid "Background Services"
-msgstr "啟動服務"
+msgstr "背景服務"
 
 #: kcmkded.cpp:69
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "(c) 2002 Daniel Molkentin"
 msgid "(c) 2002 Daniel Molkentin, (c) 2020 Kai Uwe Broulik"
-msgstr "(c) 2002 Daniel Molkentin"
+msgstr "(c) 2002 Daniel Molkentin, (c) 2020 Kai Uwe Broulik"
 
 #: kcmkded.cpp:71
 #, kde-format
@@ -53,36 +54,36 @@ msgstr "Daniel Molkentin"
 #: kcmkded.cpp:72
 #, kde-format
 msgid "Kai Uwe Broulik"
-msgstr ""
+msgstr "Kai Uwe Broulik"
 
 #: kcmkded.cpp:144
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Unable to stop service <em>%1</em>."
 msgid "Failed to stop service: %1"
-msgstr "無法停止服務 <em>%1</em>。"
+msgstr "無法停止服務：%1"
 
 #: kcmkded.cpp:146
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Unable to start server <em>%1</em>."
 msgid "Failed to start service: %1"
-msgstr "無法啟動伺服器 <em>%1</em>。"
+msgstr "無法啟動服務：%1"
 
 #: kcmkded.cpp:153
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Unable to stop service <em>%1</em>."
 msgid "Failed to stop service."
-msgstr "無法停止服務 <em>%1</em>。"
+msgstr "無法停止服務。"
 
 #: kcmkded.cpp:155
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Unable to start server <em>%1</em>."
 msgid "Failed to start service."
-msgstr "無法啟動伺服器 <em>%1</em>。"
+msgstr "無法啟動服務。"
 
 #: kcmkded.cpp:252
 #, kde-format
 msgid "Failed to notify KDE Service Manager (kded5) of saved changed: %1"
-msgstr ""
+msgstr "無法通知 KDE 服務管理員 (kded5) 儲存變更：%1"
 
 #~ msgid "kcmkded"
 #~ msgstr "kcmkded"

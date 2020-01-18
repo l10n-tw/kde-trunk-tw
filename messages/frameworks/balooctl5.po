@@ -3,13 +3,13 @@
 #
 # Franklin, 2014, 2015.
 # Jeff Huang <s8321414@gmail.com>, 2016, 2017, 2018.
-# pan93412 <pan93412@gmail.com>, 2018, 2019.
+# pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-18 02:52+0100\n"
-"PO-Revision-Date: 2019-12-22 21:09+0800\n"
+"PO-Revision-Date: 2020-01-18 19:18+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.12.0\n"
+"X-Generator: Lokalize 19.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -95,24 +95,26 @@ msgid "Manipulate the Baloo configuration"
 msgstr "操作 Baloo 設定"
 
 #: configcommand.cpp:81
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "The config command can be used to manipulate the Baloo Configuration"
 msgid "The config command can be used to manipulate the Baloo Configuration\n"
-msgstr "config 命令可以用於操作 Baloo 設定"
+msgstr "config 命令可以用於操作 Baloo 設定\n"
 
 #: configcommand.cpp:82
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Usage: balooctl config <command>"
 msgid ""
 "Usage: balooctl config <command>\n"
 "\n"
-msgstr "用法：balooctl config <命令>"
+msgstr ""
+"用法：balooctl config <命令>\n"
+"\n"
 
 #: configcommand.cpp:83
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Possible Commands:"
 msgid "Possible Commands:\n"
-msgstr "可能的命令："
+msgstr "可能的命令：\n"
 
 #: configcommand.cpp:86
 #, kde-format
@@ -140,12 +142,14 @@ msgid "Display this help menu"
 msgstr "顯示此說明選單"
 
 #: configcommand.cpp:96
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "The following configuration options may be listed:"
 msgid ""
 "The following configuration options may be listed:\n"
 "\n"
-msgstr "以下的設定選項可能會被列出："
+msgstr ""
+"以下的設定選項可能會被列出：\n"
+"\n"
 
 #: configcommand.cpp:98 configcommand.cpp:377
 #, kde-format
@@ -179,25 +183,27 @@ msgstr "用來排除檔案的 MIME 類型清單"
 
 #: configcommand.cpp:155 configcommand.cpp:246 configcommand.cpp:369
 #: configcommand.cpp:439
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Config parameter could not be found"
 msgid "Config parameter could not be found\n"
-msgstr "找不到 config 參數"
+msgstr "找不到 config 參數\n"
 
 #: configcommand.cpp:161 configcommand.cpp:252 configcommand.cpp:375
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "The following configuration options may be modified:"
 msgid ""
 "The following configuration options may be modified:\n"
 "\n"
-msgstr "以下的設定選項可能會被修改："
+msgstr ""
+"以下的設定選項可能會被修改：\n"
+"\n"
 
 #: configcommand.cpp:174 configcommand.cpp:194 configcommand.cpp:265
 #: configcommand.cpp:300
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "A folder must be provided"
 msgid "A folder must be provided\n"
-msgstr "必須提供一個資料夾"
+msgstr "必須提供一個資料夾\n"
 
 #: configcommand.cpp:182
 #, kde-format
@@ -210,10 +216,10 @@ msgid "%1 is not in the list of exclude folders"
 msgstr "%1 不在排除的資料夾的清單內"
 
 #: configcommand.cpp:214 configcommand.cpp:335
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "A filter must be provided"
 msgid "A filter must be provided\n"
-msgstr "必須提供一個過濾器"
+msgstr "必須提供一個過濾器\n"
 
 #: configcommand.cpp:220
 #, kde-format
@@ -221,10 +227,10 @@ msgid "%1 is not in list of exclude filters"
 msgstr "%1 不在排除的過濾器的清單內"
 
 #: configcommand.cpp:231 configcommand.cpp:353
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "A mimetype must be provided"
 msgid "A mimetype must be provided\n"
-msgstr "必須提供一個 MIME 類型"
+msgstr "必須提供一個 MIME 類型\n"
 
 #: configcommand.cpp:237
 #, kde-format
@@ -232,16 +238,16 @@ msgid "%1 is not in list of exclude mimetypes"
 msgstr "%1 不在排除的 MIME 類型的清單內"
 
 #: configcommand.cpp:271 configcommand.cpp:306
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Path does not exist"
 msgid "Path does not exist\n"
-msgstr "路徑不存在"
+msgstr "路徑不存在\n"
 
 #: configcommand.cpp:276 configcommand.cpp:311
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Path is not a directory"
 msgid "Path is not a directory\n"
-msgstr "路徑並非目錄"
+msgstr "路徑並非目錄\n"
 
 #: configcommand.cpp:283
 #, kde-format
@@ -259,28 +265,28 @@ msgid "%1 is already in the list of exclude folders"
 msgstr "%1 已經在排除的資料夾的清單內"
 
 #: configcommand.cpp:341
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Exclude filter is already in the list"
 msgid "Exclude filter is already in the list\n"
-msgstr "排除過濾器已在清單內"
+msgstr "排除過濾器已在清單內\n"
 
 #: configcommand.cpp:359
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Exclude mimetype is already in the list"
 msgid "Exclude mimetype is already in the list\n"
-msgstr "排除 MIME 類型已在清單內"
+msgstr "排除 MIME 類型已在清單內\n"
 
 #: configcommand.cpp:387 configcommand.cpp:414
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "A value must be provided"
 msgid "A value must be provided\n"
-msgstr "必須提供一個值"
+msgstr "必須提供一個值\n"
 
 #: configcommand.cpp:408 configcommand.cpp:435
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Invalid value"
 msgid "Invalid value\n"
-msgstr "不合法的值"
+msgstr "不合法的值\n"
 
 #: main.cpp:66
 #, kde-format
@@ -387,10 +393,10 @@ msgid "format"
 msgstr "格式"
 
 #: monitorcommand.cpp:68 monitorcommand.cpp:87
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Press ctrl+c to stop monitoring"
 msgid "Press ctrl+c to stop monitoring\n"
-msgstr "按 Ctrl+C 以結束監視"
+msgstr "按 Ctrl+C 以結束監視\n"
 
 #: monitorcommand.cpp:86
 #, fuzzy, kde-format
@@ -399,10 +405,10 @@ msgid "Waiting for file indexer to start_n"
 msgstr "等待檔案索引開始"
 
 #: monitorcommand.cpp:94
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "File indexer is running"
 msgid "File indexer is running\n"
-msgstr "檔案索引器正在執行中"
+msgstr "檔案索引器正在執行中\n"
 
 #: monitorcommand.cpp:107
 #, kde-format
@@ -411,10 +417,10 @@ msgid "Indexing: %1"
 msgstr "索引：%1"
 
 #: monitorcommand.cpp:120
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ": Ok"
 msgid ": Ok\n"
-msgstr "：確定"
+msgstr "：確定\n"
 
 #: statuscommand.cpp:45
 #, kde-format
@@ -483,16 +489,16 @@ msgid "Baloo is currently disabled. To enable, please run %1"
 msgstr "Baloo 目前已停用。要啟用，請執行 %1"
 
 #: statuscommand.cpp:287
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Baloo Index could not be opened"
 msgid "Baloo Index could not be opened\n"
-msgstr "無法開啟 Baloo 索引"
+msgstr "無法開啟 Baloo 索引\n"
 
 #: statuscommand.cpp:308
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Baloo File Indexer is running"
 msgid "Baloo File Indexer is running\n"
-msgstr "Baloo 檔案索引器正在執行中"
+msgstr "Baloo 檔案索引器正在執行中\n"
 
 #: statuscommand.cpp:309
 #, kde-format
@@ -500,10 +506,10 @@ msgid "Indexer state: %1"
 msgstr "索引器狀態：%1"
 
 #: statuscommand.cpp:312
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Baloo File Indexer is not running"
 msgid "Baloo File Indexer is not running\n"
-msgstr "Baloo 檔案索引器未執行"
+msgstr "Baloo 檔案索引器未執行\n"
 
 #: statuscommand.cpp:319
 #, kde-format
@@ -526,7 +532,7 @@ msgid "Current size of index is %1"
 msgstr "目前索引大小為 %1"
 
 #: statuscommand.cpp:331
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Index does not exist yet"
 msgid "Index does not exist yet\n"
-msgstr "索引不存在"
+msgstr "索引不存在\n"
