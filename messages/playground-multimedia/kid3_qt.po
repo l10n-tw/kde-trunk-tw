@@ -68,10 +68,9 @@ msgstr "類型 'exit force' 離開."
 #: src/app/cli/clicommand.cpp:268
 #, fuzzy
 #| msgid "%n folders"
-#| msgid_plural "%n folders"
 msgctxt "CdCommand|"
 msgid "Change folder"
-msgstr "%n 個資料夾"
+msgstr "建立目錄"
 
 #: src/app/cli/clicommand.cpp:282
 #, qt-format
@@ -91,7 +90,7 @@ msgstr "选中当前目录中所有的文件"
 #| msgid "Folder"
 msgctxt "LsCommand|"
 msgid "Folder list"
-msgstr "資料夾"
+msgstr "目錄清單"
 
 #: src/app/cli/clicommand.cpp:330
 msgctxt "SaveCommand|"
@@ -268,7 +267,7 @@ msgstr "将字符编码"
 #| msgid "Rename file"
 msgctxt "RenameDirectoryCommand|"
 msgid "Rename folder"
-msgstr "更改檔案名稱"
+msgstr "更改目錄名稱"
 
 #: src/app/cli/clicommand.cpp:830
 msgctxt "NumberTracksCommand|"
@@ -463,7 +462,7 @@ msgstr "逾時"
 #| msgid "Open Containing &Folder"
 msgctxt "TextCliFormatter|"
 msgid "Reading Folder"
-msgstr "開啟所在資料夾(&F)"
+msgstr "正在讀取目錄"
 
 #: src/app/cli/textcliformatter.cpp:303
 msgctxt "TextCliFormatter|"
@@ -745,14 +744,14 @@ msgstr "将字符编码"
 #| msgid "Rename File"
 msgctxt "KdeMainWindow|"
 msgid "&Rename Folder..."
-msgstr "更改檔名"
+msgstr "更改目錄名稱(&R)..."
 
 #: src/app/kde/kdemainwindow.cpp:288
 #, fuzzy
 #| msgid "Rename File"
 msgctxt "KdeMainWindow|"
 msgid "Rename Folder"
-msgstr "更改檔名"
+msgstr "更改目錄名稱"
 
 #: src/app/kde/kdemainwindow.cpp:291
 msgctxt "KdeMainWindow|"
@@ -941,7 +940,7 @@ msgstr "移至垃圾桶(&M)"
 #| msgid "File List"
 msgctxt "KdeMainWindow|"
 msgid "Folder List"
-msgstr "檔案清單"
+msgstr "目錄清單"
 
 #: src/app/kde/kdemainwindow.cpp:598
 msgctxt "KdeMainWindow|"
@@ -1355,14 +1354,14 @@ msgstr "将字符编码(&E)"
 #| msgid "Rename File"
 msgctxt "Kid3MainWindow|"
 msgid "Rename Folder"
-msgstr "更改檔名"
+msgstr "更改目錄名稱"
 
 #: src/app/qt/kid3mainwindow.cpp:443
 #, fuzzy
 #| msgid "Rename File"
 msgctxt "Kid3MainWindow|"
 msgid "&Rename Folder..."
-msgstr "更改檔名"
+msgstr "更改目錄名稱(&R)..."
 
 #: src/app/qt/kid3mainwindow.cpp:451
 msgctxt "Kid3MainWindow|"
@@ -1582,7 +1581,7 @@ msgstr "移至垃圾桶(&M)"
 #| msgid "File List"
 msgctxt "Kid3MainWindow|"
 msgid "Folder List"
-msgstr "檔案清單"
+msgstr "目錄清單"
 
 #: src/app/qt/kid3mainwindow.cpp:774
 msgctxt "Kid3MainWindow|"
@@ -1954,7 +1953,7 @@ msgstr "%1 檔已經存在\n"
 #| msgid "%1 is not a file\n"
 msgctxt "@default|"
 msgid "%1 is not a folder\n"
-msgstr "%1 不是檔案\n"
+msgstr "%1 不是目錄\n"
 
 #: src/core/model/dirrenamer.cpp:290
 #, qt-format
@@ -1973,7 +1972,7 @@ msgstr "%1 檔已經存在\n"
 #| msgid "%1 is not a file\n"
 msgctxt "DirRenamer|"
 msgid "%1 is not a folder\n"
-msgstr "%1 不是檔案\n"
+msgstr "%1 不是目錄\n"
 
 #: src/core/model/dirrenamer.cpp:335 src/core/model/dirrenamer.cpp:383
 #, qt-format
@@ -2024,7 +2023,7 @@ msgstr "建立目錄"
 #| msgid "Rename file"
 msgctxt "@default|"
 msgid "Rename folder"
-msgstr "更改檔案名稱"
+msgstr "更改目錄名稱"
 
 #: src/core/model/dirrenamer.cpp:672
 msgctxt "@default|"
@@ -3789,7 +3788,7 @@ msgstr "新增"
 #| msgid "Open Containing &Folder"
 msgctxt "BatchImportDialog|"
 msgid "Reading Folder"
-msgstr "開啟所在資料夾(&F)"
+msgstr "正在讀取目錄"
 
 #: src/gui/dialogs/batchimportdialog.cpp:481
 msgctxt "BatchImportDialog|"
@@ -4786,7 +4785,7 @@ msgstr ""
 #| msgid "Rename File"
 msgctxt "RenDirDialog|"
 msgid "Rename Folder"
-msgstr "更改檔名"
+msgstr "更改目錄名稱"
 
 #: src/gui/dialogs/rendirdialog.cpp:64
 msgctxt "RenDirDialog|"
@@ -4845,7 +4844,7 @@ msgstr "至："
 #| msgid "Filename from Tag"
 msgctxt "RenDirDialog|"
 msgid "Folder Name from Tag"
-msgstr "檔名從標籤"
+msgstr "目錄名稱從標籤"
 
 #: src/gui/dialogs/serverimportdialog.cpp:60
 msgctxt "ServerImportDialog|"
@@ -6467,7 +6466,7 @@ msgstr "自動匯入"
 #| msgid "Open Containing &Folder"
 msgctxt "BatchImportPage|"
 msgid "Reading Folder"
-msgstr "開啟所在資料夾(&F)"
+msgstr "正在讀取目錄"
 
 #: src/qml/app/BatchImportPage.qml:43
 msgctxt "BatchImportPage|"
@@ -6759,7 +6758,7 @@ msgstr "建立播放清單"
 #| msgid "Rename File"
 msgctxt "MainPage|"
 msgid "Rename Folder"
-msgstr "更改檔名"
+msgstr "更改目錄名稱"
 
 #: src/qml/app/MainPage.qml:208
 msgctxt "MainPage|"
@@ -6854,7 +6853,7 @@ msgstr "圖片"
 #| msgid "Rename File"
 msgctxt "RenameDirectoryPage|"
 msgid "Rename Folder"
-msgstr "更改檔名"
+msgstr "更改目錄名稱"
 
 #: src/qml/app/RenameDirectoryPage.qml:77
 msgctxt "RenameDirectoryPage|"
@@ -6908,7 +6907,7 @@ msgstr "格式:"
 #| msgid "Filename from Tag"
 msgctxt "RenameDirectoryPage|"
 msgid "Folder Name from Tag"
-msgstr "檔名從標籤"
+msgstr "目錄名稱從標籤"
 
 #: src/qml/app/RenameDirectoryPage.qml:185
 msgctxt "RenameDirectoryPage|"
@@ -7149,138 +7148,6 @@ msgstr "貼上"
 msgctxt "TagCollapsible|"
 msgid "Remove"
 msgstr "移除"
-
-#, fuzzy
-#~| msgid "Create directory"
-#~ msgctxt "CdCommand|"
-#~ msgid "Change directory"
-#~ msgstr "建立目錄"
-
-#, fuzzy
-#~| msgid "Directory list"
-#~ msgctxt "LsCommand|"
-#~ msgid "Directory list"
-#~ msgstr "目錄清單"
-
-#, fuzzy
-#~| msgid "Rename directory"
-#~ msgctxt "RenameDirectoryCommand|"
-#~ msgid "Rename directory"
-#~ msgstr "更改目錄名稱"
-
-#, fuzzy
-#~| msgid "Reading Directory"
-#~ msgctxt "TextCliFormatter|"
-#~ msgid "Reading Directory"
-#~ msgstr "正在讀取目錄"
-
-#, fuzzy
-#~| msgid "&Rename Directory..."
-#~ msgctxt "KdeMainWindow|"
-#~ msgid "&Rename Directory..."
-#~ msgstr "更改目錄名稱(&R)..."
-
-#, fuzzy
-#~| msgid "Rename Directory"
-#~ msgctxt "KdeMainWindow|"
-#~ msgid "Rename Directory"
-#~ msgstr "更改目錄名稱"
-
-#, fuzzy
-#~| msgid "Directory List"
-#~ msgctxt "KdeMainWindow|"
-#~ msgid "Directory List"
-#~ msgstr "目錄清單"
-
-#, fuzzy
-#~| msgid "Rename Directory"
-#~ msgctxt "Kid3MainWindow|"
-#~ msgid "Rename Directory"
-#~ msgstr "更改目錄名稱"
-
-#, fuzzy
-#~| msgid "&Rename Directory..."
-#~ msgctxt "Kid3MainWindow|"
-#~ msgid "&Rename Directory..."
-#~ msgstr "更改目錄名稱(&R)..."
-
-#, fuzzy
-#~| msgid "Directory List"
-#~ msgctxt "Kid3MainWindow|"
-#~ msgid "Directory List"
-#~ msgstr "目錄清單"
-
-#, fuzzy
-#~| msgid "%1 is not a directory\n"
-#~ msgctxt "@default|"
-#~ msgid "%1 is not a directory\n"
-#~ msgstr "%1 不是目錄\n"
-
-#, fuzzy
-#~| msgid "%1 is not a directory\n"
-#~ msgctxt "DirRenamer|"
-#~ msgid "%1 is not a directory\n"
-#~ msgstr "%1 不是目錄\n"
-
-#, fuzzy
-#~| msgid "Rename directory"
-#~ msgctxt "@default|"
-#~ msgid "Rename directory"
-#~ msgstr "更改目錄名稱"
-
-#, fuzzy
-#~| msgid "Reading Directory"
-#~ msgctxt "BatchImportDialog|"
-#~ msgid "Reading Directory"
-#~ msgstr "正在讀取目錄"
-
-#, fuzzy
-#~| msgid "Rename Directory"
-#~ msgctxt "RenDirDialog|"
-#~ msgid "Rename Directory"
-#~ msgstr "更改目錄名稱"
-
-#, fuzzy
-#~| msgid "Create Directory"
-#~ msgctxt "RenDirDialog|"
-#~ msgid "Create Directory"
-#~ msgstr "建立目錄"
-
-#, fuzzy
-#~| msgid "Directory Name from Tag"
-#~ msgctxt "RenDirDialog|"
-#~ msgid "Directory Name from Tag"
-#~ msgstr "目錄名稱從標籤"
-
-#, fuzzy
-#~| msgid "Reading Directory"
-#~ msgctxt "BatchImportPage|"
-#~ msgid "Reading Directory"
-#~ msgstr "正在讀取目錄"
-
-#, fuzzy
-#~| msgid "Rename Directory"
-#~ msgctxt "MainPage|"
-#~ msgid "Rename Directory"
-#~ msgstr "更改目錄名稱"
-
-#, fuzzy
-#~| msgid "Rename Directory"
-#~ msgctxt "RenameDirectoryPage|"
-#~ msgid "Rename Directory"
-#~ msgstr "更改目錄名稱"
-
-#, fuzzy
-#~| msgid "Create Directory"
-#~ msgctxt "RenameDirectoryPage|"
-#~ msgid "Create Directory"
-#~ msgstr "建立目錄"
-
-#, fuzzy
-#~| msgid "Directory Name from Tag"
-#~ msgctxt "RenameDirectoryPage|"
-#~ msgid "Directory Name from Tag"
-#~ msgstr "目錄名稱從標籤"
 
 #~ msgid "Your names"
 #~ msgstr "Chung-Yu Hsu"
