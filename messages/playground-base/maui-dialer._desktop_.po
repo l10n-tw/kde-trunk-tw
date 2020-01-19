@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-04 02:59+0000\n"
+"POT-Creation-Date: 2020-01-19 02:43+0000\n"
 "PO-Revision-Date: 2019-12-16 00:54+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -14,25 +14,20 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.12.0\n"
 
-#: org.kde.communicator.desktop:2
-msgctxt "Name"
-msgid "Communicator"
-msgstr "通訊工具"
-
-#: org.kde.communicator.desktop:12 org.kde.dialer.desktop:11
-msgctxt "Comment"
-msgid "Contacts manager"
-msgstr "聯絡人管理工具"
-
-#: org.kde.communicator.desktop:27 org.kde.dialer.desktop:26
-msgctxt "GenericName"
-msgid "Contacts"
-msgstr "聯絡人"
-
 #: org.kde.dialer.desktop:2
 msgctxt "Name"
 msgid "Dialer"
 msgstr "撥號"
+
+#: org.kde.dialer.desktop:11
+msgctxt "Comment"
+msgid "Contacts manager"
+msgstr "聯絡人管理工具"
+
+#: org.kde.dialer.desktop:26
+msgctxt "GenericName"
+msgid "Contacts"
+msgstr "聯絡人"
 
 #: src/dialer/linux/plasma_dialer.notifyrc:3
 msgctxt "Comment"
@@ -58,3 +53,7 @@ msgstr "響鈴"
 msgctxt "Comment"
 msgid "The phone is ringing"
 msgstr "手機正在響鈴"
+
+#~ msgctxt "Name"
+#~ msgid "Communicator"
+#~ msgstr "通訊工具"

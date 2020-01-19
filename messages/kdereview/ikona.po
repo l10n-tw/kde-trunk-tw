@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ikona\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-31 03:13+0100\n"
+"POT-Creation-Date: 2020-01-19 03:15+0100\n"
 "PO-Revision-Date: 2020-01-01 16:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -31,18 +31,18 @@ msgstr "顏色調色盤"
 msgid "Ikona"
 msgstr "Ikona"
 
-#: qrc/qml/main.qml:91
+#: qrc/qml/main.qml:68
 #, kde-format
 msgctxt "Togglebutton to switch between Breeze Light and Breeze Dark"
 msgid "Use Dark Colours"
 msgstr "使用暗色"
 
-#: qrc/qml/main.qml:102
+#: qrc/qml/main.qml:79
 #, kde-format
 msgid "Open Icon..."
 msgstr "開啟圖示…"
 
-#: qrc/qml/main.qml:109
+#: qrc/qml/main.qml:86
 #, kde-format
 msgid "Take Montage..."
 msgstr "製作蒙太奇…"
@@ -59,19 +59,19 @@ msgid "Welcome to Ikona"
 msgstr "歡迎使用 Ikona"
 
 #: qrc/qml/Welcome.qml:62
-#, kde-format
-msgctxt "Open the colour view"
+#, fuzzy, kde-format
+#| msgctxt "Open the colour view"
+#| msgid "Colour Icon View"
+msgctxt "Opens the view displaying colourful icons"
 msgid "Colour Icon View"
 msgstr "彩色圖示檢視"
 
-#: qrc/qml/Welcome.qml:69
-#, kde-format
-msgctxt "Open the monochrome view"
-msgid "Monochrome Icon View"
-msgstr "單色圖示檢視"
-
-#: qrc/qml/Welcome.qml:81
+#: qrc/qml/Welcome.qml:84
 #, kde-format
 msgctxt "Open a window titled Colour Palette with a colour palette"
 msgid "Open Colour Palette"
 msgstr "開啟色彩調色盤"
+
+#~ msgctxt "Open the monochrome view"
+#~ msgid "Monochrome Icon View"
+#~ msgstr "單色圖示檢視"

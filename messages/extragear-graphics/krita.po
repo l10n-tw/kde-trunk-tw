@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-17 02:44+0100\n"
+"POT-Creation-Date: 2020-01-19 02:40+0100\n"
 "PO-Revision-Date: 2020-01-18 19:16+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -7403,7 +7403,8 @@ msgstr ""
 msgid ""
 "Cannot load WinTab driver. If you have a drawing tablet, please make sure "
 "the tablet driver is properly installed."
-msgstr "無法載入 WinTab 驅動。如果你的數位板已連結，請確保其驅動程式已正確安裝。"
+msgstr ""
+"無法載入 WinTab 驅動。如果你的數位板已連結，請確保其驅動程式已正確安裝。"
 
 #: libs/basicflakes/tools/KoCreatePathTool.cpp:548
 #, kde-format
@@ -8699,7 +8700,8 @@ msgstr "Lanczos3 演算法"
 msgid ""
 "Offers similar results than Bicubic, but maybe a little bit sharper. Can "
 "produce light and dark halos along strong edges."
-msgstr "與雙立方演算法效果類似，但或許銳度稍好。可能會在高反差邊緣處產生明暗光暈。"
+msgstr ""
+"與雙立方演算法效果類似，但或許銳度稍好。可能會在高反差邊緣處產生明暗光暈。"
 
 #: libs/image/kis_filter_strategy.h:174
 #, kde-format
@@ -9007,8 +9009,8 @@ msgid "Processing"
 msgstr "正在處理"
 
 #: libs/image/kis_psd_layer_style.cpp:99
-#: libs/ui/KisApplicationArguments.cpp:342 libs/ui/KisMainWindow.cpp:1259
-#: libs/ui/KisMainWindow.cpp:1526 libs/ui/KisMainWindow.cpp:1545
+#: libs/ui/KisApplicationArguments.cpp:342 libs/ui/KisMainWindow.cpp:1261
+#: libs/ui/KisMainWindow.cpp:1528 libs/ui/KisMainWindow.cpp:1547
 #: plugins/impex/libkra/kis_kra_saver.cpp:91
 #, kde-format
 msgid "Unnamed"
@@ -9296,7 +9298,8 @@ msgctxt "image conversion warning"
 msgid ""
 "The image is not tagged as <b>non-linear gamma sRGB</b>. The image will be "
 "converted to sRGB."
-msgstr "影像未被標記為<b>非線性 gamma sRGB 色彩空間</b>。它將被轉成 sRGB 色彩空間。"
+msgstr ""
+"影像未被標記為<b>非線性 gamma sRGB 色彩空間</b>。它將被轉成 sRGB 色彩空間。"
 
 #: libs/koplugin/KisMimeDatabase.cpp:161
 #, kde-format
@@ -9460,7 +9463,7 @@ msgctxt "description of a file type"
 msgid "JP2 Image"
 msgstr "JP2 影像"
 
-#: libs/libkis/Document.cpp:885 libs/ui/KisMainWindow.cpp:1937
+#: libs/libkis/Document.cpp:885 libs/ui/KisMainWindow.cpp:1939
 #, kde-format
 msgid "Import frames"
 msgstr "匯入影格"
@@ -11353,7 +11356,8 @@ msgstr "<html><head/><body><h1 align=\"center\">眾籌支援者</h1><p>"
 #: libs/ui/dialogs/kis_about_application.cpp:111
 #, kde-format
 msgid ".</p><p><i>Thanks! You were all <b>awesome</b>!</i></p></body></html>"
-msgstr "</p><p>感謝上述諸位的支援，你們簡直就是<b>小天使</b>！</p></body></html>"
+msgstr ""
+"</p><p>感謝上述諸位的支援，你們簡直就是<b>小天使</b>！</p></body></html>"
 
 #: libs/ui/dialogs/kis_about_application.cpp:113
 #, kde-format
@@ -11547,7 +11551,7 @@ msgid "Numerical"
 msgstr "按數字順序"
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:136
-#: libs/ui/KisMainWindow.cpp:1053
+#: libs/ui/KisMainWindow.cpp:1054
 #, kde-format
 msgid "Import Images"
 msgstr "匯入影像"
@@ -11642,7 +11646,7 @@ msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr "輸入新樣式名稱"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:287 libs/ui/KisMainWindow.cpp:2312
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:287 libs/ui/KisMainWindow.cpp:2314
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
@@ -11843,11 +11847,11 @@ msgstr "選擇背景影像"
 #: libs/ui/KisApplication.cpp:860 libs/ui/KisApplication.cpp:881
 #: libs/ui/KisDocument.cpp:784 libs/ui/KisDocument.cpp:1400
 #: libs/ui/KisDocument.cpp:1484 libs/ui/KisDocument.cpp:1527
-#: libs/ui/KisDocument.cpp:1535 libs/ui/KisMainWindow.cpp:789
-#: libs/ui/KisMainWindow.cpp:962 libs/ui/KisMainWindow.cpp:1076
-#: libs/ui/KisMainWindow.cpp:1089 libs/ui/KisMainWindow.cpp:1149
-#: libs/ui/KisMainWindow.cpp:1915 libs/ui/KisMainWindow.cpp:1944
-#: libs/ui/KisMainWindow.cpp:2020 libs/ui/KisMainWindow.cpp:2032
+#: libs/ui/KisDocument.cpp:1535 libs/ui/KisMainWindow.cpp:790
+#: libs/ui/KisMainWindow.cpp:963 libs/ui/KisMainWindow.cpp:1077
+#: libs/ui/KisMainWindow.cpp:1090 libs/ui/KisMainWindow.cpp:1151
+#: libs/ui/KisMainWindow.cpp:1917 libs/ui/KisMainWindow.cpp:1946
+#: libs/ui/KisMainWindow.cpp:2022 libs/ui/KisMainWindow.cpp:2034
 #: libs/ui/KisPart.cpp:483 libs/ui/KisPart.cpp:486
 #: libs/ui/KisReferenceImage.cpp:148 libs/ui/KisRemoteFileFetcher.cpp:54
 #: libs/ui/KisTemplateCreateDia.cpp:297 libs/ui/KisTemplateCreateDia.cpp:403
@@ -14712,7 +14716,8 @@ msgstr "作為柵格圖層(&R)"
 msgid ""
 "Use background color and opacity as the base canvas color. This can be "
 "reconfigured in `Image > Properties.`"
-msgstr "使用背景顏色和不透明度作為基底畫布顏色。此屬性可在「影像 > 屬性」中重新設定。"
+msgstr ""
+"使用背景顏色和不透明度作為基底畫布顏色。此屬性可在「影像 > 屬性」中重新設定。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioBackgroundAsProjection)
 #: libs/ui/forms/wdgnewimage.ui:553
@@ -14794,7 +14799,7 @@ msgstr "目前筆刷"
 #. i18n: ectx: property (text), widget (QPushButton, savePresetButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveMask)
 #: libs/ui/forms/wdgpaintopsettings.ui:184
-#: libs/ui/forms/wdgsavebrushpreset.ui:215 libs/ui/KisMainWindow.cpp:912
+#: libs/ui/forms/wdgsavebrushpreset.ui:215 libs/ui/KisMainWindow.cpp:913
 #: libs/ui/widgets/kis_workspace_chooser.cpp:121
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:210
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:61
@@ -15217,7 +15222,8 @@ msgstr ""
 msgid ""
 "<html><head/><body><p>When the image is too big, render only currently "
 "visible part of it</p></body></html>"
-msgstr "<html><head/><body><p>當影像太大時, 僅繪製目前可見的部分</p></body></html>"
+msgstr ""
+"<html><head/><body><p>當影像太大時, 僅繪製目前可見的部分</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseRegionOfInterest)
 #: libs/ui/forms/wdgperformancesettings.ui:480
@@ -15244,7 +15250,8 @@ msgstr ""
 msgid ""
 "<html><head/><body><p>Automatically prerender animation cache in background "
 "when the user is idle</p></body></html>"
-msgstr "<html><head/><body><p>使用者空閒時在後台自動預繪製動畫快取</p></body></html>"
+msgstr ""
+"<html><head/><body><p>使用者空閒時在後台自動預繪製動畫快取</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBackgroundCacheGeneration)
 #: libs/ui/forms/wdgperformancesettings.ui:503
@@ -16668,7 +16675,8 @@ msgstr "平整影像"
 msgid ""
 "The image contains hidden layers that will be lost. Do you want to flatten "
 "the image?"
-msgstr "此影像包含已隱藏的圖層，這些圖層將不會在平整後被保留，確定要平整影像嗎？"
+msgstr ""
+"此影像包含已隱藏的圖層，這些圖層將不會在平整後被保留，確定要平整影像嗎？"
 
 #: libs/ui/kis_layer_manager.cc:808
 #, kde-format
@@ -17805,7 +17813,8 @@ msgstr "%1 不可寫入"
 msgid ""
 "%1 is smaller than 10 bytes, it must be corrupt. Try saving again under a "
 "different name, in another location."
-msgstr "%1 小於 10 位元組，可能是損壞的。試試看在其他位置使用不同名稱重新儲存。"
+msgstr ""
+"%1 小於 10 位元組，可能是損壞的。試試看在其他位置使用不同名稱重新儲存。"
 
 #: libs/ui/KisImportExportFilter.cpp:182
 #, kde-format
@@ -17952,73 +17961,73 @@ msgstr "原因："
 msgid "Also save your image as a Krita file."
 msgstr "請將影像另存為 Krita 格式檔案。"
 
-#: libs/ui/KisMainWindow.cpp:183
+#: libs/ui/KisMainWindow.cpp:184
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Dockers"
 msgstr "工具面板(&D)"
 
-#: libs/ui/KisMainWindow.cpp:184
+#: libs/ui/KisMainWindow.cpp:185
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Window"
 msgstr "視窗(&W)"
 
-#: libs/ui/KisMainWindow.cpp:185
+#: libs/ui/KisMainWindow.cpp:186
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New &View"
 msgstr "建立檢視(&V)"
 
-#: libs/ui/KisMainWindow.cpp:186
+#: libs/ui/KisMainWindow.cpp:187
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Wor&kspace"
 msgstr "作業空間(&K)"
 
-#: libs/ui/KisMainWindow.cpp:515
+#: libs/ui/KisMainWindow.cpp:516
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:157
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr "顯示%1工具列"
 
-#: libs/ui/KisMainWindow.cpp:517
+#: libs/ui/KisMainWindow.cpp:518
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:159
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr "隱藏%1工具列"
 
-#: libs/ui/KisMainWindow.cpp:789
+#: libs/ui/KisMainWindow.cpp:790
 #, kde-format
 msgid "The chosen file's location could not be found. Does it exist?"
 msgstr "找不到選取檔案的位置。檔案是否確實存在？"
 
-#: libs/ui/KisMainWindow.cpp:892
+#: libs/ui/KisMainWindow.cpp:893
 #, kde-format
 msgid "Write Protected"
 msgstr "防寫"
 
-#: libs/ui/KisMainWindow.cpp:896
+#: libs/ui/KisMainWindow.cpp:897
 #, kde-format
 msgid "Recovered"
 msgstr "已復原"
 
-#: libs/ui/KisMainWindow.cpp:909
+#: libs/ui/KisMainWindow.cpp:910
 #, kde-format
 msgid "Save as %1"
 msgstr "另存為 %1"
 
-#: libs/ui/KisMainWindow.cpp:962
+#: libs/ui/KisMainWindow.cpp:963
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr "檔案 %1 不存在。"
 
-#: libs/ui/KisMainWindow.cpp:1053
+#: libs/ui/KisMainWindow.cpp:1054
 #, kde-format
 msgid "Open Images"
 msgstr "開啟影像"
 
-#: libs/ui/KisMainWindow.cpp:1150
+#: libs/ui/KisMainWindow.cpp:1152
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -18030,43 +18039,43 @@ msgstr ""
 "\n"
 "請選擇一個原始檔案不會被覆蓋掉的位置！"
 
-#: libs/ui/KisMainWindow.cpp:1206
+#: libs/ui/KisMainWindow.cpp:1208
 #, kde-format
 msgid "Exporting"
 msgstr "正在匯出"
 
-#: libs/ui/KisMainWindow.cpp:1206
+#: libs/ui/KisMainWindow.cpp:1208
 #, kde-format
 msgid "Saving As"
 msgstr "正在儲存為"
 
-#: libs/ui/KisMainWindow.cpp:1505
+#: libs/ui/KisMainWindow.cpp:1507
 #: libs/widgetutils/config/kstandardaction_p.h:41
 #, kde-format
 msgid "Create new document"
 msgstr "建立檔案"
 
-#: libs/ui/KisMainWindow.cpp:1529
+#: libs/ui/KisMainWindow.cpp:1531
 #, kde-format
 msgid "Custom Document"
 msgstr "自訂檔案"
 
-#: libs/ui/KisMainWindow.cpp:1547
+#: libs/ui/KisMainWindow.cpp:1549
 #, kde-format
 msgid "Create from Clipboard"
 msgstr "從剪貼簿建立"
 
-#: libs/ui/KisMainWindow.cpp:1873
+#: libs/ui/KisMainWindow.cpp:1875
 #, kde-format
 msgid "Export as PDF"
 msgstr "匯出為 PDF"
 
-#: libs/ui/KisMainWindow.cpp:1915
+#: libs/ui/KisMainWindow.cpp:1917
 #, kde-format
 msgid "Cannot export to the specified file"
 msgstr "無法匯出到指定檔案"
 
-#: libs/ui/KisMainWindow.cpp:1944
+#: libs/ui/KisMainWindow.cpp:1946
 #, kde-format
 msgid ""
 "Could not finish import animation:\n"
@@ -18075,7 +18084,7 @@ msgstr ""
 "無法完成匯入動畫：\n"
 "%1"
 
-#: libs/ui/KisMainWindow.cpp:2021
+#: libs/ui/KisMainWindow.cpp:2023
 #, kde-format
 msgid ""
 "You will lose all changes made since your last save\n"
@@ -18084,85 +18093,85 @@ msgstr ""
 "將放棄上次儲存之後的所有改變\n"
 "要繼續嗎？"
 
-#: libs/ui/KisMainWindow.cpp:2032
+#: libs/ui/KisMainWindow.cpp:2034
 #, kde-format
 msgid "Error: Could not reload this document"
 msgstr "錯誤：無法重新載入此檔案"
 
-#: libs/ui/KisMainWindow.cpp:2290
+#: libs/ui/KisMainWindow.cpp:2292
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "匯入作業空間(&I)…"
 
-#: libs/ui/KisMainWindow.cpp:2302 libs/widgets/KoResourceItemChooser.cpp:218
+#: libs/ui/KisMainWindow.cpp:2304 libs/widgets/KoResourceItemChooser.cpp:218
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
 msgstr "選擇要新增的檔案"
 
-#: libs/ui/KisMainWindow.cpp:2308
+#: libs/ui/KisMainWindow.cpp:2310
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "新作業空間(&N)…"
 
-#: libs/ui/KisMainWindow.cpp:2311
+#: libs/ui/KisMainWindow.cpp:2313
 #, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr "新作業空間…"
 
-#: libs/ui/KisMainWindow.cpp:2325 libs/ui/widgets/kis_workspace_chooser.cpp:159
+#: libs/ui/KisMainWindow.cpp:2327 libs/ui/widgets/kis_workspace_chooser.cpp:159
 #, kde-format
 msgid "Workspace"
 msgstr "作業空間"
 
-#: libs/ui/KisMainWindow.cpp:2336 libs/ui/widgets/kis_workspace_chooser.cpp:170
+#: libs/ui/KisMainWindow.cpp:2338 libs/ui/widgets/kis_workspace_chooser.cpp:170
 #, kde-format
 msgid "Workspace %1"
 msgstr "作業空間 %1"
 
-#: libs/ui/KisMainWindow.cpp:2364
+#: libs/ui/KisMainWindow.cpp:2366
 #, kde-format
 msgid "&%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2367
+#: libs/ui/KisMainWindow.cpp:2369
 #, kde-format
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2499
+#: libs/ui/KisMainWindow.cpp:2501
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr "未安裝 Krita 的 LittleCMS 色彩管理外掛程式。Krita 將立即退出。"
 
-#: libs/ui/KisMainWindow.cpp:2507
+#: libs/ui/KisMainWindow.cpp:2509
 #, kde-format
 msgid "Krita cannot find any brush presets! Krita will quit now."
 msgstr "Krita 找不到任何筆刷預設！Krita 將立即退出。"
 
-#: libs/ui/KisMainWindow.cpp:2516
+#: libs/ui/KisMainWindow.cpp:2518
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "安裝錯誤"
 
-#: libs/ui/KisMainWindow.cpp:2577
+#: libs/ui/KisMainWindow.cpp:2579
 #, kde-format
 msgid "%1 unsaved document (%2)"
 msgstr "%1 未儲存的檔案 (%2)"
 
-#: libs/ui/KisMainWindow.cpp:2646
+#: libs/ui/KisMainWindow.cpp:2648
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr "主題(&T)"
 
-#: libs/ui/KisMainWindow.cpp:2689
+#: libs/ui/KisMainWindow.cpp:2691
 #, kde-format
 msgid "Expanding Spacer"
 msgstr "擴張空白占位符"
@@ -18311,7 +18320,8 @@ msgstr "儲存調色板失敗"
 msgid ""
 "Failed to save global palette file. Please set it to non-global, or you will "
 "lose the file when you close Krita"
-msgstr "無法儲存為全域調色板檔案。請將其設為非全域，否則在關閉 Krita 是將遺失該檔案"
+msgstr ""
+"無法儲存為全域調色板檔案。請將其設為非全域，否則在關閉 Krita 是將遺失該檔案"
 
 #: libs/ui/KisPaletteEditor.cpp:665 libs/ui/KisPaletteEditor.cpp:668
 #, kde-format
@@ -19588,7 +19598,8 @@ msgstr "已停用 OpenColorIO：不支援影像色彩空間"
 msgid ""
 "Shape selection does not fully support wraparound mode. Please use pixel "
 "selection instead"
-msgstr "形狀選取區域工具在影像環繞模式下不能完全正常作業，請改用像素選取區域工具"
+msgstr ""
+"形狀選取區域工具在影像環繞模式下不能完全正常作業，請改用像素選取區域工具"
 
 #: libs/ui/tool/kis_selection_tool_helper.cpp:314
 #, kde-format
@@ -27970,7 +27981,8 @@ msgstr ""
 msgid ""
 "The shortcut to fire this action, such as 'Ctrl+1', or a QKeySequence "
 "instance, or None."
-msgstr "指定給此操作的快捷鍵，如「Ctrl+1」，或者是一組 QKeySequence 實例，可以為空。"
+msgstr ""
+"指定給此操作的快捷鍵，如「Ctrl+1」，或者是一組 QKeySequence 實例，可以為空。"
 
 #. i18n: ectx: property (text), widget (QLabel, labelText)
 #: plugins/extensions/pykrita/plugin/info.ui:64
@@ -28030,7 +28042,8 @@ msgstr "設定頁面"
 msgid ""
 "The shortcut to fire this action such as 'Ctrl+1', or a QKeySequence "
 "instance, or None."
-msgstr "指定給此操作的快捷鍵，如「Ctrl+1」，或者是一組 QKeySequence 實例，可以為空。"
+msgstr ""
+"指定給此操作的快捷鍵，如「Ctrl+1」，或者是一組 QKeySequence 實例，可以為空。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/extensions/pykrita/plugin/info.ui:236
@@ -29241,7 +29254,8 @@ msgstr "HSV/HSL 調整"
 msgid ""
 "The current configuration was created for a different colorspace and cannot "
 "be used. All curves will be reset."
-msgstr "目前的設定檔當初是為不同色彩空間建立的，而目前不能使用。將會重設所有曲線。"
+msgstr ""
+"目前的設定檔當初是為不同色彩空間建立的，而目前不能使用。將會重設所有曲線。"
 
 #: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:147
 #, kde-format
@@ -32789,7 +32803,8 @@ msgstr ""
 msgid ""
 "This option will merge all layers. It is advisable to check this option, "
 "otherwise other applications might not be able to read your file correctly."
-msgstr "此選項將合併全部圖層。建議勾選此選項，否則其他應用程式可能無法正確讀取檔案。"
+msgstr ""
+"此選項將合併全部圖層。建議勾選此選項，否則其他應用程式可能無法正確讀取檔案。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkFlatten)
 #. i18n: ectx: property (text), widget (QCheckBox, flatten)
@@ -32943,7 +32958,8 @@ msgstr "大端序(&B)"
 msgid ""
 "Guess width and height based on file size and bits per pixel. Only values "
 "set to 0 will be updated."
-msgstr "按照檔案體積和每像素位深估算影像的寬度和高度，只有被設為 0 的數值才會更新。"
+msgstr ""
+"按照檔案體積和每像素位深估算影像的寬度和高度，只有被設為 0 的數值才會更新。"
 
 #. i18n: ectx: property (text), widget (QPushButton, guessButton)
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:101
@@ -34271,7 +34287,8 @@ msgctxt "@info:whatsthis"
 msgid ""
 "<title>Shift</title><p>Linear Shift of exposure correction before "
 "interpolation in E.V</p>"
-msgstr "<title>偏移</title><p>進行插值處理前的曝光偏移校正量，單位為曝光值 (E.V)</p>"
+msgstr ""
+"<title>偏移</title><p>進行插值處理前的曝光偏移校正量，單位為曝光值 (E.V)</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:493
 #, kde-format
@@ -34319,7 +34336,8 @@ msgctxt "@info:whatsthis"
 msgid ""
 "<p>If disable, use a fixed white level and ignore the image histogram to "
 "adjust brightness.</p>"
-msgstr "<p>禁用此選項，程式將使用固定白色級別並在調整亮度時忽略影像的直方圖資料。</p>"
+msgstr ""
+"<p>禁用此選項，程式將使用固定白色級別並在調整亮度時忽略影像的直方圖資料。</p>"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:511
 #, kde-format
@@ -35113,7 +35131,8 @@ msgctxt "@info:tooltip"
 msgid ""
 "This brush has transparent pixels in its center. \"Dulling\" mode may give "
 "unstable results. Consider using \"Smearing\" mode instead."
-msgstr "此筆刷在其中心有透明像素。 鈍化模式的結果會不穩定。可考慮換用塗抹模式。"
+msgstr ""
+"此筆刷在其中心有透明像素。 鈍化模式的結果會不穩定。可考慮換用塗抹模式。"
 
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:74
 #, kde-format
@@ -37381,7 +37400,8 @@ msgstr "傾斜選項"
 msgid ""
 "<html><head/><body><p>Use the tilt of the tablet to determine the normals.</"
 "p></body></html>"
-msgstr "<html><head/><body><p>使用數位板的壓感筆傾斜度決定法線。</p></body></html>"
+msgstr ""
+"<html><head/><body><p>使用數位板的壓感筆傾斜度決定法線。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, optionTilt)
 #: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:226
@@ -39147,7 +39167,6 @@ msgid "Last Documents Docker"
 msgstr "最近檔案"
 
 #: plugins/python/mixer_slider_docker/mixer_slider_docker.py:52
-#| msgid "Tablet settings"
 msgid "Change settings"
 msgstr "變更設定"
 
@@ -39156,7 +39175,6 @@ msgid "Mixer Slider Docker"
 msgstr "混色滑動條工具面板"
 
 #: plugins/python/mixer_slider_docker/ui_mixer_slider_docker.py:47
-#| msgid "Number of lines it covers:"
 msgid "Number of slider lines: "
 msgstr "滑動條行數："
 
@@ -39975,7 +39993,8 @@ msgstr "顯示引導線"
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
 "+Drag will force you to draw straight lines"
-msgstr "Alt + 拖曳可移動目前顯示線條的基點，Shift + 拖曳將強制在特殊角度上繪製直線"
+msgstr ""
+"Alt + 拖曳可移動目前顯示線條的基點，Shift + 拖曳將強制在特殊角度上繪製直線"
 
 #: plugins/tools/basictools/kis_tool_line.h:116
 #, kde-format
@@ -40110,7 +40129,8 @@ msgstr ""
 msgid ""
 "<nobr>Determines whether the color picker will sample</nobr> colors from all "
 "visible layers or only the currently selected layer."
-msgstr "<nobr>控制拾色器將</nobr>拾取全部可見圖層的顏色還是只拾取目前選取圖層的顏色。"
+msgstr ""
+"<nobr>控制拾色器將</nobr>拾取全部可見圖層的顏色還是只拾取目前選取圖層的顏色。"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSources)
 #: plugins/tools/basictools/wdgcolorpicker.ui:78
@@ -40165,7 +40185,8 @@ msgstr ""
 msgid ""
 "<nobr>Checking this box will add a new color swatch</nobr> to a palette each "
 "time you pick a color."
-msgstr "<nobr>勾選後，每次拾取顏色時將其作為一個新的色塊</nobr> 新增到調色板中。"
+msgstr ""
+"<nobr>勾選後，每次拾取顏色時將其作為一個新的色塊</nobr> 新增到調色板中。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbPalette)
 #: plugins/tools/basictools/wdgcolorpicker.ui:217
@@ -42205,7 +42226,8 @@ msgctxt "@info:tooltip"
 msgid ""
 "The mask will try to remove parts of the key strokes that are placed outside "
 "the closed contours. 0% - no effect, 100% - max effect"
-msgstr "遮罩將嘗試移除位於閉合輪廓外側部分的關鍵筆畫。0% - 無效果，100% - 最大效果"
+msgstr ""
+"遮罩將嘗試移除位於閉合輪廓外側部分的關鍵筆畫。0% - 無效果，100% - 最大效果"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAutoUpdates)
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:19

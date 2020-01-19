@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-18 02:41+0100\n"
+"POT-Creation-Date: 2020-01-19 02:37+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -3369,7 +3369,7 @@ msgstr "檔名"
 
 #: core/app/views/tableview/tableview_column_file.cpp:63
 #: core/app/views/tableview/tableview_column_file.cpp:86
-#: core/libs/dialogs/deletedialog.cpp:182
+#: core/libs/dialogs/deletedialog.cpp:184
 #: core/utilities/setup/camera/setupcamera.cpp:305
 #: core/utilities/setup/collections/setupcollectionview.cpp:892
 #, kde-format
@@ -3470,7 +3470,7 @@ msgstr "是"
 #: core/libs/dialogs/libsinfodlg.cpp:141 core/libs/dialogs/libsinfodlg.cpp:143
 #: core/libs/dialogs/libsinfodlg.cpp:145 core/libs/dialogs/libsinfodlg.cpp:147
 #: core/libs/dialogs/libsinfodlg.cpp:149 core/libs/dialogs/libsinfodlg.cpp:151
-#: core/libs/dialogs/libsinfodlg.cpp:228
+#: core/libs/dialogs/libsinfodlg.cpp:229
 #: core/libs/properties/import/importitempropertiestab.cpp:414
 #: core/libs/properties/import/importitempropertiestab.cpp:429
 #: core/libs/properties/import/importitempropertiestab.cpp:515
@@ -9171,9 +9171,9 @@ msgstr "儲存變更中 - %p% "
 #: core/dplugins/generic/webservices/box/boxtalker.cpp:397
 #: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:382
 #: core/dplugins/generic/webservices/facebook/fbtalker.cpp:558
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:771
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:795
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:955
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:770
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:794
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:954
 #: core/dplugins/generic/webservices/flickr/flickrwindow.cpp:474
 #: core/dplugins/generic/webservices/google/gdrive/gdtalker.cpp:307
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:644
@@ -10752,7 +10752,7 @@ msgid "Subject distance type:"
 msgstr "拍攝主體距離類型："
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:315
-#: core/libs/dialogs/libsinfodlg.cpp:230
+#: core/libs/dialogs/libsinfodlg.cpp:232
 #: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:622
 #: core/libs/properties/itempropertiessidebar.cpp:267
 #: core/libs/properties/itempropertiessidebar.cpp:273
@@ -11234,7 +11234,7 @@ msgstr "加入(&A)"
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptckeywords.cpp:102
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpcategories.cpp:105
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpkeywords.cpp:93
-#: core/libs/dialogs/deletedialog.cpp:593
+#: core/libs/dialogs/deletedialog.cpp:601
 #: core/libs/widgets/metadata/subjectwidget.cpp:218
 #, kde-format
 msgid "&Delete"
@@ -17795,7 +17795,7 @@ msgstr "匯出工具"
 
 #: core/dplugins/generic/webservices/box/boxtalker.cpp:443
 #: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:425
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1130
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1129
 #: core/dplugins/generic/webservices/google/gdrive/gdtalker.cpp:476
 #: core/dplugins/generic/webservices/onedrive/odtalker.cpp:452
 #: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:678
@@ -17924,7 +17924,7 @@ msgstr ""
 #: core/dplugins/generic/webservices/pinterest/pwindow.cpp:275
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:684
 #: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:280
-#: core/libs/dialogs/dmessagebox.cpp:160
+#: core/libs/dialogs/dmessagebox.cpp:164
 #, kde-format
 msgid "Continue"
 msgstr "繼續"
@@ -18637,24 +18637,24 @@ msgctxt "@action"
 msgid "Export to &Flickr..."
 msgstr "匯出工具"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:344
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:343
 #, kde-format
 msgid "Getting the maximum allowed file size."
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:619
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:618
 #, kde-format
 msgid "File Size exceeds maximum allowed file size."
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:702
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:701
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:566
 #, fuzzy, kde-format
 #| msgid "Unspecified"
 msgid "No photo specified"
 msgstr "未指定"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:706
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:705
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:569
 #, fuzzy, kde-format
 #| msgctxt "@label"
@@ -18662,90 +18662,90 @@ msgstr "未指定"
 msgid "General upload failure"
 msgstr "旋轉檔案時"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:710
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:709
 #, fuzzy, kde-format
 #| msgid "File Size"
 msgid "Filesize was zero"
 msgstr "檔案大小"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:714
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:713
 #, kde-format
 msgid "Filetype was not recognized"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:718
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:717
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:578
 #, kde-format
 msgid "User exceeded upload limit"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:722
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:721
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:581
 #, kde-format
 msgid "Invalid signature"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:726
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:725
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:584
 #, kde-format
 msgid "Missing signature"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:730
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:729
 #, kde-format
 msgid "Login Failed / Invalid auth token"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:734
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:733
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:590
 #, kde-format
 msgid "Invalid API Key"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:738
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:737
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:593
 #, fuzzy, kde-format
 #| msgid "This collection is currently not available."
 msgid "Service currently unavailable"
 msgstr "這個收藏目前無法使用。"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:742
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:741
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:596
 #, kde-format
 msgid "Invalid Frob"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:746
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:745
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:599
 #, kde-format
 msgid "Format \"xxx\" not found"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:750
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:749
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:602
 #, fuzzy, kde-format
 #| msgid "Collection not found"
 msgid "Method \"xxx\" not found"
 msgstr "沒有找到任何收藏"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:754
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:753
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:605
 #, kde-format
 msgid "Invalid SOAP envelope"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:758
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:757
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:608
 #, kde-format
 msgid "Invalid XML-RPC Method Call"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:762
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:761
 #, kde-format
 msgid "The POST method is now required for all setters"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:766
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:765
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:614
 #: core/dplugins/generic/webservices/rajce/rajcewidget.cpp:236
 #: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:765
@@ -18754,26 +18754,26 @@ msgstr ""
 msgid "Unknown error"
 msgstr "未知的濾鏡"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:772
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:771
 #, kde-format
 msgid ""
 "Error Occurred: %1\n"
 "Cannot proceed any further."
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:955
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:954
 #, fuzzy, kde-format
 #| msgid "Correlation failed"
 msgid "PhotoSet creation failed: "
 msgstr "建立關聯失敗"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1050
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1049
 #, fuzzy, kde-format
 #| msgid "Failed to save tags to file."
 msgid "Failed to fetch list of photo sets."
 msgstr "儲存標籤到檔案中失敗。"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1189
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1188
 #, fuzzy, kde-format
 #| msgid "Failed to save some information:"
 msgid "Failed to query photo information"
@@ -24147,30 +24147,30 @@ msgid ""
 "This binary file is used to start a dedicated instance of MariaDB server."
 msgstr ""
 
-#: core/libs/dialogs/deletedialog.cpp:182
+#: core/libs/dialogs/deletedialog.cpp:184
 #: core/utilities/import/dialogs/cameramessagebox.cpp:147
 #, kde-format
 msgid "Thumb"
 msgstr "縮圖"
 
-#: core/libs/dialogs/deletedialog.cpp:185
+#: core/libs/dialogs/deletedialog.cpp:187
 #, kde-format
 msgid "List of items that are about to be deleted."
 msgstr "將要刪除的項目清單。"
 
-#: core/libs/dialogs/deletedialog.cpp:186
+#: core/libs/dialogs/deletedialog.cpp:188
 #, kde-format
 msgid "This is the list of items that are about to be deleted."
 msgstr "這份清單列出了將要刪除的項目。"
 
-#: core/libs/dialogs/deletedialog.cpp:306
+#: core/libs/dialogs/deletedialog.cpp:309
 #, kde-format
 msgid ""
 "If checked, files will be permanently removed instead of being placed in the "
 "Trash."
 msgstr "若勾選此選項，將會永久移除檔案，而不是放置到垃圾桶。"
 
-#: core/libs/dialogs/deletedialog.cpp:308
+#: core/libs/dialogs/deletedialog.cpp:311
 #, kde-format
 msgid ""
 "<p>If this box is checked, items will be <b>permanently removed</b> instead "
@@ -24180,78 +24180,78 @@ msgstr ""
 "<p>如果勾選這個方塊，這些項目會被<b>永久移除</b>而不會放到垃圾桶。</p><p><em>"
 "請謹慎使用這個選項</em>：大部分的檔案系統都無法可靠地復原被刪除的項目。</p>"
 
-#: core/libs/dialogs/deletedialog.cpp:314
+#: core/libs/dialogs/deletedialog.cpp:317
 #, kde-format
 msgid "&Delete items instead of moving them to the trash"
 msgstr "刪除項目而不是移至垃圾桶(&D)"
 
-#: core/libs/dialogs/deletedialog.cpp:321
+#: core/libs/dialogs/deletedialog.cpp:324
 #, kde-format
 msgid "Do not &ask again"
 msgstr "不再詢問 (&A)"
 
-#: core/libs/dialogs/deletedialog.cpp:379
+#: core/libs/dialogs/deletedialog.cpp:383
 #, kde-format
 msgid ""
 "If checked, this dialog will no longer be shown, and items will be directly "
 "and permanently deleted."
 msgstr "如果勾選，將不再出現這個對話框，項目會直接永久刪除。"
 
-#: core/libs/dialogs/deletedialog.cpp:381
+#: core/libs/dialogs/deletedialog.cpp:385
 #, kde-format
 msgid ""
 "If this box is checked, this dialog will no longer be shown, and items will "
 "be directly and permanently deleted."
 msgstr "如果勾選這個方框，將不再出現這個對話框，項目會被直接永久刪除。"
 
-#: core/libs/dialogs/deletedialog.cpp:386
+#: core/libs/dialogs/deletedialog.cpp:390
 #, kde-format
 msgid ""
 "If checked, this dialog will no longer be shown, and items will be directly "
 "moved to the Trash."
 msgstr "如果勾選，這個對話框將不再顯示，項目會直接移至垃圾桶。"
 
-#: core/libs/dialogs/deletedialog.cpp:388
+#: core/libs/dialogs/deletedialog.cpp:392
 #, kde-format
 msgid ""
 "If this box is checked, this dialog will no longer be shown, and items will "
 "be directly moved to the Trash."
 msgstr "如果勾選此選項，則將不會再出現此對話框，項目會被直接移至垃圾桶。"
 
-#: core/libs/dialogs/deletedialog.cpp:400
+#: core/libs/dialogs/deletedialog.cpp:404
 #, kde-format
 msgid "These items will be <b>permanently deleted</b> from your hard disk."
 msgstr "這些項目將從您的硬碟中<b>永久刪除</b>。"
 
-#: core/libs/dialogs/deletedialog.cpp:406
+#: core/libs/dialogs/deletedialog.cpp:410
 #, kde-format
 msgid "These items will be moved to Trash."
 msgstr "這些項目會移至垃圾桶。"
 
-#: core/libs/dialogs/deletedialog.cpp:408
+#: core/libs/dialogs/deletedialog.cpp:412
 #, kde-format
 msgid "<b>1</b> item selected."
 msgid_plural "<b>%1</b> items selected."
 msgstr[0] "已選擇 <b>%1</b> 個項目。"
 
-#: core/libs/dialogs/deletedialog.cpp:420
+#: core/libs/dialogs/deletedialog.cpp:425
 #, kde-format
 msgid "These albums will be <b>permanently deleted</b> from your hard disk."
 msgstr "此相簿將會自您的硬碟<b>永久刪除</b>。"
 
-#: core/libs/dialogs/deletedialog.cpp:426
+#: core/libs/dialogs/deletedialog.cpp:431
 #, kde-format
 msgid "These albums will be moved to Trash."
 msgstr "這些相簿將被移到垃圾桶。"
 
-#: core/libs/dialogs/deletedialog.cpp:430
-#: core/libs/dialogs/deletedialog.cpp:456
+#: core/libs/dialogs/deletedialog.cpp:435
+#: core/libs/dialogs/deletedialog.cpp:462
 #, kde-format
 msgid "<b>1</b> album selected."
 msgid_plural "<b>%1</b> albums selected."
 msgstr[0] "已選擇了 <b>%1</b> 本相簿。"
 
-#: core/libs/dialogs/deletedialog.cpp:440
+#: core/libs/dialogs/deletedialog.cpp:446
 #, kde-format
 msgid ""
 "<p>These albums will be <b>permanently deleted</b> from your hard disk.</"
@@ -24261,7 +24261,7 @@ msgstr ""
 "<p>此相簿將會從您的硬碟中<b>永久刪除</b>。</p><p>備註：<b>所有子相簿</b>也將"
 "一併永久刪除。</p>"
 
-#: core/libs/dialogs/deletedialog.cpp:449
+#: core/libs/dialogs/deletedialog.cpp:455
 #, kde-format
 msgid ""
 "<p>These albums will be moved to Trash.</p><p>Note that <b>all subalbums</b> "
@@ -24269,27 +24269,27 @@ msgid ""
 msgstr ""
 "<p>此相簿將移到垃圾桶。</p><p>備註：<b>所有子相簿</b>也將一併移到垃圾筒。</p>"
 
-#: core/libs/dialogs/deletedialog.cpp:594
+#: core/libs/dialogs/deletedialog.cpp:602
 #, kde-format
 msgid "&Move to Trash"
 msgstr "移至垃圾桶(&M)"
 
-#: core/libs/dialogs/deletedialog.cpp:645
+#: core/libs/dialogs/deletedialog.cpp:661
 #, kde-format
 msgid "About to delete selected items"
 msgstr "即將刪除選擇的項目"
 
-#: core/libs/dialogs/deletedialog.cpp:650
+#: core/libs/dialogs/deletedialog.cpp:666
 #, kde-format
 msgid "About to delete selected albums"
 msgstr "即將刪除選擇的相簿"
 
-#: core/libs/dialogs/dmessagebox.cpp:114
+#: core/libs/dialogs/dmessagebox.cpp:118
 #, kde-format
 msgid "Do not show this message again"
 msgstr "不要再顯示此訊息"
 
-#: core/libs/dialogs/dmessagebox.cpp:171 core/libs/dialogs/dmessagebox.cpp:234
+#: core/libs/dialogs/dmessagebox.cpp:175 core/libs/dialogs/dmessagebox.cpp:238
 #, kde-format
 msgid "Do not ask again"
 msgstr "不要再詢問"
@@ -24375,12 +24375,12 @@ msgstr "<i>影格率：</i>"
 msgid "<i>VideoCodec:</i>"
 msgstr "<i>影像編解碼器：</i>"
 
-#: core/libs/dialogs/imagedialog.cpp:461
+#: core/libs/dialogs/imagedialog.cpp:465
 #, fuzzy, kde-format
 msgid "Select an Item"
 msgstr "選擇項目"
 
-#: core/libs/dialogs/imagedialog.cpp:475
+#: core/libs/dialogs/imagedialog.cpp:479
 #, fuzzy, kde-format
 msgid "Select Items"
 msgstr "選擇項目"
@@ -28926,71 +28926,71 @@ msgstr "檔案不存在"
 msgid "Album %1 does not exist anymore"
 msgstr "檔案不存在"
 
-#: core/libs/iojobs/iojob.cpp:94
+#: core/libs/iojobs/iojob.cpp:95
 #, fuzzy, kde-format
 msgid "A file or folder named %1 already exists in %2"
 msgstr "已存在一個名為 '%1' 的中繼資料範本。"
 
-#: core/libs/iojobs/iojob.cpp:118
+#: core/libs/iojobs/iojob.cpp:119
 #, fuzzy, kde-format
 msgid "Could not move folder %1 to album %2"
 msgstr "無法儲存影像「%1」到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:126
+#: core/libs/iojobs/iojob.cpp:127
 #, fuzzy, kde-format
 msgid ""
 "Could not move folder %1 to album %2. The folder %1 was copied as well to "
 "album %2"
 msgstr "無法儲存影像「%1」到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:137
+#: core/libs/iojobs/iojob.cpp:138
 #, fuzzy, kde-format
 msgid "Could not move file %1 to album %2"
 msgstr "無法儲存影像「%1」到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:158
+#: core/libs/iojobs/iojob.cpp:159
 #, fuzzy, kde-format
 msgid "Could not copy folder %1 to album %2"
 msgstr "無法儲存影像「%1」的圖示到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:169
+#: core/libs/iojobs/iojob.cpp:170
 #, fuzzy, kde-format
 msgid "Could not copy file %1 to album %2"
 msgstr "無法儲存影像「%1」的圖示到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:211
+#: core/libs/iojobs/iojob.cpp:212
 #, fuzzy, kde-format
 msgid "File/Folder %1 does not exist"
 msgstr "檔案不存在"
 
-#: core/libs/iojobs/iojob.cpp:223
+#: core/libs/iojobs/iojob.cpp:224
 #, fuzzy, kde-format
 msgid "Could not move folder %1 to collection trash"
 msgstr "無法儲存影像「%1」到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:233 core/libs/iojobs/iojob.cpp:300
+#: core/libs/iojobs/iojob.cpp:234 core/libs/iojobs/iojob.cpp:301
 #, fuzzy, kde-format
 msgid "Could not move image %1 to collection trash"
 msgstr "無法儲存影像「%1」到「%2」"
 
-#: core/libs/iojobs/iojob.cpp:248
+#: core/libs/iojobs/iojob.cpp:249
 #, fuzzy, kde-format
 msgid "Album %1 could not be removed"
 msgstr "相簿名稱不可為空。"
 
-#: core/libs/iojobs/iojob.cpp:260
+#: core/libs/iojobs/iojob.cpp:261
 #, kde-format
 msgid "Image %1 could not be removed"
 msgstr ""
 
-#: core/libs/iojobs/iojob.cpp:310
+#: core/libs/iojobs/iojob.cpp:311
 #, fuzzy, kde-format
 msgid "Image with the same name %1 already there"
 msgstr ""
 "另一個相同名稱的標籤已經存在。\n"
 "請另選一個名稱。"
 
-#: core/libs/iojobs/iojob.cpp:325
+#: core/libs/iojobs/iojob.cpp:326
 #, kde-format
 msgid "Image %1 could not be renamed"
 msgstr ""
