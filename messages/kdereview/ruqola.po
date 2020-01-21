@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-20 03:20+0100\n"
+"POT-Creation-Date: 2020-01-21 03:24+0100\n"
 "PO-Revision-Date: 2019-09-28 03:06+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -193,7 +193,7 @@ msgstr ""
 
 #: apps/qml/qml/ChannelInfoDialog.qml:137
 #: apps/qml/qml/ChannelPasswordDialog.qml:56
-#: apps/qml/qml/CreateNewChannelDialog.qml:120
+#: apps/qml/qml/CreateNewChannelDialog.qml:120 widgets/ruqolaloginwidget.cpp:51
 msgid "Password:"
 msgstr ""
 
@@ -726,6 +726,7 @@ msgid "Block user"
 msgstr ""
 
 #: apps/qml/qml/ReportMessageDialog.qml:50
+#: widgets/dialogs/uploadfilewidget.cpp:43
 msgid "Message:"
 msgstr ""
 
@@ -901,7 +902,7 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: apps/qml/qml/UploadFileDialog.qml:68 widgets/dialogs/uploadfilewidget.cpp:43
+#: apps/qml/qml/UploadFileDialog.qml:68
 msgid "Message"
 msgstr ""
 
@@ -1673,6 +1674,28 @@ msgstr ""
 msgid "Get Avatar"
 msgstr ""
 
+#: widgets/dialogs/channelinfodialog.cpp:31
+msgctxt "@title:window"
+msgid "Channel Info"
+msgstr ""
+
+#: widgets/dialogs/serverinfodialog.cpp:30
+msgctxt "@title:window"
+msgid "Server Info"
+msgstr ""
+
+#: widgets/dialogs/serverinfowidget.cpp:36 widgets/ruqolaloginwidget.cpp:39
+msgid "Account Name:"
+msgstr ""
+
+#: widgets/dialogs/serverinfowidget.cpp:39 widgets/ruqolaloginwidget.cpp:47
+msgid "User Name:"
+msgstr ""
+
+#: widgets/dialogs/serverinfowidget.cpp:42
+msgid "Server Version:"
+msgstr ""
+
 #: widgets/dialogs/uploadfiledialog.cpp:30
 msgctxt "@title:window"
 msgid "Upload File"
@@ -1682,6 +1705,22 @@ msgstr ""
 msgid "File:"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:71
+#: widgets/ruqolaloginwidget.cpp:43
+msgid "Server Name:"
+msgstr ""
+
+#: widgets/ruqolaloginwidget.cpp:53
+msgid "Login"
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:73
 msgid "Add Account..."
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:78
+msgid "Server Info..."
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:82
+msgid "Logout"
 msgstr ""

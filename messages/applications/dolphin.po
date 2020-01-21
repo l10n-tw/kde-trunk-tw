@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-20 02:34+0100\n"
+"POT-Creation-Date: 2020-01-21 02:36+0100\n"
 "PO-Revision-Date: 2020-01-16 14:40+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -1188,7 +1188,7 @@ msgctxt "@title:menu"
 msgid "Main Toolbar"
 msgstr "主工具列"
 
-#: dolphinviewcontainer.cpp:84
+#: dolphinviewcontainer.cpp:85
 #, kde-kuit-format
 msgctxt "@info:whatsthis location bar"
 msgid ""
@@ -1204,13 +1204,13 @@ msgid ""
 "Handbook.</para>"
 msgstr ""
 
-#: dolphinviewcontainer.cpp:109
+#: dolphinviewcontainer.cpp:110
 #, kde-format
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "清空垃圾桶"
 
-#: dolphinviewcontainer.cpp:123
+#: dolphinviewcontainer.cpp:124
 #, kde-kuit-format
 msgctxt "@info:whatsthis findbar"
 msgid ""
@@ -1225,45 +1225,45 @@ msgid ""
 "find an item.</item></list></para>"
 msgstr ""
 
-#: dolphinviewcontainer.cpp:143
+#: dolphinviewcontainer.cpp:144
 #, kde-format
 msgid "Running Dolphin as root can be dangerous. Please be careful."
 msgstr "以管理員權限執行 Dolphin 可能有危險性，請小心使用。"
 
-#: dolphinviewcontainer.cpp:431 search/dolphinsearchbox.cpp:301
+#: dolphinviewcontainer.cpp:432 search/dolphinsearchbox.cpp:301
 #, kde-format
 msgid "Search for %1 in %2"
 msgstr "在 %2 中搜尋 %1"
 
-#: dolphinviewcontainer.cpp:469
+#: dolphinviewcontainer.cpp:470
 #, kde-format
 msgid "Search"
 msgstr "搜尋"
 
-#: dolphinviewcontainer.cpp:471
+#: dolphinviewcontainer.cpp:472
 #, kde-format
 msgid "Search for %1"
 msgstr "搜尋 %1"
 
-#: dolphinviewcontainer.cpp:549
+#: dolphinviewcontainer.cpp:550
 #, kde-format
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "載入資料夾中..."
 
-#: dolphinviewcontainer.cpp:557
+#: dolphinviewcontainer.cpp:558
 #, kde-format
 msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "排序中..."
 
-#: dolphinviewcontainer.cpp:568
+#: dolphinviewcontainer.cpp:569
 #, kde-format
 msgctxt "@info"
 msgid "Searching..."
 msgstr "搜尋中..."
 
-#: dolphinviewcontainer.cpp:589
+#: dolphinviewcontainer.cpp:590
 #, kde-format
 msgctxt "@info:status"
 msgid "No items found."
@@ -1275,13 +1275,16 @@ msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "Dolphin 不支援網頁，已啟動瀏覽器"
 
-#: dolphinviewcontainer.cpp:711
-#, kde-format
+#: dolphinviewcontainer.cpp:701
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgctxt "@info:status"
-msgid "Protocol not supported by Dolphin, Konqueror has been launched"
+msgid ""
+"Protocol not supported by Dolphin, default application has been launched"
 msgstr "此協定未被 Dolphin 支援，已啟動 Konqueror"
 
-#: dolphinviewcontainer.cpp:719
+#: dolphinviewcontainer.cpp:708
 #, kde-format
 msgctxt "@info:status"
 msgid "Invalid protocol"

@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-20 02:39+0100\n"
+"POT-Creation-Date: 2020-01-21 02:42+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -394,14 +394,14 @@ msgstr "定義用哪種方式合併選擇的標籤和過濾的影像。這也包
 
 #: core/app/filters/filtersidebarwidget.cpp:192
 #: core/app/filters/filtersidebarwidget.cpp:238
-#: core/utilities/searchwindow/searchgroup.cpp:677
+#: core/utilities/searchwindow/searchgroup.cpp:702
 #, kde-format
 msgid "OR"
 msgstr "或"
 
 #: core/app/filters/filtersidebarwidget.cpp:194
 #: core/app/filters/filtersidebarwidget.cpp:240
-#: core/utilities/searchwindow/searchgroup.cpp:673
+#: core/utilities/searchwindow/searchgroup.cpp:698
 #, kde-format
 msgid "AND"
 msgstr "且"
@@ -563,19 +563,19 @@ msgstr "用檔案管理程式開啟"
 
 #: core/app/items/utils/contextmenuhelper.cpp:305
 #: core/app/items/utils/contextmenuhelper.cpp:322
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2675
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2570
 #, kde-format
 msgid "Open With"
 msgstr "開啟方式"
 
 #: core/app/items/utils/contextmenuhelper.cpp:336
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2688
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2583
 #, kde-format
 msgid "Other..."
 msgstr "其他..."
 
 #: core/app/items/utils/contextmenuhelper.cpp:345
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2697
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2592
 #, kde-format
 msgid "Open With..."
 msgstr "開啟方式..."
@@ -699,15 +699,15 @@ msgstr "沒有可用的匯出外掛程式"
 #: core/libs/dplugins/webservices/wssettingswidget.cpp:151
 #: core/libs/models/abstractalbummodel.cpp:444
 #: core/utilities/searchwindow/searchfields.cpp:87
-#: core/utilities/searchwindow/searchfields.cpp:94
-#: core/utilities/searchwindow/searchfields.cpp:101
-#: core/utilities/searchwindow/searchfields.cpp:108
+#: core/utilities/searchwindow/searchfields.cpp:95
+#: core/utilities/searchwindow/searchfields.cpp:103
+#: core/utilities/searchwindow/searchfields.cpp:111
 #, kde-format
 msgid "Album"
 msgstr "相簿"
 
 #: core/app/items/utils/contextmenuhelper.cpp:796
-#: core/utilities/searchwindow/searchfields.cpp:198
+#: core/utilities/searchwindow/searchfields.cpp:210
 #, kde-format
 msgid "Date"
 msgstr "日期"
@@ -1134,7 +1134,7 @@ msgstr "白平衡："
 #: core/app/items/utils/tooltipfiller.cpp:321
 #: core/libs/properties/import/importitempropertiestab.cpp:346
 #: core/libs/properties/itempropertiestab.cpp:355
-#: core/utilities/searchwindow/searchgroup.cpp:144
+#: core/utilities/searchwindow/searchgroup.cpp:146
 #, fuzzy, kde-format
 #| msgid "Audio/video properties"
 msgid "Audio/Video Properties"
@@ -1557,7 +1557,7 @@ msgstr "刪除相簿"
 
 #: core/app/main/digikamapp_setup.cpp:218
 #: core/app/main/digikamapp_setup.cpp:424
-#: core/utilities/searchwindow/editablesearchtreeview.cpp:70
+#: core/utilities/searchwindow/editablesearchtreeview.cpp:71
 #, kde-format
 msgid "Rename..."
 msgstr "重新命名..."
@@ -1629,7 +1629,7 @@ msgstr "新增(&E)..."
 
 #: core/app/main/digikamapp_setup.cpp:277
 #: core/libs/database/utils/ifaces/dio.cpp:547
-#: core/utilities/searchwindow/editablesearchtreeview.cpp:71
+#: core/utilities/searchwindow/editablesearchtreeview.cpp:72
 #: core/utilities/setup/metadata/advancedmetadatatab.cpp:343
 #, kde-format
 msgid "Delete"
@@ -1679,7 +1679,7 @@ msgid "Open the selected item."
 msgstr "用影像編輯器開啟選擇的項目。"
 
 #: core/app/main/digikamapp_setup.cpp:332
-#: core/utilities/imageeditor/editor/editorwindow.cpp:422
+#: core/utilities/imageeditor/editor/editorwindow.cpp:317
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:76
 #, kde-format
 msgid "Open With Default Application"
@@ -1793,7 +1793,7 @@ msgid "Change the filename of the currently selected item."
 msgstr "變更目前選擇項目的檔案名稱。"
 
 #: core/app/main/digikamapp_setup.cpp:433
-#: core/utilities/imageeditor/editor/editorwindow.cpp:429
+#: core/utilities/imageeditor/editor/editorwindow.cpp:324
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:94
 #, kde-format
 msgctxt "Non-pluralized"
@@ -2027,7 +2027,7 @@ msgid "Select All"
 msgstr "全部選取"
 
 #: core/app/main/digikamapp_setup.cpp:632
-#: core/utilities/imageeditor/editor/editorwindow.cpp:473
+#: core/utilities/imageeditor/editor/editorwindow.cpp:368
 #, kde-format
 msgid "Select None"
 msgstr "全部不選"
@@ -2039,7 +2039,7 @@ msgid "Show Thumbbar"
 msgstr "顯示縮圖列"
 
 #: core/app/main/digikamapp_setup.cpp:673
-#: core/utilities/imageeditor/editor/editorwindow.cpp:486
+#: core/utilities/imageeditor/editor/editorwindow.cpp:381
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:157
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:179
 #, kde-format
@@ -2047,7 +2047,7 @@ msgid "Zoom to 100%"
 msgstr "縮放為 100%"
 
 #: core/app/main/digikamapp_setup.cpp:680
-#: core/utilities/imageeditor/editor/editorwindow.cpp:491
+#: core/utilities/imageeditor/editor/editorwindow.cpp:386
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:162
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:184
 #, kde-format
@@ -2057,7 +2057,7 @@ msgstr "符合視窗(&W)"
 #: core/app/main/digikamapp_setup.cpp:692
 #: core/dplugins/generic/view/slideshow/slideshowplugin.cpp:103
 #: core/libs/settings/applicationsettings_miscs.cpp:403
-#: core/utilities/imageeditor/editor/editorwindow.cpp:526
+#: core/utilities/imageeditor/editor/editorwindow.cpp:421
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:142
 #: core/utilities/slideshow/slideshow.cpp:117
 #, kde-format
@@ -2083,7 +2083,7 @@ msgid "With All Sub-Albums"
 msgstr "包含所有子相簿"
 
 #: core/app/main/digikamapp_setup.cpp:716
-#: core/utilities/imageeditor/editor/editorwindow.cpp:549
+#: core/utilities/imageeditor/editor/editorwindow.cpp:444
 #: core/utilities/import/main/importui.cpp:586
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:191
 #, kde-format
@@ -2097,7 +2097,7 @@ msgid "Search..."
 msgstr "搜尋..."
 
 #: core/app/main/digikamapp_setup.cpp:740
-#: core/utilities/searchwindow/searchtabheader.cpp:260
+#: core/utilities/searchwindow/searchtabheader.cpp:261
 #, kde-format
 msgid "Advanced Search..."
 msgstr "進階搜尋..."
@@ -2140,7 +2140,7 @@ msgid "Next Image"
 msgstr "下一張影像"
 
 #: core/app/main/digikamapp_setup.cpp:822
-#: core/utilities/imageeditor/editor/editorwindow.cpp:628
+#: core/utilities/imageeditor/editor/editorwindow.cpp:523
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:217
 #, kde-format
 msgid "Previous Image"
@@ -2377,7 +2377,7 @@ msgid "Main Tools"
 msgstr "主工具列"
 
 #: core/app/main/digikamapp_tools.cpp:45
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2522
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2417
 #, fuzzy, kde-format
 #| msgid "Post Processing"
 msgctxt "@title Post Processing Tools"
@@ -2385,14 +2385,14 @@ msgid "Post-Processing"
 msgstr "後製"
 
 #: core/app/main/digikamapp_tools.cpp:57
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2539
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2434
 #, kde-format
 msgctxt "@title Export Tools"
 msgid "Export"
 msgstr "匯出"
 
 #: core/app/main/digikamapp_tools.cpp:64
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2546
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2441
 #, kde-format
 msgctxt "@title Import Tools"
 msgid "Import"
@@ -2717,7 +2717,7 @@ msgstr "地圖"
 
 #: core/app/views/sidebar/labelssidebarwidget.cpp:127
 #: core/libs/album/widgets/albumselecttabs.cpp:199
-#: core/utilities/searchwindow/searchfields.cpp:183
+#: core/utilities/searchwindow/searchfields.cpp:193
 #, kde-format
 msgid "Labels"
 msgstr "標籤"
@@ -2778,9 +2778,9 @@ msgstr "前往相簿"
 #: core/libs/properties/captions/itemdescedittab.cpp:325
 #: core/libs/tags/widgets/tagfolderview.cpp:104
 #: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:608
-#: core/utilities/searchwindow/searchfields.cpp:131
-#: core/utilities/searchwindow/searchfields.cpp:138
-#: core/utilities/searchwindow/searchfields.cpp:149
+#: core/utilities/searchwindow/searchfields.cpp:134
+#: core/utilities/searchwindow/searchfields.cpp:142
+#: core/utilities/searchwindow/searchfields.cpp:155
 #, kde-format
 msgid "Tags"
 msgstr "標籤"
@@ -2952,7 +2952,7 @@ msgid "DigiKam Thumbnail Dock"
 msgstr "縮圖"
 
 #: core/app/views/stack/trashview.cpp:120
-#: core/utilities/imageeditor/editor/editorwindow.cpp:444
+#: core/utilities/imageeditor/editor/editorwindow.cpp:339
 #, kde-format
 msgid "Undo"
 msgstr "復原"
@@ -3164,7 +3164,7 @@ msgstr "聲道型態"
 
 #: core/app/views/tableview/tableview_column_audiovideo.cpp:76
 #: core/app/views/tableview/tableview_column_audiovideo.cpp:93
-#: core/utilities/searchwindow/searchfields.cpp:813
+#: core/utilities/searchwindow/searchfields.cpp:900
 #: core/utilities/setup/setuptooltip.cpp:327
 #, fuzzy, kde-format
 #| msgid "Video Codec"
@@ -3173,7 +3173,7 @@ msgstr "視訊編碼器"
 
 #: core/app/views/tableview/tableview_column_audiovideo.cpp:77
 #: core/app/views/tableview/tableview_column_audiovideo.cpp:95
-#: core/utilities/searchwindow/searchfields.cpp:679
+#: core/utilities/searchwindow/searchfields.cpp:760
 #, kde-format
 msgid "Duration"
 msgstr "持續時間"
@@ -3205,7 +3205,7 @@ msgstr "digiKam 屬性"
 #: core/libs/album/treeview/labelstreeview.cpp:344
 #: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:47
 #: core/libs/widgets/metadata/ratingwidget.cpp:548
-#: core/utilities/searchwindow/searchfields.cpp:190
+#: core/utilities/searchwindow/searchfields.cpp:201
 #, kde-format
 msgid "Rating"
 msgstr "評等"
@@ -3227,7 +3227,7 @@ msgstr "色彩標籤"
 #: core/libs/template/templatelist.cpp:83
 #: core/utilities/geolocation/geoiface/bookmark/bookmarksmngr.cpp:308
 #: core/utilities/queuemanager/views/workflowlist.cpp:98
-#: core/utilities/searchwindow/searchfields.cpp:634
+#: core/utilities/searchwindow/searchfields.cpp:708
 #: core/utilities/setup/camera/setupcamera.cpp:302
 #, kde-format
 msgid "Title"
@@ -3235,7 +3235,7 @@ msgstr "標題"
 
 #: core/app/views/tableview/tableview_column_digikam.cpp:80
 #: core/app/views/tableview/tableview_column_digikam.cpp:98
-#: core/utilities/searchwindow/searchfields.cpp:613
+#: core/utilities/searchwindow/searchfields.cpp:684
 #, kde-format
 msgid "Caption"
 msgstr "標題描述"
@@ -3499,14 +3499,14 @@ msgstr "項目屬性"
 
 #: core/app/views/tableview/tableview_column_item.cpp:77
 #: core/app/views/tableview/tableview_column_item.cpp:97
-#: core/utilities/searchwindow/searchfields.cpp:228
+#: core/utilities/searchwindow/searchfields.cpp:244
 #, kde-format
 msgid "Width"
 msgstr "寬度"
 
 #: core/app/views/tableview/tableview_column_item.cpp:78
 #: core/app/views/tableview/tableview_column_item.cpp:99
-#: core/utilities/searchwindow/searchfields.cpp:245
+#: core/utilities/searchwindow/searchfields.cpp:262
 #, kde-format
 msgid "Height"
 msgstr "高度"
@@ -3586,7 +3586,7 @@ msgstr "相機型號"
 #: core/app/views/tableview/tableview_column_photo.cpp:81
 #: core/app/views/tableview/tableview_column_photo.cpp:102
 #: core/dplugins/generic/metadata/metadataedit/exif/exifeditwidget.cpp:118
-#: core/utilities/searchwindow/searchfields.cpp:384
+#: core/utilities/searchwindow/searchfields.cpp:426
 #, kde-format
 msgid "Lens"
 msgstr "鏡頭"
@@ -3594,7 +3594,7 @@ msgstr "鏡頭"
 #: core/app/views/tableview/tableview_column_photo.cpp:82
 #: core/app/views/tableview/tableview_column_photo.cpp:104
 #: core/utilities/advancedrename/parser/options/database/keys/metadatakeys.cpp:72
-#: core/utilities/searchwindow/searchfields.cpp:396
+#: core/utilities/searchwindow/searchfields.cpp:440
 #, kde-format
 msgid "Aperture"
 msgstr "光圈"
@@ -3602,8 +3602,8 @@ msgstr "光圈"
 #: core/app/views/tableview/tableview_column_photo.cpp:83
 #: core/app/views/tableview/tableview_column_photo.cpp:106
 #: core/utilities/advancedrename/parser/options/database/keys/metadatakeys.cpp:73
-#: core/utilities/searchwindow/searchfields.cpp:414
-#: core/utilities/searchwindow/searchfields.cpp:431
+#: core/utilities/searchwindow/searchfields.cpp:460
+#: core/utilities/searchwindow/searchfields.cpp:479
 #, kde-format
 msgid "Focal length"
 msgstr "焦距"
@@ -3611,9 +3611,9 @@ msgstr "焦距"
 #: core/app/views/tableview/tableview_column_photo.cpp:84
 #: core/app/views/tableview/tableview_column_photo.cpp:108
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:294
-#: core/utilities/searchwindow/searchfields.cpp:448
-#: core/utilities/searchwindow/searchfields.cpp:467
-#: core/utilities/searchwindow/searchfields.cpp:477
+#: core/utilities/searchwindow/searchfields.cpp:498
+#: core/utilities/searchwindow/searchfields.cpp:519
+#: core/utilities/searchwindow/searchfields.cpp:531
 #, kde-format
 msgid "Exposure"
 msgstr "曝光"
@@ -3621,7 +3621,7 @@ msgstr "曝光"
 #: core/app/views/tableview/tableview_column_photo.cpp:85
 #: core/app/views/tableview/tableview_column_photo.cpp:110
 #: core/utilities/advancedrename/parser/options/database/keys/metadatakeys.cpp:78
-#: core/utilities/searchwindow/searchfields.cpp:487
+#: core/utilities/searchwindow/searchfields.cpp:542
 #, kde-format
 msgid "Sensitivity"
 msgstr "靈敏度"
@@ -3634,7 +3634,7 @@ msgstr "模式/程式"
 
 #: core/app/views/tableview/tableview_column_photo.cpp:87
 #: core/app/views/tableview/tableview_column_photo.cpp:114
-#: core/utilities/searchwindow/searchfields.cpp:508
+#: core/utilities/searchwindow/searchfields.cpp:566
 #, kde-format
 msgid "Flash"
 msgstr "閃光"
@@ -3642,7 +3642,7 @@ msgstr "閃光"
 #: core/app/views/tableview/tableview_column_photo.cpp:88
 #: core/app/views/tableview/tableview_column_photo.cpp:116
 #: core/utilities/advancedrename/parser/options/database/keys/metadatakeys.cpp:80
-#: core/utilities/searchwindow/searchfields.cpp:528
+#: core/utilities/searchwindow/searchfields.cpp:589
 #, kde-format
 msgid "White balance"
 msgstr "白平衡"
@@ -4130,7 +4130,7 @@ msgstr ""
 #: core/dplugins/editor/colors/whitebalance/whitebalancetool.cpp:88
 #: core/dplugins/editor/colors/whitebalance/whitebalancetool.cpp:215
 #: core/dplugins/editor/colors/whitebalance/whitebalancetoolplugin.cpp:52
-#: core/utilities/searchwindow/searchfields.cpp:518
+#: core/utilities/searchwindow/searchfields.cpp:578
 #, kde-format
 msgid "White Balance"
 msgstr "白平衡"
@@ -8784,8 +8784,8 @@ msgid ""
 msgstr "<b>備註：</b> 使用修復模式將影像擴大為大尺寸。這個過程需要一些時間。"
 
 #: core/dplugins/editor/transform/resize/resizetool.cpp:638
-#: core/utilities/searchwindow/searchfields.cpp:230
-#: core/utilities/searchwindow/searchfields.cpp:247
+#: core/utilities/searchwindow/searchfields.cpp:246
+#: core/utilities/searchwindow/searchfields.cpp:264
 #, kde-format
 msgctxt "Pixels"
 msgid "px"
@@ -8997,7 +8997,7 @@ msgid "Scan Images"
 msgstr "掃描影像"
 
 #: core/dplugins/generic/import/dscanner/scandialog.cpp:150
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1765
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1660
 #, kde-format
 msgid "New Image File Name"
 msgstr "新的影像檔案名稱"
@@ -9028,14 +9028,14 @@ msgstr ""
 "到 \"%2\" 失敗。"
 
 #: core/dplugins/generic/import/dscanner/scandialog.cpp:215
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2212
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2231
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2107
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2126
 #, kde-format
 msgid "Overwrite File?"
 msgstr "覆寫檔案嗎？"
 
 #: core/dplugins/generic/import/dscanner/scandialog.cpp:216
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2232
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2127
 #, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
@@ -12929,7 +12929,7 @@ msgstr "調整："
 #: core/libs/database/utils/widgets/dbmigrationdlg.cpp:149
 #: core/libs/dplugins/webservices/wstooldialog.cpp:118
 #: core/utilities/imageeditor/editor/editortoolsettings.cpp:207
-#: core/utilities/imageeditor/editor/editorwindow.cpp:640
+#: core/utilities/imageeditor/editor/editorwindow.cpp:535
 #, kde-format
 msgid "Cancel"
 msgstr "取消"
@@ -15488,7 +15488,7 @@ msgid ""
 msgstr ""
 
 #: core/dplugins/generic/tools/printcreator/printcreatorplugin.cpp:82
-#: core/utilities/searchwindow/searchfields.cpp:620
+#: core/utilities/searchwindow/searchfields.cpp:692
 #, kde-format
 msgid "Author"
 msgstr "作者"
@@ -15770,9 +15770,9 @@ msgstr "相片屬性"
 #: core/dplugins/generic/webservices/google/gswindow.cpp:1051
 #: core/utilities/facemanagement/widgets/assignnamewidget_p.cpp:184
 #: core/utilities/imageeditor/editor/editortoolsettings.cpp:203
-#: core/utilities/imageeditor/editor/editorwindow.cpp:635
+#: core/utilities/imageeditor/editor/editorwindow.cpp:530
 #: core/utilities/maintenance/facesdetector.cpp:73
-#: core/utilities/searchwindow/searchutilities.cpp:628
+#: core/utilities/searchwindow/searchutilities.cpp:640
 #, kde-format
 msgid "OK"
 msgstr "確定"
@@ -17895,7 +17895,7 @@ msgstr ""
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:679
 #: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:276
 #: core/libs/tags/manager/tagsmanager.cpp:856
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1124
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1019
 #: core/utilities/import/main/importui.cpp:1989
 #: core/utilities/setup/metadata/advancedmetadatatab.cpp:138
 #, kde-format
@@ -21887,7 +21887,7 @@ msgstr "這是影像明度的曲線調整。"
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:323
 #: core/libs/tags/manager/tagpropwidget.cpp:139
 #: core/libs/tags/widgets/tageditdlg.cpp:195
-#: core/utilities/searchwindow/searchview.cpp:504
+#: core/utilities/searchwindow/searchview.cpp:517
 #, kde-format
 msgid "Reset"
 msgstr "重設"
@@ -21978,13 +21978,13 @@ msgid "Current Duplicates Search"
 msgstr "目前重複檔搜尋"
 
 #: core/libs/album/engine/albummodificationhelper.cpp:227
-#: core/utilities/searchwindow/searchmodificationhelper.cpp:153
+#: core/utilities/searchwindow/searchmodificationhelper.cpp:154
 #, kde-format
 msgid "Rename Album (%1)"
 msgstr "重新命名相簿 (%1)"
 
 #: core/libs/album/engine/albummodificationhelper.cpp:228
-#: core/utilities/searchwindow/searchmodificationhelper.cpp:154
+#: core/utilities/searchwindow/searchmodificationhelper.cpp:155
 #, kde-format
 msgid "Enter new album name:"
 msgstr "輸入新的相簿名稱："
@@ -21992,7 +21992,7 @@ msgstr "輸入新的相簿名稱："
 #: core/libs/album/manager/albummanager.cpp:164
 #: core/libs/album/widgets/albumselecttabs.cpp:198
 #: core/libs/models/albummodel.cpp:190
-#: core/utilities/searchwindow/editablesearchtreeview.cpp:85
+#: core/utilities/searchwindow/editablesearchtreeview.cpp:86
 #, kde-format
 msgid "Searches"
 msgstr "搜尋"
@@ -25516,7 +25516,7 @@ msgid "Texture Filter"
 msgstr "紋理濾鏡"
 
 #: core/libs/dimg/filters/dimgbuiltinfilter.cpp:338
-#: core/utilities/imageeditor/editor/editorwindow.cpp:599
+#: core/utilities/imageeditor/editor/editorwindow.cpp:494
 #, kde-format
 msgid "Rotate Right"
 msgstr "向右旋轉"
@@ -25528,19 +25528,19 @@ msgid "Rotate 180 degrees"
 msgstr "旋轉 180 度"
 
 #: core/libs/dimg/filters/dimgbuiltinfilter.cpp:344
-#: core/utilities/imageeditor/editor/editorwindow.cpp:592
+#: core/utilities/imageeditor/editor/editorwindow.cpp:487
 #, kde-format
 msgid "Rotate Left"
 msgstr "向左旋轉"
 
 #: core/libs/dimg/filters/dimgbuiltinfilter.cpp:347
-#: core/utilities/imageeditor/editor/editorwindow.cpp:576
+#: core/utilities/imageeditor/editor/editorwindow.cpp:471
 #, kde-format
 msgid "Flip Horizontally"
 msgstr "水平翻轉"
 
 #: core/libs/dimg/filters/dimgbuiltinfilter.cpp:350
-#: core/utilities/imageeditor/editor/editorwindow.cpp:583
+#: core/utilities/imageeditor/editor/editorwindow.cpp:478
 #, kde-format
 msgid "Flip Vertically"
 msgstr "垂直翻轉"
@@ -28279,7 +28279,7 @@ msgstr "起始值："
 
 #: core/libs/dplugins/widgets/ditemslist.cpp:296
 #: core/utilities/import/dialogs/cameramessagebox.cpp:147
-#: core/utilities/searchwindow/searchfields.cpp:157
+#: core/utilities/searchwindow/searchfields.cpp:164
 #, kde-format
 msgid "File Name"
 msgstr "檔案名稱"
@@ -36691,7 +36691,7 @@ msgstr "影像資訊"
 
 #: core/libs/widgets/metadata/mdkeylistviewitem.cpp:64
 #: core/showfoto/setup/showfotosetuptooltip.cpp:143
-#: core/utilities/searchwindow/searchgroup.cpp:182
+#: core/utilities/searchwindow/searchgroup.cpp:184
 #: core/utilities/setup/setuptooltip.cpp:240
 #, kde-format
 msgid "Photograph Information"
@@ -37018,7 +37018,7 @@ msgid "%1 (%2 of %3)"
 msgstr "%1 (第 %2 張，共 %3 張)"
 
 #: core/showfoto/main/showfoto.cpp:672
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2258
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2153
 #, kde-format
 msgid "Error Saving File"
 msgstr "儲存檔案發生錯誤"
@@ -38069,8 +38069,8 @@ msgid "Add a suffix number, ||n|| specifies the number of digits to use"
 msgstr "新增後置數字，||n|| 指定使用的位數"
 
 #: core/utilities/advancedrename/parser/options/cameranameoption.cpp:39
-#: core/utilities/searchwindow/searchfields.cpp:332
-#: core/utilities/searchwindow/searchfields.cpp:358
+#: core/utilities/searchwindow/searchfields.cpp:370
+#: core/utilities/searchwindow/searchfields.cpp:398
 #, kde-format
 msgid "Camera"
 msgstr "相機"
@@ -38207,7 +38207,7 @@ msgid "Focal length (35mm equivalent)"
 msgstr "焦距（跟 35mm 等長）"
 
 #: core/utilities/advancedrename/parser/options/database/keys/metadatakeys.cpp:75
-#: core/utilities/searchwindow/searchfields.cpp:448
+#: core/utilities/searchwindow/searchfields.cpp:498
 #, kde-format
 msgid "Exposure time"
 msgstr "曝光時間"
@@ -38223,7 +38223,7 @@ msgid "Exposure mode"
 msgstr "曝光模式"
 
 #: core/utilities/advancedrename/parser/options/database/keys/metadatakeys.cpp:79
-#: core/utilities/searchwindow/searchfields.cpp:508
+#: core/utilities/searchwindow/searchfields.cpp:566
 #, kde-format
 msgid "Flash mode"
 msgstr "閃光模式"
@@ -38254,14 +38254,14 @@ msgid "Display Aspect Ratio"
 msgstr "顯示外觀比例"
 
 #: core/utilities/advancedrename/parser/options/database/keys/metadatakeys.cpp:87
-#: core/utilities/searchwindow/searchfields.cpp:779
+#: core/utilities/searchwindow/searchfields.cpp:863
 #: core/utilities/setup/setuptooltip.cpp:321
 #, kde-format
 msgid "Audio Bit Rate"
 msgstr "音效位元率"
 
 #: core/utilities/advancedrename/parser/options/database/keys/metadatakeys.cpp:88
-#: core/utilities/searchwindow/searchfields.cpp:796
+#: core/utilities/searchwindow/searchfields.cpp:881
 #: core/utilities/setup/setuptooltip.cpp:324
 #, kde-format
 msgid "Audio Channel Type"
@@ -38335,7 +38335,7 @@ msgid "Altitude in a human readable form"
 msgstr "高度，人類易讀的格式"
 
 #: core/utilities/advancedrename/parser/options/database/keys/positionkeys.cpp:67
-#: core/utilities/searchwindow/searchfields.cpp:262
+#: core/utilities/searchwindow/searchfields.cpp:280
 #, kde-format
 msgid "Orientation"
 msgstr "方向"
@@ -40496,8 +40496,8 @@ msgid "Show Non-Geolocated Items"
 msgstr "尋找重覆的項目"
 
 #: core/utilities/geolocation/mapsearches/gpssearchview.cpp:535
-#: core/utilities/searchwindow/searchmodificationhelper.cpp:121
-#: core/utilities/searchwindow/searchtabheader.cpp:543
+#: core/utilities/searchwindow/searchmodificationhelper.cpp:122
+#: core/utilities/searchwindow/searchtabheader.cpp:550
 #, kde-format
 msgid ""
 "Search name already exists.\n"
@@ -40507,8 +40507,8 @@ msgstr ""
 "請輸入一個新名稱："
 
 #: core/utilities/geolocation/mapsearches/gpssearchview.cpp:539
-#: core/utilities/searchwindow/searchmodificationhelper.cpp:125
-#: core/utilities/searchwindow/searchtabheader.cpp:547
+#: core/utilities/searchwindow/searchmodificationhelper.cpp:126
+#: core/utilities/searchwindow/searchtabheader.cpp:554
 #, kde-format
 msgid "Name exists"
 msgstr "名稱已存在"
@@ -40849,7 +40849,7 @@ msgid ""
 "</qt>"
 msgstr "目前的影像已經修改。<nl/>您要儲存您的變更嗎？"
 
-#: core/utilities/imageeditor/editor/editortool.cpp:400
+#: core/utilities/imageeditor/editor/editortool.cpp:410
 #, kde-format
 msgid "(%1,%2) RGBA:%3,%4,%5,%6"
 msgstr "(%1,%2) RGBA:%3,%4,%5,%6"
@@ -40896,7 +40896,7 @@ msgid "Save all parameters to settings text file."
 msgstr "將所有參數儲存到設定值純文字檔。"
 
 #: core/utilities/imageeditor/editor/editortoolsettings.cpp:226
-#: core/utilities/searchwindow/searchview.cpp:525
+#: core/utilities/searchwindow/searchview.cpp:538
 #, kde-format
 msgid "Try"
 msgstr "測試"
@@ -40906,49 +40906,49 @@ msgstr "測試"
 msgid "Try all settings."
 msgstr "測試全部設定值。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:331
+#: core/utilities/imageeditor/editor/editorwindow.cpp:226
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:44
 #, kde-format
 msgid "&First"
 msgstr "第一張(&F)"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:337
+#: core/utilities/imageeditor/editor/editorwindow.cpp:232
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:50
 #, kde-format
 msgid "&Last"
 msgstr "最後一張(&L)"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:344
+#: core/utilities/imageeditor/editor/editorwindow.cpp:239
 #, kde-format
 msgctxt "@action"
 msgid "Open Original"
 msgstr "開啟原始影像"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:356
+#: core/utilities/imageeditor/editor/editorwindow.cpp:251
 #, kde-format
 msgctxt "@action Save changes to current version"
 msgid "Save Changes"
 msgstr "儲存變更"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:357
+#: core/utilities/imageeditor/editor/editorwindow.cpp:252
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Save the modifications to the current version of the file"
 msgstr "儲存此檔案對目前版本的變更"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:362
+#: core/utilities/imageeditor/editor/editorwindow.cpp:257
 #, kde-format
 msgctxt "@action Save changes to a newly created version"
 msgid "Save As New Version"
 msgstr "存為新版本"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:363
+#: core/utilities/imageeditor/editor/editorwindow.cpp:258
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Save the current modifications to a new version of the file"
 msgstr "將目前的變更存成此檔案的新版本"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:369
+#: core/utilities/imageeditor/editor/editorwindow.cpp:264
 #, kde-format
 msgctxt ""
 "@action Save changes to a newly created version, specifying the filename and "
@@ -40956,7 +40956,7 @@ msgctxt ""
 msgid "Save New Version As..."
 msgstr "將新版本另存為..."
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:370
+#: core/utilities/imageeditor/editor/editorwindow.cpp:265
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -40964,174 +40964,174 @@ msgid ""
 "filename and format"
 msgstr "指定檔名與格式，將目前的變更存到此檔案的新版本。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:375
+#: core/utilities/imageeditor/editor/editorwindow.cpp:270
 #, kde-format
 msgctxt "@action Save As New Version...Save in format..."
 msgid "Save in Format"
 msgstr "儲存格式"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:377
+#: core/utilities/imageeditor/editor/editorwindow.cpp:272
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "JPEG"
 msgstr "JPEG"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:378
+#: core/utilities/imageeditor/editor/editorwindow.cpp:273
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "TIFF"
 msgstr "TIFF"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:379
+#: core/utilities/imageeditor/editor/editorwindow.cpp:274
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "PNG"
 msgstr "PNG"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:380
+#: core/utilities/imageeditor/editor/editorwindow.cpp:275
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "PGF"
 msgstr "PGF"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:384
+#: core/utilities/imageeditor/editor/editorwindow.cpp:279
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "JPEG 2000"
 msgstr "JPEG 2000"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:390
+#: core/utilities/imageeditor/editor/editorwindow.cpp:285
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "HEIC"
 msgstr ""
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:399
+#: core/utilities/imageeditor/editor/editorwindow.cpp:294
 #, kde-format
 msgctxt "@action"
 msgid "Export"
 msgstr "匯出"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:400
+#: core/utilities/imageeditor/editor/editorwindow.cpp:295
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Save the file in a folder outside your collection"
 msgstr "將檔案存在收藏以外的資料夾"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:409
+#: core/utilities/imageeditor/editor/editorwindow.cpp:304
 #, kde-format
 msgctxt "@action"
 msgid "Discard Changes"
 msgstr "丟棄變更"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:410
+#: core/utilities/imageeditor/editor/editorwindow.cpp:305
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Discard all current changes to this file"
 msgstr "丟棄此檔案目前的所有變更"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:423
+#: core/utilities/imageeditor/editor/editorwindow.cpp:318
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:77
 #, fuzzy, kde-format
 msgid "Open the item with default assigned application."
 msgstr "用影像編輯器開啟選擇的項目。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:456
+#: core/utilities/imageeditor/editor/editorwindow.cpp:351
 #, kde-format
 msgid "Redo"
 msgstr "取消復原"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:468
+#: core/utilities/imageeditor/editor/editorwindow.cpp:363
 #, kde-format
 msgctxt "Create a selection containing the full image"
 msgid "Select All"
 msgstr "全部選擇"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:497
+#: core/utilities/imageeditor/editor/editorwindow.cpp:392
 #, kde-format
 msgid "Fit to &Selection"
 msgstr "符合選擇區域"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:502
+#: core/utilities/imageeditor/editor/editorwindow.cpp:397
 #, kde-format
 msgid ""
 "This option can be used to zoom the image to the current selection area."
 msgstr "這個選項可將影像顯示縮放為目前選擇的區域。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:531
+#: core/utilities/imageeditor/editor/editorwindow.cpp:426
 #, kde-format
 msgid "Under-Exposure Indicator"
 msgstr "曝光不足指示功能"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:533
+#: core/utilities/imageeditor/editor/editorwindow.cpp:428
 #, kde-format
 msgid ""
 "Set this option to display black overlaid on the image. This will help you "
 "to avoid under-exposing the image."
 msgstr "設定這個選項會在影像上顯示黑色層疊。這會幫助您避免影像曝光不足。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:540
+#: core/utilities/imageeditor/editor/editorwindow.cpp:435
 #, kde-format
 msgid "Over-Exposure Indicator"
 msgstr "曝光過度指示功能"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:542
+#: core/utilities/imageeditor/editor/editorwindow.cpp:437
 #, kde-format
 msgid ""
 "Set this option to display white overlaid on the image. This will help you "
 "to avoid over-exposing the image."
 msgstr "設定這個選項會在影像上顯示白色層疊。這會幫助您避免影像曝光過度。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:555
+#: core/utilities/imageeditor/editor/editorwindow.cpp:450
 #, kde-format
 msgid "Soft Proofing Options..."
 msgstr "螢幕校樣選項..."
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:559
+#: core/utilities/imageeditor/editor/editorwindow.cpp:454
 #, kde-format
 msgid "Soft Proofing View"
 msgstr "螢幕校樣檢視"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:566
+#: core/utilities/imageeditor/editor/editorwindow.cpp:461
 #, kde-format
 msgctxt "@action"
 msgid "Crop to Selection"
 msgstr "裁剪選擇區域外的影像"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:569
+#: core/utilities/imageeditor/editor/editorwindow.cpp:464
 #, kde-format
 msgid ""
 "This option can be used to crop the image. Select a region of the image to "
 "enable this action."
 msgstr "這個選項可裁剪此影像。選擇一個影像區域來執行這個動作。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:656
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1450
+#: core/utilities/imageeditor/editor/editorwindow.cpp:551
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1345
 #, kde-format
 msgid "No selection"
 msgstr "沒有選擇區域"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:659
+#: core/utilities/imageeditor/editor/editorwindow.cpp:554
 #, kde-format
 msgid "Information about current image selection"
 msgstr "關於目前選擇影像的資訊"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:664
+#: core/utilities/imageeditor/editor/editorwindow.cpp:559
 #, kde-format
 msgid "Information about image size"
 msgstr "影像大小的資訊"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1100
+#: core/utilities/imageeditor/editor/editorwindow.cpp:995
 #, kde-format
 msgid "Saving image..."
 msgstr "儲存影像中..."
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1101
+#: core/utilities/imageeditor/editor/editorwindow.cpp:996
 #, kde-format
 msgid "Please wait for the image to be saved..."
 msgstr "請稍候，正在儲存影像..."
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1120
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1015
 #, kde-format
 msgid ""
 "About to overwrite file \"%1\"\n"
@@ -41140,26 +41140,26 @@ msgstr ""
 "即將覆寫檔案「%1」\n"
 "您是否確定？"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1234
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1129
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
 "<qt>The image <b>%1</b> has been modified.<br/>Do you want to save it?</qt>"
 msgstr "影像 <filename>%1</filename> 已經修改。<nl/>您要儲存它嗎？"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1377
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1272
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "The image <b>%1</b> has been modified.<br/>All changes will be lost."
 msgstr "影像 <filename>%1</filename> 已經修改。<nl/>您要儲存它嗎？"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1469
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1364
 #, fuzzy, kde-format
 #| msgid "Loading: "
 msgid "Loading:"
 msgstr "載入："
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1495
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1390
 #, fuzzy, kde-format
 #| msgid ""
 #| "Cannot display image\n"
@@ -41169,7 +41169,7 @@ msgstr ""
 "無法顯示影像\n"
 "「%1」"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1536
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1431
 #, kde-format
 msgid ""
 "Cannot open the specified working space profile (\"%1\"). No color "
@@ -41179,13 +41179,13 @@ msgstr ""
 "無法開啟指定的正在使用的色彩空間描述檔 (「%1」)。不會套用任何色彩轉換。請檢查"
 "在 digiKam 設定中的色彩管理。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1585
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1480
 #, fuzzy, kde-format
 #| msgid "Saving: "
 msgid "Saving:"
 msgstr "儲存："
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1604
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1499
 #, kde-format
 msgid ""
 "Failed to save file\n"
@@ -41198,22 +41198,22 @@ msgstr ""
 "儲存到\n"
 "「%2」失敗。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1716
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1611
 #, kde-format
 msgid "Could not open a temporary file in the folder \"%1\": %2 (%3)"
 msgstr "無法開啟在資料夾  \"%1\": %2 (%3) 的暫存檔"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1894
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1789
 #, kde-format
 msgid "Unable to determine the format to save the target image with."
 msgstr "無法決定用來儲存目標影像的格式。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1901
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1796
 #, fuzzy, kde-format
 msgid "Cannot Save: Found file path <b>%1</b> is invalid."
 msgstr "無法儲存：找到的檔案路徑 <filename>%1</filename>不合法。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2143
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2038
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Cannot save file <b>%1</b> to the suggested version file name <b>%2</b>"
@@ -41221,80 +41221,80 @@ msgstr ""
 "無法儲存檔案 <filename>%1</filename> 到建議的版本檔案名稱 <filename>%2</"
 "filename>"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2213
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2108
 #, kde-format
 msgid ""
 "You do not have write permissions for the file named \"%1\". Are you sure "
 "you want to overwrite it?"
 msgstr "您沒有寫入名稱為「%1」檔案的權限。您確定要覆寫嗎？"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2259
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2154
 #, kde-format
 msgid "Failed to overwrite original file"
 msgstr "覆寫原始檔案失敗"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2336
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2231
 #, kde-format
 msgid "Color-Managed View is enabled."
 msgstr "啟用色彩管理檢視。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2340
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2235
 #, kde-format
 msgid "Color-Managed View is disabled."
 msgstr "停用色彩管理檢視。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2345
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2240
 #, kde-format
 msgid ""
 "Color Management is not configured, so the Color-Managed View is not "
 "available."
 msgstr "未設定色彩管理，所以無法使用色彩管理檢視。"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2380
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2275
 #, kde-format
 msgid "Under-Exposure indicator is enabled"
 msgstr "啟用曝光不足指示功能"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2381
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2276
 #, kde-format
 msgid "Under-Exposure indicator is disabled"
 msgstr "停用曝光不足指示功能"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2395
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2290
 #, kde-format
 msgid "Over-Exposure indicator is enabled"
 msgstr "啟用曝光過度指示功能"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2396
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2291
 #, kde-format
 msgid "Over-Exposure indicator is disabled"
 msgstr "停用曝光過度指示功能"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2487
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2382
 #, kde-format
 msgctxt "@title Image Transform"
 msgid "Transform"
 msgstr "變形"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2494
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2389
 #, kde-format
 msgctxt "@title Image Decorate"
 msgid "Decorate"
 msgstr "裝飾"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2501
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2396
 #, kde-format
 msgctxt "@title Image Effect"
 msgid "Effects"
 msgstr "效果"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2508
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2403
 #, kde-format
 msgctxt "@title Image Colors"
 msgid "Colors"
 msgstr "顏色"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2515
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2410
 #, kde-format
 msgctxt "@title Image Enhance"
 msgid "Enhance"
@@ -41369,7 +41369,7 @@ msgstr "移除標籤"
 msgid "Assign Labels"
 msgstr "指定標記"
 
-#: core/utilities/imageeditor/widgets/canvas.cpp:176
+#: core/utilities/imageeditor/widgets/canvas.cpp:177
 #, kde-format
 msgid ""
 "Failed to load image\n"
@@ -41388,18 +41388,18 @@ msgctxt "Preview image (after filter has been applied)"
 msgid "After"
 msgstr "之後："
 
-#: core/utilities/imageeditor/widgets/imageregionitem.cpp:200
-#: core/utilities/imageeditor/widgets/imageregionitem.cpp:211
-#: core/utilities/imageeditor/widgets/imageregionitem.cpp:253
-#: core/utilities/imageeditor/widgets/imageregionitem.cpp:283
+#: core/utilities/imageeditor/widgets/imageregionitem.cpp:201
+#: core/utilities/imageeditor/widgets/imageregionitem.cpp:212
+#: core/utilities/imageeditor/widgets/imageregionitem.cpp:254
+#: core/utilities/imageeditor/widgets/imageregionitem.cpp:284
 #, kde-format
 msgid "Before"
 msgstr "之前："
 
-#: core/utilities/imageeditor/widgets/imageregionitem.cpp:201
-#: core/utilities/imageeditor/widgets/imageregionitem.cpp:226
-#: core/utilities/imageeditor/widgets/imageregionitem.cpp:256
-#: core/utilities/imageeditor/widgets/imageregionitem.cpp:286
+#: core/utilities/imageeditor/widgets/imageregionitem.cpp:202
+#: core/utilities/imageeditor/widgets/imageregionitem.cpp:227
+#: core/utilities/imageeditor/widgets/imageregionitem.cpp:257
+#: core/utilities/imageeditor/widgets/imageregionitem.cpp:287
 #, kde-format
 msgid "After"
 msgstr "之後："
@@ -43872,12 +43872,12 @@ msgstr "要刪除工作流嗎？"
 msgid "Are you sure you want to delete the selected workflow \"%1\"?"
 msgstr "您確定要刪除選擇的工作流「%1」？"
 
-#: core/utilities/searchwindow/ratingsearchutilities.cpp:195
+#: core/utilities/searchwindow/ratingsearchutilities.cpp:200
 #, kde-format
 msgid "(No Value Selected)"
 msgstr "(沒有選擇數值)"
 
-#: core/utilities/searchwindow/ratingsearchutilities.cpp:198
+#: core/utilities/searchwindow/ratingsearchutilities.cpp:203
 #, kde-format
 msgid "No Rating assigned"
 msgstr "沒有指定評等"
@@ -43888,166 +43888,166 @@ msgstr "沒有指定評等"
 msgid "Search items located in"
 msgstr "搜尋當中的圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:94
+#: core/utilities/searchwindow/searchfields.cpp:95
 #, kde-format
 msgid "The album name contains"
 msgstr "相簿名稱包含"
 
-#: core/utilities/searchwindow/searchfields.cpp:101
+#: core/utilities/searchwindow/searchfields.cpp:103
 #, kde-format
 msgid "The album caption contains"
 msgstr "標題描述包含"
 
-#: core/utilities/searchwindow/searchfields.cpp:108
+#: core/utilities/searchwindow/searchfields.cpp:111
 #, fuzzy, kde-format
 msgid "The album category is"
 msgstr "顯示相簿類別"
 
-#: core/utilities/searchwindow/searchfields.cpp:131
+#: core/utilities/searchwindow/searchfields.cpp:134
 #, fuzzy, kde-format
 #| msgid "Return pictures with tag"
 msgid "Return items with tag"
 msgstr "回傳此標籤的圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:138
+#: core/utilities/searchwindow/searchfields.cpp:142
 #, fuzzy, kde-format
 #| msgid "A tag of the picture contains"
 msgid "A tag of the item contains"
 msgstr "此圖片包含的標籤"
 
-#: core/utilities/searchwindow/searchfields.cpp:149
+#: core/utilities/searchwindow/searchfields.cpp:155
 #, fuzzy, kde-format
 #| msgid "Image has no tags"
 msgid "item has no tags"
 msgstr "影像沒有標籤"
 
-#: core/utilities/searchwindow/searchfields.cpp:150
+#: core/utilities/searchwindow/searchfields.cpp:156
 #, kde-format
 msgid "Not Tagged"
 msgstr "未加標籤"
 
-#: core/utilities/searchwindow/searchfields.cpp:157
+#: core/utilities/searchwindow/searchfields.cpp:164
 #, fuzzy, kde-format
 #| msgid "Return pictures whose file name contains"
 msgid "Return items whose file name contains"
 msgstr "回傳檔案名稱含有相關文字的圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:164
+#: core/utilities/searchwindow/searchfields.cpp:172
 #, kde-format
 msgid "Modification"
 msgstr "修改"
 
-#: core/utilities/searchwindow/searchfields.cpp:164
+#: core/utilities/searchwindow/searchfields.cpp:172
 #, fuzzy, kde-format
 #| msgid "Return pictures modified between"
 msgid "Return items modified between"
 msgstr "回傳此期間內修改的圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:165
+#: core/utilities/searchwindow/searchfields.cpp:173
 #, kde-format
 msgctxt "'Return items modified between...and..."
 msgid "and"
 msgstr "和"
 
-#: core/utilities/searchwindow/searchfields.cpp:172
+#: core/utilities/searchwindow/searchfields.cpp:181
 #, kde-format
 msgid "File Size"
 msgstr "檔案大小"
 
-#: core/utilities/searchwindow/searchfields.cpp:172
+#: core/utilities/searchwindow/searchfields.cpp:181
 #, kde-format
 msgid "Size of the file"
 msgstr "檔案的大小"
 
-#: core/utilities/searchwindow/searchfields.cpp:173
+#: core/utilities/searchwindow/searchfields.cpp:182
 #, kde-format
 msgctxt "Size of the file ...-..."
 msgid "-"
 msgstr ""
 
-#: core/utilities/searchwindow/searchfields.cpp:183
+#: core/utilities/searchwindow/searchfields.cpp:193
 #, fuzzy, kde-format
 #| msgid "Return pictures with labels"
 msgid "Return items with labels"
 msgstr "回傳此標籤的圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:190
+#: core/utilities/searchwindow/searchfields.cpp:201
 #, fuzzy, kde-format
 #| msgid "Return pictures rated at least"
 msgid "Return items rated at least"
 msgstr "回傳此評等以上的圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:191
+#: core/utilities/searchwindow/searchfields.cpp:202
 #, kde-format
 msgctxt "Return items rated at least...at most..."
 msgid "at most"
 msgstr "不超過"
 
-#: core/utilities/searchwindow/searchfields.cpp:198
+#: core/utilities/searchwindow/searchfields.cpp:210
 #, fuzzy, kde-format
 #| msgid "Return pictures created between"
 msgid "Return items created between"
 msgstr "回傳此期間內建立的圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:199
+#: core/utilities/searchwindow/searchfields.cpp:211
 #, kde-format
 msgctxt "'Return items created between...and..."
 msgid "and"
 msgstr "和"
 
-#: core/utilities/searchwindow/searchfields.cpp:206
+#: core/utilities/searchwindow/searchfields.cpp:219
 #, kde-format
 msgid "Digitization"
 msgstr "數位化"
 
-#: core/utilities/searchwindow/searchfields.cpp:206
+#: core/utilities/searchwindow/searchfields.cpp:219
 #, fuzzy, kde-format
 #| msgid "Return pictures digitized between"
 msgid "Return items digitized between"
 msgstr "回傳此期間內數位化的圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:207
+#: core/utilities/searchwindow/searchfields.cpp:220
 #, kde-format
 msgctxt "'Return items digitized between...and..."
 msgid "and"
 msgstr "和"
 
-#: core/utilities/searchwindow/searchfields.cpp:215
+#: core/utilities/searchwindow/searchfields.cpp:230
 #, kde-format
 msgid "Exif Orientation"
 msgstr "EXIF 方向標示"
 
-#: core/utilities/searchwindow/searchfields.cpp:215
+#: core/utilities/searchwindow/searchfields.cpp:230
 #, fuzzy, kde-format
 #| msgid "Find pictures with orientation flag"
 msgid "Find items with orientation flag"
 msgstr "依方向標示尋找圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:228
+#: core/utilities/searchwindow/searchfields.cpp:244
 #, fuzzy, kde-format
 #| msgid "Find pictures with a width between"
 msgid "Find items with a width between"
 msgstr "依之間的寬度尋找圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:229
+#: core/utilities/searchwindow/searchfields.cpp:245
 #, kde-format
 msgctxt "Find items with a width between...and..."
 msgid "and"
 msgstr "和"
 
-#: core/utilities/searchwindow/searchfields.cpp:245
+#: core/utilities/searchwindow/searchfields.cpp:262
 #, fuzzy, kde-format
 #| msgid "Find pictures with a height between"
 msgid "Find items with a height between"
 msgstr "依之間的高度尋找圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:246
+#: core/utilities/searchwindow/searchfields.cpp:263
 #, kde-format
 msgctxt "Find items with a height between...and..."
 msgid "and"
 msgstr "和"
 
-#: core/utilities/searchwindow/searchfields.cpp:263
+#: core/utilities/searchwindow/searchfields.cpp:281
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "Find pictures with any orientation / landscape / portrait orientation..."
@@ -44056,55 +44056,55 @@ msgctxt "Find items with any orientation / landscape / portrait orientation..."
 msgid "Find items with"
 msgstr "尋找圖片的方式"
 
-#: core/utilities/searchwindow/searchfields.cpp:271
+#: core/utilities/searchwindow/searchfields.cpp:289
 #, kde-format
 msgid "File Format"
 msgstr "檔案格式"
 
-#: core/utilities/searchwindow/searchfields.cpp:271
+#: core/utilities/searchwindow/searchfields.cpp:289
 #, fuzzy, kde-format
 #| msgid "Return pictures with the image file format"
 msgid "Return items with the file format"
 msgstr "回傳此影像檔案格式的圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:275
-#: core/utilities/searchwindow/searchfields.cpp:310
-#: core/utilities/searchwindow/searchfields.cpp:311
-#: core/utilities/searchwindow/searchfields.cpp:312
-#: core/utilities/searchwindow/searchfields.cpp:313
-#: core/utilities/searchwindow/searchfields.cpp:314
-#: core/utilities/searchwindow/searchfields.cpp:315
-#: core/utilities/searchwindow/searchfields.cpp:316
-#: core/utilities/searchwindow/searchfields.cpp:317
-#: core/utilities/searchwindow/searchfields.cpp:318
+#: core/utilities/searchwindow/searchfields.cpp:294
+#: core/utilities/searchwindow/searchfields.cpp:344
+#: core/utilities/searchwindow/searchfields.cpp:345
+#: core/utilities/searchwindow/searchfields.cpp:346
+#: core/utilities/searchwindow/searchfields.cpp:347
+#: core/utilities/searchwindow/searchfields.cpp:348
+#: core/utilities/searchwindow/searchfields.cpp:349
+#: core/utilities/searchwindow/searchfields.cpp:350
+#: core/utilities/searchwindow/searchfields.cpp:351
+#: core/utilities/searchwindow/searchfields.cpp:352
 #, fuzzy, kde-format
 #| msgid "1 Image"
 #| msgid_plural "%1 Images"
 msgid "%1 [Image]"
 msgstr "%1 張影像"
 
-#: core/utilities/searchwindow/searchfields.cpp:278
-#: core/utilities/searchwindow/searchfields.cpp:320
-#: core/utilities/searchwindow/searchfields.cpp:321
-#: core/utilities/searchwindow/searchfields.cpp:322
-#: core/utilities/searchwindow/searchfields.cpp:323
+#: core/utilities/searchwindow/searchfields.cpp:299
+#: core/utilities/searchwindow/searchfields.cpp:356
+#: core/utilities/searchwindow/searchfields.cpp:357
+#: core/utilities/searchwindow/searchfields.cpp:358
+#: core/utilities/searchwindow/searchfields.cpp:359
 #, fuzzy, kde-format
 #| msgid "Videos"
 msgid "%1 [Video]"
 msgstr "影片"
 
-#: core/utilities/searchwindow/searchfields.cpp:281
+#: core/utilities/searchwindow/searchfields.cpp:304
 #, fuzzy, kde-format
 #| msgid "Audio"
 msgid "%1 [Audio]"
 msgstr "音效"
 
-#: core/utilities/searchwindow/searchfields.cpp:299
+#: core/utilities/searchwindow/searchfields.cpp:329
 #, kde-format
 msgid "Color Depth"
 msgstr "顏色深度"
 
-#: core/utilities/searchwindow/searchfields.cpp:299
+#: core/utilities/searchwindow/searchfields.cpp:329
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "Find pictures with any orientation / landscape / portrait orientation..."
@@ -44113,421 +44113,421 @@ msgctxt "Find items with any color depth / 8 bits per channel..."
 msgid "Find items with"
 msgstr "尋找圖片的方式"
 
-#: core/utilities/searchwindow/searchfields.cpp:307
+#: core/utilities/searchwindow/searchfields.cpp:339
 #, kde-format
 msgid "Color Model"
 msgstr "色彩模型"
 
-#: core/utilities/searchwindow/searchfields.cpp:307
+#: core/utilities/searchwindow/searchfields.cpp:339
 #, fuzzy, kde-format
 #| msgid "Find pictures with the color model"
 msgid "Find items with the color model"
 msgstr "用色彩模型尋找圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:332
+#: core/utilities/searchwindow/searchfields.cpp:370
 #, kde-format
 msgid "The make of the camera"
 msgstr "相機的製造商"
 
-#: core/utilities/searchwindow/searchfields.cpp:358
+#: core/utilities/searchwindow/searchfields.cpp:398
 #, kde-format
 msgid "The model of the camera"
 msgstr "相機的型號"
 
-#: core/utilities/searchwindow/searchfields.cpp:384
+#: core/utilities/searchwindow/searchfields.cpp:426
 #, fuzzy, kde-format
 #| msgid "Type of the media file"
 msgid "The type of the lens"
 msgstr "媒體檔案的型態"
 
-#: core/utilities/searchwindow/searchfields.cpp:396
+#: core/utilities/searchwindow/searchfields.cpp:440
 #, kde-format
 msgid "Lens aperture as f-number"
 msgstr "鏡頭光圈和光圈數 (f-number) 相同"
 
-#: core/utilities/searchwindow/searchfields.cpp:397
+#: core/utilities/searchwindow/searchfields.cpp:441
 #, kde-format
 msgctxt "Lens aperture as f-number ...-..."
 msgid "-"
 msgstr ""
 
-#: core/utilities/searchwindow/searchfields.cpp:414
+#: core/utilities/searchwindow/searchfields.cpp:460
 #, kde-format
 msgid "Focal length of the lens"
 msgstr "鏡頭的焦距"
 
-#: core/utilities/searchwindow/searchfields.cpp:415
+#: core/utilities/searchwindow/searchfields.cpp:461
 #, kde-format
 msgctxt "Focal length of the lens ...-..."
 msgid "-"
 msgstr ""
 
-#: core/utilities/searchwindow/searchfields.cpp:431
+#: core/utilities/searchwindow/searchfields.cpp:479
 #, kde-format
 msgid "35mm equivalent focal length"
 msgstr "35mm 等效焦距"
 
-#: core/utilities/searchwindow/searchfields.cpp:432
+#: core/utilities/searchwindow/searchfields.cpp:480
 #, kde-format
 msgctxt "35mm equivalent focal length ...-..."
 msgid "-"
 msgstr ""
 
-#: core/utilities/searchwindow/searchfields.cpp:449
+#: core/utilities/searchwindow/searchfields.cpp:499
 #, kde-format
 msgctxt "Exposure time ...-..."
 msgid "-"
 msgstr ""
 
-#: core/utilities/searchwindow/searchfields.cpp:467
+#: core/utilities/searchwindow/searchfields.cpp:519
 #, kde-format
 msgid "Automatic exposure program"
 msgstr "自動曝光程式"
 
-#: core/utilities/searchwindow/searchfields.cpp:477
+#: core/utilities/searchwindow/searchfields.cpp:531
 #, kde-format
 msgid "Automatic or manual exposure"
 msgstr "自動或手動曝光"
 
-#: core/utilities/searchwindow/searchfields.cpp:487
+#: core/utilities/searchwindow/searchfields.cpp:542
 #, kde-format
 msgid "ISO film speed (linear scale, ASA)"
 msgstr "ISO 底片感光度 (直尺，ASA)"
 
-#: core/utilities/searchwindow/searchfields.cpp:488
+#: core/utilities/searchwindow/searchfields.cpp:543
 #, kde-format
 msgctxt "ISO film speed (linear scale, ASA) ...-..."
 msgid "-"
 msgstr ""
 
-#: core/utilities/searchwindow/searchfields.cpp:518
+#: core/utilities/searchwindow/searchfields.cpp:578
 #, kde-format
 msgid "Automatic or manual white balance"
 msgstr "自動或手動白平衡"
 
-#: core/utilities/searchwindow/searchfields.cpp:528
+#: core/utilities/searchwindow/searchfields.cpp:589
 #, kde-format
 msgid "Color temperature used for white balance"
 msgstr "用於白平衡的色溫"
 
-#: core/utilities/searchwindow/searchfields.cpp:529
+#: core/utilities/searchwindow/searchfields.cpp:590
 #, kde-format
 msgctxt "Color temperature used for white balance ...-..."
 msgid "-"
 msgstr ""
 
-#: core/utilities/searchwindow/searchfields.cpp:539
+#: core/utilities/searchwindow/searchfields.cpp:602
 #, kde-format
 msgid "Metering Mode"
 msgstr "測光模式"
 
-#: core/utilities/searchwindow/searchfields.cpp:539
+#: core/utilities/searchwindow/searchfields.cpp:602
 #, kde-format
 msgid "Method to determine the exposure"
 msgstr "決定曝光值的方法"
 
-#: core/utilities/searchwindow/searchfields.cpp:549
-#: core/utilities/searchwindow/searchfields.cpp:560
+#: core/utilities/searchwindow/searchfields.cpp:614
+#: core/utilities/searchwindow/searchfields.cpp:627
 #, kde-format
 msgid "Subject Distance"
 msgstr "拍攝主體距離"
 
-#: core/utilities/searchwindow/searchfields.cpp:549
+#: core/utilities/searchwindow/searchfields.cpp:614
 #, kde-format
 msgid "Distance of the subject from the lens"
 msgstr "從鏡頭到拍攝主體的距離"
 
-#: core/utilities/searchwindow/searchfields.cpp:550
+#: core/utilities/searchwindow/searchfields.cpp:615
 #, kde-format
 msgctxt "Distance of the subject from the lens ...-..."
 msgid "-"
 msgstr ""
 
-#: core/utilities/searchwindow/searchfields.cpp:560
+#: core/utilities/searchwindow/searchfields.cpp:627
 #, kde-format
 msgid "Macro, close or distant view"
 msgstr "微距、特寫或遠景攝影"
 
-#: core/utilities/searchwindow/searchfields.cpp:576
-#: core/utilities/searchwindow/searchfields.cpp:598
+#: core/utilities/searchwindow/searchfields.cpp:644
+#: core/utilities/searchwindow/searchfields.cpp:667
 #, kde-format
 msgid "GPS"
 msgstr ""
 
-#: core/utilities/searchwindow/searchfields.cpp:576
+#: core/utilities/searchwindow/searchfields.cpp:644
 #, fuzzy, kde-format
 msgid "Altitude range"
 msgstr "高度"
 
-#: core/utilities/searchwindow/searchfields.cpp:577
+#: core/utilities/searchwindow/searchfields.cpp:645
 #, kde-format
 msgctxt "Altitude range ...-..."
 msgid "-"
 msgstr ""
 
-#: core/utilities/searchwindow/searchfields.cpp:598
+#: core/utilities/searchwindow/searchfields.cpp:667
 #, fuzzy, kde-format
 msgid "Item has no GPS info"
 msgstr "影像沒有標籤"
 
-#: core/utilities/searchwindow/searchfields.cpp:599
+#: core/utilities/searchwindow/searchfields.cpp:668
 #, fuzzy, kde-format
 msgid "Not Geo-located"
 msgstr "尋找重覆的項目"
 
-#: core/utilities/searchwindow/searchfields.cpp:606
+#: core/utilities/searchwindow/searchfields.cpp:676
 #, fuzzy, kde-format
 #| msgid "My Calendar"
 msgid "Creator"
 msgstr "我的行事曆"
 
-#: core/utilities/searchwindow/searchfields.cpp:606
+#: core/utilities/searchwindow/searchfields.cpp:676
 #, fuzzy, kde-format
 #| msgid "Return pictures commented by"
 msgid "Return items created by"
 msgstr "回傳此註解方式的圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:613
+#: core/utilities/searchwindow/searchfields.cpp:684
 #, fuzzy, kde-format
 #| msgid "Return pictures whose comment contains"
 msgid "Return items whose comment contains"
 msgstr "回傳註解含有相關文字的圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:620
+#: core/utilities/searchwindow/searchfields.cpp:692
 #, fuzzy, kde-format
 #| msgid "Return pictures commented by"
 msgid "Return items commented by"
 msgstr "回傳此註解方式的圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:627
+#: core/utilities/searchwindow/searchfields.cpp:700
 #, kde-format
 msgid "Headline"
 msgstr "大標題"
 
-#: core/utilities/searchwindow/searchfields.cpp:627
+#: core/utilities/searchwindow/searchfields.cpp:700
 #, fuzzy, kde-format
 #| msgid "Return pictures with the IPTC headline"
 msgid "Return items with the IPTC headline"
 msgstr "回傳含有此 IPTC 大標題的圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:634
+#: core/utilities/searchwindow/searchfields.cpp:708
 #, fuzzy, kde-format
 #| msgid "Return pictures with the IPTC title"
 msgid "Return items with the IPTC title"
 msgstr "回傳含有此 IPTC 標題的圖片"
 
-#: core/utilities/searchwindow/searchfields.cpp:641
+#: core/utilities/searchwindow/searchfields.cpp:716
 #, fuzzy, kde-format
 #| msgid "Find pictures that have associated all these words:"
 msgid "Find items that have associated all these words:"
 msgstr "尋找與這些所有字彙有關聯的圖片："
 
-#: core/utilities/searchwindow/searchfields.cpp:648
-#: core/utilities/searchwindow/searchfields.cpp:665
+#: core/utilities/searchwindow/searchfields.cpp:724
+#: core/utilities/searchwindow/searchfields.cpp:743
 #, kde-format
 msgid "Aspect Ratio"
 msgstr "外觀比例"
 
-#: core/utilities/searchwindow/searchfields.cpp:648
+#: core/utilities/searchwindow/searchfields.cpp:724
 #, fuzzy, kde-format
 #| msgid "Return pictures with the aspect ratio"
 msgid "Return items with the aspect ratio"
 msgstr "回傳此圖片的外觀比例"
 
-#: core/utilities/searchwindow/searchfields.cpp:655
+#: core/utilities/searchwindow/searchfields.cpp:732
 #, kde-format
 msgid "Pixel Size"
 msgstr "像素大小"
 
-#: core/utilities/searchwindow/searchfields.cpp:655
+#: core/utilities/searchwindow/searchfields.cpp:732
 #, kde-format
 msgid "Value of (Width * Height) between"
 msgstr "(寬 * 高) 的值介於"
 
-#: core/utilities/searchwindow/searchfields.cpp:656
+#: core/utilities/searchwindow/searchfields.cpp:733
 #, fuzzy, kde-format
 msgctxt "Value of (Width * Height) between...and..."
 msgid "and"
 msgstr "和"
 
-#: core/utilities/searchwindow/searchfields.cpp:665
+#: core/utilities/searchwindow/searchfields.cpp:743
 #, kde-format
 msgid "Return video with the frame aspect ratio"
 msgstr "回傳此影片的外觀比例"
 
-#: core/utilities/searchwindow/searchfields.cpp:679
+#: core/utilities/searchwindow/searchfields.cpp:760
 #, kde-format
 msgid "Length of the video"
 msgstr "影像長度"
 
-#: core/utilities/searchwindow/searchfields.cpp:680
+#: core/utilities/searchwindow/searchfields.cpp:761
 #, kde-format
 msgctxt "Find video with a length between...and..."
 msgid "and"
 msgstr "和"
 
-#: core/utilities/searchwindow/searchfields.cpp:681
+#: core/utilities/searchwindow/searchfields.cpp:762
 #, kde-format
 msgctxt "Seconds"
 msgid "s"
 msgstr "秒"
 
-#: core/utilities/searchwindow/searchfields.cpp:696
+#: core/utilities/searchwindow/searchfields.cpp:778
 #, kde-format
 msgid "Frame Rate"
 msgstr "影格率"
 
-#: core/utilities/searchwindow/searchfields.cpp:696
+#: core/utilities/searchwindow/searchfields.cpp:778
 #, kde-format
 msgid "Return video with the frame rate"
 msgstr "回傳此影片的影格率"
 
-#: core/utilities/searchwindow/searchfields.cpp:697
+#: core/utilities/searchwindow/searchfields.cpp:779
 #, kde-format
 msgctxt "Find video with frame rate between...and..."
 msgid "and"
 msgstr "和"
 
-#: core/utilities/searchwindow/searchfields.cpp:698
+#: core/utilities/searchwindow/searchfields.cpp:780
 #, kde-format
 msgctxt "Frames per Second"
 msgid "fps"
 msgstr "fps"
 
-#: core/utilities/searchwindow/searchfields.cpp:712
+#: core/utilities/searchwindow/searchfields.cpp:795
 #, kde-format
 msgid "Codec"
 msgstr "編解碼器"
 
-#: core/utilities/searchwindow/searchfields.cpp:712
+#: core/utilities/searchwindow/searchfields.cpp:795
 #, kde-format
 msgid "Return video codec"
 msgstr "回傳視訊編解碼器"
 
-#: core/utilities/searchwindow/searchfields.cpp:779
+#: core/utilities/searchwindow/searchfields.cpp:863
 #, fuzzy, kde-format
 #| msgid "Audio Bit Rate"
 msgid "Return Audio Bits Rate"
 msgstr "音效位元率"
 
-#: core/utilities/searchwindow/searchfields.cpp:780
+#: core/utilities/searchwindow/searchfields.cpp:864
 #, kde-format
 msgctxt "Find files with audio bit rate between...and..."
 msgid "and"
 msgstr "和"
 
-#: core/utilities/searchwindow/searchfields.cpp:781
+#: core/utilities/searchwindow/searchfields.cpp:865
 #, kde-format
 msgctxt "Bits per Second"
 msgid "bps"
 msgstr "bps"
 
-#: core/utilities/searchwindow/searchfields.cpp:796
+#: core/utilities/searchwindow/searchfields.cpp:881
 #, fuzzy, kde-format
 #| msgid "Return video audio Channel Type"
 msgid "Return Audio Channel Type"
 msgstr "回傳此影片的聲道型態"
 
-#: core/utilities/searchwindow/searchfields.cpp:798
+#: core/utilities/searchwindow/searchfields.cpp:883
 #, kde-format
 msgid "Mono"
 msgstr "單聲道"
 
-#: core/utilities/searchwindow/searchfields.cpp:799
+#: core/utilities/searchwindow/searchfields.cpp:884
 #, kde-format
 msgid "Stereo"
 msgstr "立體聲"
 
-#: core/utilities/searchwindow/searchfields.cpp:800
+#: core/utilities/searchwindow/searchfields.cpp:885
 #, kde-format
 msgid "5.1 Surround Sound"
 msgstr ""
 
-#: core/utilities/searchwindow/searchfields.cpp:801
+#: core/utilities/searchwindow/searchfields.cpp:886
 #, kde-format
 msgid "7.1 Surround Sound"
 msgstr ""
 
-#: core/utilities/searchwindow/searchfields.cpp:802
+#: core/utilities/searchwindow/searchfields.cpp:887
 #, kde-format
 msgid "16 Channels Sequence"
 msgstr ""
 
-#: core/utilities/searchwindow/searchfields.cpp:803
+#: core/utilities/searchwindow/searchfields.cpp:888
 #, fuzzy, kde-format
 #| msgid "Audio Channel Type"
 msgid "Other Channel Type"
 msgstr "聲道型態"
 
-#: core/utilities/searchwindow/searchfields.cpp:813
+#: core/utilities/searchwindow/searchfields.cpp:900
 #, fuzzy, kde-format
 #| msgid "Return video codec"
 msgid "Return Audio Codec"
 msgstr "回傳視訊編解碼器"
 
-#: core/utilities/searchwindow/searchfields.cpp:960
+#: core/utilities/searchwindow/searchfields.cpp:1058
 #, kde-format
 msgid "Reset contents"
 msgstr "重設內容"
 
-#: core/utilities/searchwindow/searchfields.cpp:2020
+#: core/utilities/searchwindow/searchfields.cpp:2137
 #, kde-format
 msgid "Any"
 msgstr "任何"
 
-#: core/utilities/searchwindow/searchfields.cpp:2079
+#: core/utilities/searchwindow/searchfields.cpp:2200
 #, kde-format
 msgid "Any of: %1"
 msgstr "任何：%1"
 
-#: core/utilities/searchwindow/searchfields.cpp:2423
+#: core/utilities/searchwindow/searchfields.cpp:2549
 #, kde-format
 msgid "Any Album"
 msgstr "任何相簿"
 
-#: core/utilities/searchwindow/searchfields.cpp:2435
+#: core/utilities/searchwindow/searchfields.cpp:2561
 #, kde-format
 msgctxt "@label:listbox"
 msgid "In All"
 msgstr ""
 
-#: core/utilities/searchwindow/searchfields.cpp:2436
+#: core/utilities/searchwindow/searchfields.cpp:2562
 #, kde-format
 msgctxt "@label:listbox"
 msgid "In One of"
 msgstr ""
 
-#: core/utilities/searchwindow/searchfields.cpp:2440
+#: core/utilities/searchwindow/searchfields.cpp:2566
 #, kde-format
 msgid "Any Tag"
 msgstr "任何標籤"
 
-#: core/utilities/searchwindow/searchfields.cpp:2883
+#: core/utilities/searchwindow/searchfields.cpp:3014
 #, kde-format
 msgid "any color depth"
 msgstr "任何顏色深度"
 
-#: core/utilities/searchwindow/searchfields.cpp:2884
+#: core/utilities/searchwindow/searchfields.cpp:3015
 #, kde-format
 msgid "8 bits per channel"
 msgstr "每個色版 8 位元"
 
-#: core/utilities/searchwindow/searchfields.cpp:2885
+#: core/utilities/searchwindow/searchfields.cpp:3016
 #, kde-format
 msgid "16 bits per channel"
 msgstr "每個色版 16 位元"
 
-#: core/utilities/searchwindow/searchfields.cpp:2919
+#: core/utilities/searchwindow/searchfields.cpp:3050
 #, kde-format
 msgid "Any Orientation"
 msgstr "任何方向"
 
-#: core/utilities/searchwindow/searchfields.cpp:2920
+#: core/utilities/searchwindow/searchfields.cpp:3051
 #, kde-format
 msgid "Landscape Orientation"
 msgstr "橫向"
 
-#: core/utilities/searchwindow/searchfields.cpp:2921
+#: core/utilities/searchwindow/searchfields.cpp:3052
 #, kde-format
 msgid "Portrait orientation"
 msgstr "縱向"
@@ -44544,55 +44544,56 @@ msgctxt "Edit selected search"
 msgid "Edit..."
 msgstr "編輯..."
 
-#: core/utilities/searchwindow/searchgroup.cpp:96
+#: core/utilities/searchwindow/searchgroup.cpp:98
 #, kde-format
 msgid "File, Album, Tags"
 msgstr "檔案、相簿、標籤"
 
-#: core/utilities/searchwindow/searchgroup.cpp:116
+#: core/utilities/searchwindow/searchgroup.cpp:118
 #, kde-format
 msgid "Picture Properties"
 msgstr "圖片屬性"
 
-#: core/utilities/searchwindow/searchgroup.cpp:164
+#: core/utilities/searchwindow/searchgroup.cpp:166
 #, kde-format
 msgid "Caption, Comment, Title"
 msgstr "標題描述、註解、名稱"
 
-#: core/utilities/searchwindow/searchgroup.cpp:212
+#: core/utilities/searchwindow/searchgroup.cpp:214
 #, fuzzy, kde-format
 msgid "Geographic position"
 msgstr "相片分佈"
 
-#: core/utilities/searchwindow/searchgroup.cpp:453
+#: core/utilities/searchwindow/searchgroup.cpp:470
 #, fuzzy, kde-format
 #| msgid "Find new items"
 msgid "Find Items"
 msgstr "尋找新項目"
 
-#: core/utilities/searchwindow/searchgroup.cpp:458
+#: core/utilities/searchwindow/searchgroup.cpp:476
 #, kde-format
 msgid "Meet All of the following conditions"
 msgstr "滿足下列所有條件"
 
-#: core/utilities/searchwindow/searchgroup.cpp:462
+#: core/utilities/searchwindow/searchgroup.cpp:480
 #, kde-format
 msgid "Meet Any of the following conditions"
 msgstr "滿足下列任何一項條件"
 
-#: core/utilities/searchwindow/searchgroup.cpp:466
+#: core/utilities/searchwindow/searchgroup.cpp:484
 #, kde-format
 msgid "None of these conditions are met"
 msgstr "不滿足這些條件的任何一項"
 
-#: core/utilities/searchwindow/searchgroup.cpp:470
+#: core/utilities/searchwindow/searchgroup.cpp:488
 #, kde-format
 msgid "At least one of these conditions is not met"
 msgstr "不滿足這些條件的最後一項"
 
 #. i18n("Find Pictures meeting all of these conditions"));
 #. simpleLabel->setPixmap(QIcon::fromTheme(QLatin1String("edit-find")).pixmap(128));
-#: core/utilities/searchwindow/searchgroup.cpp:501
+#.
+#: core/utilities/searchwindow/searchgroup.cpp:521
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt><p>Search your collection<br/>for pictures meeting the following "
@@ -44602,93 +44603,93 @@ msgid ""
 "conditions</p></qt>"
 msgstr "<qt><p>搜尋您的收藏<br/>滿足下列條件的圖片</p></qt>"
 
-#: core/utilities/searchwindow/searchgroup.cpp:539
+#: core/utilities/searchwindow/searchgroup.cpp:559
 #, kde-format
 msgid "Remove Group"
 msgstr "移除群組"
 
-#: core/utilities/searchwindow/searchgroup.cpp:582
+#: core/utilities/searchwindow/searchgroup.cpp:603
 #, kde-format
 msgid "Hide Options <<"
 msgstr "隱藏選項 <<"
 
-#: core/utilities/searchwindow/searchgroup.cpp:592
+#: core/utilities/searchwindow/searchgroup.cpp:615
 #, kde-format
 msgid "Options >>"
 msgstr "選項 >>"
 
-#: core/utilities/searchwindow/searchmodificationhelper.cpp:83
+#: core/utilities/searchwindow/searchmodificationhelper.cpp:84
 #, kde-format
 msgid "Delete Search?"
 msgstr "是否刪除搜尋？"
 
-#: core/utilities/searchwindow/searchmodificationhelper.cpp:84
+#: core/utilities/searchwindow/searchmodificationhelper.cpp:85
 #, kde-format
 msgid "Are you sure you want to delete the selected search \"%1\"?"
 msgstr "您確定要刪除選擇的搜尋「%1」？"
 
-#: core/utilities/searchwindow/searchtabheader.cpp:111
+#: core/utilities/searchwindow/searchtabheader.cpp:110
 #, fuzzy, kde-format
 #| msgid "Last Search"
 msgctxt "@action:inmenu"
 msgid "Autostart Search"
 msgstr "上次搜尋"
 
-#: core/utilities/searchwindow/searchtabheader.cpp:138
-#: core/utilities/searchwindow/searchtabheader.cpp:144
+#: core/utilities/searchwindow/searchtabheader.cpp:137
+#: core/utilities/searchwindow/searchtabheader.cpp:143
 #, kde-format
 msgid "(Advanced Search)"
 msgstr "(進階搜尋)"
 
-#: core/utilities/searchwindow/searchtabheader.cpp:253
+#: core/utilities/searchwindow/searchtabheader.cpp:254
 #, kde-format
 msgid "New Search"
 msgstr "新增搜尋"
 
-#: core/utilities/searchwindow/searchtabheader.cpp:255
+#: core/utilities/searchwindow/searchtabheader.cpp:256
 #, kde-format
 msgid "Search:"
 msgstr "搜尋："
 
-#: core/utilities/searchwindow/searchtabheader.cpp:258
+#: core/utilities/searchwindow/searchtabheader.cpp:259
 #, kde-format
 msgid "Enter keywords here..."
 msgstr "在這裡輸入關鍵字..."
 
-#: core/utilities/searchwindow/searchtabheader.cpp:274
+#: core/utilities/searchwindow/searchtabheader.cpp:275
 #, kde-format
 msgid "Save Current Search"
 msgstr "儲存目前搜尋"
 
-#: core/utilities/searchwindow/searchtabheader.cpp:278
+#: core/utilities/searchwindow/searchtabheader.cpp:279
 #, kde-format
 msgid "Enter a name for the current search to save it in the \"Searches\" view"
 msgstr "輸入一個名稱以儲存目前的搜尋到「我的搜尋」檢視中"
 
-#: core/utilities/searchwindow/searchtabheader.cpp:283
+#: core/utilities/searchwindow/searchtabheader.cpp:284
 #, kde-format
 msgid "Save current search to a new virtual Album"
 msgstr "將目前搜尋儲存到新的虛擬相簿"
 
-#: core/utilities/searchwindow/searchtabheader.cpp:284
+#: core/utilities/searchwindow/searchtabheader.cpp:285
 #, kde-format
 msgid ""
 "If you press this button, the current search will be saved to a new virtual "
 "Search Album using the name set on the left side."
 msgstr "如果您按下這個按鈕，目前搜尋會用左側設定的名稱儲存到新的搜尋虛擬相簿。"
 
-#: core/utilities/searchwindow/searchtabheader.cpp:298
-#: core/utilities/searchwindow/searchtabheader.cpp:315
+#: core/utilities/searchwindow/searchtabheader.cpp:300
+#: core/utilities/searchwindow/searchtabheader.cpp:318
 #, kde-format
 msgid "Edit Stored Search"
 msgstr "編輯儲存的搜尋"
 
-#: core/utilities/searchwindow/searchtabheader.cpp:321
+#: core/utilities/searchwindow/searchtabheader.cpp:324
 #, kde-format
 msgid "Edit..."
 msgstr "編輯..."
 
-#: core/utilities/searchwindow/searchview.cpp:496
+#: core/utilities/searchwindow/searchview.cpp:509
 #, kde-format
 msgid "Add Search Group"
 msgstr "加入搜尋群組"

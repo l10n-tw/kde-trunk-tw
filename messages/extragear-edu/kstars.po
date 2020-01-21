@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-16 02:38+0100\n"
+"POT-Creation-Date: 2020-01-21 02:41+0100\n"
 "PO-Revision-Date: 2019-01-03 18:34+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -5135,12 +5135,12 @@ msgid ""
 "from the astrometry options."
 msgstr ""
 
-#: ekos/align/align.cpp:364 ekos/guide/guide.cpp:3266
+#: ekos/align/align.cpp:364 ekos/guide/guide.cpp:3274
 #, kde-format
 msgid "dRA (arcsec)"
 msgstr "赤經（弧分）"
 
-#: ekos/align/align.cpp:365 ekos/guide/guide.cpp:3267
+#: ekos/align/align.cpp:365 ekos/guide/guide.cpp:3275
 #, kde-format
 msgid "dDE (arcsec)"
 msgstr "赤緯（弧秒）"
@@ -13477,7 +13477,7 @@ msgid ""
 "tr><tr><td>DE:   </td><td>%3 \"</td></tr></table>"
 msgstr ""
 
-#: ekos/guide/guide.cpp:425 ekos/guide/guide.cpp:2611
+#: ekos/guide/guide.cpp:425 ekos/guide/guide.cpp:2619
 #, kde-format
 msgctxt ""
 "Drift graphics tooltip; %1 is local time; %2 is RA deviation; %3 is DE "
@@ -13546,47 +13546,52 @@ msgid ""
 "you want to continue?"
 msgstr "這會刪除所有已儲存的影像。您確定您要這樣做嗎？"
 
-#: ekos/guide/guide.cpp:1551
+#: ekos/guide/guide.cpp:1467
+#, kde-format
+msgid "The mount is parked. Unpark to start guiding."
+msgstr ""
+
+#: ekos/guide/guide.cpp:1557
 #, kde-format
 msgid "Pier side change detected. Clearing calibration."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1562
+#: ekos/guide/guide.cpp:1570
 #, fuzzy, kde-format
 #| msgid "Slewing back to original position..."
 msgid "Mount is moving. Resetting calibration..."
 msgstr "旋轉回原來位置中..."
 
-#: ekos/guide/guide.cpp:1570
+#: ekos/guide/guide.cpp:1578
 #, fuzzy, kde-format
 #| msgctxt "City in Italy"
 #| msgid "Mount Ekar"
 msgid "Mount is parking. Aborting guide..."
 msgstr "Mount Ekar"
 
-#: ekos/guide/guide.cpp:1572
+#: ekos/guide/guide.cpp:1580
 #, fuzzy, kde-format
 #| msgid "Slewing back to original position..."
 msgid "Mount is slewing. Aborting guide..."
 msgstr "旋轉回原來位置中..."
 
-#: ekos/guide/guide.cpp:1669
+#: ekos/guide/guide.cpp:1677
 #, fuzzy, kde-format
 #| msgid "Calibration completed."
 msgid "Calibration is cleared."
 msgstr "靈敏度校正完成。"
 
-#: ekos/guide/guide.cpp:1690
+#: ekos/guide/guide.cpp:1698
 #, kde-format
 msgid "External guider connected."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1708
+#: ekos/guide/guide.cpp:1716
 #, kde-format
 msgid "External guider disconnected."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1725 ekos/guide/internalguide/rcalibration.cpp:418
+#: ekos/guide/guide.cpp:1733 ekos/guide/internalguide/rcalibration.cpp:418
 #: ekos/guide/internalguide/rcalibration.cpp:446
 #: ekos/guide/internalguide/rcalibration.cpp:667
 #: ekos/guide/internalguide/rcalibration.cpp:819
@@ -13594,98 +13599,98 @@ msgstr ""
 msgid "Calibration completed."
 msgstr "靈敏度校正完成。"
 
-#: ekos/guide/guide.cpp:1745
+#: ekos/guide/guide.cpp:1753
 #, fuzzy, kde-format
 #| msgid "Calibration completed."
 msgid "Calibration started."
 msgstr "靈敏度校正完成。"
 
-#: ekos/guide/guide.cpp:1751
+#: ekos/guide/guide.cpp:1759
 #, kde-format
 msgid "Guiding resumed."
 msgstr "引導已回復。"
 
-#: ekos/guide/guide.cpp:1754 ekos/guide/internalguide/guider.cpp:220
+#: ekos/guide/guide.cpp:1762 ekos/guide/internalguide/guider.cpp:220
 #: ekos/guide/internalguide/guider.cpp:238
 #: ekos/guide/internalguide/guider.cpp:310
 #, kde-format
 msgid "Autoguiding started."
 msgstr "自動引導已啟動。"
 
-#: ekos/guide/guide.cpp:1766
+#: ekos/guide/guide.cpp:1774
 #, fuzzy, kde-format
 #| msgid "Autoguiding started."
 msgid "Autoguiding aborted."
 msgstr "自動引導已啟動。"
 
-#: ekos/guide/guide.cpp:1771
+#: ekos/guide/guide.cpp:1779
 #, kde-format
 msgid "Guiding suspended."
 msgstr "引導已暫停。"
 
-#: ekos/guide/guide.cpp:1779
+#: ekos/guide/guide.cpp:1787
 #, fuzzy, kde-format
 #| msgctxt "City in British Columbia Canada"
 #| msgid "Dome Creek"
 msgid "Manual dithering in progress."
 msgstr "Dome Creek"
 
-#: ekos/guide/guide.cpp:1783
+#: ekos/guide/guide.cpp:1791
 #, fuzzy, kde-format
 #| msgctxt "City in British Columbia Canada"
 #| msgid "Dome Creek"
 msgid "Dithering in progress."
 msgstr "Dome Creek"
 
-#: ekos/guide/guide.cpp:1788
+#: ekos/guide/guide.cpp:1796
 #, kde-format
 msgid "Post-dither settling for %1 second..."
 msgid_plural "Post-dither settling for %1 seconds..."
 msgstr[0] ""
 
-#: ekos/guide/guide.cpp:1793
+#: ekos/guide/guide.cpp:1801
 #, fuzzy, kde-format
 #| msgid "Dithering..."
 msgid "Dithering failed."
 msgstr "移動中..."
 
-#: ekos/guide/guide.cpp:1804
+#: ekos/guide/guide.cpp:1812
 #, fuzzy, kde-format
 #| msgid "Post flip re-alignment completed successfully."
 msgid "Dithering completed successfully."
 msgstr "後翻轉重新調校已成功完成。"
 
-#: ekos/guide/guide.cpp:1861
+#: ekos/guide/guide.cpp:1869
 #, fuzzy, kde-format
 #| msgid "Autofocus failed. Aborting exposure..."
 msgid "Exposure failed. Restarting exposure..."
 msgstr "自動對焦失敗。將中止曝光..."
 
-#: ekos/guide/guide.cpp:1959
+#: ekos/guide/guide.cpp:1967
 #, fuzzy, kde-format
 #| msgid "Autofocus in progress..."
 msgid "Cannot change guider type while active."
 msgstr "自動對焦處理中..."
 
-#: ekos/guide/guide.cpp:2025
+#: ekos/guide/guide.cpp:2033
 #, fuzzy, kde-format
 #| msgid "2. Select guide star"
 msgid "Select guide camera."
 msgstr "2. 選擇導引星體"
 
-#: ekos/guide/guide.cpp:2080
+#: ekos/guide/guide.cpp:2088
 #, kde-format
 msgid ""
 "Warning: Reset Guiding Calibration is enabled. It is recommended to turn "
 "this option off for PHD2."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2203 ekos/guide/internalguide/guider.cpp:139
+#: ekos/guide/guide.cpp:2211 ekos/guide/internalguide/guider.cpp:139
 #, kde-format
 msgid "P: %1"
 msgstr "P：%1"
 
-#: ekos/guide/guide.cpp:2598
+#: ekos/guide/guide.cpp:2606
 #, kde-format
 msgctxt ""
 "Drift graphics tooltip; %1 is local time; %2 is RA deviation; %3 is DE "
@@ -13695,51 +13700,51 @@ msgid ""
 "tr><tr><td>DE:   </td><td>%3 \"</td></tr></table>"
 msgstr ""
 
-#: ekos/guide/guide.cpp:2754
+#: ekos/guide/guide.cpp:2762
 #, fuzzy, kde-format
 #| msgid "Auto calibration failed."
 msgid "Calibration failed to start."
 msgstr "自動校正失敗。"
 
-#: ekos/guide/guide.cpp:2906
+#: ekos/guide/guide.cpp:2914
 #, fuzzy, kde-format
 #| msgid "1 star detected."
 #| msgid_plural "%1 stars detected."
 msgid "Auto star selected."
 msgstr "偵測到 %1 個星體。"
 
-#: ekos/guide/guide.cpp:2910
+#: ekos/guide/guide.cpp:2918
 #, fuzzy, kde-format
 #| msgid "Set box size to select a focus star."
 msgid "Failed to select an auto star."
 msgstr "設定盒尺寸以便選擇對焦的星體。"
 
-#: ekos/guide/guide.cpp:2919
+#: ekos/guide/guide.cpp:2927
 #, fuzzy, kde-format
 #| msgid "2. Select guide star"
 msgid "Select a guide star to calibrate."
 msgstr "2. 選擇導引星體"
 
-#: ekos/guide/guide.cpp:3149
+#: ekos/guide/guide.cpp:3157
 #, fuzzy, kde-format
 #| msgid "dRA (arcsec)"
 msgid "drift (arcsec)"
 msgstr "赤經（弧分）"
 
-#: ekos/guide/guide.cpp:3150
+#: ekos/guide/guide.cpp:3158
 #, fuzzy, kde-format
 #| msgid "Focal Length (mm)"
 msgid "pulse (ms)"
 msgstr "焦距 (mm)"
 
-#: ekos/guide/guide.cpp:3406 ekos/guide/guide.cpp:3427
+#: ekos/guide/guide.cpp:3414 ekos/guide/guide.cpp:3435
 #, kde-format
 msgid ""
 "The PHD2 camera is not available to Ekos, so you cannot see the captured "
 "images.  But you will still see the Guide Star Image when you guide."
 msgstr ""
 
-#: ekos/guide/guide.cpp:3409 ekos/guide/guide.cpp:3430
+#: ekos/guide/guide.cpp:3417 ekos/guide/guide.cpp:3438
 #, kde-format
 msgid ""
 "To receive PHD2 images other than the Guide Star Image, SubFrame must be "
@@ -20958,72 +20963,72 @@ msgid "1 star detected."
 msgid_plural "%1 stars detected."
 msgstr[0] "偵測到 %1 個星體。"
 
-#: fitsviewer/fitsview.cpp:1671
+#: fitsviewer/fitsview.cpp:1673
 #, kde-format
 msgid "Zoom In"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:1674
+#: fitsviewer/fitsview.cpp:1676
 #, kde-format
 msgid "Zoom Out"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:1677
+#: fitsviewer/fitsview.cpp:1679
 #, fuzzy, kde-format
 #| msgid "&Default Zoom"
 msgid "Default Zoom"
 msgstr "預設縮放(&D)"
 
-#: fitsviewer/fitsview.cpp:1680
+#: fitsviewer/fitsview.cpp:1682
 #, kde-format
 msgid "Zoom to Fit"
 msgstr ""
 
-#: fitsviewer/fitsview.cpp:1683
+#: fitsviewer/fitsview.cpp:1685
 #, fuzzy, kde-format
 #| msgid "Auto Stretch"
 msgid "Toggle Stretch"
 msgstr "自動延伸"
 
-#: fitsviewer/fitsview.cpp:1691 fitsviewer/fitsviewer.cpp:183
+#: fitsviewer/fitsview.cpp:1693 fitsviewer/fitsviewer.cpp:183
 #, fuzzy, kde-format
 #| msgid "Crosshairs"
 msgid "Show Cross Hairs"
 msgstr "十字型"
 
-#: fitsviewer/fitsview.cpp:1695 fitsviewer/fitsviewer.cpp:189
+#: fitsviewer/fitsview.cpp:1697 fitsviewer/fitsviewer.cpp:189
 #, fuzzy, kde-format
 #| msgid "Show satellites"
 msgid "Show Pixel Gridlines"
 msgstr "顯示衛星"
 
-#: fitsviewer/fitsview.cpp:1700 fitsviewer/fitsview.cpp:1809
+#: fitsviewer/fitsview.cpp:1702 fitsviewer/fitsview.cpp:1811
 #, fuzzy, kde-format
 #| msgid "Open FITS Image"
 msgid "Detect Stars in Image"
 msgstr "開啟 FITS 影像"
 
-#: fitsviewer/fitsview.cpp:1706 fitsviewer/starprofileviewer.cpp:63
+#: fitsviewer/fitsview.cpp:1708 fitsviewer/starprofileviewer.cpp:63
 #, fuzzy, kde-format
 #| msgid "Arc file"
 msgid "View Star Profile"
 msgstr "Arc 檔"
 
-#: fitsviewer/fitsview.cpp:1716 fitsviewer/fitsviewer.cpp:195
+#: fitsviewer/fitsview.cpp:1718 fitsviewer/fitsviewer.cpp:195
 #: fitsviewer/fitsviewer.cpp:852
 #, fuzzy, kde-format
 #| msgid "Equatorial Coordinates"
 msgid "Show Equatorial Gridlines"
 msgstr "赤道座標"
 
-#: fitsviewer/fitsview.cpp:1722 fitsviewer/fitsviewer.cpp:202
+#: fitsviewer/fitsview.cpp:1724 fitsviewer/fitsviewer.cpp:202
 #: fitsviewer/fitsviewer.cpp:854
 #, fuzzy, kde-format
 #| msgid "Show Objects"
 msgid "Show Objects in Image"
 msgstr "顯示物件"
 
-#: fitsviewer/fitsview.cpp:1728
+#: fitsviewer/fitsview.cpp:1730
 #, fuzzy, kde-format
 #| msgid "Center in Telescope"
 msgid "Center Telescope"

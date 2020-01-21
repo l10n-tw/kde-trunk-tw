@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-17 03:33+0100\n"
+"POT-Creation-Date: 2020-01-21 03:32+0100\n"
 "PO-Revision-Date: 2018-05-19 11:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -5537,13 +5537,13 @@ msgctxt "@info:whatsthis"
 msgid "Enter the length of time to repeat the alarm"
 msgstr "輸入要重覆響鈴的時間"
 
-#: resources/akonadicalendarupdater.cpp:127
+#: resources/akonadicalendarupdater.cpp:128
 #, kde-format
 msgctxt "@info"
 msgid "Invalid collection"
 msgstr "不合法的收藏"
 
-#: resources/akonadicalendarupdater.cpp:140
+#: resources/akonadicalendarupdater.cpp:141
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid "Failed to update format of calendar <resource>%1</resource>"
@@ -5551,25 +5551,25 @@ msgctxt "@info"
 msgid "Failed to update format of calendar <resource>%1</resource>"
 msgstr "無法更新行事曆 <resource>%1</resource> 的格式。"
 
-#: resources/akonadiresource.cpp:825
+#: resources/akonadiresource.cpp:811
 #, kde-format
 msgctxt "@info"
 msgid "Failed to create alarm."
 msgstr "建立鬧鐘失敗。"
 
-#: resources/akonadiresource.cpp:827
+#: resources/akonadiresource.cpp:813
 #, kde-format
 msgctxt "@info"
 msgid "Failed to update alarm."
 msgstr "更新鬧鐘失敗。"
 
-#: resources/akonadiresource.cpp:829
+#: resources/akonadiresource.cpp:815
 #, kde-format
 msgctxt "@info"
 msgid "Failed to delete alarm."
 msgstr "刪除鬧鐘失敗。"
 
-#: resources/akonadiresource.cpp:957
+#: resources/akonadiresource.cpp:943
 #, kde-format
 msgctxt "@info"
 msgid "Failed to update calendar \"%1\"."
@@ -5595,34 +5595,34 @@ msgid ""
 "para><para><filename>%1</filename></para>"
 msgstr ""
 
-#: resources/akonadiresourcemigrator.cpp:267
+#: resources/akonadiresourcemigrator.cpp:270
 #: resources/resourcedatamodelbase.cpp:80
 #, kde-format
 msgctxt "@info"
 msgid "Active Alarms"
 msgstr "作用中的鬧鐘"
 
-#: resources/akonadiresourcemigrator.cpp:275
+#: resources/akonadiresourcemigrator.cpp:278
 #: resources/resourcedatamodelbase.cpp:82
 #, kde-format
 msgctxt "@info"
 msgid "Archived Alarms"
 msgstr "已歸檔的鬧鐘"
 
-#: resources/akonadiresourcemigrator.cpp:283
+#: resources/akonadiresourcemigrator.cpp:286
 #: resources/resourcedatamodelbase.cpp:84
 #, kde-format
 msgctxt "@info"
 msgid "Alarm Templates"
 msgstr "鬧鐘樣本"
 
-#: resources/akonadiresourcemigrator.cpp:321
+#: resources/akonadiresourcemigrator.cpp:324
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Failed to create default calendar <resource>%1</resource>"
 msgstr "無法更新預設行事曆 <resource>%1</resource>。"
 
-#: resources/akonadiresourcemigrator.cpp:323
+#: resources/akonadiresourcemigrator.cpp:326
 #, kde-kuit-format
 msgctxt "@info/plain 'Import Alarms' is the name of a menu option"
 msgid ""
@@ -5632,25 +5632,25 @@ msgstr ""
 "轉換行事曆 <resource>%1</resource> 的舊設定失敗。請使用「匯入鬧鐘」將它的鬧鐘"
 "載入新的或現有的行事曆中。"
 
-#: resources/akonadiresourcemigrator.cpp:325
+#: resources/akonadiresourcemigrator.cpp:328
 #, kde-format
 msgctxt "@info File path or URL"
 msgid "Location: %1"
 msgstr "位置：%1"
 
-#: resources/akonadiresourcemigrator.cpp:326
+#: resources/akonadiresourcemigrator.cpp:329
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>%1</para><para>%2</para>"
 msgstr "<para>%1</para> <para>%2</para>"
 
-#: resources/akonadiresourcemigrator.cpp:562
+#: resources/akonadiresourcemigrator.cpp:565
 #, kde-format
 msgctxt "@info"
 msgid "New configuration timed out"
 msgstr "新設定已逾時"
 
-#: resources/akonadiresourcemigrator.cpp:575
+#: resources/akonadiresourcemigrator.cpp:578
 #, kde-format
 msgctxt "@info"
 msgid "New configuration was corrupt"
