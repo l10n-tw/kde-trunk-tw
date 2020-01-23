@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-27 03:37+0100\n"
+"POT-Creation-Date: 2020-01-23 03:51+0100\n"
 "PO-Revision-Date: 2019-08-31 19:10+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -74,60 +74,65 @@ msgstr "自動登入"
 msgid "Change Password..."
 msgstr "變更密碼…"
 
-#: src/accountinfo.cpp:64
+#: src/accountinfo.cpp:65
 #, kde-format
 msgid "Choose from Gallery..."
 msgstr "從清單中選取..."
 
-#: src/accountinfo.cpp:68
+#: src/accountinfo.cpp:69
 #, kde-format
 msgid "Load from file..."
 msgstr "從檔案載入..."
 
-#: src/accountinfo.cpp:72
+#: src/accountinfo.cpp:73
 #, kde-format
 msgid "Clear Avatar"
 msgstr "清除頭像"
 
-#: src/accountinfo.cpp:121
+#: src/accountinfo.cpp:108
+#, kde-format
+msgid "Save changes to this user?"
+msgstr ""
+
+#: src/accountinfo.cpp:134
 #, kde-format
 msgctxt "@label:button"
 msgid "Change Password"
 msgstr "變更密碼"
 
-#: src/accountinfo.cpp:124
+#: src/accountinfo.cpp:137
 #, kde-format
 msgctxt "@label:button"
 msgid "Set Password"
 msgstr "設定密碼"
 
-#: src/accountinfo.cpp:293
+#: src/accountinfo.cpp:306
 #, kde-format
 msgid "This username is already used"
 msgstr "這個名稱已經被使用"
 
-#: src/accountinfo.cpp:303
+#: src/accountinfo.cpp:316
 #, kde-format
 msgid "The username must start with a letter"
 msgstr "使用者名稱必須以字母開頭"
 
-#: src/accountinfo.cpp:321
+#: src/accountinfo.cpp:334
 #, kde-format
 msgid ""
 "The username can contain only letters, numbers, score, underscore and dot"
 msgstr "使用者名稱只能包含字母、數字、線、底線與點"
 
-#: src/accountinfo.cpp:335
+#: src/accountinfo.cpp:348
 #, kde-format
 msgid "The username is too long"
 msgstr "使用者名稱太長"
 
-#: src/accountinfo.cpp:373
+#: src/accountinfo.cpp:386
 #, kde-format
 msgid "This e-mail address is incorrect"
 msgstr "電子郵件地址不正確"
 
-#: src/accountinfo.cpp:419
+#: src/accountinfo.cpp:432
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose Image"
@@ -210,28 +215,28 @@ msgctxt "Returned when a more specific error message has not been found"
 msgid "Please choose another password"
 msgstr "請選擇其他密碼"
 
-#: src/usermanager.cpp:118
+#: src/usermanager.cpp:122
 #, kde-format
 msgid "Keep files"
 msgstr "保留檔案"
 
-#: src/usermanager.cpp:120
+#: src/usermanager.cpp:124
 #, kde-format
 msgid "Delete files"
 msgstr "刪除檔案"
 
-#: src/usermanager.cpp:122
+#: src/usermanager.cpp:126
 #, kde-format
 msgid "What do you want to do after deleting %1 ?"
 msgstr "刪除 %1 後要做什麼？"
 
-#: src/usermanager.cpp:125
+#: src/usermanager.cpp:129
 #, kde-format
 msgid ""
 "This user is using the system right now, removing it will cause problems"
 msgstr "此使用者正在使用系統。移除它會造成問題"
 
-#: src/usermanager.cpp:128
+#: src/usermanager.cpp:132
 #, kde-format
 msgid "Delete User"
 msgstr "刪除使用者"

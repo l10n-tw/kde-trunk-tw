@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-21 03:38+0100\n"
+"POT-Creation-Date: 2020-01-23 03:38+0100\n"
 "PO-Revision-Date: 2015-06-17 09:27+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -583,157 +583,174 @@ msgstr ""
 msgid "Rules..."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:101
+#: dkim-verify/dkimwidgetinfo.cpp:102
 #, fuzzy, kde-format
 #| msgctxt "Unknown date"
 #| msgid "Unknown"
 msgid "Unknown"
 msgstr "未知"
 
-#: dkim-verify/dkimwidgetinfo.cpp:104
+#: dkim-verify/dkimwidgetinfo.cpp:105
 #, fuzzy, kde-format
 #| msgid "Message was signed by %1."
 msgid "DKIM: valid (signed by %1)"
 msgstr "信件由 %1 簽署。"
 
-#: dkim-verify/dkimwidgetinfo.cpp:111
+#: dkim-verify/dkimwidgetinfo.cpp:112
 #, kde-format
 msgid "DKIM: invalid"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:114
+#: dkim-verify/dkimwidgetinfo.cpp:115
 #, kde-format
 msgid "DKIM: Not signed"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:119
+#: dkim-verify/dkimwidgetinfo.cpp:120
 #, kde-format
 msgid "DKIM: Should Be Signed by %1"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:135
+#: dkim-verify/dkimwidgetinfo.cpp:136
 #, kde-format
 msgid "Body Hash was corrupted."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:138
+#: dkim-verify/dkimwidgetinfo.cpp:139
 #, kde-format
 msgid "The domain doesn't exist."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:141
+#: dkim-verify/dkimwidgetinfo.cpp:142
 #, kde-format
 msgid "Missing header From."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:144
+#: dkim-verify/dkimwidgetinfo.cpp:145
 #, fuzzy, kde-format
 #| msgid "Good signature."
 msgid "Missing signature."
 msgstr "好的簽章。"
 
-#: dkim-verify/dkimwidgetinfo.cpp:147
+#: dkim-verify/dkimwidgetinfo.cpp:148
 #, fuzzy, kde-format
 #| msgid "Invalid signature."
 msgid "Invalid query method."
 msgstr "不合法的簽章。"
 
-#: dkim-verify/dkimwidgetinfo.cpp:150
+#: dkim-verify/dkimwidgetinfo.cpp:151
 #, kde-format
 msgid "Invalid header canonicalization."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:153
+#: dkim-verify/dkimwidgetinfo.cpp:154
 #, kde-format
 msgid "Invalid body canonicalization."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:156
+#: dkim-verify/dkimwidgetinfo.cpp:157
 #, kde-format
 msgid "Unknown Body Hash Algorithm."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:159
+#: dkim-verify/dkimwidgetinfo.cpp:160
 #, fuzzy, kde-format
 #| msgid "Signature is valid."
 msgid "Signature algorithm is invalid."
 msgstr "簽章合法。"
 
-#: dkim-verify/dkimwidgetinfo.cpp:162
+#: dkim-verify/dkimwidgetinfo.cpp:163
 #, fuzzy, kde-format
 #| msgid "One key has been revoked."
 msgid "The public key was revoked."
 msgstr "已撤消一個金鑰。"
 
-#: dkim-verify/dkimwidgetinfo.cpp:165
+#: dkim-verify/dkimwidgetinfo.cpp:166
 #, fuzzy, kde-format
 #| msgid "Signature is valid."
 msgid "Signature is too large."
 msgstr "簽章合法。"
 
-#: dkim-verify/dkimwidgetinfo.cpp:168
+#: dkim-verify/dkimwidgetinfo.cpp:169
 #, kde-format
 msgid "Hash Algorithm is unsupported."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:171
+#: dkim-verify/dkimwidgetinfo.cpp:172
 #, kde-format
 msgid "Public key is too small."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:174
+#: dkim-verify/dkimwidgetinfo.cpp:175
 #, fuzzy, kde-format
 #| msgid "No public key to verify the signature"
 msgid "Impossible to verify signature."
 msgstr "沒有公開金鑰可以驗證簽章"
 
-#: dkim-verify/dkimwidgetinfo.cpp:177
+#: dkim-verify/dkimwidgetinfo.cpp:178
 #, kde-format
 msgid "AUID must be in the same domain as SDID (s-flag set in key record)."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:180
+#: dkim-verify/dkimwidgetinfo.cpp:181
 #, kde-format
 msgid "The signing domain is only testing DKIM."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:183
+#: dkim-verify/dkimwidgetinfo.cpp:184
 #, fuzzy, kde-format
 #| msgid "No public key to verify the signature"
 msgid "Impossible to download key."
 msgstr "沒有公開金鑰可以驗證簽章"
 
-#: dkim-verify/dkimwidgetinfo.cpp:186 dkim-verify/dkimwidgetinfo.cpp:210
+#: dkim-verify/dkimwidgetinfo.cpp:187 dkim-verify/dkimwidgetinfo.cpp:211
 #, kde-format
 msgid "Hash Algorithm unsafe (sha1)"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:189
+#: dkim-verify/dkimwidgetinfo.cpp:190
 #, kde-format
 msgid "AUID is not in a subdomain of SDID"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:192
+#: dkim-verify/dkimwidgetinfo.cpp:193
 #, kde-format
 msgid "Problem during converting public key"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:201
+#: dkim-verify/dkimwidgetinfo.cpp:202
 #, fuzzy, kde-format
 #| msgid "The signature has expired."
 msgid "Signature expired"
 msgstr "簽章已經過期。"
 
-#: dkim-verify/dkimwidgetinfo.cpp:204
+#: dkim-verify/dkimwidgetinfo.cpp:205
 #, kde-format
 msgid "Signature created in the future"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:207
+#: dkim-verify/dkimwidgetinfo.cpp:208
 #, fuzzy, kde-format
 #| msgid "Signature is valid."
 msgid "Signature too small"
 msgstr "簽章合法。"
+
+#: dkim-verify/dkimwidgetinfo.cpp:224
+#, fuzzy, kde-format
+#| msgid "Message was signed by %1."
+msgid "%1: Valid (Signed by %2)"
+msgstr "信件由 %1 簽署。"
+
+#: dkim-verify/dkimwidgetinfo.cpp:230 dkim-verify/dkimwidgetinfo.cpp:235
+#: dkim-verify/dkimwidgetinfo.cpp:240
+#, kde-format
+msgid "%1: Valid"
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:253
+#, kde-format
+msgid "Not Signed"
+msgstr ""
 
 #: header/grantleeheaderformatter.cpp:189
 #, kde-format

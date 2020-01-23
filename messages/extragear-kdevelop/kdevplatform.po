@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevplatform\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-18 02:44+0100\n"
+"POT-Creation-Date: 2020-01-23 02:49+0100\n"
 "PO-Revision-Date: 2014-04-23 15:00+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -583,7 +583,7 @@ msgid "Find in text of current documentation page."
 msgstr "顯示目前文件的註記"
 
 #: interfaces/contextmenuextension.cpp:146 shell/debugcontroller.cpp:386
-#: shell/runcontroller.cpp:100 shell/uicontroller.cpp:104
+#: shell/runcontroller.cpp:100 shell/uicontroller.cpp:103
 #, kde-format
 msgid "Debug"
 msgstr "除錯"
@@ -1671,12 +1671,12 @@ msgctxt "@title:column buildset item path"
 msgid "Path"
 msgstr "路徑"
 
-#: project/projectchangesmodel.cpp:288
+#: project/projectchangesmodel.cpp:293
 #, kde-format
 msgid "no branch"
 msgstr "沒有分支"
 
-#: project/projectchangesmodel.cpp:289
+#: project/projectchangesmodel.cpp:294
 #, kde-format
 msgctxt "project name (branch name)"
 msgid "%1 (%2)"
@@ -3038,7 +3038,7 @@ msgstr "開啟工作階段 %1"
 msgid "No enabled plugin supports this repository URL: %1"
 msgstr ""
 
-#: shell/projectcontroller.cpp:1242
+#: shell/projectcontroller.cpp:1247
 #, fuzzy, kde-format
 #| msgid "Reopen the current project?"
 msgid "Reparse the Entire Project"
@@ -4574,17 +4574,17 @@ msgstr "文件已被別人變更"
 msgid " Line: %1 Col: %2 "
 msgstr " 行: %1 欄: %2 "
 
-#: shell/uicontroller.cpp:93
+#: shell/uicontroller.cpp:92
 #, kde-format
 msgid "Code"
 msgstr "程式碼"
 
-#: shell/uicontroller.cpp:113
+#: shell/uicontroller.cpp:112
 #, kde-format
 msgid "Review"
 msgstr "重新檢視"
 
-#: shell/uicontroller.cpp:466
+#: shell/uicontroller.cpp:465
 #, kde-format
 msgid "Select Tool View to Add"
 msgstr "選擇要新增的工具檢視"
@@ -4940,19 +4940,19 @@ msgstr "印出在分析時遇到的問題"
 msgid "Recursively dump errors from imported contexts."
 msgstr ""
 
-#: util/environmentselectionmodel.cpp:52
+#: util/environmentselectionmodel.cpp:57
 #, kde-format
 msgctxt "@title:column"
 msgid "Profile"
 msgstr "設定檔"
 
-#: util/environmentselectionmodel.cpp:63
+#: util/environmentselectionmodel.cpp:68
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Use default profile (currently: %1)"
 msgstr "使用預設設定檔（目前為：%1）"
 
-#: util/environmentselectionmodel.cpp:67
+#: util/environmentselectionmodel.cpp:72
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "%1 (does not exist)"

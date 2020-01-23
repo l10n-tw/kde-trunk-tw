@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-21 03:32+0100\n"
+"POT-Creation-Date: 2020-01-23 03:34+0100\n"
 "PO-Revision-Date: 2018-05-19 11:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -297,17 +297,17 @@ msgstr "KAlarm 自動啟動"
 msgid "KAlarm autostart at login"
 msgstr "在登入時自動啟動 KAlarm"
 
-#: autostart/autostart.cpp:63 main.cpp:57
+#: autostart/autostart.cpp:63 main.cpp:58
 #, kde-format
 msgid "Copyright 2001-%1, David Jarvie"
 msgstr "Copyright 2001-%1, David Jarvie"
 
-#: autostart/autostart.cpp:65 main.cpp:59
+#: autostart/autostart.cpp:65 main.cpp:60
 #, kde-format
 msgid "David Jarvie"
 msgstr "David Jarvie"
 
-#: autostart/autostart.cpp:65 main.cpp:59
+#: autostart/autostart.cpp:65 main.cpp:60
 #, kde-format
 msgid "Author"
 msgstr "作者"
@@ -1873,32 +1873,32 @@ msgctxt "@info"
 msgid "Error saving alarm template"
 msgstr "儲存鬧鐘樣本時發生錯誤"
 
-#: kalarmapp.cpp:421
+#: kalarmapp.cpp:430
 #, kde-kuit-format
 msgctxt "@info:shell"
 msgid "%1: Event <resource>%2</resource> not found, or not unique"
 msgstr "%1：找不到事件 <resource>%2</resource>，或者事件非唯一"
 
-#: kalarmapp.cpp:450
+#: kalarmapp.cpp:459
 #, kde-kuit-format
 msgctxt "@info:shell"
 msgid "%1: Event <resource>%2</resource> not found, or not editable"
 msgstr "%1：找不到事件 <resource>%2</resource>，或者無法編輯"
 
-#: kalarmapp.cpp:708
+#: kalarmapp.cpp:717
 #, kde-format
 msgctxt "@info"
 msgid ""
 "Quitting will disable alarms (once any alarm message windows are closed)."
 msgstr "離開會將所有的鬧鐘關閉。"
 
-#: kalarmapp.cpp:717
+#: kalarmapp.cpp:726
 #, kde-format
 msgctxt "@info"
 msgid "Quitting will cancel the scheduled Wake from Suspend."
 msgstr "離開的話會取消從休眠中喚醒型鬧鐘"
 
-#: kalarmapp.cpp:729
+#: kalarmapp.cpp:738
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1907,7 +1907,7 @@ msgid ""
 msgstr ""
 "您要在登入時啟動 KAlarm 嗎？<nl/>（注意，若 KAlarm 未啟動，鬧鐘都將被關閉）"
 
-#: kalarmapp.cpp:1167
+#: kalarmapp.cpp:1176
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1918,7 +1918,7 @@ msgstr ""
 "無法建立或更新鬧鐘，因為沒有開啟任何可寫入的鬧鐘行事曆。<nl/><nl/>要修正這個"
 "問題，請用<interface>檢視 | 顯示行事曆</interface>來檢查或變更行事曆狀態。"
 
-#: kalarmapp.cpp:2060
+#: kalarmapp.cpp:2069
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1928,19 +1928,19 @@ msgstr ""
 "執行指令失敗\n"
 "（指令鬧鐘尚未指定終端）"
 
-#: kalarmapp.cpp:2208
+#: kalarmapp.cpp:2217
 #, kde-format
 msgctxt "@info"
 msgid "Error creating temporary script file"
 msgstr "產生暫時文稿檔案時發生錯誤"
 
-#: kalarmapp.cpp:2297
+#: kalarmapp.cpp:2306
 #, kde-format
 msgctxt "@info"
 msgid "Pre-alarm action:"
 msgstr "鬧鐘響鈴前動作："
 
-#: kalarmapp.cpp:2303
+#: kalarmapp.cpp:2312
 #, kde-format
 msgctxt "@info"
 msgid "Post-alarm action:"
@@ -3362,12 +3362,12 @@ msgstr "調整時間時同時按下 Shift 鍵可以讓時間間隔跳快一點�
 msgid "System time zone"
 msgstr "系統時間時區"
 
-#: main.cpp:53
+#: main.cpp:54
 #, kde-format
 msgid "KAlarm"
 msgstr "KAlarm"
 
-#: main.cpp:55
+#: main.cpp:56
 #, kde-format
 msgid "Personal alarm message, command and email scheduler by KDE"
 msgstr "來自 KDE 的私人的鬧鐘訊息、指令與信箱排程器"
@@ -3404,7 +3404,7 @@ msgctxt "@action"
 msgid "&Copy..."
 msgstr "複製(&C)..."
 
-#: mainwindow.cpp:452 resourceselector.cpp:312
+#: mainwindow.cpp:452 resourceselector.cpp:313
 #, kde-format
 msgctxt "@action"
 msgid "&Edit..."
@@ -3470,7 +3470,7 @@ msgctxt "@action"
 msgid "E&xport Selected Alarms..."
 msgstr "匯出選取的鬧鐘(&X)..."
 
-#: mainwindow.cpp:515 resourceselector.cpp:330
+#: mainwindow.cpp:515 resourceselector.cpp:331
 #, kde-format
 msgctxt "@action"
 msgid "E&xport..."
@@ -5790,7 +5790,7 @@ msgctxt "@info:tooltip"
 msgid "Pre- and post-alarm action execution failed"
 msgstr "鬧鐘響鈴前與響鈴後動作失敗"
 
-#: resources/resourcedatamodelbase.cpp:494 resourceselector.cpp:529
+#: resources/resourcedatamodelbase.cpp:494 resourceselector.cpp:530
 #, kde-format
 msgctxt "@info"
 msgid "Disabled"
@@ -6050,13 +6050,13 @@ msgctxt "@info:tooltip"
 msgid "Add a new alarm template calendar"
 msgstr "新增鬧鐘樣本行事曆"
 
-#: resourceselector.cpp:244
+#: resourceselector.cpp:245
 #, kde-format
 msgctxt "@info"
 msgid "You cannot remove your default active alarm calendar."
 msgstr "您無法移除您預設作用中的鬧鐘行事曆。"
 
-#: resourceselector.cpp:251
+#: resourceselector.cpp:252
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -6064,13 +6064,13 @@ msgid ""
 "are configured to be kept."
 msgstr "您無法移除您預設歸檔鬧鐘行事曆，因為您設定將逾時的鬧鐘保留。"
 
-#: resourceselector.cpp:266
+#: resourceselector.cpp:267
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>It also contains:%1</para>"
 msgstr "<para>它也包含了：%1</para>"
 
-#: resourceselector.cpp:267
+#: resourceselector.cpp:268
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -6080,7 +6080,7 @@ msgstr ""
 "<para><resource>%1</resource>是 %2 的預設行事曆。</para> %3 <para>您確定要將"
 "它從所有行事曆清單中移除嗎？</para>"
 
-#: resourceselector.cpp:271
+#: resourceselector.cpp:272
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -6088,7 +6088,7 @@ msgid ""
 "from the list?"
 msgstr "您真的要從清單中移除您的預設行事曆（<resource>%1</resource>）嗎？"
 
-#: resourceselector.cpp:274
+#: resourceselector.cpp:275
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -6098,7 +6098,7 @@ msgstr ""
 "<para><resource>%1</resource> 包含 %2。</para> <para>您確定要將它從所有行事曆"
 "清單中移除嗎？</para>"
 
-#: resourceselector.cpp:277
+#: resourceselector.cpp:278
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -6106,121 +6106,121 @@ msgid ""
 "list?"
 msgstr "您真的要從清單中移除 <resource>%1</resource> 行事曆嗎？"
 
-#: resourceselector.cpp:300
+#: resourceselector.cpp:301
 #, kde-format
 msgctxt "@action Reload calendar"
 msgid "Re&load"
 msgstr "重新載入(&L)"
 
-#: resourceselector.cpp:303
+#: resourceselector.cpp:304
 #, kde-format
 msgctxt "@action"
 msgid "Show &Details"
 msgstr "顯示詳情(&D)"
 
-#: resourceselector.cpp:306
+#: resourceselector.cpp:307
 #, kde-format
 msgctxt "@action"
 msgid "Set &Color..."
 msgstr "設定顏色(&C)..."
 
-#: resourceselector.cpp:309
+#: resourceselector.cpp:310
 #, kde-format
 msgctxt "@action"
 msgid "Clear C&olor"
 msgstr "清除顏色(&O)"
 
-#: resourceselector.cpp:315
+#: resourceselector.cpp:316
 #, kde-format
 msgctxt "@action"
 msgid "&Update Calendar Format"
 msgstr "更新行事曆格式(&U)"
 
-#: resourceselector.cpp:318
+#: resourceselector.cpp:319
 #, kde-format
 msgctxt "@action"
 msgid "&Remove"
 msgstr "移除(&R)"
 
-#: resourceselector.cpp:324
+#: resourceselector.cpp:325
 #, kde-format
 msgctxt "@action"
 msgid "&Add..."
 msgstr "新增(&A)..."
 
-#: resourceselector.cpp:327
+#: resourceselector.cpp:328
 #, kde-format
 msgctxt "@action"
 msgid "Im&port..."
 msgstr "匯入(&P)..."
 
-#: resourceselector.cpp:387
+#: resourceselector.cpp:388
 #, kde-format
 msgctxt "@action"
 msgid "Use as &Default for Active Alarms"
 msgstr "設為預設作用鬧鐘(&D)"
 
-#: resourceselector.cpp:388
+#: resourceselector.cpp:389
 #, kde-format
 msgctxt "@action"
 msgid "Use as &Default for Archived Alarms"
 msgstr "設為預設歸檔鬧鐘(&D)"
 
-#: resourceselector.cpp:389
+#: resourceselector.cpp:390
 #, kde-format
 msgctxt "@action"
 msgid "Use as &Default for Alarm Templates"
 msgstr "設為預設鬧鐘樣本(&D)"
 
-#: resourceselector.cpp:518
+#: resourceselector.cpp:519
 #, kde-format
 msgctxt "@info"
 msgid "Active alarms"
 msgstr "作用中的鬧鐘"
 
-#: resourceselector.cpp:520
+#: resourceselector.cpp:521
 #, kde-format
 msgctxt "@info"
 msgid "Archived alarms"
 msgstr "已歸檔的鬧鐘"
 
-#: resourceselector.cpp:522
+#: resourceselector.cpp:523
 #, kde-format
 msgctxt "@info"
 msgid "Alarm templates"
 msgstr "鬧鐘樣本"
 
-#: resourceselector.cpp:523
+#: resourceselector.cpp:524
 #, kde-format
 msgctxt "@info List separator"
 msgid ", "
 msgstr ", "
 
-#: resourceselector.cpp:526
+#: resourceselector.cpp:527
 #, kde-format
 msgctxt "@info"
 msgid "Read-write"
 msgstr "讀寫"
 
-#: resourceselector.cpp:528
+#: resourceselector.cpp:529
 #, kde-format
 msgctxt "@info"
 msgid "Enabled"
 msgstr "已開啟"
 
-#: resourceselector.cpp:531
+#: resourceselector.cpp:532
 #, kde-format
 msgctxt "@info Parameter in 'Default calendar: Yes/No'"
 msgid "Yes"
 msgstr "是"
 
-#: resourceselector.cpp:532
+#: resourceselector.cpp:533
 #, kde-format
 msgctxt "@info Parameter in 'Default calendar: Yes/No'"
 msgid "No"
 msgstr "否"
 
-#: resourceselector.cpp:534
+#: resourceselector.cpp:535
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""

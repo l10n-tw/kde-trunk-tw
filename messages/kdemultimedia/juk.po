@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: juk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-16 03:13+0100\n"
+"POT-Creation-Date: 2020-01-23 03:24+0100\n"
 "PO-Revision-Date: 2019-12-29 16:42+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -829,17 +829,17 @@ msgstr "<i>沒有播放任何檔案。</i>"
 msgid "<i>Loading...</i>"
 msgstr "<i>載入中...</i>"
 
-#: lyricswidget.cpp:118 lyricswidget.cpp:147
+#: lyricswidget.cpp:122 lyricswidget.cpp:155
 #, kde-format
 msgid "<span style='color:red'>Error while retrieving lyrics!</span>"
 msgstr "<span style='color:red'>取得歌詞時發生錯誤。</span>"
 
-#: lyricswidget.cpp:163
+#: lyricswidget.cpp:171
 #, kde-format
 msgid "No lyrics available."
 msgstr "沒有可用的歌詞。"
 
-#: lyricswidget.cpp:172
+#: lyricswidget.cpp:180
 #, kde-format
 msgid "<br /><br /><i>Lyrics provided by <a href='%1'>LyricWiki</a></i>"
 msgstr "<br /><br /><i>歌詞由 <a href='%1'>LyricWiki</a> 提供</i>"
@@ -1098,7 +1098,7 @@ msgstr "開啟"
 msgid "Save Playlist"
 msgstr "儲存播放清單"
 
-#: nowplaying.cpp:318
+#: nowplaying.cpp:321
 #, kde-format
 msgid "back to playlist"
 msgstr "回到播放清單"

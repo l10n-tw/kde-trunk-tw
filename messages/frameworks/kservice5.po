@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-13 02:52+0200\n"
+"POT-Creation-Date: 2020-01-23 03:07+0100\n"
 "PO-Revision-Date: 2016-06-28 17:34+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -139,7 +139,7 @@ msgstr ""
 "無法透過 DBus 啟動 KLauncher，呼叫 %1 時發生錯誤：\n"
 "%2\n"
 
-#: kdeinit/ktoolinvocation_x11.cpp:247
+#: kdeinit/ktoolinvocation_x11.cpp:240
 #, kde-format
 msgid ""
 "Could not launch the mail client:\n"
@@ -150,7 +150,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdeinit/ktoolinvocation_x11.cpp:248
+#: kdeinit/ktoolinvocation_x11.cpp:241
 #, kde-format
 msgid "Could not launch Mail Client"
 msgstr "無法執行電子郵件客戶程式。"
@@ -158,8 +158,8 @@ msgstr "無法執行電子郵件客戶程式。"
 #. i18n("Could not launch %1:\n\n%2", exe, error),
 #. i18n("Could not launch %1:\n\n%2", htmlApp->exec(), error),
 #. i18n("Could not launch %1:\n\n%2", exe, error),
-#: kdeinit/ktoolinvocation_x11.cpp:298 kdeinit/ktoolinvocation_x11.cpp:323
-#: kdeinit/ktoolinvocation_x11.cpp:342
+#: kdeinit/ktoolinvocation_x11.cpp:291 kdeinit/ktoolinvocation_x11.cpp:316
+#: kdeinit/ktoolinvocation_x11.cpp:335
 #, kde-format
 msgid ""
 "Could not launch the browser:\n"
@@ -170,13 +170,13 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdeinit/ktoolinvocation_x11.cpp:299 kdeinit/ktoolinvocation_x11.cpp:324
-#: kdeinit/ktoolinvocation_x11.cpp:343
+#: kdeinit/ktoolinvocation_x11.cpp:292 kdeinit/ktoolinvocation_x11.cpp:317
+#: kdeinit/ktoolinvocation_x11.cpp:336
 #, kde-format
 msgid "Could not launch Browser"
 msgstr "無法執行網頁瀏覽器"
 
-#: kdeinit/ktoolinvocation_x11.cpp:383
+#: kdeinit/ktoolinvocation_x11.cpp:376
 #, kde-format
 msgid ""
 "Could not launch the terminal client:\n"
@@ -187,7 +187,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdeinit/ktoolinvocation_x11.cpp:384
+#: kdeinit/ktoolinvocation_x11.cpp:377
 #, kde-format
 msgid "Could not launch Terminal Client"
 msgstr "無法執行終端機客戶程式。"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-21 02:45+0100\n"
+"POT-Creation-Date: 2020-01-23 02:48+0100\n"
 "PO-Revision-Date: 2020-01-18 19:16+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -11853,7 +11853,7 @@ msgstr "選擇背景影像"
 #: libs/ui/KisMainWindow.cpp:1917 libs/ui/KisMainWindow.cpp:1946
 #: libs/ui/KisMainWindow.cpp:2022 libs/ui/KisMainWindow.cpp:2034
 #: libs/ui/KisPart.cpp:483 libs/ui/KisPart.cpp:486
-#: libs/ui/KisReferenceImage.cpp:148 libs/ui/KisRemoteFileFetcher.cpp:54
+#: libs/ui/KisReferenceImage.cpp:158 libs/ui/KisRemoteFileFetcher.cpp:54
 #: libs/ui/KisTemplateCreateDia.cpp:297 libs/ui/KisTemplateCreateDia.cpp:403
 #: libs/ui/KisView.cpp:729 libs/ui/opengl/kis_opengl_canvas2.cpp:381
 #: libs/ui/widgets/kis_custom_image_widget.cc:277
@@ -17252,7 +17252,7 @@ msgstr "反轉漸變"
 
 #. i18n: ectx: attribute (title), widget (QWidget, textureOptionsTab)
 #: libs/ui/kis_stopgradient_editor.cpp:240
-#: libs/ui/KisImportExportManager.cpp:573
+#: libs/ui/KisImportExportManager.cpp:577
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:59
 #, kde-format
 msgid "Options"
@@ -17890,18 +17890,18 @@ msgstr "開啟音訊"
 msgid "Opening document..."
 msgstr "正在開啟檔案…"
 
-#: libs/ui/KisImportExportManager.cpp:421
+#: libs/ui/KisImportExportManager.cpp:425
 #, kde-format
 msgid "Saving document..."
 msgstr "正在儲存檔案…"
 
-#: libs/ui/KisImportExportManager.cpp:497
+#: libs/ui/KisImportExportManager.cpp:501
 #, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>assistants</b>. The assistants will not be saved."
 msgstr "此影像包含<b>輔助尺</b>。輔助尺將不被儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:500
+#: libs/ui/KisImportExportManager.cpp:504
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -17909,13 +17909,13 @@ msgid ""
 "saved."
 msgstr "此影像包含<b>參考圖</b>。參考圖將不被儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:503
+#: libs/ui/KisImportExportManager.cpp:507
 #, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>guides</b>. The guides will not be saved."
 msgstr "此影像包含<b> 參考線 </b>。參考線將不被儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:506
+#: libs/ui/KisImportExportManager.cpp:510
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -17923,40 +17923,40 @@ msgid ""
 "will not be saved."
 msgstr "此影像包含<b>自訂網格設定</b>。自訂網格設定將不被儲存。"
 
-#: libs/ui/KisImportExportManager.cpp:511
+#: libs/ui/KisImportExportManager.cpp:515
 #, kde-format
 msgid "Error: cannot save this image as a %1."
 msgstr "錯誤：無法將此影像儲存為 %1。"
 
-#: libs/ui/KisImportExportManager.cpp:512
-#: libs/ui/KisImportExportManager.cpp:560
+#: libs/ui/KisImportExportManager.cpp:516
+#: libs/ui/KisImportExportManager.cpp:564
 #, kde-format
 msgid "Reasons:"
 msgstr "原因："
 
-#: libs/ui/KisImportExportManager.cpp:520
+#: libs/ui/KisImportExportManager.cpp:524
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Export Error"
 msgstr "Krita：匯出錯誤"
 
-#: libs/ui/KisImportExportManager.cpp:543
+#: libs/ui/KisImportExportManager.cpp:547
 #, kde-format
 msgctxt "Keep the extra space at the end of the sentence, please"
 msgid "Warning: saving as %1 will lose information from your image.    "
 msgstr "警告：儲存為 %1 將遺失影像中的訊息。    "
 
-#: libs/ui/KisImportExportManager.cpp:554
+#: libs/ui/KisImportExportManager.cpp:558
 #, kde-format
 msgid "You will lose information when saving this image as a %1."
 msgstr "將此影像儲存為 %1 時將遺失訊息。"
 
-#: libs/ui/KisImportExportManager.cpp:557
+#: libs/ui/KisImportExportManager.cpp:561
 #, kde-format
 msgid "Reason:"
 msgstr "原因："
 
-#: libs/ui/KisImportExportManager.cpp:582
+#: libs/ui/KisImportExportManager.cpp:586
 #, kde-format
 msgid "Also save your image as a Krita file."
 msgstr "請將影像另存為 Krita 格式檔案。"
@@ -18349,12 +18349,12 @@ msgstr ""
 "建立檔案\n"
 "原因：%2"
 
-#: libs/ui/KisReferenceImage.cpp:86
+#: libs/ui/KisReferenceImage.cpp:96
 msgctxt "(qtundo-format)"
 msgid "Set saturation"
 msgstr "設定飽和度"
 
-#: libs/ui/KisReferenceImage.cpp:148
+#: libs/ui/KisReferenceImage.cpp:158
 #, kde-format
 msgid "Could not load %1."
 msgstr "無法載入 %1。"
@@ -28194,10 +28194,24 @@ msgid "Ctrl+S"
 msgstr "Ctrl+S"
 
 #. i18n: ectx: property (text), widget (QLabel, errorLabel)
-#: plugins/extensions/pykrita/plugin/manager.ui:48
+#: plugins/extensions/pykrita/plugin/manager.ui:26
 #, kde-format
 msgid "Error: The Python engine could not be initialized"
 msgstr "錯誤：Python 引擎無法初始化"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/extensions/pykrita/plugin/manager.ui:58
+#, fuzzy, kde-format
+#| msgid ""
+#| "<html><head/><body><p>Only use this option for <span style=\" font-"
+#| "weight:600;\">very</span> large files: larger than 4 GiB on disk.</p></"
+#| "body></html>"
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Note:</span> you "
+"need to restart Krita to enable or disable plugins.</p></body></html>"
+msgstr ""
+"<html><head/><body><p align=\"left\"><span style=\" font-weight:600;\">最近檔"
+"案</span></p></body></html>"
 
 #: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:72
 #, kde-format

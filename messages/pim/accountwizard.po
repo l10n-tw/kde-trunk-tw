@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-19 03:22+0100\n"
+"POT-Creation-Date: 2020-01-23 03:36+0100\n"
 "PO-Revision-Date: 2019-01-19 19:36+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -402,52 +402,52 @@ msgstr "POP3, %1"
 msgid "Fetching provider list..."
 msgstr "抓取提供者清單中..."
 
-#: resource.cpp:86
+#: resource.cpp:92
 #, kde-format
 msgid "Resource type '%1' is not available."
 msgstr "無法取得資源型態 %1"
 
-#: resource.cpp:100
+#: resource.cpp:106
 #, kde-format
 msgid "Resource '%1' is already set up."
 msgstr "資源 %1 早已設定。"
 
-#: resource.cpp:106
+#: resource.cpp:112
 #, kde-format
 msgid "Creating resource instance for '%1'..."
 msgstr "建立 %1 的資源實體中..."
 
-#: resource.cpp:115
+#: resource.cpp:121
 #, kde-format
 msgid "Failed to create resource instance: %1"
 msgstr "建立資源實體失敗：%1"
 
-#: resource.cpp:122
+#: resource.cpp:128
 #, kde-format
 msgid "Configuring resource instance..."
 msgstr "設定資源實體中..."
 
-#: resource.cpp:125
+#: resource.cpp:131
 #, kde-format
 msgid "Unable to configure resource instance."
 msgstr "無法設定資源實體。"
 
-#: resource.cpp:140
+#: resource.cpp:150
 #, kde-format
 msgid "Could not convert value of setting '%1' to required type %2."
 msgstr "無法轉換設定 %1 的值為需要的型態 %2。"
 
-#: resource.cpp:147
+#: resource.cpp:157
 #, kde-format
 msgid "Could not set setting '%1': %2"
 msgstr "無法設定 %1：%2"
 
-#: resource.cpp:157
+#: resource.cpp:167
 #, kde-format
 msgid "Resource setup completed."
 msgstr "資源設定完成。"
 
-#: resource.cpp:171
+#: resource.cpp:181
 #, kde-format
 msgid "Removed resource instance for '%1'."
 msgstr "已移除 %1 的資源實體。"

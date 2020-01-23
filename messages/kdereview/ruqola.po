@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-21 03:24+0100\n"
+"POT-Creation-Date: 2020-01-23 03:29+0100\n"
 "PO-Revision-Date: 2019-09-28 03:06+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -768,7 +768,8 @@ msgid "Search Room..."
 msgstr ""
 
 #: apps/qml/qml/RoomsComponent.qml:143
-#: widgets/channellist/channellistwidget.cpp:49
+#: widgets/channellist/channellistwidget.cpp:55
+#: widgets/dialogs/modifystatuswidget.cpp:43
 msgid "Status:"
 msgstr ""
 
@@ -776,7 +777,7 @@ msgstr ""
 msgid "Search Channel"
 msgstr ""
 
-#: apps/qml/qml/SearchChannelDialog.qml:56
+#: apps/qml/qml/SearchChannelDialog.qml:56 widgets/ruqolamainwindow.cpp:93
 msgid "Search Channel..."
 msgstr ""
 
@@ -1192,19 +1193,19 @@ msgstr ""
 msgid "Private Messages"
 msgstr ""
 
-#: core/model/statusmodel.cpp:73
+#: core/model/statusmodel.cpp:73 widgets/channellist/statuscombobox.cpp:37
 msgid "Online"
 msgstr ""
 
-#: core/model/statusmodel.cpp:80
+#: core/model/statusmodel.cpp:80 widgets/channellist/statuscombobox.cpp:38
 msgid "Busy"
 msgstr ""
 
-#: core/model/statusmodel.cpp:87
+#: core/model/statusmodel.cpp:87 widgets/channellist/statuscombobox.cpp:39
 msgid "Away"
 msgstr ""
 
-#: core/model/statusmodel.cpp:94
+#: core/model/statusmodel.cpp:94 widgets/channellist/statuscombobox.cpp:40
 msgid "Offline"
 msgstr ""
 
@@ -1674,9 +1675,37 @@ msgstr ""
 msgid "Get Avatar"
 msgstr ""
 
-#: widgets/dialogs/channelinfodialog.cpp:31
+#: widgets/channellist/statuscombobox.cpp:43
+msgid "Modify Status..."
+msgstr ""
+
+#: widgets/dialogs/channelinfodialog.cpp:30
 msgctxt "@title:window"
 msgid "Channel Info"
+msgstr ""
+
+#: widgets/dialogs/createnewaccountdialog.cpp:35
+msgctxt "@title:window"
+msgid "Add Account"
+msgstr ""
+
+#: widgets/dialogs/createnewchanneldialog.cpp:30
+msgctxt "@title:window"
+msgid "Create Channel"
+msgstr ""
+
+#: widgets/dialogs/modifystatusdialog.cpp:31
+msgctxt "@title:window"
+msgid "Modify Status"
+msgstr ""
+
+#: widgets/dialogs/modifystatuswidget.cpp:42
+msgid "Message Status:"
+msgstr ""
+
+#: widgets/dialogs/searchchanneldialog.cpp:32
+msgctxt "@title:window"
+msgid "Search Channel"
 msgstr ""
 
 #: widgets/dialogs/serverinfodialog.cpp:30
@@ -1696,6 +1725,26 @@ msgstr ""
 msgid "Server Version:"
 msgstr ""
 
+#: widgets/dialogs/showmentionsmessagesdialog.cpp:33
+msgctxt "@title:window"
+msgid "Show Mentions Messages"
+msgstr ""
+
+#: widgets/dialogs/showpinnedmessagesdialog.cpp:33
+msgctxt "@title:window"
+msgid "Show Pinned Messages"
+msgstr ""
+
+#: widgets/dialogs/showsnipperedmessagesdialog.cpp:33
+msgctxt "@title:window"
+msgid "Show Snippered Messages"
+msgstr ""
+
+#: widgets/dialogs/showstarredmessagesdialog.cpp:33
+msgctxt "@title:window"
+msgid "Show Starred Messages"
+msgstr ""
+
 #: widgets/dialogs/uploadfiledialog.cpp:30
 msgctxt "@title:window"
 msgid "Upload File"
@@ -1713,14 +1762,34 @@ msgstr ""
 msgid "Login"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:73
+#: widgets/ruqolamainwindow.cpp:80
 msgid "Add Account..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:78
+#: widgets/ruqolamainwindow.cpp:85
 msgid "Server Info..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:82
+#: widgets/ruqolamainwindow.cpp:89
 msgid "Logout"
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:97
+msgid "Create New Channel..."
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:101
+msgid "Show Mentions..."
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:105
+msgid "Show Pinned Messages..."
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:109
+msgid "Show Starred Messages..."
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:113
+msgid "Show Snippered Messages..."
 msgstr ""

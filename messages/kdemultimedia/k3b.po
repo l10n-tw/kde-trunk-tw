@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-19 03:11+0100\n"
+"POT-Creation-Date: 2020-01-23 03:24+0100\n"
 "PO-Revision-Date: 2019-11-22 01:48+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -3342,7 +3342,7 @@ msgstr ""
 "式。"
 
 #: k3bwriterselectionwidget.cpp:272 projects/k3bdataurladdingdialog.cpp:403
-#: projects/k3bdataurladdingdialog.cpp:635
+#: projects/k3bdataurladdingdialog.cpp:636
 #, kde-format
 msgid "Ignore"
 msgstr "忽略"
@@ -4808,8 +4808,8 @@ msgid ""
 msgstr ""
 "為了給 K3b 完整存取寫入裝置的權限，目前的使用者必須先加入 <em>%1</em> 群組。"
 
-#: option/k3bdevicewidget.cpp:249 projects/k3bdataurladdingdialog.cpp:771
-#: projects/k3bdataurladdingdialog.cpp:787
+#: option/k3bdevicewidget.cpp:249 projects/k3bdataurladdingdialog.cpp:772
+#: projects/k3bdataurladdingdialog.cpp:788
 #, kde-format
 msgid "Add"
 msgstr "增加"
@@ -6012,7 +6012,7 @@ msgstr "擴展型刪除"
 #. i18n: ectx: property (text), item, widget (QComboBox, m_comboSpaceHandling)
 #: projects/base_k3bdataimagesettings.ui:179
 #: projects/k3bdataurladdingdialog.cpp:397
-#: projects/k3bdataurladdingdialog.cpp:629
+#: projects/k3bdataurladdingdialog.cpp:630
 #, kde-format
 msgid "Replace"
 msgstr "取代"
@@ -6624,19 +6624,19 @@ msgid "Adding files to project \"%1\"..."
 msgstr "加入檔案至專案「%1」..."
 
 #: projects/k3baudiotrackaddingdialog.cpp:80
-#: projects/k3bdataurladdingdialog.cpp:802
+#: projects/k3bdataurladdingdialog.cpp:803
 #, kde-format
 msgid "Insufficient permissions to read the following files"
 msgstr "權限不允許讀取以下檔案"
 
 #: projects/k3baudiotrackaddingdialog.cpp:84
-#: projects/k3bdataurladdingdialog.cpp:806
+#: projects/k3bdataurladdingdialog.cpp:807
 #, kde-format
 msgid "Unable to find the following files"
 msgstr "找不到以下檔案"
 
 #: projects/k3baudiotrackaddingdialog.cpp:88
-#: projects/k3bdataurladdingdialog.cpp:810
+#: projects/k3bdataurladdingdialog.cpp:811
 #, kde-format
 msgid "No non-local files supported"
 msgstr "不支援非本地端的檔案"
@@ -7418,61 +7418,61 @@ msgid "Burn the image directly"
 msgstr "直接燒錄映像檔"
 
 #: projects/k3bdataurladdingdialog.cpp:389
-#: projects/k3bdataurladdingdialog.cpp:621
+#: projects/k3bdataurladdingdialog.cpp:622
 #, kde-format
 msgid "File already exists"
 msgstr "檔案已經存在"
 
 #: projects/k3bdataurladdingdialog.cpp:390
-#: projects/k3bdataurladdingdialog.cpp:622
+#: projects/k3bdataurladdingdialog.cpp:623
 #, kde-format
 msgid "<p>File <em>%1</em> already exists in project folder <em>%2</em>."
 msgstr "<p>檔案 <em>%1</em> 在專案資料夾 <em>%2</em> 內已經存在。"
 
 #: projects/k3bdataurladdingdialog.cpp:399
-#: projects/k3bdataurladdingdialog.cpp:631
+#: projects/k3bdataurladdingdialog.cpp:632
 #, kde-format
 msgid "Replace the existing file"
 msgstr "取代已存在的檔案"
 
 #: projects/k3bdataurladdingdialog.cpp:400
-#: projects/k3bdataurladdingdialog.cpp:632
+#: projects/k3bdataurladdingdialog.cpp:633
 #, kde-format
 msgid "Replace All"
 msgstr "取代全部"
 
 #: projects/k3bdataurladdingdialog.cpp:402
-#: projects/k3bdataurladdingdialog.cpp:634
+#: projects/k3bdataurladdingdialog.cpp:635
 #, kde-format
 msgid "Always replace existing files"
 msgstr "永遠取代已存在的檔案"
 
 #: projects/k3bdataurladdingdialog.cpp:405
-#: projects/k3bdataurladdingdialog.cpp:637
+#: projects/k3bdataurladdingdialog.cpp:638
 #, kde-format
 msgid "Keep the existing file"
 msgstr "保留已存在的檔案"
 
 #: projects/k3bdataurladdingdialog.cpp:406
-#: projects/k3bdataurladdingdialog.cpp:638
+#: projects/k3bdataurladdingdialog.cpp:639
 #, kde-format
 msgid "Ignore All"
 msgstr "忽略全部"
 
 #: projects/k3bdataurladdingdialog.cpp:408
-#: projects/k3bdataurladdingdialog.cpp:640
+#: projects/k3bdataurladdingdialog.cpp:641
 #, kde-format
 msgid "Always keep the existing file"
 msgstr "永遠保留已存在的檔案。"
 
 #: projects/k3bdataurladdingdialog.cpp:409
-#: projects/k3bdataurladdingdialog.cpp:641 projects/k3bdataviewimpl.cpp:123
+#: projects/k3bdataurladdingdialog.cpp:642 projects/k3bdataviewimpl.cpp:123
 #, kde-format
 msgid "Rename"
 msgstr "重新命名"
 
 #: projects/k3bdataurladdingdialog.cpp:411
-#: projects/k3bdataurladdingdialog.cpp:643
+#: projects/k3bdataurladdingdialog.cpp:644
 #, kde-format
 msgid "Rename the new file"
 msgstr "更名新檔案"
@@ -7517,55 +7517,55 @@ msgstr "新增連結到專案"
 msgid "Always add links"
 msgstr "總是新增連結"
 
-#: projects/k3bdataurladdingdialog.cpp:752
+#: projects/k3bdataurladdingdialog.cpp:753
 #, kde-format
 msgid "Enter New Filename"
 msgstr "輸入新的檔案名稱"
 
-#: projects/k3bdataurladdingdialog.cpp:753
+#: projects/k3bdataurladdingdialog.cpp:754
 #, kde-format
 msgid "A file with that name already exists. Please enter a new name:"
 msgstr "相同名稱的檔案已存在。請輸入新名稱："
 
-#: projects/k3bdataurladdingdialog.cpp:770
+#: projects/k3bdataurladdingdialog.cpp:771
 #, kde-format
 msgid "Do you also want to add hidden files?"
 msgstr "您想要加入隱藏檔案嗎?"
 
-#: projects/k3bdataurladdingdialog.cpp:771
+#: projects/k3bdataurladdingdialog.cpp:772
 #, kde-format
 msgid "Hidden Files"
 msgstr "隱藏檔案"
 
-#: projects/k3bdataurladdingdialog.cpp:771
-#: projects/k3bdataurladdingdialog.cpp:787
+#: projects/k3bdataurladdingdialog.cpp:772
+#: projects/k3bdataurladdingdialog.cpp:788
 #, kde-format
 msgid "Do Not Add"
 msgstr "不要加入"
 
-#: projects/k3bdataurladdingdialog.cpp:785
+#: projects/k3bdataurladdingdialog.cpp:786
 #, kde-format
 msgid ""
 "Do you also want to add system files (FIFOs, sockets, device files, and "
 "broken symlinks)?"
 msgstr "您想要新增系統檔案 (FIFO、socket、裝置檔案，以及失效的符號性連結) 嗎？"
 
-#: projects/k3bdataurladdingdialog.cpp:787
+#: projects/k3bdataurladdingdialog.cpp:788
 #, kde-format
 msgid "System Files"
 msgstr "系統檔案"
 
-#: projects/k3bdataurladdingdialog.cpp:814
+#: projects/k3bdataurladdingdialog.cpp:815
 #, kde-format
 msgid "To burn files bigger than %1 please use %2"
 msgstr "要燒錄比 %1 還大的檔案的話，請使用 %2"
 
-#: projects/k3bdataurladdingdialog.cpp:819
+#: projects/k3bdataurladdingdialog.cpp:820
 #, kde-format
 msgid "Some filenames had to be modified due to limitations in mkisofs"
 msgstr "由於 mkisofs 的限制，有些檔案名稱必須修改"
 
-#: projects/k3bdataurladdingdialog.cpp:823
+#: projects/k3bdataurladdingdialog.cpp:824
 #, kde-format
 msgid ""
 "The following filenames have an invalid encoding. You may fix this with the "

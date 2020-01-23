@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-18 02:44+0100\n"
+"POT-Creation-Date: 2020-01-23 02:49+0100\n"
 "PO-Revision-Date: 2018-12-02 21:20+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -138,29 +138,29 @@ msgstr "變更"
 msgid "Kompare Model Update"
 msgstr "Kompare 模式更新"
 
-#: patchreview.cpp:464
+#: patchreview.cpp:454
 #, kde-format
 msgid "Overview"
 msgstr "概觀"
 
-#: patchreview.cpp:470 patchreview.cpp:550
+#: patchreview.cpp:460 patchreview.cpp:540
 #, kde-format
 msgid "Patch Review"
 msgstr "修補重新檢視"
 
-#: patchreview.cpp:477
+#: patchreview.cpp:467
 #, fuzzy, kde-format
 #| msgid "The base directory of the patch must be an absolute directory"
 msgid "The base directory of the patch must be an absolute directory."
 msgstr "補丁的基礎目錄必須為絕對路徑"
 
 #. i18n: ectx: property (text), widget (QToolButton, finishReview)
-#: patchreview.cpp:513 patchreview.cpp:539 patchreview.ui:141
+#: patchreview.cpp:503 patchreview.cpp:529 patchreview.ui:141
 #, kde-format
 msgid "Finish Review"
 msgstr "完成重新檢視"
 
-#: patchreview.cpp:614
+#: patchreview.cpp:604
 #, kde-format
 msgid "Review Patch"
 msgstr "審閱補丁"
@@ -250,18 +250,18 @@ msgstr "全部選擇"
 msgid "Deselect All"
 msgstr "全部取消選擇"
 
-#: patchreviewtoolview.cpp:563
+#: patchreviewtoolview.cpp:567
 #, kde-format
 msgid "Running tests: %p%"
 msgstr "執行測試：%p%"
 
-#: patchreviewtoolview.cpp:591
+#: patchreviewtoolview.cpp:595
 #, kde-format
 msgid "Test passed"
 msgid_plural "All %1 tests passed"
 msgstr[0] "所有 %1 個測試均已通過"
 
-#: patchreviewtoolview.cpp:595
+#: patchreviewtoolview.cpp:599
 #, kde-format
 msgid "Test results: %1 passed, %2 failed, %3 errors"
 msgstr "測試結果：%1 個通過，%2 個失敗，%3 個錯誤"
