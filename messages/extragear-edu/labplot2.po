@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-23 02:45+0100\n"
+"POT-Creation-Date: 2020-01-24 02:42+0100\n"
 "PO-Revision-Date: 2014-03-25 11:30+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -994,6 +994,7 @@ msgstr ""
 #: src/backend/datasources/filters/AsciiFilter.cpp:720
 #: src/backend/datasources/filters/AsciiFilter.cpp:724
 #: src/backend/datasources/filters/AsciiFilter.cpp:1485
+#: src/backend/datasources/filters/QJsonModel.cpp:143
 #: src/commonfrontend/matrix/MatrixView.cpp:623
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1702
 #: src/commonfrontend/spreadsheet/SpreadsheetView.cpp:1719
@@ -1557,13 +1558,24 @@ msgstr "清除選擇"
 msgid "%1 dimensional data of type %2 not supported yet"
 msgstr ""
 
-#: src/backend/datasources/filters/QJsonModel.cpp:183
+#: src/backend/datasources/filters/QJsonModel.cpp:142
+#: src/kdefrontend/widgets/FITSHeaderEditWidget.cpp:79
+#, kde-format
+msgid "Key"
+msgstr ""
+
+#: src/backend/datasources/filters/QJsonModel.cpp:144
+#, kde-format
+msgid "Size in Bytes"
+msgstr ""
+
+#: src/backend/datasources/filters/QJsonModel.cpp:186
 #, fuzzy, kde-format
 #| msgid "Failed to open"
 msgid "Failed to load JSON document"
 msgstr "開啟失敗"
 
-#: src/backend/datasources/filters/QJsonModel.cpp:184
+#: src/backend/datasources/filters/QJsonModel.cpp:187
 #, fuzzy, kde-format
 #| msgid "Failed to open"
 msgid "Failed to load JSON document. Error: %1."
@@ -18238,11 +18250,6 @@ msgstr "新增"
 #, fuzzy, kde-format
 msgid "Close file"
 msgstr "全部關閉"
-
-#: src/kdefrontend/widgets/FITSHeaderEditWidget.cpp:79
-#, kde-format
-msgid "Key"
-msgstr ""
 
 #: src/kdefrontend/widgets/FITSHeaderEditWidget.cpp:190
 #, kde-format

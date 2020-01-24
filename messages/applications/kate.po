@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-05 02:38+0100\n"
+"POT-Creation-Date: 2020-01-24 02:37+0100\n"
 "PO-Revision-Date: 2019-08-19 20:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -1440,22 +1440,22 @@ msgstr "很棒的說明"
 msgid "All people who have contributed and I have forgotten to mention"
 msgstr "所有曾協力但我忘記提及的人"
 
-#: main.cpp:192
+#: main.cpp:187
 #, kde-format
 msgid "Start Kate with a given session."
 msgstr "以指定的作業階段啟動 Kate。"
 
-#: main.cpp:192
+#: main.cpp:187
 #, kde-format
 msgid "session"
 msgstr "工作階段"
 
-#: main.cpp:196
+#: main.cpp:191
 #, kde-format
 msgid "Start Kate with a new anonymous session, implies '-n'."
 msgstr "以新的匿名作業階段啟動 Kate，也就是 '-n'。"
 
-#: main.cpp:202
+#: main.cpp:197
 #, kde-format
 msgid ""
 "Force start of a new kate instance (is ignored if start is used and another "
@@ -1465,14 +1465,14 @@ msgstr ""
 "強制啟動新的 kate 實體（若是指定 start，而且另一個 kate 實體已開啟指定的作業"
 "階段，則此指令會被忽略），即使沒有指定任何參數與網址。"
 
-#: main.cpp:206
+#: main.cpp:201
 #, kde-format
 msgid ""
 "If using an already running kate instance, block until it exits, if URLs "
 "given to open."
 msgstr "若已經有 kate 實體正在運作，則等待到此實體離開。"
 
-#: main.cpp:211
+#: main.cpp:206
 #, kde-format
 msgid ""
 "Only try to reuse kate instance with this pid (is ignored if start is used "
@@ -1481,57 +1481,57 @@ msgstr ""
 "只試著重複使用 pid 為此值的 kate 實體（若是使用 start，並且另一個 kate 實體已"
 "開啟相同的作業階段，則此指令會被忽略）。"
 
-#: main.cpp:211
+#: main.cpp:206
 #, kde-format
 msgid "pid"
 msgstr "行程代碼"
 
-#: main.cpp:215
+#: main.cpp:210
 #, kde-format
 msgid "Set encoding for the file to open."
 msgstr "設定要開啟檔案的編碼。"
 
-#: main.cpp:215
+#: main.cpp:210
 #, kde-format
 msgid "encoding"
 msgstr "編碼"
 
-#: main.cpp:219
+#: main.cpp:214
 #, kde-format
 msgid "Navigate to this line."
 msgstr "導覽至這一行。"
 
-#: main.cpp:219
+#: main.cpp:214
 #, kde-format
 msgid "line"
 msgstr "行"
 
-#: main.cpp:223
+#: main.cpp:218
 #, kde-format
 msgid "Navigate to this column."
 msgstr "導覽至這一欄。"
 
-#: main.cpp:223
+#: main.cpp:218
 #, kde-format
 msgid "column"
 msgstr "欄"
 
-#: main.cpp:227
+#: main.cpp:222
 #, kde-format
 msgid "Read the contents of stdin."
 msgstr "讀取 stdin 的內容。"
 
-#: main.cpp:231
+#: main.cpp:226
 #, kde-format
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "應用程式開啟的檔案/URL在使用後會被刪除"
 
-#: main.cpp:235
+#: main.cpp:230
 #, kde-format
 msgid "Documents to open."
 msgstr "要開啟的文件"
 
-#: main.cpp:235
+#: main.cpp:230
 #, kde-format
 msgid "[urls...]"
 msgstr "[網址...]"

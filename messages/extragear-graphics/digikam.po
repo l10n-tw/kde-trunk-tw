@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-23 02:46+0100\n"
+"POT-Creation-Date: 2020-01-24 02:42+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -1222,8 +1222,8 @@ msgstr "相簿屬性"
 #: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:312
 #: core/dplugins/generic/webservices/vkontakte/vkauthwidget.cpp:80
 #: core/libs/widgets/metadata/subjectwidget.cpp:208
-#: core/utilities/setup/camera/importfilterdlg.cpp:107
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:270
+#: core/utilities/setup/camera/importfilterdlg.cpp:108
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:263
 #, kde-format
 msgid "Name:"
 msgstr "名稱："
@@ -1630,7 +1630,7 @@ msgstr "新增(&E)..."
 #: core/app/main/digikamapp_setup.cpp:277
 #: core/libs/database/utils/ifaces/dio.cpp:547
 #: core/utilities/searchwindow/editablesearchtreeview.cpp:72
-#: core/utilities/setup/metadata/advancedmetadatatab.cpp:343
+#: core/utilities/setup/metadata/advancedmetadatatab.cpp:344
 #, kde-format
 msgid "Delete"
 msgstr "刪除"
@@ -3228,7 +3228,7 @@ msgstr "色彩標籤"
 #: core/utilities/geolocation/geoiface/bookmark/bookmarksmngr.cpp:308
 #: core/utilities/queuemanager/views/workflowlist.cpp:98
 #: core/utilities/searchwindow/searchfields.cpp:708
-#: core/utilities/setup/camera/setupcamera.cpp:302
+#: core/utilities/setup/camera/setupcamera.cpp:304
 #, kde-format
 msgid "Title"
 msgstr "標題"
@@ -3370,8 +3370,8 @@ msgstr "檔名"
 #: core/app/views/tableview/tableview_column_file.cpp:63
 #: core/app/views/tableview/tableview_column_file.cpp:86
 #: core/libs/dialogs/deletedialog.cpp:184
-#: core/utilities/setup/camera/setupcamera.cpp:305
-#: core/utilities/setup/collections/setupcollectionview.cpp:892
+#: core/utilities/setup/camera/setupcamera.cpp:307
+#: core/utilities/setup/collections/setupcollectionview.cpp:938
 #, kde-format
 msgid "Path"
 msgstr "路徑"
@@ -3452,7 +3452,7 @@ msgstr "高度"
 #: core/libs/properties/itempropertiescolorstab.cpp:695
 #: core/libs/properties/itempropertiessidebar.cpp:283
 #: core/libs/properties/itempropertiessidebardb.cpp:560
-#: core/utilities/setup/setupmisc.cpp:320
+#: core/utilities/setup/setupmisc.cpp:322
 #, kde-format
 msgid "Yes"
 msgstr "是"
@@ -3477,7 +3477,7 @@ msgstr "是"
 #: core/libs/properties/itempropertiescolorstab.cpp:695
 #: core/libs/properties/itempropertiessidebar.cpp:283
 #: core/libs/properties/itempropertiessidebardb.cpp:560
-#: core/utilities/setup/setupmisc.cpp:319
+#: core/utilities/setup/setupmisc.cpp:321
 #, kde-format
 msgid "No"
 msgstr "否"
@@ -7983,7 +7983,7 @@ msgstr "能量函數"
 
 #: core/dplugins/editor/transform/contentawareresize/contentawareresizetool.cpp:429
 #: core/libs/dimg/filters/greycstoration/greycstorationsettings.cpp:197
-#: core/utilities/setup/setupicc.cpp:479
+#: core/utilities/setup/setupicc.cpp:487
 #, kde-format
 msgid "Advanced Settings"
 msgstr "進階設定值"
@@ -11442,7 +11442,7 @@ msgstr "類別"
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:148
 #: core/dplugins/generic/metadata/timeadjust/timeadjustlist.cpp:48
 #: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:607
-#: core/utilities/setup/collections/setupcollectionview.cpp:895
+#: core/utilities/setup/collections/setupcollectionview.cpp:941
 #, kde-format
 msgid "Status"
 msgstr "狀態"
@@ -14078,7 +14078,7 @@ msgstr "製造商："
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:467
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:138
-#: core/utilities/setup/camera/setupcamera.cpp:303
+#: core/utilities/setup/camera/setupcamera.cpp:305
 #, kde-format
 msgid "Model"
 msgstr "型號"
@@ -17546,7 +17546,7 @@ msgid "Soundtrack"
 msgstr "音樂"
 
 #: core/dplugins/generic/view/presentation/dialogs/presentationdlg.cpp:119
-#: core/utilities/setup/setupicc.cpp:507
+#: core/utilities/setup/setupicc.cpp:515
 #, kde-format
 msgid "Advanced"
 msgstr "進階"
@@ -19932,7 +19932,7 @@ msgid "API URL:"
 msgstr "網址："
 
 #: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:320
-#: core/utilities/setup/metadata/advancedmetadatatab.cpp:337
+#: core/utilities/setup/metadata/advancedmetadatatab.cpp:338
 #, fuzzy, kde-format
 msgid "Add"
 msgstr "加入(&A)"
@@ -27933,7 +27933,7 @@ msgstr "作者"
 #: core/libs/dplugins/setup/dpluginconfview.cpp:133
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:134
 #: core/libs/widgets/metadata/metadataselector.cpp:99
-#: core/utilities/setup/collections/setupcollectionview.cpp:889
+#: core/utilities/setup/collections/setupcollectionview.cpp:935
 #, kde-format
 msgid "Name"
 msgstr "名稱"
@@ -33277,13 +33277,13 @@ msgid "If Target File Exists:"
 msgstr "如果目標檔案已存在："
 
 #: core/libs/widgets/files/filesaveconflictbox.cpp:76
-#: core/utilities/setup/camera/setupcamera.cpp:377
+#: core/utilities/setup/camera/setupcamera.cpp:379
 #, kde-format
 msgid "Store as a different name"
 msgstr "以不同名稱儲存"
 
 #: core/libs/widgets/files/filesaveconflictbox.cpp:77
-#: core/utilities/setup/camera/setupcamera.cpp:378
+#: core/utilities/setup/camera/setupcamera.cpp:380
 #, kde-format
 msgid "Overwrite automatically"
 msgstr "自動覆寫"
@@ -37301,8 +37301,8 @@ msgstr ""
 
 #: core/showfoto/setup/showfotosetupmetadata.cpp:157
 #: core/utilities/queuemanager/views/queuesettingsview.cpp:263
-#: core/utilities/setup/camera/setupcamera.cpp:396
-#: core/utilities/setup/setupicc.cpp:505
+#: core/utilities/setup/camera/setupcamera.cpp:398
+#: core/utilities/setup/setupicc.cpp:513
 #, kde-format
 msgid "Behavior"
 msgstr "行為"
@@ -37366,7 +37366,7 @@ msgid "&Show image Format"
 msgstr "顯示影像格式"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:149
-#: core/utilities/setup/camera/setupcamera.cpp:484
+#: core/utilities/setup/camera/setupcamera.cpp:486
 #, kde-format
 msgid "Set this option to show image format over image thumbnail."
 msgstr "設定這個選項會在影像縮圖上顯示檔案格式。"
@@ -37377,7 +37377,7 @@ msgid "&Show Geolocation Indicator"
 msgstr "地理位置濾鏡"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:151
-#: core/utilities/setup/camera/setupcamera.cpp:487
+#: core/utilities/setup/camera/setupcamera.cpp:489
 #, fuzzy, kde-format
 msgid "Set this option to indicate if image has geolocation information."
 msgstr "啟用這個選項會顯示影像外觀比例。"
@@ -37444,20 +37444,20 @@ msgid "Set this option to choose the default window decoration and looks."
 msgstr "設定此選項以選擇預設視窗裝飾與外觀。"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:202
-#: core/utilities/setup/setupmisc.cpp:245
+#: core/utilities/setup/setupmisc.cpp:247
 #, kde-format
 msgid "Icon theme (changes after restart):"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:204
-#: core/utilities/setup/setupmisc.cpp:247
+#: core/utilities/setup/setupmisc.cpp:249
 #, fuzzy, kde-format
 #| msgid "Set this option to choose the default window decoration and looks."
 msgid "Set this option to choose the default icon theme."
 msgstr "設定此選項以選擇預設視窗裝飾與外觀。"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:206
-#: core/utilities/setup/setupmisc.cpp:280
+#: core/utilities/setup/setupmisc.cpp:282
 #, kde-format
 msgid "Use Icon Theme From System"
 msgstr ""
@@ -37473,21 +37473,21 @@ msgid "Breeze Dark"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:230
-#: core/utilities/setup/setupmisc.cpp:287
+#: core/utilities/setup/setupmisc.cpp:289
 #, fuzzy, kde-format
 #| msgid "IIM Application 2"
 msgid "Application font:"
 msgstr "IIM 應用 2"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:231
-#: core/utilities/setup/setupmisc.cpp:288
+#: core/utilities/setup/setupmisc.cpp:290
 #, fuzzy, kde-format
 #| msgid "Select here the font used to display text in tooltips."
 msgid "Select here the font used to display text in whole application."
 msgstr "選擇在工具提示上顯示文字使用的字型"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:245
-#: core/utilities/setup/setupmisc.cpp:303
+#: core/utilities/setup/setupmisc.cpp:305
 #, fuzzy, kde-format
 #| msgid "Reference:"
 msgctxt "@title:tab"
@@ -39636,9 +39636,9 @@ msgstr "地理位置"
 
 #: core/utilities/geolocation/geoiface/bookmark/bookmarksdlg.cpp:232
 #: core/utilities/setup/album/setupcategory.cpp:106
-#: core/utilities/setup/camera/setupcamera.cpp:321
-#: core/utilities/setup/camera/setupcamera.cpp:439
-#: core/utilities/setup/setuptemplate.cpp:125
+#: core/utilities/setup/camera/setupcamera.cpp:323
+#: core/utilities/setup/camera/setupcamera.cpp:441
+#: core/utilities/setup/setuptemplate.cpp:126
 #, kde-format
 msgid "&Remove"
 msgstr "移除(&R)"
@@ -40470,19 +40470,19 @@ msgstr "地理位置濾鏡"
 msgid "Sort by rating"
 msgstr "依評等排序"
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:164
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:165
 #, fuzzy, kde-format
 msgid ""
 "Enter the name of the current map search to save in the \"Map Searches\" "
 "view."
 msgstr "在這裡輸入目前地圖搜尋的名稱以儲存在「我的地圖搜尋」檢視中。"
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:170
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:171
 #, kde-format
 msgid "Save current map search to a new virtual album."
 msgstr "將目前地圖搜尋儲存到新的虛擬相簿。"
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:171
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:172
 #, kde-format
 msgid ""
 "If this button is pressed, the current map search will be saved to a new "
@@ -40490,17 +40490,17 @@ msgid ""
 msgstr ""
 "如果按下這個按鈕，目前地圖搜尋會用左側設定的名稱儲存到新的搜尋虛擬相簿。"
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:214
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:216
 #, kde-format
 msgid "Search by area:"
 msgstr "依區域搜尋："
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:242
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:244
 #, fuzzy, kde-format
 msgid "Show Non-Geolocated Items"
 msgstr "尋找重覆的項目"
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:535
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:544
 #: core/utilities/searchwindow/searchmodificationhelper.cpp:122
 #: core/utilities/searchwindow/searchtabheader.cpp:550
 #, kde-format
@@ -40511,14 +40511,14 @@ msgstr ""
 "已經存在相同的搜尋名稱。\n"
 "請輸入一個新名稱："
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:539
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:548
 #: core/utilities/searchwindow/searchmodificationhelper.cpp:126
 #: core/utilities/searchwindow/searchtabheader.cpp:554
 #, kde-format
 msgid "Name exists"
 msgstr "名稱已存在"
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:652
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:663
 #, fuzzy, kde-format
 msgid "Non Geo-located Items"
 msgstr "尋找重覆的項目"
@@ -40655,7 +40655,7 @@ msgstr "然後轉換為正在使用的色彩空間"
 
 #: core/utilities/imageeditor/dialogs/colorcorrectiondlg.cpp:398
 #: core/utilities/imageeditor/dialogs/colorcorrectiondlg.cpp:497
-#: core/utilities/setup/setupicc.cpp:746
+#: core/utilities/setup/setupicc.cpp:755
 #, kde-format
 msgid "No Profile Available"
 msgstr "沒有可用的描述檔"
@@ -40703,7 +40703,7 @@ msgid ""
 msgstr "請選擇用來建立這張影像的裝置 (相機) 輸入色彩描述檔："
 
 #: core/utilities/imageeditor/dialogs/colorcorrectiondlg.cpp:539
-#: core/utilities/setup/setupicc.cpp:748
+#: core/utilities/setup/setupicc.cpp:757
 #, kde-format
 msgid "No Input Profile Available"
 msgstr "沒有可用的輸入描述檔"
@@ -40754,7 +40754,7 @@ msgid "Profile of the output device to simulate:"
 msgstr "要模擬的輸出裝置描述檔："
 
 #: core/utilities/imageeditor/dialogs/softproofdialog.cpp:114
-#: core/utilities/setup/setupicc.cpp:430
+#: core/utilities/setup/setupicc.cpp:438
 #, kde-format
 msgid ""
 "<p>Select the profile for your output device (usually, your printer). This "
@@ -40790,13 +40790,13 @@ msgid "Highlighting color:"
 msgstr "高亮度標示顏色："
 
 #: core/utilities/imageeditor/dialogs/softproofdialog.cpp:236
-#: core/utilities/setup/setupicc.cpp:854
+#: core/utilities/setup/setupicc.cpp:867
 #, kde-format
 msgid "Profile Error"
 msgstr "描述檔錯誤"
 
 #: core/utilities/imageeditor/dialogs/softproofdialog.cpp:236
-#: core/utilities/setup/setupicc.cpp:854
+#: core/utilities/setup/setupicc.cpp:867
 #, kde-format
 msgid "No profile is selected."
 msgstr "沒有選擇描述檔。"
@@ -42904,7 +42904,7 @@ msgstr "顯示在右邊面板"
 
 #: core/utilities/lighttable/lighttablethumbbar.cpp:269
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:70
-#: core/utilities/setup/metadata/advancedmetadatatab.cpp:340
+#: core/utilities/setup/metadata/advancedmetadatatab.cpp:341
 #, kde-format
 msgid "Edit"
 msgstr "編輯"
@@ -44705,37 +44705,37 @@ msgid "Advanced Search"
 msgstr "進階搜尋"
 
 #: core/utilities/setup/album/setupalbumview.cpp:158
-#: core/utilities/setup/camera/setupcamera.cpp:467
+#: core/utilities/setup/camera/setupcamera.cpp:469
 #, kde-format
 msgid "Show file&name"
 msgstr "顯示檔案名稱(&N)"
 
 #: core/utilities/setup/album/setupalbumview.cpp:159
-#: core/utilities/setup/camera/setupcamera.cpp:468
+#: core/utilities/setup/camera/setupcamera.cpp:470
 #, kde-format
 msgid "Set this option to show the filename below the image thumbnail."
 msgstr "設定這個選項會在影像縮圖下方顯示檔案名稱。"
 
 #: core/utilities/setup/album/setupalbumview.cpp:161
-#: core/utilities/setup/camera/setupcamera.cpp:470
+#: core/utilities/setup/camera/setupcamera.cpp:472
 #, kde-format
 msgid "Show file si&ze"
 msgstr "顯示檔案大小(&Z)"
 
 #: core/utilities/setup/album/setupalbumview.cpp:162
-#: core/utilities/setup/camera/setupcamera.cpp:471
+#: core/utilities/setup/camera/setupcamera.cpp:473
 #, kde-format
 msgid "Set this option to show the file size below the image thumbnail."
 msgstr "設定這個選項會在影像縮圖下方顯示檔案大小。"
 
 #: core/utilities/setup/album/setupalbumview.cpp:164
-#: core/utilities/setup/camera/setupcamera.cpp:473
+#: core/utilities/setup/camera/setupcamera.cpp:475
 #, kde-format
 msgid "Show camera creation &date"
 msgstr "顯示相機建立日期(&D)"
 
 #: core/utilities/setup/album/setupalbumview.cpp:165
-#: core/utilities/setup/camera/setupcamera.cpp:474
+#: core/utilities/setup/camera/setupcamera.cpp:476
 #, kde-format
 msgid ""
 "Set this option to show the camera creation date below the image thumbnail."
@@ -44810,7 +44810,7 @@ msgid "Set this option to show the digiKam captions below the image thumbnail."
 msgstr "設定這個選項會在影像縮圖下方顯示 digiKam 標題描述。"
 
 #: core/utilities/setup/album/setupalbumview.cpp:192
-#: core/utilities/setup/camera/setupcamera.cpp:489
+#: core/utilities/setup/camera/setupcamera.cpp:491
 #, kde-format
 msgid "Show digiKam &tags"
 msgstr "顯示 digiKam 標籤(&T)"
@@ -44833,7 +44833,7 @@ msgid "Set this option to show the digiKam rating below the image thumbnail."
 msgstr "設定這個選項會在影像縮圖下方顯示 digiKam 評等。"
 
 #: core/utilities/setup/album/setupalbumview.cpp:200
-#: core/utilities/setup/camera/setupcamera.cpp:497
+#: core/utilities/setup/camera/setupcamera.cpp:499
 #, kde-format
 msgid "Show rotation overlay buttons"
 msgstr "顯示旋轉覆蓋按鈕"
@@ -44861,7 +44861,7 @@ msgid ""
 msgstr "設定這個選項會在影像縮圖上顯示旋轉影像的覆蓋按鈕。"
 
 #: core/utilities/setup/album/setupalbumview.cpp:208
-#: core/utilities/setup/camera/setupcamera.cpp:486
+#: core/utilities/setup/camera/setupcamera.cpp:488
 #, fuzzy, kde-format
 msgid "Show Geolocation Indicator"
 msgstr "地理位置濾鏡"
@@ -44877,7 +44877,7 @@ msgid ""
 msgstr "設定這個選項會在影像縮圖上顯示旋轉影像的覆蓋按鈕。"
 
 #: core/utilities/setup/album/setupalbumview.cpp:211
-#: core/utilities/setup/camera/setupcamera.cpp:501
+#: core/utilities/setup/camera/setupcamera.cpp:503
 #, kde-format
 msgid "Thumbnail click action:"
 msgstr "縮圖點擊動作："
@@ -44888,19 +44888,19 @@ msgid "Show preview"
 msgstr "顯示相簿名稱"
 
 #: core/utilities/setup/album/setupalbumview.cpp:214
-#: core/utilities/setup/camera/setupcamera.cpp:504
+#: core/utilities/setup/camera/setupcamera.cpp:506
 #, kde-format
 msgid "Start image editor"
 msgstr "啟動影像編輯器"
 
 #: core/utilities/setup/album/setupalbumview.cpp:215
-#: core/utilities/setup/camera/setupcamera.cpp:505
+#: core/utilities/setup/camera/setupcamera.cpp:507
 #, kde-format
 msgid "Choose what should happen when you click on a thumbnail."
 msgstr "選擇當您點擊縮圖時應該執行什麼動作。"
 
 #: core/utilities/setup/album/setupalbumview.cpp:217
-#: core/utilities/setup/camera/setupcamera.cpp:507
+#: core/utilities/setup/camera/setupcamera.cpp:509
 #, kde-format
 msgid "Icon View font:"
 msgstr "圖示檢視字型："
@@ -45034,13 +45034,13 @@ msgid ""
 msgstr "若取消勾選此選項，在影像預覽時您看不到圖示與文字。"
 
 #: core/utilities/setup/album/setupalbumview.cpp:307
-#: core/utilities/setup/camera/setupcamera.cpp:542
+#: core/utilities/setup/camera/setupcamera.cpp:546
 #, kde-format
 msgid "Show icons and text over preview"
 msgstr "在預覽上顯示圖示與文字"
 
 #: core/utilities/setup/album/setupalbumview.cpp:308
-#: core/utilities/setup/camera/setupcamera.cpp:543
+#: core/utilities/setup/camera/setupcamera.cpp:547
 #, fuzzy, kde-format
 msgid ""
 "Uncheck this if you do not want to see icons and text in the image preview."
@@ -45072,7 +45072,7 @@ msgctxt "@title:tab"
 msgid "Categories"
 msgstr "類別"
 
-#: core/utilities/setup/album/setupalbumview.cpp:514
+#: core/utilities/setup/album/setupalbumview.cpp:516
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -45095,9 +45095,9 @@ msgid ""
 msgstr "您可以在這裡加入或移除相簿的類別類型，以便加強 digiKam 對相簿的排序。"
 
 #: core/utilities/setup/album/setupcategory.cpp:105
-#: core/utilities/setup/camera/setupcamera.cpp:319
-#: core/utilities/setup/camera/setupcamera.cpp:437
-#: core/utilities/setup/setuptemplate.cpp:123
+#: core/utilities/setup/camera/setupcamera.cpp:321
+#: core/utilities/setup/camera/setupcamera.cpp:439
+#: core/utilities/setup/setuptemplate.cpp:124
 #, kde-format
 msgid "&Add..."
 msgstr "加入(&A)..."
@@ -45244,7 +45244,7 @@ msgstr ""
 msgid "Enter additional audio file extensions."
 msgstr "忽略副檔名："
 
-#: core/utilities/setup/album/setupmime.cpp:258
+#: core/utilities/setup/album/setupmime.cpp:259
 #, kde-format
 msgid ""
 "<p>You have chosen to remove the following image formats from the list of "
@@ -45259,7 +45259,7 @@ msgstr ""
 "除且您會遺失這些檔案的相關資訊，包括評等和標籤。</p><p>您確定要套用您的變更並"
 "且放棄這些格式的支援？</p>"
 
-#: core/utilities/setup/album/setupmime.cpp:311
+#: core/utilities/setup/album/setupmime.cpp:312
 #, kde-format
 msgid ""
 "<p>Files with these extensions will be recognized as images and included "
@@ -45267,7 +45267,7 @@ msgid ""
 msgstr ""
 "<p>使用這些擴充套件會將檔案視為影像並且納入資料庫：<br/> <code>%1</code></p>"
 
-#: core/utilities/setup/album/setupmime.cpp:321
+#: core/utilities/setup/album/setupmime.cpp:322
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>Files with these extensions will be recognized as movie files and "
@@ -45278,7 +45278,7 @@ msgid ""
 msgstr ""
 "<p>使用這些擴充套件會將檔案視為影片並且納入資料庫：<br/> <code>%1</code></p>"
 
-#: core/utilities/setup/album/setupmime.cpp:331
+#: core/utilities/setup/album/setupmime.cpp:332
 #, kde-format
 msgid ""
 "<p>Files with these extensions will be recognized as audio files and "
@@ -45287,7 +45287,7 @@ msgstr ""
 "<p>使用這些擴充套件會將檔案視為音訊檔並且納入資料庫：<br/> <code>%1</code></"
 "p>"
 
-#: core/utilities/setup/camera/cameralist.cpp:281
+#: core/utilities/setup/camera/cameralist.cpp:287
 #, kde-format
 msgid ""
 "Failed to auto-detect camera; please make sure it is connected properly and "
@@ -45455,128 +45455,128 @@ msgstr ""
 msgid "Edit Import Filters"
 msgstr "編輯匯入過濾器"
 
-#: core/utilities/setup/camera/importfilterdlg.cpp:113
+#: core/utilities/setup/camera/importfilterdlg.cpp:114
 #, kde-format
 msgid "Mime filter:"
 msgstr "MIME 過濾："
 
-#: core/utilities/setup/camera/importfilterdlg.cpp:121
+#: core/utilities/setup/camera/importfilterdlg.cpp:122
 #, fuzzy, kde-format
 msgid "Select Type Mime..."
 msgstr "選擇 MIME 型態"
 
-#: core/utilities/setup/camera/importfilterdlg.cpp:126
+#: core/utilities/setup/camera/importfilterdlg.cpp:127
 #, kde-format
 msgid "File name filter:"
 msgstr "檔名過濾："
 
-#: core/utilities/setup/camera/importfilterdlg.cpp:136
+#: core/utilities/setup/camera/importfilterdlg.cpp:137
 #, kde-format
 msgid "Path filter:"
 msgstr "路徑過濾："
 
-#: core/utilities/setup/camera/importfilterdlg.cpp:146
+#: core/utilities/setup/camera/importfilterdlg.cpp:147
 #, kde-format
 msgid "Show only new files"
 msgstr "只顯示新檔案"
 
-#: core/utilities/setup/camera/importfilterdlg.cpp:217
+#: core/utilities/setup/camera/importfilterdlg.cpp:218
 #, kde-format
 msgid "Select the MimeTypes you want for this filter."
 msgstr "選擇您要此過濾器過濾哪些 MIME 型態。"
 
-#: core/utilities/setup/camera/importfilterdlg.cpp:219
+#: core/utilities/setup/camera/importfilterdlg.cpp:220
 #, kde-format
 msgid "Select Mime Types"
 msgstr "選擇 MIME 型態"
 
-#: core/utilities/setup/camera/setupcamera.cpp:298
+#: core/utilities/setup/camera/setupcamera.cpp:300
 #, kde-format
 msgid ""
 "Here you can see the digital camera list used by digiKam via the Gphoto "
 "interface."
 msgstr "您可以在這裡看到 digiKam 透過 Gphoto 介面所用的數位相機清單。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:304
+#: core/utilities/setup/camera/setupcamera.cpp:306
 #, kde-format
 msgid "Port"
 msgstr "連接埠"
 
-#: core/utilities/setup/camera/setupcamera.cpp:323
-#: core/utilities/setup/camera/setupcamera.cpp:441
+#: core/utilities/setup/camera/setupcamera.cpp:325
+#: core/utilities/setup/camera/setupcamera.cpp:443
 #, kde-format
 msgid "&Edit..."
 msgstr "編輯(&E)..."
 
-#: core/utilities/setup/camera/setupcamera.cpp:325
+#: core/utilities/setup/camera/setupcamera.cpp:327
 #, kde-format
 msgid "Auto-&Detect"
 msgstr "自動偵測(&D)"
 
-#: core/utilities/setup/camera/setupcamera.cpp:336
+#: core/utilities/setup/camera/setupcamera.cpp:338
 #, kde-format
 msgid "Visit Gphoto project website"
 msgstr "造訪 Gphoto 專案網站"
 
-#: core/utilities/setup/camera/setupcamera.cpp:359
+#: core/utilities/setup/camera/setupcamera.cpp:361
 #, kde-format
 msgid "Devices"
 msgstr "裝置"
 
-#: core/utilities/setup/camera/setupcamera.cpp:366
+#: core/utilities/setup/camera/setupcamera.cpp:368
 #, kde-format
 msgid "Use file metadata (makes connection slower)"
 msgstr "使用檔案的中繼資料（連線時間會變慢）"
 
-#: core/utilities/setup/camera/setupcamera.cpp:367
+#: core/utilities/setup/camera/setupcamera.cpp:369
 #, kde-format
 msgid "Turn on high quality thumbnail loading (slower loading)"
 msgstr "開啟高畫質縮圖載入功能（載入較慢）"
 
-#: core/utilities/setup/camera/setupcamera.cpp:368
+#: core/utilities/setup/camera/setupcamera.cpp:370
 #, kde-format
 msgid "Use a default target album to download from camera"
 msgstr "從相機下載時使用預設的目標相簿"
 
-#: core/utilities/setup/camera/setupcamera.cpp:374
+#: core/utilities/setup/camera/setupcamera.cpp:376
 #, fuzzy, kde-format
 #| msgid "If Target File Exists:"
 msgid "If target file exists when downloaded from camera"
 msgstr "如果目標檔案已存在："
 
-#: core/utilities/setup/camera/setupcamera.cpp:379
+#: core/utilities/setup/camera/setupcamera.cpp:381
 #, fuzzy, kde-format
 #| msgid "Overwrite automatically"
 msgid "Skip automatically"
 msgstr "自動覆寫"
 
-#: core/utilities/setup/camera/setupcamera.cpp:415
+#: core/utilities/setup/camera/setupcamera.cpp:417
 #, kde-format
 msgid ""
 "Here you can see filters that can be used to filter files in import dialog."
 msgstr "在這裡您可以看到在匯入對話框中用於過濾檔案用的過濾器。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:434
+#: core/utilities/setup/camera/setupcamera.cpp:436
 #, kde-format
 msgid "Always ignore"
 msgstr "總是忽略"
 
-#: core/utilities/setup/camera/setupcamera.cpp:435
+#: core/utilities/setup/camera/setupcamera.cpp:437
 #, kde-format
 msgid "Ignored file names:"
 msgstr "忽略檔案名稱："
 
-#: core/utilities/setup/camera/setupcamera.cpp:436
+#: core/utilities/setup/camera/setupcamera.cpp:438
 #, kde-format
 msgid "Ignored file extensions:"
 msgstr "忽略副檔名："
 
-#: core/utilities/setup/camera/setupcamera.cpp:456
+#: core/utilities/setup/camera/setupcamera.cpp:458
 #, kde-format
 msgid "Import Filters"
 msgstr "匯入過濾器"
 
-#: core/utilities/setup/camera/setupcamera.cpp:464
+#: core/utilities/setup/camera/setupcamera.cpp:466
 #, kde-format
 msgid "Icon-View Options"
 msgstr "圖示檢視選項"
@@ -45585,54 +45585,54 @@ msgstr "圖示檢視選項"
 #. d->iconShowResolutionBox->setWhatsThis(i18n("Set this option to show the image size in pixels "
 #. "below the image thumbnail."));
 #.
-#: core/utilities/setup/camera/setupcamera.cpp:483
+#: core/utilities/setup/camera/setupcamera.cpp:485
 #, kde-format
 msgid "Show image Format"
 msgstr "顯示影像格式"
 
-#: core/utilities/setup/camera/setupcamera.cpp:490
+#: core/utilities/setup/camera/setupcamera.cpp:492
 #, kde-format
 msgid "Set this option to show the digiKam tags below the image thumbnail."
 msgstr "設定這個選項會在影像縮圖下方顯示 digiKam 標籤。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:493
+#: core/utilities/setup/camera/setupcamera.cpp:495
 #, kde-format
 msgid "Show item &rating"
 msgstr "顯示項目評等(&R)"
 
-#: core/utilities/setup/camera/setupcamera.cpp:494
+#: core/utilities/setup/camera/setupcamera.cpp:496
 #, kde-format
 msgid "Set this option to show the item rating below the image thumbnail."
 msgstr "設定這個選項會在影像縮圖下方顯示項目評等。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:498
+#: core/utilities/setup/camera/setupcamera.cpp:500
 #, kde-format
 msgid ""
 "Set this option to show overlay buttons on the image thumbnail for image "
 "rotation."
 msgstr "設定這個選項會在影像縮圖上顯示旋轉影像的覆蓋按鈕。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:503
+#: core/utilities/setup/camera/setupcamera.cpp:505
 #, kde-format
 msgid "Show embedded preview"
 msgstr "顯示內嵌的預覽"
 
-#: core/utilities/setup/camera/setupcamera.cpp:508
+#: core/utilities/setup/camera/setupcamera.cpp:510
 #, kde-format
 msgid "Select here the font used to display text in Icon Views."
 msgstr "在這裡選擇圖示檢視中顯示文字的字型。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:528
+#: core/utilities/setup/camera/setupcamera.cpp:532
 #, kde-format
 msgid "Preview Options"
 msgstr "預覽選項"
 
-#: core/utilities/setup/camera/setupcamera.cpp:531
+#: core/utilities/setup/camera/setupcamera.cpp:535
 #, kde-format
 msgid "Embedded preview loads full-sized images"
 msgstr "內嵌的預覽載入原始大小影像"
 
-#: core/utilities/setup/camera/setupcamera.cpp:532
+#: core/utilities/setup/camera/setupcamera.cpp:536
 #, kde-format
 msgid ""
 "<p>Set this option to load images at their full size for preview, rather "
@@ -45646,34 +45646,34 @@ msgstr ""
 "p><p><b>備註：</b>若是 Raw 影像，則會載入 Raw 資料的一半尺寸版本，而不是內嵌"
 "的 JPEG 預覽。</p>"
 
-#: core/utilities/setup/camera/setupcamera.cpp:539
+#: core/utilities/setup/camera/setupcamera.cpp:543
 #, kde-format
 msgid "Preview each item while downloading it"
 msgstr "下載時預覽每個項目"
 
-#: core/utilities/setup/camera/setupcamera.cpp:540
+#: core/utilities/setup/camera/setupcamera.cpp:544
 #, kde-format
 msgid "<p>Set this option to preview each item while downloading.</p>"
 msgstr "<p>設定此選項會在下載時預覽每個項目。</p>"
 
-#: core/utilities/setup/camera/setupcamera.cpp:562
+#: core/utilities/setup/camera/setupcamera.cpp:566
 #, kde-format
 msgid "Import Window"
 msgstr "匯入視窗"
 
-#: core/utilities/setup/camera/setupcamera.cpp:812
+#: core/utilities/setup/camera/setupcamera.cpp:822
 #, kde-format
 msgid ""
 "No default target album have been selected to process download from camera "
 "device. Please select one."
 msgstr "沒有選擇從相機下載時預設的目標相簿。請選擇一個相簿。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:900
+#: core/utilities/setup/camera/setupcamera.cpp:910
 #, kde-format
 msgid "Device detection under progress, please wait..."
 msgstr "進行裝置偵測，請稍候..."
 
-#: core/utilities/setup/camera/setupcamera.cpp:911
+#: core/utilities/setup/camera/setupcamera.cpp:921
 #, kde-format
 msgid ""
 "Failed to auto-detect camera.\n"
@@ -45683,28 +45683,28 @@ msgstr ""
 "自動偵測相機失敗。\n"
 "請確定相機已正確連線，並已開啟，或是試著進行手動設定。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:925
+#: core/utilities/setup/camera/setupcamera.cpp:936
 #, kde-format
 msgid "Camera '%1' (%2) is already in list."
 msgstr "相機「%1」(%2)已經在清單中。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:929
+#: core/utilities/setup/camera/setupcamera.cpp:940
 #, kde-format
 msgid "Found camera '%1' (%2) and added it to the list."
 msgstr "找到了相機「%1」(%2)並將其加入到了清單。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:945
+#: core/utilities/setup/camera/setupcamera.cpp:956
 #, kde-format
 msgid "Untitled"
 msgstr "未命名"
 
-#: core/utilities/setup/camera/setupcamera.cpp:1008
+#: core/utilities/setup/camera/setupcamera.cpp:1020
 #, kde-format
 msgid ""
 "In order to enable this feature, the full-sized preview will be disabled."
 msgstr "要開啟此選項，必須先關閉全尺寸預覽。"
 
-#: core/utilities/setup/camera/setupcamera.cpp:1018
+#: core/utilities/setup/camera/setupcamera.cpp:1031
 #, kde-format
 msgid ""
 "If the full-sized preview is enabled it will affect the speed of previewing "
@@ -45716,7 +45716,7 @@ msgstr "若是開啟全尺寸預覽，會影響到在下載時預覽每個影像
 msgid "Root Album Folders"
 msgstr "根相簿資料夾"
 
-#: core/utilities/setup/collections/setupcollections.cpp:83
+#: core/utilities/setup/collections/setupcollections.cpp:84
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>Below are the locations of your root albums used to store your images. "
@@ -45736,7 +45736,7 @@ msgstr ""
 "權限。</p><p>備註：支援抽取式媒體 (例如 USB 隨身碟或 DVD 光碟) 和遠端檔案系"
 "統 (例如 NFS 或以 cifs/smbfs 掛載的 Samba)。</p><p></p>"
 
-#: core/utilities/setup/collections/setupcollections.cpp:92
+#: core/utilities/setup/collections/setupcollections.cpp:95
 #, kde-format
 msgid ""
 "<p>Below are the locations of your root albums used to store your images. "
@@ -45746,112 +45746,112 @@ msgstr ""
 "<p>下面是用來儲存您的影像的根相簿位置。為了能編輯這些相簿中的影像必須有寫入的"
 "權限。</p><p></p>"
 
-#: core/utilities/setup/collections/setupcollections.cpp:104
+#: core/utilities/setup/collections/setupcollections.cpp:109
 #, kde-format
 msgid "Monitor the albums for external changes (requires restart)"
 msgstr ""
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:521
+#: core/utilities/setup/collections/setupcollectionview.cpp:556
 #, kde-format
 msgid "It was not possible to add a collection for the following paths:"
 msgstr "下列路徑已不能加入收藏："
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:655
+#: core/utilities/setup/collections/setupcollectionview.cpp:698
 #, kde-format
 msgid "Remove Collection?"
 msgstr "是否移除收藏？"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:656
+#: core/utilities/setup/collections/setupcollectionview.cpp:699
 #, kde-format
 msgid ""
 "Do you want to remove the collection \"%1\" from your list of collections?"
 msgstr "您要從收藏清單中移除此收藏「%1」嗎？"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:689
-#: core/utilities/setup/collections/setupcollectionview.cpp:1253
+#: core/utilities/setup/collections/setupcollectionview.cpp:734
+#: core/utilities/setup/collections/setupcollectionview.cpp:1316
 #, kde-format
 msgid "Local Collections"
 msgstr "本機收藏"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:692
-#: core/utilities/setup/collections/setupcollectionview.cpp:1254
+#: core/utilities/setup/collections/setupcollectionview.cpp:737
+#: core/utilities/setup/collections/setupcollectionview.cpp:1317
 #, kde-format
 msgid "Collections on Removable Media"
 msgstr "抽取式媒體上的收藏"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:695
-#: core/utilities/setup/collections/setupcollectionview.cpp:1255
+#: core/utilities/setup/collections/setupcollectionview.cpp:740
+#: core/utilities/setup/collections/setupcollectionview.cpp:1318
 #, kde-format
 msgid "Collections on Network Shares"
 msgstr "網路分享上的收藏"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:720
+#: core/utilities/setup/collections/setupcollectionview.cpp:765
 #, kde-format
 msgid "Add Collection"
 msgstr "加入收藏"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:750
+#: core/utilities/setup/collections/setupcollectionview.cpp:795
 #, kde-format
 msgid "Col. %1"
 msgstr "收藏 %1"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:824
+#: core/utilities/setup/collections/setupcollectionview.cpp:870
 #, kde-format
 msgid "This collection is currently not available."
 msgstr "這個收藏目前無法使用。"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:827
+#: core/utilities/setup/collections/setupcollectionview.cpp:873
 #, kde-format
 msgid "No problems found, enjoy this collection."
 msgstr "沒有發現任何問題，請享受這個收藏。"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:830
+#: core/utilities/setup/collections/setupcollectionview.cpp:876
 #, kde-format
 msgid "This collection is hidden."
 msgstr "這個收藏是隱藏狀態。"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:844
+#: core/utilities/setup/collections/setupcollectionview.cpp:890
 #, fuzzy, kde-format
 #| msgid "Add Collection"
 msgid "Update collection"
 msgstr "加入收藏"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:863
+#: core/utilities/setup/collections/setupcollectionview.cpp:909
 #, kde-format
 msgid "Remove collection"
 msgstr "移除收藏"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:1100
+#: core/utilities/setup/collections/setupcollectionview.cpp:1148
 #, kde-format
 msgid "Choose the folder containing your collection"
 msgstr "選擇含有您的收藏的資料夾"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:1140
+#: core/utilities/setup/collections/setupcollectionview.cpp:1194
 #, kde-format
 msgid "You have previously added a collection that contains the path \"%1\"."
 msgstr "您先前已經加入一個含有路徑 \"%1\" 的收藏了。"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:1164
+#: core/utilities/setup/collections/setupcollectionview.cpp:1219
 #, kde-format
 msgid "Problem Adding Collection"
 msgstr "加入收藏發生問題"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:1171
+#: core/utilities/setup/collections/setupcollectionview.cpp:1227
 #, kde-format
 msgid "Adding Collection"
 msgstr "正在加入收藏"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:1175
+#: core/utilities/setup/collections/setupcollectionview.cpp:1231
 #, kde-format
 msgid "Your new collection will be created with this name:"
 msgstr "以這個名稱建立您的新收藏："
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:1244
+#: core/utilities/setup/collections/setupcollectionview.cpp:1306
 #, fuzzy, kde-format
 msgid "Select Category"
 msgstr "選擇項目"
 
-#: core/utilities/setup/collections/setupcollectionview.cpp:1248
+#: core/utilities/setup/collections/setupcollectionview.cpp:1310
 #, fuzzy, kde-format
 #| msgid "Your new collection will be created with this name:"
 msgid "Your collection will use this category:"
@@ -45993,12 +45993,12 @@ msgid ""
 "the last session. Otherwise, the default settings will be used."
 msgstr ""
 
-#: core/utilities/setup/editor/setupiofiles.cpp:149
+#: core/utilities/setup/editor/setupiofiles.cpp:172
 #, kde-format
 msgid "Show Settings Dialog when Saving Image Files"
 msgstr "儲存影像檔時顯示設定值對話框"
 
-#: core/utilities/setup/editor/setupiofiles.cpp:150
+#: core/utilities/setup/editor/setupiofiles.cpp:173
 #, kde-format
 msgid ""
 "<ul><li>Checked: A dialog where settings can be changed when saving image "
@@ -46111,37 +46111,37 @@ msgctxt "@label"
 msgid "Save files as"
 msgstr "另存檔案為"
 
-#: core/utilities/setup/editor/setupversioning.cpp:154
+#: core/utilities/setup/editor/setupversioning.cpp:155
 #, kde-format
 msgctxt "@label:listbox"
 msgid "JPEG"
 msgstr "JPEG"
 
-#: core/utilities/setup/editor/setupversioning.cpp:155
+#: core/utilities/setup/editor/setupversioning.cpp:156
 #, kde-format
 msgctxt "@label:listbox"
 msgid "TIFF"
 msgstr "TIFF"
 
-#: core/utilities/setup/editor/setupversioning.cpp:156
+#: core/utilities/setup/editor/setupversioning.cpp:157
 #, kde-format
 msgctxt "@label:listbox"
 msgid "PNG"
 msgstr "PNG"
 
-#: core/utilities/setup/editor/setupversioning.cpp:157
+#: core/utilities/setup/editor/setupversioning.cpp:158
 #, kde-format
 msgctxt "@label:listbox"
 msgid "PGF"
 msgstr "PGF"
 
-#: core/utilities/setup/editor/setupversioning.cpp:158
+#: core/utilities/setup/editor/setupversioning.cpp:159
 #, kde-format
 msgctxt "@label:listbox"
 msgid "JPEG 2000"
 msgstr "JPEG 2000"
 
-#: core/utilities/setup/editor/setupversioning.cpp:163
+#: core/utilities/setup/editor/setupversioning.cpp:164
 #, fuzzy, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -46182,31 +46182,31 @@ msgstr ""
 "2000 類似 PGF。載入或儲存時較慢，壓縮率較高，並且較廣泛地被支援，雖然仍不如 "
 "JPEG，PNG 與 TIFF 般受歡迎。</item></list></para> "
 
-#: core/utilities/setup/editor/setupversioning.cpp:204
+#: core/utilities/setup/editor/setupversioning.cpp:211
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Get information on available image file formats"
 msgstr "取得可用的影像檔案格式資訊"
 
-#: core/utilities/setup/editor/setupversioning.cpp:221
+#: core/utilities/setup/editor/setupversioning.cpp:228
 #, kde-format
 msgctxt "@label"
 msgid "When closing the editor"
 msgstr "關閉編輯器時"
 
-#: core/utilities/setup/editor/setupversioning.cpp:224
+#: core/utilities/setup/editor/setupversioning.cpp:231
 #, kde-format
 msgctxt "@option:radio"
 msgid "Always ask to save changes"
 msgstr "總是詢問是否儲存變更"
 
-#: core/utilities/setup/editor/setupversioning.cpp:225
+#: core/utilities/setup/editor/setupversioning.cpp:232
 #, kde-format
 msgctxt "@option:radio"
 msgid "Save changes automatically"
 msgstr "自動儲存變更"
 
-#: core/utilities/setup/editor/setupversioning.cpp:257
+#: core/utilities/setup/editor/setupversioning.cpp:264
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:whatsthis"
 #| msgid ""
@@ -46240,38 +46240,38 @@ msgstr ""
 "外的<interface>中介快照</interface>。若是您想保留影像處理的步驟以便稍後使用時"
 "很有用。例如您可以用這種方式查看一些無法自動重現的編輯步驟。</para>"
 
-#: core/utilities/setup/editor/setupversioning.cpp:272
+#: core/utilities/setup/editor/setupversioning.cpp:279
 #, kde-format
 msgctxt "@label"
 msgid "Keep a snapshot of an edited image"
 msgstr "保留編輯的影像的一份快照"
 
-#: core/utilities/setup/editor/setupversioning.cpp:276
-#: core/utilities/setup/editor/setupversioning.cpp:322
+#: core/utilities/setup/editor/setupversioning.cpp:283
+#: core/utilities/setup/editor/setupversioning.cpp:329
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Get an explanation for these options"
 msgstr "取得這些選項的解釋"
 
-#: core/utilities/setup/editor/setupversioning.cpp:278
+#: core/utilities/setup/editor/setupversioning.cpp:285
 #, kde-format
 msgctxt "@option:check"
 msgid "After converting from a RAW image"
 msgstr "在從 RAW 影像轉換之後"
 
-#: core/utilities/setup/editor/setupversioning.cpp:279
+#: core/utilities/setup/editor/setupversioning.cpp:286
 #, kde-format
 msgctxt "@option:check"
 msgid "After each editing session"
 msgstr "在每次編輯工作階段之後"
 
-#: core/utilities/setup/editor/setupversioning.cpp:280
+#: core/utilities/setup/editor/setupversioning.cpp:287
 #, kde-format
 msgctxt "@option:check"
 msgid "After each step that is not completely reproducible"
 msgstr "在每個無法完整重現的步驟之後"
 
-#: core/utilities/setup/editor/setupversioning.cpp:307
+#: core/utilities/setup/editor/setupversioning.cpp:314
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:whatsthis"
 #| msgid ""
@@ -46294,19 +46294,19 @@ msgstr ""
 "中顯示。在<interface>右側邊列</interface>中，您可以存取所有已被隱藏的檔案。</"
 "para> <para>這裡的選項可以讓您選擇是否要永久顯示某些檔案。</para>"
 
-#: core/utilities/setup/editor/setupversioning.cpp:315
+#: core/utilities/setup/editor/setupversioning.cpp:322
 #, kde-format
 msgctxt "@label"
 msgid "In main view"
 msgstr "在主檢視"
 
-#: core/utilities/setup/editor/setupversioning.cpp:324
+#: core/utilities/setup/editor/setupversioning.cpp:331
 #, kde-format
 msgctxt "@option:check"
 msgid "Always show original images"
 msgstr "總是顯示原始影像"
 
-#: core/utilities/setup/editor/setupversioning.cpp:325
+#: core/utilities/setup/editor/setupversioning.cpp:332
 #, kde-format
 msgctxt "@option:check"
 msgid "Always show intermediate snapshots"
@@ -46320,7 +46320,7 @@ msgid ""
 " Do you want to continue?"
 msgstr "這項操作依照收藏的大小，可能會花很長的時間。您要繼續嗎？"
 
-#: core/utilities/setup/metadata/advancedmetadatatab.cpp:309
+#: core/utilities/setup/metadata/advancedmetadatatab.cpp:308
 #, kde-format
 msgid ""
 "Advanced configuration menu allow you to manage metadata namespaces used by "
@@ -46328,62 +46328,62 @@ msgid ""
 "b>Order is important when reading metadata"
 msgstr ""
 
-#: core/utilities/setup/metadata/advancedmetadatatab.cpp:319
+#: core/utilities/setup/metadata/advancedmetadatatab.cpp:318
 #, fuzzy, kde-format
 msgid "Read Options"
 msgstr "重新命名選項"
 
-#: core/utilities/setup/metadata/advancedmetadatatab.cpp:319
+#: core/utilities/setup/metadata/advancedmetadatatab.cpp:318
 #, fuzzy, kde-format
 msgid "Write Options"
 msgstr "預覽選項"
 
-#: core/utilities/setup/metadata/advancedmetadatatab.cpp:321
+#: core/utilities/setup/metadata/advancedmetadatatab.cpp:320
 #, kde-format
 msgid "Unify read and write"
 msgstr ""
 
-#: core/utilities/setup/metadata/advancedmetadatatab.cpp:346
+#: core/utilities/setup/metadata/advancedmetadatatab.cpp:347
 #, fuzzy, kde-format
 msgid "Move Up"
 msgstr "上移"
 
-#: core/utilities/setup/metadata/advancedmetadatatab.cpp:349
+#: core/utilities/setup/metadata/advancedmetadatatab.cpp:350
 #, fuzzy, kde-format
 msgid "Move Down"
 msgstr "下移"
 
-#: core/utilities/setup/metadata/advancedmetadatatab.cpp:352
+#: core/utilities/setup/metadata/advancedmetadatatab.cpp:353
 #, fuzzy, kde-format
 msgid "Revert Changes"
 msgstr "還原所有更動"
 
-#: core/utilities/setup/metadata/advancedmetadatatab.cpp:357
+#: core/utilities/setup/metadata/advancedmetadatatab.cpp:359
 #, fuzzy, kde-format
 msgid "Reset to Default"
 msgstr "重置為預設值"
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:160
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:153
 #, fuzzy, kde-format
 msgid "New Xmp Namespace"
 msgstr "新的名稱"
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:164
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:157
 #, kde-format
 msgid "Edit Xmp Namespace"
 msgstr ""
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:254
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:247
 #, fuzzy, kde-format
 msgid "Add metadata namespace"
 msgstr "加入中繼資料資訊"
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:258
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:251
 #, fuzzy, kde-format
 msgid "Metadata Subspace"
 msgstr "中繼資料"
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:278
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:271
 #, kde-format
 msgid ""
 "<p>To create new namespaces, you need to specify parameters:</"
@@ -46393,7 +46393,7 @@ msgid ""
 "written.</li></ul></p>"
 msgstr ""
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:289
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:282
 #, kde-format
 msgid ""
 "<p>To create new rating namespaces, you need to specify parameters:</"
@@ -46403,7 +46403,7 @@ msgid ""
 "from list.</li></ul></p>"
 msgstr ""
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:300
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:293
 #, kde-format
 msgid ""
 "<p>To create new comment namespaces, you need to specify parameters:</"
@@ -46411,82 +46411,82 @@ msgid ""
 "li><li>Select the correct namespace option from list.</li></ul></p>"
 msgstr ""
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:309
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:302
 #, fuzzy, kde-format
 msgid "Special Options"
 msgstr "特別須知："
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:330
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:323
 #, fuzzy, kde-format
 msgid "Alternative name"
 msgstr "裝飾松木"
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:334
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:327
 #, fuzzy, kde-format
 msgid "Alternative special options"
 msgstr "黃金螺旋區段"
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:358
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:351
 #, fuzzy, kde-format
 msgid "Separator:"
 msgstr "麥卡托投影（Mercator）"
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:364
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:357
 #, fuzzy, kde-format
 msgid "Set Tags Path:"
 msgstr "標籤路徑"
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:384
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:377
 #, fuzzy, kde-format
 msgid "Rating Mapping:"
 msgstr "評分："
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:520
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:515
 #, kde-format
 msgid "This is a default namespace. Default namespaces can only be disabled"
 msgstr ""
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:548
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:543
 #, kde-format
 msgid "The namespace name is required"
 msgstr ""
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:558
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:553
 #, kde-format
 msgid "EXIF namespace name must start with \"Exif\"."
 msgstr ""
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:565
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:560
 #, kde-format
 msgid "EXIF alternative namespace name must start with \"Exif\"."
 msgstr ""
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:575
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:570
 #, kde-format
 msgid "IPTC namespace name must start with \"Iptc\"."
 msgstr ""
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:582
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:577
 #, kde-format
 msgid "IPTC alternative namespace name must start with \"Iptc\"."
 msgstr ""
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:592
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:587
 #, kde-format
 msgid "XMP namespace name must start with \"Xmp\"."
 msgstr ""
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:599
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:594
 #, kde-format
 msgid "XMP alternative namespace name must start with \"Xmp\"."
 msgstr ""
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:615
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:610
 #, kde-format
 msgid "Tag Path separator is required"
 msgstr ""
 
-#: core/utilities/setup/metadata/namespaceeditdlg.cpp:621
+#: core/utilities/setup/metadata/namespaceeditdlg.cpp:616
 #, kde-format
 msgid "Only one character is now supported as tag path separator"
 msgstr ""
@@ -46951,13 +46951,13 @@ msgstr ""
 "入 digiKam 的資料庫時透過 Nepomuk 完成的變更不會自動套用到影像的中繼資料。</"
 "p> "
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:545
+#: core/utilities/setup/metadata/setupmetadata.cpp:547
 #, kde-format
 msgctxt "@title:tab"
 msgid "Advanced"
 msgstr "進階"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:557
+#: core/utilities/setup/metadata/setupmetadata.cpp:559
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Reading and Writing Metadata"
@@ -46965,13 +46965,13 @@ msgctxt "@label"
 msgid "Reading and Writing to Sidecars"
 msgstr "讀取與寫入中繼資料"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:560
+#: core/utilities/setup/metadata/setupmetadata.cpp:562
 #, kde-format
 msgctxt "@option:check"
 msgid "Read from sidecar files"
 msgstr "從邊車檔讀取"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:562
+#: core/utilities/setup/metadata/setupmetadata.cpp:564
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -46979,49 +46979,49 @@ msgid ""
 "metadata."
 msgstr "開啟此選項，從 XMP 邊車檔讀取中繼資料。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:566
+#: core/utilities/setup/metadata/setupmetadata.cpp:568
 #, kde-format
 msgctxt "@option:check"
 msgid "Write to sidecar files"
 msgstr "寫入 XMP 邊車檔"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:568
+#: core/utilities/setup/metadata/setupmetadata.cpp:570
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "Turn on this option to save, as specified, metadata to XMP sidecar files."
 msgstr "開啟此選項，將指定的中繼資料寫入 XMP 邊車檔。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:572
+#: core/utilities/setup/metadata/setupmetadata.cpp:574
 #, fuzzy, kde-format
 #| msgid "Write to XMP sidecar for read-only image only"
 msgid "Write to XMP sidecar for read-only item only"
 msgstr "只對唯讀影像寫入 XMP 邊車檔"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:573
+#: core/utilities/setup/metadata/setupmetadata.cpp:575
 #, kde-format
 msgid "Write to XMP sidecar only"
 msgstr "只寫入 XMP 邊車檔"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:574
+#: core/utilities/setup/metadata/setupmetadata.cpp:576
 #, fuzzy, kde-format
 #| msgid "Write to image and XMP Sidecar"
 msgid "Write to item and XMP Sidecar"
 msgstr "寫入影像與 XMP 邊車檔"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:575
+#: core/utilities/setup/metadata/setupmetadata.cpp:577
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Specify the exact mode of XMP sidecar writing"
 msgstr "指定 XMP 邊車檔寫入的確切模式"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:579
+#: core/utilities/setup/metadata/setupmetadata.cpp:581
 #, kde-format
 msgctxt "@option:check"
 msgid "Sidecar file names are compatible with commercial programs"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:581
+#: core/utilities/setup/metadata/setupmetadata.cpp:583
 #, fuzzy, kde-format
 #| msgid ""
 #| "Turn on this option to use the camera provided image filenames without "
@@ -47033,7 +47033,7 @@ msgid ""
 "enable this option."
 msgstr "開啟這個選項會不修改直接使用相機提供的影像檔名。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:606
+#: core/utilities/setup/metadata/setupmetadata.cpp:608
 #, kde-format
 msgid ""
 "<p>Add file types to be recognised as sidecars.</p><p>digiKam (optionally) "
@@ -47045,7 +47045,7 @@ msgid ""
 "must be separated by a semicolon or a space.</p>"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:622
+#: core/utilities/setup/metadata/setupmetadata.cpp:624
 #, kde-format
 msgid ""
 "<p>Here you can add extra extensions of sidecars files to be processed "
@@ -47055,25 +47055,25 @@ msgid ""
 "always included.</p>"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:630
+#: core/utilities/setup/metadata/setupmetadata.cpp:632
 #, fuzzy, kde-format
 #| msgid "Enter the editorial usage instructions."
 msgid "Enter additional sidecars file extensions."
 msgstr "輸入編輯使用須知。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:633
+#: core/utilities/setup/metadata/setupmetadata.cpp:635
 #, fuzzy, kde-format
 #| msgid "Enter the editorial usage instructions."
 msgid "Additional &sidecar file extensions"
 msgstr "輸入編輯使用須知。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:648
+#: core/utilities/setup/metadata/setupmetadata.cpp:650
 #, kde-format
 msgctxt "@title:tab"
 msgid "Sidecars"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:851
+#: core/utilities/setup/metadata/setupmetadata.cpp:854
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -47081,7 +47081,7 @@ msgid ""
 "wrong orientation, so only change this option if you explicitly require this."
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:865
+#: core/utilities/setup/metadata/setupmetadata.cpp:869
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -47090,7 +47090,7 @@ msgid ""
 "metadata such as tags, keywords, or geographic coordinates."
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:881
+#: core/utilities/setup/metadata/setupmetadata.cpp:886
 #, kde-format
 msgid ""
 "<p><b>Do you really want to enable metadata writing to RAW files?</b></"
@@ -47100,12 +47100,12 @@ msgid ""
 "strongly recommend not to enable this option.</b></p>"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:888
+#: core/utilities/setup/metadata/setupmetadata.cpp:893
 #, kde-format
 msgid "Yes I understand"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:898
+#: core/utilities/setup/metadata/setupmetadata.cpp:903
 #, fuzzy, kde-format
 #| msgid "Writing metadata to files"
 msgid "You would rather disable writing metadata to RAW files?"
@@ -47429,75 +47429,75 @@ msgstr "假設它正在使用 sRGB 色彩空間 (網際網路標準)"
 
 #. i18n("<p></p>"));
 #.
-#: core/utilities/setup/setupicc.cpp:281
+#: core/utilities/setup/setupicc.cpp:282
 #, kde-format
 msgid "and convert it to the working color space"
 msgstr "並將它換成正在使用的色彩空間"
 
-#: core/utilities/setup/setupicc.cpp:293
+#: core/utilities/setup/setupicc.cpp:295
 #, kde-format
 msgid "Assume it is using the working color space"
 msgstr "假設它正在使用目前使用中的色彩空間"
 
 #. i18n("<p></p>"));
 #.
-#: core/utilities/setup/setupicc.cpp:298
+#: core/utilities/setup/setupicc.cpp:301
 #, kde-format
 msgid "Convert it from default input color space to working space"
 msgstr "將它從預設輸入色彩空間轉換成正在使用的色彩空間"
 
-#: core/utilities/setup/setupicc.cpp:316
+#: core/utilities/setup/setupicc.cpp:320
 #, kde-format
 msgid "When loading a RAW file with uncalibrated colors"
 msgstr "當載入未經校準顏色的 RAW 檔時"
 
-#: core/utilities/setup/setupicc.cpp:323
+#: core/utilities/setup/setupicc.cpp:327
 #, kde-format
 msgid "Ask for the input profile"
 msgstr "要求輸入描述檔"
 
 #. i18n("<p></p>"));
 #.
-#: core/utilities/setup/setupicc.cpp:328
+#: core/utilities/setup/setupicc.cpp:333
 #, kde-format
 msgid "Automatic color correction"
 msgstr "自動顏色校正"
 
 #. i18n("<p></p>"));
 #.
-#: core/utilities/setup/setupicc.cpp:333
+#: core/utilities/setup/setupicc.cpp:339
 #, kde-format
 msgid "Convert it from the default input profile"
 msgstr "從預設的輸入描述檔轉換它"
 
-#: core/utilities/setup/setupicc.cpp:357
+#: core/utilities/setup/setupicc.cpp:364
 #, kde-format
 msgid "Color Managed View"
 msgstr "色彩管理檢視"
 
-#: core/utilities/setup/setupicc.cpp:362
+#: core/utilities/setup/setupicc.cpp:369
 #, kde-format
 msgid "Monitor profile:"
 msgstr "螢幕描述檔："
 
-#: core/utilities/setup/setupicc.cpp:366
+#: core/utilities/setup/setupicc.cpp:373
 #, kde-format
 msgid "<p>Select the color profile for your monitor here.</p>"
 msgstr "<p>在這裡選擇螢幕的色彩描述檔。</p>"
 
-#: core/utilities/setup/setupicc.cpp:370
+#: core/utilities/setup/setupicc.cpp:377
 #, kde-format
 msgid ""
 "<p>You can use this button to get more detailed information about the "
 "selected monitor profile.</p>"
 msgstr "<p>您可以使用這個按鈕來取得更多關於選擇的螢幕描述檔的詳細資訊。</p>"
 
-#: core/utilities/setup/setupicc.cpp:374
+#: core/utilities/setup/setupicc.cpp:381
 #, kde-format
 msgid "Use color managed view in editor"
 msgstr "在編輯器中使用的色彩管理"
 
-#: core/utilities/setup/setupicc.cpp:375
+#: core/utilities/setup/setupicc.cpp:382
 #, kde-format
 msgid ""
 "<p>Turn on this option if you want to use your <b>Monitor Color Profile</b> "
@@ -47510,22 +47510,22 @@ msgstr ""
 "地校正螢幕的顏色，請啟用這個選項。<i>警告</i>：這會使影像演算變慢，取決於您的"
 "電腦速度。</p>"
 
-#: core/utilities/setup/setupicc.cpp:382
+#: core/utilities/setup/setupicc.cpp:389
 #, kde-format
 msgid "Use color managed view for previews and thumbnails"
 msgstr "預覽和縮圖使用的色彩管理"
 
-#: core/utilities/setup/setupicc.cpp:397
+#: core/utilities/setup/setupicc.cpp:405
 #, kde-format
 msgid "Camera and Scanner"
 msgstr "相機和掃描器"
 
-#: core/utilities/setup/setupicc.cpp:402
+#: core/utilities/setup/setupicc.cpp:410
 #, kde-format
 msgid "Default input color profile:"
 msgstr "預設輸入色彩描述檔："
 
-#: core/utilities/setup/setupicc.cpp:404
+#: core/utilities/setup/setupicc.cpp:412
 #, kde-format
 msgid ""
 "<p>This is the default color profile for your input device (that is your "
@@ -47537,36 +47537,36 @@ msgstr ""
 "元 RAW 影像所推薦的相機輸入描述檔。下面有關於這個描述擋載入行為的一些選項。</"
 "p>"
 
-#: core/utilities/setup/setupicc.cpp:411
+#: core/utilities/setup/setupicc.cpp:419
 #, kde-format
 msgid ""
 "<p>You can use this button to get more detailed information about the "
 "selected input profile.</p>"
 msgstr "<p>您可以使用這個按鈕來取得更多關於選擇的輸入描述檔的詳細資訊。</p>"
 
-#: core/utilities/setup/setupicc.cpp:422
+#: core/utilities/setup/setupicc.cpp:430
 #, kde-format
 msgid "Printing and Proofing"
 msgstr "列印和校樣"
 
-#: core/utilities/setup/setupicc.cpp:427
+#: core/utilities/setup/setupicc.cpp:435
 #, kde-format
 msgid "Output device profile:"
 msgstr "輸出裝置描述檔："
 
-#: core/utilities/setup/setupicc.cpp:436
+#: core/utilities/setup/setupicc.cpp:444
 #, kde-format
 msgid ""
 "<p>You can use this button to get more detailed information about the "
 "selected proofing profile.</p>"
 msgstr "<p>您可以使用這個按鈕來取得更多關於選擇的校樣描述檔的詳細資訊。</p>"
 
-#: core/utilities/setup/setupicc.cpp:447
+#: core/utilities/setup/setupicc.cpp:455
 #, kde-format
 msgid "Color Profiles Repository"
 msgstr "色彩描述檔儲存庫"
 
-#: core/utilities/setup/setupicc.cpp:452
+#: core/utilities/setup/setupicc.cpp:460
 #, kde-format
 msgid ""
 "digiKam looks for ICC profiles in a number of <a href='default'>default "
@@ -47575,7 +47575,7 @@ msgstr ""
 "digiKam 會在一些<a href='default'>預設位置</a>中尋找 ICC 描述檔。您可以指定一"
 "個額外的資料夾："
 
-#: core/utilities/setup/setupicc.cpp:460
+#: core/utilities/setup/setupicc.cpp:468
 #, kde-format
 msgid ""
 "<p>digiKam searches ICC profiles in default system folders and ships itself "
@@ -47585,12 +47585,12 @@ msgstr ""
 "<p>digiKam 會在預設的系統資料夾內搜尋 ICC 描述檔並運送所選擇的幾個描述檔。在"
 "這裡設定儲存在資料夾中所有附加的描述檔。</p>"
 
-#: core/utilities/setup/setupicc.cpp:483
+#: core/utilities/setup/setupicc.cpp:491
 #, kde-format
 msgid "Use black point compensation"
 msgstr "使用黑點補償"
 
-#: core/utilities/setup/setupicc.cpp:484
+#: core/utilities/setup/setupicc.cpp:492
 #, kde-format
 msgid ""
 "<p><b>Black Point Compensation</b> is a way to make adjustments between the "
@@ -47600,43 +47600,43 @@ msgstr ""
 "<p><b>黑點補償</b>是在數位檔案的最大黑階和各種數位裝置的黑色能力之間作調整的"
 "方法。</p>"
 
-#: core/utilities/setup/setupicc.cpp:490
+#: core/utilities/setup/setupicc.cpp:498
 #, kde-format
 msgid "Rendering Intents:"
 msgstr "色彩對應方式："
 
-#: core/utilities/setup/setupicc.cpp:506
+#: core/utilities/setup/setupicc.cpp:514
 #, kde-format
 msgid "Profiles"
 msgstr "描述檔"
 
-#: core/utilities/setup/setupicc.cpp:700
+#: core/utilities/setup/setupicc.cpp:708
 #, kde-format
 msgid "Monitor Profile From System Settings"
 msgstr "系統螢幕描述檔設定值"
 
-#: core/utilities/setup/setupicc.cpp:732
+#: core/utilities/setup/setupicc.cpp:740
 #, kde-format
 msgid "No ICC profiles files found."
 msgstr "沒有找到任何 ICC 描述檔。"
 
-#: core/utilities/setup/setupicc.cpp:747
+#: core/utilities/setup/setupicc.cpp:756
 #, kde-format
 msgid "No Display Profile Available"
 msgstr "沒有可用的顯示描述檔"
 
-#: core/utilities/setup/setupicc.cpp:749
+#: core/utilities/setup/setupicc.cpp:758
 #, kde-format
 msgid "No Output Profile Available"
 msgstr "沒有可用的輸出描述檔"
 
-#: core/utilities/setup/setupicc.cpp:879
+#: core/utilities/setup/setupicc.cpp:892
 #, kde-format
 msgctxt "none of the paths"
 msgid "none"
 msgstr "無"
 
-#: core/utilities/setup/setupicc.cpp:888
+#: core/utilities/setup/setupicc.cpp:901
 #, fuzzy, kde-format
 msgid ""
 "On Windows, the default search paths include <ul><li>%1/Windows/Spool/"
@@ -47648,7 +47648,7 @@ msgstr ""
 "li><li>~/.local/share/icc/</li><li>~/.color/icc/</li></ul>，目前存在這些路徑"
 "並會被掃描：<ul><li>%1</li></ul>"
 
-#: core/utilities/setup/setupicc.cpp:902
+#: core/utilities/setup/setupicc.cpp:916
 #, fuzzy, kde-format
 msgid ""
 "On Mac OS X, the default search paths include <ul><li>/System/Library/"
@@ -47663,7 +47663,7 @@ msgstr ""
 "li><li>~/.local/share/icc/</li><li>~/.color/icc/</li></ul>，目前存在這些路徑"
 "並會被掃描：<ul><li>%1</li></ul>"
 
-#: core/utilities/setup/setupicc.cpp:919
+#: core/utilities/setup/setupicc.cpp:934
 #, kde-format
 msgid ""
 "On Linux, the default search paths include <ul><li>/usr/share/color/icc</"
@@ -47841,56 +47841,56 @@ msgid ""
 "laptop computer."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:251
+#: core/utilities/setup/setupmisc.cpp:253
 #, fuzzy, kde-format
 #| msgid "Kuwait"
 msgctxt "icon theme"
 msgid "Adwaita"
 msgstr "科威特"
 
-#: core/utilities/setup/setupmisc.cpp:252
+#: core/utilities/setup/setupmisc.cpp:254
 #, kde-format
 msgctxt "icon theme"
 msgid "Breeze"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:253
+#: core/utilities/setup/setupmisc.cpp:255
 #, kde-format
 msgctxt "icon theme"
 msgid "Breeze Dark"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:254
+#: core/utilities/setup/setupmisc.cpp:256
 #, kde-format
 msgctxt "icon theme"
 msgid "Faenza"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:255
+#: core/utilities/setup/setupmisc.cpp:257
 #, fuzzy, kde-format
 #| msgid "Luminance"
 msgctxt "icon theme"
 msgid "Ambiance"
 msgstr "明度"
 
-#: core/utilities/setup/setupmisc.cpp:256
+#: core/utilities/setup/setupmisc.cpp:258
 #, kde-format
 msgctxt "icon theme"
 msgid "Humanity"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:257
+#: core/utilities/setup/setupmisc.cpp:259
 #, kde-format
 msgctxt "icon theme"
 msgid "Oxygen"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:312
+#: core/utilities/setup/setupmisc.cpp:314
 #, kde-format
 msgid "Perform the following operations on all group members:"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:313
+#: core/utilities/setup/setupmisc.cpp:315
 #, kde-format
 msgid ""
 "When images are grouped the following operations<br/>are performed only on "
@@ -47899,12 +47899,12 @@ msgid ""
 "operation is executed."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:321
+#: core/utilities/setup/setupmisc.cpp:323
 #, kde-format
 msgid "Ask"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:366
+#: core/utilities/setup/setupmisc.cpp:368
 #, fuzzy, kde-format
 #| msgid "Group"
 msgctxt "@title:tab"
@@ -48119,17 +48119,17 @@ msgctxt "@label:listbox %1 is the screen number (0, 1, ...)"
 msgid "Screen %1"
 msgstr "綠（%）："
 
-#: core/utilities/setup/setuptemplate.cpp:92
+#: core/utilities/setup/setuptemplate.cpp:93
 #, kde-format
 msgid "Template Title:"
 msgstr "範本標題："
 
-#: core/utilities/setup/setuptemplate.cpp:95
+#: core/utilities/setup/setuptemplate.cpp:96
 #, kde-format
 msgid "Enter the metadata template title here."
 msgstr "在這裡輸入中繼資料範本的標題。"
 
-#: core/utilities/setup/setuptemplate.cpp:96
+#: core/utilities/setup/setuptemplate.cpp:97
 #, kde-format
 msgid ""
 "<p>Enter the metadata template title here. This title will be used to "
@@ -48137,7 +48137,7 @@ msgid ""
 msgstr ""
 "<p>在這裡輸入中繼資料範本的標題。這個標題會用來辨識在您的收藏中的範本。</p>"
 
-#: core/utilities/setup/setuptemplate.cpp:106
+#: core/utilities/setup/setuptemplate.cpp:107
 #, fuzzy, kde-format
 #| msgid ""
 #| "<b>Note: These information are used to set <b><a href='http://en."
@@ -48161,18 +48161,18 @@ msgstr ""
 "籤只支援可列印的 <b><a href='http://en.wikipedia.org/wiki/Ascii'>ASCII</a></"
 "b> 字元集，而且有限制標籤大小。使用內容說明來取得詳細資訊。</b>"
 
-#: core/utilities/setup/setuptemplate.cpp:127
+#: core/utilities/setup/setuptemplate.cpp:128
 #, kde-format
 msgid "&Replace..."
 msgstr "取代(&R)..."
 
-#: core/utilities/setup/setuptemplate.cpp:244
-#: core/utilities/setup/setuptemplate.cpp:273
+#: core/utilities/setup/setuptemplate.cpp:247
+#: core/utilities/setup/setuptemplate.cpp:278
 #, kde-format
 msgid "Cannot register new metadata template without title."
 msgstr "不能登記註冊沒有標題的中繼資料範本。"
 
-#: core/utilities/setup/setuptemplate.cpp:250
+#: core/utilities/setup/setuptemplate.cpp:254
 #, kde-format
 msgid "A metadata template named '%1' already exists."
 msgstr "已存在一個名為 '%1' 的中繼資料範本。"

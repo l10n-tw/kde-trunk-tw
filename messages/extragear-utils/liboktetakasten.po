@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okteta\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-03 02:49+0100\n"
+"POT-Creation-Date: 2020-01-24 02:53+0100\n"
 "PO-Revision-Date: 2019-02-23 21:23+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -2605,7 +2605,7 @@ msgid "Reset Changes"
 msgstr "重設變更"
 
 #: controllers/view/viewprofiles/viewprofilecontroller.cpp:192
-#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:193
+#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:194
 #, kde-format
 msgctxt "@window:title"
 msgid "New View Profile"
@@ -2787,19 +2787,19 @@ msgctxt "@title:window"
 msgid "View Profiles"
 msgstr "檢視設定檔"
 
-#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:76
+#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:77
 #, kde-format
 msgctxt "@action:button"
 msgid "&Create new..."
 msgstr "新增(&C)..."
 
-#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:79
+#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:80
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Opens an editor for a new view profile."
 msgstr "開啟編輯新檢視設定檔的編輯器。"
 
-#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:81
+#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:82
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -2810,19 +2810,19 @@ msgstr ""
 "若您按下「新增」鍵，會開啟一個編輯器，您可以用來建立與編輯新的檢視設定檔。裡"
 "頭的值會根據您在清單中選取的檢視設定檔而設定。"
 
-#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:90
+#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:91
 #, kde-format
 msgctxt "@action:button"
 msgid "&Edit..."
 msgstr "編輯(&E)..."
 
-#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:93
+#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:94
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Opens an editor for the view profile."
 msgstr "開啟編輯檢視設定檔的編輯器。"
 
-#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:95
+#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:96
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -2832,19 +2832,19 @@ msgstr ""
 "如果您按下<interface>編輯</interface>按鍵，則會開啟一個編輯器，讓您編輯選取的"
 "檢視設定檔。"
 
-#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:103
+#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:104
 #, kde-format
 msgctxt "@action:button"
 msgid "&Set as Default"
 msgstr "設為預設(&S)"
 
-#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:106
+#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:107
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Sets the selected view profile as default for all views."
 msgstr "將選取的檢視設定檔設為所有檢視的預設設定。"
 
-#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:108
+#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:109
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -2854,19 +2854,19 @@ msgstr ""
 "如果您按下<interface>設為預設</interface>按鍵，會將您在清單中選取的檢視設定檔"
 "設為所有檢視的預設設定檔。"
 
-#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:115
+#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:116
 #, kde-format
 msgctxt "@action:button"
 msgid "&Delete"
 msgstr "刪除(&D)"
 
-#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:118
+#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:119
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Deletes the selected view profile."
 msgstr "刪除所有選取的檢視設定檔。"
 
-#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:120
+#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:121
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -2875,12 +2875,12 @@ msgid ""
 msgstr ""
 "如果您按下<interface>刪除</interface>按鍵，則會將您選取的檢視設定檔刪除。"
 
-#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:187
+#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:188
 #, kde-format
 msgid "Modification of %1"
 msgstr "%1 的變種"
 
-#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:224
+#: controllers/view/viewprofiles/viewprofilesmanagedialog.cpp:225
 #, kde-format
 msgctxt "@window:title"
 msgid "\"%1\" View Profile"
