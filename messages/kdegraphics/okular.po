@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okular\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-12 03:13+0100\n"
+"POT-Creation-Date: 2020-01-25 03:14+0100\n"
 "PO-Revision-Date: 2020-01-09 18:10+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -3524,12 +3524,12 @@ msgstr "未知"
 msgid "Author: %1"
 msgstr "作者：%1"
 
-#: ui/guiutils.cpp:230 ui/propertiesdialog.cpp:215
+#: ui/guiutils.cpp:230 ui/propertiesdialog.cpp:212
 #, kde-format
 msgid "Where do you want to save %1?"
 msgstr "您要將 %1 儲存在哪裡？"
 
-#: ui/guiutils.cpp:241 ui/propertiesdialog.cpp:228
+#: ui/guiutils.cpp:241 ui/propertiesdialog.cpp:225
 #, kde-format
 msgid "Could not open \"%1\" for writing. File was not saved."
 msgstr "無法開啟 %1 以寫入。檔案未儲存。"
@@ -4088,176 +4088,176 @@ msgstr "未知的檔案"
 msgid "%1 Properties"
 msgstr "%1 屬性"
 
-#: ui/propertiesdialog.cpp:110
+#: ui/propertiesdialog.cpp:107
 #, kde-format
 msgctxt "mimetype information, example: \"PDF Document (application/pdf)\""
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: ui/propertiesdialog.cpp:123
+#: ui/propertiesdialog.cpp:120
 #, kde-format
 msgid "%1:"
 msgstr "%1："
 
-#: ui/propertiesdialog.cpp:130
+#: ui/propertiesdialog.cpp:127
 #, kde-format
 msgid "&Fonts"
 msgstr "字型(&F)"
 
-#: ui/propertiesdialog.cpp:151
+#: ui/propertiesdialog.cpp:148
 #, kde-format
 msgid "Reading font information..."
 msgstr "讀取字型資訊中..."
 
-#: ui/propertiesdialog.cpp:210
+#: ui/propertiesdialog.cpp:207
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Extract Font"
 msgstr "展開字型(&E)"
 
-#: ui/propertiesdialog.cpp:262
+#: ui/propertiesdialog.cpp:259
 #, kde-format
 msgid "Type 1"
 msgstr "類型 1"
 
-#: ui/propertiesdialog.cpp:265
+#: ui/propertiesdialog.cpp:262
 #, kde-format
 msgid "Type 1C"
 msgstr "類型 1C"
 
-#: ui/propertiesdialog.cpp:268
+#: ui/propertiesdialog.cpp:265
 #, kde-format
 msgctxt "OT means OpenType"
 msgid "Type 1C (OT)"
 msgstr "類型 1C（OT）"
 
-#: ui/propertiesdialog.cpp:271
+#: ui/propertiesdialog.cpp:268
 #, kde-format
 msgid "Type 3"
 msgstr "類型 3"
 
-#: ui/propertiesdialog.cpp:274
+#: ui/propertiesdialog.cpp:271
 #, kde-format
 msgid "TrueType"
 msgstr "TrueType"
 
-#: ui/propertiesdialog.cpp:277
+#: ui/propertiesdialog.cpp:274
 #, kde-format
 msgctxt "OT means OpenType"
 msgid "TrueType (OT)"
 msgstr "TrueType（OT）"
 
-#: ui/propertiesdialog.cpp:280
+#: ui/propertiesdialog.cpp:277
 #, kde-format
 msgid "CID Type 0"
 msgstr "CID 類型 0"
 
-#: ui/propertiesdialog.cpp:283
+#: ui/propertiesdialog.cpp:280
 #, kde-format
 msgid "CID Type 0C"
 msgstr "CID 類型 0C"
 
-#: ui/propertiesdialog.cpp:286
+#: ui/propertiesdialog.cpp:283
 #, kde-format
 msgctxt "OT means OpenType"
 msgid "CID Type 0C (OT)"
 msgstr "CID 類型 0C（OT）"
 
-#: ui/propertiesdialog.cpp:289
+#: ui/propertiesdialog.cpp:286
 #, kde-format
 msgid "CID TrueType"
 msgstr "CID TrueType"
 
-#: ui/propertiesdialog.cpp:292
+#: ui/propertiesdialog.cpp:289
 #, kde-format
 msgctxt "OT means OpenType"
 msgid "CID TrueType (OT)"
 msgstr "CID TrueType（OT）"
 
-#: ui/propertiesdialog.cpp:295
+#: ui/propertiesdialog.cpp:292
 #, kde-format
 msgid "TeX PK"
 msgstr "TeX PK"
 
-#: ui/propertiesdialog.cpp:298
+#: ui/propertiesdialog.cpp:295
 #, kde-format
 msgid "TeX virtual"
 msgstr "TeX 虛擬的"
 
-#: ui/propertiesdialog.cpp:301
+#: ui/propertiesdialog.cpp:298
 #, kde-format
 msgid "TeX Font Metric"
 msgstr "TeX 字型描述"
 
-#: ui/propertiesdialog.cpp:304
+#: ui/propertiesdialog.cpp:301
 #, kde-format
 msgid "TeX FreeType-handled"
 msgstr "TeX FreeType-handled"
 
-#: ui/propertiesdialog.cpp:307
+#: ui/propertiesdialog.cpp:304
 #, kde-format
 msgctxt "Unknown font type"
 msgid "Unknown"
 msgstr "未知"
 
-#: ui/propertiesdialog.cpp:321
+#: ui/propertiesdialog.cpp:318
 #, kde-format
 msgid "Embedded (subset)"
 msgstr "嵌入式（子集）"
 
-#: ui/propertiesdialog.cpp:324
+#: ui/propertiesdialog.cpp:321
 #, kde-format
 msgid "Fully embedded"
 msgstr "完整嵌入式"
 
-#: ui/propertiesdialog.cpp:335
+#: ui/propertiesdialog.cpp:332
 #, kde-format
 msgid "No"
 msgstr "否"
 
-#: ui/propertiesdialog.cpp:338
+#: ui/propertiesdialog.cpp:335
 #, kde-format
 msgid "Yes (subset)"
 msgstr "是（子集）"
 
-#: ui/propertiesdialog.cpp:341
+#: ui/propertiesdialog.cpp:338
 #, kde-format
 msgid "Yes"
 msgstr "是"
 
-#: ui/propertiesdialog.cpp:363
+#: ui/propertiesdialog.cpp:360
 #, kde-format
 msgctxt "Replacing missing font with another one"
 msgid "%1 (substituting with %2)"
 msgstr "%1（使用 %2 取代）"
 
-#: ui/propertiesdialog.cpp:365
+#: ui/propertiesdialog.cpp:362
 #, kde-format
 msgctxt "font name not available (empty)"
 msgid "[n/a]"
 msgstr "無"
 
-#: ui/propertiesdialog.cpp:380
+#: ui/propertiesdialog.cpp:377
 #, kde-format
 msgid "Unknown font"
 msgstr "未知的字型"
 
-#: ui/propertiesdialog.cpp:384
+#: ui/propertiesdialog.cpp:381
 #, kde-format
 msgid "Embedded: %1"
 msgstr "嵌入式：%1"
 
-#: ui/propertiesdialog.cpp:417
+#: ui/propertiesdialog.cpp:414
 #, kde-format
 msgid "Name"
 msgstr "名稱"
 
-#: ui/propertiesdialog.cpp:418
+#: ui/propertiesdialog.cpp:415
 #, kde-format
 msgid "Type"
 msgstr "類型"
 
-#: ui/propertiesdialog.cpp:419
+#: ui/propertiesdialog.cpp:416
 #, kde-format
 msgid "File"
 msgstr "檔案"

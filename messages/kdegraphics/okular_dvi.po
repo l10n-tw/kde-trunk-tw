@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okular_dvi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-24 03:03+0100\n"
+"POT-Creation-Date: 2020-01-25 03:14+0100\n"
 "PO-Revision-Date: 2020-01-16 14:40+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -451,32 +451,32 @@ msgstr "FreeType 無法從 %2 載入 #%1 字型描述資料。"
 msgid "Cannot open font file %1."
 msgstr "無法開啟字型檔案 %1。"
 
-#: TeXFont_PK.cpp:139
+#: TeXFont_PK.cpp:138
 #, kde-format
 msgid "TexFont_PK::operator[]: Character %1 not defined in font %2"
 msgstr "TexFont_PK::operator[]:字元 %1 沒有定義在字型 %2 中"
 
-#: TeXFont_PK.cpp:455
+#: TeXFont_PK.cpp:454
 #, kde-format
 msgid "Unexpected %1 in PK file %2"
 msgstr "未預期的 %1 在 PK 檔案 %2"
 
-#: TeXFont_PK.cpp:522
+#: TeXFont_PK.cpp:521
 #, kde-format
 msgid "The character %1 is too large in file %2"
 msgstr "字元 %1 在檔案 %2 中太大了"
 
-#: TeXFont_PK.cpp:623 TeXFont_PK.cpp:709
+#: TeXFont_PK.cpp:622 TeXFont_PK.cpp:708
 #, kde-format
 msgid "Wrong number of bits stored:  char. %1, font %2"
 msgstr "錯誤的數字或位元被儲存: 字元 %1, 字型 %2"
 
-#: TeXFont_PK.cpp:625 TeXFont_PK.cpp:711
+#: TeXFont_PK.cpp:624 TeXFont_PK.cpp:710
 #, kde-format
 msgid "Bad pk file (%1), too many bits"
 msgstr "錯誤的 PK 檔案 (%1), 太多位元"
 
-#: TeXFont_PK.cpp:742
+#: TeXFont_PK.cpp:741
 #, kde-format
 msgid "Font has non-square aspect ratio "
 msgstr "字型有非方塊的長寬比"

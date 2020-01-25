@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-24 03:21+0100\n"
+"POT-Creation-Date: 2020-01-25 03:20+0100\n"
 "PO-Revision-Date: 2019-09-28 03:06+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -428,7 +428,7 @@ msgstr ""
 msgid "License"
 msgstr ""
 
-#: apps/qml/qml/ListMessagesDialogBase.qml:58
+#: apps/qml/qml/ListMessagesDialogBase.qml:58 widgets/ruqolamainwindow.cpp:120
 msgid "Search Messages..."
 msgstr ""
 
@@ -726,11 +726,13 @@ msgid "Block user"
 msgstr ""
 
 #: apps/qml/qml/ReportMessageDialog.qml:50
+#: widgets/dialogs/reportmessagewidget.cpp:37
 #: widgets/dialogs/uploadfilewidget.cpp:43
 msgid "Message:"
 msgstr ""
 
 #: apps/qml/qml/ReportMessageDialog.qml:56
+#: widgets/dialogs/reportmessagewidget.cpp:44
 msgid "Why you signal this message?"
 msgstr ""
 
@@ -777,7 +779,7 @@ msgstr ""
 msgid "Search Channel"
 msgstr ""
 
-#: apps/qml/qml/SearchChannelDialog.qml:56 widgets/ruqolamainwindow.cpp:93
+#: apps/qml/qml/SearchChannelDialog.qml:56 widgets/ruqolamainwindow.cpp:96
 msgid "Search Channel..."
 msgstr ""
 
@@ -1123,7 +1125,7 @@ msgstr ""
 msgid "Snippered Messages"
 msgstr ""
 
-#: core/model/mentionsmodel.cpp:73 core/model/messagemodel.cpp:238
+#: core/model/mentionsmodel.cpp:73 core/model/messagemodel.cpp:240
 #: core/model/searchmessagemodel.cpp:60
 msgid "Ignored Message"
 msgstr ""
@@ -1723,9 +1725,15 @@ msgstr ""
 msgid "Message Status:"
 msgstr ""
 
-#: widgets/dialogs/searchchanneldialog.cpp:32
+#: widgets/dialogs/reportmessagedialog.cpp:35
+#: widgets/dialogs/searchchanneldialog.cpp:35
 msgctxt "@title:window"
 msgid "Search Channel"
+msgstr ""
+
+#: widgets/dialogs/searchmessagedialog.cpp:36
+msgctxt "@title:window"
+msgid "Search Messages"
 msgstr ""
 
 #: widgets/dialogs/serverinfodialog.cpp:30
@@ -1770,34 +1778,34 @@ msgstr ""
 msgid "Login"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:80
+#: widgets/ruqolamainwindow.cpp:83
 msgid "Add Account..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:85
+#: widgets/ruqolamainwindow.cpp:88
 msgid "Server Info..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:89
+#: widgets/ruqolamainwindow.cpp:92
 msgid "Logout"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:97
+#: widgets/ruqolamainwindow.cpp:100
 msgid "Create New Channel..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:101
+#: widgets/ruqolamainwindow.cpp:104
 msgid "Show Mentions..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:105
+#: widgets/ruqolamainwindow.cpp:108
 msgid "Show Pinned Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:109
+#: widgets/ruqolamainwindow.cpp:112
 msgid "Show Starred Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:113
+#: widgets/ruqolamainwindow.cpp:116
 msgid "Show Snippered Messages..."
 msgstr ""

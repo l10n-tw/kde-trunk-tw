@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmymoney2\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-23 02:56+0100\n"
+"POT-Creation-Date: 2020-01-25 02:48+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -1502,7 +1502,7 @@ msgstr "數量"
 #: kmymoney/dialogs/kcurrencycalculator.ui:97
 #: kmymoney/dialogs/kselecttransactionsdlg.ui:14
 #: kmymoney/dialogs/kselecttransactionsdlg.ui:26
-#: kmymoney/dialogs/ksplitcorrectiondlg.ui:51
+#: kmymoney/dialogs/ksplitcorrectiondlg.ui:23
 #: kmymoney/plugins/views/budget/kbudgetvalues.ui:111
 #: kmymoney/plugins/views/budget/kbudgetvalues.ui:188
 #: kmymoney/plugins/views/budget/kbudgetvalues.ui:201
@@ -3430,41 +3430,41 @@ msgid "Use default"
 msgstr "使用預設值"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, KSplitCorrectionDlg)
-#: kmymoney/dialogs/ksplitcorrectiondlg.ui:23
+#: kmymoney/dialogs/ksplitcorrectiondlg.ui:17
 #, kde-format
 msgid "Correct splits"
 msgstr "修正分割"
 
 #. i18n: ectx: property (text), widget (QLabel, question)
-#: kmymoney/dialogs/ksplitcorrectiondlg.ui:64
+#: kmymoney/dialogs/ksplitcorrectiondlg.ui:36
 #: kmymoney/dialogs/splitadjustdialog.ui:36
 #, kde-format
 msgid "How do you want to proceed?"
 msgstr "您要進行什麼？"
 
 #. i18n: ectx: property (text), widget (QRadioButton, continueBtn)
-#: kmymoney/dialogs/ksplitcorrectiondlg.ui:95
-#, fuzzy, kde-format
-#| msgid "Continue to edit splits"
-msgid "Co&ntinue to edit splits"
+#: kmymoney/dialogs/ksplitcorrectiondlg.ui:55
+#: kmymoney/dialogs/splitadjustdialog.ui:58
+#, kde-format
+msgid "Continue to edit splits"
 msgstr "繼續編輯分割"
 
 #. i18n: ectx: property (text), widget (QRadioButton, changeBtn)
-#: kmymoney/dialogs/ksplitcorrectiondlg.ui:108
+#: kmymoney/dialogs/ksplitcorrectiondlg.ui:68
 #, fuzzy, no-c-format, kde-format
 #| msgid "Change total amount of transaction to %1."
 msgid "Chan&ge total amount of transaction to %1."
 msgstr "變更交易總金額為 %1。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, distributeBtn)
-#: kmymoney/dialogs/ksplitcorrectiondlg.ui:121
+#: kmymoney/dialogs/ksplitcorrectiondlg.ui:81
 #, fuzzy, no-c-format, kde-format
 #| msgid "&Distribute difference of %1 among all splits."
 msgid "Distrib&ute difference of %1 among all splits."
 msgstr "將 %1 的差異分配到所有分割(&D)。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, leaveBtn)
-#: kmymoney/dialogs/ksplitcorrectiondlg.ui:131
+#: kmymoney/dialogs/ksplitcorrectiondlg.ui:91
 #, fuzzy, no-c-format, kde-format
 #| msgid "&Leave %1 unassigned."
 msgid "Leave %1 unassigned."
@@ -5095,12 +5095,6 @@ msgstr "在分類簿中預覽幾天的排程"
 #| msgid "MyDialog"
 msgid "Dialog"
 msgstr "我的對話框"
-
-#. i18n: ectx: property (text), widget (QRadioButton, continueBtn)
-#: kmymoney/dialogs/splitadjustdialog.ui:58
-#, kde-format
-msgid "Continue to edit splits"
-msgstr "繼續編輯分割"
 
 #: kmymoney/dialogs/stdtransactioneditor.cpp:128
 #, kde-format
@@ -18681,6 +18675,27 @@ msgid " (%1 payment)"
 msgid_plural " (%1 payments)"
 msgstr[0] "（%1 筆付款）"
 
+#: kmymoney/views/khomeview_p.h:945
+#, kde-format
+msgctxt "Header not marked"
+msgid "!M"
+msgstr ""
+
+#: kmymoney/views/khomeview_p.h:948
+#, fuzzy, kde-format
+#| msgid "C"
+msgctxt "Header cleared"
+msgid "C"
+msgstr "C"
+
+#: kmymoney/views/khomeview_p.h:951
+#, fuzzy, kde-format
+#| msgctxt "Reconciliation flag R"
+#| msgid "R"
+msgctxt "Header not reconciled"
+msgid "!R"
+msgstr "R"
+
 #: kmymoney/views/khomeview_p.h:954 kmymoney/views/khomeview_p.h:1288
 #: kmymoney/views/khomeview_p.h:1317
 #, fuzzy, kde-format
@@ -24283,3 +24298,8 @@ msgstr ""
 "<p>即使沒有網路連線，您還是可以匯入您的銀行報表。只要從「檔案」─「匯入」中選"
 "擇即可。</p>\n"
 "<p>Jose Jorge 提供</p>\n"
+
+#, fuzzy
+#~| msgid "Continue to edit splits"
+#~ msgid "Co&ntinue to edit splits"
+#~ msgstr "繼續編輯分割"
