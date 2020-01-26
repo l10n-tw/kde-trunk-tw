@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-25 03:20+0100\n"
+"POT-Creation-Date: 2020-01-26 03:17+0100\n"
 "PO-Revision-Date: 2019-09-28 03:06+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -175,6 +175,7 @@ msgstr ""
 #: apps/qml/qml/ChannelInfoDialog.qml:77
 #: apps/qml/qml/CreateNewAccountDialog.qml:52
 #: apps/qml/qml/CreateNewChannelDialog.qml:60
+#: widgets/dialogs/createnewchannelwidget.cpp:38
 msgid "Name:"
 msgstr ""
 
@@ -193,7 +194,9 @@ msgstr ""
 
 #: apps/qml/qml/ChannelInfoDialog.qml:137
 #: apps/qml/qml/ChannelPasswordDialog.qml:56
-#: apps/qml/qml/CreateNewChannelDialog.qml:120 widgets/ruqolaloginwidget.cpp:53
+#: apps/qml/qml/CreateNewChannelDialog.qml:120
+#: widgets/dialogs/createnewchannelwidget.cpp:67
+#: widgets/ruqolaloginwidget.cpp:53
 msgid "Password:"
 msgstr ""
 
@@ -209,6 +212,7 @@ msgstr ""
 
 #: apps/qml/qml/ChannelInfoDialog.qml:149
 #: apps/qml/qml/CreateNewChannelDialog.qml:81
+#: widgets/dialogs/createnewchannelwidget.cpp:48
 msgid "Read-Only:"
 msgstr ""
 
@@ -219,6 +223,7 @@ msgstr ""
 
 #: apps/qml/qml/ChannelInfoDialog.qml:170
 #: apps/qml/qml/CreateNewChannelDialog.qml:97
+#: widgets/dialogs/createnewchannelwidget.cpp:53
 msgid "Broadcast:"
 msgstr ""
 
@@ -309,10 +314,12 @@ msgid "Channel Name"
 msgstr ""
 
 #: apps/qml/qml/CreateNewChannelDialog.qml:70
+#: widgets/dialogs/createnewchannelwidget.cpp:43
 msgid "Users:"
 msgstr ""
 
 #: apps/qml/qml/CreateNewChannelDialog.qml:77
+#: widgets/dialogs/createnewchannelwidget.cpp:42
 msgctxt "List of users separated by ','"
 msgid "User separate with ','"
 msgstr ""
@@ -726,13 +733,13 @@ msgid "Block user"
 msgstr ""
 
 #: apps/qml/qml/ReportMessageDialog.qml:50
-#: widgets/dialogs/reportmessagewidget.cpp:37
+#: widgets/dialogs/reportmessagewidget.cpp:36
 #: widgets/dialogs/uploadfilewidget.cpp:43
 msgid "Message:"
 msgstr ""
 
 #: apps/qml/qml/ReportMessageDialog.qml:56
-#: widgets/dialogs/reportmessagewidget.cpp:44
+#: widgets/dialogs/reportmessagewidget.cpp:43
 msgid "Why you signal this message?"
 msgstr ""
 
@@ -1711,9 +1718,17 @@ msgstr ""
 msgid "User Name:"
 msgstr ""
 
-#: widgets/dialogs/createnewchanneldialog.cpp:29
+#: widgets/dialogs/createnewchanneldialog.cpp:36
 msgctxt "@title:window"
 msgid "Create Channel"
+msgstr ""
+
+#: widgets/dialogs/createnewchannelwidget.cpp:58
+msgid "Private Room:"
+msgstr ""
+
+#: widgets/dialogs/createnewchannelwidget.cpp:63
+msgid "Encrypted Room:"
 msgstr ""
 
 #: widgets/dialogs/modifystatusdialog.cpp:30
@@ -1743,6 +1758,11 @@ msgstr ""
 
 #: widgets/dialogs/serverinfowidget.cpp:42
 msgid "Server Version:"
+msgstr ""
+
+#: widgets/dialogs/showimagedialog.cpp:30
+msgctxt "@title:window"
+msgid "Display Image"
 msgstr ""
 
 #: widgets/dialogs/showmentionsmessagesdialog.cpp:33

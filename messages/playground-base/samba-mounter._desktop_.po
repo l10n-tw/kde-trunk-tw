@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_playground-base_samba-mounter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-21 01:51+0000\n"
+"POT-Creation-Date: 2020-01-26 02:47+0000\n"
 "PO-Revision-Date: 2018-08-01 01:20+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -19,17 +19,17 @@ msgctxt "Name"
 msgid "Mount a cifs file system"
 msgstr "掛載一個 CIFS 檔案系統"
 
-#: src/helper/samba-mounter.actions:26
+#: src/helper/samba-mounter.actions:27
 msgctxt "Description"
 msgid "Executes mount with the needed arguments to mount samba shares"
 msgstr "以所需的參數執行 mount 指令，以掛載 Samba 分享裝置"
 
-#: src/helper/samba-mounter.actions:52
+#: src/helper/samba-mounter.actions:54
 msgctxt "Name"
 msgid "Umount a cifs file system"
 msgstr "卸載一個 CIFS 檔案系統"
 
-#: src/helper/samba-mounter.actions:74
+#: src/helper/samba-mounter.actions:77
 msgctxt "Description"
 msgid "Executes umount with the needed arguments to umount a samba share"
 msgstr "以所需的參數執行 umount 指令，以卸載一個 Samba 分享裝置"
@@ -39,12 +39,12 @@ msgctxt "Name"
 msgid "Samba Mounter"
 msgstr "Samba 掛載工具"
 
-#: src/onstart/sambamounter.desktop:25
+#: src/onstart/sambamounter.desktop:26
 msgctxt "GenericName"
 msgid "Mounts Samba shares"
 msgstr "掛載 Samba 分享裝置"
 
-#: src/onstart/sambamounter.desktop:57
+#: src/onstart/sambamounter.desktop:59
 msgctxt "Comment"
 msgid "Mounts Samba shares at startup time"
 msgstr "啟動時掛載 Samba 分享裝置"
@@ -54,12 +54,12 @@ msgctxt "Name"
 msgid "Network Drivers"
 msgstr "網路驅動"
 
-#: src/sambamount.desktop:38
+#: src/sambamount.desktop:39
 msgctxt "Comment"
 msgid "Configure mounts managed by Plasma instead of fstab"
 msgstr "配置由 Plasma 而非 fstab 管理的掛載"
 
-#: src/sambamount.desktop:61
+#: src/sambamount.desktop:63
 msgctxt "X-KDE-Keywords"
 msgid "Samba,Mount,Fstab"
 msgstr "Samba,Mount,Fstab"
@@ -69,12 +69,12 @@ msgctxt "Name"
 msgid "Network Drives"
 msgstr "網路硬碟"
 
-#: src/sambamounterapp.desktop:28
+#: src/sambamounterapp.desktop:29
 msgctxt "GenericName"
 msgid "Network Drives"
 msgstr "網路硬碟"
 
-#: src/sambamounterapp.desktop:53
+#: src/sambamounterapp.desktop:55
 msgctxt "Comment"
 msgid "Network Samba Drives"
 msgstr "網路 Samba 硬碟"

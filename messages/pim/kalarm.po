@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-23 03:34+0100\n"
+"POT-Creation-Date: 2020-01-26 03:23+0100\n"
 "PO-Revision-Date: 2018-05-19 11:56+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -1873,32 +1873,32 @@ msgctxt "@info"
 msgid "Error saving alarm template"
 msgstr "儲存鬧鐘樣本時發生錯誤"
 
-#: kalarmapp.cpp:430
+#: kalarmapp.cpp:432
 #, kde-kuit-format
 msgctxt "@info:shell"
 msgid "%1: Event <resource>%2</resource> not found, or not unique"
 msgstr "%1：找不到事件 <resource>%2</resource>，或者事件非唯一"
 
-#: kalarmapp.cpp:459
+#: kalarmapp.cpp:464
 #, kde-kuit-format
 msgctxt "@info:shell"
 msgid "%1: Event <resource>%2</resource> not found, or not editable"
 msgstr "%1：找不到事件 <resource>%2</resource>，或者無法編輯"
 
-#: kalarmapp.cpp:717
+#: kalarmapp.cpp:738
 #, kde-format
 msgctxt "@info"
 msgid ""
 "Quitting will disable alarms (once any alarm message windows are closed)."
 msgstr "離開會將所有的鬧鐘關閉。"
 
-#: kalarmapp.cpp:726
+#: kalarmapp.cpp:747
 #, kde-format
 msgctxt "@info"
 msgid "Quitting will cancel the scheduled Wake from Suspend."
 msgstr "離開的話會取消從休眠中喚醒型鬧鐘"
 
-#: kalarmapp.cpp:738
+#: kalarmapp.cpp:759
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1907,7 +1907,7 @@ msgid ""
 msgstr ""
 "您要在登入時啟動 KAlarm 嗎？<nl/>（注意，若 KAlarm 未啟動，鬧鐘都將被關閉）"
 
-#: kalarmapp.cpp:1176
+#: kalarmapp.cpp:1199
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1918,7 +1918,42 @@ msgstr ""
 "無法建立或更新鬧鐘，因為沒有開啟任何可寫入的鬧鐘行事曆。<nl/><nl/>要修正這個"
 "問題，請用<interface>檢視 | 顯示行事曆</interface>來檢查或變更行事曆狀態。"
 
-#: kalarmapp.cpp:2069
+#: kalarmapp.cpp:1241
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Alarms cannot be created or updated, because no writable active alarm "
+#| "calendar is enabled.<nl/><nl/>To fix this, use <interface>View | Show "
+#| "Calendars</interface> to check or change calendar statuses."
+msgctxt "@info"
+msgid ""
+"Alarms are configured to be archived, but this is not possible because no "
+"writable archived alarm calendar is enabled.<nl/><nl/>To fix this, use "
+"<interface>View | Show Calendars</interface> to check or change calendar "
+"statuses."
+msgstr ""
+"無法建立或更新鬧鐘，因為沒有開啟任何可寫入的鬧鐘行事曆。<nl/><nl/>要修正這個"
+"問題，請用<interface>檢視 | 顯示行事曆</interface>來檢查或變更行事曆狀態。"
+
+#: kalarmapp.cpp:1249
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Alarms cannot be created or updated, because no writable active alarm "
+#| "calendar is enabled.<nl/><nl/>To fix this, use <interface>View | Show "
+#| "Calendars</interface> to check or change calendar statuses."
+msgctxt "@info"
+msgid ""
+"Alarms are configured to be archived, but this is not possible because no "
+"archived alarm calendar is set as default.<nl/><nl/>To fix this, use "
+"<interface>View | Show Calendars</interface>, select an archived alarms "
+"calendar, and check <interface>Use as Default for Archived Alarms</"
+"interface>."
+msgstr ""
+"無法建立或更新鬧鐘，因為沒有開啟任何可寫入的鬧鐘行事曆。<nl/><nl/>要修正這個"
+"問題，請用<interface>檢視 | 顯示行事曆</interface>來檢查或變更行事曆狀態。"
+
+#: kalarmapp.cpp:2142
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1928,19 +1963,19 @@ msgstr ""
 "執行指令失敗\n"
 "（指令鬧鐘尚未指定終端）"
 
-#: kalarmapp.cpp:2217
+#: kalarmapp.cpp:2290
 #, kde-format
 msgctxt "@info"
 msgid "Error creating temporary script file"
 msgstr "產生暫時文稿檔案時發生錯誤"
 
-#: kalarmapp.cpp:2306
+#: kalarmapp.cpp:2379
 #, kde-format
 msgctxt "@info"
 msgid "Pre-alarm action:"
 msgstr "鬧鐘響鈴前動作："
 
-#: kalarmapp.cpp:2312
+#: kalarmapp.cpp:2385
 #, kde-format
 msgctxt "@info"
 msgid "Post-alarm action:"
@@ -5656,7 +5691,7 @@ msgctxt "@info"
 msgid "New configuration was corrupt"
 msgstr "新設定已損毀"
 
-#: resources/calendarupdater.cpp:68
+#: resources/calendarupdater.cpp:97
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -5671,7 +5706,7 @@ msgstr ""
 "行事曆 <resource>%1</resource> 是舊的格式（<application>KAlarm</application> "
 "版本 %2），除非您選擇將它更新為目前的格式，否則將會設為唯讀。"
 
-#: resources/calendarupdater.cpp:71
+#: resources/calendarupdater.cpp:100
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -5687,7 +5722,7 @@ msgstr ""
 "<application>KAlarm</application> 格式。除非您選擇將它們更新為目前的格式，否"
 "則將會設為唯讀。"
 
-#: resources/calendarupdater.cpp:74
+#: resources/calendarupdater.cpp:103
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
