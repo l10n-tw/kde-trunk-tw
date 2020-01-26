@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the falkon package.
 #
-# pan93412 <pan93412@gmail.com>, 2018, 2019.
+# pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
 # Jeff Huang <s8321414@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-11-09 19:45+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-01-26 19:00+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Language: zh_TW\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Lokalize 19.08.2\n"
+"X-Generator: Lokalize 19.12.1\n"
 
 #: lib/3rdparty/lineedit.cpp:102
 msgctxt "LineEdit|"
@@ -980,8 +980,7 @@ msgctxt "BookmarksImporter|"
 msgid ""
 "Google Chrome stores its bookmarks in <b>Bookmarks</b> text file. This file "
 "is usually located in"
-msgstr ""
-"Google Chrome 將它的書籤儲存在 <b>Bookmarks</b> 文字檔案。這份檔案通常位於 "
+msgstr "Google Chrome 將它的書籤儲存在 <b>Bookmarks</b> 文字檔案。這份檔案通常位於 "
 
 #: lib/bookmarks/bookmarksimport/chromeimporter.cpp:50
 #: lib/bookmarks/bookmarksimport/firefoximporter.cpp:57
@@ -1028,8 +1027,7 @@ msgctxt "BookmarksImporter|"
 msgid ""
 "You can import bookmarks from any browser that supports HTML exporting. This "
 "file has usually these suffixes"
-msgstr ""
-"您可以從任何支援 HTML 匯出的瀏覽器中來匯入書籤。此檔案通常具有這些後綴名"
+msgstr "您可以從任何支援 HTML 匯出的瀏覽器中來匯入書籤。此檔案通常具有這些後綴名"
 
 #: lib/bookmarks/bookmarksimport/htmlimporter.cpp:43
 msgctxt "BookmarksImporter|"
@@ -1055,8 +1053,7 @@ msgctxt "BookmarksImporter|"
 msgid ""
 "Opera stores its bookmarks in <b>bookmarks.adr</b> text file. This file is "
 "usually located in"
-msgstr ""
-"Opera 將它的書籤儲存在 <b>bookmarks.adr</b> 文字檔案。這份檔案通常位於 "
+msgstr "Opera 將它的書籤儲存在 <b>bookmarks.adr</b> 文字檔案。這份檔案通常位於 "
 
 #: lib/bookmarks/bookmarksimport/operaimporter.cpp:65
 msgctxt "BookmarksImporter|"
@@ -1458,8 +1455,7 @@ msgctxt "CookieManager|"
 msgid ""
 "Cookies from these servers will ALWAYS be accepted (even if you have "
 "disabled saving cookies)"
-msgstr ""
-"來自這些伺服器的 Cookie 「總是」會被接受 (即使您已停用 Cookie 儲存功能)"
+msgstr "來自這些伺服器的 Cookie 「總是」會被接受 (即使您已停用 Cookie 儲存功能)"
 
 #: lib/cookies/cookiemanager.ui:307 lib/cookies/cookiemanager.ui:361
 msgctxt "CookieManager|"
@@ -3596,8 +3592,7 @@ msgstr "移除"
 msgctxt "PluginsList|"
 msgid ""
 "<a href=\"https://store.kde.org/browse/cat/571/\">Get more extensions...</a>"
-msgstr ""
-"<a href=\"https://store.kde.org/browse/cat/571/\">取得更多附加元件…</a>"
+msgstr "<a href=\"https://store.kde.org/browse/cat/571/\">取得更多附加元件…</a>"
 
 #: lib/preferences/pluginsmanager.cpp:197
 msgctxt "PluginsManager|"
@@ -4125,12 +4120,12 @@ msgstr "網頁組態"
 #: lib/preferences/preferences.ui:1011
 msgctxt "Preferences|"
 msgid "Enable Pepper plugin API (PPAPI)"
-msgstr ""
+msgstr "啟用 Pepper 外掛程式 API (PPAPI)"
 
 #: lib/preferences/preferences.ui:1018
 msgctxt "Preferences|"
 msgid "Use built-in PDF viewer (requires PPAPI)"
-msgstr ""
+msgstr "使用內建的 PDF 檢視器（需要 PPAPI）"
 
 #: lib/preferences/preferences.ui:1025
 msgctxt "Preferences|"

@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-21 02:36+0100\n"
-"PO-Revision-Date: 2020-01-16 14:40+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-01-26 18:58+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -1276,13 +1276,13 @@ msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "Dolphin 不支援網頁，已啟動瀏覽器"
 
 #: dolphinviewcontainer.cpp:701
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info:status"
 #| msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgctxt "@info:status"
 msgid ""
 "Protocol not supported by Dolphin, default application has been launched"
-msgstr "此協定未被 Dolphin 支援，已啟動 Konqueror"
+msgstr "此通訊協定不受 Dolphin 支援，已啟動預設應用程式"
 
 #: dolphinviewcontainer.cpp:708
 #, kde-format
@@ -2134,8 +2134,7 @@ msgid ""
 msgid_plural ""
 "One or more files on this device are opened in following applications: "
 "<application>%2</application>."
-msgstr[0] ""
-"裝置上的一或多個檔案會在下述應用程式內開啟：<application>%2</application>。"
+msgstr[0] "裝置上的一或多個檔案會在下述應用程式內開啟：<application>%2</application>。"
 
 #: panels/places/placesitemmodel.cpp:481
 #, kde-format
@@ -2238,8 +2237,7 @@ msgstr "隱藏「%1」部份"
 msgid ""
 "Terminal cannot be shown because Konsole is not installed. Please install it "
 "and then reopen the panel."
-msgstr ""
-"因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
+msgstr "因為 Konsole 尚未安裝，所以終端器無法顯示。請安裝它，再重新開啟這個面板。"
 
 #: panels/terminal/terminalpanel.cpp:164
 #, kde-format
