@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-26 03:17+0100\n"
+"POT-Creation-Date: 2020-01-27 03:18+0100\n"
 "PO-Revision-Date: 2019-09-28 03:06+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -115,7 +115,7 @@ msgstr ""
 msgid "About Ruqola"
 msgstr ""
 
-#: apps/qml/qml/AboutDialog.qml:57 apps/qml/qml/Desktop.qml:94
+#: apps/qml/qml/AboutDialog.qml:57 apps/qml/qml/Desktop.qml:95
 msgid "About"
 msgstr ""
 
@@ -368,27 +368,27 @@ msgstr ""
 msgid "Ruqola"
 msgstr ""
 
-#: apps/qml/qml/Desktop.qml:87
+#: apps/qml/qml/Desktop.qml:88
 msgid "Hello, %1"
 msgstr ""
 
-#: apps/qml/qml/Desktop.qml:101
+#: apps/qml/qml/Desktop.qml:102
 msgid "Report a Bug"
 msgstr ""
 
-#: apps/qml/qml/Desktop.qml:108
+#: apps/qml/qml/Desktop.qml:109
 msgid "Configure Account"
 msgstr ""
 
-#: apps/qml/qml/Desktop.qml:116
+#: apps/qml/qml/Desktop.qml:117
 msgid "Handbook"
 msgstr ""
 
-#: apps/qml/qml/Desktop.qml:126
+#: apps/qml/qml/Desktop.qml:127
 msgid "Log out"
 msgstr ""
 
-#: apps/qml/qml/Desktop.qml:144
+#: apps/qml/qml/Desktop.qml:145
 msgid "Quit"
 msgstr ""
 
@@ -535,7 +535,7 @@ msgid "Snippeted Messages"
 msgstr ""
 
 #: apps/qml/qml/MainComponent.qml:133
-#: apps/qml/qml/ShowDiscussionsInRoomDialog.qml:29 core/model/roommodel.cpp:497
+#: apps/qml/qml/ShowDiscussionsInRoomDialog.qml:29 core/model/roommodel.cpp:498
 msgid "Discussions"
 msgstr ""
 
@@ -747,8 +747,8 @@ msgstr ""
 msgid "(%1)"
 msgstr ""
 
-#: apps/qml/qml/RoomsComponent.qml:36 core/model/roommodel.cpp:495
-#: core/model/roommodel.cpp:500
+#: apps/qml/qml/RoomsComponent.qml:36 core/model/roommodel.cpp:496
+#: core/model/roommodel.cpp:501
 msgid "Rooms"
 msgstr ""
 
@@ -1132,7 +1132,7 @@ msgstr ""
 msgid "Snippered Messages"
 msgstr ""
 
-#: core/model/mentionsmodel.cpp:73 core/model/messagemodel.cpp:240
+#: core/model/mentionsmodel.cpp:73 core/model/messagemodel.cpp:246
 #: core/model/searchmessagemodel.cpp:60
 msgid "Ignored Message"
 msgstr ""
@@ -1182,23 +1182,23 @@ msgstr ""
 msgid "All Messages"
 msgstr ""
 
-#: core/model/roommodel.cpp:477
+#: core/model/roommodel.cpp:478
 msgid "Favorites"
 msgstr ""
 
-#: core/model/roommodel.cpp:483 core/model/roommodel.cpp:488
+#: core/model/roommodel.cpp:484 core/model/roommodel.cpp:489
 msgid "Unread Rooms"
 msgstr ""
 
-#: core/model/roommodel.cpp:485
+#: core/model/roommodel.cpp:486
 msgid "Unread Discussions"
 msgstr ""
 
-#: core/model/roommodel.cpp:490
+#: core/model/roommodel.cpp:491
 msgid "Unread Private Messages"
 msgstr ""
 
-#: core/model/roommodel.cpp:502
+#: core/model/roommodel.cpp:503
 msgid "Private Messages"
 msgstr ""
 
@@ -1680,7 +1680,7 @@ msgstr ""
 msgid "The private group is archived"
 msgstr ""
 
-#: rocketchatrestapi-qt5/users/getavatarjob.cpp:123
+#: rocketchatrestapi-qt5/users/getavatarjob.cpp:122
 msgid "Get Avatar"
 msgstr ""
 
@@ -1760,7 +1760,7 @@ msgstr ""
 msgid "Server Version:"
 msgstr ""
 
-#: widgets/dialogs/showimagedialog.cpp:30
+#: widgets/dialogs/showimagedialog.cpp:31
 msgctxt "@title:window"
 msgid "Display Image"
 msgstr ""
@@ -1792,6 +1792,11 @@ msgstr ""
 
 #: widgets/dialogs/uploadfilewidget.cpp:47
 msgid "File:"
+msgstr ""
+
+#. i18n
+#: widgets/ruqolacentralwidget.cpp:63
+msgid "Job Failed"
 msgstr ""
 
 #: widgets/ruqolaloginwidget.cpp:55

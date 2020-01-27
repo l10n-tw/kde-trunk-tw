@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pan 93412\n"
-"POT-Creation-Date: 2019-10-05 03:22+0200\n"
+"POT-Creation-Date: 2020-01-27 03:38+0100\n"
 "PO-Revision-Date: 2019-12-29 17:02+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -19,23 +19,88 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.12.0\n"
 
-#. type: Plain text
-#: content/_index.md:1 content/about-kate.md:1
-#, no-wrap
-msgid "---\n"
-msgstr "---\n"
+#: config.yaml:0
+msgid "Get Kate"
+msgstr ""
+
+#: config.yaml:0
+msgid "Build It"
+msgstr ""
+
+#: config.yaml:0
+msgid "BLOG"
+msgstr ""
+
+#: config.yaml:0
+msgid "Posts"
+msgstr ""
+
+#: config.yaml:0
+msgid "Categories"
+msgstr ""
+
+#: config.yaml:0
+msgid "Tags"
+msgstr ""
+
+#: config.yaml:0
+msgid "MORE"
+msgstr ""
+
+#: config.yaml:0
+msgid "ABOUT"
+msgstr ""
+
+#: config.yaml:0
+msgid "Features"
+msgstr ""
+
+#: config.yaml:0
+msgid "Get Help"
+msgstr ""
+
+#: config.yaml:0
+msgid "Join Us"
+msgstr ""
+
+#: config.yaml:0
+msgid "Features Articles"
+msgstr ""
+
+#: config.yaml:0
+msgid "KatePart"
+msgstr ""
+
+#: config.yaml:0
+msgid "VI mode"
+msgstr ""
+
+#: config.yaml:0
+msgid "The Team"
+msgstr ""
+
+#: config.yaml:0
+msgid "Syntax Higlighting"
+msgstr ""
+
+#: config.yaml:0
+msgid "Impressum"
+msgstr ""
+
+#: config.yaml:0
+msgid "Kate | Get an Edge in Editing"
+msgstr ""
 
 #. type: Plain text
-#: content/_index.md:4
+#: content/_index.md:3
 #, no-wrap
 msgid ""
-"# Don't translated this string\n"
-"layout: index\n"
+"layout: index # Don't translated this string\n"
 "---\n"
 msgstr ""
 
 #. type: Plain text
-#: content/_index.md:7
+#: content/_index.md:6
 msgid ""
 "Kate is a multi-document editor part of [KDE](https://kde.org) since release "
 "2.2. Being a [KDE applications](https://kde.org/applications), Kate ships "
@@ -47,7 +112,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: content/_index.md:9
+#: content/_index.md:8
 #, fuzzy
 #| msgid ""
 #| "![Screenshot showing Kate window splitting feature and terminal plugin](/"
@@ -59,7 +124,7 @@ msgstr ""
 "![顯示 Kate 視窗分割及終端機外掛程式的螢幕擷取](/images/kate-window.png)"
 
 #. type: Plain text
-#: content/_index.md:12
+#: content/_index.md:11
 #, no-wrap
 msgid ""
 "<div class=\"text-center\">\n"
@@ -68,11 +133,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#: content/about-kate.md:3
+msgid "title: Features"
+msgstr ""
+
+#. type: Plain text
 #: content/about-kate.md:5
-#, no-wrap
+msgid "author: Christoph Cullmann"
+msgstr ""
+
+#. type: Plain text
+#: content/about-kate.md:7
+#, fuzzy, no-wrap
+#| msgid ""
+#| "title: Features\n"
+#| "author: Christoph Cullmann\n"
+#| "date: 2010-07-09T08:40:19+00:00\n"
+#| "---\n"
 msgid ""
-"title: Features\n"
-"author: Christoph Cullmann\n"
 "date: 2010-07-09T08:40:19+00:00\n"
 "---\n"
 msgstr ""
@@ -81,13 +159,15 @@ msgstr ""
 "date: 2010-07-09T08:40:19+00:00\n"
 "---\n"
 
-#. type: Plain text
-#: content/about-kate.md:8
-msgid "## Application Features"
+#. type: Title ##
+#: content/about-kate.md:9
+#, fuzzy, no-wrap
+#| msgid "## Application Features"
+msgid "Application Features"
 msgstr "## 應用程式功能"
 
 #. type: Plain text
-#: content/about-kate.md:10
+#: content/about-kate.md:12
 msgid ""
 "![Screenshot showing Kate window splitting feature and terminal plugin](/"
 "images/kate-window.png)"
@@ -95,223 +175,142 @@ msgstr ""
 "![顯示 Kate 視窗分割及終端機外掛程式的螢幕擷取](/images/kate-window.png)"
 
 #. type: Plain text
-#: content/about-kate.md:12
-msgid ""
-"View and edit multiple documents at the same time, by splitting horizontally "
-"and vertically the window"
-msgstr "透過垂直及水平分割視窗來同時檢視及編輯多個文件"
-
-#. type: Plain text
-#: content/about-kate.md:13
-msgid ""
-"Lot of plugins: [Embedded terminal](https://konsole.kde.org), SQL plugin, "
-"build plugin, GDB plugin, Replace in Files, and more"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:14
-msgid "Multi-document interface (MDI)"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:15
-msgid "Session support"
-msgstr ""
-
-#. type: Plain text
 #: content/about-kate.md:17
-msgid "## General Features"
+msgid ""
+"+ View and edit multiple documents at the same time, by splitting "
+"horizontally and vertically the window + Lot of plugins: [Embedded terminal]"
+"(https://konsole.kde.org), SQL plugin, build plugin, GDB plugin, Replace in "
+"Files, and more + Multi-document interface (MDI)  + Session support"
+msgstr ""
+
+#. type: Title ##
+#: content/about-kate.md:18
+#, no-wrap
+msgid "General Features"
 msgstr ""
 
 #. type: Plain text
-#: content/about-kate.md:19
+#: content/about-kate.md:21
 msgid ""
 "![Screenshot showing Kate search and replace feature](/images/kate-search-"
 "replace.png)"
 msgstr ""
 
 #. type: Plain text
-#: content/about-kate.md:21
-msgid "Encoding support (Unicode and lots of others)"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:22
-msgid "Bi-directional text rendering support"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:23
-msgid "Line ending support (Windows, Unix, Mac), including auto detection"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:24
-msgid "Network transparency (open remote files)"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:25
-msgid "Extensible through scripting"
-msgstr ""
-
-#. type: Plain text
 #: content/about-kate.md:27
-msgid "## Advanced Editor Features"
+msgid ""
+"+ Encoding support (Unicode and lots of others)  + Bi-directional text "
+"rendering support + Line ending support (Windows, Unix, Mac), including auto "
+"detection + Network transparency (open remote files)  + Extensible through "
+"scripting"
+msgstr ""
+
+#. type: Title ##
+#: content/about-kate.md:28
+#, no-wrap
+msgid "Advanced Editor Features"
 msgstr ""
 
 #. type: Plain text
-#: content/about-kate.md:29
+#: content/about-kate.md:31
 msgid ""
 "![Screenshot of Kate border with line number and bookmark](/images/kate-"
 "border.png)"
 msgstr ""
 
 #. type: Plain text
-#: content/about-kate.md:31
-msgid "Bookmarking system (also supported: break points etc.)"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:32
-msgid "Scroll bar marks"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:33
-msgid "Line modification indicators"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:34
-msgid "Line numbers"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:35
-msgid "Code folding"
-msgstr ""
-
-#. type: Plain text
 #: content/about-kate.md:37
-msgid "## Syntax Highlighting"
+msgid ""
+"+ Bookmarking system (also supported: break points etc.)  + Scroll bar marks "
+"+ Line modification indicators + Line numbers + Code folding"
+msgstr ""
+
+#. type: Title ##
+#: content/about-kate.md:38
+#, no-wrap
+msgid "Syntax Highlighting"
 msgstr ""
 
 #. type: Plain text
-#: content/about-kate.md:39
+#: content/about-kate.md:41
 msgid ""
 "![Screenshot of Kate syntax highlighting features](/images/kate-syntax.png)"
 msgstr ""
 
 #. type: Plain text
-#: content/about-kate.md:41
-msgid "Highlighting support for over 300 languages"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:42
-msgid "Bracket matching"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:43
-msgid "Smart on-the-fly spell checking"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:44
-msgid "Highlighting of selected words"
-msgstr ""
-
-#. type: Plain text
 #: content/about-kate.md:46
-msgid "## Programming Features"
+msgid ""
+"+ Highlighting support for over 300 languages + Bracket matching + Smart on-"
+"the-fly spell checking + Highlighting of selected words"
+msgstr ""
+
+#. type: Title ##
+#: content/about-kate.md:47
+#, no-wrap
+msgid "Programming Features"
 msgstr ""
 
 #. type: Plain text
-#: content/about-kate.md:48
+#: content/about-kate.md:50
 msgid ""
 "![Screenshot of Kate programming features](/images/kate-programming.png)"
 msgstr ""
 
 #. type: Plain text
-#: content/about-kate.md:50
-msgid "Scriptable auto indentation"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:51
-msgid "Smart comment and uncomment handling"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:52
-msgid "Auto completion with argument hints"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:53
-msgid "Vi input mode"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:54
-msgid "Rectangular block selection mode"
-msgstr ""
-
-#. type: Plain text
 #: content/about-kate.md:56
-msgid "## Search & Replace"
+msgid ""
+"+ Scriptable auto indentation + Smart comment and uncomment handling + Auto "
+"completion with argument hints + Vi input mode + Rectangular block selection "
+"mode"
+msgstr ""
+
+#. type: Title ##
+#: content/about-kate.md:57
+#, no-wrap
+msgid "Search & Replace"
 msgstr ""
 
 #. type: Plain text
-#: content/about-kate.md:58
+#: content/about-kate.md:60
 msgid ""
 "![Screenshot of Kate incremental search feature](/images/kate-search.png)"
 msgstr ""
 
 #. type: Plain text
-#: content/about-kate.md:60
-msgid "Incremental search, also known as &#8220;find as you type&#8221;"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:61
-msgid "Support for multiline search & replace"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:62
-msgid "Regular expression support"
-msgstr ""
-
-#. type: Plain text
-#: content/about-kate.md:63
-msgid "Search & replace in multiple opened files or files on disk"
-msgstr ""
-
-#. type: Plain text
 #: content/about-kate.md:65
-msgid "## Backup and Restore"
+msgid ""
+"+ Incremental search, also known as &#8220;find as you type&#8221; + Support "
+"for multiline search & replace + Regular expression support + Search & "
+"replace in multiple opened files or files on disk"
+msgstr ""
+
+#. type: Title ##
+#: content/about-kate.md:66
+#, no-wrap
+msgid "Backup and Restore"
 msgstr ""
 
 #. type: Plain text
-#: content/about-kate.md:67
+#: content/about-kate.md:69
 msgid ""
 "![Screenshot of Kate recover from crash feature](/images/kate-crash.png)"
 msgstr ""
 
 #. type: Plain text
-#: content/about-kate.md:69
-msgid "Backups on save"
+#: content/about-kate.md:72
+msgid ""
+"+ Backups on save + Swap files to recover data on system crash + Undo / redo "
+"system"
 msgstr ""
 
-#. type: Plain text
-#: content/about-kate.md:70
-msgid "Swap files to recover data on system crash"
+#: i18n/en.yaml:0
+msgid "Also available in:"
 msgstr ""
 
-#. type: Plain text
-#: content/about-kate.md:70
-msgid "Undo / redo system"
-msgstr ""
+#~ msgid "---\n"
+#~ msgstr "---\n"
+
+#~ msgid ""
+#~ "View and edit multiple documents at the same time, by splitting "
+#~ "horizontally and vertically the window"
+#~ msgstr "透過垂直及水平分割視窗來同時檢視及編輯多個文件"
