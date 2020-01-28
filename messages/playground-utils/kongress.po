@@ -1,0 +1,240 @@
+# Chinese translations for kongress package
+# kongress 套件的正體中文翻譯.
+# Copyright (C) 2020 This file is copyright:
+# This file is distributed under the same license as the kongress package.
+#
+# Automatically generated, 2020.
+# Yi-Jyun Pan <pan93412@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: kongress\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2020-01-28 03:28+0100\n"
+"PO-Revision-Date: 2020-01-29 02:07+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 19.12.1\n"
+
+#: calendarcontroller.cpp:73
+#, kde-format
+msgid "Calendar name contains invalid characters"
+msgstr "行事曆名稱有無效字元"
+
+#: calendarcontroller.cpp:87
+#, kde-format
+msgid "Calendar already exists"
+msgstr "行事曆已存在"
+
+#: calendarcontroller.cpp:211
+#, kde-format
+msgid "The calendar file is not valid"
+msgstr "行事曆檔案無效"
+
+#: calendarcontroller.cpp:220
+#, kde-format
+msgid "The calendar file cannot be saved"
+msgstr "無法儲存行事曆檔案"
+
+#: calendarcontroller.cpp:279
+#, kde-format
+msgid "A calendar with the same name already exists"
+msgstr "已存在同名的行事曆"
+
+#: contents/ui/Conferences.qml:27
+#, kde-format
+msgid "Conferences"
+msgstr ""
+
+#: contents/ui/Conferences.qml:54
+#, kde-format
+msgid "Select"
+msgstr "選擇"
+
+#: contents/ui/EventInfo.qml:48
+#, kde-format
+msgid "Web Page"
+msgstr "網頁"
+
+#: contents/ui/EventInfo.qml:59 contents/ui/EventsCardListView.qml:80
+#: contents/ui/EventsListView.qml:72
+#, kde-format
+msgid "Delete"
+msgstr "刪除"
+
+#: contents/ui/EventInfo.qml:59 contents/ui/EventsCardListView.qml:80
+#: contents/ui/EventsListView.qml:72
+#, kde-format
+msgid "Favorite"
+msgstr "收藏"
+
+#: contents/ui/EventInfo.qml:76 contents/ui/EventsCardListView.qml:95
+#: contents/ui/EventsListView.qml:87
+#, kde-format
+msgid "Added to favorites"
+msgstr "已加入收藏"
+
+#: contents/ui/EventInfo.qml:80 contents/ui/EventsCardListView.qml:99
+#: contents/ui/EventsListView.qml:91
+#, kde-format
+msgid "Already in favorites"
+msgstr "已在收藏"
+
+#: contents/ui/EventsCardListView.qml:45 contents/ui/EventsListView.qml:41
+#, kde-format
+msgid "No events found for %1"
+msgstr "未找到 %1 的活動"
+
+#: contents/ui/EventsCardListView.qml:45 contents/ui/EventsListView.qml:41
+#, kde-format
+msgid "No events found"
+msgstr "未找到活動"
+
+#: contents/ui/EventsCardListView.qml:73 contents/ui/EventsListView.qml:65
+#, kde-format
+msgid "Details"
+msgstr "詳細資訊"
+
+#: contents/ui/Main.qml:41
+#, kde-format
+msgid "Conference"
+msgstr ""
+
+#: contents/ui/Main.qml:47
+#, kde-format
+msgid "Check for updates"
+msgstr "檢查更新"
+
+#: contents/ui/Main.qml:50 contents/ui/Main.qml:198
+#, kde-format
+msgid "Loading conference data"
+msgstr ""
+
+#: contents/ui/Main.qml:59
+#, kde-format
+msgid "Daily Schedule"
+msgstr "每日時間表"
+
+#: contents/ui/Main.qml:65
+#, kde-format
+msgid "Full Schedule"
+msgstr "完整時間表"
+
+#: contents/ui/Main.qml:69 contents/ui/Main.qml:161 contents/ui/Main.qml:199
+#, kde-format
+msgid "Schedule"
+msgstr "時間表"
+
+#: contents/ui/Main.qml:76
+#, kde-format
+msgid "Categories"
+msgstr "分類"
+
+#: contents/ui/Main.qml:81 contents/ui/Main.qml:85
+#, kde-format
+msgid "Favorites"
+msgstr "收藏"
+
+#: contents/ui/Main.qml:90 contents/ui/MapView.qml:33
+#, kde-format
+msgid "Map"
+msgstr "地圖"
+
+#: contents/ui/Main.qml:103
+#, kde-format
+msgid "Change conference"
+msgstr "變更會議"
+
+#: contents/ui/Main.qml:103
+#, kde-format
+msgid "Select conference"
+msgstr "選擇會議"
+
+#: contents/ui/Main.qml:138
+#, kde-format
+msgid "Conference data loaded"
+msgstr "已載入會議資料"
+
+#: contents/ui/MapView.qml:53
+#, kde-format
+msgid "Latitude: %1"
+msgstr "緯度：%1"
+
+#: contents/ui/MapView.qml:59
+#, kde-format
+msgid "Longitude: %1"
+msgstr "經度：%1"
+
+#: contents/ui/MapView.qml:65
+#, kde-format
+msgid "OpenStreetMaps"
+msgstr "OpenStreetMaps"
+
+#: incidencealarmsmodel.cpp:178
+#, kde-format
+msgid "days before start"
+msgstr ""
+
+#: incidencealarmsmodel.cpp:182
+#, kde-format
+msgid "seconds before start"
+msgstr ""
+
+#: incidencealarmsmodel.cpp:228
+#, kde-format
+msgid "At start time"
+msgstr ""
+
+#: incidencealarmsmodel.cpp:232
+#, kde-format
+msgid "1 day before start"
+msgid_plural "%1 days before start"
+msgstr[0] ""
+
+#: incidencealarmsmodel.cpp:237
+#, kde-format
+msgid "1 day"
+msgid_plural "%1 days"
+msgstr[0] "%1 天"
+
+#: incidencealarmsmodel.cpp:239
+#, kde-format
+msgid "1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "%1 時"
+
+#: incidencealarmsmodel.cpp:241
+#, kde-format
+msgid "1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 分"
+
+#: incidencealarmsmodel.cpp:243
+#, kde-format
+msgid "1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 秒"
+
+#: incidencealarmsmodel.cpp:245
+#, kde-format
+msgid "before start"
+msgstr ""
+
+#: localcalendar.cpp:131
+#, kde-format
+msgid "today at %1"
+msgstr ""
+
+#: localcalendar.cpp:136
+#, kde-format
+msgid "yesterday at %1"
+msgstr ""
+
+#: localcalendar.cpp:139
+#, kde-format
+msgid "%1 at %2"
+msgstr ""
