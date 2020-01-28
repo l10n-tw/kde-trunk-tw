@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-27 03:18+0100\n"
+"POT-Creation-Date: 2020-01-28 03:15+0100\n"
 "PO-Revision-Date: 2019-09-28 03:06+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -188,7 +188,7 @@ msgid "Announcement:"
 msgstr ""
 
 #: apps/qml/qml/ChannelInfoDialog.qml:122
-#: widgets/dialogs/uploadfilewidget.cpp:38
+#: widgets/dialogs/uploadfilewidget.cpp:39
 msgid "Description:"
 msgstr ""
 
@@ -435,15 +435,17 @@ msgstr ""
 msgid "License"
 msgstr ""
 
-#: apps/qml/qml/ListMessagesDialogBase.qml:58 widgets/ruqolamainwindow.cpp:120
+#: apps/qml/qml/ListMessagesDialogBase.qml:58 widgets/ruqolamainwindow.cpp:140
 msgid "Search Messages..."
 msgstr ""
 
 #: apps/qml/qml/ListMessagesDialogBase.qml:68
+#: widgets/dialogs/showlistmessagebasewidget.cpp:68
 msgid "No Messages found"
 msgstr ""
 
 #: apps/qml/qml/ListMessagesDialogBase.qml:68
+#: widgets/dialogs/showlistmessagebasewidget.cpp:74
 msgid "%1 Message in room (Total: %2)"
 msgid_plural "%1 Messages in room (Total: %2)"
 msgstr[0] ""
@@ -556,7 +558,7 @@ msgstr ""
 msgid "Take a Video Message"
 msgstr ""
 
-#: apps/qml/qml/MainComponent.qml:175
+#: apps/qml/qml/MainComponent.qml:175 widgets/ruqolamainwindow.cpp:148
 msgid "Load Recent History"
 msgstr ""
 
@@ -734,7 +736,6 @@ msgstr ""
 
 #: apps/qml/qml/ReportMessageDialog.qml:50
 #: widgets/dialogs/reportmessagewidget.cpp:36
-#: widgets/dialogs/uploadfilewidget.cpp:43
 msgid "Message:"
 msgstr ""
 
@@ -786,7 +787,7 @@ msgstr ""
 msgid "Search Channel"
 msgstr ""
 
-#: apps/qml/qml/SearchChannelDialog.qml:56 widgets/ruqolamainwindow.cpp:96
+#: apps/qml/qml/SearchChannelDialog.qml:56 widgets/ruqolamainwindow.cpp:116
 msgid "Search Channel..."
 msgstr ""
 
@@ -795,6 +796,7 @@ msgid "No Channel found"
 msgstr ""
 
 #: apps/qml/qml/SearchLabel.qml:42
+#: widgets/dialogs/showlistmessagebasewidget.cpp:76
 msgid "(Click here for Loading more...)"
 msgstr ""
 
@@ -1698,6 +1700,11 @@ msgctxt "@title:window"
 msgid "Configure Notification"
 msgstr ""
 
+#: widgets/dialogs/configuresettingsdialog.cpp:35
+msgctxt "@title:window"
+msgid "Configure Ruqola"
+msgstr ""
+
 #: widgets/dialogs/createnewaccountdialog.cpp:37
 msgctxt "@title:window"
 msgid "Add Account"
@@ -1740,8 +1747,8 @@ msgstr ""
 msgid "Message Status:"
 msgstr ""
 
-#: widgets/dialogs/reportmessagedialog.cpp:35
-#: widgets/dialogs/searchchanneldialog.cpp:35
+#: widgets/dialogs/reportmessagedialog.cpp:36
+#: widgets/dialogs/searchchanneldialog.cpp:36
 msgctxt "@title:window"
 msgid "Search Channel"
 msgstr ""
@@ -1760,6 +1767,11 @@ msgstr ""
 msgid "Server Version:"
 msgstr ""
 
+#: widgets/dialogs/showattachmentdialog.cpp:37
+msgctxt "@title:window"
+msgid "Show Attachments"
+msgstr ""
+
 #: widgets/dialogs/showimagedialog.cpp:31
 msgctxt "@title:window"
 msgid "Display Image"
@@ -1770,7 +1782,7 @@ msgctxt "@title:window"
 msgid "Show Mentions Messages"
 msgstr ""
 
-#: widgets/dialogs/showpinnedmessagesdialog.cpp:33
+#: widgets/dialogs/showpinnedmessagesdialog.cpp:35
 msgctxt "@title:window"
 msgid "Show Pinned Messages"
 msgstr ""
@@ -1785,12 +1797,12 @@ msgctxt "@title:window"
 msgid "Show Starred Messages"
 msgstr ""
 
-#: widgets/dialogs/uploadfiledialog.cpp:30
+#: widgets/dialogs/uploadfiledialog.cpp:36
 msgctxt "@title:window"
 msgid "Upload File"
 msgstr ""
 
-#: widgets/dialogs/uploadfilewidget.cpp:47
+#: widgets/dialogs/uploadfilewidget.cpp:43
 msgid "File:"
 msgstr ""
 
@@ -1803,34 +1815,42 @@ msgstr ""
 msgid "Login"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:83
+#: widgets/ruqolamainwindow.cpp:103
 msgid "Add Account..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:88
+#: widgets/ruqolamainwindow.cpp:108
 msgid "Server Info..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:92
+#: widgets/ruqolamainwindow.cpp:112
 msgid "Logout"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:100
+#: widgets/ruqolamainwindow.cpp:120
 msgid "Create New Channel..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:104
+#: widgets/ruqolamainwindow.cpp:124
 msgid "Show Mentions..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:108
+#: widgets/ruqolamainwindow.cpp:128
 msgid "Show Pinned Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:112
+#: widgets/ruqolamainwindow.cpp:132
 msgid "Show Starred Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:116
+#: widgets/ruqolamainwindow.cpp:136
 msgid "Show Snippered Messages..."
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:144
+msgid "Configure Notification..."
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:152
+msgid "Show File Attachment..."
 msgstr ""
