@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-16 03:41+0100\n"
+"POT-Creation-Date: 2020-01-29 03:21+0100\n"
 "PO-Revision-Date: 2019-10-11 17:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -29,7 +29,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
 
-#: kcmcursortheme.cpp:75 package/contents/ui/main.qml:150
+#: kcmcursortheme.cpp:75
 #, kde-format
 msgid "Cursors"
 msgstr "游標"
@@ -139,6 +139,11 @@ msgstr "大小："
 msgid "&Install from File..."
 msgstr "從檔案安裝(&I)…"
 
+#: package/contents/ui/main.qml:150
+#, kde-format
+msgid "&Get New Cursors..."
+msgstr "取得新游標(&G)…"
+
 #: package/contents/ui/main.qml:172
 #, kde-format
 msgid "Open Theme"
@@ -166,6 +171,3 @@ msgctxt ""
 "'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
 msgid "(Available sizes: %1)"
 msgstr "（可用大小：%1）"
-
-#~ msgid "&Get New Cursors..."
-#~ msgstr "取得新游標(&G)…"

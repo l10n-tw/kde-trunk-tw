@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-16 03:41+0100\n"
+"POT-Creation-Date: 2020-01-29 03:21+0100\n"
 "PO-Revision-Date: 2018-12-02 19:40+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -67,7 +67,7 @@ msgstr "面板"
 msgid "Dialogs"
 msgstr "對話框"
 
-#: main.cpp:80 package/contents/ui/main.qml:256
+#: main.cpp:80
 #, kde-format
 msgid "Icons"
 msgstr "圖示"
@@ -169,6 +169,11 @@ msgstr "設定圖示大小"
 msgid "Install from File..."
 msgstr "從檔案安裝…"
 
+#: package/contents/ui/main.qml:256
+#, kde-format
+msgid "Get New Icons..."
+msgstr "取得新圖示…"
+
 #: package/contents/ui/main.qml:277
 #, kde-format
 msgid "Open Theme"
@@ -181,6 +186,3 @@ msgstr "主題檔案 (*.tar.gz *.tar.bz2)"
 
 #~ msgid "Download New Icon Themes"
 #~ msgstr "下載新圖示主題"
-
-#~ msgid "Get New Icons..."
-#~ msgstr "取得新圖示…"

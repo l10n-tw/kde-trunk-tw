@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-28 02:36+0100\n"
+"POT-Creation-Date: 2020-01-29 02:39+0100\n"
 "PO-Revision-Date: 2020-01-26 18:59+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -7406,40 +7406,40 @@ msgid ""
 msgstr ""
 "無法載入 WinTab 驅動。如果你的數位板已連結，請確保其驅動程式已正確安裝。"
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:548
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:550
 #, kde-format
 msgid "Autosmooth curve"
 msgstr "自動平滑曲線"
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:559
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:561
 #, kde-format
 msgid "Angle snapping delta:"
 msgstr "角度吸附增量："
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:566
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:568
 #, kde-format
 msgid "Activate angle snap:"
 msgstr "啟動角度吸附："
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:574
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:576
 #, kde-format
 msgid "Angle Constraints"
 msgstr "角度約束"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPrecision)
-#: libs/basicflakes/tools/KoPencilTool.cpp:314
+#: libs/basicflakes/tools/KoPencilTool.cpp:316
 #: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:101
 #, kde-format
 msgid "Precision:"
 msgstr "精度："
 
-#: libs/basicflakes/tools/KoPencilTool.cpp:316
+#: libs/basicflakes/tools/KoPencilTool.cpp:318
 #, kde-format
 msgctxt "The raw line data"
 msgid "Raw"
 msgstr "原始"
 
-#: libs/basicflakes/tools/KoPencilTool.cpp:317
+#: libs/basicflakes/tools/KoPencilTool.cpp:319
 #: libs/flake/KoConnectionShapeConfigWidget.cpp:33
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.cpp:29
 #: plugins/paintops/curvebrush/curve_paintop_plugin.cpp:41
@@ -7447,36 +7447,36 @@ msgstr "原始"
 msgid "Curve"
 msgstr "曲線"
 
-#: libs/basicflakes/tools/KoPencilTool.cpp:318
+#: libs/basicflakes/tools/KoPencilTool.cpp:320
 #: libs/flake/KoConnectionShapeConfigWidget.cpp:32
 #, kde-format
 msgid "Straight"
 msgstr "直線"
 
 #. i18n: ectx: property (text), widget (QCheckBox, optimize)
-#: libs/basicflakes/tools/KoPencilTool.cpp:327
-#: libs/basicflakes/tools/KoPencilTool.cpp:333
+#: libs/basicflakes/tools/KoPencilTool.cpp:329
+#: libs/basicflakes/tools/KoPencilTool.cpp:335
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:234
 #, kde-format
 msgid "Optimize"
 msgstr "最佳化"
 
-#: libs/basicflakes/tools/KoPencilTool.cpp:339
+#: libs/basicflakes/tools/KoPencilTool.cpp:341
 #, kde-format
 msgid "Exactness:"
 msgstr "精度："
 
-#: libs/basicflakes/tools/KoPencilTool.cpp:372
-#: libs/basicflakes/tools/KoPencilTool.cpp:373
+#: libs/basicflakes/tools/KoPencilTool.cpp:374
+#: libs/basicflakes/tools/KoPencilTool.cpp:375
 #, kde-format
 msgid "Pencil"
 msgstr "鉛筆"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeCBox)
-#: libs/basicflakes/tools/KoPencilTool.cpp:378
+#: libs/basicflakes/tools/KoPencilTool.cpp:380
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.cpp:30
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:47
-#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:846
+#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:847
 #, kde-format
 msgid "Line"
 msgstr "線條"
@@ -7568,7 +7568,7 @@ msgstr "變更參數"
 #: libs/flake/commands/KoParameterToPathCommand.cpp:44
 #: libs/flake/commands/KoParameterToPathCommand.cpp:53
 #: libs/flake/tools/KoPathTool.cpp:355
-#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:609
+#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:610
 msgctxt "(qtundo-format)"
 msgid "Convert to Path"
 msgstr "轉成路徑"
@@ -7678,7 +7678,7 @@ msgid "Distribute shapes"
 msgstr "分布形狀"
 
 #: libs/flake/commands/KoShapeGroupCommand.cpp:80
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1091
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1092
 msgctxt "(qtundo-format)"
 msgid "Group shapes"
 msgstr "組合形狀"
@@ -7768,7 +7768,7 @@ msgid "Unclip Shapes"
 msgstr "取消剪貼形狀"
 
 #: libs/flake/commands/KoShapeUngroupCommand.cpp:55
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1119
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1120
 msgctxt "(qtundo-format)"
 msgid "Ungroup shapes"
 msgstr "拆散形狀"
@@ -7857,7 +7857,7 @@ msgid "A connection between two other shapes"
 msgstr "其他兩個形狀之間的聯結"
 
 #: libs/flake/KoMarkerCollection.cpp:81
-#: libs/flake/resources/KoSvgSymbolCollectionResource.cpp:154
+#: libs/flake/resources/KoSvgSymbolCollectionResource.cpp:132
 #: libs/odf/KoOdfReadStore.cpp:133 libs/ui/flake/kis_shape_layer.cc:527
 #, kde-format
 msgid ""
@@ -7894,7 +7894,7 @@ msgstr "活動工具：%1"
 msgid "Embedded svg shape"
 msgstr "內嵌的 SVG 形狀"
 
-#: libs/flake/text/KoSvgTextShape.cpp:589
+#: libs/flake/text/KoSvgTextShape.cpp:581
 #: plugins/flake/textshape/TextShapeFactory.cpp:44
 #: plugins/flake/textshape/TextShapeFactory.cpp:54
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:62
@@ -7903,13 +7903,13 @@ msgstr "內嵌的 SVG 形狀"
 msgid "Text"
 msgstr "文字"
 
+#: libs/flake/text/KoSvgTextShape.cpp:583
 #: libs/flake/text/KoSvgTextShape.cpp:591
-#: libs/flake/text/KoSvgTextShape.cpp:599
 #, kde-format
 msgid "SVG Text Shape"
 msgstr "SVG 文字形狀"
 
-#: libs/flake/text/KoSvgTextShape.cpp:597
+#: libs/flake/text/KoSvgTextShape.cpp:589
 #, kde-format
 msgid "SVG Text"
 msgstr "SVG 文字"
@@ -8829,7 +8829,7 @@ msgstr "內容"
 
 #: libs/image/kis_keyframe_channel.cpp:31
 #: libs/ui/tool/kis_selection_tool_helper.cpp:338
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1672
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1673
 #, kde-format
 msgid "Transform"
 msgstr "變形"
@@ -9101,12 +9101,12 @@ msgstr "非更新時間："
 msgid "Response Time:"
 msgstr "響應時間："
 
-#: libs/image/krita_utils.cpp:349
+#: libs/image/krita_utils.cpp:364
 #, kde-format
 msgid "off"
 msgstr "關閉"
 
-#: libs/image/krita_utils.cpp:349
+#: libs/image/krita_utils.cpp:364
 #, kde-format
 msgid "on"
 msgstr "開"
@@ -11608,10 +11608,10 @@ msgstr "圖層屬性"
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:56
 #: plugins/tools/basictools/kis_tool_colorpicker.cc:282
 #: plugins/tools/defaulttool/connectionTool/ConnectionPointWidget.ui:116
-#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:520
-#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:526
-#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:532
-#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:538
+#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:519
+#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:525
+#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:531
+#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:537
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1214
 #, no-c-format, kde-format
 msgid "%"
@@ -16541,7 +16541,7 @@ msgstr "繪畫工具(&P)"
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:32
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:292
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:161
-#: plugins/tools/karbonplugins/tools/KarbonPatternTool.cpp:306
+#: plugins/tools/karbonplugins/tools/KarbonPatternTool.cpp:308
 #, kde-format
 msgid "Patterns"
 msgstr "圖案"
@@ -17062,37 +17062,37 @@ msgctxt "Auto-generated layer style name for embedded styles (style itself)"
 msgid "<%1> (embedded)"
 msgstr "<%1> (內嵌)"
 
-#: libs/ui/kis_selection_manager.cc:593
+#: libs/ui/kis_selection_manager.cc:592
 #, kde-format
 msgid "Stroked Shapes"
 msgstr "已描邊的形狀"
 
-#: libs/ui/kis_selection_manager.cc:595
+#: libs/ui/kis_selection_manager.cc:594
 msgctxt "(qtundo-format)"
 msgid "Stroke Shapes"
 msgstr "對形狀描邊"
 
-#: libs/ui/kis_selection_manager.cc:707
+#: libs/ui/kis_selection_manager.cc:706
 msgctxt "(qtundo-format)"
 msgid "Select Opaque (Add)"
 msgstr "選擇不透明區域 (新增)"
 
-#: libs/ui/kis_selection_manager.cc:710
+#: libs/ui/kis_selection_manager.cc:709
 msgctxt "(qtundo-format)"
 msgid "Select Opaque (Subtract)"
 msgstr "選擇不透明區域 (減去)"
 
-#: libs/ui/kis_selection_manager.cc:713
+#: libs/ui/kis_selection_manager.cc:712
 msgctxt "(qtundo-format)"
 msgid "Select Opaque (Intersect)"
 msgstr "選擇不透明區域 (相交)"
 
-#: libs/ui/kis_selection_manager.cc:716
+#: libs/ui/kis_selection_manager.cc:715
 msgctxt "(qtundo-format)"
 msgid "Select Opaque (Symmetric Difference)"
 msgstr "選擇不透明區域 (對稱差異)"
 
-#: libs/ui/kis_selection_manager.cc:719
+#: libs/ui/kis_selection_manager.cc:718
 msgctxt "(qtundo-format)"
 msgid "Select Opaque"
 msgstr "選擇不透明區域"
@@ -25875,7 +25875,7 @@ msgstr "操作"
 msgid "CPU Throttle"
 msgstr "CPU 限速"
 
-#: plugins/dockers/touchdocker/TouchDockerDock.cpp:92
+#: plugins/dockers/touchdocker/TouchDockerDock.cpp:93
 #, kde-format
 msgid "Touch Docker"
 msgstr "觸控面板"
@@ -26943,7 +26943,7 @@ msgstr "偏移"
 #: plugins/extensions/offsetimage/wdg_offsetimage.ui:40
 #: plugins/generators/simplexnoise/wdgsimplexnoiseoptions.ui:125
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.ui:31
-#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:522
+#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:521
 #: plugins/tools/karbonplugins/tools/KarbonPatternOptionsWidget.ui:56
 #: plugins/tools/karbonplugins/tools/KarbonPatternOptionsWidget.ui:83
 #, kde-format
@@ -26966,7 +26966,7 @@ msgstr "錨點："
 #: plugins/extensions/offsetimage/wdg_offsetimage.ui:70
 #: plugins/generators/simplexnoise/wdgsimplexnoiseoptions.ui:145
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.ui:95
-#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:528
+#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:527
 #: plugins/tools/karbonplugins/tools/KarbonPatternOptionsWidget.ui:66
 #: plugins/tools/karbonplugins/tools/KarbonPatternOptionsWidget.ui:93
 #, kde-format
@@ -30446,42 +30446,42 @@ msgstr "顯示單行文字的形狀"
 msgid "Artistic Text"
 msgstr "藝術字"
 
-#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:320
+#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:321
 #, kde-format
 msgid "Click to change cursor position."
 msgstr "點擊以變更游標位置。"
 
-#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:322
+#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:323
 #, kde-format
 msgid "Click to select text shape."
 msgstr "點擊以選取文字形狀。"
 
-#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:326
+#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:327
 #, kde-format
 msgid "Double click to put text on path."
 msgstr "雙擊以將文字沿路徑放置。"
 
-#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:329
+#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:330
 #, kde-format
 msgid "Drag handle to change start offset."
 msgstr "拖曳控制柄以調整起點偏移。"
 
-#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:333
+#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:334
 #, kde-format
 msgid "Press escape to finish editing."
 msgstr "按下 Esc 以完成編輯"
 
-#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:514
+#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:515
 #, kde-format
 msgid "Press return to finish editing."
 msgstr "按Enter以完成編輯。"
 
-#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:622
+#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:623
 #, kde-format
 msgid "Text Properties"
 msgstr "文字屬性"
 
-#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:632
+#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:633
 #, kde-format
 msgid "Text On Path"
 msgstr "沿路徑編排文字"
@@ -40396,51 +40396,51 @@ msgstr "編輯模式"
 msgid "Escape Direction"
 msgstr "可超出方向"
 
-#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:779
-#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:792
+#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:780
+#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:793
 #, kde-format
 msgid "Drag to edit connection."
 msgstr "拖曳以編輯連結。"
 
-#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:781
-#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:794
+#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:782
+#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:795
 #, kde-format
 msgid "Double click connection or press delete to remove it."
 msgstr "雙擊連結點或按下 Delete 以移除它。"
 
-#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:784
+#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:785
 #, kde-format
 msgid "Click to edit connection points."
 msgstr "點擊編輯連結點。"
 
-#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:799
+#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:800
 #, kde-format
 msgid ""
 "Drag to move connection point. Double click connection or press delete to "
 "remove it."
 msgstr "拖曳以移動連結點。雙擊連結點或按下 Delete 以移除它。"
 
-#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:801
+#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:802
 #, kde-format
 msgid "Double click connection point or press delete to remove it."
 msgstr "雙擊連結點或按下 Delete 以移除它。"
 
-#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:803
+#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:804
 #, kde-format
 msgid "Double click to add connection point."
 msgstr "雙擊以新增連結點。"
 
-#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:807
+#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:808
 #, kde-format
 msgid "Drag to create new connection."
 msgstr "拖曳以建立新連結。"
 
-#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:835
+#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:836
 #, kde-format
 msgid "Connection"
 msgstr "連結"
 
-#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:850
+#: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:851
 #, kde-format
 msgid "Connection Point"
 msgstr "連結點"
@@ -40450,94 +40450,94 @@ msgstr "連結點"
 msgid "Connect shapes"
 msgstr "連結形狀"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:604
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:605
 #, kde-format
 msgid ""
 "Left click rotates around center, right click around highlighted position."
 msgstr "左鍵點擊繞中心旋轉，右鍵點擊繞高亮顯示的位置旋轉。"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:607
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:608
 #, kde-format
 msgid "Click and drag to shear selection."
 msgstr "點擊並拖曳以切變選取區域。"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:612
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:613
 #, kde-format
 msgid "Click and drag to resize selection."
 msgstr "點擊並拖曳以調整選取區域大小。"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:647
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:648
 #, kde-format
 msgid "Click and drag to move selection."
 msgstr "點擊並拖曳以移動選取區域。"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:651
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:652
 #, kde-format
 msgid ""
 "Click and drag to resize selection. Middle click to set highlighted position."
 msgstr "點擊並拖曳以調整選取區域大小。中鍵點擊以設定高亮顯示的位置。"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:718
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:719
 #, kde-format
 msgid "This tool only works on vector layers. You probably want the move tool."
 msgstr "此工具只適用於向量圖層。要移動顏料圖層，請使用移動工具。"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1153
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1154
 msgctxt "(qtundo-format)"
 msgid "Rotate Object 90° CW"
 msgstr "順時針旋轉物件90°"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1157
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1158
 msgctxt "(qtundo-format)"
 msgid "Rotate Object 90° CCW"
 msgstr "逆時針旋轉物件90°"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1161
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1162
 msgctxt "(qtundo-format)"
 msgid "Rotate Object 180°"
 msgstr "旋轉物件180°"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1165
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1166
 msgctxt "(qtundo-format)"
 msgid "Mirror Object Horizontally"
 msgstr "水平翻轉物件"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1169
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1170
 msgctxt "(qtundo-format)"
 msgid "Mirror Object Vertically"
 msgstr "垂直翻轉物件"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1173
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1174
 msgctxt "(qtundo-format)"
 msgid "Reset Object Transformations"
 msgstr "重設物件變形"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1239
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1240
 msgctxt "(qtundo-format)"
 msgid "Unite Shapes"
 msgstr "結合形狀"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1253
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1254
 msgctxt "(qtundo-format)"
 msgid "Intersect Shapes"
 msgstr "相交形狀"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1263
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1264
 msgctxt "(qtundo-format)"
 msgid "Subtract Shapes"
 msgstr "減去形狀"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1306
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1307
 msgctxt "(qtundo-format)"
 msgid "Split Shapes"
 msgstr "分割形狀"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1669
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1670
 #, kde-format
 msgid "Vector Shape Actions"
 msgstr "向量形狀動作"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1688
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1689
 #, kde-format
 msgid "Logical Operations"
 msgstr "布爾邏輯操作"
@@ -41179,8 +41179,8 @@ msgctxt "action"
 msgid "Calligraphy: decrease angle"
 msgstr "西文書法：減小角度"
 
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:437
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:438
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:439
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyToolFactory.cpp:33
 #, kde-format
 msgid "Calligraphy"
@@ -41218,7 +41218,7 @@ msgstr "請輸入濾鏡效果的名稱"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, FilterEffectEditWidget)
 #: plugins/tools/karbonplugins/tools/filterEffectTool/FilterEffectEditWidget.ui:32
-#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:346
+#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:345
 #, kde-format
 msgid "Filter Effect Editor"
 msgstr "濾鏡效果編輯器"
@@ -41237,7 +41237,7 @@ msgstr "濾鏡預設"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/tools/karbonplugins/tools/filterEffectTool/FilterEffectEditWidget.ui:116
-#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:510
+#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:509
 #, kde-format
 msgid "Effect Properties"
 msgstr "效果屬性"
@@ -41252,41 +41252,41 @@ msgctxt "(qtundo-format)"
 msgid "Set filter stack"
 msgstr "設定濾鏡組"
 
-#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:473
+#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:472
 #, kde-format
 msgid "Effects"
 msgstr "效果"
 
-#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:483
+#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:482
 #, kde-format
 msgid "View and edit filter"
 msgstr "查看和編輯濾鏡"
 
-#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:489
+#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:488
 #, kde-format
 msgid "Remove filter from object"
 msgstr "移除物件濾鏡"
 
-#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:493
+#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:492
 #, kde-format
 msgid "Add Filter"
 msgstr "新增濾鏡"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:534
+#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:533
 #: plugins/tools/karbonplugins/tools/KarbonPatternOptionsWidget.ui:110
 #, kde-format
 msgid "W:"
 msgstr "寬："
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:540
+#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:539
 #: plugins/tools/karbonplugins/tools/KarbonPatternOptionsWidget.ui:120
 #, kde-format
 msgid "H:"
 msgstr "高："
 
-#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:545
+#: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:544
 #, kde-format
 msgid "Effect Region"
 msgstr "效果區域"
@@ -41365,7 +41365,7 @@ msgstr "平鋪偏移"
 msgid "Pattern Size"
 msgstr "圖案大小"
 
-#: plugins/tools/karbonplugins/tools/KarbonPatternTool.cpp:304
+#: plugins/tools/karbonplugins/tools/KarbonPatternTool.cpp:306
 #, kde-format
 msgid "Pattern Options"
 msgstr "圖案選項"
@@ -42398,20 +42398,34 @@ msgstr "套用"
 msgid "Transform Tool Actions"
 msgstr "變形工具動作"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:780
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:759
+#, kde-format
+msgctxt "floating message in transformation tool"
+msgid "Layer type cannot use the transform tool"
+msgstr "圖層類型不支援變形工具"
+
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:766
+#, fuzzy, kde-format
+#| msgctxt "floating message in transformation tool"
+#| msgid "Layer type cannot use the transform tool"
+msgctxt "floating message in transformation tool"
+msgid "Layer type cannot use the transform tool. Use transform mask instead."
+msgstr "圖層類型不支援變形工具"
+
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:788
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Selections are not used when editing transform masks "
 msgstr "編輯變形遮罩時，選取區域不被使用"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:828
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:861
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:836
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:869
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Cannot transform empty layer "
 msgstr "無法對空圖層進行變形操作"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:849
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:857
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid ""
@@ -42805,10 +42819,6 @@ msgstr "堆疊"
 #, kde-format
 msgid "Work Recursively"
 msgstr "以遞迴方式作業"
-
-#~ msgctxt "floating message in transformation tool"
-#~ msgid "Layer type cannot use the transform tool"
-#~ msgstr "圖層類型不支援變形工具"
 
 #~ msgid ""
 #~ "WARNING: This file contains information about your system and the\n"

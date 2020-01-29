@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-05 02:55+0000\n"
+"POT-Creation-Date: 2020-01-29 02:29+0000\n"
 "PO-Revision-Date: 2020-01-03 20:48+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -30,15 +30,34 @@ msgstr ""
 "X-Generator: Lokalize 19.12.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: Categories/deviceinfocategory.desktop:7
+#: Categories/basicinformation.desktop:7
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Device Information"
 msgctxt "Name"
-msgid "Device Information"
+msgid "Basic Information"
 msgstr "裝置資訊"
 
-#: Categories/graphicalinfocategory.desktop:7
+#: Categories/detailedinformation.desktop:7
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Device Information"
 msgctxt "Name"
-msgid "Graphical Information"
-msgstr "圖形資訊"
+msgid "Detailed Information"
+msgstr "裝置資訊"
+
+#: Categories/deviceinfocategory.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "USB Devices"
+msgctxt "Name"
+msgid "Devices"
+msgstr "USB 裝置"
+
+#: Categories/graphicalinfocategory.desktop:8
+msgctxt "Name"
+msgid "Graphics"
+msgstr ""
 
 #: Categories/kinfocentercategory.desktop:4
 msgctxt "Name"
@@ -50,29 +69,29 @@ msgctxt "Name"
 msgid "Lost And Found"
 msgstr "Lost And Found"
 
-#: Categories/networkinfocategory.desktop:7
+#: Categories/networkinfocategory.desktop:8
 msgctxt "Name"
-msgid "Network Information"
-msgstr "網路資訊"
+msgid "Network"
+msgstr ""
 
 #: kcontrol/menus/kinfocenter.directory:3
 msgctxt "Name"
 msgid "Information"
 msgstr "資訊"
 
-#: Modules/about-distro/src/about-distro.desktop:12
+#: Modules/about-distro/src/about-distro.desktop:13
 msgctxt "X-KDE-Keywords"
 msgid "about,info,information,distribution,distro,system,kernel,qt,kde"
 msgstr ""
 "about,info,information,distribution,distro,system,kernel,qt,kde,關於,資訊,信"
 "息,發行版,發行,系統,核心,內核"
 
-#: Modules/about-distro/src/about-distro.desktop:45
+#: Modules/about-distro/src/about-distro.desktop:46
 msgctxt "Name"
 msgid "System Information"
 msgstr "系統資訊"
 
-#: Modules/about-distro/src/about-distro.desktop:76
+#: Modules/about-distro/src/about-distro.desktop:77
 msgctxt "Comment"
 msgid "Information About This System"
 msgstr "關於此系統的資訊"
@@ -94,39 +113,43 @@ msgstr ""
 "device,devices,disk,drive,processor,cpu,裝置,磁碟,硬碟,磁碟機,硬碟機,裝置,設"
 "備,處理器,CPU"
 
-#: Modules/energy/kcm_energyinfo.desktop:9
-#: Modules/energy/package/metadata.desktop:2
+#: Modules/energy/kcm_energyinfo.desktop:10
 msgctxt "Name"
-msgid "Energy Information"
-msgstr "能源資訊"
+msgid "Energy"
+msgstr ""
 
-#: Modules/energy/kcm_energyinfo.desktop:51
+#: Modules/energy/kcm_energyinfo.desktop:52
 msgctxt "Comment"
 msgid "Energy Consumption Statistics"
 msgstr "能源消耗統計"
 
-#: Modules/energy/kcm_energyinfo.desktop:94
+#: Modules/energy/kcm_energyinfo.desktop:95
 msgctxt "X-KDE-Keywords"
 msgid "Battery,Energy,Statistics,History,Power"
 msgstr "Battery,Energy,Statistics,History,Power"
+
+#: Modules/energy/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Energy Information"
+msgstr "能源資訊"
 
 #: Modules/energy/package/metadata.desktop:44
 msgctxt "Comment"
 msgid "Statistics about energy consumption"
 msgstr "關於能源消耗的統計"
 
-#: Modules/fileindexermonitor/kcm_fileindexermonitor.desktop:9
+#: Modules/fileindexermonitor/kcm_fileindexermonitor.desktop:10
 #: Modules/fileindexermonitor/package/metadata.desktop:2
 msgctxt "Name"
 msgid "File Indexer Monitor"
 msgstr "檔案索引器監視器"
 
-#: Modules/fileindexermonitor/kcm_fileindexermonitor.desktop:49
+#: Modules/fileindexermonitor/kcm_fileindexermonitor.desktop:50
 msgctxt "Comment"
 msgid "Monitor State of File Indexer"
 msgstr "監控檔案索引器的狀態"
 
-#: Modules/fileindexermonitor/kcm_fileindexermonitor.desktop:89
+#: Modules/fileindexermonitor/kcm_fileindexermonitor.desktop:90
 msgctxt "X-KDE-Keywords"
 msgid "Baloo,File,Index,Monitor"
 msgstr "Baloo,File,Index,Monitor"
@@ -211,17 +234,17 @@ msgctxt "X-KDE-Keywords"
 msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information"
 msgstr "X,X-Server,XServer,XFree86,Display,VideoCard,System Information"
 
-#: Modules/memory/kcm_memory.desktop:12
+#: Modules/memory/kcm_memory.desktop:13
 msgctxt "Name"
 msgid "Memory"
 msgstr "記憶體"
 
-#: Modules/memory/kcm_memory.desktop:105
+#: Modules/memory/kcm_memory.desktop:106
 msgctxt "Comment"
 msgid "Memory information"
 msgstr "記憶體資訊"
 
-#: Modules/memory/kcm_memory.desktop:196
+#: Modules/memory/kcm_memory.desktop:197
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Memory,RAM,Virtual memory,Physical memory,Shared memory,Swap,System "
@@ -333,3 +356,11 @@ msgstr "資訊中心"
 msgctxt "Comment"
 msgid "Centralized and convenient overview of system information"
 msgstr "集中且方便的系統資訊總覽"
+
+#~ msgctxt "Name"
+#~ msgid "Graphical Information"
+#~ msgstr "圖形資訊"
+
+#~ msgctxt "Name"
+#~ msgid "Network Information"
+#~ msgstr "網路資訊"
