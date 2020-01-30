@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-29 03:01+0100\n"
+"POT-Creation-Date: 2020-01-30 03:18+0100\n"
 "PO-Revision-Date: 2019-09-28 03:06+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -253,11 +253,11 @@ msgstr ""
 msgid "Channel '%1' needs a password"
 msgstr ""
 
-#: apps/qml/qml/ConfigureServerList.qml:94
+#: apps/qml/qml/ConfigureServerList.qml:34
 msgid "Add Account"
 msgstr ""
 
-#: apps/qml/qml/ConfigureServerList.qml:104
+#: apps/qml/qml/ConfigureServerList.qml:40
 msgid "Close"
 msgstr ""
 
@@ -380,15 +380,15 @@ msgstr ""
 msgid "Configure Account"
 msgstr ""
 
-#: apps/qml/qml/Desktop.qml:118
+#: apps/qml/qml/Desktop.qml:115
 msgid "Handbook"
 msgstr ""
 
-#: apps/qml/qml/Desktop.qml:128
+#: apps/qml/qml/Desktop.qml:125
 msgid "Log out"
 msgstr ""
 
-#: apps/qml/qml/Desktop.qml:146
+#: apps/qml/qml/Desktop.qml:143
 msgid "Quit"
 msgstr ""
 
@@ -437,17 +437,18 @@ msgstr ""
 
 #: apps/qml/qml/ListMessagesDialogBase.qml:58
 #: widgets/dialogs/showlistmessagebasewidget.cpp:41
-#: widgets/ruqolamainwindow.cpp:151
+#: widgets/ruqolamainwindow.cpp:162
 msgid "Search Messages..."
 msgstr ""
 
 #: apps/qml/qml/ListMessagesDialogBase.qml:68
-#: widgets/dialogs/showlistmessagebasewidget.cpp:72
+#: widgets/dialogs/showattachmentwidget.cpp:81
+#: widgets/dialogs/showlistmessagebasewidget.cpp:73
 msgid "No Messages found"
 msgstr ""
 
 #: apps/qml/qml/ListMessagesDialogBase.qml:68
-#: widgets/dialogs/showlistmessagebasewidget.cpp:78
+#: widgets/dialogs/showlistmessagebasewidget.cpp:79
 msgid "%1 Message in room (Total: %2)"
 msgid_plural "%1 Messages in room (Total: %2)"
 msgstr[0] ""
@@ -564,7 +565,7 @@ msgstr ""
 msgid "Take a Video Message"
 msgstr ""
 
-#: apps/qml/qml/MainComponent.qml:175 widgets/ruqolamainwindow.cpp:159
+#: apps/qml/qml/MainComponent.qml:175 widgets/ruqolamainwindow.cpp:170
 msgid "Load Recent History"
 msgstr ""
 
@@ -580,14 +581,14 @@ msgstr ""
 msgid "Enter message..."
 msgstr ""
 
-#: apps/qml/qml/messages/AttachmentMessageAudio.qml:80
+#: apps/qml/qml/messages/AttachmentMessageAudio.qml:79
 #: apps/qml/qml/messages/AttachmentMessageVideo.qml:77
 #: core/messages/messageattachment.cpp:152
 msgid "File Uploaded: %1"
 msgstr ""
 
 #: apps/qml/qml/messages/AttachmentMessageImage.qml:68
-#: apps/qml/qml/messages/UserMessage.qml:84
+#: apps/qml/qml/messages/UserMessage.qml:80
 msgid "(edited by %1)"
 msgstr ""
 
@@ -644,6 +645,7 @@ msgid "Copy"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:95
+#: widgets/room/messagelistview.cpp:120
 msgid "Edit"
 msgstr ""
 
@@ -652,6 +654,7 @@ msgid "Reply"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:140
+#: widgets/room/messagelistview.cpp:125
 msgid "Delete"
 msgstr ""
 
@@ -659,7 +662,7 @@ msgstr ""
 msgid "Report Message"
 msgstr ""
 
-#: apps/qml/qml/messages/ThreadLabel.qml:35
+#: apps/qml/qml/messages/ThreadLabel.qml:33
 #: apps/qml/qml/ShowThreadsInRoomDialog.qml:110
 msgid "1 reply"
 msgid_plural "%1 replies"
@@ -758,7 +761,7 @@ msgid "Rooms"
 msgstr ""
 
 #: apps/qml/qml/RoomsComponent.qml:43
-msgid "Open room"
+msgid "Open Room"
 msgstr ""
 
 #: apps/qml/qml/RoomsComponent.qml:50
@@ -778,7 +781,7 @@ msgid "Server Info"
 msgstr ""
 
 #: apps/qml/qml/RoomsComponent.qml:88
-msgid "Search Room..."
+msgid "Search Room... (%1)"
 msgstr ""
 
 #: apps/qml/qml/RoomsComponent.qml:150
@@ -791,7 +794,7 @@ msgstr ""
 msgid "Search Channel"
 msgstr ""
 
-#: apps/qml/qml/SearchChannelDialog.qml:56 widgets/ruqolamainwindow.cpp:127
+#: apps/qml/qml/SearchChannelDialog.qml:56 widgets/ruqolamainwindow.cpp:138
 msgid "Search Channel..."
 msgstr ""
 
@@ -799,8 +802,8 @@ msgstr ""
 msgid "No Channel found"
 msgstr ""
 
-#: apps/qml/qml/SearchLabel.qml:40
-#: widgets/dialogs/showlistmessagebasewidget.cpp:80
+#: apps/qml/qml/SearchLabel.qml:40 widgets/dialogs/showattachmentwidget.cpp:89
+#: widgets/dialogs/showlistmessagebasewidget.cpp:81
 msgid "(Click here for Loading more...)"
 msgstr ""
 
@@ -866,11 +869,11 @@ msgstr[1] ""
 msgid "Search Message"
 msgstr ""
 
-#: apps/qml/qml/ShowSearchMessageDialog.qml:59
+#: apps/qml/qml/ShowSearchMessageDialog.qml:60
 msgid "Search Word... (You can use regular expression as /^text$/i)"
 msgstr ""
 
-#: apps/qml/qml/ShowSearchMessageDialog.qml:68
+#: apps/qml/qml/ShowSearchMessageDialog.qml:70
 msgid "Any string found"
 msgstr ""
 
@@ -1690,10 +1693,6 @@ msgstr ""
 msgid "Get Avatar"
 msgstr ""
 
-#: widgets/accountmenu.cpp:32
-msgid "Account"
-msgstr ""
-
 #: widgets/channellist/channellistwidget.cpp:51
 msgid "Search Rooms (CTRL + K)"
 msgstr ""
@@ -1704,6 +1703,15 @@ msgstr ""
 
 #: widgets/channellist/statuscombobox.cpp:43
 msgid "Modify Status..."
+msgstr ""
+
+#: widgets/configuredialog/configureaccountserverwidget.cpp:70
+msgid "Do you want to remove this account '%1'?"
+msgstr ""
+
+#: widgets/configuredialog/configureaccountserverwidget.cpp:71
+msgctxt "@title:window"
+msgid "Remove Account"
 msgstr ""
 
 #: widgets/configuredialog/configuresettingsdialog.cpp:37
@@ -1796,9 +1804,27 @@ msgstr ""
 msgid "Server Version:"
 msgstr ""
 
-#: widgets/dialogs/showattachmentdialog.cpp:37
+#: widgets/dialogs/showattachmentdialog.cpp:40
 msgctxt "@title:window"
 msgid "Show Attachments"
+msgstr ""
+
+#: widgets/dialogs/showattachmentwidget.cpp:41
+msgid "Search Attachments..."
+msgstr ""
+
+#: widgets/dialogs/showattachmentwidget.cpp:87
+msgid "%1 Attachment in room (Total: %2)"
+msgid_plural "%1 Attachments in room (Total: %2)"
+msgstr[0] ""
+
+#: widgets/dialogs/showdiscussionsdialog.cpp:37
+msgctxt "@title:window"
+msgid "Show Discussions"
+msgstr ""
+
+#: widgets/dialogs/showdiscussionswidget.cpp:41
+msgid "Search Discussion..."
 msgstr ""
 
 #: widgets/dialogs/showimagedialog.cpp:31
@@ -1835,12 +1861,20 @@ msgstr ""
 msgid "File:"
 msgstr ""
 
+#: widgets/misc/accountmenu.cpp:32
+msgid "Account"
+msgstr ""
+
 #: widgets/room/messagedelegatehelperfile.cpp:97
 msgid "Save File"
 msgstr ""
 
 #: widgets/room/messagedelegatehelperimage.cpp:102
 msgid "Save Image"
+msgstr ""
+
+#: widgets/room/readonlylineeditwidget.cpp:33
+msgid "Room is read-only."
 msgstr ""
 
 #. i18n
@@ -1852,42 +1886,50 @@ msgstr ""
 msgid "Login"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:114
+#: widgets/ruqolamainwindow.cpp:125
 msgid "Add Account..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:119
+#: widgets/ruqolamainwindow.cpp:130
 msgid "Server Info..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:123
+#: widgets/ruqolamainwindow.cpp:134
 msgid "Logout"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:131
+#: widgets/ruqolamainwindow.cpp:142
 msgid "Create New Channel..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:135
+#: widgets/ruqolamainwindow.cpp:146
 msgid "Show Mentions..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:139
+#: widgets/ruqolamainwindow.cpp:150
 msgid "Show Pinned Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:143
+#: widgets/ruqolamainwindow.cpp:154
 msgid "Show Starred Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:147
+#: widgets/ruqolamainwindow.cpp:158
 msgid "Show Snippered Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:155
+#: widgets/ruqolamainwindow.cpp:166
 msgid "Configure Notification..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:163
+#: widgets/ruqolamainwindow.cpp:174
 msgid "Show File Attachment..."
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:181
+msgid "Show Discussions..."
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:185
+msgid "Show Threads..."
 msgstr ""

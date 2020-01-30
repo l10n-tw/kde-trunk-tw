@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-21 03:47+0100\n"
+"POT-Creation-Date: 2020-01-30 03:37+0100\n"
 "PO-Revision-Date: 2019-11-03 14:13+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -1489,9 +1489,10 @@ msgid "Check for Updates"
 msgstr "檢查更新"
 
 #: libdiscover/resources/ResourcesUpdatesModel.cpp:108
-#, kde-format
-msgid "Update"
-msgstr "更新"
+#, fuzzy, kde-format
+#| msgid "Offline Updates"
+msgid "View Updates"
+msgstr "離線更新"
 
 #: libdiscover/Transaction/Transaction.cpp:148
 #, kde-format
@@ -1570,3 +1571,6 @@ msgstr "系統更新"
 msgctxt "@item:inlistbox"
 msgid "Addons"
 msgstr "附加功能"
+
+#~ msgid "Update"
+#~ msgstr "更新"

@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-06 03:32+0100\n"
+"POT-Creation-Date: 2020-01-30 03:37+0100\n"
 "PO-Revision-Date: 2019-12-29 17:01+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -863,19 +863,19 @@ msgctxt ""
 msgid "What I was doing when the application \"%1\" crashed"
 msgstr "應用程式 %1 發生錯誤時，我正在做什麼"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:157
+#: bugzillaintegration/reportassistantpages_base.cpp:163
 #, kde-format
 msgctxt "@label examples about information the user can provide"
 msgid "Examples: %1"
 msgstr "範例：%1"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:213
+#: bugzillaintegration/reportassistantpages_base.cpp:219
 #, kde-format
 msgctxt "@action:button"
 msgid "&Show Contents of the Report"
 msgstr "顯示報告的內容(&S)"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:215
+#: bugzillaintegration/reportassistantpages_base.cpp:221
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:670
 #, kde-format
 msgctxt "@info:tooltip"
@@ -883,13 +883,13 @@ msgid ""
 "Use this button to show the generated report information about this crash."
 msgstr "用此按鍵可以顯示針對此錯誤所產生的報告。"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:273
+#: bugzillaintegration/reportassistantpages_base.cpp:279
 #, kde-format
 msgctxt "@info"
 msgid "The automatically generated crash information is useful."
 msgstr "自動產生的錯誤資訊很有用。"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:278
+#: bugzillaintegration/reportassistantpages_base.cpp:284
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -897,7 +897,7 @@ msgid ""
 "still be useful."
 msgstr "自動產生的錯誤資訊仍然缺少一些詳情，不過應該還 OK。"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:285
+#: bugzillaintegration/reportassistantpages_base.cpp:291
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -905,13 +905,13 @@ msgid ""
 "is probably not helpful."
 msgstr "自動產生的錯誤資訊缺少一些重要的詳情，可能不太有用。"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:295
+#: bugzillaintegration/reportassistantpages_base.cpp:301
 #, kde-format
 msgctxt "@info"
 msgid "The crash information was not generated because it was not needed."
 msgstr "未產生錯誤資訊，因為不需要。"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:299
+#: bugzillaintegration/reportassistantpages_base.cpp:305
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -919,7 +919,7 @@ msgid ""
 "information to be helpful."
 msgstr "自動產生的錯誤資訊不夠詳細，可能沒有什麼幫助。"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:302
+#: bugzillaintegration/reportassistantpages_base.cpp:308
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -930,13 +930,13 @@ msgstr ""
 "<note>您可以安裝一些除錯軟體包，並重新載入錯誤資訊頁面。您可以點擊"
 "「<interface>說明</interface>」來閱讀錯誤回報導覽。</note>"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:316
+#: bugzillaintegration/reportassistantpages_base.cpp:322
 #, kde-format
 msgctxt "@info"
 msgid "The information you can provide could be considered helpful."
 msgstr "您提供的資訊被認為是有用的。"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:319
+#: bugzillaintegration/reportassistantpages_base.cpp:325
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -944,19 +944,19 @@ msgid ""
 "case."
 msgstr "您提供的資訊被認為太足夠。"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:324
+#: bugzillaintegration/reportassistantpages_base.cpp:330
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Your problem has already been reported as bug %1."
 msgstr "您的錯誤狀況已經被回報為錯誤報告 %1。"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:336
+#: bugzillaintegration/reportassistantpages_base.cpp:342
 #, kde-format
 msgctxt "@info"
 msgid "This report is considered helpful."
 msgstr "此報告有助於開發者除錯。"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:341
+#: bugzillaintegration/reportassistantpages_base.cpp:347
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -967,7 +967,7 @@ msgstr ""
 "此應用程式的錯誤已回報到 KDE 的錯誤回報系統：點擊「<interface>下一步</"
 "interface>」可以開始報告程序。您可以手動在 <link>%1</link> 報告。"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:352
+#: bugzillaintegration/reportassistantpages_base.cpp:358
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -978,7 +978,7 @@ msgstr ""
 "KDE 錯誤回報系統中並未支援此應用程式：點擊「<interface>完成</interface>」將此"
 "錯誤回報給開發者。您也可以手動在 <link>%1</link> 報告。"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:367
+#: bugzillaintegration/reportassistantpages_base.cpp:373
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -986,13 +986,13 @@ msgid ""
 "automated bug reporting process is not enabled for this crash."
 msgstr "此報告可能無助於開發者除錯，因此不會自動將報告送出。"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:370
+#: bugzillaintegration/reportassistantpages_base.cpp:376
 #, kde-format
 msgctxt "@info"
 msgid "If you wish, you can go back and change your answers. "
 msgstr "若您想要的話，您可以回到之前的問題重新回答。"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:379
+#: bugzillaintegration/reportassistantpages_base.cpp:385
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1002,7 +1002,7 @@ msgstr ""
 "您可以手動在 <link>%1</link> 回報此問題。點擊「<interface>完成</interface>」"
 "來關閉此小助手。"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:385
+#: bugzillaintegration/reportassistantpages_base.cpp:391
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1012,25 +1012,25 @@ msgstr ""
 "您可以手動在 <link>%1</link> 回報此問題。點擊「<interface>完成</interface>」"
 "來關閉此小助手。"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:406
+#: bugzillaintegration/reportassistantpages_base.cpp:412
 #, kde-format
 msgctxt "@info report to url/mail address"
 msgid "Report to %1"
 msgstr "回報給 %1"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:429
+#: bugzillaintegration/reportassistantpages_base.cpp:435
 #, kde-format
 msgctxt "@title:window"
 msgid "Contents of the Report"
 msgstr "報告內容"
 
-#: bugzillaintegration/reportassistantpages_base.cpp:435
+#: bugzillaintegration/reportassistantpages_base.cpp:441
 #, kde-format
 msgctxt "@action:button"
 msgid "&Save to File..."
 msgstr "存入檔案(&S)..."
 
-#: bugzillaintegration/reportassistantpages_base.cpp:437
+#: bugzillaintegration/reportassistantpages_base.cpp:443
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""

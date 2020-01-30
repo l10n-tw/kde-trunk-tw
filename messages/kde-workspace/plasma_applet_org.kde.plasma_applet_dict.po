@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeplasma-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:24+0200\n"
+"POT-Creation-Date: 2020-01-30 03:38+0100\n"
 "PO-Revision-Date: 2019-01-04 21:32+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 18.12.0\n"
 
-#: package/contents/config/config.qml:7
+#: package/contents/config/config.qml:25
 #, kde-format
 msgctxt "@title"
 msgid "Dictionaries"
@@ -29,12 +29,12 @@ msgctxt "@label:listbox"
 msgid "Available dictionaries:"
 msgstr "可用的字典："
 
-#: package/contents/ui/main.qml:14
+#: package/contents/ui/main.qml:32
 #, kde-format
 msgid "Looking up definition..."
 msgstr "正在查詢定義…"
 
-#: package/contents/ui/main.qml:22
+#: package/contents/ui/main.qml:40
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Enter word to define here"

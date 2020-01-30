@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keysmith\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-29 02:45+0100\n"
+"POT-Creation-Date: 2020-01-30 02:48+0100\n"
 "PO-Revision-Date: 2020-01-01 16:44+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -20,23 +20,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.12.0\n"
 
-#: src/contents/ui/main.qml:42 src/contents/ui/main.qml:145
-#, kde-format
-msgid "Add"
-msgstr "加入"
-
-#: src/contents/ui/main.qml:54
-#, kde-format
-msgid "OTP"
-msgstr "OTP"
-
-#: src/contents/ui/main.qml:77
+#: src/contents/ui/AccountEntryView.qml:55
 #, kde-format
 msgctxt "placeholder text if no account name is available"
 msgid "(untitled)"
 msgstr ""
 
-#: src/contents/ui/main.qml:81
+#: src/contents/ui/AccountEntryView.qml:62
 #, fuzzy, kde-format
 #| msgctxt "%1 is current counter numerical value"
 #| msgid "Refresh (%1)"
@@ -44,19 +34,26 @@ msgctxt "placeholder text if no token is available"
 msgid "(refresh)"
 msgstr "重新整理 (%1)"
 
-#: src/contents/ui/main.qml:87
+#: src/contents/ui/main.qml:42 src/contents/ui/main.qml:84
 #, kde-format
-msgctxt "%1 is current counter numerical value"
-msgid "Refresh (%1)"
-msgstr "重新整理 (%1)"
+msgid "Add"
+msgstr "加入"
 
-#: src/contents/ui/main.qml:143
+#: src/contents/ui/main.qml:61
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Account Details"
+msgctxt "@title:window"
+msgid "Accounts"
+msgstr "帳戶詳細資訊"
+
+#: src/contents/ui/main.qml:82
 #, kde-format
 msgctxt "@title:window"
 msgid "Add new account"
 msgstr "新增帳戶"
 
-#: src/contents/ui/main.qml:170
+#: src/contents/ui/main.qml:109
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Account Name:"
@@ -110,6 +107,13 @@ msgctxt "@title"
 msgid "Keysmith"
 msgstr "Keysmith"
 
+#~ msgid "OTP"
+#~ msgstr "OTP"
+
+#~ msgctxt "%1 is current counter numerical value"
+#~ msgid "Refresh (%1)"
+#~ msgstr "重新整理 (%1)"
+
 #~ msgid "Show"
 #~ msgstr "顯示"
 
@@ -125,10 +129,6 @@ msgstr "Keysmith"
 
 #~ msgid "Edit"
 #~ msgstr "編輯"
-
-#~ msgctxt "@title:window"
-#~ msgid "Account Details"
-#~ msgstr "帳戶詳細資訊"
 
 #~ msgctxt "Text shown when no accounts are added"
 #~ msgid "No account set up. Use the Add button to add accounts."
