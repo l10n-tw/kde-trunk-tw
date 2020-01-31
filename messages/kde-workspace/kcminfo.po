@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminfo\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-24 03:45+0100\n"
+"POT-Creation-Date: 2020-01-31 03:37+0100\n"
 "PO-Revision-Date: 2017-06-29 21:05+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -34,26 +34,6 @@ msgstr "Sheng-Hung Wang, Jeff Huang"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "gentamicin5@yahoo.com.tw, s8321414@gmail.com"
-
-#: ../base/info_aix.cpp:68 ../base/info_wayland.cpp:88
-#, kde-format
-msgid "Name"
-msgstr "名稱"
-
-#: ../base/info_aix.cpp:69
-#, kde-format
-msgid "Status"
-msgstr "狀態"
-
-#: ../base/info_aix.cpp:70
-#, kde-format
-msgid "Location"
-msgstr "位置"
-
-#: ../base/info_aix.cpp:71
-#, kde-format
-msgid "Description"
-msgstr "描述"
 
 #: ../base/info_fbsd.cpp:89
 #, kde-format
@@ -76,16 +56,6 @@ msgstr "無法查詢 PCI 子系統：%1 無法執行"
 #, kde-format
 msgid "The PCI subsystem could not be queried, this may need root privileges."
 msgstr "無法查詢 PCI 子系統，可能需要 root 權限。"
-
-#: ../base/info_hpux.cpp:128
-#, kde-format
-msgid "PA-RISC Processor"
-msgstr "PA-RISC 處理器"
-
-#: ../base/info_hpux.cpp:130
-#, kde-format
-msgid "PA-RISC Revision"
-msgstr "PA-RISC 版本"
 
 #: ../base/info_linux.cpp:102 main.cpp:51
 #, kde-format
@@ -156,6 +126,11 @@ msgstr "介面版本"
 #, kde-format
 msgid "Seat"
 msgstr "座位"
+
+#: ../base/info_wayland.cpp:88
+#, kde-format
+msgid "Name"
+msgstr "名稱"
 
 #: ../base/info_wayland.cpp:94
 #, kde-format
@@ -551,9 +526,8 @@ msgstr "補齊"
 msgid "Image Byte Order"
 msgstr "影像位元組順序"
 
-#: ../base/os_current.h:57 ../base/os_current.h:66 ../base/os_current.h:86
-#: ../base/os_current.h:95 ../base/os_current.h:104 ../base/os_current.h:114
-#: ../base/os_current.h:123 ../base/os_current.h:132
+#: ../base/os_current.h:56 ../base/os_current.h:65 ../base/os_current.h:74
+#: ../base/os_current.h:83
 #, kde-format
 msgid "This system may not be completely supported yet."
 msgstr "此系統可能尚未完全支援。"
@@ -619,3 +593,18 @@ msgstr "X 伺服器"
 #, kde-format
 msgid "Wayland"
 msgstr "Wayland"
+
+#~ msgid "Status"
+#~ msgstr "狀態"
+
+#~ msgid "Location"
+#~ msgstr "位置"
+
+#~ msgid "Description"
+#~ msgstr "描述"
+
+#~ msgid "PA-RISC Processor"
+#~ msgstr "PA-RISC 處理器"
+
+#~ msgid "PA-RISC Revision"
+#~ msgstr "PA-RISC 版本"

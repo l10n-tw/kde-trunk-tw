@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-18 02:36+0100\n"
+"POT-Creation-Date: 2020-01-31 02:32+0100\n"
 "PO-Revision-Date: 2020-01-16 14:40+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -1534,27 +1534,27 @@ msgstr "偵測靜止的下限值："
 msgid "The threshold for continuous silence to be detected by Konsole"
 msgstr "Konsole 偵測無動作多久時間視為靜止"
 
-#: Filter.cpp:489
+#: Filter.cpp:476
 #, kde-format
 msgid "Open Link"
 msgstr "開啟連結"
 
-#: Filter.cpp:491
+#: Filter.cpp:478
 #, kde-format
 msgid "Copy Link Address"
 msgstr "複製連結位址"
 
-#: Filter.cpp:494
+#: Filter.cpp:481
 #, kde-format
 msgid "Send Email To..."
 msgstr "傳送電子郵件到..."
 
-#: Filter.cpp:496
+#: Filter.cpp:483
 #, kde-format
 msgid "Copy Email Address"
 msgstr "複製電子郵件地址"
 
-#: Filter.cpp:635
+#: Filter.cpp:614
 #, kde-format
 msgid "Open File"
 msgstr "開啟檔案"
@@ -1828,158 +1828,158 @@ msgstr "輸入："
 msgid "Output:"
 msgstr "輸出："
 
-#: main.cpp:139
+#: main.cpp:137
 #, kde-format
 msgctxt "@title"
 msgid "Konsole"
 msgstr "Konsole"
 
-#: main.cpp:141
+#: main.cpp:139
 #, kde-format
 msgctxt "@title"
 msgid "Terminal emulator"
 msgstr "終端機模擬程式"
 
-#: main.cpp:143
+#: main.cpp:141
 #, kde-format
 msgctxt "@info:credit"
 msgid "(c) 1997-2020, The Konsole Developers"
 msgstr "(c) 1997-2020, Konsole 開發團隊"
 
-#: main.cpp:310
+#: main.cpp:312
 #, kde-format
 msgctxt "@info:credit"
 msgid "Kurt Hindenburg"
 msgstr "Kurt Hindenburg"
 
-#: main.cpp:311
+#: main.cpp:313
 #, kde-format
 msgctxt "@info:credit"
 msgid "General maintainer, bug fixes and general improvements"
 msgstr "一般維護者，錯誤修正與一般改進"
 
-#: main.cpp:314
+#: main.cpp:316
 #, kde-format
 msgctxt "@info:credit"
 msgid "Robert Knight"
 msgstr "Robert Knight"
 
-#: main.cpp:315
+#: main.cpp:317
 #, kde-format
 msgctxt "@info:credit"
 msgid "Previous maintainer, ported to KDE4"
 msgstr "前任維護者，移植到 KDE4"
 
-#: main.cpp:317
+#: main.cpp:319
 #, kde-format
 msgctxt "@info:credit"
 msgid "Lars Doelle"
 msgstr "Lars Doelle"
 
-#: main.cpp:318
+#: main.cpp:320
 #, kde-format
 msgctxt "@info:credit"
 msgid "Original author"
 msgstr "原始作者"
 
-#: main.cpp:320
+#: main.cpp:322
 #, kde-format
 msgctxt "@info:credit"
 msgid "Jekyll Wu"
 msgstr "Jekyll Wu"
 
-#: main.cpp:321 main.cpp:324 main.cpp:327
+#: main.cpp:323 main.cpp:326 main.cpp:329
 #, kde-format
 msgctxt "@info:credit"
 msgid "Bug fixes and general improvements"
 msgstr "錯誤修正與一般改進"
 
-#: main.cpp:323
+#: main.cpp:325
 #, kde-format
 msgctxt "@info:credit"
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: main.cpp:326
+#: main.cpp:328
 #, kde-format
 msgctxt "@info:credit"
 msgid "Stephan Binner"
 msgstr "Stephan Binner"
 
-#: main.cpp:329
+#: main.cpp:331
 #, kde-format
 msgctxt "@info:credit"
 msgid "Thomas Dreibholz"
 msgstr "Thomas Dreibholz"
 
-#: main.cpp:330
+#: main.cpp:332
 #, kde-format
 msgctxt "@info:credit"
 msgid "General improvements"
 msgstr "一般改進"
 
-#: main.cpp:332
+#: main.cpp:334
 #, kde-format
 msgctxt "@info:credit"
 msgid "Chris Machemer"
 msgstr "Chris Machemer"
 
-#: main.cpp:333 main.cpp:336 main.cpp:372 main.cpp:375 main.cpp:378
-#: main.cpp:381
+#: main.cpp:335 main.cpp:338 main.cpp:374 main.cpp:377 main.cpp:380
+#: main.cpp:383
 #, kde-format
 msgctxt "@info:credit"
 msgid "Bug fixes"
 msgstr "錯誤修正"
 
-#: main.cpp:335
+#: main.cpp:337
 #, kde-format
 msgctxt "@info:credit"
 msgid "Francesco Cecconi"
 msgstr "Francesco Cecconi"
 
-#: main.cpp:338
+#: main.cpp:340
 #, kde-format
 msgctxt "@info:credit"
 msgid "Stephan Kulow"
 msgstr "Stephan Kulow"
 
-#: main.cpp:339
+#: main.cpp:341
 #, kde-format
 msgctxt "@info:credit"
 msgid "Solaris support and history"
 msgstr "支援 Solaris 和歷史紀錄"
 
-#: main.cpp:341
+#: main.cpp:343
 #, kde-format
 msgctxt "@info:credit"
 msgid "Alexander Neundorf"
 msgstr "Alexander Neundorf"
 
-#: main.cpp:342
+#: main.cpp:344
 #, kde-format
 msgctxt "@info:credit"
 msgid "Bug fixes and improved startup performance"
 msgstr "錯誤修正與啟動效能改進"
 
-#: main.cpp:344
+#: main.cpp:346
 #, kde-format
 msgctxt "@info:credit"
 msgid "Peter Silva"
 msgstr "Peter Silva"
 
-#: main.cpp:345
+#: main.cpp:347
 #, kde-format
 msgctxt "@info:credit"
 msgid "Marking improvements"
 msgstr "標記改進"
 
-#: main.cpp:347
+#: main.cpp:349
 #, kde-format
 msgctxt "@info:credit"
 msgid "Lotzi Boloni"
 msgstr "Lotzi Boloni"
 
-#: main.cpp:348
+#: main.cpp:350
 #, kde-format
 msgctxt "@info:credit"
 msgid ""
@@ -1989,13 +1989,13 @@ msgstr ""
 "嵌入式 Konsole\n"
 "工作列和工作階段名稱"
 
-#: main.cpp:351
+#: main.cpp:353
 #, kde-format
 msgctxt "@info:credit"
 msgid "David Faure"
 msgstr "David Faure"
 
-#: main.cpp:352
+#: main.cpp:354
 #, kde-format
 msgctxt "@info:credit"
 msgid ""
@@ -2005,25 +2005,25 @@ msgstr ""
 "嵌入式 Konsole\n"
 "一般改進"
 
-#: main.cpp:355
+#: main.cpp:357
 #, kde-format
 msgctxt "@info:credit"
 msgid "Antonio Larrosa"
 msgstr "Antonio Larrosa"
 
-#: main.cpp:356
+#: main.cpp:358
 #, kde-format
 msgctxt "@info:credit"
 msgid "Visual effects"
 msgstr "視覺效果"
 
-#: main.cpp:358
+#: main.cpp:360
 #, kde-format
 msgctxt "@info:credit"
 msgid "Matthias Ettrich"
 msgstr "Matthias Ettrich"
 
-#: main.cpp:359
+#: main.cpp:361
 #, kde-format
 msgctxt "@info:credit"
 msgid ""
@@ -2033,67 +2033,67 @@ msgstr ""
 "從 kvt 專案移植源碼\n"
 "一般改進"
 
-#: main.cpp:362
+#: main.cpp:364
 #, kde-format
 msgctxt "@info:credit"
 msgid "Warwick Allison"
 msgstr "Warwick Allison"
 
-#: main.cpp:363
+#: main.cpp:365
 #, kde-format
 msgctxt "@info:credit"
 msgid "Schema and text selection improvements"
 msgstr "架構和文字選擇改進"
 
-#: main.cpp:365
+#: main.cpp:367
 #, kde-format
 msgctxt "@info:credit"
 msgid "Dan Pilone"
 msgstr "Dan Pilone"
 
-#: main.cpp:366
+#: main.cpp:368
 #, kde-format
 msgctxt "@info:credit"
 msgid "SGI port"
 msgstr "SGI 移植"
 
-#: main.cpp:368
+#: main.cpp:370
 #, kde-format
 msgctxt "@info:credit"
 msgid "Kevin Street"
 msgstr "Kevin Street"
 
-#: main.cpp:369
+#: main.cpp:371
 #, kde-format
 msgctxt "@info:credit"
 msgid "FreeBSD port"
 msgstr "FreeBSD 移植"
 
-#: main.cpp:371
+#: main.cpp:373
 #, kde-format
 msgctxt "@info:credit"
 msgid "Sven Fischer"
 msgstr "Sven Fischer"
 
-#: main.cpp:374
+#: main.cpp:376
 #, kde-format
 msgctxt "@info:credit"
 msgid "Dale M. Flaven"
 msgstr "Dale M. Flaven"
 
-#: main.cpp:377
+#: main.cpp:379
 #, kde-format
 msgctxt "@info:credit"
 msgid "Martin Jones"
 msgstr "Martin Jones"
 
-#: main.cpp:380
+#: main.cpp:382
 #, kde-format
 msgctxt "@info:credit"
 msgid "Lars Knoll"
 msgstr "Lars Knoll"
 
-#: main.cpp:383
+#: main.cpp:385
 #, kde-format
 msgctxt "@info:credit"
 msgid "Thanks to many others.\n"
@@ -2682,12 +2682,12 @@ msgstr "程式 %1 正在此工作階段中執行。您確定要將它強制關�
 msgid "Print Shell"
 msgstr "列印 Shell"
 
-#: SessionController.cpp:1764
+#: SessionController.cpp:1769
 #, kde-format
 msgid "Save ZModem Download to..."
 msgstr "儲存 ZModem 下載檔到..."
 
-#: SessionController.cpp:1774
+#: SessionController.cpp:1779
 #, kde-format
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
@@ -2697,13 +2697,13 @@ msgstr ""
 "<p>偵測到要使用 ZModem 做檔案傳輸，但是此系統上找不到適合的 ZModem 軟體。</"
 "p><p>您可能需要安裝 rzsz 或 lrzsz 等軟體包。</p>"
 
-#: SessionController.cpp:1785
+#: SessionController.cpp:1790
 #, kde-format
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>目前的工作階段已經有一個 ZModem 檔案傳輸在進行中。</p>"
 
-#: SessionController.cpp:1795
+#: SessionController.cpp:1800
 #, kde-format
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
@@ -2712,7 +2712,7 @@ msgstr ""
 "<p>此系統上找不到適合的 ZModem 軟體。</p><p>您可能需要安裝 rzsz 或 lrzsz 等軟"
 "體包。</p>"
 
-#: SessionController.cpp:1801
+#: SessionController.cpp:1806
 #, kde-format
 msgid "Select Files for ZModem Upload"
 msgstr "選擇要用 ZModem 上傳的檔案"
@@ -3369,99 +3369,99 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "插入遠端標題格式"
 
-#: TerminalDisplay.cpp:1265 TerminalDisplay.cpp:1266
+#: TerminalDisplay.cpp:1266 TerminalDisplay.cpp:1267
 #, kde-format
 msgid "Size: XXX x XXX"
 msgstr "大小: XXX x XXX"
 
-#: TerminalDisplay.cpp:1277
+#: TerminalDisplay.cpp:1278
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "大小: %1 x %2"
 
-#: TerminalDisplay.cpp:3155
+#: TerminalDisplay.cpp:3154
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] "您確定要貼上這 %1 個字元嗎？"
 
-#: TerminalDisplay.cpp:3158
+#: TerminalDisplay.cpp:3157
 #, kde-format
 msgid "Confirm Paste"
 msgstr "確認貼上"
 
-#: TerminalDisplay.cpp:3190
+#: TerminalDisplay.cpp:3189
 #, kde-format
 msgid "End Of Text/Interrupt: may exit the current process"
 msgstr "文字結尾/中止：可能會退出目前程序"
 
-#: TerminalDisplay.cpp:3191
+#: TerminalDisplay.cpp:3190
 #, kde-format
 msgid "End Of Transmission: may exit the current process"
 msgstr "傳輸結尾：可能會退出目前程序"
 
-#: TerminalDisplay.cpp:3192
+#: TerminalDisplay.cpp:3191
 #, kde-format
 msgid "Bell: will try to emit an audible warning"
 msgstr "鈴響 (Bell)：將嘗試發出聲音警告"
 
-#: TerminalDisplay.cpp:3193
+#: TerminalDisplay.cpp:3192
 #, kde-format
 msgid "Backspace"
 msgstr "Backspace 鍵"
 
-#: TerminalDisplay.cpp:3194
+#: TerminalDisplay.cpp:3193
 #, kde-format
 msgid "Device Control Three/XOFF: suspends output"
 msgstr "裝置控制 3 / XOFF: 暫停輸出"
 
-#: TerminalDisplay.cpp:3195
+#: TerminalDisplay.cpp:3194
 #, kde-format
 msgid "Substitute/Suspend: may suspend current process"
 msgstr "替代字元/暫停：可能會暫停目前程序"
 
-#: TerminalDisplay.cpp:3196
+#: TerminalDisplay.cpp:3195
 #, kde-format
 msgid "Escape: used for manipulating terminal state"
 msgstr "Esc 鍵：用來控制終端機狀態"
 
-#: TerminalDisplay.cpp:3197
+#: TerminalDisplay.cpp:3196
 #, kde-format
 msgid "File Separator/Quit: may abort the current process"
 msgstr "檔案分隔符/退出：可能會中止目前程序"
 
-#: TerminalDisplay.cpp:3219
+#: TerminalDisplay.cpp:3218
 #, kde-format
 msgid ""
 "The text you're trying to paste contains hidden control characters, do you "
 "want to filter them out?"
 msgstr "您嘗試貼上的文字有隱藏控制字元。是否過濾出這些字元？"
 
-#: TerminalDisplay.cpp:3222
+#: TerminalDisplay.cpp:3221
 #, kde-format
 msgctxt "@title"
 msgid "Confirm Paste"
 msgstr "確認貼上"
 
-#: TerminalDisplay.cpp:3224
+#: TerminalDisplay.cpp:3223
 #, kde-format
 msgctxt "@action:button"
 msgid "Paste &without control characters"
 msgstr "去除控制字元後貼上(&W)"
 
-#: TerminalDisplay.cpp:3227
+#: TerminalDisplay.cpp:3226
 #, kde-format
 msgctxt "@action:button"
 msgid "&Paste everything"
 msgstr "全部貼上(&P)"
 
-#: TerminalDisplay.cpp:3230
+#: TerminalDisplay.cpp:3229
 #, kde-format
 msgctxt "@action:button"
 msgid "&Cancel"
 msgstr "取消(&C)"
 
-#: TerminalDisplay.cpp:3477
+#: TerminalDisplay.cpp:3476
 #, kde-format
 msgid ""
 "<qt>Output has been <a href=\"https://en.wikipedia.org/wiki/"
@@ -3471,17 +3471,17 @@ msgstr ""
 "<qt>輸出已經被 Ctrl+S <a href=\"https://en.wikipedia.org/wiki/"
 "Software_flow_control\">暫停</a>。按下 <b>Ctrl+Q</b> 回復。</qt>"
 
-#: TerminalDisplay.cpp:3515
+#: TerminalDisplay.cpp:3514
 #, kde-format
 msgid "This terminal is read-only."
 msgstr "此終端器為唯讀狀態。"
 
-#: TerminalDisplay.cpp:3810
+#: TerminalDisplay.cpp:3809
 #, kde-format
 msgid "Change &Directory To"
 msgstr "變更目錄為(&D)"
 
-#: TerminalDisplay.cpp:3842
+#: TerminalDisplay.cpp:3841
 #, kde-format
 msgid "&Paste Location"
 msgstr "貼上位置(&P)"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcontactmanager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-10 03:28+0100\n"
+"POT-Creation-Date: 2020-01-31 03:20+0100\n"
 "PO-Revision-Date: 2018-12-21 19:36+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -76,25 +76,25 @@ msgctxt "@title:window"
 msgid "CSV Import Dialog"
 msgstr "CSV 匯入對話框"
 
-#: csv/import/csvimportdialog.cpp:242
+#: csv/import/csvimportdialog.cpp:245
 #, kde-format
 msgctxt "@label"
 msgid "Importing contacts"
 msgstr "匯入聯絡人"
 
-#: csv/import/csvimportdialog.cpp:313
+#: csv/import/csvimportdialog.cpp:316
 #, kde-format
 msgctxt "@label"
 msgid "File to import:"
 msgstr "要匯入的檔案："
 
-#: csv/import/csvimportdialog.cpp:322
+#: csv/import/csvimportdialog.cpp:325
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select a csv file to import"
 msgstr "選擇匯入的 csv 檔"
 
-#: csv/import/csvimportdialog.cpp:325
+#: csv/import/csvimportdialog.cpp:328
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -102,63 +102,63 @@ msgid ""
 "csv file to import."
 msgstr "點擊此按鍵開啟檔案選擇器，讓您選擇要匯入的 csv 檔。"
 
-#: csv/import/csvimportdialog.cpp:332
+#: csv/import/csvimportdialog.cpp:335
 #, kde-format
 msgctxt "@title:group"
 msgid "Delimiter"
 msgstr "分隔符"
 
-#: csv/import/csvimportdialog.cpp:342
+#: csv/import/csvimportdialog.cpp:345
 #, kde-format
 msgctxt "@option:radio Field separator"
 msgid "Comma"
 msgstr "逗號"
 
-#: csv/import/csvimportdialog.cpp:344
+#: csv/import/csvimportdialog.cpp:347
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Set the field separator to a comma"
 msgstr "設定欄位分隔符號為逗號 (,)"
 
-#: csv/import/csvimportdialog.cpp:347
+#: csv/import/csvimportdialog.cpp:350
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "Select this option if your csv file uses the comma as a field separator."
 msgstr "選擇此選項的話，csv 檔內會用逗號 (,) 做為欄位的分隔字元。"
 
-#: csv/import/csvimportdialog.cpp:352
+#: csv/import/csvimportdialog.cpp:355
 #, kde-format
 msgctxt "@option:radio Field separator"
 msgid "Semicolon"
 msgstr "分號"
 
-#: csv/import/csvimportdialog.cpp:354
+#: csv/import/csvimportdialog.cpp:357
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Set the field separator to a semicolon"
 msgstr "設定欄位分隔符號為分號 (;)"
 
-#: csv/import/csvimportdialog.cpp:357
+#: csv/import/csvimportdialog.cpp:360
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "Select this option if your csv file uses the semicolon as a field separator."
 msgstr "選擇此選項的話，csv 檔內會用分號 (;) 做為欄位的分隔字元。"
 
-#: csv/import/csvimportdialog.cpp:361
+#: csv/import/csvimportdialog.cpp:364
 #, kde-format
 msgctxt "@option:radio Field separator"
 msgid "Tabulator"
 msgstr "定位點"
 
-#: csv/import/csvimportdialog.cpp:363
+#: csv/import/csvimportdialog.cpp:366
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Set the field separator to a tab character"
 msgstr "設定欄位分隔符號為定位點 (tab)"
 
-#: csv/import/csvimportdialog.cpp:366
+#: csv/import/csvimportdialog.cpp:369
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -166,19 +166,19 @@ msgid ""
 "separator."
 msgstr "選擇此選項的話，csv 檔內會用定位點 (tab) 做為欄位的分隔字元。"
 
-#: csv/import/csvimportdialog.cpp:370
+#: csv/import/csvimportdialog.cpp:373
 #, kde-format
 msgctxt "@option:radio Field separator"
 msgid "Space"
 msgstr "空白鍵"
 
-#: csv/import/csvimportdialog.cpp:372
+#: csv/import/csvimportdialog.cpp:375
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Set the field separator to a space character"
 msgstr "設定欄位分隔符號為空白字元"
 
-#: csv/import/csvimportdialog.cpp:375
+#: csv/import/csvimportdialog.cpp:378
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -186,19 +186,19 @@ msgid ""
 "separator."
 msgstr "選擇此選項的話，csv 檔內會用空白字元做為欄位的分隔字元。"
 
-#: csv/import/csvimportdialog.cpp:379
+#: csv/import/csvimportdialog.cpp:382
 #, kde-format
 msgctxt "@option:radio Custom field separator"
 msgid "Other"
 msgstr "其他"
 
-#: csv/import/csvimportdialog.cpp:381
+#: csv/import/csvimportdialog.cpp:384
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Set the field separator to a custom character"
 msgstr "設定欄位分隔符號為自訂字元"
 
-#: csv/import/csvimportdialog.cpp:384
+#: csv/import/csvimportdialog.cpp:387
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -206,13 +206,13 @@ msgid ""
 "the data in your csv file."
 msgstr "選擇此選項的話，csv 檔內會用其它的字元來做為欄位的分隔字元。"
 
-#: csv/import/csvimportdialog.cpp:392
+#: csv/import/csvimportdialog.cpp:395
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Set the custom delimiter character"
 msgstr "設定自訂分隔字元"
 
-#: csv/import/csvimportdialog.cpp:395
+#: csv/import/csvimportdialog.cpp:398
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -223,19 +223,19 @@ msgstr ""
 "在此輸入要使用的分隔字元。若您輸入一個以上的字元，則只會使用第一個字元，其它"
 "的將被忽略。"
 
-#: csv/import/csvimportdialog.cpp:401
+#: csv/import/csvimportdialog.cpp:404
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Text quote:"
 msgstr "文字引用符號："
 
-#: csv/import/csvimportdialog.cpp:408
+#: csv/import/csvimportdialog.cpp:411
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select the quote character"
 msgstr "選擇引用字元"
 
-#: csv/import/csvimportdialog.cpp:411
+#: csv/import/csvimportdialog.cpp:414
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -247,31 +247,31 @@ msgstr ""
 "若您選擇的分隔字元剛好在資料中，則使用此引用字元將該符號包起來。例如，若是使"
 "用逗號做為分隔字元，則資料裡本身就有的逗號就該用這裡設定的字元區隔開來。"
 
-#: csv/import/csvimportdialog.cpp:416
+#: csv/import/csvimportdialog.cpp:419
 #, kde-format
 msgctxt "@item:inlistbox Qoute character option"
 msgid "\""
 msgstr "\""
 
-#: csv/import/csvimportdialog.cpp:417
+#: csv/import/csvimportdialog.cpp:420
 #, kde-format
 msgctxt "@item:inlistbox Quote character option"
 msgid "'"
 msgstr "'"
 
-#: csv/import/csvimportdialog.cpp:418
+#: csv/import/csvimportdialog.cpp:421
 #, kde-format
 msgctxt "@item:inlistbox Quote character option"
 msgid "None"
 msgstr "無"
 
-#: csv/import/csvimportdialog.cpp:422
+#: csv/import/csvimportdialog.cpp:425
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Date format:"
 msgstr "日期格式："
 
-#: csv/import/csvimportdialog.cpp:431
+#: csv/import/csvimportdialog.cpp:434
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -286,7 +286,7 @@ msgstr ""
 "<item>d：日期，前面不補零</item> <item>H：小時，前面補零</item> <item>I：分"
 "鐘，前面補零</item> <item>S：秒數，前面補零</item> </list></para>"
 
-#: csv/import/csvimportdialog.cpp:443
+#: csv/import/csvimportdialog.cpp:446
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -307,37 +307,37 @@ msgstr ""
 "鐘，前面補零</item> <item>S：秒數，前面補零</item></list></para> <para>例如："
 "\"Y-M-D\" 的日期顯示為： \"2012-01-04\"</para>"
 
-#: csv/import/csvimportdialog.cpp:459
+#: csv/import/csvimportdialog.cpp:462
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Text codec:"
 msgstr "文字編解碼器："
 
-#: csv/import/csvimportdialog.cpp:466
+#: csv/import/csvimportdialog.cpp:469
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select the text codec"
 msgstr "選擇文字編碼"
 
-#: csv/import/csvimportdialog.cpp:469
+#: csv/import/csvimportdialog.cpp:472
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Choose the character encoding of the data in your csv file."
 msgstr "選擇您 csv 檔裡的文字編碼。"
 
-#: csv/import/csvimportdialog.cpp:473
+#: csv/import/csvimportdialog.cpp:476
 #, kde-format
 msgctxt "@option:check"
 msgid "Skip first row of file"
 msgstr "略過檔案的第一列"
 
-#: csv/import/csvimportdialog.cpp:476
+#: csv/import/csvimportdialog.cpp:479
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Skip first row of csv file when importing"
 msgstr "匯入時略過檔案的第一列"
 
-#: csv/import/csvimportdialog.cpp:479
+#: csv/import/csvimportdialog.cpp:482
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -348,73 +348,73 @@ msgstr ""
 "勾選此選項的話，在匯入 csv 資料時會跳過第一行。通常第一行會放註解，描述此檔案"
 "中的資料欄位。"
 
-#: csv/import/csvimportdialog.cpp:495
+#: csv/import/csvimportdialog.cpp:498
 #, kde-format
 msgctxt "@action:button"
 msgid "Apply Template..."
 msgstr "套用樣板..."
 
-#: csv/import/csvimportdialog.cpp:496
+#: csv/import/csvimportdialog.cpp:499
 #, kde-format
 msgctxt "@action:button"
 msgid "Save Template..."
 msgstr "儲存樣板..."
 
-#: csv/import/csvimportdialog.cpp:517
+#: csv/import/csvimportdialog.cpp:520
 #, kde-format
 msgctxt "@item:inlistbox Codec setting"
 msgid "Local (%1)"
 msgstr "本地端（%1）"
 
-#: csv/import/csvimportdialog.cpp:519
+#: csv/import/csvimportdialog.cpp:522
 #, kde-format
 msgctxt "@item:inlistbox Codec setting"
 msgid "Latin1"
 msgstr "Latin1"
 
-#: csv/import/csvimportdialog.cpp:520
+#: csv/import/csvimportdialog.cpp:523
 #, kde-format
 msgctxt "@item:inlistbox Codec setting"
 msgid "Unicode"
 msgstr "萬國碼"
 
-#: csv/import/csvimportdialog.cpp:521
+#: csv/import/csvimportdialog.cpp:524
 #, kde-format
 msgctxt "@item:inlistbox Codec setting"
 msgid "Microsoft Unicode"
 msgstr "Microsoft 萬用碼"
 
-#: csv/import/csvimportdialog.cpp:626
+#: csv/import/csvimportdialog.cpp:629
 #, kde-format
 msgctxt "@info:status"
 msgid "You must assign at least one column."
 msgstr "您至少要指定一欄。"
 
-#: csv/import/csvimportdialog.cpp:638
+#: csv/import/csvimportdialog.cpp:641
 #, kde-format
 msgctxt "@label"
 msgid "There are no templates available yet."
 msgstr "尚無可用的樣本。"
 
-#: csv/import/csvimportdialog.cpp:639
+#: csv/import/csvimportdialog.cpp:642
 #, kde-format
 msgctxt "@title:window"
 msgid "No templates available"
 msgstr "沒有可用的樣本"
 
-#: csv/import/csvimportdialog.cpp:705
+#: csv/import/csvimportdialog.cpp:708
 #, kde-format
 msgctxt "@title:window"
 msgid "Template Name"
 msgstr "樣本名稱"
 
-#: csv/import/csvimportdialog.cpp:706
+#: csv/import/csvimportdialog.cpp:709
 #, kde-format
 msgctxt "@info"
 msgid "Please enter a name for the template:"
 msgstr "請輸入樣本的名稱"
 
-#: csv/import/csvimportdialog.cpp:760
+#: csv/import/csvimportdialog.cpp:763
 #, kde-format
 msgctxt "@info:status"
 msgid "Cannot open input file."
