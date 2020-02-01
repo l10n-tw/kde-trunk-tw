@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-02 03:12+0100\n"
+"POT-Creation-Date: 2020-02-01 03:21+0100\n"
 "PO-Revision-Date: 2019-03-22 00:34+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -1600,8 +1600,9 @@ msgid "Access denied: cannot write to file %1. Please check your permissions."
 msgstr "存取被拒：無法寫入檔案 %1。請檢查您的權限。"
 
 #: src/akregator_part.cpp:604 src/akregator_part.cpp:613
-#, kde-format
-msgid "OPML Outlines (*.opml *.xml);;All Files (*)"
+#, fuzzy, kde-format
+#| msgid "OPML Outlines (*.opml *.xml);;All Files (*)"
+msgid "OPML Outlines (%1);;All Files (*)"
 msgstr "OPML 大綱 (*.opml *.xml);; 所有檔案 (*)"
 
 #: src/akregator_part.cpp:744

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-31 02:38+0100\n"
+"POT-Creation-Date: 2020-02-01 02:40+0100\n"
 "PO-Revision-Date: 2020-01-26 18:59+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -7366,13 +7366,13 @@ msgctxt "action"
 msgid "Workspaces"
 msgstr "作業空間"
 
-#: krita/main.cc:504 libs/ui/KisApplication.cpp:368
+#: krita/main.cc:511 libs/ui/KisApplication.cpp:368
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
 msgstr "Krita：警告"
 
-#: krita/main.cc:505
+#: krita/main.cc:512
 #, kde-format
 msgid ""
 "You are running an unsupported version of Windows: %1.\n"
@@ -7383,12 +7383,12 @@ msgstr ""
 "我們不建議這樣做，請勿為此報告問題。\n"
 "請升級到下列支援的 Windows 版本之一：Windows 7、8、8.1、10。"
 
-#: krita/main.cc:527 krita/main.cc:532
+#: krita/main.cc:534 krita/main.cc:539
 #, kde-format
 msgid "Krita Tablet Support"
 msgstr "Krita 數位板支援"
 
-#: krita/main.cc:528
+#: krita/main.cc:535
 #, kde-format
 msgid ""
 "Cannot load WinTab driver and no Windows Ink pen devices are found. If you "
@@ -7398,7 +7398,7 @@ msgstr ""
 "無法載入 WinTab 驅動，且未發現 Windows Ink 裝置。如果數位板已連結，請確保其驅"
 "動程式已正確安裝。"
 
-#: krita/main.cc:533
+#: krita/main.cc:540
 #, kde-format
 msgid ""
 "Cannot load WinTab driver. If you have a drawing tablet, please make sure "
@@ -8510,7 +8510,7 @@ msgid "Node Rename"
 msgstr "節點重新命名"
 
 #: libs/image/commands_new/kis_image_resize_command.cpp:28
-#: libs/image/kis_image.cc:755
+#: libs/image/kis_image.cc:754
 msgctxt "(qtundo-format)"
 msgid "Resize Image"
 msgstr "調整影像大小"
@@ -8714,109 +8714,109 @@ msgstr "Mitchell 演算法"
 msgid "Pass Through"
 msgstr "穿透"
 
-#: libs/image/kis_image.cc:345
+#: libs/image/kis_image.cc:344
 #, kde-format
 msgid "Imported Image"
 msgstr "匯入的影像"
 
-#: libs/image/kis_image.cc:650
+#: libs/image/kis_image.cc:649
 #, kde-format
 msgid "background"
 msgstr "背景"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: libs/image/kis_image.cc:654 plugins/extensions/imagesize/imagesize.xmlgui:9
+#: libs/image/kis_image.cc:653 plugins/extensions/imagesize/imagesize.xmlgui:9
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:396
 #, kde-format
 msgid "Layer"
 msgstr "圖層"
 
-#: libs/image/kis_image.cc:754
+#: libs/image/kis_image.cc:753
 msgctxt "(qtundo-format)"
 msgid "Crop Image"
 msgstr "裁切影像"
 
-#: libs/image/kis_image.cc:796
+#: libs/image/kis_image.cc:795
 msgctxt "(qtundo-format)"
 msgid "Crop Layer"
 msgstr "裁切圖層"
 
-#: libs/image/kis_image.cc:797
+#: libs/image/kis_image.cc:796
 msgctxt "(qtundo-format)"
 msgid "Crop Mask"
 msgstr "裁切遮罩"
 
-#: libs/image/kis_image.cc:829
+#: libs/image/kis_image.cc:828
 msgctxt "(qtundo-format)"
 msgid "Scale Image"
 msgstr "縮放影像"
 
-#: libs/image/kis_image.cc:830
+#: libs/image/kis_image.cc:829
 msgctxt "(qtundo-format)"
 msgid "Change Image Resolution"
 msgstr "修改影像解析度"
 
-#: libs/image/kis_image.cc:877
+#: libs/image/kis_image.cc:876
 msgctxt "(qtundo-format)"
 msgid "Scale Layer"
 msgstr "縮放圖層"
 
-#: libs/image/kis_image.cc:1004
+#: libs/image/kis_image.cc:1003
 msgctxt "(qtundo-format)"
 msgid "Rotate Image"
 msgstr "旋轉影像"
 
-#: libs/image/kis_image.cc:1010
+#: libs/image/kis_image.cc:1009
 msgctxt "(qtundo-format)"
 msgid "Rotate Mask"
 msgstr "旋轉遮罩"
 
-#: libs/image/kis_image.cc:1012
+#: libs/image/kis_image.cc:1011
 msgctxt "(qtundo-format)"
 msgid "Rotate Layer"
 msgstr "旋轉圖層"
 
-#: libs/image/kis_image.cc:1094
+#: libs/image/kis_image.cc:1093
 msgctxt "(qtundo-format)"
 msgid "Shear Mask"
 msgstr "切變遮罩"
 
-#: libs/image/kis_image.cc:1097
+#: libs/image/kis_image.cc:1096
 msgctxt "(qtundo-format)"
 msgid "Shear Layer"
 msgstr "切變圖層"
 
-#: libs/image/kis_image.cc:1104
+#: libs/image/kis_image.cc:1103
 msgctxt "(qtundo-format)"
 msgid "Shear Image"
 msgstr "切變影像"
 
-#: libs/image/kis_image.cc:1120
+#: libs/image/kis_image.cc:1119
 msgctxt "(qtundo-format)"
 msgid "Convert Layer Color Space"
 msgstr "轉換圖層色彩空間"
 
-#: libs/image/kis_image.cc:1173
+#: libs/image/kis_image.cc:1172
 msgctxt "(qtundo-format)"
 msgid "Convert Image Color Space"
 msgstr "轉換影像色彩空間"
 
-#: libs/image/kis_image.cc:1174
+#: libs/image/kis_image.cc:1173
 msgctxt "(qtundo-format)"
 msgid "Convert Projection Color Space"
 msgstr "轉換投影色彩空間"
 
-#: libs/image/kis_image.cc:1240
+#: libs/image/kis_image.cc:1239
 msgctxt "(qtundo-format)"
 msgid "Assign Profile to Layer"
 msgstr "為影像指定特性檔案"
 
-#: libs/image/kis_image.cc:1282
+#: libs/image/kis_image.cc:1281
 msgctxt "(qtundo-format)"
 msgid "Assign Profile"
 msgstr "指定特性檔案"
 
-#: libs/image/kis_image.cc:2129
+#: libs/image/kis_image.cc:2128
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
 msgstr "裁切選取區域"
@@ -9101,12 +9101,12 @@ msgstr "非更新時間："
 msgid "Response Time:"
 msgstr "響應時間："
 
-#: libs/image/krita_utils.cpp:364
+#: libs/image/krita_utils.cpp:362
 #, kde-format
 msgid "off"
 msgstr "關閉"
 
-#: libs/image/krita_utils.cpp:364
+#: libs/image/krita_utils.cpp:362
 #, kde-format
 msgid "on"
 msgstr "開"
