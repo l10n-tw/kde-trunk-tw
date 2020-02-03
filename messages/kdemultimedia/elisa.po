@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-30 03:12+0100\n"
+"POT-Creation-Date: 2020-02-03 02:58+0100\n"
 "PO-Revision-Date: 2020-01-26 19:04+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -75,13 +75,15 @@ msgid "Radios"
 msgstr "廣播"
 
 #: main.cpp:119
-#, kde-format
-msgid "A Simple Music Player written with KDE Frameworks"
+#, fuzzy, kde-format
+#| msgid "A Simple Music Player written with KDE Frameworks"
+msgid "A Simple Music Player made with love by the KDE community"
 msgstr "使用 KDE Frameworks 撰寫而成的簡易音樂播放器"
 
 #: main.cpp:121
-#, kde-format
-msgid "(c) 2015-2019, Elisa contributors"
+#, fuzzy, kde-format
+#| msgid "(c) 2015-2019, Elisa contributors"
+msgid "(c) 2015-2020, Elisa contributors"
 msgstr "(c) 2015-2019, Elisa 貢獻群"
 
 #: main.cpp:123
@@ -89,30 +91,47 @@ msgstr "(c) 2015-2019, Elisa 貢獻群"
 msgid "Creator"
 msgstr "建立者"
 
-#: main.cpp:124
+#: main.cpp:124 main.cpp:125
 #, kde-format
 msgid "Author"
 msgstr "作者"
 
-#: main.cpp:126
+#: main.cpp:127
 #, kde-format
 msgid "Concept and design work"
 msgstr "概念及設計工作"
 
-#: main.cpp:127
+#: main.cpp:128
 #, kde-format
 msgid "Localization support"
 msgstr "本地化支援"
 
-#: main.cpp:128
+#: main.cpp:129
 #, kde-format
 msgid "Right to left support in interface"
 msgstr "在介面支援右至左文字 (RTL)"
 
-#: main.cpp:129
+#: main.cpp:130
 #, kde-format
 msgid "Various improvements to the interface"
 msgstr "各種介面改良"
+
+#: main.cpp:131
+#, kde-format
+msgid "Support for online radios"
+msgstr ""
+
+#: models/editabletrackmetadatamodel.cpp:91
+#, kde-format
+msgctxt "Error message when track URL is invalid"
+msgid "Invalid URL."
+msgstr ""
+
+#: models/editabletrackmetadatamodel.cpp:101
+#, kde-format
+msgctxt "Error message when track title is empty"
+msgid "Empty title."
+msgstr ""
 
 #: models/trackmetadatamodel.cpp:109
 #, kde-format
@@ -313,7 +332,7 @@ msgctxt "display of artist in context view"
 msgid "<i>by</i> <b>%1</b>"
 msgstr "<i>作者：</i><b>%1</b>"
 
-#: qml/EditableMetaDataDelegate.qml:41 qml/MetaDataDelegate.qml:39
+#: qml/EditableMetaDataDelegate.qml:39 qml/MetaDataDelegate.qml:39
 #, kde-format
 msgctxt "Label for a piece of metadata, e.g. 'Album Artist:'"
 msgid "%1:"
@@ -329,26 +348,26 @@ msgstr "新增路徑"
 msgid "Choose a Folder"
 msgstr "選取資料夾"
 
-#: qml/GridBrowserDelegate.qml:158 qml/ListBrowserDelegate.qml:266
+#: qml/GridBrowserDelegate.qml:157 qml/ListBrowserDelegate.qml:266
 #: qml/PlayListEntry.qml:232
 #, kde-format
 msgctxt "Show track metadata"
 msgid "View Details"
 msgstr "檢視詳細資訊"
 
-#: qml/GridBrowserDelegate.qml:192
+#: qml/GridBrowserDelegate.qml:191
 #, kde-format
 msgctxt "Clear play list and add whole container to play list"
 msgid "Play now, replacing current playlist"
 msgstr "立即播放，取代目前播放清單"
 
-#: qml/GridBrowserDelegate.qml:217
+#: qml/GridBrowserDelegate.qml:216
 #, kde-format
 msgctxt "Add whole container to play list"
 msgid "Add to playlist"
 msgstr "新增至播放清單"
 
-#: qml/GridBrowserDelegate.qml:242
+#: qml/GridBrowserDelegate.qml:241
 #, kde-format
 msgctxt "Open view of the container"
 msgid "Open"
@@ -546,29 +565,35 @@ msgid "1 track"
 msgid_plural "%1 tracks"
 msgstr[0] "%1 個音軌"
 
-#: qml/MediaTrackMetadataView.qml:45
+#: qml/MediaTrackMetadataView.qml:46
 #, kde-format
 msgctxt "Window title for track metadata"
 msgid "Create a Radio"
 msgstr "建立廣播"
 
-#: qml/MediaTrackMetadataView.qml:46
+#: qml/MediaTrackMetadataView.qml:47
 #, kde-format
 msgctxt "Window title for track metadata"
 msgid "View Details"
 msgstr "檢視詳細資訊"
 
-#: qml/MediaTrackMetadataView.qml:186
+#: qml/MediaTrackMetadataView.qml:178
+#, kde-format
+msgctxt "Form validation error message for track data"
+msgid "Data are not valid. %1"
+msgstr ""
+
+#: qml/MediaTrackMetadataView.qml:200
 #, kde-format
 msgid "Delete"
 msgstr "刪除"
 
-#: qml/MediaTrackMetadataView.qml:206
+#: qml/MediaTrackMetadataView.qml:222
 #, kde-format
 msgid "Apply"
 msgstr "套用"
 
-#: qml/MediaTrackMetadataView.qml:219
+#: qml/MediaTrackMetadataView.qml:233
 #, kde-format
 msgid "Close"
 msgstr "關閉"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ikona\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-02 03:16+0100\n"
+"POT-Creation-Date: 2020-02-03 03:00+0100\n"
 "PO-Revision-Date: 2020-01-01 16:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -70,22 +70,22 @@ msgstr "開啟圖示…"
 msgid "Take Montage..."
 msgstr "製作蒙太奇…"
 
-#: qrc/qml/main.qml:88
+#: qrc/qml/main.qml:84
 #, fuzzy, kde-format
 #| msgid "Open Icon..."
 msgid "Export Icon..."
 msgstr "開啟圖示…"
 
-#: qrc/qml/MonochromaticScreenshot.qml:191 qrc/qml/Screenshot.qml:99
-#, kde-format
-msgctxt "Overlaid on top of an image to indicate that it was made with Ikona"
-msgid "Montage made with Ikona"
-msgstr "使用 Ikona 製作的蒙太奇"
-
 #: qrc/qml/Screenshot.qml:37
 #, kde-format
 msgid "Montage copied to clipboard"
 msgstr ""
+
+#: qrc/qml/Screenshot.qml:79
+#, kde-format
+msgctxt "Overlaid on top of an image to indicate that it was made with Ikona"
+msgid "Montage made with Ikona"
+msgstr "使用 Ikona 製作的蒙太奇"
 
 #: qrc/qml/Welcome.qml:55
 #, kde-format
@@ -100,7 +100,7 @@ msgctxt "Opens the view displaying colourful icons"
 msgid "Colour Icon View"
 msgstr "彩色圖示檢視"
 
-#: qrc/qml/Welcome.qml:84
+#: qrc/qml/Welcome.qml:73
 #, kde-format
 msgctxt "Open a window titled Colour Palette with a colour palette"
 msgid "Open Colour Palette"
