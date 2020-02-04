@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"POT-Creation-Date: 2020-02-04 03:51+0100\n"
 "PO-Revision-Date: 2016-11-03 16:04+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -133,8 +133,8 @@ msgstr "插入時自動掛載可移除媒體"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: DeviceAutomounterKCM.ui:90
 #, kde-format
-msgid "Device Overrides"
-msgstr "裝置覆寫"
+msgid "Automatic mount"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QTreeView, deviceView)
 #: DeviceAutomounterKCM.ui:98
@@ -174,52 +174,63 @@ msgstr ""
 msgid "Forget Device"
 msgstr "忘掉裝置"
 
-#: DeviceModel.cpp:62
+#: DeviceModel.cpp:63
 #, kde-format
 msgid "Device"
 msgstr "裝置"
 
-#: DeviceModel.cpp:63
-#, kde-format
-msgid "Automount on Login"
-msgstr "登入時自動掛載"
-
 #: DeviceModel.cpp:64
 #, kde-format
-msgid "Automount on Attach"
-msgstr "連上時自動掛載"
+msgctxt "As in automount on login"
+msgid "On Login"
+msgstr ""
 
-#: DeviceModel.cpp:235 DeviceModel.cpp:274
+#: DeviceModel.cpp:65
+#, kde-format
+msgctxt "As in automoount on attach"
+msgid "On Attach"
+msgstr ""
+
+#: DeviceModel.cpp:241 DeviceModel.cpp:280
 #, kde-format
 msgid "UDI: %1"
 msgstr "UDI: %1"
 
-#: DeviceModel.cpp:245 DeviceModel.cpp:284
+#: DeviceModel.cpp:251 DeviceModel.cpp:290
 #, kde-format
 msgid "This device will be automatically mounted at login."
 msgstr "此裝置會在登入時自動掛載。"
 
-#: DeviceModel.cpp:246 DeviceModel.cpp:285
+#: DeviceModel.cpp:252 DeviceModel.cpp:291
 #, kde-format
 msgid "This device will not be automatically mounted at login."
 msgstr "此裝置不會在登入時自動掛載。"
 
-#: DeviceModel.cpp:254 DeviceModel.cpp:293
+#: DeviceModel.cpp:260 DeviceModel.cpp:299
 #, kde-format
 msgid "This device will be automatically mounted when attached."
 msgstr "此裝置會在插入時自動掛載。"
 
-#: DeviceModel.cpp:255 DeviceModel.cpp:294
+#: DeviceModel.cpp:261 DeviceModel.cpp:300
 #, kde-format
 msgid "This device will not be automatically mounted when attached."
 msgstr "此裝置不會在插入時自動掛載。"
 
-#: DeviceModel.cpp:301
+#: DeviceModel.cpp:307
 #, kde-format
 msgid "Attached Devices"
 msgstr "已連上裝置"
 
-#: DeviceModel.cpp:303
+#: DeviceModel.cpp:309
 #, kde-format
 msgid "Disconnected Devices"
 msgstr "中斷裝置連線"
+
+#~ msgid "Device Overrides"
+#~ msgstr "裝置覆寫"
+
+#~ msgid "Automount on Login"
+#~ msgstr "登入時自動掛載"
+
+#~ msgid "Automount on Attach"
+#~ msgstr "連上時自動掛載"

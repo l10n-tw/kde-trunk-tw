@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-21 03:50+0100\n"
+"POT-Creation-Date: 2020-02-04 03:51+0100\n"
 "PO-Revision-Date: 2020-01-26 19:03+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -34,105 +34,101 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "jupiter@ocool.org, s8321414@gmail.com"
 
-#: componentchooser.cpp:145
+#: componentchooser.cpp:61
 #, kde-format
 msgid "Unknown"
 msgstr "不明"
 
-#: componentchooser.cpp:162
+#: componentchooser.cpp:64
 #, kde-format
-msgid ""
-"Choose from the list below which component should be used by default for the "
-"%1 service."
-msgstr "從下列清單中選擇 %1 服務預設使用的元件。"
-
-#: componentchooser.cpp:194
-#, kde-format
-msgid ""
-"<qt>You changed the default component of your choice, do want to save that "
-"change now ?</qt>"
-msgstr "<qt>您的選擇已經變更預設的元件，您現在要儲存此變更嗎？</qt>"
-
-#: componentchooser.cpp:199
-#, kde-format
-msgid "No description available"
-msgstr "沒有可取得之敘述"
-
-#. i18n: ectx: property (whatsThis), widget (QGroupBox, headerGroupBox)
-#: componentchooser_ui.ui:26
-#, kde-format
-msgid ""
-"Here you can change the component program. Components are programs that "
-"handle basic tasks, like the terminal emulator, the text editor and the "
-"email client. Different KDE applications sometimes need to invoke a console "
-"emulator, send a mail or display some text. To do so consistently, these "
-"applications always call the same components. You can choose here which "
-"programs these components are."
+msgctxt "The label for the combobox: browser, terminal emulator...)"
+msgid "%1:"
 msgstr ""
-"您將可在此改變元件程式。元件指的是處理基本工作的程式， 例如終端機程式，文字編"
-"輯器及電子郵件程式等。眾多的KDE應用程式有時需要 引入終端機程式，寄發電子郵件"
-"或者顯示一些文字。為求一致，這些應用程式 都會呼叫同樣的元件。您可在此選擇這些"
-"元件所使用的程式。"
 
-#. i18n: ectx: property (title), widget (QGroupBox, headerGroupBox)
-#: componentchooser_ui.ui:29
-#, kde-format
-msgid "Default Component"
-msgstr "預設元件"
-
-#. i18n: ectx: property (whatsThis), widget (QListWidget, ServiceChooser)
-#: componentchooser_ui.ui:44
-#, kde-format
-msgid ""
-"<qt>\n"
-"<p>This list shows the configurable component types. Click the component you "
-"want to configure.</p>\n"
-"<p>In this dialog you can change KDE default components. Components are "
-"programs that handle basic tasks, like the terminal emulator, the text "
-"editor and the email client. Different KDE applications sometimes need to "
-"invoke a console emulator, send a mail or display some text. To do so "
-"consistently, these applications always call the same components. Here you "
-"can select which programs these components are.</p>\n"
-"</qt>"
-msgstr ""
-"<qt>\n"
-"<p>這個列表顯示可設定元件的類別。請點選您想設定的元件。</p>\n"
-"<p>在這個對話框您可改變KDE的預設元件。您將可在此改變元件程式。元件指 的是處理"
-"基本工作的程式，例如終端機程式，文字編輯器及電子郵件程式等。 眾多的KDE應用程"
-"式有時需要引入終端機程式，寄發電子郵件或者顯示一些文 字。為求一致，這些應用程"
-"式都會呼叫同樣的元件。 您可在此選擇這些元件所使用的程式。</p>\n"
-"</qt>"
-
-#: componentchooserbrowser.cpp:115 componentchooseremail.cpp:126
-#: componentchooserfilemanager.cpp:119 componentchooserterminal.cpp:97
+#: componentchooserbrowser.cpp:100 componentchooseremail.cpp:105
+#: componentchooserfilemanager.cpp:106 componentchooserterminal.cpp:85
 #, kde-format
 msgid "Other..."
 msgstr "其他…"
 
-#: componentchooserfilemanager.cpp:58
+#: componentchooserfilemanager.cpp:44
 #, kde-format
 msgid "Select preferred file manager:"
 msgstr "選擇偏好的檔案管理器："
 
-#: componentchooserterminal.cpp:122
+#: componentchooserterminal.cpp:112
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "選擇您偏好的終端機軟體:"
 
-#: kcm_componentchooser.cpp:43
+#: kcm_componentchooser.cpp:42
 #, kde-format
 msgid "Component Chooser"
 msgstr "元件選擇工具"
 
-#: kcm_componentchooser.cpp:45
+#: kcm_componentchooser.cpp:44
 #, kde-format
 msgid "(c), 2002 Joseph Wenninger"
 msgstr "(c), 2002 Joseph Wenninger"
 
-#: kcm_componentchooser.cpp:47
+#: kcm_componentchooser.cpp:46
 #, kde-format
 msgid "Joseph Wenninger"
 msgstr "Joseph Wenninger"
+
+#: kcm_componentchooser.cpp:47
+#, kde-format
+msgid "Méven Car"
+msgstr ""
+
+#~ msgid ""
+#~ "Choose from the list below which component should be used by default for "
+#~ "the %1 service."
+#~ msgstr "從下列清單中選擇 %1 服務預設使用的元件。"
+
+#~ msgid ""
+#~ "<qt>You changed the default component of your choice, do want to save "
+#~ "that change now ?</qt>"
+#~ msgstr "<qt>您的選擇已經變更預設的元件，您現在要儲存此變更嗎？</qt>"
+
+#~ msgid "No description available"
+#~ msgstr "沒有可取得之敘述"
+
+#~ msgid ""
+#~ "Here you can change the component program. Components are programs that "
+#~ "handle basic tasks, like the terminal emulator, the text editor and the "
+#~ "email client. Different KDE applications sometimes need to invoke a "
+#~ "console emulator, send a mail or display some text. To do so "
+#~ "consistently, these applications always call the same components. You can "
+#~ "choose here which programs these components are."
+#~ msgstr ""
+#~ "您將可在此改變元件程式。元件指的是處理基本工作的程式， 例如終端機程式，文"
+#~ "字編輯器及電子郵件程式等。眾多的KDE應用程式有時需要 引入終端機程式，寄發電"
+#~ "子郵件或者顯示一些文字。為求一致，這些應用程式 都會呼叫同樣的元件。您可在"
+#~ "此選擇這些元件所使用的程式。"
+
+#~ msgid "Default Component"
+#~ msgstr "預設元件"
+
+#~ msgid ""
+#~ "<qt>\n"
+#~ "<p>This list shows the configurable component types. Click the component "
+#~ "you want to configure.</p>\n"
+#~ "<p>In this dialog you can change KDE default components. Components are "
+#~ "programs that handle basic tasks, like the terminal emulator, the text "
+#~ "editor and the email client. Different KDE applications sometimes need to "
+#~ "invoke a console emulator, send a mail or display some text. To do so "
+#~ "consistently, these applications always call the same components. Here "
+#~ "you can select which programs these components are.</p>\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt>\n"
+#~ "<p>這個列表顯示可設定元件的類別。請點選您想設定的元件。</p>\n"
+#~ "<p>在這個對話框您可改變KDE的預設元件。您將可在此改變元件程式。元件指 的是"
+#~ "處理基本工作的程式，例如終端機程式，文字編輯器及電子郵件程式等。 眾多的KDE"
+#~ "應用程式有時需要引入終端機程式，寄發電子郵件或者顯示一些文 字。為求一致，"
+#~ "這些應用程式都會呼叫同樣的元件。 您可在此選擇這些元件所使用的程式。</p>\n"
+#~ "</qt>"
 
 #~ msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
 #~ msgstr "<qt>開啟 <b>http</b> 與 <b>https</b> 網址</qt>"

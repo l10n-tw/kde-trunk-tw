@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-01 02:45+0100\n"
+"POT-Creation-Date: 2020-02-04 02:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -143,43 +143,43 @@ msgid "Time:"
 msgstr ""
 
 #: app/BusPage.qml:85 app/BusPage.qml:104 app/TrainEditor.qml:61
-#: app/TrainEditor.qml:78 app/TrainPage.qml:120 app/TrainPage.qml:159
+#: app/TrainEditor.qml:78 app/TrainPage.qml:120 app/TrainPage.qml:167
 #, kde-format
 msgid "Station:"
 msgstr ""
 
 #: app/BusPage.qml:96 app/FlightPage.qml:132 app/TrainEditor.qml:73
-#: app/TrainPage.qml:145
+#: app/TrainPage.qml:153
 #, kde-format
 msgid "Arrival"
 msgstr ""
 
-#: app/BusPage.qml:115 app/TrainEditor.qml:90 app/TrainPage.qml:183
+#: app/BusPage.qml:115 app/TrainEditor.qml:90 app/TrainPage.qml:199
 #, kde-format
 msgid "Seat"
 msgstr ""
 
 #: app/BusPage.qml:119 app/FlightEditor.qml:68 app/FlightPage.qml:85
-#: app/TrainEditor.qml:100 app/TrainPage.qml:195
+#: app/TrainEditor.qml:100 app/TrainPage.qml:211
 #, kde-format
 msgid "Seat:"
 msgstr ""
 
 #: app/BusPage.qml:125 app/FlightPage.qml:158 app/TrainEditor.qml:111
-#: app/TrainPage.qml:207
+#: app/TrainPage.qml:223
 #, kde-format
 msgid "Booking"
 msgstr ""
 
 #: app/BusPage.qml:129 app/CarRentalPage.qml:98 app/FlightPage.qml:164
-#: app/TrainEditor.qml:115 app/TrainPage.qml:211
+#: app/TrainEditor.qml:115 app/TrainPage.qml:227
 #, kde-format
 msgid "Reference:"
 msgstr ""
 
 #: app/BusPage.qml:133 app/CarRentalPage.qml:94 app/FlightPage.qml:164
 #: app/HotelPage.qml:71 app/RestaurantPage.qml:80 app/TrainEditor.qml:119
-#: app/TrainPage.qml:215
+#: app/TrainPage.qml:231
 #, kde-format
 msgid "Under name:"
 msgstr ""
@@ -362,7 +362,7 @@ msgid "To:"
 msgstr ""
 
 #: app/DepartureQueryPage.qml:156 app/JourneyQueryPage.qml:136
-#: app/TransferPage.qml:146
+#: app/TransferPage.qml:156
 #, kde-format
 msgid "Data providers: %1"
 msgstr ""
@@ -1117,17 +1117,17 @@ msgid "Edit Train Reservation"
 msgstr ""
 
 #: app/TrainEditor.qml:66 app/TrainEditor.qml:83 app/TrainPage.qml:129
-#: app/TrainPage.qml:168
+#: app/TrainPage.qml:176
 #, kde-format
 msgid "Platform:"
 msgstr ""
 
-#: app/TrainEditor.qml:95 app/TrainPage.qml:190
+#: app/TrainEditor.qml:95 app/TrainPage.qml:206
 #, kde-format
 msgid "Coach:"
 msgstr ""
 
-#: app/TrainEditor.qml:105 app/TrainPage.qml:200
+#: app/TrainEditor.qml:105 app/TrainPage.qml:216
 #, kde-format
 msgid "Class:"
 msgstr ""
@@ -1142,19 +1142,24 @@ msgstr ""
 msgid "Vehicle Layout"
 msgstr ""
 
-#: app/TrainPage.qml:137 app/TrainPage.qml:176
+#: app/TrainPage.qml:137 app/TrainPage.qml:184
 #, kde-format
 msgid "(was: %1)"
 msgstr ""
 
-#: app/TrainPage.qml:148
+#: app/TrainPage.qml:156
 #, kde-format
 msgid "Arrival time:"
 msgstr ""
 
-#: app/TransferDelegate.qml:86 app/TransferDelegate.qml:93
+#: app/TransferDelegate.qml:86
 #, kde-format
 msgid "Select..."
+msgstr ""
+
+#: app/TransferDelegate.qml:93
+#, kde-format
+msgid "Select transfer..."
 msgstr ""
 
 #: app/TransferPage.qml:29
@@ -1164,20 +1169,25 @@ msgstr ""
 
 #: app/TransferPage.qml:47
 #, kde-format
+msgid "Depart Now"
+msgstr ""
+
+#: app/TransferPage.qml:57
+#, kde-format
 msgid "Discard"
 msgstr ""
 
-#: app/TransferPage.qml:90
+#: app/TransferPage.qml:100
 #, kde-format
 msgid "Select"
 msgstr ""
 
-#: app/TransferPage.qml:117
+#: app/TransferPage.qml:127
 #, kde-format
 msgid "Preceding arrival %1 at %2"
 msgstr ""
 
-#: app/TransferPage.qml:141
+#: app/TransferPage.qml:151
 #, kde-format
 msgid "Following departure %1 from %2"
 msgstr ""
