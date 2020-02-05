@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-26 02:47+0000\n"
+"POT-Creation-Date: 2020-02-05 02:53+0000\n"
 "PO-Revision-Date: 2019-12-15 22:21+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -19,62 +19,62 @@ msgctxt "Name"
 msgid "Kup"
 msgstr "Kup"
 
-#: daemon/kup-daemon.desktop:14
+#: daemon/kup-daemon.desktop:15
 msgctxt "GenericName"
 msgid "Backup Monitor"
 msgstr "備份監控工具"
 
-#: daemon/kupdaemon.notifyrc:15
+#: daemon/kupdaemon.notifyrc:16
 msgctxt "Comment"
 msgid "Kup Backup System"
 msgstr "Kup 備份系統"
 
-#: daemon/kupdaemon.notifyrc:29
+#: daemon/kupdaemon.notifyrc:31
 msgctxt "Name"
 msgid "Start taking backup"
 msgstr "開始備份"
 
-#: daemon/kupdaemon.notifyrc:39
+#: daemon/kupdaemon.notifyrc:42
 msgctxt "Comment"
 msgid "A question if user wants to start taking a backup"
 msgstr ""
 
-#: daemon/kupdaemon.notifyrc:52
+#: daemon/kupdaemon.notifyrc:56
 msgctxt "Name"
 msgid "Backup succeeded"
 msgstr "備份成功"
 
-#: daemon/kupdaemon.notifyrc:63
+#: daemon/kupdaemon.notifyrc:68
 msgctxt "Comment"
 msgid "Saving of backup successfully completed"
 msgstr "成功儲存備份"
 
-#: daemon/kupdaemon.notifyrc:78
+#: daemon/kupdaemon.notifyrc:84
 msgctxt "Name"
 msgid "Backup failed"
 msgstr "備份失敗"
 
-#: daemon/kupdaemon.notifyrc:90
+#: daemon/kupdaemon.notifyrc:97
 msgctxt "Comment"
 msgid "Saving of backup failed, offer user to see log file"
 msgstr ""
 
-#: daemon/kupdaemon.notifyrc:103
+#: daemon/kupdaemon.notifyrc:111
 msgctxt "Name"
 msgid "Integrity check completed"
 msgstr "完整性檢查完成"
 
-#: daemon/kupdaemon.notifyrc:114
+#: daemon/kupdaemon.notifyrc:123
 msgctxt "Comment"
 msgid "Finished checking integrity of backup archive"
 msgstr "完成檢查備份封存檔的完整性"
 
-#: daemon/kupdaemon.notifyrc:128
+#: daemon/kupdaemon.notifyrc:138
 msgctxt "Name"
 msgid "Repair completed"
 msgstr "修復完成"
 
-#: daemon/kupdaemon.notifyrc:139
+#: daemon/kupdaemon.notifyrc:150
 msgctxt "Comment"
 msgid "Finished repairing backup archive"
 msgstr "完成修復備份封存檔"
@@ -84,17 +84,17 @@ msgctxt "Name"
 msgid "Backups"
 msgstr "備份"
 
-#: dataengine/plasma-dataengine-kup.desktop:30
+#: dataengine/plasma-dataengine-kup.desktop:31
 msgctxt "Comment"
 msgid "Status of backup plans"
 msgstr "備份計畫狀態"
 
-#: kcm/kcm_kup.desktop:22
+#: kcm/kcm_kup.desktop:23
 msgctxt "Comment"
 msgid "Configure backup plans"
 msgstr "設定備份計畫"
 
-#: kcm/kcm_kup.desktop:32
+#: kcm/kcm_kup.desktop:34
 msgctxt "X-KDE-Keywords"
 msgid "backup,recovery,safety"
 msgstr "backup,recovery,safety,備份,復原,安全性"
@@ -109,7 +109,7 @@ msgctxt "Name"
 msgid "Backup Status"
 msgstr "備份狀態"
 
-#: plasmoid/metadata.desktop:35
+#: plasmoid/metadata.desktop:36
 msgctxt "Comment"
 msgid "Displays status of backup plans"
 msgstr "顯示備份計畫狀態"

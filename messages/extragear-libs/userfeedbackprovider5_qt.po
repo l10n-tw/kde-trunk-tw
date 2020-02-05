@@ -187,7 +187,6 @@ msgid ""
 msgstr ""
 
 #: core/feedbackconfiguicontroller.cpp:248
-#: core/feedbackconfiguicontroller.cpp:263
 msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid "Don't participate in usability surveys"
 msgstr ""
@@ -203,6 +202,12 @@ msgctxt "KUserFeedback::FeedbackConfigUiController|"
 msgid ""
 "Participate in surveys about the application whenever one is available (they "
 "can be deferred or skipped)"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:263
+#, qt-format
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Don't participate in usability surveys about %1"
 msgstr ""
 
 #: core/feedbackconfiguicontroller.cpp:267

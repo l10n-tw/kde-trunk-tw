@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxstitch\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-13 02:34+0200\n"
+"POT-Creation-Date: 2020-02-05 02:44+0100\n"
 "PO-Revision-Date: 2016-09-22 20:30+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -1876,12 +1876,12 @@ msgstr ""
 msgid "Overwrite"
 msgstr ""
 
-#: src/Page.cpp:294
+#: src/Page.cpp:254
 #, kde-format
 msgid "Page version %1"
 msgstr ""
 
-#: src/Page.cpp:335
+#: src/Page.cpp:295
 #, kde-format
 msgid "Invalid element type"
 msgstr ""
@@ -3032,14 +3032,14 @@ msgid "Default paper size"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (toolTip), widget (KComboBox, PaperSize)
+#. i18n: ectx: property (toolTip), widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:45 ui/PrintSetup.ui:210
 #, kde-format
 msgid "Select a paper size"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:49 ui/PrintSetup.ui:214
 #, kde-format
 msgctxt "Paper size"
@@ -3047,7 +3047,7 @@ msgid "A0"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:54 ui/PrintSetup.ui:219
 #, kde-format
 msgctxt "Paper size"
@@ -3055,7 +3055,7 @@ msgid "A1"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:59 ui/PrintSetup.ui:224
 #, kde-format
 msgctxt "Paper size"
@@ -3063,7 +3063,7 @@ msgid "A2"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:64 ui/PrintSetup.ui:229
 #, kde-format
 msgctxt "Paper size"
@@ -3071,7 +3071,7 @@ msgid "A3"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:69 ui/PrintSetup.ui:234
 #, kde-format
 msgctxt "Paper size"
@@ -3079,7 +3079,7 @@ msgid "A4"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:74 ui/PrintSetup.ui:239
 #, kde-format
 msgctxt "Paper size"
@@ -3087,7 +3087,7 @@ msgid "A5"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:79 ui/PrintSetup.ui:244
 #, kde-format
 msgctxt "Paper size"
@@ -3095,7 +3095,7 @@ msgid "A6"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:84 ui/PrintSetup.ui:249
 #, kde-format
 msgctxt "Paper size"
@@ -3103,7 +3103,7 @@ msgid "A7"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:89 ui/PrintSetup.ui:254
 #, kde-format
 msgctxt "Paper size"
@@ -3111,7 +3111,7 @@ msgid "A8"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:94 ui/PrintSetup.ui:259
 #, kde-format
 msgctxt "Paper size"
@@ -3119,7 +3119,7 @@ msgid "A9"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:99 ui/PrintSetup.ui:264
 #, kde-format
 msgctxt "Paper size"
@@ -3127,7 +3127,7 @@ msgid "B0"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:104 ui/PrintSetup.ui:269
 #, kde-format
 msgctxt "Paper size"
@@ -3135,7 +3135,7 @@ msgid "B1"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:109 ui/PrintSetup.ui:274
 #, kde-format
 msgctxt "Paper size"
@@ -3143,7 +3143,7 @@ msgid "B2"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:114 ui/PrintSetup.ui:279
 #, kde-format
 msgctxt "Paper size"
@@ -3151,7 +3151,7 @@ msgid "B3"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:119 ui/PrintSetup.ui:284
 #, kde-format
 msgctxt "Paper size"
@@ -3159,7 +3159,7 @@ msgid "B4"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:124 ui/PrintSetup.ui:289
 #, kde-format
 msgctxt "Paper size"
@@ -3167,7 +3167,7 @@ msgid "B5"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:129 ui/PrintSetup.ui:294
 #, kde-format
 msgctxt "Paper size"
@@ -3175,7 +3175,7 @@ msgid "B6"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:134 ui/PrintSetup.ui:299
 #, kde-format
 msgctxt "Paper size"
@@ -3183,7 +3183,7 @@ msgid "B7"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:139 ui/PrintSetup.ui:304
 #, kde-format
 msgctxt "Paper size"
@@ -3191,7 +3191,7 @@ msgid "B8"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:144 ui/PrintSetup.ui:309
 #, kde-format
 msgctxt "Paper size"
@@ -3199,7 +3199,7 @@ msgid "B9"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:149 ui/PrintSetup.ui:314
 #, kde-format
 msgctxt "Paper size"
@@ -3207,7 +3207,7 @@ msgid "B10"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:154 ui/PrintSetup.ui:319
 #, kde-format
 msgctxt "Paper size"
@@ -3215,7 +3215,7 @@ msgid "C5E"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:159 ui/PrintSetup.ui:324
 #, kde-format
 msgctxt "Paper size"
@@ -3223,7 +3223,7 @@ msgid "Comm10E"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:164 ui/PrintSetup.ui:329
 #, kde-format
 msgctxt "Paper size"
@@ -3231,7 +3231,7 @@ msgid "DLE"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:169 ui/PrintSetup.ui:334
 #, kde-format
 msgctxt "Paper size"
@@ -3239,7 +3239,7 @@ msgid "Executive"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:174 ui/PrintSetup.ui:339
 #, kde-format
 msgctxt "Paper size"
@@ -3247,7 +3247,7 @@ msgid "Folio"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:179 ui/PrintSetup.ui:344
 #, kde-format
 msgctxt "Paper size"
@@ -3255,7 +3255,7 @@ msgid "Ledger"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:184 ui/PrintSetup.ui:349
 #, kde-format
 msgctxt "Paper size"
@@ -3263,7 +3263,7 @@ msgid "Legal"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:189 ui/PrintSetup.ui:354
 #, kde-format
 msgctxt "Paper size"
@@ -3271,7 +3271,7 @@ msgid "Letter"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Page_Size)
-#. i18n: ectx: property (text), item, widget (KComboBox, PaperSize)
+#. i18n: ectx: property (text), item, widget (KComboBox, PageSize)
 #: ui/PrinterConfigPage.ui:194 ui/PrintSetup.ui:359
 #, kde-format
 msgctxt "Paper size"
