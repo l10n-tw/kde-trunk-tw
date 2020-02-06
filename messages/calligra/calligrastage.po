@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-27 02:38+0100\n"
+"POT-Creation-Date: 2020-02-06 02:36+0100\n"
 "PO-Revision-Date: 2012-06-14 09:02+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@lists.linux.org.tw>\n"
@@ -130,6 +130,13 @@ msgstr "變更投影片效果"
 msgctxt "(qtundo-format)"
 msgid "Delete Slide Effect"
 msgstr "刪除投影片效果"
+
+#: part/commands/KPrPageTransitionSetCommand.cpp:32
+#, fuzzy
+#| msgid "Slide Transitions"
+msgctxt "(qtundo-format)"
+msgid "Modify Slide Transition"
+msgstr "投影片轉變"
 
 #: part/commands/KPrRenameCustomSlideShowCommand.cpp:33
 msgctxt "(qtundo-format)"
@@ -844,23 +851,39 @@ msgstr "期間："
 msgid "Preview Shape Animation"
 msgstr "元件動畫"
 
-#: part/tools/animationtool/KPrPageEffectDocker.cpp:60
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:63
 #, kde-format
 msgid "No Effect"
 msgstr "沒有效果"
 
-#: part/tools/animationtool/KPrPageEffectDocker.cpp:83
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:86
 #, kde-format
 msgid " sec"
 msgstr " 秒"
 
-#: part/tools/animationtool/KPrPageEffectDocker.cpp:93
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:97
+#, kde-format
+msgid "Manual"
+msgstr ""
+
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:98
+#, kde-format
+msgid "Automatic"
+msgstr ""
+
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:106
+#, fuzzy, kde-format
+#| msgid "Slide Transitions"
+msgid "Slide Transition:"
+msgstr "投影片轉變"
+
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:117
 #, fuzzy, kde-format
 #| msgid "All slides"
 msgid "Apply To All Slides"
 msgstr "所有的投影片"
 
-#: part/tools/animationtool/KPrPageEffectDocker.cpp:238
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:278
 #, fuzzy
 #| msgid "All slides"
 msgctxt "(qtundo-format)"

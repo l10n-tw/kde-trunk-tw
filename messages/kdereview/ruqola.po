@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-05 03:21+0100\n"
+"POT-Creation-Date: 2020-02-06 03:17+0100\n"
 "PO-Revision-Date: 2019-09-28 03:06+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -124,12 +124,14 @@ msgid "Archive Room"
 msgstr ""
 
 #: apps/qml/qml/ArchiveRoomDialog.qml:42
-#: widgets/dialogs/channelinfowidget.cpp:237
+#: widgets/dialogs/channelinfowidget.cpp:103
+#: widgets/dialogs/channelinfowidget.cpp:244
 msgid "Do you want to archive this room?"
 msgstr ""
 
 #: apps/qml/qml/ArchiveRoomDialog.qml:42
-#: widgets/dialogs/channelinfowidget.cpp:237
+#: widgets/dialogs/channelinfowidget.cpp:103
+#: widgets/dialogs/channelinfowidget.cpp:244
 msgid "Do you want to unarchive this room?"
 msgstr ""
 
@@ -154,27 +156,27 @@ msgstr ""
 #: apps/qml/qml/CreateNewAccountDialog.qml:55
 #: apps/qml/qml/CreateNewChannelDialog.qml:60
 #: widgets/dialogs/channelinfowidget.cpp:63
-#: widgets/dialogs/channelinfowidget.cpp:138
+#: widgets/dialogs/channelinfowidget.cpp:142
 #: widgets/dialogs/createnewchannelwidget.cpp:38
 msgid "Name:"
 msgstr ""
 
 #: apps/qml/qml/ChannelInfoDialog.qml:79 apps/qml/qml/ChannelInfoDialog.qml:90
 #: widgets/dialogs/channelinfowidget.cpp:67
-#: widgets/dialogs/channelinfowidget.cpp:143
+#: widgets/dialogs/channelinfowidget.cpp:148
 msgid "Comment:"
 msgstr ""
 
 #: apps/qml/qml/ChannelInfoDialog.qml:97 apps/qml/qml/ChannelInfoDialog.qml:108
 #: widgets/dialogs/channelinfowidget.cpp:77
-#: widgets/dialogs/channelinfowidget.cpp:148
+#: widgets/dialogs/channelinfowidget.cpp:154
 msgid "Announcement:"
 msgstr ""
 
 #: apps/qml/qml/ChannelInfoDialog.qml:115
 #: apps/qml/qml/ChannelInfoDialog.qml:126
 #: widgets/dialogs/channelinfowidget.cpp:85
-#: widgets/dialogs/channelinfowidget.cpp:153
+#: widgets/dialogs/channelinfowidget.cpp:160
 #: widgets/dialogs/uploadfilewidget.cpp:39
 msgid "Description:"
 msgstr ""
@@ -217,7 +219,7 @@ msgstr ""
 
 #: apps/qml/qml/ChannelInfoDialog.qml:176
 #: apps/qml/qml/CreateNewChannelDialog.qml:104
-#: widgets/dialogs/channelinfowidget.cpp:109
+#: widgets/dialogs/channelinfowidget.cpp:112
 msgid "Private:"
 msgstr ""
 
@@ -256,7 +258,7 @@ msgstr ""
 
 #: apps/qml/qml/ConfigureServerList.qml:63
 #: apps/qml/qml/messages/MessageMenu.qml:95
-#: widgets/room/messagelistview.cpp:157
+#: widgets/room/messagelistview.cpp:161
 msgid "Edit"
 msgstr ""
 
@@ -344,21 +346,21 @@ msgstr ""
 msgid "Do you want to delete this attachment?"
 msgstr ""
 
-#: apps/qml/qml/DeleteMessageDialog.qml:31 widgets/room/messagelistview.cpp:219
+#: apps/qml/qml/DeleteMessageDialog.qml:31 widgets/room/messagelistview.cpp:244
 msgid "Delete Message"
 msgstr ""
 
-#: apps/qml/qml/DeleteMessageDialog.qml:45 widgets/room/messagelistview.cpp:219
+#: apps/qml/qml/DeleteMessageDialog.qml:45 widgets/room/messagelistview.cpp:244
 msgid "Do you want to delete this message?"
 msgstr ""
 
 #: apps/qml/qml/DeleteRoomDialog.qml:30
-#: widgets/dialogs/channelinfowidget.cpp:120
+#: widgets/dialogs/channelinfowidget.cpp:123
 msgid "Delete Room"
 msgstr ""
 
 #: apps/qml/qml/DeleteRoomDialog.qml:44
-#: widgets/dialogs/channelinfowidget.cpp:120
+#: widgets/dialogs/channelinfowidget.cpp:123
 msgid "Do you want to delete this room?"
 msgstr ""
 
@@ -435,7 +437,7 @@ msgstr ""
 
 #: apps/qml/qml/ListMessagesDialogBase.qml:58
 #: widgets/dialogs/showlistmessagebasewidget.cpp:41
-#: widgets/ruqolamainwindow.cpp:183
+#: widgets/ruqolamainwindow.cpp:203
 msgid "Search Messages..."
 msgstr ""
 
@@ -525,7 +527,7 @@ msgid "Channel Info"
 msgstr ""
 
 #: apps/qml/qml/MainComponent.qml:101
-#: core/model/notificationpreferencemodel.cpp:81
+#: core/model/notificationpreferencemodel.cpp:82
 msgid "Mentions"
 msgstr ""
 
@@ -565,7 +567,7 @@ msgstr ""
 msgid "Take a Video Message"
 msgstr ""
 
-#: apps/qml/qml/MainComponent.qml:175 widgets/ruqolamainwindow.cpp:192
+#: apps/qml/qml/MainComponent.qml:175 widgets/ruqolamainwindow.cpp:212
 msgid "Load Recent History"
 msgstr ""
 
@@ -597,12 +599,12 @@ msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:38
 #: widgets/channellist/channellistview.cpp:87
-#: widgets/room/messagelistview.cpp:150
+#: widgets/room/messagelistview.cpp:153
 msgid "Set as Favorite"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:38
-#: widgets/room/messagelistview.cpp:150
+#: widgets/room/messagelistview.cpp:153
 msgid "Remove as Favorite"
 msgstr ""
 
@@ -615,21 +617,22 @@ msgid "Ignore"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:48
-#: widgets/room/messagelistview.cpp:143
+#: widgets/room/messagelistview.cpp:144
 msgid "Unpin Message"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:48
-#: widgets/room/messagelistview.cpp:143
+#: widgets/room/messagelistview.cpp:144
 msgid "Pin Message"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:52
-msgid "Original Message"
+#: widgets/room/messagelistview.cpp:193
+msgid "Translate Message"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:52
-msgid "Translate Message"
+msgid "Original Message"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:59
@@ -642,7 +645,7 @@ msgid "Reply in Thread"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:83
-#: widgets/room/messagelistview.cpp:164
+#: widgets/room/messagelistview.cpp:168
 msgid "Copy"
 msgstr ""
 
@@ -651,13 +654,13 @@ msgid "Reply"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:140
-#: widgets/dialogs/channelinfowidget.cpp:116
-#: widgets/room/messagelistview.cpp:176
+#: widgets/dialogs/channelinfowidget.cpp:119
+#: widgets/room/messagelistview.cpp:180
 msgid "Delete"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:150
-#: widgets/room/messagelistview.cpp:187
+#: widgets/room/messagelistview.cpp:206
 msgid "Report Message"
 msgstr ""
 
@@ -681,7 +684,7 @@ msgid "Disable Notifications:"
 msgstr ""
 
 #: apps/qml/qml/NotificationOptionsDialog.qml:74
-#: widgets/dialogs/configurenotificationwidget.cpp:46
+#: widgets/dialogs/configurenotificationwidget.cpp:59
 msgid "Hide Unread Room Status:"
 msgstr ""
 
@@ -690,33 +693,41 @@ msgid "Mute Groups Mention:"
 msgstr ""
 
 #: apps/qml/qml/NotificationOptionsDialog.qml:100
-#: widgets/dialogs/configurenotificationwidget.cpp:52
+#: widgets/dialogs/configurenotificationwidget.cpp:71
 msgid "Desktop"
 msgstr ""
 
 #: apps/qml/qml/NotificationOptionsDialog.qml:105
 #: apps/qml/qml/NotificationOptionsDialog.qml:159
 #: apps/qml/qml/NotificationOptionsDialog.qml:179
+#: widgets/dialogs/configurenotificationwidget.cpp:79
+#: widgets/dialogs/configurenotificationwidget.cpp:105
+#: widgets/dialogs/configurenotificationwidget.cpp:116
 msgid "Alert:"
 msgstr ""
 
 #: apps/qml/qml/NotificationOptionsDialog.qml:116
+#: widgets/dialogs/configurenotificationwidget.cpp:84
 msgid "Audio:"
 msgstr ""
 
 #: apps/qml/qml/NotificationOptionsDialog.qml:127
+#: widgets/dialogs/configurenotificationwidget.cpp:89
 msgid "Sound:"
 msgstr ""
 
 #: apps/qml/qml/NotificationOptionsDialog.qml:138
+#: widgets/dialogs/configurenotificationwidget.cpp:94
 msgid "Duration:"
 msgstr ""
 
 #: apps/qml/qml/NotificationOptionsDialog.qml:153
+#: widgets/dialogs/configurenotificationwidget.cpp:98
 msgid "Mobile"
 msgstr ""
 
 #: apps/qml/qml/NotificationOptionsDialog.qml:174
+#: widgets/dialogs/configurenotificationwidget.cpp:109
 msgid "Email"
 msgstr ""
 
@@ -767,7 +778,7 @@ msgstr ""
 msgid "Open Room"
 msgstr ""
 
-#: apps/qml/qml/RoomsComponent.qml:50 widgets/ruqolamainwindow.cpp:211
+#: apps/qml/qml/RoomsComponent.qml:50 widgets/ruqolamainwindow.cpp:231
 msgid "Unread on Top"
 msgstr ""
 
@@ -797,7 +808,7 @@ msgstr ""
 msgid "Search Channel"
 msgstr ""
 
-#: apps/qml/qml/SearchChannelDialog.qml:56 widgets/ruqolamainwindow.cpp:159
+#: apps/qml/qml/SearchChannelDialog.qml:56 widgets/ruqolamainwindow.cpp:179
 msgid "Search Channel..."
 msgstr ""
 
@@ -912,6 +923,7 @@ msgid "Description"
 msgstr ""
 
 #: apps/qml/qml/UploadFileDialog.qml:68
+#: widgets/dialogs/createnewdiscussionwidget.cpp:69
 msgid "Message"
 msgstr ""
 
@@ -1111,48 +1123,48 @@ msgstr ""
 msgid "Ignored Message"
 msgstr ""
 
-#: core/model/notificationdesktopdurationpreferencemodel.cpp:71
-#: core/model/notificationdesktopsoundpreferencemodel.cpp:71
-#: core/model/notificationpreferencemodel.cpp:69
+#: core/model/notificationdesktopdurationpreferencemodel.cpp:72
+#: core/model/notificationdesktopsoundpreferencemodel.cpp:72
+#: core/model/notificationpreferencemodel.cpp:70
 msgid "Default"
 msgstr ""
 
-#: core/model/notificationdesktopdurationpreferencemodel.cpp:77
+#: core/model/notificationdesktopdurationpreferencemodel.cpp:78
 msgid "1 second"
 msgid_plural "%1 seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/model/notificationdesktopsoundpreferencemodel.cpp:77
-#: core/model/notificationpreferencemodel.cpp:87
+#: core/model/notificationdesktopsoundpreferencemodel.cpp:78
+#: core/model/notificationpreferencemodel.cpp:88
 msgid "Nothing"
 msgstr ""
 
-#: core/model/notificationdesktopsoundpreferencemodel.cpp:83
+#: core/model/notificationdesktopsoundpreferencemodel.cpp:84
 msgid "Beep"
 msgstr ""
 
-#: core/model/notificationdesktopsoundpreferencemodel.cpp:89
+#: core/model/notificationdesktopsoundpreferencemodel.cpp:90
 msgid "Chelle"
 msgstr ""
 
-#: core/model/notificationdesktopsoundpreferencemodel.cpp:95
+#: core/model/notificationdesktopsoundpreferencemodel.cpp:96
 msgid "Ding"
 msgstr ""
 
-#: core/model/notificationdesktopsoundpreferencemodel.cpp:101
+#: core/model/notificationdesktopsoundpreferencemodel.cpp:102
 msgid "Droplet"
 msgstr ""
 
-#: core/model/notificationdesktopsoundpreferencemodel.cpp:107
+#: core/model/notificationdesktopsoundpreferencemodel.cpp:108
 msgid "Highbell"
 msgstr ""
 
-#: core/model/notificationdesktopsoundpreferencemodel.cpp:113
+#: core/model/notificationdesktopsoundpreferencemodel.cpp:114
 msgid "Seasons"
 msgstr ""
 
-#: core/model/notificationpreferencemodel.cpp:75
+#: core/model/notificationpreferencemodel.cpp:76
 msgid "All Messages"
 msgstr ""
 
@@ -1720,15 +1732,23 @@ msgstr ""
 msgid "ReadOnly:"
 msgstr ""
 
-#: widgets/dialogs/channelinfowidget.cpp:237
+#: widgets/dialogs/channelinfowidget.cpp:104
+msgid "Archive Channel"
+msgstr ""
+
+#: widgets/dialogs/channelinfowidget.cpp:104
+msgid "Unarchive Channel"
+msgstr ""
+
+#: widgets/dialogs/channelinfowidget.cpp:244
 msgid "Archive room"
 msgstr ""
 
-#: widgets/dialogs/channelinfowidget.cpp:262
+#: widgets/dialogs/channelinfowidget.cpp:269
 msgid "Change Text"
 msgstr ""
 
-#: widgets/dialogs/channelinfowidget.cpp:262
+#: widgets/dialogs/channelinfowidget.cpp:269
 msgid "Text:"
 msgstr ""
 
@@ -1746,11 +1766,11 @@ msgctxt "@title:window"
 msgid "Configure Notification"
 msgstr ""
 
-#: widgets/dialogs/configurenotificationwidget.cpp:42
+#: widgets/dialogs/configurenotificationwidget.cpp:52
 msgid "Disable Notification:"
 msgstr ""
 
-#: widgets/dialogs/configurenotificationwidget.cpp:50
+#: widgets/dialogs/configurenotificationwidget.cpp:66
 msgid "Mute Group Mentions:"
 msgstr ""
 
@@ -1806,7 +1826,6 @@ msgid "Discussion Name"
 msgstr ""
 
 #: widgets/dialogs/createnewdiscussionwidget.cpp:58
-#: widgets/dialogs/createnewdiscussionwidget.cpp:68
 msgid "Invite Users"
 msgstr ""
 
@@ -1954,6 +1973,10 @@ msgid "Save Image"
 msgstr ""
 
 #: widgets/room/messagelistview.cpp:193
+msgid "Show Original Message"
+msgstr ""
+
+#: widgets/room/messagelistview.cpp:212
 msgid "Go to Message"
 msgstr ""
 
@@ -1962,7 +1985,7 @@ msgid "Room is read-only."
 msgstr ""
 
 #. i18n
-#: widgets/ruqolacentralwidget.cpp:59
+#: widgets/ruqolacentralwidget.cpp:60
 msgid "Job Failed"
 msgstr ""
 
@@ -1970,58 +1993,62 @@ msgstr ""
 msgid "Login"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:146
+#: widgets/ruqolamainwindow.cpp:166
 msgid "Add Account..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:151
+#: widgets/ruqolamainwindow.cpp:171
 msgid "Server Info..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:155
+#: widgets/ruqolamainwindow.cpp:175
 msgid "Logout"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:163
+#: widgets/ruqolamainwindow.cpp:183
 msgid "Create New Channel..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:167
+#: widgets/ruqolamainwindow.cpp:187
 msgid "Show Mentions..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:171
+#: widgets/ruqolamainwindow.cpp:191
 msgid "Show Pinned Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:175
+#: widgets/ruqolamainwindow.cpp:195
 msgid "Show Starred Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:179
+#: widgets/ruqolamainwindow.cpp:199
 msgid "Show Snippered Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:188
+#: widgets/ruqolamainwindow.cpp:208
 msgid "Configure Notification..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:196
+#: widgets/ruqolamainwindow.cpp:216
 msgid "Show File Attachment..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:203
+#: widgets/ruqolamainwindow.cpp:223
 msgid "Show Discussions..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:207
+#: widgets/ruqolamainwindow.cpp:227
 msgid "Show Threads..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:216
+#: widgets/ruqolamainwindow.cpp:236
 msgid "Channel Info..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:220
+#: widgets/ruqolamainwindow.cpp:240
 msgid "Add Users in Channel..."
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:244
+msgid "Mark all channels read"
 msgstr ""

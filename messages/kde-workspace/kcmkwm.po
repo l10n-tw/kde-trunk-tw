@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-04 03:50+0100\n"
+"POT-Creation-Date: 2020-02-06 03:42+0100\n"
 "PO-Revision-Date: 2019-10-11 18:59+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -699,9 +699,9 @@ msgstr ""
 
 #. i18n: Focus Stealing Prevention Level
 #. i18n: ectx: property (text), item, widget (KComboBox, focusStealing)
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, borderSnap)
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, windowSnap)
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, centerSnap)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_BorderSnapZone)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_WindowSnapZone)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_CenterSnapZone)
 #: focus.ui:118 moving.ui:53 moving.ui:75 moving.ui:97
 #, kde-format
 msgid "None"
@@ -1103,7 +1103,7 @@ msgstr "<em>右</em>擊最大化按鈕的行為。"
 msgid "Window &geometry:"
 msgstr "視窗幾何(&G)："
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, geometryTipOn)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_GeometryTip)
 #: moving.ui:30
 #, kde-format
 msgid ""
@@ -1114,7 +1114,7 @@ msgstr ""
 "如果您想在移動或改變視窗大小時顯示幾何狀態，啟用此選項。這將顯示視窗相對於螢"
 "幕左上角的位置及其大小。"
 
-#. i18n: ectx: property (text), widget (QCheckBox, geometryTipOn)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_GeometryTip)
 #: moving.ui:33
 #, kde-format
 msgid "Display when moving or resizing"
@@ -1126,7 +1126,7 @@ msgstr "在移動或縮放時顯示"
 msgid "Screen &edge snap zone:"
 msgstr "螢幕邊緣貼齊區域(&E)："
 
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, borderSnap)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_BorderSnapZone)
 #: moving.ui:50
 #, kde-format
 msgid ""
@@ -1136,15 +1136,15 @@ msgstr ""
 "在這裡您可以為螢幕邊緣設定貼齊區域，換句話說，就是當視窗靠近時會讓視窗貼齊到"
 "邊框的磁場 '強度'。"
 
-#. i18n: ectx: property (suffix), widget (QSpinBox, borderSnap)
-#. i18n: ectx: property (suffix), widget (QSpinBox, windowSnap)
-#. i18n: ectx: property (suffix), widget (QSpinBox, centerSnap)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_BorderSnapZone)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_WindowSnapZone)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_CenterSnapZone)
 #: moving.ui:56 moving.ui:78 moving.ui:100
 #, kde-format
 msgid " px"
 msgstr " 像素"
 
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, windowSnap)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_WindowSnapZone)
 #: moving.ui:72
 #, kde-format
 msgid ""
@@ -1155,7 +1155,7 @@ msgstr ""
 "在這裡您可以為視窗設定黏貼區域，換句話說，就是當視窗彼此靠近時會讓視窗黏貼在"
 "一起的磁性 '強度'。"
 
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, centerSnap)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_CenterSnapZone)
 #: moving.ui:94
 #, kde-format
 msgid ""
@@ -1166,7 +1166,7 @@ msgstr ""
 "在這裡您可以為螢幕中央設定貼齊區域，換句話說，就是當視窗靠近時會讓視窗貼齊到"
 "中央的磁場 '強度'。"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, OverlapSnap)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_SnapOnlyWhenOverlapping)
 #: moving.ui:113
 #, kde-format
 msgid ""
@@ -1177,7 +1177,7 @@ msgstr ""
 "在這裡您可以設定只有您試著重疊視窗時視窗才會黏貼，例如，視窗不會黏貼假如視窗"
 "只是靠近另一個視窗或邊框。"
 
-#. i18n: ectx: property (text), widget (QCheckBox, OverlapSnap)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SnapOnlyWhenOverlapping)
 #: moving.ui:116
 #, kde-format
 msgid "Only when overlapping"
@@ -1201,7 +1201,7 @@ msgstr "中央貼齊區域 (&C):"
 msgid "&Snap windows:"
 msgstr "貼齊視窗(&S)："
 
-#: windows.cpp:172
+#: windows.cpp:159
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p><span style=\" font-style:italic;\">Click to focus:"
@@ -1216,7 +1216,7 @@ msgstr ""
 "span>視窗將會在按下時作用。這個行為就如同其他作業系統，且通常就是您所想要的。"
 "</p></body></html>"
 
-#: windows.cpp:175
+#: windows.cpp:162
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p><span style=\" font-style:italic;\">Click to focus "
@@ -1239,7 +1239,7 @@ msgstr ""
 "閉），則滑鼠下方的視窗會第一順位使用。算是 <span style=\" font-style:italic;"
 "\">按一下取得焦點</span> 的變化型。</p></body></html>"
 
-#: windows.cpp:178
+#: windows.cpp:165
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p><span style=\" font-style:italic;\">Focus follows "
@@ -1260,7 +1260,7 @@ msgstr ""
 "span>。可以想成<span style=\"font-style:italic;\">按一下取得焦點</span>，但不"
 "用實際點選。</p></body></html>"
 
-#: windows.cpp:181
+#: windows.cpp:168
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p>This is mostly the same as <span style=\" font-"
@@ -1279,7 +1279,7 @@ msgstr ""
 "使用中視窗已被關閉），則滑鼠下方的視窗會第一順位使用。如果你想要由懸停控制的"
 "焦點，請選擇。</p></body></html>"
 
-#: windows.cpp:184
+#: windows.cpp:171
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p><span style=\" font-style:italic;\">Focus under "
@@ -1304,7 +1304,7 @@ msgstr ""
 "用策略相衝突，且不會運作。通常你可能會想用<span style=\" font-style:italic;"
 "\">將焦點設為滑鼠所在位置 (滑鼠優先) 代替！</p></body></html>"
 
-#: windows.cpp:187
+#: windows.cpp:174
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p><span style=\" font-style:italic;\">Focus strictly "

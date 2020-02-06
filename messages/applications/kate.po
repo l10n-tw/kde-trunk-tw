@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-02 02:30+0100\n"
+"POT-Creation-Date: 2020-02-06 02:34+0100\n"
 "PO-Revision-Date: 2020-01-29 02:00+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -95,7 +95,7 @@ msgstr "主工具列"
 msgid "&Status Bar Items"
 msgstr "狀態列項目(&S)"
 
-#: kateapp.cpp:209 kateapp.cpp:330
+#: kateapp.cpp:245 kateapp.cpp:366
 #, kde-format
 msgid ""
 "The file '%1' could not be opened: it is not a normal file, it is a folder."
@@ -259,23 +259,28 @@ msgstr "外掛"
 msgid "Plugin Manager"
 msgstr "外掛程式管理器"
 
-#: kateconfigdialog.cpp:237
+#: kateconfigdialog.cpp:248 kateconfigdialog.cpp:249
+#, kde-format
+msgid "User Feedback"
+msgstr ""
+
+#: kateconfigdialog.cpp:254
 #, kde-format
 msgid "Editor Component"
 msgstr "編輯器元件"
 
-#: kateconfigdialog.cpp:239
+#: kateconfigdialog.cpp:256
 #, kde-format
 msgid "Editor Component Options"
 msgstr "編輯器元件選項"
 
-#: kateconfigdialog.cpp:446
+#: kateconfigdialog.cpp:469
 #, kde-format
 msgid ""
 "You have unsaved changes. Do you want to apply the changes or discard them?"
 msgstr "你有未儲存的變更。要套用還是捨棄變更？"
 
-#: kateconfigdialog.cpp:446
+#: kateconfigdialog.cpp:469
 #, kde-format
 msgid "Warning"
 msgstr "警告"
