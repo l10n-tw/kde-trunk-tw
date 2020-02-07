@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-06 03:42+0100\n"
+"POT-Creation-Date: 2020-02-07 03:47+0100\n"
 "PO-Revision-Date: 2019-10-11 18:59+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -432,7 +432,7 @@ msgstr "變更不透明度"
 msgid "Window &unshading:"
 msgstr "取消遮蔽視窗(&U)："
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, shadeHoverOn)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShadeHover)
 #: advanced.ui:32
 #, kde-format
 msgid ""
@@ -443,13 +443,13 @@ msgstr ""
 "<html><head/><body><p>啟用選項後，將會在滑鼠游標停駐在標題列一陣子後，自動將"
 "視窗取消遮蔽</p></body></html>"
 
-#. i18n: ectx: property (text), widget (QCheckBox, shadeHoverOn)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShadeHover)
 #: advanced.ui:35
 #, kde-format
 msgid "On titlebar hover after:"
 msgstr "在標題列懸停超過："
 
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, shadeHover)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_ShadeHoverInterval)
 #: advanced.ui:42
 #, kde-format
 msgid ""
@@ -457,7 +457,7 @@ msgid ""
 "pointer goes over the shaded window."
 msgstr "用毫秒設定當滑鼠在遮蔽的視窗上取消遮蔽前的時間。"
 
-#. i18n: ectx: property (suffix), widget (QSpinBox, shadeHover)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_ShadeHoverInterval)
 #. i18n: ectx: property (suffix), widget (QSpinBox, delayFocus)
 #. i18n: ectx: property (suffix), widget (QSpinBox, autoRaise)
 #: advanced.ui:45 focus.ui:85 focus.ui:178
@@ -471,7 +471,7 @@ msgstr " 毫秒"
 msgid "Window &placement:"
 msgstr "視窗放置(&P)："
 
-#. i18n: ectx: property (whatsThis), widget (KComboBox, placementCombo)
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_Placement)
 #: advanced.ui:76
 #, kde-format
 msgid ""
@@ -525,43 +525,43 @@ msgstr ""
 "indent:0; text-indent:0px;\"><span style=\" font-style:italic;\">游標下</"
 "span> 會將視窗擺放在游標下</li></ul></body></html>"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:80
 #, kde-format
 msgid "Minimal Overlapping"
 msgstr "最小重疊"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:85
 #, kde-format
 msgid "Maximized"
 msgstr "最大化"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:90
 #, kde-format
 msgid "Cascaded"
 msgstr "重疊顯示"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:95
 #, kde-format
 msgid "Random"
 msgstr "隨機放置"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:100
 #, kde-format
 msgid "Centered"
 msgstr "置中"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:105
 #, kde-format
 msgid "In Top-Left Corner"
 msgstr "在左上角"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:110
 #, kde-format
 msgid "Under mouse"
@@ -573,7 +573,7 @@ msgstr "游標下"
 msgid "&Special windows:"
 msgstr "特殊視窗(&S)："
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, hideUtilityWindowsForInactive)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_HideUtilityWindowsForInactive)
 #: advanced.ui:128
 #, kde-format
 msgid ""
@@ -586,7 +586,7 @@ msgstr ""
 "該應用程式變為作用中時才會顯示。注意應用程式必須以正確的視窗類型標記其視窗才"
 "能使此功能生效。"
 
-#. i18n: ectx: property (text), widget (QCheckBox, hideUtilityWindowsForInactive)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideUtilityWindowsForInactive)
 #: advanced.ui:131
 #, kde-format
 msgid "Hide utility windows for inactive applications"
@@ -841,67 +841,67 @@ msgstr "視窗動作(&I)"
 msgid "Mo&vement"
 msgstr "移動(&V)"
 
-#: main.cpp:98
+#: main.cpp:99
 #, kde-format
 msgid "Adva&nced"
 msgstr "進階(&N)"
 
-#: main.cpp:102
+#: main.cpp:104
 #, kde-format
 msgid "Window Behavior Configuration Module"
 msgstr "視窗行為設定模組"
 
-#: main.cpp:104
+#: main.cpp:106
 #, kde-format
 msgid "(c) 1997 - 2002 KWin and KControl Authors"
 msgstr "(c) 1997 - 2002 KWin and KControl Authors"
 
-#: main.cpp:106
+#: main.cpp:108
 #, kde-format
 msgid "Matthias Ettrich"
 msgstr "Matthias Ettrich"
 
-#: main.cpp:107
+#: main.cpp:109
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: main.cpp:108
+#: main.cpp:110
 #, kde-format
 msgid "Cristian Tibirna"
 msgstr "Cristian Tibirna"
 
-#: main.cpp:109
+#: main.cpp:111
 #, kde-format
 msgid "Matthias Kalle Dalheimer"
 msgstr "Matthias Kalle Dalheimer"
 
-#: main.cpp:110
+#: main.cpp:112
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: main.cpp:111
+#: main.cpp:113
 #, kde-format
 msgid "Wynn Wilkes"
 msgstr "Wynn Wilkes"
 
-#: main.cpp:112
+#: main.cpp:114
 #, kde-format
 msgid "Pat Dowler"
 msgstr "Pat Dowler"
 
-#: main.cpp:113
+#: main.cpp:115
 #, kde-format
 msgid "Bernd Wuebben"
 msgstr "Bernd Wuebben"
 
-#: main.cpp:114
+#: main.cpp:116
 #, kde-format
 msgid "Matthias Hoelzer-Kluepfel"
 msgstr "Matthias Hoelzer-Kluepfel"
 
-#: main.cpp:166
+#: main.cpp:168
 #, kde-format
 msgid ""
 "<p><h1>Window Behavior</h1> Here you can customize the way windows behave "
@@ -916,12 +916,12 @@ msgstr ""
 "KWin 當作您的視窗管理員，這個設定將不會產生作用。假如您使用其他的視窗管理員，"
 "請參考它的文件來看如何自訂視窗行為。</p>"
 
-#: main.cpp:191
+#: main.cpp:193
 #, kde-format
 msgid "&Titlebar Actions"
 msgstr "標題列動作(&T)"
 
-#: main.cpp:196
+#: main.cpp:198
 #, kde-format
 msgid "Window Actio&ns"
 msgstr "視窗動作(&N)"
@@ -1201,7 +1201,7 @@ msgstr "中央貼齊區域 (&C):"
 msgid "&Snap windows:"
 msgstr "貼齊視窗(&S)："
 
-#: windows.cpp:159
+#: windows.cpp:155
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p><span style=\" font-style:italic;\">Click to focus:"
@@ -1216,7 +1216,7 @@ msgstr ""
 "span>視窗將會在按下時作用。這個行為就如同其他作業系統，且通常就是您所想要的。"
 "</p></body></html>"
 
-#: windows.cpp:162
+#: windows.cpp:158
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p><span style=\" font-style:italic;\">Click to focus "
@@ -1239,7 +1239,7 @@ msgstr ""
 "閉），則滑鼠下方的視窗會第一順位使用。算是 <span style=\" font-style:italic;"
 "\">按一下取得焦點</span> 的變化型。</p></body></html>"
 
-#: windows.cpp:165
+#: windows.cpp:161
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p><span style=\" font-style:italic;\">Focus follows "
@@ -1260,7 +1260,7 @@ msgstr ""
 "span>。可以想成<span style=\"font-style:italic;\">按一下取得焦點</span>，但不"
 "用實際點選。</p></body></html>"
 
-#: windows.cpp:168
+#: windows.cpp:164
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p>This is mostly the same as <span style=\" font-"
@@ -1279,7 +1279,7 @@ msgstr ""
 "使用中視窗已被關閉），則滑鼠下方的視窗會第一順位使用。如果你想要由懸停控制的"
 "焦點，請選擇。</p></body></html>"
 
-#: windows.cpp:171
+#: windows.cpp:167
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p><span style=\" font-style:italic;\">Focus under "
@@ -1304,7 +1304,7 @@ msgstr ""
 "用策略相衝突，且不會運作。通常你可能會想用<span style=\" font-style:italic;"
 "\">將焦點設為滑鼠所在位置 (滑鼠優先) 代替！</p></body></html>"
 
-#: windows.cpp:174
+#: windows.cpp:170
 #, fuzzy, kde-format
 #| msgid ""
 #| "<html><head/><body><p><span style=\" font-style:italic;\">Focus strictly "
