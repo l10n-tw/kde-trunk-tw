@@ -4,13 +4,13 @@
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012, 2013, 2014.
 # Jeff Huang <s8321414@gmail.com>, 2016, 2018.
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009.
-# pan93412 <pan93412@gmail.com>, 2019.
+# pan93412 <pan93412@gmail.com>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: choqok\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-02-06 02:44+0100\n"
-"PO-Revision-Date: 2019-07-09 14:12+0800\n"
+"PO-Revision-Date: 2020-02-08 17:28+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.04.2\n"
+"X-Generator: Lokalize 19.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -2037,13 +2037,13 @@ msgstr "GNU social 伺服器(&G)："
 #: microblogs/mastodon/mastodoneditaccountwidget.cpp:105
 #, kde-format
 msgid "Code"
-msgstr ""
+msgstr "代碼"
 
 #: microblogs/mastodon/mastodoneditaccountwidget.cpp:106
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Enter the verifier code received from %1"
 msgid "Enter the code received from %1"
-msgstr "請輸入從 %1 來的檢查碼"
+msgstr "請輸入 %1 收到的代碼"
 
 #: microblogs/mastodon/mastodoneditaccountwidget.cpp:119
 #: microblogs/pumpio/pumpioeditaccountwidget.cpp:119
@@ -2092,10 +2092,10 @@ msgstr "未認證"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabAccount)
 #: microblogs/mastodon/mastodoneditaccountwidget.ui:21
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Edit Account"
 msgid "Mastodon Account"
-msgstr "編輯帳號"
+msgstr "Mastodon 帳號"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_basicAuth)
 #: microblogs/mastodon/mastodoneditaccountwidget.ui:73
@@ -2107,10 +2107,10 @@ msgstr "認證資訊"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: microblogs/mastodon/mastodoneditaccountwidget.ui:82
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Username:"
 msgid "username@domain:"
-msgstr "使用者名稱："
+msgstr "使用者名稱@網域:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_credentialsBox)
 #: microblogs/mastodon/mastodoneditaccountwidget.ui:98
@@ -2122,15 +2122,14 @@ msgstr "OAuth 認證"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: microblogs/mastodon/mastodoneditaccountwidget.ui:110
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Click the below button; if everything goes well, you will pointed to Pump."
 #| "io website to allow access to Choqok."
 msgid ""
 "Click the below button; if everything goes well, you will pointed to "
 "Mastodon website to allow access to Choqok."
-msgstr ""
-"點擊以下按鍵，若沒有問題，您會被指向到 Pump.io 網站，以便允許 Choqok 存取。"
+msgstr "點選以下按鍵，若沒有問題，您會被指向 Mastodon 網站，以便允許 Choqok 存取。"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, kcfg_authorize)
 #: microblogs/mastodon/mastodoneditaccountwidget.ui:143
@@ -2142,10 +2141,10 @@ msgstr "檢查認證"
 
 #. i18n: ectx: property (text), widget (QPushButton, kcfg_authorize)
 #: microblogs/mastodon/mastodoneditaccountwidget.ui:146
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Authenticate with Pump.io Service"
 msgid "&Authenticate with Mastodon Service"
-msgstr "向 Pump.io 服務認證(&A)"
+msgstr "對 Mastodon 服務進行身份驗證(&A)"
 
 #: microblogs/mastodon/mastodonmicroblog.cpp:335
 #: microblogs/pumpio/pumpiomicroblog.cpp:927
@@ -2176,62 +2175,62 @@ msgstr "您還有您追蹤的人們"
 #, kde-format
 msgctxt "Timeline Name"
 msgid "Local"
-msgstr ""
+msgstr "本機"
 
 #: microblogs/mastodon/mastodonmicroblog.cpp:422
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Loading timelines..."
 msgctxt "Timeline description"
 msgid "Local timeline"
-msgstr "載入時間線中..."
+msgstr "本地時間線"
 
 #: microblogs/mastodon/mastodonmicroblog.cpp:428
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Moderate"
 msgctxt "Timeline Name"
 msgid "Federated"
-msgstr "普通"
+msgstr "站台聯邦"
 
 #: microblogs/mastodon/mastodonmicroblog.cpp:429
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Update Timelines"
 msgctxt "Timeline description"
 msgid "Federated timeline"
-msgstr "更新時間線"
+msgstr "聯邦時間線"
 
 #: microblogs/mastodon/mastodonmicroblog.cpp:435
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Timeline Name"
 #| msgid "Favorites"
 msgctxt "Timeline Name"
 msgid "Favourites"
-msgstr "最愛"
+msgstr "收藏"
 
 #: microblogs/mastodon/mastodonmicroblog.cpp:436
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Timeline Name"
 #| msgid "Favorites"
 msgctxt "Timeline description"
 msgid "Favourites"
-msgstr "最愛"
+msgstr "收藏"
 
 #: microblogs/mastodon/mastodonmicroblog.cpp:537
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Repeat of %1"
 msgid "Boost of %1"
-msgstr "%1 的重覆發文"
+msgstr "%1 的嘟文"
 
 #: microblogs/mastodon/mastodonmicroblog.cpp:539
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Repeated by %1"
 msgid "Boosted by %1"
-msgstr "由 %1 重覆發文"
+msgstr "%1 嘟的文"
 
 #: microblogs/mastodon/mastodonmicroblog.cpp:718
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "New post for account %1 submitted successfully"
 msgid "New post for account %1 submitted successfully."
-msgstr "帳號 %1 的貼文已成功發佈"
+msgstr "帳號 %1 的貼文已成功發佈。"
 
 #: microblogs/mastodon/mastodonmicroblog.cpp:730
 #: microblogs/pumpio/pumpiomicroblog.cpp:709
@@ -2252,13 +2251,13 @@ msgid "An error occurred when fetching the timeline"
 msgstr "抓取時間軸時發生錯誤"
 
 #: microblogs/mastodon/mastodonmicroblog.cpp:937
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Updating followers list for account %1..."
 msgid "Updating following list for account %1..."
-msgstr "更新帳號 %1 的追隨者列表中..."
+msgstr "更新帳號 %1 的追蹤列表中..."
 
 #: microblogs/mastodon/mastodonmicroblog.cpp:967
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Followers list for account %1 could not be updated:\n"
 #| "%2"
@@ -2266,32 +2265,32 @@ msgid ""
 "Following list for account %1 could not be updated:\n"
 "%2"
 msgstr ""
-"帳號 %1 的追隨者列表無法被更新：\n"
+"帳號 %1 的追蹤列表無法被更新：\n"
 "%2"
 
 #: microblogs/mastodon/mastodonmicroblog.cpp:983
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Retrieving the followers list failed. The data returned from the server "
 #| "is corrupted."
 msgid ""
 "Retrieving the following list failed. The data returned from the server is "
 "corrupted."
-msgstr "抓取追隨者列表失敗。伺服器傳回的資料已損毀。"
+msgstr "抓取追蹤列表失敗。伺服器傳回的資料已損毀。"
 
 #: microblogs/mastodon/mastodonpostwidget.cpp:111
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Boost"
-msgstr ""
+msgstr "嘟文"
 
 #: microblogs/mastodon/mastodonpostwidget.cpp:134
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info:tooltip"
 #| msgid "Favorite"
 msgctxt "@info:tooltip"
 msgid "Favourite"
-msgstr "我的最愛"
+msgstr "收藏"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: microblogs/ocs/ocsconfigurebase.ui:19
@@ -2380,8 +2379,7 @@ msgstr "Webfinger ID："
 msgid ""
 "Click the below button; if everything goes well, you will pointed to Pump.io "
 "website to allow access to Choqok."
-msgstr ""
-"點擊以下按鍵，若沒有問題，您會被指向到 Pump.io 網站，以便允許 Choqok 存取。"
+msgstr "點擊以下按鍵，若沒有問題，您會被指向到 Pump.io 網站，以便允許 Choqok 存取。"
 
 #. i18n: ectx: property (text), widget (QPushButton, kcfg_authorize)
 #: microblogs/pumpio/pumpioeditaccountwidget.ui:146
@@ -2539,8 +2537,7 @@ msgstr "Twitter 帳號"
 msgid ""
 "Click the below button; if everything goes well, you will pointed to Twitter "
 "website to allow access to Choqok."
-msgstr ""
-"點擊以下按鍵，若沒有問題，您會被指向到 Twitter 網站，以便允許 Choqok 存取。"
+msgstr "點擊以下按鍵，若沒有問題，您會被指向到 Twitter 網站，以便允許 Choqok 存取。"
 
 #. i18n: ectx: property (text), widget (QPushButton, kcfg_authorize)
 #: microblogs/twitter/twittereditaccount_base.ui:154
@@ -3250,8 +3247,7 @@ msgctxt ""
 "probably not be changed in localization."
 msgid ""
 "You can find your API key <a href=\"http://bit.ly/a/your_api_key\">here</a>"
-msgstr ""
-"您可以在<a href=\"http://bit.ly/a/your_api_key\">這裡</a>找到您的 API 金鑰"
+msgstr "您可以在<a href=\"http://bit.ly/a/your_api_key\">這裡</a>找到您的 API 金鑰"
 
 #: plugins/shorteners/bit_ly/bit_ly_config.cpp:111
 #, kde-format
@@ -3556,8 +3552,7 @@ msgstr "認證"
 msgid ""
 "Click the below button; if everything goes well, you will pointed to Flickr."
 "com website to allow access to Choqok."
-msgstr ""
-"點擊以下按鍵，若沒有問題，您會被指向到 Flickr 網站，以便允許 Choqok 存取。"
+msgstr "點擊以下按鍵，若沒有問題，您會被指向到 Flickr 網站，以便允許 Choqok 存取。"
 
 #. i18n: ectx: property (text), widget (QPushButton, authButton)
 #: plugins/uploaders/flickr/flickrprefs.ui:61

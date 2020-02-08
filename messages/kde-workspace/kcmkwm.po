@@ -6,20 +6,20 @@
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2012, 2013, 2015.
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2007, 2008, 2009, 2010.
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
-# pan93412 <pan93412@gmail.com>, 2019.
+# pan93412 <pan93412@gmail.com>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-02-07 03:47+0100\n"
-"PO-Revision-Date: 2019-10-11 18:59+0800\n"
+"PO-Revision-Date: 2020-02-08 17:20+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.08.2\n"
+"X-Generator: Lokalize 19.12.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -1202,7 +1202,7 @@ msgid "&Snap windows:"
 msgstr "貼齊視窗(&S)："
 
 #: windows.cpp:155
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body><p><span style=\" font-style:italic;\">Click to focus:"
 #| "</span> A window becomes active when you click into it. This behavior is "
@@ -1212,12 +1212,11 @@ msgid ""
 "<em>Click to focus:</em> A window becomes active when you click into it. "
 "This behavior is common on other operating systems and likely what you want."
 msgstr ""
-"<html><head/><body><p><span style=\" font-style:italic;\">按一下成為焦點：</"
-"span>視窗將會在按下時作用。這個行為就如同其他作業系統，且通常就是您所想要的。"
-"</p></body></html>"
+"<em>按一下成為焦點：</em>視窗將會在按下時作用。這個行為就如同其他作業系統，"
+"且通常就是您所想要的。"
 
 #: windows.cpp:158
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body><p><span style=\" font-style:italic;\">Click to focus "
 #| "(mouse precedence):</span> Mostly the same as <span style=\" font-style:"
@@ -1233,14 +1232,12 @@ msgid ""
 "preferred candidate. Unusual, but possible variant of <em>Click to focus</"
 "em>."
 msgstr ""
-"<html><head/><body><p><span style=\" font-style:italic;\">按一下取得焦點 (滑"
-"鼠優先)：</span>幾乎跟 <span style=\" font-style: italic;\">按一下取得焦點</"
-"span> 一樣。如果系統要選取某個視窗成使用中（例如：因為目前的使用中視窗已被關"
-"閉），則滑鼠下方的視窗會第一順位使用。算是 <span style=\" font-style:italic;"
-"\">按一下取得焦點</span> 的變化型。</p></body></html>"
+"<em>按一下取得焦點 (滑鼠優先)：</em>幾乎跟 <em>按一下取得焦點</em> 一樣。"
+"如果系統要選取某個視窗成使用中（例如：因為目前的使用中視窗已被關閉），"
+"則滑鼠下方的視窗會第一順位使用。算是 <em>按一下取得焦點</em> 的變化型。"
 
 #: windows.cpp:161
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body><p><span style=\" font-style:italic;\">Focus follows "
 #| "mouse:</span> Moving the mouse onto a window will activate it. Eg. "
@@ -1254,14 +1251,12 @@ msgid ""
 "<em>Focus stealing prevention</em> takes place as usual. Think as <em>Click "
 "to focus</em> just without having to actually click."
 msgstr ""
-"<html><head/><body><p><span style=\"font-style:italic;\">將焦點設成滑鼠所在位"
-"置：</span>將會把某個滑鼠移動到的視窗設為焦點。例如：隨機出現在滑鼠底下的視窗"
-"不會取得焦點。通常會有<span style=\"font-style:italic;\">防止盜取焦點</"
-"span>。可以想成<span style=\"font-style:italic;\">按一下取得焦點</span>，但不"
-"用實際點選。</p></body></html>"
+"<em>將焦點設成滑鼠所在位置：</em>將會把某個滑鼠移動到的視窗設為焦點。"
+"例如：隨機出現在滑鼠底下的視窗不會取得焦點。通常會有 <em>防止盜取焦點</em>。"
+"可以想成 <em>按一下取得焦點</em>，但不用實際點選。"
 
 #: windows.cpp:164
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body><p>This is mostly the same as <span style=\" font-"
 #| "style:italic;\">Focus follows mouse</span>. If an active window has to be "
@@ -1274,13 +1269,13 @@ msgid ""
 "closed) the window under the mouse is the preferred candidate. Choose this, "
 "if you want a hover controlled focus."
 msgstr ""
-"<html><head/><body><p>這跟 <span style=\" font-style: italic;\">將焦點設成滑"
-"鼠所在位置</span> 幾乎相同。如果系統要選取某個視窗成使用中（例如：因為目前的"
-"使用中視窗已被關閉），則滑鼠下方的視窗會第一順位使用。如果你想要由懸停控制的"
-"焦點，請選擇。</p></body></html>"
+"這跟 <em>將焦點設成滑鼠所在位置</em> 幾乎相同。"
+"如果系統要選取某個視窗成使用中（例如：因為目前的使用中視窗已被關閉），"
+"則滑鼠下方的視窗會第一順位使用。如果你想要由懸停控制的"
+"焦點，請選擇。"
 
 #: windows.cpp:167
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body><p><span style=\" font-style:italic;\">Focus under "
 #| "mouse:</span> The focus always remains on the window under the mouse.<br/"
@@ -1297,15 +1292,13 @@ msgid ""
 "not work. You very likely want to use <em>Focus follows mouse (mouse "
 "precedence)</em> instead!"
 msgstr ""
-"<html><head/><body><p><span style=\" font-style:italic;\">將游標下位置設為焦"
-"點：</span> 焦點將永遠維持在滑鼠下的視窗。<br/><span style=\" font-"
-"weight:600;\">警告：</span><span style=\" font-style:italic;\">防止盜取焦點</"
-"span> 及 <span style=\" font-style:italic;\">tabbox ('Alt+Tab') </span>會與啟"
-"用策略相衝突，且不會運作。通常你可能會想用<span style=\" font-style:italic;"
-"\">將焦點設為滑鼠所在位置 (滑鼠優先) 代替！</p></body></html>"
+"<em>將游標下位置設為焦點：</em> 焦點將永遠維持在滑鼠下的視窗。<br/>"
+"<strong>警告：</strong><em>防止盜取焦點</em> 及 <em>tabbox ('Alt+Tab')</em> "
+"會與啟用策略相衝突，且不會運作。通常你可能會想用"
+"<em>將焦點設為滑鼠所在位置 (滑鼠優先)</em>代替！"
 
 #: windows.cpp:170
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<html><head/><body><p><span style=\" font-style:italic;\">Focus strictly "
 #| "under mouse:</span> The focus is always on the window under the mouse (in "
@@ -1324,17 +1317,8 @@ msgid ""
 "activation policy and will not work. You very likely want to use <em>Focus "
 "follows mouse (mouse precedence)</em> instead!"
 msgstr ""
-"<b>焦點嚴格維持在滑鼠下</b><br/>\n"
-"焦點永遠維持在滑鼠下的視窗 -- 即使在不知名的地方。<br/>\n"
-"很像是過去老式 X11 環境下未管理焦點時的行為。<br/><br/>\n"
-"\n"
-"注意：<br/>\n"
-"「<b>防止盜取焦點</b>」與 「\"Alt+Tab\" 切換視窗」在此政策下無法運作。<br/>\n"
-"您可能改用「焦點跟隨滑鼠 - 再來依滑鼠位置」比較好。<html><head/"
-"><body><p><span style=\" font-style:italic;\">嚴格將游標下位置設為焦點：</"
-"span> 焦點永遠在滑鼠下方的視窗（就算在不確定的地方），非常類似過去未管理之舊"
-"式 X11 環境的焦點行為。<br/><span style=\" font-weight:600;\">警告：</"
-"span><span style=\" font-style:italic;\">防止盜取焦點</span> 及 <span style="
-"\" font-style:italic;\">tabbox ('Alt+Tab') </span>會與啟用策略相衝突，且不會"
-"運作。通常你可能會想用<span style=\" font-style:italic;\">將焦點設為滑鼠所在"
-"位置 (滑鼠優先) 代替！</p></body></html>"
+"<em>嚴格將游標下位置設為焦點：</em>焦點永遠在滑鼠下方的視窗（就算在不確定的地方），"
+"非常類似過去未管理之舊式 X11 環境的焦點行為。<br/<strong>警告：</strong>"
+"<em>防止盜取焦點</em> 及 <em>tabbox ('Alt+Tab')</em> "
+"會與啟用策略相衝突，且不會運作。通常你可能會想用"
+"<em>將焦點設為滑鼠所在位置 (滑鼠優先)</em>代替！"
