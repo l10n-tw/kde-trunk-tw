@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:13+0200\n"
+"POT-Creation-Date: 2020-02-09 03:24+0100\n"
 "PO-Revision-Date: 2018-09-16 22:18+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -43,28 +43,36 @@ msgstr "搜尋印表機..."
 msgid "No printers have been configured or discovered"
 msgstr "沒有設定或發現任何印表機"
 
-#: plasmoid/package/contents/ui/PrinterItem.qml:155
+#: plasmoid/package/contents/ui/PrinterItem.qml:136
+msgid "Resume printing"
+msgstr ""
+
+#: plasmoid/package/contents/ui/PrinterItem.qml:136
+msgid "Pause printing"
+msgstr ""
+
+#: plasmoid/package/contents/ui/PrinterItem.qml:156
 msgid "Configure printer"
 msgstr "設定印表機"
 
-#: plasmoid/package/contents/ui/PrinterItem.qml:156
+#: plasmoid/package/contents/ui/PrinterItem.qml:157
 msgid "Open print queue"
 msgstr "開啟列印佇列"
 
-#: plasmoid/package/contents/ui/PrinterItem.qml:279
+#: plasmoid/package/contents/ui/PrinterItem.qml:276
 msgid "No active jobs"
 msgstr "沒有進行中的工作"
 
-#: plasmoid/package/contents/ui/PrinterItem.qml:281
+#: plasmoid/package/contents/ui/PrinterItem.qml:278
 msgid "One active job"
 msgid_plural "%1 active jobs"
 msgstr[0] "%1 個進行中的工作"
 
-#: plasmoid/package/contents/ui/PrinterItem.qml:285
+#: plasmoid/package/contents/ui/PrinterItem.qml:282
 msgid "No jobs"
 msgstr "沒有工作"
 
-#: plasmoid/package/contents/ui/PrinterItem.qml:287
+#: plasmoid/package/contents/ui/PrinterItem.qml:284
 msgid "One job"
 msgid_plural "%1 jobs"
 msgstr[0] "%1 個工作"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-23 03:50+0100\n"
+"POT-Creation-Date: 2020-02-09 03:42+0100\n"
 "PO-Revision-Date: 2020-01-01 16:32+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -150,18 +150,19 @@ msgctxt "Expand to show n more notifications"
 msgid "Show %1 More"
 msgstr "顯示更多 %1 則訊息"
 
-#: package/contents/ui/FullRepresentation.qml:594
+#: package/contents/ui/FullRepresentation.qml:592
+#: package/contents/ui/main.qml:88
 #, kde-format
-msgid "No unread notifications."
-msgstr "沒有未讀通知。"
+msgid "No unread notifications"
+msgstr "沒有未讀通知"
 
-#: package/contents/ui/FullRepresentation.qml:608
+#: package/contents/ui/FullRepresentation.qml:607
 #: package/contents/ui/main.qml:65
 #, kde-format
 msgid "Notification service not available"
 msgstr "無法使用通知服務"
 
-#: package/contents/ui/FullRepresentation.qml:620
+#: package/contents/ui/FullRepresentation.qml:619
 #, kde-format
 msgctxt "Vendor and product name"
 msgid "Notifications are currently provided by '%1 %2'"
@@ -269,11 +270,6 @@ msgstr[0] "%1 則未讀通知"
 msgid "Do not disturb until %1"
 msgstr "請勿打擾，直到 %1"
 
-#: package/contents/ui/main.qml:88
-#, kde-format
-msgid "No unread notifications"
-msgstr "沒有未讀通知"
-
 #: package/contents/ui/main.qml:180
 #, kde-format
 msgid "&Configure Event Notifications and Actions..."
@@ -373,3 +369,6 @@ msgstr "輸入回覆…"
 msgctxt "@action:button"
 msgid "Send"
 msgstr "傳送"
+
+#~ msgid "No unread notifications."
+#~ msgstr "沒有未讀通知。"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-27 03:03+0100\n"
+"POT-Creation-Date: 2020-02-09 03:03+0100\n"
 "PO-Revision-Date: 2019-09-22 19:06+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -19,79 +19,79 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.08.1\n"
 
-#: data/languages/ba.xml:5
+#: data/languages/ba.xml:9
 #, kde-format
 msgctxt "Language Title"
 msgid "Bengali"
 msgstr "孟加拉語"
 
-#: data/languages/ca.xml:5
+#: data/languages/ca.xml:9
 #, kde-format
 msgctxt "Language Title"
 msgid "Catalan"
 msgstr "加泰羅尼亞語"
 
-#: data/languages/de.xml:5
+#: data/languages/de.xml:9
 #, kde-format
 msgctxt "Language Title"
 msgid "German"
 msgstr "德文"
 
-#: data/languages/du.xml:5
+#: data/languages/du.xml:9
 #, kde-format
 msgctxt "Language Title"
 msgid "Dutch"
 msgstr "荷蘭語"
 
-#: data/languages/en_BE.xml:5
+#: data/languages/en_BE.xml:10
 #, kde-format
 msgctxt "Language Title"
 msgid "British English"
 msgstr "（英式）英語"
 
-#: data/languages/en_US.xml:5
+#: data/languages/en_US.xml:9
 #, kde-format
 msgctxt "Language Title"
 msgid "English"
 msgstr "英語"
 
-#: data/languages/fr.xml:5
+#: data/languages/fr.xml:9
 #, kde-format
 msgctxt "Language Title"
 msgid "French"
 msgstr "法文"
 
-#: data/languages/gr.xml:5
+#: data/languages/gr.xml:9
 #, kde-format
 msgctxt "Language Title"
 msgid "Greek"
 msgstr "希臘文"
 
-#: data/languages/hi.xml:5
+#: data/languages/hi.xml:9
 #, kde-format
 msgctxt "Language Title"
 msgid "Hindi"
 msgstr "北印度語"
 
-#: data/languages/it.xml:5
+#: data/languages/it.xml:9
 #, kde-format
 msgctxt "Language Title"
 msgid "Italian"
 msgstr "義大利文"
 
-#: data/languages/mr.xml:5
+#: data/languages/mr.xml:10
 #, kde-format
 msgctxt "Language Title"
 msgid "Marathi"
 msgstr "Marathi"
 
-#: data/languages/pl.xml:5
+#: data/languages/pl.xml:9
 #, kde-format
 msgctxt "Language Title"
 msgid "Polish"
 msgstr "波蘭語"
 
-#: data/languages/sp.xml:5
+#: data/languages/sp.xml:9
 #, kde-format
 msgctxt "Language Title"
 msgid "Spanish"
@@ -131,50 +131,50 @@ msgid "Default"
 msgstr "預設"
 
 #. i18n: ectx: label, entry (ShowMenuBar), group (artikulate)
-#: src/artikulate.kcfg:9
+#: src/artikulate.kcfg:13
 #, kde-format
 msgid "If true, the main menu bar is shown."
 msgstr "若開啟此選項則會顯示主選單列。"
 
 #. i18n: ectx: label, entry (UseCourseRepository), group (artikulate)
-#: src/artikulate.kcfg:13
+#: src/artikulate.kcfg:17
 #, kde-format
 msgid ""
 "If enabled, course files are only read from the local contributor repository"
 msgstr "若開啟此選項，課程檔案只會從本地端貢獻者的主目錄讀取。"
 
 #. i18n: ectx: label, entry (CourseRepositoryPath), group (artikulate)
-#: src/artikulate.kcfg:17
+#: src/artikulate.kcfg:21
 #, kde-format
 msgid "Path to local contributor repository"
 msgstr "本地端貢獻者主目錄的路徑"
 
 #. i18n: ectx: label, entry (AudioInputDevice), group (artikulate)
-#: src/artikulate.kcfg:20
+#: src/artikulate.kcfg:24
 #, kde-format
 msgid "Name of audio input device"
 msgstr "音效輸入裝置名稱"
 
 #. i18n: ectx: label, entry (AudioInputVolume), group (artikulate)
-#: src/artikulate.kcfg:23
+#: src/artikulate.kcfg:27
 #, kde-format
 msgid "Audio input volume"
 msgstr "音效輸入音量"
 
 #. i18n: ectx: label, entry (AudioOutputVolume), group (artikulate)
-#: src/artikulate.kcfg:27
+#: src/artikulate.kcfg:31
 #, kde-format
 msgid "Audio output volume"
 msgstr "音效輸出音量"
 
 #. i18n: ectx: label, entry (TrainingPhraseFont), group (artikulate)
-#: src/artikulate.kcfg:31
+#: src/artikulate.kcfg:35
 #, kde-format
 msgid "Font"
 msgstr "字型"
 
 #. i18n: ectx: label, entry (RecordingBackend), group (artikulate)
-#: src/artikulate.kcfg:38
+#: src/artikulate.kcfg:42
 #, kde-format
 msgid ""
 "Set either to 'qtmultimediabackend' or 'qtgstreamerbackend', selected on "
@@ -291,34 +291,16 @@ msgctxt "@title Short program description"
 msgid "Edit Artikulate course files."
 msgstr "編輯 Artikulate 課程檔。"
 
-#: src/mainwindow.cpp:61 src/qml/ProfileSelector.qml:18
+#: src/mainwindow.cpp:60 src/qml/ProfileSelector.qml:18
 #, kde-format
 msgid "Unnamed Identity"
 msgstr "未命名的身份"
 
-#: src/mainwindow.cpp:89
-#, kde-format
-msgctxt "@item:inmenu"
-msgid "Configure Artikulate"
-msgstr "設定 Artikulate"
-
-#: src/mainwindow.cpp:94
+#: src/mainwindow.cpp:88
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Learner Profile"
 msgstr "學習者設定檔"
-
-#: src/mainwindow.cpp:113 src/mainwindow_editor.cpp:102
-#, kde-format
-msgctxt "@item:inmenu"
-msgid "Sound Devices"
-msgstr "音效裝置"
-
-#: src/mainwindow.cpp:113 src/mainwindow_editor.cpp:102
-#, kde-format
-msgctxt "@title:tab"
-msgid "Sound Device Settings"
-msgstr "音效裝置設定"
 
 #: src/models/coursemodel.cpp:103 src/models/languageresourcemodel.cpp:72
 #: src/models/phonememodel.cpp:62 src/models/phraselistmodel.cpp:98
@@ -861,82 +843,56 @@ msgctxt "@action:button"
 msgid "Start Training"
 msgstr "下載課程"
 
-#: src/ui/exportghnsdialog.cpp:27
-#, kde-format
-msgid "Export"
-msgstr "匯出"
+#~ msgctxt "@item:inmenu"
+#~ msgid "Configure Artikulate"
+#~ msgstr "設定 Artikulate"
 
-#. i18n: ectx: property (text), widget (QLabel, exportDirectoryLabel)
-#: src/ui/exportghnsdialog.cpp:37 src/ui/exportghnsdialog.ui:19
-#, kde-format
-msgid "Export Directory"
-msgstr "匯出目錄"
+#~ msgctxt "@item:inmenu"
+#~ msgid "Sound Devices"
+#~ msgstr "音效裝置"
 
-#. i18n: ectx: property (text), widget (QToolButton, selectDirectoryButton)
-#: src/ui/exportghnsdialog.ui:29
-#, kde-format
-msgid "..."
-msgstr "..."
+#~ msgctxt "@title:tab"
+#~ msgid "Sound Device Settings"
+#~ msgstr "音效裝置設定"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/ui/sounddevicedialogpage.ui:17
-#, kde-format
-msgid "Configure Microphone"
-msgstr "設定麥克風"
+#~ msgid "Export"
+#~ msgstr "匯出"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/sounddevicedialogpage.ui:29
-#, kde-format
-msgid "Input Device"
-msgstr "輸入裝置"
+#~ msgid "Export Directory"
+#~ msgstr "匯出目錄"
 
-#. i18n: ectx: property (text), widget (QLabel, labelPlayTestSound)
-#: src/ui/sounddevicedialogpage.ui:51
-#, kde-format
-msgid "Play Test Sound"
-msgstr "播放測試音效"
+#~ msgid "..."
+#~ msgstr "..."
 
-#. i18n: ectx: property (toolTip), widget (QToolButton, buttonPlayTestSound)
-#: src/ui/sounddevicedialogpage.ui:58
-#, kde-format
-msgid "Play test sound."
-msgstr "播放測試音效。"
+#~ msgid "Configure Microphone"
+#~ msgstr "設定麥克風"
 
-#. i18n: ectx: property (text), widget (QLabel, labelRecordTestSound)
-#: src/ui/sounddevicedialogpage.ui:68
-#, kde-format
-msgid "Record Test Sound"
-msgstr "錄製測試音效"
+#~ msgid "Input Device"
+#~ msgstr "輸入裝置"
 
-#. i18n: ectx: property (toolTip), widget (QToolButton, buttonPlayRecordedTestSound)
-#: src/ui/sounddevicedialogpage.ui:75
-#, kde-format
-msgid "Play recorded test sound."
-msgstr "播放錄製的測試音效。"
+#~ msgid "Play Test Sound"
+#~ msgstr "播放測試音效"
 
-#. i18n: ectx: property (toolTip), widget (QToolButton, buttonRecordTestSound)
-#: src/ui/sounddevicedialogpage.ui:85
-#, kde-format
-msgid "Record test sound."
-msgstr "錄製測試音效。"
+#~ msgid "Play test sound."
+#~ msgstr "播放測試音效。"
 
-#. i18n: ectx: property (text), widget (QLabel, labelTestSoundSettings)
-#: src/ui/sounddevicedialogpage.ui:107
-#, kde-format
-msgid "Test Sound"
-msgstr "測試音效"
+#~ msgid "Record Test Sound"
+#~ msgstr "錄製測試音效"
 
-#. i18n: ectx: property (title), widget (QGroupBox, boxSpeakers)
-#: src/ui/sounddevicedialogpage.ui:123
-#, kde-format
-msgid "Configure Speakers"
-msgstr "設定講者"
+#~ msgid "Play recorded test sound."
+#~ msgstr "播放錄製的測試音效。"
 
-#. i18n: ectx: property (text), widget (QLabel, labelOutputVolume)
-#: src/ui/sounddevicedialogpage.ui:135
-#, kde-format
-msgid "Volume"
-msgstr "音量"
+#~ msgid "Record test sound."
+#~ msgstr "錄製測試音效。"
+
+#~ msgid "Test Sound"
+#~ msgstr "測試音效"
+
+#~ msgid "Configure Speakers"
+#~ msgstr "設定講者"
+
+#~ msgid "Volume"
+#~ msgstr "音量"
 
 #~ msgctxt "@item:inmenu"
 #~ msgid "Fonts"

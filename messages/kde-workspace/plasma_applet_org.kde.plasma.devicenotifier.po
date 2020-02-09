@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-18 03:35+0200\n"
+"POT-Creation-Date: 2020-02-09 03:42+0100\n"
 "PO-Revision-Date: 2019-02-27 20:28+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -115,15 +115,14 @@ msgid "Removing..."
 msgstr "移除中..."
 
 #: package/contents/ui/devicenotifier.qml:62
-#: package/contents/ui/FullRepresentation.qml:44
-#, kde-format
-msgid "No Devices Available"
-msgstr "沒有可用裝置"
-
-#: package/contents/ui/devicenotifier.qml:62
 #, kde-format
 msgid "Most Recent Device"
 msgstr "上次插入的裝置"
+
+#: package/contents/ui/devicenotifier.qml:62
+#, kde-format
+msgid "No Devices Available"
+msgstr "沒有可用裝置"
 
 #: package/contents/ui/devicenotifier.qml:239
 #, kde-format
@@ -131,27 +130,33 @@ msgctxt "Open auto mounter kcm"
 msgid "Configure Removable Devices"
 msgstr "設定可移除裝置"
 
-#: package/contents/ui/FullRepresentation.qml:121
+#: package/contents/ui/FullRepresentation.qml:46
+#, fuzzy, kde-format
+#| msgid "No Devices Available"
+msgid "No devices available"
+msgstr "沒有可用裝置"
+
+#: package/contents/ui/FullRepresentation.qml:124
 #, kde-format
 msgid "Click to safely remove all devices"
 msgstr "點擊以安全移除所有裝置。"
 
-#: package/contents/ui/FullRepresentation.qml:122
+#: package/contents/ui/FullRepresentation.qml:125
 #, kde-format
 msgid "Remove all"
 msgstr "全部移除"
 
-#: package/contents/ui/FullRepresentation.qml:199
+#: package/contents/ui/FullRepresentation.qml:202
 #, kde-format
 msgid "Click to access this device from other applications."
 msgstr "點擊以從其它應用程式存取此裝置。"
 
-#: package/contents/ui/FullRepresentation.qml:201
+#: package/contents/ui/FullRepresentation.qml:204
 #, kde-format
 msgid "Click to eject this disc."
 msgstr "點擊以退出碟片。"
 
-#: package/contents/ui/FullRepresentation.qml:203
+#: package/contents/ui/FullRepresentation.qml:206
 #, kde-format
 msgid "Click to safely remove this device."
 msgstr "點擊以安全地移除此裝置。"
