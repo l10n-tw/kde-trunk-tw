@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-05 03:16+0100\n"
+"POT-Creation-Date: 2020-02-10 03:08+0100\n"
 "PO-Revision-Date: 2020-02-03 21:10+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -346,30 +346,24 @@ msgstr "新增路徑"
 msgid "Choose a Folder"
 msgstr "選取資料夾"
 
-#: qml/GridBrowserDelegate.qml:157 qml/ListBrowserDelegate.qml:273
+#: qml/GridBrowserDelegate.qml:153 qml/ListBrowserDelegate.qml:273
 #: qml/PlayListEntry.qml:232
 #, kde-format
 msgctxt "Show track metadata"
 msgid "View Details"
 msgstr "檢視詳細資訊"
 
-#: qml/GridBrowserDelegate.qml:191
+#: qml/GridBrowserDelegate.qml:187
 #, kde-format
 msgctxt "Clear play list and add whole container to play list"
 msgid "Play now, replacing current playlist"
 msgstr "立即播放，取代目前播放清單"
 
-#: qml/GridBrowserDelegate.qml:216
+#: qml/GridBrowserDelegate.qml:212
 #, kde-format
 msgctxt "Add whole container to play list"
 msgid "Add to playlist"
 msgstr "新增至播放清單"
-
-#: qml/GridBrowserDelegate.qml:241
-#, kde-format
-msgctxt "Open view of the container"
-msgid "Open"
-msgstr "開啟"
 
 #: qml/HeaderBar.qml:328
 #, kde-format
@@ -689,6 +683,10 @@ msgstr "正在掃描音樂"
 msgctxt "disc header text when showing an album"
 msgid "Disc %1"
 msgstr "光碟 %1"
+
+#~ msgctxt "Open view of the container"
+#~ msgid "Open"
+#~ msgstr "開啟"
 
 #~ msgctxt "Play now current track from play list"
 #~ msgid "Play Now"

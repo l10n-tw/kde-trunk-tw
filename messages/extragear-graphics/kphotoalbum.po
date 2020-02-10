@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kphotoalbum\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-27 02:41+0100\n"
+"POT-Creation-Date: 2020-02-10 02:39+0100\n"
 "PO-Revision-Date: 2019-01-19 19:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -2914,13 +2914,13 @@ msgid ""
 "defect, eventually including the information from the section below.</"
 "p><p>In case you are missing a feature and you did not compile KPhotoAlbum "
 "yourself, please do consider doing so. It really is not that hard. If you "
-"need help compiling KPhotoAlbum, feel free to ask on the <a href=\"http://"
+"need help compiling KPhotoAlbum, feel free to ask on the <a href=\"https://"
 "mail.kdab.com/mailman/listinfo/kphotoalbum\">KPhotoAlbum mailing list</a></"
-"p><p>The steps to compile KPhotoAlbum can be seen on <a href=\"http://www."
-"kphotoalbum.org/index.php?page=compile\">the KPhotoAlbum home page</a>. If "
-"you have never compiled a KDE application, then please ensure that you have "
-"the developer packages installed, in most distributions they go under names "
-"like kdelibs<i>-devel</i></p>"
+"p><p>The steps to compile KPhotoAlbum can be seen on <a href=\"https://"
+"community.kde.org/KPhotoAlbum/build_instructions\">the KPhotoAlbum home "
+"page</a>. If you have never compiled a KDE application, then please ensure "
+"that you have the developer packages installed, in most distributions they "
+"go under names like kdelibs<i>-devel</i></p>"
 msgstr ""
 "<h1>若我缺少一項功能時，我該怎麼做？</h1> <p>若您自行編譯 KPhotoAlbum，請仔細"
 "檢視以下的區塊，以便得知要安裝哪些軟體包以補足有問題的功能。若您是從編譯好的"
@@ -2934,7 +2934,16 @@ msgstr ""
 "kdelibs<i>-devel</i></p>"
 
 #: MainWindow/FeatureDialog.cpp:63
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<h1><a name=\"kipi\">Plug-ins support</a></h1><p>KPhotoAlbum has a plug-"
+#| "in system with lots of extensions. You may among other things find plug-"
+#| "ins for:<ul><li>Writing images to cds or dvd's</li><li>Adjusting "
+#| "timestamps on your images</li><li>Making a calendar featuring your "
+#| "images</li><li>Uploading your images to flickr</li><li>Upload your images "
+#| "to facebook</li></ul></p><p>The plug-in library is called KIPI, and may "
+#| "be downloaded from the <a href=\"http://userbase.kde.org/KIPI\">KDE "
+#| "Userbase Wiki</a></p>"
 msgid ""
 "<h1><a name=\"kipi\">Plug-ins support</a></h1><p>KPhotoAlbum has a plug-in "
 "system with lots of extensions. You may among other things find plug-ins for:"
@@ -2942,7 +2951,7 @@ msgid ""
 "images</li><li>Making a calendar featuring your images</li><li>Uploading "
 "your images to flickr</li><li>Upload your images to facebook</li></ul></"
 "p><p>The plug-in library is called KIPI, and may be downloaded from the <a "
-"href=\"http://userbase.kde.org/KIPI\">KDE Userbase Wiki</a></p>"
+"href=\"https://userbase.kde.org/KIPI\">KDE Userbase Wiki</a></p>"
 msgstr ""
 "<h1><a name=\"kipi\">外掛程式支援</a></h1><p>KPhotoAlbum 有一個外掛程式系統，"
 "有許多延伸功能。除此之外，您可以尋找以下功能的外掛程式： <ul><li>寫入影像到光"
@@ -2951,7 +2960,7 @@ msgstr ""
 "函式庫稱為 KIPI，可以從 <a href=\"http://userbase.kde.org/KIPI\">KDE "
 "Userbase Wiki</a>取得。</p>"
 
-#: MainWindow/FeatureDialog.cpp:76
+#: MainWindow/FeatureDialog.cpp:77
 #, fuzzy, kde-format
 #| msgid ""
 #| "<h1><a name=\"database\">SQL database support</a></h1><p>KPhotoAlbum "
@@ -2968,7 +2977,7 @@ msgstr ""
 "數量的 EXIF 標籤來搜尋。此時 KPhotoALbum 需要一個 Sqlite 資料庫。此外需要安"
 "裝 Qt 的 sqlite 支援軟體包（qt-sql-sqlite）。</p>"
 
-#: MainWindow/FeatureDialog.cpp:81
+#: MainWindow/FeatureDialog.cpp:82
 #, kde-format
 msgid ""
 "<h1><a name=\"geomap\">Map view for geotagged images</a></h1><p>If "
@@ -2976,12 +2985,18 @@ msgid ""
 "images with GPS information on a map.</p>"
 msgstr ""
 
-#: MainWindow/FeatureDialog.cpp:86
-#, kde-format
+#: MainWindow/FeatureDialog.cpp:87
+#, fuzzy, kde-format
+#| msgid ""
+#| "<h1><a name=\"video\">Video support</a></h1><p>KPhotoAlbum relies on Qt's "
+#| "Phonon architecture for displaying videos; this in turn relies on "
+#| "GStreamer. If this feature is not enabled for you, have a look at the <a "
+#| "href=\"http://userbase.kde.org/KPhotoAlbum#Video_Support\">KPhotoAlbum "
+#| "wiki article on video support</a>.</p>"
 msgid ""
 "<h1><a name=\"video\">Video support</a></h1><p>KPhotoAlbum relies on Qt's "
 "Phonon architecture for displaying videos; this in turn relies on GStreamer. "
-"If this feature is not enabled for you, have a look at the <a href=\"http://"
+"If this feature is not enabled for you, have a look at the <a href=\"https://"
 "userbase.kde.org/KPhotoAlbum#Video_Support\">KPhotoAlbum wiki article on "
 "video support</a>.</p>"
 msgstr ""
@@ -2990,7 +3005,7 @@ msgstr ""
 "userbase.kde.org/KPhotoAlbum#Video_Support\">KPhotoAlbum wiki 上關於影片支援"
 "的文章</a>。</p>"
 
-#: MainWindow/FeatureDialog.cpp:94
+#: MainWindow/FeatureDialog.cpp:95
 #, kde-format
 msgid ""
 "<p>No video mime types found, which indicates that either Qt was compiled "
@@ -2999,14 +3014,14 @@ msgstr ""
 "<p>找不到任何影像 MIME 型態，表示可能 Qt 並未編入 phonon 支援，或是找不到編解"
 "碼器</p>"
 
-#: MainWindow/FeatureDialog.cpp:96
+#: MainWindow/FeatureDialog.cpp:97
 #, kde-format
 msgid ""
 "<p>Phonon is capable of playing movies of these mime types:<ul><li>%1</li></"
 "ul></p>"
 msgstr "<p>Phonon 可用於播放以下 MIME 型態的影片： <ul><li>%1</li></ul></p>"
 
-#: MainWindow/FeatureDialog.cpp:98
+#: MainWindow/FeatureDialog.cpp:99
 #, fuzzy, kde-format
 #| msgid ""
 #| "<h1><a name=\"videoPreview\">Video preview</a></h1><p>KPhotoAlbum uses "
@@ -3020,7 +3035,7 @@ msgstr ""
 "<h1><a name=\"videoPreview\">影片預覽</a></h1> <p>KPhotoAlbum 用 "
 "<tt>mplayer</tt> 從影片中解開縮圖。這些縮圖用於在縮圖檢視器中預覽影片。</p>"
 
-#: MainWindow/FeatureDialog.cpp:102
+#: MainWindow/FeatureDialog.cpp:103
 #, fuzzy, kde-format
 #| msgid ""
 #| "<h1><a name=\"videoPreview\">Video preview</a></h1><p>KPhotoAlbum uses "
@@ -3035,45 +3050,45 @@ msgstr ""
 "<h1><a name=\"videoPreview\">影片預覽</a></h1> <p>KPhotoAlbum 用 "
 "<tt>mplayer</tt> 從影片中解開縮圖。這些縮圖用於在縮圖檢視器中預覽影片。</p>"
 
-#: MainWindow/FeatureDialog.cpp:192
+#: MainWindow/FeatureDialog.cpp:193
 #, kde-format
 msgid "Plug-ins available"
 msgstr "可用的外掛程式"
 
-#: MainWindow/FeatureDialog.cpp:193
+#: MainWindow/FeatureDialog.cpp:194
 #, fuzzy, kde-format
 #| msgid "Sqlite database support (used for EXIF searches)"
 msgid "SQLite database support (used for Exif searches)"
 msgstr "Sqlite 資料庫支援（用於 EXIF 搜尋）"
 
-#: MainWindow/FeatureDialog.cpp:194
+#: MainWindow/FeatureDialog.cpp:195
 #, kde-format
 msgid "Map view for geotagged images."
 msgstr ""
 
-#: MainWindow/FeatureDialog.cpp:195
+#: MainWindow/FeatureDialog.cpp:196
 #, kde-format
 msgid "Video support"
 msgstr "影片支援"
 
-#: MainWindow/FeatureDialog.cpp:196
+#: MainWindow/FeatureDialog.cpp:197
 #, kde-format
 msgid "Video thumbnail support"
 msgstr "影片縮圖支援"
 
-#: MainWindow/FeatureDialog.cpp:197
+#: MainWindow/FeatureDialog.cpp:198
 #, fuzzy, kde-format
 #| msgid "Video support"
 msgid "Video metadata support"
 msgstr "影片支援"
 
-#: MainWindow/FeatureDialog.cpp:201
+#: MainWindow/FeatureDialog.cpp:202
 #, kde-format
 msgctxt "Feature available"
 msgid "Yes"
 msgstr "是"
 
-#: MainWindow/FeatureDialog.cpp:202
+#: MainWindow/FeatureDialog.cpp:203
 #, kde-format
 msgctxt "Feature not available"
 msgid "No"

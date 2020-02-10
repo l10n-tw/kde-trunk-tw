@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-09 03:20+0100\n"
+"POT-Creation-Date: 2020-02-10 03:13+0100\n"
 "PO-Revision-Date: 2019-09-28 03:06+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -198,7 +198,7 @@ msgstr ""
 #: apps/qml/qml/CreateNewChannelDialog.qml:120
 #: widgets/dialogs/channelinfowidget.cpp:89
 #: widgets/dialogs/createnewchannelwidget.cpp:67
-#: widgets/ruqolaloginwidget.cpp:53
+#: widgets/ruqolaloginwidget.cpp:74
 msgid "Password:"
 msgstr ""
 
@@ -474,7 +474,7 @@ msgstr ""
 msgid "Enter address of the server"
 msgstr ""
 
-#: apps/qml/qml/Login.qml:113
+#: apps/qml/qml/Login.qml:113 widgets/ruqolaloginwidget.cpp:60
 msgid "Authentication Method"
 msgstr ""
 
@@ -504,7 +504,7 @@ msgstr ""
 msgid "Log in"
 msgstr ""
 
-#: apps/qml/qml/Login.qml:229 widgets/ruqolaloginwidget.cpp:145
+#: apps/qml/qml/Login.qml:229 widgets/ruqolaloginwidget.cpp:168
 msgid "Login Failed"
 msgstr ""
 
@@ -516,7 +516,7 @@ msgstr ""
 msgid "Socket error: %1"
 msgstr ""
 
-#: apps/qml/qml/Login.qml:245 widgets/ruqolaloginwidget.cpp:159
+#: apps/qml/qml/Login.qml:245 widgets/ruqolaloginwidget.cpp:182
 msgid "Installation Problem found. No plugins found here."
 msgstr ""
 
@@ -1137,7 +1137,7 @@ msgstr ""
 msgid "Mentions Messages"
 msgstr ""
 
-#: core/model/messagemodel.cpp:274
+#: core/model/messagemodel.cpp:275
 msgid "Ignored Message"
 msgstr ""
 
@@ -1813,17 +1813,17 @@ msgid "Modify Account"
 msgstr ""
 
 #: widgets/dialogs/createnewaccountwidget.cpp:39
-#: widgets/dialogs/serverinfowidget.cpp:37 widgets/ruqolaloginwidget.cpp:41
+#: widgets/dialogs/serverinfowidget.cpp:37 widgets/ruqolaloginwidget.cpp:42
 msgid "Account Name:"
 msgstr ""
 
 #: widgets/dialogs/createnewaccountwidget.cpp:44
-#: widgets/ruqolaloginwidget.cpp:45
+#: widgets/ruqolaloginwidget.cpp:46
 msgid "Server Name:"
 msgstr ""
 
 #: widgets/dialogs/createnewaccountwidget.cpp:49
-#: widgets/dialogs/serverinfowidget.cpp:41 widgets/ruqolaloginwidget.cpp:49
+#: widgets/dialogs/serverinfowidget.cpp:41 widgets/ruqolaloginwidget.cpp:50
 msgid "User Name:"
 msgstr ""
 
@@ -1876,7 +1876,7 @@ msgctxt "@title:window"
 msgid "Search Channel"
 msgstr ""
 
-#: widgets/dialogs/searchmessagedialog.cpp:37
+#: widgets/dialogs/searchmessagedialog.cpp:36
 msgctxt "@title:window"
 msgid "Search Messages"
 msgstr ""
@@ -2004,7 +2004,7 @@ msgstr ""
 msgid "Unknown state"
 msgstr ""
 
-#: widgets/room/messagedelegatehelperfile.cpp:116
+#: widgets/room/messagedelegatehelperfile.cpp:117
 msgid "Save File"
 msgstr ""
 
@@ -2025,11 +2025,11 @@ msgstr ""
 msgid "Job Failed"
 msgstr ""
 
-#: widgets/ruqolaloginwidget.cpp:55
+#: widgets/ruqolaloginwidget.cpp:76
 msgid "Login"
 msgstr ""
 
-#: widgets/ruqolaloginwidget.cpp:67
+#: widgets/ruqolaloginwidget.cpp:89
 msgid ""
 "You have enabled second factor authentication.\n"
 "Please enter the generated code or a backup code."
