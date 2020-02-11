@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-08 02:45+0100\n"
+"POT-Creation-Date: 2020-02-11 02:44+0100\n"
 "PO-Revision-Date: 2020-02-01 20:05+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -8607,7 +8607,7 @@ msgstr "濾鏡"
 
 #: libs/image/kis_base_mask_generator.h:35
 #: libs/ui/kis_bookmarked_configurations_model.cc:66
-#: plugins/extensions/layersplit/dlg_layersplit.cpp:62
+#: plugins/extensions/layersplit/dlg_layersplit.cpp:60
 #: plugins/flake/textshape/kotext/styles/KoStyleManager.cpp:106
 #: plugins/flake/textshape/kotext/styles/KoStyleManager.cpp:111
 #, kde-format
@@ -10565,7 +10565,7 @@ msgstr "合併法線貼圖"
 #: libs/ui/KisPaletteEditor.cpp:421 libs/ui/KisPaletteEditor.cpp:459
 #: libs/ui/layerstyles/WdgColorOverlay.ui:23
 #: libs/ui/layerstyles/WdgStroke.ui:134 libs/widgets/kis_palette_view.cpp:127
-#: plugins/extensions/layersplit/layersplit.cpp:203
+#: plugins/extensions/layersplit/layersplit.cpp:211
 #: plugins/generators/solid/colorgenerator.h:53
 #, kde-format
 msgid "Color"
@@ -27092,17 +27092,23 @@ msgstr "移進上一組"
 msgid "Move into next group"
 msgstr "移進下一組"
 
-#: plugins/extensions/layersplit/dlg_layersplit.cpp:42
+#: plugins/extensions/layersplit/dlg_layersplit.cpp:43
 #, kde-format
 msgid "Split Layer"
 msgstr "分割圖層"
 
-#: plugins/extensions/layersplit/layersplit.cpp:90
+#: plugins/extensions/layersplit/layersplit.cpp:94
 #, kde-format
 msgid "Split into Layers"
 msgstr "分割至圖層"
 
-#: plugins/extensions/layersplit/layersplit.cpp:189
+#: plugins/extensions/layersplit/layersplit.cpp:97
+#, fuzzy, kde-format
+#| msgid "Split into Layers"
+msgid "Split into Masks"
+msgstr "分割至圖層"
+
+#: plugins/extensions/layersplit/layersplit.cpp:196
 msgctxt "(qtundo-format)"
 msgid "Split Layer"
 msgstr "分割圖層"
@@ -27137,17 +27143,17 @@ msgstr "隱藏原始圖層"
 msgid "Sort layers by amount of non-transparent pixels"
 msgstr "按不透明像質數量排列圖層"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/extensions/layersplit/wdg_layersplit.ui:72
-#, kde-format
-msgid "Fuzziness:"
-msgstr "模糊度："
-
 #. i18n: ectx: property (text), widget (QCheckBox, chkDisregardOpacity)
-#: plugins/extensions/layersplit/wdg_layersplit.ui:85
+#: plugins/extensions/layersplit/wdg_layersplit.ui:72
 #, kde-format
 msgid "Disregard opacity"
 msgstr "忽略不透明度"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/extensions/layersplit/wdg_layersplit.ui:79
+#, kde-format
+msgid "Fuzziness:"
+msgstr "模糊度："
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/extensions/layersplit/wdg_layersplit.ui:92
@@ -27161,8 +27167,22 @@ msgstr "用於命名圖層的調色板："
 msgid "Choose Palette"
 msgstr "選擇調色板"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbMode)
+#: plugins/extensions/layersplit/wdg_layersplit.ui:107
+#, fuzzy, kde-format
+#| msgid "Split into Layers"
+msgid "Split Into Layers"
+msgstr "分割至圖層"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbMode)
+#: plugins/extensions/layersplit/wdg_layersplit.ui:112
+#, fuzzy, kde-format
+#| msgid "&Show Global Selection Mask"
+msgid "Split Into Local Selection Masks"
+msgstr "顯示全域選取區域遮罩(&S)"
+
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/extensions/layersplit/wdg_layersplit.ui:111
+#: plugins/extensions/layersplit/wdg_layersplit.ui:125
 #, kde-format
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Split a layer "

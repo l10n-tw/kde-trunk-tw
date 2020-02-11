@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-08 03:44+0100\n"
+"POT-Creation-Date: 2020-02-11 03:44+0100\n"
 "PO-Revision-Date: 2020-01-16 14:36+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -377,13 +377,15 @@ msgid "Installed"
 msgstr "已安裝"
 
 #: discover/qml/DiscoverWindow.qml:82
-#, kde-format
-msgid "Fetching Updates..."
+#, fuzzy, kde-format
+#| msgid "Fetching Updates..."
+msgid "Fetching updates..."
 msgstr "抓取更新中…"
 
 #: discover/qml/DiscoverWindow.qml:82
-#, kde-format
-msgid "Up to Date"
+#, fuzzy, kde-format
+#| msgid "Up to Date"
+msgid "Up to date"
 msgstr "更新至最新"
 
 #: discover/qml/DiscoverWindow.qml:82
@@ -718,73 +720,83 @@ msgid "%1/%2 update selected (%3)"
 msgid_plural "%1/%2 updates selected (%3)"
 msgstr[0] "已選取 %1（共 %2）個更新 (%3)"
 
-#: discover/qml/UpdatesPage.qml:176
+#: discover/qml/UpdatesPage.qml:177
 #, kde-format
 msgid "Restart"
 msgstr "重新開機"
 
-#: discover/qml/UpdatesPage.qml:256
+#: discover/qml/UpdatesPage.qml:257
 #, kde-format
 msgid "%1"
 msgstr "%1"
 
-#: discover/qml/UpdatesPage.qml:269
+#: discover/qml/UpdatesPage.qml:270
 #, kde-format
 msgid "Update to version %1"
 msgstr "更新至 %1 版"
 
-#: discover/qml/UpdatesPage.qml:279
+#: discover/qml/UpdatesPage.qml:280
 #, kde-format
 msgctxt "Do not translate or alter \\x9C"
 msgid "%1 → %2%1 → %2%2"
 msgstr "%1 → %2%1 → %2%2"
 
-#: discover/qml/UpdatesPage.qml:292
+#: discover/qml/UpdatesPage.qml:293
 #, kde-format
 msgid "Installing"
 msgstr "安裝中…"
 
-#: discover/qml/UpdatesPage.qml:323
+#: discover/qml/UpdatesPage.qml:324
 #, kde-format
 msgid "More Information..."
 msgstr "更多資訊..."
 
-#: discover/qml/UpdatesPage.qml:351
-#, kde-format
+#: discover/qml/UpdatesPage.qml:352
+#, fuzzy, kde-format
+#| msgid "Fetching Updates..."
 msgctxt "@info"
-msgid "Fetching Updates..."
-msgstr "正在取得更新…"
+msgid "Fetching updates..."
+msgstr "抓取更新中…"
 
-#: discover/qml/UpdatesPage.qml:363
+#: discover/qml/UpdatesPage.qml:365
 #, kde-format
 msgctxt "@info"
 msgid "Updates"
 msgstr "更新"
 
-#: discover/qml/UpdatesPage.qml:369
+#: discover/qml/UpdatesPage.qml:371
 #, kde-format
 msgctxt "@info"
 msgid "The system requires a restart to apply updates"
 msgstr "系統需重新啟動才能套用更新"
 
-#: discover/qml/UpdatesPage.qml:373 discover/qml/UpdatesPage.qml:378
-#: discover/qml/UpdatesPage.qml:383
-#, kde-format
-msgctxt "@info"
-msgid "Up to Date"
-msgstr "最新版本"
-
+#: discover/qml/UpdatesPage.qml:376 discover/qml/UpdatesPage.qml:382
 #: discover/qml/UpdatesPage.qml:388
+#, fuzzy, kde-format
+#| msgid "Up to Date"
+msgctxt "@info"
+msgid "Up to date"
+msgstr "更新至最新"
+
+#: discover/qml/UpdatesPage.qml:394
 #, kde-format
 msgctxt "@info"
 msgid "Should check for updates"
 msgstr "應該檢查更新"
 
-#: discover/qml/UpdatesPage.qml:393
+#: discover/qml/UpdatesPage.qml:400
 #, kde-format
 msgctxt "@info"
 msgid "It is unknown when the last check for updates was"
 msgstr "不知道上次檢查更新的時間"
+
+#~ msgctxt "@info"
+#~ msgid "Fetching Updates..."
+#~ msgstr "正在取得更新…"
+
+#~ msgctxt "@info"
+#~ msgid "Up to Date"
+#~ msgstr "最新版本"
 
 #~ msgid "<em>Tell us about this review!</em>"
 #~ msgstr "<em>告訴我們關於這個評論！</em>"

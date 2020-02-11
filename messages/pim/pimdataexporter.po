@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-09 03:31+0100\n"
+"POT-Creation-Date: 2020-02-11 03:34+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -653,12 +653,22 @@ msgstr "備份封存結構："
 msgid "backup-structure.txt file was not found."
 msgstr "找不到 backup-structure.txt 檔。"
 
-#: gui/dialog/pimdataexporterconfiguredialog.cpp:30
+#: gui/dialog/pimdataexporterconfiguredialog.cpp:40
 #, fuzzy, kde-format
 #| msgid "PIM Setting Exporter"
 msgctxt "@title:window"
 msgid "Configure PimDataExporter"
 msgstr "PIM 設定匯出器"
+
+#: gui/dialog/pimdataexporterconfiguredialog.cpp:51
+#, kde-format
+msgid "General"
+msgstr ""
+
+#: gui/dialog/pimdataexporterconfiguredialog.cpp:66
+#, kde-format
+msgid "User Feedback"
+msgstr ""
 
 #: gui/dialog/selectiontypedialog.cpp:35
 #, fuzzy, kde-format
