@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-31 02:32+0100\n"
+"POT-Creation-Date: 2020-02-12 02:39+0100\n"
 "PO-Revision-Date: 2020-01-16 14:40+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -821,98 +821,119 @@ msgid "Match current character"
 msgstr "符合目前字元"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, customCursorColorButton)
-#: EditProfileAppearancePage.ui:328
+#: EditProfileAppearancePage.ui:323
 #, kde-format
 msgid "Use a custom, fixed color for the cursor"
 msgstr "游標使用自訂、固定的顏色"
 
 #. i18n: ectx: property (text), widget (QRadioButton, customCursorColorButton)
-#: EditProfileAppearancePage.ui:331
-#, kde-format
-msgid "Custom cursor color:"
+#: EditProfileAppearancePage.ui:326
+#, fuzzy, kde-format
+#| msgid "Custom cursor color:"
+msgid "Custom cursor color"
 msgstr "自訂游標顏色："
 
+#. i18n: ectx: property (text), widget (QLabel, customCursorColorLabel)
+#: EditProfileAppearancePage.ui:357
+#, fuzzy, kde-format
+#| msgid "Cursor"
+msgid "Cursor:"
+msgstr "游標"
+
 #. i18n: ectx: property (toolTip), widget (KColorButton, customColorSelectButton)
-#: EditProfileAppearancePage.ui:347
+#: EditProfileAppearancePage.ui:370
 #, kde-format
 msgid "Select the color used to draw the cursor"
 msgstr "選擇要用於畫游標的顏色"
 
+#. i18n: ectx: property (text), widget (QLabel, customCursorTextColorLabel)
+#: EditProfileAppearancePage.ui:390
+#, kde-format
+msgid "Text:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, customTextColorSelectButton)
+#: EditProfileAppearancePage.ui:403
+#, fuzzy, kde-format
+#| msgid "Select the color used to draw the cursor"
+msgid "Select the color used to draw the character underneath the cursor"
+msgstr "選擇要用於畫游標的顏色"
+
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: EditProfileAppearancePage.ui:388
+#: EditProfileAppearancePage.ui:428
 #, kde-format
 msgid "Blinking:"
 msgstr "閃爍："
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingCursorButton)
-#: EditProfileAppearancePage.ui:404
+#: EditProfileAppearancePage.ui:444
 #, kde-format
 msgid "Make the cursor blink regularly"
 msgstr "讓游標定時閃動"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingCursorButton)
 #. i18n: ectx: property (text), widget (QCheckBox, alignToCenterButton)
-#: EditProfileAppearancePage.ui:407 EditProfileAppearancePage.ui:576
+#: EditProfileAppearancePage.ui:447 EditProfileAppearancePage.ui:616
 #, kde-format
 msgid "Enabled"
 msgstr "啟用"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #. i18n: ectx: attribute (title), widget (QWidget, miscTab)
-#: EditProfileAppearancePage.ui:430 EditProfileMousePage.ui:249
+#: EditProfileAppearancePage.ui:470 EditProfileMousePage.ui:249
 #, kde-format
 msgctxt "Items that do not fit in other categories"
 msgid "Miscellaneous"
 msgstr "雜項"
 
 #. i18n: ectx: property (title), widget (QGroupBox, contentsGroup)
-#: EditProfileAppearancePage.ui:444
+#: EditProfileAppearancePage.ui:484
 #, kde-format
 msgctxt "@title:group"
 msgid "Terminal contents"
 msgstr "終端機內容"
 
 #. i18n: ectx: property (text), widget (QLabel, lineSpacingLabel)
-#: EditProfileAppearancePage.ui:456
+#: EditProfileAppearancePage.ui:496
 #, kde-format
 msgid "Line spacing:"
 msgstr "行間距："
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, lineSpacingSpinner)
-#: EditProfileAppearancePage.ui:474
+#: EditProfileAppearancePage.ui:514
 #, kde-format
 msgid "The number of pixels between two lines"
 msgstr "兩行間的間距，單位為像素"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, lineSpacingSpinner)
 #. i18n: ectx: property (suffix), widget (QSpinBox, marginsSpinner)
-#: EditProfileAppearancePage.ui:477 EditProfileAppearancePage.ui:529
+#: EditProfileAppearancePage.ui:517 EditProfileAppearancePage.ui:569
 #, kde-format
 msgctxt "(pixels) visual size unit"
 msgid " px"
 msgstr " 像素(px)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: EditProfileAppearancePage.ui:511
+#: EditProfileAppearancePage.ui:551
 #, kde-format
 msgid "Margins:"
 msgstr "外邊距："
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: EditProfileAppearancePage.ui:563
+#: EditProfileAppearancePage.ui:603
 #, kde-format
 msgid "Align to center:"
 msgstr "對齊中央："
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: EditProfileAppearancePage.ui:602
+#: EditProfileAppearancePage.ui:642
 #, kde-format
 msgid "Window:"
 msgstr "視窗："
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showTerminalSizeHintButton)
 #. i18n: ectx: tooltip, entry (ShowTerminalSizeHint), group (KonsoleWindow)
-#: EditProfileAppearancePage.ui:609 settings/konsole.kcfg:29
+#: EditProfileAppearancePage.ui:649 settings/konsole.kcfg:29
 #, kde-format
 msgid ""
 "Show terminal size in columns and lines in the center of window after "
@@ -922,20 +943,20 @@ msgstr "調整大小之後在終端機中央顯示欄數與行數"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTerminalSizeHint)
 #. i18n: ectx: property (text), widget (QCheckBox, showTerminalSizeHintButton)
 #. i18n: ectx: label, entry (ShowTerminalSizeHint), group (KonsoleWindow)
-#: EditProfileAppearancePage.ui:612 settings/GeneralSettings.ui:184
+#: EditProfileAppearancePage.ui:652 settings/GeneralSettings.ui:184
 #: settings/konsole.kcfg:28
 #, kde-format
 msgid "Show hint for terminal size after resizing"
 msgstr "調整大小之後顯示終端機大小"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, dimWhenInactiveCheckbox)
-#: EditProfileAppearancePage.ui:619
+#: EditProfileAppearancePage.ui:659
 #, kde-format
 msgid "Indicate whether the window is active by dimming the colors"
 msgstr "透過調暗顏色來指示視窗是否處於作用中的狀態"
 
 #. i18n: ectx: property (text), widget (QCheckBox, dimWhenInactiveCheckbox)
-#: EditProfileAppearancePage.ui:622
+#: EditProfileAppearancePage.ui:662
 #, kde-format
 msgid "Dim the colors when the window loses focus"
 msgstr "調暗失去焦點的視窗"
@@ -1055,20 +1076,20 @@ msgstr[0] " 秒"
 msgid "Select Initial Directory"
 msgstr "選擇起始目錄"
 
-#: EditProfileDialog.cpp:1151
+#: EditProfileDialog.cpp:1156
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Scheme <resource>%1</resource> failed to load."
 msgstr "框架 <resource>%1</resource> 無法載入。"
 
-#: EditProfileDialog.cpp:1336
+#: EditProfileDialog.cpp:1341
 #, kde-format
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
 msgstr "此配色中含有透明背景，您的桌面似乎不支援。"
 
-#: EditProfileDialog.cpp:1342
+#: EditProfileDialog.cpp:1347
 #, kde-format
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
@@ -1077,7 +1098,7 @@ msgstr ""
 "在啟用桌面效果前 Konsole 就已經開啟，您需要重新啟動 Konsole 才能看到透明背"
 "景。"
 
-#: EditProfileDialog.cpp:1899
+#: EditProfileDialog.cpp:1904
 #, kde-format
 msgid "AaZz09..."
 msgstr "AaZz09..."
@@ -2224,7 +2245,7 @@ msgstr "便於列印模式 (黑色文字，不列印背景)(&F)"
 msgid "&Scale output"
 msgstr "調整輸出(&S)"
 
-#: Profile.cpp:157
+#: Profile.cpp:158
 #, kde-format
 msgctxt "Name of the default/builtin profile"
 msgid "Default"
@@ -3369,99 +3390,99 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "插入遠端標題格式"
 
-#: TerminalDisplay.cpp:1266 TerminalDisplay.cpp:1267
+#: TerminalDisplay.cpp:1271 TerminalDisplay.cpp:1272
 #, kde-format
 msgid "Size: XXX x XXX"
 msgstr "大小: XXX x XXX"
 
-#: TerminalDisplay.cpp:1278
+#: TerminalDisplay.cpp:1283
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "大小: %1 x %2"
 
-#: TerminalDisplay.cpp:3154
+#: TerminalDisplay.cpp:3159
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] "您確定要貼上這 %1 個字元嗎？"
 
-#: TerminalDisplay.cpp:3157
+#: TerminalDisplay.cpp:3162
 #, kde-format
 msgid "Confirm Paste"
 msgstr "確認貼上"
 
-#: TerminalDisplay.cpp:3189
+#: TerminalDisplay.cpp:3194
 #, kde-format
 msgid "End Of Text/Interrupt: may exit the current process"
 msgstr "文字結尾/中止：可能會退出目前程序"
 
-#: TerminalDisplay.cpp:3190
+#: TerminalDisplay.cpp:3195
 #, kde-format
 msgid "End Of Transmission: may exit the current process"
 msgstr "傳輸結尾：可能會退出目前程序"
 
-#: TerminalDisplay.cpp:3191
+#: TerminalDisplay.cpp:3196
 #, kde-format
 msgid "Bell: will try to emit an audible warning"
 msgstr "鈴響 (Bell)：將嘗試發出聲音警告"
 
-#: TerminalDisplay.cpp:3192
+#: TerminalDisplay.cpp:3197
 #, kde-format
 msgid "Backspace"
 msgstr "Backspace 鍵"
 
-#: TerminalDisplay.cpp:3193
+#: TerminalDisplay.cpp:3198
 #, kde-format
 msgid "Device Control Three/XOFF: suspends output"
 msgstr "裝置控制 3 / XOFF: 暫停輸出"
 
-#: TerminalDisplay.cpp:3194
+#: TerminalDisplay.cpp:3199
 #, kde-format
 msgid "Substitute/Suspend: may suspend current process"
 msgstr "替代字元/暫停：可能會暫停目前程序"
 
-#: TerminalDisplay.cpp:3195
+#: TerminalDisplay.cpp:3200
 #, kde-format
 msgid "Escape: used for manipulating terminal state"
 msgstr "Esc 鍵：用來控制終端機狀態"
 
-#: TerminalDisplay.cpp:3196
+#: TerminalDisplay.cpp:3201
 #, kde-format
 msgid "File Separator/Quit: may abort the current process"
 msgstr "檔案分隔符/退出：可能會中止目前程序"
 
-#: TerminalDisplay.cpp:3218
+#: TerminalDisplay.cpp:3223
 #, kde-format
 msgid ""
 "The text you're trying to paste contains hidden control characters, do you "
 "want to filter them out?"
 msgstr "您嘗試貼上的文字有隱藏控制字元。是否過濾出這些字元？"
 
-#: TerminalDisplay.cpp:3221
+#: TerminalDisplay.cpp:3226
 #, kde-format
 msgctxt "@title"
 msgid "Confirm Paste"
 msgstr "確認貼上"
 
-#: TerminalDisplay.cpp:3223
+#: TerminalDisplay.cpp:3228
 #, kde-format
 msgctxt "@action:button"
 msgid "Paste &without control characters"
 msgstr "去除控制字元後貼上(&W)"
 
-#: TerminalDisplay.cpp:3226
+#: TerminalDisplay.cpp:3231
 #, kde-format
 msgctxt "@action:button"
 msgid "&Paste everything"
 msgstr "全部貼上(&P)"
 
-#: TerminalDisplay.cpp:3229
+#: TerminalDisplay.cpp:3234
 #, kde-format
 msgctxt "@action:button"
 msgid "&Cancel"
 msgstr "取消(&C)"
 
-#: TerminalDisplay.cpp:3476
+#: TerminalDisplay.cpp:3481
 #, kde-format
 msgid ""
 "<qt>Output has been <a href=\"https://en.wikipedia.org/wiki/"
@@ -3471,17 +3492,17 @@ msgstr ""
 "<qt>輸出已經被 Ctrl+S <a href=\"https://en.wikipedia.org/wiki/"
 "Software_flow_control\">暫停</a>。按下 <b>Ctrl+Q</b> 回復。</qt>"
 
-#: TerminalDisplay.cpp:3514
+#: TerminalDisplay.cpp:3519
 #, kde-format
 msgid "This terminal is read-only."
 msgstr "此終端器為唯讀狀態。"
 
-#: TerminalDisplay.cpp:3809
+#: TerminalDisplay.cpp:3814
 #, kde-format
 msgid "Change &Directory To"
 msgstr "變更目錄為(&D)"
 
-#: TerminalDisplay.cpp:3841
+#: TerminalDisplay.cpp:3846
 #, kde-format
 msgid "&Paste Location"
 msgstr "貼上位置(&P)"

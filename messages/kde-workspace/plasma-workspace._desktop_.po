@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-07 02:58+0000\n"
+"POT-Creation-Date: 2020-02-12 03:13+0000\n"
 "PO-Revision-Date: 2019-10-19 14:54+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -55,7 +55,7 @@ msgctxt "Name"
 msgid "Global Menu"
 msgstr "全域選單"
 
-#: applets/appmenu/package/metadata.desktop:45
+#: applets/appmenu/package/metadata.desktop:46
 msgctxt "Comment"
 msgid "Global menubar on top of the screen"
 msgstr "在螢幕上方顯示全域選單列"
@@ -65,12 +65,12 @@ msgctxt "Name"
 msgid "Battery and Brightness"
 msgstr "電池與亮度"
 
-#: applets/batterymonitor/package/metadata.desktop:47
+#: applets/batterymonitor/package/metadata.desktop:48
 msgctxt "Comment"
 msgid "See the power status of your battery"
 msgstr "查看您的電池的電力狀態"
 
-#: applets/batterymonitor/package/metadata.desktop:120
+#: applets/batterymonitor/package/metadata.desktop:121
 msgctxt "Keywords"
 msgid "Power Management;Battery;System;Energy;"
 msgstr "Power Management;Battery;System;Energy;"
@@ -91,7 +91,7 @@ msgctxt "Name"
 msgid "Clipboard"
 msgstr "剪貼簿"
 
-#: applets/clipboard/metadata.desktop:50
+#: applets/clipboard/metadata.desktop:51
 msgctxt "Comment"
 msgid "Provides access to the clipboard history"
 msgstr "提供剪貼簿歷史紀錄的存取。"
@@ -181,7 +181,7 @@ msgctxt "Name"
 msgid "CPU Load Monitor"
 msgstr "CPU 負載監視器"
 
-#: applets/systemmonitor/cpu/metadata.desktop:46
+#: applets/systemmonitor/cpu/metadata.desktop:47
 msgctxt "Comment"
 msgid "Monitor the load of the CPUs"
 msgstr "監視 CPU 的負載"
@@ -561,7 +561,7 @@ msgctxt "Name"
 msgid "BBC Weather"
 msgstr "BBC 天氣"
 
-#: dataengines/weather/ions/bbcukmet/ion-bbcukmet.desktop:35
+#: dataengines/weather/ions/bbcukmet/ion-bbcukmet.desktop:36
 msgctxt "Comment"
 msgid "XML Data from the British Broadcasting Corporation"
 msgstr "來自英國廣播公司的 XML 資料"
@@ -672,7 +672,7 @@ msgctxt "Name"
 msgid "Language"
 msgstr "語言"
 
-#: kcms/translations/kcm_translations.desktop:49
+#: kcms/translations/kcm_translations.desktop:50
 msgctxt "Comment"
 msgid "Change workspace and application languages"
 msgstr "變更工作區及應用程式的語言"
@@ -682,7 +682,7 @@ msgctxt "Name"
 msgid "Directory Watcher"
 msgstr "目錄監控器"
 
-#: kioslave/desktop/desktopnotifier.desktop:52
+#: kioslave/desktop/desktopnotifier.desktop:53
 msgctxt "Comment"
 msgid "Monitors directories for changes"
 msgstr "監控目錄的改變"
@@ -692,7 +692,7 @@ msgctxt "Name"
 msgid "Trash"
 msgstr "垃圾桶"
 
-#: kioslave/desktop/./directory.trash:46
+#: kioslave/desktop/./directory.trash:47
 msgctxt "Comment"
 msgid "Contains removed files"
 msgstr "包含已移除的檔案"
@@ -804,7 +804,7 @@ msgctxt "Description"
 msgid "ftp URL"
 msgstr "FTP URL"
 
-#: klipper/plasma-dataengine-clipboard.desktop:50
+#: klipper/plasma-dataengine-clipboard.desktop:51
 msgctxt "Comment"
 msgid "Clipboard Tool."
 msgstr "剪貼簿工具。"
@@ -814,7 +814,7 @@ msgctxt "Name"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: krunner/krunner.desktop.cmake:59
+#: krunner/krunner.desktop.cmake:60
 msgctxt "Name"
 msgid "Run command on clipboard contents"
 msgstr "執行剪貼簿內容中的指令"
@@ -844,8 +844,8 @@ msgctxt "Name"
 msgid "Plasma"
 msgstr "Plasma"
 
-#: login-sessions/plasma.desktop.cmake:54
-#: login-sessions/plasmawayland.desktop.cmake:36
+#: login-sessions/plasma.desktop.cmake:55
+#: login-sessions/plasmawayland.desktop.cmake:37
 #: login-sessions/plasmawayland-dev.desktop.cmake:33
 #: login-sessions/plasmax11-dev.desktop.cmake:34
 msgctxt "Comment"
@@ -872,7 +872,7 @@ msgctxt "Comment"
 msgid "Breeze by the KDE VDG"
 msgstr "由 KDE VDG 設計的 Breeze"
 
-#: lookandfeel/metadata.desktop:33
+#: lookandfeel/metadata.desktop:34
 msgctxt "Keywords"
 msgid ""
 "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;"
@@ -881,7 +881,7 @@ msgstr ""
 "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;"
 "Hibernate;"
 
-#: lookandfeel/metadata.desktop:73 sddm-theme/metadata.desktop:2
+#: lookandfeel/metadata.desktop:75 sddm-theme/metadata.desktop:2
 msgctxt "Name"
 msgid "Breeze"
 msgstr "微風"
@@ -1147,7 +1147,7 @@ msgctxt "Name"
 msgid "Plasma Windowed"
 msgstr "Plasma 視窗"
 
-#: plasma-windowed/plasma-windowed.desktop:45
+#: plasma-windowed/plasma-windowed.desktop:46
 msgctxt "Comment"
 msgid "Run Plasmoids as simple applications"
 msgstr "以簡單應用程式執行 Plasma 小元件"
@@ -1167,7 +1167,7 @@ msgctxt "Name"
 msgid "Software Center"
 msgstr "軟體中心"
 
-#: runners/appstream/plasma-runner-appstream.desktop:43
+#: runners/appstream/plasma-runner-appstream.desktop:44
 msgctxt "Comment"
 msgid "Lets you find software"
 msgstr "讓您尋找軟體"
@@ -1177,7 +1177,7 @@ msgctxt "Name"
 msgid "Desktop Search"
 msgstr "桌面搜尋"
 
-#: runners/baloo/plasma-runner-baloosearch.desktop:49
+#: runners/baloo/plasma-runner-baloosearch.desktop:50
 msgctxt "Comment"
 msgid "Searches through files, emails and contacts"
 msgstr "搜尋檔案、電子郵件與聯絡人"
@@ -1308,7 +1308,7 @@ msgctxt "Comment"
 msgid "List windows and desktops and switch them"
 msgstr "列出視窗與桌面並切換"
 
-#: sddm-theme/metadata.desktop:48
+#: sddm-theme/metadata.desktop:49
 msgctxt "Description"
 msgid "Breeze"
 msgstr "Breeze"

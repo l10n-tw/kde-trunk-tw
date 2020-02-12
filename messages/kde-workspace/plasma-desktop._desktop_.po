@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-02 02:46+0000\n"
+"POT-Creation-Date: 2020-02-12 03:13+0000\n"
 "PO-Revision-Date: 2020-01-18 19:19+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -35,7 +35,7 @@ msgctxt "Name"
 msgid "Icons-only Task Manager"
 msgstr "只有圖示的工作管理員"
 
-#: applets/icontasks/metadata.desktop:50
+#: applets/icontasks/metadata.desktop:51
 #: applets/taskmanager/package/metadata.desktop:83
 msgctxt "Comment"
 msgid "Switch between running applications"
@@ -71,12 +71,12 @@ msgctxt "Name"
 msgid "Input Method Panel"
 msgstr "輸入法面板"
 
-#: applets/kimpanel/package/metadata.desktop:43
+#: applets/kimpanel/package/metadata.desktop:44
 msgctxt "Comment"
 msgid "A generic input method panel"
 msgstr "一般輸入法面板"
 
-#: applets/kimpanel/package/metadata.desktop:83
+#: applets/kimpanel/package/metadata.desktop:84
 msgctxt "Keywords"
 msgid "Input;IM;"
 msgstr "Input;IM;"
@@ -86,7 +86,7 @@ msgctxt "Name"
 msgid "Minimize all Windows"
 msgstr "最小化所有視窗"
 
-#: applets/minimizeall/package/metadata.desktop:35
+#: applets/minimizeall/package/metadata.desktop:36
 msgctxt "Comment"
 msgid "Shows the desktop by minimizing all windows"
 msgstr "藉由最小化所有視窗顯示桌面"
@@ -117,7 +117,7 @@ msgctxt "Name"
 msgid "Show Desktop"
 msgstr "顯示桌面"
 
-#: applets/showdesktop/package/metadata.desktop:35
+#: applets/showdesktop/package/metadata.desktop:36
 msgctxt "Comment"
 msgid "Show the Plasma desktop"
 msgstr "顯示 Plasma 桌面"
@@ -163,7 +163,7 @@ msgctxt "Name"
 msgid "Folder View"
 msgstr "資料夾檢視"
 
-#: containments/folder/metadata.desktop:47
+#: containments/folder/metadata.desktop:48
 msgctxt "Comment"
 msgid "Display the contents of folders"
 msgstr "顯示資料夾內容"
@@ -318,7 +318,7 @@ msgctxt "Comment"
 msgid "Accessibility Options"
 msgstr "無障礙輔助選項"
 
-#: kcms/access/kcmaccess.desktop:160
+#: kcms/access/kcmaccess.desktop:161
 msgctxt "X-KDE-Keywords"
 msgid ""
 "access,accessibility,deaf,impaired,hearing,hearing loss,bell,audible bell,"
@@ -346,7 +346,7 @@ msgctxt "Comment"
 msgid "Automatically Started Applications"
 msgstr "自動啟動應用程式"
 
-#: kcms/autostart/autostart.desktop:152
+#: kcms/autostart/autostart.desktop:153
 msgctxt "X-KDE-Keywords"
 msgid "Autostart Manager,autostart,startup,system startup,plasma start,cron"
 msgstr "Autostart Manager,autostart,startup,system startup,plasma start,cron"
@@ -356,12 +356,12 @@ msgctxt "Name"
 msgid "File Search"
 msgstr "檔案搜尋"
 
-#: kcms/baloo/kcm_baloofile.desktop:61
+#: kcms/baloo/kcm_baloofile.desktop:62
 msgctxt "Comment"
 msgid "Configure File Search"
 msgstr "設定檔案搜尋"
 
-#: kcms/baloo/kcm_baloofile.desktop:107
+#: kcms/baloo/kcm_baloofile.desktop:109
 msgctxt "X-KDE-Keywords"
 msgid "Search, File, Baloo"
 msgstr "Search, File, Baloo"
@@ -371,7 +371,7 @@ msgctxt "Name"
 msgid "Search"
 msgstr "搜尋"
 
-#: kcms/baloo/package/metadata.desktop:33
+#: kcms/baloo/package/metadata.desktop:34
 msgctxt "Comment"
 msgid "Configure the File Indexer"
 msgstr "設定檔案索引工具"
@@ -391,7 +391,7 @@ msgctxt "Name"
 msgid "KColorSchemeEditor"
 msgstr "KColorSchemeEditor"
 
-#: kcms/colors/editor/org.kde.kcolorschemeeditor.desktop:82
+#: kcms/colors/editor/org.kde.kcolorschemeeditor.desktop:83
 msgctxt "Comment"
 msgid "Plasma color scheme editor"
 msgstr "Plasma 配色編輯器"
@@ -406,7 +406,7 @@ msgctxt "Comment"
 msgid "Choose color scheme"
 msgstr "選擇色彩主題"
 
-#: kcms/colors/kcm_colors.desktop:142
+#: kcms/colors/kcm_colors.desktop:143
 msgctxt "X-KDE-Keywords"
 msgid ""
 "colors,colours,scheme,contrast,Widget colors,Color Scheme,color style,color "
@@ -425,7 +425,7 @@ msgctxt "Comment"
 msgid "Default Applications"
 msgstr "預設應用程式"
 
-#: kcms/componentchooser/componentchooser.desktop:149
+#: kcms/componentchooser/componentchooser.desktop:150
 msgctxt "X-KDE-Keywords"
 msgid ""
 "default applications,components,component chooser,resources,e-mail,email "
@@ -502,13 +502,13 @@ msgctxt "Name"
 msgid "Cursors"
 msgstr "游標"
 
-#: kcms/cursortheme/kcm_cursortheme.desktop:56
-#: kcms/cursortheme/package/metadata.desktop:44
+#: kcms/cursortheme/kcm_cursortheme.desktop:57
+#: kcms/cursortheme/package/metadata.desktop:45
 msgctxt "Comment"
 msgid "Choose mouse cursor theme"
 msgstr "選擇滑鼠游標主題"
 
-#: kcms/cursortheme/kcm_cursortheme.desktop:89
+#: kcms/cursortheme/kcm_cursortheme.desktop:91
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Mouse,Cursor,Theme,Cursor Appearance,Cursor Color,Cursor Theme,Mouse Theme,"
@@ -527,7 +527,7 @@ msgctxt "Comment"
 msgid "Date and Time"
 msgstr "日期和時間"
 
-#: kcms/dateandtime/clock.desktop:159
+#: kcms/dateandtime/clock.desktop:160
 msgctxt "X-KDE-Keywords"
 msgid ""
 "clock,date,time,time zone,ntp,synchronize,calendar,local time,region time"
@@ -554,12 +554,12 @@ msgctxt "Name"
 msgid "Locations"
 msgstr "位置"
 
-#: kcms/desktoppaths/desktoppath.desktop:58
+#: kcms/desktoppaths/desktoppath.desktop:59
 msgctxt "Comment"
 msgid "Location for Personal Files"
 msgstr "個人檔案的路徑"
 
-#: kcms/desktoppaths/desktoppath.desktop:101
+#: kcms/desktoppaths/desktoppath.desktop:102
 msgctxt "X-KDE-Keywords"
 msgid ""
 "konqueror,dolphin,files,filemanager,path, paths,desktop,directories,"
@@ -574,17 +574,17 @@ msgctxt "Name"
 msgid "Plasma Style"
 msgstr "Plasma 樣式"
 
-#: kcms/desktoptheme/kcm_desktoptheme.desktop:45
+#: kcms/desktoptheme/kcm_desktoptheme.desktop:46
 msgctxt "Comment"
 msgid "Choose Plasma style"
 msgstr "選擇 Plasma 樣式"
 
-#: kcms/desktoptheme/kcm_desktoptheme.desktop:77
+#: kcms/desktoptheme/kcm_desktoptheme.desktop:79
 msgctxt "X-KDE-Keywords"
 msgid "Desktop Theme,Plasma Theme"
 msgstr "Desktop Theme,Plasma Theme,桌面主題,Plasma,主題"
 
-#: kcms/desktoptheme/package/metadata.desktop:34
+#: kcms/desktoptheme/package/metadata.desktop:35
 msgctxt "Comment"
 msgid "Choose Plasma theme"
 msgstr "選擇 Plasma 主題"
@@ -604,7 +604,7 @@ msgctxt "Comment"
 msgid "Choose emoticon theme"
 msgstr "選擇表情符號主題"
 
-#: kcms/emoticons/emoticons.desktop:130
+#: kcms/emoticons/emoticons.desktop:131
 msgctxt "X-KDE-Keywords"
 msgid "Emoticons"
 msgstr "Emoticons"
@@ -621,7 +621,7 @@ msgctxt "Comment"
 msgid "Configure user interface fonts"
 msgstr "設定使用者介面字型"
 
-#: kcms/fonts/kcm_fonts.desktop:141
+#: kcms/fonts/kcm_fonts.desktop:142
 msgctxt "X-KDE-Keywords"
 msgid ""
 "fonts,font size,styles,charsets,character sets,panel,control panel,desktops,"
@@ -637,12 +637,12 @@ msgctxt "Name"
 msgid "Formats"
 msgstr "格式"
 
-#: kcms/formats/formats.desktop:61
+#: kcms/formats/formats.desktop:62
 msgctxt "Comment"
 msgid "Numeric, Currency and Time Formats"
 msgstr "數值、貨幣與時間格式"
 
-#: kcms/formats/formats.desktop:108
+#: kcms/formats/formats.desktop:109
 msgctxt "X-KDE-Keywords"
 msgid ""
 "language,translation,number format,locale,Country,charsets,character sets,"
@@ -660,12 +660,12 @@ msgctxt "Comment"
 msgid "Calibrate Game Controller"
 msgstr "校準遊戲控制器"
 
-#: kcms/hardware/joystick/joystick.desktop:47
+#: kcms/hardware/joystick/joystick.desktop:48
 msgctxt "Name"
 msgid "Game Controller"
 msgstr "遊戲控制器"
 
-#: kcms/hardware/joystick/joystick.desktop:79
+#: kcms/hardware/joystick/joystick.desktop:81
 msgctxt "X-KDE-Keywords"
 msgid "joystick,gamepad,controller"
 msgstr "joystick,gamepad,controller"
@@ -681,7 +681,7 @@ msgctxt "Comment"
 msgid "Choose icon theme"
 msgstr "選擇圖示主題"
 
-#: kcms/icons/kcm_icons.desktop:140
+#: kcms/icons/kcm_icons.desktop:141
 msgctxt "X-KDE-Keywords"
 msgid "icons,effects,size,hicolor,locolor"
 msgstr "icons,effects,size,hicolor,locolor"
@@ -716,12 +716,12 @@ msgctxt "Name"
 msgid "Background Services"
 msgstr "背景服務"
 
-#: kcms/kded/kcmkded.desktop:59 kcms/kded/package/metadata.desktop:47
+#: kcms/kded/kcmkded.desktop:60 kcms/kded/package/metadata.desktop:48
 msgctxt "Comment"
 msgid "Configure background services"
 msgstr "設定背景服務"
 
-#: kcms/kded/kcmkded.desktop:77
+#: kcms/kded/kcmkded.desktop:80
 msgctxt "X-KDE-Keywords"
 msgid "KDED,Daemon,Services"
 msgstr "KDED,Daemon,Services"
@@ -736,7 +736,7 @@ msgctxt "Comment"
 msgid "Keyboard Hardware and Layout"
 msgstr "鍵盤硬體與佈局"
 
-#: kcms/keyboard/kcm_keyboard.desktop:156
+#: kcms/keyboard/kcm_keyboard.desktop:157
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Keyboard,Keyboard repeat,Click volume,Input Devices,repeat,volume,NumLock,"
@@ -764,12 +764,12 @@ msgctxt "Name"
 msgid "Global Shortcuts"
 msgstr "全域捷徑"
 
-#: kcms/keys/keys.desktop:57
+#: kcms/keys/keys.desktop:58
 msgctxt "Comment"
 msgid "Global Keyboard Shortcuts"
 msgstr "全域鍵盤捷徑"
 
-#: kcms/keys/keys.desktop:105
+#: kcms/keys/keys.desktop:107
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Keys,Global key bindings,Key scheme,Key bindings,shortcuts,application "
@@ -818,7 +818,7 @@ msgctxt "Comment"
 msgid "Install, manage and preview fonts"
 msgstr "安裝、管理及預覽字型"
 
-#: kcms/kfontinst/kcmfontinst/fontinst.desktop:107
+#: kcms/kfontinst/kcmfontinst/fontinst.desktop:108
 msgctxt "X-KDE-Keywords"
 msgid "font,fonts,installer,truetype,type1,bitmap"
 msgstr "font,fonts,installer,truetype,type1,bitmap"
@@ -838,12 +838,12 @@ msgctxt "Name"
 msgid "Desktop Session"
 msgstr "桌面作業階段"
 
-#: kcms/ksmserver/kcmsmserver.desktop:61
+#: kcms/ksmserver/kcmsmserver.desktop:62
 msgctxt "Comment"
 msgid "Desktop Session Login and Logout"
 msgstr "桌面作業階段登入與登出"
 
-#: kcms/ksmserver/kcmsmserver.desktop:106
+#: kcms/ksmserver/kcmsmserver.desktop:107
 msgctxt "X-KDE-Keywords"
 msgid "ksmserver,session,logout,confirmation,save,restore,efi,uefi,bios"
 msgstr ""
@@ -856,13 +856,13 @@ msgctxt "Name"
 msgid "Splash Screen"
 msgstr "啟動畫面"
 
-#: kcms/ksplash/kcm_splashscreen.desktop:63
-#: kcms/ksplash/package/metadata.desktop:50
+#: kcms/ksplash/kcm_splashscreen.desktop:64
+#: kcms/ksplash/package/metadata.desktop:51
 msgctxt "Comment"
 msgid "Choose splash screen theme"
 msgstr "選擇啟動畫面主題"
 
-#: kcms/ksplash/kcm_splashscreen.desktop:96
+#: kcms/ksplash/kcm_splashscreen.desktop:98
 msgctxt "X-KDE-Keywords"
 msgid "splash screen,splash theme,startup"
 msgstr "splash screen,splash theme,startup"
@@ -884,7 +884,7 @@ msgctxt "Comment"
 msgid "Application Launch Feedback"
 msgstr "應用程式啟動回饋"
 
-#: kcms/launch/kcm_launchfeedback.desktop:149
+#: kcms/launch/kcm_launchfeedback.desktop:150
 msgctxt "X-KDE-Keywords"
 msgid ""
 "application,start,launch,busy,cursor,feedback,mouse,pointer,bouncing,"
@@ -899,13 +899,13 @@ msgctxt "Name"
 msgid "Global Theme"
 msgstr "全域主題"
 
-#: kcms/lookandfeel/kcm_lookandfeel.desktop:47
-#: kcms/lookandfeel/package/metadata.desktop:35
+#: kcms/lookandfeel/kcm_lookandfeel.desktop:48
+#: kcms/lookandfeel/package/metadata.desktop:36
 msgctxt "Comment"
 msgid "Choose global look and feel"
 msgstr "選擇全域「外觀及感覺」"
 
-#: kcms/lookandfeel/kcm_lookandfeel.desktop:78
+#: kcms/lookandfeel/kcm_lookandfeel.desktop:80
 msgctxt "X-KDE-Keywords"
 msgid "theme, look, feel"
 msgstr "theme, look, feel"
@@ -953,8 +953,8 @@ msgctxt "Name"
 msgid "Notifications"
 msgstr "通知"
 
-#: kcms/notifications/kcm_notifications.desktop:63
-#: kcms/notifications/package/metadata.desktop:51
+#: kcms/notifications/kcm_notifications.desktop:64
+#: kcms/notifications/package/metadata.desktop:52
 msgctxt "Comment"
 msgid "Event Notifications and Actions"
 msgstr "事件通知與動作"
@@ -969,12 +969,12 @@ msgctxt "Name"
 msgid "KRunner"
 msgstr "KRunner"
 
-#: kcms/runners/kcm_plasmasearch.desktop:46
+#: kcms/runners/kcm_plasmasearch.desktop:47
 msgctxt "Comment"
 msgid "Configure Search Bar"
 msgstr "設定搜尋框"
 
-#: kcms/runners/kcm_plasmasearch.desktop:85
+#: kcms/runners/kcm_plasmasearch.desktop:87
 msgctxt "X-KDE-Keywords"
 msgid "Search, File, Baloo, Runner, krunner"
 msgstr "Search, File, Baloo, Runner, krunner"
@@ -1212,12 +1212,12 @@ msgctxt "Name"
 msgid "Spell Check"
 msgstr "拼字檢查"
 
-#: kcms/spellchecking/spellchecking.desktop:64
+#: kcms/spellchecking/spellchecking.desktop:65
 msgctxt "Comment"
 msgid "Spell Checker Dictionaries and Options"
 msgstr "拼字檢查器字典與選項"
 
-#: kcms/spellchecking/spellchecking.desktop:110
+#: kcms/spellchecking/spellchecking.desktop:111
 msgctxt "X-KDE-Keywords"
 msgid "Spell"
 msgstr "Spell"
@@ -1227,12 +1227,12 @@ msgctxt "Name"
 msgid "Standard Shortcuts"
 msgstr "標準捷徑"
 
-#: kcms/standard_actions/standard_actions.desktop:58
+#: kcms/standard_actions/standard_actions.desktop:59
 msgctxt "Comment"
 msgid "Standard Keyboard Shortcuts for Applications"
 msgstr "應用程式標準鍵盤捷徑"
 
-#: kcms/standard_actions/standard_actions.desktop:104
+#: kcms/standard_actions/standard_actions.desktop:106
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Keys,Global key bindings,Key scheme,Key bindings,shortcuts,application "
@@ -1256,12 +1256,12 @@ msgctxt "Name"
 msgid "Application Style"
 msgstr "應用程式樣式"
 
-#: kcms/style/kcm_style.desktop:50 kcms/style/package/metadata.desktop:36
+#: kcms/style/kcm_style.desktop:51 kcms/style/package/metadata.desktop:37
 msgctxt "Comment"
 msgid "Configure application style and behavior"
 msgstr "設定應用程式樣式與行為"
 
-#: kcms/style/kcm_style.desktop:83
+#: kcms/style/kcm_style.desktop:85
 msgctxt "X-KDE-Keywords"
 msgid ""
 "style,styles,look,widget,icons,toolbars,text,highlight,apps,KDE applications,"
@@ -1298,7 +1298,7 @@ msgctxt "Comment"
 msgid "Touchpad settings"
 msgstr "觸控板設定"
 
-#: kcms/touchpad/src/kcm/kcm_touchpad.desktop:103
+#: kcms/touchpad/src/kcm/kcm_touchpad.desktop:104
 msgctxt "X-KDE-Keywords"
 msgid "Touchpad,Synaptics"
 msgstr "Touchpad,Synaptics"
@@ -1339,13 +1339,13 @@ msgctxt "Name"
 msgid "General Behavior"
 msgstr "一般行為"
 
-#: kcms/workspaceoptions/kcm_workspace.desktop:44
-#: kcms/workspaceoptions/package/metadata.desktop:35
+#: kcms/workspaceoptions/kcm_workspace.desktop:45
+#: kcms/workspaceoptions/package/metadata.desktop:36
 msgctxt "Comment"
 msgid "Configure general workspace behavior"
 msgstr "設定一般工作空間行為"
 
-#: kcms/workspaceoptions/kcm_workspace.desktop:76
+#: kcms/workspaceoptions/kcm_workspace.desktop:78
 msgctxt "X-KDE-Keywords"
 msgid ""
 "plasma,workspace,shell,formfactor,dashboard,tooltips,informational tips,"
@@ -1370,7 +1370,7 @@ msgctxt "Name"
 msgid "Application Menu Bar"
 msgstr "應用程式選單列"
 
-#: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.desktop:42
+#: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.desktop:43
 msgctxt "Comment"
 msgid "Panel containing the global menu applet"
 msgstr "包含全域螢幕小程式的面板"
@@ -1380,7 +1380,7 @@ msgctxt "Name"
 msgid "Default Panel"
 msgstr "預設面板"
 
-#: layout-templates/org.kde.plasma.desktop.defaultPanel/metadata.desktop:50
+#: layout-templates/org.kde.plasma.desktop.defaultPanel/metadata.desktop:51
 msgctxt "Comment"
 msgid ""
 "Default panel featuring application launcher, task manager and system tray"
@@ -1396,7 +1396,7 @@ msgctxt "Name"
 msgid "KWin"
 msgstr "KWin"
 
-#: runners/kwin/plasma-runner-kwin.desktop:42
+#: runners/kwin/plasma-runner-kwin.desktop:43
 msgctxt "Comment"
 msgid "Interact with the Plasma Compositor"
 msgstr "與 Plasma 合成器互動"
@@ -1416,12 +1416,12 @@ msgctxt "X-KDE-Keywords"
 msgid "Mount,Removable,Devices,Automatic"
 msgstr "Mount,Removable,Devices,Automatic"
 
-#: solid-device-automounter/kcm/device_automounter_kcm.desktop:49
+#: solid-device-automounter/kcm/device_automounter_kcm.desktop:50
 msgctxt "Name"
 msgid "Removable Devices"
 msgstr "可移除裝置"
 
-#: solid-device-automounter/kcm/device_automounter_kcm.desktop:92
+#: solid-device-automounter/kcm/device_automounter_kcm.desktop:94
 msgctxt "Comment"
 msgid "Configure automatic handling of removable storage media"
 msgstr "設定可移除儲存裝置的自動處理"
@@ -1431,7 +1431,7 @@ msgctxt "Name"
 msgid "Removable Device Automounter"
 msgstr "可移除裝置自動掛載器"
 
-#: solid-device-automounter/kded/device_automounter.desktop:50
+#: solid-device-automounter/kded/device_automounter.desktop:51
 msgctxt "Comment"
 msgid "Automatically mounts devices as needed"
 msgstr "需要時自動掛載"
