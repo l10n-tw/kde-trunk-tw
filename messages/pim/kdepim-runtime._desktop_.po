@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdepim\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-06 03:01+0000\n"
+"POT-Creation-Date: 2020-02-13 02:52+0000\n"
 "PO-Revision-Date: 2019-01-30 11:03+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -220,12 +220,12 @@ msgctxt "Comment"
 msgid "Microsoft Exchange Server (EWS)"
 msgstr "Microsoft Exchange 伺服器 (EWS)"
 
-#: resources/ews/akonadi_ews_resource.notifyrc:30
+#: resources/ews/akonadi_ews_resource.notifyrc:31
 msgctxt "Name"
 msgid "Microsoft Exchange authentication expired"
 msgstr "Microsoft Exchange 認證方式已過期"
 
-#: resources/ews/akonadi_ews_resource.notifyrc:54
+#: resources/ews/akonadi_ews_resource.notifyrc:56
 msgctxt "Comment"
 msgid "Credentials used to access Microsoft Exchange are no longer valid"
 msgstr "曾用來存取 Microsoft Exchange 的憑證現已無效"
@@ -235,7 +235,7 @@ msgctxt "Name"
 msgid "Microsoft Exchange Server (EWS) Mail Transport"
 msgstr "Microsoft Exchange 伺服器 (EWS) 郵件轉移"
 
-#: resources/ews/ewsmtaresource.desktop:32
+#: resources/ews/ewsmtaresource.desktop:33
 msgctxt "Comment"
 msgid "Allows sending e-mail through the Microsoft Exchange server using EWS"
 msgstr "允許藉由使用 EWS 的 Microsoft Exchange 伺服器傳送電子郵件"
@@ -245,7 +245,7 @@ msgctxt "Name"
 msgid "Microsoft Exchange Server (EWS)"
 msgstr "Microsoft Exchange 伺服器 (EWS)"
 
-#: resources/ews/ewsresource.desktop.cmake:33
+#: resources/ews/ewsresource.desktop.cmake:34
 msgctxt "Comment"
 msgid ""
 "Provides access to mail, appointments tasks and contacts of a Microsoft "
@@ -269,7 +269,7 @@ msgctxt "Name"
 msgid "Facebook Events"
 msgstr "Facebook 行程"
 
-#: resources/facebook/facebookresource.desktop:33
+#: resources/facebook/facebookresource.desktop:34
 msgctxt "Comment"
 msgid "Access your Facebook events from KDE"
 msgstr "用 KDE 存取您的 Facebook 行程"
@@ -299,7 +299,7 @@ msgctxt "Name"
 msgid "iCal Calendar Folder"
 msgstr "iCal 行事曆資料夾"
 
-#: resources/icaldir/icaldirresource.desktop:34
+#: resources/icaldir/icaldirresource.desktop:35
 msgctxt "Comment"
 msgid ""
 "Provides access to calendar items, each stored in a single file, in a given "
@@ -312,8 +312,8 @@ msgctxt "Name"
 msgid "iCal Calendar File"
 msgstr "iCal 行事曆檔案"
 
-#: resources/ical/icalresource.desktop:34
-#: resources/ical/wizard/icalwizard.desktop:35
+#: resources/ical/icalresource.desktop:35
+#: resources/ical/wizard/icalwizard.desktop:36
 msgctxt "Comment"
 msgid "Loads data from an iCal file"
 msgstr "從 iCal 檔載入資料"
@@ -437,12 +437,12 @@ msgctxt "Comment"
 msgid "POP3 Resource"
 msgstr "POP3 資源"
 
-#: resources/pop3/akonadi_pop3_resource.notifyrc:37
+#: resources/pop3/akonadi_pop3_resource.notifyrc:38
 msgctxt "Name"
 msgid "Error While Checking Mail"
 msgstr "檢查郵件時發生錯誤"
 
-#: resources/pop3/akonadi_pop3_resource.notifyrc:80
+#: resources/pop3/akonadi_pop3_resource.notifyrc:81
 msgctxt "Comment"
 msgid "There was an error while checking for new mail"
 msgstr "檢查郵件時發生錯誤"
@@ -462,7 +462,7 @@ msgctxt "Name"
 msgid "POP3"
 msgstr "POP3"
 
-#: resources/pop3/wizard/pop3wizard.desktop:43
+#: resources/pop3/wizard/pop3wizard.desktop:44
 msgctxt "Comment"
 msgid "Pop3 account"
 msgstr "Pop3 帳號"
@@ -472,7 +472,7 @@ msgctxt "Name"
 msgid "Akonadi TomboyNotes Resource"
 msgstr "Akonadi TomboyNotes 資源"
 
-#: resources/tomboynotes/tomboynotesresource.desktop:35
+#: resources/tomboynotes/tomboynotesresource.desktop:36
 msgctxt "Comment"
 msgid "Resource for Tomboy compatible notes server"
 msgstr "與 Tomboy 筆記伺服器相容的資源"

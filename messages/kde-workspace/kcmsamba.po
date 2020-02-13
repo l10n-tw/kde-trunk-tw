@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsamba\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-09 03:39+0100\n"
+"POT-Creation-Date: 2020-02-13 03:40+0100\n"
 "PO-Revision-Date: 2018-03-29 13:52+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -102,14 +102,18 @@ msgid "Harald Sitter"
 msgstr ""
 
 #: main.cpp:52
-#, kde-format
-msgid "&Exports"
+#, fuzzy, kde-format
+#| msgid "&Exports"
+msgctxt "@title/group"
+msgid "Exported Shares"
 msgstr "匯出(&E)"
 
 #: main.cpp:54
-#, kde-format
-msgid "&Imports"
-msgstr "匯入(&I)"
+#, fuzzy, kde-format
+#| msgid "Mounted Under"
+msgctxt "@title/group"
+msgid "Mounted Shares"
+msgstr "掛載於"
 
 #: smbmountmodel.cpp:49
 #, kde-format
@@ -128,6 +132,9 @@ msgctxt ""
 "@title:column whether a samba share is accessible locally (i.e. mounted)"
 msgid "Accessible"
 msgstr "存取自"
+
+#~ msgid "&Imports"
+#~ msgstr "匯入(&I)"
 
 #~ msgid "Type"
 #~ msgstr "類型"

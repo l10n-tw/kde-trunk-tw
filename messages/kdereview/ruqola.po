@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-12 03:25+0100\n"
+"POT-Creation-Date: 2020-02-13 03:21+0100\n"
 "PO-Revision-Date: 2019-09-28 03:06+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -124,14 +124,14 @@ msgid "Archive Room"
 msgstr ""
 
 #: apps/qml/qml/ArchiveRoomDialog.qml:42
-#: widgets/dialogs/channelinfowidget.cpp:114
-#: widgets/dialogs/channelinfowidget.cpp:268
+#: widgets/dialogs/channelinfowidget.cpp:115
+#: widgets/dialogs/channelinfowidget.cpp:273
 msgid "Do you want to archive this room?"
 msgstr ""
 
 #: apps/qml/qml/ArchiveRoomDialog.qml:42
-#: widgets/dialogs/channelinfowidget.cpp:114
-#: widgets/dialogs/channelinfowidget.cpp:268
+#: widgets/dialogs/channelinfowidget.cpp:115
+#: widgets/dialogs/channelinfowidget.cpp:273
 msgid "Do you want to unarchive this room?"
 msgstr ""
 
@@ -155,48 +155,48 @@ msgstr ""
 #: apps/qml/qml/ChannelInfoDialog.qml:56 apps/qml/qml/ChannelInfoDialog.qml:72
 #: apps/qml/qml/CreateNewAccountDialog.qml:55
 #: apps/qml/qml/CreateNewChannelDialog.qml:60
-#: widgets/dialogs/channelinfowidget.cpp:59
-#: widgets/dialogs/channelinfowidget.cpp:154
+#: widgets/dialogs/channelinfowidget.cpp:60
+#: widgets/dialogs/channelinfowidget.cpp:156
 #: widgets/dialogs/createnewchannelwidget.cpp:38
 msgid "Name:"
 msgstr ""
 
 #: apps/qml/qml/ChannelInfoDialog.qml:79 apps/qml/qml/ChannelInfoDialog.qml:90
-#: widgets/dialogs/channelinfowidget.cpp:70
-#: widgets/dialogs/channelinfowidget.cpp:161
+#: widgets/dialogs/channelinfowidget.cpp:71
+#: widgets/dialogs/channelinfowidget.cpp:164
 msgid "Comment:"
 msgstr ""
 
 #: apps/qml/qml/ChannelInfoDialog.qml:97 apps/qml/qml/ChannelInfoDialog.qml:108
-#: widgets/dialogs/channelinfowidget.cpp:82
-#: widgets/dialogs/channelinfowidget.cpp:168
+#: widgets/dialogs/channelinfowidget.cpp:83
+#: widgets/dialogs/channelinfowidget.cpp:172
 msgid "Announcement:"
 msgstr ""
 
 #: apps/qml/qml/ChannelInfoDialog.qml:115
 #: apps/qml/qml/ChannelInfoDialog.qml:126
-#: widgets/dialogs/channelinfowidget.cpp:91
-#: widgets/dialogs/channelinfowidget.cpp:175
+#: widgets/dialogs/channelinfowidget.cpp:92
+#: widgets/dialogs/channelinfowidget.cpp:180
 #: widgets/dialogs/uploadfilewidget.cpp:39
 msgid "Description:"
 msgstr ""
 
 #: apps/qml/qml/ChannelInfoDialog.qml:133
-#: widgets/dialogs/channelinfowidget.cpp:218
+#: widgets/dialogs/channelinfowidget.cpp:223
 msgid "This Room has a password"
 msgstr ""
 
 #. i18n context ?
 #: apps/qml/qml/ChannelInfoDialog.qml:133
 #: apps/qml/qml/CreateNewChannelDialog.qml:126
-#: widgets/dialogs/channelinfowidget.cpp:218
+#: widgets/dialogs/channelinfowidget.cpp:223
 msgid "Add password"
 msgstr ""
 
 #: apps/qml/qml/ChannelInfoDialog.qml:134
 #: apps/qml/qml/ChannelPasswordDialog.qml:56
 #: apps/qml/qml/CreateNewChannelDialog.qml:120
-#: widgets/dialogs/channelinfowidget.cpp:98
+#: widgets/dialogs/channelinfowidget.cpp:99
 #: widgets/dialogs/createnewchannelwidget.cpp:67
 #: widgets/ruqolaloginwidget.cpp:74
 msgid "Password:"
@@ -215,13 +215,13 @@ msgid "Broadcast:"
 msgstr ""
 
 #: apps/qml/qml/ChannelInfoDialog.qml:166
-#: widgets/dialogs/channelinfowidget.cpp:112
+#: widgets/dialogs/channelinfowidget.cpp:113
 msgid "Archive:"
 msgstr ""
 
 #: apps/qml/qml/ChannelInfoDialog.qml:176
 #: apps/qml/qml/CreateNewChannelDialog.qml:104
-#: widgets/dialogs/channelinfowidget.cpp:123
+#: widgets/dialogs/channelinfowidget.cpp:124
 msgid "Private:"
 msgstr ""
 
@@ -244,8 +244,8 @@ msgstr ""
 
 #: apps/qml/qml/common/DeleteButton.qml:29
 #: apps/qml/qml/messages/MessageMenu.qml:116
-#: widgets/dialogs/channelinfowidget.cpp:130
-#: widgets/room/messagelistview.cpp:191
+#: widgets/dialogs/channelinfowidget.cpp:131
+#: widgets/room/messagelistview.cpp:192
 msgid "Delete"
 msgstr ""
 
@@ -271,7 +271,7 @@ msgstr ""
 
 #: apps/qml/qml/ConfigureServerList.qml:63
 #: apps/qml/qml/messages/MessageMenu.qml:74
-#: widgets/room/messagelistview.cpp:181
+#: widgets/room/messagelistview.cpp:182
 msgid "Edit"
 msgstr ""
 
@@ -359,21 +359,21 @@ msgstr ""
 msgid "Do you want to delete this attachment?"
 msgstr ""
 
-#: apps/qml/qml/DeleteMessageDialog.qml:31 widgets/room/messagelistview.cpp:266
+#: apps/qml/qml/DeleteMessageDialog.qml:31 widgets/room/messagelistview.cpp:267
 msgid "Delete Message"
 msgstr ""
 
-#: apps/qml/qml/DeleteMessageDialog.qml:45 widgets/room/messagelistview.cpp:266
+#: apps/qml/qml/DeleteMessageDialog.qml:45 widgets/room/messagelistview.cpp:267
 msgid "Do you want to delete this message?"
 msgstr ""
 
 #: apps/qml/qml/DeleteRoomDialog.qml:30
-#: widgets/dialogs/channelinfowidget.cpp:134
+#: widgets/dialogs/channelinfowidget.cpp:135
 msgid "Delete Room"
 msgstr ""
 
 #: apps/qml/qml/DeleteRoomDialog.qml:44
-#: widgets/dialogs/channelinfowidget.cpp:134
+#: widgets/dialogs/channelinfowidget.cpp:135
 msgid "Do you want to delete this room?"
 msgstr ""
 
@@ -450,7 +450,7 @@ msgstr ""
 
 #: apps/qml/qml/ListMessagesDialogBase.qml:58
 #: widgets/dialogs/showlistmessagebasewidget.cpp:41
-#: widgets/ruqolamainwindow.cpp:220
+#: widgets/ruqolamainwindow.cpp:221
 msgid "Search Messages..."
 msgstr ""
 
@@ -535,7 +535,7 @@ msgstr ""
 msgid "Configure Notification"
 msgstr ""
 
-#: apps/qml/qml/MainComponent.qml:60 widgets/ruqolamainwindow.cpp:266
+#: apps/qml/qml/MainComponent.qml:60 widgets/ruqolamainwindow.cpp:267
 msgid "List of Users"
 msgstr ""
 
@@ -548,7 +548,7 @@ msgid "Channel Info"
 msgstr ""
 
 #: apps/qml/qml/MainComponent.qml:104
-#: core/model/notificationpreferencemodel.cpp:82
+#: core/model/notificationpreferencemodel.cpp:81
 msgid "Mentions"
 msgstr ""
 
@@ -576,7 +576,7 @@ msgstr ""
 msgid "Threads"
 msgstr ""
 
-#: apps/qml/qml/MainComponent.qml:154 widgets/ruqolamainwindow.cpp:270
+#: apps/qml/qml/MainComponent.qml:154 widgets/ruqolamainwindow.cpp:271
 msgid "Video Chat"
 msgstr ""
 
@@ -588,7 +588,7 @@ msgstr ""
 msgid "Take a Video Message"
 msgstr ""
 
-#: apps/qml/qml/MainComponent.qml:178 widgets/ruqolamainwindow.cpp:229
+#: apps/qml/qml/MainComponent.qml:178 widgets/ruqolamainwindow.cpp:230
 msgid "Load Recent History"
 msgstr ""
 
@@ -619,7 +619,7 @@ msgid "Click To Join to Video"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:41
-#: widgets/room/messagelistview.cpp:167
+#: widgets/room/messagelistview.cpp:168
 msgid "Start a Discussion"
 msgstr ""
 
@@ -637,28 +637,28 @@ msgid "Reply"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:93
-#: widgets/channellist/channellistview.cpp:87
-#: widgets/room/messagelistview.cpp:160
+#: widgets/channellist/channellistview.cpp:86
+#: widgets/room/messagelistview.cpp:161
 msgid "Set as Favorite"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:93
-#: widgets/room/messagelistview.cpp:160
+#: widgets/room/messagelistview.cpp:161
 msgid "Remove as Favorite"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:105
-#: widgets/room/messagelistview.cpp:152
+#: widgets/room/messagelistview.cpp:153
 msgid "Unpin Message"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:105
-#: widgets/room/messagelistview.cpp:152
+#: widgets/room/messagelistview.cpp:153
 msgid "Pin Message"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:124
-#: widgets/room/messagelistview.cpp:225
+#: widgets/room/messagelistview.cpp:226
 msgid "Report Message"
 msgstr ""
 
@@ -671,7 +671,7 @@ msgid "Ignore"
 msgstr ""
 
 #: apps/qml/qml/messages/MessageMenu.qml:145
-#: widgets/room/messagelistview.cpp:200
+#: widgets/room/messagelistview.cpp:201
 msgid "Translate Message"
 msgstr ""
 
@@ -801,7 +801,7 @@ msgstr ""
 msgid "Open Room"
 msgstr ""
 
-#: apps/qml/qml/RoomsComponent.qml:50 widgets/ruqolamainwindow.cpp:248
+#: apps/qml/qml/RoomsComponent.qml:50 widgets/ruqolamainwindow.cpp:249
 msgid "Unread on Top"
 msgstr ""
 
@@ -830,7 +830,7 @@ msgid "Search Room... (%1)"
 msgstr ""
 
 #: apps/qml/qml/RoomsComponent.qml:173
-#: widgets/channellist/channellistwidget.cpp:64
+#: widgets/channellist/channellistwidget.cpp:66
 #: widgets/dialogs/modifystatuswidget.cpp:43
 msgid "Status:"
 msgstr ""
@@ -839,7 +839,7 @@ msgstr ""
 msgid "Search Channel"
 msgstr ""
 
-#: apps/qml/qml/SearchChannelDialog.qml:56 widgets/ruqolamainwindow.cpp:196
+#: apps/qml/qml/SearchChannelDialog.qml:56 widgets/ruqolamainwindow.cpp:197
 msgid "Search Channel..."
 msgstr ""
 
@@ -901,7 +901,7 @@ msgid "Search Message"
 msgstr ""
 
 #: apps/qml/qml/ShowSearchMessageDialog.qml:60
-#: widgets/dialogs/searchmessagewidget.cpp:42
+#: widgets/dialogs/searchmessagewidget.cpp:41
 msgid "Search Word... (You can use regular expression as /^text$/i)"
 msgstr ""
 
@@ -1018,111 +1018,111 @@ msgstr ""
 msgid "(Last Message: %1)"
 msgstr ""
 
-#: core/messages/message.cpp:428
+#: core/messages/message.cpp:422
 msgid "%1 has joined the channel"
 msgstr ""
 
-#: core/messages/message.cpp:430
+#: core/messages/message.cpp:424
 msgid "%1 has left the channel"
 msgstr ""
 
-#: core/messages/message.cpp:433
+#: core/messages/message.cpp:427
 msgid "Topic was cleared by: %1"
 msgstr ""
 
-#: core/messages/message.cpp:435
+#: core/messages/message.cpp:429
 msgid "%2 changed topic to: <i>%1</i>"
 msgstr ""
 
-#: core/messages/message.cpp:438
+#: core/messages/message.cpp:432
 msgid "%2 added %1 to the conversation"
 msgstr ""
 
-#: core/messages/message.cpp:440
+#: core/messages/message.cpp:434
 msgid "%2 changed room name to <a href=\"ruqola:/room/%1\">#%1</a>"
 msgstr ""
 
-#: core/messages/message.cpp:442
+#: core/messages/message.cpp:436
 msgid "%2 removed user %1"
 msgstr ""
 
-#: core/messages/message.cpp:445
+#: core/messages/message.cpp:439
 msgid "Description was cleared by %1"
 msgstr ""
 
-#: core/messages/message.cpp:447
+#: core/messages/message.cpp:441
 msgid "%2 changed room description to %1"
 msgstr ""
 
-#: core/messages/message.cpp:451
+#: core/messages/message.cpp:445
 msgid "Announcement was cleared by %1"
 msgstr ""
 
-#: core/messages/message.cpp:453
+#: core/messages/message.cpp:447
 msgid "%2 changed room announcement to %1"
 msgstr ""
 
-#: core/messages/message.cpp:456
+#: core/messages/message.cpp:450
 msgid "%2 changed room privacy to %1"
 msgstr ""
 
-#: core/messages/message.cpp:458
+#: core/messages/message.cpp:452
 msgid "Click to join to video"
 msgstr ""
 
-#: core/messages/message.cpp:461
+#: core/messages/message.cpp:455
 msgid "Message Deleted"
 msgstr ""
 
-#: core/messages/message.cpp:463
+#: core/messages/message.cpp:457
 msgid "Message Pinned"
 msgstr ""
 
-#: core/messages/message.cpp:465
+#: core/messages/message.cpp:459
 msgid "Encrypted Message"
 msgstr ""
 
-#: core/messages/message.cpp:468
+#: core/messages/message.cpp:462
 msgid "%1 was unmuted"
 msgstr ""
 
-#: core/messages/message.cpp:471
+#: core/messages/message.cpp:465
 msgid "%1 was muted"
 msgstr ""
 
-#: core/messages/message.cpp:473
+#: core/messages/message.cpp:467
 msgid "Role '%3' was added to %1 by %2"
 msgstr ""
 
-#: core/messages/message.cpp:475
+#: core/messages/message.cpp:469
 msgid "Role '%3' was removed to %1 by %2"
 msgstr ""
 
-#: core/messages/message.cpp:478
+#: core/messages/message.cpp:472
 msgid "Encrypted message: %1"
 msgstr ""
 
-#: core/messages/message.cpp:480
+#: core/messages/message.cpp:474
 msgid "Discussion created about \"%1\""
 msgstr ""
 
-#: core/messages/message.cpp:482
+#: core/messages/message.cpp:476
 msgid "%1 has joined the conversation"
 msgstr ""
 
-#: core/messages/message.cpp:484
+#: core/messages/message.cpp:478
 msgid "This room has been archived by %1"
 msgstr ""
 
-#: core/messages/message.cpp:486
+#: core/messages/message.cpp:480
 msgid "This room has been unarchived by %1"
 msgstr ""
 
-#: core/messages/message.cpp:489 core/messages/message.cpp:496
+#: core/messages/message.cpp:483 core/messages/message.cpp:490
 msgid "Unknown action!"
 msgstr ""
 
-#: core/messages/message.cpp:493
+#: core/messages/message.cpp:487
 msgid "Welcome %1!"
 msgstr ""
 
@@ -1131,7 +1131,7 @@ msgid "File Uploaded:"
 msgstr ""
 
 #: core/messages/reaction.cpp:38 core/messages/reaction.cpp:51
-msgid "%1 had reacted with %2"
+msgid "%1 reacted with %2"
 msgstr ""
 
 #: core/messages/reaction.cpp:46 core/receivetypingnotificationmanager.cpp:82
@@ -1156,7 +1156,7 @@ msgstr ""
 
 #: core/model/notificationdesktopdurationpreferencemodel.cpp:72
 #: core/model/notificationdesktopsoundpreferencemodel.cpp:72
-#: core/model/notificationpreferencemodel.cpp:70
+#: core/model/notificationpreferencemodel.cpp:69
 msgid "Default"
 msgstr ""
 
@@ -1167,7 +1167,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: core/model/notificationdesktopsoundpreferencemodel.cpp:78
-#: core/model/notificationpreferencemodel.cpp:88
+#: core/model/notificationpreferencemodel.cpp:87
 msgid "Nothing"
 msgstr ""
 
@@ -1195,7 +1195,7 @@ msgstr ""
 msgid "Seasons"
 msgstr ""
 
-#: core/model/notificationpreferencemodel.cpp:76
+#: core/model/notificationpreferencemodel.cpp:75
 msgid "All Messages"
 msgstr ""
 
@@ -1284,416 +1284,416 @@ msgid "Extract Roles"
 msgstr ""
 
 #: rocketchatrestapi-qt5/groups/groupremoveownerjob.cpp:67
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:376
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:383
 msgid ""
 "This is the last owner. Please set a new owner before removing this one."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:202
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:209
 msgid "Unauthorized"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:216
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:223
 msgid "%1:%2"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:222
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:229
 msgid "__action__ is not allowed"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:224
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:231
 msgid "Application not found"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:226
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:233
 msgid "There's an archived channel with name '__room_name__'"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:228
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:235
 msgid "Invalid avatar URL: __url__"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:230
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:237
 msgid ""
 "Error while handling avatar setting from a URL (__url__) for __username__"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:232
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:239
 msgid "Can't invite user to direct rooms"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:234
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:241
 msgid "The channel default setting is the same as what it would be changed to."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:236
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:243
 msgid "The bodyParam 'default' is required"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:238
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:245
 msgid "Could not change email"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:240
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:247
 msgid "Could not change name"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:242
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:249
 msgid "Could not change username"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:244
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:251
 msgid "Cannot delete a protected role"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:246
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:253
 msgid "Department not found"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:248
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:255
 msgid "File sharing not allowed in direct messages"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:250
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:257
 msgid "A channel with name '__channel_name__' exists"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:252
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:259
 msgid "Editing permissions is not allowed"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:254
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:261
 msgid "The email domain is blacklisted"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:256
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:263
 msgid "Error trying to send email: __message__"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:258
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:265
 msgid "<strong>__field__</strong> is already in use :("
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:260
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:267
 msgid "File is too large"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:262
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:269
 msgid "The importer was not defined correctly, it is missing the Import class."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:264
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:271
 msgid "Failed to extract import file."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:266
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:273
 msgid "Imported file seems to be empty."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:268
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:275
 msgid "The file to be imported was not found on the specified path."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:270
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:277
 msgid "__input__ is not a valid __field__"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:272
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:279
 msgid "Invalid action link"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:274
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:281
 msgid "Invalid Account"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:276
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:283
 msgid "Invalid arguments"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:278
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:285
 msgid "Invalid asset"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:280
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:287
 msgid "Invalid channel."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:282
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:289
 msgid "Invalid channel. Start with @ or #"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:284
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:291
 msgid "Invalid custom field"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:286
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:293
 msgid ""
 "Invalid custom field name. Use only letters, numbers, hyphens and "
 "underscores."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:288
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:295
 msgid "Invalid date provided."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:290
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:297
 msgid "Invalid description"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:292
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:299
 msgid "Invalid domain"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:294
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:301
 msgid "Invalid email __email__"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:296
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:303
 msgid "Invalid email address"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:298
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:305
 msgid "Invalid file height"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:300
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:307
 msgid "Invalid file type"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:302
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:309
 msgid "Invalid file width"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:304
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:311
 msgid "You informed an invalid FROM address."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:306
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:313
 msgid "Invalid integration"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:308
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:315
 msgid "Invalid message"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:310
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:317
 msgid "Invalid method"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:312
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:319
 msgid "Invalid name"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:314
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:321
 msgid "Invalid password"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:316
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:323
 msgid "Invalid permission"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:318
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:325
 msgid "Invalid redirectUri"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:320
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:327
 msgid "Invalid role"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:322
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:329
 msgid "Invalid room"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:324
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:331
 msgid "<strong>__room_name__</strong> is not a valid room name"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:326
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:333
 msgid "<strong>__type__</strong> is not a valid room type."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:328
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:335
 msgid "Invalid settings provided"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:330
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:337
 msgid "Invalid subscription"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:332
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:339
 msgid "Invalid token"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:334
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:341
 msgid "Invalid triggerWords"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:336
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:343
 msgid "Invalid URLs"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:338
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:345
 msgid "Invalid user"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:340
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:347
 msgid "Invalid username"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:342
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:349
 msgid "The webhook URL responded with a status other than 200"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:344
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:351
 msgid "Message deleting is blocked"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:346
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:353
 msgid "Message editing is blocked"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:348
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:355
 msgid "Message size exceeds Message_MaxAllowedSize"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:350
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:357
 msgid "You must provide the [unsubscribe] link."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:352
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:359
 msgid "There are no tokens for this user"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:354
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:361
 msgid "Not allowed"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:356
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:363
 msgid "Not authorized"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:358
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:365
 msgid "Password does not meet the server's policy"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:360
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:367
 msgid ""
 "Password does not meet the server's policy of maximum length (password too "
 "long)"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:362
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:369
 msgid ""
 "Password does not meet the server's policy of minimum length (password too "
 "short)"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:364
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:371
 msgid ""
 "Password does not meet the server's policy of at least one lowercase "
 "character"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:366
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:373
 msgid ""
 "Password does not meet the server's policy of at least one numerical "
 "character"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:368
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:375
 msgid ""
 "Password does not meet the server's policy of at least one special character"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:370
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:377
 msgid ""
 "Password does not meet the server's policy of at least one uppercase "
 "character"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:372
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:379
 msgid ""
 "Password does not meet the server's policy of forbidden repeating characters "
 "(you have too many of the same characters next to each other)"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:374
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:381
 msgid "Push is disabled"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:378
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:385
 msgid "Cannot delete role because it's in use"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:380
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:387
 msgid "Role name is required"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:382
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:389
 msgid "Room is not closed"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:384
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:391
 msgid "The field __field__ is required."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:386
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:393
 msgid "This is not a Livechat room"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:388
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:395
 msgid "Personal Access Tokens are currently disabled"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:390
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:397
 msgid "A token with this name already exists"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:392
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:399
 msgid "Token does not exists"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:394
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:401
 msgid ""
 "Error, too many requests. Please slow down. You must wait __seconds__ "
 "seconds before trying again."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:396
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:403
 msgid "User has no roles"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:398
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:405
 msgid "User is not activated"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:400
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:407
 msgid ""
 "The number of users you are trying to invite to #channel_name exceeds the "
 "limit set by the administrator"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:402
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:409
 msgid "User is not in this room"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:404
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:411
 msgid "You are not in the room `%s`"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:406
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:413
 msgid "User registration is disabled"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:408
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:415
 msgid "User registration is only allowed via Secret URL"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:410
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:417
 msgid "You are the last owner. Please set new owner before leaving the room."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:412
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:419
 msgid "The private group is archived"
 msgstr ""
 
@@ -1701,24 +1701,28 @@ msgstr ""
 msgid "Get Avatar"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:80
+#: widgets/channellist/channellistview.cpp:79
 msgid "Hide Channel"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:87
+#: widgets/channellist/channellistview.cpp:86
 msgid "Unset as Favorite"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:98
+#: widgets/channellist/channellistview.cpp:97
 msgid "Quit Channel"
 msgstr ""
 
-#: widgets/channellist/channellistwidget.cpp:51
+#: widgets/channellist/channellistwidget.cpp:53
 msgid "Search Rooms (CTRL + K)"
 msgstr ""
 
-#: widgets/channellist/channellistwidget.cpp:74
+#: widgets/channellist/channellistwidget.cpp:76
 msgid "Search Rooms"
+msgstr ""
+
+#: widgets/channellist/channellistwidget.cpp:213
+msgid "Do you want to open direct conversation with %1"
 msgstr ""
 
 #: widgets/channellist/statuscombobox.cpp:43
@@ -1734,22 +1738,22 @@ msgctxt "@title:window"
 msgid "Remove Account"
 msgstr ""
 
-#: widgets/configuredialog/configuresettingsdialog.cpp:42
+#: widgets/configuredialog/configuresettingsdialog.cpp:41
 msgctxt "@title:window"
 msgid "Configure Ruqola"
 msgstr ""
 
-#: widgets/configuredialog/configuresettingsdialog.cpp:47
+#: widgets/configuredialog/configuresettingsdialog.cpp:46
 msgctxt "@title Preferences page name"
 msgid "Account"
 msgstr ""
 
-#: widgets/configuredialog/configuresettingsdialog.cpp:53
+#: widgets/configuredialog/configuresettingsdialog.cpp:52
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
 msgstr ""
 
-#: widgets/configuredialog/configuresettingsdialog.cpp:60
+#: widgets/configuredialog/configuresettingsdialog.cpp:59
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
 msgstr ""
@@ -1759,38 +1763,38 @@ msgctxt "@title:window"
 msgid "Add Users in Room"
 msgstr ""
 
-#: widgets/dialogs/addusersinroomwidget.cpp:38
+#: widgets/dialogs/addusersinroomwidget.cpp:36
 msgid "Search Users..."
 msgstr ""
 
-#: widgets/dialogs/channelinfodialog.cpp:33
+#: widgets/dialogs/channelinfodialog.cpp:32
 #: widgets/dialogs/directchannelinfodialog.cpp:30
 msgctxt "@title:window"
 msgid "Channel Info"
 msgstr ""
 
-#: widgets/dialogs/channelinfodialog.cpp:54
+#: widgets/dialogs/channelinfodialog.cpp:53
 msgctxt "@title:window"
-msgid "Channel Info about %1"
+msgid "Channel Info about '%1'"
 msgstr ""
 
-#: widgets/dialogs/channelinfowidget.cpp:105
+#: widgets/dialogs/channelinfowidget.cpp:106
 msgid "ReadOnly:"
 msgstr ""
 
-#: widgets/dialogs/channelinfowidget.cpp:115
+#: widgets/dialogs/channelinfowidget.cpp:116
 msgid "Archive Channel"
 msgstr ""
 
-#: widgets/dialogs/channelinfowidget.cpp:115
+#: widgets/dialogs/channelinfowidget.cpp:116
 msgid "Unarchive Channel"
 msgstr ""
 
-#: widgets/dialogs/channelinfowidget.cpp:268
+#: widgets/dialogs/channelinfowidget.cpp:273
 msgid "Archive room"
 msgstr ""
 
-#: widgets/dialogs/channelinfowidget.cpp:301
+#: widgets/dialogs/channelinfowidget.cpp:306
 msgid "Change Text"
 msgstr ""
 
@@ -1826,17 +1830,17 @@ msgctxt "@title:window"
 msgid "Modify Account"
 msgstr ""
 
-#: widgets/dialogs/createnewaccountwidget.cpp:39
+#: widgets/dialogs/createnewaccountwidget.cpp:38
 #: widgets/dialogs/serverinfowidget.cpp:37 widgets/ruqolaloginwidget.cpp:42
 msgid "Account Name:"
 msgstr ""
 
-#: widgets/dialogs/createnewaccountwidget.cpp:44
+#: widgets/dialogs/createnewaccountwidget.cpp:43
 #: widgets/ruqolaloginwidget.cpp:46
 msgid "Server Name:"
 msgstr ""
 
-#: widgets/dialogs/createnewaccountwidget.cpp:49
+#: widgets/dialogs/createnewaccountwidget.cpp:48
 #: widgets/dialogs/serverinfowidget.cpp:41 widgets/ruqolaloginwidget.cpp:50
 msgid "User Name:"
 msgstr ""
@@ -1969,6 +1973,11 @@ msgstr ""
 msgid "Search Thread..."
 msgstr ""
 
+#: widgets/dialogs/takevideomessagedialog.cpp:30
+msgctxt "@title:window"
+msgid "Video Message"
+msgstr ""
+
 #: widgets/dialogs/uploadfiledialog.cpp:36
 msgctxt "@title:window"
 msgid "Upload File"
@@ -2026,11 +2035,11 @@ msgstr ""
 msgid "Save Image"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:200
+#: widgets/room/messagelistview.cpp:201
 msgid "Show Original Message"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:217
+#: widgets/room/messagelistview.cpp:218
 msgid "Go to Message"
 msgstr ""
 
@@ -2049,62 +2058,62 @@ msgid ""
 "Please enter the generated code or a backup code."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:183
+#: widgets/ruqolamainwindow.cpp:184
 msgid "Add Account..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:188
+#: widgets/ruqolamainwindow.cpp:189
 msgid "Server Info..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:192
+#: widgets/ruqolamainwindow.cpp:193
 msgid "Logout"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:200
+#: widgets/ruqolamainwindow.cpp:201
 msgid "Create New Channel..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:204
+#: widgets/ruqolamainwindow.cpp:205
 msgid "Show Mentions..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:208
+#: widgets/ruqolamainwindow.cpp:209
 msgid "Show Pinned Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:212
+#: widgets/ruqolamainwindow.cpp:213
 msgid "Show Starred Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:216
+#: widgets/ruqolamainwindow.cpp:217
 msgid "Show Snippered Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:225
+#: widgets/ruqolamainwindow.cpp:226
 msgid "Configure Notification..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:233
+#: widgets/ruqolamainwindow.cpp:234
 msgid "Show File Attachment..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:240
+#: widgets/ruqolamainwindow.cpp:241
 msgid "Show Discussions..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:244
+#: widgets/ruqolamainwindow.cpp:245
 msgid "Show Threads..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:253
+#: widgets/ruqolamainwindow.cpp:254
 msgid "Channel Info..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:257
+#: widgets/ruqolamainwindow.cpp:258
 msgid "Add Users in Channel..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:261
+#: widgets/ruqolamainwindow.cpp:262
 msgid "Mark all channels read"
 msgstr ""

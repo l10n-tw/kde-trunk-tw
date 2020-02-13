@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-10 02:56+0100\n"
+"POT-Creation-Date: 2020-02-13 03:02+0100\n"
 "PO-Revision-Date: 2020-01-26 19:01+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -636,7 +636,7 @@ msgstr "類別(&C)："
 #. i18n: ectx: property (title), widget (QGroupBox, gbViInputMode)
 #. i18n: ectx: property (title), widget (QGroupBox, gbGeneral)
 #: dialogs/completionconfigtab.ui:20 dialogs/katedialogs.cpp:560
-#: dialogs/katedialogs.cpp:691 dialogs/katedialogs.cpp:895
+#: dialogs/katedialogs.cpp:691 dialogs/katedialogs.cpp:898
 #: vimode/config/configwidget.ui:29
 #, kde-format
 msgid "General"
@@ -1417,144 +1417,144 @@ msgstr "關"
 msgid "Follow Line Numbers"
 msgstr "跟隨行號"
 
-#: dialogs/katedialogs.cpp:827 dialogs/katedialogs.cpp:832
+#: dialogs/katedialogs.cpp:830 dialogs/katedialogs.cpp:835
 #, kde-format
 msgid "Appearance"
 msgstr "外觀"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: dialogs/katedialogs.cpp:896 dialogs/textareaappearanceconfigwidget.ui:236
+#: dialogs/katedialogs.cpp:899 dialogs/textareaappearanceconfigwidget.ui:243
 #, kde-format
 msgid "Advanced"
 msgstr "進階"
 
-#: dialogs/katedialogs.cpp:961
+#: dialogs/katedialogs.cpp:964
 #, kde-format
 msgid ""
 "You did not provide a backup suffix or prefix. Using default suffix: '~'"
 msgstr "你沒有提供備份的後綴或前綴。使用預設後綴：'~'"
 
-#: dialogs/katedialogs.cpp:961
+#: dialogs/katedialogs.cpp:964
 #, kde-format
 msgid "No Backup Suffix or Prefix"
 msgstr "沒有備份後綴和前綴"
 
-#: dialogs/katedialogs.cpp:1083
+#: dialogs/katedialogs.cpp:1086
 #, kde-format
 msgid "Open/Save"
 msgstr "開啟/儲存"
 
-#: dialogs/katedialogs.cpp:1088
+#: dialogs/katedialogs.cpp:1091
 #, kde-format
 msgid "File Opening & Saving"
 msgstr "檔案的開啟與儲存"
 
-#: dialogs/katedialogs.cpp:1111
+#: dialogs/katedialogs.cpp:1114
 #, kde-format
 msgid "&Line:"
 msgstr "行號(&L)："
 
-#: dialogs/katedialogs.cpp:1112
+#: dialogs/katedialogs.cpp:1115
 #, kde-format
 msgid "Go to line number from clipboard"
 msgstr "前往剪貼簿所複製的行號"
 
-#: dialogs/katedialogs.cpp:1124
+#: dialogs/katedialogs.cpp:1127
 #, kde-format
 msgid "Go to"
 msgstr "前往"
 
-#: dialogs/katedialogs.cpp:1200
+#: dialogs/katedialogs.cpp:1203
 #, kde-format
 msgid "No valid line number found in clipboard"
 msgstr "未在剪貼簿找到有效行號"
 
-#: dialogs/katedialogs.cpp:1255
+#: dialogs/katedialogs.cpp:1258
 #, kde-format
 msgid "Dictionary:"
 msgstr "字典："
 
-#: dialogs/katedialogs.cpp:1307
+#: dialogs/katedialogs.cpp:1310
 #, kde-format
 msgid "Enable Auto Reload"
 msgstr "開啟自動重新載入"
 
-#: dialogs/katedialogs.cpp:1309
+#: dialogs/katedialogs.cpp:1312
 #, kde-format
 msgid "Will never again warn about on disk changes but always reload."
 msgstr "將永遠不再顯示關於磁碟上變更的警告，直接重新載入。"
 
-#: dialogs/katedialogs.cpp:1314
+#: dialogs/katedialogs.cpp:1317
 #, kde-format
 msgid "View &Difference"
 msgstr "檢視差異(&D)"
 
-#: dialogs/katedialogs.cpp:1315
+#: dialogs/katedialogs.cpp:1318
 #, kde-format
 msgid "Shows a diff of the changes"
 msgstr "顯示變更間的差異"
 
-#: dialogs/katedialogs.cpp:1320
+#: dialogs/katedialogs.cpp:1323
 #, kde-format
 msgid "&Reload"
 msgstr "重新載入(&R)"
 
-#: dialogs/katedialogs.cpp:1322
+#: dialogs/katedialogs.cpp:1325
 #, kde-format
 msgid "Reload the file from disk. Unsaved changes will be lost."
 msgstr "自磁碟重新載入檔案。未儲存的變更將會遺失。"
 
-#: dialogs/katedialogs.cpp:1326
+#: dialogs/katedialogs.cpp:1329
 #, kde-format
 msgctxt "@action:button closes the opened file"
 msgid "&Close File"
 msgstr "關閉檔案(&C)"
 
-#: dialogs/katedialogs.cpp:1328
+#: dialogs/katedialogs.cpp:1331
 #, kde-format
 msgid "Close the file, discarding its content."
 msgstr "關閉檔案，放棄檔案內容。"
 
-#: dialogs/katedialogs.cpp:1332
+#: dialogs/katedialogs.cpp:1335
 #, kde-format
 msgid "&Save As..."
 msgstr "另存新檔(&S)..."
 
-#: dialogs/katedialogs.cpp:1334
+#: dialogs/katedialogs.cpp:1337
 #, kde-format
 msgid "Lets you select a location and save the file again."
 msgstr "讓您選擇一個位置並再次儲存檔案。"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_skipBtn)
-#: dialogs/katedialogs.cpp:1339 spellcheck/spellcheckbar.ui:143
+#: dialogs/katedialogs.cpp:1342 spellcheck/spellcheckbar.ui:143
 #, kde-format
 msgid "&Ignore"
 msgstr "忽略(&I)"
 
-#: dialogs/katedialogs.cpp:1340
+#: dialogs/katedialogs.cpp:1343
 #, kde-format
 msgid "Ignores the changes on disk without any action."
 msgstr "沒有動作，忽略在磁碟上的變更。"
 
-#: dialogs/katedialogs.cpp:1406 swapfile/kateswapdiffcreator.cpp:139
+#: dialogs/katedialogs.cpp:1409 swapfile/kateswapdiffcreator.cpp:139
 #, kde-format
 msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in "
 "your PATH."
 msgstr "diff 指令失敗。請確定 diff(1) 已安裝於您的 PATH。"
 
-#: dialogs/katedialogs.cpp:1408 swapfile/kateswapdiffcreator.cpp:107
+#: dialogs/katedialogs.cpp:1411 swapfile/kateswapdiffcreator.cpp:107
 #: swapfile/kateswapdiffcreator.cpp:141
 #, kde-format
 msgid "Error Creating Diff"
 msgstr "建立 Diff 發生錯誤"
 
-#: dialogs/katedialogs.cpp:1415 swapfile/kateswapdiffcreator.cpp:148
+#: dialogs/katedialogs.cpp:1418 swapfile/kateswapdiffcreator.cpp:148
 #, kde-format
 msgid "The files are identical."
 msgstr "檔案完全相同。"
 
-#: dialogs/katedialogs.cpp:1415 swapfile/kateswapdiffcreator.cpp:148
+#: dialogs/katedialogs.cpp:1418 swapfile/kateswapdiffcreator.cpp:148
 #, kde-format
 msgid "Diff Output"
 msgstr "Diff 輸出"
@@ -1614,7 +1614,7 @@ msgstr "設定在可能的情況下，游標上方與下方分別要多少行。
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, spbSwapFileSync)
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, sbDynamicWordWrapDepth)
 #: dialogs/navigationconfigwidget.ui:56 dialogs/opensaveconfigadvwidget.ui:163
-#: dialogs/textareaappearanceconfigwidget.ui:111
+#: dialogs/textareaappearanceconfigwidget.ui:118
 #, kde-format
 msgid "Disabled"
 msgstr "已停用"
@@ -2006,26 +2006,33 @@ msgstr "動態折行(&D)"
 msgid "Wrap dynamic at static word wrap marker"
 msgstr "於靜態文字折行標記處自動折行"
 
-#. i18n: ectx: property (text), widget (QLabel, lblDynamicWordWrapIndicators)
-#: dialogs/textareaappearanceconfigwidget.ui:58
+#. i18n: ectx: property (text), widget (QCheckBox, chkDynWrapAnywhere)
+#: dialogs/textareaappearanceconfigwidget.ui:36
 #, kde-format
-msgid "Dynamic word wrap &indicators (if applicable):"
+msgid "Disregard word boundaries for dynamic wrapping"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblDynamicWordWrapIndicators)
+#: dialogs/textareaappearanceconfigwidget.ui:65
+#, fuzzy, kde-format
+#| msgid "Dynamic word wrap &indicators (if applicable):"
+msgid "D&ynamic word wrap indicators (if applicable):"
 msgstr "動態文字折行指示器（有的話）(&I)："
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, cmbDynamicWordWrapIndicator)
-#: dialogs/textareaappearanceconfigwidget.ui:68
+#: dialogs/textareaappearanceconfigwidget.ui:75
 #, kde-format
 msgid "Choose when the Dynamic Word Wrap Indicators should be displayed."
 msgstr "選擇何時要顯示動態文字折行指示器。"
 
 #. i18n: ectx: property (text), widget (QLabel, lblDynamicWordWrapIndicators_2)
-#: dialogs/textareaappearanceconfigwidget.ui:92
+#: dialogs/textareaappearanceconfigwidget.ui:99
 #, kde-format
 msgid "&Align dynamically wrapped lines to indentation depth:"
 msgstr "將動態折下來的行縮排到深度(&A)："
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, sbDynamicWordWrapDepth)
-#: dialogs/textareaappearanceconfigwidget.ui:108
+#: dialogs/textareaappearanceconfigwidget.ui:115
 #, no-c-format, kde-format
 msgid ""
 "<p>Enables the start of dynamically wrapped lines to be aligned vertically "
@@ -2042,56 +2049,56 @@ msgstr ""
 "50% 的行來說，折下來的行就不會跟第一行對齊。</p>"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbDynamicWordWrapDepth)
-#: dialogs/textareaappearanceconfigwidget.ui:114
+#: dialogs/textareaappearanceconfigwidget.ui:121
 #, no-c-format, kde-format
 msgid "% of View Width"
 msgstr "檢視寬度的百分比"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbWhitespaceHighlighting)
-#: dialogs/textareaappearanceconfigwidget.ui:149
+#: dialogs/textareaappearanceconfigwidget.ui:156
 #, kde-format
 msgid "Whitespace Highlighting"
 msgstr "突顯空白"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, spacesComboBox)
-#: dialogs/textareaappearanceconfigwidget.ui:156
+#: dialogs/textareaappearanceconfigwidget.ui:163
 #: syntax/katehighlightmenu.cpp:57
 #, kde-format
 msgid "None"
 msgstr "不突顯"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, spacesComboBox)
-#: dialogs/textareaappearanceconfigwidget.ui:161
+#: dialogs/textareaappearanceconfigwidget.ui:168
 #, kde-format
 msgid "Trailing"
 msgstr "突顯結尾處"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, spacesComboBox)
-#: dialogs/textareaappearanceconfigwidget.ui:166
+#: dialogs/textareaappearanceconfigwidget.ui:173
 #, kde-format
 msgid "All"
 msgstr "全部突顯"
 
 #. i18n: ectx: property (text), widget (QLabel, lbMarkerDescription)
-#: dialogs/textareaappearanceconfigwidget.ui:180
+#: dialogs/textareaappearanceconfigwidget.ui:187
 #, kde-format
 msgid "Highlight marker size:"
 msgstr "突顯標記大小："
 
 #. i18n: ectx: property (whatsThis), widget (QSlider, sliSetMarkerSize)
-#: dialogs/textareaappearanceconfigwidget.ui:190
+#: dialogs/textareaappearanceconfigwidget.ui:197
 #, kde-format
 msgid "Size of the visible highlight marker."
 msgstr "突顯標記的大小。"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: dialogs/textareaappearanceconfigwidget.ui:209
+#: dialogs/textareaappearanceconfigwidget.ui:216
 #, kde-format
 msgid "Whitespaces"
 msgstr "空白"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowTabs)
-#: dialogs/textareaappearanceconfigwidget.ui:216
+#: dialogs/textareaappearanceconfigwidget.ui:223
 #, kde-format
 msgid ""
 "The editor will display a symbol to indicate the presence of a tab in the "
@@ -2099,13 +2106,13 @@ msgid ""
 msgstr "編輯器會顯示符號以指示文字中的 Tab 字元。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: dialogs/textareaappearanceconfigwidget.ui:226
+#: dialogs/textareaappearanceconfigwidget.ui:233
 #, kde-format
 msgid "Highlight tabulators"
 msgstr "突顯定位點 (Tab)"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowIndentationLines)
-#: dialogs/textareaappearanceconfigwidget.ui:242
+#: dialogs/textareaappearanceconfigwidget.ui:249
 #, kde-format
 msgid ""
 "If this is enabled, the editor will display vertical lines to help identify "
@@ -2113,13 +2120,13 @@ msgid ""
 msgstr "開啟此選項的話，編輯器會顯示垂直線，協助縮排。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowIndentationLines)
-#: dialogs/textareaappearanceconfigwidget.ui:245
+#: dialogs/textareaappearanceconfigwidget.ui:252
 #, kde-format
 msgid "Show i&ndentation lines"
 msgstr "顯示縮排線(&N)"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowWholeBracketExpression)
-#: dialogs/textareaappearanceconfigwidget.ui:252
+#: dialogs/textareaappearanceconfigwidget.ui:259
 #, kde-format
 msgid ""
 "If this is enabled, the range between the selected matching brackets will be "
@@ -2127,32 +2134,32 @@ msgid ""
 msgstr "開啟此選項的話，會將表示式裡的比對括號突顯出來。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowWholeBracketExpression)
-#: dialogs/textareaappearanceconfigwidget.ui:255
+#: dialogs/textareaappearanceconfigwidget.ui:262
 #, kde-format
 msgid "Highlight range between selected brackets"
 msgstr "在選取的括號間的突顯範圍"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkAnimateBracketMatching)
-#: dialogs/textareaappearanceconfigwidget.ui:262
+#: dialogs/textareaappearanceconfigwidget.ui:269
 #, kde-format
 msgid "Flash matching brackets"
 msgstr "閃爍對應的括號"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkAnimateBracketMatching)
-#: dialogs/textareaappearanceconfigwidget.ui:265
+#: dialogs/textareaappearanceconfigwidget.ui:272
 #, kde-format
 msgid ""
 "If this is enabled, matching brackets are animated for better visibility."
 msgstr "若開啟此選項，則相對應的括號會閃爍，方便您查看。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAnimateBracketMatching)
-#: dialogs/textareaappearanceconfigwidget.ui:268
+#: dialogs/textareaappearanceconfigwidget.ui:275
 #, kde-format
 msgid "Animate bracket matching"
 msgstr "閃爍對應的刮號"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkFoldFirstLine)
-#: dialogs/textareaappearanceconfigwidget.ui:278
+#: dialogs/textareaappearanceconfigwidget.ui:285
 #, kde-format
 msgid ""
 "When this setting is enabled, the editor view automatically folds\n"
@@ -2164,31 +2171,31 @@ msgstr ""
 "通常是用來隱藏在檔案最前面的授權宣告。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkFoldFirstLine)
-#: dialogs/textareaappearanceconfigwidget.ui:281
+#: dialogs/textareaappearanceconfigwidget.ui:288
 #, kde-format
 msgid "Fold first line"
 msgstr "封裝第一行"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkShowWordCount)
-#: dialogs/textareaappearanceconfigwidget.ui:288
+#: dialogs/textareaappearanceconfigwidget.ui:295
 #, kde-format
 msgid "Show/hide word count in status bar"
 msgstr "在狀態列顯示/隱藏單字計數"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowWordCount)
-#: dialogs/textareaappearanceconfigwidget.ui:291
+#: dialogs/textareaappearanceconfigwidget.ui:298
 #, kde-format
 msgid "Show word count"
 msgstr "顯示單字計數"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkShowLineCount)
-#: dialogs/textareaappearanceconfigwidget.ui:298
+#: dialogs/textareaappearanceconfigwidget.ui:305
 #, kde-format
 msgid "Show/hide line count in status bar"
 msgstr "在狀態列顯示/隱藏行數"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowLineCount)
-#: dialogs/textareaappearanceconfigwidget.ui:301
+#: dialogs/textareaappearanceconfigwidget.ui:308
 #, kde-format
 msgid "Show line count"
 msgstr "顯示行數"

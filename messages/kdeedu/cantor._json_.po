@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json_kdeedu_cantor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-15 03:31+0000\n"
+"POT-Creation-Date: 2020-02-13 03:55+0000\n"
 "PO-Revision-Date: 2016-11-16 20:12+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -69,15 +69,13 @@ msgctxt "Name"
 msgid "Octave"
 msgstr "Octave"
 
-#: src/backends/python2/python2backend.json
-msgctxt "Name"
-msgid "Python 2"
-msgstr "Python 2"
-
 #: src/backends/python3/python3backend.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Python 2"
 msgctxt "Name"
-msgid "Python 3"
-msgstr "Python 3"
+msgid "Python"
+msgstr "Python 2"
 
 #: src/backends/lua/luabackend.json
 msgctxt "Name"
@@ -209,15 +207,13 @@ msgctxt "Description"
 msgid "Backend for GNU Octave"
 msgstr "GNU Octave 後端介面"
 
-#: src/backends/python2/python2backend.json
-msgctxt "Description"
-msgid "Backend for Python 2 Scientific Programming"
-msgstr "Python 2 科學程式環境的後端介面"
-
 #: src/backends/python3/python3backend.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Backend for Python 2 Scientific Programming"
 msgctxt "Description"
-msgid "Backend for Python 3 Scientific Programming"
-msgstr "Python 3 科學程式環境的後端介面"
+msgid "Backend for Python Scientific Programming"
+msgstr "Python 2 科學程式環境的後端介面"
 
 #: src/backends/lua/luabackend.json
 msgctxt "Description"
@@ -280,3 +276,11 @@ msgid ""
 "An Assistant dialog to import a specific package (or library or module) to "
 "Cantor workspace"
 msgstr "匯入特定套件（或是函式庫與模組）到 Cantor 工作空間的小助手對話框"
+
+#~ msgctxt "Name"
+#~ msgid "Python 3"
+#~ msgstr "Python 3"
+
+#~ msgctxt "Description"
+#~ msgid "Backend for Python 3 Scientific Programming"
+#~ msgstr "Python 3 科學程式環境的後端介面"

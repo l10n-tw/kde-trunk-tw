@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-14 03:37+0100\n"
+"POT-Creation-Date: 2020-02-13 03:38+0100\n"
 "PO-Revision-Date: 2020-01-16 00:12+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -126,12 +126,13 @@ msgid "No Bluetooth adapters have been found."
 msgstr "找不到藍牙轉接器"
 
 #: kcmodule/common/systemcheck.cpp:76 sendfile/discoverwidget.cpp:149
-#: wizard/pages/discover.cpp:273
+#: wizard/pages/discover.cpp:276
 #, kde-format
 msgid "Bluetooth is disabled."
 msgstr "藍牙裝置已關閉。"
 
 #: kcmodule/common/systemcheck.cpp:78 sendfile/discoverwidget.cpp:150
+#: wizard/pages/discover.cpp:277
 #, kde-format
 msgctxt "Action to enable Bluetooth adapter"
 msgid "Enable"
@@ -148,22 +149,37 @@ msgctxt "Action to turn on Bluetooth adapter"
 msgid "Turn On"
 msgstr "開啟"
 
-#: kcmodule/common/systemcheck.cpp:99 kcmodule/common/systemcheck.cpp:110
-#: kcmodule/common/systemcheck.cpp:121 wizard/pages/discover.cpp:278
-#, kde-format
+#: kcmodule/common/systemcheck.cpp:99
+#, fuzzy, kde-format
+#| msgctxt "Radio widget to set if we want the adapter to be always visible"
+#| msgid "Always visible"
 msgctxt "Action to fix a problem"
-msgid "Fix it"
-msgstr "修正它"
+msgid "Make Visible"
+msgstr "永遠可見"
 
 #: kcmodule/common/systemcheck.cpp:102
 #, kde-format
 msgid "Your default Bluetooth adapter is not visible for remote devices."
 msgstr "遠端裝置看不到您的預設藍牙轉接器"
 
+#: kcmodule/common/systemcheck.cpp:110 wizard/pages/discover.cpp:269
+#, kde-format
+msgctxt "Action to fix a problem"
+msgid "Fix it"
+msgstr "修正它"
+
 #: kcmodule/common/systemcheck.cpp:113
 #, kde-format
 msgid "Interaction with Bluetooth system is not optimal."
 msgstr "與籃芽系統的互動未最佳化。"
+
+#: kcmodule/common/systemcheck.cpp:121
+#, fuzzy, kde-format
+#| msgctxt "Action to enable Bluetooth adapter"
+#| msgid "Enable"
+msgctxt "Action to fix a problem"
+msgid "Enable"
+msgstr "啟用"
 
 #: kcmodule/common/systemcheck.cpp:124
 #, kde-format
@@ -814,10 +830,18 @@ msgstr "藍牙裝置精靈"
 msgid "Select a device"
 msgstr "選擇裝置"
 
-#: wizard/pages/discover.cpp:275
+#: wizard/pages/discover.cpp:279
 #, kde-format
 msgid "Your Bluetooth adapter is not pairable."
 msgstr "您的藍牙轉接器無法配對。"
+
+#: wizard/pages/discover.cpp:280
+#, fuzzy, kde-format
+#| msgctxt "This device is a Wearable"
+#| msgid "Wearable"
+msgctxt "Action to make Bluetooth adapter pairable"
+msgid "Make Pairable"
+msgstr "穿戴式裝置"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: wizard/pages/discover.ui:54
