@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json_kdeedu_cantor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-13 03:55+0000\n"
+"POT-Creation-Date: 2020-02-14 04:01+0000\n"
 "PO-Revision-Date: 2016-11-16 20:12+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -64,18 +64,18 @@ msgctxt "Name"
 msgid "Julia"
 msgstr "Julia"
 
-#: src/backends/octave/octavebackend.json
-msgctxt "Name"
-msgid "Octave"
-msgstr "Octave"
-
-#: src/backends/python3/python3backend.json
+#: src/backends/python/pythonbackend.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Python 2"
 msgctxt "Name"
 msgid "Python"
 msgstr "Python 2"
+
+#: src/backends/octave/octavebackend.json
+msgctxt "Name"
+msgid "Octave"
+msgstr "Octave"
 
 #: src/backends/lua/luabackend.json
 msgctxt "Name"
@@ -202,18 +202,18 @@ msgctxt "Description"
 msgid "Julia backend for Cantor"
 msgstr "Cantor 的 Julia 後端"
 
-#: src/backends/octave/octavebackend.json
-msgctxt "Description"
-msgid "Backend for GNU Octave"
-msgstr "GNU Octave 後端介面"
-
-#: src/backends/python3/python3backend.json
+#: src/backends/python/pythonbackend.json
 #, fuzzy
 #| msgctxt "Description"
 #| msgid "Backend for Python 2 Scientific Programming"
 msgctxt "Description"
 msgid "Backend for Python Scientific Programming"
 msgstr "Python 2 科學程式環境的後端介面"
+
+#: src/backends/octave/octavebackend.json
+msgctxt "Description"
+msgid "Backend for GNU Octave"
+msgstr "GNU Octave 後端介面"
 
 #: src/backends/lua/luabackend.json
 msgctxt "Description"

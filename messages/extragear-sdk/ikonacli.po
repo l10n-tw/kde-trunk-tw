@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ikona\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-07 03:28+0100\n"
+"POT-Creation-Date: 2020-02-14 02:52+0100\n"
 "PO-Revision-Date: 2020-02-14 01:45+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -20,164 +20,164 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.12.2\n"
 
-#: src/rs/src/cli/cli.rs:36
+#: src/rs/src/cli/cli.rs:37
 msgid "Command-line interface to Ikona"
 msgstr "Ikona 的命令列介面"
 
-#: src/rs/src/cli/cli.rs:38 src/rs/src/cli/cli.rs:166 src/rs/src/cli/cli.rs:170
-#: src/rs/src/cli/cli.rs:181 src/rs/src/cli/cli.rs:205
-#: src/rs/src/cli/cli.rs:217
+#: src/rs/src/cli/cli.rs:39 src/rs/src/cli/cli.rs:167 src/rs/src/cli/cli.rs:171
+#: src/rs/src/cli/cli.rs:182 src/rs/src/cli/cli.rs:206
+#: src/rs/src/cli/cli.rs:218
 msgid "optimize"
 msgstr "optimize"
 
-#: src/rs/src/cli/cli.rs:39
+#: src/rs/src/cli/cli.rs:40
 msgid "Optimize your icon"
 msgstr "最佳化圖示"
 
-#: src/rs/src/cli/cli.rs:41 src/rs/src/cli/cli.rs:71 src/rs/src/cli/cli.rs:102
-#: src/rs/src/cli/cli.rs:133 src/rs/src/cli/cli.rs:167
-#: src/rs/src/cli/cli.rs:171 src/rs/src/cli/cli.rs:236
-#: src/rs/src/cli/cli.rs:240 src/rs/src/cli/cli.rs:298
-#: src/rs/src/cli/cli.rs:302 src/rs/src/cli/cli.rs:359
+#: src/rs/src/cli/cli.rs:42 src/rs/src/cli/cli.rs:72 src/rs/src/cli/cli.rs:103
+#: src/rs/src/cli/cli.rs:134 src/rs/src/cli/cli.rs:168
+#: src/rs/src/cli/cli.rs:172 src/rs/src/cli/cli.rs:237
+#: src/rs/src/cli/cli.rs:241 src/rs/src/cli/cli.rs:299
+#: src/rs/src/cli/cli.rs:303 src/rs/src/cli/cli.rs:360
 msgid "input"
 msgstr "input"
 
-#: src/rs/src/cli/cli.rs:42 src/rs/src/cli/cli.rs:72 src/rs/src/cli/cli.rs:103
-#: src/rs/src/cli/cli.rs:134
+#: src/rs/src/cli/cli.rs:43 src/rs/src/cli/cli.rs:73 src/rs/src/cli/cli.rs:104
+#: src/rs/src/cli/cli.rs:135
 msgid "Sets the input file to read from"
 msgstr "設定要從哪個輸入檔讀取"
 
-#: src/rs/src/cli/cli.rs:47 src/rs/src/cli/cli.rs:64 src/rs/src/cli/cli.rs:77
-#: src/rs/src/cli/cli.rs:95 src/rs/src/cli/cli.rs:108 src/rs/src/cli/cli.rs:126
-#: src/rs/src/cli/cli.rs:146 src/rs/src/cli/cli.rs:217
-#: src/rs/src/cli/cli.rs:279 src/rs/src/cli/cli.rs:341
-#: src/rs/src/cli/cli.rs:374
+#: src/rs/src/cli/cli.rs:48 src/rs/src/cli/cli.rs:65 src/rs/src/cli/cli.rs:78
+#: src/rs/src/cli/cli.rs:96 src/rs/src/cli/cli.rs:109 src/rs/src/cli/cli.rs:127
+#: src/rs/src/cli/cli.rs:147 src/rs/src/cli/cli.rs:218
+#: src/rs/src/cli/cli.rs:280 src/rs/src/cli/cli.rs:342
+#: src/rs/src/cli/cli.rs:375
 msgid "output"
 msgstr "output"
 
-#: src/rs/src/cli/cli.rs:48 src/rs/src/cli/cli.rs:78 src/rs/src/cli/cli.rs:109
-#: src/rs/src/cli/cli.rs:147
+#: src/rs/src/cli/cli.rs:49 src/rs/src/cli/cli.rs:79 src/rs/src/cli/cli.rs:110
+#: src/rs/src/cli/cli.rs:148
 msgid "Sets the output file to write to"
 msgstr "設定要寫入哪個輸出檔"
 
-#: src/rs/src/cli/cli.rs:52 src/rs/src/cli/cli.rs:54 src/rs/src/cli/cli.rs:82
-#: src/rs/src/cli/cli.rs:84 src/rs/src/cli/cli.rs:181 src/rs/src/cli/cli.rs:250
+#: src/rs/src/cli/cli.rs:53 src/rs/src/cli/cli.rs:55 src/rs/src/cli/cli.rs:83
+#: src/rs/src/cli/cli.rs:85 src/rs/src/cli/cli.rs:182 src/rs/src/cli/cli.rs:251
 msgid "mode"
 msgstr "mode"
 
-#: src/rs/src/cli/cli.rs:53 src/rs/src/cli/cli.rs:83
+#: src/rs/src/cli/cli.rs:54 src/rs/src/cli/cli.rs:84
 msgid "m"
 msgstr "m"
 
-#: src/rs/src/cli/cli.rs:55
+#: src/rs/src/cli/cli.rs:56
 msgid "Sets optimization method to use"
 msgstr "設定要使用的最佳化模式"
 
-#: src/rs/src/cli/cli.rs:60 src/rs/src/cli/cli.rs:62 src/rs/src/cli/cli.rs:91
-#: src/rs/src/cli/cli.rs:93 src/rs/src/cli/cli.rs:122 src/rs/src/cli/cli.rs:124
-#: src/rs/src/cli/cli.rs:205 src/rs/src/cli/cli.rs:267
-#: src/rs/src/cli/cli.rs:329
+#: src/rs/src/cli/cli.rs:61 src/rs/src/cli/cli.rs:63 src/rs/src/cli/cli.rs:92
+#: src/rs/src/cli/cli.rs:94 src/rs/src/cli/cli.rs:123 src/rs/src/cli/cli.rs:125
+#: src/rs/src/cli/cli.rs:206 src/rs/src/cli/cli.rs:268
+#: src/rs/src/cli/cli.rs:330
 msgid "inplace"
 msgstr "inplace"
 
-#: src/rs/src/cli/cli.rs:61 src/rs/src/cli/cli.rs:92 src/rs/src/cli/cli.rs:123
+#: src/rs/src/cli/cli.rs:62 src/rs/src/cli/cli.rs:93 src/rs/src/cli/cli.rs:124
 msgid "i"
 msgstr "i"
 
-#: src/rs/src/cli/cli.rs:63 src/rs/src/cli/cli.rs:94 src/rs/src/cli/cli.rs:125
+#: src/rs/src/cli/cli.rs:64 src/rs/src/cli/cli.rs:95 src/rs/src/cli/cli.rs:126
 msgid "Modifies the icon in-place"
 msgstr "就地修改圖示"
 
-#: src/rs/src/cli/cli.rs:68 src/rs/src/cli/cli.rs:235 src/rs/src/cli/cli.rs:239
-#: src/rs/src/cli/cli.rs:250 src/rs/src/cli/cli.rs:267
-#: src/rs/src/cli/cli.rs:279
+#: src/rs/src/cli/cli.rs:69 src/rs/src/cli/cli.rs:236 src/rs/src/cli/cli.rs:240
+#: src/rs/src/cli/cli.rs:251 src/rs/src/cli/cli.rs:268
+#: src/rs/src/cli/cli.rs:280
 msgid "class"
 msgstr "class"
 
-#: src/rs/src/cli/cli.rs:69
+#: src/rs/src/cli/cli.rs:70
 msgid "Class your icon"
 msgstr ""
 
-#: src/rs/src/cli/cli.rs:85
+#: src/rs/src/cli/cli.rs:86
 msgid "Sets what type of icon to treat the icon as"
 msgstr "設定要把圖示看成什麼類型的圖示"
 
-#: src/rs/src/cli/cli.rs:99 src/rs/src/cli/cli.rs:297 src/rs/src/cli/cli.rs:301
-#: src/rs/src/cli/cli.rs:312 src/rs/src/cli/cli.rs:329
-#: src/rs/src/cli/cli.rs:341
+#: src/rs/src/cli/cli.rs:100 src/rs/src/cli/cli.rs:298
+#: src/rs/src/cli/cli.rs:302 src/rs/src/cli/cli.rs:313
+#: src/rs/src/cli/cli.rs:330 src/rs/src/cli/cli.rs:342
 msgid "convert"
 msgstr "convert"
 
-#: src/rs/src/cli/cli.rs:100
+#: src/rs/src/cli/cli.rs:101
 msgid "Convert your icon from light <-> dark"
 msgstr "將圖示從亮 (暗) 色轉成暗 (亮) 色"
 
-#: src/rs/src/cli/cli.rs:113 src/rs/src/cli/cli.rs:115
+#: src/rs/src/cli/cli.rs:114 src/rs/src/cli/cli.rs:116
 msgid "target"
 msgstr "target"
 
-#: src/rs/src/cli/cli.rs:114
+#: src/rs/src/cli/cli.rs:115
 msgid "t"
 msgstr "t"
 
-#: src/rs/src/cli/cli.rs:116
+#: src/rs/src/cli/cli.rs:117
 msgid "Sets the type of icon to convert to"
 msgstr "設定要將圖示轉換成什麼類型的圖示"
 
-#: src/rs/src/cli/cli.rs:130 src/rs/src/cli/cli.rs:358
-#: src/rs/src/cli/cli.rs:362 src/rs/src/cli/cli.rs:373
+#: src/rs/src/cli/cli.rs:131 src/rs/src/cli/cli.rs:359
+#: src/rs/src/cli/cli.rs:363 src/rs/src/cli/cli.rs:374
 msgid "extract"
 msgstr "extract"
 
-#: src/rs/src/cli/cli.rs:131
+#: src/rs/src/cli/cli.rs:132
 msgid "Extract icons from an Ikona template file"
 msgstr "從 Ikona 模本檔案擷取圖示"
 
-#: src/rs/src/cli/cli.rs:139 src/rs/src/cli/cli.rs:363
+#: src/rs/src/cli/cli.rs:140 src/rs/src/cli/cli.rs:364
 msgid "size"
 msgstr "size"
 
-#: src/rs/src/cli/cli.rs:140
+#: src/rs/src/cli/cli.rs:141
 msgid "Sets the size of icon you want to extract"
 msgstr "設定要擷取的圖示大小"
 
-#: src/rs/src/cli/cli.rs:208 src/rs/src/cli/cli.rs:220
+#: src/rs/src/cli/cli.rs:209 src/rs/src/cli/cli.rs:221
 msgid "Icon optimized"
 msgstr "已最佳化圖示"
 
-#: src/rs/src/cli/cli.rs:212 src/rs/src/cli/cli.rs:224
+#: src/rs/src/cli/cli.rs:213 src/rs/src/cli/cli.rs:225
 msgid "Icon failed to optimize"
 msgstr "無法最佳化圖示"
 
-#: src/rs/src/cli/cli.rs:229 src/rs/src/cli/cli.rs:291
-#: src/rs/src/cli/cli.rs:353
+#: src/rs/src/cli/cli.rs:230 src/rs/src/cli/cli.rs:292
+#: src/rs/src/cli/cli.rs:354
 msgid "Please specify an output file"
 msgstr "請指定輸出檔"
 
-#: src/rs/src/cli/cli.rs:270 src/rs/src/cli/cli.rs:282
+#: src/rs/src/cli/cli.rs:271 src/rs/src/cli/cli.rs:283
 msgid "Icon classed"
 msgstr ""
 
-#: src/rs/src/cli/cli.rs:274 src/rs/src/cli/cli.rs:286
+#: src/rs/src/cli/cli.rs:275 src/rs/src/cli/cli.rs:287
 msgid "Icon failed to class"
 msgstr ""
 
-#: src/rs/src/cli/cli.rs:312
+#: src/rs/src/cli/cli.rs:313
 msgid "light"
 msgstr "亮色"
 
-#: src/rs/src/cli/cli.rs:332 src/rs/src/cli/cli.rs:344
+#: src/rs/src/cli/cli.rs:333 src/rs/src/cli/cli.rs:345
 msgid "Icon converted"
 msgstr "已轉換圖示"
 
-#: src/rs/src/cli/cli.rs:336 src/rs/src/cli/cli.rs:348
+#: src/rs/src/cli/cli.rs:337 src/rs/src/cli/cli.rs:349
 msgid "Icon failed to convert"
 msgstr "無法轉換圖示"
 
-#: src/rs/src/cli/cli.rs:395
+#: src/rs/src/cli/cli.rs:396
 msgid "Icon extracted"
 msgstr "已擷取圖示"
 
-#: src/rs/src/cli/cli.rs:398
+#: src/rs/src/cli/cli.rs:399
 msgid "Icon failed to extract"
 msgstr "無法擷取圖示"

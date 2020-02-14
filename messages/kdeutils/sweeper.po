@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sweeper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-11 03:03+0200\n"
+"POT-Creation-Date: 2020-02-14 03:28+0100\n"
 "PO-Revision-Date: 2019-07-09 14:11+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -90,7 +90,7 @@ msgstr "無法移除縮圖。"
 msgid "The file exists but could not be removed."
 msgstr "檔案存在，但無法被移除。"
 
-#: privacyfunctions.cpp:235
+#: privacyfunctions.cpp:234
 #, kde-format
 msgid "A favicon could not be removed."
 msgstr "無法移除圖示。"
@@ -203,40 +203,40 @@ msgstr "最近使用的應用程式"
 msgid "Clears the list of recently used applications from KDE menu"
 msgstr "清除 KDE 應用程式選單中列出的最近使用的文件"
 
-#: sweeper.cpp:49
+#: sweeper.cpp:34
 #, kde-format
 msgctxt "General system content"
 msgid "General"
 msgstr "一般"
 
-#: sweeper.cpp:51
+#: sweeper.cpp:35
 #, kde-format
 msgctxt "Web browsing content"
 msgid "Web Browsing"
 msgstr "網頁瀏覽"
 
-#: sweeper.cpp:126
+#: sweeper.cpp:115
 #, kde-format
 msgid ""
 "You are deleting data that is potentially valuable to you. Are you sure?"
 msgstr "您現在清除的是可能對您有價值的資料。確定要這樣做？"
 
-#: sweeper.cpp:132
+#: sweeper.cpp:121
 #, kde-format
 msgid "Starting cleanup..."
 msgstr "開始清除..."
 
-#: sweeper.cpp:138
+#: sweeper.cpp:125
 #, kde-format
 msgid "Clearing %1..."
 msgstr "正在清除 %1..."
 
-#: sweeper.cpp:143
+#: sweeper.cpp:130
 #, kde-format
 msgid "Clearing of %1 failed: %2"
 msgstr "清除 %1 失敗：%2"
 
-#: sweeper.cpp:149
+#: sweeper.cpp:136
 #, kde-format
 msgid "Clean up finished."
 msgstr "已完成清除。"
