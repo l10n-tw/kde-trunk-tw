@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-30 03:37+0100\n"
+"POT-Creation-Date: 2020-02-15 03:49+0100\n"
 "PO-Revision-Date: 2019-12-29 17:01+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -2321,26 +2321,26 @@ msgctxt "@info"
 msgid "Cannot open file <filename>%1</filename> for writing."
 msgstr "無法開啟檔案 <filename>%1</filename> 以寫入。"
 
-#: drkonqidialog.cpp:71
+#: drkonqidialog.cpp:72
 #, kde-format
 msgctxt "@title:tab general information"
 msgid "&General"
 msgstr "一般(&G)"
 
-#: drkonqidialog.cpp:75
+#: drkonqidialog.cpp:76
 #, kde-format
 msgctxt "@title:tab"
 msgid "&Developer Information"
 msgstr "開發者資訊(&D)"
 
-#: drkonqidialog.cpp:110
+#: drkonqidialog.cpp:111
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "<para>We are sorry, <application>%1</application> closed unexpectedly.</para>"
 msgstr "<para>抱歉，<application>%1</application>無預警關閉。</para>"
 
-#: drkonqidialog.cpp:116
+#: drkonqidialog.cpp:117
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2355,7 +2355,7 @@ msgstr ""
 "忘了到<interface>「開發者資訊」</interface>分頁中取得回溯追蹤並放入您的報告"
 "中。</para>"
 
-#: drkonqidialog.cpp:125
+#: drkonqidialog.cpp:126
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2368,7 +2368,7 @@ msgstr ""
 "以手動報告此錯誤給 %1（請包含在<interface>「開發者資訊」</interface>分頁中的"
 "錯誤回溯追蹤資料。）</para>"
 
-#: drkonqidialog.cpp:132
+#: drkonqidialog.cpp:133
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2380,7 +2380,7 @@ msgid ""
 "para>"
 msgstr ""
 
-#: drkonqidialog.cpp:140
+#: drkonqidialog.cpp:141
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2390,7 +2390,7 @@ msgstr ""
 "<para>您回報此錯誤可以協助我們改進 KDE 軟體。<nl /><link url='%1'>更多關於錯"
 "誤回報的詳情。</link></para>"
 
-#: drkonqidialog.cpp:146
+#: drkonqidialog.cpp:147
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2400,13 +2400,13 @@ msgstr ""
 "<para>您不能回報此錯誤，因為 <application>%1</application> 並未提供錯誤回報位"
 "址。</para>"
 
-#: drkonqidialog.cpp:155
+#: drkonqidialog.cpp:156
 #, kde-format
 msgctxt "@label"
 msgid "Details:"
 msgstr "詳細資料："
 
-#: drkonqidialog.cpp:158
+#: drkonqidialog.cpp:160
 #, kde-kuit-format
 msgctxt "@info Note the time information is divided into date and time parts"
 msgid ""
@@ -2416,7 +2416,7 @@ msgstr ""
 "<para>執行檔：<application>%1</application> 行程代碼：%2，信號：%3（%4）時"
 "間：%5 %6</para>"
 
-#: drkonqidialog.cpp:188
+#: drkonqidialog.cpp:190
 #, kde-format
 msgctxt ""
 "@action:button this is the debug menu button label which contains the "
@@ -2424,43 +2424,43 @@ msgctxt ""
 msgid "&Debug"
 msgstr "除錯(&D)"
 
-#: drkonqidialog.cpp:190
+#: drkonqidialog.cpp:192
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Starts a program to debug the crashed application."
 msgstr "啟動程式以對發生錯誤的應用程式除錯。"
 
-#: drkonqidialog.cpp:212
+#: drkonqidialog.cpp:214
 #, kde-format
 msgctxt "@action:button"
 msgid "Report &Bug"
 msgstr "報告問題(&B)"
 
-#: drkonqidialog.cpp:214
+#: drkonqidialog.cpp:216
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Starts the bug report assistant."
 msgstr "啟動錯誤回報小助手。"
 
-#: drkonqidialog.cpp:224
+#: drkonqidialog.cpp:226
 #, kde-format
 msgctxt "@action:button"
 msgid "&Restart Application"
 msgstr "重新啟動應用程式(&R)"
 
-#: drkonqidialog.cpp:226
+#: drkonqidialog.cpp:228
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to restart the crashed application."
 msgstr "用此按鍵來重新啟動發生錯誤的應用程式。"
 
-#: drkonqidialog.cpp:238
+#: drkonqidialog.cpp:240
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close this dialog (you will lose the crash information.)"
 msgstr "關閉此對話框（您將會遺失關於此錯誤的資訊。）"
 
-#: drkonqidialog.cpp:248
+#: drkonqidialog.cpp:250
 #, kde-format
 msgctxt "@action:inmenu 1 is the debugger name"
 msgid "Debug in %1"

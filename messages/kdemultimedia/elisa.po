@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-14 03:19+0100\n"
+"POT-Creation-Date: 2020-02-15 03:17+0100\n"
 "PO-Revision-Date: 2020-02-03 21:10+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -336,15 +336,40 @@ msgctxt "Label for a piece of metadata, e.g. 'Album Artist:'"
 msgid "%1:"
 msgstr "%1："
 
-#: qml/ElisaConfigurationDialog.qml:133
+#: qml/ElisaConfigurationDialog.qml:28
+#, kde-format
+msgid "Configure"
+msgstr ""
+
+#: qml/ElisaConfigurationDialog.qml:98
+#, kde-format
+msgid "OK"
+msgstr ""
+
+#: qml/ElisaConfigurationDialog.qml:103 qml/MediaTrackMetadataView.qml:222
+#, kde-format
+msgid "Apply"
+msgstr "套用"
+
+#: qml/ElisaConfigurationDialog.qml:110
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#: qml/FileScanningConfiguration.qml:117
 #, kde-format
 msgid "Add new path"
 msgstr "新增路徑"
 
-#: qml/ElisaConfigurationDialog.qml:142
+#: qml/FileScanningConfiguration.qml:126
 #, kde-format
 msgid "Choose a Folder"
 msgstr "選取資料夾"
+
+#: qml/GeneralConfiguration.qml:33
+#, kde-format
+msgid "Show progress on Task Manager entries"
+msgstr ""
 
 #: qml/GridBrowserDelegate.qml:153 qml/ListBrowserDelegate.qml:273
 #: qml/PlayListEntry.qml:238
@@ -579,11 +604,6 @@ msgstr "日期無效。%1"
 #, kde-format
 msgid "Delete"
 msgstr "刪除"
-
-#: qml/MediaTrackMetadataView.qml:222
-#, kde-format
-msgid "Apply"
-msgstr "套用"
 
 #: qml/MediaTrackMetadataView.qml:233
 #, kde-format
