@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-16 03:29+0100\n"
+"POT-Creation-Date: 2020-02-16 03:36+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -324,7 +324,7 @@ msgctxt "@title:window"
 msgid "Select thunderbird filter files"
 msgstr "選擇 Thunderbird 過濾器檔"
 
-#: filter/dialog/selectthunderbirdfilterfileswidget.cpp:43
+#: filter/dialog/selectthunderbirdfilterfileswidget.cpp:47
 #, kde-format
 msgid " (default)"
 msgstr " (預設)"
@@ -344,12 +344,12 @@ msgstr "增加標頭"
 msgid "With value:"
 msgstr "值："
 
-#: filter/filteractions/filteractionaddheader.cpp:220
+#: filter/filteractions/filteractionaddheader.cpp:223
 #, kde-format
 msgid "The header name was missing."
 msgstr "標頭名稱遺失。"
 
-#: filter/filteractions/filteractionaddheader.cpp:226
+#: filter/filteractions/filteractionaddheader.cpp:229
 #, kde-format
 msgid "The header value was missing."
 msgstr "標頭值遺失。"
@@ -359,7 +359,7 @@ msgstr "標頭值遺失。"
 msgid "Add Tag"
 msgstr "新增標籤"
 
-#: filter/filteractions/filteractionaddtag.cpp:164
+#: filter/filteractions/filteractionaddtag.cpp:167
 #, kde-format
 msgid "No tag selected."
 msgstr "沒有選擇任何標籤。"
@@ -419,12 +419,12 @@ msgid ""
 msgstr ""
 "<p>這選項定義預設的通訊錄。<br />若無法存取，則過濾器會回到預設的通訊錄。</p>"
 
-#: filter/filteractions/filteractionaddtoaddressbook.cpp:273
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:280
 #, kde-format
 msgid "Header type selected is unknown."
 msgstr "選取的標頭型態未知。"
 
-#: filter/filteractions/filteractionaddtoaddressbook.cpp:279
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:286
 #, kde-format
 msgid "No addressbook selected."
 msgstr "沒有選取任何通訊錄。"
@@ -524,7 +524,7 @@ msgid "The filter will forward the message to the addressee entered here."
 msgstr "此過濾器會將信件轉寄到在此輸入的電子郵件地址。"
 
 #: filter/filteractions/filteractionforward.cpp:113
-#: filter/filteractions/filteractionforward.cpp:213
+#: filter/filteractions/filteractionforward.cpp:216
 #, kde-format
 msgid "Default Template"
 msgstr "預設樣本"
@@ -539,17 +539,17 @@ msgstr "用於轉寄信件的樣本"
 msgid "Set the forwarding template that will be used with this filter."
 msgstr "設定此過濾器使用的轉寄樣本。"
 
-#: filter/filteractions/filteractionforward.cpp:242
+#: filter/filteractions/filteractionforward.cpp:245
 #, kde-format
 msgid "Forward to %1 with default template"
 msgstr "以預設樣本轉寄給 %1"
 
-#: filter/filteractions/filteractionforward.cpp:244
+#: filter/filteractions/filteractionforward.cpp:247
 #, kde-format
 msgid "Forward to %1 with template %2"
 msgstr "以樣本 %2 轉寄給 %1"
 
-#: filter/filteractions/filteractionforward.cpp:250
+#: filter/filteractions/filteractionforward.cpp:253
 #: filter/filteractions/filteractionreplyto.cpp:63
 #, kde-format
 msgid "Email address was not defined."
@@ -596,7 +596,7 @@ msgstr "遺失電子郵件地址。"
 msgid "Remove Header"
 msgstr "移除標頭"
 
-#: filter/filteractions/filteractionremoveheader.cpp:114
+#: filter/filteractions/filteractionremoveheader.cpp:117
 #, kde-format
 msgid "Header name undefined."
 msgstr "標頭名稱未定義。"
@@ -703,12 +703,12 @@ msgstr "標示成"
 msgid "Status not specified."
 msgstr "狀態未指定。"
 
-#: filter/filteractions/filteractionsettransport.cpp:50
+#: filter/filteractions/filteractionsettransport.cpp:52
 #, kde-format
 msgid "Set Transport To"
 msgstr "設定發信帳號為"
 
-#: filter/filteractions/filteractionsettransport.cpp:156
+#: filter/filteractions/filteractionsettransport.cpp:158
 #, kde-format
 msgid "Mail transport not defined."
 msgstr "郵件傳送未定義。"

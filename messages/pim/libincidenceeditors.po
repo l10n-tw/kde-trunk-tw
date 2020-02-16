@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-17 03:16+0100\n"
+"POT-Creation-Date: 2020-02-16 03:32+0100\n"
 "PO-Revision-Date: 2015-06-14 13:37+0800\n"
 "Last-Translator: Franklin\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -688,7 +688,7 @@ msgid ""
 "or to-do."
 msgstr "顯示與目前事件或待辦事項相關的項目（檔案、郵件等等）。"
 
-#: incidenceattendee.cpp:253
+#: incidenceattendee.cpp:257
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -696,13 +696,13 @@ msgid ""
 "this participant?"
 msgstr "%1 看起來不像合法的電子郵件地址。您確定您要邀請這個參加者嗎？"
 
-#: incidenceattendee.cpp:256
+#: incidenceattendee.cpp:260
 #, kde-format
 msgctxt "@title:window"
 msgid "Invalid Email Address"
 msgstr "不合法的電子郵件地址"
 
-#: incidenceattendee.cpp:484
+#: incidenceattendee.cpp:488
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Select Attendees..."
@@ -710,14 +710,14 @@ msgctxt "@title:window"
 msgid "Select Attendees"
 msgstr "選擇參加者..."
 
-#: incidenceattendee.cpp:689
+#: incidenceattendee.cpp:693
 #, kde-format
 msgctxt "@label Shows the number of scheduling conflicts"
 msgid "%1 conflict"
 msgid_plural "%1 conflicts"
 msgstr[0] "%1 個衝突"
 
-#: incidenceattendee.cpp:874
+#: incidenceattendee.cpp:878
 #, kde-format
 msgctxt "@option"
 msgid ""
@@ -734,71 +734,71 @@ msgctxt "@action show or hide the time zone widgets"
 msgid "Time zones"
 msgstr "時區"
 
-#: incidencedatetime.cpp:660
+#: incidencedatetime.cpp:687
 #, kde-format
 msgctxt "@label The due date/time of a to-do"
 msgid "Due:"
 msgstr "到期日："
 
-#: incidencedatetime.cpp:832 incidencedatetime.cpp:833
+#: incidencedatetime.cpp:877 incidencedatetime.cpp:878
 #, kde-format
 msgid "Starts: %1"
 msgstr "開始於：%1"
 
-#: incidencedatetime.cpp:835
+#: incidencedatetime.cpp:880
 #, kde-format
 msgid "Starting Date"
 msgstr "開始日期"
 
-#: incidencedatetime.cpp:836
+#: incidencedatetime.cpp:881
 #, kde-format
 msgid "Starting Time"
 msgstr "開始時間"
 
-#: incidencedatetime.cpp:849 incidencedatetime.cpp:850
+#: incidencedatetime.cpp:894 incidencedatetime.cpp:895
 #, kde-format
 msgid "Due on: %1"
 msgstr "到期於：%1"
 
-#: incidencedatetime.cpp:852 incidencedatetime.cpp:853
+#: incidencedatetime.cpp:897 incidencedatetime.cpp:898
 #, kde-format
 msgid "Ends: %1"
 msgstr "結束於：%1"
 
-#: incidencedatetime.cpp:857
+#: incidencedatetime.cpp:902
 #, kde-format
 msgid "Due Date"
 msgstr "到期日期"
 
-#: incidencedatetime.cpp:858
+#: incidencedatetime.cpp:903
 #, kde-format
 msgid "Due Time"
 msgstr "到期時間"
 
-#: incidencedatetime.cpp:860
+#: incidencedatetime.cpp:905
 #, kde-format
 msgid "Ending Date"
 msgstr "結束日期"
 
-#: incidencedatetime.cpp:861
+#: incidencedatetime.cpp:906
 #, kde-format
 msgid "Ending Time"
 msgstr "結束時間"
 
-#: incidencedatetime.cpp:908
+#: incidencedatetime.cpp:953
 #, kde-format
 msgctxt "@info"
 msgid "Invalid start date and time."
 msgstr ""
 
-#: incidencedatetime.cpp:915
+#: incidencedatetime.cpp:960
 #, fuzzy, kde-format
 #| msgid "Invalid Reminder."
 msgctxt "@info"
 msgid "Invalid end date and time."
 msgstr "不合法的提醒器。"
 
-#: incidencedatetime.cpp:924
+#: incidencedatetime.cpp:969
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -806,7 +806,7 @@ msgid ""
 "Please correct dates and times."
 msgstr "這個事件在開始前結束。請更正日期和時間。"
 
-#: incidencedatetime.cpp:928
+#: incidencedatetime.cpp:973
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1065,7 +1065,7 @@ msgstr "附加信件但不含信件的附加檔"
 msgid "The last selected folder."
 msgstr ""
 
-#: incidencerecurrence.cpp:138
+#: incidencerecurrence.cpp:158
 #, kde-format
 msgctxt ""
 "In several of the messages below, an ordinal number is substituted into the "
@@ -1075,120 +1075,120 @@ msgctxt ""
 msgid "0"
 msgstr "0"
 
-#: incidencerecurrence.cpp:439
+#: incidencerecurrence.cpp:459
 #, kde-format
 msgid ""
 "A recurring event or to-do must occur at least once. Adjust the recurring "
 "parameters."
 msgstr "循環的事件或待辦事項必須至少一次。將調整循環參數。"
 
-#: incidencerecurrence.cpp:445
+#: incidencerecurrence.cpp:465
 #, kde-format
 msgid "The incidence's start date is invalid."
 msgstr "事件的開始日期不合法。"
 
-#: incidencerecurrence.cpp:495
+#: incidencerecurrence.cpp:515
 #, kde-format
 msgctxt "example: the 30th"
 msgid "the %1"
 msgstr " %1 天"
 
-#: incidencerecurrence.cpp:499
+#: incidencerecurrence.cpp:519
 #, kde-format
 msgctxt "example: the 4th to last day"
 msgid "the %1 to last day"
 msgstr "倒數 %1 天"
 
-#: incidencerecurrence.cpp:503
+#: incidencerecurrence.cpp:523
 #, kde-format
 msgctxt "example: the 5th Wednesday"
 msgid "the %1 %2"
 msgstr "%1 個 %2"
 
-#: incidencerecurrence.cpp:509
+#: incidencerecurrence.cpp:529
 #, kde-format
 msgctxt "example: the last Wednesday"
 msgid "the last %1"
 msgstr "上個 %1"
 
-#: incidencerecurrence.cpp:513
+#: incidencerecurrence.cpp:533
 #, kde-format
 msgctxt "example: the 5th to last Wednesday"
 msgid "the %1 to last %2"
 msgstr "上個 %2 前 %1 天"
 
-#: incidencerecurrence.cpp:528
+#: incidencerecurrence.cpp:548
 #, kde-format
 msgctxt "example: the 5th of June"
 msgid "the %1 of %2"
 msgstr "%2 的 %1 天"
 
-#: incidencerecurrence.cpp:533
+#: incidencerecurrence.cpp:553
 #, kde-format
 msgctxt "example: the 3rd to last day of June"
 msgid "the %1 to last day of %2"
 msgstr "%2 的倒數 %1 天"
 
-#: incidencerecurrence.cpp:538
+#: incidencerecurrence.cpp:558
 #, kde-format
 msgctxt "example: the 4th Wednesday of June"
 msgid "the %1 %2 of %3"
 msgstr "%3 的倒數 %1 個 %2"
 
-#: incidencerecurrence.cpp:544
+#: incidencerecurrence.cpp:564
 #, kde-format
 msgctxt "example: the last Wednesday of June"
 msgid "the last %1 of %2"
 msgstr "%2 的最後一個 %1"
 
-#: incidencerecurrence.cpp:549
+#: incidencerecurrence.cpp:569
 #, kde-format
 msgctxt "example: the 4th to last Wednesday of June"
 msgid "the %1 to last %2 of %3 "
 msgstr "%3 的最後一個 %2 前 %1 天"
 
-#: incidencerecurrence.cpp:557
+#: incidencerecurrence.cpp:577
 #, kde-format
 msgctxt "example: the 15th day of the year"
 msgid "the %1 day of the year"
 msgstr "此年度的 %1 天"
 
-#: incidencerecurrence.cpp:574
+#: incidencerecurrence.cpp:594
 #, kde-format
 msgctxt "Recurrence ends after n occurrences"
 msgid "occurrence"
 msgid_plural "occurrences"
 msgstr[0] "次事件發生"
 
-#: incidencerecurrence.cpp:600
+#: incidencerecurrence.cpp:620
 #, kde-format
 msgctxt "repeat every N >weeks<"
 msgid "week"
 msgid_plural "weeks"
 msgstr[0] "週"
 
-#: incidencerecurrence.cpp:604
+#: incidencerecurrence.cpp:624
 #, kde-format
 msgctxt "repeat every N >months<"
 msgid "month"
 msgid_plural "months"
 msgstr[0] "月"
 
-#: incidencerecurrence.cpp:608
+#: incidencerecurrence.cpp:628
 #, kde-format
 msgctxt "repeat every N >years<"
 msgid "year"
 msgid_plural "years"
 msgstr[0] "年"
 
-#: incidencerecurrence.cpp:612
+#: incidencerecurrence.cpp:632
 #, kde-format
 msgctxt "repeat every N >days<"
 msgid "day"
 msgid_plural "days"
 msgstr[0] "天"
 
-#: incidencerecurrence.cpp:619
+#: incidencerecurrence.cpp:639
 #, kde-format
 msgctxt ""
 "repeat >every< N years/months/...; dynamic context 'type': 'd' days, 'w' "

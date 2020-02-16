@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krusader\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-11 02:52+0100\n"
+"POT-Creation-Date: 2020-02-16 02:58+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -29,76 +29,76 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "franklin@goodhorse.idv.tw"
 
-#: krArc/krarc.cpp:193
+#: krArc/krarc.cpp:194
 #, kde-format
 msgid ""
 "krarc: write support is disabled.\n"
 "You can enable it on the 'Archives' page in Konfigurator."
 msgstr ""
 
-#: krArc/krarc.cpp:237
+#: krArc/krarc.cpp:238
 #, kde-format
 msgid "Creating folders is not supported with %1 archives"
 msgstr ""
 
-#: krArc/krarc.cpp:272
+#: krArc/krarc.cpp:273
 #, fuzzy, kde-format
 msgid "Creating %1..."
 msgstr "正在建立"
 
-#: krArc/krarc.cpp:316
+#: krArc/krarc.cpp:317
 #, kde-format
 msgid "Writing to %1 archives is not supported"
 msgstr ""
 
-#: krArc/krarc.cpp:383
+#: krArc/krarc.cpp:384
 #, fuzzy, kde-format
 msgid "Packing %1..."
 msgstr "Packing"
 
-#: krArc/krarc.cpp:427
+#: krArc/krarc.cpp:428
 #, kde-format
 msgid "Retrieving data from %1 archives is not supported"
 msgstr ""
 
-#: krArc/krarc.cpp:499 krArc/krarc.cpp:772
+#: krArc/krarc.cpp:500 krArc/krarc.cpp:773
 #, fuzzy, kde-format
 msgid "Unpacking %1..."
 msgstr "Packing"
 
-#: krArc/krarc.cpp:633
+#: krArc/krarc.cpp:634
 #, kde-format
 msgid "Deleting files from %1 archives is not supported"
 msgstr ""
 
-#: krArc/krarc.cpp:649 krusader/DiskUsage/diskusage.cpp:594
+#: krArc/krarc.cpp:650 krusader/DiskUsage/diskusage.cpp:594
 #, kde-format
 msgid "Deleting %1..."
 msgstr "刪除 %1 中..."
 
-#: krArc/krarc.cpp:680
+#: krArc/krarc.cpp:681
 #, kde-format
 msgid "Accessing files is not supported with %1 archives"
 msgstr ""
 
-#: krArc/krarc.cpp:842
+#: krArc/krarc.cpp:843
 #, kde-format
 msgid "Listing folders is not supported for %1 archives"
 msgstr ""
 
-#: krArc/krarc.cpp:1708
+#: krArc/krarc.cpp:1709
 #, kde-format
 msgid ""
 "\n"
 "Make sure that the %1 binary is installed properly on your system."
 msgstr ""
 
-#: krArc/krarc.cpp:1789 krArc/krarc.cpp:1815
+#: krArc/krarc.cpp:1790 krArc/krarc.cpp:1816
 #, kde-format
 msgid "Krarc Password Dialog"
 msgstr ""
 
-#: krArc/krarc.cpp:1833 krArc/krarc.cpp:1836
+#: krArc/krarc.cpp:1834 krArc/krarc.cpp:1837
 #, kde-format
 msgid "Accessing the file requires a password."
 msgstr ""
@@ -1528,7 +1528,7 @@ msgctxt "singularOnly"
 msgid "Do you really want to move this item to the trash?"
 msgstr ""
 
-#: krusader/DiskUsage/diskusage.cpp:580 krusader/Panel/panelfunc.cpp:744
+#: krusader/DiskUsage/diskusage.cpp:580 krusader/Panel/panelfunc.cpp:772
 #, kde-format
 msgid "&Trash"
 msgstr "丟到垃圾桶(&T)"
@@ -1540,8 +1540,8 @@ msgid "Do you really want to delete this item?"
 msgstr ""
 
 #: krusader/DiskUsage/diskusage.cpp:590 krusader/JobMan/jobman.cpp:244
-#: krusader/Konfigurator/kgcolors.cpp:594 krusader/Panel/panelfunc.cpp:760
-#: krusader/Panel/panelfunc.cpp:828
+#: krusader/Konfigurator/kgcolors.cpp:594 krusader/Panel/panelfunc.cpp:788
+#: krusader/Panel/panelfunc.cpp:856
 #, kde-format
 msgid "Warning"
 msgstr "警告"
@@ -5790,12 +5790,20 @@ msgstr ""
 msgid "No file selected or selected file cannot be displayed."
 msgstr ""
 
-#: krusader/KViewer/panelviewer.cpp:340
+#: krusader/KViewer/panelviewer.cpp:108
+#: krusader/Synchronizer/synchronizertask.cpp:137
+#: krusader/Synchronizer/synchronizertask.cpp:144
+#, fuzzy, kde-format
+#| msgid "Error saving file %1"
+msgid "Error at opening %1."
+msgstr "儲存檔案 %1 時發生錯誤"
+
+#: krusader/KViewer/panelviewer.cpp:345
 #, kde-format
 msgid "Missing Plugin"
 msgstr ""
 
-#: krusader/KViewer/panelviewer.cpp:347
+#: krusader/KViewer/panelviewer.cpp:352
 #, kde-format
 msgctxt "missing kpart - arg1 is a URL"
 msgid ""
@@ -5803,12 +5811,12 @@ msgid ""
 "without this.<br/>You can fix this by installing Kate:<br/>%1"
 msgstr ""
 
-#: krusader/KViewer/panelviewer.cpp:368
+#: krusader/KViewer/panelviewer.cpp:373
 #, kde-format
 msgid "%1 is bigger than %2 MB"
 msgstr ""
 
-#: krusader/KViewer/panelviewer.cpp:394
+#: krusader/KViewer/panelviewer.cpp:399
 #, fuzzy, kde-format
 #| msgid "Cannot open %1!"
 msgid "Cannot edit %1"
@@ -7435,7 +7443,7 @@ msgstr ""
 msgid "Create a new link to: %1"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:419 krusader/Panel/panelfunc.cpp:676
+#: krusader/Panel/panelfunc.cpp:419 krusader/Panel/panelfunc.cpp:704
 #, kde-format
 msgid "A folder or a file with this name already exists."
 msgstr ""
@@ -7460,7 +7468,7 @@ msgstr ""
 msgid "Enter a URL to view:"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:492
+#: krusader/Panel/panelfunc.cpp:492 krusader/Panel/panelfunc.cpp:564
 #, kde-format
 msgid "You cannot edit a folder"
 msgstr ""
@@ -7475,47 +7483,47 @@ msgstr ""
 msgid "Enter the filename to edit:"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:590
+#: krusader/Panel/panelfunc.cpp:618
 #, fuzzy, kde-format
 msgid "Move %1 to:"
 msgstr "移動到"
 
-#: krusader/Panel/panelfunc.cpp:591
+#: krusader/Panel/panelfunc.cpp:619
 #, kde-format
 msgid "Move %1 file to:"
 msgid_plural "Move %1 files to:"
 msgstr[0] ""
 
-#: krusader/Panel/panelfunc.cpp:594
+#: krusader/Panel/panelfunc.cpp:622
 #, fuzzy, kde-format
 msgid "Copy %1 to:"
 msgstr "複製到"
 
-#: krusader/Panel/panelfunc.cpp:595
+#: krusader/Panel/panelfunc.cpp:623
 #, kde-format
 msgid "Copy %1 file to:"
 msgid_plural "Copy %1 files to:"
 msgstr[0] ""
 
-#: krusader/Panel/panelfunc.cpp:662
+#: krusader/Panel/panelfunc.cpp:690
 #, fuzzy, kde-format
 #| msgid "New Folder"
 msgid "New folder"
 msgstr "新資料夾"
 
-#: krusader/Panel/panelfunc.cpp:662
+#: krusader/Panel/panelfunc.cpp:690
 #, fuzzy, kde-format
 #| msgid "Folder name:"
 msgid "Folder's name:"
 msgstr "資料夾名稱："
 
-#: krusader/Panel/panelfunc.cpp:742
+#: krusader/Panel/panelfunc.cpp:770
 #, kde-format
 msgid "Do you really want to move this item to the trash?"
 msgid_plural "Do you really want to move these %1 items to the trash?"
 msgstr[0] "您真的要將這 %1 個項目移到垃圾桶嗎？"
 
-#: krusader/Panel/panelfunc.cpp:746
+#: krusader/Panel/panelfunc.cpp:774
 #, kde-format
 msgid ""
 "<qt>Do you really want to delete this item <b>physically</b> (not just "
@@ -7525,44 +7533,44 @@ msgid_plural ""
 "removing them from the virtual items)?</qt>"
 msgstr[0] ""
 
-#: krusader/Panel/panelfunc.cpp:753
+#: krusader/Panel/panelfunc.cpp:781
 #, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "您真的要刪除這 %1 個項目嗎？"
 
-#: krusader/Panel/panelfunc.cpp:789
+#: krusader/Panel/panelfunc.cpp:817
 #, kde-format
 msgid "<qt><p>Folder <b>%1</b> is not empty.</p>"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:790
+#: krusader/Panel/panelfunc.cpp:818
 #, kde-format
 msgid "<p>Skip this one or trash all?</p></qt>"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:791
+#: krusader/Panel/panelfunc.cpp:819
 #, kde-format
 msgid "<p>Skip this one or delete all?</p></qt>"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:792
+#: krusader/Panel/panelfunc.cpp:820
 #, fuzzy, kde-format
 msgid "&Skip"
 msgstr "略過(&S)"
 
-#: krusader/Panel/panelfunc.cpp:793
+#: krusader/Panel/panelfunc.cpp:821
 #, fuzzy, kde-format
 #| msgid "&Trash"
 msgid "&Trash All"
 msgstr "丟到垃圾桶(&T)"
 
-#: krusader/Panel/panelfunc.cpp:793
+#: krusader/Panel/panelfunc.cpp:821
 #, fuzzy, kde-format
 msgid "&Delete All"
 msgstr "全部刪除"
 
-#: krusader/Panel/panelfunc.cpp:824
+#: krusader/Panel/panelfunc.cpp:852
 #, kde-format
 msgid ""
 "Do you really want to delete this virtual item (physical files stay "
@@ -7572,18 +7580,18 @@ msgid_plural ""
 "untouched)?"
 msgstr[0] ""
 
-#: krusader/Panel/panelfunc.cpp:847
+#: krusader/Panel/panelfunc.cpp:875
 #, kde-format
 msgid "Could not start %1"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:858
+#: krusader/Panel/panelfunc.cpp:886
 #, fuzzy, kde-format
 #| msgid "Cannot open %1!"
 msgid "%1 cannot open %2"
 msgstr "無法開啟 %1。"
 
-#: krusader/Panel/panelfunc.cpp:932
+#: krusader/Panel/panelfunc.cpp:960
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>File <b>%1</b> already exists. Do you really want to overwrite it?</"
@@ -7593,7 +7601,7 @@ msgid ""
 "</p><p>All data in the previous archive will be lost.</p></qt>"
 msgstr "<qt>檔案 <b>%1</b> 已存在。您要覆寫它嗎？</qt>"
 
-#: krusader/Panel/panelfunc.cpp:934
+#: krusader/Panel/panelfunc.cpp:962
 #, kde-format
 msgid ""
 "<qt><p>The archive <b>%1.%2</b> already exists. Do you want to overwrite it?"
@@ -7601,17 +7609,17 @@ msgid ""
 "entries for new names.</p></qt>"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:940
+#: krusader/Panel/panelfunc.cpp:968
 #, kde-format
 msgid "Cannot pack files onto a virtual destination."
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:974
+#: krusader/Panel/panelfunc.cpp:1002
 #, kde-format
 msgid "Unpack %1 to:"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:976
+#: krusader/Panel/panelfunc.cpp:1004
 #, kde-format
 msgid "Unpack %1 file to:"
 msgid_plural "Unpack %1 files to:"
@@ -8859,13 +8867,6 @@ msgid ""
 "The synchronizer window contains data from a previous compare. If you exit, "
 "this data will be lost. Do you really want to exit?"
 msgstr ""
-
-#: krusader/Synchronizer/synchronizertask.cpp:137
-#: krusader/Synchronizer/synchronizertask.cpp:144
-#, fuzzy, kde-format
-#| msgid "Error saving file %1"
-msgid "Error at opening %1."
-msgstr "儲存檔案 %1 時發生錯誤"
 
 #: krusader/Synchronizer/synchronizertask.cpp:301
 #, fuzzy, kde-format

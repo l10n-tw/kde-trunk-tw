@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-15 02:43+0100\n"
+"POT-Creation-Date: 2020-02-16 02:42+0100\n"
 "PO-Revision-Date: 2020-02-15 19:57+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -5972,7 +5972,8 @@ msgstr "藍色色頻的輸入範圍。"
 msgid ""
 "Check to apply the built-in color balance of the film profile. Un-check if "
 "you want to apply color balance yourself."
-msgstr "勾選此項目，則會套用此影像設定檔的內建色彩平衡。反之則自行套用色彩平衡。"
+msgstr ""
+"勾選此項目，則會套用此影像設定檔的內建色彩平衡。反之則自行套用色彩平衡。"
 
 #: core/dplugins/editor/colors/film/filmtool.cpp:240
 #, kde-format
@@ -6988,7 +6989,8 @@ msgstr "設定值..."
 msgid ""
 "<p>Color Management is disabled.</p> <p>You can enable it now by clicking on "
 "the \"Settings\" button.</p>"
-msgstr "<p>色彩管理已被停用</p> <p>您可以點擊「設定值」按鈕來啟用色彩管理。</p>"
+msgstr ""
+"<p>色彩管理已被停用</p> <p>您可以點擊「設定值」按鈕來啟用色彩管理。</p>"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, PrintOptionsPage)
 #: core/dplugins/editor/file/print/printoptionspage.ui:13
@@ -7855,7 +7857,8 @@ msgstr "明度梯度的絕對值"
 msgid ""
 "This option allows you to choose a gradient function. This function is used "
 "to determine which pixels should be removed or kept."
-msgstr "這個選項可讓您選擇梯度方程式。這個方程式用來決定哪些像素應該移除或保留。"
+msgstr ""
+"這個選項可讓您選擇梯度方程式。這個方程式用來決定哪些像素應該移除或保留。"
 
 #: core/dplugins/editor/transform/contentawareresize/contentawareresizetool.cpp:339
 #, kde-format
@@ -10864,7 +10867,8 @@ msgstr "35 mm 底片的焦距 (mm)："
 msgid ""
 "Set here equivalent focal length assuming a 35mm film camera, in mm. A value "
 "of 0 means the focal length is unknown."
-msgstr "在這裡設定假設為 35 mm 底片相機的等效焦距，單位為公釐。數值為 0 未知的焦距。"
+msgstr ""
+"在這裡設定假設為 35 mm 底片相機的等效焦距，單位為公釐。數值為 0 未知的焦距。"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exiflens.cpp:177
 #, kde-format
@@ -13889,7 +13893,8 @@ msgstr ""
 msgid ""
 "<qt><p>Pre-processing is under progress, please wait.</p><p>This can take a "
 "while...</p></qt>"
-msgstr "<qt><p>正在進行預先處理，請稍候。</p> <p>這可能會花上一點時間...</p></qt>"
+msgstr ""
+"<qt><p>正在進行預先處理，請稍候。</p> <p>這可能會花上一點時間...</p></qt>"
 
 #: core/dplugins/generic/tools/expoblending/wizard/expoblendingpreprocesspage.cpp:214
 #, kde-format
@@ -15144,7 +15149,8 @@ msgstr ""
 msgid ""
 "<qt><p>Optimization is in progress, please wait.</p><p>This can take a "
 "while...</p></qt>"
-msgstr "<qt><p>正在進行最佳化，請稍候。</p> <p>這可能會花上一點時間...</p></qt>"
+msgstr ""
+"<qt><p>正在進行最佳化，請稍候。</p> <p>這可能會花上一點時間...</p></qt>"
 
 #: core/dplugins/generic/tools/panorama/wizard/panooptimizepage.cpp:207
 #, fuzzy, kde-format
@@ -15216,7 +15222,8 @@ msgstr ""
 msgid ""
 "<qt><p>Pre-processing is in progress, please wait.</p><p>This can take a "
 "while...</p></qt>"
-msgstr "<qt><p>正在進行預先處理，請稍候。</p> <p>這可能會花上一點時間...</p></qt>"
+msgstr ""
+"<qt><p>正在進行預先處理，請稍候。</p> <p>這可能會花上一點時間...</p></qt>"
 
 #: core/dplugins/generic/tools/panorama/wizard/panopreprocesspage.cpp:197
 #, kde-format
@@ -15430,27 +15437,27 @@ msgctxt "Caption type: CUSTOM"
 msgid "Custom format"
 msgstr "自訂比例："
 
-#: core/dplugins/generic/tools/printcreator/manager/advprinttask.cpp:185
-#: core/dplugins/generic/tools/printcreator/manager/advprinttask.cpp:229
-#: core/dplugins/generic/tools/printcreator/manager/advprinttask.cpp:313
+#: core/dplugins/generic/tools/printcreator/manager/advprinttask.cpp:187
+#: core/dplugins/generic/tools/printcreator/manager/advprinttask.cpp:231
+#: core/dplugins/generic/tools/printcreator/manager/advprinttask.cpp:315
 #, fuzzy, kde-format
 #| msgid "Process Cancelled..."
 msgid "Printing canceled"
 msgstr "已取消處理..."
 
-#: core/dplugins/generic/tools/printcreator/manager/advprinttask.cpp:210
-#: core/dplugins/generic/tools/printcreator/manager/advprinttask.cpp:287
+#: core/dplugins/generic/tools/printcreator/manager/advprinttask.cpp:212
+#: core/dplugins/generic/tools/printcreator/manager/advprinttask.cpp:289
 #, fuzzy, kde-format
 msgid "Processing page %1"
 msgstr "儲存於檔案"
 
-#: core/dplugins/generic/tools/printcreator/manager/advprinttask.cpp:299
+#: core/dplugins/generic/tools/printcreator/manager/advprinttask.cpp:301
 #, fuzzy, kde-format
 #| msgid "Failed to save tags to file."
 msgid "Could not save file %1"
 msgstr "儲存標籤到檔案中失敗。"
 
-#: core/dplugins/generic/tools/printcreator/manager/advprinttask.cpp:305
+#: core/dplugins/generic/tools/printcreator/manager/advprinttask.cpp:307
 #, fuzzy, kde-format
 #| msgid " (%1 of %2)"
 msgid "Page %1 saved as %2"
@@ -16094,8 +16101,8 @@ msgstr "色彩對應方式："
 msgid "Photo %1 of %2"
 msgstr "(第 %1 張，共 %2 張)"
 
-#: core/dplugins/generic/tools/printcreator/wizard/advprintwizard.cpp:363
-#: core/dplugins/generic/tools/printcreator/wizard/advprintwizard.cpp:375
+#: core/dplugins/generic/tools/printcreator/wizard/advprintwizard.cpp:365
+#: core/dplugins/generic/tools/printcreator/wizard/advprintwizard.cpp:377
 #, fuzzy, kde-format
 #| msgid " (%1 of %2)"
 msgid "Page %1 of %2"
@@ -16220,7 +16227,7 @@ msgstr "項目屬性"
 #: core/dplugins/generic/tools/sendbymail/manager/mailprocess.cpp:337
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:1014
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:1027
-#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:641
+#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:645
 #, fuzzy, kde-format
 msgid "Processing Failed"
 msgstr "儲存於檔案"
@@ -17956,7 +17963,7 @@ msgstr "起始顏色："
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:948
 #: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:347
 #: core/dplugins/generic/webservices/unified/manager/wsauthentication.cpp:424
-#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:756
+#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:771
 #, fuzzy, kde-format
 msgid "Uploading Failed"
 msgstr "儲存於檔案"
@@ -18763,7 +18770,7 @@ msgstr ""
 #: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:789
 #: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:611
 #: core/dplugins/generic/webservices/rajce/rajcewidget.cpp:236
-#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:778
+#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:799
 #, fuzzy, kde-format
 #| msgid "Unknown filter"
 msgid "Unknown error"
@@ -21702,67 +21709,67 @@ msgctxt "Yandex.Fotki"
 msgid "Fotki"
 msgstr ""
 
-#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:642
+#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:646
 #, fuzzy, kde-format
 msgid ""
 "Failed to prepare image %1\n"
 "Do you want to continue?"
 msgstr "上傳檔案 <filename>%1</filename> 失敗。您要繼續嗎？"
 
-#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:669
+#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:674
 #, fuzzy, kde-format
 #| msgid "Flash has been fired"
 msgid "Images have been uploaded"
 msgstr "已開啟閃光"
 
-#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:699
+#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:704
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip"
 #| msgid "Reset selected albums"
 msgid "Please select album first"
 msgstr "重置選取的相簿"
 
-#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:721
+#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:728
 #, fuzzy, kde-format
 #| msgid "Parsing error: %1"
 msgid "Session error"
 msgstr "剖析錯誤：%1"
 
-#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:724
+#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:732
 #, fuzzy, kde-format
 #| msgid "Export Tools"
 msgid "Token error"
 msgstr "匯出工具"
 
-#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:727
+#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:736
 #, kde-format
 msgid "Invalid credentials"
 msgstr ""
 
-#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:731
+#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:743
 #, kde-format
 msgid "Cannot get service document"
 msgstr ""
 
-#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:744
+#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:756
 #, fuzzy, kde-format
 #| msgid "Cannot edit root album"
 msgid "Cannot list albums"
 msgstr "無法編輯根相簿"
 
-#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:747
+#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:760
 #, fuzzy, kde-format
 #| msgid "Cannot edit root tag"
 msgid "Cannot list photos"
 msgstr "無法編輯根標籤"
 
-#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:750
+#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:764
 #, fuzzy, kde-format
 #| msgid "Cannot edit root album"
 msgid "Cannot update album info"
 msgstr "無法編輯根相簿"
 
-#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:757
+#: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:772
 #, fuzzy, kde-format
 msgid ""
 "Failed to upload image %1\n"
@@ -22236,7 +22243,8 @@ msgstr ""
 msgid ""
 "Failed to copy the old database file (\"%1\") to its new location (\"%2\"). "
 "Starting with an empty database."
-msgstr "將舊資料庫檔案 (\"%1\") 複製到新的位置 (\"%2\") 失敗。用空白的資料庫啟動。"
+msgstr ""
+"將舊資料庫檔案 (\"%1\") 複製到新的位置 (\"%2\") 失敗。用空白的資料庫啟動。"
 
 #: core/libs/album/manager/albummanager_palbum.cpp:326
 #, kde-format
@@ -22811,7 +22819,8 @@ msgstr ""
 msgid ""
 "You need to locally mount your Samba share. Sorry, digiKam does currently "
 "not support smb:// URLs. "
-msgstr "您必須在本機上掛載您的 Samba 分享。抱歉，digiKam 目前不支援 smb:// 網址。"
+msgstr ""
+"您必須在本機上掛載您的 Samba 分享。抱歉，digiKam 目前不支援 smb:// 網址。"
 
 #: core/libs/database/collection/collectionmanager_location.cpp:425
 #, fuzzy, kde-format
@@ -23196,7 +23205,8 @@ msgstr "無法開啟 dbconfig.xml 檔案 <filename>%1</filename>"
 #, fuzzy, kde-format
 msgid ""
 "The XML in the configuration file <b>%1</b> is invalid and cannot be read."
-msgstr "在 dbconfig.xml 檔案 <filename>%1</filename> 裡的 XML 不合法，或是無法讀取。"
+msgstr ""
+"在 dbconfig.xml 檔案 <filename>%1</filename> 裡的 XML 不合法，或是無法讀取。"
 
 #: core/libs/database/engine/dbengineconfigloader.cpp:207
 #, fuzzy, kde-format
@@ -23382,7 +23392,8 @@ msgstr ""
 #| "Database process exited unexpectedly during initial connection."
 #| "<p>Executable: %1</p>”<p>Process error: %2</p>"
 msgid "Database process exited unexpectedly during initial connection."
-msgstr "資料庫處理在初始化校正期間意外地停止。<p>可執行檔：%1</p>”<p>處理錯誤：%2</p>"
+msgstr ""
+"資料庫處理在初始化校正期間意外地停止。<p>可執行檔：%1</p>”<p>處理錯誤：%2</p>"
 
 #: core/libs/database/server/databaseserver.cpp:581
 #, kde-format
@@ -23401,7 +23412,8 @@ msgstr "建立資料庫失敗<p>查詢錯誤：%1</p><p>資料庫錯誤：%2</p>
 #| "Database process exited unexpectedly during initial connection."
 #| "<p>Executable: %1</p>”<p>Process error: %2</p>"
 msgid "%1<p>Executable: %2</p><p>Arguments: %3</p><p>Process error: %4</p>"
-msgstr "資料庫處理在初始化校正期間意外地停止。<p>可執行檔：%1</p>”<p>處理錯誤：%2</p>"
+msgstr ""
+"資料庫處理在初始化校正期間意外地停止。<p>可執行檔：%1</p>”<p>處理錯誤：%2</p>"
 
 #: core/libs/database/similaritydb/similaritydbschemaupdater.cpp:152
 #, fuzzy, kde-format
@@ -24279,7 +24291,8 @@ msgstr ""
 msgid ""
 "<p>These albums will be moved to Trash.</p><p>Note that <b>all subalbums</b> "
 "are included in this list and will be moved to Trash as well.</p>"
-msgstr "<p>此相簿將移到垃圾桶。</p><p>備註：<b>所有子相簿</b>也將一併移到垃圾筒。</p>"
+msgstr ""
+"<p>此相簿將移到垃圾桶。</p><p>備註：<b>所有子相簿</b>也將一併移到垃圾筒。</p>"
 
 #: core/libs/dialogs/deletedialog.cpp:602
 #, kde-format
@@ -24591,7 +24604,8 @@ msgstr "愛克發 200X"
 msgid ""
 "<b>Agfa 200X</b>:<p>Simulate the Agfa 200X black and white film at 200 ISO.</"
 "p>"
-msgstr "<b>愛克發 200X</b>：<p>以 200 ISO 模擬愛克發 (Agfa) 200X 黑白底片。</p>"
+msgstr ""
+"<b>愛克發 200X</b>：<p>以 200 ISO 模擬愛克發 (Agfa) 200X 黑白底片。</p>"
 
 #: core/libs/dimg/filters/bw/bwsepiasettings.cpp:166
 #, kde-format
@@ -24603,7 +24617,8 @@ msgstr "愛克發 Pan 25"
 msgid ""
 "<b>Agfa Pan 25</b>:<p>Simulate the Agfa Pan black and white film at 25 ISO.</"
 "p>"
-msgstr "<b>愛克發 Pan 25</b>：<p>以 25 ISO 模擬愛克發 (Agfa) Pan 黑白底片。</p>"
+msgstr ""
+"<b>愛克發 Pan 25</b>：<p>以 25 ISO 模擬愛克發 (Agfa) Pan 黑白底片。</p>"
 
 #: core/libs/dimg/filters/bw/bwsepiasettings.cpp:170
 #, kde-format
@@ -24615,7 +24630,8 @@ msgstr "愛克發 Pan 100"
 msgid ""
 "<b>Agfa Pan 100</b>:<p>Simulate the Agfa Pan black and white film at 100 ISO."
 "</p>"
-msgstr "<b>愛克發 Pan 100</b>：<p>以 100 ISO 模擬愛克發 (Agfa) Pan 黑白底片。</p>"
+msgstr ""
+"<b>愛克發 Pan 100</b>：<p>以 100 ISO 模擬愛克發 (Agfa) Pan 黑白底片。</p>"
 
 #: core/libs/dimg/filters/bw/bwsepiasettings.cpp:174
 #, kde-format
@@ -24627,7 +24643,8 @@ msgstr "愛克發 Pan 400"
 msgid ""
 "<b>Agfa Pan 400</b>:<p>Simulate the Agfa Pan black and white film at 400 ISO."
 "</p>"
-msgstr "<b>愛克發 Pan 400</b>：<p>以 400 ISO 模擬愛克發 (Agfa) Pan 黑白底片。</p>"
+msgstr ""
+"<b>愛克發 Pan 400</b>：<p>以 400 ISO 模擬愛克發 (Agfa) Pan 黑白底片。</p>"
 
 #: core/libs/dimg/filters/bw/bwsepiasettings.cpp:178
 #, kde-format
@@ -24737,7 +24754,8 @@ msgstr "柯達 Tmax 100"
 msgid ""
 "<b>Kodak Tmax 100</b>:<p>Simulate the Kodak Tmax black and white film at 100 "
 "ISO.</p>"
-msgstr "<b>柯達 Tmax 100</b>：<p>以 100 ISO 模擬柯達 (Kodak) Tmax 黑白底片。</p>"
+msgstr ""
+"<b>柯達 Tmax 100</b>：<p>以 100 ISO 模擬柯達 (Kodak) Tmax 黑白底片。</p>"
 
 #: core/libs/dimg/filters/bw/bwsepiasettings.cpp:210
 #, kde-format
@@ -24749,7 +24767,8 @@ msgstr "柯達 Tmax 400"
 msgid ""
 "<b>Kodak Tmax 400</b>:<p>Simulate the Kodak Tmax black and white film at 400 "
 "ISO.</p>"
-msgstr "<b>柯達 Tmax 400</b>：<p>以 400 ISO 模擬柯達 (Kodak) Tmax 黑白底片。</p>"
+msgstr ""
+"<b>柯達 Tmax 400</b>：<p>以 400 ISO 模擬柯達 (Kodak) Tmax 黑白底片。</p>"
 
 #: core/libs/dimg/filters/bw/bwsepiasettings.cpp:214
 #, kde-format
@@ -24773,7 +24792,8 @@ msgstr "Ilford SPX 200 （紅外線）"
 msgid ""
 "<b>Ilford SPX 200</b>:<p>Simulate the Ilford SPX infrared film at 200 ISO.</"
 "p>"
-msgstr "<b>Ilford SPX 200</b>：<p>以 200 ISO 模擬依爾福 (Ilford) SPX 紅外線底片。</p>"
+msgstr ""
+"<b>Ilford SPX 200</b>：<p>以 200 ISO 模擬依爾福 (Ilford) SPX 紅外線底片。</p>"
 
 #: core/libs/dimg/filters/bw/bwsepiasettings.cpp:224
 #, kde-format
@@ -24785,7 +24805,8 @@ msgstr "Ilford SPX 400 （紅外線）"
 msgid ""
 "<b>Ilford SPX 400</b>:<p>Simulate the Ilford SPX infrared film at 400 ISO.</"
 "p>"
-msgstr "<b>Ilford SPX 400</b>：<p>以 400 ISO 模擬依爾福 (Ilford) SPX 紅外線底片。</p>"
+msgstr ""
+"<b>Ilford SPX 400</b>：<p>以 400 ISO 模擬依爾福 (Ilford) SPX 紅外線底片。</p>"
 
 #: core/libs/dimg/filters/bw/bwsepiasettings.cpp:228
 #, kde-format
@@ -24797,7 +24818,8 @@ msgstr "Ilford SPX 800 （紅外線）"
 msgid ""
 "<b>Ilford SPX 800</b>:<p>Simulate the Ilford SPX infrared film at 800 ISO.</"
 "p>"
-msgstr "<b>Ilford SPX 800</b>：<p>以 800 ISO 模擬依爾福 (Ilford) SPX 紅外線底片。</p>"
+msgstr ""
+"<b>Ilford SPX 800</b>：<p>以 800 ISO 模擬依爾福 (Ilford) SPX 紅外線底片。</p>"
 
 #: core/libs/dimg/filters/bw/bwsepiasettings.cpp:232
 #, kde-format
@@ -25011,7 +25033,8 @@ msgstr ""
 msgid ""
 "<b>Black & White with greenish tint</b>:<p>This effect is also known as "
 "Verdante.</p>"
-msgstr "<b>帶有綠色調的黑白效果</b>：<p>這種效果也被稱為翠綠化 (Verdante)。</p>"
+msgstr ""
+"<b>帶有綠色調的黑白效果</b>：<p>這種效果也被稱為翠綠化 (Verdante)。</p>"
 
 #: core/libs/dimg/filters/bw/bwsepiasettings.cpp:380
 #, kde-format
@@ -25770,7 +25793,8 @@ msgstr "相片分佈"
 msgid ""
 "Set on this option to render grain using a photon statistic distribution. "
 "This require more computation and can take a while."
-msgstr "在這個選項上設定演算顆粒使用光子統計分佈。這需要較多的運算且需要一段時間。"
+msgstr ""
+"在這個選項上設定演算顆粒使用光子統計分佈。這需要較多的運算且需要一段時間。"
 
 #: core/libs/dimg/filters/fx/filmgrainsettings.cpp:198
 #, kde-format
@@ -25886,7 +25910,8 @@ msgstr "細節保留："
 msgid ""
 "Preservation of details to set the sharpening level of the small features in "
 "the target image. Higher values leave details sharp."
-msgstr "細節的保留程度可設定目標影像中小特徵的銳利等級。較高的數值會留下細節銳利。"
+msgstr ""
+"細節的保留程度可設定目標影像中小特徵的銳利等級。較高的數值會留下細節銳利。"
 
 #: core/libs/dimg/filters/greycstoration/greycstorationsettings.cpp:143
 #, kde-format
@@ -26168,7 +26193,8 @@ msgstr "對低品質的圖片指定「已拒絕」的標籤"
 msgid ""
 "Low quality images detected by blur, noise, and compression analysis will be "
 "assigned to Rejected label."
-msgstr "依照模糊、雜訊與壓縮等分析判定為低品質的影像，會被指定一個「已拒絕」標籤。"
+msgstr ""
+"依照模糊、雜訊與壓縮等分析判定為低品質的影像，會被指定一個「已拒絕」標籤。"
 
 #: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:144
 #, kde-format
@@ -26180,7 +26206,8 @@ msgstr "對中等品質的圖片指定「暫停」的標籤"
 msgid ""
 "Medium quality images detected by blur, noise, and compression analysis will "
 "be assigned to Pending label."
-msgstr "依照模糊、雜訊與壓縮等分析判定為中等品質的影像，會被指定一個「暫停」標籤。"
+msgstr ""
+"依照模糊、雜訊與壓縮等分析判定為中等品質的影像，會被指定一個「暫停」標籤。"
 
 #: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:157
 #, kde-format
@@ -26192,7 +26219,8 @@ msgstr "對高品質的圖片指定「已接受」的標籤"
 msgid ""
 "High quality images detected by blur, noise, and compression analysis will "
 "be assigned to Accepted label."
-msgstr "依照模糊、雜訊與壓縮等分析判定為高品質的影像，會被指定一個「已接受」標籤。"
+msgstr ""
+"依照模糊、雜訊與壓縮等分析判定為高品質的影像，會被指定一個「已接受」標籤。"
 
 #: core/libs/dimg/filters/imgqsort/imagequalitysettings.cpp:171
 #, kde-format
@@ -26433,7 +26461,8 @@ msgstr "加入暈映"
 msgid ""
 "This option adds vignetting to the image instead of removing it. Use it for "
 "creative effects."
-msgstr "此選項可以加入暈映到影像中，而不是將它移除。想要創意效果可使用這一選項。"
+msgstr ""
+"此選項可以加入暈映到影像中，而不是將它移除。想要創意效果可使用這一選項。"
 
 #: core/libs/dimg/filters/lens/antivignettingsettings.cpp:121
 #, kde-format
@@ -26478,7 +26507,8 @@ msgid ""
 "This value is the radius of the inner circle of the filter. In the inner "
 "circle the image is preserved. It is expressed as a multiple of the outer "
 "radius of the filter."
-msgstr "這項數值是濾鏡內圈的半徑。在內圈以內的影像會保留。以濾鏡外半徑的倍數表示。"
+msgstr ""
+"這項數值是濾鏡內圈的半徑。在內圈以內的影像會保留。以濾鏡外半徑的倍數表示。"
 
 #: core/libs/dimg/filters/lens/antivignettingsettings.cpp:158
 #, kde-format
@@ -26571,7 +26601,8 @@ msgstr ""
 msgid ""
 "Set this option to try to guess the right camera/lens settings from the "
 "image metadata (as Exif or XMP)."
-msgstr "設定這個選項會試著從影像中繼資料 (如 Exif 或 XMP) 猜測正確的相機/鏡頭設定值。"
+msgstr ""
+"設定這個選項會試著從影像中繼資料 (如 Exif 或 XMP) 猜測正確的相機/鏡頭設定值。"
 
 #: core/libs/dimg/filters/lens/lensfuncameraselector.cpp:194
 #, kde-format
@@ -26742,7 +26773,8 @@ msgstr "幾何"
 msgid ""
 "Four geometries are handled here: Rectilinear (99 percent of all lenses), "
 "Fisheye, Cylindrical, Equirectangular."
-msgstr "在這裡控制四種幾何：直線 (所有鏡頭的百分之九十九)、魚眼、圓柱、平面投影。"
+msgstr ""
+"在這裡控制四種幾何：直線 (所有鏡頭的百分之九十九)、魚眼、圓柱、平面投影。"
 
 #: core/libs/dimg/filters/lens/lensfunsettings.cpp:99
 #, fuzzy, kde-format
@@ -27297,7 +27329,8 @@ msgstr "白平衡工具"
 msgid ""
 "<a href='https://en.wikipedia.org/wiki/Color_temperature'>Color Temperature</"
 "a> (K): "
-msgstr "<a href='http://en.wikipedia.org/wiki/Color_temperature'>色溫</a> (K)："
+msgstr ""
+"<a href='http://en.wikipedia.org/wiki/Color_temperature'>色溫</a> (K)："
 
 #: core/libs/dimg/filters/wb/wbsettings.cpp:194
 #, kde-format
@@ -27516,7 +27549,8 @@ msgstr "在這裡設定綠色元件以控制洋紅色偏去除等級。"
 msgid ""
 "<a href='https://en.wikipedia.org/wiki/Exposure_value'>Exposure "
 "Compensation</a> (E.V): "
-msgstr "<a href='http://en.wikipedia.org/wiki/Exposure_value'>曝光補償</a> (E.V)："
+msgstr ""
+"<a href='http://en.wikipedia.org/wiki/Exposure_value'>曝光補償</a> (E.V)："
 
 #: core/libs/dimg/filters/wb/wbsettings.cpp:293
 #, kde-format
@@ -30352,7 +30386,8 @@ msgstr "統計"
 msgid ""
 "Here you can see the statistical results calculated from the selected "
 "histogram part. These values are available for all channels."
-msgstr "您可以在這裡看到選擇的分佈圖部分計算得出的統計結果。這些數值適用於全部色版。"
+msgstr ""
+"您可以在這裡看到選擇的分佈圖部分計算得出的統計結果。這些數值適用於全部色版。"
 
 #: core/libs/properties/itempropertiescolorstab.cpp:188
 #, kde-format
@@ -31678,7 +31713,8 @@ msgid ""
 msgid_plural ""
 "Tags %2 have one or more subtags. Deleting them will also delete the "
 "subtags. Do you want to continue?"
-msgstr[0] "標籤 '%1' 有一個以上的子標籤。刪除這些標籤也會刪除子標籤。是否要繼續？"
+msgstr[0] ""
+"標籤 '%1' 有一個以上的子標籤。刪除這些標籤也會刪除子標籤。是否要繼續？"
 
 #: core/libs/tags/manager/tagsmanager.cpp:379
 #, fuzzy, kde-format
@@ -36908,7 +36944,8 @@ msgstr "使用主題內容的結構化定義："
 msgid ""
 "Use standard <b><a href='https://www.iptc.org/site/NewsCodes'>reference "
 "code</a></b>"
-msgstr "使用標準的<b><a href='http://www.iptc.org/site/NewsCodes'>參考代碼</a></b>"
+msgstr ""
+"使用標準的<b><a href='http://www.iptc.org/site/NewsCodes'>參考代碼</a></b>"
 
 #: core/libs/widgets/metadata/subjectwidget.cpp:158
 #, kde-format
@@ -37843,7 +37880,8 @@ msgstr "請確定使用快速存取按鍵：他們可以提供重新命名與修
 msgid ""
 "The file list can be sorted, just right-click on it to see the sort criteria "
 "(album UI only)."
-msgstr "您可以排序此檔案清單。您只需要點擊右鍵就可以看到排序條件（只在相簿介面上）。"
+msgstr ""
+"您可以排序此檔案清單。您只需要點擊右鍵就可以看到排序條件（只在相簿介面上）。"
 
 #: core/utilities/advancedrename/parser/modifiers/casemodifier.cpp:34
 #, kde-format
@@ -38820,7 +38858,8 @@ msgstr ""
 msgid ""
 "You must select a folder for digiKam to use as the root album. All of your "
 "images will go there."
-msgstr "您必須選擇給 digiKam 用來作為根相簿的資料夾。您的影像會全部移到此資料夾。"
+msgstr ""
+"您必須選擇給 digiKam 用來作為根相簿的資料夾。您的影像會全部移到此資料夾。"
 
 #: core/utilities/firstrun/collectionpage.cpp:187
 #, kde-format
@@ -38899,7 +38938,8 @@ msgstr "將資訊加入檔案"
 msgid ""
 "<qt><p><i>Note:</i> recording information to the files' metadata can slow "
 "down photo management operations.</p></qt>"
-msgstr "<qt><p><i>備註：</i>記錄資訊到檔案的中繼資料會讓相片管理操作變慢。</p></qt>"
+msgstr ""
+"<qt><p><i>備註：</i>記錄資訊到檔案的中繼資料會讓相片管理操作變慢。</p></qt>"
 
 #: core/utilities/firstrun/migratefromdigikam4page.cpp:75
 #, kde-format
@@ -40306,7 +40346,8 @@ msgstr "選擇新標籤的名稱："
 msgid ""
 "%1 out of %2 images have been reverse geocoded. Would you like to keep the "
 "tags which were already obtained?"
-msgstr "%2 張影像中的 %1 張已經做了反向地理定位。您要保留還是丟棄這些已經取得的標籤？"
+msgstr ""
+"%2 張影像中的 %1 張已經做了反向地理定位。您要保留還是丟棄這些已經取得的標籤？"
 
 #: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:968
 #, kde-format
@@ -40466,7 +40507,8 @@ msgstr "將目前地圖搜尋儲存到新的虛擬相簿。"
 msgid ""
 "If this button is pressed, the current map search will be saved to a new "
 "search virtual album using the name set on the left side."
-msgstr "如果按下這個按鈕，目前地圖搜尋會用左側設定的名稱儲存到新的搜尋虛擬相簿。"
+msgstr ""
+"如果按下這個按鈕，目前地圖搜尋會用左側設定的名稱儲存到新的搜尋虛擬相簿。"
 
 #: core/utilities/geolocation/mapsearches/gpssearchview.cpp:217
 #, kde-format
@@ -41456,7 +41498,8 @@ msgstr "將相同影像區域垂直分割"
 msgid ""
 "If this option is enabled, the preview area will split horizontally. The "
 "same part of the original and the target image will be shown side by side."
-msgstr "如果啟用這個選項會水平切割預覽區。原始影像與目標影像相同的部份會並排顯示。"
+msgstr ""
+"如果啟用這個選項會水平切割預覽區。原始影像與目標影像相同的部份會並排顯示。"
 
 #: core/utilities/imageeditor/widgets/previewtoolbar.cpp:148
 #, fuzzy, kde-format
@@ -41717,7 +41760,8 @@ msgstr "否"
 msgid ""
 "<b>Mounted Camera</b> driver for USB/IEEE1394 mass storage cameras and Flash "
 "disk card readers.<br/><br/>"
-msgstr "USB/IEEE1394 儲存裝置相機和快閃磁碟讀卡機的<b>相機掛載</b>驅動。<br/><br/>"
+msgstr ""
+"USB/IEEE1394 儲存裝置相機和快閃磁碟讀卡機的<b>相機掛載</b>驅動。<br/><br/>"
 
 #: core/utilities/import/backend/umscamera.cpp:611
 #, kde-format
@@ -42284,7 +42328,8 @@ msgctxt "@info"
 msgid ""
 "Your default target album set to process download from camera device is not "
 "available. Please select another one from camera configuration dialog."
-msgstr "無法取得您要從相機裝置下載時的預設目標相簿。請在相機設定裡選擇另一個相簿。"
+msgstr ""
+"無法取得您要從相機裝置下載時的預設目標相簿。請在相機設定裡選擇另一個相簿。"
 
 #: core/utilities/import/main/importui.cpp:1475
 #, kde-format
@@ -42328,7 +42373,8 @@ msgid ""
 msgid_plural ""
 "About to delete these %1 images. <b>Deleted files are unrecoverable.</b> Are "
 "you sure?"
-msgstr[0] "將要刪除 %1 張影像。<warning>刪除的檔案無法復原</warning>。您確定嗎？"
+msgstr[0] ""
+"將要刪除 %1 張影像。<warning>刪除的檔案無法復原</warning>。您確定嗎？"
 
 #: core/utilities/import/main/importui.cpp:2030
 #, kde-format
@@ -42496,7 +42542,8 @@ msgstr ""
 msgid ""
 "Select your preferred lossless image file format to convert to. <b>Note:</b> "
 "All metadata will be preserved during the conversion."
-msgstr "選擇想要轉換成的無損影像檔案格式。<b>標註：</b>轉換過程會保留所有中繼資料。"
+msgstr ""
+"選擇想要轉換成的無損影像檔案格式。<b>標註：</b>轉換過程會保留所有中繼資料。"
 
 #: core/utilities/import/widgets/albumcustomizer.cpp:93
 #, fuzzy, kde-format
@@ -42664,7 +42711,8 @@ msgstr "將影像轉換成 PNG 格式。"
 msgid ""
 "<p><a href='https://en.wikipedia.org/wiki/"
 "Digital_Negative_(file_format)'>DNG container</a></p>"
-msgstr "<a href='http://en.wikipedia.org/wiki/Color_temperature'>色溫</a> (K)："
+msgstr ""
+"<a href='http://en.wikipedia.org/wiki/Color_temperature'>色溫</a> (K)："
 
 #: core/utilities/import/widgets/dngconvertsettings.cpp:93
 #, fuzzy, kde-format
@@ -45236,7 +45284,8 @@ msgstr ""
 msgid ""
 "<p>Files with these extensions will be recognized as images and included "
 "into the database:<br/> <code>%1</code></p>"
-msgstr "<p>使用這些擴充套件會將檔案視為影像並且納入資料庫：<br/> <code>%1</code></p>"
+msgstr ""
+"<p>使用這些擴充套件會將檔案視為影像並且納入資料庫：<br/> <code>%1</code></p>"
 
 #: core/utilities/setup/album/setupmime.cpp:322
 #, fuzzy, kde-format
@@ -45246,7 +45295,8 @@ msgstr "<p>使用這些擴充套件會將檔案視為影像並且納入資料庫
 msgid ""
 "<p>Files with these extensions will be recognized as video files and "
 "included into the database:<br/> <code>%1</code></p>"
-msgstr "<p>使用這些擴充套件會將檔案視為影片並且納入資料庫：<br/> <code>%1</code></p>"
+msgstr ""
+"<p>使用這些擴充套件會將檔案視為影片並且納入資料庫：<br/> <code>%1</code></p>"
 
 #: core/utilities/setup/album/setupmime.cpp:332
 #, kde-format
@@ -45350,7 +45400,8 @@ msgstr "<p>如果您的相機使用 USB 傳輸線連接您的電腦，請選擇�
 msgid ""
 "<p>Select the serial port to use on your computer here. This option is only "
 "required if you use a serial camera.</p>"
-msgstr "<p>在這裡選擇您電腦上要使用的序列埠。如果您使用序列相機才需要這個選項。</p>"
+msgstr ""
+"<p>在這裡選擇您電腦上要使用的序列埠。如果您使用序列相機才需要這個選項。</p>"
 
 #: core/utilities/setup/camera/cameraselection.cpp:182
 #, kde-format
@@ -47287,7 +47338,8 @@ msgstr "取得關於<interface>更新檔案雜湊值</interface>的資訊。"
 msgid ""
 "<p>Directories starting with a dot are ignored by default.<br/> <code>%1</"
 "code></p>"
-msgstr "<p>使用這些擴充套件會將檔案視為影片並且納入資料庫：<br/> <code>%1</code></p>"
+msgstr ""
+"<p>使用這些擴充套件會將檔案視為影片並且納入資料庫：<br/> <code>%1</code></p>"
 
 #: core/utilities/setup/setupicc.cpp:188
 #, kde-format
@@ -47333,7 +47385,8 @@ msgstr ""
 msgid ""
 "<p>You can use this button to get more detailed information about the "
 "selected workspace profile.</p>"
-msgstr "<p>您可以使用這個按鈕來取得更多關於選擇的工作色域描述檔的詳細資訊。</p>"
+msgstr ""
+"<p>您可以使用這個按鈕來取得更多關於選擇的工作色域描述檔的詳細資訊。</p>"
 
 #: core/utilities/setup/setupicc.cpp:232
 #, kde-format
@@ -48101,7 +48154,8 @@ msgstr "在這裡輸入中繼資料範本的標題。"
 msgid ""
 "<p>Enter the metadata template title here. This title will be used to "
 "identify a template in your collection.</p>"
-msgstr "<p>在這裡輸入中繼資料範本的標題。這個標題會用來辨識在您的收藏中的範本。</p>"
+msgstr ""
+"<p>在這裡輸入中繼資料範本的標題。這個標題會用來辨識在您的收藏中的範本。</p>"
 
 #: core/utilities/setup/setuptemplate.cpp:107
 #, fuzzy, kde-format

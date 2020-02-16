@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-14 02:44+0100\n"
+"POT-Creation-Date: 2020-02-16 02:46+0100\n"
 "PO-Revision-Date: 2020-02-14 00:58+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -9548,8 +9548,8 @@ msgstr "無效值。"
 #. i18n: ectx: property (text), item, widget (QComboBox, editSubjectDistanceRange)
 #. i18n: ectx: property (text), item, widget (QComboBox, editFlashMode)
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
-#: libs/odf/KoDocumentInfo.cpp:54 libs/ui/dialogs/kis_dlg_preferences.cc:1219
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1223
+#: libs/odf/KoDocumentInfo.cpp:54 libs/ui/dialogs/kis_dlg_preferences.cc:1228
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1232
 #: libs/ui/forms/wdgdisplaysettings.ui:168
 #: libs/ui/kis_paintop_options_model.cpp:52
 #: plugins/extensions/metadataeditor/editors/exif.ui:407
@@ -10559,7 +10559,7 @@ msgstr "合併法線貼圖"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: libs/pigment/compositeops/KoCompositeOps.h:259
 #: libs/pigment/KoCompositeOp.cpp:31 libs/pigment/KoCompositeOpRegistry.cpp:149
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1472 libs/ui/forms/wdgnewimage.ui:345
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1481 libs/ui/forms/wdgnewimage.ui:345
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:110
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:228
 #: libs/ui/KisPaletteEditor.cpp:421 libs/ui/KisPaletteEditor.cpp:459
@@ -11977,70 +11977,70 @@ msgctxt "canvas renderer"
 msgid "Auto (%1)"
 msgstr "自動 (%1)"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1205
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1214
 #, kde-format
 msgid "Display Id: %1"
 msgstr "顯示器 ID：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1206
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1215
 #, kde-format
 msgid "Display Name: %1 %2"
 msgstr "顯示器名稱：%1 %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1207
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1216
 #, kde-format
 msgid "Min Luminance: %1"
 msgstr "最小光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1208
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1217
 #, kde-format
 msgid "Max Luminance: %1"
 msgstr "最大光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1209
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1218
 #, kde-format
 msgid "Max Full Frame Luminance: %1"
 msgstr "最大全影格光度：%1"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1210
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1219
 #, kde-format
 msgid "Red Primary: %1, %2"
 msgstr "紅基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1211
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1220
 #, kde-format
 msgid "Green Primary: %1, %2"
 msgstr "綠基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1212
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1221
 #, kde-format
 msgid "Blue Primary: %1, %2"
 msgstr "藍基色：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1213
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1222
 #, kde-format
 msgid "White Point: %1, %2"
 msgstr "白點：%1, %2"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1249
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1258
 #, kde-format
 msgid "Warning(s):"
 msgstr "警告："
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1382
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1391
 #, kde-format
 msgid "WARNING: current display doesn't support HDR rendering"
 msgstr "警告：目前顯示器不支援 HDR 繪製"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1423
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1432
 #, kde-format
 msgid "Configure Krita"
 msgstr "設定 Krita"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: ectx: attribute (title), widget (QWidget, generalTab)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1430
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1432
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1439
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1441
 #: libs/ui/forms/wdgcolorsettings.ui:24
 #: libs/ui/forms/wdgperformancesettings.ui:34
 #: libs/widgets/KoDocumentInfoDlg.cpp:100
@@ -12052,23 +12052,23 @@ msgstr "設定 Krita"
 msgid "General"
 msgstr "一般"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1440
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1449
 #, kde-format
 msgid "Keyboard Shortcuts"
 msgstr "鍵盤快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1442
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1451
 #: libs/widgetutils/xmlgui/KisShortcutsEditor_p.cpp:294
 #, kde-format
 msgid "Shortcuts"
 msgstr "快捷鍵"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1452
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1461
 #, kde-format
 msgid "Canvas Input Settings"
 msgstr "畫布輸入設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1453
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1462
 #, kde-format
 msgid "Canvas Input"
 msgstr "畫布輸入"
@@ -12077,8 +12077,8 @@ msgstr "畫布輸入"
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #. i18n: ectx: property (title), widget (QGroupBox, grpCustomDisplay)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1460
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1462
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1469
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1471
 #: libs/ui/forms/wdgcolorsettings.ui:138 libs/ui/forms/wdgdisplaysettings.ui:20
 #: libs/ui/forms/wdgdlgblacklistcleanup.ui:20
 #: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:34
@@ -12086,46 +12086,46 @@ msgstr "畫布輸入"
 msgid "Display"
 msgstr "顯示"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1470
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1479
 #: plugins/dockers/logdocker/LogDockerDock.cpp:202
 #, kde-format
 msgid "Color Management"
 msgstr "色彩管理"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1480
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1482
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1489
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1491
 #, kde-format
 msgid "Performance"
 msgstr "效能"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1490
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1499
 #, kde-format
 msgid "Tablet settings"
 msgstr "數位板設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1492
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1501
 #, kde-format
 msgid "Tablet"
 msgstr "數位板"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1500
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1509
 #, kde-format
 msgid "Canvas-only settings"
 msgstr "畫布獨占模式設定"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1502
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1511
 #, kde-format
 msgid "Canvas-only"
 msgstr "畫布獨占模式"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1510
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1519
 #, kde-format
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr "作者檔案"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1512
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1521
 #: libs/widgets/KoDocumentInfoDlg.cpp:123
 #: plugins/flake/textshape/dialogs/AcceptRejectChangeDialog.ui:109
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:238
@@ -12133,7 +12133,7 @@ msgstr "作者檔案"
 msgid "Author"
 msgstr "作者"
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1517
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1526
 #, kde-format
 msgctxt "@action:button"
 msgid "Restore Defaults"
@@ -29289,7 +29289,7 @@ msgid ""
 msgstr ""
 "目前的設定檔當初是為不同色彩空間建立的，而目前不能使用。將會重設所有曲線。"
 
-#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:147
+#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:152
 #, kde-format
 msgid "&Color Adjustment curves..."
 msgstr "顏色調整曲線(&C)…"

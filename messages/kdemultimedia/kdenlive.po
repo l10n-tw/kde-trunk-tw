@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-15 03:18+0100\n"
+"POT-Creation-Date: 2020-02-16 03:24+0100\n"
 "PO-Revision-Date: 2020-01-16 14:40+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -8611,7 +8611,7 @@ msgstr "區段終點：%1"
 msgid "Change clip speed"
 msgstr "修改素材類別"
 
-#: src/jobs/speedjob.cpp:92 src/timeline2/view/dialogs/speeddialog.cpp:35
+#: src/jobs/speedjob.cpp:92 src/timeline2/view/dialogs/speeddialog.cpp:37
 #, fuzzy, kde-format
 #| msgid "Speed"
 msgid "Clip Speed"
@@ -12606,12 +12606,17 @@ msgstr ""
 msgid "Change composition"
 msgstr "軸心座標（X）"
 
-#: src/timeline2/view/dialogs/speeddialog.cpp:67
+#: src/timeline2/view/dialogs/speeddialog.cpp:56
+#, kde-format
+msgid "MLT must be compiled with rubberband library to enable pitch correction"
+msgstr ""
+
+#: src/timeline2/view/dialogs/speeddialog.cpp:73
 #, kde-format
 msgid "Minimum speed is %1"
 msgstr ""
 
-#: src/timeline2/view/dialogs/speeddialog.cpp:67
+#: src/timeline2/view/dialogs/speeddialog.cpp:73
 #, kde-format
 msgid "Maximum speed is %1"
 msgstr ""
