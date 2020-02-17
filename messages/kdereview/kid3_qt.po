@@ -398,23 +398,23 @@ msgctxt "Kid3Cli|"
 msgid "Available Commands"
 msgstr "可用的指令"
 
-#: src/app/cli/kid3cli.cpp:736
+#: src/app/cli/kid3cli.cpp:741
 msgctxt "Kid3Cli|"
 msgid "Usage:"
 msgstr "用法:"
 
-#: src/app/cli/kid3cli.cpp:754
+#: src/app/cli/kid3cli.cpp:759
 #, qt-format
 msgctxt "Kid3Cli|"
 msgid "%1 does not exist"
 msgstr "%1 不存在"
 
-#: src/app/cli/kid3cli.cpp:783
+#: src/app/cli/kid3cli.cpp:788
 msgctxt "Kid3Cli|"
 msgid "Error while writing file:\n"
 msgstr "寫入檔案錯誤:\n"
 
-#: src/app/cli/kid3cli.cpp:801
+#: src/app/cli/kid3cli.cpp:806
 #, qt-format
 msgctxt "Kid3Cli|"
 msgid "Unknown command '%1', -h for help."
@@ -1766,43 +1766,43 @@ msgid "Request sent..."
 msgstr "送出連線要求..."
 
 #: src/core/import/importparser.cpp:53 src/core/tags/frame.cpp:105
-#: src/core/tags/frame.cpp:1657
+#: src/core/tags/frame.cpp:1658
 msgctxt "@default|"
 msgid "Title"
 msgstr "歌(曲)名"
 
 #: src/core/import/importparser.cpp:57 src/core/tags/frame.cpp:107
-#: src/core/tags/frame.cpp:1661
+#: src/core/tags/frame.cpp:1662
 msgctxt "@default|"
 msgid "Album"
 msgstr "專輯名稱"
 
 #: src/core/import/importparser.cpp:61 src/core/model/filefilter.cpp:97
 #: src/core/model/filefilter.cpp:103 src/core/tags/frame.cpp:106
-#: src/core/tags/frame.cpp:1665
+#: src/core/tags/frame.cpp:1666
 msgctxt "@default|"
 msgid "Artist"
 msgstr "演唱(奏)者"
 
 #: src/core/import/importparser.cpp:65 src/core/tags/frame.cpp:108
-#: src/core/tags/frame.cpp:266 src/core/tags/frame.cpp:1669
+#: src/core/tags/frame.cpp:266 src/core/tags/frame.cpp:1670
 msgctxt "@default|"
 msgid "Comment"
 msgstr "內容註釋"
 
 #: src/core/import/importparser.cpp:69 src/core/tags/frame.cpp:298
-#: src/core/tags/frame.cpp:1673
+#: src/core/tags/frame.cpp:1674
 msgctxt "@default|"
 msgid "Year"
 msgstr "年"
 
-#: src/core/import/importparser.cpp:74 src/core/tags/frame.cpp:1678
+#: src/core/import/importparser.cpp:74 src/core/tags/frame.cpp:1679
 msgctxt "@default|"
 msgid "Track"
 msgstr "音軌"
 
 #: src/core/import/importparser.cpp:78 src/core/tags/frame.cpp:111
-#: src/core/tags/frame.cpp:1691
+#: src/core/tags/frame.cpp:1692
 msgctxt "@default|"
 msgid "Genre"
 msgstr "曲風"
@@ -2322,12 +2322,12 @@ msgctxt "QFileSystemModel|"
 msgid "Date Modified"
 msgstr "變更日期"
 
-#: src/core/model/fileproxymodel.cpp:1027
+#: src/core/model/fileproxymodel.cpp:1031
 msgctxt "FileProxyModel|"
 msgid "All Supported Files"
 msgstr "所有支援檔案"
 
-#: src/core/model/fileproxymodel.cpp:1029
+#: src/core/model/fileproxymodel.cpp:1033
 msgctxt "FileProxyModel|"
 msgid "All Files"
 msgstr "所有檔案"
@@ -2412,12 +2412,12 @@ msgctxt "FrameTableModel|"
 msgid "File ID"
 msgstr "檔案 ID"
 
-#: src/core/model/frametablemodel.cpp:291
+#: src/core/model/frametablemodel.cpp:297
 msgctxt "FrameTableModel|"
 msgid "Name"
 msgstr "名稱"
 
-#: src/core/model/frametablemodel.cpp:291
+#: src/core/model/frametablemodel.cpp:297
 msgctxt "FrameTableModel|"
 msgid "Data"
 msgstr "資料"
@@ -2434,7 +2434,7 @@ msgctxt "Kid3Application|"
 msgid "Selection"
 msgstr "選擇區"
 
-#: src/core/model/kid3application.cpp:3298
+#: src/core/model/kid3application.cpp:3303
 msgctxt "Kid3Application|"
 msgid "All Files"
 msgstr "所有檔案"
@@ -3494,7 +3494,7 @@ msgctxt "@default|"
 msgid "All Tags"
 msgstr "所有標籤"
 
-#: src/core/tags/frame.cpp:1696
+#: src/core/tags/frame.cpp:1697
 msgctxt "@default|"
 msgid "Prepend t1/append t2 if not empty"
 msgstr "如果不为空，则前置t1/追加t2"

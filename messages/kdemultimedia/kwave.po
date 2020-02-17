@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-13 03:18+0100\n"
+"POT-Creation-Date: 2020-02-17 03:16+0100\n"
 "PO-Revision-Date: 2018-03-29 13:07+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -1199,7 +1199,7 @@ msgstr "載入檔案 '%1' 中..."
 #: plugins/codec_ogg/OpusEncoder.cpp:393 plugins/codec_ogg/OpusEncoder.cpp:446
 #: plugins/codec_wav/WavDecoder.cpp:368 plugins/codec_wav/WavEncoder.cpp:446
 #: plugins/playback/PlayBack-OSS.cpp:247 plugins/playback/PlayBack-OSS.cpp:255
-#: plugins/playback/PlayBack-Qt.cpp:175 plugins/playback/PlayBack-Qt.cpp:180
+#: plugins/playback/PlayBack-Qt.cpp:176 plugins/playback/PlayBack-Qt.cpp:181
 #: plugins/record/RecordPlugin.cpp:964 plugins/record/RecordPlugin.cpp:980
 #: plugins/record/RecordPlugin.cpp:1049
 #, kde-format
@@ -1446,7 +1446,7 @@ msgstr ""
 msgid "Save Curve Preset"
 msgstr ""
 
-#: libgui/FilterPlugin.cpp:230
+#: libgui/FilterPlugin.cpp:238
 #, kde-format
 msgid "Applying '%1'..."
 msgstr ""
@@ -4862,7 +4862,7 @@ msgctxt ""
 msgid "Error: No Codec for '%1' available"
 msgstr ""
 
-#: plugins/codec_ogg/OpusCommon.cpp:55 plugins/playback/PlayBack-Qt.cpp:129
+#: plugins/codec_ogg/OpusCommon.cpp:55 plugins/playback/PlayBack-Qt.cpp:130
 #, kde-format
 msgid "One or more invalid/out of range arguments."
 msgstr ""
@@ -6187,7 +6187,7 @@ msgstr ""
 msgid "by Factor"
 msgstr ""
 
-#: plugins/playback/PlayBack-ALSA.cpp:51 plugins/playback/PlayBack-Qt.cpp:43
+#: plugins/playback/PlayBack-ALSA.cpp:51 plugins/playback/PlayBack-Qt.cpp:44
 #: plugins/record/Record-Qt.cpp:49
 #, kde-format
 msgid "Default device"
@@ -6250,7 +6250,7 @@ msgstr ""
 msgid "The device '%1' cannot be opened in the correct mode."
 msgstr ""
 
-#: plugins/playback/PlayBack-OSS.cpp:187 plugins/playback/PlayBack-Qt.cpp:160
+#: plugins/playback/PlayBack-OSS.cpp:187 plugins/playback/PlayBack-Qt.cpp:161
 #, kde-format
 msgid "%1 bits per sample are not supported"
 msgstr ""
@@ -6321,32 +6321,32 @@ msgstr ""
 msgid "(Use server default)"
 msgstr ""
 
-#: plugins/playback/PlayBack-Qt.cpp:141
+#: plugins/playback/PlayBack-Qt.cpp:142
 #, kde-format
 msgid "The audio device '%1' is unknown or no longer connected"
 msgstr ""
 
-#: plugins/playback/PlayBack-Qt.cpp:157
+#: plugins/playback/PlayBack-Qt.cpp:158
 #, kde-format
 msgid "PCM encoding is not supported"
 msgstr ""
 
-#: plugins/playback/PlayBack-Qt.cpp:163
+#: plugins/playback/PlayBack-Qt.cpp:164
 #, kde-format
 msgid "playback with %1 channels is not supported"
 msgstr ""
 
-#: plugins/playback/PlayBack-Qt.cpp:166
+#: plugins/playback/PlayBack-Qt.cpp:167
 #, kde-format
 msgid "sample rate %1 Hz is not supported"
 msgstr ""
 
-#: plugins/playback/PlayBack-Qt.cpp:170
+#: plugins/playback/PlayBack-Qt.cpp:171
 #, kde-format
 msgid "integer sample format is not supported"
 msgstr ""
 
-#: plugins/playback/PlayBack-Qt.cpp:215
+#: plugins/playback/PlayBack-Qt.cpp:216
 #, fuzzy, kde-format
 msgid "Opening the Qt Multimedia device '%1' failed"
 msgstr "列印檔案"

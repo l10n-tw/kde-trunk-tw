@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-16 02:42+0100\n"
+"POT-Creation-Date: 2020-02-17 02:40+0100\n"
 "PO-Revision-Date: 2020-02-15 19:57+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -999,7 +999,7 @@ msgstr "%1 (%2)"
 #: core/dplugins/editor/filters/blurfx/blurfxtool.cpp:116
 #: core/dplugins/editor/filters/distortionfx/distortionfxtool.cpp:119
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:235
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:198
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:201
 #: core/dplugins/generic/tools/videoslideshow/wizard/vidslidevideopage.cpp:204
 #: core/dplugins/generic/tools/videoslideshow/wizard/vidslidevideopage.cpp:240
 #: core/libs/database/utils/widgets/dbsettingswidget.cpp:57
@@ -3128,17 +3128,17 @@ msgstr "歡迎使用 digiKam %1"
 msgid "Background Image Credits"
 msgstr "背景不透明度："
 
-#: core/app/views/tableview/tableview.cpp:319
+#: core/app/views/tableview/tableview.cpp:322
 #, kde-format
 msgid "Hide grouped items"
 msgstr "隱藏已群組之項目"
 
-#: core/app/views/tableview/tableview.cpp:329
+#: core/app/views/tableview/tableview.cpp:332
 #, kde-format
 msgid "Ignore grouping"
 msgstr "忽略群組"
 
-#: core/app/views/tableview/tableview.cpp:339
+#: core/app/views/tableview/tableview.cpp:342
 #, kde-format
 msgid "Show grouping in tree"
 msgstr "以樹狀顯示群組"
@@ -3193,13 +3193,13 @@ msgstr "視訊編碼器"
 msgid "Configure column \"%1\""
 msgstr "設定欄位 \"%1\""
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:71
+#: core/app/views/tableview/tableview_column_digikam.cpp:73
 #, kde-format
 msgid "digiKam properties"
 msgstr "digiKam 屬性"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:74
-#: core/app/views/tableview/tableview_column_digikam.cpp:90
+#: core/app/views/tableview/tableview_column_digikam.cpp:76
+#: core/app/views/tableview/tableview_column_digikam.cpp:96
 #: core/libs/album/treeview/labelstreeview.cpp:344
 #: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:47
 #: core/libs/widgets/metadata/ratingwidget.cpp:548
@@ -3208,20 +3208,20 @@ msgstr "digiKam 屬性"
 msgid "Rating"
 msgstr "評等"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:75
-#: core/app/views/tableview/tableview_column_digikam.cpp:92
+#: core/app/views/tableview/tableview_column_digikam.cpp:77
+#: core/app/views/tableview/tableview_column_digikam.cpp:99
 #, kde-format
 msgid "Pick label"
 msgstr "挑選標籤"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:76
-#: core/app/views/tableview/tableview_column_digikam.cpp:94
+#: core/app/views/tableview/tableview_column_digikam.cpp:78
+#: core/app/views/tableview/tableview_column_digikam.cpp:102
 #, kde-format
 msgid "Color label"
 msgstr "色彩標籤"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:78
-#: core/app/views/tableview/tableview_column_digikam.cpp:96
+#: core/app/views/tableview/tableview_column_digikam.cpp:82
+#: core/app/views/tableview/tableview_column_digikam.cpp:105
 #: core/libs/template/templatelist.cpp:83
 #: core/utilities/geolocation/geoiface/bookmark/bookmarksmngr.cpp:320
 #: core/utilities/queuemanager/views/workflowlist.cpp:98
@@ -3231,15 +3231,15 @@ msgstr "色彩標籤"
 msgid "Title"
 msgstr "標題"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:80
-#: core/app/views/tableview/tableview_column_digikam.cpp:98
+#: core/app/views/tableview/tableview_column_digikam.cpp:86
+#: core/app/views/tableview/tableview_column_digikam.cpp:108
 #: core/utilities/searchwindow/searchfields.cpp:684
 #, kde-format
 msgid "Caption"
 msgstr "標題描述"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:267
-#: core/app/views/tableview/tableview_column_digikam.cpp:297
+#: core/app/views/tableview/tableview_column_digikam.cpp:287
+#: core/app/views/tableview/tableview_column_digikam.cpp:317
 #: core/dplugins/generic/tools/htmlgallery/wizard/htmloutputpage.cpp:102
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:474
 #: core/libs/widgets/metadata/picklabelwidget.cpp:299
@@ -3247,28 +3247,28 @@ msgstr "標題描述"
 msgid "None"
 msgstr "無"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:271
+#: core/app/views/tableview/tableview_column_digikam.cpp:291
 #: core/libs/album/treeview/albumlabelssearchhandler.cpp:368
 #: core/libs/widgets/metadata/picklabelwidget.cpp:287
 #, kde-format
 msgid "Rejected"
 msgstr "已拒絕"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:275
+#: core/app/views/tableview/tableview_column_digikam.cpp:295
 #: core/libs/album/treeview/albumlabelssearchhandler.cpp:371
 #: core/libs/widgets/metadata/picklabelwidget.cpp:291
 #, kde-format
 msgid "Pending"
 msgstr "暫停"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:279
+#: core/app/views/tableview/tableview_column_digikam.cpp:299
 #: core/libs/album/treeview/albumlabelssearchhandler.cpp:374
 #: core/libs/widgets/metadata/picklabelwidget.cpp:295
 #, kde-format
 msgid "Accepted"
 msgstr "已接受"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:301
+#: core/app/views/tableview/tableview_column_digikam.cpp:321
 #: core/dplugins/bqm/colors/curvesadjust/curvesadjust.cpp:70
 #: core/libs/album/treeview/albumlabelssearchhandler.cpp:317
 #: core/libs/album/treeview/labelstreeview.cpp:430
@@ -3279,7 +3279,7 @@ msgstr "已接受"
 msgid "Red"
 msgstr "紅"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:305
+#: core/app/views/tableview/tableview_column_digikam.cpp:325
 #: core/libs/album/treeview/albumlabelssearchhandler.cpp:320
 #: core/libs/album/treeview/labelstreeview.cpp:430
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:442
@@ -3287,7 +3287,7 @@ msgstr "紅"
 msgid "Orange"
 msgstr "橘"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:309
+#: core/app/views/tableview/tableview_column_digikam.cpp:329
 #: core/libs/album/treeview/albumlabelssearchhandler.cpp:323
 #: core/libs/album/treeview/labelstreeview.cpp:431
 #: core/libs/dimg/filters/cb/cbsettings.cpp:112
@@ -3296,7 +3296,7 @@ msgstr "橘"
 msgid "Yellow"
 msgstr "黃色"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:313
+#: core/app/views/tableview/tableview_column_digikam.cpp:333
 #: core/dplugins/bqm/colors/curvesadjust/curvesadjust.cpp:71
 #: core/libs/album/treeview/albumlabelssearchhandler.cpp:326
 #: core/libs/album/treeview/labelstreeview.cpp:431
@@ -3307,7 +3307,7 @@ msgstr "黃色"
 msgid "Green"
 msgstr "綠"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:317
+#: core/app/views/tableview/tableview_column_digikam.cpp:337
 #: core/dplugins/bqm/colors/curvesadjust/curvesadjust.cpp:72
 #: core/libs/album/treeview/albumlabelssearchhandler.cpp:329
 #: core/libs/album/treeview/labelstreeview.cpp:432
@@ -3318,7 +3318,7 @@ msgstr "綠"
 msgid "Blue"
 msgstr "藍"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:321
+#: core/app/views/tableview/tableview_column_digikam.cpp:341
 #: core/libs/album/treeview/albumlabelssearchhandler.cpp:332
 #: core/libs/album/treeview/labelstreeview.cpp:432
 #: core/libs/dimg/filters/cb/cbsettings.cpp:99
@@ -3327,7 +3327,7 @@ msgstr "藍"
 msgid "Magenta"
 msgstr "紫紅色"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:325
+#: core/app/views/tableview/tableview_column_digikam.cpp:345
 #: core/libs/album/treeview/albumlabelssearchhandler.cpp:335
 #: core/libs/album/treeview/labelstreeview.cpp:433
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:462
@@ -3335,7 +3335,7 @@ msgstr "紫紅色"
 msgid "Gray"
 msgstr "灰"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:329
+#: core/app/views/tableview/tableview_column_digikam.cpp:349
 #: core/libs/album/treeview/albumlabelssearchhandler.cpp:338
 #: core/libs/album/treeview/labelstreeview.cpp:433
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:466
@@ -3343,7 +3343,7 @@ msgstr "灰"
 msgid "Black"
 msgstr "黑"
 
-#: core/app/views/tableview/tableview_column_digikam.cpp:333
+#: core/app/views/tableview/tableview_column_digikam.cpp:353
 #: core/libs/album/treeview/albumlabelssearchhandler.cpp:341
 #: core/libs/album/treeview/labelstreeview.cpp:434
 #: core/libs/widgets/metadata/colorlabelwidget.cpp:470
@@ -9054,130 +9054,130 @@ msgstr "要儲存的 XMP 檔案"
 msgid "Cannot save \"%1\" file"
 msgstr "無法儲存「%1」檔案"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:269
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:273
 #: core/utilities/geolocation/geoiface/items/gpsitemlistcontextmenu.cpp:514
 #, fuzzy, kde-format
 msgid "Geolocation Editor"
 msgstr "地理位置濾鏡"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:300
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:304
 #, kde-format
 msgid "Display bookmarked positions on the map."
 msgstr "在地圖上顯示已存入書籤的位置。"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:318
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:322
 #, kde-format
 msgid "Layout:"
 msgstr "佈局："
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:320
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:324
 #, kde-format
 msgid "One map"
 msgstr "一張地圖"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:321
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:325
 #, kde-format
 msgid "Two maps - horizontal"
 msgstr "兩張地圖 - 水平"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:322
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:326
 #, kde-format
 msgid "Two maps - vertical"
 msgstr "兩張地圖 - 垂直"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:357
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:361
 #: core/utilities/geolocation/geomapwrapper/gpsiteminfosorter.cpp:200
 #, kde-format
 msgid "Sorting"
 msgstr "排序"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:364
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:368
 #: core/utilities/geolocation/geomapwrapper/gpsiteminfosorter.cpp:207
 #, kde-format
 msgid "Show oldest first"
 msgstr "先顯示最舊的"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:368
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:372
 #: core/utilities/geolocation/geomapwrapper/gpsiteminfosorter.cpp:211
 #, kde-format
 msgid "Show youngest first"
 msgstr "先顯示最新的"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:404
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:412
 #: core/libs/dplugins/setup/dpluginaboutdlg.cpp:93
 #, kde-format
 msgid "Details"
 msgstr "詳細資料"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:405
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:413
 #, kde-format
 msgid "GPS Correlator"
 msgstr "GPS 相關器"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:406
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:414
 #, kde-format
 msgid "Undo/Redo"
 msgstr "復原/重做"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:407
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:415
 #, kde-format
 msgid "Reverse Geocoding"
 msgstr "反向地理定位"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:408
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:416
 #, kde-format
 msgid "Search"
 msgstr "搜尋"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:409
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:417
 #, fuzzy, kde-format
 #| msgid "Export"
 msgid "KML Export"
 msgstr "匯出"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:612
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:620
 #, fuzzy, kde-format
 #| msgid "Loading metadata - %p%"
 msgid "Loading metadata -"
 msgstr "載入中繼資料中 - %p%"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:788
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:801
 #, kde-format
 msgid "You have 1 modified image."
 msgid_plural "You have %1 modified images."
 msgstr[0] "您有 %1 個已變更的影像。"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:795
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:808
 #, kde-format
 msgid "Unsaved changes"
 msgstr "未儲存的變更"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:796
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:809
 #, kde-format
 msgid "%1 Would you like to save the changes you made to them?"
 msgstr "%1 您要儲存您所做的變更嗎？"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:901
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:925
 #, fuzzy, kde-format
 #| msgid "Saving changes - %p%"
 msgid "Saving changes -"
 msgstr "儲存變更中 - %p% "
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:952
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:981
 #: core/dplugins/generic/view/presentation/audio/presentationaudiolist.cpp:170
 #: core/dplugins/generic/view/presentation/dialogs/presentation_mainpage.cpp:339
-#: core/dplugins/generic/webservices/box/boxtalker.cpp:397
+#: core/dplugins/generic/webservices/box/boxtalker.cpp:394
 #: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:382
 #: core/dplugins/generic/webservices/facebook/fbtalker.cpp:558
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:794
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:818
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:981
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:793
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:817
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:983
 #: core/dplugins/generic/webservices/flickr/flickrwindow.cpp:476
 #: core/dplugins/generic/webservices/google/gdrive/gdtalker.cpp:307
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:641
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:643
 #: core/dplugins/generic/webservices/mediawiki/mediawikitalker.cpp:186
-#: core/dplugins/generic/webservices/onedrive/odtalker.cpp:409
-#: core/dplugins/generic/webservices/pinterest/ptalker.cpp:453
+#: core/dplugins/generic/webservices/onedrive/odtalker.cpp:411
+#: core/dplugins/generic/webservices/pinterest/ptalker.cpp:454
 #: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:396
 #: core/dplugins/generic/webservices/smugmug/smugtalker.cpp:754
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:476
@@ -9195,12 +9195,12 @@ msgstr "儲存變更中 - %p% "
 msgid "Error"
 msgstr "錯誤"
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:953
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:982
 #, kde-format
 msgid "Failed to save some information:"
 msgstr "儲存某些資訊時失敗："
 
-#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:982
+#: core/dplugins/generic/metadata/geolocationedit/dialog/geolocationedit.cpp:1013
 #, fuzzy, kde-format
 msgid "Edit Geolocation"
 msgstr "地理位置"
@@ -9899,7 +9899,7 @@ msgid_plural "<p>%1 characters.</p>"
 msgstr[0] "<p>%1 個字元。</p>"
 
 #: core/dplugins/generic/metadata/metadataedit/dialog/objectattributesedit.cpp:89
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:211
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:216
 #, kde-format
 msgid "Attribute:"
 msgstr "屬性："
@@ -10335,7 +10335,7 @@ msgid "Sync IPTC creation date"
 msgstr "同步 IPTC 建立日期"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifdatetime.cpp:138
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:183
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:184
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmporigin.cpp:165
 #, kde-format
 msgid "Set creation date to today"
@@ -10396,7 +10396,7 @@ msgid "Digitization sub-second"
 msgstr "數位化次秒"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifdatetime.cpp:192
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:156
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:157
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmporigin.cpp:144
 #, kde-format
 msgid "Set digitization date to today"
@@ -10734,7 +10734,7 @@ msgid "Standard"
 msgstr "標準"
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:307
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:88
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:87
 #, kde-format
 msgid "Night scene"
 msgstr "夜景"
@@ -11253,7 +11253,7 @@ msgstr "取代 (&R)"
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptccredits.cpp:140
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcenvelope.cpp:287
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptckeywords.cpp:112
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:247
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:252
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:264
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcstatus.cpp:130
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcsubjects.cpp:94
@@ -11768,7 +11768,7 @@ msgstr "在這裡設定封裝識別碼。這個字段限制為 8 個 ASCII 字�
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcenvelope.cpp:232
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:210
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:169
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:170
 #, kde-format
 msgid "Priority:"
 msgstr "優先順序："
@@ -11799,7 +11799,7 @@ msgstr "8：低"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcenvelope.cpp:243
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:221
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:180
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:181
 #, kde-format
 msgctxt "editorial urgency of content"
 msgid "9: User-defined"
@@ -11863,80 +11863,80 @@ msgstr "使用資訊檢索詞："
 msgid "Enter here a new keyword. This field is limited to 64 ASCII characters."
 msgstr "在這裡輸入新的關鍵字。這個字段限制為 64 個 ASCII 字元。"
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:144
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:145
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmporigin.cpp:136
 #, kde-format
 msgid "Digitization date"
 msgstr "數位化日期"
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:145
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:146
 #, kde-format
 msgid "Digitization time"
 msgstr "數位化時間"
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:158
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:159
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmporigin.cpp:146
 #, kde-format
 msgid "Set here the creation date of digital representation."
 msgstr "在這裡設定用數字表示的建立日期。"
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:160
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:161
 #, kde-format
 msgid "Set here the creation time of digital representation."
 msgstr "在這裡設定用數字表示的建立時間。"
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:162
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:163
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmporigin.cpp:148
 #, fuzzy, kde-format
 msgid "Set here the time zone of digital representation."
 msgstr "在這裡設定用數字表示的建立時間。"
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:169
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:170
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmporigin.cpp:155
 #, kde-format
 msgid "Creation date"
 msgstr "建立日期"
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:170
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:171
 #, kde-format
 msgid "Creation time"
 msgstr "建立時間"
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:179
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:180
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmporigin.cpp:161
 #, kde-format
 msgid "Sync EXIF creation date"
 msgstr "同步 EXIF 建立日期"
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:185
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:186
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmporigin.cpp:167
 #, kde-format
 msgid "Set here the creation date of intellectual content."
 msgstr "在這裡設定知識內容的建立日期。"
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:187
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:188
 #, kde-format
 msgid "Set here the creation time of intellectual content."
 msgstr "在這裡設定知識內容的建立時間。"
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:189
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:190
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmporigin.cpp:169
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmporigin.cpp:188
 #, fuzzy, kde-format
 msgid "Set here the time zone of intellectual content."
 msgstr "在這裡設定知識內容的建立時間。"
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:196
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:197
 #, kde-format
 msgid "Location:"
 msgstr "地點："
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:197
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:198
 #, kde-format
 msgid "Set here the full country name referenced by the content."
 msgstr "在這裡設定內容引用的國家完整名稱。"
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:201
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:202
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpcredits.cpp:157
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmporigin.cpp:195
 #: core/libs/template/templatepanel.cpp:249
@@ -11947,14 +11947,14 @@ msgstr "在這裡設定內容引用的國家完整名稱。"
 msgid "City:"
 msgstr "城市："
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:206
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:207
 #, kde-format
 msgid ""
 "Set here the city of content origin. This field is limited to 32 ASCII "
 "characters."
 msgstr "在這裡設定內容來源的城市。這個字段限制為 32 個 ASCII 字元。"
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:211
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:212
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmporigin.cpp:202
 #: core/libs/template/templatepanel.cpp:259
 #: core/libs/template/templateviewer.cpp:184
@@ -11962,27 +11962,27 @@ msgstr "在這裡設定內容來源的城市。這個字段限制為 32 個 ASCI
 msgid "Sublocation:"
 msgstr "轄區："
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:216
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:217
 #, kde-format
 msgid ""
 "Set here the content location within city. This field is limited to 32 ASCII "
 "characters."
 msgstr "在這裡設定內容所在的城市。這個字段限制為 32 個 ASCII 字元。"
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:221
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:222
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmporigin.cpp:209
 #, kde-format
 msgid "State/Province:"
 msgstr "州/省："
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:226
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:227
 #, kde-format
 msgid ""
 "Set here the Province or State of content origin. This field is limited to "
 "32 ASCII characters."
 msgstr "在這裡設定內容來源的省份或州。這個字段限制為 32 個 ASCII 字元。"
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:231
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:232
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpcredits.cpp:162
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmporigin.cpp:216
 #: core/libs/template/templatepanel.cpp:279
@@ -11993,7 +11993,7 @@ msgstr "在這裡設定內容來源的省份或州。這個字段限制為 32 �
 msgid "Country:"
 msgstr "國家："
 
-#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:233
+#: core/dplugins/generic/metadata/metadataedit/iptc/iptcorigin.cpp:234
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmporigin.cpp:218
 #, kde-format
 msgid "Select here country name of content origin."
@@ -12061,47 +12061,47 @@ msgid "Set here the latest intended usable time zone of intellectual content."
 msgstr "在這裡設定知識內容預期可用的最晚時間。"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:196
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:156
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:155
 #, kde-format
 msgid "Language:"
 msgstr "語言："
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:206
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:157
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:156
 #, kde-format
 msgid "Select here the language of content."
 msgstr "在這裡選擇內容的語言。"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:212
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:171
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:172
 #, kde-format
 msgctxt "editorial urgency of content"
 msgid "0: None"
 msgstr "0：無"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:213
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:172
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:173
 #, kde-format
 msgctxt "editorial urgency of content"
 msgid "1: High"
 msgstr "1：高"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:217
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:176
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:177
 #, kde-format
 msgctxt "editorial urgency of content"
 msgid "5: Normal"
 msgstr "5：普通"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:220
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:179
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:180
 #, kde-format
 msgctxt "editorial urgency of content"
 msgid "8: Low"
 msgstr "8：低"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:222
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:181
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:182
 #, kde-format
 msgid "Select here the editorial urgency of content."
 msgstr "在這裡選擇內容的編輯緊迫性。"
@@ -12132,19 +12132,19 @@ msgid "Select here the editorial cycle of content."
 msgstr "在這裡設定內容的編輯週期。"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:241
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:107
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:106
 #, kde-format
 msgid "News"
 msgstr "新聞"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:242
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:103
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:102
 #, kde-format
 msgid "Data"
 msgstr "資料"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:243
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:100
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:99
 #, kde-format
 msgid "Advisory"
 msgstr "諮詢"
@@ -12162,7 +12162,7 @@ msgid ""
 msgstr "在這裡選擇內容的編輯類型描述。這個字段限制為 64 個 ASCII 字元。"
 
 #: core/dplugins/generic/metadata/metadataedit/iptc/iptcproperties.cpp:254
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:243
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:248
 #: core/libs/widgets/metadata/subjectwidget.cpp:207
 #, kde-format
 msgid "Reference:"
@@ -12463,335 +12463,335 @@ msgstr "在這裡設定城市裡內容的位置。"
 msgid "Set here the content's Province or State of origin."
 msgstr "在這裡設定內容的省份或州來源。"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:75
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:74
 #, kde-format
 msgid "Headshot"
 msgstr "頭像"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:76
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:75
 #, kde-format
 msgid "Half-length"
 msgstr "半身"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:77
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:76
 #, kde-format
 msgid "Full-length"
 msgstr "全身"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:78
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:77
 #, kde-format
 msgctxt "Side view of a person"
 msgid "Profile"
 msgstr "側面"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:79
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:78
 #, kde-format
 msgid "Rear view"
 msgstr "後視圖"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:80
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:79
 #, kde-format
 msgid "Single"
 msgstr "單視角"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:81
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:80
 #, kde-format
 msgid "Couple"
 msgstr "情侶"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:82
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:81
 #, kde-format
 msgid "Two"
 msgstr "雙視角"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:83
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:82
 #, kde-format
 msgctxt "group of people"
 msgid "Group"
 msgstr "團體"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:84
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:83
 #, kde-format
 msgid "General view"
 msgstr "普通視角"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:85
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:84
 #, kde-format
 msgid "Panoramic view"
 msgstr "全景"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:86
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:85
 #, kde-format
 msgid "Aerial view"
 msgstr "鳥瞰圖"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:87
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:86
 #, kde-format
 msgid "Under-water"
 msgstr "水底"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:89
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:88
 #: core/utilities/geolocation/geoiface/backends/backendgooglemaps.cpp:178
 #, kde-format
 msgid "Satellite"
 msgstr "衛星"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:90
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:89
 #, kde-format
 msgid "Exterior view"
 msgstr "室外"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:91
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:90
 #, kde-format
 msgid "Interior view"
 msgstr "室內"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:92
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:91
 #, kde-format
 msgid "Close-up"
 msgstr "特寫"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:93
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:92
 #, kde-format
 msgid "Action"
 msgstr "動作"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:94
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:93
 #, kde-format
 msgid "Performing"
 msgstr "表演"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:95
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:94
 #, kde-format
 msgid "Posing"
 msgstr "姿勢"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:96
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:95
 #, kde-format
 msgid "Symbolic"
 msgstr "象徵"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:97
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:96
 #, kde-format
 msgid "Off-beat"
 msgstr "離奇"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:98
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:97
 #, kde-format
 msgid "Movie scene"
 msgstr "電影場景"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:101
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:100
 #, kde-format
 msgid "Alert"
 msgstr "警戒"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:102
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:101
 #, kde-format
 msgid "Catalog"
 msgstr "目錄"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:104
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:103
 #, kde-format
 msgctxt "type is a document"
 msgid "Document"
 msgstr "文件"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:105
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:104
 #, kde-format
 msgid "DTD"
 msgstr "DTD"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:106
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:105
 #: core/utilities/maintenance/maintenancedlg.cpp:194
 #, kde-format
 msgid "Maintenance"
 msgstr "維護"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:108
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:107
 #, kde-format
 msgid "News Management Mode"
 msgstr "新聞管理模式"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:109
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:108
 #: core/dplugins/generic/webservices/debianscreenshots/dswidget.cpp:97
 #, kde-format
 msgid "Package"
 msgstr "包裝"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:110
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:109
 #, kde-format
 msgid "Schema"
 msgstr "摘要"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:111
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:110
 #, kde-format
 msgid "Topic"
 msgstr "主題"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:112
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:111
 #, kde-format
 msgid "Topic Set"
 msgstr "主題集"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:185
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:186
 #, kde-format
 msgid "Scene:"
 msgstr "場景："
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:186
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:187
 #, kde-format
 msgid "Select here the scene type of the content."
 msgstr "在這裡選擇內容的場景種類。"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:199
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:202
 #, kde-format
 msgid "Select here the editorial type of the content."
 msgstr "在這裡選擇內容的編輯類型。"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:215
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:220
 #, kde-format
 msgid "Set here the editorial attribute description of the content."
 msgstr "在這裡設定內容的編輯屬性描述。"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:217
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:222
 #, kde-format
 msgid "Select here the editorial attribute of the content."
 msgstr "在這裡選擇內容的編輯屬性。"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:218
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:223
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Current"
 msgstr "目前"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:219
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:224
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Analysis"
 msgstr "分析"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:220
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:225
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Archive material"
 msgstr "檔案材料"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:221
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:226
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Background"
 msgstr "背景"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:222
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:227
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Feature"
 msgstr "專題"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:223
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:228
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Forecast"
 msgstr "預報"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:224
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:229
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "History"
 msgstr "歷史"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:225
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:230
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Obituary"
 msgstr "訃聞"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:226
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:231
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Opinion"
 msgstr "意見"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:227
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:232
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Polls & Surveys"
 msgstr "投票和調查"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:228
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:233
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Profile"
 msgstr "簡介"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:229
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:234
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Results Listings & Table"
 msgstr "結果表格"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:230
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:235
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Side bar & Supporting information"
 msgstr "側邊欄和支援資訊"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:231
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:236
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Summary"
 msgstr "摘要"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:232
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:237
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Transcript & Verbatim"
 msgstr "謄本和逐字稿"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:233
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:238
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Interview"
 msgstr "訪談"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:234
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:239
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "From the Scene"
 msgstr "現場"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:235
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:240
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Retrospective"
 msgstr "回顧"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:236
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:241
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Statistics"
 msgstr "統計"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:237
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:242
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Update"
 msgstr "更新"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:238
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:243
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Wrap-up"
 msgstr "簡訊"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:239
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:244
 #, kde-format
 msgctxt "editorial content attribute"
 msgid "Press Release"
 msgstr "新聞稿"
 
-#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:246
+#: core/dplugins/generic/metadata/metadataedit/xmp/xmpproperties.cpp:251
 #, kde-format
 msgid "Set here the original content transmission reference."
 msgstr "在這裡設定原始內容辦理項目偏好設定。"
@@ -12919,7 +12919,7 @@ msgstr "調整："
 #: core/dplugins/generic/webservices/google/gswindow.cpp:955
 #: core/dplugins/generic/webservices/google/gswindow.cpp:976
 #: core/dplugins/generic/webservices/google/gswindow.cpp:1025
-#: core/dplugins/generic/webservices/google/gswindow.cpp:1244
+#: core/dplugins/generic/webservices/google/gswindow.cpp:1248
 #: core/dplugins/generic/webservices/onedrive/odwindow.cpp:276
 #: core/dplugins/generic/webservices/pinterest/pwindow.cpp:276
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:706
@@ -17791,11 +17791,11 @@ msgctxt "@action"
 msgid "Export to &Box..."
 msgstr "匯出工具"
 
-#: core/dplugins/generic/webservices/box/boxtalker.cpp:443
+#: core/dplugins/generic/webservices/box/boxtalker.cpp:440
 #: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:425
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1156
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1159
 #: core/dplugins/generic/webservices/google/gdrive/gdtalker.cpp:476
-#: core/dplugins/generic/webservices/onedrive/odtalker.cpp:452
+#: core/dplugins/generic/webservices/onedrive/odtalker.cpp:458
 #: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:710
 #: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:857
 #: core/dplugins/generic/webservices/piwigo/piwigotalker.cpp:1028
@@ -17808,10 +17808,10 @@ msgstr "匯出工具"
 msgid "Failed to upload photo"
 msgstr "載入影像失敗"
 
-#: core/dplugins/generic/webservices/box/boxtalker.cpp:467
+#: core/dplugins/generic/webservices/box/boxtalker.cpp:464
 #: core/dplugins/generic/webservices/dropbox/dbtalker.cpp:452
 #: core/dplugins/generic/webservices/google/gdrive/gdtalker.cpp:379
-#: core/dplugins/generic/webservices/onedrive/odtalker.cpp:476
+#: core/dplugins/generic/webservices/onedrive/odtalker.cpp:482
 #: core/dplugins/generic/webservices/twitter/twittertalker.cpp:928
 #, fuzzy, kde-format
 msgid "Failed to list folders"
@@ -17852,14 +17852,14 @@ msgstr "選擇要更新的影像"
 
 #: core/dplugins/generic/webservices/box/boxwindow.cpp:263
 #: core/dplugins/generic/webservices/dropbox/dbwindow.cpp:262
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:614
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:616
 #: core/dplugins/generic/webservices/google/gswindow.cpp:377
 #: core/dplugins/generic/webservices/google/gswindow.cpp:418
 #: core/dplugins/generic/webservices/google/gswindow.cpp:444
 #: core/dplugins/generic/webservices/google/gswindow.cpp:505
 #: core/dplugins/generic/webservices/google/gswindow.cpp:997
-#: core/dplugins/generic/webservices/google/gswindow.cpp:1194
-#: core/dplugins/generic/webservices/google/gswindow.cpp:1206
+#: core/dplugins/generic/webservices/google/gswindow.cpp:1195
+#: core/dplugins/generic/webservices/google/gswindow.cpp:1209
 #: core/dplugins/generic/webservices/onedrive/odwindow.cpp:263
 #: core/dplugins/generic/webservices/pinterest/pwindow.cpp:263
 #: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:267
@@ -17887,7 +17887,7 @@ msgstr ""
 #: core/dplugins/generic/webservices/google/gswindow.cpp:970
 #: core/dplugins/generic/webservices/google/gswindow.cpp:1018
 #: core/dplugins/generic/webservices/google/gswindow.cpp:1068
-#: core/dplugins/generic/webservices/google/gswindow.cpp:1238
+#: core/dplugins/generic/webservices/google/gswindow.cpp:1242
 #: core/dplugins/generic/webservices/onedrive/odwindow.cpp:271
 #: core/dplugins/generic/webservices/pinterest/pwindow.cpp:271
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:700
@@ -17917,7 +17917,7 @@ msgstr ""
 #: core/dplugins/generic/webservices/google/gswindow.cpp:954
 #: core/dplugins/generic/webservices/google/gswindow.cpp:975
 #: core/dplugins/generic/webservices/google/gswindow.cpp:1024
-#: core/dplugins/generic/webservices/google/gswindow.cpp:1243
+#: core/dplugins/generic/webservices/google/gswindow.cpp:1247
 #: core/dplugins/generic/webservices/onedrive/odwindow.cpp:275
 #: core/dplugins/generic/webservices/pinterest/pwindow.cpp:275
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:705
@@ -18669,106 +18669,106 @@ msgstr ""
 msgid "File Size exceeds maximum allowed file size."
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:725
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:563
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:724
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:565
 #, fuzzy, kde-format
 #| msgid "Unspecified"
 msgid "No photo specified"
 msgstr "未指定"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:729
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:566
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:728
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:568
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "When rotating a file"
 msgid "General upload failure"
 msgstr "旋轉檔案時"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:733
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:732
 #, fuzzy, kde-format
 #| msgid "File Size"
 msgid "Filesize was zero"
 msgstr "檔案大小"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:737
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:736
 #, kde-format
 msgid "Filetype was not recognized"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:741
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:575
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:740
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:577
 #, kde-format
 msgid "User exceeded upload limit"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:745
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:578
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:744
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:580
 #, kde-format
 msgid "Invalid signature"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:749
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:581
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:748
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:583
 #, kde-format
 msgid "Missing signature"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:753
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:752
 #, kde-format
 msgid "Login Failed / Invalid auth token"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:757
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:587
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:756
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:589
 #, kde-format
 msgid "Invalid API Key"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:761
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:590
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:760
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:592
 #, fuzzy, kde-format
 #| msgid "This collection is currently not available."
 msgid "Service currently unavailable"
 msgstr "這個收藏目前無法使用。"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:765
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:593
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:764
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:595
 #, kde-format
 msgid "Invalid Frob"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:769
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:596
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:768
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:598
 #, kde-format
 msgid "Format \"xxx\" not found"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:773
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:599
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:772
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:601
 #, fuzzy, kde-format
 #| msgid "Collection not found"
 msgid "Method \"xxx\" not found"
 msgstr "沒有找到任何收藏"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:777
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:602
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:776
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:604
 #, kde-format
 msgid "Invalid SOAP envelope"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:781
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:605
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:780
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:607
 #, kde-format
 msgid "Invalid XML-RPC Method Call"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:785
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:784
 #, kde-format
 msgid "The POST method is now required for all setters"
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:789
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:611
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:788
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:613
 #: core/dplugins/generic/webservices/rajce/rajcewidget.cpp:236
 #: core/dplugins/generic/webservices/yandexfotki/yfwindow.cpp:799
 #, fuzzy, kde-format
@@ -18776,26 +18776,26 @@ msgstr ""
 msgid "Unknown error"
 msgstr "未知的濾鏡"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:795
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:794
 #, kde-format
 msgid ""
 "Error Occurred: %1\n"
 "Cannot proceed any further."
 msgstr ""
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:981
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:983
 #, fuzzy, kde-format
 #| msgid "Correlation failed"
 msgid "PhotoSet creation failed: "
 msgstr "建立關聯失敗"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1076
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1078
 #, fuzzy, kde-format
 #| msgid "Failed to save tags to file."
 msgid "Failed to fetch list of photo sets."
 msgstr "儲存標籤到檔案中失敗。"
 
-#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1215
+#: core/dplugins/generic/webservices/flickr/flickrtalker.cpp:1218
 #, fuzzy, kde-format
 #| msgid "Failed to save some information:"
 msgid "Failed to query photo information"
@@ -19060,34 +19060,34 @@ msgstr "上傳檔案 <filename>%1</filename> 失敗。您要繼續嗎？"
 msgid "Failed to create folder"
 msgstr "建立檔案失敗..."
 
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:569
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:571
 #, kde-format
 msgid "File-size was zero"
 msgstr ""
 
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:572
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:574
 #, kde-format
 msgid "File-type was not recognized"
 msgstr ""
 
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:584
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:586
 #, kde-format
 msgid "Login failed / Invalid auth token"
 msgstr ""
 
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:608
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:610
 #, kde-format
 msgid "The POST method is now required for all setters."
 msgstr ""
 
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:615
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:617
 #, kde-format
 msgid ""
 "Error occurred: %1\n"
 "Unable to proceed further."
 msgstr ""
 
-#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:863
+#: core/dplugins/generic/webservices/google/gphoto/gptalker.cpp:865
 #, fuzzy, kde-format
 #| msgid "Failed to save file: %1"
 msgid "Failed to fetch photo-set list"
@@ -19409,7 +19409,7 @@ msgid ""
 "No image uploaded to your account."
 msgstr "上傳檔案 <filename>%1</filename> 失敗。您要繼續嗎？"
 
-#: core/dplugins/generic/webservices/google/gswindow.cpp:1195
+#: core/dplugins/generic/webservices/google/gswindow.cpp:1196
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your search failed:\n"
@@ -19421,7 +19421,7 @@ msgstr ""
 "您的搜尋失敗：\n"
 "%1"
 
-#: core/dplugins/generic/webservices/google/gswindow.cpp:1207
+#: core/dplugins/generic/webservices/google/gswindow.cpp:1210
 #, fuzzy, kde-format
 #| msgid ""
 #| "Your search failed:\n"
@@ -19433,7 +19433,7 @@ msgstr ""
 "您的搜尋失敗：\n"
 "%1"
 
-#: core/dplugins/generic/webservices/google/gswindow.cpp:1239
+#: core/dplugins/generic/webservices/google/gswindow.cpp:1243
 #, kde-format
 msgid ""
 "You will be logged out of your account, click \"Continue\" to authenticate "
@@ -20325,13 +20325,13 @@ msgctxt "@action"
 msgid "Export to &Pinterest..."
 msgstr "匯出工具"
 
-#: core/dplugins/generic/webservices/pinterest/ptalker.cpp:523
+#: core/dplugins/generic/webservices/pinterest/ptalker.cpp:529
 #, fuzzy, kde-format
 #| msgid "Failed to load image"
 msgid "Failed to upload Pin"
 msgstr "載入影像失敗"
 
-#: core/dplugins/generic/webservices/pinterest/ptalker.cpp:549
+#: core/dplugins/generic/webservices/pinterest/ptalker.cpp:555
 #, fuzzy, kde-format
 msgid "Failed to list boards"
 msgstr "刪除檔案 <filename>%1</filename> 失敗。"
@@ -37247,7 +37247,7 @@ msgid ""
 msgstr "<qt>雜項設定<br/><i>自訂 Showfoto 其他部份的行為</i></qt>"
 
 #: core/showfoto/setup/showfotosetupmetadata.cpp:93
-#: core/utilities/setup/metadata/setupmetadata.cpp:425
+#: core/utilities/setup/metadata/setupmetadata.cpp:427
 #, fuzzy, kde-format
 #| msgctxt "@title:tab"
 #| msgid "Rotation"
@@ -37256,13 +37256,13 @@ msgid "Rotate actions"
 msgstr "旋轉"
 
 #: core/showfoto/setup/showfotosetupmetadata.cpp:98
-#: core/utilities/setup/metadata/setupmetadata.cpp:430
+#: core/utilities/setup/metadata/setupmetadata.cpp:432
 #, kde-format
 msgid "Show images/thumbnails &rotated according to orientation tag."
 msgstr "顯示根據方向標示旋轉過的影像/縮圖(&R)。"
 
 #: core/showfoto/setup/showfotosetupmetadata.cpp:100
-#: core/utilities/setup/metadata/setupmetadata.cpp:432
+#: core/utilities/setup/metadata/setupmetadata.cpp:434
 #, kde-format
 msgid "Set orientation tag to normal after rotate/flip."
 msgstr "旋轉/翻轉後將方向標籤設定為普通。"
@@ -37305,7 +37305,7 @@ msgstr ""
 "的舊式標準。</p>"
 
 #: core/showfoto/setup/showfotosetupmetadata.cpp:136
-#: core/utilities/setup/metadata/setupmetadata.cpp:325
+#: core/utilities/setup/metadata/setupmetadata.cpp:326
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p><a href='http://en.wikipedia.org/wiki/"
@@ -40295,7 +40295,7 @@ msgid "Geonames.org full address (US only)"
 msgstr "Geonames.org 完整地址（僅限美國） "
 
 #: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:298
-#: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:489
+#: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:492
 #, kde-format
 msgid "Less options"
 msgstr "減少選項"
@@ -40311,34 +40311,34 @@ msgstr "將標籤寫到 XMP"
 msgid "Process reverse geocoding"
 msgstr "要中止反向地理定位嗎？"
 
-#: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:435
+#: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:436
 #, kde-format
 msgid "Image tags are changed."
 msgstr "影像標籤已變更。"
 
-#: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:468
+#: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:471
 #, fuzzy, kde-format
 #| msgid "Retrieving RG info - %p%"
 msgid "Retrieving RG info -"
 msgstr "取得反向地理定位資訊中 - %p%"
 
-#: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:483
+#: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:486
 #, kde-format
 msgid "More options"
 msgstr "更多選項"
 
-#: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:822
+#: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:825
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Add new tag:"
 msgstr "新增標籤："
 
-#: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:823
+#: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:826
 #, kde-format
 msgid "Select a name for the new tag:"
 msgstr "選擇新標籤的名稱："
 
-#: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:962
+#: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:965
 #, fuzzy, kde-format
 #| msgid ""
 #| "%1 out of %2 images have been reverse geocoded. Would you like to keep "
@@ -40349,7 +40349,7 @@ msgid ""
 msgstr ""
 "%2 張影像中的 %1 張已經做了反向地理定位。您要保留還是丟棄這些已經取得的標籤？"
 
-#: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:968
+#: core/utilities/geolocation/geoiface/reversegeocoding/rgwidget.cpp:971
 #, kde-format
 msgid "Abort reverse geocoding?"
 msgstr "要中止反向地理定位嗎？"
@@ -40510,17 +40510,17 @@ msgid ""
 msgstr ""
 "如果按下這個按鈕，目前地圖搜尋會用左側設定的名稱儲存到新的搜尋虛擬相簿。"
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:217
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:218
 #, kde-format
 msgid "Search by area:"
 msgstr "依區域搜尋："
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:245
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:246
 #, fuzzy, kde-format
 msgid "Show Non-Geolocated Items"
 msgstr "尋找重覆的項目"
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:545
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:546
 #: core/utilities/searchwindow/searchmodificationhelper.cpp:122
 #: core/utilities/searchwindow/searchtabheader.cpp:550
 #, kde-format
@@ -40531,14 +40531,14 @@ msgstr ""
 "已經存在相同的搜尋名稱。\n"
 "請輸入一個新名稱："
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:549
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:550
 #: core/utilities/searchwindow/searchmodificationhelper.cpp:126
 #: core/utilities/searchwindow/searchtabheader.cpp:554
 #, kde-format
 msgid "Name exists"
 msgstr "名稱已存在"
 
-#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:664
+#: core/utilities/geolocation/mapsearches/gpssearchview.cpp:665
 #, fuzzy, kde-format
 msgid "Non Geo-located Items"
 msgstr "尋找重覆的項目"
@@ -46752,49 +46752,49 @@ msgid ""
 "or geographic coordinates."
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:344
+#: core/utilities/setup/metadata/setupmetadata.cpp:346
 #, kde-format
 msgctxt "@title:tab"
 msgid "Behavior"
 msgstr "行為"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:354
+#: core/utilities/setup/metadata/setupmetadata.cpp:356
 #, kde-format
 msgctxt "@label"
 msgid "When rotating a file"
 msgstr "旋轉檔案時"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:358
+#: core/utilities/setup/metadata/setupmetadata.cpp:360
 #, kde-format
 msgctxt "@option:radio"
 msgid "Rotate by only setting a flag"
 msgstr "只設定旋轉的旗標"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:359
+#: core/utilities/setup/metadata/setupmetadata.cpp:361
 #, kde-format
 msgctxt "@option:radio"
 msgid "Rotate by changing the content if possible"
 msgstr "如果可以的話，直接修改內容做旋轉"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:360
+#: core/utilities/setup/metadata/setupmetadata.cpp:362
 #, kde-format
 msgctxt "@option:check"
 msgid "Even allow lossy rotation if necessary"
 msgstr "需要的話，允許失真的旋轉"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:361
+#: core/utilities/setup/metadata/setupmetadata.cpp:363
 #, kde-format
 msgctxt "@option:check"
 msgid "Write flag to metadata if possible"
 msgstr "可以的話將旗標寫入中繼資料"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:373
+#: core/utilities/setup/metadata/setupmetadata.cpp:375
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Rotate files only by changing a flag, not touching the pixel data"
 msgstr "只設定旋轉的旗標，而不實際序修改像素資料"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:375
+#: core/utilities/setup/metadata/setupmetadata.cpp:377
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:whatsthis"
 #| msgid ""
@@ -46821,13 +46821,13 @@ msgstr ""
 "時，它們也必須支援旗標設定才能正確旋轉。因此若是您要在 digiKam 以外的軟體分享"
 "您的檔案時，請確定該軟體有支援旋轉旗標設定。</para>"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:384
+#: core/utilities/setup/metadata/setupmetadata.cpp:386
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "If possible rotate files by changing the pixel data"
 msgstr "如果可以的話，直接修改內容做旋轉"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:386
+#: core/utilities/setup/metadata/setupmetadata.cpp:388
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:whatsthis"
 #| msgid ""
@@ -46855,7 +46855,7 @@ msgstr ""
 "格式來說，它有可能失真，您必須額外特別指定使用此選項。此選項也不支援 RAW 與其"
 "它唯讀的格式，它們只接受設定旗標。</para>"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:396
+#: core/utilities/setup/metadata/setupmetadata.cpp:398
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -46863,7 +46863,7 @@ msgid ""
 "quality loss"
 msgstr "直接修改內容做旋轉，即使會失真也在所不惜"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:398
+#: core/utilities/setup/metadata/setupmetadata.cpp:400
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -46874,7 +46874,7 @@ msgstr ""
 "對某些壓縮較易失真的影像格式來說，每次旋轉都可能會造成再次失真。勾選此選項表"
 "示您不在意這一點。若未勾選，則這些檔案只能使用旗標設定來旋轉。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:404
+#: core/utilities/setup/metadata/setupmetadata.cpp:406
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -46882,7 +46882,7 @@ msgid ""
 "metadata"
 msgstr "只設定旋轉的旗標，同時將此旗標寫入中繼資料"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:406
+#: core/utilities/setup/metadata/setupmetadata.cpp:408
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -46892,54 +46892,54 @@ msgstr ""
 "檔案中繼資料通常包含一個旗標，決定影像顯示時是否需要旋轉。開啟此選項表示允許"
 "編輯此欄位。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:443
+#: core/utilities/setup/metadata/setupmetadata.cpp:445
 #, kde-format
 msgid ""
 "<b>Note: These settings affect the album view and not the image editor. The "
 "image editor always changes the image data during the rotation.</b>"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:457
+#: core/utilities/setup/metadata/setupmetadata.cpp:459
 #, kde-format
 msgctxt "@title:tab"
 msgid "Rotation"
 msgstr "旋轉"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:464
+#: core/utilities/setup/metadata/setupmetadata.cpp:466
 #, kde-format
 msgctxt "@info:label"
 msgid "Select Metadata Fields to Be Displayed"
 msgstr "選擇要顯示的中繼資料欄位"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:478
+#: core/utilities/setup/metadata/setupmetadata.cpp:480
 #, kde-format
 msgctxt "@title:tab"
 msgid "Views"
 msgstr "檢視"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:487
+#: core/utilities/setup/metadata/setupmetadata.cpp:489
 #, fuzzy, kde-format
 msgid "Baloo Desktop Search"
 msgstr "上次搜尋"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:491
+#: core/utilities/setup/metadata/setupmetadata.cpp:493
 #, fuzzy, kde-format
 msgid "Store metadata from digiKam in Baloo"
 msgstr "用 Nepomuk 儲存 digiKam 的中繼資料"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:492
+#: core/utilities/setup/metadata/setupmetadata.cpp:494
 #, fuzzy, kde-format
 msgid ""
 "Turn on this option to push rating, comments and tags from digiKam into the "
 "Baloo storage"
 msgstr "開啟這個選項可將評等、註解和標籤從 digiKam 移動到 Nepomuk 儲存"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:496
+#: core/utilities/setup/metadata/setupmetadata.cpp:498
 #, fuzzy, kde-format
 msgid "Read metadata from Baloo"
 msgstr "從 Nepomuk 讀取中繼資料"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:497
+#: core/utilities/setup/metadata/setupmetadata.cpp:499
 #, fuzzy, kde-format
 msgid ""
 "Turn on this option if you want to apply changes to rating, comments and "
@@ -46949,13 +46949,13 @@ msgstr ""
 "如果您想要將用 Nepomuk 建立的標籤、評等和標籤變更套用到 digiKam 的中繼資料儲"
 "存區，請開啟這個選項。請注意不會自動編輯影像中繼資料。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:504
+#: core/utilities/setup/metadata/setupmetadata.cpp:506
 #, kde-format
 msgctxt "@title:tab"
 msgid "Baloo"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:520
+#: core/utilities/setup/metadata/setupmetadata.cpp:522
 #, fuzzy, kde-format
 msgid ""
 "<p><a href='http://community.kde.org/Baloo'>Baloo</a> provides the basis to "
@@ -46971,13 +46971,13 @@ msgstr ""
 "入 digiKam 的資料庫時透過 Nepomuk 完成的變更不會自動套用到影像的中繼資料。</"
 "p> "
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:547
+#: core/utilities/setup/metadata/setupmetadata.cpp:549
 #, kde-format
 msgctxt "@title:tab"
 msgid "Advanced"
 msgstr "進階"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:559
+#: core/utilities/setup/metadata/setupmetadata.cpp:561
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Reading and Writing Metadata"
@@ -46985,13 +46985,13 @@ msgctxt "@label"
 msgid "Reading and Writing to Sidecars"
 msgstr "讀取與寫入中繼資料"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:562
+#: core/utilities/setup/metadata/setupmetadata.cpp:564
 #, kde-format
 msgctxt "@option:check"
 msgid "Read from sidecar files"
 msgstr "從邊車檔讀取"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:564
+#: core/utilities/setup/metadata/setupmetadata.cpp:566
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -46999,49 +46999,49 @@ msgid ""
 "metadata."
 msgstr "開啟此選項，從 XMP 邊車檔讀取中繼資料。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:568
+#: core/utilities/setup/metadata/setupmetadata.cpp:570
 #, kde-format
 msgctxt "@option:check"
 msgid "Write to sidecar files"
 msgstr "寫入 XMP 邊車檔"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:570
+#: core/utilities/setup/metadata/setupmetadata.cpp:572
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "Turn on this option to save, as specified, metadata to XMP sidecar files."
 msgstr "開啟此選項，將指定的中繼資料寫入 XMP 邊車檔。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:574
+#: core/utilities/setup/metadata/setupmetadata.cpp:576
 #, fuzzy, kde-format
 #| msgid "Write to XMP sidecar for read-only image only"
 msgid "Write to XMP sidecar for read-only item only"
 msgstr "只對唯讀影像寫入 XMP 邊車檔"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:575
+#: core/utilities/setup/metadata/setupmetadata.cpp:577
 #, kde-format
 msgid "Write to XMP sidecar only"
 msgstr "只寫入 XMP 邊車檔"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:576
+#: core/utilities/setup/metadata/setupmetadata.cpp:578
 #, fuzzy, kde-format
 #| msgid "Write to image and XMP Sidecar"
 msgid "Write to item and XMP Sidecar"
 msgstr "寫入影像與 XMP 邊車檔"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:577
+#: core/utilities/setup/metadata/setupmetadata.cpp:579
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Specify the exact mode of XMP sidecar writing"
 msgstr "指定 XMP 邊車檔寫入的確切模式"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:581
+#: core/utilities/setup/metadata/setupmetadata.cpp:583
 #, kde-format
 msgctxt "@option:check"
 msgid "Sidecar file names are compatible with commercial programs"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:583
+#: core/utilities/setup/metadata/setupmetadata.cpp:585
 #, fuzzy, kde-format
 #| msgid ""
 #| "Turn on this option to use the camera provided image filenames without "
@@ -47053,7 +47053,7 @@ msgid ""
 "enable this option."
 msgstr "開啟這個選項會不修改直接使用相機提供的影像檔名。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:608
+#: core/utilities/setup/metadata/setupmetadata.cpp:610
 #, kde-format
 msgid ""
 "<p>Add file types to be recognised as sidecars.</p><p>digiKam (optionally) "
@@ -47065,7 +47065,7 @@ msgid ""
 "must be separated by a semicolon or a space.</p>"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:624
+#: core/utilities/setup/metadata/setupmetadata.cpp:626
 #, kde-format
 msgid ""
 "<p>Here you can add extra extensions of sidecars files to be processed "
@@ -47075,25 +47075,25 @@ msgid ""
 "always included.</p>"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:632
+#: core/utilities/setup/metadata/setupmetadata.cpp:634
 #, fuzzy, kde-format
 #| msgid "Enter the editorial usage instructions."
 msgid "Enter additional sidecars file extensions."
 msgstr "輸入編輯使用須知。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:635
+#: core/utilities/setup/metadata/setupmetadata.cpp:637
 #, fuzzy, kde-format
 #| msgid "Enter the editorial usage instructions."
 msgid "Additional &sidecar file extensions"
 msgstr "輸入編輯使用須知。"
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:650
+#: core/utilities/setup/metadata/setupmetadata.cpp:652
 #, kde-format
 msgctxt "@title:tab"
 msgid "Sidecars"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:854
+#: core/utilities/setup/metadata/setupmetadata.cpp:856
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -47101,7 +47101,7 @@ msgid ""
 "wrong orientation, so only change this option if you explicitly require this."
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:869
+#: core/utilities/setup/metadata/setupmetadata.cpp:871
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -47110,7 +47110,7 @@ msgid ""
 "metadata such as tags, keywords, or geographic coordinates."
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:886
+#: core/utilities/setup/metadata/setupmetadata.cpp:888
 #, kde-format
 msgid ""
 "<p><b>Do you really want to enable metadata writing to RAW files?</b></"
@@ -47120,12 +47120,12 @@ msgid ""
 "strongly recommend not to enable this option.</b></p>"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:893
+#: core/utilities/setup/metadata/setupmetadata.cpp:895
 #, kde-format
 msgid "Yes I understand"
 msgstr ""
 
-#: core/utilities/setup/metadata/setupmetadata.cpp:903
+#: core/utilities/setup/metadata/setupmetadata.cpp:905
 #, fuzzy, kde-format
 #| msgid "Writing metadata to files"
 msgid "You would rather disable writing metadata to RAW files?"
