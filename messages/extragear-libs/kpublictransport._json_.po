@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-24 04:00+0000\n"
+"POT-Creation-Date: 2020-02-18 04:04+0000\n"
 "PO-Revision-Date: 2019-11-15 17:57+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -36,6 +36,14 @@ msgstr "Aachener Verkehrsverbund (AVV)"
 msgctxt "Name"
 msgid "Verkehrsverbund Rhein-Ruhr (VRR)"
 msgstr ""
+
+#: src/lib/networks/de_he_nvv.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Karlsruher Verkehrsverbund (KVV)"
+msgctxt "Name"
+msgid "Nordhessische Verkehrsverbund (NVV)"
+msgstr "Karlsruher Verkehrsverbund (KVV)"
 
 #: src/lib/networks/de_nw_avv.json
 msgctxt "Name"
@@ -194,6 +202,11 @@ msgctxt "Name"
 msgid "Resrobot"
 msgstr ""
 
+#: src/lib/networks/de_hh_hvv.json
+msgctxt "Name"
+msgid "TODO (HVV)"
+msgstr ""
+
 #: src/lib/networks/de_nw_muenster.json
 msgctxt "Name"
 msgid "Münster, Germany"
@@ -212,6 +225,11 @@ msgstr ""
 #: src/lib/networks/fr_ara_metromobilite.json
 msgctxt "Name"
 msgid "Metromobilite"
+msgstr ""
+
+#: src/lib/networks/us_tx_cmta.json
+msgctxt "Name"
+msgid "Capital Metropolitan Transportation Authority (CMTA)"
 msgstr ""
 
 #: src/lib/networks/be_sncb.json
@@ -313,6 +331,11 @@ msgstr ""
 #: src/lib/networks/de_nw_vrr.json
 msgctxt "Description"
 msgid "Local transport in the Rhein-Ruhr area, Germany."
+msgstr ""
+
+#: src/lib/networks/de_he_nvv.json
+msgctxt "Description"
+msgid "Local transport in northern Hesse, Germany."
 msgstr ""
 
 #: src/lib/networks/de_nw_avv.json
@@ -462,6 +485,11 @@ msgctxt "Description"
 msgid "Public transport information for Sweden."
 msgstr ""
 
+#: src/lib/networks/de_hh_hvv.json
+msgctxt "Description"
+msgid "Public transport in Hamburg, Germany."
+msgstr ""
+
 #: src/lib/networks/de_nw_muenster.json
 msgctxt "Description"
 msgid "Local public transport in and around Münster, Germany."
@@ -480,6 +508,11 @@ msgstr ""
 #: src/lib/networks/fr_ara_metromobilite.json
 msgctxt "Description"
 msgid "Public transport in and around Grenoble, France."
+msgstr ""
+
+#: src/lib/networks/us_tx_cmta.json
+msgctxt "Description"
+msgid "Public transport in and around Austin, Texas, US."
 msgstr ""
 
 #: src/lib/networks/be_sncb.json

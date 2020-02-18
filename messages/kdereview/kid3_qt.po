@@ -5073,9 +5073,9 @@ msgid "Error while writing file:\n"
 msgstr "寫入檔案錯誤:\n"
 
 #: src/gui/forms/basemainwindow.cpp:354 src/gui/forms/basemainwindow.cpp:360
-#: src/gui/forms/basemainwindow.cpp:1058 src/gui/forms/basemainwindow.cpp:1063
-#: src/gui/forms/basemainwindow.cpp:1493 src/gui/forms/basemainwindow.cpp:1502
-#: src/gui/forms/basemainwindow.cpp:1578
+#: src/gui/forms/basemainwindow.cpp:1064 src/gui/forms/basemainwindow.cpp:1069
+#: src/gui/forms/basemainwindow.cpp:1499 src/gui/forms/basemainwindow.cpp:1508
+#: src/gui/forms/basemainwindow.cpp:1584
 msgctxt "BaseMainWindowImpl|"
 msgid "File Error"
 msgstr "檔案錯誤"
@@ -5117,145 +5117,145 @@ msgctxt "BaseMainWindowImpl|"
 msgid "Exiting..."
 msgstr "離開..."
 
-#: src/gui/forms/basemainwindow.cpp:639
+#: src/gui/forms/basemainwindow.cpp:641
 #, qt-format
 msgctxt "BaseMainWindowImpl|"
 msgid "%n folders"
 msgid_plural "%n folders"
 msgstr[0] "%n 個資料夾"
 
-#: src/gui/forms/basemainwindow.cpp:642
+#: src/gui/forms/basemainwindow.cpp:646
 #, qt-format
 msgctxt "BaseMainWindowImpl|"
 msgid "%n files"
 msgid_plural "%n files"
 msgstr[0] "%n 個檔案"
 
-#: src/gui/forms/basemainwindow.cpp:645
+#: src/gui/forms/basemainwindow.cpp:651
 #, qt-format
 msgctxt "BaseMainWindowImpl|"
 msgid "%n selected"
 msgid_plural "%n selected"
 msgstr[0] "%n 已選擇"
 
-#: src/gui/forms/basemainwindow.cpp:648
+#: src/gui/forms/basemainwindow.cpp:654
 msgctxt "BaseMainWindowImpl|"
 msgid "Ready."
 msgstr "已就緒。"
 
-#: src/gui/forms/basemainwindow.cpp:710
+#: src/gui/forms/basemainwindow.cpp:716
 msgctxt "BaseMainWindowImpl|"
 msgid "Creating playlist..."
 msgstr "新增播放清單..."
 
-#: src/gui/forms/basemainwindow.cpp:758
+#: src/gui/forms/basemainwindow.cpp:764
 msgctxt "BaseMainWindowImpl|"
 msgid "Files not found"
 msgstr "找不到档案"
 
-#: src/gui/forms/basemainwindow.cpp:759
+#: src/gui/forms/basemainwindow.cpp:765
 msgctxt "BaseMainWindowImpl|"
 msgid "Error"
 msgstr "錯誤"
 
-#: src/gui/forms/basemainwindow.cpp:785
+#: src/gui/forms/basemainwindow.cpp:791
 msgctxt "BaseMainWindowImpl|"
 msgid "Import"
 msgstr "匯入"
 
-#: src/gui/forms/basemainwindow.cpp:1056 src/gui/forms/basemainwindow.cpp:1062
-#: src/gui/forms/basemainwindow.cpp:1494 src/gui/forms/basemainwindow.cpp:1503
+#: src/gui/forms/basemainwindow.cpp:1062 src/gui/forms/basemainwindow.cpp:1068
+#: src/gui/forms/basemainwindow.cpp:1500 src/gui/forms/basemainwindow.cpp:1509
 msgctxt "BaseMainWindowImpl|"
 msgid "Error while renaming:\n"
 msgstr "更改檔名發生錯誤:\n"
 
-#: src/gui/forms/basemainwindow.cpp:1057
+#: src/gui/forms/basemainwindow.cpp:1063
 msgctxt "BaseMainWindowImpl|"
 msgid "Retry after closing directories?"
 msgstr ""
 
-#: src/gui/forms/basemainwindow.cpp:1134
+#: src/gui/forms/basemainwindow.cpp:1140
 msgctxt "BaseMainWindowImpl|"
 msgid "Filter"
 msgstr "篩選"
 
-#: src/gui/forms/basemainwindow.cpp:1203
+#: src/gui/forms/basemainwindow.cpp:1209
 #, qt-format
 msgctxt "BaseMainWindowImpl|"
 msgid " [filtered %1/%2]"
 msgstr " [已篩選 %1/%2]"
 
-#: src/gui/forms/basemainwindow.cpp:1317
+#: src/gui/forms/basemainwindow.cpp:1323
 msgctxt "BaseMainWindowImpl|"
 msgid "Add Frame"
 msgstr "新增訊框"
 
-#: src/gui/forms/basemainwindow.cpp:1318
+#: src/gui/forms/basemainwindow.cpp:1324
 msgctxt "BaseMainWindowImpl|"
 msgid "Select the frame ID"
 msgstr "選擇訊框代碼"
 
-#: src/gui/forms/basemainwindow.cpp:1464
+#: src/gui/forms/basemainwindow.cpp:1470
 msgctxt "BaseMainWindowImpl|"
 msgid "Rename File"
 msgstr "更改檔名"
 
-#: src/gui/forms/basemainwindow.cpp:1465
+#: src/gui/forms/basemainwindow.cpp:1471
 msgctxt "BaseMainWindowImpl|"
 msgid "Enter new file name:"
 msgstr "輸入新檔名:"
 
-#: src/gui/forms/basemainwindow.cpp:1495 src/gui/forms/basemainwindow.cpp:1504
+#: src/gui/forms/basemainwindow.cpp:1501 src/gui/forms/basemainwindow.cpp:1510
 #, qt-format
 msgctxt "BaseMainWindowImpl|"
 msgid "Rename %1 to %2 failed\n"
 msgstr "%1 更名至 %2 失敗\n"
 
-#: src/gui/forms/basemainwindow.cpp:1496
+#: src/gui/forms/basemainwindow.cpp:1502
 msgctxt "BaseMainWindowImpl|"
 msgid "Retry after closing folders?"
 msgstr ""
 
-#: src/gui/forms/basemainwindow.cpp:1514
+#: src/gui/forms/basemainwindow.cpp:1520
 #, qt-format
 msgctxt "@default|"
 msgid "Do you really want to move these %1 items to the trash?"
 msgstr "您真的要將這 %1 個項目移到資源回收筒嗎？"
 
-#: src/gui/forms/basemainwindow.cpp:1543
+#: src/gui/forms/basemainwindow.cpp:1549
 #, qt-format
 msgctxt "BaseMainWindowImpl|"
 msgid "Do you really want to move these %1 items to the trash?"
 msgstr "您真的要將這 %1 個項目移到資源回收筒嗎？"
 
-#: src/gui/forms/basemainwindow.cpp:1545
+#: src/gui/forms/basemainwindow.cpp:1551
 msgctxt "BaseMainWindowImpl|"
 msgid "Do you really want to move this item to the trash?"
 msgstr "您真的要將這 1 個項目移到資源回收筒嗎？"
 
-#: src/gui/forms/basemainwindow.cpp:1547
+#: src/gui/forms/basemainwindow.cpp:1553
 msgctxt "BaseMainWindowImpl|"
 msgid "Move to Trash"
 msgstr "移至垃圾桶"
 
-#: src/gui/forms/basemainwindow.cpp:1576
+#: src/gui/forms/basemainwindow.cpp:1582
 #, fuzzy
 #| msgid "Directory must be empty.\n"
 msgctxt "BaseMainWindowImpl|"
 msgid "Folder must be empty.\n"
 msgstr "目錄裡面必須是空的.\n"
 
-#: src/gui/forms/basemainwindow.cpp:1577
+#: src/gui/forms/basemainwindow.cpp:1583
 msgctxt "BaseMainWindowImpl|"
 msgid "Could not move these files to the Trash"
 msgstr "無法將這些檔案丟到垃圾桶"
 
-#: src/gui/forms/basemainwindow.cpp:1610
+#: src/gui/forms/basemainwindow.cpp:1616
 msgctxt "BaseMainWindowImpl|"
 msgid "Expand All"
 msgstr "全部展開"
 
-#: src/gui/forms/basemainwindow.cpp:1720
+#: src/gui/forms/basemainwindow.cpp:1726
 msgctxt "BaseMainWindowImpl|"
 msgid "A&bort"
 msgstr "中斷(&B)"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-17 02:47+0100\n"
+"POT-Creation-Date: 2020-02-18 02:48+0100\n"
 "PO-Revision-Date: 2020-02-15 20:21+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -450,7 +450,7 @@ msgstr "您確定要離開此頻道嗎？"
 
 #: apps/qml/qml/ListMessagesDialogBase.qml:58
 #: widgets/dialogs/showlistmessagebasewidget.cpp:41
-#: widgets/ruqolamainwindow.cpp:221
+#: widgets/ruqolamainwindow.cpp:227
 msgid "Search Messages..."
 msgstr "搜尋訊息…"
 
@@ -535,7 +535,7 @@ msgstr "發現安裝問題。此處找不到外掛程式。"
 msgid "Configure Notification"
 msgstr "設定通知"
 
-#: apps/qml/qml/MainComponent.qml:60 widgets/ruqolamainwindow.cpp:267
+#: apps/qml/qml/MainComponent.qml:60 widgets/ruqolamainwindow.cpp:273
 msgid "List of Users"
 msgstr "使用者清單"
 
@@ -576,7 +576,7 @@ msgstr "討論"
 msgid "Threads"
 msgstr "討論串"
 
-#: apps/qml/qml/MainComponent.qml:154 widgets/ruqolamainwindow.cpp:273
+#: apps/qml/qml/MainComponent.qml:154 widgets/ruqolamainwindow.cpp:279
 msgid "Video Chat"
 msgstr "視訊聊天"
 
@@ -588,7 +588,7 @@ msgstr ""
 msgid "Take a Video Message"
 msgstr "開始視訊聊天"
 
-#: apps/qml/qml/MainComponent.qml:178 widgets/ruqolamainwindow.cpp:230
+#: apps/qml/qml/MainComponent.qml:178 widgets/ruqolamainwindow.cpp:236
 msgid "Load Recent History"
 msgstr "載入最近記錄"
 
@@ -663,7 +663,7 @@ msgid "Report Message"
 msgstr "檢舉訊息"
 
 #: apps/qml/qml/messages/MessageMenu.qml:134 apps/qml/qml/UserMenu.qml:46
-#: widgets/room/usersinroomlabel.cpp:73
+#: widgets/room/usersinroomlabel.cpp:149
 msgid "Ignore"
 msgstr "無視"
 
@@ -801,7 +801,7 @@ msgstr "聊天室"
 msgid "Open Room"
 msgstr "開啟聊天室"
 
-#: apps/qml/qml/RoomsComponent.qml:50 widgets/ruqolamainwindow.cpp:249
+#: apps/qml/qml/RoomsComponent.qml:50 widgets/ruqolamainwindow.cpp:255
 msgid "Unread on Top"
 msgstr ""
 
@@ -839,7 +839,7 @@ msgstr "狀態："
 msgid "Search Channel"
 msgstr "搜尋頻道"
 
-#: apps/qml/qml/SearchChannelDialog.qml:56 widgets/ruqolamainwindow.cpp:197
+#: apps/qml/qml/SearchChannelDialog.qml:56 widgets/ruqolamainwindow.cpp:203
 msgid "Search Channel..."
 msgstr "搜尋頻道…"
 
@@ -851,7 +851,7 @@ msgstr "找不到頻道"
 #: widgets/dialogs/showdiscussionswidget.cpp:88
 #: widgets/dialogs/showlistmessagebasewidget.cpp:84
 #: widgets/dialogs/showthreadswidget.cpp:88
-#: widgets/room/usersinroomflowwidget.cpp:79
+#: widgets/room/usersinroomflowwidget.cpp:85
 msgid "(Click here for Loading more...)"
 msgstr "(按一下此處載入更多…)"
 
@@ -980,35 +980,35 @@ msgstr ""
 msgid "Send Message"
 msgstr ""
 
-#: apps/qml/qml/UserMenu.qml:50
+#: apps/qml/qml/UserMenu.qml:50 widgets/room/usersinroomlabel.cpp:123
 msgid "Remove as Owner"
 msgstr ""
 
-#: apps/qml/qml/UserMenu.qml:50
+#: apps/qml/qml/UserMenu.qml:50 widgets/room/usersinroomlabel.cpp:123
 msgid "Add as Owner"
 msgstr ""
 
-#: apps/qml/qml/UserMenu.qml:55
+#: apps/qml/qml/UserMenu.qml:55 widgets/room/usersinroomlabel.cpp:131
 msgid "Remove as Leader"
 msgstr ""
 
-#: apps/qml/qml/UserMenu.qml:55
+#: apps/qml/qml/UserMenu.qml:55 widgets/room/usersinroomlabel.cpp:131
 msgid "Add as Leader"
 msgstr ""
 
-#: apps/qml/qml/UserMenu.qml:60
+#: apps/qml/qml/UserMenu.qml:60 widgets/room/usersinroomlabel.cpp:138
 msgid "Remove as Moderator"
 msgstr ""
 
-#: apps/qml/qml/UserMenu.qml:60
+#: apps/qml/qml/UserMenu.qml:60 widgets/room/usersinroomlabel.cpp:138
 msgid "Add as Moderator"
 msgstr ""
 
-#: apps/qml/qml/UserMenu.qml:68
+#: apps/qml/qml/UserMenu.qml:68 widgets/room/usersinroomlabel.cpp:117
 msgid "Conversation"
 msgstr ""
 
-#: apps/qml/qml/UserMenu.qml:119
+#: apps/qml/qml/UserMenu.qml:119 widgets/room/usersinroomlabel.cpp:144
 msgid "Remove from Room"
 msgstr ""
 
@@ -1878,6 +1878,7 @@ msgid "Discussion Name"
 msgstr ""
 
 #: widgets/dialogs/createnewdiscussionwidget.cpp:58
+#: widgets/ruqolamainwindow.cpp:283
 msgid "Invite Users"
 msgstr ""
 
@@ -2094,62 +2095,62 @@ msgid ""
 "Please enter the generated code or a backup code."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:184
+#: widgets/ruqolamainwindow.cpp:190
 msgid "Add Account..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:189
+#: widgets/ruqolamainwindow.cpp:195
 msgid "Server Info..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:193
+#: widgets/ruqolamainwindow.cpp:199
 msgid "Logout"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:201
+#: widgets/ruqolamainwindow.cpp:207
 msgid "Create New Channel..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:205
+#: widgets/ruqolamainwindow.cpp:211
 msgid "Show Mentions..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:209
+#: widgets/ruqolamainwindow.cpp:215
 msgid "Show Pinned Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:213
+#: widgets/ruqolamainwindow.cpp:219
 msgid "Show Starred Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:217
+#: widgets/ruqolamainwindow.cpp:223
 msgid "Show Snippered Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:226
+#: widgets/ruqolamainwindow.cpp:232
 msgid "Configure Notification..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:234
+#: widgets/ruqolamainwindow.cpp:240
 msgid "Show File Attachment..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:241
+#: widgets/ruqolamainwindow.cpp:247
 msgid "Show Discussions..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:245
+#: widgets/ruqolamainwindow.cpp:251
 msgid "Show Threads..."
 msgstr "顯示討論串…"
 
-#: widgets/ruqolamainwindow.cpp:254
+#: widgets/ruqolamainwindow.cpp:260
 msgid "Channel Info..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:258
+#: widgets/ruqolamainwindow.cpp:264
 msgid "Add Users in Channel..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:262
+#: widgets/ruqolamainwindow.cpp:268
 msgid "Mark all channels read"
 msgstr ""
