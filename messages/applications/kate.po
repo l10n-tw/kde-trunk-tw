@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-17 02:35+0100\n"
+"POT-Creation-Date: 2020-02-19 02:32+0100\n"
 "PO-Revision-Date: 2020-02-13 23:55+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -304,19 +304,19 @@ msgstr ""
 "在這裡您可以看到所有可用的 Kate 外掛程式。具有核取標記的代表已載入，並且在下"
 "次啟動 Kate 時也會再次載入。"
 
-#: katedocmanager.cpp:236
+#: katedocmanager.cpp:240
 #, kde-format
 msgid ""
 "The supposedly temporary file %1 has been modified. Do you want to delete it "
 "anyway?"
 msgstr "暫存檔 %1 已被變更。您確定要刪除嗎？"
 
-#: katedocmanager.cpp:239
+#: katedocmanager.cpp:243
 #, kde-format
 msgid "Delete File?"
 msgstr "要刪除檔案嗎？"
 
-#: katedocmanager.cpp:344
+#: katedocmanager.cpp:348
 #, kde-format
 msgid ""
 "<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
@@ -324,32 +324,32 @@ msgid ""
 msgstr ""
 "<p>此文件「%1」已被修改，但尚未儲存。</p><p>您想要儲存變更還是放棄變更？</p>"
 
-#: katedocmanager.cpp:347 katetabbutton.cpp:46
+#: katedocmanager.cpp:351 katetabbutton.cpp:46
 #, kde-format
 msgid "Close Document"
 msgstr "關閉文件"
 
-#: katedocmanager.cpp:356
+#: katedocmanager.cpp:360
 #, kde-format
 msgid "Save As"
 msgstr "另存新檔"
 
-#: katedocmanager.cpp:374 katemainwindow.cpp:523
+#: katedocmanager.cpp:378 katemainwindow.cpp:523
 #, kde-format
 msgid "New file opened while trying to close Kate, closing aborted."
 msgstr "當嘗試關閉 Kate 時新檔案被開啟，中止關閉程序。"
 
-#: katedocmanager.cpp:374 katemainwindow.cpp:523
+#: katedocmanager.cpp:378 katemainwindow.cpp:523
 #, kde-format
 msgid "Closing Aborted"
 msgstr "關閉已中止"
 
-#: katedocmanager.cpp:449
+#: katedocmanager.cpp:453
 #, kde-format
 msgid "Starting Up"
 msgstr "啟動"
 
-#: katedocmanager.cpp:450
+#: katedocmanager.cpp:454
 #, kde-format
 msgid "Reopening files from the last session..."
 msgstr "從上一次作業階段重新開啟檔案..."

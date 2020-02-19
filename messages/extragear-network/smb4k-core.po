@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: smb4k 0.7.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-09 02:41+0100\n"
+"POT-Creation-Date: 2020-02-19 02:43+0100\n"
 "PO-Revision-Date: 2019-05-14 22:35+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -229,7 +229,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (DomainName), group (Network)
-#: smb4k.kcfg:99 smb4kclient_p.cpp:1843
+#: smb4k.kcfg:99 smb4kclient_p.cpp:1852
 #, fuzzy, kde-format
 msgid "Domain:"
 msgstr "位置："
@@ -1607,7 +1607,7 @@ msgstr "搜尋(&S)"
 msgid "Login:"
 msgstr "鏈結"
 
-#: smb4kbookmarkhandler_p.cpp:494 smb4kclient_p.cpp:1836 smb4kmounter_p.cpp:137
+#: smb4kbookmarkhandler_p.cpp:494 smb4kclient_p.cpp:1845 smb4kmounter_p.cpp:137
 #, kde-format
 msgid "IP Address:"
 msgstr "IP 位址："
@@ -1618,64 +1618,64 @@ msgstr "IP 位址："
 msgid "Group name:"
 msgstr "工作群組："
 
-#: smb4kclient_p.cpp:1001
+#: smb4kclient_p.cpp:1010
 #, fuzzy, kde-format
 msgid "The file %1 could not be read"
 msgstr "找不到命令 %1。"
 
-#: smb4kclient_p.cpp:1023
+#: smb4kclient_p.cpp:1032
 #, fuzzy, kde-format
 msgid "The file %1 could not be printed to %2"
 msgstr "找不到命令 %1。"
 
-#: smb4kclient_p.cpp:1392
+#: smb4kclient_p.cpp:1401
 #, fuzzy, kde-format
 #| msgid "Preview"
 msgid "Preview of %1"
 msgstr "預覽"
 
-#: smb4kclient_p.cpp:1428
+#: smb4kclient_p.cpp:1437
 #, fuzzy, kde-format
 msgid "Reload"
 msgstr "就緒。"
 
-#: smb4kclient_p.cpp:1430
+#: smb4kclient_p.cpp:1439
 #, fuzzy, kde-format
 msgid "Abort"
 msgstr "放棄(&A)"
 
-#: smb4kclient_p.cpp:1442
+#: smb4kclient_p.cpp:1451
 #, kde-format
 msgid "Up"
 msgstr "向上"
 
-#: smb4kclient_p.cpp:1809
+#: smb4kclient_p.cpp:1818
 #, kde-format
 msgid "Print File"
 msgstr "列印檔案"
 
-#: smb4kclient_p.cpp:1825
+#: smb4kclient_p.cpp:1834
 #, kde-format
 msgid "Information"
 msgstr ""
 
-#: smb4kclient_p.cpp:1829
+#: smb4kclient_p.cpp:1838
 #, fuzzy, kde-format
 #| msgid "Printer"
 msgid "Printer:"
 msgstr "印表機"
 
-#: smb4kclient_p.cpp:1854
+#: smb4kclient_p.cpp:1863
 #, kde-format
 msgid "File and Settings"
 msgstr ""
 
-#: smb4kclient_p.cpp:1858
+#: smb4kclient_p.cpp:1867
 #, kde-format
 msgid "File:"
 msgstr "檔案："
 
-#: smb4kclient_p.cpp:1862
+#: smb4kclient_p.cpp:1871
 #, kde-format
 msgid ""
 "This is the file you want to print on the remote printer. Currently only a "
@@ -1683,17 +1683,17 @@ msgid ""
 "If the file's mimetype is not supported, you need to convert it."
 msgstr ""
 
-#: smb4kclient_p.cpp:1871
+#: smb4kclient_p.cpp:1880
 #, kde-format
 msgid "Copies:"
 msgstr "份數："
 
-#: smb4kclient_p.cpp:1875
+#: smb4kclient_p.cpp:1884
 #, kde-format
 msgid "This is the number of copies you want to print."
 msgstr ""
 
-#: smb4kclient_p.cpp:1886
+#: smb4kclient_p.cpp:1895
 #, fuzzy, kde-format
 #| msgid "Printer"
 msgid "Print"

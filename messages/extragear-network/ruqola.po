@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-18 02:48+0100\n"
+"POT-Creation-Date: 2020-02-19 02:43+0100\n"
 "PO-Revision-Date: 2020-02-15 20:21+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -36,80 +36,98 @@ msgstr "Ruqolaqml"
 msgid "QML Rocket Chat Client"
 msgstr "QML Rocket Chat 用戶端"
 
-#: apps/qml/main.cpp:65 apps/widget/main.cpp:59
-msgid "Copyright © 2017-2020 Ruqola authors"
+#: apps/qml/main.cpp:65
+#, fuzzy
+#| msgid "Copyright © 2017-2020 Ruqola authors"
+msgid "Copyright © 2017-2020 Ruqolaqml authors"
 msgstr "著作權所有 © 2017-2020 Ruqola 作者群"
 
-#: apps/qml/main.cpp:67 apps/widget/main.cpp:61
+#: apps/qml/main.cpp:67 apps/widget/main.cpp:59
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/qml/main.cpp:67 apps/widget/main.cpp:61
+#: apps/qml/main.cpp:67 apps/widget/main.cpp:59
 msgid "Maintainer"
 msgstr "維護者"
 
-#: apps/qml/main.cpp:68 apps/widget/main.cpp:62
+#: apps/qml/main.cpp:68
 msgid "Riccardo Iaconelli"
 msgstr "Riccardo Iaconelli"
 
-#: apps/qml/main.cpp:68 apps/widget/main.cpp:62
+#: apps/qml/main.cpp:68
 msgid "Original author"
 msgstr "最初作者"
 
-#: apps/qml/main.cpp:69 apps/widget/main.cpp:63
+#: apps/qml/main.cpp:69
 msgid "Vasudha Mathur"
 msgstr "Vasudha Mathur"
 
-#: apps/qml/main.cpp:69 apps/widget/main.cpp:63
+#: apps/qml/main.cpp:69
 msgid "Former core developer"
 msgstr "前核心開發者"
 
-#: apps/qml/main.cpp:73 apps/widget/main.cpp:67
+#: apps/qml/main.cpp:73 apps/widget/main.cpp:63
 msgid "David Faure"
 msgstr "David Faure"
 
-#: apps/qml/main.cpp:73 apps/qml/main.cpp:77 apps/widget/main.cpp:67
-#: apps/widget/main.cpp:71
+#: apps/qml/main.cpp:73 apps/qml/main.cpp:77 apps/qml/main.cpp:78
+#: apps/qml/main.cpp:80 apps/widget/main.cpp:64 apps/widget/main.cpp:65
 msgid "Bug fixing"
 msgstr "臭蟲修正"
 
-#: apps/qml/main.cpp:74 apps/widget/main.cpp:68
+#: apps/qml/main.cpp:74
 msgid "Paul Lemire"
 msgstr "Paul Lemire"
 
-#: apps/qml/main.cpp:74 apps/widget/main.cpp:68
+#: apps/qml/main.cpp:74
 msgid "Help for debugging QML"
 msgstr "協助除錯 QML"
 
-#: apps/qml/main.cpp:75 apps/widget/main.cpp:69
+#: apps/qml/main.cpp:75
 msgid "Veluri Mithun"
 msgstr "Veluri Mithun"
 
-#: apps/qml/main.cpp:75 apps/widget/main.cpp:69
+#: apps/qml/main.cpp:75
 msgid "Autotest improvement and created some tests apps"
 msgstr "完善自動測試並建立一些測試 App"
 
-#: apps/qml/main.cpp:76 apps/widget/main.cpp:70
+#: apps/qml/main.cpp:76
 msgid "Franck Arrecot"
 msgstr "Franck Arrecot"
 
-#: apps/qml/main.cpp:76 apps/widget/main.cpp:70
+#: apps/qml/main.cpp:76
 msgid "Fix some QML bugs"
 msgstr "修正一些 QML 臭蟲"
 
-#: apps/qml/main.cpp:77 apps/widget/main.cpp:71
+#: apps/qml/main.cpp:77
 msgid "Volker Krause"
 msgstr "Volker Krause"
 
-#: apps/qml/main.cpp:82 apps/widget/main.cpp:76
+#: apps/qml/main.cpp:78 apps/widget/main.cpp:64
+msgid "Kevin Funk"
+msgstr ""
+
+#: apps/qml/main.cpp:79
+msgid "Nicolas Fella"
+msgstr ""
+
+#: apps/qml/main.cpp:79
+msgid "Android support"
+msgstr ""
+
+#: apps/qml/main.cpp:80
+msgid "Alessandro Ambrosano"
+msgstr ""
+
+#: apps/qml/main.cpp:85 apps/widget/main.cpp:70
 msgid "Return lists of accounts"
 msgstr "回到帳戶列表"
 
-#: apps/qml/main.cpp:83 apps/widget/main.cpp:77
+#: apps/qml/main.cpp:86 apps/widget/main.cpp:71
 msgid "Start with specific account"
 msgstr "使用指定帳戶啟動"
 
-#: apps/qml/main.cpp:92 apps/widget/main.cpp:86
+#: apps/qml/main.cpp:95 apps/widget/main.cpp:80
 msgid "The following accounts are available:"
 msgstr "可使用以下帳戶："
 
@@ -378,7 +396,7 @@ msgstr "刪除聊天室"
 msgid "Do you want to delete this room?"
 msgstr "您確定要刪除此聊天室嗎？"
 
-#: apps/qml/qml/Desktop.qml:59 apps/widget/main.cpp:55
+#: apps/qml/qml/Desktop.qml:59 apps/widget/main.cpp:53
 msgid "Ruqola"
 msgstr "Ruqola"
 
@@ -663,7 +681,7 @@ msgid "Report Message"
 msgstr "檢舉訊息"
 
 #: apps/qml/qml/messages/MessageMenu.qml:134 apps/qml/qml/UserMenu.qml:46
-#: widgets/room/usersinroomlabel.cpp:149
+#: widgets/room/usersinroomlabel.cpp:146
 msgid "Ignore"
 msgstr "無視"
 
@@ -956,7 +974,7 @@ msgid "Description"
 msgstr ""
 
 #: apps/qml/qml/UploadFileDialog.qml:68
-#: widgets/dialogs/createnewdiscussionwidget.cpp:69
+#: widgets/dialogs/createnewdiscussionwidget.cpp:68
 msgid "Message"
 msgstr ""
 
@@ -980,40 +998,54 @@ msgstr ""
 msgid "Send Message"
 msgstr ""
 
-#: apps/qml/qml/UserMenu.qml:50 widgets/room/usersinroomlabel.cpp:123
+#: apps/qml/qml/UserMenu.qml:50 widgets/room/usersinroomlabel.cpp:120
 msgid "Remove as Owner"
 msgstr ""
 
-#: apps/qml/qml/UserMenu.qml:50 widgets/room/usersinroomlabel.cpp:123
+#: apps/qml/qml/UserMenu.qml:50 widgets/room/usersinroomlabel.cpp:120
 msgid "Add as Owner"
 msgstr ""
 
-#: apps/qml/qml/UserMenu.qml:55 widgets/room/usersinroomlabel.cpp:131
+#: apps/qml/qml/UserMenu.qml:55 widgets/room/usersinroomlabel.cpp:128
 msgid "Remove as Leader"
 msgstr ""
 
-#: apps/qml/qml/UserMenu.qml:55 widgets/room/usersinroomlabel.cpp:131
+#: apps/qml/qml/UserMenu.qml:55 widgets/room/usersinroomlabel.cpp:128
 msgid "Add as Leader"
 msgstr ""
 
-#: apps/qml/qml/UserMenu.qml:60 widgets/room/usersinroomlabel.cpp:138
+#: apps/qml/qml/UserMenu.qml:60 widgets/room/usersinroomlabel.cpp:135
 msgid "Remove as Moderator"
 msgstr ""
 
-#: apps/qml/qml/UserMenu.qml:60 widgets/room/usersinroomlabel.cpp:138
+#: apps/qml/qml/UserMenu.qml:60 widgets/room/usersinroomlabel.cpp:135
 msgid "Add as Moderator"
 msgstr ""
 
-#: apps/qml/qml/UserMenu.qml:68 widgets/room/usersinroomlabel.cpp:117
+#: apps/qml/qml/UserMenu.qml:68 widgets/room/usersinroomlabel.cpp:114
 msgid "Conversation"
 msgstr ""
 
-#: apps/qml/qml/UserMenu.qml:119 widgets/room/usersinroomlabel.cpp:144
+#: apps/qml/qml/UserMenu.qml:119 widgets/room/usersinroomlabel.cpp:141
 msgid "Remove from Room"
 msgstr ""
 
-#: apps/widget/main.cpp:57
+#: apps/widget/main.cpp:55
 msgid "Rocket Chat Client"
+msgstr ""
+
+#: apps/widget/main.cpp:57
+#, fuzzy
+#| msgid "Copyright © 2017-2020 Ruqola authors"
+msgid "Copyright © 2020 Ruqola authors"
+msgstr "著作權所有 © 2017-2020 Ruqola 作者群"
+
+#: apps/widget/main.cpp:63
+msgid "Bug fixing, delegates etc."
+msgstr ""
+
+#: apps/widget/main.cpp:65
+msgid "Olivier JG"
 msgstr ""
 
 #: core/discussion.cpp:89
@@ -1851,6 +1883,7 @@ msgid "Create Channel"
 msgstr ""
 
 #: widgets/dialogs/createnewchannelwidget.cpp:42
+#: widgets/dialogs/createnewdiscussionwidget.cpp:65
 #, fuzzy
 #| msgid "Search User..."
 msgid "Invite Users..."
@@ -1869,15 +1902,15 @@ msgctxt "@title:window"
 msgid "Create Discussion"
 msgstr ""
 
-#: widgets/dialogs/createnewdiscussionwidget.cpp:35
+#: widgets/dialogs/createnewdiscussionwidget.cpp:36
 msgid "Channel or Group parent"
 msgstr ""
 
-#: widgets/dialogs/createnewdiscussionwidget.cpp:48
+#: widgets/dialogs/createnewdiscussionwidget.cpp:49
 msgid "Discussion Name"
 msgstr ""
 
-#: widgets/dialogs/createnewdiscussionwidget.cpp:58
+#: widgets/dialogs/createnewdiscussionwidget.cpp:59
 #: widgets/ruqolamainwindow.cpp:283
 msgid "Invite Users"
 msgstr ""

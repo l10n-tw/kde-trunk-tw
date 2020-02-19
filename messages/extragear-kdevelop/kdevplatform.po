@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevplatform\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-15 02:47+0100\n"
+"POT-Creation-Date: 2020-02-19 02:40+0100\n"
 "PO-Revision-Date: 2014-04-23 15:00+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -1231,35 +1231,35 @@ msgstr ""
 msgid "(Hold <em>Alt</em> to show this tooltip)"
 msgstr ""
 
-#: language/duchain/navigation/problemnavigationcontext.cpp:104
+#: language/duchain/navigation/problemnavigationcontext.cpp:97
 #, kde-format
 msgid "Problem"
 msgstr "問題"
 
-#: language/duchain/navigation/problemnavigationcontext.cpp:134
+#: language/duchain/navigation/problemnavigationcontext.cpp:126
 #, fuzzy, kde-format
 #| msgid "Problem in <b>%1</b>:<br/>"
 msgid "Problem in <i>%1</i>"
 msgstr "在 <b>%1</b> 內的問題：<br/>"
 
-#: language/duchain/navigation/problemnavigationcontext.cpp:138
+#: language/duchain/navigation/problemnavigationcontext.cpp:130
 #, fuzzy, kde-format
 #| msgid "Location"
 msgid "Location: "
 msgstr "位置"
 
-#: language/duchain/navigation/problemnavigationcontext.cpp:176
-#: language/duchain/navigation/problemnavigationcontext.cpp:186
+#: language/duchain/navigation/problemnavigationcontext.cpp:168
+#: language/duchain/navigation/problemnavigationcontext.cpp:178
 #, kde-format
 msgid "<br>See: "
 msgstr ""
 
-#: language/duchain/navigation/problemnavigationcontext.cpp:179
+#: language/duchain/navigation/problemnavigationcontext.cpp:171
 #, kde-format
 msgid " in "
 msgstr " 於 "
 
-#: language/duchain/navigation/problemnavigationcontext.cpp:217
+#: language/duchain/navigation/problemnavigationcontext.cpp:208
 #, fuzzy, kde-format
 #| msgctxt ""
 #| msgid "configuring"
@@ -2709,38 +2709,38 @@ msgstr ""
 msgid "Todo"
 msgstr ""
 
-#: shell/problemmodel.cpp:70
+#: shell/problemmodel.cpp:51
 #, fuzzy, kde-format
 #| msgid "Close all other documents"
 msgctxt "@info:tooltip"
 msgid "Re-parse all watched documents"
 msgstr "關閉所有其它的文件"
 
-#: shell/problemmodel.cpp:353
+#: shell/problemmodel.cpp:334
 #, kde-format
 msgctxt "@title:column source of problem"
 msgid "Source"
 msgstr "源碼"
 
-#: shell/problemmodel.cpp:355
+#: shell/problemmodel.cpp:336
 #, kde-format
 msgctxt "@title:column problem description"
 msgid "Problem"
 msgstr "問題"
 
-#: shell/problemmodel.cpp:357
+#: shell/problemmodel.cpp:338
 #, kde-format
 msgctxt "@title:column file where problem was found"
 msgid "File"
 msgstr "檔案"
 
-#: shell/problemmodel.cpp:359
+#: shell/problemmodel.cpp:340
 #, kde-format
 msgctxt "@title:column line number with problem"
 msgid "Line"
 msgstr "列"
 
-#: shell/problemmodel.cpp:361
+#: shell/problemmodel.cpp:342
 #, kde-format
 msgctxt "@title:column column number with problem"
 msgid "Column"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-12 03:58+0100\n"
+"POT-Creation-Date: 2020-02-19 03:39+0100\n"
 "PO-Revision-Date: 2020-02-15 19:57+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -117,114 +117,125 @@ msgstr "依程式名稱"
 
 #: package/contents/ui/ConfigBehavior.qml:59
 #, kde-format
-msgid "Open groups in popups"
-msgstr "在彈出式視窗中開啟群組"
+msgid "Combine into single button"
+msgstr ""
 
-#: package/contents/ui/ConfigBehavior.qml:73
+#: package/contents/ui/ConfigBehavior.qml:66
 #, kde-format
 msgid "Group only when the Task Manager is full"
 msgstr "只在工作管理員空間不足時分組"
 
-#: package/contents/ui/ConfigBehavior.qml:87
+#: package/contents/ui/ConfigBehavior.qml:79
 #, kde-format
 msgid "Sort:"
 msgstr "排序："
 
-#: package/contents/ui/ConfigBehavior.qml:89
+#: package/contents/ui/ConfigBehavior.qml:81
 #, kde-format
 msgid "Do not sort"
 msgstr "請勿排序"
 
-#: package/contents/ui/ConfigBehavior.qml:89
+#: package/contents/ui/ConfigBehavior.qml:81
 #, kde-format
 msgid "Manually"
 msgstr "手動"
 
-#: package/contents/ui/ConfigBehavior.qml:89
+#: package/contents/ui/ConfigBehavior.qml:81
 #, kde-format
 msgid "Alphabetically"
 msgstr "依字母順序"
 
-#: package/contents/ui/ConfigBehavior.qml:89
+#: package/contents/ui/ConfigBehavior.qml:81
 #, kde-format
 msgid "By desktop"
 msgstr "依桌面"
 
-#: package/contents/ui/ConfigBehavior.qml:89
+#: package/contents/ui/ConfigBehavior.qml:81
 #, kde-format
 msgid "By activity"
 msgstr "依活動"
 
-#: package/contents/ui/ConfigBehavior.qml:95
+#: package/contents/ui/ConfigBehavior.qml:87
 #, kde-format
 msgid "Keep launchers separate"
 msgstr "讓啟動器保持獨立"
 
-#: package/contents/ui/ConfigBehavior.qml:107
+#: package/contents/ui/ConfigBehavior.qml:99
 #, kde-format
 msgid "On middle-click:"
 msgstr "點擊滑鼠中鍵："
 
-#: package/contents/ui/ConfigBehavior.qml:110
+#: package/contents/ui/ConfigBehavior.qml:102
 #, kde-format
 msgctxt "The click action"
 msgid "None"
 msgstr "無"
 
-#: package/contents/ui/ConfigBehavior.qml:111
+#: package/contents/ui/ConfigBehavior.qml:103
 #, kde-format
 msgid "Close window or group"
 msgstr "關閉視窗或群組"
 
-#: package/contents/ui/ConfigBehavior.qml:112
+#: package/contents/ui/ConfigBehavior.qml:104
 #, kde-format
 msgid "New instance"
 msgstr "新的實體"
 
-#: package/contents/ui/ConfigBehavior.qml:113
+#: package/contents/ui/ConfigBehavior.qml:105
 #, kde-format
 msgid "Minimize/Restore window or group"
 msgstr "最小化/復原視窗"
 
-#: package/contents/ui/ConfigBehavior.qml:114
+#: package/contents/ui/ConfigBehavior.qml:106
 #, kde-format
 msgctxt "When clicking it would toggle grouping windows of a specific app"
 msgid "Group/Ungroup"
 msgstr "分組／取消分組"
 
-#: package/contents/ui/ConfigBehavior.qml:115
+#: package/contents/ui/ConfigBehavior.qml:107
 #, kde-format
 msgid "Bring to the current virtual desktop"
 msgstr "移至目前虛擬桌面"
 
-#: package/contents/ui/ConfigBehavior.qml:121
+#: package/contents/ui/ConfigBehavior.qml:117
 #, kde-format
-msgid "Cycle through tasks with mouse wheel"
+msgid "Mouse wheel:"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:118
+#, fuzzy, kde-format
+#| msgid "Cycle through tasks with mouse wheel"
+msgid "Cycle through tasks"
 msgstr "使用滑鼠滾輪循環切換工作"
 
-#: package/contents/ui/ConfigBehavior.qml:130
-#, kde-format
-msgid "Filter:"
-msgstr "過濾器："
+#: package/contents/ui/ConfigBehavior.qml:127
+#, fuzzy, kde-format
+#| msgid "Show tooltips"
+msgid "Show only tasks:"
+msgstr "顯示工具提示"
 
-#: package/contents/ui/ConfigBehavior.qml:131
-#, kde-format
-msgid "Show only tasks from the current screen"
+#: package/contents/ui/ConfigBehavior.qml:128
+#, fuzzy, kde-format
+#| msgid "Show only tasks from the current screen"
+msgid "From current screen"
 msgstr "只顯示目前螢幕上的工作"
 
-#: package/contents/ui/ConfigBehavior.qml:136
-#, kde-format
-msgid "Show only tasks from the current desktop"
-msgstr "只顯示目前桌面上的工作"
+#: package/contents/ui/ConfigBehavior.qml:133
+#, fuzzy, kde-format
+#| msgid "Move &To Current Desktop"
+msgid "From current desktop"
+msgstr "移到目前桌面(&T)"
 
-#: package/contents/ui/ConfigBehavior.qml:141
-#, kde-format
-msgid "Show only tasks from the current activity"
-msgstr "只顯示目前活動裡的工作"
+#: package/contents/ui/ConfigBehavior.qml:138
+#, fuzzy, kde-format
+#| msgid "Add To Current Activity"
+msgid "From current activity"
+msgstr "新增到目前活動"
 
-#: package/contents/ui/ConfigBehavior.qml:146
-#, kde-format
-msgid "Show only tasks that are minimized"
+#: package/contents/ui/ConfigBehavior.qml:143
+#, fuzzy, kde-format
+#| msgid "Show only tasks that are minimized"
+msgid "That are minimized"
 msgstr "只顯示縮到最小的工作"
 
 #: package/contents/ui/ContextMenu.qml:99
@@ -446,6 +457,18 @@ msgstr[0] "%1 個更多位置"
 #, kde-format
 msgid "Forget Recent Documents"
 msgstr "忘掉最近的文件"
+
+#~ msgid "Open groups in popups"
+#~ msgstr "在彈出式視窗中開啟群組"
+
+#~ msgid "Filter:"
+#~ msgstr "過濾器："
+
+#~ msgid "Show only tasks from the current desktop"
+#~ msgstr "只顯示目前桌面上的工作"
+
+#~ msgid "Show only tasks from the current activity"
+#~ msgstr "只顯示目前活動裡的工作"
 
 #~ msgid "Always arrange tasks in as many rows as columns"
 #~ msgstr "總是將任務安排在與列數一樣多的欄中"
