@@ -12,14 +12,14 @@ msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-02-19 03:41+0100\n"
-"PO-Revision-Date: 2020-02-08 17:14+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2020-02-20 19:06+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.12.1\n"
+"X-Generator: Lokalize 19.12.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -93,13 +93,13 @@ msgid "Power Off"
 msgstr "關閉電源"
 
 #: actions/bundled/handlebuttonevents.cpp:77
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu Global shortcut"
 #| msgid "Power Down"
 msgctxt ""
 "@action:inmenu Global shortcut, used for long presses of the power button"
 msgid "Power Down"
-msgstr "關閉電源"
+msgstr "強制關機"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:87
 #, kde-format
@@ -364,8 +364,7 @@ msgctxt "Placeholder is device name"
 msgid ""
 "The battery in (\"%1\") is running low, and the device may turn off at any "
 "time. Please recharge or replace the battery."
-msgstr ""
-"(\"%1\") 裝置中的電池電量偏低，裝置隨時可能關閉。請盡快更換電池或充電。"
+msgstr "(\"%1\") 裝置中的電池電量偏低，裝置隨時可能關閉。請盡快更換電池或充電。"
 
 #: powerdevilcore.cpp:532
 #, kde-format
@@ -383,8 +382,7 @@ msgctxt "Placeholder is device name"
 msgid ""
 "The battery in Bluetooth device \"%1\" is running low, and the device may "
 "turn off at any time. Please recharge or replace the battery."
-msgstr ""
-"「%1」藍牙裝置中的電池電量偏低，裝置隨時可能關閉。請盡快更換電池或充電。"
+msgstr "「%1」藍牙裝置中的電池電量偏低，裝置隨時可能關閉。請盡快更換電池或充電。"
 
 #: powerdevilcore.cpp:546
 #, kde-format

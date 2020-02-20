@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-02-20 02:41+0100\n"
-"PO-Revision-Date: 2020-02-15 20:21+0800\n"
+"PO-Revision-Date: 2020-02-20 19:05+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -37,10 +37,9 @@ msgid "QML Rocket Chat Client"
 msgstr "QML Rocket Chat 用戶端"
 
 #: apps/qml/main.cpp:65
-#, fuzzy
 #| msgid "Copyright © 2017-2020 Ruqola authors"
 msgid "Copyright © 2017-2020 Ruqolaqml authors"
-msgstr "著作權所有 © 2017-2020 Ruqola 作者群"
+msgstr "著作權所有 © 2020 Ruqola 作者群"
 
 #: apps/qml/main.cpp:67 apps/widget/main.cpp:59
 msgid "Laurent Montel"
@@ -1035,10 +1034,9 @@ msgid "Rocket Chat Client"
 msgstr ""
 
 #: apps/widget/main.cpp:57
-#, fuzzy
 #| msgid "Copyright © 2017-2020 Ruqola authors"
 msgid "Copyright © 2020 Ruqola authors"
-msgstr "著作權所有 © 2017-2020 Ruqola 作者群"
+msgstr "著作權所有 © 2020 Ruqola 作者群"
 
 #: apps/widget/main.cpp:63
 msgid "Bug fixing, delegates etc."
@@ -1884,10 +1882,9 @@ msgstr ""
 
 #: widgets/dialogs/createnewchannelwidget.cpp:42
 #: widgets/dialogs/createnewdiscussionwidget.cpp:65
-#, fuzzy
 #| msgid "Search User..."
 msgid "Invite Users..."
-msgstr "搜尋使用者…"
+msgstr "邀請使用者…"
 
 #: widgets/dialogs/createnewchannelwidget.cpp:58
 msgid "Private Room:"
@@ -1916,18 +1913,16 @@ msgid "Invite Users"
 msgstr ""
 
 #: widgets/dialogs/directchannelinfodialog.cpp:30
-#, fuzzy
 #| msgid "Server Info"
 msgctxt "@title:window"
 msgid "Users Info"
-msgstr "伺服器資訊"
+msgstr "使用者資訊"
 
 #: widgets/dialogs/inviteusersdialog.cpp:30
-#, fuzzy
 #| msgid "List of Users"
 msgctxt "@title:window"
 msgid "Invite Users"
-msgstr "使用者清單"
+msgstr "邀請使用者"
 
 #: widgets/dialogs/modifystatusdialog.cpp:30
 msgctxt "@title:window"
@@ -1990,7 +1985,6 @@ msgid "Search Discussion..."
 msgstr ""
 
 #: widgets/dialogs/showdiscussionswidget.cpp:86
-#, fuzzy
 #| msgid "%1 discussion in room (Total: %2)"
 #| msgid_plural "%1 discussions in room (Total: %2)"
 msgid "%1 Discussion in room (Total: %2)"
@@ -2036,7 +2030,6 @@ msgid "Search Thread..."
 msgstr ""
 
 #: widgets/dialogs/showthreadswidget.cpp:86
-#, fuzzy
 #| msgid "%1 thread in room (Total: %2)"
 #| msgid_plural "%1 threads in room (Total: %2)"
 msgid "%1 Thread in room (Total: %2)"
