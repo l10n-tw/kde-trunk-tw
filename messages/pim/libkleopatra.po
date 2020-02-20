@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-12 03:39+0100\n"
+"POT-Creation-Date: 2020-02-20 03:22+0100\n"
 "PO-Revision-Date: 2015-02-16 23:21+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
@@ -517,41 +517,41 @@ msgstr ""
 msgid "Set the debugging level to"
 msgstr "設定除錯等級"
 
-#: ui/cryptoconfigmodule.cpp:780
+#: ui/cryptoconfigmodule.cpp:784
 #, kde-format
 msgid "Show..."
 msgstr "顯示..."
 
-#: ui/cryptoconfigmodule.cpp:780 ui/cryptoconfigmodule.cpp:869
+#: ui/cryptoconfigmodule.cpp:784 ui/cryptoconfigmodule.cpp:873
 #, kde-format
 msgid "Edit..."
 msgstr "編輯..."
 
-#: ui/cryptoconfigmodule.cpp:834
+#: ui/cryptoconfigmodule.cpp:838
 #, fuzzy, kde-format
 #| msgid "Configure LDAP Servers"
 msgctxt "@title:window"
 msgid "Configure LDAP Servers"
 msgstr "設定 LDAP 伺服器"
 
-#: ui/cryptoconfigmodule.cpp:855
+#: ui/cryptoconfigmodule.cpp:859
 #, fuzzy, kde-format
 #| msgid "No server configured yet"
 msgid "None configured"
 msgstr "還沒設定伺服器"
 
-#: ui/cryptoconfigmodule.cpp:857
+#: ui/cryptoconfigmodule.cpp:861
 #, kde-format
 msgid "1 server configured"
 msgid_plural "%1 servers configured"
 msgstr[0] "已設定 %1 個伺服器"
 
-#: ui/cryptoconfigmodule.cpp:872
+#: ui/cryptoconfigmodule.cpp:876
 #, kde-format
 msgid "Use keyserver at"
 msgstr "使用金鑰伺服器："
 
-#: ui/cryptoconfigmodule.cpp:961
+#: ui/cryptoconfigmodule.cpp:965
 #, fuzzy, kde-format
 #| msgid "Configure Keyservers"
 msgctxt "@title:window"
@@ -963,7 +963,7 @@ msgstr ""
 msgid "OpenPGP"
 msgstr "OpenPGP"
 
-#: ui/keyselectioncombo.cpp:510
+#: ui/keyselectioncombo.cpp:518
 #, fuzzy, kde-format
 #| msgid "Fetching keys..."
 msgid "Loading keys ..."
@@ -1301,7 +1301,7 @@ msgstr "選擇金鑰"
 msgid "Operation Failed"
 msgstr "解密失敗：%1"
 
-#: ui/newkeyapprovaldialog.cpp:478 ui/newkeyapprovaldialog.cpp:556
+#: ui/newkeyapprovaldialog.cpp:478 ui/newkeyapprovaldialog.cpp:560
 #, kde-format
 msgid "Generate a new key pair"
 msgstr ""
@@ -1317,24 +1317,24 @@ msgctxt "@info:tooltip for not selecting a key for signing."
 msgid "The E-Mail will not be cryptographically signed."
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:508
+#: ui/newkeyapprovaldialog.cpp:512
 #, kde-format
 msgctxt "Caption for signing key selection"
 msgid "Confirm identity '%1' as:"
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:528
+#: ui/newkeyapprovaldialog.cpp:532
 #, kde-format
 msgctxt "Caption for signing key selection, no key found"
 msgid "No key found for the address '%1':"
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:561
+#: ui/newkeyapprovaldialog.cpp:565
 #, kde-format
 msgid "No key. Recipient will be unable to decrypt."
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:563
+#: ui/newkeyapprovaldialog.cpp:567
 #, kde-format
 msgctxt "@info:tooltip for No Key selected for a specific recipient."
 msgid ""
@@ -1343,19 +1343,19 @@ msgid ""
 "selected in this dialog."
 msgstr ""
 
-#: ui/newkeyapprovaldialog.cpp:595
+#: ui/newkeyapprovaldialog.cpp:603
 #, fuzzy, kde-format
 #| msgid "Never Encrypt"
 msgid "Encrypt to:"
 msgstr "絕不加密"
 
-#: ui/newkeyapprovaldialog.cpp:623
+#: ui/newkeyapprovaldialog.cpp:631
 #, fuzzy, kde-format
 #| msgid "General"
 msgid "Generate"
 msgstr "一般"
 
-#: ui/newkeyapprovaldialog.cpp:671
+#: ui/newkeyapprovaldialog.cpp:679
 #, fuzzy, kde-format
 #| msgid "All Certificates"
 msgctxt ""
@@ -1366,7 +1366,7 @@ msgctxt ""
 msgid "VS-NfD-compliant communication possible."
 msgstr "所有憑證"
 
-#: ui/newkeyapprovaldialog.cpp:673
+#: ui/newkeyapprovaldialog.cpp:681
 #, fuzzy, kde-format
 #| msgid "All Certificates"
 msgctxt ""

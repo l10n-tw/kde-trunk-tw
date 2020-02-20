@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-19 03:54+0000\n"
+"POT-Creation-Date: 2020-02-20 03:55+0000\n"
 "PO-Revision-Date: 2019-11-15 17:57+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -116,6 +116,14 @@ msgctxt "Name"
 msgid "Österreichische Bundesbahnen (ÖBB)"
 msgstr ""
 
+#: src/lib/networks/de_sn_vvo.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Aachener Verkehrsverbund (AVV)"
+msgctxt "Name"
+msgid "Verkehrsverbund Oberelbe (VVO)"
+msgstr "Aachener Verkehrsverbund (AVV)"
+
 #: src/lib/networks/de_sl_saarvv.json
 #, fuzzy
 #| msgctxt "Name"
@@ -123,6 +131,11 @@ msgstr ""
 msgctxt "Name"
 msgid "Saarländischer Verkehrsverbund (saarVV)"
 msgstr "Karlsruher Verkehrsverbund (KVV)"
+
+#: src/lib/networks/de_ni_efa.json
+msgctxt "Name"
+msgid "Elektronische Fahrplanauskunft für Niedersachsen und Bremen"
+msgstr ""
 
 #: src/lib/networks/de_bw_bwegt.json
 msgctxt "Name"
@@ -213,6 +226,11 @@ msgctxt "Name"
 msgid "Bay Area Rapid Transit (BART)"
 msgstr ""
 
+#: src/lib/networks/de_nw_zks.json
+msgctxt "Name"
+msgid "Delfi NRW"
+msgstr ""
+
 #: src/lib/networks/de_by_mvv.json
 msgctxt "Name"
 msgid "Münchener Verkehrs- und Tarifverbund (MVV)"
@@ -286,6 +304,11 @@ msgstr ""
 msgctxt "Name"
 msgid "Verkehrsverbund Vorarlberg (VVV)"
 msgstr "Aachener Verkehrsverbund (AVV)"
+
+#: src/lib/networks/de_mv_vmv.json
+msgctxt "Name"
+msgid "Verkehrsgesellschaft Mecklenburg-Vorpommern (VMV)"
+msgstr ""
 
 #: src/lib/networks/at_5_svv.json
 #, fuzzy
@@ -442,9 +465,19 @@ msgctxt "Description"
 msgid "Austrian national railway."
 msgstr ""
 
+#: src/lib/networks/de_sn_vvo.json
+msgctxt "Description"
+msgid "Public transport Saxony, Germany."
+msgstr ""
+
 #: src/lib/networks/de_sl_saarvv.json
 msgctxt "Description"
 msgid "Public transport in Saarland, Germany."
+msgstr ""
+
+#: src/lib/networks/de_ni_efa.json
+msgctxt "Description"
+msgid "Public transport in Lower Saxony, Germany."
 msgstr ""
 
 #: src/lib/networks/de_bw_bwegt.json
@@ -527,6 +560,11 @@ msgctxt "Description"
 msgid "Local transport in the bay area in California, United States."
 msgstr ""
 
+#: src/lib/networks/de_nw_zks.json
+msgctxt "Description"
+msgid "Public transport North Rhine-Westphalia, Germany."
+msgstr ""
+
 #: src/lib/networks/de_by_mvv.json
 msgctxt "Description"
 msgid "Local transport in and around Munich, Germany."
@@ -590,6 +628,11 @@ msgstr ""
 #: src/lib/networks/at_8_vvv.json
 msgctxt "Description"
 msgid "Regional public transport in Vorarlberg, Austria."
+msgstr ""
+
+#: src/lib/networks/de_mv_vmv.json
+msgctxt "Description"
+msgid "Public transport in Mecklenburg-Western Pomerania, Germany."
 msgstr ""
 
 #: src/lib/networks/at_5_svv.json

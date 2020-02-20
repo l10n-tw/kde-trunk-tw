@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mathematik\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-14 03:06+0100\n"
+"POT-Creation-Date: 2020-02-20 02:54+0100\n"
 "PO-Revision-Date: 2019-09-22 19:06+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -564,22 +564,22 @@ msgstr "Maxima 執行檔路徑"
 msgid "Url to the local Maxima documentation"
 msgstr "本機 Maxima 文件的 URL"
 
-#: backends/maxima/maximaexpression.cpp:116
+#: backends/maxima/maximaexpression.cpp:118
 #, kde-format
 msgid "Error: Too many */"
 msgstr "錯誤：太多的 */"
 
-#: backends/maxima/maximaexpression.cpp:129
+#: backends/maxima/maximaexpression.cpp:131
 #, kde-format
 msgid "Error: Too many /*"
 msgstr "錯誤：太多的 /*"
 
-#: backends/maxima/maximaexpression.cpp:135
+#: backends/maxima/maximaexpression.cpp:137
 #, kde-format
 msgid "Error: expected \" before ;"
 msgstr "錯誤：在 ; 之前應有 \""
 
-#: backends/maxima/maximaexpression.cpp:355
+#: backends/maxima/maximaexpression.cpp:358
 #, kde-format
 msgid "Waiting for the plot result"
 msgstr "等待策劃結果"
@@ -589,24 +589,24 @@ msgstr "等待策劃結果"
 msgid "Maxima batch file (*.mac)"
 msgstr "Maxima 批次檔 (*.mac)"
 
-#: backends/maxima/maximasession.cpp:186
+#: backends/maxima/maximasession.cpp:188
 #, kde-format
 msgid "Failed to start Maxima"
 msgstr "啟動 Maxima 失敗。"
 
-#: backends/maxima/maximasession.cpp:274
+#: backends/maxima/maximasession.cpp:276
 #, kde-format
 msgid "Maxima crashed. restarting..."
 msgstr "Maxima 發生錯誤。重新啟動中..."
 
-#: backends/maxima/maximasession.cpp:288
+#: backends/maxima/maximasession.cpp:290
 #, kde-format
 msgid "Maxima crashed twice within a short time. Stopping to try starting"
 msgstr "Maxima 在短時間內發生錯誤兩次。將停止再次嘗試啟動"
 
-#: backends/maxima/maximasession.cpp:288 cantor_part.cpp:962
-#: lib/session.cpp:243 lib/session.cpp:245 worksheet.cpp:972 worksheet.cpp:1000
-#: worksheet.cpp:1015 worksheet.cpp:1032 worksheet.cpp:1076 worksheet.cpp:1088
+#: backends/maxima/maximasession.cpp:290 cantor_part.cpp:962
+#: lib/session.cpp:243 lib/session.cpp:245 worksheet.cpp:973 worksheet.cpp:1001
+#: worksheet.cpp:1016 worksheet.cpp:1033 worksheet.cpp:1077 worksheet.cpp:1089
 #, kde-format
 msgid "Error - Cantor"
 msgstr "錯誤 - Cantor"
@@ -1557,7 +1557,7 @@ msgid "file: the file to load"
 msgstr "file: 要載入的檔案"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: backends/qalculate/settings.ui:21 cantor.cpp:522
+#: backends/qalculate/settings.ui:21 cantor.cpp:523
 #, kde-format
 msgid "General"
 msgstr "一般"
@@ -1867,12 +1867,12 @@ msgstr ""
 msgid "Path to the Sage executable"
 msgstr "Sage 執行檔路徑"
 
-#: backends/sage/sageexpression.cpp:226 backends/sage/sageexpression.cpp:228
+#: backends/sage/sageexpression.cpp:230 backends/sage/sageexpression.cpp:232
 #, kde-format
 msgid "Result of %1"
 msgstr "%1 的結果"
 
-#: backends/sage/sageexpression.cpp:235
+#: backends/sage/sageexpression.cpp:239
 #, kde-format
 msgid ""
 "%1\n"
@@ -1888,7 +1888,7 @@ msgstr ""
 msgid "Python script file (*.py);;Sage script file (*.sage)"
 msgstr "Python 文稿檔 (*.py);; Sage 文稿檔 (*.sage)"
 
-#: backends/sage/sagesession.cpp:238
+#: backends/sage/sagesession.cpp:247
 #, kde-format
 msgid ""
 "Sage version %1.%2 is unsupported. Please update your installation to the "
@@ -1897,15 +1897,15 @@ msgstr ""
 "已不支援 Sage 版本 %1.%2。請更新您的 Sage 安裝至支援的版本，以讓其能與 "
 "Cantor 搭配使用。"
 
-#: backends/sage/sagesession.cpp:240 backends/sage/sagesession.cpp:273
-#: backends/sage/sagesession.cpp:352 backends/sage/sagesession.cpp:363
-#: cantor.cpp:203 cantor.cpp:205 cantor.cpp:328 cantor.cpp:335 main.cpp:77
-#: main.cpp:141 markdownentry.cpp:724 textentry.cpp:574 worksheet.cpp:1055
+#: backends/sage/sagesession.cpp:249 backends/sage/sagesession.cpp:282
+#: backends/sage/sagesession.cpp:361 backends/sage/sagesession.cpp:372
+#: cantor.cpp:204 cantor.cpp:206 cantor.cpp:329 cantor.cpp:336 main.cpp:77
+#: main.cpp:141 markdownentry.cpp:726 textentry.cpp:575 worksheet.cpp:1056
 #, kde-format
 msgid "Cantor"
 msgstr "Cantor"
 
-#: backends/sage/sagesession.cpp:272
+#: backends/sage/sagesession.cpp:281
 #, kde-format
 msgid ""
 "Failed to determine the version of Sage. Please check your installation and "
@@ -1913,27 +1913,27 @@ msgid ""
 msgstr ""
 "無法確定 Sage 的版本，請檢查您的 Sage 是否安裝正確和「sage -v」所輸出的版本。"
 
-#: backends/sage/sagesession.cpp:348
+#: backends/sage/sagesession.cpp:357
 #, kde-format
 msgid "The Sage process crashed while evaluating this expression"
 msgstr "Sage 行程在計算此表示式時發生錯誤。"
 
-#: backends/sage/sagesession.cpp:352
+#: backends/sage/sagesession.cpp:361
 #, kde-format
 msgid "The Sage process crashed"
 msgstr "Sage 行程發生錯誤"
 
-#: backends/sage/sagesession.cpp:359
+#: backends/sage/sagesession.cpp:368
 #, kde-format
 msgid "The Sage process exited while evaluating this expression"
 msgstr "Sage 行程在計算此表示式時結束"
 
-#: backends/sage/sagesession.cpp:363
+#: backends/sage/sagesession.cpp:372
 #, kde-format
 msgid "The Sage process exited"
 msgstr "Sage 行程已結束"
 
-#: backends/sage/sagesession.cpp:373
+#: backends/sage/sagesession.cpp:382
 #, kde-format
 msgid "Failed to start Sage"
 msgstr "啟動 Sage 失敗"
@@ -1981,42 +1981,42 @@ msgstr ";;Scilab 文稿檔 (*.sce);; Scilab 函式檔 (*.sci)"
 msgid "Path to scilab-adv-cli command:"
 msgstr "scilab-adv-cli 指令位置："
 
-#: cantor.cpp:131
+#: cantor.cpp:132
 #, kde-format
 msgid "Download Example Worksheets"
 msgstr "下載範例工作表"
 
-#: cantor.cpp:136
+#: cantor.cpp:137
 #, kde-format
 msgid "&Open Example"
 msgstr "開啟範例(&O)"
 
-#: cantor.cpp:141
+#: cantor.cpp:142
 #, kde-format
 msgid "Go to previous worksheet"
 msgstr "前往上個工作表格"
 
-#: cantor.cpp:153
+#: cantor.cpp:154
 #, kde-format
 msgid "Go to next worksheet"
 msgstr "前往下個工作表格"
 
-#: cantor.cpp:214 cantor_part.cpp:468
+#: cantor.cpp:215 cantor_part.cpp:468
 #, kde-format
 msgid "Cantor Worksheet (*.cws)"
 msgstr "Cantor 工作表 (*.cws)"
 
-#: cantor.cpp:215 cantor_part.cpp:469
+#: cantor.cpp:216 cantor_part.cpp:469
 #, kde-format
 msgid "Jupyter Notebook (*.ipynb)"
 msgstr "Jupyter Notebook (*.ipynb)"
 
-#: cantor.cpp:221
+#: cantor.cpp:222
 #, kde-format
 msgid "Open file"
 msgstr "開啟檔案"
 
-#: cantor.cpp:288
+#: cantor.cpp:289
 #, kde-format
 msgid ""
 "<h1>No Backend Found</h1>\n"
@@ -2036,49 +2036,49 @@ msgstr[0] ""
 "<ul><li>變更設定對話框中的設定；</li> <li>安裝以下程式軟體包之一：</li>%2</"
 "ul></div>"
 
-#: cantor.cpp:308
+#: cantor.cpp:309
 #, kde-format
 msgid "Error"
 msgstr "錯誤"
 
-#: cantor.cpp:328
+#: cantor.cpp:329
 #, kde-format
 msgid "Backend %1 is not installed"
 msgstr "後端介面 %1 未安裝"
 
-#: cantor.cpp:335
+#: cantor.cpp:336
 #, kde-format
 msgid ""
 "%1 backend installed, but inactive. Please check installation and Cantor "
 "settings"
 msgstr "已安裝 %1 後端但未啟用。請檢查您的後端安裝和 Cantor 設定"
 
-#: cantor.cpp:349
+#: cantor.cpp:350
 #, kde-format
 msgid "Session %1"
 msgstr "作業階段 %1"
 
-#: cantor.cpp:364
+#: cantor.cpp:365
 #, kde-format
 msgid "Failed to find the Cantor Part with error %1"
 msgstr "找不到 Cantor 元件，錯誤碼為 %1"
 
-#: cantor.cpp:475
+#: cantor.cpp:476
 #, kde-format
 msgid "Multiple unsaved Worksheets are opened. Do you want to close them?"
 msgstr "有多個未儲存的工作表開啟中。是否要將它們關閉？"
 
-#: cantor.cpp:476
+#: cantor.cpp:477
 #, kde-format
 msgid "Close Cantor"
 msgstr "關閉 Cantor"
 
-#: cantor.cpp:486
+#: cantor.cpp:487
 #, kde-format
 msgid "The current project has been modified. Do you want to save it?"
 msgstr "專案已修改，您是否要儲存？"
 
-#: cantor.cpp:487
+#: cantor.cpp:488
 #, kde-format
 msgid "Save Project"
 msgstr "儲存專案"
@@ -2179,7 +2179,7 @@ msgstr "存成純文字檔"
 msgid "Export to LaTeX"
 msgstr "匯出到 Latex"
 
-#: cantor_part.cpp:219 cantor_part.cpp:631 worksheet.cpp:1582
+#: cantor_part.cpp:219 cantor_part.cpp:631 worksheet.cpp:1583
 #, kde-format
 msgid "Evaluate Worksheet"
 msgstr "計算工作表"
@@ -2224,17 +2224,17 @@ msgstr "重新啟動後端介面"
 msgid "Evaluate Entry"
 msgstr "計算項目"
 
-#: cantor_part.cpp:276 worksheet.cpp:1638
+#: cantor_part.cpp:276 worksheet.cpp:1639
 #, kde-format
 msgid "Insert Command Entry"
 msgstr "插入指令項目"
 
-#: cantor_part.cpp:282 worksheet.cpp:1639
+#: cantor_part.cpp:282 worksheet.cpp:1640
 #, kde-format
 msgid "Insert Text Entry"
 msgstr "插入文字項目"
 
-#: cantor_part.cpp:288 worksheet.cpp:1641
+#: cantor_part.cpp:288 worksheet.cpp:1642
 #, kde-format
 msgid "Insert Markdown Entry"
 msgstr "插入 Markdown 項目"
@@ -2244,12 +2244,12 @@ msgstr "插入 Markdown 項目"
 msgid "Insert Latex Entry"
 msgstr "插入 Latex 項目"
 
-#: cantor_part.cpp:301 worksheet.cpp:1647
+#: cantor_part.cpp:301 worksheet.cpp:1648
 #, kde-format
 msgid "Insert Page Break"
 msgstr "插入頁面中斷標記"
 
-#: cantor_part.cpp:306 worksheet.cpp:1646
+#: cantor_part.cpp:306 worksheet.cpp:1647
 #, kde-format
 msgid "Insert Image"
 msgstr "插入影像"
@@ -2322,7 +2322,7 @@ msgstr "所有可用的計算結果將會遺失。仍然重新啟動 %1？"
 msgid "Restart %1?"
 msgstr "是否重新啟動 %1？"
 
-#: cantor_part.cpp:623 worksheet.cpp:1585
+#: cantor_part.cpp:623 worksheet.cpp:1586
 #, kde-format
 msgid "Interrupt"
 msgstr "中斷"
@@ -2766,7 +2766,7 @@ msgstr "%"
 msgid "Open image file"
 msgstr "開啟影像檔"
 
-#: latexentry.cpp:75 textentry.cpp:125
+#: latexentry.cpp:75 textentry.cpp:126
 #, kde-format
 msgid "Show LaTeX code"
 msgstr "顯示 LaTeX 程式碼"
@@ -2957,32 +2957,32 @@ msgstr "要開啟的文件。"
 msgid "Couldn't open the file %1"
 msgstr "無法開啟檔案 %1"
 
-#: markdownentry.cpp:62
+#: markdownentry.cpp:63
 #, kde-format
 msgid "Insert Image Attachment"
 msgstr "插入影像附件"
 
-#: markdownentry.cpp:64
+#: markdownentry.cpp:65
 #, kde-format
 msgid "Clear Attachments"
 msgstr "清除附件"
 
-#: markdownentry.cpp:525
+#: markdownentry.cpp:526
 #, kde-format
 msgid "Cantor Math Error"
 msgstr "Cantor 數學錯誤"
 
-#: markdownentry.cpp:701
+#: markdownentry.cpp:703
 #, kde-format
 msgid "Choose Image"
 msgstr "選擇影像"
 
-#: markdownentry.cpp:701
+#: markdownentry.cpp:703
 #, kde-format
 msgid "Images (*.png *.bmp *.jpg *.svg)"
 msgstr "影像 (*.png *.bmp *.jpg *.svg)"
 
-#: markdownentry.cpp:724
+#: markdownentry.cpp:726
 #, kde-format
 msgid "Cantor failed to read image with error \"%1\""
 msgstr "Cantor 無法讀取影像，錯誤為「%1」"
@@ -3220,27 +3220,27 @@ msgstr ""
 msgid "Find…"
 msgstr "尋找…"
 
-#: textentry.cpp:69
+#: textentry.cpp:70
 #, kde-format
 msgid "Raw Cell Targets"
 msgstr ""
 
-#: textentry.cpp:76
+#: textentry.cpp:77
 #, kde-format
 msgid "Add custom target"
 msgstr "新增自訂目標"
 
-#: textentry.cpp:90
+#: textentry.cpp:91
 #, kde-format
 msgid "Convert to Text Entry"
 msgstr "轉換成文字項目"
 
-#: textentry.cpp:95
+#: textentry.cpp:96
 #, kde-format
 msgid "Convert to Raw Cell"
 msgstr ""
 
-#: textentry.cpp:574
+#: textentry.cpp:575
 #, kde-format
 msgid "Target MIME type:"
 msgstr "目標 MIME 類型："
@@ -3280,79 +3280,79 @@ msgstr "顯示 HTML"
 msgid "Cannot render Eps file. You may need additional packages"
 msgstr "無法繪製 Eps 檔。您可能需要額外的套件"
 
-#: worksheet.cpp:971
+#: worksheet.cpp:972
 #, kde-format
 msgid "Cannot write file %1."
 msgstr "無法寫入檔案 %1。"
 
-#: worksheet.cpp:999 worksheet.cpp:1014
+#: worksheet.cpp:1000 worksheet.cpp:1015
 #, kde-format
 msgid "Cannot write file."
 msgstr "無法寫入檔案。"
 
-#: worksheet.cpp:1032 worksheet.cpp:1076
+#: worksheet.cpp:1033 worksheet.cpp:1077
 #, kde-format
 msgid "Error saving file %1"
 msgstr "儲存檔案 %1 時發生錯誤"
 
-#: worksheet.cpp:1055
+#: worksheet.cpp:1056
 #, kde-format
 msgid ""
 "In read-only mode Cantor couldn't guarantee, that the export will be valid "
 "for %1"
 msgstr "在唯讀模式中 Cantor 不能確保輸出對 %1 合法。"
 
-#: worksheet.cpp:1088
+#: worksheet.cpp:1089
 #, kde-format
 msgid "Error loading latex.xsl stylesheet"
 msgstr "載入 latex.xsl 樣式表時發生錯誤"
 
-#: worksheet.cpp:1107
+#: worksheet.cpp:1108
 #, kde-format
 msgid "Couldn't open the file %1."
 msgstr "無法開啟檔案 %1。"
 
-#: worksheet.cpp:1107 worksheet.cpp:1130 worksheet.cpp:1150 worksheet.cpp:1167
-#: worksheet.cpp:1199 worksheet.cpp:1210 worksheet.cpp:1328 worksheet.cpp:1343
-#: worksheet.cpp:1385 worksheet.cpp:1396 worksheet.cpp:1505 worksheet.cpp:1507
+#: worksheet.cpp:1108 worksheet.cpp:1131 worksheet.cpp:1151 worksheet.cpp:1168
+#: worksheet.cpp:1200 worksheet.cpp:1211 worksheet.cpp:1329 worksheet.cpp:1344
+#: worksheet.cpp:1386 worksheet.cpp:1397 worksheet.cpp:1506 worksheet.cpp:1508
 #, kde-format
 msgid "Open File"
 msgstr "開啟檔案"
 
-#: worksheet.cpp:1130
+#: worksheet.cpp:1131
 #, kde-format
 msgid "Couldn't open the selected file for reading."
 msgstr "無法開啟選取檔案供讀取。"
 
-#: worksheet.cpp:1150
+#: worksheet.cpp:1151
 #, kde-format
 msgid "The selected file is not a valid Cantor or Jupyter project file."
 msgstr "選擇的檔案不是有效的 Cantor 或 Jupyter 專案檔案。"
 
-#: worksheet.cpp:1167
+#: worksheet.cpp:1168
 #, kde-format
 msgid "The selected file is not a valid Cantor project file."
 msgstr "選擇的檔案不是有效的 Cantor 專案檔案。"
 
-#: worksheet.cpp:1189
+#: worksheet.cpp:1190
 #, kde-format
 msgid ""
 "This worksheet was created using Python2 which is not supported anymore. "
 "Python3 will be used."
 msgstr ""
 
-#: worksheet.cpp:1190 worksheet.cpp:1367
+#: worksheet.cpp:1191 worksheet.cpp:1368
 #, kde-format
 msgid "Python2 not supported anymore"
 msgstr ""
 
-#: worksheet.cpp:1199 worksheet.cpp:1384
+#: worksheet.cpp:1200 worksheet.cpp:1385
 #, kde-format
 msgid ""
 "%1 backend was not found. Editing and executing entries is not possible."
 msgstr "找不到 %1 後端，將無法編輯和執行項目。"
 
-#: worksheet.cpp:1208 worksheet.cpp:1394
+#: worksheet.cpp:1209 worksheet.cpp:1395
 #, kde-format
 msgid ""
 "There are some problems with the %1 backend,\n"
@@ -3363,223 +3363,223 @@ msgstr ""
 "請檢查您的設定，或看看是否安裝了必須的套件。\n"
 "您將只能檢視此工作表。"
 
-#: worksheet.cpp:1327
+#: worksheet.cpp:1328
 #, kde-format
 msgid ""
 "Jupyter notebooks with versions lower than 4.5 (detected version %1.%2) are "
 "not supported."
 msgstr "不支援 Jupyter notebooks 低於 4.5 的版本（偵測到 %1.%2 版）。"
 
-#: worksheet.cpp:1342
+#: worksheet.cpp:1343
 #, kde-format
 msgid ""
 "Jupyter notebooks with versions higher than 4.5 (detected version %1.%2) are "
 "not supported."
 msgstr "不支援 Jupyter notebooks 高於 4.5 的版本（偵測到 %1.%2 版）。"
 
-#: worksheet.cpp:1366
+#: worksheet.cpp:1367
 #, kde-format
 msgid ""
 "This notebook was created using Python2 which is not supported anymore. "
 "Python3 will be used."
 msgstr ""
 
-#: worksheet.cpp:1434
+#: worksheet.cpp:1435
 #, kde-format
 msgid "an object with keys: %1"
 msgstr ""
 
-#: worksheet.cpp:1436
+#: worksheet.cpp:1437
 #, kde-format
 msgid "non object JSON value"
 msgstr "非物件 JSON 值"
 
-#: worksheet.cpp:1439
+#: worksheet.cpp:1440
 #, kde-format
 msgid "found incorrect data (%1) that is not Jupyter cell"
 msgstr ""
 
-#: worksheet.cpp:1505
+#: worksheet.cpp:1506
 #, kde-format
 msgid "The file is not valid Jupyter notebook"
 msgstr "這個檔案並不是有效的 Jupyter notebook 格式"
 
-#: worksheet.cpp:1507
+#: worksheet.cpp:1508
 #, kde-format
 msgid "Invalid Jupyter notebook scheme: %1"
 msgstr ""
 
-#: worksheet.cpp:1594 worksheet.cpp:1605 worksheet.cpp:1616
+#: worksheet.cpp:1595 worksheet.cpp:1606 worksheet.cpp:1617
 #, kde-format
 msgid "Command Entry"
 msgstr "指令項目"
 
-#: worksheet.cpp:1595 worksheet.cpp:1606 worksheet.cpp:1617
+#: worksheet.cpp:1596 worksheet.cpp:1607 worksheet.cpp:1618
 #, kde-format
 msgid "Text Entry"
 msgstr "文字項目"
 
-#: worksheet.cpp:1597 worksheet.cpp:1608 worksheet.cpp:1619
+#: worksheet.cpp:1598 worksheet.cpp:1609 worksheet.cpp:1620
 #, kde-format
 msgid "Markdown Entry"
 msgstr "Markdown 項目"
 
-#: worksheet.cpp:1600 worksheet.cpp:1611 worksheet.cpp:1622
+#: worksheet.cpp:1601 worksheet.cpp:1612 worksheet.cpp:1623
 #, kde-format
 msgid "LaTeX Entry"
 msgstr "LaTeX 項目"
 
-#: worksheet.cpp:1602 worksheet.cpp:1613 worksheet.cpp:1624
+#: worksheet.cpp:1603 worksheet.cpp:1614 worksheet.cpp:1625
 #, kde-format
 msgid "Image"
 msgstr "影像"
 
-#: worksheet.cpp:1603 worksheet.cpp:1614 worksheet.cpp:1625
+#: worksheet.cpp:1604 worksheet.cpp:1615 worksheet.cpp:1626
 #, kde-format
 msgid "Page Break"
 msgstr "頁面中斷"
 
-#: worksheet.cpp:1627
+#: worksheet.cpp:1628
 #, fuzzy, kde-format
 #| msgid "Convert to Text Entry"
 msgid "Convert Entry To"
 msgstr "轉換成文字項目"
 
-#: worksheet.cpp:1629
+#: worksheet.cpp:1630
 #, kde-format
 msgid "Insert Entry After"
 msgstr "插入項目於以下項目之後"
 
-#: worksheet.cpp:1631
+#: worksheet.cpp:1632
 #, kde-format
 msgid "Insert Entry Before"
 msgstr "插入項目於以下項目之前"
 
-#: worksheet.cpp:1644
+#: worksheet.cpp:1645
 #, kde-format
 msgid "Insert LaTeX Entry"
 msgstr "插入 Latex 項目"
 
-#: worksheet.cpp:1653
+#: worksheet.cpp:1654
 #, kde-format
 msgid "Move Entries Up"
 msgstr ""
 
-#: worksheet.cpp:1654
+#: worksheet.cpp:1655
 #, fuzzy, kde-format
 #| msgid "Convert to Text Entry"
 msgid "Move Entries Down"
 msgstr "轉換成文字項目"
 
-#: worksheet.cpp:1655
+#: worksheet.cpp:1656
 #, fuzzy, kde-format
 #| msgid "Evaluate Entry"
 msgid "Evaluate Entries"
 msgstr "計算項目"
 
-#: worksheet.cpp:1656
+#: worksheet.cpp:1657
 #, fuzzy, kde-format
 #| msgid "Remove Entry"
 msgid "Remove Entries"
 msgstr "移除項目"
 
-#: worksheet.cpp:1758
+#: worksheet.cpp:1759
 #, kde-format
 msgctxt "@action"
 msgid "Text &Color..."
 msgstr "文字顏色(&C)..."
 
-#: worksheet.cpp:1759
+#: worksheet.cpp:1760
 #, kde-format
 msgctxt "@label text color"
 msgid "Color"
 msgstr "顏色"
 
-#: worksheet.cpp:1767
+#: worksheet.cpp:1768
 #, kde-format
 msgctxt "@action"
 msgid "Text &Highlight..."
 msgstr "文字突顯(&H)..."
 
-#: worksheet.cpp:1774
+#: worksheet.cpp:1775
 #, kde-format
 msgctxt "@action"
 msgid "&Font"
 msgstr "字型(&F)"
 
-#: worksheet.cpp:1781
+#: worksheet.cpp:1782
 #, kde-format
 msgctxt "@action"
 msgid "Font &Size"
 msgstr "字型大小(&S)"
 
-#: worksheet.cpp:1790
+#: worksheet.cpp:1791
 #, kde-format
 msgctxt "@action boldify selected text"
 msgid "&Bold"
 msgstr "粗體(&B)"
 
-#: worksheet.cpp:1804
+#: worksheet.cpp:1805
 #, kde-format
 msgctxt "@action italicize selected text"
 msgid "&Italic"
 msgstr "斜體(&I)"
 
-#: worksheet.cpp:1818
+#: worksheet.cpp:1819
 #, kde-format
 msgctxt "@action underline selected text"
 msgid "&Underline"
 msgstr "底線(&U)"
 
-#: worksheet.cpp:1831
+#: worksheet.cpp:1832
 #, kde-format
 msgctxt "@action"
 msgid "&Strike Out"
 msgstr "刪除線(&S)"
 
-#: worksheet.cpp:1844
+#: worksheet.cpp:1845
 #, kde-format
 msgctxt "@action"
 msgid "Align &Left"
 msgstr "置左(&L)"
 
-#: worksheet.cpp:1847
+#: worksheet.cpp:1848
 #, kde-format
 msgctxt "@label left justify"
 msgid "Left"
 msgstr "置左"
 
-#: worksheet.cpp:1856
+#: worksheet.cpp:1857
 #, kde-format
 msgctxt "@action"
 msgid "Align &Center"
 msgstr "置中(&C)"
 
-#: worksheet.cpp:1859
+#: worksheet.cpp:1860
 #, kde-format
 msgctxt "@label center justify"
 msgid "Center"
 msgstr "置中"
 
-#: worksheet.cpp:1868
+#: worksheet.cpp:1869
 #, kde-format
 msgctxt "@action"
 msgid "Align &Right"
 msgstr "置右(&R)"
 
-#: worksheet.cpp:1871
+#: worksheet.cpp:1872
 #, kde-format
 msgctxt "@label right justify"
 msgid "Right"
 msgstr "置右"
 
-#: worksheet.cpp:1880
+#: worksheet.cpp:1881
 #, kde-format
 msgctxt "@action"
 msgid "&Justify"
 msgstr "兩邊對齊(&J)"
 
-#: worksheet.cpp:1883
+#: worksheet.cpp:1884
 #, kde-format
 msgctxt "@label justify fill"
 msgid "Justify"

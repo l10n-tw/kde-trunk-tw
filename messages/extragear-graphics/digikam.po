@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-19 02:37+0100\n"
+"POT-Creation-Date: 2020-02-20 02:35+0100\n"
 "PO-Revision-Date: 2020-02-15 19:57+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -177,7 +177,7 @@ msgstr "上一個月(&O)"
 msgid "No Date"
 msgstr "沒有日期"
 
-#: core/app/date/timelinewidget.cpp:317
+#: core/app/date/timelinewidget.cpp:322
 #, kde-format
 msgctxt ""
 "Week #weeknumber - month name - year string\n"
@@ -189,17 +189,17 @@ msgstr ""
 "第 #%1 週 - %2 %3\n"
 "%4\t%5"
 
-#: core/app/date/timelinewidget.cpp:321
+#: core/app/date/timelinewidget.cpp:326
 #, kde-format
 msgid "Start: "
 msgstr "起始值："
 
-#: core/app/date/timelinewidget.cpp:322
+#: core/app/date/timelinewidget.cpp:327
 #, kde-format
 msgid "End: "
 msgstr "結束： "
 
-#: core/app/date/timelinewidget.cpp:329
+#: core/app/date/timelinewidget.cpp:334
 #, kde-format
 msgctxt "month-name year-string"
 msgid "%1 %2"
@@ -231,7 +231,7 @@ msgstr "取消(&A)"
 
 #: core/app/dragdrop/albumdragdrop.cpp:161
 #: core/app/dragdrop/albumdragdrop.cpp:208
-#: core/app/items/utils/contextmenuhelper.cpp:248
+#: core/app/items/utils/contextmenuhelper.cpp:251
 #, kde-format
 msgid "Set as Album Thumbnail"
 msgstr "設為相簿縮圖"
@@ -344,7 +344,7 @@ msgid "M&erge Here"
 msgstr "移至此處(&M)"
 
 #: core/app/dragdrop/tagdragdrop.cpp:191
-#: core/app/items/utils/contextmenuhelper.cpp:252
+#: core/app/items/utils/contextmenuhelper.cpp:255
 #, kde-format
 msgid "Set as Tag Thumbnail"
 msgstr "設為標籤縮圖"
@@ -547,148 +547,148 @@ msgctxt "@info:tooltip"
 msgid "Select Item"
 msgstr "選擇項目"
 
-#: core/app/items/utils/contextmenuhelper.cpp:266
+#: core/app/items/utils/contextmenuhelper.cpp:269
 #: core/app/main/digikamapp_setup.cpp:328
 #, fuzzy, kde-format
 msgid "Open..."
 msgstr "開啟方式..."
 
-#: core/app/items/utils/contextmenuhelper.cpp:284
+#: core/app/items/utils/contextmenuhelper.cpp:288
 #: core/app/main/digikamapp_setup.cpp:253
 #, kde-format
 msgid "Open in File Manager"
 msgstr "用檔案管理程式開啟"
 
-#: core/app/items/utils/contextmenuhelper.cpp:305
-#: core/app/items/utils/contextmenuhelper.cpp:322
+#: core/app/items/utils/contextmenuhelper.cpp:309
+#: core/app/items/utils/contextmenuhelper.cpp:326
 #: core/utilities/imageeditor/editor/editorwindow.cpp:2570
 #, kde-format
 msgid "Open With"
 msgstr "開啟方式"
 
-#: core/app/items/utils/contextmenuhelper.cpp:336
+#: core/app/items/utils/contextmenuhelper.cpp:340
 #: core/utilities/imageeditor/editor/editorwindow.cpp:2583
 #, kde-format
 msgid "Other..."
 msgstr "其他..."
 
-#: core/app/items/utils/contextmenuhelper.cpp:345
+#: core/app/items/utils/contextmenuhelper.cpp:349
 #: core/utilities/imageeditor/editor/editorwindow.cpp:2592
 #, kde-format
 msgid "Open With..."
 msgstr "開啟方式..."
 
-#: core/app/items/utils/contextmenuhelper.cpp:471
+#: core/app/items/utils/contextmenuhelper.cpp:478
 #, kde-format
 msgid "New Tag..."
 msgstr "新增標籤..."
 
-#: core/app/items/utils/contextmenuhelper.cpp:482
+#: core/app/items/utils/contextmenuhelper.cpp:489
 #: core/libs/tags/engine/tagmodificationhelper.cpp:299
 #: core/libs/tags/engine/tagmodificationhelper.cpp:413
 #, kde-format
 msgid "Delete Tag"
 msgstr "刪除標籤"
 
-#: core/app/items/utils/contextmenuhelper.cpp:493
+#: core/app/items/utils/contextmenuhelper.cpp:500
 #: core/libs/tags/manager/tagmngrtreeview.cpp:147
 #, kde-format
 msgid "Delete Tags"
 msgstr "刪除標籤"
 
-#: core/app/items/utils/contextmenuhelper.cpp:504
+#: core/app/items/utils/contextmenuhelper.cpp:511
 #, fuzzy, kde-format
 #| msgid "Add a Face Tag"
 msgid "Mark As Face Tag"
 msgstr "加入臉孔標籤..."
 
-#: core/app/items/utils/contextmenuhelper.cpp:515
+#: core/app/items/utils/contextmenuhelper.cpp:522
 #, fuzzy, kde-format
 #| msgid "Show Face Tags"
 msgid "Mark As Face Tags"
 msgstr "顯示臉孔標籤"
 
-#: core/app/items/utils/contextmenuhelper.cpp:526
+#: core/app/items/utils/contextmenuhelper.cpp:533
 #, kde-format
 msgctxt "Edit Tag Properties"
 msgid "Properties..."
 msgstr "屬性..."
 
-#: core/app/items/utils/contextmenuhelper.cpp:539
+#: core/app/items/utils/contextmenuhelper.cpp:548
 #, fuzzy, kde-format
 #| msgid "Remove Tag"
 msgid "Remove Face Tag"
 msgstr "移除標籤"
 
-#: core/app/items/utils/contextmenuhelper.cpp:540
+#: core/app/items/utils/contextmenuhelper.cpp:549
 #, kde-format
 msgid ""
 "Removes the face property from the selected tag and the face region from the "
 "contained images. Can also untag the images if wished."
 msgstr ""
 
-#: core/app/items/utils/contextmenuhelper.cpp:553
+#: core/app/items/utils/contextmenuhelper.cpp:562
 #, fuzzy, kde-format
 #| msgid "Remove Tag"
 msgid "Remove Face Tags"
 msgstr "移除標籤"
 
-#: core/app/items/utils/contextmenuhelper.cpp:554
+#: core/app/items/utils/contextmenuhelper.cpp:563
 #, kde-format
 msgid ""
 "Removes the face property from the selected tags and the face region from "
 "the contained images. Can also untag the images if wished."
 msgstr ""
 
-#: core/app/items/utils/contextmenuhelper.cpp:607
+#: core/app/items/utils/contextmenuhelper.cpp:616
 #, kde-format
 msgid "Reset Album Icon"
 msgstr "重設相簿圖示"
 
-#: core/app/items/utils/contextmenuhelper.cpp:620
+#: core/app/items/utils/contextmenuhelper.cpp:629
 #, fuzzy, kde-format
 #| msgid "Assign Tag"
 msgid "A&ssign Tag"
 msgstr "指定標籤"
 
-#: core/app/items/utils/contextmenuhelper.cpp:636
+#: core/app/items/utils/contextmenuhelper.cpp:645
 #, fuzzy, kde-format
 #| msgid "Remove Tag"
 msgid "R&emove Tag"
 msgstr "移除標籤"
 
-#: core/app/items/utils/contextmenuhelper.cpp:667
+#: core/app/items/utils/contextmenuhelper.cpp:679
 #, fuzzy, kde-format
 #| msgid "Assign Labels"
 msgid "Assign Labe&ls"
 msgstr "指定標記"
 
-#: core/app/items/utils/contextmenuhelper.cpp:706
+#: core/app/items/utils/contextmenuhelper.cpp:722
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:327
 #: core/libs/dplugins/core/dpluginaction.cpp:99
 #, kde-format
 msgid "Import"
 msgstr "匯入"
 
-#: core/app/items/utils/contextmenuhelper.cpp:720
+#: core/app/items/utils/contextmenuhelper.cpp:736
 #, fuzzy, kde-format
 #| msgid "No import plugins available"
 msgid "No import tool available"
 msgstr "沒有可用的匯入外掛程式"
 
-#: core/app/items/utils/contextmenuhelper.cpp:730
+#: core/app/items/utils/contextmenuhelper.cpp:746
 #: core/libs/dplugins/core/dpluginaction.cpp:97
 #, kde-format
 msgid "Export"
 msgstr "匯出"
 
-#: core/app/items/utils/contextmenuhelper.cpp:749
+#: core/app/items/utils/contextmenuhelper.cpp:767
 #, fuzzy, kde-format
 #| msgid "No export plugins available"
 msgid "No export tool available"
 msgstr "沒有可用的匯出外掛程式"
 
-#: core/app/items/utils/contextmenuhelper.cpp:795
+#: core/app/items/utils/contextmenuhelper.cpp:815
 #: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:450
 #: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:474
 #: core/dplugins/generic/webservices/smugmug/smugnewalbumdlg.cpp:99
@@ -704,23 +704,23 @@ msgstr "沒有可用的匯出外掛程式"
 msgid "Album"
 msgstr "相簿"
 
-#: core/app/items/utils/contextmenuhelper.cpp:796
+#: core/app/items/utils/contextmenuhelper.cpp:816
 #: core/utilities/searchwindow/searchfields.cpp:210
 #, kde-format
 msgid "Date"
 msgstr "日期"
 
-#: core/app/items/utils/contextmenuhelper.cpp:804
+#: core/app/items/utils/contextmenuhelper.cpp:824
 #, kde-format
 msgid "Tag"
 msgstr "標籤"
 
-#: core/app/items/utils/contextmenuhelper.cpp:844
+#: core/app/items/utils/contextmenuhelper.cpp:867
 #, kde-format
 msgid "Go To"
 msgstr "前往"
 
-#: core/app/items/utils/contextmenuhelper.cpp:854
+#: core/app/items/utils/contextmenuhelper.cpp:877
 #: core/app/main/digikamapp_setup.cpp:366
 #: core/libs/settings/applicationsettings_miscs.cpp:386
 #: core/utilities/queuemanager/main/queuemgrwindow.cpp:113
@@ -730,47 +730,47 @@ msgstr "前往"
 msgid "Batch Queue Manager"
 msgstr "批次佇列管理器"
 
-#: core/app/items/utils/contextmenuhelper.cpp:864
+#: core/app/items/utils/contextmenuhelper.cpp:888
 #, kde-format
 msgid "Add to Existing Queue"
 msgstr "加入到現有的佇列"
 
-#: core/app/items/utils/contextmenuhelper.cpp:904
+#: core/app/items/utils/contextmenuhelper.cpp:931
 #, kde-format
 msgid "All Albums"
 msgstr "所有相簿"
 
-#: core/app/items/utils/contextmenuhelper.cpp:913
+#: core/app/items/utils/contextmenuhelper.cpp:941
 #: core/libs/tags/manager/models/tagmngrlistitem.cpp:163
 #, kde-format
 msgid "All Tags"
 msgstr "所有標籤"
 
-#: core/app/items/utils/contextmenuhelper.cpp:916
+#: core/app/items/utils/contextmenuhelper.cpp:945
 #, kde-format
 msgctxt "select tags menu"
 msgid "Select"
 msgstr "選擇"
 
-#: core/app/items/utils/contextmenuhelper.cpp:921
-#: core/app/items/utils/contextmenuhelper.cpp:931
+#: core/app/items/utils/contextmenuhelper.cpp:950
+#: core/app/items/utils/contextmenuhelper.cpp:960
 #, kde-format
 msgid "Children"
 msgstr "子層"
 
-#: core/app/items/utils/contextmenuhelper.cpp:922
-#: core/app/items/utils/contextmenuhelper.cpp:932
+#: core/app/items/utils/contextmenuhelper.cpp:951
+#: core/app/items/utils/contextmenuhelper.cpp:961
 #, kde-format
 msgid "Parents"
 msgstr "母層"
 
-#: core/app/items/utils/contextmenuhelper.cpp:926
+#: core/app/items/utils/contextmenuhelper.cpp:955
 #, kde-format
 msgctxt "deselect tags menu"
 msgid "Deselect"
 msgstr "取消選擇"
 
-#: core/app/items/utils/contextmenuhelper.cpp:936
+#: core/app/items/utils/contextmenuhelper.cpp:965
 #: core/app/main/digikamapp_setup.cpp:648
 #: core/libs/tags/manager/tagmngrtreeview.cpp:162
 #: core/libs/tags/manager/tagsmanager.cpp:711
@@ -778,62 +778,62 @@ msgstr "取消選擇"
 msgid "Invert Selection"
 msgstr "反相選擇"
 
-#: core/app/items/utils/contextmenuhelper.cpp:1005
+#: core/app/items/utils/contextmenuhelper.cpp:1034
 #, kde-format
 msgid "Group"
 msgstr "群組"
 
-#: core/app/items/utils/contextmenuhelper.cpp:1040
+#: core/app/items/utils/contextmenuhelper.cpp:1069
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open All Groups"
 msgstr "開啟所有群組"
 
-#: core/app/items/utils/contextmenuhelper.cpp:1046
+#: core/app/items/utils/contextmenuhelper.cpp:1075
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close All Groups"
 msgstr "關閉所有群組"
 
-#: core/app/items/utils/contextmenuhelper.cpp:1065
-#: core/app/items/utils/contextmenuhelper.cpp:1118
+#: core/app/items/utils/contextmenuhelper.cpp:1094
+#: core/app/items/utils/contextmenuhelper.cpp:1147
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Grouped Images"
 msgstr "顯示已放入群組之影像"
 
-#: core/app/items/utils/contextmenuhelper.cpp:1071
-#: core/app/items/utils/contextmenuhelper.cpp:1122
+#: core/app/items/utils/contextmenuhelper.cpp:1100
+#: core/app/items/utils/contextmenuhelper.cpp:1151
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Grouped Images"
 msgstr "隱藏已放入群組之影像"
 
-#: core/app/items/utils/contextmenuhelper.cpp:1081
+#: core/app/items/utils/contextmenuhelper.cpp:1110
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Ungroup"
 msgstr "取消群組"
 
-#: core/app/items/utils/contextmenuhelper.cpp:1087
+#: core/app/items/utils/contextmenuhelper.cpp:1116
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove From Group"
 msgstr "從群組移除"
 
-#: core/app/items/utils/contextmenuhelper.cpp:1096
+#: core/app/items/utils/contextmenuhelper.cpp:1125
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Group Selected Here"
 msgstr "此處選取的群組"
 
-#: core/app/items/utils/contextmenuhelper.cpp:1100
+#: core/app/items/utils/contextmenuhelper.cpp:1129
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Group Selected By Time"
 msgstr "依時間選取群組"
 
-#: core/app/items/utils/contextmenuhelper.cpp:1104
+#: core/app/items/utils/contextmenuhelper.cpp:1133
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Group Selected By Time"
@@ -841,7 +841,7 @@ msgctxt "@action:inmenu"
 msgid "Group Selected By Filename"
 msgstr "依時間選取群組"
 
-#: core/app/items/utils/contextmenuhelper.cpp:1108
+#: core/app/items/utils/contextmenuhelper.cpp:1137
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Group Selected By Time"
@@ -849,29 +849,29 @@ msgctxt "@action:inmenu"
 msgid "Group Selected By Timelapse / Burst"
 msgstr "依時間選取群組"
 
-#: core/app/items/utils/contextmenuhelper.cpp:1131
+#: core/app/items/utils/contextmenuhelper.cpp:1160
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Selected From Groups"
 msgstr "從群組中移除選取的項目"
 
-#: core/app/items/utils/contextmenuhelper.cpp:1135
+#: core/app/items/utils/contextmenuhelper.cpp:1164
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Ungroup Selected"
 msgstr "取消選取的群組"
 
-#: core/app/items/utils/contextmenuhelper.cpp:1225
+#: core/app/items/utils/contextmenuhelper.cpp:1254
 #, kde-format
 msgctxt "@action:inmenu Pluralized"
 msgid "Move to Trash"
 msgid_plural "Move %1 Files to Trash"
 msgstr[0] "將 %1 個檔案移至垃圾桶"
 
-#: core/app/items/utils/itemcategorydrawer.cpp:254
-#: core/app/items/utils/itemcategorydrawer.cpp:262
-#: core/app/items/utils/itemcategorydrawer.cpp:344
-#: core/app/items/utils/itemcategorydrawer.cpp:361
+#: core/app/items/utils/itemcategorydrawer.cpp:263
+#: core/app/items/utils/itemcategorydrawer.cpp:271
+#: core/app/items/utils/itemcategorydrawer.cpp:356
+#: core/app/items/utils/itemcategorydrawer.cpp:373
 #: core/utilities/import/items/importcategorydrawer.cpp:205
 #: core/utilities/import/items/importcategorydrawer.cpp:226
 #: core/utilities/import/items/importcategorydrawer.cpp:235
@@ -880,21 +880,21 @@ msgid "1 Item"
 msgid_plural "%1 Items"
 msgstr[0] "%1 個項目"
 
-#: core/app/items/utils/itemcategorydrawer.cpp:288
+#: core/app/items/utils/itemcategorydrawer.cpp:300
 #, kde-format
 msgctxt "%1: day of month with two digits, %2: short month name, %3: year"
 msgid "Album Date: %2 %3 %4 - 1 Item"
 msgid_plural "Album Date: %2 %3 %4 - %1 Items"
 msgstr[0] "相簿日期：%2 %3 %4 - %1 個項目"
 
-#: core/app/items/utils/itemcategorydrawer.cpp:315
+#: core/app/items/utils/itemcategorydrawer.cpp:327
 #, kde-format
 msgctxt "%2: a tag title; %3: number of subtags"
 msgid "%2 including 1 subtag"
 msgid_plural "%2 including %1 subtags"
 msgstr[0] "%2 包含 %1 個子標籤"
 
-#: core/app/items/utils/itemcategorydrawer.cpp:319
+#: core/app/items/utils/itemcategorydrawer.cpp:331
 #, kde-format
 msgctxt ""
 "%2: the previous string (e.g. 'Foo including 7 subtags'); %1: number of "
@@ -903,38 +903,38 @@ msgid "%2 - 1 Item"
 msgid_plural "%2 - %1 Items"
 msgstr[0] "%2 - %1 個項目"
 
-#: core/app/items/utils/itemcategorydrawer.cpp:324
+#: core/app/items/utils/itemcategorydrawer.cpp:336
 #, kde-format
 msgid "%2 - 1 Item"
 msgid_plural "%2 - %1 Items"
 msgstr[0] "%2 - %1 個項目"
 
-#: core/app/items/utils/itemcategorydrawer.cpp:336
+#: core/app/items/utils/itemcategorydrawer.cpp:348
 #, kde-format
 msgid "Keyword Search - 1 Item"
 msgid_plural "Keyword Search - %1 Items"
 msgstr[0] "關鍵字搜尋 - %1 個項目"
 
-#: core/app/items/utils/itemcategorydrawer.cpp:340
+#: core/app/items/utils/itemcategorydrawer.cpp:352
 #, kde-format
 msgid "Advanced Search - 1 Item"
 msgid_plural "Advanced Search - %1 Items"
 msgstr[0] "進階搜尋 - %1 個項目"
 
-#: core/app/items/utils/itemcategorydrawer.cpp:352
+#: core/app/items/utils/itemcategorydrawer.cpp:364
 #, kde-format
 msgctxt "Month String - Year String"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: core/app/items/utils/itemviewutilities.cpp:202
+#: core/app/items/utils/itemviewutilities.cpp:207
 #, kde-format
 msgid ""
 "<p>Please select the destination album from the digiKam library to move the "
 "selected images into.</p>"
 msgstr "<p>請選擇要移動資料夾到 digiKam 相簿櫃之目的相簿。</p>"
 
-#: core/app/items/utils/itemviewutilities.cpp:326
+#: core/app/items/utils/itemviewutilities.cpp:334
 #: core/utilities/imageeditor/main/imagewindow.cpp:1131
 #: core/utilities/imageeditor/main/imagewindow.cpp:1156
 #: core/utilities/imageeditor/main/imagewindow.cpp:1188
@@ -959,7 +959,7 @@ msgid "Name:"
 msgstr "名稱："
 
 #: core/app/items/utils/tooltipfiller.cpp:92
-#: core/app/items/utils/tooltipfiller.cpp:603
+#: core/app/items/utils/tooltipfiller.cpp:605
 #: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:231
 #: core/libs/properties/captions/itemdescedittab.cpp:210
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:79
@@ -980,7 +980,7 @@ msgid "Size:"
 msgstr "大小："
 
 #: core/app/items/utils/tooltipfiller.cpp:99
-#: core/app/items/utils/tooltipfiller.cpp:228
+#: core/app/items/utils/tooltipfiller.cpp:230
 #: core/app/views/tableview/tableview_column_photo.cpp:246
 #: core/libs/properties/import/importitempropertiestab.cpp:447
 #: core/libs/properties/import/importitempropertiestab.cpp:559
@@ -1043,7 +1043,7 @@ msgid "Unknown"
 msgstr "不明"
 
 #: core/app/items/utils/tooltipfiller.cpp:134
-#: core/app/items/utils/tooltipfiller.cpp:332
+#: core/app/items/utils/tooltipfiller.cpp:334
 #, kde-format
 msgid "Aspect Ratio:"
 msgstr "外觀比例："
@@ -1073,22 +1073,22 @@ msgctxt "camera lens"
 msgid "Lens:"
 msgstr "鏡頭："
 
-#: core/app/items/utils/tooltipfiller.cpp:209
-#: core/app/items/utils/tooltipfiller.cpp:214
+#: core/app/items/utils/tooltipfiller.cpp:211
+#: core/app/items/utils/tooltipfiller.cpp:216
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:185
 #, kde-format
 msgctxt "creation date of the image"
 msgid "Created:"
 msgstr "建立時間："
 
-#: core/app/items/utils/tooltipfiller.cpp:236
+#: core/app/items/utils/tooltipfiller.cpp:238
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:207
 #: core/utilities/import/items/importtooltipfiller.cpp:188
 #, kde-format
 msgid "Aperture/Focal:"
 msgstr "光圈/焦距："
 
-#: core/app/items/utils/tooltipfiller.cpp:242
+#: core/app/items/utils/tooltipfiller.cpp:244
 #: core/app/views/tableview/tableview_column_photo.cpp:311
 #: core/libs/dialogs/imagedialog.cpp:209
 #: core/libs/properties/import/importitempropertiestab.cpp:564
@@ -1101,20 +1101,20 @@ msgstr "光圈/焦距："
 msgid "%1 ISO"
 msgstr "%1 ISO"
 
-#: core/app/items/utils/tooltipfiller.cpp:249
+#: core/app/items/utils/tooltipfiller.cpp:251
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:220
 #: core/utilities/import/items/importtooltipfiller.cpp:201
 #, kde-format
 msgid "Exposure/Sensitivity:"
 msgstr "曝光/靈敏度："
 
-#: core/app/items/utils/tooltipfiller.cpp:276
+#: core/app/items/utils/tooltipfiller.cpp:278
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:247
 #, kde-format
 msgid "Mode/Program:"
 msgstr "模式/程式："
 
-#: core/app/items/utils/tooltipfiller.cpp:289
+#: core/app/items/utils/tooltipfiller.cpp:291
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:260
 #: core/utilities/import/items/importtooltipfiller.cpp:214
 #, kde-format
@@ -1122,14 +1122,14 @@ msgctxt "camera flash settings"
 msgid "Flash:"
 msgstr "閃光："
 
-#: core/app/items/utils/tooltipfiller.cpp:301
+#: core/app/items/utils/tooltipfiller.cpp:303
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:272
 #: core/utilities/import/items/importtooltipfiller.cpp:226
 #, kde-format
 msgid "White Balance:"
 msgstr "白平衡："
 
-#: core/app/items/utils/tooltipfiller.cpp:321
+#: core/app/items/utils/tooltipfiller.cpp:323
 #: core/libs/properties/import/importitempropertiestab.cpp:346
 #: core/libs/properties/itempropertiestab.cpp:354
 #: core/utilities/searchwindow/searchgroup.cpp:146
@@ -1138,85 +1138,85 @@ msgstr "白平衡："
 msgid "Audio/Video Properties"
 msgstr "影音屬性"
 
-#: core/app/items/utils/tooltipfiller.cpp:364
+#: core/app/items/utils/tooltipfiller.cpp:366
 #, kde-format
 msgid "Duration:"
 msgstr "持續時間："
 
-#: core/app/items/utils/tooltipfiller.cpp:385
+#: core/app/items/utils/tooltipfiller.cpp:387
 #, kde-format
 msgid "Frame Rate:"
 msgstr "影格率："
 
-#: core/app/items/utils/tooltipfiller.cpp:385
+#: core/app/items/utils/tooltipfiller.cpp:387
 #: core/libs/properties/itempropertiestab.cpp:728
 #, kde-format
 msgid " fps"
 msgstr ""
 
-#: core/app/items/utils/tooltipfiller.cpp:397
+#: core/app/items/utils/tooltipfiller.cpp:399
 #: core/dplugins/generic/tools/videoslideshow/wizard/vidslidevideopage.cpp:175
 #, kde-format
 msgid "Video Codec:"
 msgstr "視訊編碼器："
 
-#: core/app/items/utils/tooltipfiller.cpp:418
+#: core/app/items/utils/tooltipfiller.cpp:420
 #, kde-format
 msgid "Audio Bit Rate:"
 msgstr "音效位元率："
 
-#: core/app/items/utils/tooltipfiller.cpp:430
+#: core/app/items/utils/tooltipfiller.cpp:432
 #, kde-format
 msgid "Audio Channel Type:"
 msgstr "聲道型態："
 
-#: core/app/items/utils/tooltipfiller.cpp:442
+#: core/app/items/utils/tooltipfiller.cpp:444
 #, fuzzy, kde-format
 #| msgid "Video Codec:"
 msgid "Audio Codec:"
 msgstr "視訊編碼器："
 
-#: core/app/items/utils/tooltipfiller.cpp:457
+#: core/app/items/utils/tooltipfiller.cpp:459
 #: core/libs/properties/itempropertiestab.cpp:391
 #, kde-format
 msgid "digiKam Properties"
 msgstr "digiKam 屬性"
 
-#: core/app/items/utils/tooltipfiller.cpp:465
+#: core/app/items/utils/tooltipfiller.cpp:467
 #: core/libs/dplugins/webservices/wssettingswidget.cpp:213
 #, kde-format
 msgid "Album:"
 msgstr "相簿："
 
-#: core/app/items/utils/tooltipfiller.cpp:479
+#: core/app/items/utils/tooltipfiller.cpp:481
 #, fuzzy, kde-format
 msgctxt "title of the file"
 msgid "Title:"
 msgstr "標題："
 
-#: core/app/items/utils/tooltipfiller.cpp:493
+#: core/app/items/utils/tooltipfiller.cpp:495
 #, kde-format
 msgctxt "caption of the file"
 msgid "Caption:"
 msgstr "標題描述："
 
-#: core/app/items/utils/tooltipfiller.cpp:502
+#: core/app/items/utils/tooltipfiller.cpp:504
 #, kde-format
 msgid "Tags:"
 msgstr "標籤："
 
-#: core/app/items/utils/tooltipfiller.cpp:551
+#: core/app/items/utils/tooltipfiller.cpp:553
 #, kde-format
 msgid "Labels:"
 msgstr "標籤："
 
-#: core/app/items/utils/tooltipfiller.cpp:578
+#: core/app/items/utils/tooltipfiller.cpp:580
 #, kde-format
 msgid "Album Properties"
 msgstr "相簿屬性"
 
-#: core/app/items/utils/tooltipfiller.cpp:582
-#: core/app/items/utils/tooltipfiller.cpp:661
+#: core/app/items/utils/tooltipfiller.cpp:584
+#: core/app/items/utils/tooltipfiller.cpp:664
 #: core/dplugins/generic/webservices/mediawiki/mediawikiwidget.cpp:312
 #: core/dplugins/generic/webservices/vkontakte/vkauthwidget.cpp:80
 #: core/libs/widgets/metadata/subjectwidget.cpp:208
@@ -1226,77 +1226,77 @@ msgstr "相簿屬性"
 msgid "Name:"
 msgstr "名稱："
 
-#: core/app/items/utils/tooltipfiller.cpp:588
+#: core/app/items/utils/tooltipfiller.cpp:590
 #: core/utilities/fuzzysearch/fuzzysearchview_sketch.cpp:80
 #, kde-format
 msgid "Items:"
 msgstr "項目:"
 
-#: core/app/items/utils/tooltipfiller.cpp:594
+#: core/app/items/utils/tooltipfiller.cpp:596
 #, kde-format
 msgid "Collection:"
 msgstr "收藏："
 
-#: core/app/items/utils/tooltipfiller.cpp:615
+#: core/app/items/utils/tooltipfiller.cpp:617
 #, kde-format
 msgid "Category:"
 msgstr "類別："
 
-#: core/app/items/utils/tooltipfiller.cpp:628
+#: core/app/items/utils/tooltipfiller.cpp:630
 #, kde-format
 msgid "Caption:"
 msgstr "標題描述："
 
-#: core/app/items/utils/tooltipfiller.cpp:635
+#: core/app/items/utils/tooltipfiller.cpp:637
 #, fuzzy, kde-format
 msgid "Preview:"
 msgstr "預覽"
 
-#: core/app/items/utils/tooltipfiller.cpp:658
+#: core/app/items/utils/tooltipfiller.cpp:660
 #, kde-format
 msgid "Filter"
 msgstr "過濾器"
 
-#: core/app/items/utils/tooltipfiller.cpp:670
+#: core/app/items/utils/tooltipfiller.cpp:674
 #, kde-format
 msgctxt "Image filter reproducible: Yes"
 msgid "Yes"
 msgstr "是"
 
-#: core/app/items/utils/tooltipfiller.cpp:673
+#: core/app/items/utils/tooltipfiller.cpp:678
 #, kde-format
 msgctxt "Image filter reproducible: Partially"
 msgid "Partially"
 msgstr "部份"
 
-#: core/app/items/utils/tooltipfiller.cpp:676
+#: core/app/items/utils/tooltipfiller.cpp:682
 #, kde-format
 msgctxt "Image filter reproducible: No"
 msgid "No"
 msgstr "否"
 
-#: core/app/items/utils/tooltipfiller.cpp:682
+#: core/app/items/utils/tooltipfiller.cpp:689
 #, kde-format
 msgid "Reproducible:"
 msgstr "可重現："
 
-#: core/app/items/utils/tooltipfiller.cpp:694
+#: core/app/items/utils/tooltipfiller.cpp:701
 #, kde-format
 msgctxt "Image filter description"
 msgid "Description:"
 msgstr "描述："
 
-#: core/app/items/utils/tooltipfiller.cpp:698
+#: core/app/items/utils/tooltipfiller.cpp:706
 #, kde-format
 msgid "Identifier:"
 msgstr "識別："
 
-#: core/app/items/utils/tooltipfiller.cpp:703
+#: core/app/items/utils/tooltipfiller.cpp:711
 #, kde-format
 msgid "Technical Parameters"
 msgstr "技術參數"
 
-#: core/app/items/utils/tooltipfiller.cpp:722
+#: core/app/items/utils/tooltipfiller.cpp:730
 #, kde-format
 msgid "<i>Binary Data</i>"
 msgstr "<i>二進位資料</i>"
